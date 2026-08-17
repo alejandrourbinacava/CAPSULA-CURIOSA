@@ -63,11 +63,13 @@ const ItemScene: React.FC<{ d: Item; a: A; n: number; frames: number }> = ({ d, 
       <div style={{ position: "absolute", top: 46, right: 70, fontFamily: HEAVY, fontSize: 56, fontWeight: 900, color: "#dcdcdc" }}>{n}<span style={{ fontSize: 30 }}>/{ITEMS.length}</span></div>
       <div style={{ position: "absolute", top: 60, left: 80, fontFamily: HEAVY, fontSize: 30, fontWeight: 900, color: d.color }}>{d.group}</div>
       <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>
-        {si === 0 && <>
-          <El p={ap(lf, 0)} x={960} y={430}><div style={{ transform: bob(frame) }}><Chip n={d.main} c={d.color} size={360} /></div></El>
-          <El p={ap(lf, 16)} x={960} y={710}><T s={116} heavy>{d.name}</T></El>
-          <El p={ap(lf, Math.max(30, a.fuera * 0.5))} x={960} y={850} fromY={40}><T s={70} c={RED} heavy>{d.def}</T></El>
-        </>}
+        {si === 0 && (
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 34, padding: "0 80px" }}>
+            <div style={{ opacity: Math.min(1, ap(lf, 0) * 1.3), transform: `scale(${lerp3(ap(lf, 0), 0.4, 1.09, 1)}) ${bob(frame)}` }}><Chip n={d.main} c={d.color} size={310} /></div>
+            <div style={{ opacity: Math.min(1, ap(lf, 16) * 1.3), fontFamily: HEAVY, fontWeight: 900, fontSize: d.name.length > 13 ? 80 : 112, color: "#141414", textAlign: "center", maxWidth: 1650, lineHeight: 1.02 }}>{d.name}</div>
+            <div style={{ opacity: Math.min(1, ap(lf, Math.max(30, a.fuera * 0.5)) * 1.3), fontFamily: HEAVY, fontWeight: 900, fontSize: 58, color: RED, textAlign: "center", maxWidth: 1400, lineHeight: 1.1 }}>{d.def}</div>
+          </div>
+        )}
         {si === 1 && <>
           <El p={ap(lf, 0)} x={560} y={410}><T s={62} heavy>POR FUERA</T></El>
           <El p={ap(lf, 20)} x={560} y={590}><div style={{ transform: bob(frame) }}><Chip n={d.fuera[0]} c={d.color} size={270} /></div></El>

@@ -6,7 +6,8 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 function envKey(n) { if (process.env[n]) return process.env[n].trim(); const p = path.join(__dirname, ".env"); if (fs.existsSync(p)) { const m = fs.readFileSync(p, "utf8").match(new RegExp(n + "\\s*=\\s*(.+)")); if (m) return m[1].trim().replace(/^["']|["']$/g, ""); } return null; }
 const GKEY = envKey("GEMINI_API_KEY");
-if (!GKEY) { console.error("Falta GEMINI_API_KEY (en .env o Secret)"); process.exit(1); }
+const ANTH = envKey("ANTHROPIC_API_KEY");
+if (!GKEY && !ANTH) { console.error("Falta ANTHROPIC_API_KEY o GEMINI_API_KEY (en .env o Secret)"); process.exit(1); }
 
 const topicsPath = path.join(__dirname, "topics.json");
 const state = JSON.parse(fs.readFileSync(topicsPath, "utf8"));
@@ -48,22 +49,32 @@ Genera EXACTAMENTE ${topic.n} elementos (items).
 
 REGLAS ESTRICTAS:
 - Todo en ESPAÑOL de España, tono cercano y divulgativo. NADA de diagnósticos; marco explicativo.
-- "narration" de cada item = lo que dice la voz en off, ~150 palabras, y DEBE contener SÍ o SÍ estas palabras/estructura en este orden: primero la definición; luego "Por fuera ... por dentro ..."; luego "Las señales" (3 señales); luego una frase que empiece con "¿Por qué" (la causa); luego "Un ejemplo:"; y al final "¿Cómo ...?" (el consejo). Estas palabras exactas (fuera, dentro, señales, por qué, ejemplo, cómo) son obligatorias porque marcan la sincronía.
+- "narration" de cada item = lo que dice la voz en off, DESARROLLADO y con detalle (~210-240 palabras por item, para que el vídeo dure 10-12 minutos en total), y DEBE contener SÍ o SÍ estas palabras/estructura en este orden: primero la definición desarrollada; luego "Por fuera ... por dentro ..."; luego "Las señales" (explica las 3 con ejemplos); luego una frase que empiece con "¿Por qué" (la causa, con detalle); luego "Un ejemplo:" (una anécdota concreta y vívida); y al final "¿Cómo ...?" (el consejo práctico). Estas palabras exactas (fuera, dentro, señales, por qué, ejemplo, cómo) son obligatorias porque marcan la sincronía.
 - Los textos en pantalla (def, fueraText, dentroText, s1/s2/s3, causaText, ejemploTitle, consejoText) MUY cortos (2-5 palabras).
 - Iconos (mainIcon, fueraIcon, dentroIcon, s1Icon, s2Icon, s3Icon, causaIcon, consejoIcon): elige SOLO de esta lista, el más representativo de cada concepto: ${ICONS}
 - videoQuery y photoQuery: en INGLÉS, términos concretos y realistas para stock (Pixabay) que ilustren el ejemplo de ese item.
 - introNarration: gancho de ~40s que enganche. gruposNarration: ~15s "vamos a verlos". outroNarration: ~20s cierre + "Suscríbete a Cápsula Curiosa".
 Devuelve SOLO el JSON.`;
 
-const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${GKEY}`, {
-  method: "POST", headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { responseMimeType: "application/json", responseSchema: schema, temperature: 0.7 } })
-});
-const j = await res.json();
-if (!res.ok) { console.error("Gemini error:", JSON.stringify(j).slice(0, 500)); process.exit(1); }
-const text = j.candidates?.[0]?.content?.parts?.[0]?.text;
-const g = JSON.parse(text);
-console.log(`✔ Gemini generó ${g.items.length} items`);
+async function callClaude() {
+  const res = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST", headers: { "x-api-key": ANTH, "anthropic-version": "2023-06-01", "content-type": "application/json" },
+    body: JSON.stringify({ model: "claude-sonnet-5", max_tokens: 12000, messages: [{ role: "user", content: prompt + "\n\nDevuelve SOLO el objeto JSON (sin texto extra ni ```)." }] })
+  });
+  const j = await res.json(); if (!res.ok) throw new Error("Claude: " + JSON.stringify(j).slice(0, 400));
+  let t = (j.content?.[0]?.text || "").trim().replace(/^```json\s*/i, "").replace(/^```\s*/, "").replace(/```\s*$/, "");
+  return JSON.parse(t);
+}
+async function callGemini() {
+  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${GKEY}`, {
+    method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { responseMimeType: "application/json", responseSchema: schema, temperature: 0.7 } })
+  });
+  const j = await res.json(); if (!res.ok) throw new Error("Gemini: " + JSON.stringify(j).slice(0, 400));
+  return JSON.parse(j.candidates?.[0]?.content?.parts?.[0]?.text);
+}
+const g = ANTH ? await callClaude() : await callGemini();
+console.log(`✔ ${ANTH ? "Claude" : "Gemini"} generó ${g.items.length} items`);
 
 // asegurar iconos (descargar de Lucide; si no existe, fallback)
 const ICONDIR = path.join(__dirname, "public", "icons");
