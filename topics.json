@@ -1,0 +1,15 @@
+{
+  "nextIndex": 0,
+  "topics": [
+    { "title": "Los 10 Trastornos de la Personalidad Explicados", "brief": "Los 10 trastornos de personalidad del DSM (paranoide, esquizoide, esquizotípico, antisocial, límite, histriónico, narcisista, evitativo, dependiente, obsesivo). Por grupos A/B/C.", "n": 10 },
+    { "title": "Cada Tipo de Manipulador Explicado", "brief": "Tipos de manipuladores: narcisista, psicópata, sociópata, maquiavélico, gaslighter, víctima manipuladora, etc. Cómo detectarlos y defenderte.", "n": 8 },
+    { "title": "Cada Experimento Psicológico Prohibido", "brief": "Experimentos psicológicos polémicos: Milgram, prisión de Stanford, Pequeño Albert, Monster Study, Harlow, etc. Qué hicieron y por qué se prohibieron.", "n": 8 },
+    { "title": "Todo lo que le pasa a tu cerebro sin dormir", "brief": "Efectos de la privación de sueño hora por hora: 24h, 36h, 48h, 72h. Qué le pasa a la mente y al cuerpo.", "n": 7 },
+    { "title": "Cada Fobia Explicada y por qué la Desarrollamos", "brief": "Fobias comunes y raras: aracnofobia, claustrofobia, agorafobia, tripofobia, etc. Origen y cómo se tratan.", "n": 10 },
+    { "title": "Todo lo que le pasa a tu cuerpo cuando mueres", "brief": "El proceso del cuerpo tras la muerte, minuto a minuto y fase a fase (algor, livor, rigor mortis...). Divulgativo, no morboso.", "n": 8 },
+    { "title": "Cada Sesgo Cognitivo que te Engaña", "brief": "Sesgos cognitivos: confirmación, anclaje, efecto halo, disponibilidad, coste hundido, etc. Cómo nos engañan a diario.", "n": 10 },
+    { "title": "Cada Mito de Salud que Sigues Creyendo", "brief": "Mitos de salud desmentidos por la ciencia: el azúcar hiperactivo, usar solo el 10% del cerebro, detox, etc.", "n": 10 },
+    { "title": "Cada Tipo de Inteligencia que Tienes", "brief": "Tipos de inteligencia (Gardner): lingüística, lógica, espacial, musical, corporal, interpersonal, intrapersonal, naturalista.", "n": 8 },
+    { "title": "Cada Técnica de Persuasión Explicada", "brief": "Principios de persuasión de Cialdini y más: reciprocidad, escasez, autoridad, prueba social, compromiso, simpatía.", "n": 7 }
+  ]
+}

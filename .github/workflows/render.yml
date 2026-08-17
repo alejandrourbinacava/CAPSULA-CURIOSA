@@ -3,17 +3,20 @@ name: Renderizar vídeo (Cápsula Curiosa)
 on:
   workflow_dispatch:
     inputs:
-      regenerar:
-        description: "Regenerar voz + fotos + vídeos + sincronía desde video.config.json (necesita los Secrets)"
+      nuevoVideo:
+        description: "Generar un VÍDEO NUEVO (coge el siguiente tema de topics.json y escribe el guion con IA). Desmarca solo para re-renderizar el actual."
         type: boolean
-        default: false
-  # schedule:
-  #   - cron: "0 6 * * 1"   # cada lunes 06:00 UTC
+        default: true
+  schedule:
+    - cron: "0 6 * * *"   # cada día a las 06:00 UTC (nuevo vídeo automático)
+
+permissions:
+  contents: write   # para guardar el avance del tema (topics.json) tras cada run
 
 jobs:
   render:
     runs-on: ubuntu-22.04
-    timeout-minutes: 240
+    timeout-minutes: 300
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -34,18 +37,24 @@ jobs:
       - name: Instalar dependencias npm
         run: npm install
 
-      - name: (Opcional) Regenerar TODO desde el config
-        if: ${{ inputs.regenerar }}
+      - name: 1) Escribir el guion del siguiente tema (IA)
+        if: ${{ github.event_name == 'schedule' || inputs.nuevoVideo }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node next-video.mjs
+
+      - name: 2) Generar voz + fotos + vídeos + sincronía + música
+        if: ${{ github.event_name == 'schedule' || inputs.nuevoVideo }}
         env:
           GENAIPRO_API_KEY: ${{ secrets.GENAIPRO_API_KEY }}
           PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
           PEXELS_KEY: ${{ secrets.PEXELS_KEY }}
         run: node generate.mjs
 
-      - name: Renderizar el vídeo (Remotion · AutoVideo, lee video.config.json)
+      - name: 3) Renderizar el vídeo (Remotion · AutoVideo)
         run: npx remotion render src/index.ts AutoVideo out/video.mp4 --concurrency=2
 
-      - name: Mezclar audio (voz + música -25dB + pops)
+      - name: 4) Mezclar audio (voz + música -25dB + pops)
         run: |
           ffmpeg -y -i out/video.mp4 \
             -stream_loop -1 -i public/voz/bg_music.wav \
@@ -54,10 +63,10 @@ jobs:
             -map 0:v -map "[a]" -c:v copy -c:a aac -b:a 192k -shortest \
             out/VIDEO_FINAL.mp4
 
-      - name: Renderizar miniatura
-        run: npx remotion still src/index.ts Thumbnail out/thumbnail.png --frame=0
+      - name: 5) Renderizar miniatura (rejilla desde el config)
+        run: npx remotion still src/index.ts AutoThumb out/thumbnail.png --frame=0
 
-      - name: Subir resultados
+      - name: 6) Subir resultados (MP4 + miniatura)
         uses: actions/upload-artifact@v4
         with:
           name: capsula-curiosa-video
@@ -65,3 +74,12 @@ jobs:
             out/VIDEO_FINAL.mp4
             out/thumbnail.png
           retention-days: 30
+
+      - name: 7) Guardar el avance del tema para el próximo día
+        if: ${{ github.event_name == 'schedule' || inputs.nuevoVideo }}
+        run: |
+          git config user.name "capsula-bot"
+          git config user.email "bot@capsulacuriosa"
+          git add topics.json video.config.json
+          git commit -m "Auto: guion del siguiente tema" || echo "sin cambios"
+          git push
