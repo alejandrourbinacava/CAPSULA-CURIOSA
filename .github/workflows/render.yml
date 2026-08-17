@@ -1,0 +1,55 @@
+name: Renderizar vídeo (Cápsula Curiosa)
+
+# Se dispara a mano desde la pestaña Actions, o por cron (descomenta schedule)
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "0 6 * * 1"   # cada lunes a las 06:00 UTC
+
+jobs:
+  render:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 180
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Dependencias del sistema (ffmpeg + libs para el Chrome de Remotion)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg \
+            libnss3 libdbus-1-3 libatk1.0-0 libgbm-dev libasound2 \
+            libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 \
+            libatk-bridge2.0-0 libpango-1.0-0 libcairo2 libcups2
+
+      - name: Instalar dependencias npm
+        run: npm install
+
+      - name: Renderizar el vídeo (Remotion)
+        run: npx remotion render src/index.ts TrastornosRealFull out/video.mp4 --concurrency=2
+
+      - name: Mezclar audio (voz + música -25dB + pops)
+        run: |
+          ffmpeg -y -i out/video.mp4 \
+            -stream_loop -1 -i public/voz/bg_music.wav \
+            -i public/voz/sfx_full.wav \
+            -filter_complex "[1:a]volume=-25dB[m];[2:a]volume=-10dB[s];[0:a][m][s]amix=inputs=3:normalize=0[a]" \
+            -map 0:v -map "[a]" -c:v copy -c:a aac -b:a 192k -shortest \
+            out/VIDEO_FINAL.mp4
+
+      - name: Renderizar miniatura
+        run: npx remotion still src/index.ts Thumbnail out/thumbnail.png --frame=0
+
+      - name: Subir resultados (descargables desde la ejecución)
+        uses: actions/upload-artifact@v4
+        with:
+          name: capsula-curiosa-video
+          path: |
+            out/VIDEO_FINAL.mp4
+            out/thumbnail.png
+          retention-days: 30

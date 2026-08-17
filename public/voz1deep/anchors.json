@@ -1,0 +1,92 @@
+{
+  "v02": {
+    "fuera": 332,
+    "dentro": 443,
+    "senales": 513,
+    "causa": 805,
+    "ejemplo": 1107,
+    "consejo": 1328,
+    "total": 1590
+  },
+  "v03": {
+    "fuera": 339,
+    "dentro": 400,
+    "senales": 544,
+    "causa": 954,
+    "ejemplo": 1108,
+    "consejo": 1334,
+    "total": 1591
+  },
+  "v04": {
+    "fuera": 466,
+    "dentro": 531,
+    "senales": 639,
+    "causa": 1148,
+    "ejemplo": 1321,
+    "consejo": 1527,
+    "total": 1723
+  },
+  "v05": {
+    "fuera": 481,
+    "dentro": 563,
+    "senales": 645,
+    "causa": 850,
+    "ejemplo": 1126,
+    "consejo": 1402,
+    "total": 1618
+  },
+  "v06": {
+    "fuera": 368,
+    "dentro": 437,
+    "senales": 537,
+    "causa": 795,
+    "ejemplo": 984,
+    "consejo": 1382,
+    "total": 1631
+  },
+  "v07": {
+    "fuera": 266,
+    "dentro": 340,
+    "senales": 479,
+    "causa": 840,
+    "ejemplo": 1021,
+    "consejo": 1245,
+    "total": 1479
+  },
+  "v08": {
+    "fuera": 266,
+    "dentro": 332,
+    "senales": 487,
+    "causa": 863,
+    "ejemplo": 1084,
+    "consejo": 1328,
+    "total": 1561
+  },
+  "v09": {
+    "fuera": 417,
+    "dentro": 482,
+    "senales": 535,
+    "causa": 835,
+    "ejemplo": 995,
+    "consejo": 1295,
+    "total": 1553
+  },
+  "v10": {
+    "fuera": 307,
+    "dentro": 372,
+    "senales": 484,
+    "causa": 800,
+    "ejemplo": 940,
+    "consejo": 1098,
+    "total": 1331
+  },
+  "v11": {
+    "fuera": 351,
+    "dentro": 444,
+    "senales": 527,
+    "causa": 1012,
+    "ejemplo": 1177,
+    "consejo": 1373,
+    "total": 1622
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "v01",
+    "label": "intro",
+    "text": "Todos conocemos a alguien así. Quizá tú mismo. Existen diez trastornos de la personalidad reconocidos, y hoy te los explico todos, uno por uno. Vamos.",
+    "durSec": 8.874898,
+    "frames": 267
+  },
+  {
+    "id": "v02",
+    "label": "Paranoide",
+    "text": "El paranoide vive convencido de que todos quieren engañarlo o hacerle daño. Desconfía hasta de sus seres queridos y guarda rencores durante años.",
+    "durSec": 8.508231,
+    "frames": 256
+  },
+  {
+    "id": "v03",
+    "label": "Esquizoide",
+    "text": "El esquizoide no busca compañía: prefiere estar solo. Le dan igual los elogios y las críticas, y casi nunca muestra sus emociones.",
+    "durSec": 6.827347,
+    "frames": 205
+  },
+  {
+    "id": "v04",
+    "label": "Esquizotípico",
+    "text": "El esquizotípico tiene creencias y percepciones extrañas: pensamiento mágico, supersticiones intensas y una forma de hablar peculiar.",
+    "durSec": 6.895601,
+    "frames": 207
+  },
+  {
+    "id": "v05",
+    "label": "Antisocial",
+    "text": "El antisocial ignora las normas y los derechos de los demás. Miente, manipula y no siente culpa. Es el perfil asociado a la psicopatía.",
+    "durSec": 7.813741,
+    "frames": 235
+  },
+  {
+    "id": "v06",
+    "label": "Límite",
+    "text": "El límite vive las emociones al extremo: pasa del amor al odio en minutos. Un miedo intenso al abandono y la impulsividad marcan su día a día.",
+    "durSec": 7.017778,
+    "frames": 211
+  },
+  {
+    "id": "v07",
+    "label": "Histriónico",
+    "text": "El histriónico necesita ser el centro de atención siempre. Dramatiza, seduce, y se siente incómodo cuando no todos lo miran.",
+    "durSec": 6.610794,
+    "frames": 199
+  },
+  {
+    "id": "v08",
+    "label": "Narcisista",
+    "text": "El narcisista se cree superior y especial. Busca admiración constante y le cuesta enormemente ponerse en el lugar de los demás.",
+    "durSec": 6.968005,
+    "frames": 210
+  },
+  {
+    "id": "v09",
+    "label": "Evitativo",
+    "text": "El evitativo se muere de ganas de conectar, pero el miedo al rechazo lo paraliza. Se siente inferior y evita el contacto social.",
+    "durSec": 6.817347,
+    "frames": 205
+  },
+  {
+    "id": "v10",
+    "label": "Dependiente",
+    "text": "El dependiente necesita que otros decidan por él. Teme la soledad y hace lo que sea para no quedarse sin apoyo.",
+    "durSec": 5.539025,
+    "frames": 167
+  },
+  {
+    "id": "v11",
+    "label": "Obsesivo",
+    "text": "Y el obsesivo de la personalidad busca el orden y el control perfectos. Rígido, perfeccionista y adicto al trabajo, hasta paralizarse.",
+    "durSec": 7.325193,
+    "frames": 220
+  },
+  {
+    "id": "v12",
+    "label": "cierre",
+    "text": "Estos son los diez. ¿Reconociste a alguien? Suscríbete a Cápsula Curiosa para más.",
+    "durSec": 3.976939,
+    "frames": 120
+  }
+]

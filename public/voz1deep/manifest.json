@@ -1,0 +1,80 @@
+[
+  {
+    "id": "v00",
+    "label": "intro",
+    "frames": 960,
+    "durSec": 31.980522
+  },
+  {
+    "id": "v01",
+    "label": "grupos",
+    "frames": 724,
+    "durSec": 24.115079
+  },
+  {
+    "id": "v02",
+    "label": "Paranoide",
+    "frames": 1590,
+    "durSec": 52.980771
+  },
+  {
+    "id": "v03",
+    "label": "Esquizoide",
+    "frames": 1591,
+    "durSec": 53.005805
+  },
+  {
+    "id": "v04",
+    "label": "Esquizotípico",
+    "frames": 1723,
+    "durSec": 57.403673
+  },
+  {
+    "id": "v05",
+    "label": "Antisocial",
+    "frames": 1618,
+    "durSec": 53.905283
+  },
+  {
+    "id": "v06",
+    "label": "Límite",
+    "frames": 1631,
+    "durSec": 54.341202
+  },
+  {
+    "id": "v07",
+    "label": "Histriónico",
+    "frames": 1479,
+    "durSec": 49.290431
+  },
+  {
+    "id": "v08",
+    "label": "Narcisista",
+    "frames": 1561,
+    "durSec": 52.008231
+  },
+  {
+    "id": "v09",
+    "label": "Evitativo",
+    "frames": 1553,
+    "durSec": 51.736485
+  },
+  {
+    "id": "v10",
+    "label": "Dependiente",
+    "frames": 1331,
+    "durSec": 44.341451
+  },
+  {
+    "id": "v11",
+    "label": "Obsesivo",
+    "frames": 1622,
+    "durSec": 54.043356
+  },
+  {
+    "id": "v12",
+    "label": "cierre",
+    "frames": 827,
+    "durSec": 27.545646
+  }
+]

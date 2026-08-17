@@ -1,0 +1,13 @@
+# deps
+node_modules/
+# secretos (las API keys van en GitHub Secrets, NUNCA en el repo)
+.env
+# salidas de render
+out/
+# temporales de generación de voz
+public/voz1deep/_raw/
+public/voz1full/_raw/
+public/voz1/_raw/
+# logs
+*.log
+npm-debug.log*

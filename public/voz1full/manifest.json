@@ -1,0 +1,93 @@
+[
+  {
+    "id": "v00",
+    "label": "intro",
+    "text": "Todos conocemos a alguien difícil de entender. Esa persona que desconfía de todo, la que necesita ser siempre el centro, o la que no soporta estar sola ni un minuto. A veces no es solo carácter: es su forma de ser llevada al extremo. La psicología reconoce diez trastornos de la personalidad, patrones rígidos de pensar, sentir y relacionarse que acompañan a la persona toda su vida. Hoy te los explico los diez, uno por uno: qué son, cómo se reconocen y cómo tratar con quien los tiene. Y te aviso: es muy probable que reconozcas a más de uno. Empezamos.",
+    "durSec": 31.980522,
+    "frames": 960
+  },
+  {
+    "id": "v01",
+    "label": "grupos",
+    "text": "Antes de empezar, un mapa rápido. Estos diez trastornos se ordenan en tres grupos. El Grupo A son los raros o excéntricos: gente desconfiada o desconectada del mundo. El Grupo B son los dramáticos o emocionales: intensos, impulsivos, centrados en sí mismos. Y el Grupo C son los ansiosos o temerosos: personas dominadas por el miedo, la inseguridad o la necesidad de control. Vamos con el primero.",
+    "durSec": 24.115079,
+    "frames": 724
+  },
+  {
+    "id": "v02",
+    "label": "Paranoide",
+    "text": "El trastorno paranoide de la personalidad se resume en una palabra: desconfianza. Quien lo tiene está convencido de que los demás quieren engañarlo, usarlo o hacerle daño, aunque no haya ninguna prueba. ¿Las señales? Sospecha de todo el mundo, incluso de su pareja o sus amigos. Interpreta comentarios inocentes como ataques. Guarda rencores durante años y rara vez perdona. Se cree que aparece por una mezcla de genética y experiencias tempranas de traición o maltrato, que enseñan al cerebro que el mundo es un lugar peligroso. Un ejemplo típico: recibe un mensaje ambiguo del jefe y pasa la tarde convencido de que lo van a despedir. ¿Cómo actuar con alguien así? No lo pongas a la defensiva: sé claro, directo y coherente. Las medias verdades solo confirman sus sospechas.",
+    "durSec": 45.305261,
+    "frames": 1360
+  },
+  {
+    "id": "v03",
+    "label": "Esquizoide",
+    "text": "Si el paranoide desconfía, el esquizoide simplemente no te necesita. Es el trastorno de la desconexión emocional. Estas personas prefieren la soledad de forma genuina: no buscan amigos, ni pareja, ni aprobación. Las señales son claras: eligen casi siempre actividades en solitario, muestran frialdad emocional y les da igual que los elogien o los critiquen. No es timidez ni tristeza; es una falta real de interés por lo social. Sus causas apuntan a factores genéticos y a un temperamento distante desde la infancia. Un ejemplo: le ofrecen un ascenso que implica liderar un equipo y lo rechaza sin dudar, solo para seguir trabajando solo. ¿Cómo tratar con un esquizoide? Respeta su espacio. Forzar cercanía no funciona; valora su independencia y no interpretes su distancia como algo personal.",
+    "durSec": 48.417823,
+    "frames": 1453
+  },
+  {
+    "id": "v04",
+    "label": "Esquizotípico",
+    "text": "El esquizotípico lleva la rareza un paso más allá. Aquí no hablamos solo de aislamiento, sino de un mundo interior extraño. Estas personas tienen pensamiento mágico: creen en la telepatía, en presagios, en que sus pensamientos influyen en la realidad. Las señales incluyen creencias supersticiosas intensas, percepciones raras, una forma de vestir y de hablar peculiar, y una ansiedad social que no desaparece con el trato. Se considera parte del mismo espectro que la esquizofrenia, pero mucho más leve. Un ejemplo: está convencido de que soñar con un número le anuncia lo que va a pasar esa semana. ¿Cómo actuar? Con paciencia y sin ridiculizar sus ideas. La burla solo aumenta su desconfianza y su aislamiento.",
+    "durSec": 39.884263,
+    "frames": 1197
+  },
+  {
+    "id": "v05",
+    "label": "Antisocial",
+    "text": "Llegamos al Grupo B, el más intenso, y empezamos con el más temido: el trastorno antisocial de la personalidad, el perfil asociado a la psicopatía. Su rasgo central es la ausencia de culpa. Ignora las normas y los derechos de los demás sin remordimiento. Las señales: miente con facilidad, manipula para conseguir lo que quiere, es impulsivo y no aprende del castigo. Detrás suele haber una combinación de genética, baja actividad en las zonas del cerebro ligadas a la empatía, y entornos duros en la infancia. Un ejemplo cotidiano: engaña a un amigo con una inversión falsa y, cuando lo descubren, no siente ni una pizca de arrepentimiento, solo molestia por haber sido pillado. ¿Cómo protegerte? Pon límites firmes y no cedas al encanto: suelen ser muy persuasivos. Aquí la clave no es cambiarlos, es no dejarte arrastrar.",
+    "durSec": 45.645102,
+    "frames": 1370
+  },
+  {
+    "id": "v06",
+    "label": "Límite",
+    "text": "El trastorno límite, o borderline, es una montaña rusa emocional. La persona siente todo al máximo y con una inestabilidad enorme. Su mayor miedo es el abandono, y hará casi cualquier cosa por evitarlo. Las señales son intensas: relaciones que pasan del amor idealizado al odio en cuestión de horas, impulsividad, sensación de vacío constante y cambios de humor bruscos. Se cree que nace de una combinación de sensibilidad emocional innata y experiencias de abandono o trauma. Un ejemplo: su pareja tarda en contestar un mensaje y, en minutos, pasa de es el amor de mi vida a seguro que me va a dejar. Es de los pocos que responde muy bien a la terapia adecuada. ¿Cómo acompañar a alguien así? Con estabilidad y límites amables: ser una presencia constante y predecible le da la seguridad que por dentro no siente.",
+    "durSec": 48.584739,
+    "frames": 1458
+  },
+  {
+    "id": "v07",
+    "label": "Histriónico",
+    "text": "El histriónico necesita una cosa por encima de todo: ser el centro de atención. Cuando no lo es, se siente profundamente incómodo. Las señales: dramatiza sus emociones, seduce y coquetea para captar miradas, cambia de humor con rapidez y le da muchísima importancia a su aspecto físico. Sus emociones parecen intensas, pero también superficiales y cambiantes. Las causas mezclan temperamento y aprendizaje: a menudo, atención recibida de niño solo cuando exageraba. Un ejemplo: en una cena entre amigos, cuenta una anécdota cada vez más exagerada para que todas las miradas vuelvan a él. ¿Cómo tratarlo? Dale atención cuando se comporta de forma equilibrada, no cuando monta el numerito. Reforzar el drama solo alimenta el patrón.",
+    "durSec": 42.076327,
+    "frames": 1263
+  },
+  {
+    "id": "v08",
+    "label": "Narcisista",
+    "text": "El narcisista se cree, sencillamente, superior. Vive con una sensación de grandiosidad y una necesidad enorme de admiración. Las señales: fantasea con el éxito y el poder, espera un trato especial, envidia a los demás o cree que los demás lo envidian, y le cuesta muchísimo empatizar. Pero ojo: bajo esa coraza suele esconderse una autoestima muy frágil, que se rompe a la mínima crítica. Se forma por una mezcla de genética y estilos de crianza, tanto la sobrevaloración como la frialdad extrema. Un ejemplo: recibe una crítica pequeña en el trabajo y reacciona con rabia desproporcionada, incapaz de tolerar no ser el mejor. ¿Cómo relacionarte? No alimentes su ego ni te dejes menospreciar. Mantén tu propio valor claro y firme.",
+    "durSec": 46.906032,
+    "frames": 1408
+  },
+  {
+    "id": "v09",
+    "label": "Evitativo",
+    "text": "Entramos en el Grupo C, el del miedo. Y el evitativo es puro miedo al rechazo. A diferencia del esquizoide, esta persona sí quiere conectar, se muere de ganas, pero el terror a que la rechacen la paraliza. Las señales: evita situaciones sociales, se siente inferior, es hipersensible a la crítica y necesita estar segura de que le van a caer bien antes de acercarse. Sus raíces están en experiencias tempranas de rechazo o crítica constante. Un ejemplo: le encantaría ir a la fiesta y hasta se prepara, pero en el último momento se inventa una excusa por miedo a hacer el ridículo. ¿Cómo ayudar? Con paciencia y refuerzo positivo. Pequeños pasos, sin presión ni burlas, le devuelven poco a poco la confianza.",
+    "durSec": 41.455964,
+    "frames": 1244
+  },
+  {
+    "id": "v10",
+    "label": "Dependiente",
+    "text": "El trastorno dependiente gira en torno a una idea: no puedo solo. La persona siente una necesidad extrema de que la cuiden y de que otros tomen las decisiones por ella. Las señales: le cuesta decidir hasta lo más pequeño sin consejo, evita el desacuerdo por miedo a perder el apoyo, y cuando una relación termina, busca otra de inmediato para no quedarse sola. Suele nacer de una crianza sobreprotectora o de vínculos inseguros. Un ejemplo: no elige ni el restaurante para cenar sin preguntar antes a tres personas qué haría. ¿Cómo actuar? Anímala a decidir por sí misma en cosas pequeñas, en lugar de resolverle todo. Cada decisión propia es un ladrillo de autonomía.",
+    "durSec": 36.822948,
+    "frames": 1105
+  },
+  {
+    "id": "v11",
+    "label": "Obsesivo",
+    "text": "Y cerramos con el obsesivo-compulsivo de la personalidad. Cuidado, no es lo mismo que el toc: aquí no hay rituales angustiosos, sino una obsesión con el orden, el control y el perfeccionismo. Las señales: rigidez, atención excesiva a las reglas y los detalles, dificultad para delegar porque nadie lo hace bien, y una entrega al trabajo que deja fuera el ocio y las relaciones. Para esta persona, hacer las cosas perfectas importa más que terminarlas. Mezcla temperamento y entornos donde solo se valoraba el logro. Un ejemplo: no entrega un informe a tiempo porque lleva días ajustando márgenes y tipografías que nadie va a mirar. ¿Cómo tratar con alguien así? Reconoce su esfuerzo, pero ayúdale a ver que suficientemente bueno a tiempo suele ganarle a perfecto demasiado tarde.",
+    "durSec": 43.629365,
+    "frames": 1309
+  },
+  {
+    "id": "v12",
+    "label": "cierre",
+    "text": "Y estos son los diez trastornos de la personalidad: Grupo A, los raros; Grupo B, los dramáticos; Grupo C, los temerosos. Reconocer estos patrones no sirve para etiquetar a nadie, y mucho menos para diagnosticar: solo un profesional puede hacerlo. Sirve para entender un poco mejor a las personas, y a veces, a nosotros mismos. Así que dime: ¿a cuántos reconociste? Déjamelo en los comentarios, y si te ha servido, suscríbete a Cápsula Curiosa. Nos vemos en la próxima cápsula.",
+    "durSec": 27.545646,
+    "frames": 827
+  }
+]
