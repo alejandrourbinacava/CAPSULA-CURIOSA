@@ -9,6 +9,7 @@ import { TrastornosReal, TOTAL_REAL } from "./TrastornosReal";
 import { ParanoideReal } from "./ParanoideReal";
 import { ThumbB } from "./ThumbB";
 import { TrastornosRealFull, TOTAL as TOTAL_RF } from "./TrastornosRealFull";
+import { AutoVideo, TOTAL as TOTAL_AUTO } from "./AutoVideo";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -71,6 +72,7 @@ export const RemotionRoot: React.FC = () => {
       />
       <Composition id="ThumbB" component={ThumbB} durationInFrames={1} fps={30} width={1280} height={720} />
       <Composition id="TrastornosRealFull" component={TrastornosRealFull} durationInFrames={TOTAL_RF} fps={30} width={1920} height={1080} />
+      <Composition id="AutoVideo" component={AutoVideo} durationInFrames={TOTAL_AUTO} fps={30} width={1920} height={1080} />
     </>
   );
 };

@@ -40,5 +40,19 @@ Para que corra solo cada semana, descomenta el bloque `schedule` en `.github/wor
 - `anchors.mjs` — calcula la sincronización texto-voz.
 - `generar-musica.mjs` / `generar-sfx-full.mjs` — música y efectos.
 
-## Flujo para el VÍDEO #2 (siguiente fase)
-Cambiar guion → generar voz → `fetch-media` con las nuevas búsquedas → `anchors` → editar los datos de la composición → commit + push → Actions renderiza. (Esta parametrización total es la fase 2.)
+## Fase 2 — automatización total desde `video.config.json`
+
+Todo el vídeo se define en **`video.config.json`** (título, guion/narración, textos en pantalla, iconos, colores y las búsquedas de fotos/vídeos de cada ítem). La composición `AutoVideo` lo lee directamente — **no hay datos en el código**.
+
+**Para un vídeo NUEVO** (sin tocar código):
+1. Edita `video.config.json`: cambia `title`, `intro/grupos/outro.narration`, y cada ítem (`name`, `narration`, `def`, `fuera/dentro`, `senales`, `causa`, `ejemploTitle`, `consejo`, `main` icono, `color`, `videoQuery`, `photoQuery`).
+2. `git commit` + `git push`.
+3. GitHub → **Actions → Run workflow** y marca **"Regenerar"** ✅ → el Action:
+   - genera la **voz** (genaipro) de cada segmento y mide su duración,
+   - calcula la **sincronía** texto-voz,
+   - baja **fotos + clips de vídeo** de Pixabay según las búsquedas,
+   - genera **música + pops**,
+   - **renderiza** el vídeo y sube el MP4 + miniatura.
+
+`node generate.mjs` hace todo eso en local también (con las keys en `.env`). Los iconos disponibles están en `public/icons/` (Lucide); añade más con:
+`curl -o public/icons/NOMBRE.svg https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/NOMBRE.svg`

@@ -1,15 +1,19 @@
 name: Renderizar vídeo (Cápsula Curiosa)
 
-# Se dispara a mano desde la pestaña Actions, o por cron (descomenta schedule)
 on:
   workflow_dispatch:
+    inputs:
+      regenerar:
+        description: "Regenerar voz + fotos + vídeos + sincronía desde video.config.json (necesita los Secrets)"
+        type: boolean
+        default: false
   # schedule:
-  #   - cron: "0 6 * * 1"   # cada lunes a las 06:00 UTC
+  #   - cron: "0 6 * * 1"   # cada lunes 06:00 UTC
 
 jobs:
   render:
     runs-on: ubuntu-22.04
-    timeout-minutes: 180
+    timeout-minutes: 240
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -19,7 +23,7 @@ jobs:
         with:
           node-version: 20
 
-      - name: Dependencias del sistema (ffmpeg + libs para el Chrome de Remotion)
+      - name: Dependencias del sistema (ffmpeg + libs del Chrome de Remotion)
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg \
@@ -30,8 +34,16 @@ jobs:
       - name: Instalar dependencias npm
         run: npm install
 
-      - name: Renderizar el vídeo (Remotion)
-        run: npx remotion render src/index.ts TrastornosRealFull out/video.mp4 --concurrency=2
+      - name: (Opcional) Regenerar TODO desde el config
+        if: ${{ inputs.regenerar }}
+        env:
+          GENAIPRO_API_KEY: ${{ secrets.GENAIPRO_API_KEY }}
+          PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
+          PEXELS_KEY: ${{ secrets.PEXELS_KEY }}
+        run: node generate.mjs
+
+      - name: Renderizar el vídeo (Remotion · AutoVideo, lee video.config.json)
+        run: npx remotion render src/index.ts AutoVideo out/video.mp4 --concurrency=2
 
       - name: Mezclar audio (voz + música -25dB + pops)
         run: |
@@ -45,7 +57,7 @@ jobs:
       - name: Renderizar miniatura
         run: npx remotion still src/index.ts Thumbnail out/thumbnail.png --frame=0
 
-      - name: Subir resultados (descargables desde la ejecución)
+      - name: Subir resultados
         uses: actions/upload-artifact@v4
         with:
           name: capsula-curiosa-video
