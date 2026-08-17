@@ -1,482 +1,390 @@
 {
-  "title": "Los 10 Trastornos de la Personalidad",
+  "title": "Cada Tipo de Manipulador Explicado",
   "fps": 30,
   "voiceId": "851ejYcv2BoNPjrkw93G",
   "speed": 1.08,
-  "cornerIcon": "brain",
+  "cornerIcon": "crown",
   "handle": "@CapsulaCuriosa",
   "intro": {
     "id": "v00",
-    "narration": "Todos conocemos a alguien difícil de entender. Esa persona que desconfía de todo, la que necesita ser siempre el centro, o la que no soporta estar sola ni un minuto. A veces no es solo carácter: es su forma de ser llevada al extremo. La psicología reconoce diez trastornos de la personalidad, patrones rígidos de pensar, sentir y relacionarse que acompañan a la persona toda su vida. Hoy te los explico los diez, uno por uno: qué son, cómo se reconocen y cómo tratar con quien los tiene. Y te aviso: es muy probable que reconozcas a más de uno. Empezamos."
+    "narration": "¿Alguna vez has sentido que alguien te confunde, te hace dudar de tu propia memoria o te lleva a hacer cosas que no quieres? Todos convivimos con personas manipuladoras sin darnos cuenta en el trabajo, la pareja o la familia. Hoy desmontamos las estrategias psicológicas más comunes que utilizan para controlar a los demás, desde la falsa victimización hasta el desgaste silencioso en el día a día."
   },
   "grupos": {
     "id": "v01",
-    "narration": "Antes de empezar, un mapa rápido. Estos diez trastornos se ordenan en tres grupos. El Grupo A son los raros o excéntricos: gente desconfiada o desconectada del mundo. El Grupo B son los dramáticos o emocionales: intensos, impulsivos, centrados en sí mismos. Y el Grupo C son los ansiosos o temerosos: personas dominadas por el miedo, la inseguridad o la necesidad de control. Vamos con el primero."
+    "narration": "Vamos a analizar los ocho perfiles principales para que aprendas a identificarlos al instante y proteger tu bienestar emocional."
   },
   "outro": {
-    "id": "v12",
-    "narration": "Y estos son los diez trastornos de la personalidad: Grupo A, los raros; Grupo B, los dramáticos; Grupo C, los temerosos. Reconocer estos patrones no sirve para etiquetar a nadie, y mucho menos para diagnosticar: solo un profesional puede hacerlo. Sirve para entender un poco mejor a las personas, y a veces, a nosotros mismos. Así que dime: ¿a cuántos reconociste? Déjamelo en los comentarios, y si te ha servido, suscríbete a Cápsula Curiosa. Nos vemos en la próxima cápsula."
+    "id": "v10",
+    "narration": "Detectar estos patrones es el primer paso para defender tus límites personales y recuperar el control de tu vida. Suscríbete a Cápsula Curiosa para descubrir más sobre la mente humana."
   },
   "items": [
     {
       "id": "v02",
-      "key": "paranoide",
-      "name": "PARANOIDE",
-      "group": "GRUPO A",
+      "key": "item1",
+      "name": "EL NARCISISTA",
+      "group": "",
       "color": "#e57373",
-      "main": "eye",
-      "def": "Desconfía de todo y de todos",
+      "main": "crown",
+      "def": "Domina mediante falsa superioridad",
       "fuera": [
-        "shield-alert",
-        "Alerta y a la defensiva"
+        "venetian-mask",
+        "Imagen impecable y carismática"
       ],
       "dentro": [
-        "ghost",
-        "Se siente en peligro"
+        "heart-crack",
+        "Autoestima extremadamente frágil"
       ],
       "senales": [
         {
           "icon": "eye",
           "color": "#ffd54f",
-          "label": "Sospecha de todos"
+          "label": "Búsqueda de atención"
         },
         {
-          "icon": "shield-alert",
+          "icon": "heart-off",
           "color": "#ff8c1a",
-          "label": "Todo es un ataque"
+          "label": "Falta de empatía"
         },
         {
-          "icon": "hourglass",
+          "icon": "trophy",
           "color": "#4db6ac",
-          "label": "Guarda rencor"
+          "label": "Competición constante"
         }
       ],
       "causa": [
-        "dna",
-        "Genética + traiciones tempranas"
+        "alert-triangle",
+        "Miedo al rechazo personal"
       ],
-      "ejemploTitle": "Un mensaje del jefe…",
+      "ejemploTitle": "Minimiza tus logros personales",
       "consejo": [
-        "handshake",
-        "Sé claro, directo y coherente"
+        "shield",
+        "Pon límites sin ceder"
       ],
-      "videoQuery": "worried phone smartphone",
-      "photoQuery": "suspicious man looking",
-      "narration": "El trastorno paranoide de la personalidad se resume en una palabra: desconfianza. Quien lo tiene está convencido de que los demás quieren engañarlo, usarlo o hacerle daño, aunque no exista ninguna prueba. Por fuera parece una persona alerta, tensa y a la defensiva; por dentro se siente en peligro constante. ¿Las señales? Sospecha de todo el mundo, incluso de su pareja o sus amigos. Interpreta comentarios inocentes como ataques personales. Y guarda rencores durante años, porque rara vez perdona. ¿Por qué aparece? Se cree que por una mezcla de genética y experiencias tempranas de traición o maltrato, que le enseñan al cerebro que el mundo es un lugar hostil. Un ejemplo típico: recibe un mensaje ambiguo de su jefe y pasa la tarde entera convencido de que lo van a despedir. ¿Y cómo tratar con alguien así? No lo pongas a la defensiva: sé claro, directo y coherente. Con esta persona, las medias verdades solo confirman sus sospechas."
+      "videoQuery": "narcissist person reflection mirror",
+      "photoQuery": "person looking in mirror arrogant",
+      "narration": "Este perfil utiliza la admiración y la superioridad constante para dominar sus relaciones personales y profesionales. Por fuera proyecta una imagen impecable y carismática, pero por dentro esconde un vacío profundo y un miedo feroz a ser rechazado. Las señales para detectarlo son la búsqueda constante de atención, la falta de empatía real y la necesidad de competir siempre. ¿Por qué actúa así? Principalmente por una autoestima frágil que necesita validación externa para no colapsar. Un ejemplo: la pareja que minimiza tus logros profesionales para destacar únicamente los suyos ante tus amigos. ¿Cómo responder? Establece límites firmes y no busques jamás su aprobación."
     },
     {
       "id": "v03",
-      "key": "esquizoide",
-      "name": "ESQUIZOIDE",
-      "group": "GRUPO A",
+      "key": "item2",
+      "name": "EL GASLIGHTER",
+      "group": "",
       "color": "#90a4ae",
-      "main": "user",
-      "def": "Prefiere la soledad de verdad",
+      "main": "brain",
+      "def": "Distorsiona la percepción real",
       "fuera": [
-        "snowflake",
-        "Frío y distante"
+        "user",
+        "Convincente y falsamente empático"
       ],
       "dentro": [
-        "moon",
-        "Sin ganas de conectar"
+        "lock",
+        "Obsesión por el control"
       ],
       "senales": [
         {
-          "icon": "user",
-          "color": "#ffd54f",
-          "label": "Elige estar solo"
-        },
-        {
-          "icon": "snowflake",
-          "color": "#ff8c1a",
-          "label": "Frialdad emocional"
-        },
-        {
           "icon": "volume-x",
+          "color": "#ffd54f",
+          "label": "Niega hechos evidentes"
+        },
+        {
+          "icon": "circle-help",
+          "color": "#ff8c1a",
+          "label": "Hace dudar de memoria"
+        },
+        {
+          "icon": "angry",
           "color": "#4db6ac",
-          "label": "Nada le afecta"
+          "label": "Te tilda de exagerado"
         }
       ],
       "causa": [
-        "dna",
-        "Temperamento distante innato"
+        "target",
+        "Deseo de dominación mental"
       ],
-      "ejemploTitle": "En el trabajo…",
+      "ejemploTitle": "Niega sus propias palabras",
       "consejo": [
-        "door-open",
-        "Respeta su espacio"
+        "shield-alert",
+        "Confía en tu memoria"
       ],
-      "videoQuery": "man working alone laptop night",
-      "photoQuery": "man sitting alone dark room",
-      "narration": "Si el paranoide desconfía, el esquizoide simplemente no te necesita. Es el trastorno de la desconexión emocional. Estas personas prefieren la soledad de forma genuina: no buscan amigos, ni pareja, ni aprobación. Por fuera parecen frías y distantes; por dentro, sencillamente, no sienten ese deseo de conectar que mueve a los demás. Las señales son claras: eligen casi siempre actividades en solitario, muestran una notable frialdad emocional, y les da igual que los elogien o que los critiquen. No es timidez, ni tristeza: es una falta real de interés por lo social. ¿Por qué ocurre? Apunta a factores genéticos y a un temperamento distante desde la infancia. Un ejemplo: le ofrecen un ascenso que implica liderar a un equipo, y lo rechaza sin dudarlo, solo para poder seguir trabajando solo. ¿Cómo tratar con un esquizoide? Respeta su espacio. Forzar cercanía no funciona; valora su independencia y no interpretes su distancia como algo personal contra ti."
+      "videoQuery": "confused person argument conversation",
+      "photoQuery": "stressed woman arguing partner",
+      "narration": "Es el especialista en distorsionar la realidad ajena para que la víctima dude de su propia cordura. Por fuera se muestra muy convincente y preocupado por ti, pero por dentro busca el control absoluto sobre tus decisiones e ideas. Las señales son la negación de hechos evidentes, hacerte dudar de tu memoria e insinuar que exageras todo. ¿Por qué utiliza esta táctica? Para anular la autoconfianza del otro y someterlo a su propio criterio. Un ejemplo: responderte que jamás dijo algo que ambos sabéis perfectamente que afirmó ayer. ¿Cómo responder? Registra los hechos por escrito y confía en tu criterio."
     },
     {
       "id": "v04",
-      "key": "esquizotipico",
-      "name": "ESQUIZOTÍPICO",
-      "group": "GRUPO A",
+      "key": "item3",
+      "name": "LA VÍCTIMA MANIPULADORA",
+      "group": "",
       "color": "#ba68c8",
-      "main": "sparkles",
-      "def": "Un mundo interior extraño",
+      "main": "frown",
+      "def": "Controla mediante la lástima",
       "fuera": [
-        "star",
-        "Excéntrico e inusual"
+        "baby",
+        "Persona desvalida y perseguida"
       ],
       "dentro": [
-        "ghost",
-        "Ve conexiones ocultas"
+        "ban",
+        "Evitación de responsabilidades"
       ],
       "senales": [
         {
-          "icon": "sparkles",
+          "icon": "drama",
           "color": "#ffd54f",
-          "label": "Pensamiento mágico"
+          "label": "Drama exagerado constante"
         },
         {
-          "icon": "moon",
+          "icon": "alert-triangle",
           "color": "#ff8c1a",
-          "label": "Supersticiones"
-        },
-        {
-          "icon": "shirt",
-          "color": "#4db6ac",
-          "label": "Viste y habla raro"
-        }
-      ],
-      "causa": [
-        "brain",
-        "Espectro leve de esquizofrenia"
-      ],
-      "ejemploTitle": "Anoche soñó que…",
-      "consejo": [
-        "smile",
-        "Paciencia, sin burlas"
-      ],
-      "videoQuery": "starry night sky galaxy",
-      "photoQuery": "fortune teller crystal ball",
-      "narration": "El esquizotípico lleva la rareza un paso más allá. Aquí no hablamos solo de aislamiento, sino de un mundo interior genuinamente extraño. Estas personas tienen pensamiento mágico: creen en la telepatía, en presagios, en que sus pensamientos pueden influir en la realidad. Por fuera parecen excéntricos e inusuales; por dentro viven convencidos de conexiones que nadie más ve. Las señales incluyen creencias supersticiosas muy intensas, percepciones raras, una forma de vestir y de hablar peculiar, y una ansiedad social que no desaparece por mucho que traten a la gente. Se considera parte del mismo espectro que la esquizofrenia, pero en una versión mucho más leve. ¿La causa? Una mezcla de genética y alteraciones sutiles en cómo el cerebro procesa la información. Un ejemplo: está convencido de que soñar con un número concreto le anuncia lo que va a pasar esa semana. ¿Cómo actuar? Con paciencia y sin ridiculizar sus ideas: la burla solo aumenta su desconfianza y su aislamiento."
-    },
-    {
-      "id": "v05",
-      "key": "antisocial",
-      "name": "ANTISOCIAL",
-      "group": "GRUPO B",
-      "color": "#607d8b",
-      "main": "venetian-mask",
-      "def": "No siente culpa (psicopatía)",
-      "fuera": [
-        "smile",
-        "Encantador y persuasivo"
-      ],
-      "dentro": [
-        "heart-off",
-        "Cero empatía"
-      ],
-      "senales": [
-        {
-          "icon": "venetian-mask",
-          "color": "#ffd54f",
-          "label": "Miente y manipula"
-        },
-        {
-          "icon": "ban",
-          "color": "#ff8c1a",
-          "label": "Ignora las normas"
-        },
-        {
-          "icon": "heart-off",
-          "color": "#4db6ac",
-          "label": "Cero remordimiento"
-        }
-      ],
-      "causa": [
-        "dna",
-        "Genética + entorno duro"
-      ],
-      "ejemploTitle": "El engaño…",
-      "consejo": [
-        "shield-alert",
-        "Pon límites firmes"
-      ],
-      "videoQuery": "counting money cash hands",
-      "photoQuery": "man smirk suit confident",
-      "narration": "Llegamos al Grupo B, el más intenso, y empezamos con el más temido: el trastorno antisocial de la personalidad, el perfil asociado a la psicopatía. Su rasgo central es la ausencia de culpa. Ignora las normas y los derechos de los demás sin el menor remordimiento. Por fuera puede resultar encantador y muy persuasivo; por dentro no hay empatía que lo frene. Las señales: miente con una facilidad pasmosa, manipula para conseguir lo que quiere, es impulsivo y no aprende del castigo. ¿Por qué? Suele haber una combinación de genética, baja actividad en las zonas del cerebro ligadas a la empatía, y entornos duros o violentos en la infancia. Un ejemplo cotidiano: engaña a un amigo con una inversión falsa y, cuando lo descubren, no siente ni una pizca de arrepentimiento, solo molestia por haber sido pillado. ¿Cómo protegerte? Pon límites firmes y no cedas a su encanto. Aquí la clave no es cambiarlo, es no dejarte arrastrar."
-    },
-    {
-      "id": "v06",
-      "key": "limite",
-      "name": "LÍMITE",
-      "group": "GRUPO B",
-      "color": "#f06292",
-      "main": "heart-crack",
-      "def": "Montaña rusa emocional",
-      "fuera": [
-        "flame",
-        "Intensidad y drama"
-      ],
-      "dentro": [
-        "frown",
-        "Vacío e inseguridad"
-      ],
-      "senales": [
-        {
-          "icon": "door-open",
-          "color": "#ffd54f",
-          "label": "Miedo al abandono"
+          "label": "Culpa a los demás"
         },
         {
           "icon": "heart-crack",
-          "color": "#ff8c1a",
-          "label": "Del amor al odio"
-        },
-        {
-          "icon": "zap",
           "color": "#4db6ac",
-          "label": "Impulsividad"
+          "label": "Induce remordimiento ajeno"
         }
       ],
       "causa": [
-        "dna",
-        "Sensibilidad + abandono"
+        "circle-help",
+        "Búsqueda de rescate permanente"
       ],
-      "ejemploTitle": "Tarda en responder…",
+      "ejemploTitle": "Invoca victimismo tras fallar",
       "consejo": [
-        "anchor",
-        "Estabilidad y límites amables"
+        "shield",
+        "No asumas sus tareas"
       ],
-      "videoQuery": "person texting smartphone worried",
-      "photoQuery": "sad woman crying emotional",
-      "narration": "El trastorno límite, o borderline, es una auténtica montaña rusa emocional. La persona lo siente todo al máximo y con una inestabilidad enorme. Su mayor miedo es el abandono, y hará casi cualquier cosa por evitarlo. Por fuera parece pura intensidad y drama; por dentro hay un vacío y una inseguridad que duelen. Las señales son fuertes: relaciones que pasan del amor idealizado al odio en cuestión de horas, impulsividad, sensación de vacío constante y cambios de humor bruscos. ¿De dónde viene? De una combinación de sensibilidad emocional innata y experiencias de abandono o trauma en la infancia. Un ejemplo: su pareja tarda un poco en contestar un mensaje y, en minutos, pasa de es el amor de mi vida a seguro que me va a dejar. La buena noticia es que responde muy bien a la terapia adecuada. ¿Cómo acompañar a alguien así? Con estabilidad y límites amables: ser una presencia constante y predecible le da la seguridad que por dentro no siente."
+      "videoQuery": "sad crying person rain umbrella",
+      "photoQuery": "emotional manipulation drama",
+      "narration": "Este tipo de manipulador utiliza la lástima y el chantaje para eludir responsabilidades y culpa en sus acciones. Por fuera parece una persona desvalida a la que el mundo persigue, pero por dentro busca manejar la situación evitando todo tipo de rendición de cuentas. Las señales son el uso del drama exagerado, culpar a otros de sus errores y generar culpa en quien le rodea. ¿Por qué actúa de este modo? Para obtener atención constante y que los demás resuelvan sus problemas sin esfuerzo. Un ejemplo: decir que nadie le quiere cuando le pides que cumpla su parte del trabajo. ¿Cómo responder? Ofrece apoyo emocional razonable pero sin asumir sus cargas."
     },
     {
-      "id": "v07",
-      "key": "histrionico",
-      "name": "HISTRIÓNICO",
-      "group": "GRUPO B",
-      "color": "#ffb300",
-      "main": "megaphone",
-      "def": "Necesita ser el centro",
+      "id": "v05",
+      "key": "item4",
+      "name": "EL MAQUIAVÉLICO",
+      "group": "",
+      "color": "#607d8b",
+      "main": "puzzle",
+      "def": "Calcula para su beneficio",
       "fuera": [
-        "smile",
-        "Simpatía y seducción"
+        "handshake",
+        "Amable y muy diplomático"
       ],
       "dentro": [
-        "eye",
-        "Depende de las miradas"
+        "snowflake",
+        "Visión fría e instrumental"
       ],
       "senales": [
         {
-          "icon": "megaphone",
+          "icon": "target",
           "color": "#ffd54f",
-          "label": "Ser el centro"
-        },
-        {
-          "icon": "star",
-          "color": "#ff8c1a",
-          "label": "Dramatiza todo"
-        },
-        {
-          "icon": "sparkles",
-          "color": "#4db6ac",
-          "label": "Seduce por atención"
-        }
-      ],
-      "causa": [
-        "eye",
-        "Atención solo al exagerar"
-      ],
-      "ejemploTitle": "En la cena…",
-      "consejo": [
-        "scale",
-        "Atención cuando está calmado"
-      ],
-      "videoQuery": "friends party celebration toast",
-      "photoQuery": "woman laughing happy group",
-      "narration": "El histriónico necesita una cosa por encima de todo: ser el centro de atención. Cuando no lo es, se siente profundamente incómodo, casi invisible. Por fuera derrocha simpatía, seducción y energía; por dentro su autoestima depende por completo de la mirada de los demás. Las señales: dramatiza sus emociones, seduce y coquetea para captar miradas, cambia de humor con rapidez y le da muchísima importancia a su aspecto físico. Sus emociones parecen intensas, pero también superficiales y cambiantes. ¿La causa? Una mezcla de temperamento y aprendizaje: muchas veces, de niño recibió atención solo cuando exageraba. Un ejemplo: en una cena entre amigos, cuenta una anécdota cada vez más exagerada para que todas las miradas vuelvan a él. ¿Cómo tratarlo? Dale atención cuando se comporta de forma equilibrada, no cuando monta el numerito. Reforzar el drama solo alimenta el patrón."
-    },
-    {
-      "id": "v08",
-      "key": "narcisista",
-      "name": "NARCISISTA",
-      "group": "GRUPO B",
-      "color": "#ffd54f",
-      "main": "crown",
-      "def": "Se cree superior y especial",
-      "fuera": [
-        "crown",
-        "Seguridad aplastante"
-      ],
-      "dentro": [
-        "heart-crack",
-        "Autoestima frágil"
-      ],
-      "senales": [
-        {
-          "icon": "crown",
-          "color": "#ffd54f",
-          "label": "Se cree superior"
-        },
-        {
-          "icon": "star",
-          "color": "#ff8c1a",
-          "label": "Ansía admiración"
+          "label": "Planificación calculadora"
         },
         {
           "icon": "heart-off",
-          "color": "#4db6ac",
-          "label": "Cero empatía"
-        }
-      ],
-      "causa": [
-        "dna",
-        "Sobrevaloración o frialdad"
-      ],
-      "ejemploTitle": "Una crítica pequeña…",
-      "consejo": [
-        "shield-alert",
-        "No alimentes su ego"
-      ],
-      "videoQuery": "man looking mirror",
-      "photoQuery": "confident businessman arms crossed",
-      "narration": "El narcisista se cree, sencillamente, superior. Vive con una sensación de grandiosidad y una necesidad enorme de admiración. Pero aquí está el truco: por fuera proyecta una seguridad aplastante; por dentro esconde una autoestima muy frágil, que se rompe a la mínima crítica. Las señales: fantasea con el éxito y el poder, espera un trato especial, envidia a los demás o cree que los demás lo envidian, y le cuesta muchísimo ponerse en el lugar de otro. ¿De dónde sale? De una mezcla de genética y estilos de crianza, tanto la sobrevaloración excesiva como la frialdad extrema. Un ejemplo: recibe una crítica pequeña en el trabajo y reacciona con una rabia totalmente desproporcionada, incapaz de tolerar no ser el mejor. ¿Cómo relacionarte con un narcisista? No alimentes su ego, pero tampoco te dejes menospreciar. Mantén tu propio valor claro y firme."
-    },
-    {
-      "id": "v09",
-      "key": "evitativo",
-      "name": "EVITATIVO",
-      "group": "GRUPO C",
-      "color": "#4db6ac",
-      "main": "door-closed",
-      "def": "Quiere conectar, pero teme",
-      "fuera": [
-        "lock",
-        "Tímido y distante"
-      ],
-      "dentro": [
-        "heart-crack",
-        "Anhela pertenecer"
-      ],
-      "senales": [
-        {
-          "icon": "door-closed",
-          "color": "#ffd54f",
-          "label": "Evita el contacto"
-        },
-        {
-          "icon": "arrow-down",
           "color": "#ff8c1a",
-          "label": "Se siente inferior"
-        },
-        {
-          "icon": "shield-alert",
-          "color": "#4db6ac",
-          "label": "Teme la crítica"
-        }
-      ],
-      "causa": [
-        "dna",
-        "Rechazo o crítica temprana"
-      ],
-      "ejemploTitle": "La fiesta…",
-      "consejo": [
-        "footprints",
-        "Pasos pequeños, sin presión"
-      ],
-      "videoQuery": "lonely person looking window",
-      "photoQuery": "shy person covering face",
-      "narration": "Entramos en el Grupo C, el del miedo. Y el evitativo es puro miedo al rechazo. A diferencia del esquizoide, esta persona sí quiere conectar; se muere de ganas, pero el terror a que la rechacen la paraliza. Por fuera parece tímida o distante; por dentro anhela desesperadamente pertenecer. Las señales: evita situaciones sociales, se siente inferior, es hipersensible a la crítica y necesita estar segura de que va a caer bien antes de acercarse a alguien. ¿Por qué? Sus raíces suelen estar en experiencias tempranas de rechazo o de crítica constante. Un ejemplo: le encantaría ir a la fiesta, hasta se prepara y se viste, pero en el último momento se inventa una excusa por miedo a hacer el ridículo. ¿Cómo ayudar? Con paciencia y refuerzo positivo. Pequeños pasos, sin presión y sin burlas, le devuelven poco a poco la confianza que le falta."
-    },
-    {
-      "id": "v10",
-      "key": "dependiente",
-      "name": "DEPENDIENTE",
-      "group": "GRUPO C",
-      "color": "#7986cb",
-      "main": "users",
-      "def": "«No puedo solo»",
-      "fuera": [
-        "smile",
-        "Amable y complaciente"
-      ],
-      "dentro": [
-        "circle-help",
-        "Miedo a valerse solo"
-      ],
-      "senales": [
-        {
-          "icon": "circle-help",
-          "color": "#ffd54f",
-          "label": "No decide solo"
+          "label": "Cero remordimientos reales"
         },
         {
           "icon": "users",
-          "color": "#ff8c1a",
-          "label": "Necesita apoyo"
-        },
-        {
-          "icon": "user",
           "color": "#4db6ac",
-          "label": "Teme la soledad"
+          "label": "Utiliza a la gente"
         }
       ],
       "causa": [
-        "baby",
-        "Crianza sobreprotectora"
+        "briefcase",
+        "Ambición de poder personal"
       ],
-      "ejemploTitle": "Para cenar…",
+      "ejemploTitle": "Falsa amistad por ascenso",
       "consejo": [
-        "graduation-cap",
-        "Anímale a decidir"
+        "shield",
+        "Pon distancia estratégica"
       ],
-      "videoQuery": "couple holding hands restaurant",
-      "photoQuery": "people choosing menu restaurant",
-      "narration": "El trastorno dependiente gira en torno a una sola idea: no puedo solo. La persona siente una necesidad extrema de que la cuiden y de que otros tomen las decisiones por ella. Por fuera parece amable, dócil y complaciente; por dentro la mueve un miedo profundo a valerse por sí misma. Las señales: le cuesta decidir hasta lo más pequeño sin pedir consejo, evita el desacuerdo por miedo a perder el apoyo, y cuando una relación termina, busca otra de inmediato para no quedarse sola. ¿La causa? Suele nacer de una crianza sobreprotectora o de vínculos inseguros en la infancia. Un ejemplo: no elige ni el restaurante para cenar sin preguntar antes a tres personas qué harían ellas. ¿Cómo actuar? En lugar de resolverle todo, anímala a decidir por sí misma en cosas pequeñas. Cada decisión propia es un ladrillo más de autonomía."
+      "videoQuery": "corporate strategy chess game",
+      "photoQuery": "ambitious businessman thinking strategy",
+      "narration": "Es un estratega frío que calcula cada paso con el único fin de alcanzar sus propios objetivos personales. Por fuera exhibe un trato amable, encantador y diplomático, pero por dentro mantiene una actitud utilitaria hacia los seres humanos. Las señales son el cálculo frío en cada acción, la ausencia de remordimientos e instrumentalizar las relaciones. ¿Por qué se comporta así? Para obtener poder, estatus o beneficio personal sin importar los costes. Un ejemplo: hacerse el mejor amigo de un compañero de trabajo solo para arrebatarle un ascenso. ¿Cómo responder? Mantén una relación estrictamente profesional y vigila la información que compartes."
     },
     {
-      "id": "v11",
-      "key": "obsesivo",
-      "name": "OBSESIVO",
-      "group": "GRUPO C",
-      "color": "#4dd0e1",
-      "main": "ruler",
-      "def": "Orden y control perfectos",
+      "id": "v06",
+      "key": "item5",
+      "name": "EL PSICÓPATA INTEGRADO",
+      "group": "",
+      "color": "#f06292",
+      "main": "venetian-mask",
+      "def": "Carece de empatía profunda",
       "fuera": [
-        "briefcase",
-        "El trabajador ideal"
+        "sparkles",
+        "Encantador y muy sereno"
       ],
       "dentro": [
-        "lock",
-        "Atrapado por sus reglas"
+        "skull",
+        "Desconexión emocional total"
       ],
       "senales": [
         {
-          "icon": "ruler",
+          "icon": "message-circle",
           "color": "#ffd54f",
-          "label": "Perfeccionismo"
+          "label": "Mentiras compulsivas"
         },
         {
-          "icon": "list-checks",
+          "icon": "flame",
           "color": "#ff8c1a",
-          "label": "Controla todo"
+          "label": "Crueldad encubierta"
         },
         {
-          "icon": "briefcase",
+          "icon": "door-open",
           "color": "#4db6ac",
-          "label": "Adicto al trabajo"
+          "label": "Explotación de confianza"
         }
       ],
       "causa": [
-        "trophy",
-        "Solo se valoraba el logro"
+        "zap",
+        "Necesidad de dominación absoluta"
       ],
-      "ejemploTitle": "El informe…",
+      "ejemploTitle": "Sabotaje anónimo en oficina",
       "consejo": [
-        "circle-check",
-        "«Hecho» gana a «perfecto»"
+        "list-checks",
+        "Documenta todas las interacciones"
       ],
-      "videoQuery": "organizing cleaning desk office",
-      "photoQuery": "tidy organized desk workspace",
-      "narration": "Y cerramos con el obsesivo-compulsivo de la personalidad. Cuidado, porque no es lo mismo que el toc: aquí no hay rituales angustiosos, sino una obsesión con el orden, el control y el perfeccionismo. Por fuera parece el trabajador ideal, ordenado y responsable; por dentro vive atrapado por sus propias reglas. Las señales: rigidez, atención excesiva a las normas y a los detalles, dificultad para delegar porque nadie lo hace suficientemente bien, y una entrega al trabajo que deja fuera el ocio y las relaciones. Para esta persona, hacer las cosas perfectas importa más que llegar a terminarlas. ¿De dónde viene? De una mezcla de temperamento y entornos donde solo se valoraba el logro. Un ejemplo: no entrega un informe a tiempo porque lleva días ajustando márgenes y tipografías que nadie va a mirar. ¿Cómo tratar con alguien así? Reconoce su esfuerzo, pero ayúdale a ver que suficientemente bueno a tiempo casi siempre gana a perfecto demasiado tarde."
+      "videoQuery": "sinister smiling man suit business",
+      "photoQuery": "corporate backstabbing office environment",
+      "narration": "Este perfil carece de empatía profunda y se camufla perfectamente en entornos cotidianos como el trabajo. Por fuera proyecta encanto superficial, carisma y serenidad bajo presión, pero por dentro hay una ausencia total de culpa y remordimiento. Las señales son la mentira patológica compulsiva, la crueldad encubierta y la explotación de la confianza. ¿Por qué actúa de esta manera? Debido a una desconexión emocional que le impulsa a buscar emociones fuertes y dominio. Un ejemplo: sabotear un proyecto común de forma anónima mientras felicita públicamente a los afectados. ¿Cómo responder? Documenta todo por escrito y minimiza la interacción directa."
+    },
+    {
+      "id": "v07",
+      "key": "item6",
+      "name": "EL TRIANGULADOR",
+      "group": "",
+      "color": "#ffb300",
+      "main": "users",
+      "def": "Genera conflictos con terceros",
+      "fuera": [
+        "handshake",
+        "Mediador bienintencionado"
+      ],
+      "dentro": [
+        "bug",
+        "Deseo de control social"
+      ],
+      "senales": [
+        {
+          "icon": "arrow-up",
+          "color": "#ffd54f",
+          "label": "Comparaciones constantes"
+        },
+        {
+          "icon": "megaphone",
+          "color": "#ff8c1a",
+          "label": "Difusión de rumores"
+        },
+        {
+          "icon": "alert-triangle",
+          "color": "#4db6ac",
+          "label": "Creación de rivalidades"
+        }
+      ],
+      "causa": [
+        "target",
+        "Temor a la unión ajena"
+      ],
+      "ejemploTitle": "Malos entendidos provocados",
+      "consejo": [
+        "phone",
+        "Habla siempre directamente"
+      ],
+      "videoQuery": "two people whispering secret",
+      "photoQuery": "gossip office whispering women",
+      "narration": "Utiliza a terceras personas para generar celos, desconfianza y rivalidad en su círculo cercano. Por fuera aparenta ser un mediador bienintencionado que solo comunica información, pero por dentro busca controlar el grupo mediante el conflicto ajeno. Las señales son las comparaciones constantes, la filtración de chismes y crear rivalidades artificiales. ¿Por qué recurre a esto? Para mantenerse en el centro de atención y debilitar las alianzas de los demás. Un ejemplo: contarle a una amiga lo que la otra supuestamente dijo de ella para que se peleen. ¿Cómo responder? Verifica la información directamente con la otra parte interesada."
+    },
+    {
+      "id": "v08",
+      "key": "item7",
+      "name": "EL CHANTAJISTA EMOCIONAL",
+      "group": "",
+      "color": "#ffd54f",
+      "main": "heart-crack",
+      "def": "Exige usando la culpa",
+      "fuera": [
+        "heart",
+        "Muestra afecto preocupado"
+      ],
+      "dentro": [
+        "lock",
+        "Pánico al abandono"
+      ],
+      "senales": [
+        {
+          "icon": "ban",
+          "color": "#ffd54f",
+          "label": "Ultimátums frecuentes"
+        },
+        {
+          "icon": "volume-x",
+          "color": "#ff8c1a",
+          "label": "Ley del hielo"
+        },
+        {
+          "icon": "angry",
+          "color": "#4db6ac",
+          "label": "Generación de culpa"
+        }
+      ],
+      "causa": [
+        "shield-alert",
+        "Miedo al desamparo afectivo"
+      ],
+      "ejemploTitle": "Amago de ruptura condicional",
+      "consejo": [
+        "door-closed",
+        "No cedas al chantaje"
+      ],
+      "videoQuery": "couple arguing emotional threat",
+      "photoQuery": "crying partner relationship conflict",
+      "narration": "Emplea el miedo, la obligación y la culpa para doblegar la voluntad de las personas que le rodean. Por fuera demuestra una intensa preocupación afectiva y apego, pero por dentro esconde un pánico visceral al abandono y al rechazo. Las señales son los ultimátums constantes, amenazar con la retirada del afecto y generar un castigo silencioso. ¿Por qué usa esta estrategia? Para garantizar el control inmediato sin importar el malestar de la pareja o amigo. Un ejemplo: decir que si sales con tus amigos es porque realmente ya no le quieres. ¿Cómo responder? Identifica la extorsión emocional y mantén tus decisiones firmes."
+    },
+    {
+      "id": "v09",
+      "key": "item8",
+      "name": "EL PASIVO-AGRESIVO",
+      "group": "",
+      "color": "#4db6ac",
+      "main": "smile",
+      "def": "Muestra hostilidad indirecta",
+      "fuera": [
+        "thumbs-up",
+        "Cooperativo y sumiso"
+      ],
+      "dentro": [
+        "flame",
+        "Resentimiento acumulado"
+      ],
+      "senales": [
+        {
+          "icon": "zap",
+          "color": "#ffd54f",
+          "label": "Sarcasmo punzante"
+        },
+        {
+          "icon": "clock",
+          "color": "#ff8c1a",
+          "label": "Retrasos deliberados"
+        },
+        {
+          "icon": "ban",
+          "color": "#4db6ac",
+          "label": "Resistencia silenciosa"
+        }
+      ],
+      "causa": [
+        "circle-help",
+        "Miedo al enfrentamiento directo"
+      ],
+      "ejemploTitle": "Entregar tareas tarde adrede",
+      "consejo": [
+        "message-circle",
+        "Pide claridad directa"
+      ],
+      "videoQuery": "passive aggressive colleague smiling",
+      "photoQuery": "annoyed office worker sarcastic",
+      "narration": "Expresa la hostilidad y el enojo de forma indirecta en lugar de comunicarse abiertamente. Por fuera se muestra cooperativo y complaciente en el trato diario, pero por dentro acumula una gran frustración y resentimiento no resuelto. Las señales son el sarcasmo hiriente, los descuidos intencionados y la resistencia silenciosa a peticiones. ¿Por qué elige este camino? Por el temor a la confrontación directa y la falta de asertividad. Un ejemplo: aceptar realizar una tarea importante para luego entregarla tarde y mal a propósito. ¿Cómo responder? Exige comunicación directa y no entres en su juego sarcástico."
     }
   ]
 }
