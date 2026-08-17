@@ -56,6 +56,7 @@ const ItemScene: React.FC<{ d: Item; a: A; n: number; frames: number }> = ({ d, 
   const lf = frame - B[si];
   const photo = `media/${d.key}_photo.jpg`;
   const video = `media/${d.key}_vid.mp4`;
+  const video2 = `media/${d.key}_vid2.mp4`;
   const sc = a.causa - a.senales;
   return (
     <AbsoluteFill>
@@ -87,9 +88,10 @@ const ItemScene: React.FC<{ d: Item; a: A; n: number; frames: number }> = ({ d, 
             </React.Fragment>); })}
         </>}
         {si === 3 && <>
-          <El p={ap(lf, 0)} x={960} y={210}><T s={58} c="#bbb" heavy>¿POR QUÉ APARECE?</T></El>
-          <El p={ap(lf, 30)} x={520} y={620} from={-120}><Win img={photo} w={720} title={d.name} accent={d.color} h={430} /></El>
-          <El p={ap(lf, 70)} x={1420} y={580}><T s={70} w={820} heavy>{d.causa[1]}</T></El>
+          <El p={ap(lf, 0)} x={960} y={180}><T s={56} c="#bbb" heavy>¿POR QUÉ APARECE?</T></El>
+          <El p={ap(lf, 20)} x={300} y={600} from={-150}><div style={{ transform: `${bob(frame, 2)}`, transformOrigin: "bottom center" }}><Stick head={iconHead(d.causa[0], d.color)} pose="pointR" /></div></El>
+          <El p={ap(lf, 40)} x={560} y={600}><Chev f={frame} c={d.color} /></El>
+          <El p={ap(lf, 60)} x={1250} y={560} from={140}><Win video={video2} videoFrom={a.causa} w={880} title={d.causa[1]} accent={d.color} h={400} /></El>
         </>}
         {si === 4 && <>
           <El p={ap(lf, 0)} x={300} y={560} from={-150}><div style={{ transform: bob(frame, 2), transformOrigin: "bottom center" }}><Stick head={iconHead(d.main, d.color)} pose="pointR" /></div></El>
