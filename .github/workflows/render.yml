@@ -27,9 +27,12 @@ jobs:
           node-version: 20
 
       - name: Dependencias del sistema (ffmpeg + libs del Chrome de Remotion)
+        timeout-minutes: 10
+        env:
+          DEBIAN_FRONTEND: noninteractive
         run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg \
+          sudo apt-get update -o DPkg::Lock::Timeout=180
+          sudo apt-get install -y --no-install-recommends -o DPkg::Lock::Timeout=180 ffmpeg \
             libnss3 libdbus-1-3 libatk1.0-0 libgbm-dev libasound2 \
             libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 \
             libatk-bridge2.0-0 libpango-1.0-0 libcairo2 libcups2
