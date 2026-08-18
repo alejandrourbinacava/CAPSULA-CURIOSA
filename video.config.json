@@ -1,390 +1,344 @@
 {
-  "title": "Cada Experimento Psicológico Prohibido",
+  "title": "Todo lo que le pasa a tu cerebro sin dormir",
   "fps": 30,
   "voiceId": "851ejYcv2BoNPjrkw93G",
   "speed": 1.08,
-  "cornerIcon": "zap",
+  "cornerIcon": "brain",
   "handle": "@CapsulaCuriosa",
   "intro": {
     "id": "v00",
-    "narration": "Imagina participar en un experimento psicológico sin saber que, en realidad, eres tú el verdadero objeto de estudio. Durante gran parte del siglo veinte, algunos de los científicos más influyentes de la historia cruzaron límites que hoy nos parecerían impensables: engañaron a bebés, aislaron a crías de mono, drogaron a personas sin su permiso y empujaron a voluntarios normales hasta el borde de la crueldad, todo en nombre de la ciencia. Estos estudios cambiaron para siempre lo que sabemos sobre la mente humana, pero también dejaron heridas reales y dilemas éticos que tardaron décadas en resolverse. Hoy vamos a destapar ocho de los experimentos psicológicos más prohibidos y polémicos de todos los tiempos."
+    "narration": "Llevas veinticuatro horas despierto y ya sientes la mente espesa, pero eso es solo el principio de un viaje que tu cerebro no debería hacer nunca. ¿Qué pasa exactamente dentro de tu cabeza cuando el sueño desaparece hora tras hora? La ciencia ha seguido a personas privadas de sueño durante días enteros y lo que han descubierto es fascinante y también un poco inquietante: alucinaciones, paranoia, cambios hormonales y hasta estados que se parecen a la psicosis. En este vídeo vamos a recorrer, hora por hora, todo lo que le ocurre a tu mente y a tu cuerpo cuando decides no dormir. Quédate hasta el final."
   },
   "grupos": {
     "id": "v01",
-    "narration": "Vamos a repasar, uno por uno, estos ocho experimentos: desde la obediencia ciega de Milgram hasta la identidad forzada de David Reimer, pasando por cárceles simuladas, monos aislados y proyectos secretos de control mental. Prepárate, porque la historia de la psicología tiene un lado muy oscuro."
+    "narration": "Vamos a repasar siete etapas clave, desde las primeras dieciséis horas hasta pasar los tres días sin dormir, y también qué ocurre cuando tu cerebro por fin puede recuperarse. Empezamos."
   },
   "outro": {
-    "id": "v10",
-    "narration": "Estos experimentos nos enseñaron muchísimo sobre la mente humana, pero también nos recordaron que la ciencia necesita límites éticos claros para proteger a quienes participan en ella. Si te ha gustado este repaso por la psicología más polémica de la historia, suscríbete a Cápsula Curiosa para no perderte los próximos vídeos."
+    "id": "v09",
+    "narration": "Como has visto, el sueño no es un lujo, es una necesidad biológica que tu cerebro reclama cada noche sin excepción. Espero que este recorrido te haya servido para valorar cada hora de descanso que le regalas a tu mente. Si te ha gustado, suscríbete a Cápsula Curiosa para seguir descubriendo cómo funciona tu cuerpo. ¡Nos vemos en el próximo vídeo!"
   },
   "items": [
     {
       "id": "v02",
       "key": "item1",
-      "name": "EL EXPERIMENTO DE MILGRAM",
+      "name": "16 HORAS: EL EFECTO 'BORRACHO'",
       "group": "",
       "color": "#e57373",
-      "main": "zap",
-      "def": "Obediencia a la autoridad",
+      "main": "brain",
+      "def": "Como estar ebrio",
       "fuera": [
-        "user",
-        "Prueba de memoria"
+        "eye",
+        "Ojos rojos, bostezos"
       ],
       "dentro": [
-        "brain",
-        "Medir obediencia"
+        "activity",
+        "Reflejos más lentos"
       ],
       "senales": [
         {
-          "icon": "circle-help",
+          "icon": "frown",
           "color": "#ffd54f",
-          "label": "Engaño total"
+          "label": "Bostezos frecuentes"
         },
         {
-          "icon": "shield-alert",
+          "icon": "gauge",
           "color": "#ff8c1a",
-          "label": "Sin consentimiento"
+          "label": "Reacción lenta"
         },
         {
-          "icon": "heart-crack",
+          "icon": "puzzle",
           "color": "#4db6ac",
-          "label": "Sufrimiento real"
+          "label": "Falta de concentración"
         }
       ],
       "causa": [
-        "megaphone",
-        "Obediencia ciega"
+        "atom",
+        "Acumulación de adenosina"
       ],
-      "ejemploTitle": "El voltaje de Prozzi",
+      "ejemploTitle": "Conductor de camión",
       "consejo": [
-        "circle-check",
-        "Cuestiona la autoridad"
+        "clock",
+        "Descansos cada 2h"
       ],
-      "videoQuery": "electric shock machine experiment vintage",
-      "photoQuery": "old electric generator dial",
-      "narration": "En 1961, en la Universidad de Yale, el psicólogo Stanley Milgram diseñó uno de los experimentos más citados de la historia de la psicología: el estudio de la obediencia a la autoridad. La idea era sencilla y aterradora a la vez: ¿hasta qué punto una persona normal es capaz de hacer daño a otra si una figura de autoridad se lo ordena? Los participantes creían estar aplicando descargas eléctricas cada vez más intensas a otra persona por cada respuesta incorrecta en un juego de memoria. Por fuera, parecía un simple estudio sobre aprendizaje y castigo; por dentro, en realidad se medía hasta dónde llega la obediencia ciega, mientras la víctima gritaba de dolor sin recibir ninguna descarga real, todo era una actuación. Las señales de que algo iba mal eran claras: el engaño total a los participantes, la ausencia de un consentimiento informado real, y el sufrimiento psicológico genuino que muchos sintieron al creer que torturaban a un inocente. ¿Por qué se prohibió después replicarlo tal cual? Porque provocó angustia extrema, ataques de ansiedad y culpa duradera en quienes participaron, sin ningún protocolo para protegerlos emocionalmente. Un ejemplo: uno de los sujetos, un hombre llamado Fred Prozzi, llegó a reírse nerviosamente mientras subía el voltaje, atrapado entre el deseo de parar y la presión de obedecer al investigador con bata blanca. ¿Cómo podemos hoy aplicar esta lección? Cuestionando siempre las órdenes que chocan con nuestra conciencia, por muy legítima que parezca la autoridad que las da."
+      "videoQuery": "tired truck driver night driving",
+      "photoQuery": "exhausted man yawning car",
+      "narration": "Después de dieciséis horas sin pegar ojo, tu cerebro entra en un estado que los científicos comparan, literalmente, con estar borracho. No es una exageración: estudios han demostrado que tu capacidad de reacción y tu coordinación se parecen a las de alguien con un cero coma cinco de alcohol en sangre, aunque no hayas probado ni una gota. Por fuera, notas los ojos rojos, los párpados pesados y bostezos que no puedes controlar; por dentro, tus neuronas empiezan a comunicarse más despacio porque una sustancia llamada adenosina se ha ido acumulando en tu cerebro toda la jornada, como un aviso de que necesita parar. Las señales son claras: primero llegan los bostezos frecuentes, casi cada minuto; después notas que tardas más en reaccionar a lo que pasa a tu alrededor, como si todo se moviera en cámara lenta; y por último te cuesta concentrarte, tu mente se va y pierdes el hilo de lo que estabas haciendo. ¿Por qué ocurre esto? Porque la adenosina bloquea las señales que te mantienen alerta, empujando a tu cerebro hacia el sueño aunque tú intentes resistirte con café o fuerza de voluntad. Un ejemplo: un camionero que lleva dieciséis horas al volante puede tener los mismos reflejos que alguien que ha bebido dos copas de vino, sin haberlas probado. ¿Cómo evitarlo? Haciendo paradas cada dos horas, estirando las piernas y, sobre todo, reconociendo que ningún café sustituye a una cabezada real."
     },
     {
       "id": "v03",
       "key": "item2",
-      "name": "LA CÁRCEL DE STANFORD",
+      "name": "24 HORAS: UN DÍA ENTERO DESPIERTO",
       "group": "",
       "color": "#90a4ae",
-      "main": "lock",
-      "def": "Poder y sumisión",
+      "main": "hourglass",
+      "def": "Un día completo despierto",
       "fuera": [
-        "users",
-        "Juego de rol"
+        "user",
+        "Cara pálida, ojeras"
       ],
       "dentro": [
-        "angry",
-        "Abuso descontrolado"
+        "brain",
+        "Memoria a corto plazo falla"
       ],
       "senales": [
         {
-          "icon": "angry",
-          "color": "#ffd54f",
-          "label": "Abuso de guardias"
-        },
-        {
-          "icon": "frown",
-          "color": "#ff8c1a",
-          "label": "Crisis de presos"
-        },
-        {
           "icon": "circle-help",
+          "color": "#ffd54f",
+          "label": "Errores tontos"
+        },
+        {
+          "icon": "angry",
+          "color": "#ff8c1a",
+          "label": "Irritabilidad"
+        },
+        {
+          "icon": "glasses",
           "color": "#4db6ac",
-          "label": "Investigador implicado"
+          "label": "Visión borrosa"
         }
       ],
       "causa": [
-        "crown",
-        "Poder deshumaniza"
+        "zap",
+        "Neuronas sin descanso"
       ],
-      "ejemploTitle": "El guardia John Wayne",
+      "ejemploTitle": "Estudiante en examen",
       "consejo": [
-        "scale",
-        "Vigila el poder"
+        "bed",
+        "Siesta de 20 min"
       ],
-      "videoQuery": "prison guards prisoners reenactment black white",
-      "photoQuery": "prison cell bars black white",
-      "narration": "En el verano de 1971, el psicólogo Philip Zimbardo transformó el sótano del departamento de psicología de Stanford en una cárcel simulada para estudiar cómo el poder y los roles asignados cambian el comportamiento humano. Reclutó a veinticuatro estudiantes universitarios, sanos y estables, y los dividió al azar en guardias y presos. Por fuera, era un simple juego de rol con fines académicos, con normas, uniformes y horarios; por dentro, se convirtió en una espiral real de abuso, humillación y sumisión que nadie supo frenar a tiempo. Las señales de descontrol aparecieron pronto: los guardias empezaron a humillar a los presos con castigos crueles, los presos mostraron crisis de ansiedad genuinas, y el propio Zimbardo, metido en el papel de director de la prisión, dejó de actuar como investigador objetivo. ¿Por qué se detuvo el experimento a solo seis días de los catorce planificados? Porque una colega, Christina Maslach, visitó las instalaciones y quedó horrorizada al ver el nivel de deshumanización alcanzado, obligando a Zimbardo a reconocer que había perdido el control. Un ejemplo: un guardia apodado John Wayne desarrolló una crueldad tan teatral y constante que hoy sigue siendo el rostro simbólico de cómo un uniforme puede transformar a cualquier persona común. ¿Cómo evitamos que el poder nos ciegue en la vida real? Vigilando activamente los límites éticos cuando ocupamos posiciones de autoridad, y permitiendo siempre una voz externa que pueda decir basta."
+      "videoQuery": "student studying exhausted night exam",
+      "photoQuery": "tired student desk night",
+      "narration": "Cuando cumples veinticuatro horas sin dormir, tu cerebro lleva ya un día entero funcionando sin la pausa de mantenimiento que necesita cada noche, y eso se traduce en un deterioro que empieza a notarse en casi todo lo que haces. Es la misma sensación que tendrías tras una noche de fiesta que se alarga hasta el amanecer siguiente: la mente se vuelve espesa y torpe. Por fuera, tu piel se ve pálida, aparecen ojeras marcadas y tu postura se vuelve más encorvada; por dentro, la corteza prefrontal, la zona que organiza tus decisiones, empieza a fallar y tu memoria a corto plazo se vuelve poco fiable. Las señales se notan enseguida: cometes errores tontos que normalmente no harías, como escribir mal una palabra sencilla; te vuelves más irritable con quien tienes al lado sin motivo real; y tu visión se vuelve borrosa, te cuesta enfocar la pantalla o un texto. ¿Por qué pasa esto? Porque tus neuronas llevan veinticuatro horas trabajando sin el proceso de limpieza que ocurre durante el sueño profundo, y empiezan a comunicarse de forma caótica. Un ejemplo: un estudiante que pasa la noche entera estudiando para un examen suele rendir peor que si hubiera dormido y repasado menos horas, porque su cerebro ya no retiene bien la información nueva. ¿Cómo puedes frenar el daño? Con una siesta corta de veinte minutos, que aunque no sustituye una noche completa, ayuda a recuperar algo de claridad mental de forma inmediata."
     },
     {
       "id": "v04",
       "key": "item3",
-      "name": "EL PEQUEÑO ALBERT",
+      "name": "36 HORAS: EL CUERPO PIDE AUXILIO",
       "group": "",
       "color": "#ba68c8",
-      "main": "baby",
-      "def": "Miedo condicionado",
+      "main": "bed",
+      "def": "Sueño físico intenso",
       "fuera": [
-        "baby",
-        "Bebé y rata"
+        "activity",
+        "Manos temblorosas"
       ],
       "dentro": [
-        "alert-triangle",
-        "Susto inducido"
+        "gauge",
+        "Hormonas del hambre alteradas"
       ],
       "senales": [
         {
-          "icon": "ban",
+          "icon": "flame",
           "color": "#ffd54f",
-          "label": "Sin consentimiento"
+          "label": "Antojos de azúcar"
         },
         {
-          "icon": "heart-crack",
+          "icon": "moon",
           "color": "#ff8c1a",
-          "label": "Miedo no revertido"
+          "label": "Microsueños"
         },
         {
-          "icon": "frown",
+          "icon": "message-circle",
           "color": "#4db6ac",
-          "label": "Miedo generalizado"
+          "label": "Habla más lenta"
         }
       ],
       "causa": [
-        "brain",
-        "Condicionar el miedo"
+        "dna",
+        "Desequilibrio hormonal"
       ],
-      "ejemploTitle": "La máscara de Santa",
+      "ejemploTitle": "Médico residente de guardia",
       "consejo": [
-        "shield",
-        "Cuida las fobias"
+        "list-checks",
+        "Proteína e hidratación"
       ],
-      "videoQuery": "white rat baby experiment vintage psychology",
-      "photoQuery": "white rat close up",
-      "narration": "En 1920, el psicólogo John B. Watson y su ayudante Rosalie Rayner quisieron demostrar que el miedo se podía aprender igual que cualquier otra conducta. Para ello usaron a un bebé de apenas nueve meses, conocido como el Pequeño Albert, a quien primero mostraron una rata blanca sin ninguna reacción de temor. Por fuera, el experimento parecía una simple observación infantil con animales; por dentro, los investigadores golpeaban una barra de metal con un martillo justo detrás de la cabeza del niño cada vez que aparecía la rata, generando un susto brutal y repetido. Las señales de que aquello cruzaba una línea ética son evidentes hoy: no existía consentimiento informado real por parte de la familia, nunca se revirtió el miedo inducido, y el niño terminó generalizando ese pánico a objetos peludos como conejos, perros e incluso un abrigo de piel. ¿Por qué resulta tan grave este caso desde la psicología actual? Porque se causó un daño emocional duradero a un menor indefenso sin ningún plan de reparación, y Albert desapareció del seguimiento científico, dejando su destino envuelto en misterio durante décadas. Un ejemplo: cuando le mostraban una máscara de Papá Noel con barba blanca, el pequeño Albert lloraba y se apartaba gateando, aterrado, igual que ante la rata original. ¿Cómo entendemos hoy ese aprendizaje del miedo sin repetir el error? Reconociendo que las emociones se condicionan con facilidad en la infancia, y que revertirlas exige siempre cuidado profesional y ético."
+      "videoQuery": "exhausted doctor hospital night shift",
+      "photoQuery": "tired doctor hospital corridor night",
+      "narration": "A las treinta y seis horas sin dormir, tu cuerpo empieza a mandar señales de alarma física, no solo mental, porque el sueño ya no es solo una cuestión de cansancio sino de supervivencia hormonal. Tu organismo entra en un estado parecido al estrés crónico, liberando cortisol de forma descontrolada mientras las hormonas que regulan el hambre se desajustan por completo. Por fuera, notas las manos temblorosas, la piel más fría y una palidez notable en la cara; por dentro, la grelina, la hormona del hambre, se dispara mientras la leptina, la que te avisa de que estás saciado, cae en picado. Las señales son evidentes: aparecen antojos intensos de azúcar y comida rápida porque el cuerpo busca energía urgente; sufres microsueños, esos segundos en los que te desconectas sin darte cuenta, a veces con los ojos abiertos; y tu forma de hablar se vuelve más lenta, arrastras las palabras como si estuvieras medio dormido. ¿Por qué sucede esto? Porque tu sistema nervioso, agotado, prioriza mantenerte despierto a cualquier precio y descuida el equilibrio hormonal que normalmente regula el hambre y el estrés. Un ejemplo: un médico residente que lleva treinta y seis horas de guardia puede pedir comida basura sin darse cuenta de por qué la necesita tanto, simplemente porque su cuerpo grita por calorías rápidas. ¿Cómo puedes ayudarte en ese punto? Priorizando proteína e hidratación en lugar de azúcar, y aceptando pequeñas cabezadas de cinco minutos si el cuerpo te lo pide."
     },
     {
       "id": "v05",
       "key": "item4",
-      "name": "EL MONSTER STUDY",
+      "name": "48 HORAS: LAS DEFENSAS CAEN",
       "group": "",
       "color": "#607d8b",
-      "main": "volume-x",
-      "def": "Tartamudez inducida",
+      "main": "moon",
+      "def": "Dos días sin dormir",
       "fuera": [
-        "graduation-cap",
-        "Terapia del habla"
+        "eye",
+        "Párpados caídos, tics"
       ],
       "dentro": [
-        "megaphone",
-        "Crítica constante"
+        "shield",
+        "Sistema inmune debilitado"
       ],
       "senales": [
         {
-          "icon": "frown",
+          "icon": "moon",
           "color": "#ffd54f",
-          "label": "Habla dañada"
+          "label": "Microsueños constantes"
         },
         {
-          "icon": "heart-crack",
+          "icon": "scan-face",
           "color": "#ff8c1a",
-          "label": "Ansiedad severa"
+          "label": "Percepción alterada"
         },
         {
-          "icon": "lock",
+          "icon": "alert-triangle",
           "color": "#4db6ac",
-          "label": "Secreto 60 años"
+          "label": "Dolor de cabeza"
         }
       ],
       "causa": [
-        "skull",
-        "Miedo a comparación nazi"
+        "microscope",
+        "Menos células defensivas"
       ],
-      "ejemploTitle": "El silencio de Mary",
+      "ejemploTitle": "Soldado en entrenamiento",
       "consejo": [
-        "banknote",
-        "Repara el daño"
+        "circle-check",
+        "Buscar ayuda, dormir ya"
       ],
-      "videoQuery": "orphanage children 1930s black white",
-      "photoQuery": "vintage orphanage building",
-      "narration": "En 1939, en la Universidad de Iowa, el investigador Wendell Johnson y su estudiante Mary Tudor diseñaron un experimento con veintidós niños huérfanos para comprobar si la tartamudez podía originarse por la forma en que los adultos hablan a los niños. Por fuera, se presentó como una simple terapia del habla dentro del orfanato; por dentro, a la mitad de los menores se les daba retroalimentación negativa constante, diciéndoles que hablaban mal aunque no tartamudearan, mientras a la otra mitad se les elogiaba sin condiciones. Las señales del daño fueron inmediatas: varios niños desarrollaron problemas reales de habla, otros mostraron ansiedad severa al hablar en público, y algunos arrastraron esa inseguridad durante el resto de sus vidas adultas. ¿Por qué se mantuvo en secreto durante décadas? Porque el propio Johnson temía las comparaciones con los experimentos nazis de la época y ordenó ocultar los resultados, que solo salieron a la luz gracias a periodistas en el año 2001. Un ejemplo: una de las participantes, Mary Nixon, contó de adulta que jamás volvió a sentirse segura hablando con extraños, cargando durante sesenta años con una vergüenza nacida en aquellas sesiones. ¿Cómo se resolvió finalmente esta injusticia? El estado de Iowa terminó pagando indemnizaciones millonarias en 2007 a los supervivientes, reconociendo oficialmente el daño psicológico infligido, y hoy el caso se enseña como ejemplo máximo de investigación sin ética con menores vulnerables."
+      "videoQuery": "exhausted soldier military training sleep deprivation",
+      "photoQuery": "tired man rubbing eyes headache",
+      "narration": "Llegar a las cuarenta y ocho horas sin dormir significa que tu cerebro lleva dos jornadas completas exigiéndose sin la reparación nocturna, y en ese punto el cuerpo empieza a fallar en frentes que van mucho más allá del cansancio mental. Tu sistema inmunitario, que depende del sueño profundo para fabricar defensas, se debilita de forma medible, dejándote más expuesto a resfriados y virus comunes. Por fuera, los párpados caen solos y aparecen pequeños tics musculares en la cara o los ojos; por dentro, la producción de células que combaten infecciones se reduce notablemente, según han medido varios estudios de laboratorio. Las señales a estas alturas son intensas: sufres microsueños constantes, de varios segundos, incluso estando de pie; tu percepción de la realidad se distorsiona un poco, los colores parecen más apagados o los sonidos más lejanos; y aparece un dolor de cabeza persistente que no se va con nada. ¿Por qué ocurre todo esto de golpe? Porque el cerebro, desesperado por descansar, empieza a robar microsueños de segundos sin tu permiso, mientras el cuerpo entero entra en un modo de ahorro de energía que sacrifica funciones que considera secundarias, como las defensas. Un ejemplo: en entrenamientos militares de resistencia, los soldados que superan las cuarenta y ocho horas despiertos empiezan a caerse de pie durante segundos sin darse cuenta, literalmente dormidos con los ojos abiertos. ¿Cómo actuar si llegas a este punto? Buscando ayuda de alguien cercano y priorizando dormir de inmediato, porque el cuerpo ya está pidiendo auxilio real."
     },
     {
       "id": "v06",
       "key": "item5",
-      "name": "LOS MONOS DE HARLOW",
+      "name": "60-72 HORAS: ALUCINACIONES",
       "group": "",
       "color": "#f06292",
-      "main": "heart-off",
-      "def": "Apego y aislamiento",
+      "main": "ghost",
+      "def": "Alucinaciones leves",
       "fuera": [
-        "dna",
-        "Estudio del apego"
+        "eye",
+        "Mirada perdida"
       ],
       "dentro": [
-        "heart-crack",
-        "Aislamiento extremo"
+        "scan-face",
+        "Corteza visual desregulada"
       ],
       "senales": [
         {
-          "icon": "activity",
+          "icon": "ghost",
           "color": "#ffd54f",
-          "label": "Balanceo repetitivo"
+          "label": "Ver sombras que no existen"
         },
         {
-          "icon": "angry",
+          "icon": "shield-alert",
           "color": "#ff8c1a",
-          "label": "Autolesión constante"
+          "label": "Paranoia leve"
         },
         {
-          "icon": "users",
+          "icon": "clock",
           "color": "#4db6ac",
-          "label": "Sin vínculo social"
+          "label": "Desorientación temporal"
         }
       ],
       "causa": [
         "brain",
-        "Obsesión científica"
+        "Cerebro entra en sueño parcial"
       ],
-      "ejemploTitle": "El abrazo del mono 106",
+      "ejemploTitle": "Récord mundial de vigilia",
       "consejo": [
-        "hand",
-        "Valora el contacto"
+        "alert-triangle",
+        "Nunca llegar aquí"
       ],
-      "videoQuery": "rhesus monkey experiment wire mother cloth",
-      "photoQuery": "baby monkey cage",
-      "narration": "Durante los años cincuenta y sesenta, el psicólogo Harry Harlow separó a crías de mono rhesus de sus madres justo al nacer para estudiar la naturaleza del apego afectivo. Colocó a los pequeños en jaulas con dos figuras artificiales: una madre de alambre que ofrecía leche y otra cubierta de felpa suave sin comida. Por fuera, el estudio buscaba entender científicamente el vínculo materno; por dentro, implicaba un aislamiento social extremo que dejó secuelas psicológicas devastadoras en decenas de animales durante años de experimentación continuada. Las señales del sufrimiento eran innegables: los monos aislados se balanceaban de forma repetitiva sin sentido, mordían su propio cuerpo hasta lastimarse, y de adultos eran incapaces de relacionarse con otros monos o de cuidar a sus propias crías. ¿Por qué siguió adelante Harlow con experimentos cada vez más crueles, incluida una cámara que llamó el pozo de la desesperación? Porque estaba obsesionado con demostrar que el amor y el contacto físico eran necesidades biológicas básicas, y consideraba que el fin justificaba medios dolorosos para los animales. Un ejemplo: una cría llamada simplemente 106 se abrazaba desesperadamente a la madre de felpa durante horas, buscando un consuelo que ningún objeto artificial podía ofrecerle. ¿Cómo cambió esto la ciencia del apego para siempre? Sus hallazgos, aun siendo crueles en su método, ayudaron a transformar la crianza hospitalaria y a demostrar la importancia real del contacto afectivo temprano."
+      "videoQuery": "sleep deprivation hallucination experiment record",
+      "photoQuery": "disoriented man staring blankly",
+      "narration": "Entre las sesenta y las setenta y dos horas sin dormir, tu mente entra en un terreno que ya se parece más a la ciencia ficción que a un simple cansancio, porque el cerebro comienza a mezclar la vigilia con fragmentos de sueño sin que tú lo controles. Es el fenómeno conocido como microsueño despierto, donde partes de tu cerebro se duermen mientras otras siguen activas, generando percepciones extrañas. Por fuera, tu mirada se queda perdida, casi vacía, y te mueves con torpeza como un robot; por dentro, la corteza visual empieza a generar imágenes que no existen porque recibe señales desordenadas de zonas cerebrales que ya están dormidas parcialmente. Las señales en esta fase asustan un poco: puedes ver sombras o formas moviéndose por el rabillo del ojo que no están ahí; aparece una paranoia leve, sientes que algo va mal sin motivo claro; y pierdes la noción del tiempo, no sabes si ha pasado una hora o cinco. ¿Por qué pasa esto tan intenso? Porque el cerebro, privado de sueño durante tanto tiempo, empieza a colarte fragmentos de sueño REM mientras sigues despierto, mezclando realidad y ensueño en la misma escena. Un ejemplo: en el famoso experimento de Randy Gardner, que estuvo despierto once días en 1964, a partir de las setenta horas empezó a ver objetos que no existían y a confundir carteles de la calle con personas. ¿Cómo deberías actuar si notas estas señales en ti o en alguien cercano? Considerándolo una alarma seria y buscando dormir de inmediato, porque el cerebro ya no puede sostener la vigilia con seguridad."
     },
     {
       "id": "v07",
       "key": "item6",
-      "name": "EL PROYECTO MKULTRA",
+      "name": "72+ HORAS: EL LÍMITE PSICOLÓGICO",
       "group": "",
       "color": "#ffb300",
-      "main": "syringe",
-      "def": "Control mental encubierto",
+      "main": "skull",
+      "def": "Estado similar a psicosis",
       "fuera": [
-        "briefcase",
-        "Fachada académica"
+        "message-circle",
+        "Habla incoherente"
       ],
       "dentro": [
-        "pill",
-        "Drogas ocultas"
+        "brain",
+        "Amígdala hiperactiva"
       ],
       "senales": [
         {
-          "icon": "ban",
+          "icon": "shield-alert",
           "color": "#ffd54f",
-          "label": "Sin consentimiento"
+          "label": "Paranoia intensa"
         },
         {
-          "icon": "circle-help",
+          "icon": "drama",
           "color": "#ff8c1a",
-          "label": "Fachada médica"
+          "label": "Cambios de humor extremos"
         },
         {
-          "icon": "ghost",
+          "icon": "puzzle",
           "color": "#4db6ac",
-          "label": "Documentos destruidos"
+          "label": "Incapacidad de razonar"
         }
       ],
       "causa": [
-        "shield-alert",
-        "Guerra Fría"
+        "zap",
+        "Colapso de conexiones neuronales"
       ],
-      "ejemploTitle": "La caída de Frank Olson",
+      "ejemploTitle": "Caso clínico documentado",
       "consejo": [
-        "eye",
-        "Exige transparencia"
+        "alert-triangle",
+        "Emergencia médica real"
       ],
-      "videoQuery": "cold war laboratory vintage syringe",
-      "photoQuery": "old hotel window night",
-      "narration": "Entre 1953 y 1973, la CIA financió en secreto el proyecto MKUltra, un programa que buscaba desarrollar técnicas de control mental utilizando drogas, hipnosis y privación sensorial en seres humanos. Por fuera, muchos estudios se disfrazaban de investigaciones universitarias inocentes sobre creatividad o comportamiento; por dentro, se administraban dosis de LSD y otras sustancias a personas sin su conocimiento, incluyendo pacientes psiquiátricos, presos y ciudadanos comunes captados sin ninguna sospecha. Las señales de esta operación encubierta incluían la total ausencia de consentimiento, el uso de instituciones médicas como fachada, y la destrucción deliberada de miles de documentos en 1973 para borrar cualquier rastro del programa. ¿Por qué salió finalmente a la luz este oscuro capítulo? Porque en 1975 una comisión del Senado estadounidense, conocida como la Comisión Church, investigó los abusos de la CIA y descubrió pruebas suficientes pese al intento de ocultamiento. Un ejemplo: el caso de Frank Olson, un científico del ejército al que le dieron LSD sin saberlo durante una reunión de trabajo, y que murió pocos días después al caer desde la ventana de un hotel en circunstancias todavía hoy muy discutidas. ¿Cómo nos protegemos hoy de abusos institucionales similares? Exigiendo transparencia real en toda investigación financiada con fondos públicos, y fortaleciendo comités éticos independientes capaces de fiscalizar incluso a las agencias más poderosas del estado."
+      "videoQuery": "extreme exhaustion mental breakdown stress",
+      "photoQuery": "distressed man head in hands",
+      "narration": "Superadas las setenta y dos horas sin dormir, el cerebro entra en un territorio que los especialistas describen como muy similar a un episodio de psicosis temporal, aunque no exista ningún trastorno de base, simplemente por la falta acumulada de descanso. Es el punto donde la privación de sueño deja de ser una molestia y se convierte en una alteración profunda del funcionamiento mental. Por fuera, la persona puede hablar de forma incoherente, saltando de un tema a otro sin sentido; por dentro, la amígdala, la zona que gestiona el miedo y las emociones, se vuelve hiperactiva mientras la corteza prefrontal, que debería controlarla, apenas funciona. Las señales en esta fase son muy marcadas: la paranoia se intensifica hasta hacer sentir que alguien te observa o te quiere hacer daño; los cambios de humor son extremos, de la euforia al llanto en minutos; y la capacidad de razonar con lógica prácticamente desaparece, cuesta seguir una conversación sencilla. ¿Por qué el cerebro llega a este extremo? Porque las conexiones entre neuronas empiezan a fallar por falta de la limpieza celular que solo ocurre durmiendo, y el cerebro pierde la capacidad de filtrar lo real de lo imaginado. Un ejemplo: se han documentado casos clínicos de personas sometidas a privación extrema de sueño en estudios controlados que empezaron a creer, de forma pasajera, que los investigadores conspiraban contra ellas. ¿Cómo se debe actuar llegado este punto? Tratándolo como una emergencia médica real, buscando atención profesional y dejando claro que nunca se debería llegar voluntariamente hasta aquí."
     },
     {
       "id": "v08",
       "key": "item7",
-      "name": "EL EXPERIMENTO DE LANDIS",
+      "name": "LA RECUPERACIÓN: PAGAR LA DEUDA DE SUEÑO",
       "group": "",
       "color": "#ffd54f",
-      "main": "scan-face",
-      "def": "Muecas ante el horror",
+      "main": "sun",
+      "def": "La recuperación del cerebro",
       "fuera": [
-        "eye",
-        "Fotografiar rostros"
+        "bed",
+        "Sueño profundo prolongado"
       ],
       "dentro": [
-        "skull",
-        "Crueldad extrema"
+        "sparkles",
+        "Limpieza cerebral acelerada"
       ],
       "senales": [
         {
-          "icon": "frown",
+          "icon": "moon",
           "color": "#ffd54f",
-          "label": "Llanto y rechazo"
+          "label": "Sueño REM de rebote"
         },
         {
-          "icon": "circle-help",
+          "icon": "smile",
           "color": "#ff8c1a",
-          "label": "Sin patrón hallado"
+          "label": "Mejora rápida del ánimo"
         },
         {
-          "icon": "heart-crack",
+          "icon": "brain",
           "color": "#4db6ac",
-          "label": "Sin apoyo posterior"
+          "label": "Memoria se recupera"
         }
       ],
       "causa": [
-        "user",
-        "Presión del investigador"
+        "hourglass",
+        "El cerebro paga la deuda"
       ],
-      "ejemploTitle": "La rata decapitada",
+      "ejemploTitle": "Tras una guardia larga",
       "consejo": [
-        "shield",
-        "Respeta límites morales"
+        "list-checks",
+        "Dormir por fases, no de golpe"
       ],
-      "videoQuery": "vintage psychology laboratory 1920s researcher",
-      "photoQuery": "old black and white laboratory",
-      "narration": "En 1924, el psicólogo Carney Landis, de la Universidad de Minnesota, quiso fotografiar las expresiones faciales humanas ante estímulos extremos para comprobar si existían gestos universales de emoción. Reclutó a estudiantes voluntarios, les dibujó líneas en la cara para marcar mejor los músculos, y los sometió a experiencias como oler amoníaco, recibir descargas eléctricas o meter la mano en un cubo de ranas vivas. Por fuera, parecía un simple catálogo fotográfico de reacciones humanas; por dentro, el punto más extremo llegó cuando Landis pidió a cada participante que decapitara con sus propias manos a una rata de laboratorio viva mientras la cámara capturaba su rostro. Las señales de crueldad innecesaria fueron enormes: muchos participantes lloraron, se negaron inicialmente y sufrieron una angustia intensa, y encima los resultados fotográficos no mostraron ningún patrón universal que justificara tanto sufrimiento. ¿Por qué se considera hoy uno de los experimentos más gratuitos de la historia? Porque el daño emocional causado no aportó ningún conocimiento científico sólido, y Landis nunca ofreció apoyo psicológico posterior a quienes decapitaron al animal contra su voluntad moral. Un ejemplo: casi un tercio de los participantes terminó matando a la rata pese a su rechazo inicial, simplemente por la presión silenciosa de la figura del investigador observando con la cámara lista. ¿Cómo juzgamos este tipo de estudios desde la ética actual? Entendiendo que ningún hallazgo justifica obligar a alguien a dañar a un ser vivo contra su voluntad."
-    },
-    {
-      "id": "v09",
-      "key": "item8",
-      "name": "EL CASO DAVID REIMER",
-      "group": "",
-      "color": "#4db6ac",
-      "main": "circle-help",
-      "def": "Identidad forzada",
-      "fuera": [
-        "smile",
-        "Caso de éxito"
-      ],
-      "dentro": [
-        "frown",
-        "Rechazo profundo"
-      ],
-      "senales": [
-        {
-          "icon": "ban",
-          "color": "#ffd54f",
-          "label": "Rechazo constante"
-        },
-        {
-          "icon": "activity",
-          "color": "#ff8c1a",
-          "label": "Revisiones invasivas"
-        },
-        {
-          "icon": "lock",
-          "color": "#4db6ac",
-          "label": "Resultados ocultos"
-        }
-      ],
-      "causa": [
-        "briefcase",
-        "Proteger su teoría"
-      ],
-      "ejemploTitle": "El libro de David",
-      "consejo": [
-        "ear",
-        "Escucha a la persona"
-      ],
-      "videoQuery": "identity twins childhood vintage photo",
-      "photoQuery": "old family photograph children",
-      "narration": "En 1965, tras un accidente médico durante una circuncisión que dañó irreversiblemente sus genitales, el pequeño Bruce Reimer fue derivado al psicólogo John Money, quien propuso criarlo como niña bajo el nombre de Brenda para probar su teoría de que la identidad de género era completamente moldeable por la crianza. Por fuera, se presentó como un caso clínico de reasignación exitosa que Money publicitó durante años; por dentro, el niño sintió desde muy pequeño un profundo rechazo hacia su identidad impuesta, además de someterse a revisiones genitales invasivas y comparaciones incómodas con su hermano gemelo, usado como grupo de control. Las señales del fracaso fueron constantes: Brenda se negaba a vestir como niña, sufría un malestar psicológico creciente, y ya en la adolescencia decidió retomar por su cuenta su identidad masculina original, contradiciendo por completo la teoría de Money. ¿Por qué se mantuvo el engaño científico durante tanto tiempo? Porque Money ocultó públicamente los resultados negativos reales durante casi dos décadas, protegiendo su prestigio, mientras David Reimer arrastraba en silencio una angustia enorme. Un ejemplo: David, ya adulto, contó abiertamente su historia en el libro As Nature Made Him, desvelando el sufrimiento oculto tras aquel supuesto caso de éxito científico. ¿Cómo debemos abordar hoy la identidad de género en investigación? Con total honestidad sobre los resultados, seguimiento a largo plazo, y respeto absoluto por la voz y el bienestar de la persona involucrada."
+      "videoQuery": "person sleeping peacefully recovery morning",
+      "photoQuery": "man waking up stretching bed morning",
+      "narration": "Cuando por fin te dejas caer en la cama después de muchas horas sin dormir, tu cerebro no se limita a apagarse, sino que activa un proceso de recuperación intenso para pagar lo que los científicos llaman la deuda de sueño acumulada. Ese primer sueño reparador es distinto a cualquier otro: más profundo, más largo y con fases que se reorganizan para compensar lo perdido. Por fuera, puedes dormir muchas más horas de lo normal, incluso doce o catorce, y cuesta despertarte; por dentro, el cerebro pone en marcha una limpieza acelerada de residuos a través del líquido cefalorraquídeo y reorganiza los recuerdos recientes con más intensidad que en una noche normal. Las señales de esta recuperación son claras: aparece un sueño REM de rebote, con sueños muy vívidos e intensos; el estado de ánimo mejora con sorprendente rapidez en las primeras horas tras despertar; y la memoria, que fallaba tanto, empieza a funcionar de nuevo casi con normalidad. ¿Por qué el cuerpo reacciona así? Porque el cerebro prioriza recuperar primero el sueño profundo y después el REM, las dos fases más urgentes para restaurar la función física y emocional. Un ejemplo: tras una guardia médica de treinta horas, muchos profesionales cuentan que su primer sueño posterior fue tan profundo que no recordaban nada al despertar, señal de que el cerebro trabajó a fondo esa noche. ¿Cómo se recomienda dormir esa recuperación? En vez de intentar recuperarlo todo en una sola noche eterna, es mejor dormir por fases durante varios días, dando tiempo al cerebro para restaurar el equilibrio sin forzarlo de golpe."
     }
   ]
 }
