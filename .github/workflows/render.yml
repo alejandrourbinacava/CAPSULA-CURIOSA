@@ -67,14 +67,30 @@ jobs:
       - name: 5) Renderizar miniatura (rejilla desde el config)
         run: npx remotion still src/index.ts AutoThumb out/thumbnail.png --frame=0
 
-      - name: 6) Subir resultados (MP4 + miniatura)
+      - name: Leer título del vídeo
+        id: meta
+        run: |
+          echo "title=$(node -p "require('./video.config.json').title")" >> $GITHUB_OUTPUT
+          echo "fecha=$(date +%Y-%m-%d)" >> $GITHUB_OUTPUT
+
+      - name: 6) Subir como artifact (copia temporal, 90 días)
         uses: actions/upload-artifact@v4
         with:
-          name: capsula-curiosa-video
+          name: video-${{ github.run_number }}
           path: |
             out/VIDEO_FINAL.mp4
             out/thumbnail.png
-          retention-days: 30
+          retention-days: 90
+
+      - name: 6b) Publicar como Release PERMANENTE (no se borra nunca)
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: video-${{ github.run_number }}
+          name: "🎬 ${{ steps.meta.outputs.title }} (${{ steps.meta.outputs.fecha }})"
+          body: "Vídeo generado automáticamente. Descarga el MP4 abajo 👇"
+          files: |
+            out/VIDEO_FINAL.mp4
+            out/thumbnail.png
 
       - name: 7) Guardar el avance del tema para el próximo día
         if: ${{ github.event_name == 'schedule' || inputs.nuevoVideo }}
@@ -83,4 +99,5 @@ jobs:
           git config user.email "bot@capsulacuriosa"
           git add topics.json video.config.json
           git commit -m "Auto: guion del siguiente tema" || echo "sin cambios"
+          git pull --no-rebase --no-edit origin main || true
           git push
