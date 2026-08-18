@@ -107,21 +107,25 @@ const ItemScene: React.FC<{ d: Item; n: number }> = ({ d, n }) => {
 
   const isTitle = bi === 0;
   const label = b.text || d.name;
+  const stickHead = iconHead(d.main, d.color);
+  const pose = (["pointR", "hip", "idle", "pointL2R"] as const)[bi % 4];
   let body: React.ReactNode;
   if (isTitle) body = <>
-    <div style={{ display: "flex", alignItems: "center", gap: 34 }}>
-      {R(ap(lf, 0), -160, <div style={{ transform: bob(frame) }}><Chip n={b.icon || d.main} c={d.color} size={290} /></div>)}
-      {R(ap(lf, 16), 0, <Arrow f={lf} delay={16} w={190} />)}
+    <div style={{ display: "flex", alignItems: "flex-end", gap: 18, justifyContent: "center" }}>
+      {R(ap(lf, 0), -140, <div style={{ transform: bob(frame, 3), transformOrigin: "bottom center" }}><Stick head={stickHead} pose="pointR" headSize={120} /></div>)}
+      {R(ap(lf, 12), 0, <div style={{ paddingBottom: 90 }}><Arrow f={lf} delay={12} w={160} /></div>)}
+      {R(ap(lf, 6), 0, <div style={{ transform: bob(frame) }}><Chip n={b.icon || d.main} c={d.color} size={300} /></div>)}
     </div>
-    {R(ap(lf, 10), 0, <T s={label.length > 13 ? 84 : 116} heavy>{label}</T>, 55)}
+    {R(ap(lf, 16), 0, <T s={label.length > 13 ? 82 : 110} heavy>{label}</T>, 55)}
   </>;
   else body = <>
-    <div style={{ display: "flex", alignItems: "center", gap: 26, justifyContent: "center" }}>
-      {R(ap(lf, 0), -170, <div style={{ transform: bob(frame) }}><Chip n={b.icon} c={d.color} size={b.file ? 230 : 300} /></div>)}
-      {b.file && R(ap(lf, 14), 0, <Arrow f={lf} delay={14} w={160} />)}
-      {b.file && R(ap(lf, 22), 180, MW(880, 490))}
+    <div style={{ display: "flex", alignItems: "flex-end", gap: 22, justifyContent: "center", minHeight: 430 }}>
+      {R(ap(lf, 0), -130, <div style={{ transform: bob(frame, 3), transformOrigin: "bottom center" }}><Stick head={stickHead} pose={pose} headSize={110} /></div>)}
+      {R(ap(lf, 10), 0, <div style={{ paddingBottom: 70 }}><Arrow f={lf} delay={10} w={140} /></div>)}
+      {R(ap(lf, 16), 0, <div style={{ transform: bob(frame), paddingBottom: 30 }}><Chip n={b.icon} c={d.color} size={240} /></div>)}
+      {b.file && R(ap(lf, 22), 160, MW(760, 430))}
     </div>
-    {R(ap(lf, 32), 0, <T s={label.length > 22 ? 52 : 66} heavy w={1500}>{label}</T>, 55)}
+    {R(ap(lf, 30), 0, <T s={label.length > 22 ? 54 : 70} heavy w={1500}>{label}</T>, 45)}
   </>;
 
   return (
