@@ -59,9 +59,10 @@ Devuelve SOLO el JSON.`;
 async function callClaude() {
   const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST", headers: { "x-api-key": ANTH, "anthropic-version": "2023-06-01", "content-type": "application/json" },
-    body: JSON.stringify({ model: "claude-sonnet-5", max_tokens: 12000, messages: [{ role: "user", content: prompt + "\n\nDevuelve SOLO el objeto JSON (sin texto extra ni ```)." }] })
+    body: JSON.stringify({ model: "claude-sonnet-5", max_tokens: 32000, messages: [{ role: "user", content: prompt + "\n\nDevuelve SOLO el objeto JSON (sin texto extra ni ```)." }] })
   });
   const j = await res.json(); if (!res.ok) throw new Error("Claude: " + JSON.stringify(j).slice(0, 400));
+  if (j.stop_reason === "max_tokens") throw new Error("Claude: respuesta truncada (max_tokens). Sube el límite o acorta el guion.");
   let t = (j.content?.[0]?.text || "").trim().replace(/^```json\s*/i, "").replace(/^```\s*/, "").replace(/```\s*$/, "");
   return JSON.parse(t);
 }
@@ -73,8 +74,14 @@ async function callGemini() {
   const j = await res.json(); if (!res.ok) throw new Error("Gemini: " + JSON.stringify(j).slice(0, 400));
   return JSON.parse(j.candidates?.[0]?.content?.parts?.[0]?.text);
 }
-const g = ANTH ? await callClaude() : await callGemini();
-console.log(`✔ ${ANTH ? "Claude" : "Gemini"} generó ${g.items.length} items`);
+let g, usado;
+try { g = ANTH ? await callClaude() : await callGemini(); usado = ANTH ? "Claude" : "Gemini"; }
+catch (e) {
+  console.error("⚠️ IA primaria falló:", (e.message || "").slice(0, 200));
+  if (ANTH && GKEY) { console.log("→ probando con Gemini…"); g = await callGemini(); usado = "Gemini (fallback)"; }
+  else throw e;
+}
+console.log(`✔ ${usado} generó ${g.items.length} items`);
 
 // asegurar iconos (descargar de Lucide; si no existe, fallback)
 const ICONDIR = path.join(__dirname, "public", "icons");
