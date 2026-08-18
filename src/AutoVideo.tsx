@@ -49,61 +49,67 @@ const Chev: React.FC<{ f: number; c: string }> = ({ f, c }) => (
 
 type A = { fuera: number; dentro: number; senales: number; causa: number; ejemplo: number; consejo: number };
 
-const ItemScene: React.FC<{ d: Item; a: A; n: number; frames: number }> = ({ d, a, n, frames }) => {
+// divide la narración en frases (~3s cada una) para sincronizar un visual por frase
+const splitPhrases = (text: string): string[] => {
+  const parts = text.split(/(?<=[.!?…;:])\s+/).map(s => s.trim()).filter(s => s.length > 1);
+  const out: string[] = [];
+  for (const p of parts) {
+    const w = p.split(/\s+/);
+    if (w.length > 22) { let buf = ""; for (const s of p.split(/,\s*/)) { buf = buf ? buf + ", " + s : s; if (buf.split(/\s+/).length >= 11) { out.push(buf); buf = ""; } } if (buf) out.push(buf); }
+    else out.push(p);
+  }
+  return out.length ? out : [text];
+};
+// plan ordenado de visuales que cubre TODO el material del tipo (título → consejo)
+const buildPlan = (): { k: string; i?: number }[] => [
+  { k: "title" }, { k: "def" }, { k: "fuera" }, { k: "photo" }, { k: "dentro" },
+  { k: "senal", i: 0 }, { k: "clip" }, { k: "senal", i: 1 }, { k: "causa" },
+  { k: "senal", i: 2 }, { k: "clip2" }, { k: "consejo" },
+];
+// envoltorio de entrada: cada beat entra con fundido + desliz + escala
+const BeatWrap: React.FC<{ lf: number; dir: number; children: React.ReactNode }> = ({ lf, dir, children }) => {
+  const e = clamp(lf / 8);
+  return <div style={{ opacity: Math.min(1, e * 1.5), transform: `translateX(${(1 - e) * 80 * dir}px) scale(${lerp3(clamp(lf / 13), 0.8, 1.04, 1)})`, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 30, width: "100%" }}>{children}</div>;
+};
+
+const ItemScene: React.FC<{ d: Item; a: A; n: number; frames: number }> = ({ d, n, frames }) => {
   const frame = useCurrentFrame();
-  const B = [0, a.fuera, a.senales, a.causa, a.ejemplo, a.consejo, frames];
-  let si = 0; for (let k = 1; k <= 5; k++) if (frame >= B[k]) si = k;
-  const lf = frame - B[si];
-  const photo = `media/${d.key}_photo.jpg`;
-  const video = `media/${d.key}_vid.mp4`;
-  const video2 = `media/${d.key}_vid2.mp4`;
-  const sc = a.causa - a.senales;
+  const photo = `media/${d.key}_photo.jpg`, video = `media/${d.key}_vid.mp4`, video2 = `media/${d.key}_vid2.mp4`;
+  const totW = d.narration.split(/\s+/).length;
+  const phrases = splitPhrases(d.narration);
+  let cum = 0; const beatF = phrases.map(ph => { const s = cum; cum += ph.split(/\s+/).length; return Math.round((s / totW) * frames); });
+  let bi = 0; for (let k = 0; k < beatF.length; k++) if (frame >= beatF[k]) bi = k;
+  const lf = frame - beatF[bi];
+  const plan = buildPlan();
+  const pIdx = Math.min(plan.length - 1, Math.floor((bi / Math.max(1, phrases.length)) * plan.length));
+  const tpl = plan[pIdx];
+  const dir = bi % 2 === 0 ? 1 : -1;
+  const vf = Math.max(0, beatF[bi]);
+  const chip = (icon: string, c: string, sz = 260) => <div style={{ transform: bob(frame) }}><Chip n={icon} c={c} size={sz} /></div>;
+
+  let body: React.ReactNode = null;
+  if (tpl.k === "title") body = <><div style={{ transform: bob(frame) }}><Chip n={d.main} c={d.color} size={300} /></div><T s={d.name.length > 13 ? 84 : 116} heavy>{d.name}</T></>;
+  else if (tpl.k === "def") body = <div style={{ display: "flex", alignItems: "center", gap: 56 }}>{chip(d.main, d.color, 240)}<T s={64} c={RED} heavy w={1150}>{d.def}</T></div>;
+  else if (tpl.k === "fuera") body = <><T s={70} heavy>😐 POR FUERA</T>{chip(d.fuera[0], d.color, 250)}<T s={56} w={1250}>{d.fuera[1]}</T></>;
+  else if (tpl.k === "dentro") body = <><T s={70} c={RED} heavy>🎭 POR DENTRO</T>{chip(d.dentro[0], "#e57373", 250)}<T s={56} w={1250}>{d.dentro[1]}</T></>;
+  else if (tpl.k === "senal") { const sg = d.senales[tpl.i!] || d.senales[0]; body = <><T s={66} c={RED} heavy>⚠️ SEÑAL</T>{chip(sg.icon, sg.color, 250)}<T s={58} w={1150}>{sg.label}</T></>; }
+  else if (tpl.k === "photo") body = <Win img={photo} w={1200} title={d.name} accent={d.color} h={580} />;
+  else if (tpl.k === "clip") body = <Win video={video} videoFrom={vf} w={1200} title={d.ejemploTitle} accent={d.color} h={580} />;
+  else if (tpl.k === "clip2") body = <Win video={video2} videoFrom={vf} w={1200} title={d.causa[1]} accent={d.color} h={580} />;
+  else if (tpl.k === "causa") body = <div style={{ display: "flex", alignItems: "center", gap: 26 }}><div style={{ transform: bob(frame, 2), transformOrigin: "bottom center" }}><Stick head={iconHead(d.main, d.color)} pose="pointR" /></div><Chev f={frame} c={d.color} /><Win video={video2} videoFrom={vf} w={780} title={d.causa[1]} accent={d.color} h={440} /></div>;
+  else if (tpl.k === "consejo") body = <><T s={74} c={RED} heavy>✅ CÓMO ACTUAR</T><div style={{ display: "flex", alignItems: "center", gap: 56 }}>{chip(d.consejo[0], d.color, 240)}<T s={66} w={1050} heavy>{d.consejo[1]}</T></div></>;
+
   return (
     <AbsoluteFill>
       <Audio src={staticFile(`voz1deep/${d.id}.mp3`)} />
       <div style={{ position: "absolute", top: 46, right: 70, fontFamily: HEAVY, fontSize: 56, fontWeight: 900, color: "#dcdcdc" }}>{n}<span style={{ fontSize: 30 }}>/{ITEMS.length}</span></div>
-      <div style={{ position: "absolute", top: 60, left: 80, fontFamily: HEAVY, fontSize: 30, fontWeight: 900, color: d.color }}>{d.group}</div>
-      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>
-        {si === 0 && (
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 34, padding: "0 80px" }}>
-            <div style={{ opacity: Math.min(1, ap(lf, 0) * 1.3), transform: `scale(${lerp3(ap(lf, 0), 0.4, 1.09, 1)}) ${bob(frame)}` }}><Chip n={d.main} c={d.color} size={310} /></div>
-            <div style={{ opacity: Math.min(1, ap(lf, 16) * 1.3), fontFamily: HEAVY, fontWeight: 900, fontSize: d.name.length > 13 ? 80 : 112, color: "#141414", textAlign: "center", maxWidth: 1650, lineHeight: 1.02 }}>{d.name}</div>
-            <div style={{ opacity: Math.min(1, ap(lf, Math.max(30, a.fuera * 0.5)) * 1.3), fontFamily: HEAVY, fontWeight: 900, fontSize: 58, color: RED, textAlign: "center", maxWidth: 1400, lineHeight: 1.1 }}>{d.def}</div>
-          </div>
-        )}
-        {si === 1 && <>
-          <El p={ap(lf, 0)} x={560} y={410}><T s={62} heavy>POR FUERA</T></El>
-          <El p={ap(lf, 20)} x={560} y={590}><div style={{ transform: bob(frame) }}><Chip n={d.fuera[0]} c={d.color} size={270} /></div></El>
-          <El p={ap(lf, 52)} x={560} y={790}><T s={50} w={720}>{d.fuera[1]}</T></El>
-          <El p={ap(lf, a.dentro - a.fuera)} x={1380} y={410}><T s={62} c={RED} heavy>POR DENTRO</T></El>
-          <El p={ap(lf, a.dentro - a.fuera + 22)} x={1380} y={590}><div style={{ transform: bob(frame + 5) }}><Chip n={d.dentro[0]} c="#e57373" size={270} /></div></El>
-          <El p={ap(lf, a.dentro - a.fuera + 54)} x={1380} y={790}><T s={50} w={720}>{d.dentro[1]}</T></El>
-        </>}
-        {si === 2 && <>
-          <El p={ap(lf, 0)} x={960} y={220}><T s={92} c={RED} heavy>SEÑALES</T></El>
-          {d.senales.map((sg, k) => { const dl = k === 0 ? 15 : k === 1 ? Math.round(sc * 0.38) : Math.round(sc * 0.7); const x = [470, 960, 1450][k]; return (
-            <React.Fragment key={k}>
-              <El p={ap(lf, dl)} x={x} y={600}><div style={{ transform: bob(frame + k * 4) }}><Chip n={sg.icon} c={sg.color} size={250} /></div></El>
-              <El p={ap(lf, dl + 27)} x={x} y={800}><T s={46} w={520}>{sg.label}</T></El>
-            </React.Fragment>); })}
-        </>}
-        {si === 3 && <>
-          <El p={ap(lf, 0)} x={960} y={180}><T s={56} c="#bbb" heavy>¿POR QUÉ APARECE?</T></El>
-          <El p={ap(lf, 20)} x={300} y={600} from={-150}><div style={{ transform: `${bob(frame, 2)}`, transformOrigin: "bottom center" }}><Stick head={iconHead(d.causa[0], d.color)} pose="pointR" /></div></El>
-          <El p={ap(lf, 40)} x={560} y={600}><Chev f={frame} c={d.color} /></El>
-          <El p={ap(lf, 60)} x={1250} y={560} from={140}><Win video={video2} videoFrom={a.causa} w={880} title={d.causa[1]} accent={d.color} h={400} /></El>
-        </>}
-        {si === 4 && <>
-          <El p={ap(lf, 0)} x={300} y={560} from={-150}><div style={{ transform: bob(frame, 2), transformOrigin: "bottom center" }}><Stick head={iconHead(d.main, d.color)} pose="pointR" /></div></El>
-          <El p={ap(lf, 26)} x={560} y={560}><Chev f={frame} c={d.color} /></El>
-          <El p={ap(lf, 50)} x={1240} y={500} from={140}><Win video={video} videoFrom={a.ejemplo} w={900} title={d.ejemploTitle} accent={d.color} /></El>
-          <El p={ap(lf, Math.round((a.consejo - a.ejemplo) * 0.55))} x={1240} y={880}><T s={58} c={RED} heavy>{d.ejemploTitle}</T></El>
-        </>}
-        {si === 5 && <>
-          <El p={ap(lf, 0)} x={960} y={300}><T s={92} c={RED} heavy>CÓMO ACTUAR</T></El>
-          <El p={ap(lf, 14)} x={640} y={620}><div style={{ transform: bob(frame, 3) }}><Chip n={d.consejo[0]} c={d.color} size={280} /></div></El>
-          <El p={ap(lf, 30)} x={1300} y={620}><T s={74} w={880} heavy>{d.consejo[1]}</T></El>
-        </>}
+      <div style={{ position: "absolute", top: 58, left: 80, fontFamily: HEAVY, fontSize: 34, fontWeight: 900, color: d.color, maxWidth: 900 }}>{d.name}</div>
+      {/* fila de progreso: una bolita por concepto ya cubierto */}
+      <div style={{ position: "absolute", bottom: 42, left: 0, width: "100%", display: "flex", justifyContent: "center", gap: 16 }}>
+        {plan.map((_, k) => <div key={k} style={{ width: 20, height: 20, borderRadius: "50%", background: k <= pIdx ? d.color : "#e4e4e4", transform: `scale(${k === pIdx ? 1.25 : 1})` }} />)}
+      </div>
+      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", padding: "0 90px" }}>
+        <BeatWrap lf={lf} dir={dir}>{body}</BeatWrap>
       </AbsoluteFill>
     </AbsoluteFill>
   );
