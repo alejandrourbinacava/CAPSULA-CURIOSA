@@ -84,59 +84,80 @@ const BeatWrap: React.FC<{ lf: number; beatLen: number; dir: number; children: R
   return <div style={{ opacity: Math.min(1, ein * 1.5) * eout, transform: `translateX(${-(1 - eout) * 100 * dir}px) scale(${0.95 + 0.05 * eout})`, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 30, width: "100%" }}>{children}</div>;
 };
 
-type Beat = { f: number; text: string; icon: string; file: string | null; kind: string | null };
-const BEATS = beatsData as Record<string, Beat[]>;
+type Beat = { f: number; text: string; icon: string; file: string | null; kind: string | null; bullets?: string[] };
+type Entry = { ref?: string | null; beats: Beat[] };
+const BEATS = beatsData as Record<string, Entry | Beat[]>;
+
+// imagen/clip/gif real GRANDE (protagonista, estilo Explainer Chris)
+const BigMedia: React.FC<{ file: string; kind: string | null; from: number; accent: string; w: number; h: number }> = ({ file, kind, from, accent, w, h }) => (
+  <div style={{ width: w, borderRadius: 22, overflow: "hidden", border: `8px solid ${accent}`, boxShadow: "0 26px 64px rgba(0,0,0,.28)", background: "#fff", lineHeight: 0 }}>
+    {kind === "gif" ? <Gif src={staticFile(file)} width={w} height={h} fit="cover" />
+      : kind === "img" ? <Img src={staticFile(file)} style={{ width: "100%", height: h, objectFit: "cover", display: "block" }} />
+        : <Sequence from={from} layout="none"><OffthreadVideo src={staticFile(file)} muted style={{ width: "100%", height: h, objectFit: "cover", display: "block" }} /></Sequence>}
+  </div>
+);
 
 const ItemScene: React.FC<{ d: Item; n: number }> = ({ d, n }) => {
   const frame = useCurrentFrame();
-  const bts = BEATS[d.id] || [];
+  const entry = BEATS[d.id];
+  const bts: Beat[] = Array.isArray(entry) ? entry : (entry?.beats || []);
+  const ref: string | null = Array.isArray(entry) ? null : (entry?.ref || null);
   if (!bts.length) return <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}><Audio src={staticFile(`voz1deep/${d.id}.mp3`)} /><Chip n={d.main} c={d.color} size={320} /></AbsoluteFill>;
   let bi = 0; for (let k = 0; k < bts.length; k++) if (frame >= bts[k].f) bi = k;
   const b = bts[bi]; const lf = frame - b.f; const dir = bi % 2 === 0 ? 1 : -1;
   const beatLen = (bi < bts.length - 1 ? bts[bi + 1].f : b.f + 100000) - b.f;
-
-  // entrada con REBOTE (0.35→1.2→1) + deslizamiento en X e Y
   const R = (p: number, from: number, node: React.ReactNode, fromY = 0) => {
     const s = p < 0.6 ? 0.35 + 0.85 * (p / 0.6) : 1.2 - 0.2 * ((p - 0.6) / 0.4);
     return <div style={{ opacity: Math.min(1, p * 1.6), transform: `translate(${(1 - p) * from}px,${(1 - p) * fromY}px) scale(${Math.max(0, s)})` }}>{node}</div>;
   };
-  const MW = (w: number, h: number) => b.kind === "gif"
-    ? <div style={{ borderRadius: 20, overflow: "hidden", border: `7px solid ${d.color}`, boxShadow: "0 22px 55px rgba(0,0,0,.22)" }}><Gif src={staticFile(b.file!)} width={w} height={h} fit="cover" /></div>
-    : b.kind === "img" ? <Win img={b.file!} w={w} title={d.name} accent={d.color} h={h} />
-      : <Win video={b.file!} videoFrom={b.f} w={w} title={d.name} accent={d.color} h={h} />;
 
   const isTitle = bi === 0;
   const label = b.text || d.name;
-  const stickHead = iconHead(d.main, d.color);
-  const pose = (["pointR", "hip", "idle", "pointL2R"] as const)[bi % 4];
+  const cap = (s: number) => <T s={s} heavy w={1600}>{label}</T>;
   let body: React.ReactNode;
-  if (isTitle) body = <>
-    <div style={{ display: "flex", alignItems: "flex-end", gap: 18, justifyContent: "center" }}>
-      {R(ap(lf, 0), -140, <div style={{ transform: bob(frame, 3), transformOrigin: "bottom center" }}><Stick head={stickHead} pose="pointR" headSize={120} /></div>)}
-      {R(ap(lf, 12), 0, <div style={{ paddingBottom: 90 }}><Arrow f={lf} delay={12} w={160} /></div>)}
-      {R(ap(lf, 6), 0, <div style={{ transform: bob(frame) }}><Chip n={b.icon || d.main} c={d.color} size={300} /></div>)}
+  if (isTitle && b.file) body = <>
+    {R(ap(lf, 4), 150, <BigMedia file={b.file} kind={b.kind} from={b.f} accent={d.color} w={1120} h={600} />)}
+    {R(ap(lf, 18), 0, <div style={{ marginTop: 26 }}>{cap(label.length > 22 ? 66 : 92)}</div>, 45)}
+  </>;
+  else if (isTitle) body = <>
+    <div style={{ display: "flex", alignItems: "center", gap: 34 }}>
+      {R(ap(lf, 0), -140, <div style={{ transform: bob(frame) }}><Chip n={b.icon || d.main} c={d.color} size={300} /></div>)}
+      {R(ap(lf, 14), 0, <Arrow f={lf} delay={14} w={180} />)}
     </div>
-    {R(ap(lf, 16), 0, <T s={label.length > 13 ? 82 : 110} heavy>{label}</T>, 55)}
+    {R(ap(lf, 10), 0, cap(label.length > 13 ? 82 : 110), 55)}
+  </>;
+  else if (b.file) body = <>
+    {R(ap(lf, 4), 150, <div style={{ position: "relative" }}>
+      <BigMedia file={b.file} kind={b.kind} from={b.f} accent={d.color} w={1180} h={620} />
+      <div style={{ position: "absolute", top: -34, left: -34, transform: bob(frame) }}><Chip n={b.icon} c={d.color} size={130} /></div>
+    </div>)}
+    {R(ap(lf, 20), 0, <div style={{ marginTop: 30 }}>{cap(label.length > 26 ? 52 : 72)}</div>, 45)}
+  </>;
+  else if (b.bullets && b.bullets.length) body = <>
+    {R(ap(lf, 0), -120, <div style={{ transform: bob(frame) }}><Chip n={b.icon} c={d.color} size={210} /></div>)}
+    {R(ap(lf, 12), 0, <div style={{ marginTop: 22 }}>{cap(label.length > 26 ? 52 : 70)}</div>, 40)}
+    <div style={{ display: "flex", flexDirection: "column", gap: 18, marginTop: 26, alignItems: "flex-start" }}>
+      {b.bullets.map((bl, k) => R(ap(lf, 24 + k * 9), -80, <div style={{ fontFamily: HAND, fontSize: 46, display: "flex", gap: 16, alignItems: "flex-start" }}><span style={{ color: d.color, fontWeight: 900 }}>▸</span><span style={{ maxWidth: 1200 }}>{bl}</span></div>))}
+    </div>
   </>;
   else body = <>
-    <div style={{ display: "flex", alignItems: "flex-end", gap: 22, justifyContent: "center", minHeight: 430 }}>
-      {R(ap(lf, 0), -130, <div style={{ transform: bob(frame, 3), transformOrigin: "bottom center" }}><Stick head={stickHead} pose={pose} headSize={110} /></div>)}
-      {R(ap(lf, 10), 0, <div style={{ paddingBottom: 70 }}><Arrow f={lf} delay={10} w={140} /></div>)}
-      {R(ap(lf, 16), 0, <div style={{ transform: bob(frame), paddingBottom: 30 }}><Chip n={b.icon} c={d.color} size={240} /></div>)}
-      {b.file && R(ap(lf, 22), 160, MW(760, 430))}
-    </div>
-    {R(ap(lf, 30), 0, <T s={label.length > 22 ? 54 : 70} heavy w={1500}>{label}</T>, 45)}
+    {R(ap(lf, 0), -140, <div style={{ transform: bob(frame) }}><Chip n={b.icon} c={d.color} size={330} /></div>)}
+    {R(ap(lf, 16), 0, <div style={{ marginTop: 34 }}>{cap(label.length > 22 ? 60 : 84)}</div>, 50)}
   </>;
 
   return (
-    <AbsoluteFill>
+    <AbsoluteFill style={{ backgroundColor: "#fbfbfa" }}>
       <Audio src={staticFile(`voz1deep/${d.id}.mp3`)} />
-      <div style={{ position: "absolute", top: 46, right: 70, fontFamily: HEAVY, fontSize: 56, fontWeight: 900, color: "#dcdcdc" }}>{n}<span style={{ fontSize: 30 }}>/{ITEMS.length}</span></div>
-      <div style={{ position: "absolute", top: 58, left: 80, fontFamily: HEAVY, fontSize: 34, fontWeight: 900, color: d.color, maxWidth: 900 }}>{d.name}</div>
-      <div style={{ position: "absolute", bottom: 40, left: 0, width: "100%", display: "flex", justifyContent: "center", gap: 12, flexWrap: "wrap", padding: "0 180px" }}>
-        {bts.map((_, k) => <div key={k} style={{ width: 16, height: 16, borderRadius: "50%", background: k <= bi ? d.color : "#e4e4e4", transform: `scale(${k === bi ? 1.35 : 1})` }} />)}
+      <div style={{ position: "absolute", top: 40, right: 70, fontFamily: HEAVY, fontSize: 54, fontWeight: 900, color: "#dcdcdc" }}>{n}<span style={{ fontSize: 28 }}>/{ITEMS.length}</span></div>
+      {/* ancla fija arriba-izquierda: foto de referencia + nombre (estilo Chris) */}
+      <div style={{ position: "absolute", top: 40, left: 70, display: "flex", alignItems: "center", gap: 16, zIndex: 5 }}>
+        {ref && <Img src={staticFile(ref)} style={{ width: 132, height: 82, objectFit: "cover", borderRadius: 10, border: `3px solid ${d.color}`, boxShadow: "0 6px 16px rgba(0,0,0,.18)" }} />}
+        <div style={{ fontFamily: HEAVY, fontSize: 34, fontWeight: 900, color: d.color, maxWidth: 820 }}>{d.name}</div>
       </div>
-      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", padding: "0 90px" }}>
+      <div style={{ position: "absolute", bottom: 38, left: 0, width: "100%", display: "flex", justifyContent: "center", gap: 12, flexWrap: "wrap", padding: "0 180px" }}>
+        {bts.map((_, k) => <div key={k} style={{ width: 15, height: 15, borderRadius: "50%", background: k <= bi ? d.color : "#e4e4e4", transform: `scale(${k === bi ? 1.35 : 1})` }} />)}
+      </div>
+      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", padding: "150px 90px 90px" }}>
         <BeatWrap lf={lf} beatLen={beatLen} dir={dir}>{body}</BeatWrap>
       </AbsoluteFill>
     </AbsoluteFill>

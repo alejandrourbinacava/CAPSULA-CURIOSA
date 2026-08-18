@@ -34,7 +34,7 @@ const schema = {
             type: "ARRAY",
             items: {
               type: "OBJECT",
-              properties: { say: { type: "STRING" }, text: { type: "STRING" }, icon: { type: "STRING" }, media: { type: "STRING" }, query: { type: "STRING" } },
+              properties: { say: { type: "STRING" }, text: { type: "STRING" }, icon: { type: "STRING" }, media: { type: "STRING" }, query: { type: "STRING" }, bullets: { type: "ARRAY", items: { type: "STRING" } } },
               required: ["say", "text", "icon", "media"]
             }
           }
@@ -60,8 +60,9 @@ REGLAS ESTRICTAS:
   - "say": lo que dice la VOZ en ese momento: UNA idea corta, ~7-11 palabras (NO metas varias frases en un beat; si una explicación es larga, PÁRTELA en varios beats con iconos distintos). La SUMA de todos los "say" del item debe dar ~180-210 palabras.
   - "text": 2 a 4 palabras que RESUMEN literalmente lo que dice ese "say" (rótulo en pantalla; DEBE coincidir con lo que se oye en ese beat).
   - "icon": el icono MÁS representativo de ESE beat concreto, SOLO de esta lista (varía el icono en cada beat): ${ICONS}
-  - "media": "photo", "clip", "gif" o "none". Pon imagen real ("photo"/"clip") o meme divertido ("gif") en unos 6-8 beats con momentos visuales potentes; "none" (solo icono) en el resto.
-  - "query": si media != "none", término EN INGLÉS concreto para ese clip/foto/gif de ESE momento. Si media = "none", cadena vacía.
+  - "media": "photo", "clip", "gif" o "none". USA imagen real ("photo"/"clip") en la MAYORÍA de beats (la imagen real es la protagonista, estilo Explainer Chris) y meme divertido ("gif") en 2-3 momentos con gracia. Solo "none" en beats de datos/listas.
+  - "query": si media != "none", término EN INGLÉS concreto y realista para ese clip/foto/gif de ESE momento. Si media = "none", cadena vacía.
+  - "bullets" (OPCIONAL): en 3-4 beats clave (specs, cifras, características), incluye un array de 2-3 datos MUY cortos (3-6 palabras cada uno), estilo lista de Chris (p.ej. ["8 núcleos","5 GHz","Sin gráfica integrada"]). En esos beats pon media="none". En el resto NO pongas bullets (array vacío u omítelo).
 - El PRIMER beat presenta la sección: su "text" es el nombre corto del elemento.
 - "name": nombre corto del elemento en MAYÚSCULAS (p.ej. "EL NARCISISTA"). "mainIcon": icono principal (de la lista). "def": definición en 3-5 palabras (para la miniatura).
 - "photoQuery"/"videoQuery": términos EN INGLÉS de reserva para la miniatura del item.

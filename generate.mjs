@@ -63,11 +63,13 @@ const beatsOut = {};
 for (const it of cfg.items) {
   const itFrames = manifest.find(m => m.id === it.id).frames;
   const totW = it.beats.reduce((a, b) => a + wc(b.say), 0) || 1;
-  // media general del tema (relevante) para enriquecer beats sin media propia
+  // media general del tema (VARIADA) para que casi cada beat tenga imagen real (estilo Chris)
   const gen = [];
+  try { const j = await (await fetch(`https://pixabay.com/api/?key=${PIX}&q=${encodeURIComponent(it.photoQuery)}&image_type=photo&per_page=12&safesearch=true&orientation=horizontal`)).json(); const hits = (j.hits || []).slice(0, 6); for (let k = 0; k < hits.length; k++) { const f = `${it.key}_gp${k}.jpg`; try { await dl(hits[k].largeImageURL || hits[k].webformatURL, path.join(MEDIA, f)); gen.push({ file: "media/" + f, kind: "img" }); } catch {} } } catch {}
+  if (!gen.length) { try { const p = await pexPhoto(it.photoQuery); if (p) { const f = `${it.key}_gp0.jpg`; await dl(p, path.join(MEDIA, f)); gen.push({ file: "media/" + f, kind: "img" }); } } catch {} }
   try { let gv = await pixVideos(it.videoQuery, 2); if (gv.length < 2) gv = gv.concat(await pexVideos(it.videoQuery, 2 - gv.length)); for (let k = 0; k < gv.length; k++) { const f = `${it.key}_gv${k}.mp4`; try { await dl(gv[k], path.join(MEDIA, f)); gen.push({ file: "media/" + f, kind: "vid" }); } catch {} } } catch {}
-  try { let gp = await pixPhoto(it.photoQuery) || await pexPhoto(it.photoQuery); if (gp) { const f = `${it.key}_gp.jpg`; await dl(gp, path.join(MEDIA, f)); gen.push({ file: "media/" + f, kind: "img" }); } } catch {}
   try { const gg = await giphyGif(it.photoQuery || it.name); if (gg) { const f = `${it.key}_gg.gif`; await dl(gg, path.join(MEDIA, f)); gen.push({ file: "media/" + f, kind: "gif" }); } } catch {}
+  const ref = gen.find(g => g.kind === "img")?.file || null;
 
   let cum = 0, genIdx = 0; const arr = [];
   for (let i = 0; i < it.beats.length; i++) {
@@ -82,10 +84,12 @@ for (const it of cfg.items) {
         else { const v = (await pixVideos(b.query, 1))[0] || (await pexVideos(b.query, 1))[0]; if (v) { await dl(v, path.join(MEDIA, base + ".mp4")); file = "media/" + base + ".mp4"; kind = "vid"; } }
       } catch {}
     }
-    if (!file && gen.length && i % 2 === 1) { const g = gen[genIdx % gen.length]; genIdx++; file = g.file; kind = g.kind; }
-    arr.push({ f, text: b.text, icon: b.icon, file, kind });
+    const bullets = Array.isArray(b.bullets) ? b.bullets.filter(x => x && x.trim()).slice(0, 3) : [];
+    // si no tiene media propia y no lleva bullets, ponle imagen real del tema (variando) para no dejar icono solo
+    if (!file && !bullets.length && gen.length) { const g = gen[genIdx % gen.length]; genIdx++; file = g.file; kind = g.kind; }
+    arr.push({ f, text: b.text, icon: b.icon, file, kind, bullets });
   }
-  beatsOut[it.id] = arr;
+  beatsOut[it.id] = { ref, beats: arr };
   console.log(`🎬 ${it.key}: ${arr.length} beats · ${arr.filter(x => x.file).length} con imagen`);
 }
 fs.writeFileSync(path.join(VOZ, "beats.json"), JSON.stringify(beatsOut, null, 2));
@@ -94,7 +98,7 @@ fs.writeFileSync(path.join(VOZ, "beats.json"), JSON.stringify(beatsOut, null, 2)
 execSync("node generar-musica.mjs", { cwd: __dirname, stdio: "inherit" });
 {
   const SR = 44100, PAD = 6; let acc = 0; const times = [];
-  for (const m of manifest) { const isItem = cfg.items.find(i => i.id === m.id); if (isItem) { for (const bt of (beatsOut[m.id] || [])) times.push((acc + bt.f) / FPS + 0.02); } else { times.push(acc / FPS + 0.05); } acc += m.frames + PAD; }
+  for (const m of manifest) { const isItem = cfg.items.find(i => i.id === m.id); if (isItem) { for (const bt of (beatsOut[m.id]?.beats || [])) times.push((acc + bt.f) / FPS + 0.02); } else { times.push(acc / FPS + 0.05); } acc += m.frames + PAD; }
   const DUR = acc / FPS + 0.5, Ns = Math.floor(SR * DUR), out = new Float32Array(Ns);
   const pop = (() => { const n = Math.floor(SR * 0.12), b = new Float32Array(n); for (let i = 0; i < n; i++) { const t = i / SR; b[i] = Math.sin(2 * Math.PI * (480 + 480 * Math.exp(-t * 30)) * t) * Math.exp(-t * 26) * 0.5; } return b; })();
   for (const tt of times) { const o = Math.floor(tt * SR); for (let i = 0; i < pop.length && o + i < Ns; i++) out[o + i] += pop[i] * 0.7; }
