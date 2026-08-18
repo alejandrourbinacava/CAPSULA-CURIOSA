@@ -103,23 +103,27 @@ const ItemScene: React.FC<{ d: Item; a: A; n: number; frames: number }> = ({ d, 
   const MW = (w: number, h: number) => winMedia.gif
     ? <div style={{ borderRadius: 20, overflow: "hidden", border: `7px solid ${d.color}`, boxShadow: "0 22px 55px rgba(0,0,0,.22)" }}><Gif src={staticFile(`media/${d.key}.gif`)} width={w} height={h} fit="cover" /></div>
     : <Win img={winMedia.img} video={winMedia.video} videoFrom={vf} w={w} title={d.name} accent={d.color} h={h} />;
-  const R = (p: number, from: number, node: React.ReactNode) => <div style={{ opacity: Math.min(1, p * 1.4), transform: `translateX(${(1 - p) * from}px) scale(${lerp3(p, 0.55, 1.06, 1)})` }}>{node}</div>;
+  // entrada con REBOTE (0.35→1.2→1) + deslizamiento en X e Y
+  const R = (p: number, from: number, node: React.ReactNode, fromY = 0) => {
+    const s = p < 0.6 ? 0.35 + 0.85 * (p / 0.6) : 1.2 - 0.2 * ((p - 0.6) / 0.4);
+    return <div style={{ opacity: Math.min(1, p * 1.6), transform: `translate(${(1 - p) * from}px,${(1 - p) * fromY}px) scale(${Math.max(0, s)})` }}>{node}</div>;
+  };
 
   let body: React.ReactNode = null;
   if (tpl.k === "title") body = <>
     <div style={{ display: "flex", alignItems: "center", gap: 34 }}>
-      {R(ap(lf, 0), 0, <div style={{ transform: bob(frame) }}><Chip n={d.main} c={d.color} size={290} /></div>)}
+      {R(ap(lf, 0), -160, <div style={{ transform: bob(frame) }}><Chip n={d.main} c={d.color} size={290} /></div>)}
       {R(ap(lf, 16), 0, <Arrow f={lf} delay={16} w={190} />)}
     </div>
-    {R(ap(lf, 10), 0, <T s={d.name.length > 13 ? 84 : 116} heavy>{d.name}</T>)}
+    {R(ap(lf, 10), 0, <T s={d.name.length > 13 ? 84 : 116} heavy>{d.name}</T>, 55)}
   </>;
   else if (tpl.k === "photo" || tpl.k === "clip" || tpl.k === "clip2" || tpl.k === "gif") body = <>
     <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
-      {R(ap(lf, 0), -90, <div style={{ transform: bob(frame, 2), transformOrigin: "bottom center" }}><Stick head={iconHead(d.main, d.color)} pose="pointR" /></div>)}
+      {R(ap(lf, 0), -130, <div style={{ transform: bob(frame, 2), transformOrigin: "bottom center" }}><Stick head={iconHead(d.main, d.color)} pose="pointR" /></div>)}
       {R(ap(lf, 14), 0, <Arrow f={lf} delay={14} w={150} />)}
-      {R(ap(lf, 22), 150, MW(1000, 560))}
+      {R(ap(lf, 22), 190, MW(1000, 560))}
     </div>
-    {R(ap(lf, 40), 0, <T s={58} c={RED} heavy>{tpl.k === "clip2" ? d.causa[1] : (tpl.k === "clip" ? d.ejemploTitle : d.name)}</T>)}
+    {R(ap(lf, 40), 0, <T s={58} c={RED} heavy>{tpl.k === "clip2" ? d.causa[1] : (tpl.k === "clip" ? d.ejemploTitle : d.name)}</T>, 55)}
   </>;
   else {
     let label = "", icon = d.main, ic = d.color, txt = "";
@@ -130,13 +134,13 @@ const ItemScene: React.FC<{ d: Item; a: A; n: number; frames: number }> = ({ d, 
     else if (tpl.k === "causa") { label = "🤔 ¿POR QUÉ PASA?"; txt = d.causa[1]; }
     else if (tpl.k === "consejo") { label = "✅ CÓMO ACTUAR"; icon = d.consejo[0]; txt = d.consejo[1]; }
     body = <>
-      {label && <T s={62} c={RED} heavy>{label}</T>}
+      {label && R(ap(lf, 0), 0, <T s={62} c={RED} heavy>{label}</T>, -55)}
       <div style={{ display: "flex", alignItems: "center", gap: 26, justifyContent: "center" }}>
-        {R(ap(lf, 0), 0, <div style={{ transform: bob(frame) }}><Chip n={icon} c={ic} size={240} /></div>)}
-        {R(ap(lf, 14), 0, <Arrow f={lf} delay={14} w={165} />)}
-        {R(ap(lf, 22), 140, MW(780, 440))}
+        {R(ap(lf, 6), -170, <div style={{ transform: bob(frame) }}><Chip n={icon} c={ic} size={240} /></div>)}
+        {R(ap(lf, 18), 0, <Arrow f={lf} delay={18} w={165} />)}
+        {R(ap(lf, 26), 170, MW(780, 440))}
       </div>
-      {R(ap(lf, 34), 0, <T s={54} w={1300}>{txt}</T>)}
+      {R(ap(lf, 38), 0, <T s={54} w={1300}>{txt}</T>, 55)}
     </>;
   }
 
