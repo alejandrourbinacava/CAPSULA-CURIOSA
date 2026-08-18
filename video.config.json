@@ -1,344 +1,1202 @@
 {
-  "title": "Todo lo que le pasa a tu cerebro sin dormir",
+  "title": "Cada Fobia Explicada y por qué la Desarrollamos",
   "fps": 30,
   "voiceId": "851ejYcv2BoNPjrkw93G",
   "speed": 1.08,
-  "cornerIcon": "brain",
+  "cornerIcon": "bug",
   "handle": "@CapsulaCuriosa",
   "intro": {
     "id": "v00",
-    "narration": "Llevas veinticuatro horas despierto y ya sientes la mente espesa, pero eso es solo el principio de un viaje que tu cerebro no debería hacer nunca. ¿Qué pasa exactamente dentro de tu cabeza cuando el sueño desaparece hora tras hora? La ciencia ha seguido a personas privadas de sueño durante días enteros y lo que han descubierto es fascinante y también un poco inquietante: alucinaciones, paranoia, cambios hormonales y hasta estados que se parecen a la psicosis. En este vídeo vamos a recorrer, hora por hora, todo lo que le ocurre a tu mente y a tu cuerpo cuando decides no dormir. Quédate hasta el final."
+    "narration": "¿Alguna vez has sentido el corazón a mil solo por ver una araña, entrar en un ascensor o mirar un panal de abejas? No estás roto ni eres raro, tu cerebro simplemente está haciendo su trabajo... a veces con demasiado entusiasmo. Las fobias son de los mecanismos mentales más fascinantes que existen, porque mezclan supervivencia ancestral con experiencias personales muy concretas. Hoy vamos a diseccionar diez fobias, desde las súper comunes hasta las que ni sabías que tenían nombre, para entender qué pasa en tu cabeza cuando el miedo se dispara sin control. Prepárate, esto te va a explicar más de un escalofrío random que has sentido alguna vez."
   },
   "grupos": {
     "id": "v01",
-    "narration": "Vamos a repasar siete etapas clave, desde las primeras dieciséis horas hasta pasar los tres días sin dormir, y también qué ocurre cuando tu cerebro por fin puede recuperarse. Empezamos."
+    "narration": "Vamos a repasar diez fobias muy distintas entre sí: unas relacionadas con animales, otras con espacios, con el cuerpo o incluso con patrones visuales. En cada una veremos qué es exactamente, cómo se manifiesta, por qué aparece en el cerebro y qué se puede hacer al respecto. Empezamos."
   },
   "outro": {
-    "id": "v09",
-    "narration": "Como has visto, el sueño no es un lujo, es una necesidad biológica que tu cerebro reclama cada noche sin excepción. Espero que este recorrido te haya servido para valorar cada hora de descanso que le regalas a tu mente. Si te ha gustado, suscríbete a Cápsula Curiosa para seguir descubriendo cómo funciona tu cuerpo. ¡Nos vemos en el próximo vídeo!"
+    "id": "v12",
+    "narration": "Como ves, el miedo no es un fallo del sistema, es una alarma antigua que a veces suena en el momento equivocado. Conocer el origen de cada fobia es el primer paso para quitarle poder. Si te ha resultado interesante, dale like, coméntanos qué fobia te identifica más y suscríbete a Cápsula Curiosa para el próximo viaje por la mente humana."
   },
   "items": [
     {
       "id": "v02",
       "key": "item1",
-      "name": "16 HORAS: EL EFECTO 'BORRACHO'",
-      "group": "",
+      "name": "ARACNOFOBIA",
       "color": "#e57373",
-      "main": "brain",
-      "def": "Como estar ebrio",
-      "fuera": [
-        "eye",
-        "Ojos rojos, bostezos"
-      ],
-      "dentro": [
-        "activity",
-        "Reflejos más lentos"
-      ],
-      "senales": [
+      "main": "bug",
+      "def": "Miedo intenso a arañas",
+      "beats": [
         {
-          "icon": "frown",
-          "color": "#ffd54f",
-          "label": "Bostezos frecuentes"
+          "say": "Empezamos con la reina de las fobias: la aracnofobia, el miedo intenso e irracional a las arañas.",
+          "text": "ARACNOFOBIA",
+          "icon": "bug",
+          "media": "none",
+          "query": ""
         },
         {
-          "icon": "gauge",
-          "color": "#ff8c1a",
-          "label": "Reacción lenta"
+          "say": "Por fuera se ve como un grito, un salto hacia atrás o quedarse completamente paralizado de golpe.",
+          "text": "REACCIÓN FÍSICA",
+          "icon": "activity",
+          "media": "gif",
+          "query": "person jumping scared spider reaction"
         },
         {
+          "say": "Por dentro el corazón se acelera, sudas y sientes un impulso urgente de huir de la habitación.",
+          "text": "POR DENTRO",
+          "icon": "heart-crack",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Algunas personas evitan jardines, cajas de trastos o incluso fotos de arañas en redes sociales.",
+          "text": "EVITACIÓN",
+          "icon": "eye",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Los científicos creen que este miedo tiene raíces evolutivas, ya que muchas arañas antiguas eran venenosas.",
+          "text": "ORIGEN EVOLUTIVO",
+          "icon": "dna",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Nuestros ancestros que temían a las arañas sobrevivían más, y ese miedo se transmitió genéticamente.",
+          "text": "VENTAJA DE SUPERVIVENCIA",
+          "icon": "skull",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Pero también influye el aprendizaje: ver a tu madre gritar de niño puede plantar la semilla del miedo.",
+          "text": "APRENDIZAJE SOCIAL",
+          "icon": "users",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Un ejemplo real: alguien que no puede entrar a un garaje sin revisar antes cada rincón oscuro.",
+          "text": "EJEMPLO REAL",
+          "icon": "door-closed",
+          "media": "photo",
+          "query": "dark garage entrance spider web"
+        },
+        {
+          "say": "Otros incluso evitan viajar a países tropicales solo por la posibilidad de cruzarse con una araña grande.",
+          "text": "EVITAR VIAJES",
+          "icon": "map",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El cerebro reacciona antes de que la parte racional pueda analizar si el bicho es realmente peligroso.",
+          "text": "REACCIÓN AUTOMÁTICA",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La amígdala, encargada del miedo, se activa en milisegundos, mucho antes que la corteza pensante.",
+          "text": "LA AMÍGDALA",
+          "icon": "zap",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El tratamiento más efectivo es la exposición gradual, viendo fotos, luego vídeos y después arañas reales controladas.",
+          "text": "EXPOSICIÓN GRADUAL",
+          "icon": "list-checks",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La terapia cognitivo conductual ayuda a reescribir esos pensamientos automáticos de peligro exagerado.",
+          "text": "TERAPIA COGNITIVA",
           "icon": "puzzle",
-          "color": "#4db6ac",
-          "label": "Falta de concentración"
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Con constancia, muchas personas logran sostener un frasco con una araña sin sentir pánico.",
+          "text": "PROGRESO POSIBLE",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "No es debilidad, es un circuito antiguo que se puede reentrenar poco a poco con paciencia.",
+          "text": "SE PUEDE TRATAR",
+          "icon": "handshake",
+          "media": "none",
+          "query": ""
         }
       ],
-      "causa": [
-        "atom",
-        "Acumulación de adenosina"
-      ],
-      "ejemploTitle": "Conductor de camión",
-      "consejo": [
-        "clock",
-        "Descansos cada 2h"
-      ],
-      "videoQuery": "tired truck driver night driving",
-      "photoQuery": "exhausted man yawning car",
-      "narration": "Después de dieciséis horas sin pegar ojo, tu cerebro entra en un estado que los científicos comparan, literalmente, con estar borracho. No es una exageración: estudios han demostrado que tu capacidad de reacción y tu coordinación se parecen a las de alguien con un cero coma cinco de alcohol en sangre, aunque no hayas probado ni una gota. Por fuera, notas los ojos rojos, los párpados pesados y bostezos que no puedes controlar; por dentro, tus neuronas empiezan a comunicarse más despacio porque una sustancia llamada adenosina se ha ido acumulando en tu cerebro toda la jornada, como un aviso de que necesita parar. Las señales son claras: primero llegan los bostezos frecuentes, casi cada minuto; después notas que tardas más en reaccionar a lo que pasa a tu alrededor, como si todo se moviera en cámara lenta; y por último te cuesta concentrarte, tu mente se va y pierdes el hilo de lo que estabas haciendo. ¿Por qué ocurre esto? Porque la adenosina bloquea las señales que te mantienen alerta, empujando a tu cerebro hacia el sueño aunque tú intentes resistirte con café o fuerza de voluntad. Un ejemplo: un camionero que lleva dieciséis horas al volante puede tener los mismos reflejos que alguien que ha bebido dos copas de vino, sin haberlas probado. ¿Cómo evitarlo? Haciendo paradas cada dos horas, estirando las piernas y, sobre todo, reconociendo que ningún café sustituye a una cabezada real."
+      "narration": "Empezamos con la reina de las fobias: la aracnofobia, el miedo intenso e irracional a las arañas. Por fuera se ve como un grito, un salto hacia atrás o quedarse completamente paralizado de golpe. Por dentro el corazón se acelera, sudas y sientes un impulso urgente de huir de la habitación. Algunas personas evitan jardines, cajas de trastos o incluso fotos de arañas en redes sociales. Los científicos creen que este miedo tiene raíces evolutivas, ya que muchas arañas antiguas eran venenosas. Nuestros ancestros que temían a las arañas sobrevivían más, y ese miedo se transmitió genéticamente. Pero también influye el aprendizaje: ver a tu madre gritar de niño puede plantar la semilla del miedo. Un ejemplo real: alguien que no puede entrar a un garaje sin revisar antes cada rincón oscuro. Otros incluso evitan viajar a países tropicales solo por la posibilidad de cruzarse con una araña grande. El cerebro reacciona antes de que la parte racional pueda analizar si el bicho es realmente peligroso. La amígdala, encargada del miedo, se activa en milisegundos, mucho antes que la corteza pensante. El tratamiento más efectivo es la exposición gradual, viendo fotos, luego vídeos y después arañas reales controladas. La terapia cognitivo conductual ayuda a reescribir esos pensamientos automáticos de peligro exagerado. Con constancia, muchas personas logran sostener un frasco con una araña sin sentir pánico. No es debilidad, es un circuito antiguo que se puede reentrenar poco a poco con paciencia.",
+      "videoQuery": "spider crawling close up",
+      "photoQuery": "person scared of spider"
     },
     {
       "id": "v03",
       "key": "item2",
-      "name": "24 HORAS: UN DÍA ENTERO DESPIERTO",
-      "group": "",
+      "name": "CLAUSTROFOBIA",
       "color": "#90a4ae",
-      "main": "hourglass",
-      "def": "Un día completo despierto",
-      "fuera": [
-        "user",
-        "Cara pálida, ojeras"
-      ],
-      "dentro": [
-        "brain",
-        "Memoria a corto plazo falla"
-      ],
-      "senales": [
+      "main": "door-closed",
+      "def": "Miedo a espacios cerrados",
+      "beats": [
         {
-          "icon": "circle-help",
-          "color": "#ffd54f",
-          "label": "Errores tontos"
+          "say": "La claustrofobia es el miedo intenso a los espacios cerrados o reducidos donde sientes que no puedes escapar.",
+          "text": "CLAUSTROFOBIA",
+          "icon": "door-closed",
+          "media": "none",
+          "query": ""
         },
         {
-          "icon": "angry",
-          "color": "#ff8c1a",
-          "label": "Irritabilidad"
+          "say": "Por fuera se nota en la respiración agitada y en las ganas urgentes de salir de ese lugar ya mismo.",
+          "text": "CÓMO SE VE",
+          "icon": "activity",
+          "media": "gif",
+          "query": "person panicking small room anxious"
         },
         {
+          "say": "Por dentro aparece una sensación de ahogo, mareo y la mente repite que las paredes se están cerrando.",
+          "text": "SENSACIÓN INTERNA",
+          "icon": "heart-crack",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ascensores, túneles, resonancias magnéticas o aviones pequeños suelen ser los escenarios más temidos.",
+          "text": "ESCENARIOS COMUNES",
+          "icon": "eye",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Un ejemplo típico es alguien que sube diez pisos por escaleras solo para no entrar en el ascensor.",
+          "text": "EJEMPLO REAL",
+          "icon": "footprints",
+          "media": "photo",
+          "query": "person taking stairs instead of elevator"
+        },
+        {
+          "say": "El origen puede venir de una experiencia traumática, como quedarse atrapado de niño en algún sitio.",
+          "text": "ORIGEN TRAUMÁTICO",
+          "icon": "user",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "También se relaciona con la necesidad instintiva de tener siempre una ruta de escape disponible.",
+          "text": "INSTINTO DE ESCAPE",
+          "icon": "door-open",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El cerebro interpreta la falta de espacio como una amenaza directa a la propia supervivencia.",
+          "text": "INTERPRETACIÓN CEREBRAL",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Esto dispara la respuesta de lucha o huida, aunque en realidad no exista peligro real alguno.",
+          "text": "LUCHA O HUIDA",
+          "icon": "zap",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Algunas personas evitan probadores de ropa, cines llenos o incluso dormir con la puerta cerrada.",
+          "text": "EVITACIÓN COTIDIANA",
+          "icon": "shirt",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La ansiedad anticipatoria aparece incluso días antes de saber que tendrán que meterse en un espacio pequeño.",
+          "text": "ANSIEDAD ANTICIPATORIA",
+          "icon": "hourglass",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El tratamiento incluye técnicas de respiración para calmar el sistema nervioso en el momento del pánico.",
+          "text": "RESPIRACIÓN CONTROLADA",
+          "icon": "activity",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La exposición virtual con gafas de realidad aumentada está dando muy buenos resultados actualmente.",
+          "text": "REALIDAD VIRTUAL",
           "icon": "glasses",
-          "color": "#4db6ac",
-          "label": "Visión borrosa"
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Con terapia adecuada, muchas personas logran volver a usar ascensores sin ninguna sensación de pánico.",
+          "text": "RECUPERACIÓN POSIBLE",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El espacio nunca fue el enemigo real, sino la interpretación que el cerebro hacía de él.",
+          "text": "REFLEXIÓN FINAL",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
         }
       ],
-      "causa": [
-        "zap",
-        "Neuronas sin descanso"
-      ],
-      "ejemploTitle": "Estudiante en examen",
-      "consejo": [
-        "bed",
-        "Siesta de 20 min"
-      ],
-      "videoQuery": "student studying exhausted night exam",
-      "photoQuery": "tired student desk night",
-      "narration": "Cuando cumples veinticuatro horas sin dormir, tu cerebro lleva ya un día entero funcionando sin la pausa de mantenimiento que necesita cada noche, y eso se traduce en un deterioro que empieza a notarse en casi todo lo que haces. Es la misma sensación que tendrías tras una noche de fiesta que se alarga hasta el amanecer siguiente: la mente se vuelve espesa y torpe. Por fuera, tu piel se ve pálida, aparecen ojeras marcadas y tu postura se vuelve más encorvada; por dentro, la corteza prefrontal, la zona que organiza tus decisiones, empieza a fallar y tu memoria a corto plazo se vuelve poco fiable. Las señales se notan enseguida: cometes errores tontos que normalmente no harías, como escribir mal una palabra sencilla; te vuelves más irritable con quien tienes al lado sin motivo real; y tu visión se vuelve borrosa, te cuesta enfocar la pantalla o un texto. ¿Por qué pasa esto? Porque tus neuronas llevan veinticuatro horas trabajando sin el proceso de limpieza que ocurre durante el sueño profundo, y empiezan a comunicarse de forma caótica. Un ejemplo: un estudiante que pasa la noche entera estudiando para un examen suele rendir peor que si hubiera dormido y repasado menos horas, porque su cerebro ya no retiene bien la información nueva. ¿Cómo puedes frenar el daño? Con una siesta corta de veinte minutos, que aunque no sustituye una noche completa, ayuda a recuperar algo de claridad mental de forma inmediata."
+      "narration": "La claustrofobia es el miedo intenso a los espacios cerrados o reducidos donde sientes que no puedes escapar. Por fuera se nota en la respiración agitada y en las ganas urgentes de salir de ese lugar ya mismo. Por dentro aparece una sensación de ahogo, mareo y la mente repite que las paredes se están cerrando. Ascensores, túneles, resonancias magnéticas o aviones pequeños suelen ser los escenarios más temidos. Un ejemplo típico es alguien que sube diez pisos por escaleras solo para no entrar en el ascensor. El origen puede venir de una experiencia traumática, como quedarse atrapado de niño en algún sitio. También se relaciona con la necesidad instintiva de tener siempre una ruta de escape disponible. El cerebro interpreta la falta de espacio como una amenaza directa a la propia supervivencia. Esto dispara la respuesta de lucha o huida, aunque en realidad no exista peligro real alguno. Algunas personas evitan probadores de ropa, cines llenos o incluso dormir con la puerta cerrada. La ansiedad anticipatoria aparece incluso días antes de saber que tendrán que meterse en un espacio pequeño. El tratamiento incluye técnicas de respiración para calmar el sistema nervioso en el momento del pánico. La exposición virtual con gafas de realidad aumentada está dando muy buenos resultados actualmente. Con terapia adecuada, muchas personas logran volver a usar ascensores sin ninguna sensación de pánico. El espacio nunca fue el enemigo real, sino la interpretación que el cerebro hacía de él.",
+      "videoQuery": "elevator doors closing tight space",
+      "photoQuery": "person inside small elevator anxious"
     },
     {
       "id": "v04",
       "key": "item3",
-      "name": "36 HORAS: EL CUERPO PIDE AUXILIO",
-      "group": "",
+      "name": "AGORAFOBIA",
       "color": "#ba68c8",
-      "main": "bed",
-      "def": "Sueño físico intenso",
-      "fuera": [
-        "activity",
-        "Manos temblorosas"
-      ],
-      "dentro": [
-        "gauge",
-        "Hormonas del hambre alteradas"
-      ],
-      "senales": [
+      "main": "users",
+      "def": "Miedo a lugares abiertos o multitudes",
+      "beats": [
         {
-          "icon": "flame",
-          "color": "#ffd54f",
-          "label": "Antojos de azúcar"
+          "say": "La agorafobia es el miedo a situaciones donde escapar parece difícil, como multitudes o espacios abiertos.",
+          "text": "AGORAFOBIA",
+          "icon": "users",
+          "media": "none",
+          "query": ""
         },
         {
-          "icon": "moon",
-          "color": "#ff8c1a",
-          "label": "Microsueños"
+          "say": "Por fuera se ve como alguien que evita salir de casa o que solo va a sitios muy conocidos.",
+          "text": "CÓMO SE VE",
+          "icon": "door-closed",
+          "media": "none",
+          "query": ""
         },
         {
-          "icon": "message-circle",
-          "color": "#4db6ac",
-          "label": "Habla más lenta"
+          "say": "Por dentro sienten que si les pasa algo, nadie podrá ayudarles a tiempo en ese lugar tan expuesto.",
+          "text": "SENSACIÓN INTERNA",
+          "icon": "heart-crack",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Centros comerciales, conciertos, plazas grandes o transporte público suelen generar mucha ansiedad anticipada.",
+          "text": "LUGARES TEMIDOS",
+          "icon": "eye",
+          "media": "gif",
+          "query": "person anxious crowded mall"
+        },
+        {
+          "say": "Un caso real es alguien que planifica sus salidas solo en horarios sin gente para sentirse seguro.",
+          "text": "EJEMPLO REAL",
+          "icon": "clock",
+          "media": "photo",
+          "query": "empty street early morning quiet"
+        },
+        {
+          "say": "A menudo aparece después de haber sufrido un ataque de pánico en público sin razón aparente.",
+          "text": "ORIGEN DEL MIEDO",
+          "icon": "zap",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El cerebro asocia ese lugar concreto con el peligro, aunque el peligro real nunca estuvo ahí fuera.",
+          "text": "ASOCIACIÓN ERRÓNEA",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Con el tiempo, el miedo se generaliza y empieza a incluir cada vez más lugares parecidos.",
+          "text": "GENERALIZACIÓN",
+          "icon": "trending-up",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "En casos extremos la persona puede llegar a no querer salir nunca sola de su vivienda.",
+          "text": "CASO EXTREMO",
+          "icon": "alert-triangle",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Esto afecta el trabajo, las relaciones sociales y la independencia personal de manera muy significativa.",
+          "text": "IMPACTO EN LA VIDA",
+          "icon": "briefcase",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La exposición progresiva, saliendo poco a poco y acompañado, es clave para recuperar la confianza.",
+          "text": "EXPOSICIÓN PROGRESIVA",
+          "icon": "footprints",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "También ayuda mucho tener una persona de apoyo cerca durante las primeras salidas complicadas.",
+          "text": "APOYO SOCIAL",
+          "icon": "handshake",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La terapia suele combinarse con técnicas de relajación y, en algunos casos, con medicación puntual.",
+          "text": "TRATAMIENTO COMBINADO",
+          "icon": "pill",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Recuperar el mundo exterior es un proceso lento pero totalmente posible con el acompañamiento adecuado.",
+          "text": "RECUPERACIÓN POSIBLE",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El objetivo final no es eliminar el miedo, sino que deje de controlar cada decisión diaria.",
+          "text": "OBJETIVO FINAL",
+          "icon": "target",
+          "media": "none",
+          "query": ""
         }
       ],
-      "causa": [
-        "dna",
-        "Desequilibrio hormonal"
-      ],
-      "ejemploTitle": "Médico residente de guardia",
-      "consejo": [
-        "list-checks",
-        "Proteína e hidratación"
-      ],
-      "videoQuery": "exhausted doctor hospital night shift",
-      "photoQuery": "tired doctor hospital corridor night",
-      "narration": "A las treinta y seis horas sin dormir, tu cuerpo empieza a mandar señales de alarma física, no solo mental, porque el sueño ya no es solo una cuestión de cansancio sino de supervivencia hormonal. Tu organismo entra en un estado parecido al estrés crónico, liberando cortisol de forma descontrolada mientras las hormonas que regulan el hambre se desajustan por completo. Por fuera, notas las manos temblorosas, la piel más fría y una palidez notable en la cara; por dentro, la grelina, la hormona del hambre, se dispara mientras la leptina, la que te avisa de que estás saciado, cae en picado. Las señales son evidentes: aparecen antojos intensos de azúcar y comida rápida porque el cuerpo busca energía urgente; sufres microsueños, esos segundos en los que te desconectas sin darte cuenta, a veces con los ojos abiertos; y tu forma de hablar se vuelve más lenta, arrastras las palabras como si estuvieras medio dormido. ¿Por qué sucede esto? Porque tu sistema nervioso, agotado, prioriza mantenerte despierto a cualquier precio y descuida el equilibrio hormonal que normalmente regula el hambre y el estrés. Un ejemplo: un médico residente que lleva treinta y seis horas de guardia puede pedir comida basura sin darse cuenta de por qué la necesita tanto, simplemente porque su cuerpo grita por calorías rápidas. ¿Cómo puedes ayudarte en ese punto? Priorizando proteína e hidratación en lugar de azúcar, y aceptando pequeñas cabezadas de cinco minutos si el cuerpo te lo pide."
+      "narration": "La agorafobia es el miedo a situaciones donde escapar parece difícil, como multitudes o espacios abiertos. Por fuera se ve como alguien que evita salir de casa o que solo va a sitios muy conocidos. Por dentro sienten que si les pasa algo, nadie podrá ayudarles a tiempo en ese lugar tan expuesto. Centros comerciales, conciertos, plazas grandes o transporte público suelen generar mucha ansiedad anticipada. Un caso real es alguien que planifica sus salidas solo en horarios sin gente para sentirse seguro. A menudo aparece después de haber sufrido un ataque de pánico en público sin razón aparente. El cerebro asocia ese lugar concreto con el peligro, aunque el peligro real nunca estuvo ahí fuera. Con el tiempo, el miedo se generaliza y empieza a incluir cada vez más lugares parecidos. En casos extremos la persona puede llegar a no querer salir nunca sola de su vivienda. Esto afecta el trabajo, las relaciones sociales y la independencia personal de manera muy significativa. La exposición progresiva, saliendo poco a poco y acompañado, es clave para recuperar la confianza. También ayuda mucho tener una persona de apoyo cerca durante las primeras salidas complicadas. La terapia suele combinarse con técnicas de relajación y, en algunos casos, con medicación puntual. Recuperar el mundo exterior es un proceso lento pero totalmente posible con el acompañamiento adecuado. El objetivo final no es eliminar el miedo, sino que deje de controlar cada decisión diaria.",
+      "videoQuery": "crowded street busy people overwhelming",
+      "photoQuery": "person overwhelmed crowded street"
     },
     {
       "id": "v05",
       "key": "item4",
-      "name": "48 HORAS: LAS DEFENSAS CAEN",
-      "group": "",
+      "name": "TRIPOFOBIA",
       "color": "#607d8b",
-      "main": "moon",
-      "def": "Dos días sin dormir",
-      "fuera": [
-        "eye",
-        "Párpados caídos, tics"
-      ],
-      "dentro": [
-        "shield",
-        "Sistema inmune debilitado"
-      ],
-      "senales": [
+      "main": "eye",
+      "def": "Rechazo a patrones de agujeros",
+      "beats": [
         {
-          "icon": "moon",
-          "color": "#ffd54f",
-          "label": "Microsueños constantes"
+          "say": "La tripofobia es el rechazo o repulsión intensa al ver patrones repetitivos de agujeros pequeños.",
+          "text": "TRIPOFOBIA",
+          "icon": "eye",
+          "media": "none",
+          "query": ""
         },
         {
-          "icon": "scan-face",
-          "color": "#ff8c1a",
-          "label": "Percepción alterada"
+          "say": "Por fuera se manifiesta con escalofríos, náuseas o la necesidad inmediata de apartar la mirada.",
+          "text": "CÓMO SE VE",
+          "icon": "frown",
+          "media": "gif",
+          "query": "person disgusted covering eyes reaction"
         },
         {
-          "icon": "alert-triangle",
-          "color": "#4db6ac",
-          "label": "Dolor de cabeza"
+          "say": "Por dentro genera una sensación de asco mezclada con inquietud difícil de explicar racionalmente.",
+          "text": "SENSACIÓN INTERNA",
+          "icon": "heart-crack",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Panales de abejas, semillas de loto o esponjas de mar suelen ser los disparadores más comunes.",
+          "text": "DISPARADORES COMUNES",
+          "icon": "bug",
+          "media": "photo",
+          "query": "lotus seed pod texture close up"
+        },
+        {
+          "say": "Curiosamente muchos expertos ni siquiera la consideran una fobia oficial, sino una reacción de asco.",
+          "text": "DEBATE CIENTÍFICO",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Una teoría dice que el cerebro asocia esos patrones con la piel de animales venenosos.",
+          "text": "TEORÍA EVOLUTIVA",
+          "icon": "dna",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Otra teoría sugiere que se relaciona con enfermedades de la piel que mostraban agujeros similares.",
+          "text": "TEORÍA ALTERNATIVA",
+          "icon": "microscope",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El cerebro entonces activa una alarma de repulsión para alejarte de un posible contagio o veneno.",
+          "text": "REACCIÓN DEL CEREBRO",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Un ejemplo curioso es la gente que no puede ver fotos de corales sin sentir malestar físico.",
+          "text": "EJEMPLO CURIOSO",
+          "icon": "skull",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Las redes sociales han hecho viral este fenómeno con imágenes creadas específicamente para provocarlo.",
+          "text": "FENÓMENO VIRAL",
+          "icon": "phone",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "A diferencia de otras fobias, no suele generar evitación extrema, solo un rechazo puntual muy fuerte.",
+          "text": "DIFERENCIA CLAVE",
+          "icon": "shield",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La intensidad varía mucho entre personas, desde un ligero cosquilleo hasta un asco muy notable.",
+          "text": "INTENSIDAD VARIABLE",
+          "icon": "gauge",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "No suele requerir tratamiento formal, pero la exposición gradual también reduce la incomodidad con el tiempo.",
+          "text": "TRATAMIENTO LEVE",
+          "icon": "list-checks",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Entender su origen ayuda a quitarle el componente misterioso y verlo como algo más natural.",
+          "text": "ENTENDER EL ORIGEN",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Al final, es tu cerebro protegiéndote de algo que en la naturaleza solía ser una señal de alarma.",
+          "text": "REFLEXIÓN FINAL",
+          "icon": "shield-alert",
+          "media": "none",
+          "query": ""
         }
       ],
-      "causa": [
-        "microscope",
-        "Menos células defensivas"
-      ],
-      "ejemploTitle": "Soldado en entrenamiento",
-      "consejo": [
-        "circle-check",
-        "Buscar ayuda, dormir ya"
-      ],
-      "videoQuery": "exhausted soldier military training sleep deprivation",
-      "photoQuery": "tired man rubbing eyes headache",
-      "narration": "Llegar a las cuarenta y ocho horas sin dormir significa que tu cerebro lleva dos jornadas completas exigiéndose sin la reparación nocturna, y en ese punto el cuerpo empieza a fallar en frentes que van mucho más allá del cansancio mental. Tu sistema inmunitario, que depende del sueño profundo para fabricar defensas, se debilita de forma medible, dejándote más expuesto a resfriados y virus comunes. Por fuera, los párpados caen solos y aparecen pequeños tics musculares en la cara o los ojos; por dentro, la producción de células que combaten infecciones se reduce notablemente, según han medido varios estudios de laboratorio. Las señales a estas alturas son intensas: sufres microsueños constantes, de varios segundos, incluso estando de pie; tu percepción de la realidad se distorsiona un poco, los colores parecen más apagados o los sonidos más lejanos; y aparece un dolor de cabeza persistente que no se va con nada. ¿Por qué ocurre todo esto de golpe? Porque el cerebro, desesperado por descansar, empieza a robar microsueños de segundos sin tu permiso, mientras el cuerpo entero entra en un modo de ahorro de energía que sacrifica funciones que considera secundarias, como las defensas. Un ejemplo: en entrenamientos militares de resistencia, los soldados que superan las cuarenta y ocho horas despiertos empiezan a caerse de pie durante segundos sin darse cuenta, literalmente dormidos con los ojos abiertos. ¿Cómo actuar si llegas a este punto? Buscando ayuda de alguien cercano y priorizando dormir de inmediato, porque el cuerpo ya está pidiendo auxilio real."
+      "narration": "La tripofobia es el rechazo o repulsión intensa al ver patrones repetitivos de agujeros pequeños. Por fuera se manifiesta con escalofríos, náuseas o la necesidad inmediata de apartar la mirada. Por dentro genera una sensación de asco mezclada con inquietud difícil de explicar racionalmente. Panales de abejas, semillas de loto o esponjas de mar suelen ser los disparadores más comunes. Curiosamente muchos expertos ni siquiera la consideran una fobia oficial, sino una reacción de asco. Una teoría dice que el cerebro asocia esos patrones con la piel de animales venenosos. Otra teoría sugiere que se relaciona con enfermedades de la piel que mostraban agujeros similares. El cerebro entonces activa una alarma de repulsión para alejarte de un posible contagio o veneno. Un ejemplo curioso es la gente que no puede ver fotos de corales sin sentir malestar físico. Las redes sociales han hecho viral este fenómeno con imágenes creadas específicamente para provocarlo. A diferencia de otras fobias, no suele generar evitación extrema, solo un rechazo puntual muy fuerte. La intensidad varía mucho entre personas, desde un ligero cosquilleo hasta un asco muy notable. No suele requerir tratamiento formal, pero la exposición gradual también reduce la incomodidad con el tiempo. Entender su origen ayuda a quitarle el componente misterioso y verlo como algo más natural. Al final, es tu cerebro protegiéndote de algo que en la naturaleza solía ser una señal de alarma.",
+      "videoQuery": "honeycomb pattern close up holes",
+      "photoQuery": "lotus seed pod holes pattern"
     },
     {
       "id": "v06",
       "key": "item5",
-      "name": "60-72 HORAS: ALUCINACIONES",
-      "group": "",
+      "name": "ACROFOBIA",
       "color": "#f06292",
-      "main": "ghost",
-      "def": "Alucinaciones leves",
-      "fuera": [
-        "eye",
-        "Mirada perdida"
-      ],
-      "dentro": [
-        "scan-face",
-        "Corteza visual desregulada"
-      ],
-      "senales": [
+      "main": "trending-up",
+      "def": "Miedo intenso a las alturas",
+      "beats": [
         {
-          "icon": "ghost",
-          "color": "#ffd54f",
-          "label": "Ver sombras que no existen"
+          "say": "La acrofobia es el miedo intenso a las alturas, mucho más allá del vértigo normal que sentimos todos.",
+          "text": "ACROFOBIA",
+          "icon": "trending-up",
+          "media": "none",
+          "query": ""
         },
         {
-          "icon": "shield-alert",
-          "color": "#ff8c1a",
-          "label": "Paranoia leve"
+          "say": "Por fuera se ve como piernas temblorosas, agarrarse fuerte a la barandilla o no acercarse al borde.",
+          "text": "CÓMO SE VE",
+          "icon": "hand",
+          "media": "gif",
+          "query": "person scared looking down from height"
         },
         {
-          "icon": "clock",
-          "color": "#4db6ac",
-          "label": "Desorientación temporal"
+          "say": "Por dentro aparece la sensación de que el suelo se mueve y de perder totalmente el equilibrio.",
+          "text": "SENSACIÓN INTERNA",
+          "icon": "heart-crack",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Balcones altos, puentes, miradores de cristal o escaleras exteriores suelen ser los lugares más difíciles.",
+          "text": "LUGARES DIFÍCILES",
+          "icon": "eye",
+          "media": "photo",
+          "query": "glass floor skyscraper observation deck"
+        },
+        {
+          "say": "Un ejemplo real es alguien incapaz de asomarse a la ventana de un piso quince aunque esté cerrada.",
+          "text": "EJEMPLO REAL",
+          "icon": "door-closed",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Este miedo también tiene lógica evolutiva: caer desde una altura era una de las principales causas de muerte.",
+          "text": "LÓGICA EVOLUTIVA",
+          "icon": "dna",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El sistema vestibular, encargado del equilibrio, se altera al procesar la falta de referencias cercanas.",
+          "text": "SISTEMA VESTIBULAR",
+          "icon": "activity",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El cerebro entonces exagera la sensación de inestabilidad como mecanismo extra de protección.",
+          "text": "EXAGERACIÓN CEREBRAL",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Algunas personas desarrollan este miedo tras una caída real o un susto durante la infancia.",
+          "text": "ORIGEN TRAUMÁTICO",
+          "icon": "baby",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Otras simplemente lo heredan de un familiar que también mostraba el mismo comportamiento ante las alturas.",
+          "text": "APRENDIZAJE FAMILIAR",
+          "icon": "users",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Esto puede limitar actividades como viajar en avión, hacer senderismo o incluso subir a una torre turística.",
+          "text": "IMPACTO EN LA VIDA",
+          "icon": "map",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La realidad virtual permite simular alturas de forma segura y controlada durante la terapia de exposición.",
+          "text": "TERAPIA CON REALIDAD VIRTUAL",
+          "icon": "glasses",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "También se trabaja mucho la respiración y el enfoque visual hacia puntos fijos y estables.",
+          "text": "TÉCNICAS DE CONTROL",
+          "icon": "target",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Con práctica constante, muchas personas logran subir a miradores altos sintiendo solo un cosquilleo leve.",
+          "text": "PROGRESO POSIBLE",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La altura sigue siendo la misma, lo que cambia es la forma en la que el cerebro la interpreta.",
+          "text": "REFLEXIÓN FINAL",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
         }
       ],
-      "causa": [
-        "brain",
-        "Cerebro entra en sueño parcial"
-      ],
-      "ejemploTitle": "Récord mundial de vigilia",
-      "consejo": [
-        "alert-triangle",
-        "Nunca llegar aquí"
-      ],
-      "videoQuery": "sleep deprivation hallucination experiment record",
-      "photoQuery": "disoriented man staring blankly",
-      "narration": "Entre las sesenta y las setenta y dos horas sin dormir, tu mente entra en un terreno que ya se parece más a la ciencia ficción que a un simple cansancio, porque el cerebro comienza a mezclar la vigilia con fragmentos de sueño sin que tú lo controles. Es el fenómeno conocido como microsueño despierto, donde partes de tu cerebro se duermen mientras otras siguen activas, generando percepciones extrañas. Por fuera, tu mirada se queda perdida, casi vacía, y te mueves con torpeza como un robot; por dentro, la corteza visual empieza a generar imágenes que no existen porque recibe señales desordenadas de zonas cerebrales que ya están dormidas parcialmente. Las señales en esta fase asustan un poco: puedes ver sombras o formas moviéndose por el rabillo del ojo que no están ahí; aparece una paranoia leve, sientes que algo va mal sin motivo claro; y pierdes la noción del tiempo, no sabes si ha pasado una hora o cinco. ¿Por qué pasa esto tan intenso? Porque el cerebro, privado de sueño durante tanto tiempo, empieza a colarte fragmentos de sueño REM mientras sigues despierto, mezclando realidad y ensueño en la misma escena. Un ejemplo: en el famoso experimento de Randy Gardner, que estuvo despierto once días en 1964, a partir de las setenta horas empezó a ver objetos que no existían y a confundir carteles de la calle con personas. ¿Cómo deberías actuar si notas estas señales en ti o en alguien cercano? Considerándolo una alarma seria y buscando dormir de inmediato, porque el cerebro ya no puede sostener la vigilia con seguridad."
+      "narration": "La acrofobia es el miedo intenso a las alturas, mucho más allá del vértigo normal que sentimos todos. Por fuera se ve como piernas temblorosas, agarrarse fuerte a la barandilla o no acercarse al borde. Por dentro aparece la sensación de que el suelo se mueve y de perder totalmente el equilibrio. Balcones altos, puentes, miradores de cristal o escaleras exteriores suelen ser los lugares más difíciles. Un ejemplo real es alguien incapaz de asomarse a la ventana de un piso quince aunque esté cerrada. Este miedo también tiene lógica evolutiva: caer desde una altura era una de las principales causas de muerte. El sistema vestibular, encargado del equilibrio, se altera al procesar la falta de referencias cercanas. El cerebro entonces exagera la sensación de inestabilidad como mecanismo extra de protección. Algunas personas desarrollan este miedo tras una caída real o un susto durante la infancia. Otras simplemente lo heredan de un familiar que también mostraba el mismo comportamiento ante las alturas. Esto puede limitar actividades como viajar en avión, hacer senderismo o incluso subir a una torre turística. La realidad virtual permite simular alturas de forma segura y controlada durante la terapia de exposición. También se trabaja mucho la respiración y el enfoque visual hacia puntos fijos y estables. Con práctica constante, muchas personas logran subir a miradores altos sintiendo solo un cosquilleo leve. La altura sigue siendo la misma, lo que cambia es la forma en la que el cerebro la interpreta.",
+      "videoQuery": "glass skywalk high building view",
+      "photoQuery": "person standing edge tall building scared"
     },
     {
       "id": "v07",
       "key": "item6",
-      "name": "72+ HORAS: EL LÍMITE PSICOLÓGICO",
-      "group": "",
+      "name": "FOBIA SOCIAL",
       "color": "#ffb300",
-      "main": "skull",
-      "def": "Estado similar a psicosis",
-      "fuera": [
-        "message-circle",
-        "Habla incoherente"
-      ],
-      "dentro": [
-        "brain",
-        "Amígdala hiperactiva"
-      ],
-      "senales": [
+      "main": "message-circle",
+      "def": "Miedo al juicio de los demás",
+      "beats": [
         {
-          "icon": "shield-alert",
-          "color": "#ffd54f",
-          "label": "Paranoia intensa"
+          "say": "La fobia social es el miedo intenso a ser juzgado, humillado o evaluado negativamente por los demás.",
+          "text": "FOBIA SOCIAL",
+          "icon": "message-circle",
+          "media": "none",
+          "query": ""
         },
         {
-          "icon": "drama",
-          "color": "#ff8c1a",
-          "label": "Cambios de humor extremos"
+          "say": "Por fuera se ve como sonrojo, tartamudeo, evitar el contacto visual o quedarse en blanco de golpe.",
+          "text": "CÓMO SE VE",
+          "icon": "frown",
+          "media": "gif",
+          "query": "person nervous blushing public speaking"
         },
         {
+          "say": "Por dentro hay un diálogo constante de autocrítica y anticipación de un ridículo que casi nunca ocurre.",
+          "text": "SENSACIÓN INTERNA",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Hablar en público, comer delante de otros o hacer una llamada telefónica pueden ser retos enormes.",
+          "text": "SITUACIONES DIFÍCILES",
+          "icon": "phone",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Un ejemplo real es alguien que rechaza ascensos laborales solo para evitar dar presentaciones en equipo.",
+          "text": "EJEMPLO REAL",
+          "icon": "briefcase",
+          "media": "photo",
+          "query": "nervous employee meeting presentation office"
+        },
+        {
+          "say": "El origen suele combinar una personalidad sensible con experiencias tempranas de burla o crítica dura.",
+          "text": "ORIGEN COMBINADO",
+          "icon": "dna",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El cerebro social se activa en exceso, procesando cada gesto ajeno como una posible amenaza.",
+          "text": "CEREBRO SOCIAL",
+          "icon": "scan-face",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Esto genera una vigilancia constante hacia uno mismo, analizando cada palabra antes de decirla.",
+          "text": "AUTOVIGILANCIA CONSTANTE",
+          "icon": "eye",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "A largo plazo puede llevar a evitar fiestas, entrevistas de trabajo o incluso citas románticas.",
+          "text": "EVITACIÓN A LARGO PLAZO",
+          "icon": "users",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Las redes sociales, curiosamente, a veces empeoran esto al comparar la vida real con perfiles perfectos.",
+          "text": "INFLUENCIA DIGITAL",
+          "icon": "phone",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La terapia cognitivo conductual ayuda a cuestionar esos pensamientos catastróficos sobre el juicio ajeno.",
+          "text": "TERAPIA COGNITIVA",
           "icon": "puzzle",
-          "color": "#4db6ac",
-          "label": "Incapacidad de razonar"
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Practicar habilidades sociales poco a poco, en situaciones controladas, reduce mucho la ansiedad anticipada.",
+          "text": "PRÁCTICA GRADUAL",
+          "icon": "handshake",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Grupos de apoyo con personas que sienten lo mismo también resultan muy útiles para normalizar el miedo.",
+          "text": "GRUPOS DE APOYO",
+          "icon": "users",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Con el tiempo, muchas personas logran disfrutar de situaciones sociales que antes evitaban completamente.",
+          "text": "PROGRESO POSIBLE",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Al final, casi nadie está prestando tanta atención a nuestros errores como creemos que hacen.",
+          "text": "REFLEXIÓN FINAL",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
         }
       ],
-      "causa": [
-        "zap",
-        "Colapso de conexiones neuronales"
-      ],
-      "ejemploTitle": "Caso clínico documentado",
-      "consejo": [
-        "alert-triangle",
-        "Emergencia médica real"
-      ],
-      "videoQuery": "extreme exhaustion mental breakdown stress",
-      "photoQuery": "distressed man head in hands",
-      "narration": "Superadas las setenta y dos horas sin dormir, el cerebro entra en un territorio que los especialistas describen como muy similar a un episodio de psicosis temporal, aunque no exista ningún trastorno de base, simplemente por la falta acumulada de descanso. Es el punto donde la privación de sueño deja de ser una molestia y se convierte en una alteración profunda del funcionamiento mental. Por fuera, la persona puede hablar de forma incoherente, saltando de un tema a otro sin sentido; por dentro, la amígdala, la zona que gestiona el miedo y las emociones, se vuelve hiperactiva mientras la corteza prefrontal, que debería controlarla, apenas funciona. Las señales en esta fase son muy marcadas: la paranoia se intensifica hasta hacer sentir que alguien te observa o te quiere hacer daño; los cambios de humor son extremos, de la euforia al llanto en minutos; y la capacidad de razonar con lógica prácticamente desaparece, cuesta seguir una conversación sencilla. ¿Por qué el cerebro llega a este extremo? Porque las conexiones entre neuronas empiezan a fallar por falta de la limpieza celular que solo ocurre durmiendo, y el cerebro pierde la capacidad de filtrar lo real de lo imaginado. Un ejemplo: se han documentado casos clínicos de personas sometidas a privación extrema de sueño en estudios controlados que empezaron a creer, de forma pasajera, que los investigadores conspiraban contra ellas. ¿Cómo se debe actuar llegado este punto? Tratándolo como una emergencia médica real, buscando atención profesional y dejando claro que nunca se debería llegar voluntariamente hasta aquí."
+      "narration": "La fobia social es el miedo intenso a ser juzgado, humillado o evaluado negativamente por los demás. Por fuera se ve como sonrojo, tartamudeo, evitar el contacto visual o quedarse en blanco de golpe. Por dentro hay un diálogo constante de autocrítica y anticipación de un ridículo que casi nunca ocurre. Hablar en público, comer delante de otros o hacer una llamada telefónica pueden ser retos enormes. Un ejemplo real es alguien que rechaza ascensos laborales solo para evitar dar presentaciones en equipo. El origen suele combinar una personalidad sensible con experiencias tempranas de burla o crítica dura. El cerebro social se activa en exceso, procesando cada gesto ajeno como una posible amenaza. Esto genera una vigilancia constante hacia uno mismo, analizando cada palabra antes de decirla. A largo plazo puede llevar a evitar fiestas, entrevistas de trabajo o incluso citas románticas. Las redes sociales, curiosamente, a veces empeoran esto al comparar la vida real con perfiles perfectos. La terapia cognitivo conductual ayuda a cuestionar esos pensamientos catastróficos sobre el juicio ajeno. Practicar habilidades sociales poco a poco, en situaciones controladas, reduce mucho la ansiedad anticipada. Grupos de apoyo con personas que sienten lo mismo también resultan muy útiles para normalizar el miedo. Con el tiempo, muchas personas logran disfrutar de situaciones sociales que antes evitaban completamente. Al final, casi nadie está prestando tanta atención a nuestros errores como creemos que hacen.",
+      "videoQuery": "person anxious speaking in front of audience",
+      "photoQuery": "person nervous public speaking crowd"
     },
     {
       "id": "v08",
       "key": "item7",
-      "name": "LA RECUPERACIÓN: PAGAR LA DEUDA DE SUEÑO",
-      "group": "",
+      "name": "COULROFOBIA",
       "color": "#ffd54f",
-      "main": "sun",
-      "def": "La recuperación del cerebro",
-      "fuera": [
-        "bed",
-        "Sueño profundo prolongado"
-      ],
-      "dentro": [
-        "sparkles",
-        "Limpieza cerebral acelerada"
-      ],
-      "senales": [
+      "main": "drama",
+      "def": "Miedo intenso a los payasos",
+      "beats": [
         {
-          "icon": "moon",
-          "color": "#ffd54f",
-          "label": "Sueño REM de rebote"
+          "say": "La coulrofobia es el miedo intenso y persistente hacia los payasos, incluso en contextos festivos.",
+          "text": "COULROFOBIA",
+          "icon": "drama",
+          "media": "none",
+          "query": ""
         },
         {
-          "icon": "smile",
-          "color": "#ff8c1a",
-          "label": "Mejora rápida del ánimo"
+          "say": "Por fuera se ve como querer alejarse rápido, taparse los ojos o directamente salir corriendo del lugar.",
+          "text": "CÓMO SE VE",
+          "icon": "footprints",
+          "media": "gif",
+          "query": "kid scared running away clown"
         },
         {
+          "say": "Por dentro genera una sensación de amenaza escondida detrás de una sonrisa que parece falsa.",
+          "text": "SENSACIÓN INTERNA",
+          "icon": "venetian-mask",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Fiestas de cumpleaños, circos o películas de terror suelen ser los contextos más temidos.",
+          "text": "CONTEXTOS COMUNES",
+          "icon": "eye",
+          "media": "photo",
+          "query": "circus clown performance stage"
+        },
+        {
+          "say": "Un ejemplo real son niños que lloran al ver un payaso animando una fiesta infantil.",
+          "text": "EJEMPLO REAL",
+          "icon": "baby",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El maquillaje exagerado dificulta leer las expresiones reales, y eso genera desconfianza inmediata en el cerebro.",
+          "text": "MAQUILLAJE Y CONFIANZA",
+          "icon": "scan-face",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Los humanos necesitamos ver microexpresiones faciales para saber si alguien es de fiar o no.",
+          "text": "NECESIDAD DE EXPRESIONES",
+          "icon": "eye",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Al ocultar esas señales, el payaso activa una alarma cerebral de incertidumbre y posible peligro.",
+          "text": "ALARMA CEREBRAL",
           "icon": "brain",
-          "color": "#4db6ac",
-          "label": "Memoria se recupera"
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Las películas de terror con payasos asesinos han reforzado muchísimo esta asociación cultural negativa.",
+          "text": "INFLUENCIA CULTURAL",
+          "icon": "skull",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "También influye la sonrisa fija pintada, que contrasta de forma extraña con el resto del rostro.",
+          "text": "SONRISA FIJA",
+          "icon": "frown",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Este fenómeno se relaciona con el llamado valle inquietante, cuando algo casi humano resulta perturbador.",
+          "text": "VALLE INQUIETANTE",
+          "icon": "venetian-mask",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "No suele necesitar tratamiento formal si no interfiere demasiado en la vida diaria de la persona.",
+          "text": "TRATAMIENTO OPCIONAL",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Cuando sí interfiere, la exposición gradual a imágenes y luego payasos reales ayuda a reducir el miedo.",
+          "text": "EXPOSICIÓN GRADUAL",
+          "icon": "list-checks",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Conocer a la persona detrás del maquillaje, sin disfraz, también ayuda mucho a bajar la ansiedad.",
+          "text": "CONOCER A LA PERSONA",
+          "icon": "handshake",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Al final, el miedo nace de no poder leer bien las intenciones detrás de esa máscara pintada.",
+          "text": "REFLEXIÓN FINAL",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
         }
       ],
-      "causa": [
-        "hourglass",
-        "El cerebro paga la deuda"
+      "narration": "La coulrofobia es el miedo intenso y persistente hacia los payasos, incluso en contextos festivos. Por fuera se ve como querer alejarse rápido, taparse los ojos o directamente salir corriendo del lugar. Por dentro genera una sensación de amenaza escondida detrás de una sonrisa que parece falsa. Fiestas de cumpleaños, circos o películas de terror suelen ser los contextos más temidos. Un ejemplo real son niños que lloran al ver un payaso animando una fiesta infantil. El maquillaje exagerado dificulta leer las expresiones reales, y eso genera desconfianza inmediata en el cerebro. Los humanos necesitamos ver microexpresiones faciales para saber si alguien es de fiar o no. Al ocultar esas señales, el payaso activa una alarma cerebral de incertidumbre y posible peligro. Las películas de terror con payasos asesinos han reforzado muchísimo esta asociación cultural negativa. También influye la sonrisa fija pintada, que contrasta de forma extraña con el resto del rostro. Este fenómeno se relaciona con el llamado valle inquietante, cuando algo casi humano resulta perturbador. No suele necesitar tratamiento formal si no interfiere demasiado en la vida diaria de la persona. Cuando sí interfiere, la exposición gradual a imágenes y luego payasos reales ayuda a reducir el miedo. Conocer a la persona detrás del maquillaje, sin disfraz, también ayuda mucho a bajar la ansiedad. Al final, el miedo nace de no poder leer bien las intenciones detrás de esa máscara pintada.",
+      "videoQuery": "clown makeup close up unsettling",
+      "photoQuery": "creepy clown face close up"
+    },
+    {
+      "id": "v09",
+      "key": "item8",
+      "name": "AVIOFOBIA",
+      "color": "#4db6ac",
+      "main": "anchor",
+      "def": "Miedo intenso a volar en avión",
+      "beats": [
+        {
+          "say": "La aviofobia es el miedo intenso a volar, incluso sabiendo que estadísticamente es de los transportes más seguros.",
+          "text": "AVIOFOBIA",
+          "icon": "anchor",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por fuera se ve como agarrar fuerte los reposabrazos, sudar frío o pedir tranquilizantes antes del vuelo.",
+          "text": "CÓMO SE VE",
+          "icon": "activity",
+          "media": "gif",
+          "query": "nervous passenger gripping airplane armrest"
+        },
+        {
+          "say": "Por dentro aparece la sensación de no tener ningún control sobre lo que está pasando en ese momento.",
+          "text": "SENSACIÓN INTERNA",
+          "icon": "heart-crack",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El despegue, el aterrizaje o cualquier turbulencia inesperada suelen disparar los momentos más intensos de pánico.",
+          "text": "MOMENTOS CRÍTICOS",
+          "icon": "zap",
+          "media": "photo",
+          "query": "airplane taking off runway"
+        },
+        {
+          "say": "Un ejemplo real es alguien que planifica vacaciones enteras solo por destinos accesibles en coche o tren.",
+          "text": "EJEMPLO REAL",
+          "icon": "map",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El origen suele combinar la falta de control con un miedo previo a las alturas o a los espacios cerrados.",
+          "text": "ORIGEN COMBINADO",
+          "icon": "dna",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ver noticias de accidentes aéreos, aunque sean extremadamente raros, refuerza mucho esta percepción exagerada.",
+          "text": "INFLUENCIA MEDIÁTICA",
+          "icon": "phone",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El cerebro tiende a recordar mejor sucesos dramáticos que estadísticas frías sobre seguridad real.",
+          "text": "SESGO CEREBRAL",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Esto se llama sesgo de disponibilidad, y hace que lo memorable parezca más probable de lo que es.",
+          "text": "SESGO DE DISPONIBILIDAD",
+          "icon": "puzzle",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Algunas personas desarrollan este miedo después de vivir un vuelo con turbulencias muy fuertes.",
+          "text": "EXPERIENCIA TRAUMÁTICA",
+          "icon": "alert-triangle",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Existen cursos específicos donde pilotos explican cómo funciona un avión para reducir la incertidumbre.",
+          "text": "CURSOS ESPECIALIZADOS",
+          "icon": "graduation-cap",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Entender el proceso técnico ayuda mucho a calmar esa sensación de falta total de control.",
+          "text": "ENTENDER EL PROCESO",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Las técnicas de respiración y distracción mental también son muy útiles durante el propio vuelo.",
+          "text": "TÉCNICAS DURANTE EL VUELO",
+          "icon": "activity",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Con exposición progresiva, muchas personas logran volar de nuevo con una ansiedad mucho más manejable.",
+          "text": "PROGRESO POSIBLE",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Volar sigue siendo uno de los medios de transporte más seguros que existen actualmente.",
+          "text": "REFLEXIÓN FINAL",
+          "icon": "scale",
+          "media": "none",
+          "query": ""
+        }
       ],
-      "ejemploTitle": "Tras una guardia larga",
-      "consejo": [
-        "list-checks",
-        "Dormir por fases, no de golpe"
+      "narration": "La aviofobia es el miedo intenso a volar, incluso sabiendo que estadísticamente es de los transportes más seguros. Por fuera se ve como agarrar fuerte los reposabrazos, sudar frío o pedir tranquilizantes antes del vuelo. Por dentro aparece la sensación de no tener ningún control sobre lo que está pasando en ese momento. El despegue, el aterrizaje o cualquier turbulencia inesperada suelen disparar los momentos más intensos de pánico. Un ejemplo real es alguien que planifica vacaciones enteras solo por destinos accesibles en coche o tren. El origen suele combinar la falta de control con un miedo previo a las alturas o a los espacios cerrados. Ver noticias de accidentes aéreos, aunque sean extremadamente raros, refuerza mucho esta percepción exagerada. El cerebro tiende a recordar mejor sucesos dramáticos que estadísticas frías sobre seguridad real. Esto se llama sesgo de disponibilidad, y hace que lo memorable parezca más probable de lo que es. Algunas personas desarrollan este miedo después de vivir un vuelo con turbulencias muy fuertes. Existen cursos específicos donde pilotos explican cómo funciona un avión para reducir la incertidumbre. Entender el proceso técnico ayuda mucho a calmar esa sensación de falta total de control. Las técnicas de respiración y distracción mental también son muy útiles durante el propio vuelo. Con exposición progresiva, muchas personas logran volar de nuevo con una ansiedad mucho más manejable. Volar sigue siendo uno de los medios de transporte más seguros que existen actualmente.",
+      "videoQuery": "airplane turbulence flight cabin",
+      "photoQuery": "person nervous inside airplane cabin"
+    },
+    {
+      "id": "v10",
+      "key": "item9",
+      "name": "EMETOFOBIA",
+      "color": "#7986cb",
+      "main": "shield-alert",
+      "def": "Miedo intenso a vomitar",
+      "beats": [
+        {
+          "say": "La emetofobia es el miedo intenso a vomitar, a ver a alguien vomitar o incluso a sentir náuseas.",
+          "text": "EMETOFOBIA",
+          "icon": "shield-alert",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por fuera se ve como evitar ciertos alimentos, restaurantes desconocidos o cualquier viaje en barco.",
+          "text": "CÓMO SE VE",
+          "icon": "ban",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por dentro hay una vigilancia constante del propio cuerpo, buscando cualquier señal mínima de malestar.",
+          "text": "SENSACIÓN INTERNA",
+          "icon": "eye",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Comer fuera de casa, viajar en avión o estar cerca de personas enfermas genera ansiedad enorme.",
+          "text": "SITUACIONES DIFÍCILES",
+          "icon": "users",
+          "media": "gif",
+          "query": "person nervous eating restaurant"
+        },
+        {
+          "say": "Un ejemplo real es alguien que revisa obsesivamente las fechas de caducidad antes de comer cualquier cosa.",
+          "text": "EJEMPLO REAL",
+          "icon": "eye",
+          "media": "photo",
+          "query": "person checking food expiration date"
+        },
+        {
+          "say": "Esta fobia suele estar muy relacionada con la necesidad de sentir control absoluto sobre el propio cuerpo.",
+          "text": "NECESIDAD DE CONTROL",
+          "icon": "target",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Vomitar representa perder ese control de forma pública, incómoda y totalmente involuntaria.",
+          "text": "PÉRDIDA DE CONTROL",
+          "icon": "heart-crack",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Muchas veces se origina en la infancia, tras una experiencia desagradable relacionada con vomitar en público.",
+          "text": "ORIGEN INFANTIL",
+          "icon": "baby",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El cerebro asocia entonces cualquier señal de náusea con una amenaza social y física combinada.",
+          "text": "ASOCIACIÓN DEL CEREBRO",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Esto puede derivar en restricciones alimentarias muy estrictas para evitar cualquier posible malestar estomacal.",
+          "text": "RESTRICCIONES ALIMENTARIAS",
+          "icon": "ban",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "También es común evitar el contacto con niños pequeños, que vomitan con más frecuencia y naturalidad.",
+          "text": "EVITAR CONTACTO",
+          "icon": "baby",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La terapia de exposición trabaja gradualmente con palabras, imágenes y sensaciones corporales relacionadas.",
+          "text": "TERAPIA DE EXPOSICIÓN",
+          "icon": "list-checks",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Técnicas de manejo de la ansiedad ayudan a reducir esa vigilancia corporal tan agotadora y constante.",
+          "text": "MANEJO DE ANSIEDAD",
+          "icon": "activity",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Con tratamiento, muchas personas recuperan la libertad de comer y viajar sin ese miedo paralizante.",
+          "text": "PROGRESO POSIBLE",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El cuerpo tiene mecanismos naturales para regularse, y perder ese control puntual no define nada de ti.",
+          "text": "REFLEXIÓN FINAL",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
+        }
       ],
-      "videoQuery": "person sleeping peacefully recovery morning",
-      "photoQuery": "man waking up stretching bed morning",
-      "narration": "Cuando por fin te dejas caer en la cama después de muchas horas sin dormir, tu cerebro no se limita a apagarse, sino que activa un proceso de recuperación intenso para pagar lo que los científicos llaman la deuda de sueño acumulada. Ese primer sueño reparador es distinto a cualquier otro: más profundo, más largo y con fases que se reorganizan para compensar lo perdido. Por fuera, puedes dormir muchas más horas de lo normal, incluso doce o catorce, y cuesta despertarte; por dentro, el cerebro pone en marcha una limpieza acelerada de residuos a través del líquido cefalorraquídeo y reorganiza los recuerdos recientes con más intensidad que en una noche normal. Las señales de esta recuperación son claras: aparece un sueño REM de rebote, con sueños muy vívidos e intensos; el estado de ánimo mejora con sorprendente rapidez en las primeras horas tras despertar; y la memoria, que fallaba tanto, empieza a funcionar de nuevo casi con normalidad. ¿Por qué el cuerpo reacciona así? Porque el cerebro prioriza recuperar primero el sueño profundo y después el REM, las dos fases más urgentes para restaurar la función física y emocional. Un ejemplo: tras una guardia médica de treinta horas, muchos profesionales cuentan que su primer sueño posterior fue tan profundo que no recordaban nada al despertar, señal de que el cerebro trabajó a fondo esa noche. ¿Cómo se recomienda dormir esa recuperación? En vez de intentar recuperarlo todo en una sola noche eterna, es mejor dormir por fases durante varios días, dando tiempo al cerebro para restaurar el equilibrio sin forzarlo de golpe."
+      "narration": "La emetofobia es el miedo intenso a vomitar, a ver a alguien vomitar o incluso a sentir náuseas. Por fuera se ve como evitar ciertos alimentos, restaurantes desconocidos o cualquier viaje en barco. Por dentro hay una vigilancia constante del propio cuerpo, buscando cualquier señal mínima de malestar. Comer fuera de casa, viajar en avión o estar cerca de personas enfermas genera ansiedad enorme. Un ejemplo real es alguien que revisa obsesivamente las fechas de caducidad antes de comer cualquier cosa. Esta fobia suele estar muy relacionada con la necesidad de sentir control absoluto sobre el propio cuerpo. Vomitar representa perder ese control de forma pública, incómoda y totalmente involuntaria. Muchas veces se origina en la infancia, tras una experiencia desagradable relacionada con vomitar en público. El cerebro asocia entonces cualquier señal de náusea con una amenaza social y física combinada. Esto puede derivar en restricciones alimentarias muy estrictas para evitar cualquier posible malestar estomacal. También es común evitar el contacto con niños pequeños, que vomitan con más frecuencia y naturalidad. La terapia de exposición trabaja gradualmente con palabras, imágenes y sensaciones corporales relacionadas. Técnicas de manejo de la ansiedad ayudan a reducir esa vigilancia corporal tan agotadora y constante. Con tratamiento, muchas personas recuperan la libertad de comer y viajar sin ese miedo paralizante. El cuerpo tiene mecanismos naturales para regularse, y perder ese control puntual no define nada de ti.",
+      "videoQuery": "person nervous stomach discomfort",
+      "photoQuery": "person feeling nauseous holding stomach"
+    },
+    {
+      "id": "v11",
+      "key": "item10",
+      "name": "MISOFOBIA",
+      "color": "#4dd0e1",
+      "main": "hand",
+      "def": "Miedo intenso a los gérmenes",
+      "beats": [
+        {
+          "say": "La misofobia es el miedo intenso a los gérmenes, la suciedad o la contaminación por contacto.",
+          "text": "MISOFOBIA",
+          "icon": "hand",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por fuera se ve como lavarse las manos repetidamente o evitar tocar pomos de puertas públicas.",
+          "text": "CÓMO SE VE",
+          "icon": "activity",
+          "media": "gif",
+          "query": "person washing hands repeatedly sink"
+        },
+        {
+          "say": "Por dentro hay una sensación constante de estar contaminado, aunque no exista ninguna evidencia real de ello.",
+          "text": "SENSACIÓN INTERNA",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Baños públicos, transporte compartido o dar la mano a desconocidos generan una ansiedad muy elevada.",
+          "text": "SITUACIONES DIFÍCILES",
+          "icon": "users",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Un ejemplo real es alguien que lleva siempre gel desinfectante y lo usa varias veces en cada trayecto.",
+          "text": "EJEMPLO REAL",
+          "icon": "syringe",
+          "media": "photo",
+          "query": "person using hand sanitizer public transport"
+        },
+        {
+          "say": "Esta fobia puede tener un componente evolutivo, ya que evitar suciedad ayudaba a prevenir enfermedades graves.",
+          "text": "COMPONENTE EVOLUTIVO",
+          "icon": "dna",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Sin embargo, en su forma exagerada, interfiere muchísimo con la vida social y laboral diaria.",
+          "text": "INTERFERENCIA DIARIA",
+          "icon": "briefcase",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El cerebro entra en un bucle donde lavarse calma momentáneamente, pero el miedo vuelve reforzado después.",
+          "text": "BUCLE MENTAL",
+          "icon": "puzzle",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Este patrón se parece mucho al trastorno obsesivo compulsivo, aunque no siempre son exactamente lo mismo.",
+          "text": "RELACIÓN CON TOC",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Los eventos globales de salud, como pandemias, pueden intensificar mucho este tipo de miedo preexistente.",
+          "text": "EVENTOS GLOBALES",
+          "icon": "globe",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Las manos pueden llegar a agrietarse o sangrar por el exceso de lavado y desinfección constante.",
+          "text": "CONSECUENCIAS FÍSICAS",
+          "icon": "alert-triangle",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La terapia de exposición con prevención de respuesta ayuda a tolerar la incomodidad sin lavarse de inmediato.",
+          "text": "TERAPIA ESPECÍFICA",
+          "icon": "list-checks",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Poco a poco se va reduciendo la frecuencia del lavado mientras la ansiedad disminuye de forma natural.",
+          "text": "REDUCCIÓN GRADUAL",
+          "icon": "trending-down",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Con tratamiento adecuado, muchas personas recuperan una relación mucho más sana con la limpieza cotidiana.",
+          "text": "PROGRESO POSIBLE",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La limpieza es útil hasta cierto punto, pero el cuerpo también necesita cierto contacto normal con el mundo.",
+          "text": "REFLEXIÓN FINAL",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "La misofobia es el miedo intenso a los gérmenes, la suciedad o la contaminación por contacto. Por fuera se ve como lavarse las manos repetidamente o evitar tocar pomos de puertas públicas. Por dentro hay una sensación constante de estar contaminado, aunque no exista ninguna evidencia real de ello. Baños públicos, transporte compartido o dar la mano a desconocidos generan una ansiedad muy elevada. Un ejemplo real es alguien que lleva siempre gel desinfectante y lo usa varias veces en cada trayecto. Esta fobia puede tener un componente evolutivo, ya que evitar suciedad ayudaba a prevenir enfermedades graves. Sin embargo, en su forma exagerada, interfiere muchísimo con la vida social y laboral diaria. El cerebro entra en un bucle donde lavarse calma momentáneamente, pero el miedo vuelve reforzado después. Este patrón se parece mucho al trastorno obsesivo compulsivo, aunque no siempre son exactamente lo mismo. Los eventos globales de salud, como pandemias, pueden intensificar mucho este tipo de miedo preexistente. Las manos pueden llegar a agrietarse o sangrar por el exceso de lavado y desinfección constante. La terapia de exposición con prevención de respuesta ayuda a tolerar la incomodidad sin lavarse de inmediato. Poco a poco se va reduciendo la frecuencia del lavado mientras la ansiedad disminuye de forma natural. Con tratamiento adecuado, muchas personas recuperan una relación mucho más sana con la limpieza cotidiana. La limpieza es útil hasta cierto punto, pero el cuerpo también necesita cierto contacto normal con el mundo.",
+      "videoQuery": "hands washing soap repeated close up",
+      "photoQuery": "person washing hands compulsively sink"
     }
   ]
 }
