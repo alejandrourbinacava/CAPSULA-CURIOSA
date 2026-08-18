@@ -7,62 +7,62 @@
   "handle": "@CapsulaCuriosa",
   "intro": {
     "id": "v00",
-    "narration": "¿Alguna vez has sentido que alguien te confunde, te hace dudar de tu propia memoria o te lleva a hacer cosas que no quieres? Todos convivimos con personas manipuladoras sin darnos cuenta en el trabajo, la pareja o la familia. Hoy desmontamos las estrategias psicológicas más comunes que utilizan para controlar a los demás, desde la falsa victimización hasta el desgaste silencioso en el día a día."
+    "narration": "En la vida cotidiana convivimos con personas que utilizan tácticas psicológicas sutiles para salirse con la suya a nuestra costa. Identificar estas dinámicas no consiste en señalar o diagnosticar clínicamente a nadie, sino en comprender los patrones de conducta que vulneran nuestras fronteras emocionales. Hoy analizaremos en profundidad las ocho tipologías de manipuladores más comunes, desglosando sus máscaras, sus motivaciones ocultas y, sobre todo, las herramientas prácticas que te permitirán protegerte de forma efectiva."
   },
   "grupos": {
     "id": "v01",
-    "narration": "Vamos a analizar los ocho perfiles principales para que aprendas a identificarlos al instante y proteger tu bienestar emocional."
+    "narration": "Para entender mejor este mapa conceptual, vamos a verlos uno por uno con ejemplos claros y soluciones directas."
   },
   "outro": {
     "id": "v10",
-    "narration": "Detectar estos patrones es el primer paso para defender tus límites personales y recuperar el control de tu vida. Suscríbete a Cápsula Curiosa para descubrir más sobre la mente humana."
+    "narration": "Reconocer estas conductas es el primer paso para establecer límites saludables y proteger tu bienestar psicológico. Si este análisis te ha resultado útil, dale me gusta, comparte con quien lo necesite y Suscríbete a Cápsula Curiosa para más contenido sobre psicología práctica."
   },
   "items": [
     {
       "id": "v02",
       "key": "item1",
-      "name": "EL NARCISISTA",
+      "name": "EL MANIPULADOR NARCISISTA",
       "group": "",
       "color": "#e57373",
       "main": "crown",
-      "def": "Domina mediante falsa superioridad",
+      "def": "Busca admiración constante y control",
       "fuera": [
-        "venetian-mask",
-        "Imagen impecable y carismática"
+        "sparkles",
+        "Encantador, cautivador y muy seguro"
       ],
       "dentro": [
-        "heart-crack",
-        "Autoestima extremadamente frágil"
+        "heart-off",
+        "Fragilidad y ego insaciable"
       ],
       "senales": [
         {
-          "icon": "eye",
+          "icon": "star",
           "color": "#ffd54f",
-          "label": "Búsqueda de atención"
+          "label": "Grandiosidad y exigencia de atención"
         },
         {
           "icon": "heart-off",
           "color": "#ff8c1a",
-          "label": "Falta de empatía"
+          "label": "Falta de empatía genuina"
         },
         {
-          "icon": "trophy",
+          "icon": "angry",
           "color": "#4db6ac",
-          "label": "Competición constante"
+          "label": "Ira ante la crítica"
         }
       ],
       "causa": [
-        "alert-triangle",
-        "Miedo al rechazo personal"
+        "brain",
+        "Estructura defensiva ante inseguridad"
       ],
-      "ejemploTitle": "Minimiza tus logros personales",
+      "ejemploTitle": "Robo de crédito laboral",
       "consejo": [
         "shield",
-        "Pon límites sin ceder"
+        "Establece límites inflexibles"
       ],
-      "videoQuery": "narcissist person reflection mirror",
-      "photoQuery": "person looking in mirror arrogant",
-      "narration": "Este perfil utiliza la admiración y la superioridad constante para dominar sus relaciones personales y profesionales. Por fuera proyecta una imagen impecable y carismática, pero por dentro esconde un vacío profundo y un miedo feroz a ser rechazado. Las señales para detectarlo son la búsqueda constante de atención, la falta de empatía real y la necesidad de competir siempre. ¿Por qué actúa así? Principalmente por una autoestima frágil que necesita validación externa para no colapsar. Un ejemplo: la pareja que minimiza tus logros profesionales para destacar únicamente los suyos ante tus amigos. ¿Cómo responder? Establece límites firmes y no busques jamás su aprobación."
+      "videoQuery": "arrogant businessman office presentation",
+      "photoQuery": "narcissistic man looking mirror",
+      "narration": "El manipulador narcisista es un perfil caracterizado por una necesidad desmedida de atención, admiración y validación externa, combinada con un déficit significativo de empatía real hacia los demás. Este patrón de conducta busca instrumentalizar a quienes le rodean para sostener una autoimagen inflada y perfecta. Por fuera se muestra como alguien carismático, cautivador, sumamente seguro e hipercompetente, por dentro alberga una profunda fragilidad emocional y un ego insaciable que exige constante devoción. Las señales clave para detectar esta dinámica son tres: en primer lugar, despliega una grandiosidad exacerbada solicitando atención y privilegios especiales; en segundo lugar, demuestra una incapacidad casi absoluta para validar las emociones ajenas; y finalmente, reacciona con una rabia desmedida o un frío desprecio ante la más mínima crítica. ¿Por qué actúa de esta manera tan destructiva? La causa reside en una estructura psicológica compensatoria construida para proteger un núcleo interno profundamente inseguro frente al rechazo o la mediocridad. Un ejemplo: imagina un compañero de trabajo que se adueña totalmente del éxito de una presentación grupal ante los directivos, minimizando tus aportaciones para brillar en exclusiva. ¿Cómo defenderte de forma efectiva? Establece límites inflexibles, evita entrar en discusiones sobre su ego y mantén un contacto estrictamente neutral."
     },
     {
       "id": "v03",
@@ -70,91 +70,91 @@
       "name": "EL GASLIGHTER",
       "group": "",
       "color": "#90a4ae",
-      "main": "brain",
-      "def": "Distorsiona la percepción real",
+      "main": "eye",
+      "def": "Hace dudar de la realidad",
       "fuera": [
-        "user",
-        "Convincente y falsamente empático"
+        "smile",
+        "Sereno, razonable y preocupado"
       ],
       "dentro": [
-        "lock",
-        "Obsesión por el control"
+        "brain",
+        "Deseo absoluto de dominación"
       ],
       "senales": [
         {
           "icon": "volume-x",
           "color": "#ffd54f",
-          "label": "Niega hechos evidentes"
+          "label": "Negación rotunda de hechos"
         },
         {
           "icon": "circle-help",
           "color": "#ff8c1a",
-          "label": "Hace dudar de memoria"
+          "label": "Siembra duda sobre memoria"
         },
         {
-          "icon": "angry",
+          "icon": "drama",
           "color": "#4db6ac",
-          "label": "Te tilda de exagerado"
+          "label": "Reescritura de los hechos"
         }
       ],
       "causa": [
         "target",
-        "Deseo de dominación mental"
+        "Necesidad de control sobre el relato"
       ],
-      "ejemploTitle": "Niega sus propias palabras",
+      "ejemploTitle": "Negación de la discusión",
       "consejo": [
-        "shield-alert",
-        "Confía en tu memoria"
+        "list-checks",
+        "Confía en tus registros"
       ],
-      "videoQuery": "confused person argument conversation",
-      "photoQuery": "stressed woman arguing partner",
-      "narration": "Es el especialista en distorsionar la realidad ajena para que la víctima dude de su propia cordura. Por fuera se muestra muy convincente y preocupado por ti, pero por dentro busca el control absoluto sobre tus decisiones e ideas. Las señales son la negación de hechos evidentes, hacerte dudar de tu memoria e insinuar que exageras todo. ¿Por qué utiliza esta táctica? Para anular la autoconfianza del otro y someterlo a su propio criterio. Un ejemplo: responderte que jamás dijo algo que ambos sabéis perfectamente que afirmó ayer. ¿Cómo responder? Registra los hechos por escrito y confía en tu criterio."
+      "videoQuery": "argument couple doubt confusion",
+      "photoQuery": "woman questioning her sanity memory",
+      "narration": "El gaslighter o manipulador de la realidad utiliza la distorsión metódica de la verdad para hacer que la víctima dude de sus propias percepciones, recuerdos o cordura. Esta forma de manipulación psicológica es silenciosa y corrosiva, erosionando gradualmente la autoconfianza de la persona afectada. Por fuera se presenta como un observador sereno, razonable y profundamente preocupado por tu bienestar mental, por dentro oculta un deseo absoluto de dominación e inoculación de duda. Las señales distintivas son tres: en primer lugar, niega de forma categórica hechos o conversaciones que han ocurrido recientemente; en segundo lugar, siembra la sospecha constante sobre tu capacidad de memoria o estabilidad emocional; y finalmente, reescribe la historia de los acontecimientos para colocarse siempre en una posición de inocencia. ¿Por qué utiliza esta táctica tan desgastante? La causa principal es su imperiosa necesidad de ejercer un control total sobre el relato para evitar asumir responsabilidades o fallos propios. Un ejemplo: tras una discusión intensa, le recuerdas los insultos que profirió y responde con tono calmado diciéndote que te lo estás inventando todo y que deberías hacerte mirar la memoria. ¿Cómo responder ante este ataque psicológico? Registra por escrito o mediante notas los hechos objetivos, confía en tu propio criterio y evita debatir sobre la realidad con el manipulador."
     },
     {
       "id": "v04",
       "key": "item3",
-      "name": "LA VÍCTIMA MANIPULADORA",
+      "name": "LA FALSA VÍCTIMA",
       "group": "",
       "color": "#ba68c8",
       "main": "frown",
-      "def": "Controla mediante la lástima",
+      "def": "Usa la lástima como arma",
       "fuera": [
         "baby",
-        "Persona desvalida y perseguida"
+        "Frágil, vulnerable e incomprendido"
       ],
       "dentro": [
-        "ban",
-        "Evitación de responsabilidades"
+        "target",
+        "Cálculo frío para dar culpa"
       ],
       "senales": [
         {
-          "icon": "drama",
-          "color": "#ffd54f",
-          "label": "Drama exagerado constante"
-        },
-        {
-          "icon": "alert-triangle",
-          "color": "#ff8c1a",
-          "label": "Culpa a los demás"
-        },
-        {
           "icon": "heart-crack",
+          "color": "#ffd54f",
+          "label": "Culpabilización constante del entorno"
+        },
+        {
+          "icon": "frown",
+          "color": "#ff8c1a",
+          "label": "Exageración del propio dolor"
+        },
+        {
+          "icon": "ban",
           "color": "#4db6ac",
-          "label": "Induce remordimiento ajeno"
+          "label": "Rechazo de soluciones prácticas"
         }
       ],
       "causa": [
-        "circle-help",
-        "Búsqueda de rescate permanente"
+        "shield-alert",
+        "Evitar la responsabilidad de sus actos"
       ],
-      "ejemploTitle": "Invoca victimismo tras fallar",
+      "ejemploTitle": "El chantaje del lamento",
       "consejo": [
-        "shield",
-        "No asumas sus tareas"
+        "hand",
+        "No asumas sus cargas"
       ],
-      "videoQuery": "sad crying person rain umbrella",
-      "photoQuery": "emotional manipulation drama",
-      "narration": "Este tipo de manipulador utiliza la lástima y el chantaje para eludir responsabilidades y culpa en sus acciones. Por fuera parece una persona desvalida a la que el mundo persigue, pero por dentro busca manejar la situación evitando todo tipo de rendición de cuentas. Las señales son el uso del drama exagerado, culpar a otros de sus errores y generar culpa en quien le rodea. ¿Por qué actúa de este modo? Para obtener atención constante y que los demás resuelvan sus problemas sin esfuerzo. Un ejemplo: decir que nadie le quiere cuando le pides que cumpla su parte del trabajo. ¿Cómo responder? Ofrece apoyo emocional razonable pero sin asumir sus cargas."
+      "videoQuery": "sad woman crying manipulation office",
+      "photoQuery": "person playing victim emotion",
+      "narration": "La víctima manipuladora utiliza la debilidad, el desamparo y el sufrimiento como una herramienta estratégica para influir en los demás y obtener beneficios afectivos o materiales. Este perfil transforma cualquier situación en una injusticia cometida en su contra para eludir responsabilidades. Por fuera proyecta una imagen frágil, vulnerable e incomprendida por un mundo cruel, por dentro esconde un cálculo frío para manipular los sentimientos de culpa ajenos. Las señales que la delatan son tres: en primer lugar, culpabiliza sistemáticamente al entorno de todas sus desgracias personales; en segundo lugar, exagera de forma constante su propio dolor ignorando el sufrimiento de los demás; y finalmente, rechaza cualquier solución práctica que se le ofrece para perpetuar su rol. ¿Por qué recurre de manera recurrente al victimismo? La causa fundamental es una profunda incapacidad para asumir la responsabilidad de sus actos, utilizando la lástima como escudo protector. Un ejemplo: cuando le pides a un amigo que cumpla con su parte de un compromiso, rompe a llorar afirmando que siempre le exiges demasiado y que nadie comprende lo dura que es su vida. ¿Cómo actuar frente a esta manipulación? Desconecta de la culpa inducida, ofrece apoyo práctico en lugar de compasión desmedida y exige responsabilidad clara."
     },
     {
       "id": "v05",
@@ -162,45 +162,45 @@
       "name": "EL MAQUIAVÉLICO",
       "group": "",
       "color": "#607d8b",
-      "main": "puzzle",
-      "def": "Calcula para su beneficio",
+      "main": "venetian-mask",
+      "def": "El fin justifica sus medios",
       "fuera": [
         "handshake",
-        "Amable y muy diplomático"
+        "Encantador, colaborador y profesional"
       ],
       "dentro": [
-        "snowflake",
-        "Visión fría e instrumental"
+        "puzzle",
+        "Visión fría y utilitaria"
       ],
       "senales": [
         {
           "icon": "target",
           "color": "#ffd54f",
-          "label": "Planificación calculadora"
+          "label": "Estrategia fría a largo plazo"
         },
         {
-          "icon": "heart-off",
+          "icon": "circle-help",
           "color": "#ff8c1a",
-          "label": "Cero remordimientos reales"
+          "label": "Falsa alianza por conveniencia"
         },
         {
-          "icon": "users",
+          "icon": "scale",
           "color": "#4db6ac",
-          "label": "Utiliza a la gente"
+          "label": "Indiferencia hacia dilemas éticos"
         }
       ],
       "causa": [
         "briefcase",
-        "Ambición de poder personal"
+        "Competitividad extrema y utilidad"
       ],
-      "ejemploTitle": "Falsa amistad por ascenso",
+      "ejemploTitle": "El ascenso a costa ajena",
       "consejo": [
-        "shield",
-        "Pon distancia estratégica"
+        "lock",
+        "Protege tu información crítica"
       ],
-      "videoQuery": "corporate strategy chess game",
-      "photoQuery": "ambitious businessman thinking strategy",
-      "narration": "Es un estratega frío que calcula cada paso con el único fin de alcanzar sus propios objetivos personales. Por fuera exhibe un trato amable, encantador y diplomático, pero por dentro mantiene una actitud utilitaria hacia los seres humanos. Las señales son el cálculo frío en cada acción, la ausencia de remordimientos e instrumentalizar las relaciones. ¿Por qué se comporta así? Para obtener poder, estatus o beneficio personal sin importar los costes. Un ejemplo: hacerse el mejor amigo de un compañero de trabajo solo para arrebatarle un ascenso. ¿Cómo responder? Mantén una relación estrictamente profesional y vigila la información que compartes."
+      "videoQuery": "calculating businessman chess corporate",
+      "photoQuery": "shadowy man scheming corporate",
+      "narration": "El perfil maquiavélico se define por una orientación puramente pragmática y calculadora en sus relaciones interpersonales, donde los demás son vistos como meros instrumentos para alcanzar fines personales. Para este tipo de individuo, la moral convencional es un obstáculo prescindible en su búsqueda de beneficio o poder. Por fuera aparenta ser una persona encantadora, colaboradora y altamente profesional, por dentro analiza cada interacción con una visión fría, utilitaria y estratégica. Las señales características son tres: en primer lugar, diseña planes a largo plazo calculando los movimientos de las personas a su alrededor; en segundo lugar, finge alianzas e interés sincero solo mientras le resulta conveniente; y finalmente, muestra una completa indiferencia hacia los dilemas éticos si estos comprometen sus metas. ¿Por qué adopta esta postura tan calculadora? La causa deriva de un enfoque del mundo centrado en la competitividad extrema, donde el valor de las personas reside únicamente en su utilidad práctica. Un ejemplo: un colega de oficina que entabla una aparente amistad contigo solo para extraer información confidencial sobre un proyecto y utilizarla posteriormente para superarte en un ascenso. ¿Cómo protegerte de un maquiavélico? Mantén un perfil bajo, protege estrictamente tu información personal y profesional, y evalúa a las personas por sus hechos sostenidos y no por sus palabras."
     },
     {
       "id": "v06",
@@ -208,137 +208,137 @@
       "name": "EL PSICÓPATA INTEGRADO",
       "group": "",
       "color": "#f06292",
-      "main": "venetian-mask",
-      "def": "Carece de empatía profunda",
+      "main": "skull",
+      "def": "Encanto superficial sin conciencia",
       "fuera": [
         "sparkles",
-        "Encantador y muy sereno"
+        "Carismático, seguro y elegante"
       ],
       "dentro": [
-        "skull",
-        "Desconexión emocional total"
+        "snowflake",
+        "Vacío emocional y desconexión"
       ],
       "senales": [
         {
-          "icon": "message-circle",
-          "color": "#ffd54f",
-          "label": "Mentiras compulsivas"
-        },
-        {
           "icon": "flame",
-          "color": "#ff8c1a",
-          "label": "Crueldad encubierta"
+          "color": "#ffd54f",
+          "label": "Búsqueda de sensaciones e impulsividad"
         },
         {
-          "icon": "door-open",
+          "icon": "venetian-mask",
+          "color": "#ff8c1a",
+          "label": "Mentira patológica muy fluida"
+        },
+        {
+          "icon": "heart-off",
           "color": "#4db6ac",
-          "label": "Explotación de confianza"
+          "label": "Falta total de remordimiento"
         }
       ],
       "causa": [
-        "zap",
-        "Necesidad de dominación absoluta"
+        "dna",
+        "Rasgos neurobiológicos de baja empatía"
       ],
-      "ejemploTitle": "Sabotaje anónimo en oficina",
+      "ejemploTitle": "La traición del socio",
       "consejo": [
-        "list-checks",
-        "Documenta todas las interacciones"
+        "door-open",
+        "Contacto cero inmediato"
       ],
-      "videoQuery": "sinister smiling man suit business",
-      "photoQuery": "corporate backstabbing office environment",
-      "narration": "Este perfil carece de empatía profunda y se camufla perfectamente en entornos cotidianos como el trabajo. Por fuera proyecta encanto superficial, carisma y serenidad bajo presión, pero por dentro hay una ausencia total de culpa y remordimiento. Las señales son la mentira patológica compulsiva, la crueldad encubierta y la explotación de la confianza. ¿Por qué actúa de esta manera? Debido a una desconexión emocional que le impulsa a buscar emociones fuertes y dominio. Un ejemplo: sabotear un proyecto común de forma anónima mientras felicita públicamente a los afectados. ¿Cómo responder? Documenta todo por escrito y minimiza la interacción directa."
+      "videoQuery": "cold confident man suited corporate office",
+      "photoQuery": "psychopath cold expression professional",
+      "narration": "El psicópata integrado se caracteriza por la presencia de rasgos psicopáticos como la ausencia de remordimiento, la frialdad emocional y la superficialidad afectiva, pero adaptados al contexto social cotidiano sin llegar a la criminalidad abierta. Este perfil opera bajo el radar de la sociedad integrándose perfectamente en entornos laborales o familiares. Por fuera deslumbra con un encanto carismático, seguridad arrolladora y elegancia social, por dentro experimenta un vacío emocional absoluto y una desconexión total con el sufrimiento ajeno. Las señales para detectarlo son tres: en primer lugar, exhibe una búsqueda constante de sensaciones fuertes e impulsividad controlada; en segundo lugar, utiliza la mentira patológica con pasmosa fluidez sin mostrar fisuras; y finalmente, muestra una falta completa de culpa tras perjudicar gravemente a otros. ¿Por qué actúa con semejante frialdad? La causa responde a diferencias neurobiológicas estructurales en el procesamiento emocional y la empatía instintiva. Un ejemplo: un socio comercial que desvía fondos de la empresa compartida dejando en la quiebra a sus colaboradores, mientras les sonríe y les desea un feliz fin de semana. ¿Cómo defenderte ante un perfil así? Aplica un protocolo estricto de contacto cero siempre que sea posible, documenta todo legalmente y busca asesoramiento profesional inmediato."
     },
     {
       "id": "v07",
       "key": "item6",
-      "name": "EL TRIANGULADOR",
+      "name": "EL CHANTAJISTA EMOCIONAL",
       "group": "",
       "color": "#ffb300",
-      "main": "users",
-      "def": "Genera conflictos con terceros",
+      "main": "zap",
+      "def": "Manipula usando miedo y culpa",
       "fuera": [
-        "handshake",
-        "Mediador bienintencionado"
+        "heart",
+        "Cariñoso, cercano y comprometido"
       ],
       "dentro": [
-        "bug",
-        "Deseo de control social"
+        "alert-triangle",
+        "Miedo al descontrol y castigo"
       ],
       "senales": [
         {
-          "icon": "arrow-up",
-          "color": "#ffd54f",
-          "label": "Comparaciones constantes"
-        },
-        {
-          "icon": "megaphone",
-          "color": "#ff8c1a",
-          "label": "Difusión de rumores"
-        },
-        {
           "icon": "alert-triangle",
+          "color": "#ffd54f",
+          "label": "Ultimátums explícitos o velados"
+        },
+        {
+          "icon": "heart-crack",
+          "color": "#ff8c1a",
+          "label": "Castigo con el silencio"
+        },
+        {
+          "icon": "anchor",
           "color": "#4db6ac",
-          "label": "Creación de rivalidades"
+          "label": "Inducción de culpa abrumadora"
         }
       ],
       "causa": [
-        "target",
-        "Temor a la unión ajena"
+        "lock",
+        "Inseguridad y miedo al abandono"
       ],
-      "ejemploTitle": "Malos entendidos provocados",
+      "ejemploTitle": "El ultimátum afectivo",
       "consejo": [
-        "phone",
-        "Habla siempre directamente"
+        "shield",
+        "Resiste a los ultimátums"
       ],
-      "videoQuery": "two people whispering secret",
-      "photoQuery": "gossip office whispering women",
-      "narration": "Utiliza a terceras personas para generar celos, desconfianza y rivalidad en su círculo cercano. Por fuera aparenta ser un mediador bienintencionado que solo comunica información, pero por dentro busca controlar el grupo mediante el conflicto ajeno. Las señales son las comparaciones constantes, la filtración de chismes y crear rivalidades artificiales. ¿Por qué recurre a esto? Para mantenerse en el centro de atención y debilitar las alianzas de los demás. Un ejemplo: contarle a una amiga lo que la otra supuestamente dijo de ella para que se peleen. ¿Cómo responder? Verifica la información directamente con la otra parte interesada."
+      "videoQuery": "couple arguing emotional blackmail relationship",
+      "photoQuery": "upset couple emotional conflict",
+      "narration": "El chantajista emocional utiliza el afecto, la intimidad y la información personal como moneda de cambio para controlar las acciones y decisiones de la otra persona. Esta dinámica se basa en la manipulación sutil de las vulnerabilidades emocionales del objetivo para conseguir sumisión. Por fuera se muestra como una persona cariñosa, cercana y aparentemente comprometida con la relación, por dentro aloja un profundo miedo al descontrol y una disposición a castigar si no se cumplen sus deseos. Las señales de alerta son tres: en primer lugar, emite ultimátums explícitos o velados amenazando con retirar su afecto o romper el vínculo; en segundo lugar, utiliza el castigo del silencio para generar angustia; y finalmente, induce una culpa abrumadora haciendo sentir al otro responsable de su estado de ánimo. ¿Por qué recurre al chantaje directo? La causa principal es una intensa inseguridad personal mezclada con el miedo al abandono o a perder el control sobre la relación. Un ejemplo: una pareja que ante una discrepancia sobre planes individuales afirma que si realmente la quisieras no saldrías con tus amigos esta noche. ¿Cómo poner fin al chantaje emocional? Mantente firme frente a sus amenazas, no cedas ante la culpa arbitraria y exige una comunicación basada en el respeto mutuo."
     },
     {
       "id": "v08",
       "key": "item7",
-      "name": "EL CHANTAJISTA EMOCIONAL",
+      "name": "EL FALSO SALVADOR",
       "group": "",
       "color": "#ffd54f",
-      "main": "heart-crack",
-      "def": "Exige usando la culpa",
+      "main": "sparkles",
+      "def": "Genera dependencia ayudando",
       "fuera": [
-        "heart",
-        "Muestra afecto preocupado"
+        "thumbs-up",
+        "Altruista, generoso y servicial"
       ],
       "dentro": [
         "lock",
-        "Pánico al abandono"
+        "Búsqueda de superioridad moral"
       ],
       "senales": [
         {
-          "icon": "ban",
+          "icon": "hand",
           "color": "#ffd54f",
-          "label": "Ultimátums frecuentes"
+          "label": "Ayuda intrusiva no solicitada"
         },
         {
-          "icon": "volume-x",
+          "icon": "anchor",
           "color": "#ff8c1a",
-          "label": "Ley del hielo"
+          "label": "Creación de deuda moral"
         },
         {
-          "icon": "angry",
+          "icon": "frown",
           "color": "#4db6ac",
-          "label": "Generación de culpa"
+          "label": "Molestia ante la autonomía"
         }
       ],
       "causa": [
-        "shield-alert",
-        "Miedo al desamparo afectivo"
+        "trophy",
+        "Necesidad de sentirse necesitado"
       ],
-      "ejemploTitle": "Amago de ruptura condicional",
+      "ejemploTitle": "El favor cobrado caro",
       "consejo": [
-        "door-closed",
-        "No cedas al chantaje"
+        "ban",
+        "Declina la ayuda innecesaria"
       ],
-      "videoQuery": "couple arguing emotional threat",
-      "photoQuery": "crying partner relationship conflict",
-      "narration": "Emplea el miedo, la obligación y la culpa para doblegar la voluntad de las personas que le rodean. Por fuera demuestra una intensa preocupación afectiva y apego, pero por dentro esconde un pánico visceral al abandono y al rechazo. Las señales son los ultimátums constantes, amenazar con la retirada del afecto y generar un castigo silencioso. ¿Por qué usa esta estrategia? Para garantizar el control inmediato sin importar el malestar de la pareja o amigo. Un ejemplo: decir que si sales con tus amigos es porque realmente ya no le quieres. ¿Cómo responder? Identifica la extorsión emocional y mantén tus decisiones firmes."
+      "videoQuery": "overhelpful colleague intrusion office",
+      "photoQuery": "false hero helping person",
+      "narration": "El falso salvador o héroe manipulador establece relaciones de dominio ofreciendo ayuda no solicitada y generando una deuda implícita que sitúa a la víctima en una posición de subordinación. Su estrategia consiste en volverse indispensable para luego exigir sumisión o lealtad incondicional. Por fuera destaca como un individuo altruista, generoso y siempre dispuesto a sacrificarse por los demás, por dentro busca un control sutil y una posición de superioridad moral indiscutible. Las señales claras son tres: en primer lugar, interviene y ayuda sin que se le haya pedido; en segundo lugar, echa en cara sutilmente los favores prestados creando una abrumadora deuda moral; y finalmente, se molesta visiblemente cuando la otra persona muestra autonomía o resuelve sus problemas sola. ¿Por qué actúa mediante este falso altruismo? La causa es la necesidad imperiosa de sentirse necesitado y superior para validar su propio autoconcepto. Un ejemplo: un familiar que se encarga de organizar todos tus asuntos financieros sin tu consentimiento y luego te echa en cara lo desagradecido que eres si intentas tomar el control de tu dinero. ¿Cómo defenderte de este perfil? Declina amablemente las ayudas no solicitadas, marca límites claros de autonomía y no aceptes deudas emocionales no pactadas."
     },
     {
       "id": "v09",
@@ -346,45 +346,45 @@
       "name": "EL PASIVO-AGRESIVO",
       "group": "",
       "color": "#4db6ac",
-      "main": "smile",
-      "def": "Muestra hostilidad indirecta",
+      "main": "snowflake",
+      "def": "Hostilidad disfrazada de amabilidad",
       "fuera": [
-        "thumbs-up",
-        "Cooperativo y sumiso"
+        "smile",
+        "Dócil, servicial y afable"
       ],
       "dentro": [
-        "flame",
-        "Resentimiento acumulado"
+        "angry",
+        "Enojo y resentimiento reprimido"
       ],
       "senales": [
         {
-          "icon": "zap",
+          "icon": "hourglass",
           "color": "#ffd54f",
-          "label": "Sarcasmo punzante"
+          "label": "Procrastinación e ineficacia deliberada"
         },
         {
-          "icon": "clock",
+          "icon": "volume-x",
           "color": "#ff8c1a",
-          "label": "Retrasos deliberados"
+          "label": "Sarcasmo y cumplidos envenenados"
         },
         {
-          "icon": "ban",
+          "icon": "ghost",
           "color": "#4db6ac",
-          "label": "Resistencia silenciosa"
+          "label": "Sabotaje silencioso y negación"
         }
       ],
       "causa": [
         "circle-help",
-        "Miedo al enfrentamiento directo"
+        "Incapacidad para comunicar enfado"
       ],
-      "ejemploTitle": "Entregar tareas tarde adrede",
+      "ejemploTitle": "El informe saboteado",
       "consejo": [
-        "message-circle",
-        "Pide claridad directa"
+        "target",
+        "Confronta el comportamiento directo"
       ],
-      "videoQuery": "passive aggressive colleague smiling",
-      "photoQuery": "annoyed office worker sarcastic",
-      "narration": "Expresa la hostilidad y el enojo de forma indirecta en lugar de comunicarse abiertamente. Por fuera se muestra cooperativo y complaciente en el trato diario, pero por dentro acumula una gran frustración y resentimiento no resuelto. Las señales son el sarcasmo hiriente, los descuidos intencionados y la resistencia silenciosa a peticiones. ¿Por qué elige este camino? Por el temor a la confrontación directa y la falta de asertividad. Un ejemplo: aceptar realizar una tarea importante para luego entregarla tarde y mal a propósito. ¿Cómo responder? Exige comunicación directa y no entres en su juego sarcástico."
+      "videoQuery": "frustrated office worker procrastination sabotage",
+      "photoQuery": "passive aggressive smile colleague",
+      "narration": "El manipulador pasivo-agresivo expresa su hostilidad, resentimiento y desacuerdo de manera indirecta y encubierta, evitando la confrontación abierta pero perjudicando activamente a la otra persona. Su táctica principal es la resistencia sutil y el sabotaje silencioso. Por fuera parece una persona dócil, servicial y amable que siempre dice sí a todo, por dentro guarda un profundo enojo y un resentimiento no procesado. Las señales de esta conducta son tres: en primer lugar, recurre a la procrastinación intencionada y la ineficacia deliberada para cumplir compromisos; en segundo lugar, utiliza el sarcasmo y los cumplidos envenenados para socavar la autoestima ajena; y finalmente, ejecuta un sabotaje silencioso negando posteriormente cualquier mala intención. ¿Por qué adopta esta conducta indirecta? La causa es un miedo abrumador al conflicto directo combinado con una severa incapacidad para comunicar sus emociones negativas de forma asertiva. Un ejemplo: un compañero de trabajo que acepta de buena gana preparar un informe urgente pero lo entrega fuera de plazo y repleto de errores obvios argumentando que tuvo pequeños imprevistos. ¿Cómo gestionar la manipulación pasivo-agresiva? Confronta el comportamiento específico con serenidad, no enganches con sus provocaciones veladas y exige compromisos por escrito."
     }
   ]
 }
