@@ -1,390 +1,390 @@
 {
-  "title": "Cada Tipo de Manipulador Explicado",
+  "title": "Cada Experimento Psicológico Prohibido",
   "fps": 30,
   "voiceId": "851ejYcv2BoNPjrkw93G",
   "speed": 1.08,
-  "cornerIcon": "crown",
+  "cornerIcon": "zap",
   "handle": "@CapsulaCuriosa",
   "intro": {
     "id": "v00",
-    "narration": "En la vida cotidiana convivimos con personas que utilizan tácticas psicológicas sutiles para salirse con la suya a nuestra costa. Identificar estas dinámicas no consiste en señalar o diagnosticar clínicamente a nadie, sino en comprender los patrones de conducta que vulneran nuestras fronteras emocionales. Hoy analizaremos en profundidad las ocho tipologías de manipuladores más comunes, desglosando sus máscaras, sus motivaciones ocultas y, sobre todo, las herramientas prácticas que te permitirán protegerte de forma efectiva."
+    "narration": "Imagina participar en un experimento psicológico sin saber que, en realidad, eres tú el verdadero objeto de estudio. Durante gran parte del siglo veinte, algunos de los científicos más influyentes de la historia cruzaron límites que hoy nos parecerían impensables: engañaron a bebés, aislaron a crías de mono, drogaron a personas sin su permiso y empujaron a voluntarios normales hasta el borde de la crueldad, todo en nombre de la ciencia. Estos estudios cambiaron para siempre lo que sabemos sobre la mente humana, pero también dejaron heridas reales y dilemas éticos que tardaron décadas en resolverse. Hoy vamos a destapar ocho de los experimentos psicológicos más prohibidos y polémicos de todos los tiempos."
   },
   "grupos": {
     "id": "v01",
-    "narration": "Para entender mejor este mapa conceptual, vamos a verlos uno por uno con ejemplos claros y soluciones directas."
+    "narration": "Vamos a repasar, uno por uno, estos ocho experimentos: desde la obediencia ciega de Milgram hasta la identidad forzada de David Reimer, pasando por cárceles simuladas, monos aislados y proyectos secretos de control mental. Prepárate, porque la historia de la psicología tiene un lado muy oscuro."
   },
   "outro": {
     "id": "v10",
-    "narration": "Reconocer estas conductas es el primer paso para establecer límites saludables y proteger tu bienestar psicológico. Si este análisis te ha resultado útil, dale me gusta, comparte con quien lo necesite y Suscríbete a Cápsula Curiosa para más contenido sobre psicología práctica."
+    "narration": "Estos experimentos nos enseñaron muchísimo sobre la mente humana, pero también nos recordaron que la ciencia necesita límites éticos claros para proteger a quienes participan en ella. Si te ha gustado este repaso por la psicología más polémica de la historia, suscríbete a Cápsula Curiosa para no perderte los próximos vídeos."
   },
   "items": [
     {
       "id": "v02",
       "key": "item1",
-      "name": "EL MANIPULADOR NARCISISTA",
+      "name": "EL EXPERIMENTO DE MILGRAM",
       "group": "",
       "color": "#e57373",
-      "main": "crown",
-      "def": "Busca admiración constante y control",
+      "main": "zap",
+      "def": "Obediencia a la autoridad",
       "fuera": [
-        "sparkles",
-        "Encantador, cautivador y muy seguro"
+        "user",
+        "Prueba de memoria"
       ],
       "dentro": [
-        "heart-off",
-        "Fragilidad y ego insaciable"
+        "brain",
+        "Medir obediencia"
       ],
       "senales": [
         {
-          "icon": "star",
+          "icon": "circle-help",
           "color": "#ffd54f",
-          "label": "Grandiosidad y exigencia de atención"
+          "label": "Engaño total"
         },
         {
-          "icon": "heart-off",
+          "icon": "shield-alert",
           "color": "#ff8c1a",
-          "label": "Falta de empatía genuina"
+          "label": "Sin consentimiento"
         },
         {
-          "icon": "angry",
+          "icon": "heart-crack",
           "color": "#4db6ac",
-          "label": "Ira ante la crítica"
+          "label": "Sufrimiento real"
         }
       ],
       "causa": [
-        "brain",
-        "Estructura defensiva ante inseguridad"
+        "megaphone",
+        "Obediencia ciega"
       ],
-      "ejemploTitle": "Robo de crédito laboral",
+      "ejemploTitle": "El voltaje de Prozzi",
       "consejo": [
-        "shield",
-        "Establece límites inflexibles"
+        "circle-check",
+        "Cuestiona la autoridad"
       ],
-      "videoQuery": "arrogant businessman office presentation",
-      "photoQuery": "narcissistic man looking mirror",
-      "narration": "El manipulador narcisista es un perfil caracterizado por una necesidad desmedida de atención, admiración y validación externa, combinada con un déficit significativo de empatía real hacia los demás. Este patrón de conducta busca instrumentalizar a quienes le rodean para sostener una autoimagen inflada y perfecta. Por fuera se muestra como alguien carismático, cautivador, sumamente seguro e hipercompetente, por dentro alberga una profunda fragilidad emocional y un ego insaciable que exige constante devoción. Las señales clave para detectar esta dinámica son tres: en primer lugar, despliega una grandiosidad exacerbada solicitando atención y privilegios especiales; en segundo lugar, demuestra una incapacidad casi absoluta para validar las emociones ajenas; y finalmente, reacciona con una rabia desmedida o un frío desprecio ante la más mínima crítica. ¿Por qué actúa de esta manera tan destructiva? La causa reside en una estructura psicológica compensatoria construida para proteger un núcleo interno profundamente inseguro frente al rechazo o la mediocridad. Un ejemplo: imagina un compañero de trabajo que se adueña totalmente del éxito de una presentación grupal ante los directivos, minimizando tus aportaciones para brillar en exclusiva. ¿Cómo defenderte de forma efectiva? Establece límites inflexibles, evita entrar en discusiones sobre su ego y mantén un contacto estrictamente neutral."
+      "videoQuery": "electric shock machine experiment vintage",
+      "photoQuery": "old electric generator dial",
+      "narration": "En 1961, en la Universidad de Yale, el psicólogo Stanley Milgram diseñó uno de los experimentos más citados de la historia de la psicología: el estudio de la obediencia a la autoridad. La idea era sencilla y aterradora a la vez: ¿hasta qué punto una persona normal es capaz de hacer daño a otra si una figura de autoridad se lo ordena? Los participantes creían estar aplicando descargas eléctricas cada vez más intensas a otra persona por cada respuesta incorrecta en un juego de memoria. Por fuera, parecía un simple estudio sobre aprendizaje y castigo; por dentro, en realidad se medía hasta dónde llega la obediencia ciega, mientras la víctima gritaba de dolor sin recibir ninguna descarga real, todo era una actuación. Las señales de que algo iba mal eran claras: el engaño total a los participantes, la ausencia de un consentimiento informado real, y el sufrimiento psicológico genuino que muchos sintieron al creer que torturaban a un inocente. ¿Por qué se prohibió después replicarlo tal cual? Porque provocó angustia extrema, ataques de ansiedad y culpa duradera en quienes participaron, sin ningún protocolo para protegerlos emocionalmente. Un ejemplo: uno de los sujetos, un hombre llamado Fred Prozzi, llegó a reírse nerviosamente mientras subía el voltaje, atrapado entre el deseo de parar y la presión de obedecer al investigador con bata blanca. ¿Cómo podemos hoy aplicar esta lección? Cuestionando siempre las órdenes que chocan con nuestra conciencia, por muy legítima que parezca la autoridad que las da."
     },
     {
       "id": "v03",
       "key": "item2",
-      "name": "EL GASLIGHTER",
+      "name": "LA CÁRCEL DE STANFORD",
       "group": "",
       "color": "#90a4ae",
-      "main": "eye",
-      "def": "Hace dudar de la realidad",
+      "main": "lock",
+      "def": "Poder y sumisión",
       "fuera": [
-        "smile",
-        "Sereno, razonable y preocupado"
+        "users",
+        "Juego de rol"
       ],
       "dentro": [
-        "brain",
-        "Deseo absoluto de dominación"
+        "angry",
+        "Abuso descontrolado"
       ],
       "senales": [
         {
-          "icon": "volume-x",
+          "icon": "angry",
           "color": "#ffd54f",
-          "label": "Negación rotunda de hechos"
+          "label": "Abuso de guardias"
+        },
+        {
+          "icon": "frown",
+          "color": "#ff8c1a",
+          "label": "Crisis de presos"
         },
         {
           "icon": "circle-help",
-          "color": "#ff8c1a",
-          "label": "Siembra duda sobre memoria"
-        },
-        {
-          "icon": "drama",
           "color": "#4db6ac",
-          "label": "Reescritura de los hechos"
+          "label": "Investigador implicado"
         }
       ],
       "causa": [
-        "target",
-        "Necesidad de control sobre el relato"
+        "crown",
+        "Poder deshumaniza"
       ],
-      "ejemploTitle": "Negación de la discusión",
+      "ejemploTitle": "El guardia John Wayne",
       "consejo": [
-        "list-checks",
-        "Confía en tus registros"
+        "scale",
+        "Vigila el poder"
       ],
-      "videoQuery": "argument couple doubt confusion",
-      "photoQuery": "woman questioning her sanity memory",
-      "narration": "El gaslighter o manipulador de la realidad utiliza la distorsión metódica de la verdad para hacer que la víctima dude de sus propias percepciones, recuerdos o cordura. Esta forma de manipulación psicológica es silenciosa y corrosiva, erosionando gradualmente la autoconfianza de la persona afectada. Por fuera se presenta como un observador sereno, razonable y profundamente preocupado por tu bienestar mental, por dentro oculta un deseo absoluto de dominación e inoculación de duda. Las señales distintivas son tres: en primer lugar, niega de forma categórica hechos o conversaciones que han ocurrido recientemente; en segundo lugar, siembra la sospecha constante sobre tu capacidad de memoria o estabilidad emocional; y finalmente, reescribe la historia de los acontecimientos para colocarse siempre en una posición de inocencia. ¿Por qué utiliza esta táctica tan desgastante? La causa principal es su imperiosa necesidad de ejercer un control total sobre el relato para evitar asumir responsabilidades o fallos propios. Un ejemplo: tras una discusión intensa, le recuerdas los insultos que profirió y responde con tono calmado diciéndote que te lo estás inventando todo y que deberías hacerte mirar la memoria. ¿Cómo responder ante este ataque psicológico? Registra por escrito o mediante notas los hechos objetivos, confía en tu propio criterio y evita debatir sobre la realidad con el manipulador."
+      "videoQuery": "prison guards prisoners reenactment black white",
+      "photoQuery": "prison cell bars black white",
+      "narration": "En el verano de 1971, el psicólogo Philip Zimbardo transformó el sótano del departamento de psicología de Stanford en una cárcel simulada para estudiar cómo el poder y los roles asignados cambian el comportamiento humano. Reclutó a veinticuatro estudiantes universitarios, sanos y estables, y los dividió al azar en guardias y presos. Por fuera, era un simple juego de rol con fines académicos, con normas, uniformes y horarios; por dentro, se convirtió en una espiral real de abuso, humillación y sumisión que nadie supo frenar a tiempo. Las señales de descontrol aparecieron pronto: los guardias empezaron a humillar a los presos con castigos crueles, los presos mostraron crisis de ansiedad genuinas, y el propio Zimbardo, metido en el papel de director de la prisión, dejó de actuar como investigador objetivo. ¿Por qué se detuvo el experimento a solo seis días de los catorce planificados? Porque una colega, Christina Maslach, visitó las instalaciones y quedó horrorizada al ver el nivel de deshumanización alcanzado, obligando a Zimbardo a reconocer que había perdido el control. Un ejemplo: un guardia apodado John Wayne desarrolló una crueldad tan teatral y constante que hoy sigue siendo el rostro simbólico de cómo un uniforme puede transformar a cualquier persona común. ¿Cómo evitamos que el poder nos ciegue en la vida real? Vigilando activamente los límites éticos cuando ocupamos posiciones de autoridad, y permitiendo siempre una voz externa que pueda decir basta."
     },
     {
       "id": "v04",
       "key": "item3",
-      "name": "LA FALSA VÍCTIMA",
+      "name": "EL PEQUEÑO ALBERT",
       "group": "",
       "color": "#ba68c8",
-      "main": "frown",
-      "def": "Usa la lástima como arma",
+      "main": "baby",
+      "def": "Miedo condicionado",
       "fuera": [
         "baby",
-        "Frágil, vulnerable e incomprendido"
+        "Bebé y rata"
       ],
       "dentro": [
-        "target",
-        "Cálculo frío para dar culpa"
+        "alert-triangle",
+        "Susto inducido"
       ],
       "senales": [
         {
-          "icon": "heart-crack",
+          "icon": "ban",
           "color": "#ffd54f",
-          "label": "Culpabilización constante del entorno"
+          "label": "Sin consentimiento"
+        },
+        {
+          "icon": "heart-crack",
+          "color": "#ff8c1a",
+          "label": "Miedo no revertido"
         },
         {
           "icon": "frown",
-          "color": "#ff8c1a",
-          "label": "Exageración del propio dolor"
-        },
-        {
-          "icon": "ban",
           "color": "#4db6ac",
-          "label": "Rechazo de soluciones prácticas"
+          "label": "Miedo generalizado"
         }
       ],
       "causa": [
-        "shield-alert",
-        "Evitar la responsabilidad de sus actos"
+        "brain",
+        "Condicionar el miedo"
       ],
-      "ejemploTitle": "El chantaje del lamento",
+      "ejemploTitle": "La máscara de Santa",
       "consejo": [
-        "hand",
-        "No asumas sus cargas"
+        "shield",
+        "Cuida las fobias"
       ],
-      "videoQuery": "sad woman crying manipulation office",
-      "photoQuery": "person playing victim emotion",
-      "narration": "La víctima manipuladora utiliza la debilidad, el desamparo y el sufrimiento como una herramienta estratégica para influir en los demás y obtener beneficios afectivos o materiales. Este perfil transforma cualquier situación en una injusticia cometida en su contra para eludir responsabilidades. Por fuera proyecta una imagen frágil, vulnerable e incomprendida por un mundo cruel, por dentro esconde un cálculo frío para manipular los sentimientos de culpa ajenos. Las señales que la delatan son tres: en primer lugar, culpabiliza sistemáticamente al entorno de todas sus desgracias personales; en segundo lugar, exagera de forma constante su propio dolor ignorando el sufrimiento de los demás; y finalmente, rechaza cualquier solución práctica que se le ofrece para perpetuar su rol. ¿Por qué recurre de manera recurrente al victimismo? La causa fundamental es una profunda incapacidad para asumir la responsabilidad de sus actos, utilizando la lástima como escudo protector. Un ejemplo: cuando le pides a un amigo que cumpla con su parte de un compromiso, rompe a llorar afirmando que siempre le exiges demasiado y que nadie comprende lo dura que es su vida. ¿Cómo actuar frente a esta manipulación? Desconecta de la culpa inducida, ofrece apoyo práctico en lugar de compasión desmedida y exige responsabilidad clara."
+      "videoQuery": "white rat baby experiment vintage psychology",
+      "photoQuery": "white rat close up",
+      "narration": "En 1920, el psicólogo John B. Watson y su ayudante Rosalie Rayner quisieron demostrar que el miedo se podía aprender igual que cualquier otra conducta. Para ello usaron a un bebé de apenas nueve meses, conocido como el Pequeño Albert, a quien primero mostraron una rata blanca sin ninguna reacción de temor. Por fuera, el experimento parecía una simple observación infantil con animales; por dentro, los investigadores golpeaban una barra de metal con un martillo justo detrás de la cabeza del niño cada vez que aparecía la rata, generando un susto brutal y repetido. Las señales de que aquello cruzaba una línea ética son evidentes hoy: no existía consentimiento informado real por parte de la familia, nunca se revirtió el miedo inducido, y el niño terminó generalizando ese pánico a objetos peludos como conejos, perros e incluso un abrigo de piel. ¿Por qué resulta tan grave este caso desde la psicología actual? Porque se causó un daño emocional duradero a un menor indefenso sin ningún plan de reparación, y Albert desapareció del seguimiento científico, dejando su destino envuelto en misterio durante décadas. Un ejemplo: cuando le mostraban una máscara de Papá Noel con barba blanca, el pequeño Albert lloraba y se apartaba gateando, aterrado, igual que ante la rata original. ¿Cómo entendemos hoy ese aprendizaje del miedo sin repetir el error? Reconociendo que las emociones se condicionan con facilidad en la infancia, y que revertirlas exige siempre cuidado profesional y ético."
     },
     {
       "id": "v05",
       "key": "item4",
-      "name": "EL MAQUIAVÉLICO",
+      "name": "EL MONSTER STUDY",
       "group": "",
       "color": "#607d8b",
-      "main": "venetian-mask",
-      "def": "El fin justifica sus medios",
+      "main": "volume-x",
+      "def": "Tartamudez inducida",
       "fuera": [
-        "handshake",
-        "Encantador, colaborador y profesional"
+        "graduation-cap",
+        "Terapia del habla"
       ],
       "dentro": [
-        "puzzle",
-        "Visión fría y utilitaria"
+        "megaphone",
+        "Crítica constante"
       ],
       "senales": [
         {
-          "icon": "target",
+          "icon": "frown",
           "color": "#ffd54f",
-          "label": "Estrategia fría a largo plazo"
-        },
-        {
-          "icon": "circle-help",
-          "color": "#ff8c1a",
-          "label": "Falsa alianza por conveniencia"
-        },
-        {
-          "icon": "scale",
-          "color": "#4db6ac",
-          "label": "Indiferencia hacia dilemas éticos"
-        }
-      ],
-      "causa": [
-        "briefcase",
-        "Competitividad extrema y utilidad"
-      ],
-      "ejemploTitle": "El ascenso a costa ajena",
-      "consejo": [
-        "lock",
-        "Protege tu información crítica"
-      ],
-      "videoQuery": "calculating businessman chess corporate",
-      "photoQuery": "shadowy man scheming corporate",
-      "narration": "El perfil maquiavélico se define por una orientación puramente pragmática y calculadora en sus relaciones interpersonales, donde los demás son vistos como meros instrumentos para alcanzar fines personales. Para este tipo de individuo, la moral convencional es un obstáculo prescindible en su búsqueda de beneficio o poder. Por fuera aparenta ser una persona encantadora, colaboradora y altamente profesional, por dentro analiza cada interacción con una visión fría, utilitaria y estratégica. Las señales características son tres: en primer lugar, diseña planes a largo plazo calculando los movimientos de las personas a su alrededor; en segundo lugar, finge alianzas e interés sincero solo mientras le resulta conveniente; y finalmente, muestra una completa indiferencia hacia los dilemas éticos si estos comprometen sus metas. ¿Por qué adopta esta postura tan calculadora? La causa deriva de un enfoque del mundo centrado en la competitividad extrema, donde el valor de las personas reside únicamente en su utilidad práctica. Un ejemplo: un colega de oficina que entabla una aparente amistad contigo solo para extraer información confidencial sobre un proyecto y utilizarla posteriormente para superarte en un ascenso. ¿Cómo protegerte de un maquiavélico? Mantén un perfil bajo, protege estrictamente tu información personal y profesional, y evalúa a las personas por sus hechos sostenidos y no por sus palabras."
-    },
-    {
-      "id": "v06",
-      "key": "item5",
-      "name": "EL PSICÓPATA INTEGRADO",
-      "group": "",
-      "color": "#f06292",
-      "main": "skull",
-      "def": "Encanto superficial sin conciencia",
-      "fuera": [
-        "sparkles",
-        "Carismático, seguro y elegante"
-      ],
-      "dentro": [
-        "snowflake",
-        "Vacío emocional y desconexión"
-      ],
-      "senales": [
-        {
-          "icon": "flame",
-          "color": "#ffd54f",
-          "label": "Búsqueda de sensaciones e impulsividad"
-        },
-        {
-          "icon": "venetian-mask",
-          "color": "#ff8c1a",
-          "label": "Mentira patológica muy fluida"
-        },
-        {
-          "icon": "heart-off",
-          "color": "#4db6ac",
-          "label": "Falta total de remordimiento"
-        }
-      ],
-      "causa": [
-        "dna",
-        "Rasgos neurobiológicos de baja empatía"
-      ],
-      "ejemploTitle": "La traición del socio",
-      "consejo": [
-        "door-open",
-        "Contacto cero inmediato"
-      ],
-      "videoQuery": "cold confident man suited corporate office",
-      "photoQuery": "psychopath cold expression professional",
-      "narration": "El psicópata integrado se caracteriza por la presencia de rasgos psicopáticos como la ausencia de remordimiento, la frialdad emocional y la superficialidad afectiva, pero adaptados al contexto social cotidiano sin llegar a la criminalidad abierta. Este perfil opera bajo el radar de la sociedad integrándose perfectamente en entornos laborales o familiares. Por fuera deslumbra con un encanto carismático, seguridad arrolladora y elegancia social, por dentro experimenta un vacío emocional absoluto y una desconexión total con el sufrimiento ajeno. Las señales para detectarlo son tres: en primer lugar, exhibe una búsqueda constante de sensaciones fuertes e impulsividad controlada; en segundo lugar, utiliza la mentira patológica con pasmosa fluidez sin mostrar fisuras; y finalmente, muestra una falta completa de culpa tras perjudicar gravemente a otros. ¿Por qué actúa con semejante frialdad? La causa responde a diferencias neurobiológicas estructurales en el procesamiento emocional y la empatía instintiva. Un ejemplo: un socio comercial que desvía fondos de la empresa compartida dejando en la quiebra a sus colaboradores, mientras les sonríe y les desea un feliz fin de semana. ¿Cómo defenderte ante un perfil así? Aplica un protocolo estricto de contacto cero siempre que sea posible, documenta todo legalmente y busca asesoramiento profesional inmediato."
-    },
-    {
-      "id": "v07",
-      "key": "item6",
-      "name": "EL CHANTAJISTA EMOCIONAL",
-      "group": "",
-      "color": "#ffb300",
-      "main": "zap",
-      "def": "Manipula usando miedo y culpa",
-      "fuera": [
-        "heart",
-        "Cariñoso, cercano y comprometido"
-      ],
-      "dentro": [
-        "alert-triangle",
-        "Miedo al descontrol y castigo"
-      ],
-      "senales": [
-        {
-          "icon": "alert-triangle",
-          "color": "#ffd54f",
-          "label": "Ultimátums explícitos o velados"
+          "label": "Habla dañada"
         },
         {
           "icon": "heart-crack",
           "color": "#ff8c1a",
-          "label": "Castigo con el silencio"
+          "label": "Ansiedad severa"
         },
         {
-          "icon": "anchor",
+          "icon": "lock",
           "color": "#4db6ac",
-          "label": "Inducción de culpa abrumadora"
+          "label": "Secreto 60 años"
         }
       ],
       "causa": [
-        "lock",
-        "Inseguridad y miedo al abandono"
+        "skull",
+        "Miedo a comparación nazi"
       ],
-      "ejemploTitle": "El ultimátum afectivo",
+      "ejemploTitle": "El silencio de Mary",
       "consejo": [
-        "shield",
-        "Resiste a los ultimátums"
+        "banknote",
+        "Repara el daño"
       ],
-      "videoQuery": "couple arguing emotional blackmail relationship",
-      "photoQuery": "upset couple emotional conflict",
-      "narration": "El chantajista emocional utiliza el afecto, la intimidad y la información personal como moneda de cambio para controlar las acciones y decisiones de la otra persona. Esta dinámica se basa en la manipulación sutil de las vulnerabilidades emocionales del objetivo para conseguir sumisión. Por fuera se muestra como una persona cariñosa, cercana y aparentemente comprometida con la relación, por dentro aloja un profundo miedo al descontrol y una disposición a castigar si no se cumplen sus deseos. Las señales de alerta son tres: en primer lugar, emite ultimátums explícitos o velados amenazando con retirar su afecto o romper el vínculo; en segundo lugar, utiliza el castigo del silencio para generar angustia; y finalmente, induce una culpa abrumadora haciendo sentir al otro responsable de su estado de ánimo. ¿Por qué recurre al chantaje directo? La causa principal es una intensa inseguridad personal mezclada con el miedo al abandono o a perder el control sobre la relación. Un ejemplo: una pareja que ante una discrepancia sobre planes individuales afirma que si realmente la quisieras no saldrías con tus amigos esta noche. ¿Cómo poner fin al chantaje emocional? Mantente firme frente a sus amenazas, no cedas ante la culpa arbitraria y exige una comunicación basada en el respeto mutuo."
+      "videoQuery": "orphanage children 1930s black white",
+      "photoQuery": "vintage orphanage building",
+      "narration": "En 1939, en la Universidad de Iowa, el investigador Wendell Johnson y su estudiante Mary Tudor diseñaron un experimento con veintidós niños huérfanos para comprobar si la tartamudez podía originarse por la forma en que los adultos hablan a los niños. Por fuera, se presentó como una simple terapia del habla dentro del orfanato; por dentro, a la mitad de los menores se les daba retroalimentación negativa constante, diciéndoles que hablaban mal aunque no tartamudearan, mientras a la otra mitad se les elogiaba sin condiciones. Las señales del daño fueron inmediatas: varios niños desarrollaron problemas reales de habla, otros mostraron ansiedad severa al hablar en público, y algunos arrastraron esa inseguridad durante el resto de sus vidas adultas. ¿Por qué se mantuvo en secreto durante décadas? Porque el propio Johnson temía las comparaciones con los experimentos nazis de la época y ordenó ocultar los resultados, que solo salieron a la luz gracias a periodistas en el año 2001. Un ejemplo: una de las participantes, Mary Nixon, contó de adulta que jamás volvió a sentirse segura hablando con extraños, cargando durante sesenta años con una vergüenza nacida en aquellas sesiones. ¿Cómo se resolvió finalmente esta injusticia? El estado de Iowa terminó pagando indemnizaciones millonarias en 2007 a los supervivientes, reconociendo oficialmente el daño psicológico infligido, y hoy el caso se enseña como ejemplo máximo de investigación sin ética con menores vulnerables."
     },
     {
-      "id": "v08",
-      "key": "item7",
-      "name": "EL FALSO SALVADOR",
+      "id": "v06",
+      "key": "item5",
+      "name": "LOS MONOS DE HARLOW",
       "group": "",
-      "color": "#ffd54f",
-      "main": "sparkles",
-      "def": "Genera dependencia ayudando",
+      "color": "#f06292",
+      "main": "heart-off",
+      "def": "Apego y aislamiento",
       "fuera": [
-        "thumbs-up",
-        "Altruista, generoso y servicial"
+        "dna",
+        "Estudio del apego"
       ],
       "dentro": [
-        "lock",
-        "Búsqueda de superioridad moral"
+        "heart-crack",
+        "Aislamiento extremo"
       ],
       "senales": [
         {
-          "icon": "hand",
+          "icon": "activity",
           "color": "#ffd54f",
-          "label": "Ayuda intrusiva no solicitada"
+          "label": "Balanceo repetitivo"
         },
         {
-          "icon": "anchor",
+          "icon": "angry",
           "color": "#ff8c1a",
-          "label": "Creación de deuda moral"
+          "label": "Autolesión constante"
         },
         {
-          "icon": "frown",
+          "icon": "users",
           "color": "#4db6ac",
-          "label": "Molestia ante la autonomía"
+          "label": "Sin vínculo social"
         }
       ],
       "causa": [
-        "trophy",
-        "Necesidad de sentirse necesitado"
+        "brain",
+        "Obsesión científica"
       ],
-      "ejemploTitle": "El favor cobrado caro",
+      "ejemploTitle": "El abrazo del mono 106",
       "consejo": [
-        "ban",
-        "Declina la ayuda innecesaria"
+        "hand",
+        "Valora el contacto"
       ],
-      "videoQuery": "overhelpful colleague intrusion office",
-      "photoQuery": "false hero helping person",
-      "narration": "El falso salvador o héroe manipulador establece relaciones de dominio ofreciendo ayuda no solicitada y generando una deuda implícita que sitúa a la víctima en una posición de subordinación. Su estrategia consiste en volverse indispensable para luego exigir sumisión o lealtad incondicional. Por fuera destaca como un individuo altruista, generoso y siempre dispuesto a sacrificarse por los demás, por dentro busca un control sutil y una posición de superioridad moral indiscutible. Las señales claras son tres: en primer lugar, interviene y ayuda sin que se le haya pedido; en segundo lugar, echa en cara sutilmente los favores prestados creando una abrumadora deuda moral; y finalmente, se molesta visiblemente cuando la otra persona muestra autonomía o resuelve sus problemas sola. ¿Por qué actúa mediante este falso altruismo? La causa es la necesidad imperiosa de sentirse necesitado y superior para validar su propio autoconcepto. Un ejemplo: un familiar que se encarga de organizar todos tus asuntos financieros sin tu consentimiento y luego te echa en cara lo desagradecido que eres si intentas tomar el control de tu dinero. ¿Cómo defenderte de este perfil? Declina amablemente las ayudas no solicitadas, marca límites claros de autonomía y no aceptes deudas emocionales no pactadas."
+      "videoQuery": "rhesus monkey experiment wire mother cloth",
+      "photoQuery": "baby monkey cage",
+      "narration": "Durante los años cincuenta y sesenta, el psicólogo Harry Harlow separó a crías de mono rhesus de sus madres justo al nacer para estudiar la naturaleza del apego afectivo. Colocó a los pequeños en jaulas con dos figuras artificiales: una madre de alambre que ofrecía leche y otra cubierta de felpa suave sin comida. Por fuera, el estudio buscaba entender científicamente el vínculo materno; por dentro, implicaba un aislamiento social extremo que dejó secuelas psicológicas devastadoras en decenas de animales durante años de experimentación continuada. Las señales del sufrimiento eran innegables: los monos aislados se balanceaban de forma repetitiva sin sentido, mordían su propio cuerpo hasta lastimarse, y de adultos eran incapaces de relacionarse con otros monos o de cuidar a sus propias crías. ¿Por qué siguió adelante Harlow con experimentos cada vez más crueles, incluida una cámara que llamó el pozo de la desesperación? Porque estaba obsesionado con demostrar que el amor y el contacto físico eran necesidades biológicas básicas, y consideraba que el fin justificaba medios dolorosos para los animales. Un ejemplo: una cría llamada simplemente 106 se abrazaba desesperadamente a la madre de felpa durante horas, buscando un consuelo que ningún objeto artificial podía ofrecerle. ¿Cómo cambió esto la ciencia del apego para siempre? Sus hallazgos, aun siendo crueles en su método, ayudaron a transformar la crianza hospitalaria y a demostrar la importancia real del contacto afectivo temprano."
     },
     {
-      "id": "v09",
-      "key": "item8",
-      "name": "EL PASIVO-AGRESIVO",
+      "id": "v07",
+      "key": "item6",
+      "name": "EL PROYECTO MKULTRA",
       "group": "",
-      "color": "#4db6ac",
-      "main": "snowflake",
-      "def": "Hostilidad disfrazada de amabilidad",
+      "color": "#ffb300",
+      "main": "syringe",
+      "def": "Control mental encubierto",
       "fuera": [
-        "smile",
-        "Dócil, servicial y afable"
+        "briefcase",
+        "Fachada académica"
       ],
       "dentro": [
-        "angry",
-        "Enojo y resentimiento reprimido"
+        "pill",
+        "Drogas ocultas"
       ],
       "senales": [
         {
-          "icon": "hourglass",
+          "icon": "ban",
           "color": "#ffd54f",
-          "label": "Procrastinación e ineficacia deliberada"
+          "label": "Sin consentimiento"
         },
         {
-          "icon": "volume-x",
+          "icon": "circle-help",
           "color": "#ff8c1a",
-          "label": "Sarcasmo y cumplidos envenenados"
+          "label": "Fachada médica"
         },
         {
           "icon": "ghost",
           "color": "#4db6ac",
-          "label": "Sabotaje silencioso y negación"
+          "label": "Documentos destruidos"
         }
       ],
       "causa": [
-        "circle-help",
-        "Incapacidad para comunicar enfado"
+        "shield-alert",
+        "Guerra Fría"
       ],
-      "ejemploTitle": "El informe saboteado",
+      "ejemploTitle": "La caída de Frank Olson",
       "consejo": [
-        "target",
-        "Confronta el comportamiento directo"
+        "eye",
+        "Exige transparencia"
       ],
-      "videoQuery": "frustrated office worker procrastination sabotage",
-      "photoQuery": "passive aggressive smile colleague",
-      "narration": "El manipulador pasivo-agresivo expresa su hostilidad, resentimiento y desacuerdo de manera indirecta y encubierta, evitando la confrontación abierta pero perjudicando activamente a la otra persona. Su táctica principal es la resistencia sutil y el sabotaje silencioso. Por fuera parece una persona dócil, servicial y amable que siempre dice sí a todo, por dentro guarda un profundo enojo y un resentimiento no procesado. Las señales de esta conducta son tres: en primer lugar, recurre a la procrastinación intencionada y la ineficacia deliberada para cumplir compromisos; en segundo lugar, utiliza el sarcasmo y los cumplidos envenenados para socavar la autoestima ajena; y finalmente, ejecuta un sabotaje silencioso negando posteriormente cualquier mala intención. ¿Por qué adopta esta conducta indirecta? La causa es un miedo abrumador al conflicto directo combinado con una severa incapacidad para comunicar sus emociones negativas de forma asertiva. Un ejemplo: un compañero de trabajo que acepta de buena gana preparar un informe urgente pero lo entrega fuera de plazo y repleto de errores obvios argumentando que tuvo pequeños imprevistos. ¿Cómo gestionar la manipulación pasivo-agresiva? Confronta el comportamiento específico con serenidad, no enganches con sus provocaciones veladas y exige compromisos por escrito."
+      "videoQuery": "cold war laboratory vintage syringe",
+      "photoQuery": "old hotel window night",
+      "narration": "Entre 1953 y 1973, la CIA financió en secreto el proyecto MKUltra, un programa que buscaba desarrollar técnicas de control mental utilizando drogas, hipnosis y privación sensorial en seres humanos. Por fuera, muchos estudios se disfrazaban de investigaciones universitarias inocentes sobre creatividad o comportamiento; por dentro, se administraban dosis de LSD y otras sustancias a personas sin su conocimiento, incluyendo pacientes psiquiátricos, presos y ciudadanos comunes captados sin ninguna sospecha. Las señales de esta operación encubierta incluían la total ausencia de consentimiento, el uso de instituciones médicas como fachada, y la destrucción deliberada de miles de documentos en 1973 para borrar cualquier rastro del programa. ¿Por qué salió finalmente a la luz este oscuro capítulo? Porque en 1975 una comisión del Senado estadounidense, conocida como la Comisión Church, investigó los abusos de la CIA y descubrió pruebas suficientes pese al intento de ocultamiento. Un ejemplo: el caso de Frank Olson, un científico del ejército al que le dieron LSD sin saberlo durante una reunión de trabajo, y que murió pocos días después al caer desde la ventana de un hotel en circunstancias todavía hoy muy discutidas. ¿Cómo nos protegemos hoy de abusos institucionales similares? Exigiendo transparencia real en toda investigación financiada con fondos públicos, y fortaleciendo comités éticos independientes capaces de fiscalizar incluso a las agencias más poderosas del estado."
+    },
+    {
+      "id": "v08",
+      "key": "item7",
+      "name": "EL EXPERIMENTO DE LANDIS",
+      "group": "",
+      "color": "#ffd54f",
+      "main": "scan-face",
+      "def": "Muecas ante el horror",
+      "fuera": [
+        "eye",
+        "Fotografiar rostros"
+      ],
+      "dentro": [
+        "skull",
+        "Crueldad extrema"
+      ],
+      "senales": [
+        {
+          "icon": "frown",
+          "color": "#ffd54f",
+          "label": "Llanto y rechazo"
+        },
+        {
+          "icon": "circle-help",
+          "color": "#ff8c1a",
+          "label": "Sin patrón hallado"
+        },
+        {
+          "icon": "heart-crack",
+          "color": "#4db6ac",
+          "label": "Sin apoyo posterior"
+        }
+      ],
+      "causa": [
+        "user",
+        "Presión del investigador"
+      ],
+      "ejemploTitle": "La rata decapitada",
+      "consejo": [
+        "shield",
+        "Respeta límites morales"
+      ],
+      "videoQuery": "vintage psychology laboratory 1920s researcher",
+      "photoQuery": "old black and white laboratory",
+      "narration": "En 1924, el psicólogo Carney Landis, de la Universidad de Minnesota, quiso fotografiar las expresiones faciales humanas ante estímulos extremos para comprobar si existían gestos universales de emoción. Reclutó a estudiantes voluntarios, les dibujó líneas en la cara para marcar mejor los músculos, y los sometió a experiencias como oler amoníaco, recibir descargas eléctricas o meter la mano en un cubo de ranas vivas. Por fuera, parecía un simple catálogo fotográfico de reacciones humanas; por dentro, el punto más extremo llegó cuando Landis pidió a cada participante que decapitara con sus propias manos a una rata de laboratorio viva mientras la cámara capturaba su rostro. Las señales de crueldad innecesaria fueron enormes: muchos participantes lloraron, se negaron inicialmente y sufrieron una angustia intensa, y encima los resultados fotográficos no mostraron ningún patrón universal que justificara tanto sufrimiento. ¿Por qué se considera hoy uno de los experimentos más gratuitos de la historia? Porque el daño emocional causado no aportó ningún conocimiento científico sólido, y Landis nunca ofreció apoyo psicológico posterior a quienes decapitaron al animal contra su voluntad moral. Un ejemplo: casi un tercio de los participantes terminó matando a la rata pese a su rechazo inicial, simplemente por la presión silenciosa de la figura del investigador observando con la cámara lista. ¿Cómo juzgamos este tipo de estudios desde la ética actual? Entendiendo que ningún hallazgo justifica obligar a alguien a dañar a un ser vivo contra su voluntad."
+    },
+    {
+      "id": "v09",
+      "key": "item8",
+      "name": "EL CASO DAVID REIMER",
+      "group": "",
+      "color": "#4db6ac",
+      "main": "circle-help",
+      "def": "Identidad forzada",
+      "fuera": [
+        "smile",
+        "Caso de éxito"
+      ],
+      "dentro": [
+        "frown",
+        "Rechazo profundo"
+      ],
+      "senales": [
+        {
+          "icon": "ban",
+          "color": "#ffd54f",
+          "label": "Rechazo constante"
+        },
+        {
+          "icon": "activity",
+          "color": "#ff8c1a",
+          "label": "Revisiones invasivas"
+        },
+        {
+          "icon": "lock",
+          "color": "#4db6ac",
+          "label": "Resultados ocultos"
+        }
+      ],
+      "causa": [
+        "briefcase",
+        "Proteger su teoría"
+      ],
+      "ejemploTitle": "El libro de David",
+      "consejo": [
+        "ear",
+        "Escucha a la persona"
+      ],
+      "videoQuery": "identity twins childhood vintage photo",
+      "photoQuery": "old family photograph children",
+      "narration": "En 1965, tras un accidente médico durante una circuncisión que dañó irreversiblemente sus genitales, el pequeño Bruce Reimer fue derivado al psicólogo John Money, quien propuso criarlo como niña bajo el nombre de Brenda para probar su teoría de que la identidad de género era completamente moldeable por la crianza. Por fuera, se presentó como un caso clínico de reasignación exitosa que Money publicitó durante años; por dentro, el niño sintió desde muy pequeño un profundo rechazo hacia su identidad impuesta, además de someterse a revisiones genitales invasivas y comparaciones incómodas con su hermano gemelo, usado como grupo de control. Las señales del fracaso fueron constantes: Brenda se negaba a vestir como niña, sufría un malestar psicológico creciente, y ya en la adolescencia decidió retomar por su cuenta su identidad masculina original, contradiciendo por completo la teoría de Money. ¿Por qué se mantuvo el engaño científico durante tanto tiempo? Porque Money ocultó públicamente los resultados negativos reales durante casi dos décadas, protegiendo su prestigio, mientras David Reimer arrastraba en silencio una angustia enorme. Un ejemplo: David, ya adulto, contó abiertamente su historia en el libro As Nature Made Him, desvelando el sufrimiento oculto tras aquel supuesto caso de éxito científico. ¿Cómo debemos abordar hoy la identidad de género en investigación? Con total honestidad sobre los resultados, seguimiento a largo plazo, y respeto absoluto por la voz y el bienestar de la persona involucrada."
     }
   ]
 }
