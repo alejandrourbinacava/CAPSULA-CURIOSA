@@ -72,6 +72,14 @@ for (const it of cfg.items) {
   if (photo) await dl(photo, path.join(MEDIA, `${it.key}_photo.jpg`));
   let gif = false; const gu = await giphyGif(it.gifQuery || it.photoQuery || it.name); if (gu) { try { await dl(gu, path.join(MEDIA, `${it.key}.gif`)); gif = true; } catch {} }
   mediaFlags[it.key] = { gif };
+  // GARANTIZAR que existan foto + 2 clips (el nuevo diseño usa fondo real en cada escena): si falta, fallback
+  const P = (s) => path.join(MEDIA, `${it.key}${s}`);
+  const ph = P("_photo.jpg"), v1 = P("_vid.mp4"), v2 = P("_vid2.mp4");
+  if (!fs.existsSync(v1) && fs.existsSync(v2)) fs.copyFileSync(v2, v1);
+  if (!fs.existsSync(ph) && fs.existsSync(v1)) { try { execSync(`ffmpeg -y -v error -ss 0.5 -i "${v1}" -frames:v 1 "${ph}"`); } catch {} }
+  if (!fs.existsSync(ph)) { execSync(`ffmpeg -y -v error -f lavfi -i color=c=0x1b2735:s=1280x720:d=1 -frames:v 1 "${ph}"`); }
+  if (!fs.existsSync(v1)) { execSync(`ffmpeg -y -v error -loop 1 -i "${ph}" -t 3 -c:v libx264 -pix_fmt yuv420p -vf scale=1280:720 "${v1}"`); }
+  if (!fs.existsSync(v2)) fs.copyFileSync(v1, v2);
   console.log(`🖼️  ${it.key}: ${vids.length} vídeo(s)${photo ? " + foto" : ""}${gif ? " + gif" : ""}`);
 }
 fs.writeFileSync(path.join(MEDIA, "media.json"), JSON.stringify(mediaFlags, null, 2));

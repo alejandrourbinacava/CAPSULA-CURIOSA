@@ -48,6 +48,16 @@ const Win: React.FC<{ img?: string; video?: string; videoFrom?: number; w: numbe
 const Chev: React.FC<{ f: number; c: string }> = ({ f, c }) => (
   <div style={{ display: "flex", gap: 2 }}>{[0, 1, 2].map(k => <span key={k} style={{ fontFamily: HEAVY, fontSize: 90, fontWeight: 900, color: c, opacity: 0.3 + 0.7 * (0.5 + 0.5 * Math.sin(f / 6 - k)) }}>›</span>)}</div>
 );
+// flecha dibujada a mano que se "dibuja" sola (draw-in) y termina en punta
+const Arrow: React.FC<{ f: number; delay?: number; w?: number; color?: string; flip?: boolean }> = ({ f, delay = 0, w = 200, color = "#111", flip }) => {
+  const p = clamp((f - delay) / 14), L = 300;
+  return (
+    <svg width={w} height={w * 0.62} viewBox="0 0 300 186" style={{ transform: flip ? "scaleX(-1)" : "none", overflow: "visible" }}>
+      <path d="M18,140 C95,25 205,25 268,96" fill="none" stroke={color} strokeWidth={13} strokeLinecap="round" strokeDasharray={L} strokeDashoffset={L * (1 - p)} />
+      <path d="M268,96 L224,92 M268,96 L256,52" fill="none" stroke={color} strokeWidth={13} strokeLinecap="round" opacity={p > 0.82 ? 1 : 0} />
+    </svg>
+  );
+};
 
 type A = { fuera: number; dentro: number; senales: number; causa: number; ejemplo: number; consejo: number };
 
@@ -88,22 +98,47 @@ const ItemScene: React.FC<{ d: Item; a: A; n: number; frames: number }> = ({ d, 
   const dir = bi % 2 === 0 ? 1 : -1;
   const vf = Math.max(0, beatF[bi]);
   const hasGif = Boolean((mediaFlags as Record<string, { gif?: boolean }>)[d.key]?.gif);
-  const chip = (icon: string, c: string, sz = 260) => <div style={{ transform: bob(frame) }}><Chip n={icon} c={c} size={sz} /></div>;
+  // ventana con material real que va rotando (foto / clip / clip2 / gif)
+  const winMedia: { img?: string; video?: string; gif?: boolean } = hasGif && bi % 4 === 3 ? { gif: true } : bi % 3 === 1 ? { img: photo } : bi % 3 === 2 ? { video: video2 } : { video };
+  const MW = (w: number, h: number) => winMedia.gif
+    ? <div style={{ borderRadius: 20, overflow: "hidden", border: `7px solid ${d.color}`, boxShadow: "0 22px 55px rgba(0,0,0,.22)" }}><Gif src={staticFile(`media/${d.key}.gif`)} width={w} height={h} fit="cover" /></div>
+    : <Win img={winMedia.img} video={winMedia.video} videoFrom={vf} w={w} title={d.name} accent={d.color} h={h} />;
+  const R = (p: number, from: number, node: React.ReactNode) => <div style={{ opacity: Math.min(1, p * 1.4), transform: `translateX(${(1 - p) * from}px) scale(${lerp3(p, 0.55, 1.06, 1)})` }}>{node}</div>;
 
   let body: React.ReactNode = null;
-  if (tpl.k === "title") body = <><div style={{ transform: bob(frame) }}><Chip n={d.main} c={d.color} size={300} /></div><T s={d.name.length > 13 ? 84 : 116} heavy>{d.name}</T></>;
-  else if (tpl.k === "def") body = <div style={{ display: "flex", alignItems: "center", gap: 56 }}>{chip(d.main, d.color, 240)}<T s={64} c={RED} heavy w={1150}>{d.def}</T></div>;
-  else if (tpl.k === "fuera") body = <><T s={70} heavy>😐 POR FUERA</T>{chip(d.fuera[0], d.color, 250)}<T s={56} w={1250}>{d.fuera[1]}</T></>;
-  else if (tpl.k === "dentro") body = <><T s={70} c={RED} heavy>🎭 POR DENTRO</T>{chip(d.dentro[0], "#e57373", 250)}<T s={56} w={1250}>{d.dentro[1]}</T></>;
-  else if (tpl.k === "senal") { const sg = d.senales[tpl.i!] || d.senales[0]; body = <><T s={66} c={RED} heavy>⚠️ SEÑAL</T>{chip(sg.icon, sg.color, 250)}<T s={58} w={1150}>{sg.label}</T></>; }
-  else if (tpl.k === "gif") body = hasGif
-    ? <div style={{ borderRadius: 24, overflow: "hidden", border: `6px solid ${d.color}`, boxShadow: "0 24px 60px rgba(0,0,0,.22)" }}><Gif src={staticFile(`media/${d.key}.gif`)} width={1040} height={580} fit="cover" /></div>
-    : <Win video={video} videoFrom={vf} w={1200} title={d.ejemploTitle} accent={d.color} h={580} />;
-  else if (tpl.k === "photo") body = <Win img={photo} w={1200} title={d.name} accent={d.color} h={580} />;
-  else if (tpl.k === "clip") body = <Win video={video} videoFrom={vf} w={1200} title={d.ejemploTitle} accent={d.color} h={580} />;
-  else if (tpl.k === "clip2") body = <Win video={video2} videoFrom={vf} w={1200} title={d.causa[1]} accent={d.color} h={580} />;
-  else if (tpl.k === "causa") body = <div style={{ display: "flex", alignItems: "center", gap: 26 }}><div style={{ transform: bob(frame, 2), transformOrigin: "bottom center" }}><Stick head={iconHead(d.main, d.color)} pose="pointR" /></div><Chev f={frame} c={d.color} /><Win video={video2} videoFrom={vf} w={780} title={d.causa[1]} accent={d.color} h={440} /></div>;
-  else if (tpl.k === "consejo") body = <><T s={74} c={RED} heavy>✅ CÓMO ACTUAR</T><div style={{ display: "flex", alignItems: "center", gap: 56 }}>{chip(d.consejo[0], d.color, 240)}<T s={66} w={1050} heavy>{d.consejo[1]}</T></div></>;
+  if (tpl.k === "title") body = <>
+    <div style={{ display: "flex", alignItems: "center", gap: 34 }}>
+      {R(ap(lf, 0), 0, <div style={{ transform: bob(frame) }}><Chip n={d.main} c={d.color} size={290} /></div>)}
+      {R(ap(lf, 16), 0, <Arrow f={lf} delay={16} w={190} />)}
+    </div>
+    {R(ap(lf, 10), 0, <T s={d.name.length > 13 ? 84 : 116} heavy>{d.name}</T>)}
+  </>;
+  else if (tpl.k === "photo" || tpl.k === "clip" || tpl.k === "clip2" || tpl.k === "gif") body = <>
+    <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+      {R(ap(lf, 0), -90, <div style={{ transform: bob(frame, 2), transformOrigin: "bottom center" }}><Stick head={iconHead(d.main, d.color)} pose="pointR" /></div>)}
+      {R(ap(lf, 14), 0, <Arrow f={lf} delay={14} w={150} />)}
+      {R(ap(lf, 22), 150, MW(1000, 560))}
+    </div>
+    {R(ap(lf, 40), 0, <T s={58} c={RED} heavy>{tpl.k === "clip2" ? d.causa[1] : (tpl.k === "clip" ? d.ejemploTitle : d.name)}</T>)}
+  </>;
+  else {
+    let label = "", icon = d.main, ic = d.color, txt = "";
+    if (tpl.k === "def") { txt = d.def; }
+    else if (tpl.k === "fuera") { label = "😐 POR FUERA"; icon = d.fuera[0]; txt = d.fuera[1]; }
+    else if (tpl.k === "dentro") { label = "🎭 POR DENTRO"; ic = "#e57373"; icon = d.dentro[0]; txt = d.dentro[1]; }
+    else if (tpl.k === "senal") { const s = d.senales[tpl.i!] || d.senales[0]; label = "⚠️ SEÑAL"; icon = s.icon; ic = s.color; txt = s.label; }
+    else if (tpl.k === "causa") { label = "🤔 ¿POR QUÉ PASA?"; txt = d.causa[1]; }
+    else if (tpl.k === "consejo") { label = "✅ CÓMO ACTUAR"; icon = d.consejo[0]; txt = d.consejo[1]; }
+    body = <>
+      {label && <T s={62} c={RED} heavy>{label}</T>}
+      <div style={{ display: "flex", alignItems: "center", gap: 26, justifyContent: "center" }}>
+        {R(ap(lf, 0), 0, <div style={{ transform: bob(frame) }}><Chip n={icon} c={ic} size={240} /></div>)}
+        {R(ap(lf, 14), 0, <Arrow f={lf} delay={14} w={165} />)}
+        {R(ap(lf, 22), 140, MW(780, 440))}
+      </div>
+      {R(ap(lf, 34), 0, <T s={54} w={1300}>{txt}</T>)}
+    </>;
+  }
 
   return (
     <AbsoluteFill>
