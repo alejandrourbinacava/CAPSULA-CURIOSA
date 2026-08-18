@@ -114,6 +114,46 @@ const Simple: React.FC<{ id: string; children: (lf: number) => React.ReactNode }
   return <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}><Audio src={staticFile(`voz1deep/${id}.mp3`)} />{children(frame)}</AbsoluteFill>;
 };
 
+// INTRO dinámico: título → teaser de cada tipo (icono grande + nombre) uno cada ~3s
+const IntroScene: React.FC<{ id: string; frames: number }> = ({ id, frames }) => {
+  const frame = useCurrentFrame();
+  const N = Math.min(ITEMS.length + 1, 9);
+  const len = frames / N;
+  const i = Math.min(N - 1, Math.floor(frame / len));
+  const lf = frame - i * len;
+  const pop = lerp3(clamp(lf / 12), 0.4, 1.1, 1);
+  return (
+    <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", padding: "0 80px" }}>
+      <Audio src={staticFile(`voz1deep/${id}.mp3`)} />
+      {i === 0 && <div style={{ fontFamily: HEAVY, fontWeight: 900, fontSize: 96, color: "#141414", textAlign: "center", transform: `scale(${pop})`, lineHeight: 1.05 }}>{config.title}</div>}
+      {i > 0 && (() => { const it = ITEMS[(i - 1) % ITEMS.length]; return (
+        <div style={{ textAlign: "center" }}>
+          <div style={{ display: "flex", justifyContent: "center", transform: `scale(${pop}) ${bob(frame)}` }}><Chip n={it.main} c={it.color} size={340} /></div>
+          <div style={{ fontFamily: HEAVY, fontWeight: 900, fontSize: it.name.length > 13 ? 62 : 88, color: "#141414", marginTop: 34, opacity: clamp((lf - 8) / 10) }}>{it.name}</div>
+        </div>
+      ); })()}
+    </AbsoluteFill>
+  );
+};
+// GRUPOS dinámico: las bolitas van apareciendo una a una
+const GruposScene: React.FC<{ id: string; frames: number }> = ({ id, frames }) => {
+  const frame = useCurrentFrame();
+  const per = frames / (ITEMS.length + 3);
+  return (
+    <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}>
+      <Audio src={staticFile(`voz1deep/${id}.mp3`)} />
+      <div style={{ fontFamily: HEAVY, fontSize: 82, fontWeight: 900, color: RED, position: "absolute", top: 90, textAlign: "center", width: "100%", padding: "0 40px" }}>{config.title}</div>
+      <div style={{ display: "flex", flexWrap: "wrap", width: 1500, justifyContent: "center", gap: 30, marginTop: 60 }}>
+        {ITEMS.map((it, k) => { const p = clamp((frame - k * per) / 10); return (
+          <div key={k} style={{ textAlign: "center", opacity: p, transform: `scale(${lerp3(p, 0.3, 1.12, 1)}) ${bob(frame + k)}` }}>
+            <Chip n={it.main} c={it.color} size={150} />
+            <div style={{ fontFamily: HAND, fontSize: 24, marginTop: 4, maxWidth: 170, lineHeight: 1 }}>{it.name}</div>
+          </div>); })}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 const tline = (() => { let acc = 0; return (manifest as { id: string; frames: number }[]).map((m) => { const from = acc; const dur = m.frames + PAD; acc += dur; return { ...m, from, dur }; }); })();
 export const TOTAL = tline.reduce((a, s) => Math.max(a, s.from + s.dur), 0);
 
@@ -125,14 +165,8 @@ export const AutoVideo: React.FC = () => {
       <div style={{ position: "absolute", top: 26, left: 34, fontSize: 30, color: "#cfcfcf", zIndex: 30 }}>{config.handle}</div>
       {tline.map((s) => {
         let c: React.ReactNode;
-        if (s.id === config.intro.id) c = <Simple id={s.id}>{() => <>
-          <T s={150} heavy>{config.title.split(" ").slice(0, 3).join(" ")}</T>
-          <div style={{ display: "flex", flexWrap: "wrap", width: 1300, justifyContent: "center", gap: 22, marginTop: 40 }}>{ITEMS.map((it, k) => <div key={k} style={{ transform: bob(k * 3) }}><Chip n={it.main} c={it.color} size={130} /></div>)}</div>
-        </>}</Simple>;
-        else if (s.id === config.grupos.id) c = <Simple id={s.id}>{() => <>
-          <T s={100} c={RED} heavy>{config.title}</T>
-          <div style={{ display: "flex", flexWrap: "wrap", width: 1400, justifyContent: "center", gap: 26, marginTop: 40 }}>{ITEMS.map((it, k) => <div key={k} style={{ textAlign: "center", transform: bob(k * 2) }}><Chip n={it.main} c={it.color} size={150} /><div style={{ fontSize: 26, marginTop: 6 }}>{it.name}</div></div>)}</div>
-        </>}</Simple>;
+        if (s.id === config.intro.id) c = <IntroScene id={s.id} frames={s.frames} />;
+        else if (s.id === config.grupos.id) c = <GruposScene id={s.id} frames={s.frames} />;
         else if (s.id === config.outro.id) c = <Simple id={s.id}>{() => <div style={{ textAlign: "center" }}>
           <div style={{ display: "flex", flexWrap: "wrap", width: 1200, justifyContent: "center", gap: 18, marginBottom: 40 }}>{ITEMS.map((it, k) => <div key={k} style={{ transform: bob(k * 3) }}><Chip n={it.main} c={it.color} size={110} /></div>)}</div>
           <T s={96} heavy>¿Reconociste a <span style={{ color: RED }}>alguien</span>?</T>
