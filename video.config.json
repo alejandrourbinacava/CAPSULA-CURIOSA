@@ -1,1134 +1,1412 @@
 {
-  "title": "Todo lo que le pasa a tu cuerpo cuando mueres",
+  "title": "Cada Sesgo Cognitivo que te Engaña",
   "fps": 30,
   "voiceId": "851ejYcv2BoNPjrkw93G",
   "speed": 1.08,
-  "cornerIcon": "heart-off",
+  "cornerIcon": "eye",
   "handle": "@CapsulaCuriosa",
   "intro": {
     "id": "v00",
-    "narration": "¿Sabías que tu cuerpo sigue con actividad incluso después de que tu corazón se pare? La muerte no es un instante, es un proceso, una cadena de fases que la ciencia forense conoce al detalle: el frío que se apodera de la piel, las manchas que aparecen por gravedad, la rigidez que endurece los músculos y, después, el trabajo silencioso de tus propias células y de las bacterias que ya vivían dentro de ti. Todo esto, minuto a minuto, hora a hora, deja pistas que ayudan a resolver casos reales. Hoy vamos a contarlo sin dramatismo, con curiosidad pura. Quédate, porque esto te va a sorprender."
+    "narration": "¿Alguna vez has tomado una decisión y luego te has preguntado por qué lo hiciste? Tu cerebro, ese órgano tan sofisticado, te está engañando todos los días sin que te des cuenta. No es que seas tonto ni que te falte información: son atajos mentales que todos usamos, llamados sesgos cognitivos. Te hacen creer que eres objetivo cuando en realidad ya decidiste antes de analizar nada. Compras cosas que no necesitas, discutes sin escuchar, y confías en gente solo porque sonríe bien. Hoy vamos a desmontar diez de los sesgos más comunes que manipulan tus decisiones cada día, desde lo que compras hasta a quién amas. Prepárate, porque después de este vídeo, verás tu propia mente de otra forma."
   },
   "grupos": {
     "id": "v01",
-    "narration": "Vamos a repasar ocho fases, desde los primeros minutos hasta que solo quedan los huesos: el enfriamiento, las livideces, el rigor mortis, la autolisis, la putrefacción, la esqueletización y lo que todo esto revela a la ciencia forense."
+    "narration": "Vamos a repasar diez sesgos cognitivos que actúan en tu día a día: cómo se sienten por dentro, qué señales delatan que estás cayendo en ellos, por qué tu cerebro los usa, y sobre todo, cómo puedes esquivarlos a partir de hoy."
   },
   "outro": {
-    "id": "v10",
-    "narration": "Como ves, la muerte no es un misterio oscuro, es un proceso biológico ordenado y fascinante que la ciencia entiende cada vez mejor. Si te ha gustado este viaje por dentro del cuerpo, dale like y suscríbete a Cápsula Curiosa para más curiosidad divulgativa cada semana. Nos vemos en el próximo vídeo."
+    "id": "v12",
+    "narration": "Como ves, tu mente no es tan objetiva como crees, pero conocer estos sesgos es el primer paso para pensar con más claridad. La próxima vez que decidas algo importante, para un segundo y pregúntate qué sesgo podría estar jugando contigo. Si te ha gustado este viaje por tu propia mente, suscríbete a Cápsula Curiosa para más contenido así. ¡Nos vemos en el próximo vídeo!"
   },
   "items": [
     {
       "id": "v02",
       "key": "item1",
-      "name": "LOS PRIMEROS MINUTOS",
+      "name": "SESGO DE CONFIRMACIÓN",
       "color": "#e57373",
-      "main": "heart-off",
-      "def": "cese de funciones vitales",
-      "beats": [
-        {
-          "say": "Todo empieza cuando el corazón deja de latir.",
-          "text": "PRIMEROS MINUTOS",
-          "icon": "heart-off",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Sin bombeo, el oxígeno deja de llegar a las células.",
-          "text": "SIN OXÍGENO",
-          "icon": "activity",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El cerebro es el primero en sufrir esa falta.",
-          "text": "EL CEREBRO",
-          "icon": "brain",
-          "media": "photo",
-          "query": "human brain illustration medical"
-        },
-        {
-          "say": "En unos cuatro a seis minutos empiezan los daños graves.",
-          "text": "MINUTOS CRÍTICOS",
-          "icon": "hourglass",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Se declara la muerte clínica cuando cesan estas funciones.",
-          "text": "MUERTE CLÍNICA",
-          "icon": "skull",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Todos los músculos del cuerpo se relajan de golpe.",
-          "text": "RELAJACIÓN MUSCULAR",
-          "icon": "user",
-          "media": "clip",
-          "query": "human body relaxed medical illustration"
-        },
-        {
-          "say": "Por eso pueden relajarse también los esfínteres.",
-          "text": "ESFÍNTERES",
-          "icon": "shield-alert",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La piel empieza a perder su color rosado habitual.",
-          "text": "PIEL PÁLIDA",
-          "icon": "frown",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La sangre deja de moverse por las venas.",
-          "text": "SIN CIRCULACIÓN",
-          "icon": "heart-crack",
-          "media": "photo",
-          "query": "blood vessels human circulation illustration"
-        },
-        {
-          "say": "Durante unos minutos el cuerpo mantiene su temperatura normal.",
-          "text": "TEMPERATURA ESTABLE",
-          "icon": "gauge",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Las pupilas dejan de reaccionar a la luz.",
-          "text": "OJOS",
-          "icon": "eye",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Desaparecen todos los reflejos musculares y nerviosos.",
-          "text": "REFLEJOS",
-          "icon": "zap",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Pero ojo, muchas células siguen vivas unas horas más.",
-          "text": "CÉLULAS VIVAS",
-          "icon": "microscope",
-          "media": "photo",
-          "query": "human cells under microscope"
-        },
-        {
-          "say": "A partir de aquí arranca un reloj biológico preciso.",
-          "text": "EL RELOJ ARRANCA",
-          "icon": "clock",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Estas fases son claves para la ciencia forense.",
-          "text": "CIENCIA FORENSE",
-          "icon": "scale",
-          "media": "photo",
-          "query": "forensic science investigation scene"
-        },
-        {
-          "say": "Cada fase deja pistas sobre cuándo ocurrió la muerte.",
-          "text": "CADA FASE CUENTA",
-          "icon": "list-checks",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Vamos a verlas una por una, sin prisa.",
-          "text": "VAMOS POR PARTES",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El primer cambio visible llega enseguida: el frío.",
-          "text": "EMPIEZA EL PROCESO",
-          "icon": "hourglass",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "Todo empieza cuando el corazón deja de latir. Sin bombeo, el oxígeno deja de llegar a las células. El cerebro es el primero en sufrir esa falta. En unos cuatro a seis minutos empiezan los daños graves. Se declara la muerte clínica cuando cesan estas funciones. Todos los músculos del cuerpo se relajan de golpe. Por eso pueden relajarse también los esfínteres. La piel empieza a perder su color rosado habitual. La sangre deja de moverse por las venas. Durante unos minutos el cuerpo mantiene su temperatura normal. Las pupilas dejan de reaccionar a la luz. Desaparecen todos los reflejos musculares y nerviosos. Pero ojo, muchas células siguen vivas unas horas más. A partir de aquí arranca un reloj biológico preciso. Estas fases son claves para la ciencia forense. Cada fase deja pistas sobre cuándo ocurrió la muerte. Vamos a verlas una por una, sin prisa. El primer cambio visible llega enseguida: el frío.",
-      "videoQuery": "medical death clinical illustration",
-      "photoQuery": "human heart stops beating"
-    },
-    {
-      "id": "v03",
-      "key": "item2",
-      "name": "ALGOR MORTIS",
-      "color": "#90a4ae",
-      "main": "snowflake",
-      "def": "enfriamiento del cuerpo",
-      "beats": [
-        {
-          "say": "La primera fase visible se llama algor mortis.",
-          "text": "ALGOR MORTIS",
-          "icon": "snowflake",
-          "media": "clip",
-          "query": "frost ice texture close up"
-        },
-        {
-          "say": "En latín significa literalmente frialdad de la muerte.",
-          "text": "SIGNIFICADO",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El cuerpo empieza a perder calor poco a poco.",
-          "text": "PIERDE CALOR",
-          "icon": "arrow-down",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ya no genera calor porque el metabolismo se ha parado.",
-          "text": "SIN GENERAR CALOR",
-          "icon": "flame",
-          "media": "gif",
-          "query": "fire extinguishing dying flame"
-        },
-        {
-          "say": "La temperatura baja alrededor de un grado por hora.",
-          "text": "RITMO",
-          "icon": "gauge",
-          "media": "photo",
-          "query": "body temperature thermometer chart"
-        },
-        {
-          "say": "Ese ritmo es más rápido en las primeras horas.",
-          "text": "PRIMERAS HORAS",
-          "icon": "hourglass",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Hasta igualarse con la temperatura del ambiente.",
-          "text": "EQUILIBRIO",
-          "icon": "scale",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La ropa, el clima y el lugar influyen mucho.",
-          "text": "FACTORES EXTERNOS",
-          "icon": "globe",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Un cuerpo con más grasa tarda más en enfriarse.",
-          "text": "CUERPO GRUESO",
-          "icon": "user",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Al tacto, la piel se nota fría y algo húmeda.",
-          "text": "AL TACTO",
-          "icon": "hand",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Los forenses usan esta bajada para calcular la hora de la muerte.",
-          "text": "USO FORENSE",
-          "icon": "scale",
-          "media": "photo",
-          "query": "forensic thermometer body temperature"
-        },
-        {
-          "say": "Aunque siempre con un margen de error considerable.",
-          "text": "MARGEN DE ERROR",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Un cuerpo en la calle en invierno se enfría muy rápido.",
-          "text": "EJEMPLO",
-          "icon": "snowflake",
-          "media": "clip",
-          "query": "cold winter street scene"
-        },
-        {
-          "say": "Uno en una habitación cálida tarda muchas más horas.",
-          "text": "LUGAR CERRADO",
-          "icon": "door-closed",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El proceso no es instantáneo, es progresivo.",
-          "text": "NO ES INSTANTÁNEO",
-          "icon": "clock",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Mientras se enfría, empieza otro cambio en paralelo.",
-          "text": "SIGUIENTE FASE",
-          "icon": "arrow-down",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La sangre deja de moverse y empieza a acumularse.",
-          "text": "LA SANGRE",
-          "icon": "heart-crack",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Eso da paso a la siguiente fase: el livor mortis.",
-          "text": "LIVOR MORTIS",
-          "icon": "eye",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "La primera fase visible se llama algor mortis. En latín significa literalmente frialdad de la muerte. El cuerpo empieza a perder calor poco a poco. Ya no genera calor porque el metabolismo se ha parado. La temperatura baja alrededor de un grado por hora. Ese ritmo es más rápido en las primeras horas. Hasta igualarse con la temperatura del ambiente. La ropa, el clima y el lugar influyen mucho. Un cuerpo con más grasa tarda más en enfriarse. Al tacto, la piel se nota fría y algo húmeda. Los forenses usan esta bajada para calcular la hora de la muerte. Aunque siempre con un margen de error considerable. Un cuerpo en la calle en invierno se enfría muy rápido. Uno en una habitación cálida tarda muchas más horas. El proceso no es instantáneo, es progresivo. Mientras se enfría, empieza otro cambio en paralelo. La sangre deja de moverse y empieza a acumularse. Eso da paso a la siguiente fase: el livor mortis.",
-      "videoQuery": "frost ice texture close up",
-      "photoQuery": "cold body temperature forensic"
-    },
-    {
-      "id": "v04",
-      "key": "item3",
-      "name": "LIVOR MORTIS",
-      "color": "#ba68c8",
       "main": "eye",
-      "def": "manchas por gravedad",
+      "def": "buscamos lo que confirma",
       "beats": [
         {
-          "say": "El livor mortis son esas manchas moradas en la piel.",
-          "text": "LIVOR MORTIS",
-          "icon": "eye",
-          "media": "photo",
-          "query": "purple bruise skin discoloration"
-        },
-        {
-          "say": "Se conocen también como livideces cadavéricas.",
-          "text": "QUÉ ES",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La sangre, sin bombeo, cae por gravedad hacia abajo.",
-          "text": "GRAVEDAD",
-          "icon": "arrow-down",
-          "media": "photo",
-          "query": "liquid gravity physics diagram"
-        },
-        {
-          "say": "Se acumula en las zonas más bajas del cuerpo.",
-          "text": "SE ACUMULA",
-          "icon": "heart-crack",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Si está boca arriba, se acumula en la espalda.",
-          "text": "BOCA ARRIBA",
-          "icon": "user",
-          "media": "clip",
-          "query": "gravity liquid pooling illustration"
-        },
-        {
-          "say": "La piel de esas zonas toma un tono violáceo.",
-          "text": "COLOR",
+          "say": "Este es el sesgo de confirmación, tu filtro mental.",
+          "text": "SESGO DE CONFIRMACIÓN",
           "icon": "eye",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Empieza a notarse entre media hora y dos horas después.",
-          "text": "CUÁNDO APARECE",
-          "icon": "hourglass",
+          "say": "Buscamos información que confirme lo que ya creemos.",
+          "text": "BUSCAR CONFIRMACIÓN",
+          "icon": "brain",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Con el tiempo, ese color se vuelve fijo y permanente.",
-          "text": "SE FIJA",
-          "icon": "lock",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Porque la sangre se degrada y ya no puede moverse.",
-          "text": "POR QUÉ SE FIJA",
-          "icon": "microscope",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Donde el cuerpo toca una superficie, no aparece la mancha.",
-          "text": "PUNTOS DE CONTACTO",
+          "say": "Ignoramos, sin darnos cuenta, todo lo que nos contradice.",
+          "text": "IGNORAR LO CONTRARIO",
           "icon": "ban",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Esas zonas quedan más pálidas por la presión.",
-          "text": "ZONA BLANCA",
-          "icon": "circle-check",
+          "say": "Por fuera parece que investigas con mente abierta.",
+          "text": "PARECE OBJETIVO",
+          "icon": "glasses",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Esto le dice a un forense si movieron el cuerpo.",
-          "text": "PISTA CLAVE",
-          "icon": "scale",
-          "media": "photo",
-          "query": "forensic investigation crime scene"
-        },
-        {
-          "say": "Si las manchas no coinciden con la postura, algo cambió.",
-          "text": "EJEMPLO",
-          "icon": "map",
+          "say": "Por dentro, solo aceptas lo que ya pensabas.",
+          "text": "ACEPTAR LO PROPIO",
+          "icon": "lock",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Tras unas ocho o diez horas, el color ya no cambia.",
-          "text": "TIEMPO LÍMITE",
-          "icon": "clock",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Puede confundirse con moretones si no se conoce el proceso.",
-          "text": "CON LA PIEL",
-          "icon": "eye",
-          "media": "photo",
-          "query": "skin bruise medical comparison"
-        },
-        {
-          "say": "Es un proceso físico normal, no algo dañino.",
-          "text": "PROCESO NATURAL",
-          "icon": "circle-check",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Y justo en paralelo, los músculos empiezan a cambiar también.",
-          "text": "MIENTRAS TANTO",
-          "icon": "hourglass",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ahí llega la fase más conocida: el rigor mortis.",
-          "text": "SIGUIENTE FASE",
-          "icon": "shield",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "El livor mortis son esas manchas moradas en la piel. Se conocen también como livideces cadavéricas. La sangre, sin bombeo, cae por gravedad hacia abajo. Se acumula en las zonas más bajas del cuerpo. Si está boca arriba, se acumula en la espalda. La piel de esas zonas toma un tono violáceo. Empieza a notarse entre media hora y dos horas después. Con el tiempo, ese color se vuelve fijo y permanente. Porque la sangre se degrada y ya no puede moverse. Donde el cuerpo toca una superficie, no aparece la mancha. Esas zonas quedan más pálidas por la presión. Esto le dice a un forense si movieron el cuerpo. Si las manchas no coinciden con la postura, algo cambió. Tras unas ocho o diez horas, el color ya no cambia. Puede confundirse con moretones si no se conoce el proceso. Es un proceso físico normal, no algo dañino. Y justo en paralelo, los músculos empiezan a cambiar también. Ahí llega la fase más conocida: el rigor mortis.",
-      "videoQuery": "gravity liquid pooling illustration",
-      "photoQuery": "purple skin discoloration bruise"
-    },
-    {
-      "id": "v05",
-      "key": "item4",
-      "name": "RIGOR MORTIS",
-      "color": "#607d8b",
-      "main": "shield",
-      "def": "rigidez muscular postmortem",
-      "beats": [
-        {
-          "say": "El rigor mortis es la rigidez que endurece los músculos.",
-          "text": "RIGOR MORTIS",
-          "icon": "shield",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ocurre porque las células se quedan sin energía, sin ATP.",
-          "text": "CAUSA",
-          "icon": "zap",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Sin esa energía, las fibras musculares se quedan trabadas.",
-          "text": "EXPLICACIÓN",
-          "icon": "microscope",
-          "media": "photo",
-          "query": "muscle fiber microscope illustration"
-        },
-        {
-          "say": "Empieza entre dos y cuatro horas tras la muerte.",
-          "text": "INICIO",
-          "icon": "hourglass",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Suele empezar por los músculos pequeños, como los de la cara.",
-          "text": "ORDEN",
-          "icon": "list-checks",
-          "media": "photo",
-          "query": "facial muscles anatomy diagram"
-        },
-        {
-          "say": "Después avanza hacia el cuello, los brazos y las piernas.",
-          "text": "AVANCE",
-          "icon": "arrow-down",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Alcanza su punto máximo entre doce y veinticuatro horas.",
-          "text": "MÁXIMO",
-          "icon": "trending-up",
-          "media": "clip",
-          "query": "stiff body medical illustration"
-        },
-        {
-          "say": "En ese punto el cuerpo está completamente rígido.",
-          "text": "CUERPO RÍGIDO",
-          "icon": "user",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Esta rigidez se mantiene más o menos un día entero.",
-          "text": "DURACIÓN",
-          "icon": "clock",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Luego empieza a desaparecer en el mismo orden en que llegó.",
-          "text": "SE VA",
-          "icon": "arrow-up",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Se va porque las propias enzimas empiezan a romper el tejido.",
-          "text": "POR QUÉ DESAPARECE",
-          "icon": "bug",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El calor acelera el proceso; el frío lo retrasa mucho.",
-          "text": "FACTORES",
-          "icon": "gauge",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "En una nevera, el rigor puede tardar mucho más en llegar.",
-          "text": "EJEMPLO",
-          "icon": "snowflake",
+          "say": "Una señal clara: solo lees noticias que te dan la razón.",
+          "text": "LEER SOLO AFINES",
+          "icon": "megaphone",
           "media": "gif",
-          "query": "frozen statue funny meme"
+          "query": "person reading phone nodding agreement"
         },
         {
-          "say": "Es otra pista más para estimar cuándo ocurrió la muerte.",
-          "text": "USO FORENSE",
-          "icon": "scale",
-          "media": "photo",
-          "query": "forensic science investigation"
-        },
-        {
-          "say": "No significa que el cuerpo se mueva ni reaccione.",
-          "text": "MITO",
-          "icon": "circle-help",
+          "say": "Otra señal: discutes y solo escuchas para rebatir.",
+          "text": "ESCUCHAR PARA REBATIR",
+          "icon": "message-circle",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Es pura química celular, nada misterioso detrás.",
-          "text": "SOLO FÍSICA",
-          "icon": "atom",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Cuando pasa, el cuerpo queda blando otra vez.",
-          "text": "TRAS EL RIGOR",
-          "icon": "door-open",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Y ahí empieza el trabajo silencioso de las propias células.",
-          "text": "LO QUE VIENE",
-          "icon": "bug",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "El rigor mortis es la rigidez que endurece los músculos. Ocurre porque las células se quedan sin energía, sin ATP. Sin esa energía, las fibras musculares se quedan trabadas. Empieza entre dos y cuatro horas tras la muerte. Suele empezar por los músculos pequeños, como los de la cara. Después avanza hacia el cuello, los brazos y las piernas. Alcanza su punto máximo entre doce y veinticuatro horas. En ese punto el cuerpo está completamente rígido. Esta rigidez se mantiene más o menos un día entero. Luego empieza a desaparecer en el mismo orden en que llegó. Se va porque las propias enzimas empiezan a romper el tejido. El calor acelera el proceso; el frío lo retrasa mucho. En una nevera, el rigor puede tardar mucho más en llegar. Es otra pista más para estimar cuándo ocurrió la muerte. No significa que el cuerpo se mueva ni reaccione. Es pura química celular, nada misterioso detrás. Cuando pasa, el cuerpo queda blando otra vez. Y ahí empieza el trabajo silencioso de las propias células.",
-      "videoQuery": "muscle rigidity forensic science",
-      "photoQuery": "stiff body medical illustration"
-    },
-    {
-      "id": "v06",
-      "key": "item5",
-      "name": "AUTOLISIS",
-      "color": "#f06292",
-      "main": "microscope",
-      "def": "autodigestión celular interna",
-      "beats": [
-        {
-          "say": "La autolisis es cuando las células se digieren a sí mismas.",
-          "text": "AUTOLISIS",
-          "icon": "microscope",
-          "media": "photo",
-          "query": "cell biology illustration diagram"
-        },
-        {
-          "say": "Sin oxígeno, las membranas celulares empiezan a romperse.",
-          "text": "QUÉ PASA",
-          "icon": "atom",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Las enzimas que antes digerían comida ahora atacan el propio tejido.",
-          "text": "ENZIMAS",
-          "icon": "bug",
-          "media": "photo",
-          "query": "enzyme molecule illustration"
-        },
-        {
-          "say": "Los órganos con más enzimas, como el páncreas, se degradan antes.",
-          "text": "ÓRGANOS RÁPIDOS",
+          "say": "Ocurre porque nuestro cerebro ahorra energía mental así.",
+          "text": "AHORRAR ENERGÍA MENTAL",
           "icon": "brain",
           "media": "none",
           "query": ""
         },
         {
-          "say": "El hígado también se descompone bastante rápido.",
-          "text": "HÍGADO",
-          "icon": "activity",
+          "say": "Creer algo nuevo cuesta más esfuerzo que confirmarlo.",
+          "text": "MENOS ESFUERZO",
+          "icon": "gauge",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Estos cambios ocurren por dentro, casi sin verse fuera.",
-          "text": "INTERNAS",
-          "icon": "eye",
+          "say": "También protege nuestra identidad y evita el malestar.",
+          "text": "PROTEGER IDENTIDAD",
+          "icon": "shield",
           "media": "none",
           "query": ""
         },
         {
-          "say": "En la piel pueden empezar a formarse pequeñas ampollas.",
-          "text": "AMPOLLAS",
-          "icon": "shield-alert",
-          "media": "photo",
-          "query": "skin blister decomposition close up"
-        },
-        {
-          "say": "La piel puede empezar a desprenderse levemente en zonas concretas.",
-          "text": "DESPRENDIMIENTO",
-          "icon": "hand",
+          "say": "Cambiar de opinión se siente como perder, y duele.",
+          "text": "DUELE CAMBIAR",
+          "icon": "heart-crack",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Se generan los primeros gases dentro de los tejidos.",
-          "text": "GASES INICIALES",
-          "icon": "atom",
+          "say": "Imagina que crees que cierta dieta es milagrosa.",
+          "text": "EJEMPLO: DIETA MILAGRO",
+          "icon": "pill",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Aparecen los primeros olores propios de este proceso.",
-          "text": "OLOR",
-          "icon": "volume-x",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Todo esto ocurre en las primeras veinticuatro a setenta y dos horas.",
-          "text": "TIEMPO",
-          "icon": "hourglass",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El calor ambiental acelera muchísimo esta autodigestión.",
-          "text": "FACTOR CALOR",
-          "icon": "flame",
+          "say": "Solo guardas los casos de éxito que ves en redes.",
+          "text": "GUARDAR ÉXITOS",
+          "icon": "phone",
           "media": "gif",
-          "query": "melting heat funny meme"
+          "query": "scrolling social media success stories"
         },
         {
-          "say": "El frío, en cambio, la frena de forma notable.",
-          "text": "FACTOR FRÍO",
-          "icon": "snowflake",
+          "say": "Los fracasos de esa dieta simplemente los descartas.",
+          "text": "DESCARTAR FRACASOS",
+          "icon": "trending-down",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Conocer esto ayuda a estimar mejor el tiempo transcurrido.",
-          "text": "POR QUÉ IMPORTA",
-          "icon": "scale",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Al romperse las barreras, se abre la puerta a las bacterias.",
-          "text": "PUERTA A BACTERIAS",
-          "icon": "door-open",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Y son justo las bacterias las protagonistas de la siguiente fase.",
-          "text": "BACTERIAS",
-          "icon": "bug",
-          "media": "clip",
-          "query": "bacteria microscope animation"
-        },
-        {
-          "say": "El cuerpo pasa de digerirse a sí mismo a ser digerido.",
-          "text": "TRANSICIÓN",
-          "icon": "arrow-down",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Así arranca la fase de la putrefacción.",
-          "text": "SIGUIENTE",
-          "icon": "skull",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "La autolisis es cuando las células se digieren a sí mismas. Sin oxígeno, las membranas celulares empiezan a romperse. Las enzimas que antes digerían comida ahora atacan el propio tejido. Los órganos con más enzimas, como el páncreas, se degradan antes. El hígado también se descompone bastante rápido. Estos cambios ocurren por dentro, casi sin verse fuera. En la piel pueden empezar a formarse pequeñas ampollas. La piel puede empezar a desprenderse levemente en zonas concretas. Se generan los primeros gases dentro de los tejidos. Aparecen los primeros olores propios de este proceso. Todo esto ocurre en las primeras veinticuatro a setenta y dos horas. El calor ambiental acelera muchísimo esta autodigestión. El frío, en cambio, la frena de forma notable. Conocer esto ayuda a estimar mejor el tiempo transcurrido. Al romperse las barreras, se abre la puerta a las bacterias. Y son justo las bacterias las protagonistas de la siguiente fase. El cuerpo pasa de digerirse a sí mismo a ser digerido. Así arranca la fase de la putrefacción.",
-      "videoQuery": "cell membrane breakdown animation",
-      "photoQuery": "human cells microscope decay"
-    },
-    {
-      "id": "v07",
-      "key": "item6",
-      "name": "PUTREFACCIÓN",
-      "color": "#ffb300",
-      "main": "bug",
-      "def": "descomposición por bacterias",
-      "beats": [
-        {
-          "say": "La putrefacción es obra de las bacterias del propio cuerpo.",
-          "text": "PUTREFACCIÓN",
-          "icon": "bug",
-          "media": "photo",
-          "query": "bacteria intestine illustration"
-        },
-        {
-          "say": "Sobre todo las que viven siempre en el intestino.",
-          "text": "DÓNDE VIVEN",
-          "icon": "microscope",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Sin defensas, esas bacterias se expanden por todo el cuerpo.",
-          "text": "INVASIÓN",
-          "icon": "map",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Producen gases como el sulfuro de hidrógeno y el metano.",
-          "text": "GASES",
-          "icon": "atom",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Esos gases hacen que el abdomen se hinche notablemente.",
-          "text": "HINCHAZÓN",
+          "say": "Así tu creencia se vuelve cada vez más fuerte.",
+          "text": "CREENCIA REFORZADA",
           "icon": "trending-up",
-          "media": "clip",
-          "query": "gas bloating illustration diagram"
-        },
-        {
-          "say": "La piel del abdomen toma un tono verdoso característico.",
-          "text": "COLOR VERDE",
-          "icon": "eye",
-          "media": "photo",
-          "query": "decomposition color change skin"
-        },
-        {
-          "say": "Suele notarse entre dos y tres días tras la muerte.",
-          "text": "CUÁNDO",
-          "icon": "hourglass",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Aparece un patrón llamado marmoleado, como venas oscuras en la piel.",
-          "text": "MARMOLEADO",
-          "icon": "puzzle",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El olor se vuelve mucho más intenso y reconocible.",
-          "text": "OLOR FUERTE",
-          "icon": "volume-x",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Se forman ampollas grandes llenas de líquido en la piel.",
-          "text": "AMPOLLAS",
-          "icon": "shield-alert",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La piel puede empezar a desprenderse en placas.",
-          "text": "DESPRENDIMIENTO PIEL",
-          "icon": "hand",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El calor acelera todo este proceso de forma drástica.",
-          "text": "FACTORES CLIMA",
-          "icon": "sun",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El frío puede frenarlo durante semanas enteras.",
-          "text": "FACTOR FRÍO",
-          "icon": "snowflake",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Insectos como las moscas también aceleran la descomposición.",
-          "text": "INSECTOS",
-          "icon": "bug",
-          "media": "clip",
-          "query": "flies insects decomposition nature"
-        },
-        {
-          "say": "Estudiar esos insectos es toda una especialidad forense.",
-          "text": "ENTOMOLOGÍA FORENSE",
-          "icon": "scale",
-          "media": "photo",
-          "query": "forensic entomology insects study"
-        },
-        {
-          "say": "Todo este proceso devuelve materia orgánica a la naturaleza.",
-          "text": "FUNCIÓN NATURAL",
-          "icon": "globe",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Es un ciclo biológico tan natural como nacer o crecer.",
-          "text": "NO ES MORBOSO",
-          "icon": "heart",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Con el tiempo, solo queda el paso final: el esqueleto.",
-          "text": "ÚLTIMO PASO",
-          "icon": "footprints",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "La putrefacción es obra de las bacterias del propio cuerpo. Sobre todo las que viven siempre en el intestino. Sin defensas, esas bacterias se expanden por todo el cuerpo. Producen gases como el sulfuro de hidrógeno y el metano. Esos gases hacen que el abdomen se hinche notablemente. La piel del abdomen toma un tono verdoso característico. Suele notarse entre dos y tres días tras la muerte. Aparece un patrón llamado marmoleado, como venas oscuras en la piel. El olor se vuelve mucho más intenso y reconocible. Se forman ampollas grandes llenas de líquido en la piel. La piel puede empezar a desprenderse en placas. El calor acelera todo este proceso de forma drástica. El frío puede frenarlo durante semanas enteras. Insectos como las moscas también aceleran la descomposición. Estudiar esos insectos es toda una especialidad forense. Todo este proceso devuelve materia orgánica a la naturaleza. Es un ciclo biológico tan natural como nacer o crecer. Con el tiempo, solo queda el paso final: el esqueleto.",
-      "videoQuery": "bacteria decomposition process animation",
-      "photoQuery": "decomposition skin color change"
-    },
-    {
-      "id": "v08",
-      "key": "item7",
-      "name": "ESQUELETIZACIÓN",
-      "color": "#ffd54f",
-      "main": "skull",
-      "def": "solo quedan los huesos",
-      "beats": [
-        {
-          "say": "La esqueletización es cuando solo quedan los huesos.",
-          "text": "ESQUELETIZACIÓN",
-          "icon": "skull",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Todos los tejidos blandos han desaparecido por completo.",
-          "text": "TEJIDOS BLANDOS",
-          "icon": "frown",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El tiempo que tarda varía muchísimo según las condiciones.",
-          "text": "TIEMPO VARIABLE",
-          "icon": "hourglass",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "En climas cálidos y húmedos puede tardar solo semanas.",
-          "text": "CLIMA CÁLIDO",
-          "icon": "sun",
-          "media": "photo",
-          "query": "hot humid climate landscape"
-        },
-        {
-          "say": "En lugares fríos o secos puede tardar años.",
-          "text": "CLIMA FRÍO",
-          "icon": "snowflake",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Influyen la tierra, el agua, los animales y los insectos.",
-          "text": "FACTORES",
-          "icon": "globe",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Los huesos aguantan mucho más porque son tejido mineralizado.",
-          "text": "HUESOS RESISTENTES",
-          "icon": "shield",
-          "media": "photo",
-          "query": "human skeleton bones close up"
-        },
-        {
-          "say": "Pueden conservarse durante siglos en buenas condiciones.",
-          "text": "PUEDEN DURAR",
-          "icon": "clock",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Aquí entra en juego la antropología forense.",
-          "text": "ANTROPOLOGÍA FORENSE",
-          "icon": "scale",
-          "media": "photo",
-          "query": "anthropology bones laboratory"
-        },
-        {
-          "say": "Estudian los huesos para saber edad, sexo y altura aproximada.",
-          "text": "QUÉ ESTUDIAN",
-          "icon": "glasses",
-          "media": "clip",
-          "query": "forensic anthropologist examining bones"
-        },
-        {
-          "say": "A veces también ayudan a identificar a la persona.",
-          "text": "IDENTIFICACIÓN",
-          "icon": "scan-face",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Las marcas en los huesos cuentan historias de toda una vida.",
-          "text": "MARCAS",
-          "icon": "ruler",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Una fractura antigua puede quedar marcada para siempre.",
-          "text": "FRACTURAS VIEJAS",
-          "icon": "activity",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Incluso los dientes aportan pistas muy valiosas.",
-          "text": "DIENTES",
-          "icon": "smile",
-          "media": "photo",
-          "query": "human teeth dental forensic"
-        },
-        {
-          "say": "Así se cierra el ciclo natural de la materia orgánica.",
-          "text": "CICLO CERRADO",
-          "icon": "globe",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El cuerpo vuelve, poco a poco, a formar parte del entorno.",
-          "text": "REFLEXIÓN",
-          "icon": "heart",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Pero toda esta información sirve para algo muy útil.",
-          "text": "NO ES EL FINAL",
-          "icon": "lightbulb",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ahí es donde entra la ciencia forense de verdad.",
-          "text": "SIGUIENTE",
-          "icon": "scale",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "La esqueletización es cuando solo quedan los huesos. Todos los tejidos blandos han desaparecido por completo. El tiempo que tarda varía muchísimo según las condiciones. En climas cálidos y húmedos puede tardar solo semanas. En lugares fríos o secos puede tardar años. Influyen la tierra, el agua, los animales y los insectos. Los huesos aguantan mucho más porque son tejido mineralizado. Pueden conservarse durante siglos en buenas condiciones. Aquí entra en juego la antropología forense. Estudian los huesos para saber edad, sexo y altura aproximada. A veces también ayudan a identificar a la persona. Las marcas en los huesos cuentan historias de toda una vida. Una fractura antigua puede quedar marcada para siempre. Incluso los dientes aportan pistas muy valiosas. Así se cierra el ciclo natural de la materia orgánica. El cuerpo vuelve, poco a poco, a formar parte del entorno. Pero toda esta información sirve para algo muy útil. Ahí es donde entra la ciencia forense de verdad.",
-      "videoQuery": "forensic anthropology bones examination",
-      "photoQuery": "human skeleton bones forensic"
-    },
-    {
-      "id": "v09",
-      "key": "item8",
-      "name": "LA CIENCIA FORENSE",
-      "color": "#4db6ac",
-      "main": "scale",
-      "def": "lo que revela el cuerpo",
-      "beats": [
-        {
-          "say": "Toda esta secuencia sirve para reconstruir lo que pasó.",
-          "text": "CIENCIA FORENSE",
-          "icon": "scale",
-          "media": "photo",
-          "query": "courtroom scale justice"
-        },
-        {
-          "say": "Combinando fases se calcula una hora aproximada de la muerte.",
-          "text": "HORA DE LA MUERTE",
-          "icon": "clock",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Nunca se usa una sola señal, siempre varias juntas.",
-          "text": "VARIAS PISTAS",
-          "icon": "list-checks",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La temperatura corporal da una primera estimación rápida.",
-          "text": "TEMPERATURA",
-          "icon": "snowflake",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Las livideces indican si movieron el cuerpo tras morir.",
-          "text": "LIVIDECES",
-          "icon": "eye",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La rigidez ayuda a acotar un rango de horas.",
-          "text": "RIGIDEZ",
-          "icon": "shield",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Los insectos aportan datos muy precisos en cuerpos avanzados.",
-          "text": "INSECTOS",
-          "icon": "bug",
-          "media": "photo",
-          "query": "forensic science lab investigation"
-        },
-        {
-          "say": "El clima y el lugar cambian por completo los cálculos.",
-          "text": "ENTORNO",
-          "icon": "globe",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "No existe una hora exacta al minuto, solo un rango.",
-          "text": "MITO COMÚN",
+          "say": "Para escapar, busca activamente la opinión contraria.",
+          "text": "BUSCAR LO CONTRARIO",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "La ficción simplifica mucho lo que en realidad es complejo.",
-          "text": "SERIES Y REALIDAD",
-          "icon": "drama",
-          "media": "gif",
-          "query": "csi crime scene funny meme"
-        },
-        {
-          "say": "Esta información ayuda a resolver casos judiciales importantes.",
-          "text": "PARA QUÉ SIRVE",
-          "icon": "handshake",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "También ayuda a identificar restos y devolver nombres.",
-          "text": "TAMBIÉN IDENTIFICA",
-          "icon": "scan-face",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Eso da respuestas a familias que buscan cerrar un duelo.",
-          "text": "A FAMILIAS",
-          "icon": "users",
-          "media": "photo",
-          "query": "family embrace comfort emotional"
-        },
-        {
-          "say": "Es un uso muy concreto y humano de la biología.",
-          "text": "CIENCIA ÚTIL",
+          "say": "Pregúntate: ¿qué prueba necesitaría para cambiar de idea?",
+          "text": "QUÉ ME HARÍA CAMBIAR",
           "icon": "lightbulb",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Conocer este proceso no tiene nada de morboso.",
-          "text": "NO ES MORBOSO",
+          "say": "Dudar de ti mismo, a veces, es la mejor herramienta.",
+          "text": "DUDAR ES ÚTIL",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "Este es el sesgo de confirmación, tu filtro mental. Buscamos información que confirme lo que ya creemos. Ignoramos, sin darnos cuenta, todo lo que nos contradice. Por fuera parece que investigas con mente abierta. Por dentro, solo aceptas lo que ya pensabas. Una señal clara: solo lees noticias que te dan la razón. Otra señal: discutes y solo escuchas para rebatir. Ocurre porque nuestro cerebro ahorra energía mental así. Creer algo nuevo cuesta más esfuerzo que confirmarlo. También protege nuestra identidad y evita el malestar. Cambiar de opinión se siente como perder, y duele. Imagina que crees que cierta dieta es milagrosa. Solo guardas los casos de éxito que ves en redes. Los fracasos de esa dieta simplemente los descartas. Así tu creencia se vuelve cada vez más fuerte. Para escapar, busca activamente la opinión contraria. Pregúntate: ¿qué prueba necesitaría para cambiar de idea? Dudar de ti mismo, a veces, es la mejor herramienta.",
+      "videoQuery": "confirmation bias thinking illustration",
+      "photoQuery": "person reading confirming beliefs newspaper"
+    },
+    {
+      "id": "v03",
+      "key": "item2",
+      "name": "EFECTO ANCLAJE",
+      "color": "#90a4ae",
+      "main": "anchor",
+      "def": "el primer número domina",
+      "beats": [
+        {
+          "say": "El efecto anclaje: el primer dato que ves te atrapa.",
+          "text": "EFECTO ANCLAJE",
+          "icon": "anchor",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Es depender demasiado del primer número que recibimos.",
+          "text": "PRIMER NÚMERO CLAVE",
+          "icon": "hourglass",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ese dato inicial se convierte en tu referencia mental.",
+          "text": "REFERENCIA MENTAL",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por fuera, crees que decides con total libertad.",
+          "text": "PARECE LIBRE",
+          "icon": "unlock",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por dentro, ese ancla ya condicionó toda tu decisión.",
+          "text": "CONDICIONA DECISIÓN",
+          "icon": "lock",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Señal típica: en las rebajas, miras primero el precio tachado.",
+          "text": "PRECIO TACHADO",
+          "icon": "banknote",
+          "media": "photo",
+          "query": "price tag crossed out discount"
+        },
+        {
+          "say": "Ese precio original ancla lo que crees que es barato.",
+          "text": "ANCLA LO BARATO",
+          "icon": "coins",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ocurre porque el cerebro necesita un punto de partida.",
+          "text": "PUNTO DE PARTIDA",
+          "icon": "map",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ajustar desde ese punto exige mucho esfuerzo mental.",
+          "text": "AJUSTAR CUESTA",
+          "icon": "gauge",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por pereza cognitiva, nos quedamos cerca del ancla inicial.",
+          "text": "PEREZA COGNITIVA",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Incluso números aleatorios pueden anclar tus decisiones después.",
+          "text": "NÚMEROS AL AZAR",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Imagina negociar el precio de un coche usado.",
+          "text": "EJEMPLO: COCHE USADO",
+          "icon": "briefcase",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El vendedor pide treinta mil, aunque valga veinte.",
+          "text": "PIDE DE MÁS",
+          "icon": "trending-up",
+          "media": "gif",
+          "query": "car salesman negotiating price"
+        },
+        {
+          "say": "Tú acabas negociando cerca de esa cifra inflada.",
+          "text": "NEGOCIAS CERCA DE ESO",
+          "icon": "scale",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Terminas pagando más de lo que realmente vale.",
+          "text": "PAGAS DE MÁS",
+          "icon": "arrow-up",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Para evitarlo, investiga precios reales antes de negociar.",
+          "text": "INVESTIGA ANTES",
+          "icon": "microscope",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Genera tú mismo tu propia ancla, no la reciban.",
+          "text": "CREA TU ANCLA",
+          "icon": "target",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Así decides con datos, no con el primer número.",
+          "text": "DECIDE CON DATOS",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "El efecto anclaje: el primer dato que ves te atrapa. Es depender demasiado del primer número que recibimos. Ese dato inicial se convierte en tu referencia mental. Por fuera, crees que decides con total libertad. Por dentro, ese ancla ya condicionó toda tu decisión. Señal típica: en las rebajas, miras primero el precio tachado. Ese precio original ancla lo que crees que es barato. Ocurre porque el cerebro necesita un punto de partida. Ajustar desde ese punto exige mucho esfuerzo mental. Por pereza cognitiva, nos quedamos cerca del ancla inicial. Incluso números aleatorios pueden anclar tus decisiones después. Imagina negociar el precio de un coche usado. El vendedor pide treinta mil, aunque valga veinte. Tú acabas negociando cerca de esa cifra inflada. Terminas pagando más de lo que realmente vale. Para evitarlo, investiga precios reales antes de negociar. Genera tú mismo tu propia ancla, no la reciban. Así decides con datos, no con el primer número.",
+      "videoQuery": "anchoring bias negotiation price",
+      "photoQuery": "price tag discount anchor number"
+    },
+    {
+      "id": "v04",
+      "key": "item3",
+      "name": "EFECTO HALO",
+      "color": "#ba68c8",
+      "main": "star",
+      "def": "una virtud ciega el resto",
+      "beats": [
+        {
+          "say": "El efecto halo: una cualidad buena tapa todo lo demás.",
+          "text": "EFECTO HALO",
+          "icon": "star",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Si algo nos gusta en un aspecto, idealizamos el resto.",
+          "text": "IDEALIZAR EL RESTO",
           "icon": "heart",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Es tan natural como cualquier otra etapa de la vida.",
-          "text": "ES NATURAL",
-          "icon": "globe",
+          "say": "Una persona guapa parece automáticamente más inteligente.",
+          "text": "GUAPO, LUEGO LISTO",
+          "icon": "scan-face",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Entenderlo puede incluso ayudarnos a perder el miedo.",
-          "text": "PERSPECTIVA",
+          "say": "Por fuera, crees que juzgas cada rasgo por separado.",
+          "text": "PARECE OBJETIVO",
+          "icon": "eye",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por dentro, un solo rasgo contamina tu juicio entero.",
+          "text": "UN RASGO CONTAMINA",
+          "icon": "sparkles",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Señal clara: confías más en marcas con buen diseño.",
+          "text": "CONFIAR POR DISEÑO",
+          "icon": "shirt",
+          "media": "photo",
+          "query": "sleek modern product design branding"
+        },
+        {
+          "say": "Da igual si el producto es realmente de calidad.",
+          "text": "SIN IMPORTAR CALIDAD",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ocurre porque el cerebro busca coherencia y simplicidad.",
+          "text": "BUSCA COHERENCIA",
+          "icon": "puzzle",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Es más fácil pensar en bloques que en detalles.",
+          "text": "PENSAR EN BLOQUES",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Así evitamos el esfuerzo de evaluar cada cualidad.",
+          "text": "EVITAR ESFUERZO",
+          "icon": "gauge",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Imagina a un profesor carismático dando una charla.",
+          "text": "EJEMPLO: PROFESOR CARISMÁTICO",
+          "icon": "megaphone",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Su simpatía te hace creer que también sabe mucho.",
+          "text": "SIMPATÍA IGUAL SABER",
+          "icon": "laugh",
+          "media": "gif",
+          "query": "charismatic speaker engaging audience"
+        },
+        {
+          "say": "Aunque sus datos sean flojos, tú le crees igual.",
+          "text": "CREES AUNQUE FLOJO",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Este efecto también decide entrevistas y elecciones políticas.",
+          "text": "DECIDE ENTREVISTAS",
+          "icon": "briefcase",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Un buen apretón de manos puede ganar un puesto.",
+          "text": "APRETÓN DE MANOS",
+          "icon": "handshake",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Para frenarlo, evalúa cada cualidad de forma separada.",
+          "text": "EVALUAR POR SEPARADO",
+          "icon": "list-checks",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Pregúntate si esa opinión se basa en hechos reales.",
+          "text": "BASARSE EN HECHOS",
+          "icon": "microscope",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Separar el envoltorio del contenido te hará más justo.",
+          "text": "SEPARAR ENVOLTORIO",
+          "icon": "scale",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "El efecto halo: una cualidad buena tapa todo lo demás. Si algo nos gusta en un aspecto, idealizamos el resto. Una persona guapa parece automáticamente más inteligente. Por fuera, crees que juzgas cada rasgo por separado. Por dentro, un solo rasgo contamina tu juicio entero. Señal clara: confías más en marcas con buen diseño. Da igual si el producto es realmente de calidad. Ocurre porque el cerebro busca coherencia y simplicidad. Es más fácil pensar en bloques que en detalles. Así evitamos el esfuerzo de evaluar cada cualidad. Imagina a un profesor carismático dando una charla. Su simpatía te hace creer que también sabe mucho. Aunque sus datos sean flojos, tú le crees igual. Este efecto también decide entrevistas y elecciones políticas. Un buen apretón de manos puede ganar un puesto. Para frenarlo, evalúa cada cualidad de forma separada. Pregúntate si esa opinión se basa en hechos reales. Separar el envoltorio del contenido te hará más justo.",
+      "videoQuery": "halo effect perception bias",
+      "photoQuery": "attractive person perceived competent"
+    },
+    {
+      "id": "v05",
+      "key": "item4",
+      "name": "HEURÍSTICA DE DISPONIBILIDAD",
+      "color": "#607d8b",
+      "main": "zap",
+      "def": "lo memorable parece más probable",
+      "beats": [
+        {
+          "say": "La heurística de disponibilidad: lo memorable parece más probable.",
+          "text": "DISPONIBILIDAD",
+          "icon": "zap",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Juzgamos la probabilidad según lo fácil que recordamos algo.",
+          "text": "JUZGAR POR RECUERDO",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Cuanto más vívido el recuerdo, más real lo sentimos.",
+          "text": "VÍVIDO, MÁS REAL",
+          "icon": "sparkles",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por fuera, crees que calculas riesgos con lógica pura.",
+          "text": "PARECE LÓGICO",
+          "icon": "gauge",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por dentro, tu memoria emocional decide por ti.",
+          "text": "MEMORIA EMOCIONAL DECIDE",
+          "icon": "heart",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Señal típica: temes volar más que conducir el coche.",
+          "text": "MIEDO A VOLAR",
+          "icon": "alert-triangle",
+          "media": "photo",
+          "query": "airplane flying sky fear"
+        },
+        {
+          "say": "Aunque el coche sea estadísticamente mucho más peligroso.",
+          "text": "COCHE MÁS PELIGROSO",
+          "icon": "trending-down",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ocurre porque las noticias repiten mucho los accidentes aéreos.",
+          "text": "NOTICIAS REPETIDAS",
+          "icon": "megaphone",
+          "media": "gif",
+          "query": "news broadcast breaking accident"
+        },
+        {
+          "say": "Esa repetición mediática se queda grabada en tu mente.",
+          "text": "GRABADA EN MENTE",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Los sucesos raros pero impactantes se vuelven más disponibles.",
+          "text": "RARO PERO IMPACTANTE",
+          "icon": "skull",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Los peligros comunes y silenciosos casi ni los notamos.",
+          "text": "PELIGRO SILENCIOSO IGNORADO",
+          "icon": "eye",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Imagina que ves varios tiburones en documentales seguidos.",
+          "text": "EJEMPLO: TIBURONES",
+          "icon": "alert-triangle",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "De pronto crees que el mar está lleno de peligro.",
+          "text": "MAR PELIGROSO",
+          "icon": "frown",
+          "media": "gif",
+          "query": "shark documentary ocean scary"
+        },
+        {
+          "say": "En realidad, ese ataque es extremadamente poco probable.",
+          "text": "POCO PROBABLE EN REALIDAD",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Para corregirlo, busca datos estadísticos, no solo anécdotas.",
+          "text": "BUSCAR ESTADÍSTICAS",
+          "icon": "microscope",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Pregúntate si algo es común o solo muy sonado.",
+          "text": "COMÚN O SONADO",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Así tu cerebro dejará de confundir ruido con realidad.",
+          "text": "NO CONFUNDIR RUIDO",
+          "icon": "ear",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La probabilidad real rara vez hace mucho ruido.",
+          "text": "PROBABILIDAD SILENCIOSA",
+          "icon": "scale",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "La heurística de disponibilidad: lo memorable parece más probable. Juzgamos la probabilidad según lo fácil que recordamos algo. Cuanto más vívido el recuerdo, más real lo sentimos. Por fuera, crees que calculas riesgos con lógica pura. Por dentro, tu memoria emocional decide por ti. Señal típica: temes volar más que conducir el coche. Aunque el coche sea estadísticamente mucho más peligroso. Ocurre porque las noticias repiten mucho los accidentes aéreos. Esa repetición mediática se queda grabada en tu mente. Los sucesos raros pero impactantes se vuelven más disponibles. Los peligros comunes y silenciosos casi ni los notamos. Imagina que ves varios tiburones en documentales seguidos. De pronto crees que el mar está lleno de peligro. En realidad, ese ataque es extremadamente poco probable. Para corregirlo, busca datos estadísticos, no solo anécdotas. Pregúntate si algo es común o solo muy sonado. Así tu cerebro dejará de confundir ruido con realidad. La probabilidad real rara vez hace mucho ruido.",
+      "videoQuery": "availability heuristic media fear bias",
+      "photoQuery": "airplane fear flying versus car"
+    },
+    {
+      "id": "v06",
+      "key": "item5",
+      "name": "FALACIA DEL COSTE HUNDIDO",
+      "color": "#f06292",
+      "main": "coins",
+      "def": "seguir por lo ya invertido",
+      "beats": [
+        {
+          "say": "La falacia del coste hundido: seguir por lo ya invertido.",
+          "text": "COSTE HUNDIDO",
+          "icon": "coins",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Seguimos en algo solo porque ya gastamos tiempo o dinero.",
+          "text": "SEGUIR POR LO GASTADO",
+          "icon": "hourglass",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ese dinero o tiempo ya no se puede recuperar nunca.",
+          "text": "NO SE RECUPERA",
+          "icon": "banknote",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por fuera, parece que eres constante y perseverante.",
+          "text": "PARECE PERSEVERANCIA",
+          "icon": "footprints",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por dentro, solo evitas admitir que fue un error.",
+          "text": "EVITAR ADMITIR ERROR",
+          "icon": "shield-alert",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Señal clara: terminas una película mala solo por costumbre.",
+          "text": "TERMINAR PELÍCULA MALA",
+          "icon": "clock",
+          "media": "gif",
+          "query": "bored watching boring movie couch"
+        },
+        {
+          "say": "Ya pagaste la entrada, así que sigues aunque sufras.",
+          "text": "PAGASTE, SIGUES",
+          "icon": "frown",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ocurre porque odiamos sentir que perdimos algo para nada.",
+          "text": "ODIAR PERDER",
+          "icon": "heart-crack",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El dolor de la pérdida pesa más que la lógica.",
+          "text": "DOLOR MÁS QUE LÓGICA",
+          "icon": "scale",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Confundimos perseverar con simplemente no cortar por lo sano.",
+          "text": "CONFUNDIR PERSEVERAR",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Imagina una relación que ya no te hace feliz.",
+          "text": "EJEMPLO: RELACIÓN",
+          "icon": "heart-off",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Piensas: llevamos cinco años, no puedo dejarlo ahora.",
+          "text": "CINCO AÑOS JUNTOS",
+          "icon": "hourglass",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ese tiempo pasado no debería decidir tu futuro.",
+          "text": "PASADO NO DECIDE FUTURO",
+          "icon": "arrow-down",
+          "media": "gif",
+          "query": "sad person thinking relationship decision"
+        },
+        {
+          "say": "Lo mismo pasa con negocios, estudios o inversiones fallidas.",
+          "text": "NEGOCIOS Y ESTUDIOS",
+          "icon": "briefcase",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Para escapar, pregúntate solo por el futuro, no el pasado.",
+          "text": "MIRAR SOLO FUTURO",
           "icon": "lightbulb",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Y así es, paso a paso, el viaje final del cuerpo.",
-          "text": "CIERRE",
-          "icon": "sparkles",
-          "media": "clip",
-          "query": "sunrise nature timelapse peaceful"
+          "say": "Si empezaras hoy de cero, ¿elegirías seguir igual?",
+          "text": "EMPEZAR DE CERO",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Si la respuesta es no, ya tienes tu decisión clara.",
+          "text": "RESPUESTA CLARA",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Cortar a tiempo también es una forma de ganar.",
+          "text": "CORTAR ES GANAR",
+          "icon": "trophy",
+          "media": "none",
+          "query": ""
         }
       ],
-      "narration": "Toda esta secuencia sirve para reconstruir lo que pasó. Combinando fases se calcula una hora aproximada de la muerte. Nunca se usa una sola señal, siempre varias juntas. La temperatura corporal da una primera estimación rápida. Las livideces indican si movieron el cuerpo tras morir. La rigidez ayuda a acotar un rango de horas. Los insectos aportan datos muy precisos en cuerpos avanzados. El clima y el lugar cambian por completo los cálculos. No existe una hora exacta al minuto, solo un rango. La ficción simplifica mucho lo que en realidad es complejo. Esta información ayuda a resolver casos judiciales importantes. También ayuda a identificar restos y devolver nombres. Eso da respuestas a familias que buscan cerrar un duelo. Es un uso muy concreto y humano de la biología. Conocer este proceso no tiene nada de morboso. Es tan natural como cualquier otra etapa de la vida. Entenderlo puede incluso ayudarnos a perder el miedo. Y así es, paso a paso, el viaje final del cuerpo.",
-      "videoQuery": "crime scene investigation forensic team",
-      "photoQuery": "forensic science laboratory investigation"
+      "narration": "La falacia del coste hundido: seguir por lo ya invertido. Seguimos en algo solo porque ya gastamos tiempo o dinero. Ese dinero o tiempo ya no se puede recuperar nunca. Por fuera, parece que eres constante y perseverante. Por dentro, solo evitas admitir que fue un error. Señal clara: terminas una película mala solo por costumbre. Ya pagaste la entrada, así que sigues aunque sufras. Ocurre porque odiamos sentir que perdimos algo para nada. El dolor de la pérdida pesa más que la lógica. Confundimos perseverar con simplemente no cortar por lo sano. Imagina una relación que ya no te hace feliz. Piensas: llevamos cinco años, no puedo dejarlo ahora. Ese tiempo pasado no debería decidir tu futuro. Lo mismo pasa con negocios, estudios o inversiones fallidas. Para escapar, pregúntate solo por el futuro, no el pasado. Si empezaras hoy de cero, ¿elegirías seguir igual? Si la respuesta es no, ya tienes tu decisión clara. Cortar a tiempo también es una forma de ganar.",
+      "videoQuery": "sunk cost fallacy investment decision",
+      "photoQuery": "sunk cost money waste concept"
+    },
+    {
+      "id": "v07",
+      "key": "item6",
+      "name": "SESGO DE NEGATIVIDAD",
+      "color": "#ffb300",
+      "main": "frown",
+      "def": "lo malo pesa más",
+      "beats": [
+        {
+          "say": "El sesgo de negatividad: lo malo pesa más que lo bueno.",
+          "text": "SESGO DE NEGATIVIDAD",
+          "icon": "frown",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Damos mucho más peso mental a lo negativo que ocurre.",
+          "text": "MÁS PESO A LO MALO",
+          "icon": "angry",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Una crítica duele más que diez elogios juntos alegran.",
+          "text": "CRÍTICA PESA MÁS",
+          "icon": "heart-crack",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por fuera, crees que valoras todo de forma equilibrada.",
+          "text": "PARECE EQUILIBRADO",
+          "icon": "scale",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por dentro, tu mente amplifica cada fallo o amenaza.",
+          "text": "AMPLIFICA LO MALO",
+          "icon": "alert-triangle",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Señal típica: recuerdas ese comentario feo durante días enteros.",
+          "text": "RECUERDAS LO FEO",
+          "icon": "brain",
+          "media": "gif",
+          "query": "person replaying bad comment mind"
+        },
+        {
+          "say": "Y olvidas rápido los diez cumplidos que recibiste después.",
+          "text": "OLVIDAS LOS CUMPLIDOS",
+          "icon": "smile",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ocurre porque nuestro cerebro evolucionó para detectar peligros.",
+          "text": "DETECTAR PELIGROS",
+          "icon": "shield-alert",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Sobrevivir exigía notar amenazas antes que disfrutar cosas buenas.",
+          "text": "SOBREVIVIR PRIMERO",
+          "icon": "dna",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Esa alarma antigua sigue activa aunque ya no haya depredadores.",
+          "text": "ALARMA ANTIGUA ACTIVA",
+          "icon": "skull",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Imagina leer diez reseñas buenas de un restaurante.",
+          "text": "EJEMPLO: RESEÑAS",
+          "icon": "message-circle",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Pero encuentras una sola reseña negativa muy detallada.",
+          "text": "UNA RESEÑA NEGATIVA",
+          "icon": "thumbs-down",
+          "media": "gif",
+          "query": "one star bad review restaurant screen"
+        },
+        {
+          "say": "Esa reseña sola te hace descartar el lugar entero.",
+          "text": "DESCARTAS EL LUGAR",
+          "icon": "ban",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Las buenas noticias las procesamos rápido y las olvidamos.",
+          "text": "OLVIDAMOS LO BUENO",
+          "icon": "arrow-down",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Para equilibrar, anota conscientemente tres cosas buenas al día.",
+          "text": "ANOTAR TRES COSAS BUENAS",
+          "icon": "list-checks",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Dale a lo positivo el mismo peso que a lo malo.",
+          "text": "MISMO PESO",
+          "icon": "scale",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Así entrenas tu mente para no vivir en alarma constante.",
+          "text": "ENTRENAR LA MENTE",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Notar lo bueno también requiere práctica, no solo suerte.",
+          "text": "REQUIERE PRÁCTICA",
+          "icon": "trophy",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "El sesgo de negatividad: lo malo pesa más que lo bueno. Damos mucho más peso mental a lo negativo que ocurre. Una crítica duele más que diez elogios juntos alegran. Por fuera, crees que valoras todo de forma equilibrada. Por dentro, tu mente amplifica cada fallo o amenaza. Señal típica: recuerdas ese comentario feo durante días enteros. Y olvidas rápido los diez cumplidos que recibiste después. Ocurre porque nuestro cerebro evolucionó para detectar peligros. Sobrevivir exigía notar amenazas antes que disfrutar cosas buenas. Esa alarma antigua sigue activa aunque ya no haya depredadores. Imagina leer diez reseñas buenas de un restaurante. Pero encuentras una sola reseña negativa muy detallada. Esa reseña sola te hace descartar el lugar entero. Las buenas noticias las procesamos rápido y las olvidamos. Para equilibrar, anota conscientemente tres cosas buenas al día. Dale a lo positivo el mismo peso que a lo malo. Así entrenas tu mente para no vivir en alarma constante. Notar lo bueno también requiere práctica, no solo suerte.",
+      "videoQuery": "negativity bias brain reaction",
+      "photoQuery": "bad review one star screen"
+    },
+    {
+      "id": "v08",
+      "key": "item7",
+      "name": "EFECTO DUNNING-KRUGER",
+      "color": "#ffd54f",
+      "main": "crown",
+      "def": "cuanto menos sabes, más crees saber",
+      "beats": [
+        {
+          "say": "El efecto Dunning-Kruger: cuanto menos sabes, más crees saber.",
+          "text": "DUNNING-KRUGER",
+          "icon": "crown",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Los principiantes suelen sobrestimar mucho su propia competencia.",
+          "text": "SOBRESTIMAR COMPETENCIA",
+          "icon": "graduation-cap",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Les falta justo el conocimiento para ver sus errores.",
+          "text": "FALTA CONOCIMIENTO",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por fuera, hablan con seguridad total sobre cualquier tema.",
+          "text": "HABLAN CON SEGURIDAD",
+          "icon": "megaphone",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por dentro, no tienen ni idea de lo que ignoran.",
+          "text": "NO SABEN QUÉ IGNORAN",
+          "icon": "ghost",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Señal clara: alguien que vio un vídeo ya se cree experto.",
+          "text": "VIO UN VÍDEO, YA EXPERTO",
+          "icon": "phone",
+          "media": "gif",
+          "query": "confident person explaining video watched once"
+        },
+        {
+          "say": "Con el tiempo y estudio real, la confianza suele bajar.",
+          "text": "CONFIANZA BAJA CON ESTUDIO",
+          "icon": "arrow-down",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Es la típica curva: subes rápido, luego caes, luego subes real.",
+          "text": "CURVA DE CONFIANZA",
+          "icon": "activity",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ocurre porque evaluar tu propia habilidad exige esa misma habilidad.",
+          "text": "EVALUAR EXIGE HABILIDAD",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Sin esa base, no puedes ver tus propios fallos.",
+          "text": "NO VES TUS FALLOS",
+          "icon": "eye",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Los verdaderos expertos, en cambio, dudan más de sí mismos.",
+          "text": "EXPERTOS DUDAN MÁS",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Conocen tantos matices que ven toda la complejidad real.",
+          "text": "VEN LA COMPLEJIDAD",
+          "icon": "puzzle",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Imagina a alguien que canta una vez en la ducha.",
+          "text": "EJEMPLO: CANTA EN DUCHA",
+          "icon": "laugh",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Y se presenta convencido a un casting de talentos.",
+          "text": "CASTING CONVENCIDO",
+          "icon": "circle-help",
+          "media": "gif",
+          "query": "confident bad singer talent show audition"
+        },
+        {
+          "say": "El jurado escucha algo muy distinto de lo que él cree.",
+          "text": "JURADO VE OTRA COSA",
+          "icon": "frown",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Para evitarlo, pide siempre opiniones externas y honestas.",
+          "text": "PEDIR OPINIONES EXTERNAS",
+          "icon": "users",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Cuanto más aprendes, más preguntas nuevas te surgen.",
+          "text": "MÁS PREGUNTAS SURGEN",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La verdadera sabiduría empieza aceptando lo mucho que ignoras.",
+          "text": "ACEPTAR LO QUE IGNORAS",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "El efecto Dunning-Kruger: cuanto menos sabes, más crees saber. Los principiantes suelen sobrestimar mucho su propia competencia. Les falta justo el conocimiento para ver sus errores. Por fuera, hablan con seguridad total sobre cualquier tema. Por dentro, no tienen ni idea de lo que ignoran. Señal clara: alguien que vio un vídeo ya se cree experto. Con el tiempo y estudio real, la confianza suele bajar. Es la típica curva: subes rápido, luego caes, luego subes real. Ocurre porque evaluar tu propia habilidad exige esa misma habilidad. Sin esa base, no puedes ver tus propios fallos. Los verdaderos expertos, en cambio, dudan más de sí mismos. Conocen tantos matices que ven toda la complejidad real. Imagina a alguien que canta una vez en la ducha. Y se presenta convencido a un casting de talentos. El jurado escucha algo muy distinto de lo que él cree. Para evitarlo, pide siempre opiniones externas y honestas. Cuanto más aprendes, más preguntas nuevas te surgen. La verdadera sabiduría empieza aceptando lo mucho que ignoras.",
+      "videoQuery": "dunning kruger confidence curve",
+      "photoQuery": "confident overconfident person talking"
+    },
+    {
+      "id": "v09",
+      "key": "item8",
+      "name": "SESGO RETROSPECTIVO",
+      "color": "#4db6ac",
+      "main": "clock",
+      "def": "lo veía venir, dices después",
+      "beats": [
+        {
+          "say": "El sesgo retrospectivo: crees que ya lo sabías todo antes.",
+          "text": "SESGO RETROSPECTIVO",
+          "icon": "clock",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Después de un evento, sentimos que era totalmente predecible.",
+          "text": "PARECÍA PREDECIBLE",
+          "icon": "eye",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Reescribimos nuestro recuerdo para que encaje con el resultado.",
+          "text": "REESCRIBIR EL RECUERDO",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por fuera, pareces intuitivo y con gran capacidad de análisis.",
+          "text": "PARECES INTUITIVO",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por dentro, tu memoria simplemente te está engañando.",
+          "text": "MEMORIA TE ENGAÑA",
+          "icon": "ghost",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Señal típica: dices lo sabía después de cada resultado deportivo.",
+          "text": "YO LO SABÍA",
+          "icon": "trophy",
+          "media": "gif",
+          "query": "sports fan shouting I knew it"
+        },
+        {
+          "say": "Antes del partido, tú también tenías muchas dudas reales.",
+          "text": "ANTES TENÍAS DUDAS",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ocurre porque el cerebro busca coherencia entre pasado y presente.",
+          "text": "BUSCA COHERENCIA",
+          "icon": "puzzle",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Es incómodo aceptar que el futuro era realmente incierto.",
+          "text": "INCIERTO ES INCÓMODO",
+          "icon": "alert-triangle",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Así que inventamos una historia donde todo tenía sentido.",
+          "text": "INVENTAR SENTIDO",
+          "icon": "drama",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Imagina una decisión de inversión que salió mal después.",
+          "text": "EJEMPLO: INVERSIÓN MALA",
+          "icon": "trending-down",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ahora dices: era obvio que esa empresa iba a caer.",
+          "text": "ERA OBVIO, DICES",
+          "icon": "megaphone",
+          "media": "gif",
+          "query": "stock market crash chart falling"
+        },
+        {
+          "say": "Pero en su momento, invertiste con total confianza real.",
+          "text": "INVERTISTE CON CONFIANZA",
+          "icon": "coins",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Este sesgo hace que juzguemos muy duro a otros después.",
+          "text": "JUZGAMOS DURO DESPUÉS",
+          "icon": "angry",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Los médicos y jueces también caen en esta trampa.",
+          "text": "MÉDICOS Y JUECES",
+          "icon": "briefcase",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Para evitarlo, anota tus predicciones antes de que pasen.",
+          "text": "ANOTAR PREDICCIONES ANTES",
+          "icon": "list-checks",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Así podrás comparar lo que pensabas con lo que dijiste.",
+          "text": "COMPARAR DESPUÉS",
+          "icon": "scale",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La honestidad con el pasado te hace más sabio hoy.",
+          "text": "HONESTIDAD CON EL PASADO",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "El sesgo retrospectivo: crees que ya lo sabías todo antes. Después de un evento, sentimos que era totalmente predecible. Reescribimos nuestro recuerdo para que encaje con el resultado. Por fuera, pareces intuitivo y con gran capacidad de análisis. Por dentro, tu memoria simplemente te está engañando. Señal típica: dices lo sabía después de cada resultado deportivo. Antes del partido, tú también tenías muchas dudas reales. Ocurre porque el cerebro busca coherencia entre pasado y presente. Es incómodo aceptar que el futuro era realmente incierto. Así que inventamos una historia donde todo tenía sentido. Imagina una decisión de inversión que salió mal después. Ahora dices: era obvio que esa empresa iba a caer. Pero en su momento, invertiste con total confianza real. Este sesgo hace que juzguemos muy duro a otros después. Los médicos y jueces también caen en esta trampa. Para evitarlo, anota tus predicciones antes de que pasen. Así podrás comparar lo que pensabas con lo que dijiste. La honestidad con el pasado te hace más sabio hoy.",
+      "videoQuery": "hindsight bias memory rewrite",
+      "photoQuery": "person confident hindsight I knew it"
+    },
+    {
+      "id": "v10",
+      "key": "item9",
+      "name": "EFECTO DE STATU QUO",
+      "color": "#7986cb",
+      "main": "door-closed",
+      "def": "preferimos que nada cambie",
+      "beats": [
+        {
+          "say": "El efecto de statu quo: preferimos que nada cambie nunca.",
+          "text": "STATU QUO",
+          "icon": "door-closed",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Elegimos mantener las cosas como están, aunque haya opciones mejores.",
+          "text": "MANTENER COMO ESTÁ",
+          "icon": "ban",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El cambio se siente como un riesgo enorme e innecesario.",
+          "text": "CAMBIO PARECE RIESGO",
+          "icon": "alert-triangle",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por fuera, dices que estás cómodo con tu situación actual.",
+          "text": "DICES ESTAR CÓMODO",
+          "icon": "smile",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por dentro, en realidad, es puro miedo a lo desconocido.",
+          "text": "MIEDO A LO DESCONOCIDO",
+          "icon": "ghost",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Señal clara: sigues en el mismo banco de toda la vida.",
+          "text": "MISMO BANCO SIEMPRE",
+          "icon": "banknote",
+          "media": "photo",
+          "query": "old bank building loyal customer"
+        },
+        {
+          "say": "Aunque otro banco te ofrezca condiciones mucho mejores hoy.",
+          "text": "OTRAS CONDICIONES MEJORES",
+          "icon": "coins",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ocurre porque perder algo pesa más que ganar algo nuevo.",
+          "text": "PERDER PESA MÁS",
+          "icon": "scale",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Cambiar exige esfuerzo, papeleo y salir de tu rutina.",
+          "text": "EXIGE ESFUERZO",
+          "icon": "gauge",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El cerebro prefiere ese camino conocido y sin sorpresas.",
+          "text": "CAMINO CONOCIDO",
+          "icon": "footprints",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Imagina que sigues en un trabajo que ya no te gusta.",
+          "text": "EJEMPLO: TRABAJO ACTUAL",
+          "icon": "briefcase",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Sabes que hay ofertas mejores, pero te da pereza moverte.",
+          "text": "PEREZA DE MOVERTE",
+          "icon": "bed",
+          "media": "gif",
+          "query": "person staying comfortable avoiding change job"
+        },
+        {
+          "say": "El miedo a lo nuevo te mantiene en lo malo conocido.",
+          "text": "MIEDO TE MANTIENE",
+          "icon": "shield-alert",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Las empresas usan esto poniendo opciones por defecto marcadas.",
+          "text": "OPCIONES POR DEFECTO",
+          "icon": "list-checks",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Tú simplemente aceptas lo que ya viene preseleccionado siempre.",
+          "text": "ACEPTAS LO MARCADO",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Para romperlo, imagina que empiezas hoy sin ese hábito.",
+          "text": "IMAGINAR EMPEZAR HOY",
+          "icon": "sparkles",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Si no lo elegirías ahora, quizá deberías cambiarlo ya.",
+          "text": "QUIZÁ DEBERÍAS CAMBIAR",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "A veces el mayor riesgo es no arriesgarse nunca.",
+          "text": "EL RIESGO DE NO ARRIESGAR",
+          "icon": "trending-up",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "El efecto de statu quo: preferimos que nada cambie nunca. Elegimos mantener las cosas como están, aunque haya opciones mejores. El cambio se siente como un riesgo enorme e innecesario. Por fuera, dices que estás cómodo con tu situación actual. Por dentro, en realidad, es puro miedo a lo desconocido. Señal clara: sigues en el mismo banco de toda la vida. Aunque otro banco te ofrezca condiciones mucho mejores hoy. Ocurre porque perder algo pesa más que ganar algo nuevo. Cambiar exige esfuerzo, papeleo y salir de tu rutina. El cerebro prefiere ese camino conocido y sin sorpresas. Imagina que sigues en un trabajo que ya no te gusta. Sabes que hay ofertas mejores, pero te da pereza moverte. El miedo a lo nuevo te mantiene en lo malo conocido. Las empresas usan esto poniendo opciones por defecto marcadas. Tú simplemente aceptas lo que ya viene preseleccionado siempre. Para romperlo, imagina que empiezas hoy sin ese hábito. Si no lo elegirías ahora, quizá deberías cambiarlo ya. A veces el mayor riesgo es no arriesgarse nunca.",
+      "videoQuery": "status quo bias comfort zone",
+      "photoQuery": "old bank building loyal customer"
+    },
+    {
+      "id": "v11",
+      "key": "item10",
+      "name": "SESGO DE AUTOSERVICIO",
+      "color": "#4dd0e1",
+      "main": "crown",
+      "def": "éxitos mío, fallos ajenos",
+      "beats": [
+        {
+          "say": "El sesgo de autoservicio: los éxitos son míos, los fallos de otros.",
+          "text": "SESGO DE AUTOSERVICIO",
+          "icon": "crown",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Nos atribuimos el mérito y culpamos al entorno de los fallos.",
+          "text": "MÉRITO PROPIO, CULPA EXTERNA",
+          "icon": "scale",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Aprobar un examen es por tu esfuerzo y tu talento.",
+          "text": "APROBAR ES MÉRITO PROPIO",
+          "icon": "graduation-cap",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Suspender un examen es culpa del profesor injusto.",
+          "text": "SUSPENDER, CULPA AJENA",
+          "icon": "angry",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por fuera, pareces alguien seguro y con buena autoestima.",
+          "text": "PARECE AUTOESTIMA SANA",
+          "icon": "smile",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Por dentro, estás protegiendo tu ego de cualquier golpe.",
+          "text": "PROTEGER EL EGO",
+          "icon": "shield",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Señal típica: en el trabajo, tus logros son tu talento puro.",
+          "text": "LOGROS SON MI TALENTO",
+          "icon": "trophy",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Tus errores en el trabajo son culpa de mala suerte.",
+          "text": "ERRORES, MALA SUERTE",
+          "icon": "frown",
+          "media": "gif",
+          "query": "person blaming bad luck excuse office"
+        },
+        {
+          "say": "Ocurre porque proteger la autoestima es prioridad del cerebro.",
+          "text": "PROTEGER AUTOESTIMA",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Aceptar el fallo propio duele y amenaza tu imagen.",
+          "text": "DUELE ACEPTAR EL FALLO",
+          "icon": "heart-crack",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Así que buscamos excusas externas casi de forma automática.",
+          "text": "EXCUSAS EXTERNAS AUTOMÁTICAS",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Imagina un partido de fútbol que tu equipo pierde.",
+          "text": "EJEMPLO: PARTIDO PERDIDO",
+          "icon": "users",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Dices que el árbitro robó, no que jugaron mal.",
+          "text": "EL ÁRBITRO ROBÓ",
+          "icon": "angry",
+          "media": "gif",
+          "query": "angry fan blaming referee soccer match"
+        },
+        {
+          "say": "Si ganan, en cambio, celebras el talento del equipo entero.",
+          "text": "SI GANA, ES TALENTO",
+          "icon": "trophy",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Este sesgo afecta relaciones, trabajo y hasta la política.",
+          "text": "AFECTA MUCHAS ÁREAS",
+          "icon": "briefcase",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Para equilibrarlo, revisa tu parte de responsabilidad siempre.",
+          "text": "REVISAR TU PARTE",
+          "icon": "list-checks",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Pregúntate qué harías distinto la próxima vez, en serio.",
+          "text": "QUÉ HARÍAS DISTINTO",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Aceptar tus fallos también te hace crecer de verdad.",
+          "text": "ACEPTAR FALLOS, CRECER",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "El sesgo de autoservicio: los éxitos son míos, los fallos de otros. Nos atribuimos el mérito y culpamos al entorno de los fallos. Aprobar un examen es por tu esfuerzo y tu talento. Suspender un examen es culpa del profesor injusto. Por fuera, pareces alguien seguro y con buena autoestima. Por dentro, estás protegiendo tu ego de cualquier golpe. Señal típica: en el trabajo, tus logros son tu talento puro. Tus errores en el trabajo son culpa de mala suerte. Ocurre porque proteger la autoestima es prioridad del cerebro. Aceptar el fallo propio duele y amenaza tu imagen. Así que buscamos excusas externas casi de forma automática. Imagina un partido de fútbol que tu equipo pierde. Dices que el árbitro robó, no que jugaron mal. Si ganan, en cambio, celebras el talento del equipo entero. Este sesgo afecta relaciones, trabajo y hasta la política. Para equilibrarlo, revisa tu parte de responsabilidad siempre. Pregúntate qué harías distinto la próxima vez, en serio. Aceptar tus fallos también te hace crecer de verdad.",
+      "videoQuery": "self serving bias blame success",
+      "photoQuery": "angry fan blaming referee soccer"
     }
   ]
 }
