@@ -4,8 +4,7 @@ import { Gif } from "@remotion/gif";
 import { Stick } from "./components/parts";
 import config from "../video.config.json";
 import manifest from "../public/voz1deep/manifest.json";
-import anchors from "../public/voz1deep/anchors.json";
-import mediaFlags from "../public/media/media.json";
+import beatsData from "../public/voz1deep/beats.json";
 
 const HAND = "'Comic Sans MS','Segoe Print',cursive";
 const HEAVY = "'Arial Black',Impact,system-ui,sans-serif";
@@ -84,74 +83,52 @@ const BeatWrap: React.FC<{ lf: number; dir: number; children: React.ReactNode }>
   return <div style={{ opacity: Math.min(1, e * 1.5), transform: `translateX(${(1 - e) * 80 * dir}px) scale(${lerp3(clamp(lf / 13), 0.8, 1.04, 1)})`, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 30, width: "100%" }}>{children}</div>;
 };
 
-const ItemScene: React.FC<{ d: Item; a: A; n: number; frames: number }> = ({ d, n, frames }) => {
+type Beat = { f: number; text: string; icon: string; file: string | null; kind: string | null };
+const BEATS = beatsData as Record<string, Beat[]>;
+
+const ItemScene: React.FC<{ d: Item; n: number }> = ({ d, n }) => {
   const frame = useCurrentFrame();
-  const photo = `media/${d.key}_photo.jpg`, video = `media/${d.key}_vid.mp4`, video2 = `media/${d.key}_vid2.mp4`;
-  const totW = d.narration.split(/\s+/).length;
-  const phrases = splitPhrases(d.narration);
-  let cum = 0; const beatF = phrases.map(ph => { const s = cum; cum += ph.split(/\s+/).length; return Math.round((s / totW) * frames); });
-  let bi = 0; for (let k = 0; k < beatF.length; k++) if (frame >= beatF[k]) bi = k;
-  const lf = frame - beatF[bi];
-  const plan = buildPlan();
-  const pIdx = Math.min(plan.length - 1, Math.floor((bi / Math.max(1, phrases.length)) * plan.length));
-  const tpl = plan[pIdx];
-  const dir = bi % 2 === 0 ? 1 : -1;
-  const vf = Math.max(0, beatF[bi]);
-  const hasGif = Boolean((mediaFlags as Record<string, { gif?: boolean }>)[d.key]?.gif);
-  // ventana con material real que va rotando (foto / clip / clip2 / gif)
-  const winMedia: { img?: string; video?: string; gif?: boolean } = hasGif && bi % 4 === 3 ? { gif: true } : bi % 3 === 1 ? { img: photo } : bi % 3 === 2 ? { video: video2 } : { video };
-  const MW = (w: number, h: number) => winMedia.gif
-    ? <div style={{ borderRadius: 20, overflow: "hidden", border: `7px solid ${d.color}`, boxShadow: "0 22px 55px rgba(0,0,0,.22)" }}><Gif src={staticFile(`media/${d.key}.gif`)} width={w} height={h} fit="cover" /></div>
-    : <Win img={winMedia.img} video={winMedia.video} videoFrom={vf} w={w} title={d.name} accent={d.color} h={h} />;
+  const bts = BEATS[d.id] || [];
+  if (!bts.length) return <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}><Audio src={staticFile(`voz1deep/${d.id}.mp3`)} /><Chip n={d.main} c={d.color} size={320} /></AbsoluteFill>;
+  let bi = 0; for (let k = 0; k < bts.length; k++) if (frame >= bts[k].f) bi = k;
+  const b = bts[bi]; const lf = frame - b.f; const dir = bi % 2 === 0 ? 1 : -1;
+
   // entrada con REBOTE (0.35→1.2→1) + deslizamiento en X e Y
   const R = (p: number, from: number, node: React.ReactNode, fromY = 0) => {
     const s = p < 0.6 ? 0.35 + 0.85 * (p / 0.6) : 1.2 - 0.2 * ((p - 0.6) / 0.4);
     return <div style={{ opacity: Math.min(1, p * 1.6), transform: `translate(${(1 - p) * from}px,${(1 - p) * fromY}px) scale(${Math.max(0, s)})` }}>{node}</div>;
   };
+  const MW = (w: number, h: number) => b.kind === "gif"
+    ? <div style={{ borderRadius: 20, overflow: "hidden", border: `7px solid ${d.color}`, boxShadow: "0 22px 55px rgba(0,0,0,.22)" }}><Gif src={staticFile(b.file!)} width={w} height={h} fit="cover" /></div>
+    : b.kind === "img" ? <Win img={b.file!} w={w} title={d.name} accent={d.color} h={h} />
+      : <Win video={b.file!} videoFrom={b.f} w={w} title={d.name} accent={d.color} h={h} />;
 
-  let body: React.ReactNode = null;
-  if (tpl.k === "title") body = <>
+  const isTitle = bi === 0;
+  const label = b.text || d.name;
+  let body: React.ReactNode;
+  if (isTitle) body = <>
     <div style={{ display: "flex", alignItems: "center", gap: 34 }}>
-      {R(ap(lf, 0), -160, <div style={{ transform: bob(frame) }}><Chip n={d.main} c={d.color} size={290} /></div>)}
+      {R(ap(lf, 0), -160, <div style={{ transform: bob(frame) }}><Chip n={b.icon || d.main} c={d.color} size={290} /></div>)}
       {R(ap(lf, 16), 0, <Arrow f={lf} delay={16} w={190} />)}
     </div>
-    {R(ap(lf, 10), 0, <T s={d.name.length > 13 ? 84 : 116} heavy>{d.name}</T>, 55)}
+    {R(ap(lf, 10), 0, <T s={label.length > 13 ? 84 : 116} heavy>{label}</T>, 55)}
   </>;
-  else if (tpl.k === "photo" || tpl.k === "clip" || tpl.k === "clip2" || tpl.k === "gif") body = <>
-    <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
-      {R(ap(lf, 0), -130, <div style={{ transform: bob(frame, 2), transformOrigin: "bottom center" }}><Stick head={iconHead(d.main, d.color)} pose="pointR" /></div>)}
-      {R(ap(lf, 14), 0, <Arrow f={lf} delay={14} w={150} />)}
-      {R(ap(lf, 22), 190, MW(1000, 560))}
+  else body = <>
+    <div style={{ display: "flex", alignItems: "center", gap: 26, justifyContent: "center" }}>
+      {R(ap(lf, 0), -170, <div style={{ transform: bob(frame) }}><Chip n={b.icon} c={d.color} size={b.file ? 230 : 300} /></div>)}
+      {b.file && R(ap(lf, 14), 0, <Arrow f={lf} delay={14} w={160} />)}
+      {b.file && R(ap(lf, 22), 180, MW(880, 490))}
     </div>
-    {R(ap(lf, 40), 0, <T s={58} c={RED} heavy>{tpl.k === "clip2" ? d.causa[1] : (tpl.k === "clip" ? d.ejemploTitle : d.name)}</T>, 55)}
+    {R(ap(lf, 32), 0, <T s={label.length > 22 ? 52 : 66} heavy w={1500}>{label}</T>, 55)}
   </>;
-  else {
-    let label = "", icon = d.main, ic = d.color, txt = "";
-    if (tpl.k === "def") { txt = d.def; }
-    else if (tpl.k === "fuera") { label = "😐 POR FUERA"; icon = d.fuera[0]; txt = d.fuera[1]; }
-    else if (tpl.k === "dentro") { label = "🎭 POR DENTRO"; ic = "#e57373"; icon = d.dentro[0]; txt = d.dentro[1]; }
-    else if (tpl.k === "senal") { const s = d.senales[tpl.i!] || d.senales[0]; label = "⚠️ SEÑAL"; icon = s.icon; ic = s.color; txt = s.label; }
-    else if (tpl.k === "causa") { label = "🤔 ¿POR QUÉ PASA?"; txt = d.causa[1]; }
-    else if (tpl.k === "consejo") { label = "✅ CÓMO ACTUAR"; icon = d.consejo[0]; txt = d.consejo[1]; }
-    body = <>
-      {label && R(ap(lf, 0), 0, <T s={62} c={RED} heavy>{label}</T>, -55)}
-      <div style={{ display: "flex", alignItems: "center", gap: 26, justifyContent: "center" }}>
-        {R(ap(lf, 6), -170, <div style={{ transform: bob(frame) }}><Chip n={icon} c={ic} size={240} /></div>)}
-        {R(ap(lf, 18), 0, <Arrow f={lf} delay={18} w={165} />)}
-        {R(ap(lf, 26), 170, MW(780, 440))}
-      </div>
-      {R(ap(lf, 38), 0, <T s={54} w={1300}>{txt}</T>, 55)}
-    </>;
-  }
 
   return (
     <AbsoluteFill>
       <Audio src={staticFile(`voz1deep/${d.id}.mp3`)} />
       <div style={{ position: "absolute", top: 46, right: 70, fontFamily: HEAVY, fontSize: 56, fontWeight: 900, color: "#dcdcdc" }}>{n}<span style={{ fontSize: 30 }}>/{ITEMS.length}</span></div>
       <div style={{ position: "absolute", top: 58, left: 80, fontFamily: HEAVY, fontSize: 34, fontWeight: 900, color: d.color, maxWidth: 900 }}>{d.name}</div>
-      {/* fila de progreso: una bolita por concepto ya cubierto */}
-      <div style={{ position: "absolute", bottom: 42, left: 0, width: "100%", display: "flex", justifyContent: "center", gap: 16 }}>
-        {plan.map((_, k) => <div key={k} style={{ width: 20, height: 20, borderRadius: "50%", background: k <= pIdx ? d.color : "#e4e4e4", transform: `scale(${k === pIdx ? 1.25 : 1})` }} />)}
+      <div style={{ position: "absolute", bottom: 40, left: 0, width: "100%", display: "flex", justifyContent: "center", gap: 12, flexWrap: "wrap", padding: "0 180px" }}>
+        {bts.map((_, k) => <div key={k} style={{ width: 16, height: 16, borderRadius: "50%", background: k <= bi ? d.color : "#e4e4e4", transform: `scale(${k === bi ? 1.35 : 1})` }} />)}
       </div>
       <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", padding: "0 90px" }}>
         <BeatWrap lf={lf} dir={dir}>{body}</BeatWrap>
@@ -223,7 +200,7 @@ export const AutoVideo: React.FC = () => {
           <T s={96} heavy>¿Reconociste a <span style={{ color: RED }}>alguien</span>?</T>
           <div style={{ fontFamily: HAND, fontSize: 62, marginTop: 20 }}>Suscríbete a <b>{config.handle.replace("@", "")}</b> ▶</div>
         </div>}</Simple>;
-        else { const idx = n; n += 1; c = <ItemScene d={ITEMS[idx]} a={(anchors as Record<string, A>)[s.id]} n={idx + 1} frames={s.frames} />; }
+        else { const idx = n; n += 1; c = <ItemScene d={ITEMS[idx]} n={idx + 1} />; }
         return <Sequence key={s.id} from={s.from} durationInFrames={s.dur}>{c}</Sequence>;
       })}
       <Bar />

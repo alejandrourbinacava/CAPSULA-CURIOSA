@@ -52,52 +52,49 @@ for (const sg of segs) {
 }
 fs.writeFileSync(path.join(VOZ, "manifest.json"), JSON.stringify(manifest, null, 2));
 
-// 2) ANCHORS (por item, sincronizando con la narración)
-const norm = (w) => w.toLowerCase().replace(/[.,;:¿?¡!«»]/g, "");
-const anchors = {};
-for (const it of cfg.items) {
-  const words = it.narration.split(/\s+/), N = words.length, low = words.map(norm), du = manifest.find(m => m.id === it.id).durSec;
-  const t = (i) => i < 0 ? -1 : Math.round((i / N) * du * FPS);
-  const idx = (w) => low.indexOf(w);
-  const sen = idx("señales"); let causa = -1; for (let i = sen > 0 ? sen : 0; i < low.length; i++) if (["qué", "dónde", "causa"].includes(low[i])) { causa = i; break; }
-  let cons = -1; for (let i = low.length - 1; i >= 0; i--) if (low[i] === "cómo") { cons = i; break; }
-  anchors[it.id] = { fuera: t(idx("fuera")), dentro: t(idx("dentro")), senales: t(sen), causa: t(causa), ejemplo: t(idx("ejemplo")), consejo: t(cons) };
-}
-fs.writeFileSync(path.join(VOZ, "anchors.json"), JSON.stringify(anchors, null, 2));
-
-// 3) MEDIA (foto + clip de vídeo por item, Pixabay)
+// 2) BEATS: cronometrar cada beat por palabras del "say" + bajar su media (lo que se ve = lo que se oye)
 async function pixVideos(q, n = 2) { try { const j = await (await fetch(`https://pixabay.com/api/videos/?key=${PIX}&q=${encodeURIComponent(q)}&per_page=12&safesearch=true`)).json(); return (j.hits || []).slice(0, n).map(h => h.videos.small?.url || h.videos.medium?.url || h.videos.tiny.url); } catch { return []; } }
 async function pixPhoto(q) { try { const j = await (await fetch(`https://pixabay.com/api/?key=${PIX}&q=${encodeURIComponent(q)}&image_type=photo&per_page=8&safesearch=true&orientation=horizontal`)).json(); const h = (j.hits || [])[0]; return h ? (h.largeImageURL || h.webformatURL) : null; } catch { return null; } }
 async function pexVideos(q, n = 2) { if (!PEX) return []; try { const j = await (await fetch(`https://api.pexels.com/videos/search?query=${encodeURIComponent(q)}&per_page=6&orientation=landscape`, { headers: { Authorization: PEX } })).json(); return (j.videos || []).slice(0, n).map(v => { const f = (v.video_files || []).filter(x => /mp4/.test(x.file_type || "")); return (f.find(x => x.height >= 540 && x.height <= 1080) || f[0])?.link; }).filter(Boolean); } catch { return []; } }
 async function pexPhoto(q) { if (!PEX) return null; try { const j = await (await fetch(`https://api.pexels.com/v1/search?query=${encodeURIComponent(q)}&per_page=6&orientation=landscape`, { headers: { Authorization: PEX } })).json(); const h = (j.photos || [])[0]; return h ? (h.src.large || h.src.landscape) : null; } catch { return null; } }
 async function giphyGif(q) { if (!GIPHY) return null; try { const j = await (await fetch(`https://api.giphy.com/v1/gifs/search?api_key=${GIPHY}&q=${encodeURIComponent(q)}&limit=10&rating=pg-13&lang=es`)).json(); const h = (j.data || [])[0]; return h ? (h.images.downsized_medium?.url || h.images.fixed_height?.url || h.images.original?.url) : null; } catch { return null; } }
-const mediaFlags = {};
+const wc = (s) => (s || "").trim().split(/\s+/).filter(Boolean).length;
+const beatsOut = {};
 for (const it of cfg.items) {
-  let vids = await pixVideos(it.videoQuery, 2);
-  if (vids.length < 2) vids = vids.concat(await pexVideos(it.videoQuery, 2 - vids.length));
-  if (vids[0]) await dl(vids[0], path.join(MEDIA, `${it.key}_vid.mp4`));
-  if (vids[1] || vids[0]) await dl(vids[1] || vids[0], path.join(MEDIA, `${it.key}_vid2.mp4`));
-  let photo = await pixPhoto(it.photoQuery); if (!photo) photo = await pexPhoto(it.photoQuery);
-  if (photo) await dl(photo, path.join(MEDIA, `${it.key}_photo.jpg`));
-  let gif = false; const gu = await giphyGif(it.gifQuery || it.photoQuery || it.name); if (gu) { try { await dl(gu, path.join(MEDIA, `${it.key}.gif`)); gif = true; } catch {} }
-  mediaFlags[it.key] = { gif };
-  // GARANTIZAR que existan foto + 2 clips (el nuevo diseño usa fondo real en cada escena): si falta, fallback
-  const P = (s) => path.join(MEDIA, `${it.key}${s}`);
-  const ph = P("_photo.jpg"), v1 = P("_vid.mp4"), v2 = P("_vid2.mp4");
-  if (!fs.existsSync(v1) && fs.existsSync(v2)) fs.copyFileSync(v2, v1);
-  if (!fs.existsSync(ph) && fs.existsSync(v1)) { try { execSync(`ffmpeg -y -v error -ss 0.5 -i "${v1}" -frames:v 1 "${ph}"`); } catch {} }
-  if (!fs.existsSync(ph)) { execSync(`ffmpeg -y -v error -f lavfi -i color=c=0x1b2735:s=1280x720:d=1 -frames:v 1 "${ph}"`); }
-  if (!fs.existsSync(v1)) { execSync(`ffmpeg -y -v error -loop 1 -i "${ph}" -t 3 -c:v libx264 -pix_fmt yuv420p -vf scale=1280:720 "${v1}"`); }
-  if (!fs.existsSync(v2)) fs.copyFileSync(v1, v2);
-  console.log(`🖼️  ${it.key}: ${vids.length} vídeo(s)${photo ? " + foto" : ""}${gif ? " + gif" : ""}`);
+  const itFrames = manifest.find(m => m.id === it.id).frames;
+  const totW = it.beats.reduce((a, b) => a + wc(b.say), 0) || 1;
+  // media general del tema (relevante) para enriquecer beats sin media propia
+  const gen = [];
+  try { let gv = await pixVideos(it.videoQuery, 2); if (gv.length < 2) gv = gv.concat(await pexVideos(it.videoQuery, 2 - gv.length)); for (let k = 0; k < gv.length; k++) { const f = `${it.key}_gv${k}.mp4`; try { await dl(gv[k], path.join(MEDIA, f)); gen.push({ file: "media/" + f, kind: "vid" }); } catch {} } } catch {}
+  try { let gp = await pixPhoto(it.photoQuery) || await pexPhoto(it.photoQuery); if (gp) { const f = `${it.key}_gp.jpg`; await dl(gp, path.join(MEDIA, f)); gen.push({ file: "media/" + f, kind: "img" }); } } catch {}
+  try { const gg = await giphyGif(it.photoQuery || it.name); if (gg) { const f = `${it.key}_gg.gif`; await dl(gg, path.join(MEDIA, f)); gen.push({ file: "media/" + f, kind: "gif" }); } } catch {}
+
+  let cum = 0, genIdx = 0; const arr = [];
+  for (let i = 0; i < it.beats.length; i++) {
+    const b = it.beats[i];
+    const f = Math.round((cum / totW) * itFrames); cum += wc(b.say);
+    let file = null, kind = null;
+    if (b.media && b.media !== "none" && b.query) {
+      const base = `${it.key}_b${i}`;
+      try {
+        if (b.media === "gif") { const u = await giphyGif(b.query); if (u) { await dl(u, path.join(MEDIA, base + ".gif")); file = "media/" + base + ".gif"; kind = "gif"; } }
+        else if (b.media === "photo") { const p = await pixPhoto(b.query) || await pexPhoto(b.query); if (p) { await dl(p, path.join(MEDIA, base + ".jpg")); file = "media/" + base + ".jpg"; kind = "img"; } }
+        else { const v = (await pixVideos(b.query, 1))[0] || (await pexVideos(b.query, 1))[0]; if (v) { await dl(v, path.join(MEDIA, base + ".mp4")); file = "media/" + base + ".mp4"; kind = "vid"; } }
+      } catch {}
+    }
+    if (!file && gen.length && i % 2 === 1) { const g = gen[genIdx % gen.length]; genIdx++; file = g.file; kind = g.kind; }
+    arr.push({ f, text: b.text, icon: b.icon, file, kind });
+  }
+  beatsOut[it.id] = arr;
+  console.log(`🎬 ${it.key}: ${arr.length} beats · ${arr.filter(x => x.file).length} con imagen`);
 }
-fs.writeFileSync(path.join(MEDIA, "media.json"), JSON.stringify(mediaFlags, null, 2));
+fs.writeFileSync(path.join(VOZ, "beats.json"), JSON.stringify(beatsOut, null, 2));
 
 // 4) MÚSICA (reutiliza script determinista) + SFX de pops en cada cambio de escena
 execSync("node generar-musica.mjs", { cwd: __dirname, stdio: "inherit" });
 {
   const SR = 44100, PAD = 6; let acc = 0; const times = [];
-  for (const m of manifest) { const isItem = cfg.items.find(i => i.id === m.id); if (isItem) { const a = anchors[m.id]; for (const b of [0, a.fuera, a.senales, a.causa, a.ejemplo, a.consejo]) times.push((acc + b) / FPS + 0.05); } else { times.push(acc / FPS + 0.05); } acc += m.frames + PAD; }
+  for (const m of manifest) { const isItem = cfg.items.find(i => i.id === m.id); if (isItem) { for (const bt of (beatsOut[m.id] || [])) times.push((acc + bt.f) / FPS + 0.02); } else { times.push(acc / FPS + 0.05); } acc += m.frames + PAD; }
   const DUR = acc / FPS + 0.5, Ns = Math.floor(SR * DUR), out = new Float32Array(Ns);
   const pop = (() => { const n = Math.floor(SR * 0.12), b = new Float32Array(n); for (let i = 0; i < n; i++) { const t = i / SR; b[i] = Math.sin(2 * Math.PI * (480 + 480 * Math.exp(-t * 30)) * t) * Math.exp(-t * 26) * 0.5; } return b; })();
   for (const tt of times) { const o = Math.floor(tt * SR); for (let i = 0; i < pop.length && o + i < Ns; i++) out[o + i] += pop[i] * 0.7; }

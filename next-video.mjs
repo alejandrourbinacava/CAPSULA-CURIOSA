@@ -28,31 +28,43 @@ const schema = {
       items: {
         type: "OBJECT",
         properties: {
-          name: { type: "STRING" }, narration: { type: "STRING" }, def: { type: "STRING" },
-          fueraIcon: { type: "STRING" }, fueraText: { type: "STRING" }, dentroIcon: { type: "STRING" }, dentroText: { type: "STRING" },
-          s1Icon: { type: "STRING" }, s1: { type: "STRING" }, s2Icon: { type: "STRING" }, s2: { type: "STRING" }, s3Icon: { type: "STRING" }, s3: { type: "STRING" },
-          causaIcon: { type: "STRING" }, causaText: { type: "STRING" }, ejemploTitle: { type: "STRING" },
-          consejoIcon: { type: "STRING" }, consejoText: { type: "STRING" }, mainIcon: { type: "STRING" },
-          videoQuery: { type: "STRING" }, photoQuery: { type: "STRING" }
+          name: { type: "STRING" }, mainIcon: { type: "STRING" }, def: { type: "STRING" },
+          photoQuery: { type: "STRING" }, videoQuery: { type: "STRING" },
+          beats: {
+            type: "ARRAY",
+            items: {
+              type: "OBJECT",
+              properties: { say: { type: "STRING" }, text: { type: "STRING" }, icon: { type: "STRING" }, media: { type: "STRING" }, query: { type: "STRING" } },
+              required: ["say", "text", "icon", "media"]
+            }
+          }
         },
-        required: ["name", "narration", "def", "fueraIcon", "fueraText", "dentroIcon", "dentroText", "s1Icon", "s1", "s2Icon", "s2", "s3Icon", "s3", "causaIcon", "causaText", "ejemploTitle", "consejoIcon", "consejoText", "mainIcon", "videoQuery", "photoQuery"]
+        required: ["name", "mainIcon", "def", "beats", "photoQuery", "videoQuery"]
       }
     }
   },
   required: ["title", "introNarration", "gruposNarration", "outroNarration", "items"]
 };
 
-const prompt = `Eres guionista de un canal de YouTube faceless en español ("Cápsula Curiosa") estilo divulgativo. Crea el guion COMPLETO del vídeo sobre este tema:
+const prompt = `Eres guionista y storyboarder de un canal de YouTube faceless en español ("Cápsula Curiosa"), estilo divulgativo dinámico (como "Explainer Chris"). Crea el guion COMPLETO del vídeo sobre este tema:
 TÍTULO: ${topic.title}
 DESCRIPCIÓN: ${topic.brief}
 Genera EXACTAMENTE ${topic.n} elementos (items).
 
+CLAVE — cada item es una SECCIÓN contada como una secuencia de "beats" (momentos), EN ORDEN. Cada beat es un trozo de la locución con SU visual, de modo que LO QUE SE VE COINCIDE EXACTAMENTE CON LO QUE SE OYE.
+
 REGLAS ESTRICTAS:
 - Todo en ESPAÑOL de España, tono cercano y divulgativo. NADA de diagnósticos; marco explicativo.
-- "narration" de cada item = lo que dice la voz en off, DESARROLLADO y con detalle (~210-240 palabras por item, para que el vídeo dure 10-12 minutos en total), y DEBE contener SÍ o SÍ estas palabras/estructura en este orden: primero la definición desarrollada; luego "Por fuera ... por dentro ..."; luego "Las señales" (explica las 3 con ejemplos); luego una frase que empiece con "¿Por qué" (la causa, con detalle); luego "Un ejemplo:" (una anécdota concreta y vívida); y al final "¿Cómo ...?" (el consejo práctico). Estas palabras exactas (fuera, dentro, señales, por qué, ejemplo, cómo) son obligatorias porque marcan la sincronía.
-- Los textos en pantalla (def, fueraText, dentroText, s1/s2/s3, causaText, ejemploTitle, consejoText) MUY cortos (2-5 palabras).
-- Iconos (mainIcon, fueraIcon, dentroIcon, s1Icon, s2Icon, s3Icon, causaIcon, consejoIcon): elige SOLO de esta lista, el más representativo de cada concepto: ${ICONS}
-- videoQuery y photoQuery: en INGLÉS, términos concretos y realistas para stock (Pixabay) que ilustren el ejemplo de ese item.
+- Cada item tiene "beats": un array de 12 a 15 beats EN ORDEN. La sección se cuenta entera a través de esos beats (definición → cómo se ve por fuera/por dentro → señales → por qué ocurre → un ejemplo concreto → qué hacer).
+- Cada beat tiene:
+  - "say": lo que dice la VOZ en ese momento (1 frase natural, ~14-20 palabras). La SUMA de todos los "say" del item debe dar ~210-240 palabras (para que el vídeo total dure 10-12 min).
+  - "text": 2 a 5 palabras que RESUMEN literalmente lo que dice ese "say" (es el rótulo en pantalla; DEBE coincidir con lo que se oye en ese beat, no algo genérico).
+  - "icon": el icono MÁS representativo de ESE beat, SOLO de esta lista: ${ICONS}
+  - "media": "photo", "clip", "gif" o "none". Pon imagen real ("photo"/"clip") o meme divertido ("gif") en unos 5-6 beats con momentos visuales potentes (ejemplos, caras, escenas, reacciones); "none" (solo icono) en el resto. NO pongas media en todos.
+  - "query": si media != "none", término EN INGLÉS, concreto y realista, para buscar ese clip/foto/gif de ESE momento exacto. Si media = "none", cadena vacía.
+- El PRIMER beat presenta la sección: su "text" es el nombre corto del elemento.
+- "name": nombre corto del elemento en MAYÚSCULAS (p.ej. "EL NARCISISTA"). "mainIcon": icono principal (de la lista). "def": definición en 3-5 palabras (para la miniatura).
+- "photoQuery"/"videoQuery": términos EN INGLÉS de reserva para la miniatura del item.
 - introNarration: gancho de ~40s que enganche. gruposNarration: ~15s "vamos a verlos". outroNarration: ~20s cierre + "Suscríbete a Cápsula Curiosa".
 Devuelve SOLO el JSON.`;
 
@@ -99,18 +111,21 @@ async function ensureIcon(name) {
 await ensureIcon("circle-help");
 
 const ITEM_COLORS = ["#e57373", "#90a4ae", "#ba68c8", "#607d8b", "#f06292", "#ffb300", "#ffd54f", "#4db6ac", "#7986cb", "#4dd0e1", "#8bc34a", "#ff8c1a"];
-const SP = ["#ffd54f", "#ff8c1a", "#4db6ac"];
 const items = [];
 for (let i = 0; i < g.items.length; i++) {
   const it = g.items[i];
-  const [main, fu, de, i1, i2, i3, ca, co] = await Promise.all([it.mainIcon, it.fueraIcon, it.dentroIcon, it.s1Icon, it.s2Icon, it.s3Icon, it.causaIcon, it.consejoIcon].map(ensureIcon));
+  const main = await ensureIcon(it.mainIcon);
+  const rawBeats = Array.isArray(it.beats) ? it.beats.filter(b => b && b.say) : [];
+  const beats = [];
+  for (const b of rawBeats) {
+    const icon = await ensureIcon(b.icon);
+    beats.push({ say: b.say, text: (b.text || "").toUpperCase(), icon, media: (b.media || "none").toLowerCase(), query: b.query || "" });
+  }
+  const narration = beats.map(b => b.say).join(" ");
   items.push({
     id: "v" + String(i + 2).padStart(2, "0"), key: "item" + (i + 1),
-    name: (it.name || it.title || it.nombre || "").toUpperCase(), group: "", color: ITEM_COLORS[i % ITEM_COLORS.length], main, def: it.def || "",
-    fuera: [fu, it.fueraText || ""], dentro: [de, it.dentroText || ""],
-    senales: [{ icon: i1, color: SP[0], label: it.s1 || "" }, { icon: i2, color: SP[1], label: it.s2 || "" }, { icon: i3, color: SP[2], label: it.s3 || "" }],
-    causa: [ca, it.causaText || ""], ejemploTitle: it.ejemploTitle || "", consejo: [co, it.consejoText || ""],
-    videoQuery: it.videoQuery || it.name || "", photoQuery: it.photoQuery || it.name || "", narration: it.narration || ""
+    name: (it.name || it.title || "").toUpperCase(), color: ITEM_COLORS[i % ITEM_COLORS.length], main, def: it.def || "",
+    beats, narration, videoQuery: it.videoQuery || it.name || "", photoQuery: it.photoQuery || it.name || ""
   });
 }
 const outroId = "v" + String(items.length + 2).padStart(2, "0");
