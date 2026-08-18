@@ -26,17 +26,26 @@ const durOf = (f) => parseFloat(execSync(`ffprobe -v error -show_entries format=
 async function tts(text) {
   const r = await fetch(`${BASE}/labs/task`, { method: "POST", headers: H(), body: JSON.stringify({ input: text, voice_id: cfg.voiceId, model_id: MODEL, speed: cfg.speed || 1.0 }) });
   const t = await r.text(); if (!r.ok) throw new Error(t); const id = pick(JSON.parse(t), ["task_id", "id", "data.task_id", "data.id"]);
-  for (let i = 0; i < 90; i++) { const rr = await fetch(`${BASE}/labs/task?task_id=${encodeURIComponent(id)}`, { headers: H() }); const tt = await rr.text(); let j; try { j = JSON.parse(tt); } catch { j = null; } let it = j; const l = pick(j || {}, ["data", "items", "results", "tasks"]); if (Array.isArray(l)) it = l.find(x => pick(x, ["task_id", "id"]) === id) || l[0]; const st = pick(it || {}, ["status", "state"]); const u = pick(it || {}, ["result", "audio_url", "url", "output"]); if (st && /complete|success|done|finished/i.test(st) && u) return u; if (st && /fail|error/i.test(st)) throw new Error(tt); await sleep(3000); }
-  return `https://files.genaipro.vn/${id}.mp3`;
+  for (let i = 0; i < 180; i++) { const rr = await fetch(`${BASE}/labs/task?task_id=${encodeURIComponent(id)}`, { headers: H() }); const tt = await rr.text(); let j; try { j = JSON.parse(tt); } catch { j = null; } let it = j; const l = pick(j || {}, ["data", "items", "results", "tasks"]); if (Array.isArray(l)) it = l.find(x => pick(x, ["task_id", "id"]) === id) || l[0]; const st = pick(it || {}, ["status", "state"]); const u = pick(it || {}, ["result", "audio_url", "url", "output"]); if (st && /complete|success|done|finished/i.test(st) && u) return u; if (st && /fail|error/i.test(st)) throw new Error(tt); await sleep(3000); }
+  throw new Error("TTS timeout (sin URL tras 9 min) task=" + id);
 }
 async function dl(url, dest) { const r = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0" } }); if (!r.ok) throw new Error("dl " + r.status); fs.writeFileSync(dest, Buffer.from(await r.arrayBuffer())); }
+// genera + descarga una voz con reintentos (la API a veces tarda o falla puntualmente)
+async function ttsToFile(text, dest) {
+  let lastErr;
+  for (let a = 1; a <= 3; a++) {
+    try { const url = await tts(text); await dl(url, dest); return; }
+    catch (e) { lastErr = e; process.stdout.write(`(reintento ${a}: ${(e.message || "").slice(0, 60)}) `); await sleep(5000); }
+  }
+  throw lastErr;
+}
 
 // 1) VOZ + MANIFEST (orden: intro, grupos, items..., outro)
 const segs = [{ id: cfg.intro.id, label: "intro", text: cfg.intro.narration }, { id: cfg.grupos.id, label: "grupos", text: cfg.grupos.narration }, ...cfg.items.map(it => ({ id: it.id, label: it.key, text: it.narration })), { id: cfg.outro.id, label: "cierre", text: cfg.outro.narration }];
 const manifest = [];
 for (const sg of segs) {
   process.stdout.write(`🎙️  ${sg.id} (${sg.label})... `);
-  const url = await tts(sg.text); const raw = path.join(TMP, `${sg.id}.mp3`); await dl(url, raw);
+  const raw = path.join(TMP, `${sg.id}.mp3`); await ttsToFile(sg.text, raw);
   const fin = path.join(VOZ, `${sg.id}.mp3`);
   execSync(`ffmpeg -y -v error -i "${raw}" -af "silenceremove=start_periods=1:start_duration=0:start_threshold=-40dB:detection=peak,areverse,silenceremove=start_periods=1:start_duration=0:start_threshold=-40dB:detection=peak,areverse" "${fin}"`);
   const d = durOf(fin); manifest.push({ id: sg.id, label: sg.label, frames: Math.ceil(d * FPS), durSec: d }); console.log(`${d.toFixed(1)}s`);
