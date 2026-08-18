@@ -1,1202 +1,1134 @@
 {
-  "title": "Cada Fobia Explicada y por qué la Desarrollamos",
+  "title": "Todo lo que le pasa a tu cuerpo cuando mueres",
   "fps": 30,
   "voiceId": "851ejYcv2BoNPjrkw93G",
   "speed": 1.08,
-  "cornerIcon": "bug",
+  "cornerIcon": "heart-off",
   "handle": "@CapsulaCuriosa",
   "intro": {
     "id": "v00",
-    "narration": "¿Alguna vez has sentido el corazón a mil solo por ver una araña, entrar en un ascensor o mirar un panal de abejas? No estás roto ni eres raro, tu cerebro simplemente está haciendo su trabajo... a veces con demasiado entusiasmo. Las fobias son de los mecanismos mentales más fascinantes que existen, porque mezclan supervivencia ancestral con experiencias personales muy concretas. Hoy vamos a diseccionar diez fobias, desde las súper comunes hasta las que ni sabías que tenían nombre, para entender qué pasa en tu cabeza cuando el miedo se dispara sin control. Prepárate, esto te va a explicar más de un escalofrío random que has sentido alguna vez."
+    "narration": "¿Sabías que tu cuerpo sigue con actividad incluso después de que tu corazón se pare? La muerte no es un instante, es un proceso, una cadena de fases que la ciencia forense conoce al detalle: el frío que se apodera de la piel, las manchas que aparecen por gravedad, la rigidez que endurece los músculos y, después, el trabajo silencioso de tus propias células y de las bacterias que ya vivían dentro de ti. Todo esto, minuto a minuto, hora a hora, deja pistas que ayudan a resolver casos reales. Hoy vamos a contarlo sin dramatismo, con curiosidad pura. Quédate, porque esto te va a sorprender."
   },
   "grupos": {
     "id": "v01",
-    "narration": "Vamos a repasar diez fobias muy distintas entre sí: unas relacionadas con animales, otras con espacios, con el cuerpo o incluso con patrones visuales. En cada una veremos qué es exactamente, cómo se manifiesta, por qué aparece en el cerebro y qué se puede hacer al respecto. Empezamos."
+    "narration": "Vamos a repasar ocho fases, desde los primeros minutos hasta que solo quedan los huesos: el enfriamiento, las livideces, el rigor mortis, la autolisis, la putrefacción, la esqueletización y lo que todo esto revela a la ciencia forense."
   },
   "outro": {
-    "id": "v12",
-    "narration": "Como ves, el miedo no es un fallo del sistema, es una alarma antigua que a veces suena en el momento equivocado. Conocer el origen de cada fobia es el primer paso para quitarle poder. Si te ha resultado interesante, dale like, coméntanos qué fobia te identifica más y suscríbete a Cápsula Curiosa para el próximo viaje por la mente humana."
+    "id": "v10",
+    "narration": "Como ves, la muerte no es un misterio oscuro, es un proceso biológico ordenado y fascinante que la ciencia entiende cada vez mejor. Si te ha gustado este viaje por dentro del cuerpo, dale like y suscríbete a Cápsula Curiosa para más curiosidad divulgativa cada semana. Nos vemos en el próximo vídeo."
   },
   "items": [
     {
       "id": "v02",
       "key": "item1",
-      "name": "ARACNOFOBIA",
+      "name": "LOS PRIMEROS MINUTOS",
       "color": "#e57373",
-      "main": "bug",
-      "def": "Miedo intenso a arañas",
+      "main": "heart-off",
+      "def": "cese de funciones vitales",
       "beats": [
         {
-          "say": "Empezamos con la reina de las fobias: la aracnofobia, el miedo intenso e irracional a las arañas.",
-          "text": "ARACNOFOBIA",
-          "icon": "bug",
+          "say": "Todo empieza cuando el corazón deja de latir.",
+          "text": "PRIMEROS MINUTOS",
+          "icon": "heart-off",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Por fuera se ve como un grito, un salto hacia atrás o quedarse completamente paralizado de golpe.",
-          "text": "REACCIÓN FÍSICA",
+          "say": "Sin bombeo, el oxígeno deja de llegar a las células.",
+          "text": "SIN OXÍGENO",
           "icon": "activity",
-          "media": "gif",
-          "query": "person jumping scared spider reaction"
-        },
-        {
-          "say": "Por dentro el corazón se acelera, sudas y sientes un impulso urgente de huir de la habitación.",
-          "text": "POR DENTRO",
-          "icon": "heart-crack",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Algunas personas evitan jardines, cajas de trastos o incluso fotos de arañas en redes sociales.",
-          "text": "EVITACIÓN",
-          "icon": "eye",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Los científicos creen que este miedo tiene raíces evolutivas, ya que muchas arañas antiguas eran venenosas.",
-          "text": "ORIGEN EVOLUTIVO",
-          "icon": "dna",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Nuestros ancestros que temían a las arañas sobrevivían más, y ese miedo se transmitió genéticamente.",
-          "text": "VENTAJA DE SUPERVIVENCIA",
-          "icon": "skull",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Pero también influye el aprendizaje: ver a tu madre gritar de niño puede plantar la semilla del miedo.",
-          "text": "APRENDIZAJE SOCIAL",
-          "icon": "users",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Un ejemplo real: alguien que no puede entrar a un garaje sin revisar antes cada rincón oscuro.",
-          "text": "EJEMPLO REAL",
-          "icon": "door-closed",
-          "media": "photo",
-          "query": "dark garage entrance spider web"
-        },
-        {
-          "say": "Otros incluso evitan viajar a países tropicales solo por la posibilidad de cruzarse con una araña grande.",
-          "text": "EVITAR VIAJES",
-          "icon": "map",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El cerebro reacciona antes de que la parte racional pueda analizar si el bicho es realmente peligroso.",
-          "text": "REACCIÓN AUTOMÁTICA",
+          "say": "El cerebro es el primero en sufrir esa falta.",
+          "text": "EL CEREBRO",
           "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La amígdala, encargada del miedo, se activa en milisegundos, mucho antes que la corteza pensante.",
-          "text": "LA AMÍGDALA",
-          "icon": "zap",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El tratamiento más efectivo es la exposición gradual, viendo fotos, luego vídeos y después arañas reales controladas.",
-          "text": "EXPOSICIÓN GRADUAL",
-          "icon": "list-checks",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La terapia cognitivo conductual ayuda a reescribir esos pensamientos automáticos de peligro exagerado.",
-          "text": "TERAPIA COGNITIVA",
-          "icon": "puzzle",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Con constancia, muchas personas logran sostener un frasco con una araña sin sentir pánico.",
-          "text": "PROGRESO POSIBLE",
-          "icon": "circle-check",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "No es debilidad, es un circuito antiguo que se puede reentrenar poco a poco con paciencia.",
-          "text": "SE PUEDE TRATAR",
-          "icon": "handshake",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "Empezamos con la reina de las fobias: la aracnofobia, el miedo intenso e irracional a las arañas. Por fuera se ve como un grito, un salto hacia atrás o quedarse completamente paralizado de golpe. Por dentro el corazón se acelera, sudas y sientes un impulso urgente de huir de la habitación. Algunas personas evitan jardines, cajas de trastos o incluso fotos de arañas en redes sociales. Los científicos creen que este miedo tiene raíces evolutivas, ya que muchas arañas antiguas eran venenosas. Nuestros ancestros que temían a las arañas sobrevivían más, y ese miedo se transmitió genéticamente. Pero también influye el aprendizaje: ver a tu madre gritar de niño puede plantar la semilla del miedo. Un ejemplo real: alguien que no puede entrar a un garaje sin revisar antes cada rincón oscuro. Otros incluso evitan viajar a países tropicales solo por la posibilidad de cruzarse con una araña grande. El cerebro reacciona antes de que la parte racional pueda analizar si el bicho es realmente peligroso. La amígdala, encargada del miedo, se activa en milisegundos, mucho antes que la corteza pensante. El tratamiento más efectivo es la exposición gradual, viendo fotos, luego vídeos y después arañas reales controladas. La terapia cognitivo conductual ayuda a reescribir esos pensamientos automáticos de peligro exagerado. Con constancia, muchas personas logran sostener un frasco con una araña sin sentir pánico. No es debilidad, es un circuito antiguo que se puede reentrenar poco a poco con paciencia.",
-      "videoQuery": "spider crawling close up",
-      "photoQuery": "person scared of spider"
-    },
-    {
-      "id": "v03",
-      "key": "item2",
-      "name": "CLAUSTROFOBIA",
-      "color": "#90a4ae",
-      "main": "door-closed",
-      "def": "Miedo a espacios cerrados",
-      "beats": [
-        {
-          "say": "La claustrofobia es el miedo intenso a los espacios cerrados o reducidos donde sientes que no puedes escapar.",
-          "text": "CLAUSTROFOBIA",
-          "icon": "door-closed",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por fuera se nota en la respiración agitada y en las ganas urgentes de salir de ese lugar ya mismo.",
-          "text": "CÓMO SE VE",
-          "icon": "activity",
-          "media": "gif",
-          "query": "person panicking small room anxious"
-        },
-        {
-          "say": "Por dentro aparece una sensación de ahogo, mareo y la mente repite que las paredes se están cerrando.",
-          "text": "SENSACIÓN INTERNA",
-          "icon": "heart-crack",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ascensores, túneles, resonancias magnéticas o aviones pequeños suelen ser los escenarios más temidos.",
-          "text": "ESCENARIOS COMUNES",
-          "icon": "eye",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Un ejemplo típico es alguien que sube diez pisos por escaleras solo para no entrar en el ascensor.",
-          "text": "EJEMPLO REAL",
-          "icon": "footprints",
           "media": "photo",
-          "query": "person taking stairs instead of elevator"
+          "query": "human brain illustration medical"
         },
         {
-          "say": "El origen puede venir de una experiencia traumática, como quedarse atrapado de niño en algún sitio.",
-          "text": "ORIGEN TRAUMÁTICO",
-          "icon": "user",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "También se relaciona con la necesidad instintiva de tener siempre una ruta de escape disponible.",
-          "text": "INSTINTO DE ESCAPE",
-          "icon": "door-open",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El cerebro interpreta la falta de espacio como una amenaza directa a la propia supervivencia.",
-          "text": "INTERPRETACIÓN CEREBRAL",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Esto dispara la respuesta de lucha o huida, aunque en realidad no exista peligro real alguno.",
-          "text": "LUCHA O HUIDA",
-          "icon": "zap",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Algunas personas evitan probadores de ropa, cines llenos o incluso dormir con la puerta cerrada.",
-          "text": "EVITACIÓN COTIDIANA",
-          "icon": "shirt",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La ansiedad anticipatoria aparece incluso días antes de saber que tendrán que meterse en un espacio pequeño.",
-          "text": "ANSIEDAD ANTICIPATORIA",
+          "say": "En unos cuatro a seis minutos empiezan los daños graves.",
+          "text": "MINUTOS CRÍTICOS",
           "icon": "hourglass",
           "media": "none",
           "query": ""
         },
         {
-          "say": "El tratamiento incluye técnicas de respiración para calmar el sistema nervioso en el momento del pánico.",
-          "text": "RESPIRACIÓN CONTROLADA",
-          "icon": "activity",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La exposición virtual con gafas de realidad aumentada está dando muy buenos resultados actualmente.",
-          "text": "REALIDAD VIRTUAL",
-          "icon": "glasses",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Con terapia adecuada, muchas personas logran volver a usar ascensores sin ninguna sensación de pánico.",
-          "text": "RECUPERACIÓN POSIBLE",
-          "icon": "circle-check",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El espacio nunca fue el enemigo real, sino la interpretación que el cerebro hacía de él.",
-          "text": "REFLEXIÓN FINAL",
-          "icon": "lightbulb",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "La claustrofobia es el miedo intenso a los espacios cerrados o reducidos donde sientes que no puedes escapar. Por fuera se nota en la respiración agitada y en las ganas urgentes de salir de ese lugar ya mismo. Por dentro aparece una sensación de ahogo, mareo y la mente repite que las paredes se están cerrando. Ascensores, túneles, resonancias magnéticas o aviones pequeños suelen ser los escenarios más temidos. Un ejemplo típico es alguien que sube diez pisos por escaleras solo para no entrar en el ascensor. El origen puede venir de una experiencia traumática, como quedarse atrapado de niño en algún sitio. También se relaciona con la necesidad instintiva de tener siempre una ruta de escape disponible. El cerebro interpreta la falta de espacio como una amenaza directa a la propia supervivencia. Esto dispara la respuesta de lucha o huida, aunque en realidad no exista peligro real alguno. Algunas personas evitan probadores de ropa, cines llenos o incluso dormir con la puerta cerrada. La ansiedad anticipatoria aparece incluso días antes de saber que tendrán que meterse en un espacio pequeño. El tratamiento incluye técnicas de respiración para calmar el sistema nervioso en el momento del pánico. La exposición virtual con gafas de realidad aumentada está dando muy buenos resultados actualmente. Con terapia adecuada, muchas personas logran volver a usar ascensores sin ninguna sensación de pánico. El espacio nunca fue el enemigo real, sino la interpretación que el cerebro hacía de él.",
-      "videoQuery": "elevator doors closing tight space",
-      "photoQuery": "person inside small elevator anxious"
-    },
-    {
-      "id": "v04",
-      "key": "item3",
-      "name": "AGORAFOBIA",
-      "color": "#ba68c8",
-      "main": "users",
-      "def": "Miedo a lugares abiertos o multitudes",
-      "beats": [
-        {
-          "say": "La agorafobia es el miedo a situaciones donde escapar parece difícil, como multitudes o espacios abiertos.",
-          "text": "AGORAFOBIA",
-          "icon": "users",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por fuera se ve como alguien que evita salir de casa o que solo va a sitios muy conocidos.",
-          "text": "CÓMO SE VE",
-          "icon": "door-closed",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por dentro sienten que si les pasa algo, nadie podrá ayudarles a tiempo en ese lugar tan expuesto.",
-          "text": "SENSACIÓN INTERNA",
-          "icon": "heart-crack",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Centros comerciales, conciertos, plazas grandes o transporte público suelen generar mucha ansiedad anticipada.",
-          "text": "LUGARES TEMIDOS",
-          "icon": "eye",
-          "media": "gif",
-          "query": "person anxious crowded mall"
-        },
-        {
-          "say": "Un caso real es alguien que planifica sus salidas solo en horarios sin gente para sentirse seguro.",
-          "text": "EJEMPLO REAL",
-          "icon": "clock",
-          "media": "photo",
-          "query": "empty street early morning quiet"
-        },
-        {
-          "say": "A menudo aparece después de haber sufrido un ataque de pánico en público sin razón aparente.",
-          "text": "ORIGEN DEL MIEDO",
-          "icon": "zap",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El cerebro asocia ese lugar concreto con el peligro, aunque el peligro real nunca estuvo ahí fuera.",
-          "text": "ASOCIACIÓN ERRÓNEA",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Con el tiempo, el miedo se generaliza y empieza a incluir cada vez más lugares parecidos.",
-          "text": "GENERALIZACIÓN",
-          "icon": "trending-up",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "En casos extremos la persona puede llegar a no querer salir nunca sola de su vivienda.",
-          "text": "CASO EXTREMO",
-          "icon": "alert-triangle",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Esto afecta el trabajo, las relaciones sociales y la independencia personal de manera muy significativa.",
-          "text": "IMPACTO EN LA VIDA",
-          "icon": "briefcase",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La exposición progresiva, saliendo poco a poco y acompañado, es clave para recuperar la confianza.",
-          "text": "EXPOSICIÓN PROGRESIVA",
-          "icon": "footprints",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "También ayuda mucho tener una persona de apoyo cerca durante las primeras salidas complicadas.",
-          "text": "APOYO SOCIAL",
-          "icon": "handshake",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La terapia suele combinarse con técnicas de relajación y, en algunos casos, con medicación puntual.",
-          "text": "TRATAMIENTO COMBINADO",
-          "icon": "pill",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Recuperar el mundo exterior es un proceso lento pero totalmente posible con el acompañamiento adecuado.",
-          "text": "RECUPERACIÓN POSIBLE",
-          "icon": "circle-check",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El objetivo final no es eliminar el miedo, sino que deje de controlar cada decisión diaria.",
-          "text": "OBJETIVO FINAL",
-          "icon": "target",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "La agorafobia es el miedo a situaciones donde escapar parece difícil, como multitudes o espacios abiertos. Por fuera se ve como alguien que evita salir de casa o que solo va a sitios muy conocidos. Por dentro sienten que si les pasa algo, nadie podrá ayudarles a tiempo en ese lugar tan expuesto. Centros comerciales, conciertos, plazas grandes o transporte público suelen generar mucha ansiedad anticipada. Un caso real es alguien que planifica sus salidas solo en horarios sin gente para sentirse seguro. A menudo aparece después de haber sufrido un ataque de pánico en público sin razón aparente. El cerebro asocia ese lugar concreto con el peligro, aunque el peligro real nunca estuvo ahí fuera. Con el tiempo, el miedo se generaliza y empieza a incluir cada vez más lugares parecidos. En casos extremos la persona puede llegar a no querer salir nunca sola de su vivienda. Esto afecta el trabajo, las relaciones sociales y la independencia personal de manera muy significativa. La exposición progresiva, saliendo poco a poco y acompañado, es clave para recuperar la confianza. También ayuda mucho tener una persona de apoyo cerca durante las primeras salidas complicadas. La terapia suele combinarse con técnicas de relajación y, en algunos casos, con medicación puntual. Recuperar el mundo exterior es un proceso lento pero totalmente posible con el acompañamiento adecuado. El objetivo final no es eliminar el miedo, sino que deje de controlar cada decisión diaria.",
-      "videoQuery": "crowded street busy people overwhelming",
-      "photoQuery": "person overwhelmed crowded street"
-    },
-    {
-      "id": "v05",
-      "key": "item4",
-      "name": "TRIPOFOBIA",
-      "color": "#607d8b",
-      "main": "eye",
-      "def": "Rechazo a patrones de agujeros",
-      "beats": [
-        {
-          "say": "La tripofobia es el rechazo o repulsión intensa al ver patrones repetitivos de agujeros pequeños.",
-          "text": "TRIPOFOBIA",
-          "icon": "eye",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por fuera se manifiesta con escalofríos, náuseas o la necesidad inmediata de apartar la mirada.",
-          "text": "CÓMO SE VE",
-          "icon": "frown",
-          "media": "gif",
-          "query": "person disgusted covering eyes reaction"
-        },
-        {
-          "say": "Por dentro genera una sensación de asco mezclada con inquietud difícil de explicar racionalmente.",
-          "text": "SENSACIÓN INTERNA",
-          "icon": "heart-crack",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Panales de abejas, semillas de loto o esponjas de mar suelen ser los disparadores más comunes.",
-          "text": "DISPARADORES COMUNES",
-          "icon": "bug",
-          "media": "photo",
-          "query": "lotus seed pod texture close up"
-        },
-        {
-          "say": "Curiosamente muchos expertos ni siquiera la consideran una fobia oficial, sino una reacción de asco.",
-          "text": "DEBATE CIENTÍFICO",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Una teoría dice que el cerebro asocia esos patrones con la piel de animales venenosos.",
-          "text": "TEORÍA EVOLUTIVA",
-          "icon": "dna",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Otra teoría sugiere que se relaciona con enfermedades de la piel que mostraban agujeros similares.",
-          "text": "TEORÍA ALTERNATIVA",
-          "icon": "microscope",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El cerebro entonces activa una alarma de repulsión para alejarte de un posible contagio o veneno.",
-          "text": "REACCIÓN DEL CEREBRO",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Un ejemplo curioso es la gente que no puede ver fotos de corales sin sentir malestar físico.",
-          "text": "EJEMPLO CURIOSO",
+          "say": "Se declara la muerte clínica cuando cesan estas funciones.",
+          "text": "MUERTE CLÍNICA",
           "icon": "skull",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Las redes sociales han hecho viral este fenómeno con imágenes creadas específicamente para provocarlo.",
-          "text": "FENÓMENO VIRAL",
-          "icon": "phone",
+          "say": "Todos los músculos del cuerpo se relajan de golpe.",
+          "text": "RELAJACIÓN MUSCULAR",
+          "icon": "user",
+          "media": "clip",
+          "query": "human body relaxed medical illustration"
+        },
+        {
+          "say": "Por eso pueden relajarse también los esfínteres.",
+          "text": "ESFÍNTERES",
+          "icon": "shield-alert",
           "media": "none",
           "query": ""
         },
         {
-          "say": "A diferencia de otras fobias, no suele generar evitación extrema, solo un rechazo puntual muy fuerte.",
-          "text": "DIFERENCIA CLAVE",
-          "icon": "shield",
+          "say": "La piel empieza a perder su color rosado habitual.",
+          "text": "PIEL PÁLIDA",
+          "icon": "frown",
           "media": "none",
           "query": ""
         },
         {
-          "say": "La intensidad varía mucho entre personas, desde un ligero cosquilleo hasta un asco muy notable.",
-          "text": "INTENSIDAD VARIABLE",
+          "say": "La sangre deja de moverse por las venas.",
+          "text": "SIN CIRCULACIÓN",
+          "icon": "heart-crack",
+          "media": "photo",
+          "query": "blood vessels human circulation illustration"
+        },
+        {
+          "say": "Durante unos minutos el cuerpo mantiene su temperatura normal.",
+          "text": "TEMPERATURA ESTABLE",
           "icon": "gauge",
           "media": "none",
           "query": ""
         },
         {
-          "say": "No suele requerir tratamiento formal, pero la exposición gradual también reduce la incomodidad con el tiempo.",
-          "text": "TRATAMIENTO LEVE",
+          "say": "Las pupilas dejan de reaccionar a la luz.",
+          "text": "OJOS",
+          "icon": "eye",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Desaparecen todos los reflejos musculares y nerviosos.",
+          "text": "REFLEJOS",
+          "icon": "zap",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Pero ojo, muchas células siguen vivas unas horas más.",
+          "text": "CÉLULAS VIVAS",
+          "icon": "microscope",
+          "media": "photo",
+          "query": "human cells under microscope"
+        },
+        {
+          "say": "A partir de aquí arranca un reloj biológico preciso.",
+          "text": "EL RELOJ ARRANCA",
+          "icon": "clock",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Estas fases son claves para la ciencia forense.",
+          "text": "CIENCIA FORENSE",
+          "icon": "scale",
+          "media": "photo",
+          "query": "forensic science investigation scene"
+        },
+        {
+          "say": "Cada fase deja pistas sobre cuándo ocurrió la muerte.",
+          "text": "CADA FASE CUENTA",
           "icon": "list-checks",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Entender su origen ayuda a quitarle el componente misterioso y verlo como algo más natural.",
-          "text": "ENTENDER EL ORIGEN",
-          "icon": "lightbulb",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Al final, es tu cerebro protegiéndote de algo que en la naturaleza solía ser una señal de alarma.",
-          "text": "REFLEXIÓN FINAL",
-          "icon": "shield-alert",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "La tripofobia es el rechazo o repulsión intensa al ver patrones repetitivos de agujeros pequeños. Por fuera se manifiesta con escalofríos, náuseas o la necesidad inmediata de apartar la mirada. Por dentro genera una sensación de asco mezclada con inquietud difícil de explicar racionalmente. Panales de abejas, semillas de loto o esponjas de mar suelen ser los disparadores más comunes. Curiosamente muchos expertos ni siquiera la consideran una fobia oficial, sino una reacción de asco. Una teoría dice que el cerebro asocia esos patrones con la piel de animales venenosos. Otra teoría sugiere que se relaciona con enfermedades de la piel que mostraban agujeros similares. El cerebro entonces activa una alarma de repulsión para alejarte de un posible contagio o veneno. Un ejemplo curioso es la gente que no puede ver fotos de corales sin sentir malestar físico. Las redes sociales han hecho viral este fenómeno con imágenes creadas específicamente para provocarlo. A diferencia de otras fobias, no suele generar evitación extrema, solo un rechazo puntual muy fuerte. La intensidad varía mucho entre personas, desde un ligero cosquilleo hasta un asco muy notable. No suele requerir tratamiento formal, pero la exposición gradual también reduce la incomodidad con el tiempo. Entender su origen ayuda a quitarle el componente misterioso y verlo como algo más natural. Al final, es tu cerebro protegiéndote de algo que en la naturaleza solía ser una señal de alarma.",
-      "videoQuery": "honeycomb pattern close up holes",
-      "photoQuery": "lotus seed pod holes pattern"
-    },
-    {
-      "id": "v06",
-      "key": "item5",
-      "name": "ACROFOBIA",
-      "color": "#f06292",
-      "main": "trending-up",
-      "def": "Miedo intenso a las alturas",
-      "beats": [
-        {
-          "say": "La acrofobia es el miedo intenso a las alturas, mucho más allá del vértigo normal que sentimos todos.",
-          "text": "ACROFOBIA",
-          "icon": "trending-up",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por fuera se ve como piernas temblorosas, agarrarse fuerte a la barandilla o no acercarse al borde.",
-          "text": "CÓMO SE VE",
-          "icon": "hand",
-          "media": "gif",
-          "query": "person scared looking down from height"
-        },
-        {
-          "say": "Por dentro aparece la sensación de que el suelo se mueve y de perder totalmente el equilibrio.",
-          "text": "SENSACIÓN INTERNA",
-          "icon": "heart-crack",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Balcones altos, puentes, miradores de cristal o escaleras exteriores suelen ser los lugares más difíciles.",
-          "text": "LUGARES DIFÍCILES",
-          "icon": "eye",
-          "media": "photo",
-          "query": "glass floor skyscraper observation deck"
-        },
-        {
-          "say": "Un ejemplo real es alguien incapaz de asomarse a la ventana de un piso quince aunque esté cerrada.",
-          "text": "EJEMPLO REAL",
-          "icon": "door-closed",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Este miedo también tiene lógica evolutiva: caer desde una altura era una de las principales causas de muerte.",
-          "text": "LÓGICA EVOLUTIVA",
-          "icon": "dna",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El sistema vestibular, encargado del equilibrio, se altera al procesar la falta de referencias cercanas.",
-          "text": "SISTEMA VESTIBULAR",
-          "icon": "activity",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El cerebro entonces exagera la sensación de inestabilidad como mecanismo extra de protección.",
-          "text": "EXAGERACIÓN CEREBRAL",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Algunas personas desarrollan este miedo tras una caída real o un susto durante la infancia.",
-          "text": "ORIGEN TRAUMÁTICO",
-          "icon": "baby",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Otras simplemente lo heredan de un familiar que también mostraba el mismo comportamiento ante las alturas.",
-          "text": "APRENDIZAJE FAMILIAR",
-          "icon": "users",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Esto puede limitar actividades como viajar en avión, hacer senderismo o incluso subir a una torre turística.",
-          "text": "IMPACTO EN LA VIDA",
-          "icon": "map",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La realidad virtual permite simular alturas de forma segura y controlada durante la terapia de exposición.",
-          "text": "TERAPIA CON REALIDAD VIRTUAL",
-          "icon": "glasses",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "También se trabaja mucho la respiración y el enfoque visual hacia puntos fijos y estables.",
-          "text": "TÉCNICAS DE CONTROL",
-          "icon": "target",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Con práctica constante, muchas personas logran subir a miradores altos sintiendo solo un cosquilleo leve.",
-          "text": "PROGRESO POSIBLE",
-          "icon": "circle-check",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La altura sigue siendo la misma, lo que cambia es la forma en la que el cerebro la interpreta.",
-          "text": "REFLEXIÓN FINAL",
-          "icon": "lightbulb",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "La acrofobia es el miedo intenso a las alturas, mucho más allá del vértigo normal que sentimos todos. Por fuera se ve como piernas temblorosas, agarrarse fuerte a la barandilla o no acercarse al borde. Por dentro aparece la sensación de que el suelo se mueve y de perder totalmente el equilibrio. Balcones altos, puentes, miradores de cristal o escaleras exteriores suelen ser los lugares más difíciles. Un ejemplo real es alguien incapaz de asomarse a la ventana de un piso quince aunque esté cerrada. Este miedo también tiene lógica evolutiva: caer desde una altura era una de las principales causas de muerte. El sistema vestibular, encargado del equilibrio, se altera al procesar la falta de referencias cercanas. El cerebro entonces exagera la sensación de inestabilidad como mecanismo extra de protección. Algunas personas desarrollan este miedo tras una caída real o un susto durante la infancia. Otras simplemente lo heredan de un familiar que también mostraba el mismo comportamiento ante las alturas. Esto puede limitar actividades como viajar en avión, hacer senderismo o incluso subir a una torre turística. La realidad virtual permite simular alturas de forma segura y controlada durante la terapia de exposición. También se trabaja mucho la respiración y el enfoque visual hacia puntos fijos y estables. Con práctica constante, muchas personas logran subir a miradores altos sintiendo solo un cosquilleo leve. La altura sigue siendo la misma, lo que cambia es la forma en la que el cerebro la interpreta.",
-      "videoQuery": "glass skywalk high building view",
-      "photoQuery": "person standing edge tall building scared"
-    },
-    {
-      "id": "v07",
-      "key": "item6",
-      "name": "FOBIA SOCIAL",
-      "color": "#ffb300",
-      "main": "message-circle",
-      "def": "Miedo al juicio de los demás",
-      "beats": [
-        {
-          "say": "La fobia social es el miedo intenso a ser juzgado, humillado o evaluado negativamente por los demás.",
-          "text": "FOBIA SOCIAL",
-          "icon": "message-circle",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por fuera se ve como sonrojo, tartamudeo, evitar el contacto visual o quedarse en blanco de golpe.",
-          "text": "CÓMO SE VE",
-          "icon": "frown",
-          "media": "gif",
-          "query": "person nervous blushing public speaking"
-        },
-        {
-          "say": "Por dentro hay un diálogo constante de autocrítica y anticipación de un ridículo que casi nunca ocurre.",
-          "text": "SENSACIÓN INTERNA",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Hablar en público, comer delante de otros o hacer una llamada telefónica pueden ser retos enormes.",
-          "text": "SITUACIONES DIFÍCILES",
-          "icon": "phone",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Un ejemplo real es alguien que rechaza ascensos laborales solo para evitar dar presentaciones en equipo.",
-          "text": "EJEMPLO REAL",
-          "icon": "briefcase",
-          "media": "photo",
-          "query": "nervous employee meeting presentation office"
-        },
-        {
-          "say": "El origen suele combinar una personalidad sensible con experiencias tempranas de burla o crítica dura.",
-          "text": "ORIGEN COMBINADO",
-          "icon": "dna",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El cerebro social se activa en exceso, procesando cada gesto ajeno como una posible amenaza.",
-          "text": "CEREBRO SOCIAL",
-          "icon": "scan-face",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Esto genera una vigilancia constante hacia uno mismo, analizando cada palabra antes de decirla.",
-          "text": "AUTOVIGILANCIA CONSTANTE",
-          "icon": "eye",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "A largo plazo puede llevar a evitar fiestas, entrevistas de trabajo o incluso citas románticas.",
-          "text": "EVITACIÓN A LARGO PLAZO",
-          "icon": "users",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Las redes sociales, curiosamente, a veces empeoran esto al comparar la vida real con perfiles perfectos.",
-          "text": "INFLUENCIA DIGITAL",
-          "icon": "phone",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La terapia cognitivo conductual ayuda a cuestionar esos pensamientos catastróficos sobre el juicio ajeno.",
-          "text": "TERAPIA COGNITIVA",
-          "icon": "puzzle",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Practicar habilidades sociales poco a poco, en situaciones controladas, reduce mucho la ansiedad anticipada.",
-          "text": "PRÁCTICA GRADUAL",
-          "icon": "handshake",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Grupos de apoyo con personas que sienten lo mismo también resultan muy útiles para normalizar el miedo.",
-          "text": "GRUPOS DE APOYO",
-          "icon": "users",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Con el tiempo, muchas personas logran disfrutar de situaciones sociales que antes evitaban completamente.",
-          "text": "PROGRESO POSIBLE",
-          "icon": "circle-check",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Al final, casi nadie está prestando tanta atención a nuestros errores como creemos que hacen.",
-          "text": "REFLEXIÓN FINAL",
-          "icon": "lightbulb",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "La fobia social es el miedo intenso a ser juzgado, humillado o evaluado negativamente por los demás. Por fuera se ve como sonrojo, tartamudeo, evitar el contacto visual o quedarse en blanco de golpe. Por dentro hay un diálogo constante de autocrítica y anticipación de un ridículo que casi nunca ocurre. Hablar en público, comer delante de otros o hacer una llamada telefónica pueden ser retos enormes. Un ejemplo real es alguien que rechaza ascensos laborales solo para evitar dar presentaciones en equipo. El origen suele combinar una personalidad sensible con experiencias tempranas de burla o crítica dura. El cerebro social se activa en exceso, procesando cada gesto ajeno como una posible amenaza. Esto genera una vigilancia constante hacia uno mismo, analizando cada palabra antes de decirla. A largo plazo puede llevar a evitar fiestas, entrevistas de trabajo o incluso citas románticas. Las redes sociales, curiosamente, a veces empeoran esto al comparar la vida real con perfiles perfectos. La terapia cognitivo conductual ayuda a cuestionar esos pensamientos catastróficos sobre el juicio ajeno. Practicar habilidades sociales poco a poco, en situaciones controladas, reduce mucho la ansiedad anticipada. Grupos de apoyo con personas que sienten lo mismo también resultan muy útiles para normalizar el miedo. Con el tiempo, muchas personas logran disfrutar de situaciones sociales que antes evitaban completamente. Al final, casi nadie está prestando tanta atención a nuestros errores como creemos que hacen.",
-      "videoQuery": "person anxious speaking in front of audience",
-      "photoQuery": "person nervous public speaking crowd"
-    },
-    {
-      "id": "v08",
-      "key": "item7",
-      "name": "COULROFOBIA",
-      "color": "#ffd54f",
-      "main": "drama",
-      "def": "Miedo intenso a los payasos",
-      "beats": [
-        {
-          "say": "La coulrofobia es el miedo intenso y persistente hacia los payasos, incluso en contextos festivos.",
-          "text": "COULROFOBIA",
-          "icon": "drama",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por fuera se ve como querer alejarse rápido, taparse los ojos o directamente salir corriendo del lugar.",
-          "text": "CÓMO SE VE",
-          "icon": "footprints",
-          "media": "gif",
-          "query": "kid scared running away clown"
-        },
-        {
-          "say": "Por dentro genera una sensación de amenaza escondida detrás de una sonrisa que parece falsa.",
-          "text": "SENSACIÓN INTERNA",
-          "icon": "venetian-mask",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Fiestas de cumpleaños, circos o películas de terror suelen ser los contextos más temidos.",
-          "text": "CONTEXTOS COMUNES",
-          "icon": "eye",
-          "media": "photo",
-          "query": "circus clown performance stage"
-        },
-        {
-          "say": "Un ejemplo real son niños que lloran al ver un payaso animando una fiesta infantil.",
-          "text": "EJEMPLO REAL",
-          "icon": "baby",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El maquillaje exagerado dificulta leer las expresiones reales, y eso genera desconfianza inmediata en el cerebro.",
-          "text": "MAQUILLAJE Y CONFIANZA",
-          "icon": "scan-face",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Los humanos necesitamos ver microexpresiones faciales para saber si alguien es de fiar o no.",
-          "text": "NECESIDAD DE EXPRESIONES",
-          "icon": "eye",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Al ocultar esas señales, el payaso activa una alarma cerebral de incertidumbre y posible peligro.",
-          "text": "ALARMA CEREBRAL",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Las películas de terror con payasos asesinos han reforzado muchísimo esta asociación cultural negativa.",
-          "text": "INFLUENCIA CULTURAL",
-          "icon": "skull",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "También influye la sonrisa fija pintada, que contrasta de forma extraña con el resto del rostro.",
-          "text": "SONRISA FIJA",
-          "icon": "frown",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Este fenómeno se relaciona con el llamado valle inquietante, cuando algo casi humano resulta perturbador.",
-          "text": "VALLE INQUIETANTE",
-          "icon": "venetian-mask",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "No suele necesitar tratamiento formal si no interfiere demasiado en la vida diaria de la persona.",
-          "text": "TRATAMIENTO OPCIONAL",
+          "say": "Vamos a verlas una por una, sin prisa.",
+          "text": "VAMOS POR PARTES",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Cuando sí interfiere, la exposición gradual a imágenes y luego payasos reales ayuda a reducir el miedo.",
-          "text": "EXPOSICIÓN GRADUAL",
-          "icon": "list-checks",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Conocer a la persona detrás del maquillaje, sin disfraz, también ayuda mucho a bajar la ansiedad.",
-          "text": "CONOCER A LA PERSONA",
-          "icon": "handshake",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Al final, el miedo nace de no poder leer bien las intenciones detrás de esa máscara pintada.",
-          "text": "REFLEXIÓN FINAL",
-          "icon": "lightbulb",
+          "say": "El primer cambio visible llega enseguida: el frío.",
+          "text": "EMPIEZA EL PROCESO",
+          "icon": "hourglass",
           "media": "none",
           "query": ""
         }
       ],
-      "narration": "La coulrofobia es el miedo intenso y persistente hacia los payasos, incluso en contextos festivos. Por fuera se ve como querer alejarse rápido, taparse los ojos o directamente salir corriendo del lugar. Por dentro genera una sensación de amenaza escondida detrás de una sonrisa que parece falsa. Fiestas de cumpleaños, circos o películas de terror suelen ser los contextos más temidos. Un ejemplo real son niños que lloran al ver un payaso animando una fiesta infantil. El maquillaje exagerado dificulta leer las expresiones reales, y eso genera desconfianza inmediata en el cerebro. Los humanos necesitamos ver microexpresiones faciales para saber si alguien es de fiar o no. Al ocultar esas señales, el payaso activa una alarma cerebral de incertidumbre y posible peligro. Las películas de terror con payasos asesinos han reforzado muchísimo esta asociación cultural negativa. También influye la sonrisa fija pintada, que contrasta de forma extraña con el resto del rostro. Este fenómeno se relaciona con el llamado valle inquietante, cuando algo casi humano resulta perturbador. No suele necesitar tratamiento formal si no interfiere demasiado en la vida diaria de la persona. Cuando sí interfiere, la exposición gradual a imágenes y luego payasos reales ayuda a reducir el miedo. Conocer a la persona detrás del maquillaje, sin disfraz, también ayuda mucho a bajar la ansiedad. Al final, el miedo nace de no poder leer bien las intenciones detrás de esa máscara pintada.",
-      "videoQuery": "clown makeup close up unsettling",
-      "photoQuery": "creepy clown face close up"
+      "narration": "Todo empieza cuando el corazón deja de latir. Sin bombeo, el oxígeno deja de llegar a las células. El cerebro es el primero en sufrir esa falta. En unos cuatro a seis minutos empiezan los daños graves. Se declara la muerte clínica cuando cesan estas funciones. Todos los músculos del cuerpo se relajan de golpe. Por eso pueden relajarse también los esfínteres. La piel empieza a perder su color rosado habitual. La sangre deja de moverse por las venas. Durante unos minutos el cuerpo mantiene su temperatura normal. Las pupilas dejan de reaccionar a la luz. Desaparecen todos los reflejos musculares y nerviosos. Pero ojo, muchas células siguen vivas unas horas más. A partir de aquí arranca un reloj biológico preciso. Estas fases son claves para la ciencia forense. Cada fase deja pistas sobre cuándo ocurrió la muerte. Vamos a verlas una por una, sin prisa. El primer cambio visible llega enseguida: el frío.",
+      "videoQuery": "medical death clinical illustration",
+      "photoQuery": "human heart stops beating"
     },
     {
-      "id": "v09",
-      "key": "item8",
-      "name": "AVIOFOBIA",
-      "color": "#4db6ac",
-      "main": "anchor",
-      "def": "Miedo intenso a volar en avión",
+      "id": "v03",
+      "key": "item2",
+      "name": "ALGOR MORTIS",
+      "color": "#90a4ae",
+      "main": "snowflake",
+      "def": "enfriamiento del cuerpo",
       "beats": [
         {
-          "say": "La aviofobia es el miedo intenso a volar, incluso sabiendo que estadísticamente es de los transportes más seguros.",
-          "text": "AVIOFOBIA",
-          "icon": "anchor",
+          "say": "La primera fase visible se llama algor mortis.",
+          "text": "ALGOR MORTIS",
+          "icon": "snowflake",
+          "media": "clip",
+          "query": "frost ice texture close up"
+        },
+        {
+          "say": "En latín significa literalmente frialdad de la muerte.",
+          "text": "SIGNIFICADO",
+          "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Por fuera se ve como agarrar fuerte los reposabrazos, sudar frío o pedir tranquilizantes antes del vuelo.",
-          "text": "CÓMO SE VE",
-          "icon": "activity",
+          "say": "El cuerpo empieza a perder calor poco a poco.",
+          "text": "PIERDE CALOR",
+          "icon": "arrow-down",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ya no genera calor porque el metabolismo se ha parado.",
+          "text": "SIN GENERAR CALOR",
+          "icon": "flame",
           "media": "gif",
-          "query": "nervous passenger gripping airplane armrest"
+          "query": "fire extinguishing dying flame"
         },
         {
-          "say": "Por dentro aparece la sensación de no tener ningún control sobre lo que está pasando en ese momento.",
-          "text": "SENSACIÓN INTERNA",
-          "icon": "heart-crack",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El despegue, el aterrizaje o cualquier turbulencia inesperada suelen disparar los momentos más intensos de pánico.",
-          "text": "MOMENTOS CRÍTICOS",
-          "icon": "zap",
+          "say": "La temperatura baja alrededor de un grado por hora.",
+          "text": "RITMO",
+          "icon": "gauge",
           "media": "photo",
-          "query": "airplane taking off runway"
+          "query": "body temperature thermometer chart"
         },
         {
-          "say": "Un ejemplo real es alguien que planifica vacaciones enteras solo por destinos accesibles en coche o tren.",
-          "text": "EJEMPLO REAL",
-          "icon": "map",
+          "say": "Ese ritmo es más rápido en las primeras horas.",
+          "text": "PRIMERAS HORAS",
+          "icon": "hourglass",
           "media": "none",
           "query": ""
         },
         {
-          "say": "El origen suele combinar la falta de control con un miedo previo a las alturas o a los espacios cerrados.",
-          "text": "ORIGEN COMBINADO",
-          "icon": "dna",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ver noticias de accidentes aéreos, aunque sean extremadamente raros, refuerza mucho esta percepción exagerada.",
-          "text": "INFLUENCIA MEDIÁTICA",
-          "icon": "phone",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El cerebro tiende a recordar mejor sucesos dramáticos que estadísticas frías sobre seguridad real.",
-          "text": "SESGO CEREBRAL",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Esto se llama sesgo de disponibilidad, y hace que lo memorable parezca más probable de lo que es.",
-          "text": "SESGO DE DISPONIBILIDAD",
-          "icon": "puzzle",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Algunas personas desarrollan este miedo después de vivir un vuelo con turbulencias muy fuertes.",
-          "text": "EXPERIENCIA TRAUMÁTICA",
-          "icon": "alert-triangle",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Existen cursos específicos donde pilotos explican cómo funciona un avión para reducir la incertidumbre.",
-          "text": "CURSOS ESPECIALIZADOS",
-          "icon": "graduation-cap",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Entender el proceso técnico ayuda mucho a calmar esa sensación de falta total de control.",
-          "text": "ENTENDER EL PROCESO",
-          "icon": "lightbulb",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Las técnicas de respiración y distracción mental también son muy útiles durante el propio vuelo.",
-          "text": "TÉCNICAS DURANTE EL VUELO",
-          "icon": "activity",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Con exposición progresiva, muchas personas logran volar de nuevo con una ansiedad mucho más manejable.",
-          "text": "PROGRESO POSIBLE",
-          "icon": "circle-check",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Volar sigue siendo uno de los medios de transporte más seguros que existen actualmente.",
-          "text": "REFLEXIÓN FINAL",
+          "say": "Hasta igualarse con la temperatura del ambiente.",
+          "text": "EQUILIBRIO",
           "icon": "scale",
           "media": "none",
           "query": ""
-        }
-      ],
-      "narration": "La aviofobia es el miedo intenso a volar, incluso sabiendo que estadísticamente es de los transportes más seguros. Por fuera se ve como agarrar fuerte los reposabrazos, sudar frío o pedir tranquilizantes antes del vuelo. Por dentro aparece la sensación de no tener ningún control sobre lo que está pasando en ese momento. El despegue, el aterrizaje o cualquier turbulencia inesperada suelen disparar los momentos más intensos de pánico. Un ejemplo real es alguien que planifica vacaciones enteras solo por destinos accesibles en coche o tren. El origen suele combinar la falta de control con un miedo previo a las alturas o a los espacios cerrados. Ver noticias de accidentes aéreos, aunque sean extremadamente raros, refuerza mucho esta percepción exagerada. El cerebro tiende a recordar mejor sucesos dramáticos que estadísticas frías sobre seguridad real. Esto se llama sesgo de disponibilidad, y hace que lo memorable parezca más probable de lo que es. Algunas personas desarrollan este miedo después de vivir un vuelo con turbulencias muy fuertes. Existen cursos específicos donde pilotos explican cómo funciona un avión para reducir la incertidumbre. Entender el proceso técnico ayuda mucho a calmar esa sensación de falta total de control. Las técnicas de respiración y distracción mental también son muy útiles durante el propio vuelo. Con exposición progresiva, muchas personas logran volar de nuevo con una ansiedad mucho más manejable. Volar sigue siendo uno de los medios de transporte más seguros que existen actualmente.",
-      "videoQuery": "airplane turbulence flight cabin",
-      "photoQuery": "person nervous inside airplane cabin"
-    },
-    {
-      "id": "v10",
-      "key": "item9",
-      "name": "EMETOFOBIA",
-      "color": "#7986cb",
-      "main": "shield-alert",
-      "def": "Miedo intenso a vomitar",
-      "beats": [
-        {
-          "say": "La emetofobia es el miedo intenso a vomitar, a ver a alguien vomitar o incluso a sentir náuseas.",
-          "text": "EMETOFOBIA",
-          "icon": "shield-alert",
-          "media": "none",
-          "query": ""
         },
         {
-          "say": "Por fuera se ve como evitar ciertos alimentos, restaurantes desconocidos o cualquier viaje en barco.",
-          "text": "CÓMO SE VE",
-          "icon": "ban",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por dentro hay una vigilancia constante del propio cuerpo, buscando cualquier señal mínima de malestar.",
-          "text": "SENSACIÓN INTERNA",
-          "icon": "eye",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Comer fuera de casa, viajar en avión o estar cerca de personas enfermas genera ansiedad enorme.",
-          "text": "SITUACIONES DIFÍCILES",
-          "icon": "users",
-          "media": "gif",
-          "query": "person nervous eating restaurant"
-        },
-        {
-          "say": "Un ejemplo real es alguien que revisa obsesivamente las fechas de caducidad antes de comer cualquier cosa.",
-          "text": "EJEMPLO REAL",
-          "icon": "eye",
-          "media": "photo",
-          "query": "person checking food expiration date"
-        },
-        {
-          "say": "Esta fobia suele estar muy relacionada con la necesidad de sentir control absoluto sobre el propio cuerpo.",
-          "text": "NECESIDAD DE CONTROL",
-          "icon": "target",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Vomitar representa perder ese control de forma pública, incómoda y totalmente involuntaria.",
-          "text": "PÉRDIDA DE CONTROL",
-          "icon": "heart-crack",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Muchas veces se origina en la infancia, tras una experiencia desagradable relacionada con vomitar en público.",
-          "text": "ORIGEN INFANTIL",
-          "icon": "baby",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El cerebro asocia entonces cualquier señal de náusea con una amenaza social y física combinada.",
-          "text": "ASOCIACIÓN DEL CEREBRO",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Esto puede derivar en restricciones alimentarias muy estrictas para evitar cualquier posible malestar estomacal.",
-          "text": "RESTRICCIONES ALIMENTARIAS",
-          "icon": "ban",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "También es común evitar el contacto con niños pequeños, que vomitan con más frecuencia y naturalidad.",
-          "text": "EVITAR CONTACTO",
-          "icon": "baby",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La terapia de exposición trabaja gradualmente con palabras, imágenes y sensaciones corporales relacionadas.",
-          "text": "TERAPIA DE EXPOSICIÓN",
-          "icon": "list-checks",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Técnicas de manejo de la ansiedad ayudan a reducir esa vigilancia corporal tan agotadora y constante.",
-          "text": "MANEJO DE ANSIEDAD",
-          "icon": "activity",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Con tratamiento, muchas personas recuperan la libertad de comer y viajar sin ese miedo paralizante.",
-          "text": "PROGRESO POSIBLE",
-          "icon": "circle-check",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El cuerpo tiene mecanismos naturales para regularse, y perder ese control puntual no define nada de ti.",
-          "text": "REFLEXIÓN FINAL",
-          "icon": "lightbulb",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "La emetofobia es el miedo intenso a vomitar, a ver a alguien vomitar o incluso a sentir náuseas. Por fuera se ve como evitar ciertos alimentos, restaurantes desconocidos o cualquier viaje en barco. Por dentro hay una vigilancia constante del propio cuerpo, buscando cualquier señal mínima de malestar. Comer fuera de casa, viajar en avión o estar cerca de personas enfermas genera ansiedad enorme. Un ejemplo real es alguien que revisa obsesivamente las fechas de caducidad antes de comer cualquier cosa. Esta fobia suele estar muy relacionada con la necesidad de sentir control absoluto sobre el propio cuerpo. Vomitar representa perder ese control de forma pública, incómoda y totalmente involuntaria. Muchas veces se origina en la infancia, tras una experiencia desagradable relacionada con vomitar en público. El cerebro asocia entonces cualquier señal de náusea con una amenaza social y física combinada. Esto puede derivar en restricciones alimentarias muy estrictas para evitar cualquier posible malestar estomacal. También es común evitar el contacto con niños pequeños, que vomitan con más frecuencia y naturalidad. La terapia de exposición trabaja gradualmente con palabras, imágenes y sensaciones corporales relacionadas. Técnicas de manejo de la ansiedad ayudan a reducir esa vigilancia corporal tan agotadora y constante. Con tratamiento, muchas personas recuperan la libertad de comer y viajar sin ese miedo paralizante. El cuerpo tiene mecanismos naturales para regularse, y perder ese control puntual no define nada de ti.",
-      "videoQuery": "person nervous stomach discomfort",
-      "photoQuery": "person feeling nauseous holding stomach"
-    },
-    {
-      "id": "v11",
-      "key": "item10",
-      "name": "MISOFOBIA",
-      "color": "#4dd0e1",
-      "main": "hand",
-      "def": "Miedo intenso a los gérmenes",
-      "beats": [
-        {
-          "say": "La misofobia es el miedo intenso a los gérmenes, la suciedad o la contaminación por contacto.",
-          "text": "MISOFOBIA",
-          "icon": "hand",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por fuera se ve como lavarse las manos repetidamente o evitar tocar pomos de puertas públicas.",
-          "text": "CÓMO SE VE",
-          "icon": "activity",
-          "media": "gif",
-          "query": "person washing hands repeatedly sink"
-        },
-        {
-          "say": "Por dentro hay una sensación constante de estar contaminado, aunque no exista ninguna evidencia real de ello.",
-          "text": "SENSACIÓN INTERNA",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Baños públicos, transporte compartido o dar la mano a desconocidos generan una ansiedad muy elevada.",
-          "text": "SITUACIONES DIFÍCILES",
-          "icon": "users",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Un ejemplo real es alguien que lleva siempre gel desinfectante y lo usa varias veces en cada trayecto.",
-          "text": "EJEMPLO REAL",
-          "icon": "syringe",
-          "media": "photo",
-          "query": "person using hand sanitizer public transport"
-        },
-        {
-          "say": "Esta fobia puede tener un componente evolutivo, ya que evitar suciedad ayudaba a prevenir enfermedades graves.",
-          "text": "COMPONENTE EVOLUTIVO",
-          "icon": "dna",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Sin embargo, en su forma exagerada, interfiere muchísimo con la vida social y laboral diaria.",
-          "text": "INTERFERENCIA DIARIA",
-          "icon": "briefcase",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El cerebro entra en un bucle donde lavarse calma momentáneamente, pero el miedo vuelve reforzado después.",
-          "text": "BUCLE MENTAL",
-          "icon": "puzzle",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Este patrón se parece mucho al trastorno obsesivo compulsivo, aunque no siempre son exactamente lo mismo.",
-          "text": "RELACIÓN CON TOC",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Los eventos globales de salud, como pandemias, pueden intensificar mucho este tipo de miedo preexistente.",
-          "text": "EVENTOS GLOBALES",
+          "say": "La ropa, el clima y el lugar influyen mucho.",
+          "text": "FACTORES EXTERNOS",
           "icon": "globe",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Las manos pueden llegar a agrietarse o sangrar por el exceso de lavado y desinfección constante.",
-          "text": "CONSECUENCIAS FÍSICAS",
-          "icon": "alert-triangle",
+          "say": "Un cuerpo con más grasa tarda más en enfriarse.",
+          "text": "CUERPO GRUESO",
+          "icon": "user",
           "media": "none",
           "query": ""
         },
         {
-          "say": "La terapia de exposición con prevención de respuesta ayuda a tolerar la incomodidad sin lavarse de inmediato.",
-          "text": "TERAPIA ESPECÍFICA",
-          "icon": "list-checks",
+          "say": "Al tacto, la piel se nota fría y algo húmeda.",
+          "text": "AL TACTO",
+          "icon": "hand",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Poco a poco se va reduciendo la frecuencia del lavado mientras la ansiedad disminuye de forma natural.",
-          "text": "REDUCCIÓN GRADUAL",
-          "icon": "trending-down",
+          "say": "Los forenses usan esta bajada para calcular la hora de la muerte.",
+          "text": "USO FORENSE",
+          "icon": "scale",
+          "media": "photo",
+          "query": "forensic thermometer body temperature"
+        },
+        {
+          "say": "Aunque siempre con un margen de error considerable.",
+          "text": "MARGEN DE ERROR",
+          "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Con tratamiento adecuado, muchas personas recuperan una relación mucho más sana con la limpieza cotidiana.",
-          "text": "PROGRESO POSIBLE",
+          "say": "Un cuerpo en la calle en invierno se enfría muy rápido.",
+          "text": "EJEMPLO",
+          "icon": "snowflake",
+          "media": "clip",
+          "query": "cold winter street scene"
+        },
+        {
+          "say": "Uno en una habitación cálida tarda muchas más horas.",
+          "text": "LUGAR CERRADO",
+          "icon": "door-closed",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El proceso no es instantáneo, es progresivo.",
+          "text": "NO ES INSTANTÁNEO",
+          "icon": "clock",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Mientras se enfría, empieza otro cambio en paralelo.",
+          "text": "SIGUIENTE FASE",
+          "icon": "arrow-down",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La sangre deja de moverse y empieza a acumularse.",
+          "text": "LA SANGRE",
+          "icon": "heart-crack",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Eso da paso a la siguiente fase: el livor mortis.",
+          "text": "LIVOR MORTIS",
+          "icon": "eye",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "La primera fase visible se llama algor mortis. En latín significa literalmente frialdad de la muerte. El cuerpo empieza a perder calor poco a poco. Ya no genera calor porque el metabolismo se ha parado. La temperatura baja alrededor de un grado por hora. Ese ritmo es más rápido en las primeras horas. Hasta igualarse con la temperatura del ambiente. La ropa, el clima y el lugar influyen mucho. Un cuerpo con más grasa tarda más en enfriarse. Al tacto, la piel se nota fría y algo húmeda. Los forenses usan esta bajada para calcular la hora de la muerte. Aunque siempre con un margen de error considerable. Un cuerpo en la calle en invierno se enfría muy rápido. Uno en una habitación cálida tarda muchas más horas. El proceso no es instantáneo, es progresivo. Mientras se enfría, empieza otro cambio en paralelo. La sangre deja de moverse y empieza a acumularse. Eso da paso a la siguiente fase: el livor mortis.",
+      "videoQuery": "frost ice texture close up",
+      "photoQuery": "cold body temperature forensic"
+    },
+    {
+      "id": "v04",
+      "key": "item3",
+      "name": "LIVOR MORTIS",
+      "color": "#ba68c8",
+      "main": "eye",
+      "def": "manchas por gravedad",
+      "beats": [
+        {
+          "say": "El livor mortis son esas manchas moradas en la piel.",
+          "text": "LIVOR MORTIS",
+          "icon": "eye",
+          "media": "photo",
+          "query": "purple bruise skin discoloration"
+        },
+        {
+          "say": "Se conocen también como livideces cadavéricas.",
+          "text": "QUÉ ES",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La sangre, sin bombeo, cae por gravedad hacia abajo.",
+          "text": "GRAVEDAD",
+          "icon": "arrow-down",
+          "media": "photo",
+          "query": "liquid gravity physics diagram"
+        },
+        {
+          "say": "Se acumula en las zonas más bajas del cuerpo.",
+          "text": "SE ACUMULA",
+          "icon": "heart-crack",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Si está boca arriba, se acumula en la espalda.",
+          "text": "BOCA ARRIBA",
+          "icon": "user",
+          "media": "clip",
+          "query": "gravity liquid pooling illustration"
+        },
+        {
+          "say": "La piel de esas zonas toma un tono violáceo.",
+          "text": "COLOR",
+          "icon": "eye",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Empieza a notarse entre media hora y dos horas después.",
+          "text": "CUÁNDO APARECE",
+          "icon": "hourglass",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Con el tiempo, ese color se vuelve fijo y permanente.",
+          "text": "SE FIJA",
+          "icon": "lock",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Porque la sangre se degrada y ya no puede moverse.",
+          "text": "POR QUÉ SE FIJA",
+          "icon": "microscope",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Donde el cuerpo toca una superficie, no aparece la mancha.",
+          "text": "PUNTOS DE CONTACTO",
+          "icon": "ban",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Esas zonas quedan más pálidas por la presión.",
+          "text": "ZONA BLANCA",
           "icon": "circle-check",
           "media": "none",
           "query": ""
         },
         {
-          "say": "La limpieza es útil hasta cierto punto, pero el cuerpo también necesita cierto contacto normal con el mundo.",
-          "text": "REFLEXIÓN FINAL",
-          "icon": "lightbulb",
+          "say": "Esto le dice a un forense si movieron el cuerpo.",
+          "text": "PISTA CLAVE",
+          "icon": "scale",
+          "media": "photo",
+          "query": "forensic investigation crime scene"
+        },
+        {
+          "say": "Si las manchas no coinciden con la postura, algo cambió.",
+          "text": "EJEMPLO",
+          "icon": "map",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Tras unas ocho o diez horas, el color ya no cambia.",
+          "text": "TIEMPO LÍMITE",
+          "icon": "clock",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Puede confundirse con moretones si no se conoce el proceso.",
+          "text": "CON LA PIEL",
+          "icon": "eye",
+          "media": "photo",
+          "query": "skin bruise medical comparison"
+        },
+        {
+          "say": "Es un proceso físico normal, no algo dañino.",
+          "text": "PROCESO NATURAL",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Y justo en paralelo, los músculos empiezan a cambiar también.",
+          "text": "MIENTRAS TANTO",
+          "icon": "hourglass",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ahí llega la fase más conocida: el rigor mortis.",
+          "text": "SIGUIENTE FASE",
+          "icon": "shield",
           "media": "none",
           "query": ""
         }
       ],
-      "narration": "La misofobia es el miedo intenso a los gérmenes, la suciedad o la contaminación por contacto. Por fuera se ve como lavarse las manos repetidamente o evitar tocar pomos de puertas públicas. Por dentro hay una sensación constante de estar contaminado, aunque no exista ninguna evidencia real de ello. Baños públicos, transporte compartido o dar la mano a desconocidos generan una ansiedad muy elevada. Un ejemplo real es alguien que lleva siempre gel desinfectante y lo usa varias veces en cada trayecto. Esta fobia puede tener un componente evolutivo, ya que evitar suciedad ayudaba a prevenir enfermedades graves. Sin embargo, en su forma exagerada, interfiere muchísimo con la vida social y laboral diaria. El cerebro entra en un bucle donde lavarse calma momentáneamente, pero el miedo vuelve reforzado después. Este patrón se parece mucho al trastorno obsesivo compulsivo, aunque no siempre son exactamente lo mismo. Los eventos globales de salud, como pandemias, pueden intensificar mucho este tipo de miedo preexistente. Las manos pueden llegar a agrietarse o sangrar por el exceso de lavado y desinfección constante. La terapia de exposición con prevención de respuesta ayuda a tolerar la incomodidad sin lavarse de inmediato. Poco a poco se va reduciendo la frecuencia del lavado mientras la ansiedad disminuye de forma natural. Con tratamiento adecuado, muchas personas recuperan una relación mucho más sana con la limpieza cotidiana. La limpieza es útil hasta cierto punto, pero el cuerpo también necesita cierto contacto normal con el mundo.",
-      "videoQuery": "hands washing soap repeated close up",
-      "photoQuery": "person washing hands compulsively sink"
+      "narration": "El livor mortis son esas manchas moradas en la piel. Se conocen también como livideces cadavéricas. La sangre, sin bombeo, cae por gravedad hacia abajo. Se acumula en las zonas más bajas del cuerpo. Si está boca arriba, se acumula en la espalda. La piel de esas zonas toma un tono violáceo. Empieza a notarse entre media hora y dos horas después. Con el tiempo, ese color se vuelve fijo y permanente. Porque la sangre se degrada y ya no puede moverse. Donde el cuerpo toca una superficie, no aparece la mancha. Esas zonas quedan más pálidas por la presión. Esto le dice a un forense si movieron el cuerpo. Si las manchas no coinciden con la postura, algo cambió. Tras unas ocho o diez horas, el color ya no cambia. Puede confundirse con moretones si no se conoce el proceso. Es un proceso físico normal, no algo dañino. Y justo en paralelo, los músculos empiezan a cambiar también. Ahí llega la fase más conocida: el rigor mortis.",
+      "videoQuery": "gravity liquid pooling illustration",
+      "photoQuery": "purple skin discoloration bruise"
+    },
+    {
+      "id": "v05",
+      "key": "item4",
+      "name": "RIGOR MORTIS",
+      "color": "#607d8b",
+      "main": "shield",
+      "def": "rigidez muscular postmortem",
+      "beats": [
+        {
+          "say": "El rigor mortis es la rigidez que endurece los músculos.",
+          "text": "RIGOR MORTIS",
+          "icon": "shield",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ocurre porque las células se quedan sin energía, sin ATP.",
+          "text": "CAUSA",
+          "icon": "zap",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Sin esa energía, las fibras musculares se quedan trabadas.",
+          "text": "EXPLICACIÓN",
+          "icon": "microscope",
+          "media": "photo",
+          "query": "muscle fiber microscope illustration"
+        },
+        {
+          "say": "Empieza entre dos y cuatro horas tras la muerte.",
+          "text": "INICIO",
+          "icon": "hourglass",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Suele empezar por los músculos pequeños, como los de la cara.",
+          "text": "ORDEN",
+          "icon": "list-checks",
+          "media": "photo",
+          "query": "facial muscles anatomy diagram"
+        },
+        {
+          "say": "Después avanza hacia el cuello, los brazos y las piernas.",
+          "text": "AVANCE",
+          "icon": "arrow-down",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Alcanza su punto máximo entre doce y veinticuatro horas.",
+          "text": "MÁXIMO",
+          "icon": "trending-up",
+          "media": "clip",
+          "query": "stiff body medical illustration"
+        },
+        {
+          "say": "En ese punto el cuerpo está completamente rígido.",
+          "text": "CUERPO RÍGIDO",
+          "icon": "user",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Esta rigidez se mantiene más o menos un día entero.",
+          "text": "DURACIÓN",
+          "icon": "clock",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Luego empieza a desaparecer en el mismo orden en que llegó.",
+          "text": "SE VA",
+          "icon": "arrow-up",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Se va porque las propias enzimas empiezan a romper el tejido.",
+          "text": "POR QUÉ DESAPARECE",
+          "icon": "bug",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El calor acelera el proceso; el frío lo retrasa mucho.",
+          "text": "FACTORES",
+          "icon": "gauge",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "En una nevera, el rigor puede tardar mucho más en llegar.",
+          "text": "EJEMPLO",
+          "icon": "snowflake",
+          "media": "gif",
+          "query": "frozen statue funny meme"
+        },
+        {
+          "say": "Es otra pista más para estimar cuándo ocurrió la muerte.",
+          "text": "USO FORENSE",
+          "icon": "scale",
+          "media": "photo",
+          "query": "forensic science investigation"
+        },
+        {
+          "say": "No significa que el cuerpo se mueva ni reaccione.",
+          "text": "MITO",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Es pura química celular, nada misterioso detrás.",
+          "text": "SOLO FÍSICA",
+          "icon": "atom",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Cuando pasa, el cuerpo queda blando otra vez.",
+          "text": "TRAS EL RIGOR",
+          "icon": "door-open",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Y ahí empieza el trabajo silencioso de las propias células.",
+          "text": "LO QUE VIENE",
+          "icon": "bug",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "El rigor mortis es la rigidez que endurece los músculos. Ocurre porque las células se quedan sin energía, sin ATP. Sin esa energía, las fibras musculares se quedan trabadas. Empieza entre dos y cuatro horas tras la muerte. Suele empezar por los músculos pequeños, como los de la cara. Después avanza hacia el cuello, los brazos y las piernas. Alcanza su punto máximo entre doce y veinticuatro horas. En ese punto el cuerpo está completamente rígido. Esta rigidez se mantiene más o menos un día entero. Luego empieza a desaparecer en el mismo orden en que llegó. Se va porque las propias enzimas empiezan a romper el tejido. El calor acelera el proceso; el frío lo retrasa mucho. En una nevera, el rigor puede tardar mucho más en llegar. Es otra pista más para estimar cuándo ocurrió la muerte. No significa que el cuerpo se mueva ni reaccione. Es pura química celular, nada misterioso detrás. Cuando pasa, el cuerpo queda blando otra vez. Y ahí empieza el trabajo silencioso de las propias células.",
+      "videoQuery": "muscle rigidity forensic science",
+      "photoQuery": "stiff body medical illustration"
+    },
+    {
+      "id": "v06",
+      "key": "item5",
+      "name": "AUTOLISIS",
+      "color": "#f06292",
+      "main": "microscope",
+      "def": "autodigestión celular interna",
+      "beats": [
+        {
+          "say": "La autolisis es cuando las células se digieren a sí mismas.",
+          "text": "AUTOLISIS",
+          "icon": "microscope",
+          "media": "photo",
+          "query": "cell biology illustration diagram"
+        },
+        {
+          "say": "Sin oxígeno, las membranas celulares empiezan a romperse.",
+          "text": "QUÉ PASA",
+          "icon": "atom",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Las enzimas que antes digerían comida ahora atacan el propio tejido.",
+          "text": "ENZIMAS",
+          "icon": "bug",
+          "media": "photo",
+          "query": "enzyme molecule illustration"
+        },
+        {
+          "say": "Los órganos con más enzimas, como el páncreas, se degradan antes.",
+          "text": "ÓRGANOS RÁPIDOS",
+          "icon": "brain",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El hígado también se descompone bastante rápido.",
+          "text": "HÍGADO",
+          "icon": "activity",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Estos cambios ocurren por dentro, casi sin verse fuera.",
+          "text": "INTERNAS",
+          "icon": "eye",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "En la piel pueden empezar a formarse pequeñas ampollas.",
+          "text": "AMPOLLAS",
+          "icon": "shield-alert",
+          "media": "photo",
+          "query": "skin blister decomposition close up"
+        },
+        {
+          "say": "La piel puede empezar a desprenderse levemente en zonas concretas.",
+          "text": "DESPRENDIMIENTO",
+          "icon": "hand",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Se generan los primeros gases dentro de los tejidos.",
+          "text": "GASES INICIALES",
+          "icon": "atom",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Aparecen los primeros olores propios de este proceso.",
+          "text": "OLOR",
+          "icon": "volume-x",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Todo esto ocurre en las primeras veinticuatro a setenta y dos horas.",
+          "text": "TIEMPO",
+          "icon": "hourglass",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El calor ambiental acelera muchísimo esta autodigestión.",
+          "text": "FACTOR CALOR",
+          "icon": "flame",
+          "media": "gif",
+          "query": "melting heat funny meme"
+        },
+        {
+          "say": "El frío, en cambio, la frena de forma notable.",
+          "text": "FACTOR FRÍO",
+          "icon": "snowflake",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Conocer esto ayuda a estimar mejor el tiempo transcurrido.",
+          "text": "POR QUÉ IMPORTA",
+          "icon": "scale",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Al romperse las barreras, se abre la puerta a las bacterias.",
+          "text": "PUERTA A BACTERIAS",
+          "icon": "door-open",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Y son justo las bacterias las protagonistas de la siguiente fase.",
+          "text": "BACTERIAS",
+          "icon": "bug",
+          "media": "clip",
+          "query": "bacteria microscope animation"
+        },
+        {
+          "say": "El cuerpo pasa de digerirse a sí mismo a ser digerido.",
+          "text": "TRANSICIÓN",
+          "icon": "arrow-down",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Así arranca la fase de la putrefacción.",
+          "text": "SIGUIENTE",
+          "icon": "skull",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "La autolisis es cuando las células se digieren a sí mismas. Sin oxígeno, las membranas celulares empiezan a romperse. Las enzimas que antes digerían comida ahora atacan el propio tejido. Los órganos con más enzimas, como el páncreas, se degradan antes. El hígado también se descompone bastante rápido. Estos cambios ocurren por dentro, casi sin verse fuera. En la piel pueden empezar a formarse pequeñas ampollas. La piel puede empezar a desprenderse levemente en zonas concretas. Se generan los primeros gases dentro de los tejidos. Aparecen los primeros olores propios de este proceso. Todo esto ocurre en las primeras veinticuatro a setenta y dos horas. El calor ambiental acelera muchísimo esta autodigestión. El frío, en cambio, la frena de forma notable. Conocer esto ayuda a estimar mejor el tiempo transcurrido. Al romperse las barreras, se abre la puerta a las bacterias. Y son justo las bacterias las protagonistas de la siguiente fase. El cuerpo pasa de digerirse a sí mismo a ser digerido. Así arranca la fase de la putrefacción.",
+      "videoQuery": "cell membrane breakdown animation",
+      "photoQuery": "human cells microscope decay"
+    },
+    {
+      "id": "v07",
+      "key": "item6",
+      "name": "PUTREFACCIÓN",
+      "color": "#ffb300",
+      "main": "bug",
+      "def": "descomposición por bacterias",
+      "beats": [
+        {
+          "say": "La putrefacción es obra de las bacterias del propio cuerpo.",
+          "text": "PUTREFACCIÓN",
+          "icon": "bug",
+          "media": "photo",
+          "query": "bacteria intestine illustration"
+        },
+        {
+          "say": "Sobre todo las que viven siempre en el intestino.",
+          "text": "DÓNDE VIVEN",
+          "icon": "microscope",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Sin defensas, esas bacterias se expanden por todo el cuerpo.",
+          "text": "INVASIÓN",
+          "icon": "map",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Producen gases como el sulfuro de hidrógeno y el metano.",
+          "text": "GASES",
+          "icon": "atom",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Esos gases hacen que el abdomen se hinche notablemente.",
+          "text": "HINCHAZÓN",
+          "icon": "trending-up",
+          "media": "clip",
+          "query": "gas bloating illustration diagram"
+        },
+        {
+          "say": "La piel del abdomen toma un tono verdoso característico.",
+          "text": "COLOR VERDE",
+          "icon": "eye",
+          "media": "photo",
+          "query": "decomposition color change skin"
+        },
+        {
+          "say": "Suele notarse entre dos y tres días tras la muerte.",
+          "text": "CUÁNDO",
+          "icon": "hourglass",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Aparece un patrón llamado marmoleado, como venas oscuras en la piel.",
+          "text": "MARMOLEADO",
+          "icon": "puzzle",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El olor se vuelve mucho más intenso y reconocible.",
+          "text": "OLOR FUERTE",
+          "icon": "volume-x",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Se forman ampollas grandes llenas de líquido en la piel.",
+          "text": "AMPOLLAS",
+          "icon": "shield-alert",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La piel puede empezar a desprenderse en placas.",
+          "text": "DESPRENDIMIENTO PIEL",
+          "icon": "hand",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El calor acelera todo este proceso de forma drástica.",
+          "text": "FACTORES CLIMA",
+          "icon": "sun",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El frío puede frenarlo durante semanas enteras.",
+          "text": "FACTOR FRÍO",
+          "icon": "snowflake",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Insectos como las moscas también aceleran la descomposición.",
+          "text": "INSECTOS",
+          "icon": "bug",
+          "media": "clip",
+          "query": "flies insects decomposition nature"
+        },
+        {
+          "say": "Estudiar esos insectos es toda una especialidad forense.",
+          "text": "ENTOMOLOGÍA FORENSE",
+          "icon": "scale",
+          "media": "photo",
+          "query": "forensic entomology insects study"
+        },
+        {
+          "say": "Todo este proceso devuelve materia orgánica a la naturaleza.",
+          "text": "FUNCIÓN NATURAL",
+          "icon": "globe",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Es un ciclo biológico tan natural como nacer o crecer.",
+          "text": "NO ES MORBOSO",
+          "icon": "heart",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Con el tiempo, solo queda el paso final: el esqueleto.",
+          "text": "ÚLTIMO PASO",
+          "icon": "footprints",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "La putrefacción es obra de las bacterias del propio cuerpo. Sobre todo las que viven siempre en el intestino. Sin defensas, esas bacterias se expanden por todo el cuerpo. Producen gases como el sulfuro de hidrógeno y el metano. Esos gases hacen que el abdomen se hinche notablemente. La piel del abdomen toma un tono verdoso característico. Suele notarse entre dos y tres días tras la muerte. Aparece un patrón llamado marmoleado, como venas oscuras en la piel. El olor se vuelve mucho más intenso y reconocible. Se forman ampollas grandes llenas de líquido en la piel. La piel puede empezar a desprenderse en placas. El calor acelera todo este proceso de forma drástica. El frío puede frenarlo durante semanas enteras. Insectos como las moscas también aceleran la descomposición. Estudiar esos insectos es toda una especialidad forense. Todo este proceso devuelve materia orgánica a la naturaleza. Es un ciclo biológico tan natural como nacer o crecer. Con el tiempo, solo queda el paso final: el esqueleto.",
+      "videoQuery": "bacteria decomposition process animation",
+      "photoQuery": "decomposition skin color change"
+    },
+    {
+      "id": "v08",
+      "key": "item7",
+      "name": "ESQUELETIZACIÓN",
+      "color": "#ffd54f",
+      "main": "skull",
+      "def": "solo quedan los huesos",
+      "beats": [
+        {
+          "say": "La esqueletización es cuando solo quedan los huesos.",
+          "text": "ESQUELETIZACIÓN",
+          "icon": "skull",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Todos los tejidos blandos han desaparecido por completo.",
+          "text": "TEJIDOS BLANDOS",
+          "icon": "frown",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El tiempo que tarda varía muchísimo según las condiciones.",
+          "text": "TIEMPO VARIABLE",
+          "icon": "hourglass",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "En climas cálidos y húmedos puede tardar solo semanas.",
+          "text": "CLIMA CÁLIDO",
+          "icon": "sun",
+          "media": "photo",
+          "query": "hot humid climate landscape"
+        },
+        {
+          "say": "En lugares fríos o secos puede tardar años.",
+          "text": "CLIMA FRÍO",
+          "icon": "snowflake",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Influyen la tierra, el agua, los animales y los insectos.",
+          "text": "FACTORES",
+          "icon": "globe",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Los huesos aguantan mucho más porque son tejido mineralizado.",
+          "text": "HUESOS RESISTENTES",
+          "icon": "shield",
+          "media": "photo",
+          "query": "human skeleton bones close up"
+        },
+        {
+          "say": "Pueden conservarse durante siglos en buenas condiciones.",
+          "text": "PUEDEN DURAR",
+          "icon": "clock",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Aquí entra en juego la antropología forense.",
+          "text": "ANTROPOLOGÍA FORENSE",
+          "icon": "scale",
+          "media": "photo",
+          "query": "anthropology bones laboratory"
+        },
+        {
+          "say": "Estudian los huesos para saber edad, sexo y altura aproximada.",
+          "text": "QUÉ ESTUDIAN",
+          "icon": "glasses",
+          "media": "clip",
+          "query": "forensic anthropologist examining bones"
+        },
+        {
+          "say": "A veces también ayudan a identificar a la persona.",
+          "text": "IDENTIFICACIÓN",
+          "icon": "scan-face",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Las marcas en los huesos cuentan historias de toda una vida.",
+          "text": "MARCAS",
+          "icon": "ruler",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Una fractura antigua puede quedar marcada para siempre.",
+          "text": "FRACTURAS VIEJAS",
+          "icon": "activity",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Incluso los dientes aportan pistas muy valiosas.",
+          "text": "DIENTES",
+          "icon": "smile",
+          "media": "photo",
+          "query": "human teeth dental forensic"
+        },
+        {
+          "say": "Así se cierra el ciclo natural de la materia orgánica.",
+          "text": "CICLO CERRADO",
+          "icon": "globe",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El cuerpo vuelve, poco a poco, a formar parte del entorno.",
+          "text": "REFLEXIÓN",
+          "icon": "heart",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Pero toda esta información sirve para algo muy útil.",
+          "text": "NO ES EL FINAL",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ahí es donde entra la ciencia forense de verdad.",
+          "text": "SIGUIENTE",
+          "icon": "scale",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "La esqueletización es cuando solo quedan los huesos. Todos los tejidos blandos han desaparecido por completo. El tiempo que tarda varía muchísimo según las condiciones. En climas cálidos y húmedos puede tardar solo semanas. En lugares fríos o secos puede tardar años. Influyen la tierra, el agua, los animales y los insectos. Los huesos aguantan mucho más porque son tejido mineralizado. Pueden conservarse durante siglos en buenas condiciones. Aquí entra en juego la antropología forense. Estudian los huesos para saber edad, sexo y altura aproximada. A veces también ayudan a identificar a la persona. Las marcas en los huesos cuentan historias de toda una vida. Una fractura antigua puede quedar marcada para siempre. Incluso los dientes aportan pistas muy valiosas. Así se cierra el ciclo natural de la materia orgánica. El cuerpo vuelve, poco a poco, a formar parte del entorno. Pero toda esta información sirve para algo muy útil. Ahí es donde entra la ciencia forense de verdad.",
+      "videoQuery": "forensic anthropology bones examination",
+      "photoQuery": "human skeleton bones forensic"
+    },
+    {
+      "id": "v09",
+      "key": "item8",
+      "name": "LA CIENCIA FORENSE",
+      "color": "#4db6ac",
+      "main": "scale",
+      "def": "lo que revela el cuerpo",
+      "beats": [
+        {
+          "say": "Toda esta secuencia sirve para reconstruir lo que pasó.",
+          "text": "CIENCIA FORENSE",
+          "icon": "scale",
+          "media": "photo",
+          "query": "courtroom scale justice"
+        },
+        {
+          "say": "Combinando fases se calcula una hora aproximada de la muerte.",
+          "text": "HORA DE LA MUERTE",
+          "icon": "clock",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Nunca se usa una sola señal, siempre varias juntas.",
+          "text": "VARIAS PISTAS",
+          "icon": "list-checks",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La temperatura corporal da una primera estimación rápida.",
+          "text": "TEMPERATURA",
+          "icon": "snowflake",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Las livideces indican si movieron el cuerpo tras morir.",
+          "text": "LIVIDECES",
+          "icon": "eye",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La rigidez ayuda a acotar un rango de horas.",
+          "text": "RIGIDEZ",
+          "icon": "shield",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Los insectos aportan datos muy precisos en cuerpos avanzados.",
+          "text": "INSECTOS",
+          "icon": "bug",
+          "media": "photo",
+          "query": "forensic science lab investigation"
+        },
+        {
+          "say": "El clima y el lugar cambian por completo los cálculos.",
+          "text": "ENTORNO",
+          "icon": "globe",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "No existe una hora exacta al minuto, solo un rango.",
+          "text": "MITO COMÚN",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La ficción simplifica mucho lo que en realidad es complejo.",
+          "text": "SERIES Y REALIDAD",
+          "icon": "drama",
+          "media": "gif",
+          "query": "csi crime scene funny meme"
+        },
+        {
+          "say": "Esta información ayuda a resolver casos judiciales importantes.",
+          "text": "PARA QUÉ SIRVE",
+          "icon": "handshake",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "También ayuda a identificar restos y devolver nombres.",
+          "text": "TAMBIÉN IDENTIFICA",
+          "icon": "scan-face",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Eso da respuestas a familias que buscan cerrar un duelo.",
+          "text": "A FAMILIAS",
+          "icon": "users",
+          "media": "photo",
+          "query": "family embrace comfort emotional"
+        },
+        {
+          "say": "Es un uso muy concreto y humano de la biología.",
+          "text": "CIENCIA ÚTIL",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Conocer este proceso no tiene nada de morboso.",
+          "text": "NO ES MORBOSO",
+          "icon": "heart",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Es tan natural como cualquier otra etapa de la vida.",
+          "text": "ES NATURAL",
+          "icon": "globe",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Entenderlo puede incluso ayudarnos a perder el miedo.",
+          "text": "PERSPECTIVA",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Y así es, paso a paso, el viaje final del cuerpo.",
+          "text": "CIERRE",
+          "icon": "sparkles",
+          "media": "clip",
+          "query": "sunrise nature timelapse peaceful"
+        }
+      ],
+      "narration": "Toda esta secuencia sirve para reconstruir lo que pasó. Combinando fases se calcula una hora aproximada de la muerte. Nunca se usa una sola señal, siempre varias juntas. La temperatura corporal da una primera estimación rápida. Las livideces indican si movieron el cuerpo tras morir. La rigidez ayuda a acotar un rango de horas. Los insectos aportan datos muy precisos en cuerpos avanzados. El clima y el lugar cambian por completo los cálculos. No existe una hora exacta al minuto, solo un rango. La ficción simplifica mucho lo que en realidad es complejo. Esta información ayuda a resolver casos judiciales importantes. También ayuda a identificar restos y devolver nombres. Eso da respuestas a familias que buscan cerrar un duelo. Es un uso muy concreto y humano de la biología. Conocer este proceso no tiene nada de morboso. Es tan natural como cualquier otra etapa de la vida. Entenderlo puede incluso ayudarnos a perder el miedo. Y así es, paso a paso, el viaje final del cuerpo.",
+      "videoQuery": "crime scene investigation forensic team",
+      "photoQuery": "forensic science laboratory investigation"
     }
   ]
 }
