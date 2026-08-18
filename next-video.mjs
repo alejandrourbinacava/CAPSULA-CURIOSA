@@ -55,13 +55,13 @@ CLAVE — cada item es una SECCIÓN contada como una secuencia de "beats" (momen
 
 REGLAS ESTRICTAS:
 - Todo en ESPAÑOL de España, tono cercano y divulgativo. NADA de diagnósticos; marco explicativo.
-- Cada item tiene "beats": un array de 12 a 15 beats EN ORDEN. La sección se cuenta entera a través de esos beats (definición → cómo se ve por fuera/por dentro → señales → por qué ocurre → un ejemplo concreto → qué hacer).
+- Cada item tiene "beats": un array de 16 a 20 beats EN ORDEN, CORTOS. Cada beat es UNA sola idea (una frase corta) con SU icono, de modo que los iconos entran y salen rápido (uno cada ~2-3 segundos), NUNCA un icono quieto mientras la voz suelta varias frases. La sección se cuenta entera a través de esos beats (definición → cómo se ve por fuera/por dentro → señales → por qué ocurre, con detalle → un ejemplo concreto → qué hacer).
 - Cada beat tiene:
-  - "say": lo que dice la VOZ en ese momento (1 frase natural, ~14-20 palabras). La SUMA de todos los "say" del item debe dar ~210-240 palabras (para que el vídeo total dure 10-12 min).
-  - "text": 2 a 5 palabras que RESUMEN literalmente lo que dice ese "say" (es el rótulo en pantalla; DEBE coincidir con lo que se oye en ese beat, no algo genérico).
-  - "icon": el icono MÁS representativo de ESE beat, SOLO de esta lista: ${ICONS}
-  - "media": "photo", "clip", "gif" o "none". Pon imagen real ("photo"/"clip") o meme divertido ("gif") en unos 5-6 beats con momentos visuales potentes (ejemplos, caras, escenas, reacciones); "none" (solo icono) en el resto. NO pongas media en todos.
-  - "query": si media != "none", término EN INGLÉS, concreto y realista, para buscar ese clip/foto/gif de ESE momento exacto. Si media = "none", cadena vacía.
+  - "say": lo que dice la VOZ en ese momento: UNA idea corta, ~7-11 palabras (NO metas varias frases en un beat; si una explicación es larga, PÁRTELA en varios beats con iconos distintos). La SUMA de todos los "say" del item debe dar ~180-210 palabras.
+  - "text": 2 a 4 palabras que RESUMEN literalmente lo que dice ese "say" (rótulo en pantalla; DEBE coincidir con lo que se oye en ese beat).
+  - "icon": el icono MÁS representativo de ESE beat concreto, SOLO de esta lista (varía el icono en cada beat): ${ICONS}
+  - "media": "photo", "clip", "gif" o "none". Pon imagen real ("photo"/"clip") o meme divertido ("gif") en unos 6-8 beats con momentos visuales potentes; "none" (solo icono) en el resto.
+  - "query": si media != "none", término EN INGLÉS concreto para ese clip/foto/gif de ESE momento. Si media = "none", cadena vacía.
 - El PRIMER beat presenta la sección: su "text" es el nombre corto del elemento.
 - "name": nombre corto del elemento en MAYÚSCULAS (p.ej. "EL NARCISISTA"). "mainIcon": icono principal (de la lista). "def": definición en 3-5 palabras (para la miniatura).
 - "photoQuery"/"videoQuery": términos EN INGLÉS de reserva para la miniatura del item.

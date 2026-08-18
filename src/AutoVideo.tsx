@@ -77,10 +77,11 @@ const buildPlan = (): { k: string; i?: number }[] => [
   { k: "senal", i: 0 }, { k: "gif" }, { k: "clip" }, { k: "senal", i: 1 }, { k: "causa" },
   { k: "senal", i: 2 }, { k: "clip2" }, { k: "consejo" },
 ];
-// envoltorio de entrada: cada beat entra con fundido + desliz + escala
-const BeatWrap: React.FC<{ lf: number; dir: number; children: React.ReactNode }> = ({ lf, dir, children }) => {
-  const e = clamp(lf / 8);
-  return <div style={{ opacity: Math.min(1, e * 1.5), transform: `translateX(${(1 - e) * 80 * dir}px) scale(${lerp3(clamp(lf / 13), 0.8, 1.04, 1)})`, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 30, width: "100%" }}>{children}</div>;
+// envoltorio del beat: los elementos ENTRAN (stagger interno) y el grupo SALE antes del siguiente
+const BeatWrap: React.FC<{ lf: number; beatLen: number; dir: number; children: React.ReactNode }> = ({ lf, beatLen, dir, children }) => {
+  const ein = clamp(lf / 7);
+  const eout = clamp((beatLen - lf) / 7); // 1 casi todo el beat, baja a 0 al final → salida
+  return <div style={{ opacity: Math.min(1, ein * 1.5) * eout, transform: `translateX(${-(1 - eout) * 100 * dir}px) scale(${0.95 + 0.05 * eout})`, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 30, width: "100%" }}>{children}</div>;
 };
 
 type Beat = { f: number; text: string; icon: string; file: string | null; kind: string | null };
@@ -92,6 +93,7 @@ const ItemScene: React.FC<{ d: Item; n: number }> = ({ d, n }) => {
   if (!bts.length) return <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}><Audio src={staticFile(`voz1deep/${d.id}.mp3`)} /><Chip n={d.main} c={d.color} size={320} /></AbsoluteFill>;
   let bi = 0; for (let k = 0; k < bts.length; k++) if (frame >= bts[k].f) bi = k;
   const b = bts[bi]; const lf = frame - b.f; const dir = bi % 2 === 0 ? 1 : -1;
+  const beatLen = (bi < bts.length - 1 ? bts[bi + 1].f : b.f + 100000) - b.f;
 
   // entrada con REBOTE (0.35→1.2→1) + deslizamiento en X e Y
   const R = (p: number, from: number, node: React.ReactNode, fromY = 0) => {
@@ -131,7 +133,7 @@ const ItemScene: React.FC<{ d: Item; n: number }> = ({ d, n }) => {
         {bts.map((_, k) => <div key={k} style={{ width: 16, height: 16, borderRadius: "50%", background: k <= bi ? d.color : "#e4e4e4", transform: `scale(${k === bi ? 1.35 : 1})` }} />)}
       </div>
       <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", padding: "0 90px" }}>
-        <BeatWrap lf={lf} dir={dir}>{body}</BeatWrap>
+        <BeatWrap lf={lf} beatLen={beatLen} dir={dir}>{body}</BeatWrap>
       </AbsoluteFill>
     </AbsoluteFill>
   );
