@@ -49,6 +49,7 @@ jobs:
           GENAIPRO_API_KEY: ${{ secrets.GENAIPRO_API_KEY }}
           PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
           PEXELS_KEY: ${{ secrets.PEXELS_KEY }}
+          GIPHY_KEY: ${{ secrets.GIPHY_KEY }}
         run: node generate.mjs
 
       - name: 3) Renderizar el vídeo (Remotion · AutoVideo)

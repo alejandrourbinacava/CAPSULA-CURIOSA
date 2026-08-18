@@ -13,7 +13,7 @@ function envKey(name) {
   if (fs.existsSync(p)) { const m = fs.readFileSync(p, "utf8").match(new RegExp(name + "\\s*=\\s*(.+)")); if (m) return m[1].trim().replace(/^["']|["']$/g, ""); }
   return null;
 }
-const GEN = envKey("GENAIPRO_API_KEY"), PIX = envKey("PIXABAY_KEY"), PEX = envKey("PEXELS_KEY");
+const GEN = envKey("GENAIPRO_API_KEY"), PIX = envKey("PIXABAY_KEY"), PEX = envKey("PEXELS_KEY"), GIPHY = envKey("GIPHY_KEY");
 const BASE = "https://genaipro.io/api/v1", MODEL = "eleven_multilingual_v2", FPS = cfg.fps || 30;
 const VOZ = path.join(__dirname, "public", "voz1deep"), TMP = path.join(VOZ, "_raw");
 const MEDIA = path.join(__dirname, "public", "media");
@@ -61,6 +61,8 @@ async function pixVideos(q, n = 2) { try { const j = await (await fetch(`https:/
 async function pixPhoto(q) { try { const j = await (await fetch(`https://pixabay.com/api/?key=${PIX}&q=${encodeURIComponent(q)}&image_type=photo&per_page=8&safesearch=true&orientation=horizontal`)).json(); const h = (j.hits || [])[0]; return h ? (h.largeImageURL || h.webformatURL) : null; } catch { return null; } }
 async function pexVideos(q, n = 2) { if (!PEX) return []; try { const j = await (await fetch(`https://api.pexels.com/videos/search?query=${encodeURIComponent(q)}&per_page=6&orientation=landscape`, { headers: { Authorization: PEX } })).json(); return (j.videos || []).slice(0, n).map(v => { const f = (v.video_files || []).filter(x => /mp4/.test(x.file_type || "")); return (f.find(x => x.height >= 540 && x.height <= 1080) || f[0])?.link; }).filter(Boolean); } catch { return []; } }
 async function pexPhoto(q) { if (!PEX) return null; try { const j = await (await fetch(`https://api.pexels.com/v1/search?query=${encodeURIComponent(q)}&per_page=6&orientation=landscape`, { headers: { Authorization: PEX } })).json(); const h = (j.photos || [])[0]; return h ? (h.src.large || h.src.landscape) : null; } catch { return null; } }
+async function giphyGif(q) { if (!GIPHY) return null; try { const j = await (await fetch(`https://api.giphy.com/v1/gifs/search?api_key=${GIPHY}&q=${encodeURIComponent(q)}&limit=10&rating=pg-13&lang=es`)).json(); const h = (j.data || [])[0]; return h ? (h.images.downsized_medium?.url || h.images.fixed_height?.url || h.images.original?.url) : null; } catch { return null; } }
+const mediaFlags = {};
 for (const it of cfg.items) {
   let vids = await pixVideos(it.videoQuery, 2);
   if (vids.length < 2) vids = vids.concat(await pexVideos(it.videoQuery, 2 - vids.length));
@@ -68,8 +70,11 @@ for (const it of cfg.items) {
   if (vids[1] || vids[0]) await dl(vids[1] || vids[0], path.join(MEDIA, `${it.key}_vid2.mp4`));
   let photo = await pixPhoto(it.photoQuery); if (!photo) photo = await pexPhoto(it.photoQuery);
   if (photo) await dl(photo, path.join(MEDIA, `${it.key}_photo.jpg`));
-  console.log(`🖼️  ${it.key}: ${vids.length} vídeo(s)${photo ? " + foto" : ""}`);
+  let gif = false; const gu = await giphyGif(it.gifQuery || it.photoQuery || it.name); if (gu) { try { await dl(gu, path.join(MEDIA, `${it.key}.gif`)); gif = true; } catch {} }
+  mediaFlags[it.key] = { gif };
+  console.log(`🖼️  ${it.key}: ${vids.length} vídeo(s)${photo ? " + foto" : ""}${gif ? " + gif" : ""}`);
 }
+fs.writeFileSync(path.join(MEDIA, "media.json"), JSON.stringify(mediaFlags, null, 2));
 
 // 4) MÚSICA (reutiliza script determinista) + SFX de pops en cada cambio de escena
 execSync("node generar-musica.mjs", { cwd: __dirname, stdio: "inherit" });

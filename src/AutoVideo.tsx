@@ -1,9 +1,11 @@
 import React from "react";
 import { AbsoluteFill, Sequence, Audio, Img, OffthreadVideo, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { Gif } from "@remotion/gif";
 import { Stick } from "./components/parts";
 import config from "../video.config.json";
 import manifest from "../public/voz1deep/manifest.json";
 import anchors from "../public/voz1deep/anchors.json";
+import mediaFlags from "../public/media/media.json";
 
 const HAND = "'Comic Sans MS','Segoe Print',cursive";
 const HEAVY = "'Arial Black',Impact,system-ui,sans-serif";
@@ -63,7 +65,7 @@ const splitPhrases = (text: string): string[] => {
 // plan ordenado de visuales que cubre TODO el material del tipo (título → consejo)
 const buildPlan = (): { k: string; i?: number }[] => [
   { k: "title" }, { k: "def" }, { k: "fuera" }, { k: "photo" }, { k: "dentro" },
-  { k: "senal", i: 0 }, { k: "clip" }, { k: "senal", i: 1 }, { k: "causa" },
+  { k: "senal", i: 0 }, { k: "gif" }, { k: "clip" }, { k: "senal", i: 1 }, { k: "causa" },
   { k: "senal", i: 2 }, { k: "clip2" }, { k: "consejo" },
 ];
 // envoltorio de entrada: cada beat entra con fundido + desliz + escala
@@ -85,6 +87,7 @@ const ItemScene: React.FC<{ d: Item; a: A; n: number; frames: number }> = ({ d, 
   const tpl = plan[pIdx];
   const dir = bi % 2 === 0 ? 1 : -1;
   const vf = Math.max(0, beatF[bi]);
+  const hasGif = Boolean((mediaFlags as Record<string, { gif?: boolean }>)[d.key]?.gif);
   const chip = (icon: string, c: string, sz = 260) => <div style={{ transform: bob(frame) }}><Chip n={icon} c={c} size={sz} /></div>;
 
   let body: React.ReactNode = null;
@@ -93,6 +96,9 @@ const ItemScene: React.FC<{ d: Item; a: A; n: number; frames: number }> = ({ d, 
   else if (tpl.k === "fuera") body = <><T s={70} heavy>😐 POR FUERA</T>{chip(d.fuera[0], d.color, 250)}<T s={56} w={1250}>{d.fuera[1]}</T></>;
   else if (tpl.k === "dentro") body = <><T s={70} c={RED} heavy>🎭 POR DENTRO</T>{chip(d.dentro[0], "#e57373", 250)}<T s={56} w={1250}>{d.dentro[1]}</T></>;
   else if (tpl.k === "senal") { const sg = d.senales[tpl.i!] || d.senales[0]; body = <><T s={66} c={RED} heavy>⚠️ SEÑAL</T>{chip(sg.icon, sg.color, 250)}<T s={58} w={1150}>{sg.label}</T></>; }
+  else if (tpl.k === "gif") body = hasGif
+    ? <div style={{ borderRadius: 24, overflow: "hidden", border: `6px solid ${d.color}`, boxShadow: "0 24px 60px rgba(0,0,0,.22)" }}><Gif src={staticFile(`media/${d.key}.gif`)} width={1040} height={580} fit="cover" /></div>
+    : <Win video={video} videoFrom={vf} w={1200} title={d.ejemploTitle} accent={d.color} h={580} />;
   else if (tpl.k === "photo") body = <Win img={photo} w={1200} title={d.name} accent={d.color} h={580} />;
   else if (tpl.k === "clip") body = <Win video={video} videoFrom={vf} w={1200} title={d.ejemploTitle} accent={d.color} h={580} />;
   else if (tpl.k === "clip2") body = <Win video={video2} videoFrom={vf} w={1200} title={d.causa[1]} accent={d.color} h={580} />;
