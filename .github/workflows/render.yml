@@ -40,9 +40,10 @@ jobs:
       - name: Instalar dependencias npm
         run: npm install
 
-      - name: 1) Escribir el guion del siguiente tema (IA)
+      - name: 1) Escribir el guion del siguiente tema (IA · Claude)
         if: ${{ github.event_name == 'schedule' || inputs.nuevoVideo }}
         env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node next-video.mjs
 
