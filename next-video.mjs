@@ -61,9 +61,13 @@ async function callClaude() {
     method: "POST", headers: { "x-api-key": ANTH, "anthropic-version": "2023-06-01", "content-type": "application/json" },
     body: JSON.stringify({ model: "claude-sonnet-5", max_tokens: 32000, messages: [{ role: "user", content: prompt + "\n\nDevuelve SOLO el objeto JSON (sin texto extra ni ```)." }] })
   });
-  const j = await res.json(); if (!res.ok) throw new Error("Claude: " + JSON.stringify(j).slice(0, 400));
+  const j = await res.json();
+  if (!res.ok) throw new Error("Claude: " + JSON.stringify(j).slice(0, 400));
   if (j.stop_reason === "max_tokens") throw new Error("Claude: respuesta truncada (max_tokens). Sube el límite o acorta el guion.");
-  let t = (j.content?.[0]?.text || "").trim().replace(/^```json\s*/i, "").replace(/^```\s*/, "").replace(/```\s*$/, "");
+  // coger TODOS los bloques de tipo texto (el modelo puede devolver antes un bloque de razonamiento)
+  const txt = (j.content || []).filter(b => b.type === "text").map(b => b.text).join("").trim();
+  const m = txt.match(/\{[\s\S]*\}/); // quedarse con el objeto JSON aunque venga con texto alrededor
+  let t = (m ? m[0] : txt).replace(/^```json\s*/i, "").replace(/^```\s*/, "").replace(/```\s*$/, "");
   return JSON.parse(t);
 }
 async function callGemini() {
@@ -102,11 +106,11 @@ for (let i = 0; i < g.items.length; i++) {
   const [main, fu, de, i1, i2, i3, ca, co] = await Promise.all([it.mainIcon, it.fueraIcon, it.dentroIcon, it.s1Icon, it.s2Icon, it.s3Icon, it.causaIcon, it.consejoIcon].map(ensureIcon));
   items.push({
     id: "v" + String(i + 2).padStart(2, "0"), key: "item" + (i + 1),
-    name: it.name.toUpperCase(), group: "", color: ITEM_COLORS[i % ITEM_COLORS.length], main, def: it.def,
-    fuera: [fu, it.fueraText], dentro: [de, it.dentroText],
-    senales: [{ icon: i1, color: SP[0], label: it.s1 }, { icon: i2, color: SP[1], label: it.s2 }, { icon: i3, color: SP[2], label: it.s3 }],
-    causa: [ca, it.causaText], ejemploTitle: it.ejemploTitle, consejo: [co, it.consejoText],
-    videoQuery: it.videoQuery, photoQuery: it.photoQuery, narration: it.narration
+    name: (it.name || it.title || it.nombre || "").toUpperCase(), group: "", color: ITEM_COLORS[i % ITEM_COLORS.length], main, def: it.def || "",
+    fuera: [fu, it.fueraText || ""], dentro: [de, it.dentroText || ""],
+    senales: [{ icon: i1, color: SP[0], label: it.s1 || "" }, { icon: i2, color: SP[1], label: it.s2 || "" }, { icon: i3, color: SP[2], label: it.s3 || "" }],
+    causa: [ca, it.causaText || ""], ejemploTitle: it.ejemploTitle || "", consejo: [co, it.consejoText || ""],
+    videoQuery: it.videoQuery || it.name || "", photoQuery: it.photoQuery || it.name || "", narration: it.narration || ""
   });
 }
 const outroId = "v" + String(items.length + 2).padStart(2, "0");
