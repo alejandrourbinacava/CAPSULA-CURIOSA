@@ -27,15 +27,20 @@ jobs:
           node-version: 20
 
       - name: Dependencias del sistema (ffmpeg + libs del Chrome de Remotion)
-        timeout-minutes: 10
+        timeout-minutes: 8
         env:
           DEBIAN_FRONTEND: noninteractive
         run: |
-          sudo apt-get update -o DPkg::Lock::Timeout=180
-          sudo apt-get install -y --no-install-recommends -o DPkg::Lock::Timeout=180 ffmpeg \
+          # timeouts de red en apt para que NO se cuelgue en un mirror lento; toleramos fallos (ffmpeg ya viene en el runner)
+          APT_OPTS="-o Acquire::Retries=3 -o Acquire::http::Timeout=25 -o Acquire::https::Timeout=25 -o DPkg::Lock::Timeout=120"
+          # quitar el mirror de microsoft que se cuelga
+          sudo rm -f /etc/apt/sources.list.d/microsoft-prod.list || true
+          sudo apt-get update $APT_OPTS || true
+          sudo apt-get install -y --no-install-recommends $APT_OPTS ffmpeg \
             libnss3 libdbus-1-3 libatk1.0-0 libgbm-dev libasound2 \
             libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 \
-            libatk-bridge2.0-0 libpango-1.0-0 libcairo2 libcups2
+            libatk-bridge2.0-0 libpango-1.0-0 libcairo2 libcups2 || true
+          echo "ffmpeg:" && (ffmpeg -version | head -1 || echo "FALTA ffmpeg")
 
       - name: Instalar dependencias npm
         run: npm install
