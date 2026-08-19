@@ -63,19 +63,18 @@ const beatsOut = {};
 for (const it of cfg.items) {
   const itFrames = manifest.find(m => m.id === it.id).frames;
   const totW = it.beats.reduce((a, b) => a + wc(b.say), 0) || 1;
-  // media general del tema (VARIADA) para que casi cada beat tenga imagen real (estilo Chris)
+  // foto de referencia (ancla arriba-izda) + reserva de imágenes por si falla una descarga
   const gen = [];
-  try { const j = await (await fetch(`https://pixabay.com/api/?key=${PIX}&q=${encodeURIComponent(it.photoQuery)}&image_type=photo&per_page=12&safesearch=true&orientation=horizontal`)).json(); const hits = (j.hits || []).slice(0, 6); for (let k = 0; k < hits.length; k++) { const f = `${it.key}_gp${k}.jpg`; try { await dl(hits[k].largeImageURL || hits[k].webformatURL, path.join(MEDIA, f)); gen.push({ file: "media/" + f, kind: "img" }); } catch {} } } catch {}
+  try { const j = await (await fetch(`https://pixabay.com/api/?key=${PIX}&q=${encodeURIComponent(it.photoQuery)}&image_type=photo&per_page=8&safesearch=true&orientation=horizontal`)).json(); const hits = (j.hits || []).slice(0, 3); for (let k = 0; k < hits.length; k++) { const f = `${it.key}_gp${k}.jpg`; try { await dl(hits[k].largeImageURL || hits[k].webformatURL, path.join(MEDIA, f)); gen.push({ file: "media/" + f, kind: "img" }); } catch {} } } catch {}
   if (!gen.length) { try { const p = await pexPhoto(it.photoQuery); if (p) { const f = `${it.key}_gp0.jpg`; await dl(p, path.join(MEDIA, f)); gen.push({ file: "media/" + f, kind: "img" }); } } catch {} }
-  try { let gv = await pixVideos(it.videoQuery, 2); if (gv.length < 2) gv = gv.concat(await pexVideos(it.videoQuery, 2 - gv.length)); for (let k = 0; k < gv.length; k++) { const f = `${it.key}_gv${k}.mp4`; try { await dl(gv[k], path.join(MEDIA, f)); gen.push({ file: "media/" + f, kind: "vid" }); } catch {} } } catch {}
-  try { const gg = await giphyGif(it.photoQuery || it.name); if (gg) { const f = `${it.key}_gg.gif`; await dl(gg, path.join(MEDIA, f)); gen.push({ file: "media/" + f, kind: "gif" }); } } catch {}
-  const ref = gen.find(g => g.kind === "img")?.file || null;
+  const ref = gen[0]?.file || null;
 
   let cum = 0, genIdx = 0; const arr = [];
   for (let i = 0; i < it.beats.length; i++) {
     const b = it.beats[i];
     const f = Math.round((cum / totW) * itFrames); cum += wc(b.say);
     let file = null, kind = null;
+    // SOLO baja imagen si Claude pidió media en este beat; si es "none", queda como ICONO SVG grande (mezcla icono/imagen estilo Chris)
     if (b.media && b.media !== "none" && b.query) {
       const base = `${it.key}_b${i}`;
       try {
@@ -83,10 +82,10 @@ for (const it of cfg.items) {
         else if (b.media === "photo") { const p = await pixPhoto(b.query) || await pexPhoto(b.query); if (p) { await dl(p, path.join(MEDIA, base + ".jpg")); file = "media/" + base + ".jpg"; kind = "img"; } }
         else { const v = (await pixVideos(b.query, 1))[0] || (await pexVideos(b.query, 1))[0]; if (v) { await dl(v, path.join(MEDIA, base + ".mp4")); file = "media/" + base + ".mp4"; kind = "vid"; } }
       } catch {}
+      // si Claude quería imagen pero falló la descarga, usa una de reserva (no la dejamos sin nada)
+      if (!file && gen.length) { const g = gen[genIdx % gen.length]; genIdx++; file = g.file; kind = g.kind; }
     }
     const bullets = Array.isArray(b.bullets) ? b.bullets.filter(x => x && x.trim()).slice(0, 3) : [];
-    // si no tiene media propia y no lleva bullets, ponle imagen real del tema (variando) para no dejar icono solo
-    if (!file && !bullets.length && gen.length) { const g = gen[genIdx % gen.length]; genIdx++; file = g.file; kind = g.kind; }
     arr.push({ f, text: b.text, icon: b.icon, file, kind, bullets });
   }
   beatsOut[it.id] = { ref, beats: arr };
