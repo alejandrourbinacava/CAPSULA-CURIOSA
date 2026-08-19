@@ -102,7 +102,7 @@ const BigMedia: React.FC<{ file: string; kind: string | null; from: number; acce
   if (kind === "logo") return <div style={{ width: w, height: h + 40, display: "flex", alignItems: "center", justifyContent: "center", padding: 30 }}><Img src={staticFile(file)} style={{ maxWidth: "100%", maxHeight: h, objectFit: "contain" }} /></div>;
   return <div style={{ width: w, borderRadius: 22, overflow: "hidden", border: `8px solid ${accent}`, boxShadow: "0 26px 64px rgba(0,0,0,.28)", background: "#fff", lineHeight: 0 }}>
     {kind === "gif" ? <Gif src={staticFile(file)} width={w} height={h} fit="cover" />
-      : kind === "img" ? <Img src={staticFile(file)} style={{ width: "100%", height: h, objectFit: "cover", display: "block" }} />
+      : kind === "img" ? <div style={{ width: "100%", height: h, background: "#fff", display: "flex", alignItems: "center", justifyContent: "center", padding: 16, boxSizing: "border-box" }}><Img src={staticFile(file)} style={{ maxWidth: "100%", maxHeight: "100%", objectFit: "contain" }} /></div>
         : <Sequence from={from} layout="none"><OffthreadVideo src={staticFile(file)} muted style={{ width: "100%", height: h, objectFit: "cover", display: "block" }} /></Sequence>}
   </div>;
 };
