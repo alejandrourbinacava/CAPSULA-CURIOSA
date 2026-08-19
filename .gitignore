@@ -11,11 +11,12 @@ public/voz1/_raw/
 # logs
 *.log
 npm-debug.log*
-# --- pipeline spec: regenerables (NO se commitean; se recrean en cada run) ---
-# audio de voz por episodio (pesado; lo regenera 01-tts)
-episodes/**/*.mp3
-episodes/**/words.json
-# assets descargados (Wikipedia/Iconify) - los rebaja 01-assets
+# --- pipeline spec ---
+# IMPORTANTE: el audio de voz por episodio SÍ se versiona a propósito.
+#   Es de pago (genaipro) y se genera UNA sola vez; los re-renders lo reutilizan.
+#   (Solo ignoramos el _raw.mp3 intermedio, no el audio.mp3 final ni words.json.)
+episodes/**/_raw.mp3
+# assets descargados (Wikipedia/Iconify) - los rebaja 01-assets, gratis
 public/assets/
-# audio del render activo (se recopia en cada build). scenes.json SÍ se versiona.
+# audio del render activo (copia; el original vive en episodes/<slug>/audio.mp3)
 public/active/audio.mp3

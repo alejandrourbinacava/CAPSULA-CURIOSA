@@ -3,7 +3,7 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "duration": 261.6,
+    "duration": 261.66,
     "audio": "active/audio.mp3",
     "title": "Cada Planeta del Sistema Solar Explicado (¡y por qué Plutón no cuenta!)"
   },
@@ -14,7 +14,7 @@
       "src": "assets/icons/solar_system.svg",
       "slot": "center",
       "in": 0,
-      "out": 12.6,
+      "out": 12.64,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -29,8 +29,8 @@
       "type": "image",
       "src": "assets/icons/sun.svg",
       "slot": "top-right",
-      "in": 2.9,
-      "out": 12.6,
+      "in": 2.94,
+      "out": 12.64,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -45,8 +45,8 @@
       "type": "stickman",
       "pose": "pointing-right",
       "slot": "left",
-      "in": 7.36,
-      "out": 12.6,
+      "in": 7.42,
+      "out": 12.64,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
@@ -63,8 +63,8 @@
       "slot": "bottom",
       "color": "#E5342A",
       "size": "lg",
-      "in": 10.16,
-      "out": 12.6,
+      "in": 10.2,
+      "out": 12.64,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -79,8 +79,8 @@
       "type": "image",
       "src": "assets/icons/mercury.jpg",
       "slot": "corner-badge",
-      "in": 12.6,
-      "out": 261.6,
+      "in": 12.64,
+      "out": 261.66,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -95,8 +95,8 @@
       "type": "image",
       "src": "assets/icons/mercury.jpg",
       "slot": "center",
-      "in": 15.18,
-      "out": 43.36,
+      "in": 15.24,
+      "out": 43.4,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -113,8 +113,8 @@
       "slot": "top",
       "color": "#E5342A",
       "size": "md",
-      "in": 15.38,
-      "out": 43.36,
+      "in": 15.36,
+      "out": 43.4,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -129,8 +129,8 @@
       "type": "image",
       "src": "assets/icons/clock.svg",
       "slot": "right",
-      "in": 17.96,
-      "out": 43.36,
+      "in": 18,
+      "out": 43.4,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -145,8 +145,8 @@
       "type": "image",
       "src": "assets/icons/thermometer.svg",
       "slot": "left",
-      "in": 21.76,
-      "out": 43.36,
+      "in": 21.8,
+      "out": 43.4,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -162,8 +162,8 @@
       "from": "left",
       "to": "right",
       "style": "hand-drawn-red",
-      "in": 29.48,
-      "out": 43.36,
+      "in": 28.98,
+      "out": 43.4,
       "enter": {
         "kind": "draw",
         "duration": 0.55
@@ -178,8 +178,8 @@
       "type": "image",
       "src": "assets/icons/crater.svg",
       "slot": "bottom",
-      "in": 33.36,
-      "out": 43.36,
+      "in": 33.4,
+      "out": 43.4,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -194,8 +194,8 @@
       "type": "stickman",
       "pose": "shrug",
       "slot": "center-below",
-      "in": 37.54,
-      "out": 43.36,
+      "in": 37.6,
+      "out": 43.4,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
@@ -210,8 +210,8 @@
       "type": "image",
       "src": "assets/icons/venus.jpg",
       "slot": "corner-badge",
-      "in": 43.36,
-      "out": 261.6,
+      "in": 43.4,
+      "out": 261.66,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -226,8 +226,8 @@
       "type": "image",
       "src": "assets/icons/venus.jpg",
       "slot": "center",
-      "in": 44.34,
-      "out": 69.56,
+      "in": 44.38,
+      "out": 70.28,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -244,8 +244,8 @@
       "slot": "top",
       "color": "#E5342A",
       "size": "md",
-      "in": 47.04,
-      "out": 69.56,
+      "in": 47.08,
+      "out": 70.28,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -260,8 +260,8 @@
       "type": "image",
       "src": "assets/icons/greenhouse.svg",
       "slot": "left",
-      "in": 53.16,
-      "out": 69.56,
+      "in": 53,
+      "out": 70.28,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -276,8 +276,8 @@
       "type": "image",
       "src": "assets/icons/volcano.svg",
       "slot": "right",
-      "in": 59.44,
-      "out": 69.56,
+      "in": 59.48,
+      "out": 70.28,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -293,8 +293,8 @@
       "from": "left",
       "to": "right",
       "style": "hand-drawn-red",
-      "in": 63.32,
-      "out": 69.56,
+      "in": 63.34,
+      "out": 70.28,
       "enter": {
         "kind": "draw",
         "duration": 0.55
@@ -310,7 +310,7 @@
       "pose": "angry",
       "slot": "center-below",
       "in": 64.4,
-      "out": 69.56,
+      "out": 70.28,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
@@ -327,8 +327,8 @@
       "slot": "bottom",
       "color": "#E5342A",
       "size": "md",
-      "in": 68.9,
-      "out": 70.1,
+      "in": 69.24,
+      "out": 70.44,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -343,8 +343,8 @@
       "type": "image",
       "src": "assets/icons/earth.jpg",
       "slot": "corner-badge",
-      "in": 69.56,
-      "out": 261.6,
+      "in": 70.28,
+      "out": 261.66,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -359,8 +359,8 @@
       "type": "image",
       "src": "assets/icons/earth.jpg",
       "slot": "center",
-      "in": 70.36,
-      "out": 92.72,
+      "in": 70.98,
+      "out": 93.02,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -377,8 +377,8 @@
       "slot": "top",
       "color": "#E5342A",
       "size": "md",
-      "in": 71.46,
-      "out": 92.72,
+      "in": 71.9,
+      "out": 93.02,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -393,8 +393,8 @@
       "type": "image",
       "src": "assets/icons/water_drop.svg",
       "slot": "left",
-      "in": 74.3,
-      "out": 92.72,
+      "in": 74.7,
+      "out": 93.02,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -409,8 +409,8 @@
       "type": "image",
       "src": "assets/icons/moon.svg",
       "slot": "right",
-      "in": 76.14,
-      "out": 92.72,
+      "in": 76.54,
+      "out": 93.02,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -426,8 +426,8 @@
       "from": "left",
       "to": "right",
       "style": "hand-drawn-red",
-      "in": 81.1,
-      "out": 92.72,
+      "in": 81.44,
+      "out": 93.02,
       "enter": {
         "kind": "draw",
         "duration": 0.55
@@ -444,8 +444,8 @@
       "slot": "bottom",
       "color": "#111",
       "size": "md",
-      "in": 85.62,
-      "out": 92.72,
+      "in": 86.4,
+      "out": 93.02,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -460,8 +460,8 @@
       "type": "stickman",
       "pose": "neutral",
       "slot": "center-below",
-      "in": 87.5,
-      "out": 92.72,
+      "in": 87.72,
+      "out": 93.02,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
@@ -476,8 +476,8 @@
       "type": "image",
       "src": "assets/icons/mars.png",
       "slot": "corner-badge",
-      "in": 92.72,
-      "out": 261.6,
+      "in": 93.02,
+      "out": 261.66,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -492,8 +492,8 @@
       "type": "image",
       "src": "assets/icons/mars.png",
       "slot": "center",
-      "in": 95.04,
-      "out": 119.5,
+      "in": 95.2,
+      "out": 119.54,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -510,8 +510,8 @@
       "slot": "top",
       "color": "#E5342A",
       "size": "md",
-      "in": 96.5,
-      "out": 119.5,
+      "in": 97.58,
+      "out": 119.54,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -526,8 +526,8 @@
       "type": "image",
       "src": "assets/icons/volcano.svg",
       "slot": "left",
-      "in": 100.26,
-      "out": 119.5,
+      "in": 100.56,
+      "out": 119.54,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -542,8 +542,8 @@
       "type": "image",
       "src": "assets/icons/rocket.svg",
       "slot": "right",
-      "in": 106.92,
-      "out": 119.5,
+      "in": 107.18,
+      "out": 119.54,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -559,8 +559,8 @@
       "from": "left",
       "to": "right",
       "style": "hand-drawn-red",
-      "in": 109.44,
-      "out": 119.5,
+      "in": 109.78,
+      "out": 119.54,
       "enter": {
         "kind": "draw",
         "duration": 0.55
@@ -575,8 +575,8 @@
       "type": "image",
       "src": "assets/icons/thermometer.svg",
       "slot": "bottom",
-      "in": 109.56,
-      "out": 119.5,
+      "in": 109.9,
+      "out": 119.54,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -591,8 +591,8 @@
       "type": "stickman",
       "pose": "thinking",
       "slot": "center-below",
-      "in": 114.58,
-      "out": 119.5,
+      "in": 115.22,
+      "out": 119.54,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
@@ -607,8 +607,8 @@
       "type": "image",
       "src": "assets/icons/jupiter.png",
       "slot": "corner-badge",
-      "in": 119.5,
-      "out": 261.6,
+      "in": 119.54,
+      "out": 261.66,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -623,8 +623,8 @@
       "type": "image",
       "src": "assets/icons/jupiter.png",
       "slot": "center",
-      "in": 123.34,
-      "out": 144.7,
+      "in": 123.38,
+      "out": 146.08,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -641,8 +641,8 @@
       "slot": "top",
       "color": "#E5342A",
       "size": "md",
-      "in": 123.84,
-      "out": 144.7,
+      "in": 123.88,
+      "out": 146.08,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -657,8 +657,8 @@
       "type": "image",
       "src": "assets/icons/storm.svg",
       "slot": "left",
-      "in": 127.92,
-      "out": 144.7,
+      "in": 127.96,
+      "out": 146.08,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -673,8 +673,8 @@
       "type": "image",
       "src": "assets/icons/magnet.svg",
       "slot": "right",
-      "in": 133.72,
-      "out": 144.7,
+      "in": 133.76,
+      "out": 146.08,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -690,8 +690,8 @@
       "from": "left",
       "to": "right",
       "style": "hand-drawn-red",
-      "in": 137.38,
-      "out": 144.7,
+      "in": 137.44,
+      "out": 146.08,
       "enter": {
         "kind": "draw",
         "duration": 0.55
@@ -708,8 +708,8 @@
       "slot": "bottom",
       "color": "#111",
       "size": "md",
-      "in": 137.5,
-      "out": 144.7,
+      "in": 137.56,
+      "out": 146.08,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -724,8 +724,8 @@
       "type": "stickman",
       "pose": "shrug",
       "slot": "center-below",
-      "in": 142,
-      "out": 144.7,
+      "in": 142.04,
+      "out": 146.08,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
@@ -738,10 +738,10 @@
     {
       "id": "saturn",
       "type": "image",
-      "src": "assets/icons/saturn.svg",
+      "src": "assets/icons/saturn.png",
       "slot": "corner-badge",
-      "in": 144.7,
-      "out": 261.6,
+      "in": 146.08,
+      "out": 261.66,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -754,10 +754,10 @@
     {
       "id": "saturn",
       "type": "image",
-      "src": "assets/icons/saturn.svg",
+      "src": "assets/icons/saturn.png",
       "slot": "center",
-      "in": 146.5,
-      "out": 161.88,
+      "in": 147.7,
+      "out": 163.88,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -774,8 +774,8 @@
       "slot": "top",
       "color": "#E5342A",
       "size": "md",
-      "in": 146.88,
-      "out": 161.88,
+      "in": 147.9,
+      "out": 163.88,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -791,8 +791,8 @@
       "from": "left",
       "to": "right",
       "style": "hand-drawn-red",
-      "in": 156.44,
-      "out": 161.88,
+      "in": 158.36,
+      "out": 163.88,
       "enter": {
         "kind": "draw",
         "duration": 0.55
@@ -809,8 +809,8 @@
       "slot": "bottom",
       "color": "#111",
       "size": "md",
-      "in": 156.56,
-      "out": 161.88,
+      "in": 158.48,
+      "out": 163.88,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -825,11 +825,43 @@
       "type": "stickman",
       "pose": "thinking",
       "slot": "center-below",
-      "in": 159.42,
-      "out": 161.88,
+      "in": 161.76,
+      "out": 163.88,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "uranus",
+      "type": "image",
+      "src": "assets/icons/uranus.png",
+      "slot": "corner-badge",
+      "in": 163.88,
+      "out": 261.66,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.45
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "uranus",
+      "type": "image",
+      "src": "assets/icons/uranus.png",
+      "slot": "center",
+      "in": 166.16,
+      "out": 184.7,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.45
       },
       "exit": {
         "kind": "fade-out",
@@ -843,8 +875,8 @@
       "slot": "top",
       "color": "#E5342A",
       "size": "md",
-      "in": 164.64,
-      "out": 182.42,
+      "in": 166.28,
+      "out": 184.7,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -859,8 +891,8 @@
       "type": "image",
       "src": "assets/icons/ice.svg",
       "slot": "left",
-      "in": 172.04,
-      "out": 182.42,
+      "in": 173.5,
+      "out": 184.7,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -875,8 +907,8 @@
       "type": "image",
       "src": "assets/icons/wind.svg",
       "slot": "right",
-      "in": 175.3,
-      "out": 182.42,
+      "in": 177.06,
+      "out": 184.7,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -892,8 +924,8 @@
       "from": "left",
       "to": "right",
       "style": "hand-drawn-red",
-      "in": 178.24,
-      "out": 182.42,
+      "in": 182,
+      "out": 184.7,
       "enter": {
         "kind": "draw",
         "duration": 0.55
@@ -910,8 +942,8 @@
       "slot": "bottom",
       "color": "#E5342A",
       "size": "md",
-      "in": 178.36,
-      "out": 182.42,
+      "in": 182.12,
+      "out": 184.7,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -926,11 +958,43 @@
       "type": "stickman",
       "pose": "shrug",
       "slot": "center-below",
-      "in": 178.48,
-      "out": 182.42,
+      "in": 182.24,
+      "out": 184.7,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "neptune",
+      "type": "image",
+      "src": "assets/icons/neptune.png",
+      "slot": "corner-badge",
+      "in": 184.7,
+      "out": 261.66,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.45
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "neptune",
+      "type": "image",
+      "src": "assets/icons/neptune.png",
+      "slot": "center",
+      "in": 186.16,
+      "out": 208.98,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.45
       },
       "exit": {
         "kind": "fade-out",
@@ -944,8 +1008,8 @@
       "slot": "top",
       "color": "#E5342A",
       "size": "md",
-      "in": 183.9,
-      "out": 202.58,
+      "in": 186.78,
+      "out": 208.98,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -960,8 +1024,8 @@
       "type": "image",
       "src": "assets/icons/telescope.svg",
       "slot": "left",
-      "in": 190.18,
-      "out": 202.58,
+      "in": 193.16,
+      "out": 208.98,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -976,8 +1040,8 @@
       "type": "image",
       "src": "assets/icons/diamond.svg",
       "slot": "right",
-      "in": 195.4,
-      "out": 202.58,
+      "in": 198.02,
+      "out": 208.98,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -993,8 +1057,8 @@
       "from": "left",
       "to": "right",
       "style": "hand-drawn-red",
-      "in": 199.14,
-      "out": 202.58,
+      "in": 202.24,
+      "out": 208.98,
       "enter": {
         "kind": "draw",
         "duration": 0.55
@@ -1011,8 +1075,8 @@
       "slot": "bottom",
       "color": "#111",
       "size": "md",
-      "in": 199.26,
-      "out": 202.58,
+      "in": 202.36,
+      "out": 208.98,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -1027,8 +1091,8 @@
       "type": "stickman",
       "pose": "thinking",
       "slot": "center-below",
-      "in": 199.38,
-      "out": 202.58,
+      "in": 202.48,
+      "out": 208.98,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
@@ -1041,10 +1105,10 @@
     {
       "id": "pluto",
       "type": "image",
-      "src": "assets/icons/pluto.svg",
+      "src": "assets/icons/pluto.png",
       "slot": "corner-badge",
-      "in": 202.58,
-      "out": 261.6,
+      "in": 208.98,
+      "out": 261.66,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -1057,10 +1121,10 @@
     {
       "id": "pluto",
       "type": "image",
-      "src": "assets/icons/pluto.svg",
+      "src": "assets/icons/pluto.png",
       "slot": "center",
-      "in": 205.4,
-      "out": 233.3,
+      "in": 211.08,
+      "out": 237.32,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -1077,8 +1141,8 @@
       "slot": "top",
       "color": "#E5342A",
       "size": "md",
-      "in": 206.2,
-      "out": 233.3,
+      "in": 211.34,
+      "out": 237.32,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -1093,8 +1157,8 @@
       "type": "image",
       "src": "assets/icons/calendar.svg",
       "slot": "left",
-      "in": 211.02,
-      "out": 233.3,
+      "in": 216.32,
+      "out": 237.32,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -1111,8 +1175,8 @@
       "slot": "right",
       "color": "#111",
       "size": "md",
-      "in": 217.44,
-      "out": 233.3,
+      "in": 221.64,
+      "out": 237.32,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -1128,8 +1192,8 @@
       "from": "left",
       "to": "right",
       "style": "hand-drawn-red",
-      "in": 224.6,
-      "out": 233.3,
+      "in": 227.6,
+      "out": 237.32,
       "enter": {
         "kind": "draw",
         "duration": 0.55
@@ -1144,8 +1208,8 @@
       "type": "stickman",
       "pose": "angry",
       "slot": "center-below",
-      "in": 224.72,
-      "out": 233.3,
+      "in": 227.72,
+      "out": 237.32,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
@@ -1162,8 +1226,8 @@
       "slot": "bottom",
       "color": "#E5342A",
       "size": "md",
-      "in": 227.8,
-      "out": 233.3,
+      "in": 231.8,
+      "out": 237.32,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -1178,8 +1242,8 @@
       "type": "image",
       "src": "assets/icons/solar_system.svg",
       "slot": "center",
-      "in": 233.3,
-      "out": 261.6,
+      "in": 237.32,
+      "out": 261.66,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -1192,10 +1256,10 @@
     {
       "id": "pluto",
       "type": "image",
-      "src": "assets/icons/pluto.svg",
+      "src": "assets/icons/pluto.png",
       "slot": "top-right",
-      "in": 236.68,
-      "out": 261.6,
+      "in": 240.1,
+      "out": 261.66,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -1210,8 +1274,8 @@
       "type": "stickman",
       "pose": "neutral",
       "slot": "left",
-      "in": 237.52,
-      "out": 261.6,
+      "in": 241.76,
+      "out": 261.66,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
@@ -1228,8 +1292,8 @@
       "slot": "bottom",
       "color": "#E5342A",
       "size": "md",
-      "in": 241.72,
-      "out": 261.6,
+      "in": 246.68,
+      "out": 261.66,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8
@@ -1244,8 +1308,8 @@
       "type": "image",
       "src": "assets/icons/bell.svg",
       "slot": "right",
-      "in": 245.2,
-      "out": 261.6,
+      "in": 248.6,
+      "out": 261.66,
       "enter": {
         "kind": "pop",
         "duration": 0.45
@@ -1262,8 +1326,8 @@
       "slot": "center-below",
       "color": "#E5342A",
       "size": "lg",
-      "in": 251.1,
-      "out": 261.6,
+      "in": 256.22,
+      "out": 261.66,
       "enter": {
         "kind": "handwrite",
         "duration": 0.8

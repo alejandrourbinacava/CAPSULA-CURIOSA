@@ -19,6 +19,9 @@ raw = raw.replace(/^---\n[\s\S]*?\n---\n?/, "");
 const clean = raw.replace(/\[\[[^\]]*\]\]/g, "").replace(/\s+/g, " ").trim();
 console.log(`texto: ${clean.split(/\s+/).length} palabras`);
 
+const audio = path.join(dir, "audio.mp3");
+const wordsFile = path.join(dir, "words.json");
+
 async function tts(text) {
   const r = await fetch(`${BASE}/labs/task`, { method: "POST", headers: H(), body: JSON.stringify({ input: text, voice_id: VOICE_ID, model_id: MODEL, speed: SPEED }) });
   const t = await r.text(); if (!r.ok) throw new Error(t); const id = pick(JSON.parse(t), ["task_id", "id", "data.task_id", "data.id"]);
@@ -27,16 +30,25 @@ async function tts(text) {
 }
 const dl = async (url, dest) => { const r = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0" } }); if (!r.ok) throw new Error("dl " + r.status); fs.writeFileSync(dest, Buffer.from(await r.arrayBuffer())); };
 
-const audio = path.join(dir, "audio.mp3");
-let url, ok = false;
-for (let a = 1; a <= 3 && !ok; a++) { try { url = await tts(clean); await dl(url, path.join(dir, "_raw.mp3")); ok = true; } catch (e) { console.log(`reintento ${a}: ${(e.message || "").slice(0, 60)}`); await sleep(5000); } }
-if (!ok) throw new Error("no se pudo generar la voz");
-// recorta silencios de inicio/fin
-execSync(`ffmpeg -y -v error -i "${path.join(dir, "_raw.mp3")}" -af "silenceremove=start_periods=1:start_duration=0:start_threshold=-40dB:detection=peak,areverse,silenceremove=start_periods=1:start_duration=0:start_threshold=-40dB:detection=peak,areverse" "${audio}"`);
-console.log("🎙️  audio.mp3 listo");
+// PASO 1 · VOZ (de PAGO). Solo se llama a genaipro si NO existe ya el audio del episodio.
+//   Así los re-renders NUNCA gastan saldo. (FORCE_TTS=1 fuerza regenerar la voz a propósito.)
+if (fs.existsSync(audio) && !process.env.FORCE_TTS) {
+  console.log("♻️  audio.mp3 ya existe -> se REUTILIZA la voz (0 gasto de genaipro).");
+} else {
+  let url, ok = false;
+  for (let a = 1; a <= 3 && !ok; a++) { try { url = await tts(clean); await dl(url, path.join(dir, "_raw.mp3")); ok = true; } catch (e) { console.log(`reintento ${a}: ${(e.message || "").slice(0, 60)}`); await sleep(5000); } }
+  if (!ok) throw new Error("no se pudo generar la voz");
+  // recorta silencios de inicio/fin
+  execSync(`ffmpeg -y -v error -i "${path.join(dir, "_raw.mp3")}" -af "silenceremove=start_periods=1:start_duration=0:start_threshold=-40dB:detection=peak,areverse,silenceremove=start_periods=1:start_duration=0:start_threshold=-40dB:detection=peak,areverse" "${audio}"`);
+  console.log("🎙️  audio.mp3 generado");
+}
 
-// Whisper (faster-whisper) -> words.json. Best-effort: si no está, 02 usa timing proporcional.
-try {
-  execSync(`python scripts/whisper_words.py "${audio}" "${path.join(dir, "words.json")}"`, { stdio: "inherit" });
-  console.log("⏱️  words.json (Whisper) listo");
-} catch (e) { console.log("⚠️  Whisper no disponible; se usará timing proporcional"); }
+// PASO 2 · SINCRONÍA (GRATIS). Whisper saca words.json del audio. Solo si falta (o FORCE).
+if (fs.existsSync(wordsFile) && !process.env.FORCE_TTS) {
+  console.log("♻️  words.json ya existe -> se reutiliza la sincronía.");
+} else {
+  try {
+    execSync(`python scripts/whisper_words.py "${audio}" "${wordsFile}"`, { stdio: "inherit" });
+    console.log("⏱️  words.json (Whisper) listo");
+  } catch (e) { console.log("⚠️  Whisper no disponible; se usará timing proporcional"); }
+}
