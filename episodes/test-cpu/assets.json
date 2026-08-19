@@ -1,0 +1,6 @@
+{
+  "motherboard": { "file": "assets/icons/motherboard.svg", "kind": "icon" },
+  "gpu": { "file": "assets/icons/gpu.svg", "kind": "icon" },
+  "cpu": { "file": "assets/icons/cpu.svg", "kind": "icon" },
+  "money2": { "file": "assets/icons/money2.svg", "kind": "icon" }
+}

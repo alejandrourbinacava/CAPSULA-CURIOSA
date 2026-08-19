@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "duration": 14.446153846153845,
+    "audio": "scene/audio.mp3",
+    "title": "Qué es una CPU"
+  },
+  "elements": [
+    {
+      "id": "motherboard",
+      "type": "image",
+      "src": "assets/icons/motherboard.svg",
+      "slot": "center",
+      "in": 1.15,
+      "out": 6.15,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.45
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "gpu",
+      "type": "image",
+      "src": "assets/icons/gpu.svg",
+      "slot": "right",
+      "in": 8.08,
+      "out": 10,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.45
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "s0",
+      "type": "stickman",
+      "pose": "pointing-right",
+      "slot": "left",
+      "in": 8.2,
+      "out": 10,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "a1",
+      "type": "arrow",
+      "from": "left",
+      "to": "right",
+      "style": "hand-drawn-red",
+      "in": 8.32,
+      "out": 10,
+      "enter": {
+        "kind": "draw",
+        "duration": 0.55
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.2
+      }
+    },
+    {
+      "id": "cpu",
+      "type": "image",
+      "src": "assets/icons/cpu.svg",
+      "slot": "top-right",
+      "in": 9.62,
+      "out": 10.82,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.45
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t2",
+      "type": "text",
+      "content": "un pisapapeles de 400 euros",
+      "slot": "center",
+      "color": "#E5342A",
+      "size": "lg",
+      "in": 13.46,
+      "out": 14.66,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.8
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "money2",
+      "type": "image",
+      "src": "assets/icons/money2.svg",
+      "slot": "bottom",
+      "in": 13.58,
+      "out": 14.78,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.45
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    }
+  ]
+}
