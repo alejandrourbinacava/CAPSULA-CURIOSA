@@ -4,14 +4,14 @@ on:
   workflow_dispatch:
     inputs:
       nuevoVideo:
-        description: "Generar un VÍDEO NUEVO (coge el siguiente tema de topics.json y escribe el guion con IA). Desmarca solo para re-renderizar el actual."
+        description: "Generar un VÍDEO NUEVO (coge el siguiente tema de topics.json y Claude escribe el guion). Desmarca solo para re-renderizar el episodio activo."
         type: boolean
         default: true
   schedule:
     - cron: "0 6 * * *"   # cada día a las 06:00 UTC (nuevo vídeo automático)
 
 permissions:
-  contents: write   # para guardar el avance del tema (topics.json) tras cada run
+  contents: write   # para guardar el avance del tema (topics.json + episodes/) tras cada run
 
 jobs:
   render:
@@ -25,6 +25,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+
+      - name: Python 3.11 (para Whisper)
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
       - name: Dependencias del sistema (ffmpeg + libs del Chrome de Remotion)
         timeout-minutes: 10
@@ -45,46 +50,47 @@ jobs:
             libxrandr2 libxkbcommon0 libxfixes3 libxcomposite1 libxdamage1 \
             libatk-bridge2.0-0 libpango-1.0-0 libcairo2 libcups2 || echo "libs via apt omitido (probablemente ya presentes)"
 
+      - name: Instalar faster-whisper (sincronía palabra a palabra)
+        run: pip install --disable-pip-version-check faster-whisper
+
       - name: Instalar dependencias npm
         run: npm install
 
-      - name: 1) Escribir el guion del siguiente tema (IA · Claude)
+      - name: 00) Claude escribe el guion del siguiente tema (solo vídeo nuevo)
         if: ${{ github.event_name == 'schedule' || inputs.nuevoVideo }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: node next-video.mjs
+        run: node scripts/00-write-script.mjs
 
-      - name: 2) Generar voz + fotos + vídeos + sincronía + música
+      - name: Fijar episodio activo
+        id: ep
+        run: echo "dir=$(cat episodes/active.txt)" >> $GITHUB_OUTPUT
+
+      - name: 01a) Descargar assets (fotos Wikipedia + iconos vectoriales)
+        run: node scripts/01-assets.mjs "${{ steps.ep.outputs.dir }}"
+
+      - name: 01b) Voz (genaipro) + sincronía por palabra (Whisper)
         env:
           GENAIPRO_API_KEY: ${{ secrets.GENAIPRO_API_KEY }}
-          PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
-          PEXELS_KEY: ${{ secrets.PEXELS_KEY }}
-          GIPHY_KEY: ${{ secrets.GIPHY_KEY }}
-        run: node generate.mjs
+        run: node scripts/01-tts.mjs "${{ steps.ep.outputs.dir }}"
 
-      - name: 3) Renderizar el vídeo (Remotion · AutoVideo)
-        run: npx remotion render src/index.ts AutoVideo out/video.mp4 --concurrency=2
+      - name: 02) Compilar scenes.json (etiquetas + tiempos -> escena)
+        run: node scripts/02-build-scenes.mjs "${{ steps.ep.outputs.dir }}"
 
-      - name: 4) Mezclar audio (voz + música -25dB + pops)
-        run: |
-          ffmpeg -y -i out/video.mp4 \
-            -stream_loop -1 -i public/voz/bg_music.wav \
-            -i public/voz/sfx_full.wav \
-            -filter_complex "[1:a]volume=-25dB[m];[2:a]volume=-10dB[s];[0:a][m][s]amix=inputs=3:normalize=0[a]" \
-            -map 0:v -map "[a]" -c:v copy -c:a aac -b:a 192k -shortest \
-            out/VIDEO_FINAL.mp4
+      - name: 03) Renderizar el vídeo (Remotion · Scene)
+        run: npx remotion render src/index.ts Scene out/VIDEO_FINAL.mp4 --concurrency=2
 
-      - name: 5) Renderizar miniatura (rejilla desde el config)
-        run: npx remotion still src/index.ts AutoThumb out/thumbnail.png --frame=0
+      - name: 04) Miniatura (fotograma representativo del vídeo)
+        continue-on-error: true
+        run: npx remotion still src/index.ts Scene out/thumbnail.png --frame=90
 
       - name: Leer título del vídeo
         id: meta
         run: |
-          echo "title=$(node -p "require('./video.config.json').title")" >> $GITHUB_OUTPUT
+          echo "title=$(node -p "require('./public/active/scenes.json').meta.title || 'Episodio'")" >> $GITHUB_OUTPUT
           echo "fecha=$(date +%Y-%m-%d)" >> $GITHUB_OUTPUT
 
-      - name: 6) Subir como artifact (copia temporal, 90 días)
+      - name: 05) Subir como artifact (copia temporal, 90 días)
         uses: actions/upload-artifact@v4
         with:
           name: video-${{ github.run_number }}
@@ -93,22 +99,21 @@ jobs:
             out/thumbnail.png
           retention-days: 90
 
-      - name: 6b) Publicar como Release PERMANENTE (no se borra nunca)
+      - name: 05b) Publicar como Release PERMANENTE (no se borra nunca)
         uses: softprops/action-gh-release@v2
         with:
           tag_name: video-${{ github.run_number }}
           name: "🎬 ${{ steps.meta.outputs.title }} (${{ steps.meta.outputs.fecha }})"
-          body: "Vídeo generado automáticamente. Descarga el MP4 abajo 👇"
+          body: "Vídeo generado automáticamente (pipeline spec: guion fijo + sincronía por palabra). Descarga el MP4 abajo 👇"
           files: |
             out/VIDEO_FINAL.mp4
             out/thumbnail.png
 
-      - name: 7) Guardar el avance del tema para el próximo día
-        if: ${{ github.event_name == 'schedule' || inputs.nuevoVideo }}
+      - name: 06) Guardar el episodio y el avance del tema
         run: |
           git config user.name "capsula-bot"
           git config user.email "bot@capsulacuriosa"
-          git add topics.json video.config.json
-          git commit -m "Auto: guion del siguiente tema" || echo "sin cambios"
+          git add topics.json episodes public/assets public/active || true
+          git commit -m "Auto: episodio '${{ steps.meta.outputs.title }}' + avance de tema" || echo "sin cambios"
           git pull --no-rebase --no-edit origin main || true
           git push

@@ -1,1 +1,1 @@
-episodes\002-cada-planeta-del-sistema-solar-explicado
+episodes/002-cada-planeta-del-sistema-solar-explicado

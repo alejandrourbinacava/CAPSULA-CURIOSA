@@ -11,3 +11,11 @@ public/voz1/_raw/
 # logs
 *.log
 npm-debug.log*
+# --- pipeline spec: regenerables (NO se commitean; se recrean en cada run) ---
+# audio de voz por episodio (pesado; lo regenera 01-tts)
+episodes/**/*.mp3
+episodes/**/words.json
+# assets descargados (Wikipedia/Iconify) - los rebaja 01-assets
+public/assets/
+# audio del render activo (se recopia en cada build). scenes.json SÍ se versiona.
+public/active/audio.mp3

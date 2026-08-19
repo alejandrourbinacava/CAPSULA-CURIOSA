@@ -12,7 +12,7 @@ import { TrastornosRealFull, TOTAL as TOTAL_RF } from "./TrastornosRealFull";
 import { AutoVideo, TOTAL as TOTAL_AUTO } from "./AutoVideo";
 import { AutoThumb } from "./AutoThumb";
 import { makeSceneVideo } from "./scenes/SceneVideo";
-import testScenes from "../episodes/test-cpu/scenes.json";
+import testScenes from "../public/active/scenes.json";
 
 const SceneTest = makeSceneVideo(testScenes as any);
 

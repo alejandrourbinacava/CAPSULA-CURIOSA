@@ -59,7 +59,7 @@ fs.mkdirSync(dir, { recursive: true });
 const front = `---\ntitle: "${(g.title || topic.title).replace(/"/g, "")}"\nvoice: "tony"\n---\n`;
 fs.writeFileSync(path.join(dir, "script.md"), front + (g.script || "").trim() + "\n");
 fs.writeFileSync(path.join(dir, "assets.json"), JSON.stringify(g.assets || {}, null, 2));
-fs.writeFileSync("episodes/active.txt", dir);
+fs.writeFileSync("episodes/active.txt", dir.split(path.sep).join("/"));
 state.nextIndex = (state.nextIndex + 1) % state.topics.length;
 fs.writeFileSync("topics.json", JSON.stringify(state, null, 2));
 const nAssets = Object.keys(g.assets || {}).length;
