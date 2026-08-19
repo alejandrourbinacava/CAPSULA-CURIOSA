@@ -104,62 +104,63 @@ const ItemScene: React.FC<{ d: Item; n: number }> = ({ d, n }) => {
   const ref: string | null = Array.isArray(entry) ? null : (entry?.ref || null);
   if (!bts.length) return <AbsoluteFill style={{ alignItems: "center", justifyContent: "center" }}><Audio src={staticFile(`voz1deep/${d.id}.mp3`)} /><Chip n={d.main} c={d.color} size={320} /></AbsoluteFill>;
   let bi = 0; for (let k = 0; k < bts.length; k++) if (frame >= bts[k].f) bi = k;
-  const b = bts[bi]; const lf = frame - b.f; const dir = bi % 2 === 0 ? 1 : -1;
-  const beatLen = (bi < bts.length - 1 ? bts[bi + 1].f : b.f + 100000) - b.f;
-  const R = (p: number, from: number, node: React.ReactNode, fromY = 0) => {
-    const s = p < 0.6 ? 0.35 + 0.85 * (p / 0.6) : 1.2 - 0.2 * ((p - 0.6) / 0.4);
-    return <div style={{ opacity: Math.min(1, p * 1.6), transform: `translate(${(1 - p) * from}px,${(1 - p) * fromY}px) scale(${Math.max(0, s)})` }}>{node}</div>;
-  };
-
+  const b = bts[bi];
   const isTitle = bi === 0;
   const label = b.text || d.name;
-  const cap = (s: number) => <T s={s} heavy w={1600}>{label}</T>;
-  let body: React.ReactNode;
-  if (isTitle && b.file) body = <>
-    {R(ap(lf, 4), 150, <BigMedia file={b.file} kind={b.kind} from={b.f} accent={d.color} w={1120} h={600} />)}
-    {R(ap(lf, 18), 0, <div style={{ marginTop: 26 }}>{cap(label.length > 22 ? 66 : 92)}</div>, 45)}
-  </>;
-  else if (isTitle) body = <>
-    <div style={{ display: "flex", alignItems: "center", gap: 34 }}>
-      {R(ap(lf, 0), -140, <div style={{ transform: bob(frame) }}><Chip n={b.icon || d.main} c={d.color} size={300} /></div>)}
-      {R(ap(lf, 14), 0, <Arrow f={lf} delay={14} w={180} />)}
-    </div>
-    {R(ap(lf, 10), 0, cap(label.length > 13 ? 82 : 110), 55)}
-  </>;
-  else if (b.file) body = <>
-    {R(ap(lf, 4), 150, <div style={{ position: "relative" }}>
-      <BigMedia file={b.file} kind={b.kind} from={b.f} accent={d.color} w={1180} h={620} />
-      <div style={{ position: "absolute", top: -34, left: -34, transform: bob(frame) }}><Chip n={b.icon} c={d.color} size={130} /></div>
-    </div>)}
-    {R(ap(lf, 20), 0, <div style={{ marginTop: 30 }}>{cap(label.length > 26 ? 52 : 72)}</div>, 45)}
-  </>;
-  else if (b.bullets && b.bullets.length) body = <>
-    {R(ap(lf, 0), -120, <div style={{ transform: bob(frame) }}><Chip n={b.icon} c={d.color} size={210} /></div>)}
-    {R(ap(lf, 12), 0, <div style={{ marginTop: 22 }}>{cap(label.length > 26 ? 52 : 70)}</div>, 40)}
-    <div style={{ display: "flex", flexDirection: "column", gap: 18, marginTop: 26, alignItems: "flex-start" }}>
-      {b.bullets.map((bl, k) => R(ap(lf, 24 + k * 9), -80, <div style={{ fontFamily: HAND, fontSize: 46, display: "flex", gap: 16, alignItems: "flex-start" }}><span style={{ color: d.color, fontWeight: 900 }}>▸</span><span style={{ maxWidth: 1200 }}>{bl}</span></div>))}
-    </div>
-  </>;
-  else body = <>
-    {R(ap(lf, 0), -140, <div style={{ transform: bob(frame) }}><Chip n={b.icon} c={d.color} size={330} /></div>)}
-    {R(ap(lf, 16), 0, <div style={{ marginTop: 34 }}>{cap(label.length > 22 ? 60 : 84)}</div>, 50)}
-  </>;
+
+  // contenido de un elemento del lienzo (imagen grande / lista de datos / icono+texto)
+  const Slot: React.FC<{ bb: Beat }> = ({ bb }) => {
+    if (bb.file) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
+      <div style={{ position: "relative" }}><BigMedia file={bb.file} kind={bb.kind} from={bb.f} accent={d.color} w={720} h={332} />
+        <div style={{ position: "absolute", top: -24, left: -24 }}><Chip n={bb.icon} c={d.color} size={92} /></div></div>
+      <T s={bb.text.length > 26 ? 32 : 42} heavy w={760}>{bb.text}</T>
+    </div>;
+    if (bb.bullets && bb.bullets.length) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 12 }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 16 }}><div style={{ transform: bob(frame) }}><Chip n={bb.icon} c={d.color} size={100} /></div><T s={42} heavy w={520}>{bb.text}</T></div>
+      {bb.bullets.map((bl, k) => <div key={k} style={{ fontFamily: HAND, fontSize: 38, display: "flex", gap: 10, alignItems: "flex-start" }}><span style={{ color: d.color, fontWeight: 900 }}>▸</span><span style={{ maxWidth: 640 }}>{bl}</span></div>)}
+    </div>;
+    return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
+      <div style={{ transform: bob(frame) }}><Chip n={bb.icon} c={d.color} size={190} /></div>
+      <T s={bb.text.length > 22 ? 36 : 50} heavy w={720}>{bb.text}</T>
+    </div>;
+  };
+
+  let main: React.ReactNode;
+  if (isTitle) {
+    const p = clamp((frame - b.f) / 10); const s = p < 0.6 ? 0.5 + 0.6 * (p / 0.6) : 1.1 - 0.1 * ((p - 0.6) / 0.4);
+    main = <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", padding: "160px 90px 100px" }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 30, opacity: Math.min(1, p * 1.6), transform: `scale(${Math.max(0, s)})` }}>
+        {b.file ? <BigMedia file={b.file} kind={b.kind} from={b.f} accent={d.color} w={1120} h={590} /> : <div style={{ transform: bob(frame) }}><Chip n={b.icon || d.main} c={d.color} size={320} /></div>}
+        <T s={label.length > 20 ? 74 : 104} heavy>{label}</T>
+      </div>
+    </AbsoluteFill>;
+  } else {
+    // LIENZO que se llena: agrupa los beats en paneles de 4 slots; van apareciendo uno a uno y SE QUEDAN
+    const POS = [{ x: 560, y: 470 }, { x: 1360, y: 470 }, { x: 560, y: 830 }, { x: 1360, y: 830 }];
+    const idx = bi - 1, panel = Math.floor(idx / 4), startK = panel * 4 + 1;
+    const slots: number[] = []; for (let k = startK; k <= bi; k++) slots.push(k);
+    main = <AbsoluteFill>
+      {slots.map((k) => {
+        const bb = bts[k], si = k - startK, pos = POS[si] || POS[3];
+        const p = clamp((frame - bb.f) / 9), s = p < 0.6 ? 0.4 + 0.8 * (p / 0.6) : 1.16 - 0.16 * ((p - 0.6) / 0.4);
+        const fx = (si % 2 === 0 ? -1 : 1) * 90 * (1 - p);
+        return <div key={k} style={{ position: "absolute", left: pos.x, top: pos.y, opacity: Math.min(1, p * 1.7), transform: `translate(-50%,-50%) translate(${fx}px,${(1 - p) * -45}px) scale(${Math.max(0, s)})` }}><Slot bb={bb} /></div>;
+      })}
+    </AbsoluteFill>;
+  }
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#fbfbfa" }}>
       <Audio src={staticFile(`voz1deep/${d.id}.mp3`)} />
-      <div style={{ position: "absolute", top: 40, right: 70, fontFamily: HEAVY, fontSize: 54, fontWeight: 900, color: "#dcdcdc" }}>{n}<span style={{ fontSize: 28 }}>/{ITEMS.length}</span></div>
-      {/* ancla fija arriba-izquierda: foto de referencia + nombre (estilo Chris) */}
+      <div style={{ position: "absolute", top: 40, right: 70, fontFamily: HEAVY, fontSize: 54, fontWeight: 900, color: "#dcdcdc", zIndex: 5 }}>{n}<span style={{ fontSize: 28 }}>/{ITEMS.length}</span></div>
       <div style={{ position: "absolute", top: 40, left: 70, display: "flex", alignItems: "center", gap: 16, zIndex: 5 }}>
         {ref && <Img src={staticFile(ref)} style={{ width: 132, height: 82, objectFit: "cover", borderRadius: 10, border: `3px solid ${d.color}`, boxShadow: "0 6px 16px rgba(0,0,0,.18)" }} />}
         <div style={{ fontFamily: HEAVY, fontSize: 34, fontWeight: 900, color: d.color, maxWidth: 820 }}>{d.name}</div>
       </div>
-      <div style={{ position: "absolute", bottom: 38, left: 0, width: "100%", display: "flex", justifyContent: "center", gap: 12, flexWrap: "wrap", padding: "0 180px" }}>
+      <div style={{ position: "absolute", bottom: 34, left: 0, width: "100%", display: "flex", justifyContent: "center", gap: 12, flexWrap: "wrap", padding: "0 180px", zIndex: 5 }}>
         {bts.map((_, k) => <div key={k} style={{ width: 15, height: 15, borderRadius: "50%", background: k <= bi ? d.color : "#e4e4e4", transform: `scale(${k === bi ? 1.35 : 1})` }} />)}
       </div>
-      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", padding: "150px 90px 90px" }}>
-        <BeatWrap lf={lf} beatLen={beatLen} dir={dir}>{body}</BeatWrap>
-      </AbsoluteFill>
+      {main}
     </AbsoluteFill>
   );
 };
