@@ -3,429 +3,436 @@
   "fps": 30,
   "voiceId": "851ejYcv2BoNPjrkw93G",
   "speed": 1.08,
-  "cornerIcon": "joystick",
+  "cornerIcon": "gamepad",
   "handle": "@CapsulaCuriosa",
   "intro": {
     "id": "v00",
-    "narration": "Un joystick de madera, un cartucho polvoriento, una pantalla parpadeando en un salón de los años setenta... así empezó todo. Desde entonces, gigantes como Atari, Nintendo, Sega, Sony y Microsoft han librado una guerra silenciosa por conquistar tu salón, tu tiempo y tu dinero. Cada consola que ha marcado época escondía una idea genial, una apuesta arriesgada o un error que casi la hunde. Hoy vamos a repasar cada máquina que cambió las reglas del juego, desde la Atari 2600 hasta la Nintendo Switch, y descubrir qué las hizo especiales... y por qué esta guerra sigue sin terminar."
+    "narration": "En 1972 una simple caja conectada al televisor cambió el mundo para siempre. Desde entonces, gigantes como Atari, Nintendo, Sega, Sony y Microsoft han librado una guerra sin cuartel por conquistar tu salón. Consolas enterradas en el desierto, mascotas creadas para matar a la competencia, fallos técnicos que costaron fortunas y apuestas arriesgadas que cambiaron la industria para siempre. Cada máquina que vamos a repasar hoy no fue solo una caja de plástico: fue una jugada estratégica, una revolución técnica o directamente un golpe de suerte. Prepárate porque vamos a recorrer más de cincuenta años de historia, traiciones empresariales y guerras de marketing legendarias. Esto es Cápsula Curiosa."
   },
   "grupos": {
     "id": "v01",
-    "narration": "Vamos a viajar consola por consola, desde el origen en los años setenta hasta la era híbrida actual, pasando por guerras de marketing, errores millonarios y juegos que cambiaron la historia. Aquí tienes cada máquina explicada de un tirón."
+    "narration": "Vamos a repasar, una por una, las consolas que definieron generaciones enteras de jugadores. Desde la caja de madera de Atari hasta el híbrido revolucionario de Nintendo, pasando por guerras de eslóganes, fallos técnicos históricos y ventas descomunales. Empezamos por el principio de todo."
   },
   "outro": {
     "id": "v11",
-    "narration": "Y así, generación tras generación, esta guerra por tu salón sigue viva, reinventándose con cada consola nueva. Desde un simple joystick de madera hasta mundos abiertos en tu bolsillo, la historia de los videojuegos es la historia de una obsesión compartida. Si te ha gustado este repaso, suscríbete a Cápsula Curiosa y no te pierdas el próximo vídeo. ¡Nos vemos pronto!"
+    "narration": "Como has visto, cada consola contó una parte distinta de esta guerra: potencia, precio, diversión o innovación. Y esa batalla sigue viva hoy mismo, generación tras generación. Si te ha gustado este repaso, dale like, coméntanos cuál fue tu primera consola y suscríbete a Cápsula Curiosa para más historias como esta. ¡Nos vemos en el próximo vídeo!"
   },
   "items": [
     {
       "id": "v02",
       "key": "item1",
-      "name": "ATARI 2600",
+      "name": "ATARI",
       "color": "#e57373",
-      "main": "joystick",
-      "def": "El origen de todo",
+      "main": "gamepad",
+      "def": "El origen de los videojuegos",
       "beats": [
         {
-          "say": "En 1977 nace la consola que cambió el ocio para siempre",
+          "say": "Todo empezó con una caja de madera falsa.",
           "text": "ATARI 2600",
-          "icon": "joystick",
+          "icon": "circle-help",
           "media": "photo",
           "query": "Atari 2600"
         },
         {
-          "say": "Antes de esto, los videojuegos vivían solo en máquinas recreativas",
-          "text": "ANTES: RECREATIVAS",
+          "say": "Corría el año mil novecientos setenta y siete.",
+          "text": "AÑO 1977",
+          "icon": "calendar",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Dentro llevaba un chip humilde pero revolucionario.",
+          "text": "CHIP REVOLUCIONARIO",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Atari metió esa magia dentro de una caja para casa",
-          "text": "OCIO EN CASA",
-          "icon": "house",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Su gran invento fueron los cartuchos intercambiables de juegos",
+          "say": "Los cartuchos permitían cambiar de juego al instante.",
           "text": "CARTUCHOS INTERCAMBIABLES",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Con solo 128 bytes de memoria lograba auténticas maravillas",
-          "text": "128 BYTES DE RAM",
+          "say": "Pong ya había enganchado a medio país.",
+          "text": "PONG",
           "icon": "circle-help",
+          "media": "photo",
+          "query": "Pong"
+        },
+        {
+          "say": "Atari se convirtió en el rey del salón.",
+          "text": "REY DEL MERCADO",
+          "icon": "crown",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Juegos como Pong y Space Invaders conquistaron los salones",
-          "text": "PONG Y SPACE INVADERS",
-          "icon": "rocket",
-          "media": "photo",
-          "query": "Space Invaders"
-        },
-        {
-          "say": "Vendió más de 30 millones de unidades en su vida",
+          "say": "Vendió más de treinta millones de unidades.",
           "text": "30 MILLONES VENDIDAS",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Pero el éxito atrajo a demasiadas empresas sin control",
-          "text": "DEMASIADA COMPETENCIA",
+          "say": "Pero el éxito atrajo a demasiados imitadores.",
+          "text": "DEMASIADOS IMITADORES",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Cualquiera podía fabricar juegos y la calidad se hundió",
-          "text": "CALIDAD SE HUNDE",
+          "say": "Cualquiera podía fabricar juegos sin control de calidad.",
+          "text": "SIN CONTROL CALIDAD",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "El desastre de E.T. simbolizó el colapso de la industria",
-          "text": "EL DESASTRE DE E.T.",
-          "icon": "skull",
+          "say": "En 1982 salió E.T., un juego desastroso.",
+          "text": "E.T. EL JUEGO",
+          "icon": "circle-help",
           "media": "photo",
           "query": "E.T. the Extra-Terrestrial (video game)"
         },
         {
-          "say": "Millones de cartuchos acabaron enterrados en pleno desierto",
-          "text": "ENTERRADOS EN EL DESIERTO",
+          "say": "Millones de cartuchos acabaron enterrados en el desierto.",
+          "text": "CARTUCHOS ENTERRADOS",
           "icon": "shovel",
+          "media": "photo",
+          "query": "Atari video game burial"
+        },
+        {
+          "say": "El mercado se saturó y los jugadores perdieron confianza.",
+          "text": "MERCADO SATURADO",
+          "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "En 1983 llegó el gran crac de los videojuegos",
+          "say": "En 1983 llegó el gran crac de los videojuegos.",
           "text": "CRAC DE 1983",
           "icon": "bomb",
           "media": "none",
           "query": ""
         },
         {
-          "say": "El mercado se desplomó y muchas empresas quebraron",
-          "text": "MERCADO SE DESPLOMA",
+          "say": "Las tiendas dejaron de vender consolas por completo.",
+          "text": "TIENDAS VACÍAS",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Fue un golpe durísimo, pero no el final del camino",
-          "text": "NO FUE EL FINAL",
-          "icon": "shield",
+          "say": "Atari perdió cientos de millones de dólares.",
+          "text": "PÉRDIDAS MILLONARIAS",
+          "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Atari nos dejó el mando, el cartucho y el salón",
-          "text": "SU LEGADO",
-          "icon": "gamepad",
+          "say": "Fue el fin de una era dorada.",
+          "text": "FIN DE UNA ERA",
+          "icon": "sunset",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Sin Atari ninguna consola posterior existiría tal como la conocemos",
-          "text": "SIN ATARI, NADA",
+          "say": "Pero abrió la puerta a un nuevo rey.",
+          "text": "NUEVO REY LLEGA",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Ese rey se llamaba Nintendo.",
+          "text": "NINTENDO LLEGA",
           "icon": "flag",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Fue la chispa que encendió una industria entera",
-          "text": "LA CHISPA INICIAL",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ahora toca ver quién recogió el testigo",
-          "text": "QUIÉN SIGUE",
-          "icon": "trophy",
           "media": "none",
           "query": ""
         }
       ],
-      "narration": "En 1977 nace la consola que cambió el ocio para siempre Antes de esto, los videojuegos vivían solo en máquinas recreativas Atari metió esa magia dentro de una caja para casa Su gran invento fueron los cartuchos intercambiables de juegos Con solo 128 bytes de memoria lograba auténticas maravillas Juegos como Pong y Space Invaders conquistaron los salones Vendió más de 30 millones de unidades en su vida Pero el éxito atrajo a demasiadas empresas sin control Cualquiera podía fabricar juegos y la calidad se hundió El desastre de E.T. simbolizó el colapso de la industria Millones de cartuchos acabaron enterrados en pleno desierto En 1983 llegó el gran crac de los videojuegos El mercado se desplomó y muchas empresas quebraron Fue un golpe durísimo, pero no el final del camino Atari nos dejó el mando, el cartucho y el salón Sin Atari ninguna consola posterior existiría tal como la conocemos Fue la chispa que encendió una industria entera Ahora toca ver quién recogió el testigo",
-      "videoQuery": "Atari 2600 commercial",
+      "narration": "Todo empezó con una caja de madera falsa. Corría el año mil novecientos setenta y siete. Dentro llevaba un chip humilde pero revolucionario. Los cartuchos permitían cambiar de juego al instante. Pong ya había enganchado a medio país. Atari se convirtió en el rey del salón. Vendió más de treinta millones de unidades. Pero el éxito atrajo a demasiados imitadores. Cualquiera podía fabricar juegos sin control de calidad. En 1982 salió E.T., un juego desastroso. Millones de cartuchos acabaron enterrados en el desierto. El mercado se saturó y los jugadores perdieron confianza. En 1983 llegó el gran crac de los videojuegos. Las tiendas dejaron de vender consolas por completo. Atari perdió cientos de millones de dólares. Fue el fin de una era dorada. Pero abrió la puerta a un nuevo rey. Ese rey se llamaba Nintendo.",
+      "videoQuery": "Atari 2600 gameplay",
       "photoQuery": "Atari 2600"
     },
     {
       "id": "v03",
       "key": "item2",
-      "name": "NINTENDO NES",
+      "name": "NES",
       "color": "#90a4ae",
-      "main": "circle-help",
-      "def": "El renacer de los videojuegos",
+      "main": "gamepad",
+      "def": "Salvó la industria del videojuego",
       "beats": [
         {
-          "say": "Tras el crac Nintendo se atrevió a resucitar el mercado",
-          "text": "NINTENDO NES",
+          "say": "Nintendo lanzó su consola disfrazada de electrodoméstico.",
+          "text": "NES 1985",
           "icon": "circle-help",
           "media": "photo",
           "query": "Nintendo Entertainment System"
         },
         {
-          "say": "La llamaron Entertainment System para no asustar a las tiendas",
-          "text": "NOMBRE DISFRAZADO",
+          "say": "Querían borrar el miedo tras el crac anterior.",
+          "text": "BORRAR EL MIEDO",
+          "icon": "eraser",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La llamaron sistema de entretenimiento, no consola.",
+          "text": "NO ES CONSOLA",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Nintendo controlaba con mano de hierro qué juegos se lanzaban",
-          "text": "CONTROL TOTAL",
-          "icon": "shield",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Cada cartucho llevaba un chip de seguridad oficial",
-          "text": "CHIP DE SEGURIDAD",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Así evitaron otro desastre como el de los cartuchos pirata",
-          "text": "EVITAR OTRO CRAC",
-          "icon": "shield",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Super Mario Bros llegó incluido y conquistó cada salón",
-          "text": "SUPER MARIO BROS",
+          "say": "Incluía un cañón de luz llamado Zapper.",
+          "text": "PISTOLA ZAPPER",
           "icon": "circle-help",
           "media": "photo",
-          "query": "Super Mario Bros."
+          "query": "NES Zapper"
         },
         {
-          "say": "Un fontanero saltando tuberías se volvió un icono mundial",
-          "text": "ICONO MUNDIAL",
+          "say": "Y un robot de plástico llamado R.O.B.",
+          "text": "ROBOT R.O.B.",
+          "icon": "circle-help",
+          "media": "photo",
+          "query": "R.O.B."
+        },
+        {
+          "say": "Super Mario Bros. se convirtió en su gran estrella.",
+          "text": "SUPER MARIO BROS.",
           "icon": "star",
-          "media": "gif",
+          "media": "photo",
           "query": "Super Mario Bros."
         },
         {
-          "say": "The Legend of Zelda inventó las aventuras abiertas de acción",
-          "text": "THE LEGEND OF ZELDA",
-          "icon": "sword",
-          "media": "photo",
-          "query": "The Legend of Zelda"
-        },
-        {
-          "say": "Vendió más de 60 millones de consolas en el mundo",
-          "text": "60 MILLONES VENDIDAS",
+          "say": "El fontanero saltarín vendió cuarenta millones de copias.",
+          "text": "40 MILLONES VENDIDOS",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Nintendo devolvió la confianza a jugadores y tiendas de juguetes",
-          "text": "CONFIANZA RECUPERADA",
-          "icon": "handshake",
+          "say": "Nintendo impuso un sello de calidad obligatorio.",
+          "text": "SELLO DE CALIDAD",
+          "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Su mando cuadrado con cruceta se copiaría durante décadas",
-          "text": "MANDO CON CRUCETA",
-          "icon": "gamepad",
-          "media": "photo",
-          "query": "Nintendo Entertainment System controller"
+          "say": "Así evitaban otro desastre como el de E.T.",
+          "text": "EVITAR OTRO DESASTRE",
+          "icon": "shield",
+          "media": "none",
+          "query": ""
         },
         {
-          "say": "Ese diseño sigue vivo en prácticamente todos los mandos actuales",
-          "text": "DISEÑO ETERNO",
+          "say": "Cada juego debía pasar controles estrictos.",
+          "text": "CONTROLES ESTRICTOS",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "The Legend of Zelda estrenó las partidas guardadas.",
+          "text": "ZELDA Y GUARDADO",
+          "icon": "circle-help",
+          "media": "photo",
+          "query": "The Legend of Zelda (video game)"
+        },
+        {
+          "say": "Nunca más habría que empezar desde cero.",
+          "text": "SIN EMPEZAR DE CERO",
           "icon": "clock",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Nintendo se convirtió en sinónimo de videojuegos para toda una generación",
-          "text": "SINÓNIMO DE VIDEOJUEGOS",
+          "say": "Nintendo dominó casi el noventa por ciento del mercado.",
+          "text": "90% DEL MERCADO",
+          "icon": "pie-chart",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Se ganó el apodo de monopolio silencioso.",
+          "text": "MONOPOLIO SILENCIOSO",
           "icon": "crown",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Pero un rival japonés observaba de cerca, afilando sus armas",
-          "text": "RIVAL ACECHA",
-          "icon": "sword",
+          "say": "La NES resucitó una industria que parecía muerta.",
+          "text": "INDUSTRIA RESUCITADA",
+          "icon": "heart",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Sega quería robarle el trono a Nintendo como fuera",
-          "text": "SEGA QUIERE EL TRONO",
-          "icon": "crown",
+          "say": "Vendió más de sesenta millones de consolas.",
+          "text": "60 MILLONES VENDIDAS",
+          "icon": "trophy",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Esa rivalidad cambiaría para siempre la historia de los videojuegos",
-          "text": "RIVALIDAD HISTÓRICA",
+          "say": "Nintendo se sentó en el trono del videojuego.",
+          "text": "TRONO DEL VIDEOJUEGO",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Y ahí empieza una de las guerras más famosas del sector",
-          "text": "LA GUERRA EMPIEZA",
-          "icon": "flag",
+          "say": "Pero un rival japonés preparaba su contraataque.",
+          "text": "RIVAL SE PREPARA",
+          "icon": "sword",
           "media": "none",
           "query": ""
         }
       ],
-      "narration": "Tras el crac Nintendo se atrevió a resucitar el mercado La llamaron Entertainment System para no asustar a las tiendas Nintendo controlaba con mano de hierro qué juegos se lanzaban Cada cartucho llevaba un chip de seguridad oficial Así evitaron otro desastre como el de los cartuchos pirata Super Mario Bros llegó incluido y conquistó cada salón Un fontanero saltando tuberías se volvió un icono mundial The Legend of Zelda inventó las aventuras abiertas de acción Vendió más de 60 millones de consolas en el mundo Nintendo devolvió la confianza a jugadores y tiendas de juguetes Su mando cuadrado con cruceta se copiaría durante décadas Ese diseño sigue vivo en prácticamente todos los mandos actuales Nintendo se convirtió en sinónimo de videojuegos para toda una generación Pero un rival japonés observaba de cerca, afilando sus armas Sega quería robarle el trono a Nintendo como fuera Esa rivalidad cambiaría para siempre la historia de los videojuegos Y ahí empieza una de las guerras más famosas del sector",
-      "videoQuery": "Nintendo NES gameplay",
+      "narration": "Nintendo lanzó su consola disfrazada de electrodoméstico. Querían borrar el miedo tras el crac anterior. La llamaron sistema de entretenimiento, no consola. Incluía un cañón de luz llamado Zapper. Y un robot de plástico llamado R.O.B. Super Mario Bros. se convirtió en su gran estrella. El fontanero saltarín vendió cuarenta millones de copias. Nintendo impuso un sello de calidad obligatorio. Así evitaban otro desastre como el de E.T. Cada juego debía pasar controles estrictos. The Legend of Zelda estrenó las partidas guardadas. Nunca más habría que empezar desde cero. Nintendo dominó casi el noventa por ciento del mercado. Se ganó el apodo de monopolio silencioso. La NES resucitó una industria que parecía muerta. Vendió más de sesenta millones de consolas. Nintendo se sentó en el trono del videojuego. Pero un rival japonés preparaba su contraataque.",
+      "videoQuery": "Super Mario Bros gameplay",
       "photoQuery": "Nintendo Entertainment System"
     },
     {
       "id": "v04",
       "key": "item3",
-      "name": "SEGA MEGA DRIVE",
+      "name": "MEGA DRIVE",
       "color": "#ba68c8",
       "main": "circle-help",
-      "def": "Sega contraataca a Nintendo",
+      "def": "La guerra de los 16 bits",
       "beats": [
         {
-          "say": "En 1988 Sega lanzó su arma para plantar cara a Nintendo",
-          "text": "MEGA DRIVE",
+          "say": "Sega lanzó Mega Drive para atacar a Nintendo.",
+          "text": "MEGA DRIVE 1988",
           "icon": "sword",
           "media": "photo",
           "query": "Sega Mega Drive"
         },
         {
-          "say": "Presumía de tener 16 bits frente a los 8 de NES",
-          "text": "16 BITS DE POTENCIA",
+          "say": "Su procesador de dieciséis bits era más potente.",
+          "text": "16 BITS",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Su eslogan decía que Sega hace lo que Nintendon't",
-          "text": "SEGA HACE LO QUE NINTENDON'T",
-          "icon": "megaphone",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Necesitaban una mascota veloz para competir con el fontanero",
-          "text": "NUEVA MASCOTA",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Nació Sonic, un erizo azul más rápido que el sonido",
-          "text": "NACE SONIC",
-          "icon": "circle-help",
+          "say": "En América se llamó Sega Genesis.",
+          "text": "SEGA GENESIS",
+          "icon": "flag",
           "media": "photo",
-          "query": "Sonic the Hedgehog (character)"
+          "query": "Sega Genesis"
         },
         {
-          "say": "Su velocidad se convirtió en la seña de identidad de Sega",
-          "text": "VELOCIDAD COMO MARCA",
-          "icon": "circle-help",
-          "media": "gif",
-          "query": "Sonic the Hedgehog (1991 video game)"
-        },
-        {
-          "say": "Sega apuntó directamente a un público más adolescente",
-          "text": "PÚBLICO ADOLESCENTE",
+          "say": "Sega necesitaba una mascota para plantar cara.",
+          "text": "NECESITA MASCOTA",
           "icon": "target",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Juegos más violentos y deportivos marcaron su catálogo",
-          "text": "JUEGOS MÁS VIOLENTOS",
+          "say": "Nació Sonic, un erizo azul supersónico.",
+          "text": "SONIC NACE",
+          "icon": "circle-help",
+          "media": "photo",
+          "query": "Sonic the Hedgehog (character)"
+        },
+        {
+          "say": "Corría más rápido que cualquier fontanero italiano.",
+          "text": "MÁS RÁPIDO QUE MARIO",
+          "icon": "rocket",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Sega lanzó el eslogan Genesis hace lo que Nintendon't.",
+          "text": "SLOGAN AGRESIVO",
+          "icon": "megaphone",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Fue una de las guerras publicitarias más recordadas.",
+          "text": "GUERRA PUBLICITARIA",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Mortal Kombat con toda su sangre triunfó en esta consola",
+          "say": "Sega apostó por juegos violentos y deportivos.",
+          "text": "JUEGOS MÁS MADUROS",
+          "icon": "flame",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Mortal Kombat con toda su sangre triunfó en Mega Drive.",
           "text": "MORTAL KOMBAT",
           "icon": "skull",
           "media": "photo",
           "query": "Mortal Kombat (1992 video game)"
         },
         {
-          "say": "Eso generó polémica y hasta debates en el gobierno de EEUU",
-          "text": "POLÉMICA Y CENSURA",
-          "icon": "shield",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Aun así Sega logró morder una buena parte del mercado",
-          "text": "BUENA CUOTA DE MERCADO",
+          "say": "Nintendo censuraba esa sangre, Sega la dejaba intacta.",
+          "text": "SIN CENSURA",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "En Estados Unidos llegó a superar por momentos a Nintendo",
-          "text": "SUPERA A NINTENDO",
-          "icon": "trophy",
+          "say": "Sega llegó a tener el sesenta por ciento del mercado.",
+          "text": "60% DEL MERCADO",
+          "icon": "pie-chart",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Vendió más de 30 millones de unidades en todo el mundo",
+          "say": "Por primera vez Nintendo perdió su corona.",
+          "text": "NINTENDO PIERDE CORONA",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Fue la época dorada de las guerras de consolas.",
+          "text": "GUERRA DE CONSOLAS",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Millones de niños se dividieron entre Mario y Sonic.",
+          "text": "FANS DIVIDIDOS",
+          "icon": "split",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Sega vendió unos treinta millones de consolas.",
           "text": "30 MILLONES VENDIDAS",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Fue la primera guerra de consolas real de la historia",
-          "text": "PRIMERA GRAN GUERRA",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Sega y Nintendo se lanzaron publicidad agresiva sin descanso",
-          "text": "PUBLICIDAD AGRESIVA",
-          "icon": "megaphone",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Esa batalla hizo crecer a toda la industria del videojuego",
-          "text": "LA INDUSTRIA CRECE",
-          "icon": "rocket",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Pero pronto llegaría un tercer gigante a repartir cartas",
+          "say": "Pero un nuevo gigante japonés estaba a punto de entrar.",
           "text": "NUEVO GIGANTE LLEGA",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Sony estaba a punto de entrar en el juego",
-          "text": "SONY ENTRA",
-          "icon": "flag",
+          "say": "Y venía del mundo del entretenimiento electrónico.",
+          "text": "SONY SE ACERCA",
+          "icon": "briefcase",
           "media": "none",
           "query": ""
         }
       ],
-      "narration": "En 1988 Sega lanzó su arma para plantar cara a Nintendo Presumía de tener 16 bits frente a los 8 de NES Su eslogan decía que Sega hace lo que Nintendon't Necesitaban una mascota veloz para competir con el fontanero Nació Sonic, un erizo azul más rápido que el sonido Su velocidad se convirtió en la seña de identidad de Sega Sega apuntó directamente a un público más adolescente Juegos más violentos y deportivos marcaron su catálogo Mortal Kombat con toda su sangre triunfó en esta consola Eso generó polémica y hasta debates en el gobierno de EEUU Aun así Sega logró morder una buena parte del mercado En Estados Unidos llegó a superar por momentos a Nintendo Vendió más de 30 millones de unidades en todo el mundo Fue la primera guerra de consolas real de la historia Sega y Nintendo se lanzaron publicidad agresiva sin descanso Esa batalla hizo crecer a toda la industria del videojuego Pero pronto llegaría un tercer gigante a repartir cartas Sony estaba a punto de entrar en el juego",
-      "videoQuery": "Sega Genesis commercial",
+      "narration": "Sega lanzó Mega Drive para atacar a Nintendo. Su procesador de dieciséis bits era más potente. En América se llamó Sega Genesis. Sega necesitaba una mascota para plantar cara. Nació Sonic, un erizo azul supersónico. Corría más rápido que cualquier fontanero italiano. Sega lanzó el eslogan Genesis hace lo que Nintendon't. Fue una de las guerras publicitarias más recordadas. Sega apostó por juegos violentos y deportivos. Mortal Kombat con toda su sangre triunfó en Mega Drive. Nintendo censuraba esa sangre, Sega la dejaba intacta. Sega llegó a tener el sesenta por ciento del mercado. Por primera vez Nintendo perdió su corona. Fue la época dorada de las guerras de consolas. Millones de niños se dividieron entre Mario y Sonic. Sega vendió unos treinta millones de consolas. Pero un nuevo gigante japonés estaba a punto de entrar. Y venía del mundo del entretenimiento electrónico.",
+      "videoQuery": "Sonic the Hedgehog gameplay",
       "photoQuery": "Sega Mega Drive"
     },
     {
@@ -434,276 +441,255 @@
       "name": "PLAYSTATION",
       "color": "#607d8b",
       "main": "disc",
-      "def": "Sony revoluciona los videojuegos",
+      "def": "Sony conquista el salón",
       "beats": [
         {
-          "say": "En 1994 Sony lanzó una consola nacida de un rechazo",
-          "text": "PLAYSTATION",
-          "icon": "disc",
-          "media": "photo",
-          "query": "PlayStation"
-        },
-        {
-          "say": "Sony iba a hacer un lector de CD junto a Nintendo",
-          "text": "PROYECTO CON NINTENDO",
+          "say": "Sony iba a hacer un complemento para Nintendo.",
+          "text": "PROYECTO CONJUNTO",
           "icon": "handshake",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Nintendo rompió el acuerdo y Sony decidió ir por libre",
+          "say": "Nintendo rompió el acuerdo en el último momento.",
           "text": "ACUERDO ROTO",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Así nació PlayStation, pensada casi como una venganza",
-          "text": "NACE POR VENGANZA",
+          "say": "Sony se enfadó y decidió crear su propia consola.",
+          "text": "SONY SE INDEPENDIZA",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Apostó por discos CD en vez de caros cartuchos",
-          "text": "DISCOS CD",
+          "say": "Nació la PlayStation en 1994.",
+          "text": "PLAYSTATION 1994",
           "icon": "disc",
-          "media": "none",
-          "query": ""
+          "media": "photo",
+          "query": "PlayStation (console)"
         },
         {
-          "say": "Eso abarató juegos y permitió videos e introducciones cinemáticas",
-          "text": "JUEGOS MÁS BARATOS",
+          "say": "Apostó por discos en vez de cartuchos caros.",
+          "text": "DISCOS CD",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Los gráficos en 3D real dieron un salto enorme de calidad",
-          "text": "SALTO AL 3D",
+          "say": "Guardar más datos costaba mucho menos dinero.",
+          "text": "MÁS BARATO",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Final Fantasy VII conquistó al público con su historia épica",
+          "say": "Eso permitió videojuegos con vídeos e historias enormes.",
+          "text": "HISTORIAS MÁS GRANDES",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Final Fantasy VII deslumbró con gráficos en tres dimensiones.",
           "text": "FINAL FANTASY VII",
-          "icon": "sword",
+          "icon": "circle-help",
           "media": "photo",
           "query": "Final Fantasy VII"
         },
         {
-          "say": "Metal Gear Solid demostró que los videojuegos podían emocionar",
-          "text": "METAL GEAR SOLID",
-          "icon": "brain",
-          "media": "photo",
-          "query": "Metal Gear Solid"
-        },
-        {
-          "say": "Sony apuntó a un público adulto, no solo a niños",
+          "say": "Millones de adultos empezaron a jugar por primera vez.",
           "text": "PÚBLICO ADULTO",
-          "icon": "target",
+          "icon": "brain",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Su campaña decía vive en tu mundo, juega en el nuestro",
-          "text": "NUEVA CAMPAÑA",
-          "icon": "megaphone",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Vendió más de 100 millones de consolas en el mundo",
-          "text": "100 MILLONES VENDIDAS",
+          "say": "Sony marcó los videojuegos como algo cool y maduro.",
+          "text": "IMAGEN MODERNA",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Sony pasó de ser un novato a liderar el mercado",
-          "text": "NUEVO LÍDER",
+          "say": "Crash Bandicoot se convirtió en su mascota estrella.",
+          "text": "CRASH BANDICOOT",
+          "icon": "circle-help",
+          "media": "photo",
+          "query": "Crash Bandicoot (character)"
+        },
+        {
+          "say": "La consola vendió más de cien millones de unidades.",
+          "text": "100 MILLONES VENDIDAS",
+          "icon": "trophy",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Nintendo y Sega quedaron muy por detrás.",
+          "text": "RIVALES SUPERADOS",
+          "icon": "flag",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Sony se convirtió en el nuevo rey indiscutible.",
+          "text": "NUEVO REY",
           "icon": "crown",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Nintendo y Sega se quedaron mirando cómo perdían terreno",
-          "text": "RIVALES PIERDEN TERRENO",
+          "say": "La guerra de los 16 bits había terminado.",
+          "text": "FIN DE UNA ERA",
+          "icon": "sunset",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Empezaba la era de los discos y el 3D.",
+          "text": "ERA DEL 3D",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "PlayStation cambió para siempre la imagen de los videojuegos",
-          "text": "CAMBIO DE IMAGEN",
-          "icon": "star",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Dejaron de ser solo cosa de niños en el salón",
-          "text": "YA NO ES COSA DE NIÑOS",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Pero Nintendo aún tenía un as bajo la manga",
+          "say": "Y Nintendo preparaba una respuesta muy diferente.",
           "text": "NINTENDO RESPONDE",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Y ese as se llamaba Nintendo 64",
-          "text": "NINTENDO 64 LLEGA",
-          "icon": "flag",
+          "icon": "sword",
           "media": "none",
           "query": ""
         }
       ],
-      "narration": "En 1994 Sony lanzó una consola nacida de un rechazo Sony iba a hacer un lector de CD junto a Nintendo Nintendo rompió el acuerdo y Sony decidió ir por libre Así nació PlayStation, pensada casi como una venganza Apostó por discos CD en vez de caros cartuchos Eso abarató juegos y permitió videos e introducciones cinemáticas Los gráficos en 3D real dieron un salto enorme de calidad Final Fantasy VII conquistó al público con su historia épica Metal Gear Solid demostró que los videojuegos podían emocionar Sony apuntó a un público adulto, no solo a niños Su campaña decía vive en tu mundo, juega en el nuestro Vendió más de 100 millones de consolas en el mundo Sony pasó de ser un novato a liderar el mercado Nintendo y Sega se quedaron mirando cómo perdían terreno PlayStation cambió para siempre la imagen de los videojuegos Dejaron de ser solo cosa de niños en el salón Pero Nintendo aún tenía un as bajo la manga Y ese as se llamaba Nintendo 64",
-      "videoQuery": "PlayStation 1 commercial",
-      "photoQuery": "PlayStation"
+      "narration": "Sony iba a hacer un complemento para Nintendo. Nintendo rompió el acuerdo en el último momento. Sony se enfadó y decidió crear su propia consola. Nació la PlayStation en 1994. Apostó por discos en vez de cartuchos caros. Guardar más datos costaba mucho menos dinero. Eso permitió videojuegos con vídeos e historias enormes. Final Fantasy VII deslumbró con gráficos en tres dimensiones. Millones de adultos empezaron a jugar por primera vez. Sony marcó los videojuegos como algo cool y maduro. Crash Bandicoot se convirtió en su mascota estrella. La consola vendió más de cien millones de unidades. Nintendo y Sega quedaron muy por detrás. Sony se convirtió en el nuevo rey indiscutible. La guerra de los 16 bits había terminado. Empezaba la era de los discos y el 3D. Y Nintendo preparaba una respuesta muy diferente.",
+      "videoQuery": "Final Fantasy VII gameplay",
+      "photoQuery": "PlayStation (console)"
     },
     {
       "id": "v06",
       "key": "item5",
       "name": "NINTENDO 64",
       "color": "#f06292",
-      "main": "joystick",
-      "def": "Cartuchos contra discos",
+      "main": "circle-help",
+      "def": "La apuesta arriesgada de Nintendo",
       "beats": [
         {
-          "say": "En 1996 Nintendo respondió con una consola de 64 bits",
-          "text": "NINTENDO 64",
+          "say": "Nintendo se resistió a abandonar los cartuchos.",
+          "text": "FIEL AL CARTUCHO",
           "icon": "circle-help",
           "media": "photo",
           "query": "Nintendo 64"
         },
         {
-          "say": "Se aferraron al cartucho mientras el mundo iba hacia el CD",
-          "text": "SE AFERRA AL CARTUCHO",
+          "say": "Lanzó Nintendo 64 en 1996 como respuesta.",
+          "text": "N64 EN 1996",
+          "icon": "calendar",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Los cartuchos cargaban los juegos casi sin esperas.",
+          "text": "SIN TIEMPOS DE CARGA",
+          "icon": "clock",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Pero almacenaban mucha menos información que un disco.",
+          "text": "MENOS MEMORIA",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Esa decisión les costó el apoyo de muchas desarrolladoras",
-          "text": "PIERDE DESARROLLADORAS",
-          "icon": "handshake",
+          "say": "Muchas compañías se fueron a hacer juegos para PlayStation.",
+          "text": "COMPAÑÍAS SE VAN",
+          "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Square, creadores de Final Fantasy, se pasaron a Sony",
-          "text": "SQUARE SE VA",
-          "icon": "sword",
-          "media": "photo",
-          "query": "Square (video game company)"
-        },
-        {
-          "say": "Pero Nintendo apostó fuerte por la jugabilidad y la innovación",
-          "text": "APUESTA POR JUGABILIDAD",
-          "icon": "gamepad",
+          "say": "Nintendo se quedó casi sola frente a Sony.",
+          "text": "NINTENDO AISLADA",
+          "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Su mando con tres agarres y palanca analógica fue revolucionario",
-          "text": "MANDO REVOLUCIONARIO",
-          "icon": "gamepad",
+          "say": "Pero tenía un arma secreta entre manos.",
+          "text": "ARMA SECRETA",
+          "icon": "key",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Super Mario 64 reinventó las plataformas en tres dimensiones",
+          "say": "Su mando incorporaba el primer joystick analógico.",
+          "text": "JOYSTICK ANALÓGICO",
+          "icon": "joystick",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Eso cambió para siempre el control en 3D.",
+          "text": "CONTROL EN 3D",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Super Mario 64 revolucionó los mundos abiertos.",
           "text": "SUPER MARIO 64",
-          "icon": "circle-help",
+          "icon": "star",
           "media": "photo",
           "query": "Super Mario 64"
         },
         {
-          "say": "Explorar un mundo abierto en 3D voló la cabeza a todos",
-          "text": "MUNDO ABIERTO EN 3D",
-          "icon": "circle-help",
-          "media": "gif",
-          "query": "Super Mario 64"
-        },
-        {
-          "say": "GoldenEye 007 sentó las bases de los disparos en primera persona",
+          "say": "GoldenEye 007 inventó el shooter de consola moderno.",
           "text": "GOLDENEYE 007",
           "icon": "circle-help",
           "media": "photo",
           "query": "GoldenEye 007"
         },
         {
-          "say": "Fue de los primeros grandes shooters jugados a cuatro pantallas",
-          "text": "MULTIJUGADOR LEGENDARIO",
+          "say": "El multijugador a cuatro pantallas se hizo legendario.",
+          "text": "MULTIJUGADOR LOCAL",
+          "icon": "gamepad",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Aun así vendió menos de la mitad que PlayStation.",
+          "text": "MENOS VENTAS",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Ocarina of Time se considera hasta hoy una obra maestra",
-          "text": "OCARINA OF TIME",
-          "icon": "sword",
-          "media": "photo",
-          "query": "The Legend of Zelda: Ocarina of Time"
-        },
-        {
-          "say": "Aun así vendió menos que la PlayStation de Sony",
-          "text": "MENOS VENTAS QUE PS1",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Sus cartuchos eran caros y guardaban menos información",
-          "text": "CARTUCHOS CAROS",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Nintendo aprendió una lección dura sobre el formato físico",
-          "text": "LECCIÓN APRENDIDA",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Aun con menos ventas dejó juegos que marcaron generaciones",
-          "text": "JUEGOS INOLVIDABLES",
-          "icon": "star",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Su legado en diseño de niveles sigue estudiándose hoy",
-          "text": "LEGADO EN DISEÑO",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El trono seguía en manos de Sony por ahora",
-          "text": "SONY SIGUE ARRIBA",
+          "say": "Sony ya dominaba claramente la generación.",
+          "text": "SONY DOMINA",
           "icon": "crown",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Pero la siguiente PlayStation lo cambiaría todo otra vez",
-          "text": "SIGUE LA GUERRA",
-          "icon": "flag",
+          "say": "Nintendo aprendió una lección muy dura sobre discos.",
+          "text": "LECCIÓN APRENDIDA",
+          "icon": "book",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El siguiente asalto sería aún más grande.",
+          "text": "SIGUIENTE ASALTO",
+          "icon": "circle-help",
           "media": "none",
           "query": ""
         }
       ],
-      "narration": "En 1996 Nintendo respondió con una consola de 64 bits Se aferraron al cartucho mientras el mundo iba hacia el CD Esa decisión les costó el apoyo de muchas desarrolladoras Square, creadores de Final Fantasy, se pasaron a Sony Pero Nintendo apostó fuerte por la jugabilidad y la innovación Su mando con tres agarres y palanca analógica fue revolucionario Super Mario 64 reinventó las plataformas en tres dimensiones Explorar un mundo abierto en 3D voló la cabeza a todos GoldenEye 007 sentó las bases de los disparos en primera persona Fue de los primeros grandes shooters jugados a cuatro pantallas Ocarina of Time se considera hasta hoy una obra maestra Aun así vendió menos que la PlayStation de Sony Sus cartuchos eran caros y guardaban menos información Nintendo aprendió una lección dura sobre el formato físico Aun con menos ventas dejó juegos que marcaron generaciones Su legado en diseño de niveles sigue estudiándose hoy El trono seguía en manos de Sony por ahora Pero la siguiente PlayStation lo cambiaría todo otra vez",
-      "videoQuery": "Nintendo 64 commercial",
+      "narration": "Nintendo se resistió a abandonar los cartuchos. Lanzó Nintendo 64 en 1996 como respuesta. Los cartuchos cargaban los juegos casi sin esperas. Pero almacenaban mucha menos información que un disco. Muchas compañías se fueron a hacer juegos para PlayStation. Nintendo se quedó casi sola frente a Sony. Pero tenía un arma secreta entre manos. Su mando incorporaba el primer joystick analógico. Eso cambió para siempre el control en 3D. Super Mario 64 revolucionó los mundos abiertos. GoldenEye 007 inventó el shooter de consola moderno. El multijugador a cuatro pantallas se hizo legendario. Aun así vendió menos de la mitad que PlayStation. Sony ya dominaba claramente la generación. Nintendo aprendió una lección muy dura sobre discos. El siguiente asalto sería aún más grande.",
+      "videoQuery": "Super Mario 64 gameplay",
       "photoQuery": "Nintendo 64"
     },
     {
@@ -712,130 +698,130 @@
       "name": "PLAYSTATION 2",
       "color": "#ffb300",
       "main": "trophy",
-      "def": "La consola más vendida",
+      "def": "La consola más vendida de la historia",
       "beats": [
         {
-          "say": "En el año 2000 llegó la consola más vendida de la historia",
-          "text": "PLAYSTATION 2",
-          "icon": "trophy",
+          "say": "Sony volvió en el año 2000 con más fuerza.",
+          "text": "PS2 EN 2000",
+          "icon": "disc",
           "media": "photo",
           "query": "PlayStation 2"
         },
         {
-          "say": "Sony repitió la jugada pero multiplicando toda su potencia",
-          "text": "MÁS POTENCIA",
+          "say": "También reproducía películas en formato DVD.",
+          "text": "REPRODUCE DVD",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Además funcionaba como reproductor de DVD para el salón",
-          "text": "TAMBIÉN REPRODUCE DVD",
-          "icon": "disc",
+          "say": "Muchas familias la compraron solo como reproductor.",
+          "text": "REPRODUCTOR DE SALÓN",
+          "icon": "tv",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Muchas familias la compraron solo por ver películas en casa",
-          "text": "EXCUSA PERFECTA",
-          "icon": "house",
+          "say": "Eso disparó las ventas por encima de cualquier rival.",
+          "text": "VENTAS DISPARADAS",
+          "icon": "rocket",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Era compatible con los juegos de la primera PlayStation",
-          "text": "COMPATIBLE CON PS1",
-          "icon": "handshake",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Eso hizo que nadie temiera perder su colección anterior",
-          "text": "SIN MIEDO A PERDER JUEGOS",
-          "icon": "shield",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Grand Theft Auto San Andreas definió toda una época",
+          "say": "Grand Theft Auto San Andreas definió toda una generación.",
           "text": "GTA SAN ANDREAS",
           "icon": "car",
           "media": "photo",
           "query": "Grand Theft Auto: San Andreas"
         },
         {
-          "say": "Explorar ciudades enteras libremente parecía ciencia ficción",
-          "text": "MUNDO LIBRE ENORME",
+          "say": "Los mundos abiertos se volvieron el estándar del mercado.",
+          "text": "MUNDOS ABIERTOS",
           "icon": "map",
-          "media": "gif",
-          "query": "Grand Theft Auto: San Andreas"
+          "media": "none",
+          "query": ""
         },
         {
-          "say": "Shadow of the Colossus emocionó con paisajes y jefes gigantes",
-          "text": "SHADOW OF THE COLOSSUS",
-          "icon": "mountain",
+          "say": "Nintendo lanzó GameCube pero vendió mucho menos.",
+          "text": "GAMECUBE COMPITE",
+          "icon": "circle-help",
           "media": "photo",
-          "query": "Shadow of the Colossus"
+          "query": "GameCube"
         },
         {
-          "say": "Vendió más de 155 millones de unidades en el planeta",
-          "text": "155 MILLONES VENDIDAS",
+          "say": "Microsoft entró por primera vez con su Xbox original.",
+          "text": "XBOX ENTRA",
+          "icon": "box",
+          "media": "photo",
+          "query": "Xbox (console)"
+        },
+        {
+          "say": "Tres gigantes competían ahora por el mismo salón.",
+          "text": "TRES GIGANTES",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Ninguna consola ha superado ese récord hasta hoy",
-          "text": "RÉCORD IMBATIDO",
+          "say": "Pero PlayStation 2 aplastó a ambos rivales.",
+          "text": "PS2 APLASTA",
+          "icon": "hammer",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Vendió más de ciento cincuenta millones de unidades.",
+          "text": "150 MILLONES VENDIDAS",
+          "icon": "trophy",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Sigue siendo hoy la consola más vendida jamás.",
+          "text": "RÉCORD HISTÓRICO",
           "icon": "medal",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Se convirtió en un objeto casi presente en cada hogar",
-          "text": "OBJETO EN CADA HOGAR",
-          "icon": "house",
+          "say": "Su catálogo de juegos fue simplemente descomunal.",
+          "text": "CATÁLOGO ENORME",
+          "icon": "library",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Su catálogo de juegos fue el más extenso jamás visto",
-          "text": "CATÁLOGO ENORME",
+          "say": "Se fabricó durante más de una década entera.",
+          "text": "MÁS DE 10 AÑOS",
+          "icon": "calendar",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "PlayStation 2 se convirtió en un icono cultural.",
+          "text": "ICONO CULTURAL",
           "icon": "star",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Sony dominaba el mercado sin apenas rivales a la vista",
-          "text": "DOMINIO TOTAL",
+          "say": "Nadie ha logrado superar jamás su récord de ventas.",
+          "text": "RÉCORD IMBATIDO",
           "icon": "crown",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Pero en las sombras Microsoft preparaba su gran entrada",
-          "text": "MICROSOFT SE PREPARA",
+          "say": "Microsoft, sin embargo, no pensaba rendirse.",
+          "text": "MICROSOFT INSISTE",
           "icon": "sword",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Una empresa de ordenadores quería meterse en los salones",
-          "text": "EMPRESA DE ORDENADORES",
-          "icon": "computer",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ese movimiento cambiaría el mapa de la industria para siempre",
-          "text": "EL MAPA CAMBIA",
-          "icon": "map",
           "media": "none",
           "query": ""
         }
       ],
-      "narration": "En el año 2000 llegó la consola más vendida de la historia Sony repitió la jugada pero multiplicando toda su potencia Además funcionaba como reproductor de DVD para el salón Muchas familias la compraron solo por ver películas en casa Era compatible con los juegos de la primera PlayStation Eso hizo que nadie temiera perder su colección anterior Grand Theft Auto San Andreas definió toda una época Explorar ciudades enteras libremente parecía ciencia ficción Shadow of the Colossus emocionó con paisajes y jefes gigantes Vendió más de 155 millones de unidades en el planeta Ninguna consola ha superado ese récord hasta hoy Se convirtió en un objeto casi presente en cada hogar Su catálogo de juegos fue el más extenso jamás visto Sony dominaba el mercado sin apenas rivales a la vista Pero en las sombras Microsoft preparaba su gran entrada Una empresa de ordenadores quería meterse en los salones Ese movimiento cambiaría el mapa de la industria para siempre",
-      "videoQuery": "PlayStation 2 commercial",
+      "narration": "Sony volvió en el año 2000 con más fuerza. También reproducía películas en formato DVD. Muchas familias la compraron solo como reproductor. Eso disparó las ventas por encima de cualquier rival. Grand Theft Auto San Andreas definió toda una generación. Los mundos abiertos se volvieron el estándar del mercado. Nintendo lanzó GameCube pero vendió mucho menos. Microsoft entró por primera vez con su Xbox original. Tres gigantes competían ahora por el mismo salón. Pero PlayStation 2 aplastó a ambos rivales. Vendió más de ciento cincuenta millones de unidades. Sigue siendo hoy la consola más vendida jamás. Su catálogo de juegos fue simplemente descomunal. Se fabricó durante más de una década entera. PlayStation 2 se convirtió en un icono cultural. Nadie ha logrado superar jamás su récord de ventas. Microsoft, sin embargo, no pensaba rendirse.",
+      "videoQuery": "Grand Theft Auto San Andreas gameplay",
       "photoQuery": "PlayStation 2"
     },
     {
@@ -843,270 +829,263 @@
       "key": "item7",
       "name": "XBOX",
       "color": "#ffd54f",
-      "main": "sword",
+      "main": "box",
       "def": "Microsoft entra en la guerra",
       "beats": [
         {
-          "say": "En 2001 Microsoft lanzó su primera consola para pelear duro",
-          "text": "XBOX",
-          "icon": "sword",
-          "media": "photo",
-          "query": "Xbox"
-        },
-        {
-          "say": "La construyeron básicamente como un ordenador dentro de una caja",
-          "text": "UN PC EN CAJA",
-          "icon": "computer",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Fue de las primeras en incluir disco duro de serie",
-          "text": "DISCO DURO INCLUIDO",
-          "icon": "hard-drive",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Apostaron fuerte por jugar online con otros jugadores",
-          "text": "APUESTA POR ONLINE",
-          "icon": "wifi",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Nació Xbox Live, un servicio que revolucionó el multijugador",
-          "text": "XBOX LIVE NACE",
-          "icon": "wifi",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Halo Combat Evolved se convirtió en su gran bandera",
-          "text": "HALO COMBAT EVOLVED",
-          "icon": "circle-help",
-          "media": "photo",
-          "query": "Halo: Combat Evolved"
-        },
-        {
-          "say": "Ese shooter espacial vendió consolas él solito",
-          "text": "VENDE CONSOLAS SOLO",
-          "icon": "rocket",
-          "media": "gif",
-          "query": "Halo: Combat Evolved"
-        },
-        {
-          "say": "Microsoft entró fuerte pero con pérdidas millonarias al inicio",
-          "text": "PÉRDIDAS MILLONARIAS",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Sony seguía siendo el líder indiscutible del mercado",
-          "text": "SONY SIGUE LÍDER",
-          "icon": "crown",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "En 2005 llegó la Xbox 360 mejorando casi todo",
-          "text": "LLEGA XBOX 360",
-          "icon": "sword",
+          "say": "Microsoft quería conquistar el salón con Xbox 360.",
+          "text": "XBOX 360",
+          "icon": "box",
           "media": "photo",
           "query": "Xbox 360"
         },
         {
-          "say": "Esta vez sí logró plantarle cara real a PlayStation",
-          "text": "PELEA DE TÚ A TÚ",
-          "icon": "circle-help",
+          "say": "Apostó fuerte por el juego online organizado.",
+          "text": "JUEGO ONLINE",
+          "icon": "wifi",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Gears of War y Halo 3 arrasaron entre los jugadores",
-          "text": "GEARS OF WAR Y HALO 3",
+          "say": "Xbox Live conectó a millones de jugadores en red.",
+          "text": "XBOX LIVE",
+          "icon": "network",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Halo 3 se convirtió en su gran bandera.",
+          "text": "HALO 3",
           "icon": "circle-help",
           "media": "photo",
-          "query": "Gears of War"
+          "query": "Halo 3"
         },
         {
-          "say": "Pero un fallo técnico masivo la persiguió durante años",
-          "text": "FALLO TÉCNICO MASIVO",
-          "icon": "skull",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Miles de consolas se apagaban con el temido anillo rojo",
-          "text": "EL ANILLO ROJO",
+          "say": "Los disparos multijugador nunca habían sido tan populares.",
+          "text": "SHOOTERS POPULARES",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Microsoft tuvo que gastar más de mil millones en reparaciones",
-          "text": "MIL MILLONES EN REPARAR",
+          "say": "Sony respondió con la costosa PlayStation 3.",
+          "text": "PLAYSTATION 3",
+          "icon": "disc",
+          "media": "photo",
+          "query": "PlayStation 3"
+        },
+        {
+          "say": "Su lanzamiento fue carísimo para los jugadores.",
+          "text": "PRECIO ELEVADO",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Aun así ganó millones de fans fieles por su comunidad online",
-          "text": "COMUNIDAD FIEL ONLINE",
-          "icon": "handshake",
+          "say": "Xbox 360 se adelantó casi un año entero.",
+          "text": "VENTAJA DE TIEMPO",
+          "icon": "clock",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Xbox se ganó un hueco firme en la guerra de consolas",
-          "text": "HUECO GANADO",
+          "say": "Esa ventaja le dio muchísimos jugadores tempranos.",
+          "text": "JUGADORES TEMPRANOS",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Pero un fallo técnico terrible golpeó a Microsoft.",
+          "text": "FALLO TÉCNICO",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Se conoció como el círculo rojo de la muerte.",
+          "text": "ANILLO ROJO",
+          "icon": "circle-help",
+          "media": "photo",
+          "query": "Red Ring of Death"
+        },
+        {
+          "say": "Millones de consolas se estropearon por sobrecalentamiento.",
+          "text": "CONSOLAS ROTAS",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Microsoft gastó mil millones de dólares en reparaciones.",
+          "text": "MIL MILLONES GASTADOS",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Aun así la confianza en la marca se resintió.",
+          "text": "CONFIANZA DAÑADA",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "PlayStation 3 remontó gracias a exclusivos potentes.",
+          "text": "PS3 REMONTA",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La generación acabó bastante igualada entre ambas.",
+          "text": "EMPATE TÉCNICO",
+          "icon": "scale",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Pero Nintendo preparaba una jugada totalmente distinta.",
+          "text": "NINTENDO SORPRENDE",
+          "icon": "gift",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "Microsoft quería conquistar el salón con Xbox 360. Apostó fuerte por el juego online organizado. Xbox Live conectó a millones de jugadores en red. Halo 3 se convirtió en su gran bandera. Los disparos multijugador nunca habían sido tan populares. Sony respondió con la costosa PlayStation 3. Su lanzamiento fue carísimo para los jugadores. Xbox 360 se adelantó casi un año entero. Esa ventaja le dio muchísimos jugadores tempranos. Pero un fallo técnico terrible golpeó a Microsoft. Se conoció como el círculo rojo de la muerte. Millones de consolas se estropearon por sobrecalentamiento. Microsoft gastó mil millones de dólares en reparaciones. Aun así la confianza en la marca se resintió. PlayStation 3 remontó gracias a exclusivos potentes. La generación acabó bastante igualada entre ambas. Pero Nintendo preparaba una jugada totalmente distinta.",
+      "videoQuery": "Halo 3 gameplay",
+      "photoQuery": "Xbox 360"
+    },
+    {
+      "id": "v09",
+      "key": "item8",
+      "name": "WII",
+      "color": "#4db6ac",
+      "main": "circle-help",
+      "def": "Nintendo cambia las reglas del juego",
+      "beats": [
+        {
+          "say": "Nintendo dejó de competir en potencia bruta.",
+          "text": "DEJA DE COMPETIR",
           "icon": "flag",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Pero un rival inesperado iba a cambiar las reglas del juego",
-          "text": "RIVAL INESPERADO",
+          "say": "Lanzó Wii en 2006 con una idea radical.",
+          "text": "WII EN 2006",
           "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "En 2001 Microsoft lanzó su primera consola para pelear duro La construyeron básicamente como un ordenador dentro de una caja Fue de las primeras en incluir disco duro de serie Apostaron fuerte por jugar online con otros jugadores Nació Xbox Live, un servicio que revolucionó el multijugador Halo Combat Evolved se convirtió en su gran bandera Ese shooter espacial vendió consolas él solito Microsoft entró fuerte pero con pérdidas millonarias al inicio Sony seguía siendo el líder indiscutible del mercado En 2005 llegó la Xbox 360 mejorando casi todo Esta vez sí logró plantarle cara real a PlayStation Gears of War y Halo 3 arrasaron entre los jugadores Pero un fallo técnico masivo la persiguió durante años Miles de consolas se apagaban con el temido anillo rojo Microsoft tuvo que gastar más de mil millones en reparaciones Aun así ganó millones de fans fieles por su comunidad online Xbox se ganó un hueco firme en la guerra de consolas Pero un rival inesperado iba a cambiar las reglas del juego",
-      "videoQuery": "Xbox 360 commercial",
-      "photoQuery": "Xbox"
-    },
-    {
-      "id": "v09",
-      "key": "item8",
-      "name": "NINTENDO WII",
-      "color": "#4db6ac",
-      "main": "hand",
-      "def": "El movimiento lo cambia todo",
-      "beats": [
-        {
-          "say": "En 2006 Nintendo dejó de competir en potencia bruta",
-          "text": "NINTENDO WII",
-          "icon": "hand",
           "media": "photo",
           "query": "Wii"
         },
         {
-          "say": "En vez de más gráficos apostaron por un mando distinto",
-          "text": "MANDO DISTINTO",
-          "icon": "gamepad",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El Wii Remote se movía como una varita en el aire",
-          "text": "WII REMOTE",
-          "icon": "wand",
-          "media": "photo",
-          "query": "Wii Remote"
-        },
-        {
-          "say": "Bastaba con mover el brazo para jugar al tenis o bolos",
-          "text": "MOVIMIENTO REAL",
+          "say": "Su mando se movía como una raqueta real.",
+          "text": "MANDO POR MOVIMIENTO",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Wii Sports venía incluido y enganchó hasta a los abuelos",
+          "say": "Cualquier persona podía jugar sin experiencia previa.",
+          "text": "FÁCIL PARA TODOS",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Abuelos y niños jugaban juntos por primera vez.",
+          "text": "PÚBLICO FAMILIAR",
+          "icon": "heart",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Wii Sports venía incluido con cada consola.",
           "text": "WII SPORTS",
-          "icon": "trophy",
+          "icon": "circle-help",
           "media": "photo",
           "query": "Wii Sports"
         },
         {
-          "say": "Por primera vez, familias enteras jugaban juntas en el salón",
-          "text": "FAMILIAS JUGANDO JUNTAS",
-          "icon": "heart",
-          "media": "gif",
-          "query": "Wii Sports"
+          "say": "Se convirtió en uno de los juegos más vendidos.",
+          "text": "SUPERVENTAS MUNDIAL",
+          "icon": "trophy",
+          "media": "none",
+          "query": ""
         },
         {
-          "say": "Nintendo apuntó a gente que nunca había tocado un mando",
-          "text": "NUEVO PÚBLICO",
+          "say": "Nintendo ya no peleaba contra Sony ni Microsoft.",
+          "text": "OTRO PÚBLICO DISTINTO",
           "icon": "target",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Su estrategia se llamó el océano azul, mercado sin rivales",
+          "say": "Buscaba gente que nunca había tocado un mando.",
+          "text": "NUEVOS JUGADORES",
+          "icon": "circle-help",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La estrategia se llamó océano azul sin rivales.",
           "text": "OCÉANO AZUL",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Era además mucho más barata que Xbox 360 y PS3",
-          "text": "PRECIO MÁS BAJO",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Se vendió increíblemente rápido, agotando stock en muchas tiendas",
-          "text": "SE AGOTA EN TIENDAS",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Superó los 100 millones de unidades vendidas en el mundo",
+          "say": "Wii vendió más de cien millones de consolas.",
           "text": "100 MILLONES VENDIDAS",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Sony y Microsoft se vieron obligados a copiar la idea",
-          "text": "RIVALES COPIAN IDEA",
+          "say": "Superó tanto a Xbox 360 como a PlayStation 3.",
+          "text": "SUPERA A RIVALES",
+          "icon": "crown",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Fue una sorpresa que nadie había previsto.",
+          "text": "SORPRESA TOTAL",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Nacieron el PlayStation Move y el Kinect como respuesta",
-          "text": "MOVE Y KINECT",
-          "icon": "gamepad",
+          "say": "Nintendo demostró que la diversión valía más que la potencia.",
+          "text": "DIVERSIÓN ANTE TODO",
+          "icon": "smile",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Ninguno logró el mismo impacto cultural que tuvo la Wii",
-          "text": "NINGÚN IMPACTO IGUAL",
-          "icon": "star",
+          "say": "Pero su próxima consola, la Wii U, fracasó estrepitosamente.",
+          "text": "WII U FRACASA",
+          "icon": "circle-help",
+          "media": "photo",
+          "query": "Wii U"
+        },
+        {
+          "say": "El público no entendió bien su nueva pantalla.",
+          "text": "CONFUSIÓN DEL PÚBLICO",
+          "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "La Wii demostró que la diversión pesa más que los números",
-          "text": "DIVERSIÓN SOBRE POTENCIA",
-          "icon": "heart",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Cambió para siempre cómo se diseñan los mandos de juego",
-          "text": "CAMBIA EL DISEÑO",
-          "icon": "gamepad",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Fue una jugada maestra que nadie vio venir",
-          "text": "JUGADA MAESTRA",
-          "icon": "brain",
+          "say": "Nintendo tendría que reinventarse una vez más.",
+          "text": "REINVENTARSE DE NUEVO",
+          "icon": "circle-help",
           "media": "none",
           "query": ""
         }
       ],
-      "narration": "En 2006 Nintendo dejó de competir en potencia bruta En vez de más gráficos apostaron por un mando distinto El Wii Remote se movía como una varita en el aire Bastaba con mover el brazo para jugar al tenis o bolos Wii Sports venía incluido y enganchó hasta a los abuelos Por primera vez, familias enteras jugaban juntas en el salón Nintendo apuntó a gente que nunca había tocado un mando Su estrategia se llamó el océano azul, mercado sin rivales Era además mucho más barata que Xbox 360 y PS3 Se vendió increíblemente rápido, agotando stock en muchas tiendas Superó los 100 millones de unidades vendidas en el mundo Sony y Microsoft se vieron obligados a copiar la idea Nacieron el PlayStation Move y el Kinect como respuesta Ninguno logró el mismo impacto cultural que tuvo la Wii La Wii demostró que la diversión pesa más que los números Cambió para siempre cómo se diseñan los mandos de juego Fue una jugada maestra que nadie vio venir",
-      "videoQuery": "Wii Sports commercial",
+      "narration": "Nintendo dejó de competir en potencia bruta. Lanzó Wii en 2006 con una idea radical. Su mando se movía como una raqueta real. Cualquier persona podía jugar sin experiencia previa. Abuelos y niños jugaban juntos por primera vez. Wii Sports venía incluido con cada consola. Se convirtió en uno de los juegos más vendidos. Nintendo ya no peleaba contra Sony ni Microsoft. Buscaba gente que nunca había tocado un mando. La estrategia se llamó océano azul sin rivales. Wii vendió más de cien millones de consolas. Superó tanto a Xbox 360 como a PlayStation 3. Fue una sorpresa que nadie había previsto. Nintendo demostró que la diversión valía más que la potencia. Pero su próxima consola, la Wii U, fracasó estrepitosamente. El público no entendió bien su nueva pantalla. Nintendo tendría que reinventarse una vez más.",
+      "videoQuery": "Wii Sports gameplay",
       "photoQuery": "Wii"
     },
     {
@@ -1114,139 +1093,139 @@
       "key": "item9",
       "name": "PS4 Y SWITCH",
       "color": "#7986cb",
-      "main": "rocket",
-      "def": "La guerra moderna continúa",
+      "main": "gamepad",
+      "def": "La batalla actual por el salón",
       "beats": [
         {
-          "say": "En 2013 llegó PlayStation 4 para corregir errores del pasado",
-          "text": "PLAYSTATION 4",
+          "say": "Sony lanzó PlayStation 4 en 2013 con gran fuerza.",
+          "text": "PS4 EN 2013",
           "icon": "disc",
           "media": "photo",
           "query": "PlayStation 4"
         },
         {
-          "say": "Sony escuchó a los jugadores tras el tropiezo de PS3",
-          "text": "ESCUCHA A JUGADORES",
-          "icon": "brain",
+          "say": "Volvió a centrarse en gráficos potentes y exclusivos.",
+          "text": "GRÁFICOS POTENTES",
+          "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Precio justo, potencia real y foco total en los juegos",
-          "text": "FOCO EN LOS JUEGOS",
-          "icon": "target",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "The Last of Us Part II emocionó como pocas historias",
-          "text": "THE LAST OF US",
+          "say": "The Last of Us Parte II emocionó a millones.",
+          "text": "THE LAST OF US II",
           "icon": "heart",
           "media": "photo",
           "query": "The Last of Us Part II"
         },
         {
-          "say": "Vendió más de 117 millones de consolas por todo el mundo",
-          "text": "117 MILLONES VENDIDAS",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Xbox con su One tuvo un lanzamiento mucho más torpe",
+          "say": "Xbox One tropezó con decisiones poco populares.",
           "text": "XBOX ONE TROPIEZA",
           "icon": "circle-help",
-          "media": "none",
-          "query": ""
+          "media": "photo",
+          "query": "Xbox One"
         },
         {
-          "say": "Un anuncio confuso sobre conexión permanente asustó a la gente",
-          "text": "ANUNCIO CONFUSO",
+          "say": "Exigía conexión constante que muchos rechazaron.",
+          "text": "CONEXIÓN OBLIGATORIA",
           "icon": "wifi",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Sony aprovechó ese error para reforzar su liderazgo",
-          "text": "SONY APROVECHA EL ERROR",
-          "icon": "crown",
+          "say": "PlayStation 4 terminó vendiendo muchísimo más.",
+          "text": "PS4 GANA",
+          "icon": "trophy",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Mientras tanto Nintendo preparaba una idea totalmente distinta",
-          "text": "NINTENDO PREPARA ALGO",
+          "say": "Mientras tanto Nintendo preparaba otra genialidad.",
+          "text": "NINTENDO PREPARA SORPRESA",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "En 2017 llegó Nintendo Switch, mitad consola mitad portátil.",
+          "text": "SWITCH 2017",
           "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "En 2017 llegó Switch, una consola híbrida y portátil",
-          "text": "NINTENDO SWITCH",
-          "icon": "joystick",
           "media": "photo",
           "query": "Nintendo Switch"
         },
         {
-          "say": "Podías jugar en la tele y sacarla de viaje al instante",
-          "text": "CASA Y VIAJE",
+          "say": "Podías jugar en el sofá o en el metro.",
+          "text": "JUGAR EN CUALQUIER SITIO",
+          "icon": "train",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Esa flexibilidad conquistó a un público enorme.",
+          "text": "PÚBLICO ENORME",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Esa flexibilidad conquistó a jugadores de todas las edades",
-          "text": "CONQUISTA A TODOS",
-          "icon": "heart",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Breath of the Wild reinventó lo que podía ser un mundo abierto",
+          "say": "The Legend of Zelda Breath of the Wild deslumbró a la crítica.",
           "text": "BREATH OF THE WILD",
           "icon": "sword",
           "media": "photo",
           "query": "The Legend of Zelda: Breath of the Wild"
         },
         {
-          "say": "Superó los 140 millones de consolas vendidas en el mundo",
-          "text": "140 MILLONES VENDIDAS",
+          "say": "Switch superó los cien millones de consolas vendidas.",
+          "text": "100 MILLONES VENDIDAS",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Hoy Sony, Nintendo y Microsoft siguen peleando cada generación",
-          "text": "LA PELEA CONTINÚA",
+          "say": "Hoy Sony, Microsoft y Nintendo compiten con estrategias distintas.",
+          "text": "TRES ESTRATEGIAS DISTINTAS",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Cada una con su propia estrategia para ganarse tu salón",
-          "text": "DISTINTAS ESTRATEGIAS",
+          "say": "Uno apuesta por potencia, otro por servicios, otro por diversión.",
+          "text": "POTENCIA, SERVICIOS, DIVERSIÓN",
+          "icon": "puzzle",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "La guerra de las consolas nunca ha terminado realmente.",
+          "text": "GUERRA SIN FIN",
+          "icon": "infinity",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Cada generación trae un nuevo capítulo de esta historia.",
+          "text": "NUEVO CAPÍTULO",
+          "icon": "book",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Y nosotros seguimos disfrutando de cada batalla.",
+          "text": "SEGUIMOS DISFRUTANDO",
+          "icon": "smile",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "¿Cuál fue tu primera consola? Cuéntanoslo abajo.",
+          "text": "TU PRIMERA CONSOLA",
           "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Esta guerra de consolas lleva casi cincuenta años sin parar",
-          "text": "CASI 50 AÑOS DE GUERRA",
-          "icon": "clock",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Y promete seguir dándonos historia por mucho tiempo más",
-          "text": "LA HISTORIA SIGUE",
-          "icon": "flag",
           "media": "none",
           "query": ""
         }
       ],
-      "narration": "En 2013 llegó PlayStation 4 para corregir errores del pasado Sony escuchó a los jugadores tras el tropiezo de PS3 Precio justo, potencia real y foco total en los juegos The Last of Us Part II emocionó como pocas historias Vendió más de 117 millones de consolas por todo el mundo Xbox con su One tuvo un lanzamiento mucho más torpe Un anuncio confuso sobre conexión permanente asustó a la gente Sony aprovechó ese error para reforzar su liderazgo Mientras tanto Nintendo preparaba una idea totalmente distinta En 2017 llegó Switch, una consola híbrida y portátil Podías jugar en la tele y sacarla de viaje al instante Esa flexibilidad conquistó a jugadores de todas las edades Breath of the Wild reinventó lo que podía ser un mundo abierto Superó los 140 millones de consolas vendidas en el mundo Hoy Sony, Nintendo y Microsoft siguen peleando cada generación Cada una con su propia estrategia para ganarse tu salón Esta guerra de consolas lleva casi cincuenta años sin parar Y promete seguir dándonos historia por mucho tiempo más",
-      "videoQuery": "Nintendo Switch trailer",
-      "photoQuery": "PlayStation 4"
+      "narration": "Sony lanzó PlayStation 4 en 2013 con gran fuerza. Volvió a centrarse en gráficos potentes y exclusivos. The Last of Us Parte II emocionó a millones. Xbox One tropezó con decisiones poco populares. Exigía conexión constante que muchos rechazaron. PlayStation 4 terminó vendiendo muchísimo más. Mientras tanto Nintendo preparaba otra genialidad. En 2017 llegó Nintendo Switch, mitad consola mitad portátil. Podías jugar en el sofá o en el metro. Esa flexibilidad conquistó a un público enorme. The Legend of Zelda Breath of the Wild deslumbró a la crítica. Switch superó los cien millones de consolas vendidas. Hoy Sony, Microsoft y Nintendo compiten con estrategias distintas. Uno apuesta por potencia, otro por servicios, otro por diversión. La guerra de las consolas nunca ha terminado realmente. Cada generación trae un nuevo capítulo de esta historia. Y nosotros seguimos disfrutando de cada batalla. ¿Cuál fue tu primera consola? Cuéntanoslo abajo.",
+      "videoQuery": "The Legend of Zelda Breath of the Wild gameplay",
+      "photoQuery": "Nintendo Switch"
     }
   ]
 }
