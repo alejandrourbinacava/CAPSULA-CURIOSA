@@ -121,8 +121,11 @@ const Element: React.FC<{ el: El }> = ({ el }) => {
     return <div style={{ ...common, clipPath: clip, WebkitClipPath: clip }}><div style={{ fontFamily: HAND, fontWeight: 700, fontSize: fs, color: el.color || "#111", textAlign: "center", lineHeight: 1.1, maxWidth: box.w }}>{el.content}</div></div>;
   }
   if (el.type === "stickman") return <div style={common}><Stickman pose={el.pose} head={el.head} size={Math.min(box.h, 360)} /></div>;
-  // image
-  return <div style={common}><Img src={staticFile(el.src!)} style={{ maxWidth: box.w, maxHeight: box.h, objectFit: "contain" }} /></div>;
+  // image: SVG (icono transparente) crudo; foto (jpg/png) enmarcada en tarjeta limpia
+  const isPhoto = !/\.svg(\?|$)/i.test(el.src || "");
+  return <div style={common}>{isPhoto
+    ? <div style={{ padding: 8, background: "#fff", borderRadius: 18, border: "5px solid #111", boxShadow: "0 12px 34px rgba(0,0,0,.18)", display: "flex" }}><Img src={staticFile(el.src!)} style={{ maxWidth: box.w - 40, maxHeight: box.h - 40, objectFit: "contain", borderRadius: 10, display: "block" }} /></div>
+    : <Img src={staticFile(el.src!)} style={{ maxWidth: box.w, maxHeight: box.h, objectFit: "contain" }} />}</div>;
 };
 
 export const makeSceneVideo = (scenes: Scenes): React.FC => () => (

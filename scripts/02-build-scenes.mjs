@@ -16,7 +16,8 @@ const fm = raw.match(/^---\n([\s\S]*?)\n---\n?/);
 if (fm) { const mt = fm[1].match(/title:\s*"?(.+?)"?\s*$/m); if (mt) title = mt[1]; body = raw.slice(fm[0].length); }
 
 const assets = fs.existsSync(assetsPath) ? JSON.parse(fs.readFileSync(assetsPath, "utf8")) : {};
-const assetFile = (id) => assets[id]?.file || `assets/icons/${id}.svg`;
+// devuelve la ruta del asset SOLO si el fichero existe en /public; si no, null (se omite el elemento)
+const assetFile = (id) => { const f = assets[id]?.file || `assets/icons/${id}.svg`; return fs.existsSync(path.join("public", f)) ? f : null; };
 
 // --- extraer etiquetas y anclarlas a la palabra siguiente (índice 0-based en el texto limpio)
 const tags = []; let clean = ""; let last = 0;
@@ -55,10 +56,10 @@ for (const tg of tags) {
   const verb = s.split(/[:\s]/)[0];
   if (verb === "clear") { for (const [, el] of active) el.out = t; active.clear(); continue; }
   if (verb === "hide") { const id = s.replace(/^hide:?\s*/, "").trim(); const el = active.get(id); if (el) { el.out = t; active.delete(id); } continue; }
-  if (verb === "show") { const rest = s.replace(/^show:?\s*/, ""); const id = rest.split(/[@\s]/)[0].trim(); const slot = parseSlot(rest); const el = { id, type: "image", src: assetFile(id), slot, in: t, out: meta.duration, enter: enterFor("image"), exit: { kind: "fade-out", duration: 0.3 } }; elements.push(el); active.set(id, el); continue; }
+  if (verb === "show") { const rest = s.replace(/^show:?\s*/, ""); const id = rest.split(/[@\s]/)[0].trim(); const slot = parseSlot(rest); const src = assetFile(id); if (!src) continue; const el = { id, type: "image", src, slot, in: t, out: meta.duration, enter: enterFor("image"), exit: { kind: "fade-out", duration: 0.3 } }; elements.push(el); active.set(id, el); continue; }
   if (verb === "text") { const cm = s.match(/text:\s*"([^"]*)"/); const content = cm ? cm[1] : ""; const slot = parseSlot(s); const color = /color\s*=\s*red/.test(s) ? RED : "#111"; const size = (s.match(/size\s*=\s*(sm|md|lg)/) || [])[1] || "md"; const id = "t" + (autoId++); const el = { id, type: "text", content, slot, color, size, in: t, out: meta.duration, enter: enterFor("text"), exit: { kind: "fade-out", duration: 0.3 } }; elements.push(el); active.set(id, el); continue; }
   if (verb === "arrow") { const am = s.match(/arrow:\s*([a-z0-9-]+)\s*->\s*([a-z0-9-]+)/); if (!am) continue; const id = "a" + (autoId++); const el = { id, type: "arrow", from: am[1], to: am[2], style: "hand-drawn-red", in: t, out: meta.duration, enter: enterFor("arrow"), exit: { kind: "fade-out", duration: 0.2 } }; elements.push(el); active.set(id, el); continue; }
-  if (verb === "stickman") { const rest = s.replace(/^stickman:?\s*/, ""); const pose = rest.split(/[@\s,]/)[0].trim() || "neutral"; const slot = parseSlot(rest); const head = (rest.match(/head\s*=\s*([a-z0-9-]+)/) || [])[1]; const id = "s" + (autoId++); const el = { id, type: "stickman", pose, slot, in: t, out: meta.duration, enter: enterFor("stickman"), exit: { kind: "fade-out", duration: 0.3 } }; if (head) el.head = assetFile(head); elements.push(el); active.set(id, el); continue; }
+  if (verb === "stickman") { const rest = s.replace(/^stickman:?\s*/, ""); const pose = rest.split(/[@\s,]/)[0].trim() || "neutral"; const slot = parseSlot(rest); const head = (rest.match(/head\s*=\s*([a-z0-9-]+)/) || [])[1]; const id = "s" + (autoId++); const el = { id, type: "stickman", pose, slot, in: t, out: meta.duration, enter: enterFor("stickman"), exit: { kind: "fade-out", duration: 0.3 } }; if (head && assetFile(head)) el.head = assetFile(head); elements.push(el); active.set(id, el); continue; }
 }
 // escalonar entradas que caen casi juntas (spec §8): +0.12s entre las que estén a <0.2s
 const byIn = [...elements].sort((a, b) => a.in - b.in);
@@ -66,6 +67,14 @@ for (let i = 1; i < byIn.length; i++) { if (byIn[i].in - byIn[i - 1].in < 0.2) b
 // mínimo 1.2s en pantalla
 for (const el of elements) if (el.out - el.in < 1.2) el.out = +(el.in + 1.2).toFixed(2);
 
+// audio: si el episodio ya tiene audio.mp3 (lo hace 01-tts), lo copiamos al sitio de render
+const activeDir = path.join("public", "active");
+fs.mkdirSync(activeDir, { recursive: true });
+const epAudio = path.join(dir, "audio.mp3");
+if (fs.existsSync(epAudio)) { fs.copyFileSync(epAudio, path.join(activeDir, "audio.mp3")); meta.audio = "active/audio.mp3"; }
+else delete meta.audio;
+
 const out = { meta, elements };
-fs.writeFileSync(path.join(dir, "scenes.json"), JSON.stringify(out, null, 2));
+fs.writeFileSync(path.join(dir, "scenes.json"), JSON.stringify(out, null, 2));            // registro en el episodio
+fs.writeFileSync(path.join(activeDir, "scenes.json"), JSON.stringify(out, null, 2));       // entrada del renderizador
 console.log(`✔ scenes.json: ${elements.length} elementos · ${meta.duration.toFixed(1)}s · "${title}"`);

@@ -1,0 +1,152 @@
+{
+  "solar_system": {
+    "kind": "icon",
+    "query": "solar system",
+    "file": "assets/icons/solar_system.svg"
+  },
+  "sun": {
+    "kind": "icon",
+    "query": "sun",
+    "file": "assets/icons/sun.svg"
+  },
+  "mercury": {
+    "kind": "photo",
+    "query": "Mercury planet",
+    "file": "assets/icons/mercury.jpg"
+  },
+  "venus": {
+    "kind": "photo",
+    "query": "Venus planet",
+    "file": "assets/icons/venus.jpg"
+  },
+  "earth": {
+    "kind": "photo",
+    "query": "Earth",
+    "file": "assets/icons/earth.jpg"
+  },
+  "mars": {
+    "kind": "photo",
+    "query": "Mars planet",
+    "file": "assets/icons/mars.png"
+  },
+  "jupiter": {
+    "kind": "photo",
+    "query": "Jupiter planet",
+    "file": "assets/icons/jupiter.png"
+  },
+  "saturn": {
+    "kind": "photo",
+    "query": "Saturn planet",
+    "file": "assets/icons/saturn.svg"
+  },
+  "uranus": {
+    "kind": "photo",
+    "query": "Uranus planet",
+    "file": null
+  },
+  "neptune": {
+    "kind": "photo",
+    "query": "Neptune planet",
+    "file": null
+  },
+  "pluto": {
+    "kind": "photo",
+    "query": "Pluto",
+    "file": "assets/icons/pluto.svg"
+  },
+  "thermometer": {
+    "kind": "icon",
+    "query": "thermometer",
+    "file": "assets/icons/thermometer.svg"
+  },
+  "clock": {
+    "kind": "icon",
+    "query": "clock",
+    "file": "assets/icons/clock.svg"
+  },
+  "skull": {
+    "kind": "icon",
+    "query": "skull",
+    "file": "assets/icons/skull.svg"
+  },
+  "rocket": {
+    "kind": "icon",
+    "query": "rocket",
+    "file": "assets/icons/rocket.svg"
+  },
+  "rings": {
+    "kind": "icon",
+    "query": "planetary rings",
+    "file": null
+  },
+  "ice": {
+    "kind": "icon",
+    "query": "ice cube",
+    "file": "assets/icons/ice.svg"
+  },
+  "wind": {
+    "kind": "icon",
+    "query": "wind",
+    "file": "assets/icons/wind.svg"
+  },
+  "volcano": {
+    "kind": "icon",
+    "query": "volcano",
+    "file": "assets/icons/volcano.svg"
+  },
+  "moon": {
+    "kind": "icon",
+    "query": "moon",
+    "file": "assets/icons/moon.svg"
+  },
+  "magnet": {
+    "kind": "icon",
+    "query": "magnet",
+    "file": "assets/icons/magnet.svg"
+  },
+  "storm": {
+    "kind": "icon",
+    "query": "hurricane",
+    "file": "assets/icons/storm.svg"
+  },
+  "calendar": {
+    "kind": "icon",
+    "query": "calendar",
+    "file": "assets/icons/calendar.svg"
+  },
+  "scale": {
+    "kind": "icon",
+    "query": "weighing scale",
+    "file": null
+  },
+  "water_drop": {
+    "kind": "icon",
+    "query": "water drop",
+    "file": "assets/icons/water_drop.svg"
+  },
+  "telescope": {
+    "kind": "icon",
+    "query": "telescope",
+    "file": "assets/icons/telescope.svg"
+  },
+  "diamond": {
+    "kind": "icon",
+    "query": "diamond",
+    "file": "assets/icons/diamond.svg"
+  },
+  "crater": {
+    "kind": "icon",
+    "query": "crater",
+    "file": "assets/icons/crater.svg"
+  },
+  "greenhouse": {
+    "kind": "icon",
+    "query": "greenhouse",
+    "file": "assets/icons/greenhouse.svg"
+  },
+  "bell": {
+    "kind": "icon",
+    "query": "bell",
+    "file": "assets/icons/bell.svg"
+  }
+}
