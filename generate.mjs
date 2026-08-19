@@ -65,12 +65,12 @@ const extOf = (u) => /\.png(\?|$)/i.test(u) ? "png" : /\.svg(\?|$)/i.test(u) ? "
 async function aiImage(q, dest) { try { const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(q + ", clean illustration, white background")}?width=900&height=520&nologo=true&model=flux`; const r = await fetch(url); if (!r.ok) return false; const b = await r.arrayBuffer(); if (b.byteLength < 3000) return false; fs.writeFileSync(dest, Buffer.from(b)); return true; } catch { return false; } }
 // icono/dibujo VECTORIAL relevante del concepto (Iconify: cientos de miles, muchos a color estilo sticker)
 const COLORFUL = ["twemoji", "noto", "fluent-emoji", "fluent-emoji-flat", "fxemoji", "emojione", "openmoji", "streamline-emojis"];
+const ICON_JUNK = /question|help|unknown|not-?found|circle-help|block-helper|placeholder|dots|comment-question/i;
 async function iconifyIcon(q, dest) {
-  const tryq = async (query) => { try { const j = await (await fetch(`https://api.iconify.design/search?query=${encodeURIComponent(query)}&limit=20`)).json(); return j.icons || []; } catch { return []; } };
+  const tryq = async (query) => { try { const j = await (await fetch(`https://api.iconify.design/search?query=${encodeURIComponent(query)}&limit=24`)).json(); return (j.icons || []).filter(i => !ICON_JUNK.test(i)); } catch { return []; } };
   try {
     let icons = await tryq(q);
     if (!icons.length && q.includes(" ")) icons = await tryq(q.split(/\s+/).slice(-1)[0]);
-    if (!icons.length && q.includes(" ")) icons = await tryq(q.split(/\s+/)[0]);
     if (!icons.length) return null;
     const pick = icons.find(i => COLORFUL.some(p => i.startsWith(p + ":"))) || icons[0];
     const colorful = COLORFUL.some(p => pick.startsWith(p + ":"));

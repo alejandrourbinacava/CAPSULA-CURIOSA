@@ -90,8 +90,8 @@ const BEATS = beatsData as Record<string, Entry | Beat[]>;
 const refOf = (id: string): string | null => { const e = BEATS[id]; return e && !Array.isArray(e) ? (e.ref || null) : null; };
 // icono/dibujo vectorial (Iconify) en círculo; colorido = fondo blanco, monocromo = fondo color
 const IconChip: React.FC<{ b: Beat; c: string; size: number }> = ({ b, c, size }) => {
+  if (!b.iconFile) return null;
   const br = `${Math.max(5, size * 0.026)}px solid #111`;
-  if (!b.iconFile) return <div style={{ width: size, height: size, borderRadius: "50%", background: c, border: br, boxShadow: "0 14px 30px rgba(0,0,0,.16)" }} />;
   return <div style={{ width: size, height: size, borderRadius: "50%", background: b.iconColorful ? "#fff" : c, border: br, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,.16)" }}>
     <Img src={staticFile(b.iconFile)} style={{ width: size * 0.6, height: size * 0.6, objectFit: "contain", filter: b.iconColorful ? "none" : "brightness(0)" }} />
   </div>;
@@ -124,11 +124,11 @@ const ItemScene: React.FC<{ d: Item; n: number }> = ({ d, n }) => {
   const Slot: React.FC<{ bb: Beat; idx: number }> = ({ bb, idx }) => {
     if (bb.file) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
       <div style={{ position: "relative" }}><BigMedia file={bb.file} kind={bb.kind} from={bb.f} accent={d.color} w={720} h={332} />
-        <div style={{ position: "absolute", top: -24, left: -24 }}><IconChip b={bb} c={d.color} size={92} /></div></div>
+        {bb.iconFile && <div style={{ position: "absolute", top: -24, left: -24 }}><IconChip b={bb} c={d.color} size={92} /></div>}</div>
       {hword(bb.text, 46, 34, "#141414")}
     </div>;
     if (bb.bullets && bb.bullets.length) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 12 }}>
-      <div style={{ display: "flex", alignItems: "center", gap: 16 }}><div style={{ transform: bob(frame) }}><IconChip b={bb} c={d.color} size={100} /></div>{hword(bb.text, 46, 40, "#141414")}</div>
+      <div style={{ display: "flex", alignItems: "center", gap: 16 }}>{bb.iconFile && <div style={{ transform: bob(frame) }}><IconChip b={bb} c={d.color} size={100} /></div>}{hword(bb.text, 46, 40, "#141414")}</div>
       {bb.bullets.map((bl, k) => <div key={k} style={{ fontFamily: HAND, fontSize: 38, display: "flex", gap: 10, alignItems: "flex-start" }}><span style={{ color: d.color, fontWeight: 900 }}>▸</span><span style={{ maxWidth: 640 }}>{bl}</span></div>)}
     </div>;
     const col = idx % 3 === 0 ? d.color : "#141414";
@@ -137,10 +137,12 @@ const ItemScene: React.FC<{ d: Item; n: number }> = ({ d, n }) => {
       <div style={{ transform: `${bob(frame, 3)} scaleX(${idx % 2 ? -1 : 1})` }}><Img src={staticFile("mascota.png")} style={{ width: 240, height: 240, objectFit: "contain" }} /></div>
       {hword(bb.text, 62, 46, col)}
     </div>;
-    return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
+    // con icono vectorial relevante → icono + palabra; sin icono bueno → SOLO la palabra grande (nada de "?")
+    if (bb.iconFile) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
       <div style={{ transform: bob(frame) }}><IconChip b={bb} c={d.color} size={200} /></div>
       {hword(bb.text, 66, 48, col)}
     </div>;
+    return <div style={{ display: "flex", alignItems: "center", justifyContent: "center", maxWidth: 800 }}>{hword(bb.text, 92, 66, col)}</div>;
   };
 
   let main: React.ReactNode;
