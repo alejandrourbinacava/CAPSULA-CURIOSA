@@ -61,20 +61,19 @@ async function giphyGif(q) { if (!GIPHY) return null; try { const j = await (awa
 // imagen REAL y relevante de algo con nombre propio (consola, juego, animal, lugar, persona, objeto) vía Wikipedia
 async function wikiImage(q) { for (const lang of ["en", "es"]) { try { const s = await (await fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(q)}&format=json&srlimit=1&origin=*`)).json(); const t = s?.query?.search?.[0]?.title; if (!t) continue; const r = await (await fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(t)}&prop=pageimages&piprop=original|thumbnail&pithumbsize=1000&format=json&origin=*`)).json(); const p = Object.values(r?.query?.pages || {})[0]; const u = p?.original?.source || p?.thumbnail?.source; if (u) return u; } catch { } } return null; }
 const extOf = (u) => /\.png(\?|$)/i.test(u) ? "png" : /\.svg(\?|$)/i.test(u) ? "svg" : /\.gif(\?|$)/i.test(u) ? "gif" : "jpg";
+// generación con IA (Pollinations, gratis y sin key) como último recurso para cosas concretas
+async function aiImage(q, dest) { try { const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(q + ", clean illustration, white background")}?width=900&height=520&nologo=true&model=flux`; const r = await fetch(url); if (!r.ok) return false; const b = await r.arrayBuffer(); if (b.byteLength < 3000) return false; fs.writeFileSync(dest, Buffer.from(b)); return true; } catch { return false; } }
 const wc = (s) => (s || "").trim().split(/\s+/).filter(Boolean).length;
 const beatsOut = {};
 for (const it of cfg.items) {
   const itFrames = manifest.find(m => m.id === it.id).frames;
   const totW = it.beats.reduce((a, b) => a + wc(b.say), 0) || 1;
-  // foto de referencia (ancla arriba-izda) + reserva de imágenes por si falla una descarga
-  const gen = [];
-  try { const j = await (await fetch(`https://pixabay.com/api/?key=${PIX}&q=${encodeURIComponent(it.photoQuery)}&image_type=photo&per_page=8&safesearch=true&orientation=horizontal`)).json(); const hits = (j.hits || []).slice(0, 3); for (let k = 0; k < hits.length; k++) { const f = `${it.key}_gp${k}.jpg`; try { await dl(hits[k].largeImageURL || hits[k].webformatURL, path.join(MEDIA, f)); gen.push({ file: "media/" + f, kind: "img" }); } catch {} } } catch {}
-  if (!gen.length) { try { const p = await pexPhoto(it.photoQuery); if (p) { const f = `${it.key}_gp0.jpg`; await dl(p, path.join(MEDIA, f)); gen.push({ file: "media/" + f, kind: "img" }); } } catch {} }
+  // foto ancla (arriba-izda) = imagen real del ítem (Wikipedia; si no, IA)
   let ref = null;
   try { const rw = await wikiImage(it.name); if (rw) { const rf = `${it.key}_ref.${extOf(rw)}`; await dl(rw, path.join(MEDIA, rf)); ref = "media/" + rf; } } catch { }
-  if (!ref) ref = gen[0]?.file || null;
+  if (!ref) { const rf = `${it.key}_ref.jpg`; if (await aiImage(it.name, path.join(MEDIA, rf))) ref = "media/" + rf; }
 
-  let cum = 0, genIdx = 0; const arr = [];
+  let cum = 0; const arr = [];
   for (let i = 0; i < it.beats.length; i++) {
     const b = it.beats[i];
     const f = Math.round((cum / totW) * itFrames); cum += wc(b.say);
@@ -100,8 +99,8 @@ for (const it of cfg.items) {
           if (!file) { const p = await pixPhoto(b.query) || await pexPhoto(b.query); if (p) { await dl(p, path.join(MEDIA, base + ".jpg")); file = "media/" + base + ".jpg"; kind = "img"; } }
         }
       } catch { }
-      // último recurso: imagen general del tema (mejor eso que nada), NUNCA algo aleatorio sin relación si podemos evitarlo
-      if (!file && gen.length) { const g = gen[genIdx % gen.length]; genIdx++; file = g.file; kind = g.kind; }
+      // último recurso: IA (Pollinations). Si tampoco, se queda como ICONO (nunca una foto sin relación)
+      if (!file) { const f = `${base}_ai.jpg`; if (await aiImage(b.query, path.join(MEDIA, f))) { file = "media/" + f; kind = "img"; } }
     }
     const bullets = Array.isArray(b.bullets) ? b.bullets.filter(x => x && x.trim()).slice(0, 3) : [];
     arr.push({ f, text: b.text, icon: b.icon, file, kind, bullets });
