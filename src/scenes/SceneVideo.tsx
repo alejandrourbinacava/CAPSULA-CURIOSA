@@ -1,8 +1,13 @@
 import React from "react";
 import { AbsoluteFill, Audio, Img, useCurrentFrame, useVideoConfig, staticFile, spring } from "remotion";
+import { loadFont as loadPatrick } from "@remotion/google-fonts/PatrickHand";
+import { loadFont as loadCaveat } from "@remotion/google-fonts/Caveat";
 
-// ---- FUENTE MANUSCRITA (spec §2). Fallbacks locales si no hay Google Fonts.
-const HAND = "'Patrick Hand','Caveat','Comic Sans MS','Segoe Print',cursive";
+// ---- FUENTE MANUSCRITA (spec §2). Se bundlea con la render (funciona headless en CI).
+const { fontFamily: PATRICK } = loadPatrick("normal", { weights: ["400"] });
+const { fontFamily: CAVEAT } = loadCaveat("normal", { weights: ["700"] });
+const HAND = `${PATRICK}, 'Comic Sans MS','Segoe Print',cursive`;      // cuerpo manuscrito
+const HAND_BOLD = `${CAVEAT}, ${PATRICK}, cursive`;                      // titulares/énfasis
 const RED = "#E5342A";
 
 // ---- SLOTS deterministas (spec §6). Centro (cx,cy) y caja (w,h) en 1920x1080.
@@ -118,7 +123,9 @@ const Element: React.FC<{ el: El }> = ({ el }) => {
 
   if (el.type === "text") {
     const fs = TEXT_SIZE[el.size || "md"];
-    return <div style={{ ...common, clipPath: clip, WebkitClipPath: clip }}><div style={{ fontFamily: HAND, fontWeight: 700, fontSize: fs, color: el.color || "#111", textAlign: "center", lineHeight: 1.1, maxWidth: box.w }}>{el.content}</div></div>;
+    const emph = el.size === "lg" || el.color === RED;                 // titulares/énfasis -> Caveat
+    const halo = "0 0 8px #fff, 0 0 8px #fff, 0 0 14px #fff, 2px 2px 0 #fff"; // legible sobre iconos/monigotes
+    return <div style={{ ...common, clipPath: clip, WebkitClipPath: clip }}><div style={{ fontFamily: emph ? HAND_BOLD : HAND, fontWeight: 700, fontSize: fs, color: el.color || "#111", textAlign: "center", lineHeight: 1.1, maxWidth: box.w, textShadow: halo }}>{el.content}</div></div>;
   }
   if (el.type === "stickman") return <div style={common}><Stickman pose={el.pose} head={el.head} size={Math.min(box.h, 360)} /></div>;
   // image: SVG (icono transparente) crudo; foto (jpg/png) enmarcada en tarjeta limpia

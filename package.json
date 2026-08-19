@@ -10,6 +10,7 @@
   "dependencies": {
     "@remotion/cli": "4.0.512",
     "@remotion/gif": "^4.0.512",
+    "@remotion/google-fonts": "^4.0.512",
     "libsodium-wrappers": "^0.8.4",
     "react": "18.3.1",
     "react-dom": "18.3.1",

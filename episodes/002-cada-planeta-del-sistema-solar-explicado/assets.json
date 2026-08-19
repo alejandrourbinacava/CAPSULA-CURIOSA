@@ -37,22 +37,22 @@
   "saturn": {
     "kind": "photo",
     "query": "Saturn planet",
-    "file": "assets/icons/saturn.svg"
+    "file": "assets/icons/saturn.png"
   },
   "uranus": {
     "kind": "photo",
     "query": "Uranus planet",
-    "file": null
+    "file": "assets/icons/uranus.png"
   },
   "neptune": {
     "kind": "photo",
     "query": "Neptune planet",
-    "file": null
+    "file": "assets/icons/neptune.png"
   },
   "pluto": {
     "kind": "photo",
     "query": "Pluto",
-    "file": "assets/icons/pluto.svg"
+    "file": "assets/icons/pluto.png"
   },
   "thermometer": {
     "kind": "icon",
