@@ -132,18 +132,19 @@ const ItemScene: React.FC<{ d: Item; n: number }> = ({ d, n }) => {
       {bb.bullets.map((bl, k) => <div key={k} style={{ fontFamily: HAND, fontSize: 38, display: "flex", gap: 10, alignItems: "flex-start" }}><span style={{ color: d.color, fontWeight: 900 }}>▸</span><span style={{ maxWidth: 640 }}>{bl}</span></div>)}
     </div>;
     const col = idx % 3 === 0 ? d.color : "#141414";
-    // FIGURA STICKMAN reaccionando (no el logo del canal)
-    if (idx % 4 === 2) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 4 }}>
+    // 1º: el ICONO vectorial relevante SIEMPRE manda (el dibujo debe pegar con lo que se dice)
+    if (bb.iconFile) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
+      <div style={{ transform: bob(frame) }}><IconChip b={bb} c={d.color} size={200} /></div>
+      {hword(bb.text, 66, 48, col)}
+    </div>;
+    // sin icono: a veces un STICKMAN reaccionando (nunca pisando un icono que sí tocaba)
+    if (idx % 3 === 1) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 4 }}>
       <div style={{ transform: `${bob(frame, 2.5)} scaleX(${idx % 8 >= 4 ? -1 : 1})`, transformOrigin: "bottom center" }}>
         <Stick pose={(["pointR", "idle", "hip", "pointL2R"] as const)[idx % 4]} headSize={112} head={<g><circle cx={50} cy={50} r={44} fill="#fff" stroke="#111" strokeWidth={5} /><circle cx={38} cy={47} r={5.5} fill="#111" /><circle cx={62} cy={47} r={5.5} fill="#111" /><path d="M37,64 Q50,73 63,64" stroke="#111" strokeWidth={4} fill="none" strokeLinecap="round" /></g>} />
       </div>
       {hword(bb.text, 60, 44, col)}
     </div>;
-    // con icono vectorial relevante → icono + palabra; sin icono bueno → SOLO la palabra grande (nada de "?")
-    if (bb.iconFile) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
-      <div style={{ transform: bob(frame) }}><IconChip b={bb} c={d.color} size={200} /></div>
-      {hword(bb.text, 66, 48, col)}
-    </div>;
+    // ni icono ni stickman: SOLO la palabra grande (nunca un "?")
     return <div style={{ display: "flex", alignItems: "center", justifyContent: "center", maxWidth: 800 }}>{hword(bb.text, 92, 66, col)}</div>;
   };
 
@@ -209,7 +210,7 @@ const IntroScene: React.FC<{ id: string; frames: number }> = ({ id, frames }) =>
       {i > 0 && (() => { const it = ITEMS[(i - 1) % ITEMS.length]; const rf = refOf(it.id); return (
         <div style={{ textAlign: "center" }}>
           <div style={{ display: "flex", justifyContent: "center", transform: `scale(${pop}) ${bob(frame)}` }}>
-            {rf ? <div style={{ borderRadius: 20, overflow: "hidden", border: `7px solid ${it.color}`, boxShadow: "0 20px 50px rgba(0,0,0,.2)", background: "#fff", padding: 10 }}><Img src={staticFile(rf)} style={{ width: 460, height: 300, objectFit: "contain" }} /></div> : <Chip n={it.main} c={it.color} size={340} />}
+            {rf ? <div style={{ borderRadius: 20, overflow: "hidden", border: `7px solid ${it.color}`, boxShadow: "0 20px 50px rgba(0,0,0,.2)", background: "#fff", padding: 10 }}><Img src={staticFile(rf)} style={{ width: 460, height: 300, objectFit: "contain" }} /></div> : <div style={{ minWidth: 420, padding: "50px 40px", borderRadius: 20, border: `7px solid ${it.color}`, background: "#fff", fontFamily: HEAVY, fontWeight: 900, fontSize: 72, color: it.color, textAlign: "center", boxShadow: "0 20px 50px rgba(0,0,0,.2)" }}>{it.name}</div>}
           </div>
           <div style={{ fontFamily: HEAVY, fontWeight: 900, fontSize: it.name.length > 13 ? 62 : 88, color: "#141414", marginTop: 34, opacity: clamp((lf - 8) / 10) }}>{it.name}</div>
         </div>
@@ -228,7 +229,7 @@ const GruposScene: React.FC<{ id: string; frames: number }> = ({ id, frames }) =
       <div style={{ display: "flex", flexWrap: "wrap", width: 1500, justifyContent: "center", gap: 30, marginTop: 60 }}>
         {ITEMS.map((it, k) => { const p = clamp((frame - k * per) / 10); const rf = refOf(it.id); return (
           <div key={k} style={{ textAlign: "center", opacity: p, transform: `scale(${lerp3(p, 0.3, 1.12, 1)}) ${bob(frame + k)}`, width: 240 }}>
-            {rf ? <div style={{ borderRadius: 12, overflow: "hidden", border: `4px solid ${it.color}`, background: "#fff", padding: 6, display: "inline-block" }}><Img src={staticFile(rf)} style={{ width: 200, height: 128, objectFit: "contain" }} /></div> : <Chip n={it.main} c={it.color} size={150} />}
+            {rf ? <div style={{ borderRadius: 12, overflow: "hidden", border: `4px solid ${it.color}`, background: "#fff", padding: 6, display: "inline-block" }}><Img src={staticFile(rf)} style={{ width: 200, height: 128, objectFit: "contain" }} /></div> : <div style={{ width: 200, height: 128, borderRadius: 12, border: `4px solid ${it.color}`, background: "#fff", display: "flex", alignItems: "center", justifyContent: "center", padding: 8, fontFamily: HEAVY, fontWeight: 900, fontSize: 26, color: it.color, textAlign: "center", lineHeight: 1 }}>{it.name}</div>}
             <div style={{ fontFamily: HAND, fontSize: 24, marginTop: 4, maxWidth: 230, lineHeight: 1 }}>{it.name}</div>
           </div>); })}
       </div>
