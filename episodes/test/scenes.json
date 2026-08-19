@@ -1,0 +1,12 @@
+{
+  "meta": { "fps": 30, "width": 1920, "height": 1080, "duration": 12 },
+  "elements": [
+    { "id": "badge", "type": "image", "src": "assets/icons/gamepad.svg", "slot": "corner-badge", "in": 0, "out": 12, "enter": { "kind": "fade-in" } },
+    { "id": "console", "type": "image", "src": "assets/icons/gamepad.svg", "slot": "center", "in": 1, "out": 9, "enter": { "kind": "pop", "duration": 0.45 } },
+    { "id": "t1", "type": "text", "content": "LA CONSOLA", "slot": "center-below", "size": "lg", "in": 1.4, "out": 9, "enter": { "kind": "handwrite", "duration": 0.8 } },
+    { "id": "guy", "type": "stickman", "pose": "pointing-right", "slot": "left", "in": 2.5, "out": 9, "enter": { "kind": "fade-in" } },
+    { "id": "money", "type": "image", "src": "assets/icons/money.svg", "slot": "right", "in": 3.5, "out": 9, "enter": { "kind": "pop" } },
+    { "id": "a1", "type": "arrow", "from": "left", "to": "right", "style": "hand-drawn-red", "in": 4.0, "out": 9, "enter": { "kind": "draw", "duration": 0.6 } },
+    { "id": "t2", "type": "text", "content": "400€", "slot": "right-below", "color": "#E5342A", "size": "lg", "in": 4.5, "out": 9, "enter": { "kind": "handwrite" } }
+  ]
+}

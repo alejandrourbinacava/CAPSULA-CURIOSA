@@ -11,10 +11,22 @@ import { ThumbB } from "./ThumbB";
 import { TrastornosRealFull, TOTAL as TOTAL_RF } from "./TrastornosRealFull";
 import { AutoVideo, TOTAL as TOTAL_AUTO } from "./AutoVideo";
 import { AutoThumb } from "./AutoThumb";
+import { makeSceneVideo } from "./scenes/SceneVideo";
+import testScenes from "../episodes/test/scenes.json";
+
+const SceneTest = makeSceneVideo(testScenes as any);
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="Scene"
+        component={SceneTest}
+        durationInFrames={Math.ceil(testScenes.meta.duration * testScenes.meta.fps)}
+        fps={testScenes.meta.fps}
+        width={testScenes.meta.width}
+        height={testScenes.meta.height}
+      />
       <Composition
         id="PcExplainer"
         component={PcExplainer}
