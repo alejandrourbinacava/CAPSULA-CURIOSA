@@ -1,1412 +1,1147 @@
 {
-  "title": "Cada Sesgo Cognitivo que te Engaña",
+  "title": "Cada Videoconsola de la Historia Explicada",
   "fps": 30,
   "voiceId": "851ejYcv2BoNPjrkw93G",
   "speed": 1.08,
-  "cornerIcon": "eye",
+  "cornerIcon": "star",
   "handle": "@CapsulaCuriosa",
   "intro": {
     "id": "v00",
-    "narration": "¿Alguna vez has tomado una decisión y luego te has preguntado por qué lo hiciste? Tu cerebro, ese órgano tan sofisticado, te está engañando todos los días sin que te des cuenta. No es que seas tonto ni que te falte información: son atajos mentales que todos usamos, llamados sesgos cognitivos. Te hacen creer que eres objetivo cuando en realidad ya decidiste antes de analizar nada. Compras cosas que no necesitas, discutes sin escuchar, y confías en gente solo porque sonríe bien. Hoy vamos a desmontar diez de los sesgos más comunes que manipulan tus decisiones cada día, desde lo que compras hasta a quién amas. Prepárate, porque después de este vídeo, verás tu propia mente de otra forma."
+    "narration": "¿Te has preguntado cómo pasamos de simples píxeles en blanco y negro a mundos fotorrealistas en tres dimensiones? La industria de los videojuegos ha cambiado nuestro entretenimiento para siempre. Desde salones recreativos hasta consolas híbridas que caben en tu mochila, cada generación ha librado su propia batalla por dominar tu salón. En este vídeo repasamos las consolas más icónicas de la historia, las innovaciones que las hicieron legendarias y la guerra comercial que transformó el entretenimiento digital para siempre."
   },
   "grupos": {
     "id": "v01",
-    "narration": "Vamos a repasar diez sesgos cognitivos que actúan en tu día a día: cómo se sienten por dentro, qué señales delatan que estás cayendo en ellos, por qué tu cerebro los usa, y sobre todo, cómo puedes esquivarlos a partir de hoy."
+    "narration": "Acompañame en este viaje en el tiempo para analizar las nueve consolas más influyentes de la historia."
   },
   "outro": {
-    "id": "v12",
-    "narration": "Como ves, tu mente no es tan objetiva como crees, pero conocer estos sesgos es el primer paso para pensar con más claridad. La próxima vez que decidas algo importante, para un segundo y pregúntate qué sesgo podría estar jugando contigo. Si te ha gustado este viaje por tu propia mente, suscríbete a Cápsula Curiosa para más contenido así. ¡Nos vemos en el próximo vídeo!"
+    "id": "v11",
+    "narration": "Estas nueve consolas no solo vendieron millones de unidades, sino que definieron generaciones enteras de jugadores. ¿Cuál fue tu primera consola o cuál recuerdas con más cariño? Déjamelo en los comentarios. Si te ha gustado este viaje retro, dale a me gusta y suscríbete a Cápsula Curiosa para no perderte ningún episodio."
   },
   "items": [
     {
       "id": "v02",
       "key": "item1",
-      "name": "SESGO DE CONFIRMACIÓN",
+      "name": "ATARI 2600",
       "color": "#e57373",
-      "main": "eye",
-      "def": "buscamos lo que confirma",
+      "main": "star",
+      "def": "Pionera de cartuchos",
       "beats": [
         {
-          "say": "Este es el sesgo de confirmación, tu filtro mental.",
-          "text": "SESGO DE CONFIRMACIÓN",
-          "icon": "eye",
+          "say": "La Atari 2600 fue la pionera del entretenimiento doméstico.",
+          "text": "ATARI 2600",
+          "icon": "star",
+          "media": "photo",
+          "query": "atari 2600 console"
+        },
+        {
+          "say": "Llegó a los hogares en mil nueve cientos setenta y siete.",
+          "text": "LANZAMIENTO HISTÓRICO",
+          "icon": "clock",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Buscamos información que confirme lo que ya creemos.",
-          "text": "BUSCAR CONFIRMACIÓN",
-          "icon": "brain",
+          "say": "Popularizó el uso de cartuchos intercambiables para jugar.",
+          "text": "CARTUCHOS INTERCAMBIABLES",
+          "icon": "zap",
+          "media": "photo",
+          "query": "atari 2600 cartridge"
+        },
+        {
+          "say": "Su icónico joystick con un solo botón rojo hizo historia.",
+          "text": "MANDO LEGENDARIO",
+          "icon": "target",
+          "media": "clip",
+          "query": "atari joystick gaming"
+        },
+        {
+          "say": "Trajo los éxitos de recreativas directamente al salón familiar.",
+          "text": "DEL ARCADE A CASA",
+          "icon": "globe",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Ignoramos, sin darnos cuenta, todo lo que nos contradice.",
-          "text": "IGNORAR LO CONTRARIO",
-          "icon": "ban",
+          "say": "Juegos como Space Invaders vendieron millones de unidades rápidamente.",
+          "text": "SPACE INVADERS",
+          "icon": "flame",
+          "media": "photo",
+          "query": "space invaders game"
+        },
+        {
+          "say": "Sin embargo sufrieron saturación por falta de control de calidad.",
+          "text": "SATURACIÓN DE CATÁLOGO",
+          "icon": "alert-triangle",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Por fuera parece que investigas con mente abierta.",
-          "text": "PARECE OBJETIVO",
-          "icon": "glasses",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por dentro, solo aceptas lo que ya pensabas.",
-          "text": "ACEPTAR LO PROPIO",
-          "icon": "lock",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Una señal clara: solo lees noticias que te dan la razón.",
-          "text": "LEER SOLO AFINES",
-          "icon": "megaphone",
+          "say": "Desarrolladores independientes lanzaron miles de juegos pésimos al mercado.",
+          "text": "JUEGOS DEFECTUOSOS",
+          "icon": "bug",
           "media": "gif",
-          "query": "person reading phone nodding agreement"
+          "query": "bad retro video game"
         },
         {
-          "say": "Otra señal: discutes y solo escuchas para rebatir.",
-          "text": "ESCUCHAR PARA REBATIR",
-          "icon": "message-circle",
-          "media": "none",
-          "query": ""
+          "say": "El caso de ET es el ejemplo más famoso de desastre.",
+          "text": "EL FRACASO DE ET",
+          "icon": "skull",
+          "media": "photo",
+          "query": "et atari game cartridge"
         },
         {
-          "say": "Ocurre porque nuestro cerebro ahorra energía mental así.",
-          "text": "AHORRAR ENERGÍA MENTAL",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
+          "say": "Millones de cartuchos no vendidos terminaron enterrados en el desierto.",
+          "text": "ENTIERRO EN EL DESIERTO",
+          "icon": "map",
+          "media": "clip",
+          "query": "atari desert landfill excavation"
         },
         {
-          "say": "Creer algo nuevo cuesta más esfuerzo que confirmarlo.",
-          "text": "MENOS ESFUERZO",
-          "icon": "gauge",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "También protege nuestra identidad y evita el malestar.",
-          "text": "PROTEGER IDENTIDAD",
-          "icon": "shield",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Cambiar de opinión se siente como perder, y duele.",
-          "text": "DUELE CAMBIAR",
-          "icon": "heart-crack",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Imagina que crees que cierta dieta es milagrosa.",
-          "text": "EJEMPLO: DIETA MILAGRO",
-          "icon": "pill",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Solo guardas los casos de éxito que ves en redes.",
-          "text": "GUARDAR ÉXITOS",
-          "icon": "phone",
-          "media": "gif",
-          "query": "scrolling social media success stories"
-        },
-        {
-          "say": "Los fracasos de esa dieta simplemente los descartas.",
-          "text": "DESCARTAR FRACASOS",
+          "say": "Esto provocó el gran crack de los videojuegos de mil novecientos ochenta y tres.",
+          "text": "CRACK DEL 83",
           "icon": "trending-down",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Así tu creencia se vuelve cada vez más fuerte.",
-          "text": "CREENCIA REFORZADA",
-          "icon": "trending-up",
+          "say": "Toda la industria norteamericana pareció colapsar de la noche a la mañana.",
+          "text": "COLAPSO INDUSTRIAL",
+          "icon": "frown",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Para escapar, busca activamente la opinión contraria.",
-          "text": "BUSCAR LO CONTRARIO",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
+          "say": "Muchas empresas de tecnología quebraron en muy pocos meses.",
+          "text": "CIERRE DE EMPRESAS",
+          "icon": "lock",
+          "media": "photo",
+          "query": "closed retro electronics store"
         },
         {
-          "say": "Pregúntate: ¿qué prueba necesitaría para cambiar de idea?",
-          "text": "QUÉ ME HARÍA CAMBIAR",
+          "say": "A pesar de todo sentó las bases mecánicas del sector.",
+          "text": "BASES DE LA INDUSTRIA",
           "icon": "lightbulb",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Dudar de ti mismo, a veces, es la mejor herramienta.",
-          "text": "DUDAR ES ÚTIL",
-          "icon": "circle-check",
+          "say": "Demostró que existía un mercado gigante para consolas caseras.",
+          "text": "MERCADO MILLONARIO",
+          "icon": "coins",
+          "media": "photo",
+          "query": "vintage gaming setup 80s"
+        },
+        {
+          "say": "Un mito imborrable en la memoria del videojuego mundial.",
+          "text": "LEYENDA DEL JUEGO",
+          "icon": "trophy",
           "media": "none",
           "query": ""
         }
       ],
-      "narration": "Este es el sesgo de confirmación, tu filtro mental. Buscamos información que confirme lo que ya creemos. Ignoramos, sin darnos cuenta, todo lo que nos contradice. Por fuera parece que investigas con mente abierta. Por dentro, solo aceptas lo que ya pensabas. Una señal clara: solo lees noticias que te dan la razón. Otra señal: discutes y solo escuchas para rebatir. Ocurre porque nuestro cerebro ahorra energía mental así. Creer algo nuevo cuesta más esfuerzo que confirmarlo. También protege nuestra identidad y evita el malestar. Cambiar de opinión se siente como perder, y duele. Imagina que crees que cierta dieta es milagrosa. Solo guardas los casos de éxito que ves en redes. Los fracasos de esa dieta simplemente los descartas. Así tu creencia se vuelve cada vez más fuerte. Para escapar, busca activamente la opinión contraria. Pregúntate: ¿qué prueba necesitaría para cambiar de idea? Dudar de ti mismo, a veces, es la mejor herramienta.",
-      "videoQuery": "confirmation bias thinking illustration",
-      "photoQuery": "person reading confirming beliefs newspaper"
+      "narration": "La Atari 2600 fue la pionera del entretenimiento doméstico. Llegó a los hogares en mil nueve cientos setenta y siete. Popularizó el uso de cartuchos intercambiables para jugar. Su icónico joystick con un solo botón rojo hizo historia. Trajo los éxitos de recreativas directamente al salón familiar. Juegos como Space Invaders vendieron millones de unidades rápidamente. Sin embargo sufrieron saturación por falta de control de calidad. Desarrolladores independientes lanzaron miles de juegos pésimos al mercado. El caso de ET es el ejemplo más famoso de desastre. Millones de cartuchos no vendidos terminaron enterrados en el desierto. Esto provocó el gran crack de los videojuegos de mil novecientos ochenta y tres. Toda la industria norteamericana pareció colapsar de la noche a la mañana. Muchas empresas de tecnología quebraron en muy pocos meses. A pesar de todo sentó las bases mecánicas del sector. Demostró que existía un mercado gigante para consolas caseras. Un mito imborrable en la memoria del videojuego mundial.",
+      "videoQuery": "playing atari 2600 vintage tv",
+      "photoQuery": "atari 2600 retro console"
     },
     {
       "id": "v03",
       "key": "item2",
-      "name": "EFECTO ANCLAJE",
+      "name": "NINTENDO NES",
       "color": "#90a4ae",
-      "main": "anchor",
-      "def": "el primer número domina",
+      "main": "crown",
+      "def": "Salvadora del videojuego",
       "beats": [
         {
-          "say": "El efecto anclaje: el primer dato que ves te atrapa.",
-          "text": "EFECTO ANCLAJE",
-          "icon": "anchor",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Es depender demasiado del primer número que recibimos.",
-          "text": "PRIMER NÚMERO CLAVE",
-          "icon": "hourglass",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ese dato inicial se convierte en tu referencia mental.",
-          "text": "REFERENCIA MENTAL",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por fuera, crees que decides con total libertad.",
-          "text": "PARECE LIBRE",
-          "icon": "unlock",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por dentro, ese ancla ya condicionó toda tu decisión.",
-          "text": "CONDICIONA DECISIÓN",
-          "icon": "lock",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Señal típica: en las rebajas, miras primero el precio tachado.",
-          "text": "PRECIO TACHADO",
-          "icon": "banknote",
+          "say": "La NES resucitó la industria tras el gran colapso.",
+          "text": "NINTENDO NES",
+          "icon": "crown",
           "media": "photo",
-          "query": "price tag crossed out discount"
+          "query": "nintendo nes console original"
         },
         {
-          "say": "Ese precio original ancla lo que crees que es barato.",
-          "text": "ANCLA LO BARATO",
-          "icon": "coins",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ocurre porque el cerebro necesita un punto de partida.",
-          "text": "PUNTO DE PARTIDA",
+          "say": "Nació en Japón con el nombre original de Famicom.",
+          "text": "ORIGEN EN JAPÓN",
           "icon": "map",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Ajustar desde ese punto exige mucho esfuerzo mental.",
-          "text": "AJUSTAR CUESTA",
-          "icon": "gauge",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por pereza cognitiva, nos quedamos cerca del ancla inicial.",
-          "text": "PEREZA COGNITIVA",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Incluso números aleatorios pueden anclar tus decisiones después.",
-          "text": "NÚMEROS AL AZAR",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Imagina negociar el precio de un coche usado.",
-          "text": "EJEMPLO: COCHE USADO",
+          "say": "Llegó a Occidente con un diseño parecido a un vídeo VCR.",
+          "text": "DISEÑO OCCIDENTAL",
           "icon": "briefcase",
-          "media": "none",
-          "query": ""
+          "media": "photo",
+          "query": "nintendo nes front loader"
         },
         {
-          "say": "El vendedor pide treinta mil, aunque valga veinte.",
-          "text": "PIDE DE MÁS",
-          "icon": "trending-up",
-          "media": "gif",
-          "query": "car salesman negotiating price"
-        },
-        {
-          "say": "Tú acabas negociando cerca de esa cifra inflada.",
-          "text": "NEGOCIAS CERCA DE ESO",
-          "icon": "scale",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Terminas pagando más de lo que realmente vale.",
-          "text": "PAGAS DE MÁS",
-          "icon": "arrow-up",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Para evitarlo, investiga precios reales antes de negociar.",
-          "text": "INVESTIGA ANTES",
-          "icon": "microscope",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Genera tú mismo tu propia ancla, no la reciban.",
-          "text": "CREA TU ANCLA",
+          "say": "Introdujo el cruceta D-Pad que cambió el control gráfico.",
+          "text": "LA CRUCETA D-PAD",
           "icon": "target",
-          "media": "none",
-          "query": ""
+          "media": "clip",
+          "query": "nes controller dpad close up"
         },
         {
-          "say": "Así decides con datos, no con el primer número.",
-          "text": "DECIDE CON DATOS",
-          "icon": "circle-check",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "El efecto anclaje: el primer dato que ves te atrapa. Es depender demasiado del primer número que recibimos. Ese dato inicial se convierte en tu referencia mental. Por fuera, crees que decides con total libertad. Por dentro, ese ancla ya condicionó toda tu decisión. Señal típica: en las rebajas, miras primero el precio tachado. Ese precio original ancla lo que crees que es barato. Ocurre porque el cerebro necesita un punto de partida. Ajustar desde ese punto exige mucho esfuerzo mental. Por pereza cognitiva, nos quedamos cerca del ancla inicial. Incluso números aleatorios pueden anclar tus decisiones después. Imagina negociar el precio de un coche usado. El vendedor pide treinta mil, aunque valga veinte. Tú acabas negociando cerca de esa cifra inflada. Terminas pagando más de lo que realmente vale. Para evitarlo, investiga precios reales antes de negociar. Genera tú mismo tu propia ancla, no la reciban. Así decides con datos, no con el primer número.",
-      "videoQuery": "anchoring bias negotiation price",
-      "photoQuery": "price tag discount anchor number"
-    },
-    {
-      "id": "v04",
-      "key": "item3",
-      "name": "EFECTO HALO",
-      "color": "#ba68c8",
-      "main": "star",
-      "def": "una virtud ciega el resto",
-      "beats": [
-        {
-          "say": "El efecto halo: una cualidad buena tapa todo lo demás.",
-          "text": "EFECTO HALO",
-          "icon": "star",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Si algo nos gusta en un aspecto, idealizamos el resto.",
-          "text": "IDEALIZAR EL RESTO",
-          "icon": "heart",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Una persona guapa parece automáticamente más inteligente.",
-          "text": "GUAPO, LUEGO LISTO",
-          "icon": "scan-face",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por fuera, crees que juzgas cada rasgo por separado.",
-          "text": "PARECE OBJETIVO",
-          "icon": "eye",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por dentro, un solo rasgo contamina tu juicio entero.",
-          "text": "UN RASGO CONTAMINA",
-          "icon": "sparkles",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Señal clara: confías más en marcas con buen diseño.",
-          "text": "CONFIAR POR DISEÑO",
-          "icon": "shirt",
-          "media": "photo",
-          "query": "sleek modern product design branding"
-        },
-        {
-          "say": "Da igual si el producto es realmente de calidad.",
-          "text": "SIN IMPORTAR CALIDAD",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ocurre porque el cerebro busca coherencia y simplicidad.",
-          "text": "BUSCA COHERENCIA",
-          "icon": "puzzle",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Es más fácil pensar en bloques que en detalles.",
-          "text": "PENSAR EN BLOQUES",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Así evitamos el esfuerzo de evaluar cada cualidad.",
-          "text": "EVITAR ESFUERZO",
-          "icon": "gauge",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Imagina a un profesor carismático dando una charla.",
-          "text": "EJEMPLO: PROFESOR CARISMÁTICO",
-          "icon": "megaphone",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Su simpatía te hace creer que también sabe mucho.",
-          "text": "SIMPATÍA IGUAL SABER",
-          "icon": "laugh",
-          "media": "gif",
-          "query": "charismatic speaker engaging audience"
-        },
-        {
-          "say": "Aunque sus datos sean flojos, tú le crees igual.",
-          "text": "CREES AUNQUE FLOJO",
-          "icon": "circle-check",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Este efecto también decide entrevistas y elecciones políticas.",
-          "text": "DECIDE ENTREVISTAS",
-          "icon": "briefcase",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Un buen apretón de manos puede ganar un puesto.",
-          "text": "APRETÓN DE MANOS",
-          "icon": "handshake",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Para frenarlo, evalúa cada cualidad de forma separada.",
-          "text": "EVALUAR POR SEPARADO",
-          "icon": "list-checks",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Pregúntate si esa opinión se basa en hechos reales.",
-          "text": "BASARSE EN HECHOS",
-          "icon": "microscope",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Separar el envoltorio del contenido te hará más justo.",
-          "text": "SEPARAR ENVOLTORIO",
-          "icon": "scale",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "El efecto halo: una cualidad buena tapa todo lo demás. Si algo nos gusta en un aspecto, idealizamos el resto. Una persona guapa parece automáticamente más inteligente. Por fuera, crees que juzgas cada rasgo por separado. Por dentro, un solo rasgo contamina tu juicio entero. Señal clara: confías más en marcas con buen diseño. Da igual si el producto es realmente de calidad. Ocurre porque el cerebro busca coherencia y simplicidad. Es más fácil pensar en bloques que en detalles. Así evitamos el esfuerzo de evaluar cada cualidad. Imagina a un profesor carismático dando una charla. Su simpatía te hace creer que también sabe mucho. Aunque sus datos sean flojos, tú le crees igual. Este efecto también decide entrevistas y elecciones políticas. Un buen apretón de manos puede ganar un puesto. Para frenarlo, evalúa cada cualidad de forma separada. Pregúntate si esa opinión se basa en hechos reales. Separar el envoltorio del contenido te hará más justo.",
-      "videoQuery": "halo effect perception bias",
-      "photoQuery": "attractive person perceived competent"
-    },
-    {
-      "id": "v05",
-      "key": "item4",
-      "name": "HEURÍSTICA DE DISPONIBILIDAD",
-      "color": "#607d8b",
-      "main": "zap",
-      "def": "lo memorable parece más probable",
-      "beats": [
-        {
-          "say": "La heurística de disponibilidad: lo memorable parece más probable.",
-          "text": "DISPONIBILIDAD",
-          "icon": "zap",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Juzgamos la probabilidad según lo fácil que recordamos algo.",
-          "text": "JUZGAR POR RECUERDO",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Cuanto más vívido el recuerdo, más real lo sentimos.",
-          "text": "VÍVIDO, MÁS REAL",
-          "icon": "sparkles",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por fuera, crees que calculas riesgos con lógica pura.",
-          "text": "PARECE LÓGICO",
-          "icon": "gauge",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por dentro, tu memoria emocional decide por ti.",
-          "text": "MEMORIA EMOCIONAL DECIDE",
-          "icon": "heart",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Señal típica: temes volar más que conducir el coche.",
-          "text": "MIEDO A VOLAR",
-          "icon": "alert-triangle",
-          "media": "photo",
-          "query": "airplane flying sky fear"
-        },
-        {
-          "say": "Aunque el coche sea estadísticamente mucho más peligroso.",
-          "text": "COCHE MÁS PELIGROSO",
-          "icon": "trending-down",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ocurre porque las noticias repiten mucho los accidentes aéreos.",
-          "text": "NOTICIAS REPETIDAS",
-          "icon": "megaphone",
-          "media": "gif",
-          "query": "news broadcast breaking accident"
-        },
-        {
-          "say": "Esa repetición mediática se queda grabada en tu mente.",
-          "text": "GRABADA EN MENTE",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Los sucesos raros pero impactantes se vuelven más disponibles.",
-          "text": "RARO PERO IMPACTANTE",
-          "icon": "skull",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Los peligros comunes y silenciosos casi ni los notamos.",
-          "text": "PELIGRO SILENCIOSO IGNORADO",
-          "icon": "eye",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Imagina que ves varios tiburones en documentales seguidos.",
-          "text": "EJEMPLO: TIBURONES",
-          "icon": "alert-triangle",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "De pronto crees que el mar está lleno de peligro.",
-          "text": "MAR PELIGROSO",
-          "icon": "frown",
-          "media": "gif",
-          "query": "shark documentary ocean scary"
-        },
-        {
-          "say": "En realidad, ese ataque es extremadamente poco probable.",
-          "text": "POCO PROBABLE EN REALIDAD",
-          "icon": "circle-check",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Para corregirlo, busca datos estadísticos, no solo anécdotas.",
-          "text": "BUSCAR ESTADÍSTICAS",
-          "icon": "microscope",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Pregúntate si algo es común o solo muy sonado.",
-          "text": "COMÚN O SONADO",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Así tu cerebro dejará de confundir ruido con realidad.",
-          "text": "NO CONFUNDIR RUIDO",
-          "icon": "ear",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La probabilidad real rara vez hace mucho ruido.",
-          "text": "PROBABILIDAD SILENCIOSA",
-          "icon": "scale",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "La heurística de disponibilidad: lo memorable parece más probable. Juzgamos la probabilidad según lo fácil que recordamos algo. Cuanto más vívido el recuerdo, más real lo sentimos. Por fuera, crees que calculas riesgos con lógica pura. Por dentro, tu memoria emocional decide por ti. Señal típica: temes volar más que conducir el coche. Aunque el coche sea estadísticamente mucho más peligroso. Ocurre porque las noticias repiten mucho los accidentes aéreos. Esa repetición mediática se queda grabada en tu mente. Los sucesos raros pero impactantes se vuelven más disponibles. Los peligros comunes y silenciosos casi ni los notamos. Imagina que ves varios tiburones en documentales seguidos. De pronto crees que el mar está lleno de peligro. En realidad, ese ataque es extremadamente poco probable. Para corregirlo, busca datos estadísticos, no solo anécdotas. Pregúntate si algo es común o solo muy sonado. Así tu cerebro dejará de confundir ruido con realidad. La probabilidad real rara vez hace mucho ruido.",
-      "videoQuery": "availability heuristic media fear bias",
-      "photoQuery": "airplane fear flying versus car"
-    },
-    {
-      "id": "v06",
-      "key": "item5",
-      "name": "FALACIA DEL COSTE HUNDIDO",
-      "color": "#f06292",
-      "main": "coins",
-      "def": "seguir por lo ya invertido",
-      "beats": [
-        {
-          "say": "La falacia del coste hundido: seguir por lo ya invertido.",
-          "text": "COSTE HUNDIDO",
-          "icon": "coins",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Seguimos en algo solo porque ya gastamos tiempo o dinero.",
-          "text": "SEGUIR POR LO GASTADO",
-          "icon": "hourglass",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ese dinero o tiempo ya no se puede recuperar nunca.",
-          "text": "NO SE RECUPERA",
-          "icon": "banknote",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por fuera, parece que eres constante y perseverante.",
-          "text": "PARECE PERSEVERANCIA",
-          "icon": "footprints",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por dentro, solo evitas admitir que fue un error.",
-          "text": "EVITAR ADMITIR ERROR",
-          "icon": "shield-alert",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Señal clara: terminas una película mala solo por costumbre.",
-          "text": "TERMINAR PELÍCULA MALA",
-          "icon": "clock",
-          "media": "gif",
-          "query": "bored watching boring movie couch"
-        },
-        {
-          "say": "Ya pagaste la entrada, así que sigues aunque sufras.",
-          "text": "PAGASTE, SIGUES",
-          "icon": "frown",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ocurre porque odiamos sentir que perdimos algo para nada.",
-          "text": "ODIAR PERDER",
-          "icon": "heart-crack",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El dolor de la pérdida pesa más que la lógica.",
-          "text": "DOLOR MÁS QUE LÓGICA",
-          "icon": "scale",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Confundimos perseverar con simplemente no cortar por lo sano.",
-          "text": "CONFUNDIR PERSEVERAR",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Imagina una relación que ya no te hace feliz.",
-          "text": "EJEMPLO: RELACIÓN",
-          "icon": "heart-off",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Piensas: llevamos cinco años, no puedo dejarlo ahora.",
-          "text": "CINCO AÑOS JUNTOS",
-          "icon": "hourglass",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ese tiempo pasado no debería decidir tu futuro.",
-          "text": "PASADO NO DECIDE FUTURO",
-          "icon": "arrow-down",
-          "media": "gif",
-          "query": "sad person thinking relationship decision"
-        },
-        {
-          "say": "Lo mismo pasa con negocios, estudios o inversiones fallidas.",
-          "text": "NEGOCIOS Y ESTUDIOS",
-          "icon": "briefcase",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Para escapar, pregúntate solo por el futuro, no el pasado.",
-          "text": "MIRAR SOLO FUTURO",
-          "icon": "lightbulb",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Si empezaras hoy de cero, ¿elegirías seguir igual?",
-          "text": "EMPEZAR DE CERO",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Si la respuesta es no, ya tienes tu decisión clara.",
-          "text": "RESPUESTA CLARA",
-          "icon": "circle-check",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Cortar a tiempo también es una forma de ganar.",
-          "text": "CORTAR ES GANAR",
-          "icon": "trophy",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "La falacia del coste hundido: seguir por lo ya invertido. Seguimos en algo solo porque ya gastamos tiempo o dinero. Ese dinero o tiempo ya no se puede recuperar nunca. Por fuera, parece que eres constante y perseverante. Por dentro, solo evitas admitir que fue un error. Señal clara: terminas una película mala solo por costumbre. Ya pagaste la entrada, así que sigues aunque sufras. Ocurre porque odiamos sentir que perdimos algo para nada. El dolor de la pérdida pesa más que la lógica. Confundimos perseverar con simplemente no cortar por lo sano. Imagina una relación que ya no te hace feliz. Piensas: llevamos cinco años, no puedo dejarlo ahora. Ese tiempo pasado no debería decidir tu futuro. Lo mismo pasa con negocios, estudios o inversiones fallidas. Para escapar, pregúntate solo por el futuro, no el pasado. Si empezaras hoy de cero, ¿elegirías seguir igual? Si la respuesta es no, ya tienes tu decisión clara. Cortar a tiempo también es una forma de ganar.",
-      "videoQuery": "sunk cost fallacy investment decision",
-      "photoQuery": "sunk cost money waste concept"
-    },
-    {
-      "id": "v07",
-      "key": "item6",
-      "name": "SESGO DE NEGATIVIDAD",
-      "color": "#ffb300",
-      "main": "frown",
-      "def": "lo malo pesa más",
-      "beats": [
-        {
-          "say": "El sesgo de negatividad: lo malo pesa más que lo bueno.",
-          "text": "SESGO DE NEGATIVIDAD",
-          "icon": "frown",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Damos mucho más peso mental a lo negativo que ocurre.",
-          "text": "MÁS PESO A LO MALO",
-          "icon": "angry",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Una crítica duele más que diez elogios juntos alegran.",
-          "text": "CRÍTICA PESA MÁS",
-          "icon": "heart-crack",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por fuera, crees que valoras todo de forma equilibrada.",
-          "text": "PARECE EQUILIBRADO",
-          "icon": "scale",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por dentro, tu mente amplifica cada fallo o amenaza.",
-          "text": "AMPLIFICA LO MALO",
-          "icon": "alert-triangle",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Señal típica: recuerdas ese comentario feo durante días enteros.",
-          "text": "RECUERDAS LO FEO",
-          "icon": "brain",
-          "media": "gif",
-          "query": "person replaying bad comment mind"
-        },
-        {
-          "say": "Y olvidas rápido los diez cumplidos que recibiste después.",
-          "text": "OLVIDAS LOS CUMPLIDOS",
-          "icon": "smile",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ocurre porque nuestro cerebro evolucionó para detectar peligros.",
-          "text": "DETECTAR PELIGROS",
-          "icon": "shield-alert",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Sobrevivir exigía notar amenazas antes que disfrutar cosas buenas.",
-          "text": "SOBREVIVIR PRIMERO",
-          "icon": "dna",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Esa alarma antigua sigue activa aunque ya no haya depredadores.",
-          "text": "ALARMA ANTIGUA ACTIVA",
-          "icon": "skull",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Imagina leer diez reseñas buenas de un restaurante.",
-          "text": "EJEMPLO: RESEÑAS",
-          "icon": "message-circle",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Pero encuentras una sola reseña negativa muy detallada.",
-          "text": "UNA RESEÑA NEGATIVA",
-          "icon": "thumbs-down",
-          "media": "gif",
-          "query": "one star bad review restaurant screen"
-        },
-        {
-          "say": "Esa reseña sola te hace descartar el lugar entero.",
-          "text": "DESCARTAS EL LUGAR",
-          "icon": "ban",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Las buenas noticias las procesamos rápido y las olvidamos.",
-          "text": "OLVIDAMOS LO BUENO",
-          "icon": "arrow-down",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Para equilibrar, anota conscientemente tres cosas buenas al día.",
-          "text": "ANOTAR TRES COSAS BUENAS",
-          "icon": "list-checks",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Dale a lo positivo el mismo peso que a lo malo.",
-          "text": "MISMO PESO",
-          "icon": "scale",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Así entrenas tu mente para no vivir en alarma constante.",
-          "text": "ENTRENAR LA MENTE",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Notar lo bueno también requiere práctica, no solo suerte.",
-          "text": "REQUIERE PRÁCTICA",
-          "icon": "trophy",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "El sesgo de negatividad: lo malo pesa más que lo bueno. Damos mucho más peso mental a lo negativo que ocurre. Una crítica duele más que diez elogios juntos alegran. Por fuera, crees que valoras todo de forma equilibrada. Por dentro, tu mente amplifica cada fallo o amenaza. Señal típica: recuerdas ese comentario feo durante días enteros. Y olvidas rápido los diez cumplidos que recibiste después. Ocurre porque nuestro cerebro evolucionó para detectar peligros. Sobrevivir exigía notar amenazas antes que disfrutar cosas buenas. Esa alarma antigua sigue activa aunque ya no haya depredadores. Imagina leer diez reseñas buenas de un restaurante. Pero encuentras una sola reseña negativa muy detallada. Esa reseña sola te hace descartar el lugar entero. Las buenas noticias las procesamos rápido y las olvidamos. Para equilibrar, anota conscientemente tres cosas buenas al día. Dale a lo positivo el mismo peso que a lo malo. Así entrenas tu mente para no vivir en alarma constante. Notar lo bueno también requiere práctica, no solo suerte.",
-      "videoQuery": "negativity bias brain reaction",
-      "photoQuery": "bad review one star screen"
-    },
-    {
-      "id": "v08",
-      "key": "item7",
-      "name": "EFECTO DUNNING-KRUGER",
-      "color": "#ffd54f",
-      "main": "crown",
-      "def": "cuanto menos sabes, más crees saber",
-      "beats": [
-        {
-          "say": "El efecto Dunning-Kruger: cuanto menos sabes, más crees saber.",
-          "text": "DUNNING-KRUGER",
-          "icon": "crown",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Los principiantes suelen sobrestimar mucho su propia competencia.",
-          "text": "SOBRESTIMAR COMPETENCIA",
-          "icon": "graduation-cap",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Les falta justo el conocimiento para ver sus errores.",
-          "text": "FALTA CONOCIMIENTO",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por fuera, hablan con seguridad total sobre cualquier tema.",
-          "text": "HABLAN CON SEGURIDAD",
-          "icon": "megaphone",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por dentro, no tienen ni idea de lo que ignoran.",
-          "text": "NO SABEN QUÉ IGNORAN",
-          "icon": "ghost",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Señal clara: alguien que vio un vídeo ya se cree experto.",
-          "text": "VIO UN VÍDEO, YA EXPERTO",
-          "icon": "phone",
-          "media": "gif",
-          "query": "confident person explaining video watched once"
-        },
-        {
-          "say": "Con el tiempo y estudio real, la confianza suele bajar.",
-          "text": "CONFIANZA BAJA CON ESTUDIO",
-          "icon": "arrow-down",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Es la típica curva: subes rápido, luego caes, luego subes real.",
-          "text": "CURVA DE CONFIANZA",
-          "icon": "activity",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ocurre porque evaluar tu propia habilidad exige esa misma habilidad.",
-          "text": "EVALUAR EXIGE HABILIDAD",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Sin esa base, no puedes ver tus propios fallos.",
-          "text": "NO VES TUS FALLOS",
-          "icon": "eye",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Los verdaderos expertos, en cambio, dudan más de sí mismos.",
-          "text": "EXPERTOS DUDAN MÁS",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Conocen tantos matices que ven toda la complejidad real.",
-          "text": "VEN LA COMPLEJIDAD",
-          "icon": "puzzle",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Imagina a alguien que canta una vez en la ducha.",
-          "text": "EJEMPLO: CANTA EN DUCHA",
-          "icon": "laugh",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Y se presenta convencido a un casting de talentos.",
-          "text": "CASTING CONVENCIDO",
-          "icon": "circle-help",
-          "media": "gif",
-          "query": "confident bad singer talent show audition"
-        },
-        {
-          "say": "El jurado escucha algo muy distinto de lo que él cree.",
-          "text": "JURADO VE OTRA COSA",
-          "icon": "frown",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Para evitarlo, pide siempre opiniones externas y honestas.",
-          "text": "PEDIR OPINIONES EXTERNAS",
-          "icon": "users",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Cuanto más aprendes, más preguntas nuevas te surgen.",
-          "text": "MÁS PREGUNTAS SURGEN",
-          "icon": "lightbulb",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La verdadera sabiduría empieza aceptando lo mucho que ignoras.",
-          "text": "ACEPTAR LO QUE IGNORAS",
-          "icon": "circle-check",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "El efecto Dunning-Kruger: cuanto menos sabes, más crees saber. Los principiantes suelen sobrestimar mucho su propia competencia. Les falta justo el conocimiento para ver sus errores. Por fuera, hablan con seguridad total sobre cualquier tema. Por dentro, no tienen ni idea de lo que ignoran. Señal clara: alguien que vio un vídeo ya se cree experto. Con el tiempo y estudio real, la confianza suele bajar. Es la típica curva: subes rápido, luego caes, luego subes real. Ocurre porque evaluar tu propia habilidad exige esa misma habilidad. Sin esa base, no puedes ver tus propios fallos. Los verdaderos expertos, en cambio, dudan más de sí mismos. Conocen tantos matices que ven toda la complejidad real. Imagina a alguien que canta una vez en la ducha. Y se presenta convencido a un casting de talentos. El jurado escucha algo muy distinto de lo que él cree. Para evitarlo, pide siempre opiniones externas y honestas. Cuanto más aprendes, más preguntas nuevas te surgen. La verdadera sabiduría empieza aceptando lo mucho que ignoras.",
-      "videoQuery": "dunning kruger confidence curve",
-      "photoQuery": "confident overconfident person talking"
-    },
-    {
-      "id": "v09",
-      "key": "item8",
-      "name": "SESGO RETROSPECTIVO",
-      "color": "#4db6ac",
-      "main": "clock",
-      "def": "lo veía venir, dices después",
-      "beats": [
-        {
-          "say": "El sesgo retrospectivo: crees que ya lo sabías todo antes.",
-          "text": "SESGO RETROSPECTIVO",
-          "icon": "clock",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Después de un evento, sentimos que era totalmente predecible.",
-          "text": "PARECÍA PREDECIBLE",
-          "icon": "eye",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Reescribimos nuestro recuerdo para que encaje con el resultado.",
-          "text": "REESCRIBIR EL RECUERDO",
-          "icon": "brain",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por fuera, pareces intuitivo y con gran capacidad de análisis.",
-          "text": "PARECES INTUITIVO",
-          "icon": "lightbulb",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por dentro, tu memoria simplemente te está engañando.",
-          "text": "MEMORIA TE ENGAÑA",
-          "icon": "ghost",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Señal típica: dices lo sabía después de cada resultado deportivo.",
-          "text": "YO LO SABÍA",
-          "icon": "trophy",
-          "media": "gif",
-          "query": "sports fan shouting I knew it"
-        },
-        {
-          "say": "Antes del partido, tú también tenías muchas dudas reales.",
-          "text": "ANTES TENÍAS DUDAS",
-          "icon": "circle-help",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ocurre porque el cerebro busca coherencia entre pasado y presente.",
-          "text": "BUSCA COHERENCIA",
-          "icon": "puzzle",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Es incómodo aceptar que el futuro era realmente incierto.",
-          "text": "INCIERTO ES INCÓMODO",
-          "icon": "alert-triangle",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Así que inventamos una historia donde todo tenía sentido.",
-          "text": "INVENTAR SENTIDO",
-          "icon": "drama",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Imagina una decisión de inversión que salió mal después.",
-          "text": "EJEMPLO: INVERSIÓN MALA",
-          "icon": "trending-down",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ahora dices: era obvio que esa empresa iba a caer.",
-          "text": "ERA OBVIO, DICES",
-          "icon": "megaphone",
-          "media": "gif",
-          "query": "stock market crash chart falling"
-        },
-        {
-          "say": "Pero en su momento, invertiste con total confianza real.",
-          "text": "INVERTISTE CON CONFIANZA",
-          "icon": "coins",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Este sesgo hace que juzguemos muy duro a otros después.",
-          "text": "JUZGAMOS DURO DESPUÉS",
-          "icon": "angry",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Los médicos y jueces también caen en esta trampa.",
-          "text": "MÉDICOS Y JUECES",
-          "icon": "briefcase",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Para evitarlo, anota tus predicciones antes de que pasen.",
-          "text": "ANOTAR PREDICCIONES ANTES",
-          "icon": "list-checks",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Así podrás comparar lo que pensabas con lo que dijiste.",
-          "text": "COMPARAR DESPUÉS",
-          "icon": "scale",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "La honestidad con el pasado te hace más sabio hoy.",
-          "text": "HONESTIDAD CON EL PASADO",
-          "icon": "circle-check",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "El sesgo retrospectivo: crees que ya lo sabías todo antes. Después de un evento, sentimos que era totalmente predecible. Reescribimos nuestro recuerdo para que encaje con el resultado. Por fuera, pareces intuitivo y con gran capacidad de análisis. Por dentro, tu memoria simplemente te está engañando. Señal típica: dices lo sabía después de cada resultado deportivo. Antes del partido, tú también tenías muchas dudas reales. Ocurre porque el cerebro busca coherencia entre pasado y presente. Es incómodo aceptar que el futuro era realmente incierto. Así que inventamos una historia donde todo tenía sentido. Imagina una decisión de inversión que salió mal después. Ahora dices: era obvio que esa empresa iba a caer. Pero en su momento, invertiste con total confianza real. Este sesgo hace que juzguemos muy duro a otros después. Los médicos y jueces también caen en esta trampa. Para evitarlo, anota tus predicciones antes de que pasen. Así podrás comparar lo que pensabas con lo que dijiste. La honestidad con el pasado te hace más sabio hoy.",
-      "videoQuery": "hindsight bias memory rewrite",
-      "photoQuery": "person confident hindsight I knew it"
-    },
-    {
-      "id": "v10",
-      "key": "item9",
-      "name": "EFECTO DE STATU QUO",
-      "color": "#7986cb",
-      "main": "door-closed",
-      "def": "preferimos que nada cambie",
-      "beats": [
-        {
-          "say": "El efecto de statu quo: preferimos que nada cambie nunca.",
-          "text": "STATU QUO",
-          "icon": "door-closed",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Elegimos mantener las cosas como están, aunque haya opciones mejores.",
-          "text": "MANTENER COMO ESTÁ",
-          "icon": "ban",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El cambio se siente como un riesgo enorme e innecesario.",
-          "text": "CAMBIO PARECE RIESGO",
-          "icon": "alert-triangle",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por fuera, dices que estás cómodo con tu situación actual.",
-          "text": "DICES ESTAR CÓMODO",
-          "icon": "smile",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por dentro, en realidad, es puro miedo a lo desconocido.",
-          "text": "MIEDO A LO DESCONOCIDO",
-          "icon": "ghost",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Señal clara: sigues en el mismo banco de toda la vida.",
-          "text": "MISMO BANCO SIEMPRE",
-          "icon": "banknote",
-          "media": "photo",
-          "query": "old bank building loyal customer"
-        },
-        {
-          "say": "Aunque otro banco te ofrezca condiciones mucho mejores hoy.",
-          "text": "OTRAS CONDICIONES MEJORES",
-          "icon": "coins",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Ocurre porque perder algo pesa más que ganar algo nuevo.",
-          "text": "PERDER PESA MÁS",
-          "icon": "scale",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Cambiar exige esfuerzo, papeleo y salir de tu rutina.",
-          "text": "EXIGE ESFUERZO",
-          "icon": "gauge",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "El cerebro prefiere ese camino conocido y sin sorpresas.",
-          "text": "CAMINO CONOCIDO",
-          "icon": "footprints",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Imagina que sigues en un trabajo que ya no te gusta.",
-          "text": "EJEMPLO: TRABAJO ACTUAL",
-          "icon": "briefcase",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Sabes que hay ofertas mejores, pero te da pereza moverte.",
-          "text": "PEREZA DE MOVERTE",
-          "icon": "bed",
-          "media": "gif",
-          "query": "person staying comfortable avoiding change job"
-        },
-        {
-          "say": "El miedo a lo nuevo te mantiene en lo malo conocido.",
-          "text": "MIEDO TE MANTIENE",
-          "icon": "shield-alert",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Las empresas usan esto poniendo opciones por defecto marcadas.",
-          "text": "OPCIONES POR DEFECTO",
-          "icon": "list-checks",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Tú simplemente aceptas lo que ya viene preseleccionado siempre.",
-          "text": "ACEPTAS LO MARCADO",
-          "icon": "circle-check",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Para romperlo, imagina que empiezas hoy sin ese hábito.",
-          "text": "IMAGINAR EMPEZAR HOY",
-          "icon": "sparkles",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Si no lo elegirías ahora, quizá deberías cambiarlo ya.",
-          "text": "QUIZÁ DEBERÍAS CAMBIAR",
-          "icon": "lightbulb",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "A veces el mayor riesgo es no arriesgarse nunca.",
-          "text": "EL RIESGO DE NO ARRIESGAR",
-          "icon": "trending-up",
-          "media": "none",
-          "query": ""
-        }
-      ],
-      "narration": "El efecto de statu quo: preferimos que nada cambie nunca. Elegimos mantener las cosas como están, aunque haya opciones mejores. El cambio se siente como un riesgo enorme e innecesario. Por fuera, dices que estás cómodo con tu situación actual. Por dentro, en realidad, es puro miedo a lo desconocido. Señal clara: sigues en el mismo banco de toda la vida. Aunque otro banco te ofrezca condiciones mucho mejores hoy. Ocurre porque perder algo pesa más que ganar algo nuevo. Cambiar exige esfuerzo, papeleo y salir de tu rutina. El cerebro prefiere ese camino conocido y sin sorpresas. Imagina que sigues en un trabajo que ya no te gusta. Sabes que hay ofertas mejores, pero te da pereza moverte. El miedo a lo nuevo te mantiene en lo malo conocido. Las empresas usan esto poniendo opciones por defecto marcadas. Tú simplemente aceptas lo que ya viene preseleccionado siempre. Para romperlo, imagina que empiezas hoy sin ese hábito. Si no lo elegirías ahora, quizá deberías cambiarlo ya. A veces el mayor riesgo es no arriesgarse nunca.",
-      "videoQuery": "status quo bias comfort zone",
-      "photoQuery": "old bank building loyal customer"
-    },
-    {
-      "id": "v11",
-      "key": "item10",
-      "name": "SESGO DE AUTOSERVICIO",
-      "color": "#4dd0e1",
-      "main": "crown",
-      "def": "éxitos mío, fallos ajenos",
-      "beats": [
-        {
-          "say": "El sesgo de autoservicio: los éxitos son míos, los fallos de otros.",
-          "text": "SESGO DE AUTOSERVICIO",
-          "icon": "crown",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Nos atribuimos el mérito y culpamos al entorno de los fallos.",
-          "text": "MÉRITO PROPIO, CULPA EXTERNA",
-          "icon": "scale",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Aprobar un examen es por tu esfuerzo y tu talento.",
-          "text": "APROBAR ES MÉRITO PROPIO",
-          "icon": "graduation-cap",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Suspender un examen es culpa del profesor injusto.",
-          "text": "SUSPENDER, CULPA AJENA",
-          "icon": "angry",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por fuera, pareces alguien seguro y con buena autoestima.",
-          "text": "PARECE AUTOESTIMA SANA",
-          "icon": "smile",
-          "media": "none",
-          "query": ""
-        },
-        {
-          "say": "Por dentro, estás protegiendo tu ego de cualquier golpe.",
-          "text": "PROTEGER EL EGO",
+          "say": "Implementó un chip de autenticificación para evitar juegos piratas.",
+          "text": "CONTROL DE CALIDAD",
           "icon": "shield",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Señal típica: en el trabajo, tus logros son tu talento puro.",
-          "text": "LOGROS SON MI TALENTO",
+          "say": "Super Mario Bros definió el género de plataformas para siempre.",
+          "text": "SUPER MARIO BROS",
+          "icon": "sparkles",
+          "media": "photo",
+          "query": "super mario bros nes gameplay"
+        },
+        {
+          "say": "Sagas como Zelda o Metroid nacieron en este sistema.",
+          "text": "NACIMIENTO DE SAGAS",
+          "icon": "star",
+          "media": "clip",
+          "query": "legend of zelda nes gameplay"
+        },
+        {
+          "say": "Nintendomania conquistó los colegios de todo el planeta entero.",
+          "text": "FENÓMENO GLOBAL",
+          "icon": "users",
+          "media": "gif",
+          "query": "happy kid opening nintendo nes"
+        },
+        {
+          "say": "Las pistolas zapper permitían disparar a la pantalla directamente.",
+          "text": "PISTOLA ZAPPER",
+          "icon": "zap",
+          "media": "photo",
+          "query": "nes zapper gun duck hunt"
+        },
+        {
+          "say": "Soplar los cartuchos se convirtió en un ritual popular.",
+          "text": "SOPLAR CARTUCHOS",
+          "icon": "ghost",
+          "media": "gif",
+          "query": "blowing into nes cartridge"
+        },
+        {
+          "say": "Dominó el mercado mundial durante casi una década entera.",
+          "text": "DOMINIO ABSOLUTO",
           "icon": "trophy",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Tus errores en el trabajo son culpa de mala suerte.",
-          "text": "ERRORES, MALA SUERTE",
-          "icon": "frown",
-          "media": "gif",
-          "query": "person blaming bad luck excuse office"
+          "say": "Estableció el modelo de negocio con licencias de terceros.",
+          "text": "MODELO COMERCIAL",
+          "icon": "handshake",
+          "media": "none",
+          "query": ""
         },
         {
-          "say": "Ocurre porque proteger la autoestima es prioridad del cerebro.",
-          "text": "PROTEGER AUTOESTIMA",
+          "say": "Demostró que la creatividad técnica podía superar los límites.",
+          "text": "CREATIVIDAD TÉCNICA",
           "icon": "brain",
+          "media": "photo",
+          "query": "nes motherboard hardware"
+        },
+        {
+          "say": "Vendió más de sesenta millones de unidades en todo el mundo.",
+          "text": "60 MILLONES VENDIDOS",
+          "icon": "banknote",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Aceptar el fallo propio duele y amenaza tu imagen.",
-          "text": "DUELE ACEPTAR EL FALLO",
-          "icon": "heart-crack",
+          "say": "Devolvió la confianza al consumidor sobre los videojuegos caseros.",
+          "text": "CONFIANZA RECUPERADA",
+          "icon": "thumbs-up",
+          "media": "photo",
+          "query": "80s family playing video games"
+        },
+        {
+          "say": "El pilar fundamental sobre el que descansa Nintendo hoy.",
+          "text": "PILAR HISTÓRICO",
+          "icon": "anchor",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "La NES resucitó la industria tras el gran colapso. Nació en Japón con el nombre original de Famicom. Llegó a Occidente con un diseño parecido a un vídeo VCR. Introdujo el cruceta D-Pad que cambió el control gráfico. Implementó un chip de autenticificación para evitar juegos piratas. Super Mario Bros definió el género de plataformas para siempre. Sagas como Zelda o Metroid nacieron en este sistema. Nintendomania conquistó los colegios de todo el planeta entero. Las pistolas zapper permitían disparar a la pantalla directamente. Soplar los cartuchos se convirtió en un ritual popular. Dominó el mercado mundial durante casi una década entera. Estableció el modelo de negocio con licencias de terceros. Demostró que la creatividad técnica podía superar los límites. Vendió más de sesenta millones de unidades en todo el mundo. Devolvió la confianza al consumidor sobre los videojuegos caseros. El pilar fundamental sobre el que descansa Nintendo hoy.",
+      "videoQuery": "playing nes 8 bit gaming",
+      "photoQuery": "nintendo entertainment system classic"
+    },
+    {
+      "id": "v04",
+      "key": "item3",
+      "name": "SEGA MEGA DRIVE",
+      "color": "#ba68c8",
+      "main": "flame",
+      "def": "Actitud de los 90",
+      "beats": [
+        {
+          "say": "Mega Drive trajo la potencia de dieciséis bits reales.",
+          "text": "SEGA MEGA DRIVE",
+          "icon": "flame",
+          "media": "photo",
+          "query": "sega mega drive genesis console"
+        },
+        {
+          "say": "Desafió directamente el monopolio que poseía Nintendo entonces.",
+          "text": "GUERRA DE CONSOLAS",
+          "icon": "scale",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Así que buscamos excusas externas casi de forma automática.",
-          "text": "EXCUSAS EXTERNAS AUTOMÁTICAS",
+          "say": "Su campaña publicitaria destacaba la velocidad y actitud rebelde.",
+          "text": "ACTITUD Y VELOCIDAD",
+          "icon": "megaphone",
+          "media": "clip",
+          "query": "90s sega commercial blast processing"
+        },
+        {
+          "say": "Sonic the Hedgehog nació para competir contra el fontanero Mario.",
+          "text": "NACE SONIC",
+          "icon": "zap",
+          "media": "photo",
+          "query": "sonic the hedgehog sega genesis"
+        },
+        {
+          "say": "El procesador Motorola permitía animaciones con una rapidez endiablada.",
+          "text": "POTENCIA GRÁFICA",
+          "icon": "gauge",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Atrajo a un público mucho más adolescente y adulto.",
+          "text": "PÚBLICO JUVENIL",
+          "icon": "user",
+          "media": "photo",
+          "query": "teenagers playing 90s video game"
+        },
+        {
+          "say": "Juegos deportivos con licencias reales triunfaron en Estados Unidos.",
+          "text": "DEPORTES Y LICENCIAS",
+          "icon": "award",
+          "media": "clip",
+          "query": "sega genesis sports game"
+        },
+        {
+          "say": "Mortal Kombat causó controversia por incluir sangre en pantalla.",
+          "text": "POLÉMICA Y SANGRE",
+          "icon": "skull",
+          "media": "gif",
+          "query": "mortal kombat arcade game"
+        },
+        {
+          "say": "La rivalidad comercial generó la famosa guerra de consolas.",
+          "text": "BATALLA PUBLICITARIA",
+          "icon": "swords",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Sega acuñó el término Blast Processing como estrategia publicitaria.",
+          "text": "MARKETING AGRESIVO",
+          "icon": "sparkles",
+          "media": "photo",
+          "query": "sega genesis logo banner"
+        },
+        {
+          "say": "Periféricos como Sega CD intentaron ampliar su vida útil.",
+          "text": "ACCESORIOS CD",
+          "icon": "disc",
+          "media": "photo",
+          "query": "sega cd genesis attachment"
+        },
+        {
+          "say": "El exceso de accesorios confundió a muchos de sus compradores.",
+          "text": "CONFUSIÓN DE PERIFÉRICOS",
           "icon": "circle-help",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Imagina un partido de fútbol que tu equipo pierde.",
-          "text": "EJEMPLO: PARTIDO PERDIDO",
-          "icon": "users",
+          "say": "Pese a los errores dominó en mercados como Europa.",
+          "text": "ÉXITO EN EUROPA",
+          "icon": "globe",
+          "media": "photo",
+          "query": "90s retro European living room gaming"
+        },
+        {
+          "say": "Marcó la estética noventera con música sintética de calidad.",
+          "text": "SONIDO FM ÚNICO",
+          "icon": "volume-x",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Dices que el árbitro robó, no que jugaron mal.",
-          "text": "EL ÁRBITRO ROBÓ",
-          "icon": "angry",
-          "media": "gif",
-          "query": "angry fan blaming referee soccer match"
+          "say": "Demostró que Nintendo no era totalmente invencible en ventas.",
+          "text": "COMPETENCIA REAL",
+          "icon": "trending-up",
+          "media": "photo",
+          "query": "sega genesis console setup"
         },
         {
-          "say": "Si ganan, en cambio, celebras el talento del equipo entero.",
-          "text": "SI GANA, ES TALENTO",
-          "icon": "trophy",
+          "say": "Un icono cultural inolvidable de los años noventa.",
+          "text": "ICONO NOVENTERO",
+          "icon": "crown",
           "media": "none",
           "query": ""
+        }
+      ],
+      "narration": "Mega Drive trajo la potencia de dieciséis bits reales. Desafió directamente el monopolio que poseía Nintendo entonces. Su campaña publicitaria destacaba la velocidad y actitud rebelde. Sonic the Hedgehog nació para competir contra el fontanero Mario. El procesador Motorola permitía animaciones con una rapidez endiablada. Atrajo a un público mucho más adolescente y adulto. Juegos deportivos con licencias reales triunfaron en Estados Unidos. Mortal Kombat causó controversia por incluir sangre en pantalla. La rivalidad comercial generó la famosa guerra de consolas. Sega acuñó el término Blast Processing como estrategia publicitaria. Periféricos como Sega CD intentaron ampliar su vida útil. El exceso de accesorios confundió a muchos de sus compradores. Pese a los errores dominó en mercados como Europa. Marcó la estética noventera con música sintética de calidad. Demostró que Nintendo no era totalmente invencible en ventas. Un icono cultural inolvidable de los años noventa.",
+      "videoQuery": "sega genesis gameplay classic",
+      "photoQuery": "sega genesis mega drive 16 bit"
+    },
+    {
+      "id": "v05",
+      "key": "item4",
+      "name": "SONY PLAYSTATION",
+      "color": "#607d8b",
+      "main": "sparkles",
+      "def": "Revolución del CD-ROM",
+      "beats": [
+        {
+          "say": "PlayStation nació de un acuerdo roto con la empresa Nintendo.",
+          "text": "SONY PLAYSTATION",
+          "icon": "sparkles",
+          "media": "photo",
+          "query": "original sony playstation console ps1"
         },
         {
-          "say": "Este sesgo afecta relaciones, trabajo y hasta la política.",
-          "text": "AFECTA MUCHAS ÁREAS",
+          "say": "Sony decidió lanzar su propia consola al mercado solitariamente.",
+          "text": "VENGANZA DE SONY",
           "icon": "briefcase",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Para equilibrarlo, revisa tu parte de responsabilidad siempre.",
-          "text": "REVISAR TU PARTE",
-          "icon": "list-checks",
+          "say": "Apostó todo por el formato CD de gran capacidad.",
+          "text": "FORMATO CD-ROM",
+          "icon": "disc",
+          "media": "photo",
+          "query": "playstation 1 cd game disc"
+        },
+        {
+          "say": "Facilitó el desarrollo de gráficos tridimensionales a los creadores.",
+          "text": "GRÁFICOS 3D",
+          "icon": "atom",
+          "media": "clip",
+          "query": "ps1 3d gameplay polygon graphics"
+        },
+        {
+          "say": "El mando DualAnalog introdujo dos sticks analógicos revolucionarios.",
+          "text": "MANDO DUALSHOCK",
+          "icon": "target",
+          "media": "photo",
+          "query": "dualshock ps1 controller"
+        },
+        {
+          "say": "Juegos como Final Fantasy VII maravillaron por sus cinemáticas.",
+          "text": "CINEMÁTICAS DE CINE",
+          "icon": "drama",
+          "media": "photo",
+          "query": "final fantasy vii ps1 gameplay"
+        },
+        {
+          "say": "Atrajo a un público adulto mediante campañas de marketing.",
+          "text": "GAMING ADULTO",
+          "icon": "users",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Pregúntate qué harías distinto la próxima vez, en serio.",
-          "text": "QUÉ HARÍAS DISTINTO",
+          "say": "Música electrónica y anuncios vanguardistas cambiaron la imagen pública.",
+          "text": "ESTILO DE VIDA",
+          "icon": "sun",
+          "media": "clip",
+          "query": "90s playstation commercial ad"
+        },
+        {
+          "say": "Metal Gear Solid redefinió la narrativa visual interactiva para siempre.",
+          "text": "METAL GEAR SOLID",
+          "icon": "eye",
+          "media": "photo",
+          "query": "metal gear solid ps1 gameplay"
+        },
+        {
+          "say": "La tarjeta de memoria permitía guardar partidas de forma limpia.",
+          "text": "MEMORY CARD",
+          "icon": "lock",
+          "media": "photo",
+          "query": "playstation memory card"
+        },
+        {
+          "say": "Superó los cien millones de consolas vendidas en el mundo.",
+          "text": "100 MILLONES",
+          "icon": "banknote",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Arrebató el liderazgo del mercado a las compañías tradicionales.",
+          "text": "NUEVO REY DEL SECTOR",
+          "icon": "crown",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Los costes de fabricación en CD eran reducidos enormemente.",
+          "text": "COSTES MÁS BAJOS",
+          "icon": "coins",
+          "media": "photo",
+          "query": "compact disc manufacturing line"
+        },
+        {
+          "say": "Permitió que estudios independientes crearan experiencias únicas e innovadoras.",
+          "text": "APOYO A DESARROLLADORES",
+          "icon": "handshake",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Cambió la percepción de los videojuegos en la sociedad moderna.",
+          "text": "IMPACTO CULTURAL",
+          "icon": "lightbulb",
+          "media": "gif",
+          "query": "90s gamer playing playstation"
+        },
+        {
+          "say": "La consola que convirtió el juego en un arte de masas.",
+          "text": "ARTE DE MASAS",
+          "icon": "trophy",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "PlayStation nació de un acuerdo roto con la empresa Nintendo. Sony decidió lanzar su propia consola al mercado solitariamente. Apostó todo por el formato CD de gran capacidad. Facilitó el desarrollo de gráficos tridimensionales a los creadores. El mando DualAnalog introdujo dos sticks analógicos revolucionarios. Juegos como Final Fantasy VII maravillaron por sus cinemáticas. Atrajo a un público adulto mediante campañas de marketing. Música electrónica y anuncios vanguardistas cambiaron la imagen pública. Metal Gear Solid redefinió la narrativa visual interactiva para siempre. La tarjeta de memoria permitía guardar partidas de forma limpia. Superó los cien millones de consolas vendidas en el mundo. Arrebató el liderazgo del mercado a las compañías tradicionales. Los costes de fabricación en CD eran reducidos enormemente. Permitió que estudios independientes crearan experiencias únicas e innovadoras. Cambió la percepción de los videojuegos en la sociedad moderna. La consola que convirtió el juego en un arte de masas.",
+      "videoQuery": "playstation 1 startup screen games",
+      "photoQuery": "sony playstation 1 classic console"
+    },
+    {
+      "id": "v06",
+      "key": "item5",
+      "name": "NINTENDO 64",
+      "color": "#f06292",
+      "main": "atom",
+      "def": "Pionera del mundo 3D",
+      "beats": [
+        {
+          "say": "Nintendo 64 llevó la jugabilidad tridimensional a otro nivel.",
+          "text": "NINTENDO 64",
+          "icon": "atom",
+          "media": "photo",
+          "query": "nintendo 64 console with controller"
+        },
+        {
+          "say": "Su procesador de sesenta y cuatro bits era verdaderamente potente.",
+          "text": "POTENCIA BRUTA",
+          "icon": "zap",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Mantuvo el uso de cartuchos por velocidad de lectura.",
+          "text": "USO DE CARTUCHOS",
+          "icon": "hourglass",
+          "media": "photo",
+          "query": "nintendo 64 game cartridge"
+        },
+        {
+          "say": "El mando introdujo un stick analógico perfecto para entornos 3D.",
+          "text": "STICK ANALÓGICO",
+          "icon": "target",
+          "media": "clip",
+          "query": "nintendo 64 controller thumbstick"
+        },
+        {
+          "say": "Super Mario 64 enseñó a la industria cómo mover la cámara.",
+          "text": "SUPER MARIO 64",
+          "icon": "star",
+          "media": "photo",
+          "query": "super mario 64 gameplay camera"
+        },
+        {
+          "say": "Ocarina of Time es considerado uno de los mejores juegos.",
+          "text": "OCARINA OF TIME",
+          "icon": "crown",
+          "media": "photo",
+          "query": "legend of zelda ocarina of time n64"
+        },
+        {
+          "say": "Los cuatro puertos de mando integrados fomentaron el juego local.",
+          "text": "MULTIJUGADOR LOCAL",
+          "icon": "users",
+          "media": "gif",
+          "query": "four friends playing nintendo 64"
+        },
+        {
+          "say": "GoldenEye cero cero siete revolucionó los disparos en consola.",
+          "text": "GOLDENEYE 007",
+          "icon": "crosshair",
+          "media": "clip",
+          "query": "goldeneye 007 n64 gameplay"
+        },
+        {
+          "say": "La falta de espacio en cartucho alejó a muchas empresas.",
+          "text": "ESPACIO LIMITADO",
+          "icon": "alert-triangle",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El alto coste de los cartuchos perjudicó su catálogo general.",
+          "text": "CARTUCHOS COSTOSOS",
+          "icon": "coins",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El Rumble Pak introdujo vibración en las manos por primera vez.",
+          "text": "VIBRACIÓN RUMBLE",
+          "icon": "activity",
+          "media": "photo",
+          "query": "nintendo 64 rumble pak accessory"
+        },
+        {
+          "say": "Los mundos virtuales ganaron libertad y amplitud espacial sin precedentes.",
+          "text": "LIBERTAD ESPACIAL",
+          "icon": "globe",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Crea recuerdos imborrables de partidas multijugador en el salón.",
+          "text": "NOSTALGIA MULTIJUGADOR",
+          "icon": "heart",
+          "media": "photo",
+          "query": "kids playing n64 split screen"
+        },
+        {
+          "say": "A pesar de vender menos dejó obras maestras imborrables.",
+          "text": "OBRAS MAESTRAS",
+          "icon": "trophy",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Sentó las normas básicas de la navegación en mundos tridimensionales.",
+          "text": "NORMAS TRIDIMENSIONALES",
+          "icon": "compass",
+          "media": "photo",
+          "query": "nintendo 64 graphic engine"
+        },
+        {
+          "say": "Una máquina visionaria que definió la perspectiva moderna.",
+          "text": "MÁQUINA VISIONARIA",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "Nintendo 64 llevó la jugabilidad tridimensional a otro nivel. Su procesador de sesenta y cuatro bits era verdaderamente potente. Mantuvo el uso de cartuchos por velocidad de lectura. El mando introdujo un stick analógico perfecto para entornos 3D. Super Mario 64 enseñó a la industria cómo mover la cámara. Ocarina of Time es considerado uno de los mejores juegos. Los cuatro puertos de mando integrados fomentaron el juego local. GoldenEye cero cero siete revolucionó los disparos en consola. La falta de espacio en cartucho alejó a muchas empresas. El alto coste de los cartuchos perjudicó su catálogo general. El Rumble Pak introdujo vibración en las manos por primera vez. Los mundos virtuales ganaron libertad y amplitud espacial sin precedentes. Crea recuerdos imborrables de partidas multijugador en el salón. A pesar de vender menos dejó obras maestras imborrables. Sentó las normas básicas de la navegación en mundos tridimensionales. Una máquina visionaria que definió la perspectiva moderna.",
+      "videoQuery": "playing nintendo 64 mario 64",
+      "photoQuery": "nintendo 64 console grey"
+    },
+    {
+      "id": "v07",
+      "key": "item6",
+      "name": "PLAYSTATION 2",
+      "color": "#ffb300",
+      "main": "trophy",
+      "def": "La consola más vendida",
+      "beats": [
+        {
+          "say": "PlayStation 2 es la consola más vendida de la historia.",
+          "text": "PLAYSTATION 2",
+          "icon": "trophy",
+          "media": "photo",
+          "query": "playstation 2 console slim and fat"
+        },
+        {
+          "say": "Lanzada en el año dos mil dominó durante más de una década.",
+          "text": "DOMINIO TOTAL",
+          "icon": "clock",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Incluía reproductor de DVD, un argumento de compra clave.",
+          "text": "LECTOR DVD INTEGRADO",
+          "icon": "disc",
+          "media": "photo",
+          "query": "playstation 2 dvd movie playback"
+        },
+        {
+          "say": "Muchos la compraron como el reproductor DVD más barato.",
+          "text": "CINE EN CASA",
+          "icon": "film",
+          "media": "gif",
+          "query": "watching dvd movie home theater"
+        },
+        {
+          "say": "Su chip Emotion Engine ofrecía gráficos impresionantes para la época.",
+          "text": "EMOTION ENGINE",
+          "icon": "cpu",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Grand Theft Auto San Andreas marcó un hito en mundo abierto.",
+          "text": "GTA SAN ANDREAS",
+          "icon": "map",
+          "media": "photo",
+          "query": "gta san ideas ps2 gameplay"
+        },
+        {
+          "say": "Su catálogo gigante superó los cuatro mil juegos publicados.",
+          "text": "CATÁLOGO GIGANTESCO",
+          "icon": "list-checks",
+          "media": "photo",
+          "query": "playstation 2 game collection shelves"
+        },
+        {
+          "say": "La retrocompatibilidad con PS1 aseguró su éxito inmediato.",
+          "text": "RETROCOMPATIBILIDAD",
+          "icon": "circle-check",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Juegos como God of War mostraron su enorme potencia técnica.",
+          "text": "GOD OF WAR",
+          "icon": "flame",
+          "media": "clip",
+          "query": "god of war ps2 gameplay action"
+        },
+        {
+          "say": "El conector de red permitió los primeros pinitos online.",
+          "text": "INICIOS DEL ONLINE",
+          "icon": "globe",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Vendió más de ciento cincuenta y cinco millones de unidades.",
+          "text": "155+ MILLONES",
+          "icon": "banknote",
+          "media": "photo",
+          "query": "playstation 2 stack boxes"
+        },
+        {
+          "say": "Estuvo en producción durante más de doce años seguidos.",
+          "text": "VIDA LONGEVA",
+          "icon": "hourglass",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Los juegos de karaoke SingStar ampliaron el público familiar.",
+          "text": "JUEGOS EN FAMILIA",
+          "icon": "users",
+          "media": "clip",
+          "query": "singstar ps2 party playing"
+        },
+        {
+          "say": "Definió la época dorada de la industria de videojuegos.",
+          "text": "ÉPOCA DORADA",
+          "icon": "crown",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Prácticamente sin rival que pudiera frenar su avance comercial.",
+          "text": "SIN RIVAL DIRECTO",
+          "icon": "shield",
+          "media": "photo",
+          "query": "ps2 console controller blue background"
+        },
+        {
+          "say": "El estándar definitivo de lo que debe ser una consola.",
+          "text": "ESTÁNDAR DEFINITIVO",
+          "icon": "star",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "PlayStation 2 es la consola más vendida de la historia. Lanzada en el año dos mil dominó durante más de una década. Incluía reproductor de DVD, un argumento de compra clave. Muchos la compraron como el reproductor DVD más barato. Su chip Emotion Engine ofrecía gráficos impresionantes para la época. Grand Theft Auto San Andreas marcó un hito en mundo abierto. Su catálogo gigante superó los cuatro mil juegos publicados. La retrocompatibilidad con PS1 aseguró su éxito inmediato. Juegos como God of War mostraron su enorme potencia técnica. El conector de red permitió los primeros pinitos online. Vendió más de ciento cincuenta y cinco millones de unidades. Estuvo en producción durante más de doce años seguidos. Los juegos de karaoke SingStar ampliaron el público familiar. Definió la época dorada de la industria de videojuegos. Prácticamente sin rival que pudiera frenar su avance comercial. El estándar definitivo de lo que debe ser una consola.",
+      "videoQuery": "playstation 2 boot up screen",
+      "photoQuery": "playstation 2 original fat console"
+    },
+    {
+      "id": "v08",
+      "key": "item7",
+      "name": "MICROSOFT XBOX",
+      "color": "#ffd54f",
+      "main": "shield",
+      "def": "Potencia y juego online",
+      "beats": [
+        {
+          "say": "Microsoft entró en la industria con una bestia de potencia.",
+          "text": "MICROSOFT XBOX",
+          "icon": "shield",
+          "media": "photo",
+          "query": "original xbox console microsoft"
+        },
+        {
+          "say": "Su arquitectura interna estaba basada en piezas de PC.",
+          "text": "ARQUITECTURA DE PC",
+          "icon": "cpu",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Incluía un disco duro interno, eliminando las tarjetas de memoria.",
+          "text": "DISCO DURO INTERNO",
+          "icon": "database",
+          "media": "photo",
+          "query": "xbox internal hard drive"
+        },
+        {
+          "say": "Halo Combat Evolved convirtió la consola en un éxito masivo.",
+          "text": "HALO COMBAT EVOLVED",
+          "icon": "crosshair",
+          "media": "photo",
+          "query": "halo combat evolved xbox gameplay"
+        },
+        {
+          "say": "Master Chief se convirtió en el icono de la marca.",
+          "text": "EL JEFE MAESTRO",
+          "icon": "user",
+          "media": "clip",
+          "query": "master chief halo video game"
+        },
+        {
+          "say": "Xbox Live sentó las bases modernas del juego multijugador online.",
+          "text": "XBOX LIVE",
+          "icon": "globe",
+          "media": "photo",
+          "query": "xbox live starter kit original"
+        },
+        {
+          "say": "El mando Duque era gigante y dividió las opiniones iniciales.",
+          "text": "EL MANDO DUQUE",
+          "icon": "hand",
+          "media": "photo",
+          "query": "original xbox duke controller"
+        },
+        {
+          "say": "Lanzaron una versión Controller S más cómoda para las manos.",
+          "text": "CONTROLLER S",
+          "icon": "thumbs-up",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Gráficos con sombreadores avanzados superaban a la competencia directa.",
+          "text": "POTENCIA GRÁFICA SUPERIOR",
+          "icon": "sparkles",
+          "media": "clip",
+          "query": "xbox 2001 graphics gameplay"
+        },
+        {
+          "say": "Permitió la creación de la infraestructura online en consolas.",
+          "text": "INFRAESTRUCTURA RED",
+          "icon": "zap",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Perdió dinero por consola pero ganó un lugar firme.",
+          "text": "APOSTA DE FUTURO",
+          "icon": "trending-up",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Demostró que una empresa americana podía competir en consolas.",
+          "text": "DESAFÍO AMERICANO",
+          "icon": "briefcase",
+          "media": "photo",
+          "query": "microsoft headquarters redmond"
+        },
+        {
+          "say": "La saga Forza Motorsport nació para competir con Gran Turismo.",
+          "text": "FORZA MOTORSPORT",
+          "icon": "gauge",
+          "media": "photo",
+          "query": "forza motorsport original xbox"
+        },
+        {
+          "say": "Inspiró el desarrollo de la exitosa consola Xbox tres sesenta.",
+          "text": "SEMILLA DE FUTURO",
           "icon": "lightbulb",
           "media": "none",
           "query": ""
         },
         {
-          "say": "Aceptar tus fallos también te hace crecer de verdad.",
-          "text": "ACEPTAR FALLOS, CRECER",
-          "icon": "circle-check",
+          "say": "Cambió la comunicación mediante chat de voz en videojuegos.",
+          "text": "CHAT DE VOZ",
+          "icon": "message-circle",
+          "media": "gif",
+          "query": "gamer talking on headset"
+        },
+        {
+          "say": "El nacimiento de un pilar de la industria moderna.",
+          "text": "PILAR MODERNO",
+          "icon": "anchor",
           "media": "none",
           "query": ""
         }
       ],
-      "narration": "El sesgo de autoservicio: los éxitos son míos, los fallos de otros. Nos atribuimos el mérito y culpamos al entorno de los fallos. Aprobar un examen es por tu esfuerzo y tu talento. Suspender un examen es culpa del profesor injusto. Por fuera, pareces alguien seguro y con buena autoestima. Por dentro, estás protegiendo tu ego de cualquier golpe. Señal típica: en el trabajo, tus logros son tu talento puro. Tus errores en el trabajo son culpa de mala suerte. Ocurre porque proteger la autoestima es prioridad del cerebro. Aceptar el fallo propio duele y amenaza tu imagen. Así que buscamos excusas externas casi de forma automática. Imagina un partido de fútbol que tu equipo pierde. Dices que el árbitro robó, no que jugaron mal. Si ganan, en cambio, celebras el talento del equipo entero. Este sesgo afecta relaciones, trabajo y hasta la política. Para equilibrarlo, revisa tu parte de responsabilidad siempre. Pregúntate qué harías distinto la próxima vez, en serio. Aceptar tus fallos también te hace crecer de verdad.",
-      "videoQuery": "self serving bias blame success",
-      "photoQuery": "angry fan blaming referee soccer"
+      "narration": "Microsoft entró en la industria con una bestia de potencia. Su arquitectura interna estaba basada en piezas de PC. Incluía un disco duro interno, eliminando las tarjetas de memoria. Halo Combat Evolved convirtió la consola en un éxito masivo. Master Chief se convirtió en el icono de la marca. Xbox Live sentó las bases modernas del juego multijugador online. El mando Duque era gigante y dividió las opiniones iniciales. Lanzaron una versión Controller S más cómoda para las manos. Gráficos con sombreadores avanzados superaban a la competencia directa. Permitió la creación de la infraestructura online en consolas. Perdió dinero por consola pero ganó un lugar firme. Demostró que una empresa americana podía competir en consolas. La saga Forza Motorsport nació para competir con Gran Turismo. Inspiró el desarrollo de la exitosa consola Xbox tres sesenta. Cambió la comunicación mediante chat de voz en videojuegos. El nacimiento de un pilar de la industria moderna.",
+      "videoQuery": "original xbox console gameplay halo",
+      "photoQuery": "original xbox console green logo"
+    },
+    {
+      "id": "v09",
+      "key": "item8",
+      "name": "NINTENDO WII",
+      "color": "#4db6ac",
+      "main": "users",
+      "def": "Revolución del movimiento",
+      "beats": [
+        {
+          "say": "Nintendo Wii cambió el paradigma apostando por el control por movimiento.",
+          "text": "NINTENDO WII",
+          "icon": "users",
+          "media": "photo",
+          "query": "nintendo wii console remote"
+        },
+        {
+          "say": "Rompió con la carrera de potencia gráfica contra sus rivales.",
+          "text": "OCÉANO AZUL",
+          "icon": "scale",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El Wiimote imitaba a un mando de televisión común.",
+          "text": "EL MANDO WIIMOTE",
+          "icon": "target",
+          "media": "photo",
+          "query": "wii remote motion controller"
+        },
+        {
+          "say": "Wii Sports venía incluido e hizo jugar a abuelos y niños.",
+          "text": "WII SPORTS",
+          "icon": "smile",
+          "media": "clip",
+          "query": "wii sports bowling gameplay"
+        },
+        {
+          "say": "Las familias enteras se reunían a jugar en el salón.",
+          "text": "FENÓMENO CASUAL",
+          "icon": "heart",
+          "media": "photo",
+          "query": "family playing wii sports together"
+        },
+        {
+          "say": "Crear tu propio personaje Mii introdujo un toque personal.",
+          "text": "PERSONAJES MII",
+          "icon": "scan-face",
+          "media": "photo",
+          "query": "nintendo wii mii channel"
+        },
+        {
+          "say": "Superó los cien millones de unidades vendidas muy rápidamente.",
+          "text": "100+ MILLONES",
+          "icon": "banknote",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Correas rotas causaron televisores rotos en casas de todo el mundo.",
+          "text": "CORREAS Y ACCIDENTES",
+          "icon": "alert-triangle",
+          "media": "gif",
+          "query": "wii remote TV accident meme"
+        },
+        {
+          "say": "Juegos como Mario Kart Wii vendieron decenas de millones.",
+          "text": "MARIO KART WII",
+          "icon": "sparkles",
+          "media": "photo",
+          "query": "mario kart wii gameplay"
+        },
+        {
+          "say": "El accesorio Wii Fit popularizó el ejercicio físico casero.",
+          "text": "WII BALANCE BOARD",
+          "icon": "activity",
+          "media": "clip",
+          "query": "wii fit balance board gameplay"
+        },
+        {
+          "say": "Abrió la industria a millones de personas que jamás jugaban.",
+          "text": "NUEVOS JUGADORES",
+          "icon": "globe",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Demostró que la diversión importa más que los gráficos.",
+          "text": "JUGABILIDAD PRIMERO",
+          "icon": "lightbulb",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Inspiró periféricos de movimiento en PlayStation y también Xbox.",
+          "text": "TENDENCIA IMITADA",
+          "icon": "footprints",
+          "media": "photo",
+          "query": "playstation move xbox kinect"
+        },
+        {
+          "say": "Un éxito comercial masivo que sorprendió a todos los analistas.",
+          "text": "ÉXITO INESPERADO",
+          "icon": "trophy",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Redefinió la accesibilidad en la interacción con aparatos electrónicos.",
+          "text": "ACCESIBILIDAD TOTAL",
+          "icon": "handshake",
+          "media": "photo",
+          "query": "elderly people playing wii"
+        },
+        {
+          "say": "La consola que unió a todas las generaciones en el juego.",
+          "text": "UNIÓN GENERACIONAL",
+          "icon": "star",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "Nintendo Wii cambió el paradigma apostando por el control por movimiento. Rompió con la carrera de potencia gráfica contra sus rivales. El Wiimote imitaba a un mando de televisión común. Wii Sports venía incluido e hizo jugar a abuelos y niños. Las familias enteras se reunían a jugar en el salón. Crear tu propio personaje Mii introdujo un toque personal. Superó los cien millones de unidades vendidas muy rápidamente. Correas rotas causaron televisores rotos en casas de todo el mundo. Juegos como Mario Kart Wii vendieron decenas de millones. El accesorio Wii Fit popularizó el ejercicio físico casero. Abrió la industria a millones de personas que jamás jugaban. Demostró que la diversión importa más que los gráficos. Inspiró periféricos de movimiento en PlayStation y también Xbox. Un éxito comercial masivo que sorprendió a todos los analistas. Redefinió la accesibilidad en la interacción con aparatos electrónicos. La consola que unió a todas las generaciones en el juego.",
+      "videoQuery": "playing wii sports tennis gameplay",
+      "photoQuery": "nintendo wii remote sensor bar"
+    },
+    {
+      "id": "v10",
+      "key": "item9",
+      "name": "NINTENDO SWITCH",
+      "color": "#7986cb",
+      "main": "globe",
+      "def": "La consola híbrida",
+      "beats": [
+        {
+          "say": "Nintendo Switch unificó el mercado sobremesas con el mercado portátil.",
+          "text": "NINTENDO SWITCH",
+          "icon": "globe",
+          "media": "photo",
+          "query": "nintendo switch console red blue joycon"
+        },
+        {
+          "say": "Permite jugar en el televisor o llevarla contigo fuera.",
+          "text": "CONCEPTO HÍBRIDO",
+          "icon": "zap",
+          "media": "clip",
+          "query": "nintendo switch undocking gameplay"
+        },
+        {
+          "say": "Los mandos Joy-Con se desacoplan para compartir la partida fácil.",
+          "text": "MANDOS JOY-CON",
+          "icon": "hand",
+          "media": "photo",
+          "query": "nintendo switch joy con detached"
+        },
+        {
+          "say": "Breath of the Wild revolucionó el diseño de mundos abiertos.",
+          "text": "ZELDA BREATH OF THE WILD",
+          "icon": "star",
+          "media": "photo",
+          "query": "zelda breath of the wild switch gameplay"
+        },
+        {
+          "say": "El chip Nvidia Tegra ofreció gran rendimiento portátil compacto.",
+          "text": "PROCESADOR NVIDIA",
+          "icon": "cpu",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Animal Crossing New Horizons triunfó durante el confinamiento mundial.",
+          "text": "ANIMAL CROSSING",
+          "icon": "heart",
+          "media": "photo",
+          "query": "animal crossing new horizons switch"
+        },
+        {
+          "say": "Ha vendido más de ciento cuarenta millones de unidades.",
+          "text": "140+ MILLONES",
+          "icon": "banknote",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "El problema del drift en los joysticks generó quejas.",
+          "text": "JOY-CON DRIFT",
+          "icon": "bug",
+          "media": "gif",
+          "query": "gaming controller drift problem"
+        },
+        {
+          "say": "Su catálogo de juegos independientes es de los más nutridos.",
+          "text": "CATÁLOGO INDIE",
+          "icon": "list-checks",
+          "media": "photo",
+          "query": "indie games eShop nintendo switch"
+        },
+        {
+          "say": "Modelos como Lite y OLED ampliaron las opciones de compra.",
+          "text": "MODELOS OLED Y LITE",
+          "icon": "eye",
+          "media": "photo",
+          "query": "nintendo switch oled model white"
+        },
+        {
+          "say": "Permitió jugar títulos exigentes en la palma de tu mano.",
+          "text": "POTENCIA PORTÁTIL",
+          "icon": "sun",
+          "media": "clip",
+          "query": "person playing nintendo switch outdoors"
+        },
+        {
+          "say": "Demostró la valía de la flexibilidad en el consumo moderno.",
+          "text": "FLEXIBILIDAD TOTAL",
+          "icon": "thumbs-up",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Super Mario Odyssey llevó las plataformas tridimensionales a su cima.",
+          "text": "SUPER MARIO ODYSSEY",
+          "icon": "crown",
+          "media": "photo",
+          "query": "super mario odyssey switch gameplay"
+        },
+        {
+          "say": "Salvó a Nintendo tras el tropiezo de la consola Wii U.",
+          "text": "GRAN RESCATE",
+          "icon": "shield",
+          "media": "none",
+          "query": ""
+        },
+        {
+          "say": "Sigue siendo un éxito de ventas tras muchos años activa.",
+          "text": "ÉXITO DURADERO",
+          "icon": "trending-up",
+          "media": "photo",
+          "query": "nintendo switch console dock tv"
+        },
+        {
+          "say": "La culminación del aprendizaje de Nintendo en el videojuego.",
+          "text": "CULMINACIÓN MÁGICA",
+          "icon": "trophy",
+          "media": "none",
+          "query": ""
+        }
+      ],
+      "narration": "Nintendo Switch unificó el mercado sobremesas con el mercado portátil. Permite jugar en el televisor o llevarla contigo fuera. Los mandos Joy-Con se desacoplan para compartir la partida fácil. Breath of the Wild revolucionó el diseño de mundos abiertos. El chip Nvidia Tegra ofreció gran rendimiento portátil compacto. Animal Crossing New Horizons triunfó durante el confinamiento mundial. Ha vendido más de ciento cuarenta millones de unidades. El problema del drift en los joysticks generó quejas. Su catálogo de juegos independientes es de los más nutridos. Modelos como Lite y OLED ampliaron las opciones de compra. Permitió jugar títulos exigentes en la palma de tu mano. Demostró la valía de la flexibilidad en el consumo moderno. Super Mario Odyssey llevó las plataformas tridimensionales a su cima. Salvó a Nintendo tras el tropiezo de la consola Wii U. Sigue siendo un éxito de ventas tras muchos años activa. La culminación del aprendizaje de Nintendo en el videojuego.",
+      "videoQuery": "nintendo switch playing games portable",
+      "photoQuery": "nintendo switch neon console setup"
     }
   ]
 }

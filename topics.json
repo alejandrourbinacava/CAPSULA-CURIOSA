@@ -1,21 +1,85 @@
 {
-  "nextIndex": 0,
+  "nextIndex": 1,
   "topics": [
-    { "title": "Cada Videoconsola de la Historia Explicada", "brief": "Consolas que marcaron época: Atari, NES, Mega Drive, PlayStation, Nintendo 64, PS2, Xbox, Wii, PS4, Switch. Qué las hizo especiales y su guerra por el mercado.", "n": 9 },
-    { "title": "Cada Planeta del Sistema Solar Explicado", "brief": "Mercurio, Venus, Tierra, Marte, Júpiter, Saturno, Urano, Neptuno (y Plutón). Qué los hace únicos, curiosidades y si podríamos vivir allí.", "n": 9 },
-    { "title": "Cada Imperio que Dominó el Mundo", "brief": "Grandes imperios de la historia: egipcio, romano, mongol, otomano, británico, etc. Cómo crecieron, cómo cayeron y qué dejaron.", "n": 8 },
-    { "title": "Cada Animal Más Letal del Planeta", "brief": "Los animales que más muertes causan: mosquito, serpientes, medusa, cocodrilo, hipopótamo, etc. Por qué son tan peligrosos y cómo evitarlos.", "n": 8 },
-    { "title": "Cada Tipo de Procesador Explicado", "brief": "CPUs a lo largo del tiempo y por gama: Intel vs AMD, núcleos, GHz, Ryzen, Core i, ARM. Para qué sirve cada uno sin tecnicismos.", "n": 8 },
-    { "title": "Cada Desastre Natural Explicado", "brief": "Terremotos, tsunamis, huracanes, volcanes, tornados, inundaciones. Cómo se forman, por qué son tan destructivos y cómo sobrevivir.", "n": 8 },
-    { "title": "Todo Sobre los Agujeros Negros", "brief": "Qué es un agujero negro, cómo se forma, el horizonte de sucesos, la espaguetización, agujeros supermasivos y qué pasaría si caes en uno.", "n": 7 },
-    { "title": "Cada Civilización Perdida de la Historia", "brief": "Civilizaciones desaparecidas: mayas, Rapa Nui, valle del Indo, Cahokia, minoicos, etc. Qué lograron y por qué desaparecieron.", "n": 8 },
-    { "title": "Cada Red Social Explicada", "brief": "Cómo funcionan y cómo te enganchan: Facebook, Instagram, TikTok, X/Twitter, YouTube, Snapchat. El negocio detrás de tu atención.", "n": 7 },
-    { "title": "Cada Órgano de tu Cuerpo Explicado", "brief": "Corazón, cerebro, hígado, pulmones, riñones, intestinos, piel. Qué hace cada uno, curiosidades y qué pasa si falla.", "n": 8 },
-    { "title": "Cada Guerra que Cambió el Mundo", "brief": "Conflictos que redibujaron el planeta: Guerras Mundiales, Guerra Fría, Vietnam, etc. Causas, consecuencias y lecciones.", "n": 7 },
-    { "title": "Cada Tipo de Dinosaurio Explicado", "brief": "T-Rex, Velociraptor, Triceratops, Braquiosaurio, Espinosaurio, etc. Cómo vivían, cómo cazaban y por qué se extinguieron.", "n": 8 },
-    { "title": "Cada Estafa Común Explicada", "brief": "Timos clásicos y digitales: phishing, esquema Ponzi, estafa del CEO, criptotimos, romance scam. Cómo funcionan y cómo protegerte.", "n": 8 },
-    { "title": "Cada Maravilla del Mundo Explicada", "brief": "Maravillas antiguas y modernas: pirámides, Gran Muralla, Machu Picchu, Coliseo, Petra, Taj Mahal. Cómo se construyeron y sus secretos.", "n": 8 },
-    { "title": "Todo lo que Pasó en el Big Bang", "brief": "El origen del universo paso a paso: el instante cero, la inflación, las primeras partículas, las estrellas y galaxias. Divulgativo.", "n": 7 },
-    { "title": "Cada Récord Humano Imposible", "brief": "Récords que parecen imposibles: aguantar la respiración, correr, memoria, resistencia al frío, etc. Cómo lo logran y sus límites.", "n": 8 }
+    {
+      "title": "Cada Videoconsola de la Historia Explicada",
+      "brief": "Consolas que marcaron época: Atari, NES, Mega Drive, PlayStation, Nintendo 64, PS2, Xbox, Wii, PS4, Switch. Qué las hizo especiales y su guerra por el mercado.",
+      "n": 9
+    },
+    {
+      "title": "Cada Planeta del Sistema Solar Explicado",
+      "brief": "Mercurio, Venus, Tierra, Marte, Júpiter, Saturno, Urano, Neptuno (y Plutón). Qué los hace únicos, curiosidades y si podríamos vivir allí.",
+      "n": 9
+    },
+    {
+      "title": "Cada Imperio que Dominó el Mundo",
+      "brief": "Grandes imperios de la historia: egipcio, romano, mongol, otomano, británico, etc. Cómo crecieron, cómo cayeron y qué dejaron.",
+      "n": 8
+    },
+    {
+      "title": "Cada Animal Más Letal del Planeta",
+      "brief": "Los animales que más muertes causan: mosquito, serpientes, medusa, cocodrilo, hipopótamo, etc. Por qué son tan peligrosos y cómo evitarlos.",
+      "n": 8
+    },
+    {
+      "title": "Cada Tipo de Procesador Explicado",
+      "brief": "CPUs a lo largo del tiempo y por gama: Intel vs AMD, núcleos, GHz, Ryzen, Core i, ARM. Para qué sirve cada uno sin tecnicismos.",
+      "n": 8
+    },
+    {
+      "title": "Cada Desastre Natural Explicado",
+      "brief": "Terremotos, tsunamis, huracanes, volcanes, tornados, inundaciones. Cómo se forman, por qué son tan destructivos y cómo sobrevivir.",
+      "n": 8
+    },
+    {
+      "title": "Todo Sobre los Agujeros Negros",
+      "brief": "Qué es un agujero negro, cómo se forma, el horizonte de sucesos, la espaguetización, agujeros supermasivos y qué pasaría si caes en uno.",
+      "n": 7
+    },
+    {
+      "title": "Cada Civilización Perdida de la Historia",
+      "brief": "Civilizaciones desaparecidas: mayas, Rapa Nui, valle del Indo, Cahokia, minoicos, etc. Qué lograron y por qué desaparecieron.",
+      "n": 8
+    },
+    {
+      "title": "Cada Red Social Explicada",
+      "brief": "Cómo funcionan y cómo te enganchan: Facebook, Instagram, TikTok, X/Twitter, YouTube, Snapchat. El negocio detrás de tu atención.",
+      "n": 7
+    },
+    {
+      "title": "Cada Órgano de tu Cuerpo Explicado",
+      "brief": "Corazón, cerebro, hígado, pulmones, riñones, intestinos, piel. Qué hace cada uno, curiosidades y qué pasa si falla.",
+      "n": 8
+    },
+    {
+      "title": "Cada Guerra que Cambió el Mundo",
+      "brief": "Conflictos que redibujaron el planeta: Guerras Mundiales, Guerra Fría, Vietnam, etc. Causas, consecuencias y lecciones.",
+      "n": 7
+    },
+    {
+      "title": "Cada Tipo de Dinosaurio Explicado",
+      "brief": "T-Rex, Velociraptor, Triceratops, Braquiosaurio, Espinosaurio, etc. Cómo vivían, cómo cazaban y por qué se extinguieron.",
+      "n": 8
+    },
+    {
+      "title": "Cada Estafa Común Explicada",
+      "brief": "Timos clásicos y digitales: phishing, esquema Ponzi, estafa del CEO, criptotimos, romance scam. Cómo funcionan y cómo protegerte.",
+      "n": 8
+    },
+    {
+      "title": "Cada Maravilla del Mundo Explicada",
+      "brief": "Maravillas antiguas y modernas: pirámides, Gran Muralla, Machu Picchu, Coliseo, Petra, Taj Mahal. Cómo se construyeron y sus secretos.",
+      "n": 8
+    },
+    {
+      "title": "Todo lo que Pasó en el Big Bang",
+      "brief": "El origen del universo paso a paso: el instante cero, la inflación, las primeras partículas, las estrellas y galaxias. Divulgativo.",
+      "n": 7
+    },
+    {
+      "title": "Cada Récord Humano Imposible",
+      "brief": "Récords que parecen imposibles: aguantar la respiración, correr, memoria, resistencia al frío, etc. Cómo lo logran y sus límites.",
+      "n": 8
+    }
   ]
 }
