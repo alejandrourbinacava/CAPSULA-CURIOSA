@@ -34,7 +34,7 @@ const schema = {
             type: "ARRAY",
             items: {
               type: "OBJECT",
-              properties: { say: { type: "STRING" }, text: { type: "STRING" }, icon: { type: "STRING" }, media: { type: "STRING" }, query: { type: "STRING" }, bullets: { type: "ARRAY", items: { type: "STRING" } } },
+              properties: { say: { type: "STRING" }, text: { type: "STRING" }, icon: { type: "STRING" }, media: { type: "STRING" }, query: { type: "STRING" }, brand: { type: "STRING" }, bullets: { type: "ARRAY", items: { type: "STRING" } } },
               required: ["say", "text", "icon", "media"]
             }
           }
@@ -62,6 +62,7 @@ REGLAS ESTRICTAS:
   - "icon": el icono MÁS representativo de ESE beat concreto, SOLO de esta lista (varía el icono en cada beat): ${ICONS}
   - "media": "photo", "clip", "gif" o "none". MEZCLA a partes iguales (estilo Explainer Chris, que combina iconos y fotos): en la MITAD de los beats pon "none" (se mostrará un ICONO SVG grande de la lista, para conceptos, acciones, ideas abstractas) y en la otra MITAD pon imagen real ("photo"/"clip", para cosas concretas: objetos, lugares, personas, ejemplos) o meme ("gif") en 2-3 momentos con gracia. Alterna icono/imagen para que el lienzo tenga de los dos.
   - "query": si media != "none", término EN INGLÉS concreto y realista para ese clip/foto/gif de ESE momento. Si media = "none", cadena vacía.
+  - "brand" (OPCIONAL): si el beat menciona una MARCA o empresa conocida (AMD, Intel, NVIDIA, Sony, PlayStation, Xbox, Nintendo, Apple, Samsung, Google, etc.), pon aquí su slug en minúsculas sin espacios (p.ej. "amd", "playstation", "nvidia"); se mostrará su LOGO vectorial. Si no hay marca, omítelo o cadena vacía.
   - "bullets" (OPCIONAL): en 3-4 beats clave (specs, cifras, características), incluye un array de 2-3 datos MUY cortos (3-6 palabras cada uno), estilo lista de Chris (p.ej. ["8 núcleos","5 GHz","Sin gráfica integrada"]). En esos beats pon media="none". En el resto NO pongas bullets (array vacío u omítelo).
 - El PRIMER beat presenta la sección: su "text" es el nombre corto del elemento.
 - "name": nombre corto del elemento en MAYÚSCULAS (p.ej. "EL NARCISISTA"). "mainIcon": icono principal (de la lista). "def": definición en 3-5 palabras (para la miniatura).

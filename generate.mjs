@@ -74,8 +74,13 @@ for (const it of cfg.items) {
     const b = it.beats[i];
     const f = Math.round((cum / totW) * itFrames); cum += wc(b.say);
     let file = null, kind = null;
+    // marca conocida -> logo VECTORIAL (SimpleIcons); tiene prioridad sobre foto
+    if (b.brand) {
+      const slug = String(b.brand).toLowerCase().replace(/[^a-z0-9]/g, "");
+      try { const r = await fetch(`https://cdn.simpleicons.org/${slug}`); const t = await r.text(); if (r.ok && t.includes("<svg")) { const f = `${it.key}_b${i}_logo.svg`; fs.writeFileSync(path.join(MEDIA, f), t); file = "media/" + f; kind = "logo"; } } catch {}
+    }
     // SOLO baja imagen si Claude pidió media en este beat; si es "none", queda como ICONO SVG grande (mezcla icono/imagen estilo Chris)
-    if (b.media && b.media !== "none" && b.query) {
+    if (!file && b.media && b.media !== "none" && b.query) {
       const base = `${it.key}_b${i}`;
       try {
         if (b.media === "gif") { const u = await giphyGif(b.query); if (u) { await dl(u, path.join(MEDIA, base + ".gif")); file = "media/" + base + ".gif"; kind = "gif"; } }

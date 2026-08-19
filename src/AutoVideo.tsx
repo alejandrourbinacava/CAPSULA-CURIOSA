@@ -89,13 +89,14 @@ type Entry = { ref?: string | null; beats: Beat[] };
 const BEATS = beatsData as Record<string, Entry | Beat[]>;
 
 // imagen/clip/gif real GRANDE (protagonista, estilo Explainer Chris)
-const BigMedia: React.FC<{ file: string; kind: string | null; from: number; accent: string; w: number; h: number }> = ({ file, kind, from, accent, w, h }) => (
-  <div style={{ width: w, borderRadius: 22, overflow: "hidden", border: `8px solid ${accent}`, boxShadow: "0 26px 64px rgba(0,0,0,.28)", background: "#fff", lineHeight: 0 }}>
+const BigMedia: React.FC<{ file: string; kind: string | null; from: number; accent: string; w: number; h: number }> = ({ file, kind, from, accent, w, h }) => {
+  if (kind === "logo") return <div style={{ width: w, height: h + 40, display: "flex", alignItems: "center", justifyContent: "center", padding: 30 }}><Img src={staticFile(file)} style={{ maxWidth: "100%", maxHeight: h, objectFit: "contain" }} /></div>;
+  return <div style={{ width: w, borderRadius: 22, overflow: "hidden", border: `8px solid ${accent}`, boxShadow: "0 26px 64px rgba(0,0,0,.28)", background: "#fff", lineHeight: 0 }}>
     {kind === "gif" ? <Gif src={staticFile(file)} width={w} height={h} fit="cover" />
       : kind === "img" ? <Img src={staticFile(file)} style={{ width: "100%", height: h, objectFit: "cover", display: "block" }} />
         : <Sequence from={from} layout="none"><OffthreadVideo src={staticFile(file)} muted style={{ width: "100%", height: h, objectFit: "cover", display: "block" }} /></Sequence>}
-  </div>
-);
+  </div>;
+};
 
 const ItemScene: React.FC<{ d: Item; n: number }> = ({ d, n }) => {
   const frame = useCurrentFrame();
@@ -108,20 +109,28 @@ const ItemScene: React.FC<{ d: Item; n: number }> = ({ d, n }) => {
   const isTitle = bi === 0;
   const label = b.text || d.name;
 
-  // contenido de un elemento del lienzo (imagen grande / lista de datos / icono+texto)
-  const Slot: React.FC<{ bb: Beat }> = ({ bb }) => {
+  // palabra a mano (estilo pizarra) con color de acento alterno
+  const hword = (t: string, big: number, small: number, col: string) => <div style={{ fontFamily: HAND, fontSize: t.length > 16 ? small : big, fontWeight: "bold", color: col, textAlign: "center", maxWidth: 740, lineHeight: 1.05 }}>{t}</div>;
+  // un elemento del lienzo: imagen real / lista de datos / MUÑEQUITO+palabra / icono+palabra
+  const Slot: React.FC<{ bb: Beat; idx: number }> = ({ bb, idx }) => {
     if (bb.file) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
       <div style={{ position: "relative" }}><BigMedia file={bb.file} kind={bb.kind} from={bb.f} accent={d.color} w={720} h={332} />
         <div style={{ position: "absolute", top: -24, left: -24 }}><Chip n={bb.icon} c={d.color} size={92} /></div></div>
-      <T s={bb.text.length > 26 ? 32 : 42} heavy w={760}>{bb.text}</T>
+      {hword(bb.text, 46, 34, "#141414")}
     </div>;
     if (bb.bullets && bb.bullets.length) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 12 }}>
-      <div style={{ display: "flex", alignItems: "center", gap: 16 }}><div style={{ transform: bob(frame) }}><Chip n={bb.icon} c={d.color} size={100} /></div><T s={42} heavy w={520}>{bb.text}</T></div>
+      <div style={{ display: "flex", alignItems: "center", gap: 16 }}><div style={{ transform: bob(frame) }}><Chip n={bb.icon} c={d.color} size={100} /></div>{hword(bb.text, 46, 40, "#141414")}</div>
       {bb.bullets.map((bl, k) => <div key={k} style={{ fontFamily: HAND, fontSize: 38, display: "flex", gap: 10, alignItems: "flex-start" }}><span style={{ color: d.color, fontWeight: 900 }}>▸</span><span style={{ maxWidth: 640 }}>{bl}</span></div>)}
+    </div>;
+    const col = idx % 3 === 0 ? d.color : "#141414";
+    // mascota de Cápsula Curiosa como personaje recurrente (con el icono del beat al lado) o icono grande
+    if (idx % 3 === 1) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
+      <div style={{ transform: `${bob(frame, 3)} scaleX(${idx % 2 ? -1 : 1})` }}><Img src={staticFile("mascota.png")} style={{ width: 260, height: 260, objectFit: "contain" }} /></div>
+      {hword(bb.text, 64, 46, col)}
     </div>;
     return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
       <div style={{ transform: bob(frame) }}><Chip n={bb.icon} c={d.color} size={190} /></div>
-      <T s={bb.text.length > 22 ? 36 : 50} heavy w={720}>{bb.text}</T>
+      {hword(bb.text, 66, 48, col)}
     </div>;
   };
 
@@ -136,7 +145,7 @@ const ItemScene: React.FC<{ d: Item; n: number }> = ({ d, n }) => {
     </AbsoluteFill>;
   } else {
     // LIENZO que se llena: agrupa los beats en paneles de 4 slots; van apareciendo uno a uno y SE QUEDAN
-    const POS = [{ x: 560, y: 470 }, { x: 1360, y: 470 }, { x: 560, y: 830 }, { x: 1360, y: 830 }];
+    const POS = [{ x: 545, y: 425 }, { x: 1375, y: 425 }, { x: 545, y: 855 }, { x: 1375, y: 855 }];
     const idx = bi - 1, panel = Math.floor(idx / 4), startK = panel * 4 + 1;
     const slots: number[] = []; for (let k = startK; k <= bi; k++) slots.push(k);
     main = <AbsoluteFill>
@@ -144,7 +153,7 @@ const ItemScene: React.FC<{ d: Item; n: number }> = ({ d, n }) => {
         const bb = bts[k], si = k - startK, pos = POS[si] || POS[3];
         const p = clamp((frame - bb.f) / 9), s = p < 0.6 ? 0.4 + 0.8 * (p / 0.6) : 1.16 - 0.16 * ((p - 0.6) / 0.4);
         const fx = (si % 2 === 0 ? -1 : 1) * 90 * (1 - p);
-        return <div key={k} style={{ position: "absolute", left: pos.x, top: pos.y, opacity: Math.min(1, p * 1.7), transform: `translate(-50%,-50%) translate(${fx}px,${(1 - p) * -45}px) scale(${Math.max(0, s)})` }}><Slot bb={bb} /></div>;
+        return <div key={k} style={{ position: "absolute", left: pos.x, top: pos.y, opacity: Math.min(1, p * 1.7), transform: `translate(-50%,-50%) translate(${fx}px,${(1 - p) * -45}px) scale(${Math.max(0, s)})` }}><Slot bb={bb} idx={k} /></div>;
       })}
     </AbsoluteFill>;
   }
