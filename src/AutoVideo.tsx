@@ -132,10 +132,12 @@ const ItemScene: React.FC<{ d: Item; n: number }> = ({ d, n }) => {
       {bb.bullets.map((bl, k) => <div key={k} style={{ fontFamily: HAND, fontSize: 38, display: "flex", gap: 10, alignItems: "flex-start" }}><span style={{ color: d.color, fontWeight: 900 }}>▸</span><span style={{ maxWidth: 640 }}>{bl}</span></div>)}
     </div>;
     const col = idx % 3 === 0 ? d.color : "#141414";
-    // mascota SOLO de vez en cuando (1 de cada 6), para no abusar
-    if (idx % 6 === 3) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
-      <div style={{ transform: `${bob(frame, 3)} scaleX(${idx % 2 ? -1 : 1})` }}><Img src={staticFile("mascota.png")} style={{ width: 240, height: 240, objectFit: "contain" }} /></div>
-      {hword(bb.text, 62, 46, col)}
+    // FIGURA STICKMAN reaccionando (no el logo del canal)
+    if (idx % 4 === 2) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 4 }}>
+      <div style={{ transform: `${bob(frame, 2.5)} scaleX(${idx % 8 >= 4 ? -1 : 1})`, transformOrigin: "bottom center" }}>
+        <Stick pose={(["pointR", "idle", "hip", "pointL2R"] as const)[idx % 4]} headSize={112} head={<g><circle cx={50} cy={50} r={44} fill="#fff" stroke="#111" strokeWidth={5} /><circle cx={38} cy={47} r={5.5} fill="#111" /><circle cx={62} cy={47} r={5.5} fill="#111" /><path d="M37,64 Q50,73 63,64" stroke="#111" strokeWidth={4} fill="none" strokeLinecap="round" /></g>} />
+      </div>
+      {hword(bb.text, 60, 44, col)}
     </div>;
     // con icono vectorial relevante → icono + palabra; sin icono bueno → SOLO la palabra grande (nada de "?")
     if (bb.iconFile) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
@@ -150,8 +152,8 @@ const ItemScene: React.FC<{ d: Item; n: number }> = ({ d, n }) => {
     const p = clamp((frame - b.f) / 10); const s = p < 0.6 ? 0.5 + 0.6 * (p / 0.6) : 1.1 - 0.1 * ((p - 0.6) / 0.4);
     main = <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", padding: "160px 90px 100px" }}>
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 30, opacity: Math.min(1, p * 1.6), transform: `scale(${Math.max(0, s)})` }}>
-        {b.file ? <BigMedia file={b.file} kind={b.kind} from={b.f} accent={d.color} w={1120} h={590} />
-          : ref ? <BigMedia file={ref} kind={/\.(mp4|webm)$/i.test(ref) ? "vid" : "img"} from={b.f} accent={d.color} w={1120} h={590} />
+        {ref ? <BigMedia file={ref} kind={/\.(mp4|webm)$/i.test(ref) ? "vid" : "img"} from={b.f} accent={d.color} w={1120} h={590} />
+          : b.file ? <BigMedia file={b.file} kind={b.kind} from={b.f} accent={d.color} w={1120} h={590} />
             : <div style={{ transform: bob(frame) }}><IconChip b={b} c={d.color} size={320} /></div>}
         <T s={label.length > 20 ? 74 : 104} heavy>{label}</T>
       </div>

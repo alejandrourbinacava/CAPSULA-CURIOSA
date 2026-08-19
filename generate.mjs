@@ -88,7 +88,6 @@ for (const it of cfg.items) {
   // foto ancla (arriba-izda) = imagen real del ítem (Wikipedia; si no, IA)
   let ref = null;
   try { const rw = await wikiImage(it.name); if (rw) { const rf = `${it.key}_ref.${extOf(rw)}`; await dl(rw, path.join(MEDIA, rf)); ref = "media/" + rf; } } catch { }
-  if (!ref) { const rf = `${it.key}_ref.jpg`; if (await aiImage(it.name, path.join(MEDIA, rf))) ref = "media/" + rf; }
 
   let cum = 0; const arr = [];
   for (let i = 0; i < it.beats.length; i++) {
@@ -116,8 +115,7 @@ for (const it of cfg.items) {
           if (!file) { const p = await pixPhoto(b.query) || await pexPhoto(b.query); if (p) { await dl(p, path.join(MEDIA, base + ".jpg")); file = "media/" + base + ".jpg"; kind = "img"; } }
         }
       } catch { }
-      // último recurso: IA (Pollinations). Si tampoco, se queda como ICONO (nunca una foto sin relación)
-      if (!file) { const f = `${base}_ai.jpg`; if (await aiImage(b.query, path.join(MEDIA, f))) { file = "media/" + f; kind = "img"; } }
+      // si no hay imagen REAL relevante, se queda como ICONO/palabra (NUNCA imagen IA cutre ni foto sin relación)
     }
     const bullets = Array.isArray(b.bullets) ? b.bullets.filter(x => x && x.trim()).slice(0, 3) : [];
     // dibujo/icono vectorial relevante del concepto (Iconify)
