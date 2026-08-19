@@ -57,7 +57,10 @@ async function pixVideos(q, n = 2) { try { const j = await (await fetch(`https:/
 async function pixPhoto(q) { try { const j = await (await fetch(`https://pixabay.com/api/?key=${PIX}&q=${encodeURIComponent(q)}&image_type=photo&per_page=8&safesearch=true&orientation=horizontal`)).json(); const h = (j.hits || [])[0]; return h ? (h.largeImageURL || h.webformatURL) : null; } catch { return null; } }
 async function pexVideos(q, n = 2) { if (!PEX) return []; try { const j = await (await fetch(`https://api.pexels.com/videos/search?query=${encodeURIComponent(q)}&per_page=6&orientation=landscape`, { headers: { Authorization: PEX } })).json(); return (j.videos || []).slice(0, n).map(v => { const f = (v.video_files || []).filter(x => /mp4/.test(x.file_type || "")); return (f.find(x => x.height >= 540 && x.height <= 1080) || f[0])?.link; }).filter(Boolean); } catch { return []; } }
 async function pexPhoto(q) { if (!PEX) return null; try { const j = await (await fetch(`https://api.pexels.com/v1/search?query=${encodeURIComponent(q)}&per_page=6&orientation=landscape`, { headers: { Authorization: PEX } })).json(); const h = (j.photos || [])[0]; return h ? (h.src.large || h.src.landscape) : null; } catch { return null; } }
-async function giphyGif(q) { if (!GIPHY) return null; try { const j = await (await fetch(`https://api.giphy.com/v1/gifs/search?api_key=${GIPHY}&q=${encodeURIComponent(q)}&limit=10&rating=pg-13&lang=es`)).json(); const h = (j.data || [])[0]; return h ? (h.images.downsized_medium?.url || h.images.fixed_height?.url || h.images.original?.url) : null; } catch { return null; } }
+async function giphyGif(q) { if (!GIPHY) return null; try { const j = await (await fetch(`https://api.giphy.com/v1/gifs/search?api_key=${GIPHY}&q=${encodeURIComponent(q)}&limit=10&rating=pg-13`)).json(); const h = (j.data || [])[0]; return h ? (h.images.downsized_medium?.url || h.images.fixed_height?.url || h.images.original?.url) : null; } catch { return null; } }
+// imagen REAL y relevante de algo con nombre propio (consola, juego, animal, lugar, persona, objeto) vía Wikipedia
+async function wikiImage(q) { for (const lang of ["en", "es"]) { try { const s = await (await fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(q)}&format=json&srlimit=1&origin=*`)).json(); const t = s?.query?.search?.[0]?.title; if (!t) continue; const r = await (await fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(t)}&prop=pageimages&piprop=original|thumbnail&pithumbsize=1000&format=json&origin=*`)).json(); const p = Object.values(r?.query?.pages || {})[0]; const u = p?.original?.source || p?.thumbnail?.source; if (u) return u; } catch { } } return null; }
+const extOf = (u) => /\.png(\?|$)/i.test(u) ? "png" : /\.svg(\?|$)/i.test(u) ? "svg" : /\.gif(\?|$)/i.test(u) ? "gif" : "jpg";
 const wc = (s) => (s || "").trim().split(/\s+/).filter(Boolean).length;
 const beatsOut = {};
 for (const it of cfg.items) {
@@ -67,7 +70,9 @@ for (const it of cfg.items) {
   const gen = [];
   try { const j = await (await fetch(`https://pixabay.com/api/?key=${PIX}&q=${encodeURIComponent(it.photoQuery)}&image_type=photo&per_page=8&safesearch=true&orientation=horizontal`)).json(); const hits = (j.hits || []).slice(0, 3); for (let k = 0; k < hits.length; k++) { const f = `${it.key}_gp${k}.jpg`; try { await dl(hits[k].largeImageURL || hits[k].webformatURL, path.join(MEDIA, f)); gen.push({ file: "media/" + f, kind: "img" }); } catch {} } } catch {}
   if (!gen.length) { try { const p = await pexPhoto(it.photoQuery); if (p) { const f = `${it.key}_gp0.jpg`; await dl(p, path.join(MEDIA, f)); gen.push({ file: "media/" + f, kind: "img" }); } } catch {} }
-  const ref = gen[0]?.file || null;
+  let ref = null;
+  try { const rw = await wikiImage(it.name); if (rw) { const rf = `${it.key}_ref.${extOf(rw)}`; await dl(rw, path.join(MEDIA, rf)); ref = "media/" + rf; } } catch { }
+  if (!ref) ref = gen[0]?.file || null;
 
   let cum = 0, genIdx = 0; const arr = [];
   for (let i = 0; i < it.beats.length; i++) {
@@ -79,15 +84,23 @@ for (const it of cfg.items) {
       const slug = String(b.brand).toLowerCase().replace(/[^a-z0-9]/g, "");
       try { const r = await fetch(`https://cdn.simpleicons.org/${slug}`); const t = await r.text(); if (r.ok && t.includes("<svg")) { const f = `${it.key}_b${i}_logo.svg`; fs.writeFileSync(path.join(MEDIA, f), t); file = "media/" + f; kind = "logo"; } } catch {}
     }
-    // SOLO baja imagen si Claude pidió media en este beat; si es "none", queda como ICONO SVG grande (mezcla icono/imagen estilo Chris)
+    // Baja imagen RELEVANTE si Claude pidió media; si es "none", queda como ICONO SVG grande
     if (!file && b.media && b.media !== "none" && b.query) {
       const base = `${it.key}_b${i}`;
+      const saveImg = async (url) => { const f = `${base}.${extOf(url)}`; await dl(url, path.join(MEDIA, f)); return "media/" + f; };
       try {
-        if (b.media === "gif") { const u = await giphyGif(b.query); if (u) { await dl(u, path.join(MEDIA, base + ".gif")); file = "media/" + base + ".gif"; kind = "gif"; } }
-        else if (b.media === "photo") { const p = await pixPhoto(b.query) || await pexPhoto(b.query); if (p) { await dl(p, path.join(MEDIA, base + ".jpg")); file = "media/" + base + ".jpg"; kind = "img"; } }
-        else { const v = (await pixVideos(b.query, 1))[0] || (await pexVideos(b.query, 1))[0]; if (v) { await dl(v, path.join(MEDIA, base + ".mp4")); file = "media/" + base + ".mp4"; kind = "vid"; } }
-      } catch {}
-      // si Claude quería imagen pero falló la descarga, usa una de reserva (no la dejamos sin nada)
+        if (b.media === "gif") {
+          const g = await giphyGif(b.query); if (g) { const f = `${base}.gif`; await dl(g, path.join(MEDIA, f)); file = "media/" + f; kind = "gif"; }
+          if (!file) { const w = await wikiImage(b.query); if (w) { file = await saveImg(w); kind = "img"; } }
+        } else {
+          // cosa con nombre propio -> Wikipedia (imagen real), luego Giphy (juegos/cultura pop), luego stock
+          const w = await wikiImage(b.query); if (w) { file = await saveImg(w); kind = "img"; }
+          if (!file) { const g = await giphyGif(b.query); if (g) { const f = `${base}.gif`; await dl(g, path.join(MEDIA, f)); file = "media/" + f; kind = "gif"; } }
+          if (!file && b.media === "clip") { const v = (await pixVideos(b.query, 1))[0] || (await pexVideos(b.query, 1))[0]; if (v) { await dl(v, path.join(MEDIA, base + ".mp4")); file = "media/" + base + ".mp4"; kind = "vid"; } }
+          if (!file) { const p = await pixPhoto(b.query) || await pexPhoto(b.query); if (p) { await dl(p, path.join(MEDIA, base + ".jpg")); file = "media/" + base + ".jpg"; kind = "img"; } }
+        }
+      } catch { }
+      // último recurso: imagen general del tema (mejor eso que nada), NUNCA algo aleatorio sin relación si podemos evitarlo
       if (!file && gen.length) { const g = gen[genIdx % gen.length]; genIdx++; file = g.file; kind = g.kind; }
     }
     const bullets = Array.isArray(b.bullets) ? b.bullets.filter(x => x && x.trim()).slice(0, 3) : [];
