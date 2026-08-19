@@ -63,6 +63,23 @@ async function wikiImage(q) { for (const lang of ["en", "es"]) { try { const s =
 const extOf = (u) => /\.png(\?|$)/i.test(u) ? "png" : /\.svg(\?|$)/i.test(u) ? "svg" : /\.gif(\?|$)/i.test(u) ? "gif" : "jpg";
 // generación con IA (Pollinations, gratis y sin key) como último recurso para cosas concretas
 async function aiImage(q, dest) { try { const url = `https://image.pollinations.ai/prompt/${encodeURIComponent(q + ", clean illustration, white background")}?width=900&height=520&nologo=true&model=flux`; const r = await fetch(url); if (!r.ok) return false; const b = await r.arrayBuffer(); if (b.byteLength < 3000) return false; fs.writeFileSync(dest, Buffer.from(b)); return true; } catch { return false; } }
+// icono/dibujo VECTORIAL relevante del concepto (Iconify: cientos de miles, muchos a color estilo sticker)
+const COLORFUL = ["twemoji", "noto", "fluent-emoji", "fluent-emoji-flat", "fxemoji", "emojione", "openmoji", "streamline-emojis"];
+async function iconifyIcon(q, dest) {
+  const tryq = async (query) => { try { const j = await (await fetch(`https://api.iconify.design/search?query=${encodeURIComponent(query)}&limit=20`)).json(); return j.icons || []; } catch { return []; } };
+  try {
+    let icons = await tryq(q);
+    if (!icons.length && q.includes(" ")) icons = await tryq(q.split(/\s+/).slice(-1)[0]);
+    if (!icons.length && q.includes(" ")) icons = await tryq(q.split(/\s+/)[0]);
+    if (!icons.length) return null;
+    const pick = icons.find(i => COLORFUL.some(p => i.startsWith(p + ":"))) || icons[0];
+    const colorful = COLORFUL.some(p => pick.startsWith(p + ":"));
+    const [prefix, name] = pick.split(":");
+    const svg = await (await fetch(`https://api.iconify.design/${prefix}/${name}.svg?height=260`)).text();
+    if (!svg.includes("<svg")) return null;
+    fs.writeFileSync(dest, svg); return { colorful };
+  } catch { return null; }
+}
 const wc = (s) => (s || "").trim().split(/\s+/).filter(Boolean).length;
 const beatsOut = {};
 for (const it of cfg.items) {
@@ -103,7 +120,10 @@ for (const it of cfg.items) {
       if (!file) { const f = `${base}_ai.jpg`; if (await aiImage(b.query, path.join(MEDIA, f))) { file = "media/" + f; kind = "img"; } }
     }
     const bullets = Array.isArray(b.bullets) ? b.bullets.filter(x => x && x.trim()).slice(0, 3) : [];
-    arr.push({ f, text: b.text, icon: b.icon, file, kind, bullets });
+    // dibujo/icono vectorial relevante del concepto (Iconify)
+    let iconFile = null, iconColorful = false;
+    try { const ic = await iconifyIcon(b.icon || b.text, path.join(MEDIA, `${it.key}_b${i}_ic.svg`)); if (ic) { iconFile = `media/${it.key}_b${i}_ic.svg`; iconColorful = ic.colorful; } } catch { }
+    arr.push({ f, text: b.text, iconFile, iconColorful, file, kind, bullets });
   }
   beatsOut[it.id] = { ref, beats: arr };
   console.log(`🎬 ${it.key}: ${arr.length} beats · ${arr.filter(x => x.file).length} con imagen`);

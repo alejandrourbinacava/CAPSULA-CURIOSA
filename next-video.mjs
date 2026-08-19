@@ -59,7 +59,7 @@ REGLAS ESTRICTAS:
 - Cada beat tiene:
   - "say": lo que dice la VOZ en ese momento: UNA idea corta, ~7-11 palabras (NO metas varias frases en un beat; si una explicación es larga, PÁRTELA en varios beats con iconos distintos). La SUMA de todos los "say" del item debe dar ~180-210 palabras.
   - "text": 2 a 4 palabras que RESUMEN literalmente lo que dice ese "say" (rótulo en pantalla; DEBE coincidir con lo que se oye en ese beat).
-  - "icon": el icono MÁS representativo de ESE beat concreto, SOLO de esta lista (varía el icono en cada beat): ${ICONS}
+  - "icon": una palabra o frase MUY corta EN INGLÉS de lo que se debe DIBUJAR/ILUSTRAR en ese beat (un objeto o concepto visual concreto), para buscar su icono/vector. Ejemplos: "game controller", "boxing gloves", "crown", "money bag", "rocket", "brain", "trophy", "sword fight", "clock", "fire". Sé visual y varía en cada beat.
   - "media": elige según lo que se PUEDA MOSTRAR de verdad:
       · "photo" SOLO cuando el beat habla de algo con NOMBRE PROPIO que existe y se puede enseñar: una consola, un videojuego, un personaje, un animal, un lugar, una persona, un producto, un objeto concreto (p.ej. la PlayStation 2, el juego GTA San Andreas, Super Mario, el Coliseo, un tiburón). Se buscará su imagen REAL en Wikipedia.
       · "gif" para juegos en movimiento, memes o reacciones con gracia (2-3 por sección).

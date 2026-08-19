@@ -84,9 +84,18 @@ const BeatWrap: React.FC<{ lf: number; beatLen: number; dir: number; children: R
   return <div style={{ opacity: Math.min(1, ein * 1.5) * eout, transform: `translateX(${-(1 - eout) * 100 * dir}px) scale(${0.95 + 0.05 * eout})`, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 30, width: "100%" }}>{children}</div>;
 };
 
-type Beat = { f: number; text: string; icon: string; file: string | null; kind: string | null; bullets?: string[] };
+type Beat = { f: number; text: string; icon?: string; iconFile?: string | null; iconColorful?: boolean; file: string | null; kind: string | null; bullets?: string[] };
 type Entry = { ref?: string | null; beats: Beat[] };
 const BEATS = beatsData as Record<string, Entry | Beat[]>;
+const refOf = (id: string): string | null => { const e = BEATS[id]; return e && !Array.isArray(e) ? (e.ref || null) : null; };
+// icono/dibujo vectorial (Iconify) en círculo; colorido = fondo blanco, monocromo = fondo color
+const IconChip: React.FC<{ b: Beat; c: string; size: number }> = ({ b, c, size }) => {
+  const br = `${Math.max(5, size * 0.026)}px solid #111`;
+  if (!b.iconFile) return <div style={{ width: size, height: size, borderRadius: "50%", background: c, border: br, boxShadow: "0 14px 30px rgba(0,0,0,.16)" }} />;
+  return <div style={{ width: size, height: size, borderRadius: "50%", background: b.iconColorful ? "#fff" : c, border: br, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 30px rgba(0,0,0,.16)" }}>
+    <Img src={staticFile(b.iconFile)} style={{ width: size * 0.6, height: size * 0.6, objectFit: "contain", filter: b.iconColorful ? "none" : "brightness(0)" }} />
+  </div>;
+};
 
 // imagen/clip/gif real GRANDE (protagonista, estilo Explainer Chris)
 const BigMedia: React.FC<{ file: string; kind: string | null; from: number; accent: string; w: number; h: number }> = ({ file, kind, from, accent, w, h }) => {
@@ -111,25 +120,25 @@ const ItemScene: React.FC<{ d: Item; n: number }> = ({ d, n }) => {
 
   // palabra a mano (estilo pizarra) con color de acento alterno
   const hword = (t: string, big: number, small: number, col: string) => <div style={{ fontFamily: HAND, fontSize: t.length > 16 ? small : big, fontWeight: "bold", color: col, textAlign: "center", maxWidth: 740, lineHeight: 1.05 }}>{t}</div>;
-  // un elemento del lienzo: imagen real / lista de datos / MUÑEQUITO+palabra / icono+palabra
+  // un elemento del lienzo: imagen real / lista de datos / vector-icono+palabra (mascota solo a veces)
   const Slot: React.FC<{ bb: Beat; idx: number }> = ({ bb, idx }) => {
     if (bb.file) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
       <div style={{ position: "relative" }}><BigMedia file={bb.file} kind={bb.kind} from={bb.f} accent={d.color} w={720} h={332} />
-        <div style={{ position: "absolute", top: -24, left: -24 }}><Chip n={bb.icon} c={d.color} size={92} /></div></div>
+        <div style={{ position: "absolute", top: -24, left: -24 }}><IconChip b={bb} c={d.color} size={92} /></div></div>
       {hword(bb.text, 46, 34, "#141414")}
     </div>;
     if (bb.bullets && bb.bullets.length) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 12 }}>
-      <div style={{ display: "flex", alignItems: "center", gap: 16 }}><div style={{ transform: bob(frame) }}><Chip n={bb.icon} c={d.color} size={100} /></div>{hword(bb.text, 46, 40, "#141414")}</div>
+      <div style={{ display: "flex", alignItems: "center", gap: 16 }}><div style={{ transform: bob(frame) }}><IconChip b={bb} c={d.color} size={100} /></div>{hword(bb.text, 46, 40, "#141414")}</div>
       {bb.bullets.map((bl, k) => <div key={k} style={{ fontFamily: HAND, fontSize: 38, display: "flex", gap: 10, alignItems: "flex-start" }}><span style={{ color: d.color, fontWeight: 900 }}>▸</span><span style={{ maxWidth: 640 }}>{bl}</span></div>)}
     </div>;
     const col = idx % 3 === 0 ? d.color : "#141414";
-    // mascota de Cápsula Curiosa como personaje recurrente (con el icono del beat al lado) o icono grande
-    if (idx % 3 === 1) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
-      <div style={{ transform: `${bob(frame, 3)} scaleX(${idx % 2 ? -1 : 1})` }}><Img src={staticFile("mascota.png")} style={{ width: 260, height: 260, objectFit: "contain" }} /></div>
-      {hword(bb.text, 64, 46, col)}
+    // mascota SOLO de vez en cuando (1 de cada 6), para no abusar
+    if (idx % 6 === 3) return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
+      <div style={{ transform: `${bob(frame, 3)} scaleX(${idx % 2 ? -1 : 1})` }}><Img src={staticFile("mascota.png")} style={{ width: 240, height: 240, objectFit: "contain" }} /></div>
+      {hword(bb.text, 62, 46, col)}
     </div>;
     return <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
-      <div style={{ transform: bob(frame) }}><Chip n={bb.icon} c={d.color} size={190} /></div>
+      <div style={{ transform: bob(frame) }}><IconChip b={bb} c={d.color} size={200} /></div>
       {hword(bb.text, 66, 48, col)}
     </div>;
   };
@@ -139,7 +148,9 @@ const ItemScene: React.FC<{ d: Item; n: number }> = ({ d, n }) => {
     const p = clamp((frame - b.f) / 10); const s = p < 0.6 ? 0.5 + 0.6 * (p / 0.6) : 1.1 - 0.1 * ((p - 0.6) / 0.4);
     main = <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", padding: "160px 90px 100px" }}>
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 30, opacity: Math.min(1, p * 1.6), transform: `scale(${Math.max(0, s)})` }}>
-        {b.file ? <BigMedia file={b.file} kind={b.kind} from={b.f} accent={d.color} w={1120} h={590} /> : <div style={{ transform: bob(frame) }}><Chip n={b.icon || d.main} c={d.color} size={320} /></div>}
+        {b.file ? <BigMedia file={b.file} kind={b.kind} from={b.f} accent={d.color} w={1120} h={590} />
+          : ref ? <BigMedia file={ref} kind={/\.(mp4|webm)$/i.test(ref) ? "vid" : "img"} from={b.f} accent={d.color} w={1120} h={590} />
+            : <div style={{ transform: bob(frame) }}><IconChip b={b} c={d.color} size={320} /></div>}
         <T s={label.length > 20 ? 74 : 104} heavy>{label}</T>
       </div>
     </AbsoluteFill>;
@@ -191,9 +202,11 @@ const IntroScene: React.FC<{ id: string; frames: number }> = ({ id, frames }) =>
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", padding: "0 80px" }}>
       <Audio src={staticFile(`voz1deep/${id}.mp3`)} />
       {i === 0 && <div style={{ fontFamily: HEAVY, fontWeight: 900, fontSize: 96, color: "#141414", textAlign: "center", transform: `scale(${pop})`, lineHeight: 1.05 }}>{config.title}</div>}
-      {i > 0 && (() => { const it = ITEMS[(i - 1) % ITEMS.length]; return (
+      {i > 0 && (() => { const it = ITEMS[(i - 1) % ITEMS.length]; const rf = refOf(it.id); return (
         <div style={{ textAlign: "center" }}>
-          <div style={{ display: "flex", justifyContent: "center", transform: `scale(${pop}) ${bob(frame)}` }}><Chip n={it.main} c={it.color} size={340} /></div>
+          <div style={{ display: "flex", justifyContent: "center", transform: `scale(${pop}) ${bob(frame)}` }}>
+            {rf ? <div style={{ borderRadius: 20, overflow: "hidden", border: `7px solid ${it.color}`, boxShadow: "0 20px 50px rgba(0,0,0,.2)", background: "#fff", padding: 10 }}><Img src={staticFile(rf)} style={{ width: 460, height: 300, objectFit: "contain" }} /></div> : <Chip n={it.main} c={it.color} size={340} />}
+          </div>
           <div style={{ fontFamily: HEAVY, fontWeight: 900, fontSize: it.name.length > 13 ? 62 : 88, color: "#141414", marginTop: 34, opacity: clamp((lf - 8) / 10) }}>{it.name}</div>
         </div>
       ); })()}
@@ -209,10 +222,10 @@ const GruposScene: React.FC<{ id: string; frames: number }> = ({ id, frames }) =
       <Audio src={staticFile(`voz1deep/${id}.mp3`)} />
       <div style={{ fontFamily: HEAVY, fontSize: 82, fontWeight: 900, color: RED, position: "absolute", top: 90, textAlign: "center", width: "100%", padding: "0 40px" }}>{config.title}</div>
       <div style={{ display: "flex", flexWrap: "wrap", width: 1500, justifyContent: "center", gap: 30, marginTop: 60 }}>
-        {ITEMS.map((it, k) => { const p = clamp((frame - k * per) / 10); return (
-          <div key={k} style={{ textAlign: "center", opacity: p, transform: `scale(${lerp3(p, 0.3, 1.12, 1)}) ${bob(frame + k)}` }}>
-            <Chip n={it.main} c={it.color} size={150} />
-            <div style={{ fontFamily: HAND, fontSize: 24, marginTop: 4, maxWidth: 170, lineHeight: 1 }}>{it.name}</div>
+        {ITEMS.map((it, k) => { const p = clamp((frame - k * per) / 10); const rf = refOf(it.id); return (
+          <div key={k} style={{ textAlign: "center", opacity: p, transform: `scale(${lerp3(p, 0.3, 1.12, 1)}) ${bob(frame + k)}`, width: 240 }}>
+            {rf ? <div style={{ borderRadius: 12, overflow: "hidden", border: `4px solid ${it.color}`, background: "#fff", padding: 6, display: "inline-block" }}><Img src={staticFile(rf)} style={{ width: 200, height: 128, objectFit: "contain" }} /></div> : <Chip n={it.main} c={it.color} size={150} />}
+            <div style={{ fontFamily: HAND, fontSize: 24, marginTop: 4, maxWidth: 230, lineHeight: 1 }}>{it.name}</div>
           </div>); })}
       </div>
     </AbsoluteFill>
