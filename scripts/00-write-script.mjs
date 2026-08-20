@@ -63,9 +63,11 @@ REGLAS DE VARIEDAD (obligatorias):
 - Cada 45s como máximo debe haber algo en MOVIMIENTO: un [[clip]], un [[gif]] o un [[stickman]]. Incluye al menos 2 clips y 1 gif.
 - Usa [[shape]] a menudo (círculos rojos, tachones, checks) para dar vida: al menos 4 distintos.
 - CADA idea/frase = UN visual. Texto en pantalla SIEMPRE corto (máx 6 palabras), palabras clave en color=red.
-- Pon [[show: <id-del-tema> @corner-badge]] al empezar cada apartado (miniatura de contexto).
+- Organiza el guion en SECCIONES: abre cada apartado con [[section: "TÍTULO", badge=<id>]] (miniatura + título de contexto).
+- Usa el TEXTO-ECO: marca palabras clave de la propia locución con **palabra** (negro) o ==palabra== (rojo, máx 1 por frase) para que floten en pantalla al decirse.
+- NO REPITAS ICONOS: cada asset (icono/imagen) se usa UNA SOLA VEZ en todo el vídeo. Nada de reutilizar el mismo id en dos apartados. Inventa un icono/imagen distinto para cada idea.
 - Usa fotos reales (photo) para lo concreto; iconos para conceptos; stat-card para cifras; clips/gifs para movimiento.
-- Locución total ~1200-1600 palabras (8-10 min). Cierra invitando a suscribirse.
+- LONGITUD OBLIGATORIA: MÍNIMO 1300 palabras de locución (8+ minutos). Desarrolla cada apartado con datos, curiosidades y ejemplos; no te quedes corto. Cierra invitando a suscribirse.
 Devuelve SOLO el JSON.`;
 
 async function callClaude() {
@@ -76,7 +78,19 @@ async function callClaude() {
   const m = txt.match(/\{[\s\S]*\}/); return JSON.parse(m ? m[0] : txt);
 }
 
-const g = await callClaude();
+const wordCount = (s) => (s || "").replace(/\[\[[^\]]*\]\]/g, "").replace(/\*\*|==/g, "").split(/\s+/).filter(Boolean).length;
+// Pasada de EXPANSIÓN: si el guion sale corto (<1250 palabras), pedimos a Claude que lo alargue
+async function expand(draft) {
+  const p = `Este guion es DEMASIADO CORTO (${wordCount(draft.script)} palabras). Reescríbelo MÁS LARGO: MÍNIMO 1350 palabras de locución, desarrollando cada sección con más datos, curiosidades y ejemplos. Mantén EXACTAMENTE el mismo formato de etiquetas [[...]], **eco** y ==eco==, secciones y estilo. Añade también los assets nuevos que uses (sin repetir iconos). Devuelve SOLO el JSON con las mismas claves (title, assets, script).\n\nGUION ACTUAL:\n${JSON.stringify(draft)}`;
+  const res = await fetch("https://api.anthropic.com/v1/messages", { method: "POST", headers: { "x-api-key": ANTH, "anthropic-version": "2023-06-01", "content-type": "application/json" }, body: JSON.stringify({ model: "claude-sonnet-5", max_tokens: 32000, messages: [{ role: "user", content: p }] }) });
+  const j = await res.json(); if (!res.ok || j.stop_reason === "max_tokens") return draft;
+  const txt = (j.content || []).filter(b => b.type === "text").map(b => b.text).join("").trim();
+  const m = txt.match(/\{[\s\S]*\}/); try { const e = JSON.parse(m ? m[0] : txt); return wordCount(e.script) > wordCount(draft.script) ? e : draft; } catch { return draft; }
+}
+
+let g = await callClaude();
+console.log(`palabras: ${wordCount(g.script)}`);
+if (wordCount(g.script) < 1250) { console.log("↳ guion corto, expandiendo..."); g = await expand(g); console.log(`palabras tras expandir: ${wordCount(g.script)}`); }
 fs.mkdirSync(dir, { recursive: true });
 const front = `---\ntitle: "${(g.title || topic.title).replace(/"/g, "")}"\nvoice: "tony"\n---\n`;
 fs.writeFileSync(path.join(dir, "script.md"), front + (g.script || "").trim() + "\n");

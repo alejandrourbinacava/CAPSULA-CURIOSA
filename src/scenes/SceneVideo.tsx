@@ -181,13 +181,14 @@ const Element: React.FC<{ el: El }> = ({ el }) => {
   }
   if (el.type === "stickman") return <div style={common}><Stickman pose={el.pose} head={el.head} size={Math.min(box.h, 420)} /></div>;
 
-  if (el.type === "clip") {
-    const inner = <OffthreadVideo src={staticFile(el.src!)} muted playbackRate={1} style={{ maxWidth: box.w - 24, maxHeight: box.h - 24, objectFit: "contain", display: "block" }} />;
-    return <div style={common}><Framed frame={el.frame || "polaroid"} w={box.w} h={box.h}>{inner}</Framed></div>;
-  }
-  if (el.type === "gif") {
-    const inner = <Gif src={staticFile(el.src!)} width={box.w - 24} height={box.h - 24} fit="contain" style={{ display: "block" }} />;
-    return <div style={common}><Framed frame={el.frame || "none"} w={box.w} h={box.h}>{inner}</Framed></div>;
+  if (el.type === "clip" || el.type === "gif") {
+    const media = el.type === "clip"
+      ? <OffthreadVideo src={staticFile(el.src!)} muted playbackRate={1} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+      : <Gif src={staticFile(el.src!)} width={Math.round(box.w)} height={Math.round(box.h)} fit="cover" style={{ width: "100%", height: "100%", display: "block" }} />;
+    // marco especial (tv/browser/phone) si se pide; si no, ESQUINAS REDONDEADAS por defecto
+    if (el.frame && el.frame !== "none" && el.frame !== "polaroid" && el.frame !== "rounded")
+      return <div style={common}><Framed frame={el.frame} w={box.w} h={box.h}>{media}</Framed></div>;
+    return <div style={common}><div style={{ width: box.w, height: box.h, borderRadius: 28, overflow: "hidden", border: "5px solid #111", boxShadow: "0 14px 34px rgba(0,0,0,.24)", background: "#000" }}>{media}</div></div>;
   }
   // image: tratamiento por KIND (Addendum 2 · C). vector/logo/doodle crudos; cutout con sombra;
   //   screenshot con borde blanco+sombra. La rotación ya va en `common` (jitter del compilador).

@@ -64,11 +64,11 @@ for (let i = 0; i < sections.length; i++) { sections[i].t0 = +timeOf(sections[i]
 const sectionAt = (t) => { for (let i = sections.length - 1; i >= 0; i--) if (t >= sections[i].t0 - 0.01) return sections[i]; return sections[0]; };
 
 // --- kinds: animación de entrada y vida útil ---
-const ENTER = { doodle: { kind: "draw", duration: 0.8 }, vector: { kind: "pop", duration: 0.4 }, cutout: { kind: "slide-in-bottom", duration: 0.4 }, screenshot: { kind: "pop", duration: 0.45 }, meme: { kind: "stamp", duration: 0.25 }, logo: { kind: "fade-in", duration: 0.35 } };
+const ENTER = { doodle: { kind: "draw", duration: 0.8 }, vector: { kind: "pop", duration: 0.4 }, cutout: { kind: "slide-in-bottom", duration: 0.4 }, screenshot: { kind: "pop", duration: 0.45 }, meme: { kind: "stamp", duration: 0.25 }, clip: { kind: "slide-in-bottom", duration: 0.45 }, logo: { kind: "fade-in", duration: 0.35 } };
 const lifetime = (kind, t, hero, secEnd) => kind === "meme" ? Math.min(t + 3.2, secEnd) : (kind === "screenshot" && !hero) ? Math.min(t + 6, secEnd) : secEnd;
 const ROT_KINDS = new Set(["cutout", "screenshot"]);
 // tamaño nominal por kind (Addendum 2: cada asset es un objeto discreto, no llena el slot)
-const NOMINAL = { vector: [230, 230], cutout: [380, 380], screenshot: [500, 320], meme: [340, 280], logo: [210, 150], doodle: [300, 300], stickman: [300, 430] };
+const NOMINAL = { vector: [230, 230], cutout: [380, 380], screenshot: [500, 320], meme: [340, 280], clip: [560, 340], logo: [210, 150], doodle: [300, 300], stickman: [300, 430] };
 const nomOf = (kind, hero) => { const n = NOMINAL[kind] || [280, 280]; return hero ? [n[0] * 1.35, n[1] * 1.35] : n; };
 
 // --- construir elementos ---
@@ -180,7 +180,7 @@ for (const sec of sections) {
       let type = "image", src = assetFile(id);
       if (v === "clip" || v === "gif") { type = v; src = assets[id]?.file && fs.existsSync(path.join("public", assets[id].file)) ? assets[id].file : null; }
       if (!src) { warns.push(`asset ausente: "${id}" (sección "${sec.label}") -> se omite`); continue; }
-      const kind = v === "gif" ? "meme" : v === "clip" ? "meme" : kindOf(id, src);
+      const kind = v === "gif" ? "meme" : v === "clip" ? "clip" : kindOf(id, src);
       const hero = /hero/.test(s);
       const [nw, nh] = nomOf(kind, hero);
       const bb = jitterBox(id + autoId, box(slot || "center"), nw, nh, hero);
