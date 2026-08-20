@@ -6,6 +6,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { boxOf, slotExists } from "../src/scenes/templates.mjs";
+import { bboxOf, interArea, area, ZONES, TEXT_TYPES, isPhoto, hitsZone, coexist } from "./geometry.mjs";
 
 const dir = process.argv[2] || "episodes/test-cpu";
 const PROFILE = JSON.parse(fs.readFileSync("style-profile.json", "utf8"));
@@ -108,7 +109,8 @@ for (const sec of sections) {
   if (sec.badge && assetFile(sec.badge)) elements.push({ id: "badge_" + autoId++, type: "image", kind: "logo", src: assetFile(sec.badge), box: boxOf("x", "corner-badge"), z: 70, in: sec.t0, out: secEnd, enter: { kind: "fade-in", duration: 0.4 } });
   if (sec.label) {
     if (sec.badge) elements.push({ id: "blabel_" + autoId++, type: "text", content: sec.label, structural: true, box: { cx: 190, cy: 205, w: 300, h: 70 }, color: STROKE, size: "sm", z: 71, in: sec.t0 + 0.1, out: secEnd, enter: { kind: "fade-in", duration: 0.3 } });
-    elements.push({ id: "title_" + autoId++, type: "title", content: sec.label, structural: true, box: { cx: 990, cy: 118, w: 1180, h: 150 }, color: STROKE, size: "title", underline: true, z: 62, in: sec.t0, out: secEnd, enter: { kind: "handwrite", duration: 0.6 } });
+    const titleFs = Math.min(96, Math.floor(1200 / Math.max(1, (sec.label || "").length * 0.6))); // cabe en la zona del título
+    elements.push({ id: "title_" + autoId++, type: "title", content: sec.label, structural: true, fontSize: titleFs, box: { cx: 960, cy: 120, w: 1240, h: 150 }, color: STROKE, size: "title", underline: true, z: 62, in: sec.t0, out: secEnd, enter: { kind: "handwrite", duration: 0.6 } });
   }
 
   // eventos ordenados por tiempo (tags + ecos de esta sección)
@@ -194,7 +196,7 @@ for (const sec of sections) {
       const [nw, nh] = nomOf(kind);
       const bb = jitterBox(id + autoId, box(hero ? "center" : (slot || "center")), nw, nh, hero);
       const rot = ROT_KINDS.has(kind) ? Math.round((rngOf(id + autoId)() * 2 - 1) * (J.rotation || 3)) : 0;
-      elements.push({ id: id + "_" + autoId++, type, kind, src, box: bb.box, rotate: rot, frame: kv(s, "frame"), z: type === "gif" || type === "clip" ? 55 : 20, in: t, out: lifetime(kind, t, hero, secEnd), enter: ENTER[kind] || ENTER.vector, exit: { kind: "fade-out", duration: 0.3 } });
+      elements.push({ id: id + "_" + autoId++, type, kind, src, box: bb.box, rotate: rot, frame: kv(s, "frame"), hero: hero && photoKind, z: type === "gif" || type === "clip" ? 55 : 20, in: t, out: lifetime(kind, t, hero, secEnd), enter: ENTER[kind] || ENTER.vector, exit: { kind: "fade-out", duration: 0.3 } });
       lastVisual.cx = bb.box.cx; lastVisual.cy = bb.box.cy; lastVisual.w = bb.box.w; lastVisual.h = bb.box.h;
       continue;
     }
@@ -210,28 +212,53 @@ for (const k of Object.keys(bySecExit)) { const arr = bySecExit[k].filter(e => M
 // mínimo en pantalla
 for (const el of elements) if (el.type !== "watermark" && el.out - el.in < 1.0) el.out = +(el.in + 1.0).toFixed(2);
 
-// --- ZONAS RESERVADAS (VERIFICACION 2.1): elementos dinámicos fuera de título/badge/subtítulo/marca ---
 const structuralEl = (e) => e.structural || e.type === "title" || e.type === "watermark";
-for (const el of elements) {
-  if (structuralEl(el) || !el.box) continue;
-  const hh = (el.box.h || 120) / 2, ww = (el.box.w || 120) / 2;
-  const cy = Math.max(235 + hh, Math.min(940 - hh, el.box.cy));
-  let cx = el.box.cx;
-  if (cx + ww > 1660 && cy + hh > 895) cx = Math.min(cx, 1660 - ww); // esquina de la marca de agua
-  el.box = { ...el.box, cx, cy };
-}
 
-// --- SPEC regla 3: el texto NUNCA se solapa con otro texto (incl. título). Nudge vertical 46px ---
-const isText = (e) => e.type === "text" || e.type === "stat" || e.type === "boxtext" || e.type === "title";
-const tOverlap = (p, q) => p.in < q.out && q.in < p.out;
-const boxOverlap = (p, q) => p.box && q.box && Math.abs(p.box.cx - q.box.cx) < (p.box.w + q.box.w) / 2 - 30 && Math.abs(p.box.cy - q.box.cy) < (p.box.h + q.box.h) / 2 - 18;
-for (const tx of elements.filter(e => (e.type === "text" || e.type === "stat" || e.type === "boxtext") && !e.structural)) {
-  for (let guard = 0; guard < 10; guard++) {
-    const hit = elements.find(e => e !== tx && isText(e) && tOverlap(tx, e) && boxOverlap(tx, e));
-    if (!hit) break;
-    const dir = tx.box.cy <= hit.box.cy ? -1 : 1;
-    tx.box = { ...tx.box, cy: Math.max(230, Math.min(H - 60, tx.box.cy + dir * 46)) };
+// --- CAP total: ≤8 dinámicos, y ≤4 TEXTOS, a la vez (VERIFICACION). Expira el más antiguo (no-hero). ---
+const capLive = (list, max) => {
+  const arr = list.sort((a, b) => a.in - b.in); const live = [];
+  for (const e of arr) {
+    for (let i = live.length - 1; i >= 0; i--) if (live[i].out <= e.in + 1e-6) live.splice(i, 1);
+    live.push(e);
+    while (live.length > max) { live.sort((a, b) => (a.hero ? 1 : 0) - (b.hero ? 1 : 0) || a.in - b.in); const old = live.shift(); old.out = Math.min(old.out, +e.in.toFixed(2)); }
   }
+};
+capLive(elements.filter(e => !structuralEl(e) && e.type !== "watermark" && e.box), 8);
+capLive(elements.filter(e => TEXT_TYPES.has(e.type) && !structuralEl(e) && e.box), 4);
+
+// --- SOLVER DE OCUPACIÓN (VERIFICACION 2.2): UNA pasada consciente de la vida útil. Cada elemento
+//     se coloca evitando a TODOS los que coexisten en el tiempo (texto-texto cero, foto-foto <35%) y
+//     las zonas reservadas. Búsqueda: ideal -> espiral 24px -> bajar tamaño -> acortar texto -> descartar. ---
+const DIRS = [[0, 1], [0, -1], [1, 0], [-1, 0], [1, 1], [-1, 1], [1, -1], [-1, -1]];
+const isTextT = (e) => TEXT_TYPES.has(e.type);
+{
+  const dynamics = elements.filter(e => !structuralEl(e) && e.type !== "watermark" && e.box).sort((a, b) => a.in - b.in);
+  const placed = elements.filter(e => structuralEl(e) && e.type !== "watermark" && e.box); // estructurales = obstáculos fijos
+  const validAt = (el, cx, cy, rivals) => {
+    const bb = bboxOf({ ...el, box: { ...el.box, cx, cy } });
+    if (hitsZone(bb)) return false;
+    if (isTextT(el) && (bb[0] < 6 || bb[1] < 6 || bb[2] > W - 6 || bb[3] > H - 6)) return false;
+    for (const p of rivals) {
+      const pb = bboxOf(p);
+      if (isTextT(el) && TEXT_TYPES.has(p.type)) { if (interArea(bb, pb) > 0) return false; }
+      else if (isPhoto(el) && isPhoto(p)) { const ia = interArea(bb, pb), mn = Math.min(area(bb), area(pb)); if (mn > 0 && ia / mn > 0.35) return false; }
+    }
+    return true;
+  };
+  for (const el of dynamics) {
+    const rivals = placed.filter(p => coexist(el, p));
+    const seek = () => {
+      if (validAt(el, el.box.cx, el.box.cy, rivals)) return true;
+      for (let r = 1; r <= 14; r++) for (const [dx, dy] of DIRS) { const cx = el.box.cx + dx * 24 * r, cy = el.box.cy + dy * 24 * r; if (validAt(el, cx, cy, rivals)) { el.box = { ...el.box, cx, cy }; return true; } }
+      return false;
+    };
+    if (seek()) { placed.push(el); continue; }
+    if (isTextT(el)) { const dn = { xl: "lg", lg: "md", md: "sm" }[el.size]; if (dn) { el.size = dn; if (seek()) { placed.push(el); continue; } } }
+    else if (isPhoto(el)) { el.box = { ...el.box, w: el.box.w * 0.72, h: el.box.h * 0.72 }; if (seek()) { placed.push(el); continue; } }
+    if (isTextT(el) && el.content) { const sh = el.content.split(/\s+/).slice(0, 3).join(" "); if (sh !== el.content) { el.content = sh; if (seek()) { placed.push(el); continue; } } }
+    el._discard = true; warns.push(`descartado sin hueco: "${el.id}"`);
+  }
+  for (let i = elements.length - 1; i >= 0; i--) if (elements[i]._discard) elements.splice(i, 1);
 }
 
 // --- validador de DENSIDAD por sección (sustituye al de colisiones) ---
@@ -239,8 +266,8 @@ const densReport = [];
 for (const sec of sections) {
   const mid = (sec.t0 + sec.t1) / 2;
   const live = elements.filter(e => e.type !== "watermark" && e.in <= mid && e.out > mid && e.box);
-  const area = live.reduce((a, e) => a + e.box.w * e.box.h, 0) / (W * H);
-  const d = +area.toFixed(2); densReport.push({ label: sec.label || "(intro)", d, n: live.length });
+  const occ = live.reduce((a, e) => a + e.box.w * e.box.h, 0) / (W * H);
+  const d = +occ.toFixed(2); densReport.push({ label: sec.label || "(intro)", d, n: live.length });
   if (d > (PROFILE.density?.warnAbove || 0.8)) warns.push(`densidad ${d} > 0.8 en "${sec.label}" (saturada)`);
   if (d < 0.15) warns.push(`densidad ${d} < 0.15 en "${sec.label}" (vacía)`);
 }

@@ -164,12 +164,12 @@ const Element: React.FC<{ el: El }> = ({ el }) => {
   if (el.type === "text") {
     const fsz = TEXT_SIZE[el.size || "md"];
     const emph = el.size === "lg" || el.size === "xl" || el.color === RED;
-    return <div style={{ ...common, clipPath: clip, WebkitClipPath: clip }}><div style={{ fontFamily: emph ? HAND_BOLD : HAND, fontWeight: 700, fontSize: fsz, color: el.color || STROKE, textAlign: "center", lineHeight: 1.1, maxWidth: box.w, textShadow: HALO }}>{el.content}</div></div>;
+    return <div style={{ ...common, clipPath: clip, WebkitClipPath: clip }}><div style={{ fontFamily: emph ? HAND_BOLD : HAND, fontWeight: 700, fontSize: fsz, color: el.color || STROKE, textAlign: "center", lineHeight: 1.1, whiteSpace: "nowrap", textShadow: HALO }}>{el.content}</div></div>;
   }
   if (el.type === "title") {
-    const fsz = TEXT_SIZE.title;
+    const fsz = (el as any).fontSize || TEXT_SIZE.title;
     return <div style={{ ...common, clipPath: clip, WebkitClipPath: clip }}>
-      <div style={{ fontFamily: HAND_BOLD, fontWeight: 700, fontSize: fsz, color: el.color || STROKE, textAlign: "center", lineHeight: 1.05, textShadow: HALO }}>{el.content}</div>
+      <div style={{ fontFamily: HAND_BOLD, fontWeight: 700, fontSize: fsz, color: el.color || STROKE, textAlign: "center", lineHeight: 1.05, whiteSpace: "nowrap", textShadow: HALO }}>{el.content}</div>
       {el.underline && <svg width={Math.min(box.w, 40 + (el.content?.length || 6) * fsz * 0.5)} height={26} style={{ marginTop: 4, overflow: "visible" }}><path d={`M 6 12 q ${((el.content?.length || 6) * fsz * 0.24)} 14 ${((el.content?.length || 6) * fsz * 0.5)} 2`} fill="none" stroke={RED} strokeWidth={7} strokeLinecap="round" strokeDasharray={1400} strokeDashoffset={1400 * (1 - clamp01((t - el.in) / 0.5))} /></svg>}
     </div>;
   }
