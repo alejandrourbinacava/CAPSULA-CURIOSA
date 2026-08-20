@@ -10,7 +10,8 @@
     "lint:variety": "node scripts/lint-variety.mjs",
     "fetch:media": "node scripts/00-fetch-media.mjs",
     "normalize": "node scripts/normalize-icon.mjs",
-    "verify": "node scripts/verify.mjs"
+    "verify": "node scripts/verify.mjs",
+    "contactsheet": "node scripts/contactsheet.mjs"
   },
   "dependencies": {
     "@iconify-json/mingcute": "^1.2.8",
