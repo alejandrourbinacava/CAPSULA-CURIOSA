@@ -71,7 +71,7 @@ REGLAS DE VARIEDAD (obligatorias):
 Devuelve SOLO el JSON.`;
 
 async function callClaude() {
-  const res = await fetch("https://api.anthropic.com/v1/messages", { method: "POST", headers: { "x-api-key": ANTH, "anthropic-version": "2023-06-01", "content-type": "application/json" }, body: JSON.stringify({ model: "claude-sonnet-5", max_tokens: 32000, messages: [{ role: "user", content: prompt }] }) });
+  const res = await fetch("https://api.anthropic.com/v1/messages", { method: "POST", headers: { "x-api-key": ANTH, "anthropic-version": "2023-06-01", "content-type": "application/json" }, body: JSON.stringify({ model: "claude-sonnet-5", max_tokens: 64000, messages: [{ role: "user", content: prompt }] }) });
   const j = await res.json(); if (!res.ok) throw new Error(JSON.stringify(j).slice(0, 300));
   if (j.stop_reason === "max_tokens") throw new Error("truncado (max_tokens)");
   const txt = (j.content || []).filter(b => b.type === "text").map(b => b.text).join("").trim();
@@ -82,7 +82,7 @@ const wordCount = (s) => (s || "").replace(/\[\[[^\]]*\]\]/g, "").replace(/\*\*|
 // Pasada de EXPANSIÓN: si el guion sale corto (<1250 palabras), pedimos a Claude que lo alargue
 async function expand(draft) {
   const p = `Este guion es DEMASIADO CORTO (${wordCount(draft.script)} palabras). Reescríbelo MÁS LARGO: MÍNIMO 1350 palabras de locución, desarrollando cada sección con más datos, curiosidades y ejemplos. Mantén EXACTAMENTE el mismo formato de etiquetas [[...]], **eco** y ==eco==, secciones y estilo. Añade también los assets nuevos que uses (sin repetir iconos). Devuelve SOLO el JSON con las mismas claves (title, assets, script).\n\nGUION ACTUAL:\n${JSON.stringify(draft)}`;
-  const res = await fetch("https://api.anthropic.com/v1/messages", { method: "POST", headers: { "x-api-key": ANTH, "anthropic-version": "2023-06-01", "content-type": "application/json" }, body: JSON.stringify({ model: "claude-sonnet-5", max_tokens: 32000, messages: [{ role: "user", content: p }] }) });
+  const res = await fetch("https://api.anthropic.com/v1/messages", { method: "POST", headers: { "x-api-key": ANTH, "anthropic-version": "2023-06-01", "content-type": "application/json" }, body: JSON.stringify({ model: "claude-sonnet-5", max_tokens: 64000, messages: [{ role: "user", content: p }] }) });
   const j = await res.json(); if (!res.ok || j.stop_reason === "max_tokens") return draft;
   const txt = (j.content || []).filter(b => b.type === "text").map(b => b.text).join("").trim();
   const m = txt.match(/\{[\s\S]*\}/); try { const e = JSON.parse(m ? m[0] : txt); return wordCount(e.script) > wordCount(draft.script) ? e : draft; } catch { return draft; }
