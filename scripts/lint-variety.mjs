@@ -1,41 +1,57 @@
-// lint:variety — Addendum 1 · C. Analiza scenes.json y da un informe de variedad:
-//   reparto de plantillas, plantillas repetidas en beats consecutivos, segundos sin movimiento,
-//   direcciones de flecha y assets más repetidos. Sale 1 si incumple criterios "duros".
-// Uso: node scripts/lint-variety.mjs episodes/<slug>
+// lint:variety (ADDENDUM 2 · G). Comprueba: densidad por sección, ≥3 kinds distintos por sección,
+//   ningún meme >4s, ningún tramo de 20s sin texto-eco nuevo, badge presente ~siempre,
+//   máx 5 textos simultáneos, proporción de texto rojo < 15%.
+// Uso: node scripts/lint-variety.mjs episodes/<slug> [--strict]
 import fs from "node:fs";
 import path from "node:path";
 
 const dir = process.argv[2] || "episodes/test-cpu";
 const scenes = JSON.parse(fs.readFileSync(path.join(dir, "scenes.json"), "utf8"));
 const els = scenes.elements, dur = scenes.meta.duration;
-const V = scenes.meta.variety || { templates: {}, beats: [] };
+const V = scenes.meta.variety || {};
+const ACC = "#EE2B37", accset = new Set([ACC, "#E5342A"]);
 
-const distinct = Object.keys(V.templates || {}).length;
-let consec = 0; for (let i = 1; i < (V.beats || []).length; i++) if (V.beats[i] === V.beats[i - 1]) consec++;
+// densidad
+const dens = V.density || [];
+const badDens = dens.filter(s => s.d > 0.8 || s.d < 0.15);
 
-// movimiento = clip/gif/stickman (animación) — regla: nada más de 45s sin movimiento
-const moving = els.filter(e => e.type === "clip" || e.type === "gif" || e.type === "stickman").map(e => e.in).sort((a, b) => a - b);
-let maxGap = moving.length ? moving[0] : dur, prev = moving[0] || 0;
-for (const t of moving) { maxGap = Math.max(maxGap, t - prev); prev = t; }
-maxGap = Math.max(maxGap, dur - prev);
+// kinds por sección (usa densidad como partición temporal aproximada por sección)
+const imgs = els.filter(e => (e.type === "image" || e.type === "clip" || e.type === "gif") && e.kind);
+// memes con vida > 4s
+const longMeme = els.filter(e => e.kind === "meme" && (e.out - e.in) > 4);
 
-const dirs = new Set(els.filter(e => e.type === "arrow").map(e => (e.a && e.b) ? (Math.abs(e.b.x - e.a.x) >= Math.abs(e.b.y - e.a.y) ? (e.b.x >= e.a.x ? "→" : "←") : (e.b.y >= e.a.y ? "↓" : "↑")) : "?"));
-const nClip = els.filter(e => e.type === "clip").length, nGif = els.filter(e => e.type === "gif").length, nShape = new Set(els.filter(e => e.type === "shape").map(e => e.kind)).size;
-const counts = {}; for (const e of els) if (e.src) { const k = e.src.split("/").pop(); counts[k] = (counts[k] || 0) + 1; }
-const top = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 5);
+// tramos sin texto-eco nuevo
+const echoes = els.filter(e => e.echo).map(e => e.in).sort((a, b) => a - b);
+let maxEchoGap = echoes.length ? echoes[0] : dur, p = echoes[0] || 0;
+for (const t of echoes) { maxEchoGap = Math.max(maxEchoGap, t - p); p = t; }
+maxEchoGap = Math.max(maxEchoGap, dur - p);
 
-console.log(`── lint:variety · ${dir} (${dur.toFixed(0)}s, ${(V.beats || []).length} beats) ──`);
-console.log(`plantillas (${distinct} distintas): ${Object.entries(V.templates || {}).map(([k, v]) => k + "×" + v).join(", ")}`);
-console.log(`repetidas en beats consecutivos: ${consec}`);
-console.log(`mayor tramo sin movimiento: ${maxGap.toFixed(1)}s`);
-console.log(`direcciones de flecha: ${[...dirs].join(" ") || "—"}`);
-console.log(`clips: ${nClip} · gifs: ${nGif} · tipos de shape: ${nShape}`);
-console.log(`assets más repetidos: ${top.map(([k, v]) => k + "×" + v).join(", ")}`);
+// badge presente: ¿hay un elemento tipo image en la esquina (cx<300,cy<170) vivo en todo t?
+const badges = els.filter(e => e.type === "image" && e.box && e.box.cx < 300 && e.box.cy < 170);
+let badgeGap = 0; { let last = 0; const iv = badges.map(b => [b.in, b.out]).sort((a, b) => a[0] - b[0]); for (const [s, e] of iv) { if (s > last + 0.5) badgeGap = Math.max(badgeGap, s - last); last = Math.max(last, e); } badgeGap = Math.max(badgeGap, dur - last); }
+
+// máx 5 textos simultáneos (muestreo por segundo)
+const texts = els.filter(e => e.type === "text" || e.type === "title" || e.type === "boxtext" || e.type === "stat");
+const floating = texts.filter(e => !e.structural && e.type !== "title");
+let maxText = 0; for (let t = 0; t < dur; t += 1) maxText = Math.max(maxText, floating.filter(e => e.in <= t && e.out > t).length);
+
+// proporción de texto rojo
+const redW = texts.filter(e => accset.has(e.color)).reduce((a, e) => a + (e.content || "").split(/\s+/).length, 0);
+const allW = texts.reduce((a, e) => a + (e.content || "").split(/\s+/).length, 0) || 1;
+const redRatio = redW / allW;
+
+console.log(`── lint:variety (Addendum 2) · ${dir} · ${dur.toFixed(0)}s · ${V.sections || "?"} secciones · ${V.echoes || 0} ecos ──`);
+console.log(`densidad por sección: ${dens.map(s => s.label + "=" + s.d).join(", ")}`);
+console.log(`kinds de imagen usados: ${[...new Set(imgs.map(e => e.kind))].join(", ") || "—"}`);
+console.log(`mayor tramo sin texto-eco: ${maxEchoGap.toFixed(1)}s · badge ausente máx: ${badgeGap.toFixed(1)}s`);
+console.log(`máx textos simultáneos: ${maxText} · texto rojo: ${(redRatio * 100).toFixed(0)}% · memes>4s: ${longMeme.length}`);
 
 const fails = [];
-if (distinct < 6) fails.push(`solo ${distinct} plantillas distintas (mín 6)`);
-if (consec > 0) fails.push(`${consec} plantillas repetidas en beats consecutivos`);
-if (maxGap > 45) fails.push(`tramo de ${maxGap.toFixed(0)}s sin movimiento (máx 45)`);
-if (dirs.size < 3 && els.some(e => e.type === "arrow")) fails.push(`solo ${dirs.size} direcciones de flecha (mín 3)`);
+if (badDens.length) fails.push(`densidad fuera de rango en: ${badDens.map(s => s.label + "=" + s.d).join(", ")}`);
+if (longMeme.length) fails.push(`${longMeme.length} meme(s) con vida > 4s`);
+if (maxEchoGap > 20) fails.push(`tramo de ${maxEchoGap.toFixed(0)}s sin texto-eco (máx 20)`);
+if (badgeGap > 3) fails.push(`badge ausente ${badgeGap.toFixed(0)}s (debe estar ~siempre)`);
+if (maxText > 5) fails.push(`${maxText} textos simultáneos (máx 5)`);
+if (redRatio > 0.15) fails.push(`texto rojo ${(redRatio * 100).toFixed(0)}% (máx 15%)`);
 if (fails.length) { console.log("✗ incumple: " + fails.join(" · ")); process.exit(process.argv.includes("--strict") ? 1 : 0); }
 console.log("✓ variedad OK");

@@ -16,7 +16,7 @@ const pick = (o, ks) => { for (const k of ks) { let v = o; for (const p of k.spl
 // texto limpio: quita todas las etiquetas [[...]] y el frontmatter
 let raw = fs.readFileSync(path.join(dir, "script.md"), "utf8");
 raw = raw.replace(/^---\n[\s\S]*?\n---\n?/, "");
-const clean = raw.replace(/\[\[[^\]]*\]\]/g, "").replace(/\s+/g, " ").trim();
+const clean = raw.replace(/\[\[[^\]]*\]\]/g, "").replace(/\*\*|==/g, "").replace(/\s+/g, " ").trim();
 console.log(`texto: ${clean.split(/\s+/).length} palabras`);
 
 const audio = path.join(dir, "audio.mp3");

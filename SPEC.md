@@ -384,3 +384,169 @@ Un episodio de 3 minutos que cumpla el lint de variedad:
 - flechas en 3 direcciones diferentes como mínimo,
 - 0 colisiones, 0 assets fantasma,
 - ningún tramo de más de 45 segundos sin movimiento.
+
+
+# ADDENDUM 2 a SPEC.md — Composición acumulativa y registro de tipos
+
+> Añadir al final de `SPEC.md`, después del ADDENDUM 1.
+> **Este documento CORRIGE reglas del ADDENDUM 1.** Donde haya conflicto, manda este.
+
+---
+
+## A. CORRECCIÓN al ADDENDUM 1, sección E
+
+La regla *"ningún elemento puede solaparse, si ocurre error de build"* era
+incorrecta. El estilo de referencia **sí solapa**, y ese amontonamiento es parte
+de la identidad visual.
+
+Se sustituye por el modelo de **lienzo acumulativo**:
+
+1. Los elementos **no se limpian frase a frase**. Entran y se quedan.
+2. La pantalla se va llenando durante toda una sección (30-60 s).
+3. Solo al cambiar de sección se ejecuta un `[[clear]]` que vacía todo con
+   salida escalonada de 0.08 s entre elementos.
+4. El solapamiento está **permitido y es deseable**, con estos límites:
+   - Ningún elemento puede tapar más del **35 %** del área de otro que siga vivo.
+   - El texto nunca queda tapado: capa superior siempre.
+   - Un elemento nuevo no puede caer exactamente sobre el centro de otro.
+5. Se permite que un elemento **se salga parcialmente del frame** (hasta un 15 %
+   de su ancho). Es un recurso deliberado que da sensación de abundancia.
+
+Sustituir el validador de colisiones por un **validador de densidad**:
+
+```
+densidad = área total ocupada / área del frame
+  < 0.15  →  warning "escena vacía"
+  0.25 – 0.65  →  correcto
+  > 0.80  →  warning "saturada, forzar clear"
+```
+
+---
+
+## B. Colocación orgánica (anti-rejilla)
+
+Los slots del SPEC siguen existiendo, pero como **zona de atracción**, no como
+casilla fija. Al resolver un slot, aplicar:
+
+- **Jitter de posición:** ±6 % del ancho del frame en X e Y, con semilla derivada
+  del `id` del elemento para que el render sea reproducible.
+- **Jitter de escala:** cada elemento se escala entre 0.75x y 1.35x respecto al
+  tamaño nominal del slot. Los elementos que el guion marque como `hero` van a
+  1.6x.
+- **Rotación:** ±3° en fotos y capturas. Los vectores y el texto sin rotación.
+
+Sin esto todo queda alineado como una presentación corporativa y pierde
+completamente el carácter.
+
+---
+
+## C. Registro de tipos de asset
+
+Seis familias visuales conviven en pantalla. Cada una tiene tratamiento y
+animación propios. En `manifest.json`, campo `kind`:
+
+| `kind` | Qué es | Tratamiento | Entrada por defecto |
+|---|---|---|---|
+| `doodle` | Ilustración trazada a mano, línea negra, sin color o en gris | Ninguno | `draw` 0.8 s |
+| `vector` | Icono plano de trazo grueso y color liso | Ninguno | `pop` 0.4 s |
+| `cutout` | Foto de producto recortada, fondo transparente | Sombra suave opcional | `slide-in` + fade 0.4 s |
+| `screenshot` | Captura de pantalla o interfaz | Borde blanco 6 px + sombra + rotación ±3° | `pop` 0.45 s |
+| `meme` | GIF o clip corto de reacción | Borde fino o ninguno | `stamp` 0.25 s |
+| `logo` | Logotipo de marca | Ninguno | `fade-in` + escala 1.1→1 0.35 s |
+
+**Reglas de vida útil por tipo:**
+- `meme`: 2–4 s. Entra, remata la frase y desaparece. Nunca se queda.
+- `doodle`, `vector`, `cutout`: viven hasta el `clear` de sección.
+- `screenshot`: 4–8 s, o hasta el clear si es el elemento `hero`.
+
+**Regla de mezcla:** en una misma sección deben aparecer al menos **tres `kind`
+distintos**. Si el lint detecta una sección con un solo tipo, warning.
+
+---
+
+## D. Texto-eco: el texto sale del propio guion
+
+Este es el mecanismo central del estilo y hay que implementarlo bien.
+
+El texto en pantalla **no son rótulos descriptivos**. Son fragmentos literales de
+la frase que se está locutando en ese momento, extraídos y colocados alrededor
+de las imágenes.
+
+En `script.md` se marca con asteriscos dobles:
+
+```markdown
+El **DVI** hizo de **puente** entre los **monitores analógicos**
+y las **pantallas digitales** ==modernas==.
+```
+
+- `**palabra**` → texto negro flotante, entra con `handwrite`.
+- `==palabra==` → texto rojo `#E5342A`, entra con `stamp`. Máximo 1 por frase.
+- `[[box: "texto"]]` → texto blanco sobre caja negra redondeada (ver captura de
+  DisplayPort: "PC gamers"). Para etiquetar un público o categoría.
+
+El compilador coloca cada fragmento en un hueco libre cercano al elemento visual
+más recientemente añadido, con el jitter de la sección B.
+
+**Reglas:**
+- Máximo 5 fragmentos de texto simultáneos en pantalla.
+- Tamaños: `sm` 32 px, `md` 48 px, `lg` 72 px. El compilador alterna para crear
+  jerarquía; nunca dos fragmentos consecutivos del mismo tamaño.
+- El texto rojo nunca supera el 15 % del total de palabras en pantalla.
+
+---
+
+## E. Elementos estructurales fijos
+
+### Corner badge (obligatorio)
+Miniatura del tema de la sección arriba a la izquierda, con etiqueta manuscrita
+debajo. Cambia en cada `[[section]]`, con transición de cross-fade de 0.4 s.
+Persiste durante toda la sección. Es lo que orienta al espectador.
+
+```markdown
+[[section: "VGA", badge=vga-connector.png]]
+```
+
+### Título de sección subrayado
+Título centrado arriba en tipografía manuscrita, con un subrayado trazado a mano
+que se dibuja de izquierda a derecha en 0.5 s tras aparecer el texto. Aparece al
+inicio de sección y **permanece** mientras dura.
+
+### Marca de agua
+Logo del canal abajo a la derecha, opacidad 0.5, siempre presente.
+
+---
+
+## F. Perfiles de estilo por canal
+
+Distintos canales de referencia usan paletas distintas. Definir en
+`style-profile.json` para poder cambiar el look sin tocar el motor:
+
+```jsonc
+{
+  "name": "color-pop",
+  "palette": ["#F5C518","#EE2B37","#3DDC3D","#F0329B","#1BA0EE"],
+  "stroke": "#111111",
+  "accent": "#E5342A",
+  "font": "Patrick Hand",
+  "allowedKinds": ["vector","cutout","screenshot","meme","logo"],
+  "jitter": { "position": 0.06, "scale": [0.75,1.35], "rotation": 3 }
+}
+```
+
+Perfil alternativo `mono-doodle`: sin paleta de color, solo trazo negro sobre
+blanco, `allowedKinds: ["doodle","logo"]`, jitter de rotación 0. Es el estilo de
+las capturas de VGA y DisplayPort.
+
+---
+
+## G. Actualización del lint
+
+`npm run lint:variety` pasa a comprobar también:
+
+- densidad por sección dentro del rango,
+- mínimo 3 `kind` distintos por sección,
+- ningún `meme` con vida > 4 s,
+- ningún tramo de 20 s sin texto-eco nuevo,
+- corner badge presente en el 100 % de los frames,
+- máximo 5 textos simultáneos,
+- proporción de texto rojo bajo el 15 %.

@@ -1,0 +1,81 @@
+{
+  "name": "color-pop",
+  "background": "#FFFFFF",
+  "stroke": "#111111",
+  "strokeWidth": 4,
+  "palette": {
+    "yellow": "#F5C518",
+    "magenta": "#F0329B",
+    "green": "#3DDC3D",
+    "cyan": "#1BA0EE",
+    "orange": "#FF7A1A",
+    "violet": "#8B5CF6"
+  },
+  "accent": "#EE2B37",
+  "typography": {
+    "family": "Patrick Hand",
+    "fallback": "Caveat, Gloria Hallelujah, sans-serif",
+    "sizes": {
+      "sm": 32,
+      "md": 48,
+      "lg": 72,
+      "title": 96
+    },
+    "titleUnderline": true
+  },
+  "allowedKinds": [
+    "vector",
+    "cutout",
+    "screenshot",
+    "meme",
+    "logo"
+  ],
+  "kindTreatment": {
+    "screenshot": {
+      "border": "#FFFFFF",
+      "borderWidth": 6,
+      "shadow": true,
+      "rotation": 3
+    },
+    "cutout": {
+      "shadow": true,
+      "rotation": 2
+    },
+    "vector": {
+      "shadow": false,
+      "rotation": 0
+    },
+    "meme": {
+      "shadow": false,
+      "rotation": 0,
+      "maxLifetime": 4
+    },
+    "logo": {
+      "shadow": false,
+      "rotation": 0
+    }
+  },
+  "jitter": {
+    "position": 0.06,
+    "scale": [
+      0.75,
+      1.35
+    ],
+    "heroScale": 1.6,
+    "rotation": 3
+  },
+  "density": {
+    "min": 0.25,
+    "max": 0.65,
+    "warnAbove": 0.8
+  },
+  "rules": {
+    "maxPaletteColorsOnScreen": 3,
+    "maxSimultaneousText": 5,
+    "accentReservedForText": true,
+    "minKindsPerSection": 3,
+    "redTextRatioMax": 0.15
+  },
+  "watermark": "mascota.png",
+  "watermarkOpacity": 0.5
+}

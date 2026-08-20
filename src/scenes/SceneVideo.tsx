@@ -4,30 +4,33 @@ import { Gif } from "@remotion/gif";
 import { loadFont as loadPatrick } from "@remotion/google-fonts/PatrickHand";
 import { loadFont as loadCaveat } from "@remotion/google-fonts/Caveat";
 import { zOf } from "./templates.mjs";
+import PROFILE from "../../style-profile.json";
 
 // ---- FUENTE MANUSCRITA (spec §2). Se bundlea con la render (funciona headless en CI).
 const { fontFamily: PATRICK } = loadPatrick("normal", { weights: ["400"] });
 const { fontFamily: CAVEAT } = loadCaveat("normal", { weights: ["700"] });
 const HAND = `${PATRICK}, 'Comic Sans MS','Segoe Print',cursive`;      // cuerpo manuscrito
 const HAND_BOLD = `${CAVEAT}, ${PATRICK}, cursive`;                      // titulares/énfasis
-const RED = "#E5342A";
+const RED = (PROFILE as any).accent || "#EE2B37";
+const STROKE = (PROFILE as any).stroke || "#111111";
+const KT = (PROFILE as any).kindTreatment || {};
 
 type Box = { cx: number; cy: number; w: number; h: number };
 type Anim = { kind: string; duration?: number };
 type Pt = { x: number; y: number };
 type El = {
   id: string;
-  type: "image" | "text" | "arrow" | "stickman" | "clip" | "gif" | "shape" | "stat";
-  src?: string; content?: string; unit?: string; color?: string; size?: "sm" | "md" | "lg" | "xl";
-  box?: Box; frame?: string; pose?: string; head?: string;
-  a?: Pt; b?: Pt; curve?: "up" | "down" | "none";           // arrow
-  kind?: string;                                              // shape
+  type: "image" | "text" | "arrow" | "stickman" | "clip" | "gif" | "shape" | "stat" | "title" | "boxtext" | "watermark";
+  src?: string; content?: string; unit?: string; color?: string; size?: "sm" | "md" | "lg" | "xl" | "title";
+  box?: Box; frame?: string; pose?: string; head?: string; kind?: string; rotate?: number; opacity?: number; underline?: boolean; echo?: boolean;
+  a?: Pt; b?: Pt; curve?: "up" | "down" | "none";
   z?: number; in: number; out: number; enter?: Anim; exit?: Anim;
 };
 type Scenes = { meta: { fps: number; width: number; height: number; duration: number; audio?: string }; elements: El[] };
 
 const clamp01 = (x: number) => Math.max(0, Math.min(1, x));
-const TEXT_SIZE = { sm: 44, md: 68, lg: 100, xl: 128 } as const;
+const PS = (PROFILE as any).typography?.sizes || { sm: 32, md: 48, lg: 72, title: 96 };
+const TEXT_SIZE: Record<string, number> = { sm: PS.sm, md: PS.md, lg: PS.lg, xl: PS.title, title: PS.title };
 const HALO = "0 0 8px #fff, 0 0 8px #fff, 0 0 14px #fff, 2px 2px 0 #fff";
 
 // ============================ FLECHA (curva a mano) ============================
@@ -128,6 +131,8 @@ const Element: React.FC<{ el: El }> = ({ el }) => {
   // dibujos progresivos (flecha/shape) usan solo el progreso de entrada
   if (el.type === "arrow") return <div style={{ position: "absolute", inset: 0, zIndex: z }}><ArrowEl el={el} p={inP} /></div>;
   if (el.type === "shape") return <div style={{ position: "absolute", inset: 0, zIndex: z, opacity: 1 - outP }}><ShapeEl el={el} p={inP} /></div>;
+  // marca de agua (logo del canal, siempre presente, tenue)
+  if (el.type === "watermark") return <div style={{ position: "absolute", left: box.cx, top: box.cy, transform: "translate(-50%,-50%)", width: box.w, height: box.h, zIndex: z, opacity: (el.opacity ?? 0.5) * inP }}><Img src={staticFile(el.src!)} style={{ width: "100%", height: "100%", objectFit: "contain" }} /></div>;
 
   // animación de entrada
   const enter = el.enter?.kind || "pop";
@@ -149,12 +154,24 @@ const Element: React.FC<{ el: El }> = ({ el }) => {
     opacity *= (1 - outP);
   }
 
-  const common: React.CSSProperties = { position: "absolute", left: box.cx, top: box.cy, zIndex: z, transform: `translate(-50%,-50%) translate(${tx}px,${ty}px) scale(${scale})`, opacity, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: box.w, height: box.h };
+  const rot = el.rotate || 0;
+  const common: React.CSSProperties = { position: "absolute", left: box.cx, top: box.cy, zIndex: z, transform: `translate(-50%,-50%) translate(${tx}px,${ty}px) rotate(${rot}deg) scale(${scale})`, opacity, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: box.w, height: box.h };
 
   if (el.type === "text") {
     const fsz = TEXT_SIZE[el.size || "md"];
     const emph = el.size === "lg" || el.size === "xl" || el.color === RED;
-    return <div style={{ ...common, clipPath: clip, WebkitClipPath: clip }}><div style={{ fontFamily: emph ? HAND_BOLD : HAND, fontWeight: 700, fontSize: fsz, color: el.color || "#111", textAlign: "center", lineHeight: 1.1, maxWidth: box.w, textShadow: HALO }}>{el.content}</div></div>;
+    return <div style={{ ...common, clipPath: clip, WebkitClipPath: clip }}><div style={{ fontFamily: emph ? HAND_BOLD : HAND, fontWeight: 700, fontSize: fsz, color: el.color || STROKE, textAlign: "center", lineHeight: 1.1, maxWidth: box.w, textShadow: HALO }}>{el.content}</div></div>;
+  }
+  if (el.type === "title") {
+    const fsz = TEXT_SIZE.title;
+    return <div style={{ ...common, clipPath: clip, WebkitClipPath: clip }}>
+      <div style={{ fontFamily: HAND_BOLD, fontWeight: 700, fontSize: fsz, color: el.color || STROKE, textAlign: "center", lineHeight: 1.05, textShadow: HALO }}>{el.content}</div>
+      {el.underline && <svg width={Math.min(box.w, 40 + (el.content?.length || 6) * fsz * 0.5)} height={26} style={{ marginTop: 4, overflow: "visible" }}><path d={`M 6 12 q ${((el.content?.length || 6) * fsz * 0.24)} 14 ${((el.content?.length || 6) * fsz * 0.5)} 2`} fill="none" stroke={RED} strokeWidth={7} strokeLinecap="round" strokeDasharray={1400} strokeDashoffset={1400 * (1 - clamp01((t - el.in) / 0.5))} /></svg>}
+    </div>;
+  }
+  if (el.type === "boxtext") {
+    const fsz = TEXT_SIZE.md;
+    return <div style={common}><div style={{ fontFamily: HAND, fontWeight: 700, fontSize: fsz, color: "#fff", background: STROKE, borderRadius: 14, padding: "8px 22px", lineHeight: 1.1 }}>{el.content}</div></div>;
   }
   if (el.type === "stat") {
     return <div style={common}>
@@ -172,10 +189,19 @@ const Element: React.FC<{ el: El }> = ({ el }) => {
     const inner = <Gif src={staticFile(el.src!)} width={box.w - 24} height={box.h - 24} fit="contain" style={{ display: "block" }} />;
     return <div style={common}><Framed frame={el.frame || "none"} w={box.w} h={box.h}>{inner}</Framed></div>;
   }
-  // image: SVG (icono) crudo; foto (jpg/png) enmarcada
-  const isPhoto = !/\.svg(\?|$)/i.test(el.src || "");
-  const img = <Img src={staticFile(el.src!)} style={{ maxWidth: box.w - (isPhoto ? 40 : 0), maxHeight: box.h - (isPhoto ? 40 : 0), objectFit: "contain", borderRadius: isPhoto ? 10 : 0, display: "block" }} />;
-  return <div style={common}>{isPhoto ? <Framed frame={el.frame || "polaroid"} w={box.w} h={box.h}>{img}</Framed> : img}</div>;
+  // image: tratamiento por KIND (Addendum 2 · C). vector/logo/doodle crudos; cutout con sombra;
+  //   screenshot con borde blanco+sombra. La rotación ya va en `common` (jitter del compilador).
+  const kind = el.kind || (/\.svg(\?|$)/i.test(el.src || "") ? "vector" : "cutout");
+  const tr = KT[kind] || {};
+  const pad = kind === "screenshot" ? (tr.borderWidth || 6) : 0;
+  const wrap: React.CSSProperties = {
+    display: "flex", padding: pad,
+    background: kind === "screenshot" ? (tr.border || "#fff") : "transparent",
+    borderRadius: kind === "screenshot" ? 14 : 0,
+    boxShadow: (tr.shadow ? (kind === "screenshot" ? "0 10px 30px rgba(0,0,0,.28)" : "0 8px 22px rgba(0,0,0,.22)") : "none"),
+  };
+  const img = <Img src={staticFile(el.src!)} style={{ maxWidth: box.w - pad * 2, maxHeight: box.h - pad * 2, objectFit: "contain", display: "block" }} />;
+  return <div style={common}><div style={wrap}>{img}</div></div>;
 };
 
 export const makeSceneVideo = (scenes: Scenes): React.FC => () => (

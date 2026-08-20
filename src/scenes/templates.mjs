@@ -15,6 +15,12 @@ export const UNIVERSAL = {
   "bottom-left": b(430, 820, 700, 300),
   "bottom-right": b(1490, 820, 700, 300),
   "corner-badge": b(190, 110, 280, 150),
+  // zonas de atracción comunes (Addendum 2: el slot es un centro, no una casilla)
+  left: b(560, 520, 640, 560),
+  right: b(1360, 520, 640, 560),
+  number: b(960, 440, 1300, 420),
+  focus: b(960, 470, 860, 620),
+  label: b(960, 905, 1300, 150),
 };
 
 // Cada plantilla expone sus slots propios (además de los universales).
