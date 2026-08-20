@@ -23,7 +23,7 @@ export function bboxOf(e) {
     const len = (e.content || "").length || 3;
     // el texto va en UNA línea (nowrap). El énfasis (rojo/grande) usa Caveat, más ancho. Sin cap: ancho REAL.
     const emph = (typeof e.color === "string" && /^#e/i.test(e.color)) || e.size === "lg" || e.size === "xl";
-    const cw = e.type === "title" ? 0.6 : (emph ? 0.58 : CHARW);
+    const cw = e.type === "title" ? 0.62 : (emph ? 0.63 : CHARW);
     let w = len * fs * cw;
     let h = (e.type === "stat" ? fs * 1.5 : fs * 1.25);
     if (e.type === "boxtext") { w += 44; h += 16; }
