@@ -163,7 +163,7 @@ const Element: React.FC<{ el: El }> = ({ el }) => {
   const common: React.CSSProperties = { position: "absolute", left: box.cx, top: box.cy, zIndex: z, transform: `translate(-50%,-50%) translate(${tx}px,${ty}px) rotate(${rot}deg) scale(${scale})`, opacity, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: box.w, height: box.h };
 
   if (el.type === "text") {
-    const fsz = TEXT_SIZE[el.size || "md"];
+    const fsz = (el as any).fontSize || TEXT_SIZE[el.size || "md"];
     const emph = el.size === "lg" || el.size === "xl" || el.color === RED;
     return <div style={{ ...common, clipPath: clip, WebkitClipPath: clip }}><div style={{ fontFamily: emph ? HAND_BOLD : HAND, fontWeight: 700, fontSize: fsz, color: el.color || STROKE, textAlign: "center", lineHeight: 1.1, whiteSpace: "nowrap", textShadow: HALO }}>{el.content}</div></div>;
   }

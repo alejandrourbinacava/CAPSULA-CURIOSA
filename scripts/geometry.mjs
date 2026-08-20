@@ -21,7 +21,10 @@ export function bboxOf(e) {
   if (TEXT_TYPES.has(e.type)) {
     const fs = e.type === "stat" ? 150 : (e.fontSize || FS[e.size] || FS.md);
     const len = (e.content || "").length || 3;
-    let w = e.type === "title" ? len * fs * 0.6 : Math.min(b.w + 30, len * fs * CHARW);
+    // el texto va en UNA línea (nowrap). El énfasis (rojo/grande) usa Caveat, más ancho. Sin cap: ancho REAL.
+    const emph = (typeof e.color === "string" && /^#e/i.test(e.color)) || e.size === "lg" || e.size === "xl";
+    const cw = e.type === "title" ? 0.6 : (emph ? 0.58 : CHARW);
+    let w = len * fs * cw;
     let h = (e.type === "stat" ? fs * 1.5 : fs * 1.25);
     if (e.type === "boxtext") { w += 44; h += 16; }
     return [b.cx - w / 2, b.cy - h / 2, b.cx + w / 2, b.cy + h / 2];

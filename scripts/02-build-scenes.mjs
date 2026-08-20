@@ -122,7 +122,7 @@ for (const sec of sections) {
   }
   if (badgeId && assetFile(badgeId)) elements.push({ id: "badge_" + autoId++, type: "image", kind: "logo", src: assetFile(badgeId), box: boxOf("x", "corner-badge"), z: 70, in: sec.t0, out: secEnd, enter: { kind: "fade-in", duration: 0.4 } });
   if (sec.label) {
-    if (badgeId) elements.push({ id: "blabel_" + autoId++, type: "text", content: sec.label, structural: true, box: { cx: 190, cy: 205, w: 300, h: 70 }, color: STROKE, size: "sm", z: 71, in: sec.t0 + 0.1, out: secEnd, enter: { kind: "fade-in", duration: 0.3 } });
+    if (badgeId) { const blFs = Math.min(28, Math.max(14, Math.floor(300 / Math.max(1, (sec.label || "").length * 0.5)))); elements.push({ id: "blabel_" + autoId++, type: "text", content: sec.label, structural: true, fontSize: blFs, box: { cx: 175, cy: 205, w: 320, h: 60 }, color: STROKE, size: "sm", z: 71, in: sec.t0 + 0.1, out: secEnd, enter: { kind: "fade-in", duration: 0.3 } }); }
     const titleFs = Math.min(96, Math.floor(1200 / Math.max(1, (sec.label || "").length * 0.6))); // cabe en la zona del título
     elements.push({ id: "title_" + autoId++, type: "title", content: sec.label, structural: true, fontSize: titleFs, box: { cx: 960, cy: 120, w: 1240, h: 150 }, color: STROKE, size: "title", underline: true, z: 62, in: sec.t0, out: secEnd, enter: { kind: "handwrite", duration: 0.6 } });
   }
@@ -237,8 +237,13 @@ for (const el of elements) if (el.type !== "watermark" && el.out - el.in < 1.0) 
 // --- B) MONIGOTE (VERIFICACION): solo explícito, máx 4/vídeo, ≥90s aparte, vida ≤5s ---
 {
   const sm = elements.filter(e => e.type === "stickman").sort((a, b) => a.in - b.in);
+  const others = elements.filter(e => !structuralEl(e) && e.type !== "watermark" && e.type !== "stickman" && e.box);
   let last = -999, kept = 0; const drop = new Set();
-  for (const s of sm) { if (kept >= 4 || s.in - last < 90) { drop.add(s); continue; } last = s.in; kept++; s.out = +Math.min(s.out, s.in + 5).toFixed(2); }
+  for (const s of sm) {
+    const anchored = others.some(o => o.in <= s.in + 0.5 && o.out > s.in + 0.5); // SIEMPRE anclado a otro elemento, nunca solo
+    if (kept >= 4 || s.in - last < 90 || !anchored) { drop.add(s); continue; }
+    last = s.in; kept++; s.out = +Math.min(s.out, s.in + 5).toFixed(2);
+  }
   for (let i = elements.length - 1; i >= 0; i--) if (drop.has(elements[i])) elements.splice(i, 1);
 }
 
@@ -253,6 +258,13 @@ const capLive = (list, max) => {
 };
 capLive(elements.filter(e => TEXT_TYPES.has(e.type) && !structuralEl(e) && e.box), 4);
 capLive(elements.filter(e => !structuralEl(e) && e.type !== "watermark" && e.box), 4);
+
+// pre-encuadre: cada texto arranca DENTRO del frame (por su ancho real); el solver luego resuelve solapes
+for (const el of elements) {
+  if (!TEXT_TYPES.has(el.type) || structuralEl(el) || !el.box) continue;
+  const bb = bboxOf(el); const hw = (bb[2] - bb[0]) / 2, hh = (bb[3] - bb[1]) / 2;
+  el.box = { ...el.box, cx: Math.max(hw + 14, Math.min(W - hw - 14, el.box.cx)), cy: Math.max(hh + 14, Math.min(H - hh - 14, el.box.cy)) };
+}
 
 // --- SOLVER DE OCUPACIÓN (VERIFICACION 2.2): UNA pasada consciente de la vida útil. Cada elemento
 //     se coloca evitando a TODOS los que coexisten en el tiempo (texto-texto cero, foto-foto <35%) y

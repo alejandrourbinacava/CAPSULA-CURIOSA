@@ -38,7 +38,7 @@
         },
         {
           "label": "EL IMPERIO MONGOL",
-          "d": 0.56,
+          "d": 0.55,
           "n": 6
         },
         {
@@ -189,7 +189,7 @@
       "type": "text",
       "content": "crecieron",
       "box": {
-        "cx": 180,
+        "cx": 201.91999999999996,
         "cy": 645.2072208010356,
         "w": 640,
         "h": 130
@@ -331,11 +331,12 @@
       "type": "text",
       "content": "EL IMPERIO EGIPCIO",
       "structural": true,
+      "fontSize": 28,
       "box": {
-        "cx": 190,
+        "cx": 175,
         "cy": 205,
-        "w": 300,
-        "h": 70
+        "w": 320,
+        "h": 60
       },
       "color": "#111111",
       "size": "sm",
@@ -690,11 +691,12 @@
       "type": "text",
       "content": "EL IMPERIO PERSA AQUEMÉNIDA",
       "structural": true,
+      "fontSize": 22,
       "box": {
-        "cx": 190,
+        "cx": 175,
         "cy": 205,
-        "w": 300,
-        "h": 70
+        "w": 320,
+        "h": 60
       },
       "color": "#111111",
       "size": "sm",
@@ -954,7 +956,7 @@
       "type": "text",
       "content": "ocho años",
       "box": {
-        "cx": 255.75240174329394,
+        "cx": 231.75240174329394,
         "cy": 925.6458161141271,
         "w": 640,
         "h": 130
@@ -1023,11 +1025,12 @@
       "type": "text",
       "content": "EL IMPERIO ROMANO",
       "structural": true,
+      "fontSize": 28,
       "box": {
-        "cx": 190,
+        "cx": 175,
         "cy": 205,
-        "w": 300,
-        "h": 70
+        "w": 320,
+        "h": 60
       },
       "color": "#111111",
       "size": "sm",
@@ -1166,8 +1169,8 @@
       "type": "text",
       "content": "60 millones de personas",
       "box": {
-        "cx": 343.07901629853757,
-        "cy": 817.4617629918075,
+        "cx": 494.23999999999995,
+        "cy": 841.4617629918075,
         "w": 640,
         "h": 130
       },
@@ -1192,7 +1195,7 @@
       "content": "Legiones disciplinadas",
       "box": {
         "cx": 263.4102375805378,
-        "cy": 728.0570367086679,
+        "cy": 752.0570367086679,
         "w": 547.3235229849815,
         "h": 111.17509060632437
       },
@@ -1428,11 +1431,12 @@
       "type": "text",
       "content": "EL IMPERIO CHINO",
       "structural": true,
+      "fontSize": 28,
       "box": {
-        "cx": 190,
+        "cx": 175,
         "cy": 205,
-        "w": 300,
-        "h": 70
+        "w": 320,
+        "h": 60
       },
       "color": "#111111",
       "size": "sm",
@@ -1546,8 +1550,8 @@
       "type": "text",
       "content": "Gran Muralla",
       "box": {
-        "cx": 1446.4697116225623,
-        "cy": 928,
+        "cx": 1518.4697116225623,
+        "cy": 856,
         "w": 640,
         "h": 130
       },
@@ -1712,11 +1716,12 @@
       "type": "text",
       "content": "EL IMPERIO MONGOL",
       "structural": true,
+      "fontSize": 28,
       "box": {
-        "cx": 190,
+        "cx": 175,
         "cy": 205,
-        "w": 300,
-        "h": 70
+        "w": 320,
+        "h": 60
       },
       "color": "#111111",
       "size": "sm",
@@ -1994,11 +1999,12 @@
       "type": "text",
       "content": "EL IMPERIO OTOMANO",
       "structural": true,
+      "fontSize": 28,
       "box": {
-        "cx": 190,
+        "cx": 175,
         "cy": 205,
-        "w": 300,
-        "h": 70
+        "w": 320,
+        "h": 60
       },
       "color": "#111111",
       "size": "sm",
@@ -2302,11 +2308,12 @@
       "type": "text",
       "content": "EL IMPERIO INCA",
       "structural": true,
+      "fontSize": 28,
       "box": {
-        "cx": 190,
+        "cx": 175,
         "cy": 205,
-        "w": 300,
-        "h": 70
+        "w": 320,
+        "h": 60
       },
       "color": "#111111",
       "size": "sm",
@@ -2828,11 +2835,12 @@
       "type": "text",
       "content": "EL IMPERIO BRITÁNICO",
       "structural": true,
+      "fontSize": 28,
       "box": {
-        "cx": 190,
+        "cx": 175,
         "cy": 205,
-        "w": 300,
-        "h": 70
+        "w": 320,
+        "h": 60
       },
       "color": "#111111",
       "size": "sm",
@@ -3019,8 +3027,8 @@
       "type": "text",
       "content": "Las colonias piden libertad",
       "box": {
-        "cx": 1233.2165260434151,
-        "cy": 910.929052997008,
+        "cx": 1281.2165260434151,
+        "cy": 742.929052997008,
         "w": 801.0208496153355,
         "h": 162.70736007811502
       },
