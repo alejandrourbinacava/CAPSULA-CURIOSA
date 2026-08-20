@@ -1,0 +1,529 @@
+{
+  "icon_hourglass": {
+    "kind": "vector",
+    "query": "hourglass",
+    "file": "assets/icons/icon_hourglass.svg",
+    "normalized": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:hourglass-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_world_globe": {
+    "kind": "vector",
+    "query": "world map",
+    "file": "assets/icons/icon_world_globe.svg",
+    "normalized": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:map-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "photo_giza_pyramids": {
+    "kind": "cutout",
+    "query": "Great Pyramid of Giza",
+    "file": "assets/icons/photo_giza_pyramids.jpg"
+  },
+  "photo_nile": {
+    "kind": "cutout",
+    "query": "Nile River",
+    "file": "assets/icons/photo_nile.jpg"
+  },
+  "icon_pharaoh_crown": {
+    "kind": "vector",
+    "query": "pharaoh crown",
+    "file": "assets/icons/icon_pharaoh_crown.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "solar:crown-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_wheat_grain": {
+    "kind": "vector",
+    "query": "wheat harvest",
+    "file": "assets/icons/icon_wheat_grain.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "streamline:food-wheat-cook-plant-bread-gluten-grain-cooking-nutrition-food-wheat",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_scribe": {
+    "kind": "vector",
+    "query": "ancient egyptian scribe",
+    "file": "assets/icons/icon_scribe.svg",
+    "normalized": true,
+    "color": "orange",
+    "attribution": {
+      "source": "mingcute:egyptian-pyramids-fill",
+      "license": "Apache 2.0",
+      "url": "https://github.com/Richard9394/MingCute/blob/main/LICENSE"
+    }
+  },
+  "icon_pyramid_build": {
+    "kind": "vector",
+    "query": "pyramid construction",
+    "file": "assets/icons/icon_pyramid_build.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "streamline:pyramid-shape-solid",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_nilometer": {
+    "kind": "vector",
+    "query": "nilometer ancient device",
+    "file": "assets/icons/icon_nilometer.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "solar:devices-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_obelisk": {
+    "kind": "vector",
+    "query": "egyptian obelisk",
+    "file": "assets/icons/icon_obelisk.svg",
+    "normalized": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "mingcute:egyptian-pyramids-fill",
+      "license": "Apache 2.0",
+      "url": "https://github.com/Richard9394/MingCute/blob/main/LICENSE"
+    }
+  },
+  "photo_persepolis": {
+    "kind": "cutout",
+    "query": "Persepolis",
+    "file": "assets/icons/photo_persepolis.jpg"
+  },
+  "icon_royal_road": {
+    "kind": "vector",
+    "query": "ancient road",
+    "file": "assets/icons/icon_royal_road.svg",
+    "normalized": true,
+    "color": "green",
+    "attribution": {
+      "source": "mingcute:road-fill",
+      "license": "Apache 2.0",
+      "url": "https://github.com/Richard9394/MingCute/blob/main/LICENSE"
+    }
+  },
+  "icon_greek_helmet": {
+    "kind": "vector",
+    "query": "Corinthian helmet",
+    "file": "assets/icons/icon_greek_helmet.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "ph:baseball-helmet-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
+  },
+  "icon_camel_caravan": {
+    "kind": "icon",
+    "query": "camel caravan desert",
+    "file": null
+  },
+  "icon_satrap_seal": {
+    "kind": "vector",
+    "query": "ancient persian seal stamp",
+    "file": "assets/icons/icon_satrap_seal.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "ph:stamp-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
+  },
+  "gif_mind_blown": {
+    "kind": "gif",
+    "query": "mind blown",
+    "file": "assets/gifs/gif_mind_blown.gif",
+    "origin": {
+      "source": "Giphy",
+      "credit": "giphy",
+      "url": "https://giphy.com/gifs/mind-seinfeild-OK27wINdQS5YQ"
+    }
+  },
+  "photo_colosseum": {
+    "kind": "cutout",
+    "query": "Colosseum",
+    "file": "assets/icons/photo_colosseum.jpg"
+  },
+  "icon_roman_legion": {
+    "kind": "icon",
+    "query": "roman legion soldier",
+    "file": null
+  },
+  "icon_law_scroll": {
+    "kind": "vector",
+    "query": "ancient scroll",
+    "file": "assets/icons/icon_law_scroll.svg",
+    "normalized": true,
+    "color": "green",
+    "attribution": {
+      "source": "ph:scroll-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
+  },
+  "icon_aqueduct": {
+    "kind": "icon",
+    "query": "roman aqueduct",
+    "file": null
+  },
+  "clip_rome_ruins": {
+    "kind": "clip",
+    "query": "ancient rome ruins timelapse",
+    "file": "assets/clips/clip_rome_ruins.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Florian Delée",
+      "url": "https://www.pexels.com/video/explore-the-majestic-roman-forum-in-rome-36579386/"
+    }
+  },
+  "photo_great_wall": {
+    "kind": "cutout",
+    "query": "Great Wall of China",
+    "file": "assets/icons/photo_great_wall.jpg"
+  },
+  "icon_silk_thread": {
+    "kind": "vector",
+    "query": "silk thread spool",
+    "file": "assets/icons/icon_silk_thread.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "ph:threads-logo-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
+  },
+  "icon_compass_rose": {
+    "kind": "vector",
+    "query": "compass rose",
+    "file": "assets/icons/icon_compass_rose.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:compass-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_gunpowder": {
+    "kind": "vector",
+    "query": "gunpowder explosion",
+    "file": "assets/icons/icon_gunpowder.svg",
+    "normalized": true,
+    "color": "violet",
+    "attribution": {
+      "source": "streamline:nature-ecology-volcano-eruption-erupt-mountain-volcano-lava-magma-explosion",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_horse_hoof": {
+    "kind": "vector",
+    "query": "horse hoof print",
+    "file": "assets/icons/icon_horse_hoof.svg",
+    "normalized": true,
+    "color": "orange",
+    "attribution": {
+      "source": "ph:horse-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
+  },
+  "photo_genghis_khan": {
+    "kind": "cutout",
+    "query": "Genghis Khan",
+    "file": "assets/icons/photo_genghis_khan.jpg"
+  },
+  "clip_mongol_horses": {
+    "kind": "clip",
+    "query": "mongol horse riders galloping",
+    "file": "assets/clips/clip_mongol_horses.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "KAMAL IG",
+      "url": "https://www.pexels.com/video/four-men-riding-horses-in-a-field-15794548/"
+    }
+  },
+  "photo_hagia_sophia": {
+    "kind": "cutout",
+    "query": "Hagia Sophia",
+    "file": "assets/icons/photo_hagia_sophia.jpg"
+  },
+  "icon_janissary": {
+    "kind": "icon",
+    "query": "janissary soldier",
+    "file": null
+  },
+  "icon_ottoman_crescent": {
+    "kind": "vector",
+    "query": "crescent moon flag",
+    "file": "assets/icons/icon_ottoman_crescent.svg",
+    "normalized": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:flag-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_coffee_cup": {
+    "kind": "vector",
+    "query": "coffee cup",
+    "file": "assets/icons/icon_coffee_cup.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "solar:cup-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_ship_wheel": {
+    "kind": "vector",
+    "query": "ship steering wheel",
+    "file": "assets/icons/icon_ship_wheel.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:wheel-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "photo_machu_picchu": {
+    "kind": "cutout",
+    "query": "Machu Picchu",
+    "file": "assets/icons/photo_machu_picchu.jpg"
+  },
+  "icon_terrace_farming": {
+    "kind": "vector",
+    "query": "andean terrace farming",
+    "file": "assets/icons/icon_terrace_farming.svg",
+    "normalized": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "streamline:nature-ecology-pine-tree-plant-tree-farming-christmas-nature-plants-pine-environment",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_quipu": {
+    "kind": "vector",
+    "query": "inca quipu knots",
+    "file": "assets/icons/icon_quipu.svg",
+    "normalized": true,
+    "color": "orange",
+    "attribution": {
+      "source": "streamline:interface-lighting-light-bulb-lighting-light-incandescent-bulb-lights",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_llama": {
+    "kind": "vector",
+    "query": "llama animal",
+    "file": "assets/icons/icon_llama.svg",
+    "normalized": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "streamline:nature-ecology-cat-head-cat-pet-animals-felyne",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_conquest_sword": {
+    "kind": "vector",
+    "query": "spanish conquistador sword",
+    "file": "assets/icons/icon_conquest_sword.svg",
+    "normalized": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:password-minimalistic-input-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_caravel_ship": {
+    "kind": "vector",
+    "query": "caravel ship",
+    "file": "assets/icons/icon_caravel_ship.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "mingcute:ship-fill",
+      "license": "Apache 2.0",
+      "url": "https://github.com/Richard9394/MingCute/blob/main/LICENSE"
+    }
+  },
+  "icon_silver_coin": {
+    "kind": "vector",
+    "query": "silver coin",
+    "file": "assets/icons/icon_silver_coin.svg",
+    "normalized": true,
+    "color": "violet",
+    "attribution": {
+      "source": "ph:coin-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
+  },
+  "icon_spanish_language": {
+    "kind": "vector",
+    "query": "speech bubble",
+    "file": "assets/icons/icon_spanish_language.svg",
+    "normalized": true,
+    "color": "violet",
+    "attribution": {
+      "source": "mingcute:speech-fill",
+      "license": "Apache 2.0",
+      "url": "https://github.com/Richard9394/MingCute/blob/main/LICENSE"
+    }
+  },
+  "icon_church": {
+    "kind": "vector",
+    "query": "church building",
+    "file": "assets/icons/icon_church.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "ph:church-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
+  },
+  "icon_treaty_line": {
+    "kind": "vector",
+    "query": "treaty document",
+    "file": "assets/icons/icon_treaty_line.svg",
+    "normalized": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:document-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_cultural_mix": {
+    "kind": "vector",
+    "query": "diverse group of people",
+    "file": "assets/icons/icon_cultural_mix.svg",
+    "normalized": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "solar:users-group-two-rounded-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "photo_big_ben": {
+    "kind": "cutout",
+    "query": "Big Ben",
+    "file": "assets/icons/photo_big_ben.jpg"
+  },
+  "icon_union_jack": {
+    "kind": "vector",
+    "query": "Union Jack flag",
+    "file": "assets/icons/icon_union_jack.svg",
+    "normalized": true,
+    "color": "violet",
+    "attribution": {
+      "source": "solar:flag-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_railway": {
+    "kind": "vector",
+    "query": "steam train",
+    "file": "assets/icons/icon_railway.svg",
+    "normalized": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "mingcute:steam-fill",
+      "license": "Apache 2.0",
+      "url": "https://github.com/Richard9394/MingCute/blob/main/LICENSE"
+    }
+  },
+  "icon_broken_chain": {
+    "kind": "vector",
+    "query": "broken chain",
+    "file": "assets/icons/icon_broken_chain.svg",
+    "normalized": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "solar:heart-broken-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_legacy_book": {
+    "kind": "vector",
+    "query": "open book",
+    "file": "assets/icons/icon_legacy_book.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "solar:book-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_justice_scale": {
+    "kind": "vector",
+    "query": "justice scales",
+    "file": "assets/icons/icon_justice_scale.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "ph:scales-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
+  },
+  "icon_trade_routes": {
+    "kind": "vector",
+    "query": "trade route map",
+    "file": "assets/icons/icon_trade_routes.svg",
+    "normalized": true,
+    "color": "violet",
+    "attribution": {
+      "source": "solar:route-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_subscribe_bell": {
+    "kind": "vector",
+    "query": "notification bell",
+    "file": "assets/icons/icon_subscribe_bell.svg",
+    "normalized": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:bell-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  }
+}
