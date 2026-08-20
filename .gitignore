@@ -20,3 +20,6 @@ episodes/**/_raw.mp3
 public/assets/
 # audio del render activo (copia; el original vive en episodes/<slug>/audio.mp3)
 public/active/audio.mp3
+
+# artefactos de verificación (se regeneran)
+episodes/**/debug/
