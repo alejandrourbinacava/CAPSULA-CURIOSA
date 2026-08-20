@@ -108,7 +108,7 @@ for (const sec of sections) {
   if (sec.badge && assetFile(sec.badge)) elements.push({ id: "badge_" + autoId++, type: "image", kind: "logo", src: assetFile(sec.badge), box: boxOf("x", "corner-badge"), z: 70, in: sec.t0, out: secEnd, enter: { kind: "fade-in", duration: 0.4 } });
   if (sec.label) {
     if (sec.badge) elements.push({ id: "blabel_" + autoId++, type: "text", content: sec.label, structural: true, box: { cx: 190, cy: 205, w: 300, h: 70 }, color: STROKE, size: "sm", z: 71, in: sec.t0 + 0.1, out: secEnd, enter: { kind: "fade-in", duration: 0.3 } });
-    elements.push({ id: "title_" + autoId++, type: "title", content: sec.label, structural: true, box: { cx: 960, cy: 120, w: 1500, h: 150 }, color: STROKE, size: "title", underline: true, z: 62, in: sec.t0, out: secEnd, enter: { kind: "handwrite", duration: 0.6 } });
+    elements.push({ id: "title_" + autoId++, type: "title", content: sec.label, structural: true, box: { cx: 990, cy: 118, w: 1180, h: 150 }, color: STROKE, size: "title", underline: true, z: 62, in: sec.t0, out: secEnd, enter: { kind: "handwrite", duration: 0.6 } });
   }
 
   // eventos ordenados por tiempo (tags + ecos de esta sección)
@@ -209,6 +209,17 @@ for (const k of Object.keys(bySecExit)) { const arr = bySecExit[k].filter(e => M
 
 // mínimo en pantalla
 for (const el of elements) if (el.type !== "watermark" && el.out - el.in < 1.0) el.out = +(el.in + 1.0).toFixed(2);
+
+// --- ZONAS RESERVADAS (VERIFICACION 2.1): elementos dinámicos fuera de título/badge/subtítulo/marca ---
+const structuralEl = (e) => e.structural || e.type === "title" || e.type === "watermark";
+for (const el of elements) {
+  if (structuralEl(el) || !el.box) continue;
+  const hh = (el.box.h || 120) / 2, ww = (el.box.w || 120) / 2;
+  const cy = Math.max(235 + hh, Math.min(940 - hh, el.box.cy));
+  let cx = el.box.cx;
+  if (cx + ww > 1660 && cy + hh > 895) cx = Math.min(cx, 1660 - ww); // esquina de la marca de agua
+  el.box = { ...el.box, cx, cy };
+}
 
 // --- SPEC regla 3: el texto NUNCA se solapa con otro texto (incl. título). Nudge vertical 46px ---
 const isText = (e) => e.type === "text" || e.type === "stat" || e.type === "boxtext" || e.type === "title";

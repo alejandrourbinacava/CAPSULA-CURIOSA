@@ -78,5 +78,12 @@
     "redTextRatioMax": 0.15
   },
   "watermark": "mascota.png",
-  "watermarkOpacity": 0.5
+  "watermarkOpacity": 0.5,
+  "reservedZones": {
+    "badge": [0, 0, 340, 250],
+    "title": [340, 30, 1600, 210],
+    "watermark": [1690, 930, 1920, 1080],
+    "subtitle": [0, 980, 1920, 1080]
+  },
+  "maxSimultaneousText": 4
 }

@@ -103,6 +103,9 @@ jobs:
           git pull --no-rebase --no-edit origin main || true
           git push || echo "push diferido"
 
+      - name: 02d) VERIFICAR (GATE — un vídeo con texto solapado NO se puede renderizar)
+        run: node scripts/verify.mjs "${{ steps.ep.outputs.dir }}"
+
       - name: 03) Renderizar el vídeo (Remotion · Scene)
         run: npx remotion render src/index.ts Scene out/VIDEO_RAW.mp4 --concurrency=2
 
