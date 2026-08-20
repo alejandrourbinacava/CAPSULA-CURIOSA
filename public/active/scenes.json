@@ -13,61 +13,61 @@
       "density": [
         {
           "label": "IMPERIOS QUE DOMINARON EL MUNDO",
-          "d": 0.45,
-          "n": 10
+          "d": 0.17,
+          "n": 3
         },
         {
           "label": "EL IMPERIO EGIPCIO",
-          "d": 0.65,
-          "n": 10
+          "d": 0.51,
+          "n": 6
         },
         {
           "label": "EL IMPERIO PERSA AQUEMÉNIDA",
-          "d": 0.7,
-          "n": 10
+          "d": 0.48,
+          "n": 5
         },
         {
           "label": "EL IMPERIO ROMANO",
-          "d": 0.64,
-          "n": 9
+          "d": 0.53,
+          "n": 6
         },
         {
           "label": "EL IMPERIO CHINO",
-          "d": 0.73,
-          "n": 9
+          "d": 0.51,
+          "n": 6
         },
         {
           "label": "EL IMPERIO MONGOL",
-          "d": 1.02,
-          "n": 10
+          "d": 0.56,
+          "n": 6
         },
         {
           "label": "EL IMPERIO OTOMANO",
-          "d": 0.67,
-          "n": 9
+          "d": 0.52,
+          "n": 6
         },
         {
           "label": "EL IMPERIO INCA",
-          "d": 0.73,
-          "n": 10
+          "d": 0.5,
+          "n": 6
         },
         {
           "label": "EL IMPERIO ESPAÑOL",
-          "d": 0.28,
-          "n": 8
+          "d": 0.23,
+          "n": 4
         },
         {
           "label": "EL IMPERIO BRITÁNICO",
-          "d": 0.97,
-          "n": 10
+          "d": 0.78,
+          "n": 6
         },
         {
           "label": "¿QUÉ NOS DEJARON?",
-          "d": 0.41,
-          "n": 10
+          "d": 0.17,
+          "n": 3
         }
       ],
-      "warns": 7
+      "warns": 42
     }
   },
   "elements": [
@@ -91,47 +91,7 @@
       }
     },
     {
-      "id": "badge_0",
-      "type": "image",
-      "kind": "logo",
-      "src": "assets/icons/icon_world_globe.svg",
-      "box": {
-        "cx": 190,
-        "cy": -82,
-        "w": 280,
-        "h": 150
-      },
-      "z": 70,
-      "in": 0,
-      "out": 45.7,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.4
-      }
-    },
-    {
-      "id": "blabel_1",
-      "type": "text",
-      "content": "IMPERIOS QUE DOMINARON EL MUNDO",
-      "structural": true,
-      "box": {
-        "cx": 190,
-        "cy": 205,
-        "w": 300,
-        "h": 70
-      },
-      "color": "#111111",
-      "size": "sm",
-      "z": 71,
-      "in": 0.1,
-      "out": 77.12,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "title_2",
+      "id": "title_0",
       "type": "title",
       "content": "IMPERIOS QUE DOMINARON EL MUNDO",
       "structural": true,
@@ -147,31 +107,77 @@
       "underline": true,
       "z": 62,
       "in": 0,
-      "out": 77.06,
+      "out": 77.18,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
       }
     },
     {
-      "id": "icon_hourglass_3",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_hourglass.svg",
+      "id": "t1",
+      "type": "text",
+      "content": "Imperios que dominaron el mundo",
       "box": {
-        "cx": 1015.7835668563843,
-        "cy": 363.6972714573145,
-        "w": 276.4732353240252,
-        "h": 276.4732353240252
+        "cx": 993.5579823732376,
+        "cy": 537.1513334337621,
+        "w": 860.5428620874882,
+        "h": 174.79776886152104
       },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
+      "color": "#EE2B37",
+      "size": "lg",
+      "z": 60,
       "in": 0,
-      "out": 47.98,
+      "out": 16.56,
       "enter": {
-        "kind": "pop",
-        "duration": 0.4
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "e2",
+      "type": "text",
+      "content": "dominar",
+      "box": {
+        "cx": 899.1213991308941,
+        "cy": 260.150409812445,
+        "w": 640,
+        "h": 130
+      },
+      "color": "#EE2B37",
+      "size": "md",
+      "echo": true,
+      "z": 60,
+      "in": 4.48,
+      "out": 23.72,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "s3",
+      "type": "stickman",
+      "pose": "cheer",
+      "box": {
+        "cx": 384.55109310746195,
+        "cy": 765.0134897917509,
+        "w": 296.305133337155,
+        "h": 424.70402444992214
+      },
+      "z": 50,
+      "in": 10.08,
+      "out": 15.08,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -179,20 +185,21 @@
       }
     },
     {
-      "id": "t4",
+      "id": "e4",
       "type": "text",
-      "content": "Imperios que dominaron el mundo",
+      "content": "crecieron",
       "box": {
-        "cx": 876.9370672881603,
-        "cy": 456.8345547430217,
-        "w": 800.3321083188058,
-        "h": 162.56745950225744
+        "cx": 180,
+        "cy": 645.2072208010356,
+        "w": 640,
+        "h": 130
       },
-      "color": "#EE2B37",
+      "color": "#111111",
       "size": "lg",
+      "echo": true,
       "z": 60,
-      "in": 0,
-      "out": 47.98,
+      "in": 27.02,
+      "out": 45.7,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -205,106 +212,10 @@
     {
       "id": "e5",
       "type": "text",
-      "content": "dominar",
-      "box": {
-        "cx": 735.9751725926453,
-        "cy": 261.46636158630434,
-        "w": 640,
-        "h": 130
-      },
-      "color": "#EE2B37",
-      "size": "md",
-      "echo": true,
-      "z": 60,
-      "in": 4.48,
-      "out": 49.86,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "s6",
-      "type": "stickman",
-      "pose": "cheer",
-      "box": {
-        "cx": 357.5975301921368,
-        "cy": 766.3526124406606,
-        "w": 260.6340995756909,
-        "h": 373.575542725157
-      },
-      "z": 50,
-      "in": 10.08,
-      "out": 54,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "h7",
-      "type": "shape",
-      "kind": "circle-highlight",
-      "box": {
-        "cx": 960,
-        "cy": 389,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 23.72,
-      "out": 76.88,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "e8",
-      "type": "text",
-      "content": "crecieron",
-      "box": {
-        "cx": 283.5298646053245,
-        "cy": 492.7959529850188,
-        "w": 640,
-        "h": 130
-      },
-      "color": "#111111",
-      "size": "lg",
-      "echo": true,
-      "z": 60,
-      "in": 27.02,
-      "out": 54,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "e9",
-      "type": "text",
       "content": "cayeron",
       "box": {
-        "cx": 605.7509658218971,
-        "cy": 697.3500193637966,
+        "cx": 180,
+        "cy": 806.7825799207407,
         "w": 640,
         "h": 130
       },
@@ -313,7 +224,7 @@
       "echo": true,
       "z": 60,
       "in": 32.08,
-      "out": 76.82,
+      "out": 54,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -324,32 +235,7 @@
       }
     },
     {
-      "id": "icon_world_globe_10",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_world_globe.svg",
-      "box": {
-        "cx": 955.8590498328209,
-        "cy": 335.0192113794386,
-        "w": 208.5664665712975,
-        "h": 208.5664665712975
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 45.7,
-      "out": 76.82,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "n11",
+      "id": "n6",
       "type": "stat",
       "content": "25",
       "unit": "grandes imperios",
@@ -362,7 +248,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 47.98,
-      "out": 76.82,
+      "out": 77.18,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -373,12 +259,12 @@
       }
     },
     {
-      "id": "e12",
+      "id": "e7",
       "type": "text",
       "content": "controlar",
       "box": {
-        "cx": 1056.142175121187,
-        "cy": 270.01837045920036,
+        "cx": 326.5820853443457,
+        "cy": 928,
         "w": 640,
         "h": 130
       },
@@ -387,7 +273,7 @@
       "echo": true,
       "z": 60,
       "in": 49.86,
-      "out": 76.82,
+      "out": 64.2,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -398,20 +284,20 @@
       }
     },
     {
-      "id": "t13",
+      "id": "t8",
       "type": "text",
       "content": "Solo unos pocos lo lograron",
       "box": {
-        "cx": 937.4618920862674,
-        "cy": 920.7804719496519,
-        "w": 738.464916497469,
-        "h": 150.00068616354838
+        "cx": 900.5886892855167,
+        "cy": 854.0033306520432,
+        "w": 520.5548720061779,
+        "h": 105.73770837625489
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 54,
-      "out": 76.82,
+      "out": 77.18,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -422,53 +308,7 @@
       }
     },
     {
-      "id": "h14",
-      "type": "shape",
-      "kind": "underline",
-      "box": {
-        "cx": 960,
-        "cy": 809,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 54,
-      "out": 76.82,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "s15",
-      "type": "stickman",
-      "pose": "thinking",
-      "box": {
-        "cx": 1548.3223083019257,
-        "cy": 760.8963189475238,
-        "w": 239.70692531671375,
-        "h": 343.5799262872897
-      },
-      "z": 50,
-      "in": 77.18,
-      "out": 78.18,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "badge_16",
+      "id": "badge_10",
       "type": "image",
       "kind": "logo",
       "src": "assets/icons/photo_giza_pyramids.jpg",
@@ -480,14 +320,14 @@
       },
       "z": 70,
       "in": 77.18,
-      "out": 109.96,
+      "out": 78.98,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
       }
     },
     {
-      "id": "blabel_17",
+      "id": "blabel_11",
       "type": "text",
       "content": "EL IMPERIO EGIPCIO",
       "structural": true,
@@ -501,14 +341,14 @@
       "size": "sm",
       "z": 71,
       "in": 77.28,
-      "out": 163.74,
+      "out": 163.8,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
       }
     },
     {
-      "id": "title_18",
+      "id": "title_12",
       "type": "title",
       "content": "EL IMPERIO EGIPCIO",
       "structural": true,
@@ -524,20 +364,20 @@
       "underline": true,
       "z": 62,
       "in": 77.18,
-      "out": 163.68,
+      "out": 163.8,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
       }
     },
     {
-      "id": "photo_giza_pyramids_19",
+      "id": "photo_giza_pyramids_13",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo_giza_pyramids.jpg",
       "box": {
-        "cx": 944.5616108679772,
-        "cy": 556.5750510412827,
+        "cx": 951.808495978117,
+        "cy": 566.4270795669779,
         "w": 896,
         "h": 688
       },
@@ -545,7 +385,106 @@
       "hero": true,
       "z": 20,
       "in": 77.18,
-      "out": 163.62,
+      "out": 163.8,
+      "enter": {
+        "kind": "slide-in-bottom",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "kenburns": true
+    },
+    {
+      "id": "t14",
+      "type": "text",
+      "content": "3000 años de poder",
+      "box": {
+        "cx": 1028.7784483730793,
+        "cy": 262.2023615792394,
+        "w": 745.0549097657205,
+        "h": 151.33927854616198
+      },
+      "color": "#EE2B37",
+      "size": "lg",
+      "z": 60,
+      "in": 77.18,
+      "out": 79.52,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "t15",
+      "type": "text",
+      "content": "El primer superimperio",
+      "box": {
+        "cx": 934.199749571085,
+        "cy": 909.5924051627517,
+        "w": 669.1531857848167,
+        "h": 135.9217408625409
+      },
+      "color": "#111111",
+      "size": "md",
+      "z": 60,
+      "in": 77.18,
+      "out": 109.96,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "e16",
+      "type": "text",
+      "content": "Nilo",
+      "box": {
+        "cx": 998.8076329386947,
+        "cy": 357.1580430278246,
+        "w": 640,
+        "h": 130
+      },
+      "color": "#EE2B37",
+      "size": "md",
+      "echo": true,
+      "z": 60,
+      "in": 78.98,
+      "out": 88.9,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "photo_nile_17",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo_nile.jpg",
+      "box": {
+        "cx": 168.40899686217307,
+        "cy": 530.8166984406067,
+        "w": 680.2481802441181,
+        "h": 522.3334241160193
+      },
+      "rotate": 1,
+      "hero": false,
+      "z": 20,
+      "in": 79.52,
+      "out": 109.96,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -556,20 +495,70 @@
       }
     },
     {
+      "id": "e18",
+      "type": "text",
+      "content": "regalo del Nilo",
+      "box": {
+        "cx": 327.2639116327938,
+        "cy": 312,
+        "w": 640,
+        "h": 130
+      },
+      "color": "#111111",
+      "size": "lg",
+      "echo": true,
+      "z": 60,
+      "in": 100.3,
+      "out": 127.82,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "e19",
+      "type": "text",
+      "content": "Estado",
+      "box": {
+        "cx": 613.0622718370247,
+        "cy": 240,
+        "w": 640,
+        "h": 130
+      },
+      "color": "#111111",
+      "size": "sm",
+      "echo": true,
+      "z": 60,
+      "in": 114.4,
+      "out": 126.74,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
       "id": "t20",
       "type": "text",
-      "content": "3000 años de poder",
+      "content": "Cosechas infinitas",
       "box": {
-        "cx": 887.5573618590831,
-        "cy": 263.7107777185738,
+        "cx": 287.5573618590832,
+        "cy": 831.7107777185738,
         "w": 552.210730612278,
         "h": 112.16780465561897
       },
-      "color": "#EE2B37",
-      "size": "lg",
+      "color": "#111111",
+      "size": "md",
       "z": 60,
-      "in": 77.18,
-      "out": 114.4,
+      "in": 118.64,
+      "out": 140.58,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -582,18 +571,18 @@
     {
       "id": "t21",
       "type": "text",
-      "content": "El primer superimperio",
+      "content": "Miles de escribas",
       "box": {
         "cx": 993.7737417340279,
-        "cy": 875.3952639751136,
+        "cy": 725.3952639751136,
         "w": 746.4500631093979,
         "h": 151.62266906909645
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
-      "in": 77.18,
-      "out": 118.64,
+      "in": 126.74,
+      "out": 163.8,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -606,307 +595,10 @@
     {
       "id": "e22",
       "type": "text",
-      "content": "Nilo",
-      "box": {
-        "cx": 937.2767719746693,
-        "cy": 352.66965478281173,
-        "w": 640,
-        "h": 130
-      },
-      "color": "#EE2B37",
-      "size": "md",
-      "echo": true,
-      "z": 60,
-      "in": 78.98,
-      "out": 118.64,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "photo_nile_23",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo_nile.jpg",
-      "box": {
-        "cx": 156.26724801659583,
-        "cy": 530.6322899516672,
-        "w": 702.0923484563829,
-        "h": 539.1066247075797
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 79.52,
-      "out": 118.64,
-      "enter": {
-        "kind": "slide-in-bottom",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "icon_nilometer_24",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_nilometer.svg",
-      "box": {
-        "cx": 500.1806201279163,
-        "cy": 758.806471959129,
-        "w": 220.21332615427676,
-        "h": 220.21332615427676
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 88.9,
-      "out": 126.74,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "e25",
-      "type": "text",
-      "content": "regalo del Nilo",
-      "box": {
-        "cx": 726.1606808777985,
-        "cy": 560.9283281405203,
-        "w": 640,
-        "h": 130
-      },
-      "color": "#111111",
-      "size": "lg",
-      "echo": true,
-      "z": 60,
-      "in": 100.3,
-      "out": 126.74,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "h26",
-      "type": "shape",
-      "kind": "circle-highlight",
-      "box": {
-        "cx": 960,
-        "cy": 470,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 109.96,
-      "out": 127.82,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "e27",
-      "type": "text",
-      "content": "Estado",
-      "box": {
-        "cx": 378.4657927250219,
-        "cy": 952,
-        "w": 640,
-        "h": 130
-      },
-      "color": "#111111",
-      "size": "sm",
-      "echo": true,
-      "z": 60,
-      "in": 114.4,
-      "out": 140.58,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "icon_pharaoh_crown_28",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_pharaoh_crown.svg",
-      "box": {
-        "cx": 1490.210095447302,
-        "cy": 833.1546993181109,
-        "w": 247.93800937430936,
-        "h": 247.93800937430936
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 118.64,
-      "out": 140.58,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "icon_wheat_grain_29",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_wheat_grain.svg",
-      "box": {
-        "cx": 340.2903914630413,
-        "cy": 434.0179901804775,
-        "w": 248.66660598758608,
-        "h": 248.66660598758608
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 118.64,
-      "out": 144.98,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t30",
-      "type": "text",
-      "content": "Cosechas infinitas",
-      "box": {
-        "cx": 463.02238183021547,
-        "cy": 844.8199153345079,
-        "w": 517.3653822541237,
-        "h": 105.08984327036887
-      },
-      "color": "#111111",
-      "size": "md",
-      "z": 60,
-      "in": 118.64,
-      "out": 144.98,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "a31",
-      "type": "arrow",
-      "a": {
-        "x": 567,
-        "y": 455
-      },
-      "b": {
-        "x": 753,
-        "y": 455
-      },
-      "curve": "down",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 126.74,
-      "out": 163.44,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.2
-      }
-    },
-    {
-      "id": "icon_scribe_32",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_scribe.svg",
-      "box": {
-        "cx": 979.5406173527241,
-        "cy": 441.5728045437485,
-        "w": 298.018665863201,
-        "h": 298.018665863201
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 126.74,
-      "out": 151.74,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t33",
-      "type": "text",
-      "content": "Miles de escribas",
-      "box": {
-        "cx": 1060.1809892892838,
-        "cy": 815.7291261117905,
-        "w": 510.8909519612789,
-        "h": 103.77472461713478
-      },
-      "color": "#111111",
-      "size": "md",
-      "z": 60,
-      "in": 126.74,
-      "out": 163.44,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "e34",
-      "type": "text",
       "content": "escribas",
       "box": {
-        "cx": 1190.6062636048741,
-        "cy": 478.087205718468,
+        "cx": 449.12415796886523,
+        "cy": 240,
         "w": 640,
         "h": 130
       },
@@ -915,7 +607,7 @@
       "echo": true,
       "z": 60,
       "in": 127.82,
-      "out": 163.44,
+      "out": 140.58,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -926,70 +618,20 @@
       }
     },
     {
-      "id": "a35",
-      "type": "arrow",
-      "a": {
-        "x": 1167,
-        "y": 455
-      },
-      "b": {
-        "x": 1353,
-        "y": 455
-      },
-      "curve": "down",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 140.58,
-      "out": 163.44,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.2
-      }
-    },
-    {
-      "id": "icon_pyramid_build_36",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_pyramid_build.svg",
-      "box": {
-        "cx": 1669.0360383689404,
-        "cy": 392.86150028929114,
-        "w": 215.3193274154328,
-        "h": 215.3193274154328
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 140.58,
-      "out": 163.44,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t37",
+      "id": "t23",
       "type": "text",
       "content": "Templos y pirámides",
       "box": {
-        "cx": 1636.5525234997272,
-        "cy": 753.1358588315546,
-        "w": 560.4243502914906,
-        "h": 113.83619615295902
+        "cx": 1448.776295363903,
+        "cy": 835.7573099341244,
+        "w": 504.94665652513504,
+        "h": 102.56728960666806
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 140.58,
-      "out": 163.44,
+      "out": 163.8,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1000,12 +642,12 @@
       }
     },
     {
-      "id": "e38",
+      "id": "e24",
       "type": "text",
       "content": "piedra",
       "box": {
-        "cx": 1603.1148860757037,
-        "cy": 273.3582682090049,
+        "cx": 499.6083473639646,
+        "cy": 264,
         "w": 640,
         "h": 130
       },
@@ -1014,7 +656,7 @@
       "echo": true,
       "z": 60,
       "in": 144.98,
-      "out": 163.44,
+      "out": 163.8,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1025,56 +667,7 @@
       }
     },
     {
-      "id": "icon_obelisk_39",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_obelisk.svg",
-      "box": {
-        "cx": 1581.0731030523777,
-        "cy": 490.773077872023,
-        "w": 204.38763435697183,
-        "h": 204.38763435697183
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 149.5,
-      "out": 163.44,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "h40",
-      "type": "shape",
-      "kind": "checkmark",
-      "box": {
-        "cx": 1560,
-        "cy": 455,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 151.74,
-      "out": 163.44,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "badge_41",
+      "id": "badge_25",
       "type": "image",
       "kind": "logo",
       "src": "assets/icons/photo_persepolis.jpg",
@@ -1086,14 +679,14 @@
       },
       "z": 70,
       "in": 163.8,
-      "out": 204.84,
+      "out": 169.92,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
       }
     },
     {
-      "id": "blabel_42",
+      "id": "blabel_26",
       "type": "text",
       "content": "EL IMPERIO PERSA AQUEMÉNIDA",
       "structural": true,
@@ -1107,14 +700,14 @@
       "size": "sm",
       "z": 71,
       "in": 163.9,
-      "out": 240.2,
+      "out": 240.26,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
       }
     },
     {
-      "id": "title_43",
+      "id": "title_27",
       "type": "title",
       "content": "EL IMPERIO PERSA AQUEMÉNIDA",
       "structural": true,
@@ -1130,28 +723,28 @@
       "underline": true,
       "z": 62,
       "in": 163.8,
-      "out": 240.14,
+      "out": 240.26,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
       }
     },
     {
-      "id": "photo_persepolis_44",
+      "id": "photo_persepolis_28",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo_persepolis.jpg",
       "box": {
-        "cx": 941.7684661388397,
-        "cy": 571.1078229623288,
+        "cx": 980.0505271732807,
+        "cy": 569.223239050433,
         "w": 896,
         "h": 688
       },
-      "rotate": -2,
+      "rotate": 2,
       "hero": true,
       "z": 20,
       "in": 163.8,
-      "out": 240.08,
+      "out": 240.26,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -1159,23 +752,24 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "kenburns": true
     },
     {
-      "id": "t45",
+      "id": "t29",
       "type": "text",
       "content": "El primer imperio multicultural",
       "box": {
-        "cx": 1024.3706758618355,
-        "cy": 861.0612606484443,
-        "w": 789.5035354793072,
-        "h": 160.36790564423427
+        "cx": 1014.118690109253,
+        "cy": 926.3282510198653,
+        "w": 548.8894453346729,
+        "h": 111.49316858360544
       },
       "color": "#EE2B37",
       "size": "lg",
       "z": 60,
       "in": 163.8,
-      "out": 204.84,
+      "out": 195.14,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1186,12 +780,12 @@
       }
     },
     {
-      "id": "e46",
+      "id": "e30",
       "type": "text",
       "content": "persa",
       "box": {
-        "cx": 1128.6458662951618,
-        "cy": 484.7268926662775,
+        "cx": 709.1458519864975,
+        "cy": 591.935535115789,
         "w": 640,
         "h": 130
       },
@@ -1200,7 +794,7 @@
       "echo": true,
       "z": 60,
       "in": 168.52,
-      "out": 206.54,
+      "out": 204.84,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -1211,18 +805,18 @@
       }
     },
     {
-      "id": "s47",
+      "id": "s31",
       "type": "stickman",
       "pose": "pointing-right",
       "box": {
-        "cx": 472.89565097689626,
-        "cy": 740.2539585229009,
-        "w": 309.5832529105246,
-        "h": 443.7359958384186
+        "cx": 536.6867989957333,
+        "cy": 708.2937747139483,
+        "w": 373.15037010703236,
+        "h": 534.8488638200797
       },
       "z": 50,
       "in": 169.92,
-      "out": 216.62,
+      "out": 174.92,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
@@ -1233,61 +827,12 @@
       }
     },
     {
-      "id": "h48",
-      "type": "shape",
-      "kind": "circle-highlight",
-      "box": {
-        "cx": 960,
-        "cy": 455,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 185.7,
-      "out": 223.48,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "icon_satrap_seal_49",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_satrap_seal.svg",
-      "box": {
-        "cx": 1498.920852035284,
-        "cy": 785.0183195251972,
-        "w": 183.55840314924717,
-        "h": 183.55840314924717
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 193.2,
-      "out": 223.48,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "e50",
+      "id": "e32",
       "type": "text",
       "content": "tolerancia",
       "box": {
-        "cx": 1217.6724847013613,
-        "cy": 668.488461654789,
+        "cx": 773.7474868726592,
+        "cy": 795.4629671323626,
         "w": 640,
         "h": 130
       },
@@ -1296,6 +841,55 @@
       "echo": true,
       "z": 60,
       "in": 198,
+      "out": 216.62,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "t33",
+      "type": "text",
+      "content": "2500 km de carretera",
+      "box": {
+        "cx": 660.1809892892837,
+        "cy": 895.7291261117905,
+        "w": 510.8909519612789,
+        "h": 103.77472461713478
+      },
+      "color": "#111111",
+      "size": "md",
+      "z": 60,
+      "in": 204.84,
+      "out": 239.89,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "e34",
+      "type": "text",
+      "content": "Camino Real",
+      "box": {
+        "cx": 747.7524452478834,
+        "cy": 720.8081758886678,
+        "w": 640,
+        "h": 130
+      },
+      "color": "#111111",
+      "size": "sm",
+      "echo": true,
+      "z": 60,
+      "in": 206.54,
       "out": 223.48,
       "enter": {
         "kind": "handwrite",
@@ -1307,86 +901,12 @@
       }
     },
     {
-      "id": "icon_royal_road_51",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_royal_road.svg",
-      "box": {
-        "cx": 544.3063457012177,
-        "cy": 466.3634891252965,
-        "w": 190.14337435690686,
-        "h": 190.14337435690686
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 204.84,
-      "out": 239.84,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t52",
-      "type": "text",
-      "content": "2500 km de carretera",
-      "box": {
-        "cx": 518.7153488278389,
-        "cy": 875.9732944030314,
-        "w": 530.4999149143696,
-        "h": 107.75779521698132
-      },
-      "color": "#111111",
-      "size": "md",
-      "z": 60,
-      "in": 204.84,
-      "out": 239.84,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "e53",
-      "type": "text",
-      "content": "Camino Real",
-      "box": {
-        "cx": 340.27581139562903,
-        "cy": 441.0874615370243,
-        "w": 640,
-        "h": 130
-      },
-      "color": "#111111",
-      "size": "sm",
-      "echo": true,
-      "z": 60,
-      "in": 206.54,
-      "out": 239.9,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "e54",
+      "id": "e35",
       "type": "text",
       "content": "siete días",
       "box": {
-        "cx": 489.6215553657476,
-        "cy": 247.38750949119867,
+        "cx": 563.4622718664561,
+        "cy": 554.3732935503327,
         "w": 640,
         "h": 130
       },
@@ -1395,7 +915,7 @@
       "echo": true,
       "z": 60,
       "in": 216.62,
-      "out": 239.9,
+      "out": 231.74,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1406,70 +926,20 @@
       }
     },
     {
-      "id": "a55",
-      "type": "arrow",
-      "a": {
-        "x": 892,
-        "y": 450
-      },
-      "b": {
-        "x": 1028,
-        "y": 450
-      },
-      "curve": "down",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 223.48,
-      "out": 239.9,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.2
-      }
-    },
-    {
-      "id": "icon_greek_helmet_56",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_greek_helmet.svg",
-      "box": {
-        "cx": 1360.700858694315,
-        "cy": 498.4469578910619,
-        "w": 238.7126417951658,
-        "h": 238.7126417951658
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 223.48,
-      "out": 239.9,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t57",
+      "id": "t36",
       "type": "text",
       "content": "Grecia dice basta",
       "box": {
-        "cx": 1393.8380011320114,
-        "cy": 832.3252936445176,
-        "w": 854.0186731517315,
-        "h": 173.47254298394546
+        "cx": 1408.8603437900542,
+        "cy": 858.5565685946494,
+        "w": 691.6229209005833,
+        "h": 140.48590580793098
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 223.48,
-      "out": 239.9,
+      "out": 240.26,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1480,36 +950,12 @@
       }
     },
     {
-      "id": "h58",
-      "type": "shape",
-      "kind": "cross-out",
-      "box": {
-        "cx": 1360,
-        "cy": 450,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 231.74,
-      "out": 239.9,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "e59",
+      "id": "e37",
       "type": "text",
       "content": "ocho años",
       "box": {
-        "cx": 1647.616921663298,
-        "cy": 679.6399420527309,
+        "cx": 255.75240174329394,
+        "cy": 925.6458161141271,
         "w": 640,
         "h": 130
       },
@@ -1518,7 +964,7 @@
       "echo": true,
       "z": 60,
       "in": 239.84,
-      "out": 240.84,
+      "out": 240.26,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -1529,21 +975,21 @@
       }
     },
     {
-      "id": "gif_mind_blown_60",
+      "id": "gif_mind_blown_38",
       "type": "gif",
       "kind": "meme",
       "src": "assets/gifs/gif_mind_blown.gif",
       "box": {
-        "cx": 260.7285795509815,
-        "cy": 392.52901627728716,
-        "w": 317.2423415221274,
-        "h": 264.36861793510616
+        "cx": 256.3717673480511,
+        "cy": 387.6270128020551,
+        "w": 300.43547246418893,
+        "h": 250.36289372015744
       },
       "rotate": 0,
       "hero": false,
       "z": 55,
       "in": 240.26,
-      "out": 241.26,
+      "out": 240.26,
       "enter": {
         "kind": "stamp",
         "duration": 0.25
@@ -1554,7 +1000,7 @@
       }
     },
     {
-      "id": "badge_61",
+      "id": "badge_39",
       "type": "image",
       "kind": "logo",
       "src": "assets/icons/photo_colosseum.jpg",
@@ -1566,14 +1012,14 @@
       },
       "z": 70,
       "in": 240.26,
-      "out": 267.42,
+      "out": 244.38,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
       }
     },
     {
-      "id": "blabel_62",
+      "id": "blabel_40",
       "type": "text",
       "content": "EL IMPERIO ROMANO",
       "structural": true,
@@ -1587,14 +1033,14 @@
       "size": "sm",
       "z": 71,
       "in": 240.35999999999999,
-      "out": 333.06,
+      "out": 333.12,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
       }
     },
     {
-      "id": "title_63",
+      "id": "title_41",
       "type": "title",
       "content": "EL IMPERIO ROMANO",
       "structural": true,
@@ -1610,28 +1056,28 @@
       "underline": true,
       "z": 62,
       "in": 240.26,
-      "out": 333,
+      "out": 333.12,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
       }
     },
     {
-      "id": "photo_colosseum_64",
+      "id": "photo_colosseum_42",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo_colosseum.jpg",
       "box": {
-        "cx": 958.4798208707571,
-        "cy": 559.9611358795687,
+        "cx": 993.622019700408,
+        "cy": 576.8659326284751,
         "w": 896,
         "h": 688
       },
-      "rotate": 0,
+      "rotate": 3,
       "hero": true,
       "z": 20,
       "in": 240.26,
-      "out": 332.94,
+      "out": 333.12,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -1639,17 +1085,42 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "kenburns": true
     },
     {
-      "id": "t65",
+      "id": "t43",
       "type": "text",
       "content": "El imperio más citado",
       "box": {
-        "cx": 1038.1799184679985,
-        "cy": 262.33527301885186,
-        "w": 590.5697154700756,
-        "h": 119.95947345485911
+        "cx": 955.6837982654572,
+        "cy": 245.72019536681472,
+        "w": 616.8341113328934,
+        "h": 125.29442886449397
+      },
+      "color": "#111111",
+      "size": "md",
+      "z": 60,
+      "in": 240.26,
+      "out": 255.76,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "t44",
+      "type": "text",
+      "content": "Roma no se hizo en un día",
+      "box": {
+        "cx": 936.1334193348885,
+        "cy": 927.8749999273568,
+        "w": 818.0992818474771,
+        "h": 166.17641662526879
       },
       "color": "#111111",
       "size": "md",
@@ -1666,36 +1137,12 @@
       }
     },
     {
-      "id": "t66",
-      "type": "text",
-      "content": "Roma no se hizo en un día",
-      "box": {
-        "cx": 1023.5169624209404,
-        "cy": 948.1533459737897,
-        "w": 531.065196454525,
-        "h": 107.87261802982539
-      },
-      "color": "#111111",
-      "size": "md",
-      "z": 60,
-      "in": 240.26,
-      "out": 267.9,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "e67",
+      "id": "e45",
       "type": "text",
       "content": "Roma",
       "box": {
-        "cx": 902.7376974390237,
-        "cy": 328.7433702449665,
+        "cx": 860.3207097539863,
+        "cy": 765.8384229403191,
         "w": 640,
         "h": 130
       },
@@ -1704,7 +1151,7 @@
       "echo": true,
       "z": 60,
       "in": 244.38,
-      "out": 275.52,
+      "out": 267.9,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -1715,58 +1162,12 @@
       }
     },
     {
-      "id": "h68",
-      "type": "shape",
-      "kind": "circle-highlight",
-      "box": {
-        "cx": 960,
-        "cy": 470,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 244.7,
-      "out": 281.62,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "s69",
-      "type": "stickman",
-      "pose": "neutral",
-      "box": {
-        "cx": 493.80173448324206,
-        "cy": 776.584347498417,
-        "w": 231.15840554237366,
-        "h": 331.3270479440689
-      },
-      "z": 50,
-      "in": 255.76,
-      "out": 300.16,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "e70",
+      "id": "e47",
       "type": "text",
       "content": "60 millones de personas",
       "box": {
-        "cx": 341.6963955434126,
-        "cy": 670.9268117175377,
+        "cx": 343.07901629853757,
+        "cy": 817.4617629918075,
         "w": 640,
         "h": 130
       },
@@ -1775,6 +1176,30 @@
       "echo": true,
       "z": 60,
       "in": 259.7,
+      "out": 275.52,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "t48",
+      "type": "text",
+      "content": "Legiones disciplinadas",
+      "box": {
+        "cx": 263.4102375805378,
+        "cy": 728.0570367086679,
+        "w": 547.3235229849815,
+        "h": 111.17509060632437
+      },
+      "color": "#111111",
+      "size": "md",
+      "z": 60,
+      "in": 267.42,
       "out": 281.62,
       "enter": {
         "kind": "handwrite",
@@ -1786,19 +1211,20 @@
       }
     },
     {
-      "id": "t71",
+      "id": "e49",
       "type": "text",
-      "content": "Legiones disciplinadas",
+      "content": "legiones",
       "box": {
-        "cx": 379.6385083794594,
-        "cy": 791.0937005624176,
-        "w": 650.5915540158749,
-        "h": 132.15140940947458
+        "cx": 307.9043495369385,
+        "cy": 641.7397176348513,
+        "w": 640,
+        "h": 130
       },
       "color": "#111111",
-      "size": "md",
+      "size": "sm",
+      "echo": true,
       "z": 60,
-      "in": 267.42,
+      "in": 267.9,
       "out": 288.86,
       "enter": {
         "kind": "handwrite",
@@ -1810,20 +1236,19 @@
       }
     },
     {
-      "id": "e72",
+      "id": "t50",
       "type": "text",
-      "content": "legiones",
+      "content": "Un derecho para todos",
       "box": {
-        "cx": 661.5732901230999,
-        "cy": 597.4967086054459,
-        "w": 640,
-        "h": 130
+        "cx": 964.361408919096,
+        "cy": 777.2655618976802,
+        "w": 761.9231835007668,
+        "h": 154.76564664859325
       },
       "color": "#111111",
-      "size": "sm",
-      "echo": true,
+      "size": "md",
       "z": 60,
-      "in": 267.9,
+      "in": 275.52,
       "out": 292.32,
       "enter": {
         "kind": "handwrite",
@@ -1835,86 +1260,12 @@
       }
     },
     {
-      "id": "a73",
-      "type": "arrow",
-      "a": {
-        "x": 567,
-        "y": 455
-      },
-      "b": {
-        "x": 753,
-        "y": 455
-      },
-      "curve": "down",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 275.52,
-      "out": 332.76,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.2
-      }
-    },
-    {
-      "id": "icon_law_scroll_74",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_law_scroll.svg",
-      "box": {
-        "cx": 870.4769702017308,
-        "cy": 409.4840810991824,
-        "w": 235.30587273370477,
-        "h": 235.30587273370477
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 275.52,
-      "out": 300.16,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t75",
-      "type": "text",
-      "content": "Un derecho para todos",
-      "box": {
-        "cx": 878.32956533432,
-        "cy": 765.4298799876124,
-        "w": 782.389598608017,
-        "h": 158.92288721725345
-      },
-      "color": "#111111",
-      "size": "md",
-      "z": 60,
-      "in": 275.52,
-      "out": 300.16,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "e76",
+      "id": "e51",
       "type": "text",
       "content": "derecho romano",
       "box": {
-        "cx": 699.2576304426632,
-        "cy": 255.64151921685414,
+        "cx": 571.1851047199701,
+        "cy": 633.6100857042212,
         "w": 640,
         "h": 130
       },
@@ -1923,7 +1274,7 @@
       "echo": true,
       "z": 60,
       "in": 281.62,
-      "out": 317.78,
+      "out": 300.16,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1934,45 +1285,20 @@
       }
     },
     {
-      "id": "a77",
-      "type": "arrow",
-      "a": {
-        "x": 1167,
-        "y": 455
-      },
-      "b": {
-        "x": 1353,
-        "y": 455
-      },
-      "curve": "down",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 288.86,
-      "out": 332.76,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.2
-      }
-    },
-    {
-      "id": "t78",
+      "id": "t52",
       "type": "text",
       "content": "Calzadas y acueductos",
       "box": {
-        "cx": 1458.8402068197727,
-        "cy": 755.0714086528867,
-        "w": 680.5402387976648,
-        "h": 138.23473600577566
+        "cx": 1518.7153488278389,
+        "cy": 795.9732944030314,
+        "w": 530.4999149143696,
+        "h": 107.75779521698132
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 288.86,
-      "out": 330.6,
+      "out": 300.16,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1983,12 +1309,12 @@
       }
     },
     {
-      "id": "e79",
+      "id": "e53",
       "type": "text",
       "content": "calzadas",
       "box": {
-        "cx": 757.7230572348647,
-        "cy": 632.016787811694,
+        "cx": 220.5488195514518,
+        "cy": 777.2514816372602,
         "w": 640,
         "h": 130
       },
@@ -1997,7 +1323,7 @@
       "echo": true,
       "z": 60,
       "in": 292.32,
-      "out": 332.76,
+      "out": 300.16,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2008,42 +1334,18 @@
       }
     },
     {
-      "id": "h80",
-      "type": "shape",
-      "kind": "checkmark",
-      "box": {
-        "cx": 1560,
-        "cy": 455,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 300.16,
-      "out": 332.76,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "s81",
+      "id": "s54",
       "type": "stickman",
       "pose": "shrug",
       "box": {
-        "cx": 451.7135303080082,
-        "cy": 526.8089876942337,
-        "w": 288.87057109270245,
-        "h": 414.04781856620684
+        "cx": 330.3588261604309,
+        "cy": 620.9814607542008,
+        "w": 243.68404273409396,
+        "h": 349.28046125220135
       },
       "z": 50,
       "in": 300.16,
-      "out": 332.76,
+      "out": 305.16,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
@@ -2054,46 +1356,20 @@
       }
     },
     {
-      "id": "clip_rome_ruins_82",
-      "type": "clip",
-      "kind": "clip",
-      "src": "assets/clips/clip_rome_ruins.mp4",
-      "box": {
-        "cx": 1543.191772198677,
-        "cy": 514.7403996594251,
-        "w": 755.842510253191,
-        "h": 448.7814904628322
-      },
-      "rotate": 0,
-      "frame": "tv-crt",
-      "hero": false,
-      "z": 55,
-      "in": 300.16,
-      "out": 332.76,
-      "enter": {
-        "kind": "slide-in-bottom",
-        "duration": 0.45
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t83",
+      "id": "t56",
       "type": "text",
       "content": "¿Por qué cayó Roma?",
       "box": {
-        "cx": 1282.7212416529655,
-        "cy": 851.8619967006147,
-        "w": 518.3217101097107,
-        "h": 105.28409736603498
+        "cx": 1093.4399023354053,
+        "cy": 914.6840445421636,
+        "w": 831.7062143683434,
+        "h": 168.94032479356974
       },
       "color": "#EE2B37",
       "size": "lg",
       "z": 60,
       "in": 300.16,
-      "out": 332.76,
+      "out": 333.12,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2104,36 +1380,12 @@
       }
     },
     {
-      "id": "h84",
-      "type": "shape",
-      "kind": "cross-out",
-      "box": {
-        "cx": 1200,
-        "cy": 450,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 317.78,
-      "out": 332.76,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "e85",
+      "id": "e57",
       "type": "text",
       "content": "desapareció",
       "box": {
-        "cx": 1473.07027119025,
-        "cy": 527.7634768265143,
+        "cx": 1234.95604843566,
+        "cy": 569.8280652452125,
         "w": 640,
         "h": 130
       },
@@ -2142,7 +1394,7 @@
       "echo": true,
       "z": 60,
       "in": 330.6,
-      "out": 332.76,
+      "out": 333.12,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -2153,7 +1405,7 @@
       }
     },
     {
-      "id": "badge_86",
+      "id": "badge_58",
       "type": "image",
       "kind": "logo",
       "src": "assets/icons/photo_great_wall.jpg",
@@ -2165,14 +1417,14 @@
       },
       "z": 70,
       "in": 333.12,
-      "out": 366.96,
+      "out": 361.44,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
       }
     },
     {
-      "id": "blabel_87",
+      "id": "blabel_59",
       "type": "text",
       "content": "EL IMPERIO CHINO",
       "structural": true,
@@ -2186,14 +1438,14 @@
       "size": "sm",
       "z": 71,
       "in": 333.22,
-      "out": 395.36,
+      "out": 395.42,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
       }
     },
     {
-      "id": "title_88",
+      "id": "title_60",
       "type": "title",
       "content": "EL IMPERIO CHINO",
       "structural": true,
@@ -2209,28 +1461,28 @@
       "underline": true,
       "z": 62,
       "in": 333.12,
-      "out": 395.3,
+      "out": 395.42,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
       }
     },
     {
-      "id": "photo_great_wall_89",
+      "id": "photo_great_wall_61",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo_great_wall.jpg",
       "box": {
-        "cx": 972.9394795721769,
-        "cy": 566.8939064442367,
+        "cx": 964.7537067121267,
+        "cy": 564.9161443978549,
         "w": 896,
         "h": 688
       },
-      "rotate": 1,
+      "rotate": 0,
       "hero": true,
       "z": 20,
       "in": 333.12,
-      "out": 395.24,
+      "out": 395.42,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -2238,20 +1490,45 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "kenburns": true
     },
     {
-      "id": "t90",
+      "id": "t62",
       "type": "text",
       "content": "Miles de años de dinastías",
       "box": {
-        "cx": 862.9135714888573,
-        "cy": 260.5727667994797,
-        "w": 762.5523513257504,
-        "h": 154.89344636304304
+        "cx": 1029.2324410557746,
+        "cy": 262.18812922951764,
+        "w": 480.88797158002853,
+        "h": 97.6803692271933
       },
       "color": "#EE2B37",
       "size": "lg",
+      "z": 60,
+      "in": 333.12,
+      "out": 366.96,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "t63",
+      "type": "text",
+      "content": "El imperio que nunca dejó de reinventarse",
+      "box": {
+        "cx": 906.2059893608093,
+        "cy": 909.1184169068932,
+        "w": 735.4388789534569,
+        "h": 149.38602228742093
+      },
+      "color": "#111111",
+      "size": "md",
       "z": 60,
       "in": 333.12,
       "out": 368.74,
@@ -2265,82 +1542,12 @@
       }
     },
     {
-      "id": "t91",
-      "type": "text",
-      "content": "El imperio que nunca dejó de reinventarse",
-      "box": {
-        "cx": 1020.2587466597557,
-        "cy": 911.4832633435726,
-        "w": 657.9368343651295,
-        "h": 133.64341948041692
-      },
-      "color": "#111111",
-      "size": "md",
-      "z": 60,
-      "in": 333.12,
-      "out": 376.92,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "h92",
-      "type": "shape",
-      "kind": "circle-highlight",
-      "box": {
-        "cx": 960,
-        "cy": 470,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 339.48,
-      "out": 376.92,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "s93",
-      "type": "stickman",
-      "pose": "thinking",
-      "box": {
-        "cx": 1482.750973904133,
-        "cy": 674.3629090048373,
-        "w": 402.6972761610523,
-        "h": 577.199429164175
-      },
-      "z": 50,
-      "in": 354.68,
-      "out": 383.42,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "e94",
+      "id": "e65",
       "type": "text",
       "content": "Gran Muralla",
       "box": {
-        "cx": 1305.2179283406738,
-        "cy": 837.499955411975,
+        "cx": 1446.4697116225623,
+        "cy": 928,
         "w": 640,
         "h": 130
       },
@@ -2349,6 +1556,30 @@
       "echo": true,
       "z": 60,
       "in": 361.44,
+      "out": 376.92,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "t66",
+      "type": "text",
+      "content": "La Ruta de la Seda",
+      "box": {
+        "cx": 463.5169624209404,
+        "cy": 828.1533459737897,
+        "w": 531.065196454525,
+        "h": 107.87261802982539
+      },
+      "color": "#111111",
+      "size": "md",
+      "z": 60,
+      "in": 366.96,
       "out": 383.42,
       "enter": {
         "kind": "handwrite",
@@ -2360,61 +1591,12 @@
       }
     },
     {
-      "id": "icon_silk_thread_95",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_silk_thread.svg",
-      "box": {
-        "cx": 305.1748415410519,
-        "cy": 407.7213647078723,
-        "w": 223.5054532927461,
-        "h": 223.5054532927461
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 366.96,
-      "out": 383.7,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t96",
-      "type": "text",
-      "content": "La Ruta de la Seda",
-      "box": {
-        "cx": 453.8457481443882,
-        "cy": 802.3994288168848,
-        "w": 761.1146472394466,
-        "h": 154.6014127205126
-      },
-      "color": "#111111",
-      "size": "md",
-      "z": 60,
-      "in": 366.96,
-      "out": 383.7,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "e97",
+      "id": "e67",
       "type": "text",
       "content": "seda",
       "box": {
-        "cx": 421.9263296364347,
-        "cy": 260.73061605203304,
+        "cx": 1417.0744954339948,
+        "cy": 483.27633737427897,
         "w": 640,
         "h": 130
       },
@@ -2423,7 +1605,7 @@
       "echo": true,
       "z": 60,
       "in": 368.74,
-      "out": 395.06,
+      "out": 383.7,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2434,45 +1616,20 @@
       }
     },
     {
-      "id": "icon_compass_rose_98",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_compass_rose.svg",
-      "box": {
-        "cx": 963.6434812903404,
-        "cy": 433.6853418923914,
-        "w": 306.9408512064256,
-        "h": 306.9408512064256
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 376.92,
-      "out": 395.06,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t99",
+      "id": "t68",
       "type": "text",
       "content": "Inventos que cambiaron el mundo",
       "box": {
-        "cx": 987.1998109996318,
-        "cy": 756.8079979494214,
-        "w": 621.5772889852524,
-        "h": 126.2578868251294
+        "cx": 887.342324924469,
+        "cy": 902.6738690834493,
+        "w": 729.4665700793267,
+        "h": 148.17289704736325
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 376.92,
-      "out": 395.06,
+      "out": 395.42,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2483,12 +1640,12 @@
       }
     },
     {
-      "id": "e100",
+      "id": "e69",
       "type": "text",
       "content": "pólvora",
       "box": {
-        "cx": 1019.3712047265426,
-        "cy": 659.9768462903902,
+        "cx": 1571.6400099095556,
+        "cy": 952,
         "w": 640,
         "h": 130
       },
@@ -2497,7 +1654,7 @@
       "echo": true,
       "z": 60,
       "in": 383.42,
-      "out": 395.06,
+      "out": 395.42,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2508,45 +1665,20 @@
       }
     },
     {
-      "id": "icon_gunpowder_101",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_gunpowder.svg",
-      "box": {
-        "cx": 1592.2804901838304,
-        "cy": 447.8978388827294,
-        "w": 253.67145729158077,
-        "h": 253.67145729158077
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 383.7,
-      "out": 395.06,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t102",
+      "id": "t70",
       "type": "text",
       "content": "Un imperio que mira hacia dentro",
       "box": {
-        "cx": 1481.5835791766644,
-        "cy": 833.0754886504262,
-        "w": 648.7387569844723,
-        "h": 131.77506001247093
+        "cx": 1431.16436753273,
+        "cy": 759.0369600340724,
+        "w": 598.5584176182747,
+        "h": 121.58217857871205
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 383.7,
-      "out": 395.06,
+      "out": 395.42,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2557,31 +1689,7 @@
       }
     },
     {
-      "id": "h103",
-      "type": "shape",
-      "kind": "checkmark",
-      "box": {
-        "cx": 1520,
-        "cy": 435,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 395.42,
-      "out": 396.42,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "badge_104",
+      "id": "badge_71",
       "type": "image",
       "kind": "logo",
       "src": "assets/icons/photo_genghis_khan.jpg",
@@ -2593,14 +1701,14 @@
       },
       "z": 70,
       "in": 395.42,
-      "out": 427.42,
+      "out": 415.78,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
       }
     },
     {
-      "id": "blabel_105",
+      "id": "blabel_72",
       "type": "text",
       "content": "EL IMPERIO MONGOL",
       "structural": true,
@@ -2614,14 +1722,14 @@
       "size": "sm",
       "z": 71,
       "in": 395.52000000000004,
-      "out": 467.72,
+      "out": 467.78,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
       }
     },
     {
-      "id": "title_106",
+      "id": "title_73",
       "type": "title",
       "content": "EL IMPERIO MONGOL",
       "structural": true,
@@ -2637,44 +1745,19 @@
       "underline": true,
       "z": 62,
       "in": 395.42,
-      "out": 467.66,
+      "out": 467.78,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
       }
     },
     {
-      "id": "icon_horse_hoof_107",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_horse_hoof.svg",
-      "box": {
-        "cx": 990.5216043949127,
-        "cy": 380.5856895653531,
-        "w": 298.81625590100884,
-        "h": 298.81625590100884
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 395.42,
-      "out": 443.58,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "e108",
+      "id": "e74",
       "type": "text",
       "content": "extenso",
       "box": {
-        "cx": 1030.0368914123612,
-        "cy": 398.20418980401837,
+        "cx": 1196.1603267898631,
+        "cy": 401.1105589658423,
         "w": 640,
         "h": 130
       },
@@ -2683,7 +1766,7 @@
       "echo": true,
       "z": 60,
       "in": 398.66,
-      "out": 427.42,
+      "out": 415.78,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2694,12 +1777,12 @@
       }
     },
     {
-      "id": "n109",
+      "id": "n75",
       "type": "stat",
       "content": "24",
       "unit": "millones de km²",
       "box": {
-        "cx": 864,
+        "cx": 960,
         "cy": 420,
         "w": 1400,
         "h": 440
@@ -2707,7 +1790,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 401.78,
-      "out": 443.58,
+      "out": 427.42,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -2718,20 +1801,20 @@
       }
     },
     {
-      "id": "t110",
+      "id": "t76",
       "type": "text",
       "content": "El imperio más grande de la historia",
       "box": {
-        "cx": 1019.3898688137531,
-        "cy": 846.7721078045666,
-        "w": 845.6792235374451,
-        "h": 171.77859228104353
+        "cx": 959.0922654747962,
+        "cy": 938.953049178049,
+        "w": 676.1640929281712,
+        "h": 137.34583137603477
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 404.38,
-      "out": 443.58,
+      "out": 428.94,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2742,37 +1825,13 @@
       }
     },
     {
-      "id": "h111",
-      "type": "shape",
-      "kind": "underline",
-      "box": {
-        "cx": 960,
-        "cy": 809,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 404.38,
-      "out": 454.5,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "photo_genghis_khan_112",
+      "id": "photo_genghis_khan_77",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo_genghis_khan.jpg",
       "box": {
-        "cx": 974.199602867961,
-        "cy": 559.4176299500838,
+        "cx": 970.8771925485134,
+        "cy": 555.7287920518964,
         "w": 896,
         "h": 688
       },
@@ -2780,7 +1839,7 @@
       "hero": true,
       "z": 20,
       "in": 415.78,
-      "out": 467.48,
+      "out": 467.78,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -2788,23 +1847,24 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "kenburns": true
     },
     {
-      "id": "t113",
+      "id": "t78",
       "type": "text",
       "content": "El niño que unió las estepas",
       "box": {
-        "cx": 867.6646799504757,
-        "cy": 938.3552411001176,
-        "w": 638.6365387737751,
-        "h": 129.72304693842307
+        "cx": 858.8402068197727,
+        "cy": 856.0714086528867,
+        "w": 680.5402387976648,
+        "h": 138.23473600577566
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 415.78,
-      "out": 467.42,
+      "out": 454.5,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2815,12 +1875,12 @@
       }
     },
     {
-      "id": "e114",
+      "id": "e79",
       "type": "text",
       "content": "Gengis Kan",
       "box": {
-        "cx": 904.5778058373642,
-        "cy": 756.0662065141989,
+        "cx": 858.1232795816474,
+        "cy": 706.2614987644081,
         "w": 640,
         "h": 130
       },
@@ -2829,7 +1889,7 @@
       "echo": true,
       "z": 60,
       "in": 427.42,
-      "out": 467.42,
+      "out": 443.58,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -2840,18 +1900,18 @@
       }
     },
     {
-      "id": "s115",
+      "id": "s80",
       "type": "stickman",
       "pose": "thinking",
       "box": {
-        "cx": 1459.8866061985493,
-        "cy": 735.9053803272545,
-        "w": 316.7475035972893,
-        "h": 454.0047551561147
+        "cx": 1507.927366477251,
+        "cy": 732.9072360023856,
+        "w": 325.4468891629949,
+        "h": 466.4738744669594
       },
       "z": 50,
       "in": 428.94,
-      "out": 467.42,
+      "out": 433.94,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
@@ -2862,44 +1922,20 @@
       }
     },
     {
-      "id": "h116",
-      "type": "shape",
-      "kind": "circle-highlight",
-      "box": {
-        "cx": 960,
-        "cy": 455,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 443.58,
-      "out": 467.42,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "t118",
+      "id": "t82",
       "type": "text",
       "content": "Terror y también progreso",
       "box": {
-        "cx": 958.9017952680588,
-        "cy": 852.1188991628587,
-        "w": 781.8961140811444,
-        "h": 158.82264817273247
+        "cx": 1012.6159692585468,
+        "cy": 776.7836228057743,
+        "w": 626.2134762704372,
+        "h": 127.19961236743256
       },
       "color": "#EE2B37",
       "size": "lg",
       "z": 60,
       "in": 443.58,
-      "out": 467.42,
+      "out": 467.78,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2910,12 +1946,12 @@
       }
     },
     {
-      "id": "e119",
+      "id": "e83",
       "type": "text",
       "content": "Pax Mongólica",
       "box": {
-        "cx": 1125.719693945204,
-        "cy": 328.7255470515388,
+        "cx": 828.9508793147884,
+        "cy": 504.3192298704716,
         "w": 640,
         "h": 130
       },
@@ -2924,7 +1960,7 @@
       "echo": true,
       "z": 60,
       "in": 454.5,
-      "out": 467.42,
+      "out": 467.78,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2935,7 +1971,7 @@
       }
     },
     {
-      "id": "badge_120",
+      "id": "badge_84",
       "type": "image",
       "kind": "logo",
       "src": "assets/icons/photo_hagia_sophia.jpg",
@@ -2947,14 +1983,14 @@
       },
       "z": 70,
       "in": 467.78,
-      "out": 498.06,
+      "out": 490.52,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
       }
     },
     {
-      "id": "blabel_121",
+      "id": "blabel_85",
       "type": "text",
       "content": "EL IMPERIO OTOMANO",
       "structural": true,
@@ -2968,14 +2004,14 @@
       "size": "sm",
       "z": 71,
       "in": 467.88,
-      "out": 541.2,
+      "out": 541.26,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
       }
     },
     {
-      "id": "title_122",
+      "id": "title_86",
       "type": "title",
       "content": "EL IMPERIO OTOMANO",
       "structural": true,
@@ -2991,28 +2027,28 @@
       "underline": true,
       "z": 62,
       "in": 467.78,
-      "out": 541.14,
+      "out": 541.26,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
       }
     },
     {
-      "id": "photo_hagia_sophia_123",
+      "id": "photo_hagia_sophia_87",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo_hagia_sophia.jpg",
       "box": {
-        "cx": 948.0802101695538,
-        "cy": 572.9675988645479,
+        "cx": 960.4018827688694,
+        "cy": 563.6792609084025,
         "w": 896,
         "h": 688
       },
-      "rotate": -1,
+      "rotate": 0,
       "hero": true,
       "z": 20,
       "in": 467.78,
-      "out": 541.08,
+      "out": 541.26,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -3020,47 +2056,24 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "kenburns": true
     },
     {
-      "id": "h124",
-      "type": "shape",
-      "kind": "magnifier",
-      "box": {
-        "cx": 720,
-        "cy": 470,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 467.78,
-      "out": 506.8,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "t125",
+      "id": "t88",
       "type": "text",
       "content": "Constantinopla cae en 1453",
       "box": {
-        "cx": 1469.5294722676276,
-        "cy": 394.6029225859791,
-        "w": 600.7413682937622,
-        "h": 122.02559043467045
+        "cx": 1423.167824614048,
+        "cy": 483.2005373507738,
+        "w": 560.110698133707,
+        "h": 113.77248555840924
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 467.78,
-      "out": 498.06,
+      "out": 490.52,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3071,20 +2084,20 @@
       }
     },
     {
-      "id": "t126",
+      "id": "t89",
       "type": "text",
       "content": "El fin de una era",
       "box": {
-        "cx": 942.7970266699791,
-        "cy": 865.2529719799757,
-        "w": 626.2036818265915,
-        "h": 127.1976228710264
+        "cx": 906.1174344599247,
+        "cy": 859.2571549240499,
+        "w": 719.2983669340612,
+        "h": 146.10748078348118
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 467.78,
-      "out": 506.8,
+      "out": 495.54,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3095,36 +2108,12 @@
       }
     },
     {
-      "id": "h127",
-      "type": "shape",
-      "kind": "cross-out",
-      "box": {
-        "cx": 720,
-        "cy": 470,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 490.52,
-      "out": 517.64,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "e128",
+      "id": "e90",
       "type": "text",
       "content": "600 años",
       "box": {
-        "cx": 791.4184345556201,
-        "cy": 380.2787640667864,
+        "cx": 1117.718066043514,
+        "cy": 389.45327288097866,
         "w": 640,
         "h": 130
       },
@@ -3133,7 +2122,7 @@
       "echo": true,
       "z": 60,
       "in": 495.12,
-      "out": 517.64,
+      "out": 506.8,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3144,19 +2133,44 @@
       }
     },
     {
-      "id": "t129",
+      "id": "t91",
       "type": "text",
       "content": "Jenízaros: soldados de élite",
       "box": {
-        "cx": 511.86575026512145,
-        "cy": 948.3279239624738,
-        "w": 554.4458504319191,
-        "h": 112.62181336898357
+        "cx": 460.25874665975573,
+        "cy": 791.4832633435726,
+        "w": 657.9368343651295,
+        "h": 133.64341948041692
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 495.54,
+      "out": 517.64,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "e92",
+      "type": "text",
+      "content": "jenízaros",
+      "box": {
+        "cx": 1017.9653426694827,
+        "cy": 267.75417266254095,
+        "w": 640,
+        "h": 130
+      },
+      "color": "#111111",
+      "size": "lg",
+      "echo": true,
+      "z": 60,
+      "in": 498.06,
       "out": 519.96,
       "enter": {
         "kind": "handwrite",
@@ -3168,70 +2182,20 @@
       }
     },
     {
-      "id": "e130",
-      "type": "text",
-      "content": "jenízaros",
-      "box": {
-        "cx": 656.4446735535125,
-        "cy": 615.9382625305537,
-        "w": 640,
-        "h": 130
-      },
-      "color": "#111111",
-      "size": "lg",
-      "echo": true,
-      "z": 60,
-      "in": 498.06,
-      "out": 531.98,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "icon_ottoman_crescent_131",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_ottoman_crescent.svg",
-      "box": {
-        "cx": 942.7042923510074,
-        "cy": 469.0359769441187,
-        "w": 218.28414128394797,
-        "h": 218.28414128394797
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 506.8,
-      "out": 540.9,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t132",
+      "id": "t93",
       "type": "text",
       "content": "Tolerancia religiosa calculada",
       "box": {
-        "cx": 1041.2165260434151,
-        "cy": 792.929052997008,
-        "w": 801.0208496153355,
-        "h": 162.70736007811502
+        "cx": 923.4273508965969,
+        "cy": 857.256071260199,
+        "w": 564.8515118658543,
+        "h": 114.73546334775165
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 506.8,
-      "out": 540.9,
+      "out": 541.26,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3242,45 +2206,20 @@
       }
     },
     {
-      "id": "icon_coffee_cup_133",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_coffee_cup.svg",
-      "box": {
-        "cx": 1411.4452963769436,
-        "cy": 385.1301437918097,
-        "w": 182.94587653689086,
-        "h": 182.94587653689086
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 517.64,
-      "out": 540.9,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t134",
+      "id": "t94",
       "type": "text",
       "content": "El café conquista Europa",
       "box": {
-        "cx": 1624.7612657278776,
-        "cy": 859.3383663605898,
-        "w": 843.5392407774925,
-        "h": 171.34390828292817
+        "cx": 1416.6203421354294,
+        "cy": 929.3265366829932,
+        "w": 610.6675617098808,
+        "h": 124.04184847231954
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 517.64,
-      "out": 540.9,
+      "out": 541.26,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3291,12 +2230,12 @@
       }
     },
     {
-      "id": "e135",
+      "id": "e95",
       "type": "text",
       "content": "café",
       "box": {
-        "cx": 1640.6736000666688,
-        "cy": 205.93807360247862,
+        "cx": 853.8535099614965,
+        "cy": 281.1401111002981,
         "w": 640,
         "h": 130
       },
@@ -3305,7 +2244,7 @@
       "echo": true,
       "z": 60,
       "in": 519.96,
-      "out": 540.9,
+      "out": 541.26,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3316,63 +2255,14 @@
       }
     },
     {
-      "id": "h136",
-      "type": "shape",
-      "kind": "checkmark",
-      "box": {
-        "cx": 1520,
-        "cy": 435,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 531.98,
-      "out": 540.9,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "icon_ship_wheel_137",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_ship_wheel.svg",
-      "box": {
-        "cx": 1019.4321630120278,
-        "cy": 380.42352158096617,
-        "w": 298.35291880276054,
-        "h": 298.35291880276054
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 531.98,
-      "out": 540.9,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t138",
+      "id": "t96",
       "type": "text",
       "content": "Sin querer, empujaron a Europa hacia América",
       "box": {
-        "cx": 889.9175897061825,
-        "cy": 840.6677238661796,
-        "w": 758.8702530562878,
-        "h": 154.14552015205845
+        "cx": 1013.8457481443882,
+        "cy": 892.3994288168848,
+        "w": 761.1146472394466,
+        "h": 154.6014127205126
       },
       "color": "#111111",
       "size": "md",
@@ -3389,31 +2279,7 @@
       }
     },
     {
-      "id": "h139",
-      "type": "shape",
-      "kind": "underline",
-      "box": {
-        "cx": 960,
-        "cy": 809,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 541.26,
-      "out": 542.26,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "badge_140",
+      "id": "badge_97",
       "type": "image",
       "kind": "logo",
       "src": "assets/icons/photo_machu_picchu.jpg",
@@ -3425,14 +2291,14 @@
       },
       "z": 70,
       "in": 541.26,
-      "out": 576.32,
+      "out": 567.96,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
       }
     },
     {
-      "id": "blabel_141",
+      "id": "blabel_98",
       "type": "text",
       "content": "EL IMPERIO INCA",
       "structural": true,
@@ -3446,14 +2312,14 @@
       "size": "sm",
       "z": 71,
       "in": 541.36,
-      "out": 616.8,
+      "out": 616.86,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
       }
     },
     {
-      "id": "title_142",
+      "id": "title_99",
       "type": "title",
       "content": "EL IMPERIO INCA",
       "structural": true,
@@ -3469,28 +2335,28 @@
       "underline": true,
       "z": 62,
       "in": 541.26,
-      "out": 616.74,
+      "out": 616.86,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
       }
     },
     {
-      "id": "photo_machu_picchu_143",
+      "id": "photo_machu_picchu_100",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo_machu_picchu.jpg",
       "box": {
-        "cx": 952.2500072264671,
-        "cy": 569.6653930371999,
+        "cx": 954.7017562776804,
+        "cy": 572.3754680690543,
         "w": 896,
         "h": 688
       },
-      "rotate": -1,
+      "rotate": 0,
       "hero": true,
       "z": 20,
       "in": 541.26,
-      "out": 616.68,
+      "out": 616.86,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -3498,17 +2364,18 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "kenburns": true
     },
     {
-      "id": "t144",
+      "id": "t101",
       "type": "text",
       "content": "El imperio de las alturas",
       "box": {
-        "cx": 872.7646114647389,
-        "cy": 917.3500493001193,
-        "w": 657.6540605127811,
-        "h": 133.58598104165867
+        "cx": 859.8188385665417,
+        "cy": 815.5412319842726,
+        "w": 762.8011203110219,
+        "h": 154.94397756317633
       },
       "color": "#EE2B37",
       "size": "lg",
@@ -3525,12 +2392,12 @@
       }
     },
     {
-      "id": "e145",
+      "id": "e102",
       "type": "text",
       "content": "inca",
       "box": {
-        "cx": 900.5135620934593,
-        "cy": 288.4185034643775,
+        "cx": 1014.8160959976785,
+        "cy": 244.98558789731777,
         "w": 640,
         "h": 130
       },
@@ -3550,90 +2417,43 @@
       }
     },
     {
-      "id": "s146",
-      "type": "stickman",
-      "pose": "pointing-right",
-      "box": {
-        "cx": 448.3495309948921,
-        "cy": 735.8520647399127,
-        "w": 333.3233682671562,
-        "h": 477.7634945162572
-      },
-      "z": 50,
-      "in": 552.88,
-      "out": 585.86,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "h147",
-      "type": "shape",
-      "kind": "circle-highlight",
-      "box": {
-        "cx": 960,
-        "cy": 455,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 567.96,
-      "out": 585.86,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "icon_terrace_farming_148",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_terrace_farming.svg",
-      "box": {
-        "cx": 339.2956761419773,
-        "cy": 385.7039938174188,
-        "w": 223.42819365346807,
-        "h": 223.42819365346807
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 567.96,
-      "out": 591.2,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t149",
+      "id": "t104",
       "type": "text",
       "content": "Terrazas que domaron la montaña",
       "box": {
-        "cx": 376.3485886096954,
-        "cy": 796.4045839946717,
-        "w": 812.3086525797845,
-        "h": 165.00019505526873
+        "cx": 513.4691374778747,
+        "cy": 717.6348584350199,
+        "w": 627.0202310085297,
+        "h": 127.36348442360759
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 567.96,
+      "out": 585.86,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "t105",
+      "type": "text",
+      "content": "Quipus: nudos que contaban historias",
+      "box": {
+        "cx": 996.6397327065467,
+        "cy": 800.14561817348,
+        "w": 511.5574550628662,
+        "h": 103.9101080596447
+      },
+      "color": "#111111",
+      "size": "md",
+      "z": 60,
+      "in": 576.32,
       "out": 591.2,
       "enter": {
         "kind": "handwrite",
@@ -3645,61 +2465,12 @@
       }
     },
     {
-      "id": "icon_quipu_150",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_quipu.svg",
-      "box": {
-        "cx": 1065.0898405551911,
-        "cy": 443.2830380234867,
-        "w": 264.6015368462541,
-        "h": 264.6015368462541
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 576.32,
-      "out": 596.2,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t151",
-      "type": "text",
-      "content": "Quipus: nudos que contaban historias",
-      "box": {
-        "cx": 1020.9214714407921,
-        "cy": 786.0316920984536,
-        "w": 524.2843906581402,
-        "h": 106.49526685243472
-      },
-      "color": "#111111",
-      "size": "md",
-      "z": 60,
-      "in": 576.32,
-      "out": 596.2,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "e152",
+      "id": "e106",
       "type": "text",
       "content": "quipus",
       "box": {
-        "cx": 1012.3151293094434,
-        "cy": 267.7892632385168,
+        "cx": 180,
+        "cy": 809.2643904780609,
         "w": 640,
         "h": 130
       },
@@ -3719,45 +2490,20 @@
       }
     },
     {
-      "id": "icon_llama_153",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_llama.svg",
-      "box": {
-        "cx": 1411.947850883007,
-        "cy": 450.1918815996498,
-        "w": 185.61448485357687,
-        "h": 185.61448485357687
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 585.86,
-      "out": 610.82,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t154",
+      "id": "t107",
       "type": "text",
       "content": "Llamas: el camión de los Andes",
       "box": {
-        "cx": 1457.413824403286,
-        "cy": 854.9394534394145,
-        "w": 580.1906723678112,
-        "h": 117.85123032471166
+        "cx": 1520.4509135603905,
+        "cy": 874.4893445331603,
+        "w": 679.2304593622686,
+        "h": 137.9686870579608
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 585.86,
-      "out": 614.84,
+      "out": 610.82,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3768,12 +2514,12 @@
       }
     },
     {
-      "id": "e155",
+      "id": "e108",
       "type": "text",
       "content": "llamas",
       "box": {
-        "cx": 1552.567531585392,
-        "cy": 253.47204069597996,
+        "cx": 443.67762025557334,
+        "cy": 942.8659090187484,
         "w": 640,
         "h": 130
       },
@@ -3782,7 +2528,7 @@
       "echo": true,
       "z": 60,
       "in": 591.2,
-      "out": 616.5,
+      "out": 616.86,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3793,91 +2539,20 @@
       }
     },
     {
-      "id": "h156",
-      "type": "shape",
-      "kind": "checkmark",
-      "box": {
-        "cx": 1520,
-        "cy": 435,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 596.2,
-      "out": 616.5,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "s157",
-      "type": "stickman",
-      "pose": "shrug",
-      "box": {
-        "cx": 455.2320158839226,
-        "cy": 617.7628166552634,
-        "w": 308.7679038243368,
-        "h": 442.56732881488284
-      },
-      "z": 50,
-      "in": 596.2,
-      "out": 616.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "icon_conquest_sword_158",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_conquest_sword.svg",
-      "box": {
-        "cx": 1094.7308478713035,
-        "cy": 483.02260887399314,
-        "w": 185.0461610541679,
-        "h": 185.0461610541679
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 596.2,
-      "out": 616.5,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t159",
+      "id": "t110",
       "type": "text",
       "content": "Un imperio derrumbado en años",
       "box": {
-        "cx": 1313.6607957422734,
-        "cy": 756.7815021816641,
-        "w": 511.76515701413155,
-        "h": 103.95229751849547
+        "cx": 1259.389868813753,
+        "cy": 778.7721078045666,
+        "w": 845.6792235374451,
+        "h": 171.77859228104353
       },
       "color": "#EE2B37",
       "size": "lg",
       "z": 60,
       "in": 596.2,
-      "out": 616.5,
+      "out": 616.86,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3888,36 +2563,12 @@
       }
     },
     {
-      "id": "h160",
-      "type": "shape",
-      "kind": "cross-out",
-      "box": {
-        "cx": 1200,
-        "cy": 450,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 610.82,
-      "out": 616.5,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "e161",
+      "id": "e111",
       "type": "text",
       "content": "desapareció",
       "box": {
-        "cx": 972.1018589367652,
-        "cy": 623.7629474097686,
+        "cx": 367.55509237357967,
+        "cy": 332.56201521779275,
         "w": 640,
         "h": 130
       },
@@ -3926,7 +2577,7 @@
       "echo": true,
       "z": 60,
       "in": 614.84,
-      "out": 616.5,
+      "out": 616.86,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3937,47 +2588,7 @@
       }
     },
     {
-      "id": "badge_162",
-      "type": "image",
-      "kind": "logo",
-      "src": "assets/icons/icon_caravel_ship.svg",
-      "box": {
-        "cx": 190,
-        "cy": -82,
-        "w": 280,
-        "h": 150
-      },
-      "z": 70,
-      "in": 616.86,
-      "out": 646.72,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.4
-      }
-    },
-    {
-      "id": "blabel_163",
-      "type": "text",
-      "content": "EL IMPERIO ESPAÑOL",
-      "structural": true,
-      "box": {
-        "cx": 190,
-        "cy": 205,
-        "w": 300,
-        "h": 70
-      },
-      "color": "#111111",
-      "size": "sm",
-      "z": 71,
-      "in": 616.96,
-      "out": 664.06,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "title_164",
+      "id": "title_112",
       "type": "title",
       "content": "EL IMPERIO ESPAÑOL",
       "structural": true,
@@ -3993,46 +2604,21 @@
       "underline": true,
       "z": 62,
       "in": 616.86,
-      "out": 664,
+      "out": 664.12,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
       }
     },
     {
-      "id": "icon_caravel_ship_165",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_caravel_ship.svg",
-      "box": {
-        "cx": 609.1442228913307,
-        "cy": 440.0651494815946,
-        "w": 246.40191919589418,
-        "h": 246.40191919589418
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 616.86,
-      "out": 646.72,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t166",
+      "id": "t113",
       "type": "text",
       "content": "Tres carabelas cambian todo",
       "box": {
-        "cx": 665.0226960659027,
-        "cy": 922.1347132425756,
-        "w": 520.1859523952007,
-        "h": 105.66277158027515
+        "cx": 467.6646799504757,
+        "cy": 893.3552411001176,
+        "w": 638.6365387737751,
+        "h": 129.72304693842307
       },
       "color": "#111111",
       "size": "md",
@@ -4049,12 +2635,12 @@
       }
     },
     {
-      "id": "e167",
+      "id": "e114",
       "type": "text",
       "content": "descubrieron",
       "box": {
-        "cx": 400.26154659503777,
-        "cy": 301.57560529238515,
+        "cx": 890.3782029694032,
+        "cy": 768.6485765641153,
         "w": 640,
         "h": 130
       },
@@ -4074,64 +2660,14 @@
       }
     },
     {
-      "id": "a168",
-      "type": "arrow",
-      "a": {
-        "x": 892,
-        "y": 450
-      },
-      "b": {
-        "x": 1028,
-        "y": 450
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 629.22,
-      "out": 663.88,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.2
-      }
-    },
-    {
-      "id": "icon_silver_coin_169",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_silver_coin.svg",
-      "box": {
-        "cx": 1271.2502224683763,
-        "cy": 497.9661589600146,
-        "w": 246.45893091615287,
-        "h": 246.45893091615287
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 629.22,
-      "out": 646.72,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t170",
+      "id": "t115",
       "type": "text",
       "content": "Ríos de plata americana",
       "box": {
-        "cx": 1454.6721191227437,
-        "cy": 893.6323414355517,
-        "w": 592.3641143739223,
-        "h": 120.32396073220298
+        "cx": 1326.3915180683136,
+        "cy": 926.717521577701,
+        "w": 763.6744266450405,
+        "h": 155.12136791227385
       },
       "color": "#111111",
       "size": "md",
@@ -4148,63 +2684,14 @@
       }
     },
     {
-      "id": "h171",
-      "type": "shape",
-      "kind": "circle-highlight",
-      "box": {
-        "cx": 1360,
-        "cy": 450,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 642.12,
-      "out": 646.72,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "icon_spanish_language_172",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_spanish_language.svg",
-      "box": {
-        "cx": 542.4541824042797,
-        "cy": 396.49977614730597,
-        "w": 229.15651712100953,
-        "h": 229.15651712100953
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 646.72,
-      "out": 648.98,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t173",
+      "id": "t116",
       "type": "text",
       "content": "500 millones hablan español",
       "box": {
-        "cx": 715.8662708699703,
-        "cy": 552.9331736959517,
-        "w": 720.1744427382947,
-        "h": 146.28543368121612
+        "cx": 717.0523528695106,
+        "cy": 579.3426010292023,
+        "w": 736.8028279244901,
+        "h": 149.66307442216205
       },
       "color": "#111111",
       "size": "md",
@@ -4221,45 +2708,20 @@
       }
     },
     {
-      "id": "icon_church_174",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_church.svg",
-      "box": {
-        "cx": 1332.1780590593814,
-        "cy": 310.9356234766543,
-        "w": 179.40259487600997,
-        "h": 179.40259487600997
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 646.72,
-      "out": 663.76,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t175",
+      "id": "t117",
       "type": "text",
       "content": "Religión y arquitectura",
       "box": {
-        "cx": 1309.1679564416409,
-        "cy": 539.3518681522459,
-        "w": 504.92268615961075,
-        "h": 102.56242062617093
+        "cx": 1236.8890227973461,
+        "cy": 499.4635273247957,
+        "w": 580.825102776289,
+        "h": 117.9800990014337
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 646.72,
-      "out": 663.76,
+      "out": 664.12,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4270,45 +2732,20 @@
       }
     },
     {
-      "id": "icon_treaty_line_176",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_treaty_line.svg",
-      "box": {
-        "cx": 612.4537212371827,
-        "cy": 802.5399163022637,
-        "w": 188.74652023427188,
-        "h": 188.74652023427188
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 646.72,
-      "out": 663.76,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t177",
+      "id": "t118",
       "type": "text",
       "content": "Fronteras que aún existen",
       "box": {
-        "cx": 708.6081735253334,
-        "cy": 931.2802187044174,
-        "w": 501.38563746213913,
-        "h": 101.84395760949701
+        "cx": 618.9017952680588,
+        "cy": 941.1188991628587,
+        "w": 781.8961140811444,
+        "h": 158.82264817273247
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 646.72,
-      "out": 663.76,
+      "out": 664.12,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4319,45 +2756,20 @@
       }
     },
     {
-      "id": "icon_cultural_mix_178",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_cultural_mix.svg",
-      "box": {
-        "cx": 1379.776730942726,
-        "cy": 771.2536012995988,
-        "w": 254.57915706653148,
-        "h": 254.57915706653148
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 646.72,
-      "out": 663.76,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t179",
+      "id": "t119",
       "type": "text",
       "content": "Culturas mestizas nuevas",
       "box": {
-        "cx": 1255.0024991750718,
-        "cy": 939.3119780667126,
-        "w": 645.7710899412632,
-        "h": 131.1722526443191
+        "cx": 1317.3186718642712,
+        "cy": 927.0535199623555,
+        "w": 668.3958360850812,
+        "h": 135.76790420478213
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 646.72,
-      "out": 663.76,
+      "out": 664.12,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4368,12 +2780,12 @@
       }
     },
     {
-      "id": "e180",
+      "id": "e120",
       "type": "text",
       "content": "español",
       "box": {
-        "cx": 1286.7533022293662,
-        "cy": 852.0012740410151,
+        "cx": 738.9777778147068,
+        "cy": 540.5269323973698,
         "w": 640,
         "h": 130
       },
@@ -4382,7 +2794,7 @@
       "echo": true,
       "z": 60,
       "in": 648.98,
-      "out": 663.76,
+      "out": 664.12,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4393,31 +2805,7 @@
       }
     },
     {
-      "id": "h181",
-      "type": "shape",
-      "kind": "underline",
-      "box": {
-        "cx": 620,
-        "cy": 398,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 654.4,
-      "out": 663.76,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "badge_182",
+      "id": "badge_121",
       "type": "image",
       "kind": "logo",
       "src": "assets/icons/photo_big_ben.jpg",
@@ -4429,14 +2817,14 @@
       },
       "z": 70,
       "in": 664.12,
-      "out": 684.1,
+      "out": 674.64,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
       }
     },
     {
-      "id": "blabel_183",
+      "id": "blabel_122",
       "type": "text",
       "content": "EL IMPERIO BRITÁNICO",
       "structural": true,
@@ -4450,14 +2838,14 @@
       "size": "sm",
       "z": 71,
       "in": 664.22,
-      "out": 719.86,
+      "out": 719.92,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
       }
     },
     {
-      "id": "title_184",
+      "id": "title_123",
       "type": "title",
       "content": "EL IMPERIO BRITÁNICO",
       "structural": true,
@@ -4473,20 +2861,20 @@
       "underline": true,
       "z": 62,
       "in": 664.12,
-      "out": 719.8,
+      "out": 719.92,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
       }
     },
     {
-      "id": "photo_big_ben_185",
+      "id": "photo_big_ben_124",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo_big_ben.jpg",
       "box": {
-        "cx": 980.3683335363864,
-        "cy": 561.7462704508007,
+        "cx": 978.8689763903618,
+        "cy": 560.4616769658774,
         "w": 896,
         "h": 688
       },
@@ -4494,7 +2882,7 @@
       "hero": true,
       "z": 20,
       "in": 664.12,
-      "out": 719.74,
+      "out": 719.92,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -4502,23 +2890,24 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "kenburns": true
     },
     {
-      "id": "t186",
+      "id": "t125",
       "type": "text",
       "content": "Donde no se ponía el sol",
       "box": {
-        "cx": 1034.5611368358136,
-        "cy": 247.7813114721328,
-        "w": 536.0501971542835,
-        "h": 108.88519629696384
+        "cx": 929.5294722676277,
+        "cy": 248.60292258597912,
+        "w": 600.7413682937622,
+        "h": 122.02559043467045
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 664.12,
-      "out": 690,
+      "out": 684.1,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4529,20 +2918,20 @@
       }
     },
     {
-      "id": "t187",
+      "id": "t126",
       "type": "text",
       "content": "Una isla gobernó el planeta",
       "box": {
-        "cx": 1023.7100489079952,
-        "cy": 929.2051589790732,
-        "w": 516.0498806834221,
-        "h": 104.82263201382011
+        "cx": 942.7970266699791,
+        "cy": 890.2529719799757,
+        "w": 626.2036818265915,
+        "h": 127.1976228710264
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 664.12,
-      "out": 690,
+      "out": 697.06,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4553,36 +2942,12 @@
       }
     },
     {
-      "id": "h188",
-      "type": "shape",
-      "kind": "circle-highlight",
-      "box": {
-        "cx": 960,
-        "cy": 470,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 672.34,
-      "out": 697.06,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "e189",
+      "id": "e127",
       "type": "text",
       "content": "Compañía de las Indias Orientales",
       "box": {
-        "cx": 1276.2714613118014,
-        "cy": 566.8835326968385,
+        "cx": 772.0688149212605,
+        "cy": 548.1453934663912,
         "w": 640,
         "h": 130
       },
@@ -4591,7 +2956,7 @@
       "echo": true,
       "z": 60,
       "in": 674.64,
-      "out": 697.06,
+      "out": 690,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -4602,60 +2967,13 @@
       }
     },
     {
-      "id": "s190",
-      "type": "stickman",
-      "pose": "pointing-left",
-      "box": {
-        "cx": 1593.1821532964707,
-        "cy": 736.3952003967017,
-        "w": 262.64105970505625,
-        "h": 376.4521855772473
-      },
-      "z": 50,
-      "in": 682.82,
-      "out": 697.06,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "icon_union_jack_191",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_union_jack.svg",
-      "box": {
-        "cx": 963.3594517171383,
-        "cy": 311.70485319010913,
-        "w": 173.66930966824293,
-        "h": 173.66930966824293
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 682.82,
-      "out": 697.06,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "n192",
+      "id": "n129",
       "type": "stat",
       "content": "23%",
       "unit": "de la superficie terrestre",
       "box": {
         "cx": 960,
-        "cy": 420,
+        "cy": 396,
         "w": 1400,
         "h": 440
       },
@@ -4673,20 +2991,20 @@
       }
     },
     {
-      "id": "t193",
+      "id": "t130",
       "type": "text",
       "content": "El imperio más grande jamás visto",
       "box": {
-        "cx": 888.0110708713531,
-        "cy": 936.9030792191625,
-        "w": 673.6190643310547,
-        "h": 136.82887244224548
+        "cx": 893.7999019145966,
+        "cy": 828.7999410953373,
+        "w": 727.5867463052273,
+        "h": 147.7910578432493
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 690,
-      "out": 712.74,
+      "out": 705.46,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4697,116 +3015,20 @@
       }
     },
     {
-      "id": "h194",
-      "type": "shape",
-      "kind": "underline",
-      "box": {
-        "cx": 960,
-        "cy": 809,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 690,
-      "out": 718.5,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "icon_railway_195",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_railway.svg",
-      "box": {
-        "cx": 542.3046697378159,
-        "cy": 823.2264731127768,
-        "w": 294.11659840308135,
-        "h": 294.11659840308135
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 697.06,
-      "out": 719.56,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "s196",
-      "type": "stickman",
-      "pose": "angry",
-      "box": {
-        "cx": 256.4351694047451,
-        "cy": 508.9602314591408,
-        "w": 323.4160804236308,
-        "h": 463.56304860720405
-      },
-      "z": 50,
-      "in": 697.06,
-      "out": 719.56,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "icon_broken_chain_197",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_broken_chain.svg",
-      "box": {
-        "cx": 1156.683408343792,
-        "cy": 459.64124848991634,
-        "w": 210.6365265129134,
-        "h": 210.6365265129134
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 697.06,
-      "out": 719.56,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t198",
+      "id": "t132",
       "type": "text",
       "content": "Las colonias piden libertad",
       "box": {
-        "cx": 1107.3286765158177,
-        "cy": 839.8786400869488,
-        "w": 661.537933409214,
-        "h": 134.3748927237466
+        "cx": 1233.2165260434151,
+        "cy": 910.929052997008,
+        "w": 801.0208496153355,
+        "h": 162.70736007811502
       },
       "color": "#EE2B37",
       "size": "lg",
       "z": 60,
       "in": 697.06,
-      "out": 719.56,
+      "out": 719.92,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4817,12 +3039,12 @@
       }
     },
     {
-      "id": "e199",
+      "id": "e133",
       "type": "text",
       "content": "independencia",
       "box": {
-        "cx": 1436.6046419120555,
-        "cy": 637.3088053268177,
+        "cx": 530.0626728688302,
+        "cy": 316.15179010049894,
         "w": 640,
         "h": 130
       },
@@ -4831,7 +3053,7 @@
       "echo": true,
       "z": 60,
       "in": 705.3,
-      "out": 719.56,
+      "out": 708.86,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -4842,36 +3064,12 @@
       }
     },
     {
-      "id": "h200",
-      "type": "shape",
-      "kind": "cross-out",
-      "box": {
-        "cx": 1200,
-        "cy": 450,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 712.74,
-      "out": 719.56,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "e201",
+      "id": "e134",
       "type": "text",
       "content": "desmoronó",
       "box": {
-        "cx": 987.5113450732653,
-        "cy": 338.8533429581989,
+        "cx": 632.4006229300076,
+        "cy": 798.3606290506975,
         "w": 640,
         "h": 130
       },
@@ -4880,7 +3078,7 @@
       "echo": true,
       "z": 60,
       "in": 718.5,
-      "out": 719.56,
+      "out": 719.92,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4891,47 +3089,7 @@
       }
     },
     {
-      "id": "badge_202",
-      "type": "image",
-      "kind": "logo",
-      "src": "assets/icons/icon_legacy_book.svg",
-      "box": {
-        "cx": 190,
-        "cy": -82,
-        "w": 280,
-        "h": 150
-      },
-      "z": 70,
-      "in": 719.92,
-      "out": 747.66,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.4
-      }
-    },
-    {
-      "id": "blabel_203",
-      "type": "text",
-      "content": "¿QUÉ NOS DEJARON?",
-      "structural": true,
-      "box": {
-        "cx": 190,
-        "cy": 205,
-        "w": 300,
-        "h": 70
-      },
-      "color": "#111111",
-      "size": "sm",
-      "z": 71,
-      "in": 720.02,
-      "out": 784.32,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "title_204",
+      "id": "title_135",
       "type": "title",
       "content": "¿QUÉ NOS DEJARON?",
       "structural": true,
@@ -4947,52 +3105,27 @@
       "underline": true,
       "z": 62,
       "in": 719.92,
-      "out": 784.26,
+      "out": 784.38,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
       }
     },
     {
-      "id": "icon_legacy_book_205",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_legacy_book.svg",
-      "box": {
-        "cx": 432.17740653157233,
-        "cy": 416.8544660165906,
-        "w": 303.46467253239825,
-        "h": 303.46467253239825
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 719.92,
-      "out": 747.66,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t206",
+      "id": "t136",
       "type": "text",
       "content": "Idiomas que hoy hablamos",
       "box": {
-        "cx": 366.3566311657429,
-        "cy": 874.6102752827107,
-        "w": 551.0408691465855,
-        "h": 111.93017654540017
+        "cx": 362.6198204815388,
+        "cy": 760.0709546368569,
+        "w": 846.5132249593735,
+        "h": 171.94799881987274
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 719.92,
-      "out": 752.7,
+      "out": 738.54,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5003,45 +3136,20 @@
       }
     },
     {
-      "id": "icon_justice_scale_207",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_justice_scale.svg",
-      "box": {
-        "cx": 1019.6586904764175,
-        "cy": 449.5645164750516,
-        "w": 257.35796823492274,
-        "h": 257.35796823492274
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 728.86,
-      "out": 757.02,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t208",
+      "id": "t137",
       "type": "text",
       "content": "Leyes y fronteras actuales",
       "box": {
-        "cx": 1074.005066549778,
-        "cy": 870.441664942354,
-        "w": 811.5229825079441,
-        "h": 164.84060582192615
+        "cx": 926.8936665952206,
+        "cy": 797.0125207092613,
+        "w": 555.8814237713814,
+        "h": 112.91341420356184
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 728.86,
-      "out": 757.02,
+      "out": 752.1,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5052,45 +3160,20 @@
       }
     },
     {
-      "id": "icon_trade_routes_209",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_trade_routes.svg",
-      "box": {
-        "cx": 1472.5553205490112,
-        "cy": 384.90331493765115,
-        "w": 253.20515736378732,
-        "h": 253.20515736378732
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 738.54,
-      "out": 767.36,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t210",
+      "id": "t138",
       "type": "text",
       "content": "Rutas que conectan el mundo",
       "box": {
-        "cx": 1579.4661918759346,
-        "cy": 780.1585250109434,
-        "w": 668.7710340321064,
-        "h": 135.8441162877716
+        "cx": 1449.9175897061825,
+        "cy": 726.6677238661796,
+        "w": 758.8702530562878,
+        "h": 154.14552015205845
       },
       "color": "#111111",
       "size": "md",
       "z": 60,
       "in": 738.54,
-      "out": 784.02,
+      "out": 767.36,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5101,69 +3184,20 @@
       }
     },
     {
-      "id": "h211",
-      "type": "shape",
-      "kind": "checkmark",
-      "box": {
-        "cx": 1520,
-        "cy": 435,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 747.66,
-      "out": 784.02,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "icon_subscribe_bell_212",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_subscribe_bell.svg",
-      "box": {
-        "cx": 1049.253163844347,
-        "cy": 324.0016443099827,
-        "w": 221.0262045557611,
-        "h": 221.0262045557611
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 747.66,
-      "out": 784.02,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t213",
+      "id": "t139",
       "type": "text",
       "content": "Todo imperio cae, nada se olvida",
       "box": {
-        "cx": 1056.555147331953,
-        "cy": 504.69331802725793,
-        "w": 508.7134394645691,
-        "h": 103.3324173912406
+        "cx": 899.8197946429252,
+        "cy": 474.370992545411,
+        "w": 494.4328215122223,
+        "h": 100.43166686967015
       },
       "color": "#EE2B37",
       "size": "lg",
       "z": 60,
       "in": 747.66,
-      "out": 784.02,
+      "out": 757.28,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5174,12 +3208,12 @@
       }
     },
     {
-      "id": "e214",
+      "id": "e140",
       "type": "text",
       "content": "crecieron",
       "box": {
-        "cx": 946.7993844633598,
-        "cy": 409.7886153397078,
+        "cx": 750.1393798592804,
+        "cy": 298.4616920547312,
         "w": 640,
         "h": 130
       },
@@ -5188,7 +3222,7 @@
       "echo": true,
       "z": 60,
       "in": 752.7,
-      "out": 784.02,
+      "out": 774.96,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -5199,12 +3233,12 @@
       }
     },
     {
-      "id": "e215",
+      "id": "e141",
       "type": "text",
       "content": "cayeron",
       "box": {
-        "cx": 843.9045271718534,
-        "cy": 311.59432195416116,
+        "cx": 643.9776138326231,
+        "cy": 580.4255912234756,
         "w": 640,
         "h": 130
       },
@@ -5213,56 +3247,10 @@
       "echo": true,
       "z": 60,
       "in": 757.02,
-      "out": 784.02,
+      "out": 784.38,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "s216",
-      "type": "stickman",
-      "pose": "cheer",
-      "box": {
-        "cx": 452.69716376662257,
-        "cy": 760.5048368547111,
-        "w": 301.91187168471515,
-        "h": 432.7403494147584
-      },
-      "z": 50,
-      "in": 757.28,
-      "out": 784.02,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "h217",
-      "type": "shape",
-      "kind": "box",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 380,
-        "h": 340
-      },
-      "_len": 2704,
-      "color": "#EE2B37",
-      "z": 30,
-      "in": 767.36,
-      "out": 784.02,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
       },
       "exit": {
         "kind": "fade-out",

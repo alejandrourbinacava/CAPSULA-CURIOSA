@@ -1,6 +1,7 @@
 ---
 title: "Cada Imperio que Dominó el Mundo"
 voice: "tony"
+contentType: historical
 ---
 [[section: "IMPERIOS QUE DOMINARON EL MUNDO", badge=icon_world_globe]]
 [[beat: title-card]]

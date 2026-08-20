@@ -48,9 +48,9 @@ for (const fr of frames) {
     const ia = interArea(images[i].bbox, images[j].bbox), minA = Math.min(area(images[i].bbox), area(images[j].bbox));
     if (minA > 0 && ia / minA > 0.35) fails.push({ t: fr.t, kind: "img-img", msg: `Solapamiento imagen-imagen ${(ia / minA * 100).toFixed(0)}% (>35%): "${images[i].id}" / "${images[j].id}"` });
   }
-  // 6) total simultáneos > 8 (sin contar navegación fija: título, badge, marca de agua)
+  // 6) total simultáneos > 4 (sin contar navegación fija: título, badge, marca de agua)
   const dyn = els.filter(e => !e.structural).length;
-  if (dyn > 8) fails.push({ t: fr.t, kind: "total", msg: `${dyn} elementos dinámicos simultáneos (máximo 8)` });
+  if (dyn > 4) fails.push({ t: fr.t, kind: "total", msg: `${dyn} elementos dinámicos simultáneos (máximo 4)` });
 }
 
 // --- informe ---

@@ -159,6 +159,7 @@ const Element: React.FC<{ el: El }> = ({ el }) => {
   }
 
   const rot = el.rotate || 0;
+  if ((el as any).kenburns) scale *= 1 + 0.08 * clamp01((t - el.in) / Math.max(0.1, el.out - el.in)); // zoom lento Ken Burns (protagonista no congelado)
   const common: React.CSSProperties = { position: "absolute", left: box.cx, top: box.cy, zIndex: z, transform: `translate(-50%,-50%) translate(${tx}px,${ty}px) rotate(${rot}deg) scale(${scale})`, opacity, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: box.w, height: box.h };
 
   if (el.type === "text") {

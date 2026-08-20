@@ -15,9 +15,10 @@ const J = PROFILE.jitter || { position: 0.06, scale: [0.75, 1.35], rotation: 3 }
 const W = 1920, H = 1080;
 
 const raw = fs.readFileSync(path.join(dir, "script.md"), "utf8");
-let title = "Episodio", body = raw;
+let title = "Episodio", body = raw, contentType = "conceptual";
 const fm = raw.match(/^---\n([\s\S]*?)\n---\n?/);
-if (fm) { const mt = fm[1].match(/title:\s*"?(.+?)"?\s*$/m); if (mt) title = mt[1]; body = raw.slice(fm[0].length); }
+if (fm) { const mt = fm[1].match(/title:\s*"?(.+?)"?\s*$/m); if (mt) title = mt[1]; const ct = fm[1].match(/contentType:\s*(\w+)/); if (ct) contentType = ct[1]; body = raw.slice(fm[0].length); }
+const HISTORICAL = contentType === "historical";
 
 const assets = fs.existsSync(path.join(dir, "assets.json")) ? JSON.parse(fs.readFileSync(path.join(dir, "assets.json"), "utf8")) : {};
 const assetFile = (id) => { const f = assets[id]?.file; if (f && fs.existsSync(path.join("public", f))) return f; const g = `assets/icons/${id}.svg`; return fs.existsSync(path.join("public", g)) ? g : null; };
@@ -49,6 +50,14 @@ if (fs.existsSync(path.join(dir, "words.json"))) words = JSON.parse(fs.readFileS
 const meta = { fps: 30, width: W, height: H, duration: 0, audio: "active/audio.mp3", title, profile: PROFILE.name };
 if (words.length) meta.duration = Math.max(...words.map(w => w.end)) + 0.6; else meta.duration = cleanWords.length / 2.6 + 0.6;
 const timeOf = (i) => { if (words.length) { const w = words[Math.min(i, words.length - 1)]; return w ? w.start : meta.duration; } return Math.min(i / cleanWords.length * (meta.duration - 0.6), meta.duration - 0.6); };
+
+// --- FRASES: unidad de composición (VERIFICACION). Segmenta por . ? ! y saltos de línea ---
+const phraseTexts = prose.replace(/\*\*|==/g, "").split(/(?<=[.?!…])\s+|\n+/).map(s => s.trim()).filter(Boolean);
+const phrases = []; { let acc = 0; for (const pt of phraseTexts) { const n = pt.split(/\s+/).filter(Boolean).length || 1; phrases.push({ wStart: acc, wEnd: acc + n, text: pt, t0: +timeOf(acc).toFixed(2) }); acc += n; } }
+const phraseIdxOf = (wi) => { for (let i = phrases.length - 1; i >= 0; i--) if (wi >= phrases[i].wStart) return i; return 0; };
+const phraseIdxOfTime = (t) => { let idx = 0; for (let i = 0; i < phrases.length; i++) if (phrases[i].t0 <= t + 0.01) idx = i; return idx; };
+const phraseTime = (idx) => idx >= phrases.length ? meta.duration : phrases[Math.max(0, idx)].t0;
+const fmtSec = (t) => `${String(Math.floor(t / 60)).padStart(2, "0")}:${String(Math.floor(t % 60)).padStart(2, "0")}`;
 
 // --- SECCIONES: frontera = [[section]] o [[clear]] ---
 const sections = []; let cur = null;
@@ -105,10 +114,15 @@ for (const sec of sections) {
     return { box: { cx, cy, w: nw * sc, h: nh * sc } };
   };
 
-  // badge de capítulo + etiqueta + título subrayado
-  if (sec.badge && assetFile(sec.badge)) elements.push({ id: "badge_" + autoId++, type: "image", kind: "logo", src: assetFile(sec.badge), box: boxOf("x", "corner-badge"), z: 70, in: sec.t0, out: secEnd, enter: { kind: "fade-in", duration: 0.4 } });
+  // badge de capítulo. historical: si el badge es un ICONO, se usa la 1ª FOTO de la sección; si no hay, sin badge.
+  let badgeId = sec.badge;
+  if (HISTORICAL && badgeId && /vector|icon/.test(assets[badgeId]?.kind || "")) {
+    const photoTag = sec.tags.map(t => t.raw).find(r => /^show:/.test(r) && /cutout|photo|screenshot|archive/.test(assets[r.replace(/^show:?\s*/, "").split(/[@\s,]/)[0].trim()]?.kind || ""));
+    badgeId = photoTag ? photoTag.replace(/^show:?\s*/, "").split(/[@\s,]/)[0].trim() : null;
+  }
+  if (badgeId && assetFile(badgeId)) elements.push({ id: "badge_" + autoId++, type: "image", kind: "logo", src: assetFile(badgeId), box: boxOf("x", "corner-badge"), z: 70, in: sec.t0, out: secEnd, enter: { kind: "fade-in", duration: 0.4 } });
   if (sec.label) {
-    if (sec.badge) elements.push({ id: "blabel_" + autoId++, type: "text", content: sec.label, structural: true, box: { cx: 190, cy: 205, w: 300, h: 70 }, color: STROKE, size: "sm", z: 71, in: sec.t0 + 0.1, out: secEnd, enter: { kind: "fade-in", duration: 0.3 } });
+    if (badgeId) elements.push({ id: "blabel_" + autoId++, type: "text", content: sec.label, structural: true, box: { cx: 190, cy: 205, w: 300, h: 70 }, color: STROKE, size: "sm", z: 71, in: sec.t0 + 0.1, out: secEnd, enter: { kind: "fade-in", duration: 0.3 } });
     const titleFs = Math.min(96, Math.floor(1200 / Math.max(1, (sec.label || "").length * 0.6))); // cabe en la zona del título
     elements.push({ id: "title_" + autoId++, type: "title", content: sec.label, structural: true, fontSize: titleFs, box: { cx: 960, cy: 120, w: 1240, h: 150 }, color: STROKE, size: "title", underline: true, z: 62, in: sec.t0, out: secEnd, enter: { kind: "handwrite", duration: 0.6 } });
   }
@@ -137,6 +151,7 @@ for (const sec of sections) {
     }
     const s = ev.raw, v = verbOf(s), t = ev.t, slot = slotIn(s);
     if (v === "hide") continue;
+    if (HISTORICAL && (v === "shape" || v === "arrow")) continue; // historical: nada de flechas/marcas decorativas (quedan huérfanas sin iconos)
     if (slot && !slotExists(sec.template, slot)) { warns.push(`slot "${slot}" no existe (sección "${sec.label}")`); }
 
     if (v === "beat") { sec.template = kv(s, "beat") || s.replace(/^beat:?\s*/, "").trim(); continue; }
@@ -190,6 +205,8 @@ for (const sec of sections) {
       if (v === "clip" || v === "gif") { type = v; src = assets[id]?.file && fs.existsSync(path.join("public", assets[id].file)) ? assets[id].file : null; }
       if (!src) { warns.push(`asset ausente: "${id}" (sección "${sec.label}") -> se omite`); continue; }
       const kind = v === "gif" ? "meme" : v === "clip" ? "clip" : kindOf(id, src);
+      // historical: 0 ICONOS. Icono vector -> se DESCARTA (mejor hueco que icono aleatorio) y avisa con segundo + frase.
+      if (HISTORICAL && kind === "vector") { const pi = phraseIdxOfTime(t); warns.push(`SIN MATERIAL ${fmtSec(t)} · icono "${id}" descartado · frase: "${(phrases[pi]?.text || "").slice(0, 60)}"`); continue; }
       const photoKind = PHOTO_KIND.test(kind);
       const hero = /hero/.test(s) || (photoKind && !heroPlaced); // 1ª foto de la sección = base grande
       if (hero && photoKind) heroPlaced = true;
@@ -203,18 +220,29 @@ for (const sec of sections) {
   }
 }
 
-// --- salida escalonada al final de cada sección (0.08s entre elementos) ---
-const bySecExit = {};
-for (const el of elements) { if (el.type === "watermark") continue; const s = sectionAt(el.in); const k = s.t1; (bySecExit[k] = bySecExit[k] || []).push(el); }
-// salida escalonada HACIA ATRÁS: los elementos se van justo ANTES del corte, nunca invaden la sección siguiente
-for (const k of Object.keys(bySecExit)) { const arr = bySecExit[k].filter(e => Math.abs(e.out - +k) < 0.06); arr.forEach((e, i) => { e.out = +Math.max(e.in + 0.5, +k - Math.min(i, 6) * 0.06).toFixed(2); }); }
+const structuralEl = (e) => e.structural || e.type === "title" || e.type === "watermark";
+const hashId = (s) => { let h = 0; for (const c of s) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; };
 
-// mínimo en pantalla
+// --- A) VIDA POR FRASES (VERIFICACION): un elemento vive 2-4 frases (el hero hasta 6, con Ken Burns) ---
+for (const el of elements) {
+  if (structuralEl(el) || el.type === "watermark" || !el.box) continue;
+  const pIn = phraseIdxOfTime(el.in);
+  const secEndOf = sectionAt(el.in).t1;
+  if (el.hero) { el.out = +Math.min(el.out, secEndOf).toFixed(2); el.kenburns = true; } // la foto-base es el LIENZO: dura toda la sección + Ken Burns (no se congela)
+  else { const life = 2 + (hashId(el.id) % 3); el.out = +Math.min(el.out, secEndOf, phraseTime(pIn + life)).toFixed(2); }
+}
+// mínimo 1s en pantalla
 for (const el of elements) if (el.type !== "watermark" && el.out - el.in < 1.0) el.out = +(el.in + 1.0).toFixed(2);
 
-const structuralEl = (e) => e.structural || e.type === "title" || e.type === "watermark";
+// --- B) MONIGOTE (VERIFICACION): solo explícito, máx 4/vídeo, ≥90s aparte, vida ≤5s ---
+{
+  const sm = elements.filter(e => e.type === "stickman").sort((a, b) => a.in - b.in);
+  let last = -999, kept = 0; const drop = new Set();
+  for (const s of sm) { if (kept >= 4 || s.in - last < 90) { drop.add(s); continue; } last = s.in; kept++; s.out = +Math.min(s.out, s.in + 5).toFixed(2); }
+  for (let i = elements.length - 1; i >= 0; i--) if (drop.has(elements[i])) elements.splice(i, 1);
+}
 
-// --- CAP total: ≤8 dinámicos, y ≤4 TEXTOS, a la vez (VERIFICACION). Expira el más antiguo (no-hero). ---
+// --- C) CAP: nunca más de 4 elementos dinámicos a la vez (rotación por frase). Protege al hero. ---
 const capLive = (list, max) => {
   const arr = list.sort((a, b) => a.in - b.in); const live = [];
   for (const e of arr) {
@@ -223,8 +251,8 @@ const capLive = (list, max) => {
     while (live.length > max) { live.sort((a, b) => (a.hero ? 1 : 0) - (b.hero ? 1 : 0) || a.in - b.in); const old = live.shift(); old.out = Math.min(old.out, +e.in.toFixed(2)); }
   }
 };
-capLive(elements.filter(e => !structuralEl(e) && e.type !== "watermark" && e.box), 8);
 capLive(elements.filter(e => TEXT_TYPES.has(e.type) && !structuralEl(e) && e.box), 4);
+capLive(elements.filter(e => !structuralEl(e) && e.type !== "watermark" && e.box), 4);
 
 // --- SOLVER DE OCUPACIÓN (VERIFICACION 2.2): UNA pasada consciente de la vida útil. Cada elemento
 //     se coloca evitando a TODOS los que coexisten en el tiempo (texto-texto cero, foto-foto <35%) y
