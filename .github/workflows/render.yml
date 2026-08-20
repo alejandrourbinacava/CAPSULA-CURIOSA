@@ -94,6 +94,15 @@ jobs:
         continue-on-error: true
         run: node scripts/lint-variety.mjs "${{ steps.ep.outputs.dir }}"
 
+      - name: 02c) GUARDAR la voz (de pago) ANTES de renderizar (si falla el render, no se pierde)
+        run: |
+          git config user.name "capsula-bot"
+          git config user.email "bot@capsulacuriosa"
+          git add topics.json episodes public/active/scenes.json || true
+          git commit -m "Auto: guion + voz de '${{ steps.ep.outputs.dir }}' (guardado antes de render)" || echo "sin cambios"
+          git pull --no-rebase --no-edit origin main || true
+          git push || echo "push diferido"
+
       - name: 03) Renderizar el vídeo (Remotion · Scene)
         run: npx remotion render src/index.ts Scene out/VIDEO_RAW.mp4 --concurrency=2
 

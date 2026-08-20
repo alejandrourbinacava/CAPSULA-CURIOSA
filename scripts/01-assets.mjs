@@ -116,6 +116,7 @@ function saveIcon(id, ico) {
 
 for (const [id, a] of Object.entries(assets)) {
   const q = a.query || id;
+  if (a.kind === "clip" || a.kind === "gif") continue; // los maneja 00-fetch-media; NO tocarlos aquí
   try {
     if (a.kind === "photo" || a.kind === "cutout" || a.kind === "screenshot") {
       await sleep(300);

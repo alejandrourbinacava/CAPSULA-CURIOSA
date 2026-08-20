@@ -186,6 +186,9 @@ const Element: React.FC<{ el: El }> = ({ el }) => {
   if (el.type === "stickman") return <div style={common}><Stickman pose={el.pose} head={el.head} size={Math.min(box.h, 420)} /></div>;
 
   if (el.type === "clip" || el.type === "gif") {
+    // defensa: si por lo que sea el src no es vídeo/gif (p.ej. un svg de reserva), lo tratamos como imagen
+    const isMedia = /\.(mp4|webm|mov|gif)(\?|$)/i.test(el.src || "");
+    if (!isMedia) return <div style={common}><Framed frame="card" w={box.w} h={box.h}><Img src={staticFile(el.src!)} style={{ maxWidth: box.w, maxHeight: box.h, objectFit: "cover", display: "block" }} /></Framed></div>;
     const media = el.type === "clip"
       ? <OffthreadVideo src={staticFile(el.src!)} muted playbackRate={1} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
       : <Gif src={staticFile(el.src!)} width={Math.round(box.w)} height={Math.round(box.h)} fit="cover" style={{ width: "100%", height: "100%", display: "block" }} />;
