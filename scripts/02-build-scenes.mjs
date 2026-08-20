@@ -67,9 +67,10 @@ const sectionAt = (t) => { for (let i = sections.length - 1; i >= 0; i--) if (t 
 const ENTER = { doodle: { kind: "draw", duration: 0.8 }, vector: { kind: "pop", duration: 0.4 }, cutout: { kind: "slide-in-bottom", duration: 0.4 }, screenshot: { kind: "pop", duration: 0.45 }, meme: { kind: "stamp", duration: 0.25 }, clip: { kind: "slide-in-bottom", duration: 0.45 }, logo: { kind: "fade-in", duration: 0.35 } };
 const lifetime = (kind, t, hero, secEnd) => kind === "meme" ? Math.min(t + 3.2, secEnd) : (kind === "screenshot" && !hero) ? Math.min(t + 6, secEnd) : secEnd;
 const ROT_KINDS = new Set(["cutout", "screenshot"]);
-// tamaño nominal por kind (Addendum 2: cada asset es un objeto discreto, no llena el slot)
-const NOMINAL = { vector: [230, 230], cutout: [380, 380], screenshot: [500, 320], meme: [340, 280], clip: [560, 340], logo: [210, 150], doodle: [300, 300], stickman: [300, 430] };
-const nomOf = (kind, hero) => { const n = NOMINAL[kind] || [280, 280]; return hero ? [n[0] * 1.35, n[1] * 1.35] : n; };
+// tamaño nominal por kind. Las FOTOS/archivo son grandes (protagonistas); los iconos, pequeños.
+const NOMINAL = { vector: [230, 230], cutout: [560, 430], archive: [600, 460], screenshot: [600, 380], meme: [360, 300], clip: [640, 380], logo: [210, 150], doodle: [320, 320], stickman: [300, 430] };
+const nomOf = (kind) => NOMINAL[kind] || [280, 280];
+const PHOTO_KIND = /^(cutout|archive|screenshot)$/;
 
 // --- construir elementos ---
 const elements = [];
@@ -89,10 +90,12 @@ for (const sec of sections) {
   const box = (slot) => boxOf(sec.template, slot);
   const rng = (id) => rngOf(id);
   const lastVisual = { cx: 960, cy: 500, w: 380, h: 380 };
+  let heroPlaced = false; // la primera foto de la sección es la BASE (hero): grande y central
   // posición = centro del slot (zona de atracción) + jitter; tamaño = nominal del kind * jitter de escala
   const jitterBox = (id, center, nw, nh, hero) => {
     const r = rng(id);
-    const jx = (r() * 2 - 1) * J.position * W, jy = (r() * 2 - 1) * J.position * H;
+    const jf = hero ? 0.3 : 1; // el hero jitterea menos: se queda centrado como base
+    const jx = (r() * 2 - 1) * J.position * W * jf, jy = (r() * 2 - 1) * J.position * H * jf;
     const sc = hero ? (PROFILE.jitter?.heroScale || 1.6) : lerp(J.scale[0], J.scale[1], r());
     let cx = center.cx + jx, cy = center.cy + jy;
     const halfW = nw * sc / 2, halfH = nh * sc / 2, off = 0.15; // se permite salirse hasta 15%
@@ -185,9 +188,11 @@ for (const sec of sections) {
       if (v === "clip" || v === "gif") { type = v; src = assets[id]?.file && fs.existsSync(path.join("public", assets[id].file)) ? assets[id].file : null; }
       if (!src) { warns.push(`asset ausente: "${id}" (sección "${sec.label}") -> se omite`); continue; }
       const kind = v === "gif" ? "meme" : v === "clip" ? "clip" : kindOf(id, src);
-      const hero = /hero/.test(s);
-      const [nw, nh] = nomOf(kind, hero);
-      const bb = jitterBox(id + autoId, box(slot || "center"), nw, nh, hero);
+      const photoKind = PHOTO_KIND.test(kind);
+      const hero = /hero/.test(s) || (photoKind && !heroPlaced); // 1ª foto de la sección = base grande
+      if (hero && photoKind) heroPlaced = true;
+      const [nw, nh] = nomOf(kind);
+      const bb = jitterBox(id + autoId, box(hero ? "center" : (slot || "center")), nw, nh, hero);
       const rot = ROT_KINDS.has(kind) ? Math.round((rngOf(id + autoId)() * 2 - 1) * (J.rotation || 3)) : 0;
       elements.push({ id: id + "_" + autoId++, type, kind, src, box: bb.box, rotate: rot, frame: kv(s, "frame"), z: type === "gif" || type === "clip" ? 55 : 20, in: t, out: lifetime(kind, t, hero, secEnd), enter: ENTER[kind] || ENTER.vector, exit: { kind: "fade-out", duration: 0.3 } });
       lastVisual.cx = bb.box.cx; lastVisual.cy = bb.box.cy; lastVisual.w = bb.box.w; lastVisual.h = bb.box.h;
