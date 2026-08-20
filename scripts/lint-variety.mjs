@@ -38,7 +38,8 @@ let badgeGap = 0; { let last = 0; const iv = badges.map(b => [b.in, b.out]).sort
 // máx 5 textos simultáneos (muestreo por segundo)
 const texts = els.filter(e => e.type === "text" || e.type === "title" || e.type === "boxtext" || e.type === "stat");
 const floating = texts.filter(e => !e.structural && e.type !== "title");
-let maxText = 0; for (let t = 0; t < dur; t += 1) maxText = Math.max(maxText, floating.filter(e => e.in <= t && e.out > t).length);
+// cuenta solo textos en su fase ESTABLE (ni entrando ni saliendo): un fade de frontera no es "clutter"
+let maxText = 0; for (let t = 0; t < dur; t += 0.5) maxText = Math.max(maxText, floating.filter(e => e.in + 0.3 <= t && t < e.out - 0.15).length);
 
 // proporción de texto rojo
 const redW = texts.filter(e => accset.has(e.color)).reduce((a, e) => a + (e.content || "").split(/\s+/).length, 0);
@@ -58,7 +59,7 @@ if (badDens.length) fails.push(`densidad fuera de rango en: ${badDens.map(s => s
 if (longMeme.length) fails.push(`${longMeme.length} meme(s) con vida > 4s`);
 if (maxEchoGap > 20) fails.push(`tramo de ${maxEchoGap.toFixed(0)}s sin texto-eco (máx 20)`);
 if (badgeGap > 3) fails.push(`badge ausente ${badgeGap.toFixed(0)}s (debe estar ~siempre)`);
-if (maxText > 5) fails.push(`${maxText} textos simultáneos (máx 5)`);
+if (maxText > 4) fails.push(`${maxText} textos simultáneos (máx 4)`);
 if (redRatio > 0.15) fails.push(`texto rojo ${(redRatio * 100).toFixed(0)}% (máx 15%)`);
 if (fails.length) { console.log("✗ incumple: " + fails.join(" · ")); process.exit(process.argv.includes("--strict") ? 1 : 0); }
 console.log("✓ variedad OK");

@@ -104,8 +104,8 @@ const Stickman: React.FC<{ pose?: string; head?: string; size: number }> = ({ po
 // ============================ MARCO (polaroid / tv / browser / phone) ============================
 const Framed: React.FC<{ frame?: string; w: number; h: number; children: React.ReactNode }> = ({ frame, w, h, children }) => {
   if (frame === "none") return <>{children}</>;
-  if (frame === "card") // Addendum 4·B: tarjeta protagonista, sin borde, sombra fuerte, recorta a esquinas
-    return <div style={{ borderRadius: 18, background: CARD_BG, boxShadow: "0 18px 40px rgba(0,0,0,.28), 0 4px 10px rgba(0,0,0,.16)", overflow: "hidden", display: "flex" }}>{children}</div>;
+  if (frame === "card") // SPEC §10: tarjeta = borde negro 3px + sombra DURA desplazada (sin blur), recorta a esquinas
+    return <div style={{ borderRadius: 18, background: CARD_BG, border: `3px solid ${STROKE}`, boxShadow: "6px 6px 0 rgba(17,17,17,.35)", overflow: "hidden", display: "flex" }}>{children}</div>;
   if (frame === "tv-crt")
     return <div style={{ padding: 22, background: "#1c1c1e", borderRadius: 40, border: "6px solid #111", boxShadow: "0 14px 40px rgba(0,0,0,.28)" }}><div style={{ borderRadius: 20, overflow: "hidden", display: "flex", background: "#000" }}>{children}</div></div>;
   if (frame === "browser")
@@ -195,7 +195,7 @@ const Element: React.FC<{ el: El }> = ({ el }) => {
     // marco especial (tv/browser/phone) si se pide; si no, ESQUINAS REDONDEADAS por defecto
     if (el.frame && el.frame !== "none" && el.frame !== "polaroid" && el.frame !== "rounded")
       return <div style={common}><Framed frame={el.frame} w={box.w} h={box.h}>{media}</Framed></div>;
-    return <div style={common}><div style={{ width: box.w, height: box.h, borderRadius: 28, overflow: "hidden", border: "5px solid #111", boxShadow: "0 14px 34px rgba(0,0,0,.24)", background: "#000" }}>{media}</div></div>;
+    return <div style={common}><div style={{ width: box.w, height: box.h, borderRadius: 20, overflow: "hidden", border: `3px solid ${STROKE}`, boxShadow: "6px 6px 0 rgba(17,17,17,.35)", background: "#000" }}>{media}</div></div>;
   }
   // image: tratamiento por KIND (Addendum 2 · C). vector/logo/doodle crudos; cutout con sombra;
   //   screenshot con borde blanco+sombra. La rotación ya va en `common` (jitter del compilador).

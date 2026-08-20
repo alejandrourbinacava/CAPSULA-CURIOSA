@@ -56,7 +56,7 @@ export function normalizeSvg(svg, color = "yellow") {
   const withArea = paths.map(p => { const d = (p.match(/\bd="([^"]*)"/) || [])[1] || ""; return { p, d, area: pathBBox(d) }; });
   const maxArea = Math.max(...withArea.map(w => w.area));
   // 4-5) reescribir cada path con el estilo de la casa
-  const strokeAttrs = `fill-rule="evenodd" stroke="${STROKE}" stroke-width="4" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"`;
+  const strokeAttrs = `fill-rule="evenodd" paint-order="stroke fill" stroke="${STROKE}" stroke-width="4" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"`;
   const newPaths = withArea.map(({ p, d, area }) => {
     const isBody = area >= maxArea * 0.6; // el/los grandes = cuerpo
     const v = isBody ? "--fill-body" : "--fill-detail";

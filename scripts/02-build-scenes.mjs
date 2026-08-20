@@ -114,7 +114,9 @@ for (const sec of sections) {
   for (const e of echoes) if (e.wi >= sec.start && timeOf(e.wi) < secEnd) evs.push({ kind: "echo", t: +timeOf(e.wi).toFixed(2), text: e.text, red: e.red });
   evs.sort((a, b) => a.t - b.t);
 
-  let echoSizeTurn = 0; const echoAlt = ["md", "lg", "sm"]; let liveEcho = [];
+  let echoSizeTurn = 0; const echoAlt = ["md", "lg", "sm"]; const liveFloating = [];
+  // SPEC regla 4: MÁX 4 textos simultáneos EN TOTAL (labels + ecos + stat + box). Estructurales (title/badge) no cuentan.
+  const floatCap = (el, tt) => { liveFloating.push(el); if (liveFloating.length > 4) { const old = liveFloating.shift(); old.out = Math.min(old.out, tt + 0.05); } };
   for (const ev of evs) {
     if (ev.kind === "echo") {
       // colocar cerca del último visual, con jitter, tamaños alternos, máx 5 simultáneos
@@ -125,8 +127,7 @@ for (const sec of sections) {
       let cx = lastVisual.cx + Math.cos(ang) * rad, cy = lastVisual.cy + Math.sin(ang) * rad;
       cx = Math.max(180, Math.min(W - 180, cx)); cy = Math.max(120, Math.min(H - 80, cy));
       const el = { id, type: "text", content: ev.text, box: { cx, cy, w: 640, h: 130 }, color: ev.red ? RED : STROKE, size, echo: true, z: 60, in: ev.t, out: secEnd, enter: { kind: ev.red ? "stamp" : "handwrite", duration: ev.red ? 0.3 : 0.6 }, exit: { kind: "fade-out", duration: 0.25 } };
-      elements.push(el); liveEcho.push(el);
-      if (liveEcho.length > 4) { const old = liveEcho.shift(); old.out = Math.min(old.out, ev.t + 0.6); } // deja hueco para stat/text (máx 5 flotantes)
+      elements.push(el); floatCap(el, ev.t);
       continue;
     }
     const s = ev.raw, v = verbOf(s), t = ev.t, slot = slotIn(s);
@@ -137,18 +138,21 @@ for (const sec of sections) {
     if (v === "box") {
       const content = (s.match(/box:\s*"([^"]*)"/) || [])[1] || "";
       const bb = jitterBox("b" + autoId, box(slot || "center"), 420, 120, false);
-      elements.push({ id: "bx" + autoId++, type: "boxtext", content, box: bb.box, z: 60, in: t, out: secEnd, enter: { kind: "pop", duration: 0.3 }, exit: { kind: "fade-out", duration: 0.25 } });
+      const _bx = { id: "bx" + autoId++, type: "boxtext", content, box: bb.box, z: 60, in: t, out: secEnd, enter: { kind: "pop", duration: 0.3 }, exit: { kind: "fade-out", duration: 0.25 } };
+      elements.push(_bx); floatCap(_bx, t);
       continue;
     }
     if (v === "text") {
       const content = (s.match(/text:\s*"([^"]*)"/) || [])[1] || "";
       const bb = jitterBox("t" + autoId, box(slot || "bottom"), 640, 130, false);
-      elements.push({ id: "t" + autoId++, type: "text", content, box: bb.box, color: /color\s*=\s*red/.test(s) ? RED : STROKE, size: kv(s, "size") || "md", z: 60, in: t, out: secEnd, enter: { kind: "handwrite", duration: 0.6 }, exit: { kind: "fade-out", duration: 0.25 } });
+      const _tx = { id: "t" + autoId++, type: "text", content, box: bb.box, color: /color\s*=\s*red/.test(s) ? RED : STROKE, size: kv(s, "size") || "md", z: 60, in: t, out: secEnd, enter: { kind: "handwrite", duration: 0.6 }, exit: { kind: "fade-out", duration: 0.25 } };
+      elements.push(_tx); floatCap(_tx, t);
       continue;
     }
     if (v === "stat") {
       const content = (s.match(/stat:\s*"([^"]*)"/) || [])[1] || "";
-      elements.push({ id: "n" + autoId++, type: "stat", content, unit: kv(s, "unit") || "", box: box(slot || "number"), color: RED, z: 60, in: t, out: secEnd, enter: { kind: "stamp", duration: 0.3 }, exit: { kind: "fade-out", duration: 0.25 } });
+      const _st = { id: "n" + autoId++, type: "stat", content, unit: kv(s, "unit") || "", box: box(slot || "number"), color: RED, z: 60, in: t, out: secEnd, enter: { kind: "stamp", duration: 0.3 }, exit: { kind: "fade-out", duration: 0.25 } };
+      elements.push(_st); floatCap(_st, t);
       continue;
     }
     if (v === "stickman") {
@@ -195,10 +199,24 @@ for (const sec of sections) {
 // --- salida escalonada al final de cada sección (0.08s entre elementos) ---
 const bySecExit = {};
 for (const el of elements) { if (el.type === "watermark") continue; const s = sectionAt(el.in); const k = s.t1; (bySecExit[k] = bySecExit[k] || []).push(el); }
-for (const k of Object.keys(bySecExit)) { const arr = bySecExit[k].filter(e => Math.abs(e.out - +k) < 0.05); arr.forEach((e, i) => { e.out = +(+k + i * 0.08).toFixed(2); }); }
+// salida escalonada HACIA ATRÁS: los elementos se van justo ANTES del corte, nunca invaden la sección siguiente
+for (const k of Object.keys(bySecExit)) { const arr = bySecExit[k].filter(e => Math.abs(e.out - +k) < 0.06); arr.forEach((e, i) => { e.out = +Math.max(e.in + 0.5, +k - Math.min(i, 6) * 0.06).toFixed(2); }); }
 
 // mínimo en pantalla
 for (const el of elements) if (el.type !== "watermark" && el.out - el.in < 1.0) el.out = +(el.in + 1.0).toFixed(2);
+
+// --- SPEC regla 3: el texto NUNCA se solapa con otro texto (incl. título). Nudge vertical 46px ---
+const isText = (e) => e.type === "text" || e.type === "stat" || e.type === "boxtext" || e.type === "title";
+const tOverlap = (p, q) => p.in < q.out && q.in < p.out;
+const boxOverlap = (p, q) => p.box && q.box && Math.abs(p.box.cx - q.box.cx) < (p.box.w + q.box.w) / 2 - 30 && Math.abs(p.box.cy - q.box.cy) < (p.box.h + q.box.h) / 2 - 18;
+for (const tx of elements.filter(e => (e.type === "text" || e.type === "stat" || e.type === "boxtext") && !e.structural)) {
+  for (let guard = 0; guard < 10; guard++) {
+    const hit = elements.find(e => e !== tx && isText(e) && tOverlap(tx, e) && boxOverlap(tx, e));
+    if (!hit) break;
+    const dir = tx.box.cy <= hit.box.cy ? -1 : 1;
+    tx.box = { ...tx.box, cy: Math.max(230, Math.min(H - 60, tx.box.cy + dir * 46)) };
+  }
+}
 
 // --- validador de DENSIDAD por sección (sustituye al de colisiones) ---
 const densReport = [];
