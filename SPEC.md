@@ -1,723 +1,257 @@
-# Especificación: motor de vídeos explainer estilo "whiteboard doodle"
+# Especificación — motor de vídeos explainer "Cápsula Curiosa"
 
-> Fuente de verdad del proyecto.
+> **Fuente de verdad del proyecto.** Documento único y consolidado (base + addendums 1, 2, 4 y 6).
+> Ante cualquier duda futura, manda este fichero. Ver "Decisiones y motivos" al final.
 
 ---
 
-## 0. Qué NO es este proyecto
+## 0. Qué NO es
 
-- NO se genera vídeo con IA.
-- NO se genera imagen con IA (salvo excepciones puntuales).
-- NO hay edición manual en un editor de vídeo.
+- NO se genera vídeo con IA. NO hay edición manual en un editor de vídeo.
+- Las IMÁGENES pueden generarse (OpenAI) cuando no hay foto real ni icono válido; los ICONOS se generan con OpenAI y/o se toman de packs y se **normalizan** al estilo de la casa.
 
 ## 1. Qué SÍ es
 
-Un **compositor de línea de tiempo programático**. Un renderizador que recibe un
-fichero `scenes.json` describiendo qué imagen aparece, cuándo, dónde y con qué
-animación, y produce un MP4 de 1920x1080 sincronizado con una pista de audio.
-
-Analogía correcta: es un motor de PowerPoint animado que se controla por JSON,
-no un generador de vídeo.
+Un **compositor de línea de tiempo programático**: un renderizador (Remotion) que recibe `scenes.json` —qué elemento aparece, cuándo, dónde, con qué animación— y produce un MP4 1920×1080 sincronizado con la voz. Es un "PowerPoint animado por JSON", no un generador de vídeo.
 
 ---
 
-## 2. Estética objetivo
+## 2. Estética objetivo (perfil `color-pop`)
 
-- Fondo blanco liso (`#FFFFFF`). Sin gradientes, sin texturas.
-- Assets: PNG/SVG con **fondo transparente**, recortados, colocados sobre el blanco.
-- Tipografía manuscrita para todo el texto en pantalla.
-  Recomendadas: `Caveat`, `Patrick Hand`, `Gloria Hallelujah` (Google Fonts).
-- Texto principal en negro. Palabras de énfasis en rojo (`#E5342A`).
-- Flechas rojas o negras dibujadas a mano, animadas trazándose.
-- Monigotes de palo negros, línea fina, reutilizables.
-- Todo respira: pocos elementos simultáneos en pantalla (máximo 4-5).
+- **Fondo BLANCO `#FFFFFF`.** Liso, sin gradientes ni texturas. *(Regla firme; ver Decisiones.)*
+- Trazo negro `#111111`, grosor 4. Paleta de relleno viva: amarillo `#F5C518`, magenta `#F0329B`, verde `#3DDC3D`, cian `#1BA0EE`, naranja `#FF7A1A`, violeta `#8B5CF6`.
+- **Rojo `#EE2B37` reservado al texto de énfasis** (nunca como relleno de icono). Máx 3 colores de paleta en pantalla a la vez.
+- Tipografía manuscrita: `Patrick Hand` (cuerpo) + `Caveat` (titulares/énfasis), con fallback. Se **empaquetan** en el render (`@remotion/google-fonts`) para que funcione headless.
+- Monigotes de palo negros reutilizables. Flechas y marcas rojas dibujadas a mano (trazado `draw`).
+- Perfil configurable en `style-profile.json` (permite un `mono-doodle` alternativo). El perfil define fondo, paleta, tipografía, `allowedKinds`, jitter y tratamiento por kind.
 
 ---
 
 ## 3. Stack técnico
 
-| Capa | Herramienta | Motivo |
-|---|---|---|
-| Renderizado | **Remotion** (React + TypeScript) | Animaciones declarativas, `spring()`, `interpolate()`, render headless en CI |
-| TTS | ElevenLabs o OpenAI TTS | Voz natural |
-| Alineación | Whisper con `timestamp_granularities: ["word"]`, o WhisperX local | Timestamps palabra a palabra |
-| Composición final | FFmpeg (lo llama Remotion internamente) | — |
-| Automatización | GitHub Actions | Render en CI, artefacto o subida a YouTube |
+| Capa | Herramienta |
+|---|---|
+| Render | **Remotion** (React+TS), headless en GitHub Actions |
+| Voz | **genaipro.io** (voz "Tony", `eleven_multilingual_v2`) — DE PAGO, cachear |
+| Sincronía | **faster-whisper** (local, gratis) → `words.json` palabra a palabra |
+| Iconos | OpenAI (SVG) → normalizador; reserva: sets offline `@iconify-json/*` |
+| Media | Pexels/Pixabay (clips), Giphy (gifs), Wikipedia (fotos), archivos históricos (archive) |
+| Composición final | FFmpeg (lo llama Remotion; música de fondo se mezcla aparte) |
 
-**No usar** Manim, ni MoviePy, ni ningún modelo de generación de vídeo.
+No usar Manim, MoviePy ni modelos de generación de vídeo.
 
 ---
 
-## 4. Estructura del repositorio
+## 4. Perfiles de contenido (`contentType`)
 
-```
-/
-├── SPEC.md
-├── assets/
-│   ├── icons/                  ← PNG transparentes: cpu.png, gpu.png...
-│   ├── stickmen/               ← monigotes SVG por pose
-│   ├── arrows/                 ← paths SVG de flechas
-│   └── manifest.json           ← catálogo: id → ruta, tamaño, licencia, atribución
-├── scripts/
-│   ├── 01-tts.ts               ← guion → audio.mp3 + words.json
-│   ├── 02-build-scenes.ts      ← guion + words.json → scenes.json
-│   └── 03-render.ts            ← invoca Remotion
-├── episodes/
-│   └── 001-.../
-│       ├── script.md
-│       ├── audio.mp3           (generado)
-│       ├── words.json          (generado)
-│       └── scenes.json         (generado)
-├── src/
-│   ├── Root.tsx
-│   ├── Video.tsx               ← lee scenes.json y renderiza
-│   ├── layouts/
-│   └── animations/
-└── .github/workflows/render.yml
+El vocabulario visual NO es el mismo para todos los temas. Se declara en la cabecera del guion:
+
+```yaml
+---
+title: "El Imperio Español"
+contentType: historical
+---
 ```
 
----
+| `contentType` | Material dominante | Iconos | Ejemplos |
+|---|---|---|---|
+| `tech` | fotos de producto, capturas, vectores | 50 % | hardware, software, protocolos |
+| `historical` | grabados, pinturas, mapas antiguos, archivo | **máx 10 %** | historia, biografías, guerras |
+| `scientific` | fotografía científica, diagramas, agencias | 25 % | espacio, biología, geología |
+| `conceptual` | iconos, esquemas, monigotes | 70 % | economía, filosofía, procesos |
+| `cultural` | fotografía, clips, obra reproducida | 15 % | arte, música, gastronomía |
 
-## 5. Formato del guion (`script.md`)
-
-Texto plano de locución con **etiquetas inline** que marcan el punto exacto del
-discurso donde aparece cada elemento. La etiqueta se ancla a la palabra siguiente.
-
-Etiquetas:
-- `[[show: <asset_id> @<slot>]]`
-- `[[hide: <asset_id>]]`
-- `[[text: "..." @<slot>, color=red|black, size=sm|md|lg]]`
-- `[[arrow: <slot> -> <slot>]]`
-- `[[stickman: <pose> @<slot>, head=<asset_id>]]`
-- `[[clear]]`
-
-**Regla:** un asset permanece hasta el siguiente `[[clear]]` si no se oculta.
+**La proporción de iconos depende del `contentType`, no es fija.** En `historical`, los iconos quedan para navegación (corner badge, separadores); el cuerpo se ilustra con material de archivo.
 
 ---
 
-## 6. Slots (layout determinista)
+## 5. Guion (`script.md`)
 
-`center, left, right, top, bottom, top-left, top-right, bottom-left, bottom-right,
-left-below, center-below, right-below, grid-1..grid-8, corner-badge`
+Locución en español con **etiquetas inline** ancladas a la palabra SIGUIENTE. El guion se organiza en **SECCIONES** (30-60 s); dentro, opcionalmente, en **beats** (4-12 s) que fijan la plantilla.
 
-- Cada slot tiene bounding box; el asset se escala conservando ratio.
-- Dos assets en un slot → se reparten automáticamente.
-- El texto asociado va debajo del asset.
+### Etiquetas
+- `[[section: "TÍTULO", badge=<id>]]` — abre sección: badge persistente + título subrayado. Frontera de vaciado.
+- `[[beat: <plantilla>]]` — fija la plantilla (zona de atracción) para lo que sigue.
+- `[[show: <id> @<slot>]]` / `[[icon: <id> @<slot>]]` — imagen/icono explícito.
+- `[[archive: "descripción" @<slot>, source=bne, treatment=card|map-canvas]]` — material histórico.
+- `[[clip: <id> @<slot>, frame=card]]` — vídeo. `[[gif: <id> @<slot>]]` — reacción (2-4 s, se va).
+- `[[stat: "<número>" @number, unit="<unidad>"]]` — número gigante.
+- `[[text: "<máx 6 palabras>" @<slot>, color=red, size=sm|md|lg]]` — texto manuscrito.
+- `[[shape: <tipo> @<slot>]]` — marca dibujada: circle, underline, cross, check, box, bracket, magnifier.
+- `[[arrow: <slotA> -> <slotB>]]` — flecha (dirección alterna).
+- `[[stickman: <pose> @<slot>, head=<id>]]` — poses: neutral, pointing-right/-left, shrug, thinking, angry, cheer.
+- `[[box: "texto"]]` — texto blanco sobre caja negra (etiquetar público/categoría).
+- `[[hide: <id>]]` / `[[clear]]`.
+
+### Texto-eco (mecanismo central)
+El texto en pantalla NO son rótulos: son **fragmentos literales de la locución**, marcados en el propio texto hablado:
+- `**palabra**` → texto negro flotante, entra con `handwrite`.
+- `==palabra==` → texto rojo, entra con `stamp`. Máx 1 por frase.
+
+El compilador **no inventa iconos**: si el guion no marca material para una frase, no coloca nada y emite warning con el segundo y la frase. La densidad se consigue escribiendo bien el guion, no improvisando.
+
+Longitud obligatoria: **mínimo 1300 palabras (8+ min)**; hay pasada de expansión si sale corto.
 
 ---
 
-## 7. `scenes.json` (contrato render). El renderizador NO conoce el guion.
+## 6. Composición: lienzo ACUMULATIVO
+
+1. Los elementos **no se limpian frase a frase**: entran y se quedan.
+2. La pantalla se llena durante toda la sección; sólo `[[section]]`/`[[clear]]` la vacían, con salida escalonada 0.08 s entre elementos.
+3. **Solapamiento** *(regla firme)*:
+   - **imagen-imagen: permitido hasta el 35 %** del área del otro elemento vivo.
+   - **texto-texto: PROHIBIDO, sin excepciones.** El texto es siempre capa superior; si dos textos se solapan, el compilador desplaza en incrementos de 40 px hasta resolver; si no cabe, error de build.
+   - Un elemento nuevo no cae exactamente sobre el centro de otro. Una imagen puede salirse hasta un 15 % por el borde (sensación de abundancia).
+4. **Máximo 4 textos simultáneos en total** (labels + ecos). El título de sección y la etiqueta del badge son navegación, no cuentan.
+5. Validador de **DENSIDAD** (sustituye al de colisiones): área ocupada / área del frame → `<0.15` warning "vacía"; `0.25–0.65` correcto; `>0.80` warning "saturada".
+
+---
+
+## 7. Slots = zonas de atracción con JITTER (no rejilla)
+
+Los slots (`center, left, right, top, bottom, top-left/right, bottom-left/right, corner-badge`, y los de cada plantilla) son **centros de atracción, NO casillas fijas**. Al resolver un slot se aplica:
+- **Jitter de posición:** ±6 % del ancho del frame en X e Y, con semilla derivada del `id` (render reproducible).
+- **Jitter de escala:** 0.75×–1.35× del tamaño nominal del kind; los marcados `hero` a 1.6×.
+- **Rotación:** ±3° en fotos, cutouts, screenshots y archive. Vectores y texto sin rotación.
+
+Sin jitter todo queda alineado como PowerPoint y pierde el carácter hecho a mano.
+
+---
+
+## 8. Catálogo de plantillas
+
+`title-card, single-focus, compare-2, list-3, grid-4, grid-8, photo-focus, stat-card, stickman-reaction, flow-3, zoom-detail, full-bleed-clip, map-canvas`.
+
+- Cada plantilla expone sus slots propios (además de los universales). Slot inexistente en la plantilla activa → warning.
+- `map-canvas`: mapa antiguo a pantalla completa como fondo, con marcadores/iconos encima. Plantilla base para contenido geográfico e histórico.
+- Reglas de variedad: ≥6 plantillas distintas por vídeo, ninguna repetida en beats consecutivos, ninguna >3 veces (`single-focus` máx 5).
+
+---
+
+## 9. Capas (z-order fijo)
+
+```
+ 0 fondo · 10 clip/imagen a sangre · 20 image/clip/archive en slot · 30 shape ·
+ 40 arrow · 50 stickman · 60 text/stat · 70 corner-badge
+```
+El texto siempre por encima. Las flechas no atraviesan cajas de capa 20: se curvan por encima/por debajo del obstáculo.
+
+---
+
+## 10. Tipos de asset (`kind`) y tratamiento
+
+| `kind` | Qué es | Tratamiento | Entrada por defecto | Vida |
+|---|---|---|---|---|
+| `vector` | icono plano de trazo grueso y color liso | ninguno (ya normalizado) | `pop` 0.4 s | hasta clear |
+| `doodle` | dibujo a mano, línea negra | ninguno | `draw` 0.8 s | hasta clear |
+| `cutout` | foto de producto recortada | sombra suave + rotación ±3° | `slide-in`+fade 0.4 s | hasta clear |
+| `screenshot` | captura de interfaz | borde blanco 6 px + sombra + rotación | `pop` 0.45 s | 4-8 s / hero hasta clear |
+| `archive` | grabado/pintura/mapa histórico | **card + Ken Burns + viñeta 0.15 + rotación 2°** | `scale-blur-in` 0.5 s | 5-12 s |
+| `clip` | vídeo (B-roll) | esquinas redondeadas (borde negro) | `slide-in-bottom` 0.45 s | hasta clear |
+| `meme` (gif) | reacción/humor | borde fino o ninguno | `stamp` 0.25 s | **2-4 s, nunca se queda** |
+| `logo` | logotipo de marca | ninguno | `fade-in`+escala 0.35 s | hasta clear |
+
+**Tratamiento `card`** *(regla firme)* — para `image`, `screenshot`, `clip`, `archive`:
+```css
+border-radius: 18px; background: #FFFFFF;
+border: 3px solid #111111;                 /* SÍ hay borde */
+box-shadow: 6px 6px 0 rgba(17,17,17,0.35); /* sombra DURA desplazada, sin blur */
+overflow: hidden;
+```
+Tamaño típico de tarjeta: 45-70 % del ancho del frame (son protagonistas). En una sección debe haber al menos 3 `kind` distintos.
+
+**Iconos — estructura de TRES CAPAS + `paint-order` obligatorio** *(regla firme)*:
+1. `stroke` negro (trazo), 2. `fill-body` (color de paleta), 3. `fill-detail` (`#1F1F1F`).
+Todo path lleva `paint-order="stroke fill"` (el trazo se pinta detrás del relleno), `stroke #111111`, `stroke-width 4`, `vector-effect="non-scaling-stroke"`, linejoin/linecap `round`. Colores como `var(--fill-body)` / `var(--fill-detail)` para recolorear en render. Lo produce `scripts/normalize-icon.mjs` (SVGO → limpia → path de mayor área = cuerpo → resto = detalle → capas + trazo).
+
+---
+
+## 11. Animaciones y motion blur
+
+Entradas: `pop` (spring), `fade-in`, `slide-in-*`, `draw` (flechas/shapes), `handwrite`, `stamp`,
+`slide-in-right-blur`, `slide-in-left-blur`, `whip-in` (0.3 s), `card-drop` (cae con rebote), `scale-blur-in`.
+Salidas: `fade-out` (defecto), `pop-out`, `slide-out-*`.
+
+- **Motion blur** (`@remotion/motion-blur`, `<Trail>` o `filter:blur` en el eje del movimiento): toda entrada/salida `slide-*` con recorrido **>300 px** lleva motion blur; `pop`, `fade`, `draw` NO.
+- Los `slide-*` usan `spring()` con overshoot bajo (3-4 %) para dar peso.
+- Reparto: tarjetas grandes → `slide-*-blur` o `card-drop`; iconos pequeños → `pop`. No mezclar (si todo lleva blur, deja de destacar).
+- Timing base: entrada 0.4 s / salida 0.3 s. Entradas a <0.2 s se escalonan 0.12 s. Nada menos de 1.2 s en pantalla.
+
+---
+
+## 12. `scenes.json` (contrato del render; el renderizador NO conoce el guion)
 
 ```jsonc
 {
-  "meta": { "title": "...", "fps": 30, "width": 1920, "height": 1080, "duration": 213.4, "audio": "audio.mp3" },
+  "meta": { "title":"...", "fps":30, "width":1920, "height":1080, "duration":784.4, "audio":"active/audio.mp3", "profile":"color-pop" },
   "elements": [
-    { "id": "motherboard", "type": "image", "src": "assets/icons/motherboard.png", "slot": "center",
-      "in": 3.2, "out": 18.7, "enter": {"kind":"pop","duration":0.45}, "exit": {"kind":"fade-out","duration":0.3} },
-    { "id": "label-1", "type": "text", "content": "un pisapapeles de 400€", "slot": "right", "color": "#E5342A", "size": "lg",
-      "in": 22.1, "out": 27.0, "enter": {"kind":"handwrite","duration":0.9}, "exit": {"kind":"fade-out","duration":0.3} },
-    { "id": "arrow-1", "type": "arrow", "from": "center", "to": "right", "style": "hand-drawn-red",
-      "in": 9.4, "out": 18.7, "enter": {"kind":"draw","duration":0.5}, "exit": {"kind":"fade-out","duration":0.2} },
-    { "id": "guy", "type": "stickman", "pose": "pointing-right", "head": "assets/icons/motherboard.png", "slot": "center",
-      "in": 5.0, "out": 18.7, "enter": {"kind":"fade-in","duration":0.3}, "exit": {"kind":"fade-out","duration":0.3} }
+    { "id":"...", "type":"image|text|arrow|stickman|clip|gif|shape|stat|title|boxtext|watermark",
+      "kind":"vector|cutout|archive|...", "src":"assets/...", "box":{"cx":960,"cy":500,"w":380,"h":380},
+      "rotate":2, "frame":"card", "z":20, "in":34.0, "out":48.0,
+      "enter":{"kind":"scale-blur-in","duration":0.5}, "exit":{"kind":"slide-out-left","duration":0.4} }
   ]
 }
 ```
+El compilador resuelve slot→caja absoluta (con jitter) y escribe `box`, `rotate`, `z`; el renderizador sólo dibuja.
 
 ---
 
-## 8. Animaciones (solo estas)
+## 13. Pipeline (scripts)
 
-Entradas: `pop` (spring, la más usada), `fade-in`, `slide-in-left/-right/-top/-bottom`,
-`draw` (stroke-dashoffset, solo flechas/líneas), `handwrite` (máscara izq→der), `stamp`.
-Salidas: `fade-out` (defecto), `pop-out`, `slide-out-*`.
-
-Timing: entrada 0.4s / salida 0.3s por defecto. Si varios entran en <0.2s, escalonar 0.12s.
-Ningún elemento menos de 1.2s en pantalla.
-
----
-
-## 9. Los tres scripts
-
-- `01-tts`: quita etiquetas (guardando índice), TTS→audio.mp3, Whisper palabra→words.json.
-- `02-build-scenes`: mapea etiqueta→palabra siguiente (timestamp `in`), resuelve hide/clear (`out`), slots, timing → scenes.json.
-- `03-render`: `npx remotion render` sobre la composición que lee el JSON.
-
-Cada script ejecutable por separado. Modo `--preview` para Remotion Studio.
+- `00-write-script` — Claude escribe UNA vez el guion (secciones/beats/eco, ≥1300 palabras, sin repetir iconos) + `assets.json`. No se reescribe salvo vídeo nuevo. `max_tokens: 64000`.
+- `00b-annotate` (histórico) — recorre el guion frase a frase y propone qué material de archivo pedir; **una persona revisa** antes de resolver assets.
+- `01-assets` — iconos: OpenAI (SVG) → normalizador; reserva sets offline. Fotos: Wikipedia. `archive`: resolutor de archivos (BNE, Europeana, Wikimedia, Rijksmuseum, Met, LoC, Rumsey, Internet Archive). NO toca clips/gifs.
+- `00-fetch-media` — clips (Pexels/Pixabay), gifs (Giphy).
+- `assets:check` — **GATE**: falla el build si falta un asset o si un `vector` no está normalizado.
+- `01-tts` — texto limpio → voz (genaipro) **sólo si no existe ya** → Whisper → `words.json`.
+- `02-build-scenes` — etiquetas + `words.json` → `scenes.json` (secciones, jitter, capas, colisión de texto, densidad).
+- `03-render` — `npx remotion render`; luego se mezcla la música de fondo (loop, ~-23 dB).
 
 ---
 
-## 10. Assets (sin IA)
+## 14. Assets: fuentes, licencias, "faltantes = error"
 
-`assets/manifest.json`: id → file, source, license, attribution.
-Fuentes: **OpenMoji / Twemoji** (libres, sin atribución), Flaticon/Icons8, Noun Project,
-imágenes de prensa de fabricantes para hardware. Mantener atribuciones y volcarlas en la descripción.
-Monigotes: SVG reutilizables, la firma del canal.
-
----
-
-## 11. GitHub Actions
-
-Push de nuevo directorio en `episodes/` → instalar deps+fuentes → 01-tts → 02-build-scenes →
-03-render (headless Chrome) → subir out.mp4 o publicar en YouTube. Cachear node_modules y audio.
+- **Iconos:** OpenAI + sets offline `@iconify-json/*` (solar/ph/streamline/mingcute), normalizados. Guardar licencia en `attribution` (solar/streamline = CC BY 4.0; ph = MIT; mingcute = Apache 2.0).
+- **Fotos:** Wikipedia/Wikimedia Commons (con User-Agent propio; reintentos).
+- **Archivo histórico:** BNE (OAI-PMH), Europeana (clave), Wikimedia, Rijksmuseum, Met, Library of Congress, David Rumsey, Internet Archive. Guardar institución + declaración de derechos; volcar créditos a la descripción del vídeo. Pieza con derechos dudosos → descartar.
+- **Assets no encontrados → ERROR DE BUILD.** NUNCA se dibuja una figura de fallback. `assets:check` lista los que faltan antes de gastar en TTS.
 
 ---
 
-## 12. "Terminado" v1
+## 15. Anti-gasto (voz de pago)
 
-Episodio de 60s con: 6 assets sincronizados, 2 flechas trazadas, 1 monigote con cabeza
-sustituida, 3 textos manuscritos (uno rojo), renderizado desde GitHub Actions sin intervención.
-
-
-# ADDENDUM 1 a SPEC.md — Variedad de composición, media y capas
-
-> Añadir al final de `SPEC.md`. Amplía las secciones 6, 7 y 8.
-> Corrige tres defectos: repetición de escena, assets fantasma y colisiones.
+- La voz genaipro es DE PAGO: se genera **una sola vez por episodio** y se versiona (`audio.mp3` + `words.json`). Re-renders la REUTILIZAN (0 gasto). `FORCE_TTS=1` fuerza regenerar.
+- **La voz se hace commit+push ANTES de renderizar** (paso `02c`): si el render falla, el audio de pago no se pierde. Nunca guardar el audio después del render.
+- Probar clips/gifs/render en local antes de generar un vídeo nuevo (generar = TTS = gasto).
 
 ---
 
-## A. Concepto nuevo: BEAT
+## 16. Lint de variedad (`lint:variety`)
 
-El guion deja de compilarse párrafo a párrafo con una estructura fija. Se divide
-en **beats**: unidades de 4 a 12 segundos, cada una con su propia **plantilla de
-composición**.
-
-En `script.md`:
-
-```markdown
-[[beat: compare-2]]
-Neptuno es el más ventoso del sistema [[show: neptune @left]]
-mientras que Marte apenas tiene atmósfera [[show: mars @right]].
-
-[[beat: stat-card]]
-Un año allí dura [[stat: "165" unit="años terrestres"]].
-
-[[beat: photo-focus]]
-Y así se ve desde el Voyager 2. [[clip: voyager-flyby @center, frame=polaroid]]
-```
-
-Si no se declara `[[beat: ...]]`, el compilador elige plantilla automáticamente
-según qué elementos contiene el beat, aplicando las reglas anti-repetición de C.
+Comprueba: densidad por sección en rango; ≥3 `kind` distintos por sección; ningún `meme` >4 s; ningún tramo >20 s sin texto-eco nuevo; corner badge presente ~siempre; **≤4 textos simultáneos**; texto rojo <15 % de las palabras; **ningún icono/imagen de concepto repetido**; flechas en ≥3 direcciones.
 
 ---
 
-## B. Catálogo de plantillas
+## 17. GitHub Actions
 
-Implementar las once. Cada una define sus propios slots y su z-order.
-
-| Plantilla | Composición | Cuándo se usa |
-|---|---|---|
-| `title-card` | Texto grande centrado, fondo limpio, opcional icono pequeño encima | Apertura de sección |
-| `single-focus` | Un solo elemento grande centrado + rótulo debajo | Presentar un concepto nuevo |
-| `compare-2` | Dos elementos enfrentados, línea vertical divisoria, rótulo bajo cada uno | Comparar A vs B |
-| `list-3` | Tres elementos en fila, entrada escalonada, rótulo bajo cada uno | Enumerar |
-| `grid-4` / `grid-8` | Rejilla, entrada en cascada, rótulo bajo cada celda | Catálogo de componentes |
-| `photo-focus` | Foto o clip grande centrado con marco, texto flotando encima | Material real |
-| `stat-card` | Número enorme centrado + unidad pequeña debajo | Dato impactante |
-| `stickman-reaction` | Monigote a la izquierda ocupando 1/3, contenido a la derecha | Reacción, opinión, chiste |
-| `flow-3` | Tres elementos en fila unidos por dos flechas cortas | Proceso, cadena causal |
-| `zoom-detail` | Elemento grande + recuadro de lupa señalando una parte | Detalle técnico |
-| `full-bleed-clip` | Clip a sangre ocupando todo el frame, texto sobreimpreso | Transición, respiro |
-
-Cada plantilla expone sus slots propios. `compare-2` expone `left`, `right`,
-`label-left`, `label-right`, `divider`. `grid-4` expone `cell-1..4` y
-`label-1..4`. El compilador solo puede usar slots que existan en la plantilla
-activa; si el guion pide uno inexistente, **error de build**.
+`workflow_dispatch` (`nuevoVideo` true/false) + cron diario. ffmpeg estático (GitHub), Python + faster-whisper. Orden: 00 (si nuevo) → 01-assets → 00-fetch-media → assets:check (gate) → 01-tts → 02-build-scenes → **02c guardar voz** → 03-render → música → Release permanente + commit del episodio. Créditos (CC BY, etc.) en la descripción del Release.
 
 ---
 
-## C. Reglas anti-repetición (obligatorias)
+## 18. Criterio "terminado"
 
-El compilador mantiene el historial del episodio y aplica:
-
-1. Ninguna plantilla puede repetirse en **beats consecutivos**.
-2. Ninguna plantilla puede usarse más de **3 veces en todo el episodio**, salvo
-   `single-focus`, que admite 5.
-3. La dirección de las flechas debe alternar. Prohibido más de dos flechas
-   seguidas con la misma dirección. Direcciones disponibles:
-   `left→right`, `right→left`, `top→bottom`, `center→radial` (varias salientes),
-   `curved-up`, `curved-down`.
-4. La animación de entrada no puede ser la misma en dos beats consecutivos.
-5. Si tres beats seguidos usan solo `image` + `text`, forzar la inserción de un
-   beat con `clip`, `gif` o `stickman-reaction`. El compilador debe avisar por
-   consola: `⚠ 3 beats estáticos seguidos en 01:24 — insertar media`.
-6. Cada 45 segundos como máximo debe aparecer un elemento en movimiento
-   (`clip`, `gif` o animación de monigote). Si no, error de lint.
-
-Añadir un comando `npm run lint:variety` que analice `scenes.json` y devuelva un
-informe: reparto de plantillas, segundos sin movimiento, direcciones de flecha,
-assets más repetidos.
+Un episodio de 8+ min, `contentType` correcto, ≥6 plantillas, 0 iconos repetidos, 0 colisiones de texto, densidad en rango, badge siempre presente, voz cacheada, música de fondo, y renderizado desde GitHub Actions sin intervención.
 
 ---
 
-## D. Tipos de elemento nuevos en `scenes.json`
-
-Ampliar el `type` a: `image | text | arrow | stickman | clip | gif | shape | stat`.
-
-```jsonc
-{
-  "id": "voyager",
-  "type": "clip",                    // vídeo local o descargado
-  "src": "assets/clips/voyager.mp4",
-  "slot": "center",
-  "frame": "polaroid",               // none | polaroid | tv-crt | browser | phone
-  "loop": true,
-  "muted": true,
-  "in": 42.1, "out": 51.0,
-  "enter": { "kind": "pop", "duration": 0.4 },
-  "exit":  { "kind": "fade-out", "duration": 0.3 }
-}
-```
-
-```jsonc
-{
-  "id": "reaction",
-  "type": "gif",
-  "src": "assets/gifs/mind-blown.gif",
-  "slot": "right",
-  "frame": "none",
-  "in": 55.0, "out": 58.2,
-  "enter": { "kind": "stamp", "duration": 0.25 },
-  "exit":  { "kind": "pop-out", "duration": 0.2 }
-}
-```
-
-```jsonc
-{
-  "id": "highlight",
-  "type": "shape",
-  "shape": "circle-highlight",       // circle-highlight | underline | bracket |
-                                     // cross-out | checkmark | box | magnifier
-  "target": "neptune",               // se dibuja sobre otro elemento
-  "color": "#E5342A",
-  "in": 47.0, "out": 51.0,
-  "enter": { "kind": "draw", "duration": 0.6 }
-}
-```
-
-Las `shape` son la variedad de "dibujo" que falta: círculos rojos rodeando algo,
-subrayados, llaves, tachones, checks. Se dibujan con `stroke-dashoffset` igual
-que las flechas y dan muchísima vida sin necesidad de assets nuevos.
-
-**Implementación en Remotion:**
-- `clip` → `<OffthreadVideo>` del core.
-- `gif` → paquete `@remotion/gif`, componente `<Gif>`.
-- `frame` → wrapper CSS: borde blanco 12px + trazo negro 4px + sombra suave
-  para `polaroid`; el resto son SVG decorativos superpuestos.
-
----
-
-## E. Sistema de capas (z-order fijo)
-
-Se acabaron los solapamientos accidentales. Orden fijo, no configurable:
-
-```
-  0  fondo
- 10  clip / gif / image de fondo a sangre
- 20  image / clip en slot
- 30  shape (círculos, subrayados) — encima del elemento al que apuntan
- 40  arrow
- 50  stickman
- 60  text / stat
- 70  corner-badge (miniatura persistente arriba a la izquierda)
-```
-
-**Regla de trazado de flechas:** una flecha no puede atravesar el bounding box de
-un elemento de capa 20. El compilador debe:
-1. Detectar la colisión.
-2. Curvar la flecha por encima o por debajo del obstáculo (`curved-up` /
-   `curved-down`), eligiendo el lado con más espacio libre.
-3. Si no hay ruta limpia, error de build indicando el beat.
-
-**Regla de colisión de texto:** ningún `text` puede solaparse con un `stickman`
-ni con otro `text`. Si ocurre, desplazar verticalmente en incrementos de 40px
-hasta resolver; si no cabe, error de build.
-
----
-
-## F. Assets que faltan: fallar, nunca dibujar
-
-**Eliminar el fallback shape.** Si un `asset_id` no está en `manifest.json`, el
-build falla con:
-
-```
-✗ Asset no encontrado: "telescope-2" (beat 7, 03:26)
-  Sugerencias por nombre similar: telescope, telescope-old
-  Añádelo a assets/manifest.json o corrige el guion.
-```
-
-Añadir `npm run assets:check`, que recorre todos los guiones de `episodes/`,
-lista los `asset_id` usados y marca los que faltan **antes** de gastar un céntimo
-en TTS.
-
----
-
-## G. Fuentes de clips y GIFs
-
-Añadir un script `scripts/00-fetch-media.ts` que resuelva assets remotos
-declarados en el manifest y los cachee en local.
-
-- **GIFs:** API de Giphy y de Tenor. Ambas gratuitas con clave, búsqueda por
-  término. Ideales para reacciones y humor.
-- **Clips de stock:** Pexels Videos y Pixabay tienen API gratuita y licencia
-  permisiva. Coverr para planos ambiente.
-- **Material científico y de archivo:** la NASA (imágenes y vídeo de dominio
-  público), Internet Archive, Wikimedia Commons. Para un canal de divulgación
-  espacial esto es la mina principal.
-- **Capturas de producto o interfaz:** grabar tú mismo y guardarlas en
-  `assets/clips/`.
-
-Cachear siempre en disco y versionar el manifest con la URL de origen y la
-licencia. Si un clip viene de Pexels o Giphy, el crédito debe salir generado
-automáticamente en la descripción del vídeo.
-
----
-
-## H. Criterio de "terminado" para este addendum
-
-Un episodio de 3 minutos que cumpla el lint de variedad:
-
-- mínimo 6 plantillas distintas usadas,
-- ninguna repetida en beats consecutivos,
-- al menos 2 clips y 1 GIF,
-- al menos 4 `shape` distintas,
-- flechas en 3 direcciones diferentes como mínimo,
-- 0 colisiones, 0 assets fantasma,
-- ningún tramo de más de 45 segundos sin movimiento.
-
-
-# ADDENDUM 2 a SPEC.md — Composición acumulativa y registro de tipos
-
-> Añadir al final de `SPEC.md`, después del ADDENDUM 1.
-> **Este documento CORRIGE reglas del ADDENDUM 1.** Donde haya conflicto, manda este.
-
----
-
-## A. CORRECCIÓN al ADDENDUM 1, sección E
-
-La regla *"ningún elemento puede solaparse, si ocurre error de build"* era
-incorrecta. El estilo de referencia **sí solapa**, y ese amontonamiento es parte
-de la identidad visual.
-
-Se sustituye por el modelo de **lienzo acumulativo**:
-
-1. Los elementos **no se limpian frase a frase**. Entran y se quedan.
-2. La pantalla se va llenando durante toda una sección (30-60 s).
-3. Solo al cambiar de sección se ejecuta un `[[clear]]` que vacía todo con
-   salida escalonada de 0.08 s entre elementos.
-4. El solapamiento está **permitido y es deseable**, con estos límites:
-   - Ningún elemento puede tapar más del **35 %** del área de otro que siga vivo.
-   - El texto nunca queda tapado: capa superior siempre.
-   - Un elemento nuevo no puede caer exactamente sobre el centro de otro.
-5. Se permite que un elemento **se salga parcialmente del frame** (hasta un 15 %
-   de su ancho). Es un recurso deliberado que da sensación de abundancia.
-
-Sustituir el validador de colisiones por un **validador de densidad**:
-
-```
-densidad = área total ocupada / área del frame
-  < 0.15  →  warning "escena vacía"
-  0.25 – 0.65  →  correcto
-  > 0.80  →  warning "saturada, forzar clear"
-```
-
----
-
-## B. Colocación orgánica (anti-rejilla)
-
-Los slots del SPEC siguen existiendo, pero como **zona de atracción**, no como
-casilla fija. Al resolver un slot, aplicar:
-
-- **Jitter de posición:** ±6 % del ancho del frame en X e Y, con semilla derivada
-  del `id` del elemento para que el render sea reproducible.
-- **Jitter de escala:** cada elemento se escala entre 0.75x y 1.35x respecto al
-  tamaño nominal del slot. Los elementos que el guion marque como `hero` van a
-  1.6x.
-- **Rotación:** ±3° en fotos y capturas. Los vectores y el texto sin rotación.
-
-Sin esto todo queda alineado como una presentación corporativa y pierde
-completamente el carácter.
-
----
-
-## C. Registro de tipos de asset
-
-Seis familias visuales conviven en pantalla. Cada una tiene tratamiento y
-animación propios. En `manifest.json`, campo `kind`:
-
-| `kind` | Qué es | Tratamiento | Entrada por defecto |
-|---|---|---|---|
-| `doodle` | Ilustración trazada a mano, línea negra, sin color o en gris | Ninguno | `draw` 0.8 s |
-| `vector` | Icono plano de trazo grueso y color liso | Ninguno | `pop` 0.4 s |
-| `cutout` | Foto de producto recortada, fondo transparente | Sombra suave opcional | `slide-in` + fade 0.4 s |
-| `screenshot` | Captura de pantalla o interfaz | Borde blanco 6 px + sombra + rotación ±3° | `pop` 0.45 s |
-| `meme` | GIF o clip corto de reacción | Borde fino o ninguno | `stamp` 0.25 s |
-| `logo` | Logotipo de marca | Ninguno | `fade-in` + escala 1.1→1 0.35 s |
-
-**Reglas de vida útil por tipo:**
-- `meme`: 2–4 s. Entra, remata la frase y desaparece. Nunca se queda.
-- `doodle`, `vector`, `cutout`: viven hasta el `clear` de sección.
-- `screenshot`: 4–8 s, o hasta el clear si es el elemento `hero`.
-
-**Regla de mezcla:** en una misma sección deben aparecer al menos **tres `kind`
-distintos**. Si el lint detecta una sección con un solo tipo, warning.
-
----
-
-## D. Texto-eco: el texto sale del propio guion
-
-Este es el mecanismo central del estilo y hay que implementarlo bien.
-
-El texto en pantalla **no son rótulos descriptivos**. Son fragmentos literales de
-la frase que se está locutando en ese momento, extraídos y colocados alrededor
-de las imágenes.
-
-En `script.md` se marca con asteriscos dobles:
-
-```markdown
-El **DVI** hizo de **puente** entre los **monitores analógicos**
-y las **pantallas digitales** ==modernas==.
-```
-
-- `**palabra**` → texto negro flotante, entra con `handwrite`.
-- `==palabra==` → texto rojo `#E5342A`, entra con `stamp`. Máximo 1 por frase.
-- `[[box: "texto"]]` → texto blanco sobre caja negra redondeada (ver captura de
-  DisplayPort: "PC gamers"). Para etiquetar un público o categoría.
-
-El compilador coloca cada fragmento en un hueco libre cercano al elemento visual
-más recientemente añadido, con el jitter de la sección B.
-
-**Reglas:**
-- Máximo 5 fragmentos de texto simultáneos en pantalla.
-- Tamaños: `sm` 32 px, `md` 48 px, `lg` 72 px. El compilador alterna para crear
-  jerarquía; nunca dos fragmentos consecutivos del mismo tamaño.
-- El texto rojo nunca supera el 15 % del total de palabras en pantalla.
-
----
-
-## E. Elementos estructurales fijos
-
-### Corner badge (obligatorio)
-Miniatura del tema de la sección arriba a la izquierda, con etiqueta manuscrita
-debajo. Cambia en cada `[[section]]`, con transición de cross-fade de 0.4 s.
-Persiste durante toda la sección. Es lo que orienta al espectador.
-
-```markdown
-[[section: "VGA", badge=vga-connector.png]]
-```
-
-### Título de sección subrayado
-Título centrado arriba en tipografía manuscrita, con un subrayado trazado a mano
-que se dibuja de izquierda a derecha en 0.5 s tras aparecer el texto. Aparece al
-inicio de sección y **permanece** mientras dura.
-
-### Marca de agua
-Logo del canal abajo a la derecha, opacidad 0.5, siempre presente.
-
----
-
-## F. Perfiles de estilo por canal
-
-Distintos canales de referencia usan paletas distintas. Definir en
-`style-profile.json` para poder cambiar el look sin tocar el motor:
-
-```jsonc
-{
-  "name": "color-pop",
-  "palette": ["#F5C518","#EE2B37","#3DDC3D","#F0329B","#1BA0EE"],
-  "stroke": "#111111",
-  "accent": "#E5342A",
-  "font": "Patrick Hand",
-  "allowedKinds": ["vector","cutout","screenshot","meme","logo"],
-  "jitter": { "position": 0.06, "scale": [0.75,1.35], "rotation": 3 }
-}
-```
-
-Perfil alternativo `mono-doodle`: sin paleta de color, solo trazo negro sobre
-blanco, `allowedKinds: ["doodle","logo"]`, jitter de rotación 0. Es el estilo de
-las capturas de VGA y DisplayPort.
-
----
-
-## G. Actualización del lint
-
-`npm run lint:variety` pasa a comprobar también:
-
-- densidad por sección dentro del rango,
-- mínimo 3 `kind` distintos por sección,
-- ningún `meme` con vida > 4 s,
-- ningún tramo de 20 s sin texto-eco nuevo,
-- corner badge presente en el 100 % de los frames,
-- máximo 5 textos simultáneos,
-- proporción de texto rojo bajo el 15 %.
-
-
-# ADDENDUM 4 a SPEC.md — Tarjetas, motion blur y calidad de iconos
-
-> Añadir al final de `SPEC.md`.
-> Corrige el fondo definido en el perfil de estilo y amplía el catálogo de entradas.
-
----
-
-## A. CORRECCIÓN: el fondo deja de ser blanco puro
-
-En `style-profile.color-pop.json`:
-
-```jsonc
-"background": "#D6D6D6",        // gris claro, antes #FFFFFF
-"cardBackground": "#FFFFFF"
-```
-
-Motivo: el tratamiento de tarjeta (esquinas redondeadas + sombra) es invisible
-sobre blanco. Sobre gris claro, los elementos flotan y ganan profundidad.
-
-El fondo pasa a ser configurable por sección, para poder alternar:
-
-```markdown
-[[section: "Intel Core", badge=intel.png, bg=gray]]
-[[section: "Comparativa", badge=vs.png, bg=white]]
-```
-
-Valores: `white` (#FFFFFF), `gray` (#D6D6D6), `warm` (#F2EEE8).
-Regla: si una sección contiene algún elemento con `frame: card`, el fondo no
-puede ser `white`.
-
----
-
-## B. Tratamiento `card`
-
-Nuevo valor del campo `frame`, aplicable a `image`, `screenshot` y `clip`:
-
-```jsonc
-{
-  "id": "intel-evolution",
-  "type": "image",
-  "src": "assets/cutouts/intel-evolution.png",
-  "frame": "card",
-  "slot": "center",
-  "in": 34.0, "out": 48.0,
-  "enter": { "kind": "slide-in-right", "duration": 0.55, "motionBlur": true },
-  "exit":  { "kind": "slide-out-left", "duration": 0.4, "motionBlur": true }
-}
-```
-
-Especificación visual de `card`:
-
-```css
-border-radius: 18px;
-background: var(--card-bg);
-box-shadow: 0 18px 40px rgba(0,0,0,0.28), 0 4px 10px rgba(0,0,0,0.16);
-overflow: hidden;          /* recorta el contenido a las esquinas */
-```
-
-- Sin borde. La sombra es lo que separa la tarjeta del fondo.
-- La sombra se desplaza ligeramente en la dirección contraria al movimiento
-  durante la entrada, y se asienta al terminar.
-- Tamaño típico: entre el 45 % y el 70 % del ancho del frame. Las tarjetas son
-  elementos protagonistas, no decoración.
-
----
-
-## C. Motion blur (la pieza que da el acabado)
-
-Instalar `@remotion/motion-blur`. Ofrece `<Trail>` (estela de fotogramas
-anteriores) y `<CameraMotionBlur>` (desenfoque por movimiento de cámara).
-
-**Regla:** toda entrada o salida de tipo `slide-*` con recorrido superior a
-300 px lleva motion blur. Las de tipo `pop`, `fade` y `draw` no.
-
-Parámetros por defecto:
-
-```jsonc
-"motionBlur": {
-  "layers": 8,           // fotogramas de estela
-  "lagInFrames": 1.2,
-  "trailOpacity": 0.55
-}
-```
-
-Alternativa barata si `<Trail>` sale caro de renderizar: aplicar
-`filter: blur(Npx)` en el eje del movimiento, con N proporcional a la velocidad
-instantánea del elemento, cayendo a 0 al asentarse. Menos fiel, mucho más rápido,
-y a 30 fps se nota poco la diferencia.
-
-**Curva de movimiento:** los `slide-*` no usan lineal ni ease-out simple. Usan
-`spring()` con overshoot bajo — el elemento pasa un 3-4 % de su posición final y
-vuelve. Es lo que da la sensación de peso.
-
----
-
-## D. Catálogo de entradas ampliado
-
-Añadir a las del ADDENDUM 1:
-
-| `kind` | Descripción | Motion blur |
-|---|---|---|
-| `slide-in-right-blur` | Entra desde fuera del borde derecho, recorrido largo | Sí |
-| `slide-in-left-blur` | Ídem desde la izquierda | Sí |
-| `whip-in` | Entrada muy rápida (0.3 s) con estela pronunciada | Sí, agresivo |
-| `card-drop` | Cae desde arriba con rebote y la sombra creciendo | Ligero |
-| `scale-blur-in` | Escala 1.6→1 con desenfoque que se resuelve | Sí |
-
-**Regla de reparto:** las tarjetas grandes usan `slide-*-blur` o `card-drop`.
-Los iconos pequeños siguen usando `pop`. No mezclar: si todo lleva motion blur,
-deja de destacar.
-
----
-
-## E. Calidad de los iconos
-
-El problema no se resuelve generando más. Estrategia en tres niveles:
-
-### Nivel 1 — Comprar un pack base coherente (mayor impacto)
-
-Un set profesional trae miles de iconos ya dibujados con el mismo grosor de
-trazo, la misma rejilla óptica y los mismos radios. Esa coherencia es
-precisamente lo que se percibe como "calidad" y es lo más difícil de reproducir
-generando pieza a pieza.
-
-Candidatos: Streamline (sets enormes en estilos consistentes), IconScout,
-Iconify Pro. Revisar siempre la licencia para uso comercial en vídeo.
-
-Un pack cubre el 70-80 % de las necesidades y elimina de golpe el problema.
-
-### Nivel 2 — Ajustar la generación para lo que falte
-
-Al llamar a Recraft, usar el tipo de estilo **"Icon"** en lugar de "Vector
-illustration": está optimizado para formato pequeño con grosores de trazo
-consistentes. "Vector illustration" da piezas más libres y menos uniformes.
-
-Añadir al prompt las restricciones geométricas que producen iconos limpios:
-
-```
-designed on a 48x48 grid, uniform 4px stroke weight, rounded line caps
-and joins, 2px corner radius minimum, no thin details, readable at 64px,
-maximum 8 distinct shapes
-```
-
-El límite de formas es clave: los iconos generados fallan por exceso de detalle,
-no por defecto.
-
-### Nivel 3 — Repaso manual de los iconos protagonistas
-
-No todos los iconos merecen el mismo esfuerzo. Marcar en el manifest:
-
-```jsonc
-"tier": "hero" | "support"
-```
-
-Los `hero` (los que salen grandes y repetidamente, la identidad del canal) pasan
-por un repaso en Figma o Illustrator: alinear a rejilla, igualar grosores,
-limpiar nodos sobrantes. Diez minutos por icono, y solo se hacen una vez.
-
-Los `support` salen pequeños y de fondo; con Iconify normalizado sobra.
-
-### Criterio de aceptación
-
-Un icono se aprueba si, **visto a 120 px sobre el fondo real**:
-- se identifica el objeto en menos de un segundo,
-- ningún trazo se ve más fino que otro,
-- no hay detalles que se conviertan en manchas,
-- puesto al lado de otros tres del canal, parece de la misma familia.
-
-Ese último punto es el que más se incumple y el que más se nota.
+## Decisiones y motivos (no reintroducir errores ya corregidos)
+
+1. **Fondo blanco**: es la identidad del canal de referencia; el gris se probó y se descartó. La tarjeta se ve por su borde+sombra dura, no por contraste de fondo.
+2. **Card = borde 3px + sombra dura desplazada**: la sombra difusa se pierde y parece de plantilla; la dura da el look "sticker" hecho a mano.
+3. **Texto-texto nunca se solapa; imagen-imagen hasta 35%**: el texto ilegible es el fallo que más se nota; el amontonamiento de imágenes es identidad, no error.
+4. **Máx 4 textos**: más de 4 satura y no da tiempo a leer; el título y el badge no cuentan porque son navegación.
+5. **Slots con jitter, no rejilla**: la rejilla fija delata "PowerPoint"; el jitter (con semilla) da el aire manual y es reproducible.
+6. **Asset faltante = error, nunca fallback**: la figura de relleno metía iconos irrelevantes ("barquito azul"); mejor parar y pedir el asset correcto.
+7. **Iconos 3 capas + paint-order="stroke fill"**: el trazo detrás del relleno evita que el borde "coma" la forma; las 3 capas dan color plano coherente y recoloreable.
+8. **Proporción de iconos por contentType**: un icono decora cuando existe material real (histórico); la mezcla correcta depende del tema, no es fija.
+9. **Voz cacheada + commit antes de render**: la voz es de pago; se perdió saldo por regenerar y por commitear después de un render que falló. Nunca repetir.
