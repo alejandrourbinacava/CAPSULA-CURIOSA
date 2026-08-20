@@ -23,5 +23,14 @@ const similar = (id) => ids.filter(k => k !== id && (k.includes(id.slice(0, 4)) 
 
 console.log(`assets:check ${dir} — ${used.size} usados, ${missing.length} faltan`);
 for (const id of missing) console.log(`  ✗ "${id}" (kind=${assets[id]?.kind || "?"})  sugerencias: ${similar(id).join(", ") || "—"}`);
+
+// GATE (Addendum: normalizador): todo asset kind:"vector" DEBE haber pasado por el normalizador.
+const unnorm = Object.entries(assets).filter(([, a]) => a.kind === "vector" && a.file && !a.normalized).map(([id]) => id);
+if (unnorm.length) {
+  console.log(`\n  ✗ BUILD FALLA: ${unnorm.length} asset(s) kind:"vector" SIN normalizar: ${unnorm.join(", ")}`);
+  console.log(`    Ejecuta 01-assets (normaliza automáticamente) o "npm run normalize -- <svg> --color=<paleta>".`);
+  process.exit(1);
+}
+
 if (missing.length) { console.log(`\n  Añade estos assets o corrige el guion antes de renderizar.`); process.exit(process.argv.includes("--strict") ? 1 : 0); }
-else console.log("  ✓ todos los assets presentes");
+console.log("  ✓ todos los assets presentes · vectores normalizados ✓");

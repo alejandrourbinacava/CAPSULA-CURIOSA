@@ -1,34 +1,76 @@
 // 01-assets: baja cada asset de assets.json.
-//   kind "icon"  -> Iconify (packs flat-outline coherentes) SVG.
-//   kind "photo" -> Wikipedia (imagen real de hardware/producto concreto).
-// Guarda en public/assets/icons/<id>.<ext> y actualiza assets.json con la ruta.
+//   kind icon/vector -> @iconify-json/* OFFLINE (solar/ph/streamline/mingcute) + NORMALIZADOR de estilo
+//                       -> SVG estilo casa (trazo grueso + relleno de paleta). Registra licencia.
+//   kind photo        -> Wikipedia (imagen real). El renderer la trata como cutout.
 // Uso: node scripts/01-assets.mjs episodes/<slug>
 import fs from "node:fs";
 import path from "node:path";
+import { createRequire } from "node:module";
+import { getIconData, iconToSVG } from "@iconify/utils";
+import { normalizeSvg, colorHex } from "./normalize-icon.mjs";
+const require = createRequire(import.meta.url);
+const PROFILE = require("../style-profile.json");
+const PAL_KEYS = Object.keys(PROFILE.palette || { yellow: 1 });
 
 const dir = process.argv[2] || "episodes/test-cpu";
 const assetsPath = path.join(dir, "assets.json");
 const assets = JSON.parse(fs.readFileSync(assetsPath, "utf8"));
 const OUT = path.join("public", "assets", "icons");
 fs.mkdirSync(OUT, { recursive: true });
-
-// UA descriptivo: Wikipedia BLOQUEA/limita peticiones sin User-Agent propio (era la causa de que
-// Saturno/Urano/Neptuno/Plutón fallaran en CI y cayeran a iconos basura).
 const UA = "CapsulaCuriosaBot/1.0 (https://github.com/alejandrourbinacava/CAPSULA-CURIOSA; alejandrourbinacava@gmail.com)";
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
-// packs de iconos de LÍNEA (nunca logos de marca: excluimos logos/skill-icons/devicon/flags/emoji-color)
-const SETS = ["streamline", "solar", "hugeicons", "ph", "proicons", "tabler", "carbon", "mdi", "material-symbols", "lucide"];
-const BADSET = /^(logos|skill-icons|devicon|cif|flag|circle-flags|flagpack|twemoji|noto|fxemoji|emojione|openmoji|fluent-emoji|vscode-icons|catppuccin|token|cryptocurrency|arcticons|simple-icons|brandico|fa-brands|line-md):/i;
-const dl = async (url, dest) => { const r = await fetch(url, { headers: { "User-Agent": UA } }); if (!r.ok) throw new Error("dl " + r.status); const b = Buffer.from(await r.arrayBuffer()); if (b.length < 800) throw new Error("img vacia"); fs.writeFileSync(dest, b); };
-async function iconify(q, dest) {
-  const j = await (await fetch(`https://api.iconify.design/search?query=${encodeURIComponent(q)}&limit=40`, { headers: { "User-Agent": UA } })).json();
-  const ic = (j.icons || []).filter(i => !BADSET.test(i) && !/question|help|unknown|placeholder|no-image|error/i.test(i));
-  let pick; for (const s of SETS) { pick = ic.find(i => i.startsWith(s + ":")); if (pick) break; }
-  pick = pick || ic[0]; if (!pick) return false;
-  const [p, n] = pick.split(":");
-  const svg = await (await fetch(`https://api.iconify.design/${p}/${n}.svg?height=320`, { headers: { "User-Agent": UA } })).text();
-  if (!svg.includes("<svg")) return false; fs.writeFileSync(dest, svg); return true;
+
+// --- sets OFFLINE por prioridad de grosor de trazo (rellenos, no línea fina) ---
+const SETS_OFF = [];
+for (const prefix of ["solar", "ph", "streamline", "mingcute"]) {
+  try {
+    const data = require(`@iconify-json/${prefix}/icons.json`);
+    const info = require(`@iconify-json/${prefix}/info.json`);
+    SETS_OFF.push({ prefix, data, names: Object.keys(data.icons).concat(Object.keys(data.aliases || {})), license: info.license, name: info.name });
+  } catch (e) { console.log(`(set ${prefix} no disponible)`); }
 }
+const paletteFor = (id) => { let h = 0; for (const c of id) h = (h * 31 + c.charCodeAt(0)) >>> 0; return PAL_KEYS[h % PAL_KEYS.length]; };
+
+// busca el mejor icono en los sets offline; prefiere variantes de RELLENO/negrita, penaliza línea fina
+function offlineIcon(query) {
+  const ql = query.toLowerCase(); const words = ql.split(/[^a-z0-9]+/).filter(Boolean); if (!words.length) return null;
+  let best = null;
+  for (let si = 0; si < SETS_OFF.length; si++) {
+    const set = SETS_OFF[si];
+    for (const name of set.names) {
+      const nl = name.toLowerCase();
+      if (!words.some(w => w.length > 2 && nl.includes(w))) continue;
+      const base = nl.replace(/-(bold|fill|filled|duotone|line|linear|outline|thin|broken|light|regular|solid).*/, "");
+      let score = 0;
+      if (/(-bold|-fill|-filled|-solid)(?!.*line)/.test(nl)) score += 5;
+      if (/-bold-duotone/.test(nl)) score += 6;
+      if (/(-line|-linear|-outline|-thin|-broken|-light)/.test(nl)) score -= 4;
+      if (words.includes(base)) score += 7;
+      if (base.startsWith(words[0])) score += 2;
+      score -= Math.abs(base.length - ql.length) * 0.05;
+      score += (SETS_OFF.length - si) * 0.4;
+      if (!best || score > best.score) best = { set, name, score };
+    }
+  }
+  if (!best) return null;
+  const data = getIconData(best.set.data, best.name); if (!data) return null;
+  const b = iconToSVG(data, { height: "320" });
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" ${Object.entries(b.attributes).map(([k, v]) => `${k}="${v}"`).join(" ")}>${b.body}</svg>`;
+  return { svg, set: best.set.prefix, name: best.name, license: best.set.license };
+}
+
+// fallback HTTP (keyless) SOLO si offline no encuentra nada; también se normaliza
+async function httpIcon(q) {
+  try {
+    const j = await (await fetch(`https://api.iconify.design/search?query=${encodeURIComponent(q)}&limit=30`, { headers: { "User-Agent": UA } })).json();
+    const pick = (j.icons || []).find(i => /(solar|ph|streamline|mingcute|mdi|tabler):/.test(i) && !/logos|flag|brand/.test(i)) || (j.icons || [])[0];
+    if (!pick) return null; const [p, n] = pick.split(":");
+    const svg = await (await fetch(`https://api.iconify.design/${p}/${n}.svg?height=320`, { headers: { "User-Agent": UA } })).text();
+    return svg.includes("<svg") ? { svg, set: p, name: n, license: null } : null;
+  } catch { return null; }
+}
+
+const dl = async (url, dest) => { const r = await fetch(url, { headers: { "User-Agent": UA } }); if (!r.ok) throw new Error("dl " + r.status); const b = Buffer.from(await r.arrayBuffer()); if (b.length < 800) throw new Error("img vacia"); fs.writeFileSync(dest, b); };
 async function wiki(q, base) {
   for (const lang of ["en", "es"]) {
     for (let attempt = 0; attempt < 3; attempt++) {
@@ -38,26 +80,37 @@ async function wiki(q, base) {
         const r = await (await fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(t)}&prop=pageimages&piprop=original|thumbnail&pithumbsize=1200&format=json&origin=*`, { headers: { "User-Agent": UA } })).json();
         const p = Object.values(r?.query?.pages || {})[0]; const u = p?.thumbnail?.source || p?.original?.source;
         if (u) { const ext = /\.png/i.test(u) ? "png" : "jpg"; await dl(u, path.join(OUT, base + "." + ext)); return "assets/icons/" + base + "." + ext; }
-        break; // hubo respuesta pero sin imagen -> probar siguiente idioma
-      } catch (e) { await sleep(800 * (attempt + 1)); } // rate-limit u error: espera y reintenta
+        break;
+      } catch (e) { await sleep(800 * (attempt + 1)); }
     }
   }
   return null;
 }
 
+// procesa un icono: busca (offline > http), NORMALIZA, guarda, registra licencia
+function saveIcon(id, ico) {
+  const color = paletteFor(id);
+  const norm = normalizeSvg(ico.svg, color);
+  const rel = "assets/icons/" + id + ".svg";
+  fs.writeFileSync(path.join("public", rel), norm);
+  const L = ico.license || {};
+  return { file: rel, kind: "vector", normalized: true, color, attribution: { source: ico.set + ":" + ico.name, license: L.title || L.spdx || "?", url: L.url || "" } };
+}
+
 for (const [id, a] of Object.entries(assets)) {
   const q = a.query || id;
-  await sleep(300); // espacia peticiones (evita rate-limit de Wikipedia/Iconify)
   try {
-    if (a.kind === "photo") {
+    if (a.kind === "photo" || a.kind === "cutout" || a.kind === "screenshot") {
+      await sleep(300);
       const f = await wiki(q, id);
-      if (f) { a.file = f; console.log(`🖼️  ${id} (foto) ✓`); continue; }
+      if (f) { a.file = f; if (!a.kind || a.kind === "photo") a.kind = "cutout"; console.log(`🖼️  ${id} (foto) ✓`); continue; }
       // sin foto -> icono como reserva
     }
-    const svgPath = path.join(OUT, id + ".svg");
-    if (await iconify(q, svgPath)) { a.file = "assets/icons/" + id + ".svg"; console.log(`▲ ${id} (icono) ✓`); }
+    let ico = offlineIcon(q);
+    if (!ico) { await sleep(200); ico = await httpIcon(q); }
+    if (ico) { const meta = saveIcon(id, ico); Object.assign(a, meta); console.log(`▲ ${id} (vector ${meta.color}) ✓ [${ico.set}]`); }
     else { a.file = null; console.log(`✗ ${id} sin asset`); }
-  } catch (e) { a.file = null; console.log(`✗ ${id} error ${(e.message || "").slice(0, 40)}`); }
+  } catch (e) { a.file = null; console.log(`✗ ${id} error ${(e.message || "").slice(0, 50)}`); }
 }
 fs.writeFileSync(assetsPath, JSON.stringify(assets, null, 2));
-console.log("✔ assets.json actualizado");
+console.log("✔ assets.json actualizado (iconos normalizados al estilo de la casa)");

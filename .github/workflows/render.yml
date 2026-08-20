@@ -77,8 +77,7 @@ jobs:
           GIPHY_KEY: ${{ secrets.GIPHY_KEY }}
         run: node scripts/00-fetch-media.mjs "${{ steps.ep.outputs.dir }}"
 
-      - name: 01c) Comprobar assets (informe antes de gastar en TTS)
-        continue-on-error: true
+      - name: 01c) Comprobar assets + GATE de normalización (falla si vector sin normalizar)
         run: node scripts/assets-check.mjs "${{ steps.ep.outputs.dir }}"
 
       - name: 01d) Voz (genaipro) + sincronía por palabra (Whisper)
@@ -100,11 +99,13 @@ jobs:
         continue-on-error: true
         run: npx remotion still src/index.ts Scene out/thumbnail.png --frame=90
 
-      - name: Leer título del vídeo
+      - name: Leer título y créditos de assets (CC BY, etc.)
         id: meta
         run: |
           echo "title=$(node -p "require('./public/active/scenes.json').meta.title || 'Episodio'")" >> $GITHUB_OUTPUT
           echo "fecha=$(date +%Y-%m-%d)" >> $GITHUB_OUTPUT
+          node -e "const a=require('./'+require('fs').readFileSync('episodes/active.txt','utf8').trim()+'/assets.json');const s=new Set();for(const k in a){const at=a[k].attribution;if(at&&at.license&&at.license!=='?')s.add(at.source.split(':')[0]+' ('+at.license+')');}console.log('Iconos: '+([...s].join(', ')||'—')+' · Fotos: Wikimedia Commons')" > out/credits.txt
+          echo "credits=$(cat out/credits.txt)" >> $GITHUB_OUTPUT
 
       - name: 05) Subir como artifact (copia temporal, 90 días)
         uses: actions/upload-artifact@v4
@@ -120,7 +121,7 @@ jobs:
         with:
           tag_name: video-${{ github.run_number }}
           name: "🎬 ${{ steps.meta.outputs.title }} (${{ steps.meta.outputs.fecha }})"
-          body: "Vídeo generado automáticamente (pipeline spec: guion fijo + sincronía por palabra). Descarga el MP4 abajo 👇"
+          body: "Vídeo generado automáticamente (pipeline spec: guion fijo + sincronía por palabra). Descarga el MP4 abajo 👇\n\nCréditos: ${{ steps.meta.outputs.credits }}"
           files: |
             out/VIDEO_FINAL.mp4
             out/thumbnail.png

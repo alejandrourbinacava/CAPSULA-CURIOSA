@@ -1,152 +1,299 @@
 {
   "solar_system": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "solar system",
-    "file": "assets/icons/solar_system.svg"
+    "file": "assets/icons/solar_system.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "ph:solar-panel-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "sun": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "sun",
-    "file": "assets/icons/sun.svg"
+    "file": "assets/icons/sun.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:sun-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "mercury": {
-    "kind": "photo",
+    "kind": "cutout",
     "query": "Mercury planet",
     "file": "assets/icons/mercury.jpg"
   },
   "venus": {
-    "kind": "photo",
+    "kind": "cutout",
     "query": "Venus planet",
     "file": "assets/icons/venus.jpg"
   },
   "earth": {
-    "kind": "photo",
+    "kind": "cutout",
     "query": "Earth",
     "file": "assets/icons/earth.jpg"
   },
   "mars": {
-    "kind": "photo",
+    "kind": "cutout",
     "query": "Mars planet",
     "file": "assets/icons/mars.png"
   },
   "jupiter": {
-    "kind": "photo",
+    "kind": "cutout",
     "query": "Jupiter planet",
     "file": "assets/icons/jupiter.png"
   },
   "saturn": {
-    "kind": "photo",
+    "kind": "cutout",
     "query": "Saturn planet",
     "file": "assets/icons/saturn.png"
   },
   "uranus": {
-    "kind": "photo",
+    "kind": "cutout",
     "query": "Uranus planet",
     "file": "assets/icons/uranus.png"
   },
   "neptune": {
-    "kind": "photo",
+    "kind": "cutout",
     "query": "Neptune planet",
     "file": "assets/icons/neptune.png"
   },
   "pluto": {
-    "kind": "photo",
+    "kind": "cutout",
     "query": "Pluto",
     "file": "assets/icons/pluto.png"
   },
   "thermometer": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "thermometer",
-    "file": "assets/icons/thermometer.svg"
+    "file": "assets/icons/thermometer.svg",
+    "normalized": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:thermometer-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "clock": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "clock",
-    "file": "assets/icons/clock.svg"
+    "file": "assets/icons/clock.svg",
+    "normalized": true,
+    "color": "green",
+    "attribution": {
+      "source": "ph:clock-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "skull": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "skull",
-    "file": "assets/icons/skull.svg"
+    "file": "assets/icons/skull.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "ph:skull-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "rocket": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "rocket",
-    "file": "assets/icons/rocket.svg"
+    "file": "assets/icons/rocket.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:rocket-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "rings": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "planetary rings",
-    "file": null
+    "file": "assets/icons/rings.svg",
+    "normalized": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "solar:star-rings-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "ice": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "ice cube",
-    "file": "assets/icons/ice.svg"
+    "file": "assets/icons/ice.svg",
+    "normalized": true,
+    "color": "violet",
+    "attribution": {
+      "source": "ph:cube-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "wind": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "wind",
-    "file": "assets/icons/wind.svg"
+    "file": "assets/icons/wind.svg",
+    "normalized": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:wind-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "volcano": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "volcano",
-    "file": "assets/icons/volcano.svg"
+    "file": "assets/icons/volcano.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "streamline:volcano-solid",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "moon": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "moon",
-    "file": "assets/icons/moon.svg"
+    "file": "assets/icons/moon.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "solar:moon-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "magnet": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "magnet",
-    "file": "assets/icons/magnet.svg"
+    "file": "assets/icons/magnet.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:magnet-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "storm": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "hurricane",
-    "file": "assets/icons/storm.svg"
+    "file": "assets/icons/storm.svg",
+    "normalized": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "ph:hurricane-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "calendar": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "calendar",
-    "file": "assets/icons/calendar.svg"
+    "file": "assets/icons/calendar.svg",
+    "normalized": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:calendar-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "scale": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "weighing scale",
-    "file": null
+    "file": "assets/icons/scale.svg",
+    "normalized": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:scale-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "water_drop": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "water drop",
-    "file": "assets/icons/water_drop.svg"
+    "file": "assets/icons/water_drop.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "solar:water-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "telescope": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "telescope",
-    "file": "assets/icons/telescope.svg"
+    "file": "assets/icons/telescope.svg",
+    "normalized": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:telescope-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "diamond": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "diamond",
-    "file": "assets/icons/diamond.svg"
+    "file": "assets/icons/diamond.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "ph:diamond-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "crater": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "crater",
-    "file": "assets/icons/crater.svg"
+    "file": "assets/icons/crater.svg",
+    "normalized": true,
+    "color": "violet",
+    "attribution": {
+      "source": "roentgen:crater",
+      "license": "?",
+      "url": ""
+    }
   },
   "greenhouse": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "greenhouse",
-    "file": "assets/icons/greenhouse.svg"
+    "file": "assets/icons/greenhouse.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "mdi:greenhouse",
+      "license": "?",
+      "url": ""
+    }
   },
   "bell": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "bell",
-    "file": "assets/icons/bell.svg"
+    "file": "assets/icons/bell.svg",
+    "normalized": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "solar:bell-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   }
 }
