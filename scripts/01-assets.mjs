@@ -11,6 +11,9 @@ import { normalizeSvg, colorHex } from "./normalize-icon.mjs";
 const require = createRequire(import.meta.url);
 const PROFILE = require("../style-profile.json");
 const PAL_KEYS = Object.keys(PROFILE.palette || { yellow: 1 });
+function envKey(n) { if (process.env[n]) return process.env[n].trim(); if (fs.existsSync(".env")) { const m = fs.readFileSync(".env", "utf8").match(new RegExp(n + "\\s*=\\s*(.+)")); if (m) return m[1].trim().replace(/^["']|["']$/g, ""); } return null; }
+const OPENAI = envKey("OPENAI_API_KEY");
+const OPENAI_MODEL = envKey("OPENAI_MODEL") || "gpt-4o";
 
 const dir = process.argv[2] || "episodes/test-cpu";
 const assetsPath = path.join(dir, "assets.json");
@@ -57,6 +60,20 @@ function offlineIcon(query) {
   const b = iconToSVG(data, { height: "320" });
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" ${Object.entries(b.attributes).map(([k, v]) => `${k}="${v}"`).join(" ")}>${b.body}</svg>`;
   return { svg, set: best.set.prefix, name: best.name, license: best.set.license };
+}
+
+// OpenAI dibuja el SVG del icono (Addendum 4 · E nivel 2: restricciones geométricas de icono limpio)
+async function openaiIcon(query) {
+  if (!OPENAI) return null;
+  const sys = "You are an expert icon designer. Output ONLY valid SVG code for a single flat pictogram. No markdown, no explanation.";
+  const user = `Flat vector ICON representing "${query}". Bold solid FILLED shapes (not thin outlines). Designed on a 48x48 grid, uniform stroke weight, rounded caps and joins, minimum 2px corner radius, NO thin details, readable at 64px, MAXIMUM 8 distinct shapes. viewBox="0 0 24 24", single fill color #000000, transparent background, no text, no gradients, no frame. Return ONLY the <svg>...</svg>.`;
+  try {
+    const r = await fetch("https://api.openai.com/v1/chat/completions", { method: "POST", headers: { Authorization: `Bearer ${OPENAI}`, "Content-Type": "application/json" }, body: JSON.stringify({ model: OPENAI_MODEL, messages: [{ role: "system", content: sys }, { role: "user", content: user }], temperature: 0.4, max_tokens: 1600 }) });
+    const j = await r.json(); if (!r.ok) { console.log(`  (openai: ${(j.error?.message || r.status).toString().slice(0, 50)})`); return null; }
+    const txt = j.choices?.[0]?.message?.content || ""; const m = txt.match(/<svg[\s\S]*?<\/svg>/i); if (!m) return null;
+    const svg = m[0]; if (!/<(path|circle|rect|polygon|ellipse|line)\b/i.test(svg)) return null;
+    return { svg, set: "openai", name: query, license: { title: "IA (OpenAI " + OPENAI_MODEL + ")", url: "" } };
+  } catch { return null; }
 }
 
 // fallback HTTP (keyless) SOLO si offline no encuentra nada; también se normaliza
@@ -106,8 +123,10 @@ for (const [id, a] of Object.entries(assets)) {
       if (f) { a.file = f; if (!a.kind || a.kind === "photo") a.kind = "cutout"; console.log(`🖼️  ${id} (foto) ✓`); continue; }
       // sin foto -> icono como reserva
     }
-    let ico = offlineIcon(q);
-    if (!ico) { await sleep(200); ico = await httpIcon(q); }
+    let ico = null;
+    if (OPENAI) { await sleep(150); ico = await openaiIcon(q); }   // Addendum 4: OpenAI para todos los iconos
+    if (!ico) ico = offlineIcon(q);                                 // reserva: sets offline
+    if (!ico) { await sleep(200); ico = await httpIcon(q); }        // último recurso: HTTP keyless
     if (ico) { const meta = saveIcon(id, ico); Object.assign(a, meta); console.log(`▲ ${id} (vector ${meta.color}) ✓ [${ico.set}]`); }
     else { a.file = null; console.log(`✗ ${id} sin asset`); }
   } catch (e) { a.file = null; console.log(`✗ ${id} error ${(e.message || "").slice(0, 50)}`); }

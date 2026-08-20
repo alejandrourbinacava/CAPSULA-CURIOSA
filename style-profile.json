@@ -1,6 +1,7 @@
 {
   "name": "color-pop",
-  "background": "#FFFFFF",
+  "background": "#D6D6D6",
+  "cardBackground": "#FFFFFF",
   "stroke": "#111111",
   "strokeWidth": 4,
   "palette": {

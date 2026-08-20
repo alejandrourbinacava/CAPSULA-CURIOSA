@@ -14,6 +14,8 @@ const HAND_BOLD = `${CAVEAT}, ${PATRICK}, cursive`;                      // titu
 const RED = (PROFILE as any).accent || "#EE2B37";
 const STROKE = (PROFILE as any).stroke || "#111111";
 const KT = (PROFILE as any).kindTreatment || {};
+const BG = (PROFILE as any).background || "#D6D6D6";          // Addendum 4: fondo gris (las tarjetas flotan)
+const CARD_BG = (PROFILE as any).cardBackground || "#FFFFFF";
 
 type Box = { cx: number; cy: number; w: number; h: number };
 type Anim = { kind: string; duration?: number };
@@ -102,6 +104,8 @@ const Stickman: React.FC<{ pose?: string; head?: string; size: number }> = ({ po
 // ============================ MARCO (polaroid / tv / browser / phone) ============================
 const Framed: React.FC<{ frame?: string; w: number; h: number; children: React.ReactNode }> = ({ frame, w, h, children }) => {
   if (frame === "none") return <>{children}</>;
+  if (frame === "card") // Addendum 4·B: tarjeta protagonista, sin borde, sombra fuerte, recorta a esquinas
+    return <div style={{ borderRadius: 18, background: CARD_BG, boxShadow: "0 18px 40px rgba(0,0,0,.28), 0 4px 10px rgba(0,0,0,.16)", overflow: "hidden", display: "flex" }}>{children}</div>;
   if (frame === "tv-crt")
     return <div style={{ padding: 22, background: "#1c1c1e", borderRadius: 40, border: "6px solid #111", boxShadow: "0 14px 40px rgba(0,0,0,.28)" }}><div style={{ borderRadius: 20, overflow: "hidden", display: "flex", background: "#000" }}>{children}</div></div>;
   if (frame === "browser")
@@ -206,7 +210,7 @@ const Element: React.FC<{ el: El }> = ({ el }) => {
 };
 
 export const makeSceneVideo = (scenes: Scenes): React.FC => () => (
-  <AbsoluteFill style={{ backgroundColor: "#FFFFFF" }}>
+  <AbsoluteFill style={{ backgroundColor: BG }}>
     {scenes.meta.audio && <Audio src={staticFile(scenes.meta.audio)} />}
     {scenes.elements.map((el) => <Element key={el.id} el={el} />)}
   </AbsoluteFill>

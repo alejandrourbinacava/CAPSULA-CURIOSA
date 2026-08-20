@@ -550,3 +550,174 @@ las capturas de VGA y DisplayPort.
 - corner badge presente en el 100 % de los frames,
 - máximo 5 textos simultáneos,
 - proporción de texto rojo bajo el 15 %.
+
+
+# ADDENDUM 4 a SPEC.md — Tarjetas, motion blur y calidad de iconos
+
+> Añadir al final de `SPEC.md`.
+> Corrige el fondo definido en el perfil de estilo y amplía el catálogo de entradas.
+
+---
+
+## A. CORRECCIÓN: el fondo deja de ser blanco puro
+
+En `style-profile.color-pop.json`:
+
+```jsonc
+"background": "#D6D6D6",        // gris claro, antes #FFFFFF
+"cardBackground": "#FFFFFF"
+```
+
+Motivo: el tratamiento de tarjeta (esquinas redondeadas + sombra) es invisible
+sobre blanco. Sobre gris claro, los elementos flotan y ganan profundidad.
+
+El fondo pasa a ser configurable por sección, para poder alternar:
+
+```markdown
+[[section: "Intel Core", badge=intel.png, bg=gray]]
+[[section: "Comparativa", badge=vs.png, bg=white]]
+```
+
+Valores: `white` (#FFFFFF), `gray` (#D6D6D6), `warm` (#F2EEE8).
+Regla: si una sección contiene algún elemento con `frame: card`, el fondo no
+puede ser `white`.
+
+---
+
+## B. Tratamiento `card`
+
+Nuevo valor del campo `frame`, aplicable a `image`, `screenshot` y `clip`:
+
+```jsonc
+{
+  "id": "intel-evolution",
+  "type": "image",
+  "src": "assets/cutouts/intel-evolution.png",
+  "frame": "card",
+  "slot": "center",
+  "in": 34.0, "out": 48.0,
+  "enter": { "kind": "slide-in-right", "duration": 0.55, "motionBlur": true },
+  "exit":  { "kind": "slide-out-left", "duration": 0.4, "motionBlur": true }
+}
+```
+
+Especificación visual de `card`:
+
+```css
+border-radius: 18px;
+background: var(--card-bg);
+box-shadow: 0 18px 40px rgba(0,0,0,0.28), 0 4px 10px rgba(0,0,0,0.16);
+overflow: hidden;          /* recorta el contenido a las esquinas */
+```
+
+- Sin borde. La sombra es lo que separa la tarjeta del fondo.
+- La sombra se desplaza ligeramente en la dirección contraria al movimiento
+  durante la entrada, y se asienta al terminar.
+- Tamaño típico: entre el 45 % y el 70 % del ancho del frame. Las tarjetas son
+  elementos protagonistas, no decoración.
+
+---
+
+## C. Motion blur (la pieza que da el acabado)
+
+Instalar `@remotion/motion-blur`. Ofrece `<Trail>` (estela de fotogramas
+anteriores) y `<CameraMotionBlur>` (desenfoque por movimiento de cámara).
+
+**Regla:** toda entrada o salida de tipo `slide-*` con recorrido superior a
+300 px lleva motion blur. Las de tipo `pop`, `fade` y `draw` no.
+
+Parámetros por defecto:
+
+```jsonc
+"motionBlur": {
+  "layers": 8,           // fotogramas de estela
+  "lagInFrames": 1.2,
+  "trailOpacity": 0.55
+}
+```
+
+Alternativa barata si `<Trail>` sale caro de renderizar: aplicar
+`filter: blur(Npx)` en el eje del movimiento, con N proporcional a la velocidad
+instantánea del elemento, cayendo a 0 al asentarse. Menos fiel, mucho más rápido,
+y a 30 fps se nota poco la diferencia.
+
+**Curva de movimiento:** los `slide-*` no usan lineal ni ease-out simple. Usan
+`spring()` con overshoot bajo — el elemento pasa un 3-4 % de su posición final y
+vuelve. Es lo que da la sensación de peso.
+
+---
+
+## D. Catálogo de entradas ampliado
+
+Añadir a las del ADDENDUM 1:
+
+| `kind` | Descripción | Motion blur |
+|---|---|---|
+| `slide-in-right-blur` | Entra desde fuera del borde derecho, recorrido largo | Sí |
+| `slide-in-left-blur` | Ídem desde la izquierda | Sí |
+| `whip-in` | Entrada muy rápida (0.3 s) con estela pronunciada | Sí, agresivo |
+| `card-drop` | Cae desde arriba con rebote y la sombra creciendo | Ligero |
+| `scale-blur-in` | Escala 1.6→1 con desenfoque que se resuelve | Sí |
+
+**Regla de reparto:** las tarjetas grandes usan `slide-*-blur` o `card-drop`.
+Los iconos pequeños siguen usando `pop`. No mezclar: si todo lleva motion blur,
+deja de destacar.
+
+---
+
+## E. Calidad de los iconos
+
+El problema no se resuelve generando más. Estrategia en tres niveles:
+
+### Nivel 1 — Comprar un pack base coherente (mayor impacto)
+
+Un set profesional trae miles de iconos ya dibujados con el mismo grosor de
+trazo, la misma rejilla óptica y los mismos radios. Esa coherencia es
+precisamente lo que se percibe como "calidad" y es lo más difícil de reproducir
+generando pieza a pieza.
+
+Candidatos: Streamline (sets enormes en estilos consistentes), IconScout,
+Iconify Pro. Revisar siempre la licencia para uso comercial en vídeo.
+
+Un pack cubre el 70-80 % de las necesidades y elimina de golpe el problema.
+
+### Nivel 2 — Ajustar la generación para lo que falte
+
+Al llamar a Recraft, usar el tipo de estilo **"Icon"** en lugar de "Vector
+illustration": está optimizado para formato pequeño con grosores de trazo
+consistentes. "Vector illustration" da piezas más libres y menos uniformes.
+
+Añadir al prompt las restricciones geométricas que producen iconos limpios:
+
+```
+designed on a 48x48 grid, uniform 4px stroke weight, rounded line caps
+and joins, 2px corner radius minimum, no thin details, readable at 64px,
+maximum 8 distinct shapes
+```
+
+El límite de formas es clave: los iconos generados fallan por exceso de detalle,
+no por defecto.
+
+### Nivel 3 — Repaso manual de los iconos protagonistas
+
+No todos los iconos merecen el mismo esfuerzo. Marcar en el manifest:
+
+```jsonc
+"tier": "hero" | "support"
+```
+
+Los `hero` (los que salen grandes y repetidamente, la identidad del canal) pasan
+por un repaso en Figma o Illustrator: alinear a rejilla, igualar grosores,
+limpiar nodos sobrantes. Diez minutos por icono, y solo se hacen una vez.
+
+Los `support` salen pequeños y de fondo; con Iconify normalizado sobra.
+
+### Criterio de aceptación
+
+Un icono se aprueba si, **visto a 120 px sobre el fondo real**:
+- se identifica el objeto en menos de un segundo,
+- ningún trazo se ve más fino que otro,
+- no hay detalles que se conviertan en manchas,
+- puesto al lado de otros tres del canal, parece de la misma familia.
+
+Ese último punto es el que más se incumple y el que más se nota.
