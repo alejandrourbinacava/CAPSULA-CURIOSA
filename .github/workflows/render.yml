@@ -69,13 +69,29 @@ jobs:
       - name: 01a) Descargar assets (fotos Wikipedia + iconos vectoriales)
         run: node scripts/01-assets.mjs "${{ steps.ep.outputs.dir }}"
 
-      - name: 01b) Voz (genaipro) + sincronía por palabra (Whisper)
+      - name: 01b) Descargar media (clips Pexels/Pixabay + gifs Giphy)
+        continue-on-error: true
+        env:
+          PEXELS_KEY: ${{ secrets.PEXELS_KEY }}
+          PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
+          GIPHY_KEY: ${{ secrets.GIPHY_KEY }}
+        run: node scripts/00-fetch-media.mjs "${{ steps.ep.outputs.dir }}"
+
+      - name: 01c) Comprobar assets (informe antes de gastar en TTS)
+        continue-on-error: true
+        run: node scripts/assets-check.mjs "${{ steps.ep.outputs.dir }}"
+
+      - name: 01d) Voz (genaipro) + sincronía por palabra (Whisper)
         env:
           GENAIPRO_API_KEY: ${{ secrets.GENAIPRO_API_KEY }}
         run: node scripts/01-tts.mjs "${{ steps.ep.outputs.dir }}"
 
-      - name: 02) Compilar scenes.json (etiquetas + tiempos -> escena)
+      - name: 02) Compilar scenes.json (beats + plantillas + capas)
         run: node scripts/02-build-scenes.mjs "${{ steps.ep.outputs.dir }}"
+
+      - name: 02b) Lint de variedad (informe)
+        continue-on-error: true
+        run: node scripts/lint-variety.mjs "${{ steps.ep.outputs.dir }}"
 
       - name: 03) Renderizar el vídeo (Remotion · Scene)
         run: npx remotion render src/index.ts Scene out/VIDEO_FINAL.mp4 --concurrency=2

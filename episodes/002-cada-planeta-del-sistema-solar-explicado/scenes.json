@@ -5,64 +5,117 @@
     "height": 1080,
     "duration": 261.66,
     "audio": "active/audio.mp3",
-    "title": "Cada Planeta del Sistema Solar Explicado (¡y por qué Plutón no cuenta!)"
+    "title": "Cada Planeta del Sistema Solar Explicado (¡y por qué Plutón no cuenta!)",
+    "variety": {
+      "templates": {
+        "title-card": 1,
+        "stat-card": 3,
+        "compare-2": 2,
+        "photo-focus": 2,
+        "single-focus": 2,
+        "zoom-detail": 1,
+        "stickman-reaction": 1
+      },
+      "beats": [
+        "title-card",
+        "stat-card",
+        "compare-2",
+        "photo-focus",
+        "single-focus",
+        "zoom-detail",
+        "stat-card",
+        "photo-focus",
+        "single-focus",
+        "stat-card",
+        "compare-2",
+        "stickman-reaction"
+      ],
+      "warns": 0
+    }
   },
   "elements": [
     {
-      "id": "solar_system",
+      "id": "solar_system_0",
       "type": "image",
       "src": "assets/icons/solar_system.svg",
-      "slot": "center",
+      "slot": "icon",
+      "box": {
+        "cx": 960,
+        "cy": 245,
+        "w": 240,
+        "h": 240
+      },
       "in": 0,
       "out": 12.64,
       "enter": {
         "kind": "pop",
-        "duration": 0.45
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "sun",
+      "id": "sun_1",
       "type": "image",
       "src": "assets/icons/sun.svg",
       "slot": "top-right",
+      "box": {
+        "cx": 1490,
+        "cy": 235,
+        "w": 700,
+        "h": 340
+      },
       "in": 2.94,
       "out": 12.64,
       "enter": {
         "kind": "pop",
-        "duration": 0.45
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "s0",
+      "id": "s2",
       "type": "stickman",
       "pose": "pointing-right",
-      "slot": "left",
+      "slot": "bottom-left",
+      "box": {
+        "cx": 430,
+        "cy": 820,
+        "w": 700,
+        "h": 300
+      },
       "in": 7.42,
       "out": 12.64,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.3
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 50
     },
     {
-      "id": "t1",
+      "id": "t3",
       "type": "text",
       "content": "8 planetas + 1 polémico",
-      "slot": "bottom",
+      "slot": "title",
+      "box": {
+        "cx": 960,
+        "cy": 476,
+        "w": 1560,
+        "h": 430
+      },
       "color": "#E5342A",
-      "size": "lg",
+      "size": "xl",
       "in": 10.2,
       "out": 12.64,
       "enter": {
@@ -72,48 +125,119 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "mercury",
+      "id": "mercury_4",
       "type": "image",
       "src": "assets/icons/mercury.jpg",
       "slot": "corner-badge",
-      "in": 12.64,
-      "out": 261.66,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.45
+      "box": {
+        "cx": 190,
+        "cy": 110,
+        "w": 280,
+        "h": 150
       },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "mercury",
-      "type": "image",
-      "src": "assets/icons/mercury.jpg",
-      "slot": "center",
-      "in": 15.24,
+      "in": 12.64,
       "out": 43.4,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "slide-in-left",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 70
     },
     {
-      "id": "t2",
+      "id": "t5",
       "type": "text",
       "content": "El más pequeño y veloz",
-      "slot": "top",
+      "slot": "label",
+      "box": {
+        "cx": 960,
+        "cy": 905,
+        "w": 1300,
+        "h": 140
+      },
       "color": "#E5342A",
       "size": "md",
-      "in": 15.36,
+      "in": 15.42,
+      "out": 21.04,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.8
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "z": 60
+    },
+    {
+      "id": "n6",
+      "type": "stat",
+      "content": "88",
+      "unit": "días por vuelta",
+      "slot": "number",
+      "box": {
+        "cx": 960,
+        "cy": 420,
+        "w": 1400,
+        "h": 440
+      },
+      "color": "#E5342A",
+      "in": 17,
+      "out": 21.04,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.42
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "z": 60
+    },
+    {
+      "id": "thermometer_7",
+      "type": "image",
+      "src": "assets/icons/thermometer.svg",
+      "slot": "left",
+      "box": {
+        "cx": 560,
+        "cy": 450,
+        "w": 680,
+        "h": 600
+      },
+      "in": 21.8,
+      "out": 43.4,
+      "enter": {
+        "kind": "slide-in-bottom",
+        "duration": 0.42
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "z": 20
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "content": "+430° de día",
+      "slot": "label-left",
+      "box": {
+        "cx": 560,
+        "cy": 1041,
+        "w": 680,
+        "h": 150
+      },
+      "color": "#E5342A",
+      "size": "md",
+      "in": 26.8,
       "out": 43.4,
       "enter": {
         "kind": "handwrite",
@@ -122,47 +246,72 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "clock",
+      "id": "ice_9",
       "type": "image",
-      "src": "assets/icons/clock.svg",
+      "src": "assets/icons/ice.svg",
       "slot": "right",
-      "in": 18,
-      "out": 43.4,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.45
+      "box": {
+        "cx": 1360,
+        "cy": 450,
+        "w": 680,
+        "h": 600
       },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "thermometer",
-      "type": "image",
-      "src": "assets/icons/thermometer.svg",
-      "slot": "left",
-      "in": 21.8,
-      "out": 43.4,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.45
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "a3",
-      "type": "arrow",
-      "from": "left",
-      "to": "right",
-      "style": "hand-drawn-red",
       "in": 28.98,
+      "out": 43.4,
+      "enter": {
+        "kind": "slide-in-bottom",
+        "duration": 0.42
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "z": 20
+    },
+    {
+      "id": "t10",
+      "type": "text",
+      "content": "-180° de noche",
+      "slot": "label-right",
+      "box": {
+        "cx": 1360,
+        "cy": 865,
+        "w": 680,
+        "h": 150
+      },
+      "color": "#E5342A",
+      "size": "md",
+      "in": 29.1,
+      "out": 43.4,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.8
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "z": 60
+    },
+    {
+      "id": "a11",
+      "type": "arrow",
+      "a": {
+        "x": 892,
+        "y": 450
+      },
+      "b": {
+        "x": 1028,
+        "y": 450
+      },
+      "curve": "up",
+      "color": "#E5342A",
+      "slot": null,
+      "in": 29.22,
       "out": 43.4,
       "enter": {
         "kind": "draw",
@@ -171,77 +320,112 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "z": 40
     },
     {
-      "id": "crater",
+      "id": "crater_12",
       "type": "image",
       "src": "assets/icons/crater.svg",
-      "slot": "bottom",
+      "slot": "bottom-right",
+      "box": {
+        "cx": 1490,
+        "cy": 820,
+        "w": 700,
+        "h": 300
+      },
       "in": 33.4,
       "out": 43.4,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "slide-in-bottom",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "s4",
+      "id": "s13",
       "type": "stickman",
       "pose": "shrug",
-      "slot": "center-below",
+      "slot": "bottom-left",
+      "box": {
+        "cx": 430,
+        "cy": 820,
+        "w": 700,
+        "h": 300
+      },
       "in": 37.6,
       "out": 43.4,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.3
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 50
     },
     {
-      "id": "venus",
+      "id": "venus_14",
       "type": "image",
       "src": "assets/icons/venus.jpg",
       "slot": "corner-badge",
+      "box": {
+        "cx": 190,
+        "cy": 110,
+        "w": 280,
+        "h": 150
+      },
       "in": 43.4,
-      "out": 261.66,
+      "out": 70.28,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "stamp",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 70
     },
     {
-      "id": "venus",
+      "id": "venus_15",
       "type": "image",
       "src": "assets/icons/venus.jpg",
-      "slot": "center",
+      "slot": "photo",
+      "box": {
+        "cx": 960,
+        "cy": 470,
+        "w": 1180,
+        "h": 720
+      },
       "in": 44.38,
       "out": 70.28,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "stamp",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "t5",
+      "id": "t16",
       "type": "text",
       "content": "El planeta más caliente",
-      "slot": "top",
+      "slot": "caption-top",
+      "box": {
+        "cx": 960,
+        "cy": 145,
+        "w": 1560,
+        "h": 170
+      },
       "color": "#E5342A",
       "size": "md",
       "in": 47.08,
@@ -253,78 +437,89 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "greenhouse",
+      "id": "greenhouse_17",
       "type": "image",
       "src": "assets/icons/greenhouse.svg",
-      "slot": "left",
+      "slot": "top-left",
+      "box": {
+        "cx": 430,
+        "cy": 235,
+        "w": 700,
+        "h": 340
+      },
       "in": 53,
       "out": 70.28,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "stamp",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "volcano",
+      "id": "volcano_18",
       "type": "image",
       "src": "assets/icons/volcano.svg",
-      "slot": "right",
+      "slot": "top-right",
+      "box": {
+        "cx": 1490,
+        "cy": 235,
+        "w": 700,
+        "h": 340
+      },
       "in": 59.48,
       "out": 70.28,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "stamp",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
-    },
-    {
-      "id": "a6",
-      "type": "arrow",
-      "from": "left",
-      "to": "right",
-      "style": "hand-drawn-red",
-      "in": 63.34,
-      "out": 70.28,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
       },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.2
-      }
+      "z": 20
     },
     {
-      "id": "s7",
+      "id": "s19",
       "type": "stickman",
       "pose": "angry",
-      "slot": "center-below",
+      "slot": "bottom-left",
+      "box": {
+        "cx": 430,
+        "cy": 820,
+        "w": 700,
+        "h": 300
+      },
       "in": 64.4,
       "out": 70.28,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.3
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 50
     },
     {
-      "id": "t8",
+      "id": "t20",
       "type": "text",
       "content": "Vivir aquí: imposible",
-      "slot": "bottom",
+      "slot": "caption-bottom",
+      "box": {
+        "cx": 960,
+        "cy": 1067,
+        "w": 1560,
+        "h": 170
+      },
       "color": "#E5342A",
       "size": "md",
       "in": 69.24,
@@ -336,45 +531,91 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "earth",
+      "id": "h21",
+      "type": "shape",
+      "kind": "cross-out",
+      "slot": "photo",
+      "box": {
+        "cx": 960,
+        "cy": 470,
+        "w": 1180,
+        "h": 720
+      },
+      "_len": 6480,
+      "color": "#E5342A",
+      "in": 69.36,
+      "out": 70.56,
+      "enter": {
+        "kind": "draw",
+        "duration": 0.55
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "z": 30
+    },
+    {
+      "id": "earth_22",
       "type": "image",
       "src": "assets/icons/earth.jpg",
       "slot": "corner-badge",
+      "box": {
+        "cx": 190,
+        "cy": 110,
+        "w": 280,
+        "h": 150
+      },
       "in": 70.28,
-      "out": 261.66,
+      "out": 93.02,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "slide-in-right",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 70
     },
     {
-      "id": "earth",
+      "id": "earth_23",
       "type": "image",
       "src": "assets/icons/earth.jpg",
-      "slot": "center",
+      "slot": "focus",
+      "box": {
+        "cx": 960,
+        "cy": 455,
+        "w": 880,
+        "h": 650
+      },
       "in": 70.98,
       "out": 93.02,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "slide-in-right",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "t9",
+      "id": "t24",
       "type": "text",
       "content": "El único con vida (conocida)",
       "slot": "top",
+      "box": {
+        "cx": 960,
+        "cy": 165,
+        "w": 1500,
+        "h": 230
+      },
       "color": "#E5342A",
       "size": "md",
       "in": 71.9,
@@ -386,62 +627,66 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "water_drop",
+      "id": "water_drop_25",
       "type": "image",
       "src": "assets/icons/water_drop.svg",
-      "slot": "left",
+      "slot": "top-left",
+      "box": {
+        "cx": 430,
+        "cy": 235,
+        "w": 700,
+        "h": 340
+      },
       "in": 74.7,
       "out": 93.02,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "slide-in-right",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "moon",
+      "id": "moon_26",
       "type": "image",
       "src": "assets/icons/moon.svg",
-      "slot": "right",
+      "slot": "top-right",
+      "box": {
+        "cx": 1490,
+        "cy": 235,
+        "w": 700,
+        "h": 340
+      },
       "in": 76.54,
       "out": 93.02,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "slide-in-right",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
-    },
-    {
-      "id": "a10",
-      "type": "arrow",
-      "from": "left",
-      "to": "right",
-      "style": "hand-drawn-red",
-      "in": 81.44,
-      "out": 93.02,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
       },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.2
-      }
+      "z": 20
     },
     {
-      "id": "t11",
+      "id": "t27",
       "type": "text",
       "content": "la zona de Ricitos de Oro",
-      "slot": "bottom",
+      "slot": "label",
+      "box": {
+        "cx": 960,
+        "cy": 1042,
+        "w": 1320,
+        "h": 150
+      },
       "color": "#111",
       "size": "md",
       "in": 86.4,
@@ -453,61 +698,114 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "s12",
+      "id": "s28",
       "type": "stickman",
-      "pose": "neutral",
-      "slot": "center-below",
+      "pose": "cheer",
+      "slot": "bottom-left",
+      "box": {
+        "cx": 430,
+        "cy": 820,
+        "w": 700,
+        "h": 300
+      },
       "in": 87.72,
       "out": 93.02,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.3
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 50
     },
     {
-      "id": "mars",
+      "id": "h29",
+      "type": "shape",
+      "kind": "checkmark",
+      "slot": "focus",
+      "box": {
+        "cx": 960,
+        "cy": 455,
+        "w": 880,
+        "h": 650
+      },
+      "_len": 5296,
+      "color": "#E5342A",
+      "in": 91.32,
+      "out": 93.02,
+      "enter": {
+        "kind": "draw",
+        "duration": 0.55
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "z": 30
+    },
+    {
+      "id": "mars_30",
       "type": "image",
       "src": "assets/icons/mars.png",
       "slot": "corner-badge",
+      "box": {
+        "cx": 190,
+        "cy": 110,
+        "w": 280,
+        "h": 150
+      },
       "in": 93.02,
-      "out": 261.66,
+      "out": 119.54,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "fade-in",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 70
     },
     {
-      "id": "mars",
+      "id": "mars_31",
       "type": "image",
       "src": "assets/icons/mars.png",
-      "slot": "center",
+      "slot": "main",
+      "box": {
+        "cx": 720,
+        "cy": 470,
+        "w": 840,
+        "h": 650
+      },
       "in": 95.2,
       "out": 119.54,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "fade-in",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "t13",
+      "id": "t32",
       "type": "text",
       "content": "Color rojo = óxido de hierro",
       "slot": "top",
+      "box": {
+        "cx": 960,
+        "cy": 165,
+        "w": 1500,
+        "h": 230
+      },
       "color": "#E5342A",
       "size": "md",
       "in": 97.58,
@@ -519,47 +817,46 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "volcano",
+      "id": "volcano_33",
       "type": "image",
       "src": "assets/icons/volcano.svg",
-      "slot": "left",
+      "slot": "detail",
+      "box": {
+        "cx": 1500,
+        "cy": 435,
+        "w": 540,
+        "h": 540
+      },
       "in": 100.56,
       "out": 119.54,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "fade-in",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "rocket",
-      "type": "image",
-      "src": "assets/icons/rocket.svg",
-      "slot": "right",
+      "id": "h34",
+      "type": "shape",
+      "kind": "circle-highlight",
+      "slot": "detail",
+      "box": {
+        "cx": 1500,
+        "cy": 435,
+        "w": 540,
+        "h": 540
+      },
+      "_len": 3856,
+      "color": "#E5342A",
       "in": 107.18,
-      "out": 119.54,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.45
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "a14",
-      "type": "arrow",
-      "from": "left",
-      "to": "right",
-      "style": "hand-drawn-red",
-      "in": 109.78,
       "out": 119.54,
       "enter": {
         "kind": "draw",
@@ -567,78 +864,115 @@
       },
       "exit": {
         "kind": "fade-out",
-        "duration": 0.2
-      }
+        "duration": 0.25
+      },
+      "z": 30
     },
     {
-      "id": "thermometer",
+      "id": "rocket_35",
       "type": "image",
-      "src": "assets/icons/thermometer.svg",
-      "slot": "bottom",
-      "in": 109.9,
+      "src": "assets/icons/rocket.svg",
+      "slot": "bottom-right",
+      "box": {
+        "cx": 1490,
+        "cy": 820,
+        "w": 700,
+        "h": 300
+      },
+      "in": 107.3,
       "out": 119.54,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "fade-in",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "s15",
+      "id": "t36",
+      "type": "text",
+      "content": "Media: -60°C",
+      "slot": "label",
+      "box": {
+        "cx": 960,
+        "cy": 1042,
+        "w": 1200,
+        "h": 140
+      },
+      "color": "#E5342A",
+      "size": "md",
+      "in": 109.78,
+      "out": 119.54,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.8
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "z": 60
+    },
+    {
+      "id": "s37",
       "type": "stickman",
       "pose": "thinking",
-      "slot": "center-below",
+      "slot": "bottom-left",
+      "box": {
+        "cx": 430,
+        "cy": 820,
+        "w": 700,
+        "h": 300
+      },
       "in": 115.22,
       "out": 119.54,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.3
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 50
     },
     {
-      "id": "jupiter",
+      "id": "jupiter_38",
       "type": "image",
       "src": "assets/icons/jupiter.png",
       "slot": "corner-badge",
-      "in": 119.54,
-      "out": 261.66,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.45
+      "box": {
+        "cx": 190,
+        "cy": 110,
+        "w": 280,
+        "h": 150
       },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "jupiter",
-      "type": "image",
-      "src": "assets/icons/jupiter.png",
-      "slot": "center",
-      "in": 123.38,
+      "in": 119.54,
       "out": 146.08,
       "enter": {
         "kind": "pop",
-        "duration": 0.45
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 70
     },
     {
-      "id": "t16",
+      "id": "t39",
       "type": "text",
       "content": "El más grande de todos",
-      "slot": "top",
+      "slot": "label",
+      "box": {
+        "cx": 960,
+        "cy": 1037,
+        "w": 1300,
+        "h": 140
+      },
       "color": "#E5342A",
       "size": "md",
       "in": 123.88,
@@ -650,65 +984,94 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "storm",
+      "id": "n40",
+      "type": "stat",
+      "content": "1000",
+      "unit": "Tierras dentro",
+      "slot": "number",
+      "box": {
+        "cx": 960,
+        "cy": 508,
+        "w": 1400,
+        "h": 440
+      },
+      "color": "#E5342A",
+      "in": 126.7,
+      "out": 146.08,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.42
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "z": 60
+    },
+    {
+      "id": "storm_41",
       "type": "image",
       "src": "assets/icons/storm.svg",
-      "slot": "left",
+      "slot": "top-left",
+      "box": {
+        "cx": 430,
+        "cy": 235,
+        "w": 700,
+        "h": 340
+      },
       "in": 127.96,
       "out": 146.08,
       "enter": {
         "kind": "pop",
-        "duration": 0.45
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "magnet",
+      "id": "magnet_42",
       "type": "image",
       "src": "assets/icons/magnet.svg",
-      "slot": "right",
+      "slot": "top-right",
+      "box": {
+        "cx": 1490,
+        "cy": 235,
+        "w": 700,
+        "h": 340
+      },
       "in": 133.76,
       "out": 146.08,
       "enter": {
         "kind": "pop",
-        "duration": 0.45
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
-    },
-    {
-      "id": "a17",
-      "type": "arrow",
-      "from": "left",
-      "to": "right",
-      "style": "hand-drawn-red",
-      "in": 137.44,
-      "out": 146.08,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
       },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.2
-      }
+      "z": 20
     },
     {
-      "id": "t18",
+      "id": "t43",
       "type": "text",
       "content": "79 lunas y contando",
-      "slot": "bottom",
+      "slot": "top",
+      "box": {
+        "cx": 960,
+        "cy": 165,
+        "w": 1500,
+        "h": 230
+      },
       "color": "#111",
       "size": "md",
-      "in": 137.56,
+      "in": 137.44,
       "out": 146.08,
       "enter": {
         "kind": "handwrite",
@@ -717,61 +1080,89 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "s19",
+      "id": "s44",
       "type": "stickman",
       "pose": "shrug",
-      "slot": "center-below",
+      "slot": "bottom-left",
+      "box": {
+        "cx": 430,
+        "cy": 820,
+        "w": 700,
+        "h": 300
+      },
       "in": 142.04,
       "out": 146.08,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.3
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 50
     },
     {
-      "id": "saturn",
+      "id": "saturn_45",
       "type": "image",
       "src": "assets/icons/saturn.png",
       "slot": "corner-badge",
+      "box": {
+        "cx": 190,
+        "cy": 110,
+        "w": 280,
+        "h": 150
+      },
       "in": 146.08,
-      "out": 261.66,
+      "out": 163.88,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "slide-in-left",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 70
     },
     {
-      "id": "saturn",
+      "id": "saturn_46",
       "type": "image",
       "src": "assets/icons/saturn.png",
-      "slot": "center",
+      "slot": "photo",
+      "box": {
+        "cx": 960,
+        "cy": 470,
+        "w": 1180,
+        "h": 720
+      },
       "in": 147.7,
       "out": 163.88,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "slide-in-left",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "t20",
+      "id": "t47",
       "type": "text",
       "content": "Famoso por sus anillos",
-      "slot": "top",
+      "slot": "caption-top",
+      "box": {
+        "cx": 960,
+        "cy": 145,
+        "w": 1560,
+        "h": 170
+      },
       "color": "#E5342A",
       "size": "md",
       "in": 147.9,
@@ -783,15 +1174,72 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "a21",
+      "id": "h48",
+      "type": "shape",
+      "kind": "circle-highlight",
+      "slot": "photo",
+      "box": {
+        "cx": 960,
+        "cy": 470,
+        "w": 1180,
+        "h": 720
+      },
+      "_len": 6480,
+      "color": "#E5342A",
+      "in": 148.02,
+      "out": 163.88,
+      "enter": {
+        "kind": "draw",
+        "duration": 0.55
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "z": 30
+    },
+    {
+      "id": "moon_49",
+      "type": "image",
+      "src": "assets/icons/moon.svg",
+      "slot": "top-right",
+      "box": {
+        "cx": 1490,
+        "cy": 235,
+        "w": 700,
+        "h": 340
+      },
+      "in": 153.54,
+      "out": 163.88,
+      "enter": {
+        "kind": "slide-in-left",
+        "duration": 0.42
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "z": 20
+    },
+    {
+      "id": "a50",
       "type": "arrow",
-      "from": "left",
-      "to": "right",
-      "style": "hand-drawn-red",
-      "in": 158.36,
+      "a": {
+        "x": 1148,
+        "y": 235
+      },
+      "b": {
+        "x": 1542,
+        "y": 470
+      },
+      "curve": "down",
+      "color": "#E5342A",
+      "slot": null,
+      "in": 153.66,
       "out": 163.88,
       "enter": {
         "kind": "draw",
@@ -800,16 +1248,23 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "z": 40
     },
     {
-      "id": "t22",
+      "id": "t51",
       "type": "text",
       "content": "Tiene 146 lunas",
-      "slot": "bottom",
+      "slot": "caption-bottom",
+      "box": {
+        "cx": 960,
+        "cy": 1067,
+        "w": 1560,
+        "h": 170
+      },
       "color": "#111",
       "size": "md",
-      "in": 158.48,
+      "in": 158.36,
       "out": 163.88,
       "enter": {
         "kind": "handwrite",
@@ -818,61 +1273,89 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "s23",
+      "id": "s52",
       "type": "stickman",
       "pose": "thinking",
-      "slot": "center-below",
+      "slot": "bottom-left",
+      "box": {
+        "cx": 430,
+        "cy": 820,
+        "w": 700,
+        "h": 300
+      },
       "in": 161.76,
       "out": 163.88,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.3
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 50
     },
     {
-      "id": "uranus",
+      "id": "uranus_53",
       "type": "image",
       "src": "assets/icons/uranus.png",
       "slot": "corner-badge",
+      "box": {
+        "cx": 190,
+        "cy": 110,
+        "w": 280,
+        "h": 150
+      },
       "in": 163.88,
-      "out": 261.66,
+      "out": 184.7,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "slide-in-bottom",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 70
     },
     {
-      "id": "uranus",
+      "id": "uranus_54",
       "type": "image",
       "src": "assets/icons/uranus.png",
-      "slot": "center",
+      "slot": "focus",
+      "box": {
+        "cx": 960,
+        "cy": 455,
+        "w": 880,
+        "h": 650
+      },
       "in": 166.16,
       "out": 184.7,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "slide-in-bottom",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "t24",
+      "id": "t55",
       "type": "text",
       "content": "Gira de lado",
       "slot": "top",
+      "box": {
+        "cx": 960,
+        "cy": 165,
+        "w": 1500,
+        "h": 230
+      },
       "color": "#E5342A",
       "size": "md",
       "in": 166.28,
@@ -884,65 +1367,69 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "ice",
+      "id": "ice_56",
       "type": "image",
       "src": "assets/icons/ice.svg",
-      "slot": "left",
+      "slot": "top-left",
+      "box": {
+        "cx": 430,
+        "cy": 235,
+        "w": 700,
+        "h": 340
+      },
       "in": 173.5,
       "out": 184.7,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "slide-in-bottom",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "wind",
+      "id": "wind_57",
       "type": "image",
       "src": "assets/icons/wind.svg",
-      "slot": "right",
+      "slot": "top-right",
+      "box": {
+        "cx": 1490,
+        "cy": 235,
+        "w": 700,
+        "h": 340
+      },
       "in": 177.06,
       "out": 184.7,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "slide-in-bottom",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
-    },
-    {
-      "id": "a25",
-      "type": "arrow",
-      "from": "left",
-      "to": "right",
-      "style": "hand-drawn-red",
-      "in": 182,
-      "out": 184.7,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
       },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.2
-      }
+      "z": 20
     },
     {
-      "id": "t26",
+      "id": "t58",
       "type": "text",
       "content": "El planeta más frío",
-      "slot": "bottom",
+      "slot": "label",
+      "box": {
+        "cx": 960,
+        "cy": 1042,
+        "w": 1320,
+        "h": 150
+      },
       "color": "#E5342A",
       "size": "md",
-      "in": 182.12,
+      "in": 182,
       "out": 184.7,
       "enter": {
         "kind": "handwrite",
@@ -951,61 +1438,66 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "s27",
+      "id": "s59",
       "type": "stickman",
       "pose": "shrug",
-      "slot": "center-below",
-      "in": 182.24,
+      "slot": "bottom-left",
+      "box": {
+        "cx": 430,
+        "cy": 820,
+        "w": 700,
+        "h": 300
+      },
+      "in": 182.12,
       "out": 184.7,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.3
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 50
     },
     {
-      "id": "neptune",
+      "id": "neptune_60",
       "type": "image",
       "src": "assets/icons/neptune.png",
       "slot": "corner-badge",
-      "in": 184.7,
-      "out": 261.66,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.45
+      "box": {
+        "cx": 190,
+        "cy": 110,
+        "w": 280,
+        "h": 150
       },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "neptune",
-      "type": "image",
-      "src": "assets/icons/neptune.png",
-      "slot": "center",
-      "in": 186.16,
+      "in": 184.7,
       "out": 208.98,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "stamp",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 70
     },
     {
-      "id": "t28",
+      "id": "t61",
       "type": "text",
       "content": "El más ventoso del sistema",
-      "slot": "top",
+      "slot": "label",
+      "box": {
+        "cx": 960,
+        "cy": 1037,
+        "w": 1300,
+        "h": 140
+      },
       "color": "#E5342A",
       "size": "md",
       "in": 186.78,
@@ -1017,47 +1509,95 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "telescope",
+      "id": "n62",
+      "type": "stat",
+      "content": "2100",
+      "unit": "km/h de viento",
+      "slot": "number",
+      "box": {
+        "cx": 960,
+        "cy": 508,
+        "w": 1400,
+        "h": 440
+      },
+      "color": "#E5342A",
+      "in": 188.32,
+      "out": 208.98,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.42
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "z": 60
+    },
+    {
+      "id": "telescope_63",
       "type": "image",
       "src": "assets/icons/telescope.svg",
-      "slot": "left",
+      "slot": "top-left",
+      "box": {
+        "cx": 430,
+        "cy": 235,
+        "w": 700,
+        "h": 340
+      },
       "in": 193.16,
       "out": 208.98,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "stamp",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "diamond",
+      "id": "diamond_64",
       "type": "image",
       "src": "assets/icons/diamond.svg",
-      "slot": "right",
+      "slot": "top-right",
+      "box": {
+        "cx": 1490,
+        "cy": 235,
+        "w": 700,
+        "h": 340
+      },
       "in": 198.02,
       "out": 208.98,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "stamp",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "a29",
+      "id": "a65",
       "type": "arrow",
-      "from": "left",
-      "to": "right",
-      "style": "hand-drawn-red",
-      "in": 202.24,
+      "a": {
+        "x": 430,
+        "y": 397
+      },
+      "b": {
+        "x": 430,
+        "y": 678
+      },
+      "curve": "up",
+      "color": "#E5342A",
+      "slot": null,
+      "in": 198.14,
       "out": 208.98,
       "enter": {
         "kind": "draw",
@@ -1066,16 +1606,23 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "z": 40
     },
     {
-      "id": "t30",
+      "id": "t66",
       "type": "text",
       "content": "Un año dura 165 años",
-      "slot": "bottom",
+      "slot": "top",
+      "box": {
+        "cx": 960,
+        "cy": 165,
+        "w": 1500,
+        "h": 230
+      },
       "color": "#111",
       "size": "md",
-      "in": 202.36,
+      "in": 202.24,
       "out": 208.98,
       "enter": {
         "kind": "handwrite",
@@ -1084,61 +1631,89 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "s31",
+      "id": "s67",
       "type": "stickman",
       "pose": "thinking",
-      "slot": "center-below",
-      "in": 202.48,
+      "slot": "bottom-left",
+      "box": {
+        "cx": 430,
+        "cy": 820,
+        "w": 700,
+        "h": 300
+      },
+      "in": 202.36,
       "out": 208.98,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.3
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 50
     },
     {
-      "id": "pluto",
+      "id": "pluto_68",
       "type": "image",
       "src": "assets/icons/pluto.png",
       "slot": "corner-badge",
+      "box": {
+        "cx": 190,
+        "cy": 110,
+        "w": 280,
+        "h": 150
+      },
       "in": 208.98,
       "out": 261.66,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "slide-in-right",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 70
     },
     {
-      "id": "pluto",
+      "id": "pluto_69",
       "type": "image",
       "src": "assets/icons/pluto.png",
-      "slot": "center",
+      "slot": "left",
+      "box": {
+        "cx": 560,
+        "cy": 450,
+        "w": 680,
+        "h": 600
+      },
       "in": 211.08,
       "out": 237.32,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "slide-in-right",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "t32",
+      "id": "t70",
       "type": "text",
       "content": "¿Planeta o no planeta?",
       "slot": "top",
+      "box": {
+        "cx": 960,
+        "cy": 165,
+        "w": 1500,
+        "h": 230
+      },
       "color": "#E5342A",
       "size": "md",
       "in": 211.34,
@@ -1150,29 +1725,43 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "calendar",
+      "id": "calendar_71",
       "type": "image",
       "src": "assets/icons/calendar.svg",
-      "slot": "left",
+      "slot": "right",
+      "box": {
+        "cx": 1360,
+        "cy": 450,
+        "w": 680,
+        "h": 600
+      },
       "in": 216.32,
       "out": 237.32,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "slide-in-right",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "t33",
+      "id": "t72",
       "type": "text",
-      "content": "Motivo: no limpió su órbita",
-      "slot": "right",
+      "content": "planeta",
+      "slot": "label-left",
+      "box": {
+        "cx": 560,
+        "cy": 1041,
+        "w": 680,
+        "h": 150
+      },
       "color": "#111",
       "size": "md",
       "in": 221.64,
@@ -1184,49 +1773,23 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
-    },
-    {
-      "id": "a34",
-      "type": "arrow",
-      "from": "left",
-      "to": "right",
-      "style": "hand-drawn-red",
-      "in": 227.6,
-      "out": 237.32,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.55
       },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.2
-      }
+      "z": 60
     },
     {
-      "id": "s35",
-      "type": "stickman",
-      "pose": "angry",
-      "slot": "center-below",
-      "in": 227.72,
-      "out": 237.32,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t36",
+      "id": "t73",
       "type": "text",
-      "content": "Plutón, siempre en nuestro corazón",
-      "slot": "bottom",
+      "content": "enano",
+      "slot": "label-right",
+      "box": {
+        "cx": 1360,
+        "cy": 865,
+        "w": 680,
+        "h": 150
+      },
       "color": "#E5342A",
       "size": "md",
-      "in": 231.8,
+      "in": 221.76,
       "out": 237.32,
       "enter": {
         "kind": "handwrite",
@@ -1235,61 +1798,163 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "solar_system",
+      "id": "a74",
+      "type": "arrow",
+      "a": {
+        "x": 1028,
+        "y": 450
+      },
+      "b": {
+        "x": 892,
+        "y": 450
+      },
+      "curve": "down",
+      "color": "#E5342A",
+      "slot": null,
+      "in": 221.88,
+      "out": 237.32,
+      "enter": {
+        "kind": "draw",
+        "duration": 0.55
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.2
+      },
+      "z": 40
+    },
+    {
+      "id": "h75",
+      "type": "shape",
+      "kind": "cross-out",
+      "slot": "left",
+      "box": {
+        "cx": 560,
+        "cy": 450,
+        "w": 680,
+        "h": 600
+      },
+      "_len": 4496,
+      "color": "#E5342A",
+      "in": 227.6,
+      "out": 237.32,
+      "enter": {
+        "kind": "draw",
+        "duration": 0.55
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "z": 30
+    },
+    {
+      "id": "s76",
+      "type": "stickman",
+      "pose": "angry",
+      "slot": "bottom-left",
+      "box": {
+        "cx": 430,
+        "cy": 820,
+        "w": 700,
+        "h": 300
+      },
+      "in": 231.8,
+      "out": 237.32,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.42
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "z": 50
+    },
+    {
+      "id": "solar_system_77",
       "type": "image",
       "src": "assets/icons/solar_system.svg",
-      "slot": "center",
+      "slot": "content",
+      "box": {
+        "cx": 1200,
+        "cy": 450,
+        "w": 1160,
+        "h": 600
+      },
       "in": 237.32,
       "out": 261.66,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "fade-in",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "pluto",
+      "id": "pluto_78",
       "type": "image",
       "src": "assets/icons/pluto.png",
       "slot": "top-right",
+      "box": {
+        "cx": 1490,
+        "cy": 235,
+        "w": 700,
+        "h": 340
+      },
       "in": 240.1,
       "out": 261.66,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "fade-in",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "s37",
+      "id": "s79",
       "type": "stickman",
-      "pose": "neutral",
-      "slot": "left",
+      "pose": "cheer",
+      "slot": "figure",
+      "box": {
+        "cx": 370,
+        "cy": 560,
+        "w": 560,
+        "h": 680
+      },
       "in": 241.76,
       "out": 261.66,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.3
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 50
     },
     {
-      "id": "t38",
+      "id": "t80",
       "type": "text",
       "content": "el espacio es una locura",
-      "slot": "bottom",
+      "slot": "label",
+      "box": {
+        "cx": 1200,
+        "cy": 885,
+        "w": 1160,
+        "h": 150
+      },
       "color": "#E5342A",
       "size": "md",
       "in": 246.68,
@@ -1301,29 +1966,43 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     },
     {
-      "id": "bell",
+      "id": "bell_81",
       "type": "image",
       "src": "assets/icons/bell.svg",
-      "slot": "right",
+      "slot": "bottom-right",
+      "box": {
+        "cx": 1490,
+        "cy": 820,
+        "w": 700,
+        "h": 300
+      },
       "in": 248.6,
       "out": 261.66,
       "enter": {
-        "kind": "pop",
-        "duration": 0.45
+        "kind": "fade-in",
+        "duration": 0.42
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 20
     },
     {
-      "id": "t39",
+      "id": "t82",
       "type": "text",
       "content": "¡Nos vemos en el próximo video!",
-      "slot": "center-below",
+      "slot": "content",
+      "box": {
+        "cx": 1200,
+        "cy": 450,
+        "w": 1160,
+        "h": 600
+      },
       "color": "#E5342A",
       "size": "lg",
       "in": 256.22,
@@ -1335,7 +2014,8 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "z": 60
     }
   ]
 }

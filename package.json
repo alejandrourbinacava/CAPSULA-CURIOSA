@@ -5,7 +5,10 @@
   "scripts": {
     "studio": "remotion studio",
     "render": "remotion render src/index.ts PcExplainer out/video.mp4",
-    "still": "remotion still src/index.ts PcExplainer out/frame.png --frame=200"
+    "still": "remotion still src/index.ts PcExplainer out/frame.png --frame=200",
+    "assets:check": "node scripts/assets-check.mjs",
+    "lint:variety": "node scripts/lint-variety.mjs",
+    "fetch:media": "node scripts/00-fetch-media.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.512",

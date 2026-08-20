@@ -14,8 +14,7 @@ const slug = String(state.nextIndex + 1).padStart(3, "0") + "-" + topic.title.to
 const dir = path.join("episodes", slug);
 console.log(`▶ ${topic.title}  ->  ${dir}`);
 
-const SLOTS = "center, left, right, top, bottom, top-left, top-right, bottom-left, bottom-right, center-below, left-below, right-below, corner-badge";
-const prompt = `Eres guionista y "storyboarder" de un canal explainer en español estilo pizarra (whiteboard doodle): fondo blanco, iconos vectoriales, monigotes de palo, flechas dibujadas a mano, texto manuscrito. Escribe el guion COMPLETO del episodio.
+const prompt = `Eres guionista y "storyboarder" de un canal explainer en español estilo pizarra (whiteboard doodle): fondo blanco, iconos vectoriales, monigotes de palo, flechas dibujadas a mano, texto manuscrito. Escribe el guion COMPLETO del episodio con VARIEDAD de composición.
 
 TEMA: ${topic.title}
 DESCRIPCIÓN: ${topic.brief}
@@ -23,27 +22,50 @@ Cubre ${topic.n} elementos/apartados.
 
 Devuelve SOLO un objeto JSON con estas claves:
 - "title": el título.
-- "assets": objeto { "<id>": { "kind": "photo"|"icon", "query": "<término EN INGLÉS>" } } con TODOS los ids que uses en show/head. "photo" para cosas concretas con nombre propio (consolas, juegos, hardware, animales, lugares) → query = su nombre exacto (Wikipedia). "icon" para conceptos/objetos genéricos → query = objeto concreto en inglés (ej "boxing gloves", "crown", "money bag").
-- "script": la locución en ESPAÑOL de España (divulgativa, con gancho), con ETIQUETAS INLINE colocadas JUSTO ANTES de la palabra en la que deben aparecer.
+- "assets": objeto { "<id>": { "kind": "photo"|"icon"|"clip"|"gif", "query": "<término EN INGLÉS>" } } con TODOS los ids que uses.
+    · "photo": cosa concreta con nombre propio (planetas, animales, hardware, lugares) → query = su nombre exacto (Wikipedia).
+    · "icon": concepto/objeto genérico → query = objeto concreto en inglés ("crown", "money bag", "boxing gloves").
+    · "clip": vídeo real de archivo (Pexels/Pixabay) → query en inglés ("volcano eruption", "ocean waves").
+    · "gif": reacción/humor (Giphy) → query en inglés ("mind blown", "shocked").
+- "script": la locución en ESPAÑOL de España (divulgativa, con gancho), con ETIQUETAS INLINE justo ANTES de la palabra donde deben aparecer.
 
-ETIQUETAS (respeta la sintaxis EXACTA):
-- [[show: <id> @<slot>]]        muestra un asset en un slot.
-- [[hide: <id>]]                lo quita.
-- [[text: "<max 6 palabras>" @<slot>, color=red, size=lg]]   texto manuscrito (color y size opcionales).
-- [[arrow: <slot> -> <slot>]]   flecha entre dos slots.
-- [[stickman: <pose> @<slot>]]  monigote. Poses: neutral, pointing-right, shrug, thinking, angry.
-- [[clear]]                     vacía la pantalla (úsalo entre cada apartado).
+El guion se divide en BEATS (unidades de 4-12s). Cada apartado = 1 o 2 beats. Abre cada beat con [[beat: <plantilla>]].
+PLANTILLAS (elige la que encaje con el contenido del beat) y sus SLOTS:
+- title-card        → title, icon                         (apertura/cierre de sección)
+- single-focus      → focus, label                        (presentar UN concepto)
+- compare-2         → left, right, label-left, label-right (comparar A vs B)
+- list-3            → item-1..3, label-1..3               (enumerar 3)
+- grid-4 / grid-8   → cell-1..N, label-1..N               (catálogo)
+- photo-focus       → photo, caption-top, caption-bottom  (una foto/clip grande manda)
+- stat-card         → number, unit, label                 (un DATO impactante enorme)
+- stickman-reaction → figure, content, label              (reacción/opinión/chiste)
+- flow-3            → step-1..3, label-1..3               (proceso/cadena)
+- zoom-detail       → main, detail, label                 (detalle de una parte)
+- full-bleed-clip   → bleed, text                         (clip a pantalla completa, respiro)
+SLOTS UNIVERSALES (válidos en TODAS): center, top, bottom, top-left, top-right, bottom-left, bottom-right, corner-badge.
 
-SLOTS: ${SLOTS}
+ETIQUETAS (sintaxis EXACTA):
+- [[beat: <plantilla>]]                        abre un beat con su plantilla.
+- [[show: <id> @<slot>]]                       icono o foto.
+- [[clip: <id> @<slot>, frame=polaroid]]       vídeo. frame: none|polaroid|tv-crt|browser|phone.
+- [[gif: <id> @<slot>]]                        gif (reacciones).
+- [[stat: "<número>" @number, unit="<unidad>"]]  número gigante (úsalo con stat-card).
+- [[text: "<máx 6 palabras>" @<slot>, color=red, size=lg]]   texto manuscrito.
+- [[shape: <tipo> @<slot>]]                    marca dibujada sobre ese slot. tipos: circle, underline, cross, check, box, bracket, magnifier.
+- [[arrow: <slotA> -> <slotB>]]                flecha entre dos slots.
+- [[stickman: <pose> @<slot>]]                 monigote. Poses: neutral, pointing-right, pointing-left, shrug, thinking, angry, cheer.
+- [[hide: <id>]] / [[clear]]                   quita uno / vacía la pantalla.
 
-REGLAS DE ORO (estilo pizarra):
-- CADA idea/frase = UN elemento visual (un icono, un texto, un monigote o una imagen). Nada de párrafos sin visual.
-- MÁXIMO 4-5 elementos a la vez en pantalla. Usa [[clear]] al terminar cada apartado.
-- El texto en pantalla SIEMPRE corto (máx 6 palabras). Palabras clave/impactantes en color=red.
-- Usa imágenes reales (kind photo) para lo concreto con nombre; iconos para conceptos.
-- Usa flechas para relacionar cosas y monigotes para reacciones (poca frecuencia).
-- Pon [[show: <id-del-tema> @corner-badge]] al empezar cada apartado como miniatura de contexto.
-- La locución total ~1200-1600 palabras (unos 8-10 min). Cierra invitando a suscribirse.
+REGLAS DE VARIEDAD (obligatorias):
+- Usa AL MENOS 6 plantillas distintas en el episodio. NUNCA repitas la misma plantilla en beats seguidos.
+- No uses una misma plantilla más de 3 veces (single-focus máx 5).
+- Alterna direcciones de flecha (izq→der, der→izq, arriba→abajo). No más de 2 seguidas igual.
+- Cada 45s como máximo debe haber algo en MOVIMIENTO: un [[clip]], un [[gif]] o un [[stickman]]. Incluye al menos 2 clips y 1 gif.
+- Usa [[shape]] a menudo (círculos rojos, tachones, checks) para dar vida: al menos 4 distintos.
+- CADA idea/frase = UN visual. Texto en pantalla SIEMPRE corto (máx 6 palabras), palabras clave en color=red.
+- Pon [[show: <id-del-tema> @corner-badge]] al empezar cada apartado (miniatura de contexto).
+- Usa fotos reales (photo) para lo concreto; iconos para conceptos; stat-card para cifras; clips/gifs para movimiento.
+- Locución total ~1200-1600 palabras (8-10 min). Cierra invitando a suscribirse.
 Devuelve SOLO el JSON.`;
 
 async function callClaude() {
