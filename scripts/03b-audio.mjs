@@ -26,8 +26,11 @@ if (hasPop) { args.push("-i", POP); idxPop = n++; }
 if (hasMusic) { args.push("-stream_loop", "-1", "-i", MUSIC); idxMusic = n++; }
 
 let fc = "", labels = ["[0:a]"];
-if (hasPop) {
-  times.forEach((t, i) => { const d = Math.round(t * 1000); fc += `[${idxPop}:a]adelay=${d}|${d}[p${i}];`; labels.push(`[p${i}]`); });
+if (hasPop && times.length) {
+  const N = times.length;
+  // asplit: duplica el pop en N salidas (uso portable; el ffmpeg estricto no deja reusar el pad de entrada)
+  fc += `[${idxPop}:a]asplit=${N}` + times.map((_, i) => `[s${i}]`).join("") + ";";
+  times.forEach((t, i) => { const d = Math.max(1, Math.round(t * 1000)); fc += `[s${i}]adelay=${d}|${d}[p${i}];`; labels.push(`[p${i}]`); });
 }
 if (hasMusic) { fc += `[${idxMusic}:a]volume=-23dB[m];`; labels.push("[m]"); }
 fc += labels.join("") + `amix=inputs=${labels.length}:duration=first:normalize=0[a]`;
