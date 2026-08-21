@@ -118,9 +118,9 @@ function saveIcon(id, ico) {
 const LIB = path.join("public", "assets", "library"); fs.mkdirSync(LIB, { recursive: true });
 const conceptSlug = (q) => q.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "").slice(0, 40);
 async function gptImageIcon(query, id) {
-  if (!OPENAI) return null;
   const rel = "assets/icons/" + id + ".png", libFile = path.join(LIB, conceptSlug(query) + ".png");
-  if (fs.existsSync(libFile)) { fs.copyFileSync(libFile, path.join("public", rel)); return { file: rel, reused: true }; } // reutiliza ($0)
+  if (fs.existsSync(libFile)) { fs.copyFileSync(libFile, path.join("public", rel)); return { file: rel, reused: true }; } // reutiliza ($0, incluso sin clave)
+  if (!OPENAI) return null;
   const prompt = `2D vector doodle illustration of ${query}. Hand-drawn whiteboard explainer style, bold clean black outline, flat minimal saturated colors, clear and simple, centered composition. Historically accurate to the era described (never modern). Fully TRANSPARENT background. No text, no labels, no caption, no shadow, no border, no frame.`;
   try {
     const r = await fetch("https://api.openai.com/v1/images/generations", { method: "POST", headers: { Authorization: `Bearer ${OPENAI}`, "Content-Type": "application/json" }, body: JSON.stringify({ model: "gpt-image-1", prompt, size: "1024x1024", background: "transparent", output_format: "png", quality: "medium", n: 1 }) });
