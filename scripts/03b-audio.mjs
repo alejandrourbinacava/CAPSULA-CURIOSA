@@ -35,8 +35,9 @@ if (hasPop && times.length) {
 if (hasMusic) { fc += `[${idxMusic}:a]volume=-23dB[m];`; labels.push("[m]"); }
 fc += labels.join("") + `amix=inputs=${labels.length}:duration=first:normalize=0[a]`;
 
-const scriptPath = "out/_audio_fc.txt"; fs.writeFileSync(scriptPath, fc);
-args.push("-filter_complex_script", scriptPath, "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", OUT);
+// filtro EN LÍNEA (un solo argumento; execFileSync no pasa por shell → sin límite ni escapes).
+// -filter_complex_script daba "Error splitting the argument list" en el ffmpeg estricto de la CI.
+args.push("-filter_complex", fc, "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", OUT);
 console.log(`pops: ${times.length} | música: ${hasMusic ? "sí" : "no"} → ${OUT}`);
 execFileSync("ffmpeg", args, { stdio: "inherit" });
 console.log("✔ audio mezclado (pop por entrada + música)");
