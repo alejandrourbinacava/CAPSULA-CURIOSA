@@ -114,13 +114,22 @@ for (const sec of sections) {
     return { box: { cx, cy, w: nw * sc, h: nh * sc } };
   };
 
-  // badge de capítulo. historical: si el badge es un ICONO, se usa la 1ª FOTO de la sección; si no hay, sin badge.
+  // BASE + badge de capítulo. Historical: la FOTO representativa de la sección es la BASE grande CENTRAL
+  //   (protagonista, persiste toda la sección con Ken Burns); los iconos giran alrededor. Badge de esquina
+  //   solo si es un ICONO (nunca duplicamos la foto en pequeño).
   let badgeId = sec.badge;
-  if (HISTORICAL && badgeId && /vector|icon/.test(assets[badgeId]?.kind || "")) {
-    const photoTag = sec.tags.map(t => t.raw).find(r => /^show:/.test(r) && /cutout|photo|screenshot|archive/.test(assets[r.replace(/^show:?\s*/, "").split(/[@\s,]/)[0].trim()]?.kind || ""));
-    badgeId = photoTag ? photoTag.replace(/^show:?\s*/, "").split(/[@\s,]/)[0].trim() : null;
+  const isPhotoAsset = (id) => /cutout|photo|screenshot|archive/.test(assets[id]?.kind || "");
+  let heroPhotoId = null;
+  if (HISTORICAL) {
+    if (badgeId && isPhotoAsset(badgeId)) { heroPhotoId = badgeId; badgeId = null; }
+    else {
+      const photoTag = sec.tags.map(t => t.raw).find(r => /^show:/.test(r) && isPhotoAsset(r.replace(/^show:?\s*/, "").split(/[@\s,]/)[0].trim()));
+      if (photoTag) heroPhotoId = photoTag.replace(/^show:?\s*/, "").split(/[@\s,]/)[0].trim();
+    }
   }
-  if (badgeId && assetFile(badgeId)) elements.push({ id: "badge_" + autoId++, type: "image", kind: "logo", src: assetFile(badgeId), box: boxOf("x", "corner-badge"), z: 70, in: sec.t0, out: secEnd, enter: { kind: "fade-in", duration: 0.4 } });
+  sec._baseSrc = heroPhotoId && assetFile(heroPhotoId) ? assetFile(heroPhotoId) : null; // la base RELLENA HUECOS (ver pasada más abajo)
+  if (badgeId && assetFile(badgeId) && /vector|icon/.test(assets[badgeId]?.kind || ""))
+    elements.push({ id: "badge_" + autoId++, type: "image", kind: "logo", structural: true, src: assetFile(badgeId), box: boxOf("x", "corner-badge"), z: 70, in: sec.t0, out: secEnd, enter: { kind: "fade-in", duration: 0.4 } });
   if (sec.label) {
     // (sin rótulo bajo el badge: el título de sección ya persiste y nombra el imperio; evita texto < 34px)
     const titleFs = Math.min(96, Math.floor(1200 / Math.max(1, (sec.label || "").length * 0.6))); // cabe en la zona del título
@@ -198,17 +207,16 @@ for (const sec of sections) {
       elements.push({ id: "a" + autoId++, type: "arrow", a, b, curve: (autoId % 2 ? "up" : "down"), color: RED, z: 40, in: t, out: secEnd, enter: { kind: "draw", duration: 0.55 }, exit: { kind: "fade-out", duration: 0.2 } });
       continue;
     }
-    // show / clip / gif -> imagen/clip/gif con su kind
-    if (v === "show" || v === "clip" || v === "gif") {
+    if (v === "clip" || v === "gif") continue; // FUERA memes/clips: no pegan con contenido histórico
+    // show -> imagen doodle
+    if (v === "show") {
       const id = s.replace(/^(show|clip|gif):?\s*/, "").split(/[@\s,]/)[0].trim();
       let type = "image", src = assetFile(id);
       if (v === "clip" || v === "gif") { type = v; src = assets[id]?.file && fs.existsSync(path.join("public", assets[id].file)) ? assets[id].file : null; }
       if (!src) { warns.push(`asset ausente: "${id}" (sección "${sec.label}") -> se omite`); continue; }
       const kind = v === "gif" ? "meme" : v === "clip" ? "clip" : kindOf(id, src);
-      // historical: 0 ICONOS. Icono vector -> se DESCARTA (mejor hueco que icono aleatorio) y avisa con segundo + frase.
-      if (HISTORICAL && kind === "vector") { const pi = phraseIdxOfTime(t); warns.push(`SIN MATERIAL ${fmtSec(t)} · icono "${id}" descartado · frase: "${(phrases[pi]?.text || "").slice(0, 60)}"`); continue; }
       const photoKind = PHOTO_KIND.test(kind);
-      const hero = /hero/.test(s) || (photoKind && !heroPlaced); // 1ª foto de la sección = base grande
+      const hero = /hero/.test(s); // la BASE de sección ya se crea aparte; aquí solo hero explícito
       if (hero && photoKind) heroPlaced = true;
       const [nw, nh] = nomOf(kind);
       const bb = jitterBox(id + autoId, box(hero ? "center" : (slot || "center")), nw, nh, hero);
@@ -220,19 +228,55 @@ for (const sec of sections) {
   }
 }
 
+// --- INYECTAR iconos AUTO (01e-enrich): densidad sincronizada a la VOZ, sin tocar el audio ---
+{
+  const avPath = path.join(dir, "auto-visuals.json");
+  if (fs.existsSync(avPath)) {
+    const av = JSON.parse(fs.readFileSync(avPath, "utf8"));
+    let inj = 0;
+    for (const a of av) {
+      const src = assetFile(a.id); if (!src) continue; // aún no generado -> se omite
+      const tin = +a.t.toFixed(2), tout = +Math.min(a.t + 2.6, meta.duration).toFixed(2);
+      const isPhoto = !!a.photo;
+      elements.push({ id: a.id, type: "image", kind: isPhoto ? "cutout" : "vector", src, big: !!a.big, photo: isPhoto, label: a.label || "", box: { cx: 960, cy: 470, w: 240, h: 240 }, z: 30, in: tin, out: tout, auto: true, enter: isPhoto ? { kind: "pop", duration: 0.4 } : { kind: "draw-in", duration: 0.55 }, exit: { kind: "fade-out", duration: 0.28 } });
+      inj++;
+    }
+    warns.push(`auto-iconos inyectados: ${inj}/${av.length}`);
+  }
+}
+
+// --- SOLO dibujos + subtítulo: fuera textos/ecos/stats/flechas guionizados (los sustituye el subtítulo animado) ---
+for (let i = elements.length - 1; i >= 0; i--) if (!["image", "stickman", "watermark", "title"].includes(elements[i].type)) elements.splice(i, 1);
+
+// etiqueta bajo cada dibujo = lo que se DICE al aparecer (2-4 palabras de la narración, gratis)
+const STOP = new Set(["de", "la", "el", "los", "las", "un", "una", "unos", "unas", "y", "o", "que", "en", "a", "con", "por", "para", "del", "al", "su", "sus", "se", "lo", "es", "no", "más", "como"]);
+const labelAt = (t) => {
+  let i = words.findIndex(w => w.start >= t - 0.25); if (i < 0) i = Math.max(0, words.length - 1);
+  const chunk = [];
+  for (let k = i; k < words.length && chunk.length < 4; k++) { chunk.push(words[k].word); if (/[.?!;:…]$/.test(words[k].word)) break; }
+  // quita palabras vacías del principio para que la etiqueta empiece por algo con sentido
+  while (chunk.length > 1 && STOP.has(chunk[0].toLowerCase().replace(/[^a-záéíóúñ]/gi, ""))) chunk.shift();
+  let s = chunk.join(" ").replace(/\s+([,.;:!?…])/g, "$1").replace(/[.,;:]+$/, "").trim();
+  if (s.length > 26) s = s.slice(0, 24).replace(/\s\S*$/, "").trim() + "…";
+  return s.charAt(0).toUpperCase() + s.slice(1);
+};
+
 const structuralEl = (e) => e.structural || e.type === "title" || e.type === "watermark";
 const hashId = (s) => { let h = 0; for (const c of s) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; };
 
 // --- A) VIDA POR FRASES (VERIFICACION): un elemento vive 2-4 frases (el hero hasta 6, con Ken Burns) ---
 for (const el of elements) {
-  if (structuralEl(el) || el.type === "watermark" || !el.box) continue;
+  if (structuralEl(el) || el.type === "watermark" || !el.box || el.subtitle) continue; // el subtítulo ya trae su tiempo exacto
   const pIn = phraseIdxOfTime(el.in);
   const secEndOf = sectionAt(el.in).t1;
-  if (el.hero) { el.out = +Math.min(el.out, secEndOf).toFixed(2); el.kenburns = true; } // la foto-base es el LIENZO: dura toda la sección + Ken Burns (no se congela)
-  else { const life = 2 + (hashId(el.id) % 3); el.out = +Math.min(el.out, secEndOf, phraseTime(pIn + life)).toFixed(2); }
+  const isVis = !TEXT_TYPES.has(el.type) && el.type !== "stat";
+  if (el.auto) { /* los auto ya traen vida corta (t+2.6): entran y salen */ }
+  else if (el.hero) { el.kenburns = true; } // foto-BASE: grande y central, PERIÓDICA (~3s), rota con los iconos
+  else if (isVis) { el.out = +Math.min(el.out, secEndOf, el.in + 3.0).toFixed(2); } // iconos: vida ≤3s → todo cambia cada ≤3s
+  else { const life = 2 + (hashId(el.id) % 2); el.out = +Math.min(el.out, secEndOf, phraseTime(pIn + life), el.in + 6).toFixed(2); } // TEXTO ≤6s → rota con la narración (no persiste el mismo pie)
 }
-// mínimo 1s en pantalla
-for (const el of elements) if (el.type !== "watermark" && el.out - el.in < 1.0) el.out = +(el.in + 1.0).toFixed(2);
+// mínimo 1s en pantalla (los SUBTÍTULOS no: son secuenciales y no deben pisarse)
+for (const el of elements) if (el.type !== "watermark" && !el.subtitle && el.out - el.in < 1.0) el.out = +(el.in + 1.0).toFixed(2);
 
 // --- B) MONIGOTE (VERIFICACION): solo explícito, máx 4/vídeo, ≥90s aparte, vida ≤5s ---
 {
@@ -256,15 +300,85 @@ const capLive = (list, max) => {
     while (live.length > max) { live.sort((a, b) => (a.hero ? 1 : 0) - (b.hero ? 1 : 0) || a.in - b.in); const old = live.shift(); old.out = Math.min(old.out, +e.in.toFixed(2)); }
   }
 };
-capLive(elements.filter(e => TEXT_TYPES.has(e.type) && !structuralEl(e) && e.box), 4);
-capLive(elements.filter(e => !structuralEl(e) && e.type !== "watermark" && e.box), 4);
+capLive(elements.filter(e => TEXT_TYPES.has(e.type) && e.type !== "stat" && !structuralEl(e) && e.box), 2); // máx 2 pies de foto a la vez
+capLive(elements.filter(e => !structuralEl(e) && e.type !== "watermark" && e.box), 6); // total ≤6: base + 2 pies + 3 iconos
 
-// pre-encuadre: cada texto arranca DENTRO del frame (por su ancho real); el solver luego resuelve solapes
-for (const el of elements) {
-  if (!TEXT_TYPES.has(el.type) || structuralEl(el) || !el.box) continue;
-  const bb = bboxOf(el); const hw = (bb[2] - bb[0]) / 2, hh = (bb[3] - bb[1]) / 2;
-  el.box = { ...el.box, cx: Math.max(hw + 14, Math.min(W - hw - 14, el.box.cx)), cy: Math.max(hh + 14, Math.min(H - hh - 14, el.box.cy)) };
+// (el texto ahora es el SUBTÍTULO animado, ya posicionado en su franja inferior; no hay pies que recolocar)
+
+// --- DEDUP de imagen: nunca la MISMA foto/icono repetida a la vez (dos Coliseos, etc.) ---
+{
+  const vis = elements.filter(e => !structuralEl(e) && e.type !== "watermark" && !TEXT_TYPES.has(e.type) && e.type !== "stat" && e.box).sort((a, b) => a.in - b.in);
+  const liveSrc = new Map();
+  for (const el of vis) {
+    const key = el.src || el.id;
+    const prev = liveSrc.get(key);
+    if (prev && prev.out > el.in + 0.05) { el._discard = true; continue; } // ya está esa imagen en pantalla
+    liveSrc.set(key, el);
+  }
+  for (let i = elements.length - 1; i >= 0; i--) if (elements[i]._discard) elements.splice(i, 1);
 }
+// --- LIENZO ACUMULATIVO: los dibujos se van APILANDO en una rejilla ORDENADA y del MISMO tamaño; cada uno
+//     con su ETIQUETA justo debajo (lo que se dice). Se rellena en orden (izq→der, arriba→abajo); cuando se
+//     llena (6) o acaba la sección, se limpia y empieza otro lienzo. Entra uno cada ~2,5s → nunca hay vacío. ---
+// layouts de lienzo (varían para no ser monótono): 1 grande · 2 · 3 · 4 (esquinas) · 6. Tamaño uniforme
+// DENTRO de cada layout; entre layouts sí cambia (uno grande, luego varios...). Cada slot = icono + etiqueta.
+const LAY = [
+  { size: 450, slots: [{ cx: 960, ic: 460, lb: 745 }] },
+  { size: 380, slots: [{ cx: 620, ic: 435, lb: 705 }, { cx: 1300, ic: 435, lb: 705 }] },
+  { size: 330, slots: [{ cx: 480, ic: 435, lb: 695 }, { cx: 960, ic: 435, lb: 695 }, { cx: 1440, ic: 435, lb: 695 }] },
+  { size: 280, slots: [{ cx: 480, ic: 355, lb: 545 }, { cx: 1440, ic: 355, lb: 545 }, { cx: 480, ic: 720, lb: 905 }, { cx: 1440, ic: 720, lb: 905 }] },
+  { size: 280, slots: [{ cx: 480, ic: 355, lb: 545 }, { cx: 960, ic: 355, lb: 545 }, { cx: 1440, ic: 355, lb: 545 }, { cx: 480, ic: 720, lb: 905 }, { cx: 960, ic: 720, lb: 905 }, { cx: 1440, ic: 720, lb: 905 }] },
+];
+const BYN = {}; for (const L of LAY) BYN[L.slots.length] = L;
+const CYCLE = [2, 1, 3, 6, 2, 4, 3, 1, 2, 6, 4, 3]; // secuencia de nº de elementos por lienzo (variedad)
+const isVisEl = (e) => !structuralEl(e) && e.type !== "watermark" && !TEXT_TYPES.has(e.type) && e.type !== "stat" && e.box;
+// STICKMAN como UN ELEMENTO MÁS (no fijo en la esquina): aparece de vez en cuando, entra en el lienzo
+// como los dibujos, reacciona y se va. Se coloca en un slot por la acumulación de abajo.
+const SPOSE = ["cheer", "pointing-right", "thinking", "pointing-left", "neutral", "shrug"];
+sections.forEach((sec, i) => {
+  const span = sec.t1 - sec.t0; if (span < 9) return;
+  const t = +(sec.t0 + span * 0.5).toFixed(2);
+  elements.push({ id: "sm_" + autoId++, type: "stickman", pose: SPOSE[i % SPOSE.length], box: { cx: 960, cy: 470, w: 300, h: 300 }, in: t, out: +(t + 2.6).toFixed(2), enter: { kind: "pop", duration: 0.35 }, exit: { kind: "fade-out", duration: 0.25 } });
+});
+
+const newLabels = [], newArrows = [], transitions = [];
+let cyc = 0;
+for (const sec of sections) {
+  transitions.push(+sec.t0.toFixed(2));
+  const vis = elements.filter(e => isVisEl(e) && e.in >= sec.t0 - 0.01 && e.in < sec.t1).sort((a, b) => a.in - b.in);
+  let lay = BYN[CYCLE[cyc % CYCLE.length]], slot = 0, live = [], arrowsLive = [];
+  const horiz = () => lay.slots.every(s => s.ic === lay.slots[0].ic);
+  const clearAll = (tEnd) => {
+    for (const p of live) { p.icon.out = +Math.min(p.icon.out, tEnd).toFixed(2); if (p.label) p.label.out = p.icon.out; }
+    for (const ar of arrowsLive) ar.out = +Math.min(ar.out, tEnd).toFixed(2);
+    live = []; arrowsLive = []; slot = 0;
+  };
+  for (const el of vis) {
+    if (slot >= lay.slots.length) { clearAll(el.in); transitions.push(+el.in.toFixed(2)); cyc++; lay = BYN[CYCLE[cyc % CYCLE.length]]; } // lienzo lleno → limpia y CAMBIA
+    const s = lay.slots[slot++];
+    el.box = { cx: s.cx, cy: s.ic, w: lay.size, h: lay.size }; el.fixed = true; el.kenburns = false;
+    el.out = sec.t1;
+    let label = null; const lab = el.type === "stickman" ? "" : (el.label || labelAt(el.in)); // etiqueta limpia de Claude; el stickman va sin etiqueta
+    if (lab) {
+      const fs = Math.max(34, Math.min(44, Math.floor(820 / Math.max(1, lab.length))));
+      label = { id: "lb_" + autoId++, type: "text", label: true, fixed: true, content: lab, fontSize: fs, box: { cx: s.cx, cy: s.lb, w: 440, h: 62 }, color: STROKE, z: 66, in: +(el.in + 0.25).toFixed(2), out: sec.t1, enter: { kind: "handwrite", duration: 0.4 }, exit: { kind: "fade-out", duration: 0.15 } };
+      newLabels.push(label);
+    }
+    // FLECHA trazada entre iconos contiguos (solo filas horizontales, en la mitad de los lienzos → variedad sin saturar)
+    if (live.length >= 1 && horiz() && cyc % 2 === 0) {
+      const prev = live[live.length - 1], y = s.ic - lay.size / 2 + 24;
+      const ar = { id: "ar_" + autoId++, type: "arrow", a: { x: prev.icon.box.cx + lay.size / 2 - 6, y }, b: { x: s.cx - lay.size / 2 + 6, y }, curve: "up", color: RED, z: 40, in: +(el.in + 0.35).toFixed(2), out: sec.t1, enter: { kind: "draw", duration: 0.5 }, exit: { kind: "fade-out", duration: 0.15 } };
+      newArrows.push(ar); arrowsLive.push(ar);
+    }
+    live.push({ icon: el, label });
+  }
+  clearAll(sec.t1); cyc++;
+}
+for (const l of newLabels) elements.push(l);
+for (const ar of newArrows) elements.push(ar);
+
+// transiciones (cambios de composición) → para el SFX de transición en el paso de audio
+fs.writeFileSync(path.join(dir, "transitions.json"), JSON.stringify([...new Set(transitions)].sort((a, b) => a - b), null, 0));
 
 // --- SOLVER DE OCUPACIÓN (VERIFICACION 2.2): UNA pasada consciente de la vida útil. Cada elemento
 //     se coloca evitando a TODOS los que coexisten en el tiempo (texto-texto cero, foto-foto <35%) y
@@ -272,8 +386,9 @@ for (const el of elements) {
 const DIRS = [[0, 1], [0, -1], [1, 0], [-1, 0], [1, 1], [-1, 1], [1, -1], [-1, -1]];
 const isTextT = (e) => TEXT_TYPES.has(e.type);
 {
-  const dynamics = elements.filter(e => !structuralEl(e) && e.type !== "watermark" && e.box).sort((a, b) => a.in - b.in);
-  const placed = elements.filter(e => structuralEl(e) && e.type !== "watermark" && e.box); // estructurales = obstáculos fijos
+  const isCap = (e) => TEXT_TYPES.has(e.type) && e.type !== "stat";
+  const dynamics = elements.filter(e => !structuralEl(e) && e.type !== "watermark" && e.box && !e.fixed && !isCap(e)).sort((a, b) => a.in - b.in);
+  const placed = elements.filter(e => e.box && e.type !== "watermark" && (structuralEl(e) || e.fixed || isCap(e))); // estructurales + rejilla + pies fijos = obstáculos
   const validAt = (el, cx, cy, rivals) => {
     const bb = bboxOf({ ...el, box: { ...el.box, cx, cy } });
     if (hitsZone(bb)) return false;

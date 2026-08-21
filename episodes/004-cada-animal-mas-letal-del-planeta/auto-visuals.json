@@ -1,0 +1,570 @@
+[
+  {
+    "id": "icon_auto_0",
+    "t": 0,
+    "big": true,
+    "photo": false,
+    "query": "silhouette of a small, harmless-looking animal with a question mark",
+    "label": "¿Animal misterioso?"
+  },
+  {
+    "id": "icon_auto_1",
+    "t": 5.26,
+    "big": true,
+    "photo": false,
+    "query": "shark, lion, and crocodile in a movie poster style",
+    "label": "Depredadores icónicos"
+  },
+  {
+    "id": "icon_auto_2",
+    "t": 9.86,
+    "big": true,
+    "photo": false,
+    "query": "World Health Organization and National Geographic logos with a globe",
+    "label": "OMS y National Geographic"
+  },
+  {
+    "id": "icon_auto_3",
+    "t": 19.58,
+    "big": true,
+    "photo": false,
+    "query": "people watching a horror movie with scared expressions",
+    "label": "Miedo al cine"
+  },
+  {
+    "id": "icon_auto_4",
+    "t": 30.98,
+    "big": true,
+    "photo": false,
+    "query": "person looking surprised at a list of dangerous animals",
+    "label": "Sorpresa ante el peligro"
+  },
+  {
+    "id": "icon_auto_5",
+    "t": 41.52,
+    "big": true,
+    "photo": false,
+    "query": "various dangerous animals from movies with a red cross over them",
+    "label": "Depredadores desmentidos"
+  },
+  {
+    "id": "icon_auto_6",
+    "t": 50.9,
+    "big": true,
+    "photo": false,
+    "query": "lion, bear, and large snake with a red cross over them",
+    "label": "Grandes depredadores"
+  },
+  {
+    "id": "icon_auto_7",
+    "t": 57.62,
+    "big": true,
+    "photo": true,
+    "query": "mosquito",
+    "label": "Mosquito"
+  },
+  {
+    "id": "icon_auto_8",
+    "t": 63.66,
+    "big": true,
+    "photo": false,
+    "query": "mosquito in a bedroom at night",
+    "label": "Mosquito nocturno"
+  },
+  {
+    "id": "icon_auto_9",
+    "t": 68.42,
+    "big": true,
+    "photo": false,
+    "query": "mosquito with a backdrop of war scenes",
+    "label": "Mosquito en guerra"
+  },
+  {
+    "id": "icon_auto_10",
+    "t": 77.36,
+    "big": true,
+    "photo": true,
+    "query": "mosquito",
+    "label": "Mosquito"
+  },
+  {
+    "id": "icon_auto_11",
+    "t": 81.54,
+    "big": true,
+    "photo": false,
+    "query": "mosquito with a globe showing different species",
+    "label": "Especies de mosquitos"
+  },
+  {
+    "id": "icon_auto_12",
+    "t": 91.06,
+    "big": true,
+    "photo": false,
+    "query": "mosquito biting with viruses and parasites inside",
+    "label": "Mosquito infectado"
+  },
+  {
+    "id": "icon_auto_13",
+    "t": 98.18,
+    "big": true,
+    "photo": false,
+    "query": "mosquito attracted to a human by heat and carbon dioxide",
+    "label": "Atracción del mosquito"
+  },
+  {
+    "id": "icon_auto_14",
+    "t": 111.08,
+    "big": true,
+    "photo": false,
+    "query": "timeline showing mosquito evolution over 100 million years",
+    "label": "100 millones de años"
+  },
+  {
+    "id": "icon_auto_15",
+    "t": 119.98,
+    "big": true,
+    "photo": false,
+    "query": "mosquito with dinosaurs in the background",
+    "label": "Mosquito ancestral"
+  },
+  {
+    "id": "icon_auto_16",
+    "t": 125.96,
+    "big": true,
+    "photo": false,
+    "query": "mosquito anopheles with malaria symbol",
+    "label": "Anopheles y malaria"
+  },
+  {
+    "id": "icon_auto_17",
+    "t": 130.64,
+    "big": true,
+    "photo": false,
+    "query": "map of Sub-Saharan Africa with children",
+    "label": "África subsahariana"
+  },
+  {
+    "id": "icon_auto_18",
+    "t": 134.24,
+    "big": true,
+    "photo": false,
+    "query": "clock showing two minutes with a child silhouette",
+    "label": "Dos minutos fatales"
+  },
+  {
+    "id": "icon_auto_19",
+    "t": 139.76,
+    "big": true,
+    "photo": false,
+    "query": "mosquito with symbols of dengue, yellow fever, chikungunya, and zika",
+    "label": "Dengue, fiebre amarilla"
+  },
+  {
+    "id": "icon_auto_20",
+    "t": 150.82,
+    "big": true,
+    "photo": false,
+    "query": "vaccines, mosquito nets, and repellents",
+    "label": "Prevención efectiva"
+  },
+  {
+    "id": "icon_auto_21",
+    "t": 165.44,
+    "big": true,
+    "photo": true,
+    "query": "king cobra",
+    "label": "Cobra real"
+  },
+  {
+    "id": "icon_auto_22",
+    "t": 175.5,
+    "big": true,
+    "photo": false,
+    "query": "king cobra with a venom symbol",
+    "label": "Veneno mortal"
+  },
+  {
+    "id": "icon_auto_23",
+    "t": 178.92,
+    "big": true,
+    "photo": false,
+    "query": "king cobra in Australian outback",
+    "label": "Cobra australiana"
+  },
+  {
+    "id": "icon_auto_24",
+    "t": 189.74,
+    "big": true,
+    "photo": true,
+    "query": "black mamba",
+    "label": "Mamba negra"
+  },
+  {
+    "id": "icon_auto_25",
+    "t": 193.98,
+    "big": true,
+    "photo": false,
+    "query": "black mamba camouflaged in grass near a farm",
+    "label": "Mamba en la granja"
+  },
+  {
+    "id": "icon_auto_26",
+    "t": 201.42,
+    "big": true,
+    "photo": false,
+    "query": "black mamba with a clock showing one hour",
+    "label": "Una hora letal"
+  },
+  {
+    "id": "icon_auto_27",
+    "t": 208.14,
+    "big": true,
+    "photo": false,
+    "query": "black mamba showing its black mouth",
+    "label": "Boca negra"
+  },
+  {
+    "id": "icon_auto_28",
+    "t": 213.38,
+    "big": true,
+    "photo": false,
+    "query": "snake bite with a clock showing minutes",
+    "label": "Mordedura en minutos"
+  },
+  {
+    "id": "icon_auto_29",
+    "t": 216.54,
+    "big": true,
+    "photo": false,
+    "query": "snake fangs injecting venom",
+    "label": "Inyección de veneno"
+  },
+  {
+    "id": "icon_auto_30",
+    "t": 222.74,
+    "big": true,
+    "photo": false,
+    "query": "diagram of venom effects on the body",
+    "label": "Efectos del veneno"
+  },
+  {
+    "id": "icon_auto_31",
+    "t": 231.52,
+    "big": true,
+    "photo": false,
+    "query": "person bitten by a snake staying calm",
+    "label": "Calma tras mordedura"
+  },
+  {
+    "id": "icon_auto_32",
+    "t": 238.22,
+    "big": true,
+    "photo": false,
+    "query": "diagram showing venom spreading through the lymphatic system",
+    "label": "Propagación del veneno"
+  },
+  {
+    "id": "icon_auto_33",
+    "t": 244.34,
+    "big": true,
+    "photo": false,
+    "query": "person staying calm after a snake bite",
+    "label": "Mantener la calma"
+  },
+  {
+    "id": "icon_auto_34",
+    "t": 252.8,
+    "big": true,
+    "photo": true,
+    "query": "box jellyfish",
+    "label": "Avispa de mar"
+  },
+  {
+    "id": "icon_auto_35",
+    "t": 262.88,
+    "big": true,
+    "photo": false,
+    "query": "box jellyfish with a venom symbol",
+    "label": "Veneno letal"
+  },
+  {
+    "id": "icon_auto_36",
+    "t": 272.04,
+    "big": true,
+    "photo": false,
+    "query": "box jellyfish near Australian coast",
+    "label": "Costa australiana"
+  },
+  {
+    "id": "icon_auto_37",
+    "t": 278.4,
+    "big": true,
+    "photo": false,
+    "query": "person struggling in water after jellyfish sting",
+    "label": "Lucha en el agua"
+  },
+  {
+    "id": "icon_auto_38",
+    "t": 287.54,
+    "big": true,
+    "photo": false,
+    "query": "person stung by a jellyfish looking for help",
+    "label": "Auxilio requerido"
+  },
+  {
+    "id": "icon_auto_39",
+    "t": 290.8,
+    "big": true,
+    "photo": false,
+    "query": "person pouring urine on a jellyfish sting",
+    "label": "Orina en picadura"
+  },
+  {
+    "id": "icon_auto_40",
+    "t": 298.32,
+    "big": true,
+    "photo": false,
+    "query": "person in pain after jellyfish sting",
+    "label": "Dolor agudo"
+  },
+  {
+    "id": "icon_auto_41",
+    "t": 304.46,
+    "big": true,
+    "photo": false,
+    "query": "person pouring vinegar on a jellyfish sting",
+    "label": "Vinagre en playa"
+  },
+  {
+    "id": "icon_auto_42",
+    "t": 316.26,
+    "big": true,
+    "photo": false,
+    "query": "vinegar bottle next to a lifeguard flag on a beach",
+    "label": "Cocodrilo marino"
+  },
+  {
+    "id": "icon_auto_43",
+    "t": 325.56,
+    "big": true,
+    "photo": true,
+    "query": "saltwater crocodile",
+    "label": "Emboscada acuática"
+  },
+  {
+    "id": "icon_auto_44",
+    "t": 331.62,
+    "big": true,
+    "photo": false,
+    "query": "crocodile submerged with eyes and nose above water",
+    "label": "Cruzar río peligroso"
+  },
+  {
+    "id": "icon_auto_45",
+    "t": 345.26,
+    "big": true,
+    "photo": false,
+    "query": "people crossing a river with a crocodile nearby",
+    "label": "Cocodrilo de 6 metros"
+  },
+  {
+    "id": "icon_auto_46",
+    "t": 358,
+    "big": true,
+    "photo": false,
+    "query": "large crocodile with a ruler showing 6 meters",
+    "label": "Mordedura aplastante"
+  },
+  {
+    "id": "icon_auto_47",
+    "t": 366.52,
+    "big": true,
+    "photo": false,
+    "query": "crocodile biting with pressure symbol",
+    "label": "Rotación mortal"
+  },
+  {
+    "id": "icon_auto_48",
+    "t": 378.36,
+    "big": true,
+    "photo": false,
+    "query": "crocodile performing death roll underwater",
+    "label": "Dominar al cocodrilo"
+  },
+  {
+    "id": "icon_auto_49",
+    "t": 389.46,
+    "big": true,
+    "photo": false,
+    "query": "person holding crocodile's mouth shut",
+    "label": "Hipopótamo"
+  },
+  {
+    "id": "icon_auto_50",
+    "t": 402.92,
+    "big": true,
+    "photo": true,
+    "query": "hippopotamus",
+    "label": "Hipopótamo en tierra"
+  },
+  {
+    "id": "icon_auto_51",
+    "t": 416.48,
+    "big": true,
+    "photo": false,
+    "query": "hippopotamus running on land",
+    "label": "Ataque hipopótamo"
+  },
+  {
+    "id": "icon_auto_52",
+    "t": 429.34,
+    "big": true,
+    "photo": false,
+    "query": "hippopotamus attacking with open mouth",
+    "label": "Hipopótamo pacífico"
+  },
+  {
+    "id": "icon_auto_53",
+    "t": 433.74,
+    "big": true,
+    "photo": false,
+    "query": "hippopotamus grazing peacefully",
+    "label": "Canoa volcada"
+  },
+  {
+    "id": "icon_auto_54",
+    "t": 441.36,
+    "big": true,
+    "photo": false,
+    "query": "hippopotamus tipping over a canoe",
+    "label": "Hipopótamo agresivo"
+  },
+  {
+    "id": "icon_auto_55",
+    "t": 456.16,
+    "big": true,
+    "photo": false,
+    "query": "hippopotamus making a loud snort",
+    "label": "Perro callejero"
+  },
+  {
+    "id": "icon_auto_56",
+    "t": 467.66,
+    "big": true,
+    "photo": true,
+    "query": "stray dog",
+    "label": "Virus en nervios"
+  },
+  {
+    "id": "icon_auto_57",
+    "t": 481.84,
+    "big": true,
+    "photo": false,
+    "query": "virus traveling through nerves to the brain",
+    "label": "Síntomas de rabia"
+  },
+  {
+    "id": "icon_auto_58",
+    "t": 497.8,
+    "big": true,
+    "photo": false,
+    "query": "person showing rabies symptoms",
+    "label": "Vacunación veterinaria"
+  },
+  {
+    "id": "icon_auto_59",
+    "t": 507.4,
+    "big": true,
+    "photo": false,
+    "query": "veterinarian vaccinating a dog",
+    "label": "Rabia en Asia y África"
+  },
+  {
+    "id": "icon_auto_60",
+    "t": 513.4,
+    "big": true,
+    "photo": false,
+    "query": "map showing rabies deaths in Asia and Africa",
+    "label": "Niños con perros"
+  },
+  {
+    "id": "icon_auto_61",
+    "t": 520.1,
+    "big": true,
+    "photo": false,
+    "query": "children playing with stray dogs",
+    "label": "Recuento de muertes"
+  },
+  {
+    "id": "icon_auto_62",
+    "t": 525.38,
+    "big": true,
+    "photo": false,
+    "query": "various dangerous animals with a tally of human deaths",
+    "label": "Tiburones inofensivos"
+  },
+  {
+    "id": "icon_auto_63",
+    "t": 546.08,
+    "big": true,
+    "photo": false,
+    "query": "shark with a small number of deaths compared to other animals",
+    "label": "Conflicto humano"
+  },
+  {
+    "id": "icon_auto_64",
+    "t": 557.5,
+    "big": true,
+    "photo": false,
+    "query": "humans in conflict, accidents, and violence",
+    "label": "Estadística incómoda"
+  },
+  {
+    "id": "icon_auto_65",
+    "t": 567.24,
+    "big": true,
+    "photo": false,
+    "query": "uncomfortable statistic chart",
+    "label": "Amenazas reales"
+  },
+  {
+    "id": "icon_auto_66",
+    "t": 571.02,
+    "big": true,
+    "photo": false,
+    "query": "human silhouette with dangerous animals around",
+    "label": "Protección integral"
+  },
+  {
+    "id": "icon_auto_67",
+    "t": 582.9,
+    "big": true,
+    "photo": false,
+    "query": "person on a beach with mosquito repellent and a vaccinated dog",
+    "label": "Suscribirse"
+  },
+  {
+    "id": "icon_auto_68",
+    "t": 598.88,
+    "big": true,
+    "photo": false,
+    "query": "person clicking subscribe button on a computer",
+    "label": "Animal inteligente"
+  },
+  {
+    "id": "icon_auto_69",
+    "t": 604.56,
+    "big": true,
+    "photo": false,
+    "query": "silhouette of a mysterious intelligent animal",
+    "label": "Despedida"
+  },
+  {
+    "id": "icon_auto_70",
+    "t": 612.32,
+    "big": true,
+    "photo": false,
+    "query": "person waving goodbye",
+    "label": "Despedida"
+  }
+]

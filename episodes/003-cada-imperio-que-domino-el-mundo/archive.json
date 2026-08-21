@@ -1,0 +1,355 @@
+{
+  "IMPERIOS QUE DOMINARON EL MUNDO": [],
+  "EL IMPERIO EGIPCIO": [
+    {
+      "cat": "mapa",
+      "file": "assets/archive/el-imperio-egipcio-mapa.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Map_of_ancient_Egypt,_1683.jpg",
+      "license": "Public domain",
+      "artist": "Alain Manesson Mallet",
+      "query": "Ancient Egypt old map"
+    },
+    {
+      "cat": "retrato",
+      "file": "assets/archive/el-imperio-egipcio-retrato.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Travels_in_upper_and_lower_Egypt,_undertaken_by_order_of_the_old_government_of_France;_by_C_Fleuron_T150187-44.png",
+      "license": "Public domain",
+      "artist": "Sonnini, C. S. (Charles Sigisbert)",
+      "query": "Ancient Egypt portrait engraving"
+    },
+    {
+      "cat": "arquitectura",
+      "file": "assets/archive/el-imperio-egipcio-arquitectura.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Lepsius-Projekt_tw_1-2-108.jpg",
+      "license": "Public domain",
+      "artist": "Karl Richard Lepsius (1810–1884)",
+      "query": "Ancient Egypt architecture engraving"
+    },
+    {
+      "cat": "objeto",
+      "file": "assets/archive/el-imperio-egipcio-objeto.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:NAMA_8234a_Ancient_egyptian_funerary_mask.jpg",
+      "license": "CC0",
+      "artist": "Jebulon",
+      "query": "Ancient Egypt artifact"
+    },
+    {
+      "cat": "escena",
+      "file": "assets/archive/el-imperio-egipcio-escena.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Ancient_Egyptian_Representation_of_the_Vintage_(1878)_-_TIMEA.jpg",
+      "license": "CC BY-SA 2.5",
+      "artist": "Weidenbach",
+      "query": "Ancient Egypt historical illustration"
+    }
+  ],
+  "EL IMPERIO PERSA AQUEMÉNIDA": [
+    {
+      "cat": "mapa",
+      "file": "assets/archive/el-imperio-persa-aquemenida-mapa.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Persia_(PSF).png",
+      "license": "Public domain",
+      "artist": "Pearson Scott Foresman",
+      "query": "Achaemenid Persia old map"
+    },
+    {
+      "cat": "objeto",
+      "file": "assets/archive/el-imperio-persa-aquemenida-objeto.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:East-Hem_500bc.jpg",
+      "license": "CC BY-SA 3.0",
+      "artist": "Thomas Lessman (Contact!)",
+      "query": "Achaemenid Persia artifact"
+    },
+    {
+      "cat": "escena",
+      "file": "assets/archive/el-imperio-persa-aquemenida-escena.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Styles_of_ornament,_exhibited_in_designs,_and_arranged_in_historical_order,_with_descriptive_text._A_handbook_for_architects,_designers,_painters,_sculptors,_wood-carvers,_chasers,_modellers,_(14578510078).jpg",
+      "license": "No restrictions",
+      "artist": "Internet Archive Book Images",
+      "query": "Achaemenid Persia historical illustration"
+    }
+  ],
+  "EL IMPERIO ROMANO": [
+    {
+      "cat": "mapa",
+      "file": "assets/archive/el-imperio-romano-mapa.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1823_map_of_the_Eastern_Part_of_the_Roman_Empire_by_Fielding_Lucas,_Jr.jpg",
+      "license": "Public domain",
+      "artist": "Fielding Lucas, Jr.",
+      "query": "Roman Empire old map"
+    },
+    {
+      "cat": "retrato",
+      "file": "assets/archive/el-imperio-romano-retrato.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Musea_Brugge,_HUB,_2014_GRO0019_334_III.jpg",
+      "license": "CC0",
+      "artist": "Dominicus Custos",
+      "query": "Roman Empire portrait engraving"
+    },
+    {
+      "cat": "arquitectura",
+      "file": "assets/archive/el-imperio-romano-arquitectura.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Architecture_of_German_cities_1701-1800_(69243171).jpg",
+      "license": "Public domain",
+      "artist": "\nUnknown authorUnknown author",
+      "query": "Roman Empire architecture engraving"
+    },
+    {
+      "cat": "objeto",
+      "file": "assets/archive/el-imperio-romano-objeto.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1_Semis_of_Diadumenian,_Emperor_of_the_Roman_Empire_from_Antioch,_Yale_University_Art_Gallery,_inv._1938.6000.873_-_YDEA_-_134859.jpg",
+      "license": "CC0",
+      "artist": "\nanonymous ",
+      "query": "Roman Empire artifact"
+    },
+    {
+      "cat": "escena",
+      "file": "assets/archive/el-imperio-romano-escena.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Nuremberg_chronicles_-_Kingdoms_Holy_Roman_Empire.png",
+      "license": "Public domain",
+      "artist": "Hartmann Schedel",
+      "query": "Roman Empire historical illustration"
+    }
+  ],
+  "EL IMPERIO CHINO": [
+    {
+      "cat": "mapa",
+      "file": "assets/archive/el-imperio-chino-mapa.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:1892_map_of_China_and_Korea_by_the_Imperial_Japanese_Army.jpg",
+      "license": "Public domain",
+      "artist": "\nImperial Japanese Army General Staff Office (Sanbō-honbu).",
+      "query": "Imperial China old map"
+    },
+    {
+      "cat": "retrato",
+      "file": "assets/archive/el-imperio-chino-retrato.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Victor_Frond_(gravado_por_S%C3%A9bastien_Auguste_Sisson)_-_Fam%C3%ADlia_Imperial_do_Brasil,_1860.jpg",
+      "license": "Public domain",
+      "artist": "\nSébastien Auguste Sisson (1824-1893), after Victor Frond",
+      "query": "Imperial China portrait engraving"
+    },
+    {
+      "cat": "arquitectura",
+      "file": "assets/archive/el-imperio-chino-arquitectura.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:TTTC_Vol_I_227_Grand_Ceremony_Ancestral_Temple.png",
+      "license": "Public domain",
+      "artist": "AnonymousUnknown author",
+      "query": "Imperial China architecture engraving"
+    },
+    {
+      "cat": "objeto",
+      "file": "assets/archive/el-imperio-chino-objeto.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:NationalPalace_MuseumFrontView.jpg",
+      "license": "CC BY 3.0",
+      "artist": "Peellden",
+      "query": "Imperial China artifact"
+    },
+    {
+      "cat": "escena",
+      "file": "assets/archive/el-imperio-chino-escena.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:The_crisis_in_China-_the_disturbed_Imperial_capital._(1900).jpg",
+      "license": "Public domain",
+      "artist": "",
+      "query": "Imperial China historical illustration"
+    }
+  ],
+  "EL IMPERIO MONGOL": [
+    {
+      "cat": "mapa",
+      "file": "assets/archive/el-imperio-mongol-mapa.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Mongol_empire_conquests-ka.jpg",
+      "license": "CC0",
+      "artist": "უცნობია",
+      "query": "Mongol Empire old map"
+    },
+    {
+      "cat": "retrato",
+      "file": "assets/archive/el-imperio-mongol-retrato.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Group_of_animals_group_of_animals.jpg",
+      "license": "Public domain",
+      "artist": "Sebastian Münster",
+      "query": "Mongol Empire portrait engraving"
+    },
+    {
+      "cat": "objeto",
+      "file": "assets/archive/el-imperio-mongol-objeto.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Mongol_Empire_in_1259.JPG",
+      "license": "CC BY-SA 3.0",
+      "artist": "Enerelt",
+      "query": "Mongol Empire artifact"
+    },
+    {
+      "cat": "escena",
+      "file": "assets/archive/el-imperio-mongol-escena.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:A_history_of_all_nations_from_the_earliest_times;_being_a_universal_historical_library_(1905)_(14783859655).jpg",
+      "license": "No restrictions",
+      "artist": "Internet Archive Book Images",
+      "query": "Mongol Empire historical illustration"
+    }
+  ],
+  "EL IMPERIO OTOMANO": [
+    {
+      "cat": "mapa",
+      "file": "assets/archive/el-imperio-otomano-mapa.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Ottoman_train_system_on_the_eve_of_WWI.jpg",
+      "license": "Public domain",
+      "artist": "Ottoman Government",
+      "query": "Ottoman Empire old map"
+    },
+    {
+      "cat": "retrato",
+      "file": "assets/archive/el-imperio-otomano-retrato.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Christian_Schule_-_Oval_portrait_of_Selim_III,_Sultan_of_the_Ottoman_Empire_from_1789_to_1807,_1806,_Etching.jpg",
+      "license": "Public domain",
+      "artist": "Christian Schule",
+      "query": "Ottoman Empire portrait engraving"
+    },
+    {
+      "cat": "arquitectura",
+      "file": "assets/archive/el-imperio-otomano-arquitectura.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Fotothek_df_tg_0004754_Geometrie_%5E_Architektur_%5E_Festungsbau_%5E_Vermessung_%5E_K%C3%B6rper.jpg",
+      "license": "Public domain",
+      "artist": "",
+      "query": "Ottoman Empire architecture engraving"
+    },
+    {
+      "cat": "objeto",
+      "file": "assets/archive/el-imperio-otomano-objeto.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Territorial_changes_of_the_Ottoman_Empire_1699.jpg",
+      "license": "Public domain",
+      "artist": "Esemono",
+      "query": "Ottoman Empire artifact"
+    },
+    {
+      "cat": "escena",
+      "file": "assets/archive/el-imperio-otomano-escena.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:FIELD(1885)_p008_THE_HISTORICAL_LANDSCAPES_OF_THE_CENTRAL_OTTOMAN_EMPIRE.jpg",
+      "license": "Public domain",
+      "artist": "",
+      "query": "Ottoman Empire historical illustration"
+    }
+  ],
+  "EL IMPERIO INCA": [
+    {
+      "cat": "mapa",
+      "file": "assets/archive/el-imperio-inca-mapa.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Old_civilizations_of_Inca_land_(1924)_(20654410605).jpg",
+      "license": "No restrictions",
+      "artist": "Mead, Charles W. (Charles Williams), 1845-1928",
+      "query": "Inca Empire old map"
+    },
+    {
+      "cat": "retrato",
+      "file": "assets/archive/el-imperio-inca-retrato.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:The_execution_of_Inca.jpg",
+      "license": "Public domain",
+      "artist": "Greene, A. B., engraver",
+      "query": "Inca Empire portrait engraving"
+    },
+    {
+      "cat": "objeto",
+      "file": "assets/archive/el-imperio-inca-objeto.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Civiliza%C3%A7%C3%A3o_Inca_-_Miniatura_de_traje_MN_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "\nInca civilization",
+      "query": "Inca Empire artifact"
+    }
+  ],
+  "EL IMPERIO ESPAÑOL": [
+    {
+      "cat": "mapa",
+      "file": "assets/archive/el-imperio-espanol-mapa.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Sunday_News_map_of_the_Spanish_Empire.jpg",
+      "license": "Public domain",
+      "artist": "Edwin Sundberg",
+      "query": "Spanish Empire old map"
+    },
+    {
+      "cat": "objeto",
+      "file": "assets/archive/el-imperio-espanol-objeto.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Civil_ensign_of_the_Spanish_Netherlands.jpg",
+      "license": "Public domain",
+      "artist": "Unknown authorUnknown author",
+      "query": "Spanish Empire artifact"
+    }
+  ],
+  "EL IMPERIO BRITÁNICO": [
+    {
+      "cat": "mapa",
+      "file": "assets/archive/el-imperio-britanico-mapa.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:The_British_Empire,_1890.jpg",
+      "license": "Public domain",
+      "artist": "George Philip &amp; Son Ltd.",
+      "query": "British Empire old map"
+    },
+    {
+      "cat": "retrato",
+      "file": "assets/archive/el-imperio-britanico-retrato.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:British_Empire_1924_Portrait.png",
+      "license": "Public domain",
+      "artist": "UK  Post Office, Extraction by Matankic",
+      "query": "British Empire portrait engraving"
+    },
+    {
+      "cat": "arquitectura",
+      "file": "assets/archive/el-imperio-britanico-arquitectura.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:StateLibQld_2_151379_Cotton_exhibit_at_the_British_Empire_Exhibition,_London,_1924.jpg",
+      "license": "Public domain",
+      "artist": "Contributor(s): Queensland Newspapers Pty Ltd",
+      "query": "British Empire architecture engraving"
+    },
+    {
+      "cat": "objeto",
+      "file": "assets/archive/el-imperio-britanico-objeto.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:%22FIGHTING_CLANS%22_of_the_British_Indian_Empire,_1918_%E2%80%94_North_West.jpg",
+      "license": "CC0",
+      "artist": "RNRCTG",
+      "query": "British Empire artifact"
+    },
+    {
+      "cat": "escena",
+      "file": "assets/archive/el-imperio-britanico-escena.jpg",
+      "source": "Wikimedia Commons",
+      "page": "https://commons.wikimedia.org/wiki/File:Image_taken_from_page_158_of_%27A_Historical_Geography_of_the_British_Colonies_(of_the_British_Empire)%27_(11194755343).jpg",
+      "license": "No restrictions",
+      "artist": "The British Library",
+      "query": "British Empire historical illustration"
+    }
+  ],
+  "¿QUÉ NOS DEJARON?": []
+}

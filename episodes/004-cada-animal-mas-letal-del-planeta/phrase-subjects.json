@@ -1,0 +1,499 @@
+[
+  {
+    "i": 0,
+    "kind": "scene",
+    "en": "silhouette of a small, harmless-looking animal with a question mark",
+    "es": "Animal misterioso",
+    "extra": []
+  },
+  {
+    "i": 1,
+    "kind": "scene",
+    "en": "shark, lion, and crocodile in a movie poster style",
+    "es": "Animales de terror",
+    "extra": []
+  },
+  {
+    "i": 2,
+    "kind": "scene",
+    "en": "World Health Organization and National Geographic logos with a globe",
+    "es": "OMS y National Geographic",
+    "extra": []
+  },
+  {
+    "i": 3,
+    "kind": "scene",
+    "en": "people watching a horror movie with scared expressions",
+    "es": "Miedo en el cine",
+    "extra": []
+  },
+  {
+    "i": 4,
+    "kind": "scene",
+    "en": "person looking surprised at a list of dangerous animals",
+    "es": "Lista sorprendente",
+    "extra": []
+  },
+  {
+    "i": 5,
+    "kind": "scene",
+    "en": "various dangerous animals from movies with a red cross over them",
+    "es": "Animales de cine",
+    "extra": []
+  },
+  {
+    "i": 6,
+    "kind": "scene",
+    "en": "lion, bear, and large snake with a red cross over them",
+    "es": "Animales temidos",
+    "extra": []
+  },
+  {
+    "i": 7,
+    "kind": "animal",
+    "en": "mosquito",
+    "es": "Mosquito",
+    "extra": []
+  },
+  {
+    "i": 8,
+    "kind": "scene",
+    "en": "mosquito in a bedroom at night",
+    "es": "Mosquito en habitación",
+    "extra": []
+  },
+  {
+    "i": 9,
+    "kind": "scene",
+    "en": "mosquito with a backdrop of war scenes",
+    "es": "Mosquito y guerras",
+    "extra": []
+  },
+  {
+    "i": 10,
+    "kind": "animal",
+    "en": "mosquito",
+    "es": "Mosquito",
+    "extra": []
+  },
+  {
+    "i": 11,
+    "kind": "scene",
+    "en": "mosquito with a globe showing different species",
+    "es": "Mosquitoes del mundo",
+    "extra": []
+  },
+  {
+    "i": 12,
+    "kind": "scene",
+    "en": "mosquito biting with viruses and parasites inside",
+    "es": "Picadura peligrosa",
+    "extra": []
+  },
+  {
+    "i": 13,
+    "kind": "scene",
+    "en": "mosquito attracted to a human by heat and carbon dioxide",
+    "es": "Atracción del mosquito",
+    "extra": []
+  },
+  {
+    "i": 14,
+    "kind": "scene",
+    "en": "timeline showing mosquito evolution over 100 million years",
+    "es": "Evolución del mosquito",
+    "extra": []
+  },
+  {
+    "i": 15,
+    "kind": "scene",
+    "en": "mosquito with dinosaurs in the background",
+    "es": "Mosquito y dinosaurios",
+    "extra": []
+  },
+  {
+    "i": 16,
+    "kind": "scene",
+    "en": "mosquito anopheles with malaria symbol",
+    "es": "Malaria y mosquito",
+    "extra": []
+  },
+  {
+    "i": 17,
+    "kind": "scene",
+    "en": "map of Sub-Saharan Africa with children",
+    "es": "África subsahariana",
+    "extra": []
+  },
+  {
+    "i": 18,
+    "kind": "scene",
+    "en": "clock showing two minutes with a child silhouette",
+    "es": "Muerte cada dos minutos",
+    "extra": []
+  },
+  {
+    "i": 19,
+    "kind": "scene",
+    "en": "mosquito with symbols of dengue, yellow fever, chikungunya, and zika",
+    "es": "Enfermedades del mosquito",
+    "extra": []
+  },
+  {
+    "i": 20,
+    "kind": "scene",
+    "en": "vaccines, mosquito nets, and repellents",
+    "es": "Prevención de picaduras",
+    "extra": []
+  },
+  {
+    "i": 21,
+    "kind": "animal",
+    "en": "king cobra",
+    "es": "Cobra real",
+    "extra": []
+  },
+  {
+    "i": 22,
+    "kind": "scene",
+    "en": "king cobra with a venom symbol",
+    "es": "Veneno potente",
+    "extra": []
+  },
+  {
+    "i": 23,
+    "kind": "scene",
+    "en": "king cobra in Australian outback",
+    "es": "Cobra en Australia",
+    "extra": []
+  },
+  {
+    "i": 24,
+    "kind": "animal",
+    "en": "black mamba",
+    "es": "Mamba negra",
+    "extra": []
+  },
+  {
+    "i": 25,
+    "kind": "scene",
+    "en": "black mamba camouflaged in grass near a farm",
+    "es": "Mamba en el campo",
+    "extra": []
+  },
+  {
+    "i": 26,
+    "kind": "scene",
+    "en": "black mamba with a clock showing one hour",
+    "es": "Muerte rápida",
+    "extra": []
+  },
+  {
+    "i": 27,
+    "kind": "scene",
+    "en": "black mamba showing its black mouth",
+    "es": "Boca de mamba",
+    "extra": []
+  },
+  {
+    "i": 28,
+    "kind": "scene",
+    "en": "snake bite with a clock showing minutes",
+    "es": "Mordedura mortal",
+    "extra": []
+  },
+  {
+    "i": 29,
+    "kind": "scene",
+    "en": "snake fangs injecting venom",
+    "es": "Colmillos venenosos",
+    "extra": []
+  },
+  {
+    "i": 30,
+    "kind": "scene",
+    "en": "diagram of venom effects on the body",
+    "es": "Efectos del veneno",
+    "extra": []
+  },
+  {
+    "i": 31,
+    "kind": "scene",
+    "en": "person bitten by a snake staying calm",
+    "es": "Mantener la calma",
+    "extra": []
+  },
+  {
+    "i": 32,
+    "kind": "scene",
+    "en": "diagram showing venom spreading through the lymphatic system",
+    "es": "Veneno en el cuerpo",
+    "extra": []
+  },
+  {
+    "i": 33,
+    "kind": "scene",
+    "en": "person staying calm after a snake bite",
+    "es": "Calma tras mordedura",
+    "extra": []
+  },
+  {
+    "i": 34,
+    "kind": "animal",
+    "en": "box jellyfish",
+    "es": "Medusa de caja",
+    "extra": []
+  },
+  {
+    "i": 35,
+    "kind": "scene",
+    "en": "box jellyfish with a venom symbol",
+    "es": "Medusa venenosa",
+    "extra": []
+  },
+  {
+    "i": 36,
+    "kind": "scene",
+    "en": "box jellyfish near Australian coast",
+    "es": "Medusa en Australia",
+    "extra": []
+  },
+  {
+    "i": 37,
+    "kind": "scene",
+    "en": "person struggling in water after jellyfish sting",
+    "es": "Picadura en el agua",
+    "extra": []
+  },
+  {
+    "i": 38,
+    "kind": "scene",
+    "en": "person stung by a jellyfish looking for help",
+    "es": "Sobrevivir a picadura",
+    "extra": []
+  },
+  {
+    "i": 39,
+    "kind": "scene",
+    "en": "person pouring urine on a jellyfish sting",
+    "es": "Mito de la orina",
+    "extra": []
+  },
+  {
+    "i": 40,
+    "kind": "scene",
+    "en": "person in pain after jellyfish sting",
+    "es": "Dolor de picadura",
+    "extra": []
+  },
+  {
+    "i": 41,
+    "kind": "scene",
+    "en": "person pouring vinegar on a jellyfish sting",
+    "es": "Vinagre para picadura",
+    "extra": []
+  },
+  {
+    "i": 42,
+    "kind": "scene",
+    "en": "vinegar bottle next to a lifeguard flag on a beach",
+    "es": "Vinagre en la playa",
+    "extra": []
+  },
+  {
+    "i": 43,
+    "kind": "animal",
+    "en": "saltwater crocodile",
+    "es": "Cocodrilo del Nilo",
+    "extra": []
+  },
+  {
+    "i": 44,
+    "kind": "scene",
+    "en": "crocodile submerged with eyes and nose above water",
+    "es": "Cocodrilo acechando",
+    "extra": []
+  },
+  {
+    "i": 45,
+    "kind": "scene",
+    "en": "people crossing a river with a crocodile nearby",
+    "es": "Cruce peligroso",
+    "extra": []
+  },
+  {
+    "i": 46,
+    "kind": "scene",
+    "en": "large crocodile with a ruler showing 6 meters",
+    "es": "Cocodrilo gigante",
+    "extra": []
+  },
+  {
+    "i": 47,
+    "kind": "scene",
+    "en": "crocodile biting with pressure symbol",
+    "es": "Mordida poderosa",
+    "extra": []
+  },
+  {
+    "i": 48,
+    "kind": "scene",
+    "en": "crocodile performing death roll underwater",
+    "es": "Giro mortal",
+    "extra": []
+  },
+  {
+    "i": 49,
+    "kind": "scene",
+    "en": "person holding crocodile's mouth shut",
+    "es": "Boca cerrada",
+    "extra": []
+  },
+  {
+    "i": 50,
+    "kind": "animal",
+    "en": "hippopotamus",
+    "es": "Hipopótamo",
+    "extra": []
+  },
+  {
+    "i": 51,
+    "kind": "scene",
+    "en": "hippopotamus running on land",
+    "es": "Hipopótamo veloz",
+    "extra": []
+  },
+  {
+    "i": 52,
+    "kind": "scene",
+    "en": "hippopotamus attacking with open mouth",
+    "es": "Ataque de hipopótamo",
+    "extra": []
+  },
+  {
+    "i": 53,
+    "kind": "scene",
+    "en": "hippopotamus grazing peacefully",
+    "es": "Hipopótamo herbívoro",
+    "extra": []
+  },
+  {
+    "i": 54,
+    "kind": "scene",
+    "en": "hippopotamus tipping over a canoe",
+    "es": "Canoa volcada",
+    "extra": []
+  },
+  {
+    "i": 55,
+    "kind": "scene",
+    "en": "hippopotamus making a loud snort",
+    "es": "Resoplido de hipopótamo",
+    "extra": []
+  },
+  {
+    "i": 56,
+    "kind": "animal",
+    "en": "stray dog",
+    "es": "Perro callejero",
+    "extra": []
+  },
+  {
+    "i": 57,
+    "kind": "scene",
+    "en": "virus traveling through nerves to the brain",
+    "es": "Virus de la rabia",
+    "extra": []
+  },
+  {
+    "i": 58,
+    "kind": "scene",
+    "en": "person showing rabies symptoms",
+    "es": "Síntomas de rabia",
+    "extra": []
+  },
+  {
+    "i": 59,
+    "kind": "scene",
+    "en": "veterinarian vaccinating a dog",
+    "es": "Vacunación canina",
+    "extra": []
+  },
+  {
+    "i": 60,
+    "kind": "scene",
+    "en": "map showing rabies deaths in Asia and Africa",
+    "es": "Muertes por rabia",
+    "extra": []
+  },
+  {
+    "i": 61,
+    "kind": "scene",
+    "en": "children playing with stray dogs",
+    "es": "Niños y perros",
+    "extra": []
+  },
+  {
+    "i": 62,
+    "kind": "scene",
+    "en": "various dangerous animals with a tally of human deaths",
+    "es": "Animales peligrosos",
+    "extra": []
+  },
+  {
+    "i": 63,
+    "kind": "scene",
+    "en": "shark with a small number of deaths compared to other animals",
+    "es": "Tiburón inofensivo",
+    "extra": []
+  },
+  {
+    "i": 64,
+    "kind": "scene",
+    "en": "humans in conflict, accidents, and violence",
+    "es": "Peligro humano",
+    "extra": []
+  },
+  {
+    "i": 65,
+    "kind": "scene",
+    "en": "uncomfortable statistic chart",
+    "es": "Estadística incómoda",
+    "extra": []
+  },
+  {
+    "i": 66,
+    "kind": "scene",
+    "en": "human silhouette with dangerous animals around",
+    "es": "Humano peligroso",
+    "extra": []
+  },
+  {
+    "i": 67,
+    "kind": "scene",
+    "en": "person on a beach with mosquito repellent and a vaccinated dog",
+    "es": "Precauciones",
+    "extra": []
+  },
+  {
+    "i": 68,
+    "kind": "scene",
+    "en": "person clicking subscribe button on a computer",
+    "es": "Suscribirse",
+    "extra": []
+  },
+  {
+    "i": 69,
+    "kind": "scene",
+    "en": "silhouette of a mysterious intelligent animal",
+    "es": "Animal inteligente",
+    "extra": []
+  },
+  {
+    "i": 70,
+    "kind": "scene",
+    "en": "person waving goodbye",
+    "es": "Despedida",
+    "extra": []
+  }
+]

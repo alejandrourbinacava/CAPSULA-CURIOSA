@@ -1,0 +1,855 @@
+{
+  "skull-icon": {
+    "kind": "vector",
+    "query": "skull and crossbones",
+    "file": "assets/icons/skull-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "prev-mosquito": {
+    "kind": "vector",
+    "query": "mosquito icon",
+    "file": "assets/icons/prev-mosquito.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "prev-snake": {
+    "kind": "vector",
+    "query": "snake icon",
+    "file": "assets/icons/prev-snake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "prev-human": {
+    "kind": "vector",
+    "query": "person silhouette icon",
+    "file": "assets/icons/prev-human.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-mosquito": {
+    "kind": "cutout",
+    "query": "Aedes aegypti mosquito",
+    "file": "assets/icons/photo-mosquito.jpg"
+  },
+  "malaria-icon": {
+    "kind": "vector",
+    "query": "malaria parasite plasmodium",
+    "file": "assets/icons/malaria-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "clip-mosquito-fly": {
+    "kind": "clip",
+    "query": "mosquito flying macro"
+  },
+  "co2-icon": {
+    "kind": "vector",
+    "query": "carbon dioxide molecule icon",
+    "file": "assets/icons/co2-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-cobra": {
+    "kind": "cutout",
+    "query": "King cobra",
+    "file": "assets/icons/photo-cobra.jpg"
+  },
+  "venom-icon": {
+    "kind": "vector",
+    "query": "snake venom drop",
+    "file": "assets/icons/venom-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "antivenom-icon": {
+    "kind": "vector",
+    "query": "antivenom vial",
+    "file": "assets/icons/antivenom-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "clip-snake-strike": {
+    "kind": "clip",
+    "query": "snake strike slow motion"
+  },
+  "map-india-icon": {
+    "kind": "vector",
+    "query": "India map outline",
+    "file": "assets/icons/map-india-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-dog": {
+    "kind": "cutout",
+    "query": "stray dog",
+    "file": "assets/icons/photo-dog.jpg"
+  },
+  "rabies-icon": {
+    "kind": "vector",
+    "query": "rabies virus",
+    "file": "assets/icons/rabies-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "warning-icon": {
+    "kind": "vector",
+    "query": "warning triangle sign",
+    "file": "assets/icons/warning-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vaccine-icon": {
+    "kind": "vector",
+    "query": "vaccine syringe",
+    "file": "assets/icons/vaccine-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pasteur-icon": {
+    "kind": "vector",
+    "query": "Louis Pasteur portrait illustration",
+    "file": "assets/icons/pasteur-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-tsetse": {
+    "kind": "cutout",
+    "query": "tsetse fly",
+    "file": "assets/icons/photo-tsetse.jpg"
+  },
+  "sleep-icon": {
+    "kind": "vector",
+    "query": "sleeping mask icon",
+    "file": "assets/icons/sleep-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "gif-shocked": {
+    "kind": "gif",
+    "query": "shocked reaction"
+  },
+  "map-africa-icon": {
+    "kind": "vector",
+    "query": "Africa map silhouette",
+    "file": "assets/icons/map-africa-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-crocodile": {
+    "kind": "cutout",
+    "query": "Nile crocodile",
+    "file": "assets/icons/photo-crocodile.jpg"
+  },
+  "photo-alligator": {
+    "kind": "cutout",
+    "query": "American alligator",
+    "file": "assets/icons/photo-alligator.jpg"
+  },
+  "photo-saltwater-crocodile": {
+    "kind": "cutout",
+    "query": "saltwater crocodile",
+    "file": "assets/icons/photo-saltwater-crocodile.jpg"
+  },
+  "photo-hippo": {
+    "kind": "cutout",
+    "query": "Hippopotamus",
+    "file": "assets/icons/photo-hippo.jpg"
+  },
+  "clip-hippo-charge": {
+    "kind": "clip",
+    "query": "hippo charging water"
+  },
+  "sweat-icon": {
+    "kind": "vector",
+    "query": "red liquid droplet skin",
+    "file": "assets/icons/sweat-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-jellyfish": {
+    "kind": "cutout",
+    "query": "box jellyfish",
+    "file": "assets/icons/photo-jellyfish.png"
+  },
+  "tentacle-icon": {
+    "kind": "vector",
+    "query": "jellyfish tentacle",
+    "file": "assets/icons/tentacle-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-irukandji": {
+    "kind": "cutout",
+    "query": "Irukandji jellyfish",
+    "file": "assets/icons/photo-irukandji.jpg"
+  },
+  "photo-elephant": {
+    "kind": "cutout",
+    "query": "African elephant",
+    "file": "assets/icons/photo-elephant.jpg"
+  },
+  "musth-icon": {
+    "kind": "vector",
+    "query": "elephant head icon",
+    "file": "assets/icons/musth-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tips-icon": {
+    "kind": "vector",
+    "query": "lightbulb idea icon",
+    "file": "assets/icons/tips-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "net-icon": {
+    "kind": "vector",
+    "query": "mosquito net",
+    "file": "assets/icons/net-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "boots-icon": {
+    "kind": "vector",
+    "query": "rubber boots",
+    "file": "assets/icons/boots-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vaccine-icon-dog": {
+    "kind": "vector",
+    "query": "dog vaccination",
+    "file": "assets/icons/vaccine-icon-dog.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "repellent-icon": {
+    "kind": "vector",
+    "query": "insect repellent spray",
+    "file": "assets/icons/repellent-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "binoculars-icon": {
+    "kind": "vector",
+    "query": "binoculars",
+    "file": "assets/icons/binoculars-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "boat-icon": {
+    "kind": "vector",
+    "query": "small boat",
+    "file": "assets/icons/boat-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "wetsuit-icon": {
+    "kind": "vector",
+    "query": "wetsuit",
+    "file": "assets/icons/wetsuit-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "distance-icon": {
+    "kind": "vector",
+    "query": "keep distance sign",
+    "file": "assets/icons/distance-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-shark": {
+    "kind": "cutout",
+    "query": "Great White Shark",
+    "file": "assets/icons/photo-shark.jpg"
+  },
+  "mosquito-real-icon": {
+    "kind": "vector",
+    "query": "mosquito silhouette",
+    "file": "assets/icons/mosquito-real-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "scale-icon": {
+    "kind": "vector",
+    "query": "balance scale icon",
+    "file": "assets/icons/scale-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "subscribe-icon": {
+    "kind": "vector",
+    "query": "subscribe bell button",
+    "file": "assets/icons/subscribe-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_0": {
+    "kind": "vector",
+    "query": "silhouette of a small, harmless-looking animal with a question mark",
+    "auto": true,
+    "file": "assets/icons/icon_auto_0.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_1": {
+    "kind": "vector",
+    "query": "shark, lion, and crocodile in a movie poster style",
+    "auto": true,
+    "file": "assets/icons/icon_auto_1.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_2": {
+    "kind": "vector",
+    "query": "World Health Organization and National Geographic logos with a globe",
+    "auto": true,
+    "file": "assets/icons/icon_auto_2.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:health-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_3": {
+    "kind": "vector",
+    "query": "people watching a horror movie with scared expressions",
+    "auto": true,
+    "file": "assets/icons/icon_auto_3.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_4": {
+    "kind": "vector",
+    "query": "person looking surprised at a list of dangerous animals",
+    "auto": true,
+    "file": "assets/icons/icon_auto_4.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_5": {
+    "kind": "vector",
+    "query": "various dangerous animals from movies with a red cross over them",
+    "auto": true,
+    "file": "assets/icons/icon_auto_5.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_6": {
+    "kind": "vector",
+    "query": "lion, bear, and large snake with a red cross over them",
+    "auto": true,
+    "file": "assets/icons/icon_auto_6.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_7": {
+    "kind": "cutout",
+    "query": "mosquito",
+    "auto": true,
+    "file": "assets/icons/icon_auto_7.jpg"
+  },
+  "icon_auto_8": {
+    "kind": "vector",
+    "query": "mosquito in a bedroom at night",
+    "auto": true,
+    "file": "assets/icons/icon_auto_8.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_9": {
+    "kind": "vector",
+    "query": "mosquito with a backdrop of war scenes",
+    "auto": true,
+    "file": "assets/icons/icon_auto_9.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_10": {
+    "kind": "cutout",
+    "query": "mosquito",
+    "auto": true,
+    "file": "assets/icons/icon_auto_10.jpg"
+  },
+  "icon_auto_11": {
+    "kind": "vector",
+    "query": "mosquito with a globe showing different species",
+    "auto": true,
+    "file": "assets/icons/icon_auto_11.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_12": {
+    "kind": "vector",
+    "query": "mosquito biting with viruses and parasites inside",
+    "auto": true,
+    "file": "assets/icons/icon_auto_12.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_13": {
+    "kind": "vector",
+    "query": "mosquito attracted to a human by heat and carbon dioxide",
+    "auto": true,
+    "file": "assets/icons/icon_auto_13.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_14": {
+    "kind": "vector",
+    "query": "timeline showing mosquito evolution over 100 million years",
+    "auto": true,
+    "file": "assets/icons/icon_auto_14.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_15": {
+    "kind": "vector",
+    "query": "mosquito with dinosaurs in the background",
+    "auto": true,
+    "file": "assets/icons/icon_auto_15.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_16": {
+    "kind": "vector",
+    "query": "mosquito anopheles with malaria symbol",
+    "auto": true,
+    "file": "assets/icons/icon_auto_16.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_17": {
+    "kind": "vector",
+    "query": "map of Sub-Saharan Africa with children",
+    "auto": true,
+    "file": "assets/icons/icon_auto_17.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_18": {
+    "kind": "vector",
+    "query": "clock showing two minutes with a child silhouette",
+    "auto": true,
+    "file": "assets/icons/icon_auto_18.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_19": {
+    "kind": "vector",
+    "query": "mosquito with symbols of dengue, yellow fever, chikungunya, and zika",
+    "auto": true,
+    "file": "assets/icons/icon_auto_19.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_20": {
+    "kind": "vector",
+    "query": "vaccines, mosquito nets, and repellents",
+    "auto": true,
+    "file": "assets/icons/icon_auto_20.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_21": {
+    "kind": "cutout",
+    "query": "king cobra",
+    "auto": true,
+    "file": "assets/icons/icon_auto_21.jpg"
+  },
+  "icon_auto_22": {
+    "kind": "vector",
+    "query": "king cobra with a venom symbol",
+    "auto": true,
+    "file": "assets/icons/icon_auto_22.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_23": {
+    "kind": "vector",
+    "query": "king cobra in Australian outback",
+    "auto": true,
+    "file": "assets/icons/icon_auto_23.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_24": {
+    "kind": "cutout",
+    "query": "black mamba",
+    "auto": true,
+    "file": "assets/icons/icon_auto_24.jpg"
+  },
+  "icon_auto_25": {
+    "kind": "vector",
+    "query": "black mamba camouflaged in grass near a farm",
+    "auto": true,
+    "file": "assets/icons/icon_auto_25.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_26": {
+    "kind": "vector",
+    "query": "black mamba with a clock showing one hour",
+    "auto": true,
+    "file": "assets/icons/icon_auto_26.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_27": {
+    "kind": "vector",
+    "query": "black mamba showing its black mouth",
+    "auto": true,
+    "file": "assets/icons/icon_auto_27.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_28": {
+    "kind": "vector",
+    "query": "snake bite with a clock showing minutes",
+    "auto": true,
+    "file": "assets/icons/icon_auto_28.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:folder-with-files-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_29": {
+    "kind": "vector",
+    "query": "snake fangs injecting venom",
+    "auto": true,
+    "file": "assets/icons/icon_auto_29.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_30": {
+    "kind": "vector",
+    "query": "diagram of venom effects on the body",
+    "auto": true,
+    "file": "assets/icons/icon_auto_30.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_31": {
+    "kind": "vector",
+    "query": "person bitten by a snake staying calm",
+    "auto": true,
+    "file": "assets/icons/icon_auto_31.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_32": {
+    "kind": "vector",
+    "query": "diagram showing venom spreading through the lymphatic system",
+    "auto": true,
+    "file": "assets/icons/icon_auto_32.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_33": {
+    "kind": "vector",
+    "query": "person staying calm after a snake bite",
+    "auto": true,
+    "file": "assets/icons/icon_auto_33.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_34": {
+    "kind": "cutout",
+    "query": "box jellyfish",
+    "auto": true,
+    "file": "assets/icons/icon_auto_34.png"
+  },
+  "icon_auto_35": {
+    "kind": "vector",
+    "query": "box jellyfish with a venom symbol",
+    "auto": true,
+    "file": "assets/icons/icon_auto_35.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_36": {
+    "kind": "vector",
+    "query": "box jellyfish near Australian coast",
+    "auto": true,
+    "file": "assets/icons/icon_auto_36.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_37": {
+    "kind": "vector",
+    "query": "person struggling in water after jellyfish sting",
+    "auto": true,
+    "file": "assets/icons/icon_auto_37.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:water-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_38": {
+    "kind": "vector",
+    "query": "person stung by a jellyfish looking for help",
+    "auto": true,
+    "file": "assets/icons/icon_auto_38.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_39": {
+    "kind": "vector",
+    "query": "person pouring urine on a jellyfish sting",
+    "auto": true,
+    "file": "assets/icons/icon_auto_39.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_40": {
+    "kind": "vector",
+    "query": "person in pain after jellyfish sting",
+    "auto": true,
+    "file": "assets/icons/icon_auto_40.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_41": {
+    "kind": "vector",
+    "query": "person pouring vinegar on a jellyfish sting",
+    "auto": true,
+    "file": "assets/icons/icon_auto_41.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_42": {
+    "kind": "vector",
+    "query": "vinegar bottle next to a lifeguard flag on a beach",
+    "auto": true,
+    "file": "assets/icons/icon_auto_42.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_43": {
+    "kind": "cutout",
+    "query": "saltwater crocodile",
+    "auto": true,
+    "file": "assets/icons/icon_auto_43.jpg"
+  },
+  "icon_auto_44": {
+    "kind": "vector",
+    "query": "crocodile submerged with eyes and nose above water",
+    "auto": true,
+    "file": "assets/icons/icon_auto_44.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_45": {
+    "kind": "vector",
+    "query": "people crossing a river with a crocodile nearby",
+    "auto": true,
+    "file": "assets/icons/icon_auto_45.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_46": {
+    "kind": "vector",
+    "query": "large crocodile with a ruler showing 6 meters",
+    "auto": true,
+    "file": "assets/icons/icon_auto_46.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_47": {
+    "kind": "vector",
+    "query": "crocodile biting with pressure symbol",
+    "auto": true,
+    "file": "assets/icons/icon_auto_47.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_48": {
+    "kind": "vector",
+    "query": "crocodile performing death roll underwater",
+    "auto": true,
+    "file": "assets/icons/icon_auto_48.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_49": {
+    "kind": "vector",
+    "query": "person holding crocodile's mouth shut",
+    "auto": true,
+    "file": "assets/icons/icon_auto_49.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_50": {
+    "kind": "cutout",
+    "query": "hippopotamus",
+    "auto": true,
+    "file": "assets/icons/icon_auto_50.jpg"
+  },
+  "icon_auto_51": {
+    "kind": "vector",
+    "query": "hippopotamus running on land",
+    "auto": true,
+    "file": "assets/icons/icon_auto_51.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_52": {
+    "kind": "vector",
+    "query": "hippopotamus attacking with open mouth",
+    "auto": true,
+    "file": "assets/icons/icon_auto_52.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_53": {
+    "kind": "vector",
+    "query": "hippopotamus grazing peacefully",
+    "auto": true,
+    "file": "assets/icons/icon_auto_53.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_54": {
+    "kind": "vector",
+    "query": "hippopotamus tipping over a canoe",
+    "auto": true,
+    "file": "assets/icons/icon_auto_54.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_55": {
+    "kind": "vector",
+    "query": "hippopotamus making a loud snort",
+    "auto": true,
+    "file": "assets/icons/icon_auto_55.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_56": {
+    "kind": "cutout",
+    "query": "stray dog",
+    "auto": true,
+    "file": "assets/icons/icon_auto_56.jpg"
+  },
+  "icon_auto_57": {
+    "kind": "vector",
+    "query": "virus traveling through nerves to the brain",
+    "auto": true,
+    "file": "assets/icons/icon_auto_57.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_58": {
+    "kind": "vector",
+    "query": "person showing rabies symptoms",
+    "auto": true,
+    "file": "assets/icons/icon_auto_58.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_59": {
+    "kind": "vector",
+    "query": "veterinarian vaccinating a dog",
+    "auto": true,
+    "file": "assets/icons/icon_auto_59.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_60": {
+    "kind": "vector",
+    "query": "map showing rabies deaths in Asia and Africa",
+    "auto": true,
+    "file": "assets/icons/icon_auto_60.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_61": {
+    "kind": "vector",
+    "query": "children playing with stray dogs",
+    "auto": true,
+    "file": "assets/icons/icon_auto_61.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_62": {
+    "kind": "vector",
+    "query": "various dangerous animals with a tally of human deaths",
+    "auto": true,
+    "file": "assets/icons/icon_auto_62.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_63": {
+    "kind": "vector",
+    "query": "shark with a small number of deaths compared to other animals",
+    "auto": true,
+    "file": "assets/icons/icon_auto_63.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_64": {
+    "kind": "vector",
+    "query": "humans in conflict, accidents, and violence",
+    "auto": true,
+    "file": "assets/icons/icon_auto_64.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_65": {
+    "kind": "vector",
+    "query": "uncomfortable statistic chart",
+    "auto": true,
+    "file": "assets/icons/icon_auto_65.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_66": {
+    "kind": "vector",
+    "query": "human silhouette with dangerous animals around",
+    "auto": true,
+    "file": "assets/icons/icon_auto_66.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_67": {
+    "kind": "vector",
+    "query": "person on a beach with mosquito repellent and a vaccinated dog",
+    "auto": true,
+    "file": "assets/icons/icon_auto_67.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_68": {
+    "kind": "vector",
+    "query": "person clicking subscribe button on a computer",
+    "auto": true,
+    "file": "assets/icons/icon_auto_68.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_69": {
+    "kind": "vector",
+    "query": "silhouette of a mysterious intelligent animal",
+    "auto": true,
+    "file": "assets/icons/icon_auto_69.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_70": {
+    "kind": "vector",
+    "query": "person waving goodbye",
+    "auto": true,
+    "file": "assets/icons/icon_auto_70.png",
+    "normalized": true,
+    "gpt": true
+  }
+}

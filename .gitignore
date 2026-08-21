@@ -16,8 +16,11 @@ npm-debug.log*
 #   Es de pago (genaipro) y se genera UNA sola vez; los re-renders lo reutilizan.
 #   (Solo ignoramos el _raw.mp3 intermedio, no el audio.mp3 final ni words.json.)
 episodes/**/_raw.mp3
-# assets descargados (Wikipedia/Iconify) - los rebaja 01-assets, gratis
-public/assets/
+# assets descargados por episodio (fotos Wikipedia + copias) - se rebajan gratis en cada run
+public/assets/icons/
+public/assets/misc/
+# PERO la LIBRERÍA de dibujos GPT (de pago) SÍ se versiona: registro global reutilizable
+#   -> la nube reutiliza estos doodles y NO vuelve a gastar en OpenAI. public/assets/library/ SÍ se commitea.
 # audio del render activo (copia; el original vive en episodes/<slug>/audio.mp3)
 public/active/audio.mp3
 

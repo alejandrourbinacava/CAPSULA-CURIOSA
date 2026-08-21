@@ -1,0 +1,1045 @@
+[
+  {
+    "id": "icon_auto_0",
+    "t": 4.48,
+    "big": true,
+    "query": "ancient warriors on horseback with swords and shields",
+    "label": "Guerreros a caballo"
+  },
+  {
+    "id": "icon_auto_1",
+    "t": 7.28,
+    "big": false,
+    "query": "ancient map",
+    "label": "Mapa antiguo"
+  },
+  {
+    "id": "icon_auto_2",
+    "t": 10.08,
+    "big": true,
+    "query": "various ancient empires represented by iconic symbols",
+    "label": "Imperios antiguos"
+  },
+  {
+    "id": "icon_auto_3",
+    "t": 16.9,
+    "big": false,
+    "query": "Egyptian pyramid",
+    "label": "Pirámide egipcia"
+  },
+  {
+    "id": "icon_auto_4",
+    "t": 37.74,
+    "big": true,
+    "query": "ancient world map highlighting large empires",
+    "label": "Mapa mundial"
+  },
+  {
+    "id": "icon_auto_5",
+    "t": 45.56,
+    "big": true,
+    "query": "ancient empires attempting to control known world",
+    "label": "Control imperial"
+  },
+  {
+    "id": "icon_auto_6",
+    "t": 49.6,
+    "big": false,
+    "query": "Nile River",
+    "label": "Río Nilo"
+  },
+  {
+    "id": "icon_auto_7",
+    "t": 53.64,
+    "big": true,
+    "query": "map showing diverse territories under one empire",
+    "label": "Imperio unificado"
+  },
+  {
+    "id": "icon_auto_8",
+    "t": 60,
+    "big": false,
+    "query": "ancient law tablet",
+    "label": "Tablilla de leyes"
+  },
+  {
+    "id": "icon_auto_9",
+    "t": 68.12,
+    "big": true,
+    "query": "small ancient village growing into a large empire",
+    "label": "Imperio en expansión"
+  },
+  {
+    "id": "icon_auto_10",
+    "t": 71.5,
+    "big": false,
+    "query": "crumbling empire",
+    "label": "Imperio decadente"
+  },
+  {
+    "id": "icon_auto_11",
+    "t": 74.88,
+    "big": true,
+    "query": "ancient empire falling from internal issues",
+    "label": "Colapso interno"
+  },
+  {
+    "id": "icon_auto_12",
+    "t": 78.78,
+    "big": true,
+    "query": "ancient Egypt along the Nile River",
+    "label": "Antiguo Egipto"
+  },
+  {
+    "id": "icon_auto_13",
+    "t": 80.98,
+    "big": true,
+    "query": "ancient Egyptians measuring Nile flood with nilometer",
+    "label": "Medición del Nilo"
+  },
+  {
+    "id": "icon_auto_14",
+    "t": 85.8,
+    "big": false,
+    "query": "nilometer",
+    "label": "Nilómetro"
+  },
+  {
+    "id": "icon_auto_15",
+    "t": 91.12,
+    "big": true,
+    "query": "fertile black land of ancient Egypt",
+    "label": "Tierra fértil"
+  },
+  {
+    "id": "icon_auto_16",
+    "t": 96.38,
+    "big": false,
+    "query": "desert landscape",
+    "label": "Paisaje desértico"
+  },
+  {
+    "id": "icon_auto_17",
+    "t": 101.64,
+    "big": true,
+    "query": "Herodotus describing the Nile as a gift",
+    "label": "Heródoto"
+  },
+  {
+    "id": "icon_auto_18",
+    "t": 107.05,
+    "big": false,
+    "query": "ancient Greek historian",
+    "label": "Historiador griego"
+  },
+  {
+    "id": "icon_auto_19",
+    "t": 112.46,
+    "big": true,
+    "query": "ancient Egyptian pharaoh as a god-king",
+    "label": "Faraón dios"
+  },
+  {
+    "id": "icon_auto_20",
+    "t": 116.84,
+    "big": false,
+    "query": "pharaoh's crown",
+    "label": "Corona faraónica"
+  },
+  {
+    "id": "icon_auto_21",
+    "t": 121.22,
+    "big": true,
+    "query": "ancient Egyptian farmers harvesting wheat",
+    "label": "Cosecha egipcia"
+  },
+  {
+    "id": "icon_auto_22",
+    "t": 124.84,
+    "big": false,
+    "query": "wheat field",
+    "label": "Campo de trigo"
+  },
+  {
+    "id": "icon_auto_23",
+    "t": 128.46,
+    "big": true,
+    "query": "ancient Egyptian scribes writing hieroglyphs",
+    "label": "Escribas egipcios"
+  },
+  {
+    "id": "icon_auto_24",
+    "t": 132.44,
+    "big": false,
+    "query": "papyrus scroll",
+    "label": "Papiro"
+  },
+  {
+    "id": "icon_auto_25",
+    "t": 136.42,
+    "big": true,
+    "query": "ancient Egyptian bureaucracy using papyrus",
+    "label": "Burocracia egipcia"
+  },
+  {
+    "id": "icon_auto_26",
+    "t": 143.98,
+    "big": true,
+    "query": "construction of ancient Egyptian pyramids and temples",
+    "label": "Construcción de templos"
+  },
+  {
+    "id": "icon_auto_27",
+    "t": 149.63,
+    "big": false,
+    "query": "obelisk",
+    "label": "Obelisco"
+  },
+  {
+    "id": "icon_auto_28",
+    "t": 155.28,
+    "big": true,
+    "query": "ancient Egyptian empire timeline with dynasties",
+    "label": "Dinastías egipcias"
+  },
+  {
+    "id": "icon_auto_29",
+    "t": 160.82,
+    "big": false,
+    "query": "Cleopatra",
+    "label": "Cleopatra"
+  },
+  {
+    "id": "icon_auto_30",
+    "t": 166.36,
+    "big": true,
+    "query": "birth of the Achaemenid Persian Empire",
+    "label": "Imperio persa"
+  },
+  {
+    "id": "icon_auto_31",
+    "t": 169.76,
+    "big": false,
+    "query": "ancient Persian map",
+    "label": "Mapa persa"
+  },
+  {
+    "id": "icon_auto_32",
+    "t": 173.16,
+    "big": true,
+    "query": "Cyrus the Great unifying diverse peoples",
+    "label": "Ciro el Grande"
+  },
+  {
+    "id": "icon_auto_33",
+    "t": 180.76,
+    "big": false,
+    "query": "ancient Persian soldiers",
+    "label": "Soldados persas"
+  },
+  {
+    "id": "icon_auto_34",
+    "t": 188.36,
+    "big": true,
+    "query": "ancient Persian satrapy system",
+    "label": "Sistema de sátrapas"
+  },
+  {
+    "id": "icon_auto_35",
+    "t": 193.64,
+    "big": false,
+    "query": "satrap",
+    "label": "Sátrapa"
+  },
+  {
+    "id": "icon_auto_36",
+    "t": 198.92,
+    "big": true,
+    "query": "map of the Achaemenid Persian Empire",
+    "label": "Imperio aqueménida"
+  },
+  {
+    "id": "icon_auto_37",
+    "t": 203.73,
+    "big": false,
+    "query": "tolerance policy",
+    "label": "Política de tolerancia"
+  },
+  {
+    "id": "icon_auto_38",
+    "t": 208.54,
+    "big": true,
+    "query": "ancient Persian Royal Road with horse stations",
+    "label": "Camino Real"
+  },
+  {
+    "id": "icon_auto_39",
+    "t": 212.58,
+    "big": false,
+    "query": "horse station",
+    "label": "Estación de relevo"
+  },
+  {
+    "id": "icon_auto_40",
+    "t": 216.62,
+    "big": true,
+    "query": "messenger on horseback crossing the Persian Empire",
+    "label": "Mensajero persa"
+  },
+  {
+    "id": "icon_auto_41",
+    "t": 219.8,
+    "big": true,
+    "query": "camel caravan transporting goods in ancient Persia",
+    "label": "Caravana de camellos"
+  },
+  {
+    "id": "icon_auto_42",
+    "t": 223.48,
+    "big": false,
+    "query": "spices",
+    "label": "Especias"
+  },
+  {
+    "id": "icon_auto_43",
+    "t": 227.16,
+    "big": true,
+    "query": "ancient Persian soldiers clashing with Greek hoplites",
+    "label": "Persia vs Grecia"
+  },
+  {
+    "id": "icon_auto_44",
+    "t": 231.41,
+    "big": false,
+    "query": "battle of Marathon",
+    "label": "Batalla de Maratón"
+  },
+  {
+    "id": "icon_auto_45",
+    "t": 235.66,
+    "big": true,
+    "query": "Alexander the Great conquering the Persian Empire",
+    "label": "Alejandro Magno"
+  },
+  {
+    "id": "icon_auto_46",
+    "t": 239.6,
+    "big": false,
+    "query": "ancient Macedonian soldiers",
+    "label": "Soldados macedonios"
+  },
+  {
+    "id": "icon_auto_47",
+    "t": 243.54,
+    "big": true,
+    "query": "ancient Roman Empire symbols and influence",
+    "label": "Imperio romano"
+  },
+  {
+    "id": "icon_auto_48",
+    "t": 247.54,
+    "big": true,
+    "query": "ancient Rome growing from a small city to an empire",
+    "label": "Roma en expansión"
+  },
+  {
+    "id": "icon_auto_49",
+    "t": 253.54,
+    "big": false,
+    "query": "Tiber River",
+    "label": "Río Tíber"
+  },
+  {
+    "id": "icon_auto_50",
+    "t": 259.54,
+    "big": true,
+    "query": "Roman Empire at its height under Emperor Trajan",
+    "label": "Apogeo romano"
+  },
+  {
+    "id": "icon_auto_51",
+    "t": 262.96,
+    "big": false,
+    "query": "Roman legion",
+    "label": "Legión romana"
+  },
+  {
+    "id": "icon_auto_52",
+    "t": 266.38,
+    "big": true,
+    "query": "Roman legions marching and building camps",
+    "label": "Legiones en marcha"
+  },
+  {
+    "id": "icon_auto_53",
+    "t": 273.48,
+    "big": false,
+    "query": "Roman soldier",
+    "label": "Soldado romano"
+  },
+  {
+    "id": "icon_auto_54",
+    "t": 280.58,
+    "big": true,
+    "query": "ancient Roman legal system and laws",
+    "label": "Derecho romano"
+  },
+  {
+    "id": "icon_auto_55",
+    "t": 285.88,
+    "big": false,
+    "query": "Roman law tablet",
+    "label": "Código legal"
+  },
+  {
+    "id": "icon_auto_56",
+    "t": 291.18,
+    "big": true,
+    "query": "ancient Roman roads and aqueducts",
+    "label": "Calzadas y acueductos"
+  },
+  {
+    "id": "icon_auto_57",
+    "t": 297.53,
+    "big": false,
+    "query": "Roman road",
+    "label": "Calzada romana"
+  },
+  {
+    "id": "icon_auto_58",
+    "t": 303.88,
+    "big": true,
+    "query": "decline of the Roman Empire",
+    "label": "Declive romano"
+  },
+  {
+    "id": "icon_auto_59",
+    "t": 307.26,
+    "big": true,
+    "query": "internal and external challenges to the Roman Empire",
+    "label": "Crisis imperial"
+  },
+  {
+    "id": "icon_auto_60",
+    "t": 314.21,
+    "big": false,
+    "query": "devalued Roman coin",
+    "label": "Moneda devaluada"
+  },
+  {
+    "id": "icon_auto_61",
+    "t": 321.16,
+    "big": true,
+    "query": "fall of the Western Roman Empire",
+    "label": "Caída de Roma"
+  },
+  {
+    "id": "icon_auto_62",
+    "t": 325.72,
+    "big": false,
+    "query": "Rómulo Augustulo",
+    "label": "Rómulo Augústulo"
+  },
+  {
+    "id": "icon_auto_63",
+    "t": 330.28,
+    "big": true,
+    "query": "Byzantine Empire surviving after Rome's fall",
+    "label": "Imperio bizantino"
+  },
+  {
+    "id": "icon_auto_64",
+    "t": 333.16,
+    "big": false,
+    "query": "Constantinople",
+    "label": "Constantinopla"
+  },
+  {
+    "id": "icon_auto_65",
+    "t": 336.04,
+    "big": true,
+    "query": "ancient China under various dynasties",
+    "label": "China antigua"
+  },
+  {
+    "id": "icon_auto_66",
+    "t": 339.92,
+    "big": false,
+    "query": "Chinese emperor",
+    "label": "Emperador chino"
+  },
+  {
+    "id": "icon_auto_67",
+    "t": 343.8,
+    "big": true,
+    "query": "rise and fall of Chinese dynasties",
+    "label": "Dinastías chinas"
+  },
+  {
+    "id": "icon_auto_68",
+    "t": 351.2,
+    "big": false,
+    "query": "Han dynasty",
+    "label": "Dinastía Han"
+  },
+  {
+    "id": "icon_auto_69",
+    "t": 358.6,
+    "big": true,
+    "query": "construction of the Great Wall of China",
+    "label": "Gran Muralla"
+  },
+  {
+    "id": "icon_auto_70",
+    "t": 364.45,
+    "big": false,
+    "query": "ancient Chinese soldiers",
+    "label": "Soldados chinos"
+  },
+  {
+    "id": "icon_auto_71",
+    "t": 370.3,
+    "big": true,
+    "query": "ancient Chinese silk production and trade",
+    "label": "Producción de seda"
+  },
+  {
+    "id": "icon_auto_72",
+    "t": 380.08,
+    "big": false,
+    "query": "silk fabric",
+    "label": "Tela de seda"
+  },
+  {
+    "id": "icon_auto_73",
+    "t": 389.86,
+    "big": true,
+    "query": "ancient China focusing on internal development",
+    "label": "Desarrollo interno"
+  },
+  {
+    "id": "icon_auto_74",
+    "t": 392.3,
+    "big": false,
+    "query": "Chinese trade",
+    "label": "Comercio chino"
+  },
+  {
+    "id": "icon_auto_75",
+    "t": 394.74,
+    "big": true,
+    "query": "ancient China as the center of trade and culture",
+    "label": "Centro cultural"
+  },
+  {
+    "id": "icon_auto_76",
+    "t": 397.6,
+    "big": false,
+    "query": "Chinese merchant",
+    "label": "Mercader chino"
+  },
+  {
+    "id": "icon_auto_77",
+    "t": 400.46,
+    "big": true,
+    "query": "expansion of the Mongol Empire under Genghis Khan",
+    "label": "Imperio mongol"
+  },
+  {
+    "id": "icon_auto_78",
+    "t": 405.46,
+    "big": false,
+    "query": "Mongol warrior",
+    "label": "Guerrero mongol"
+  },
+  {
+    "id": "icon_auto_79",
+    "t": 410.46,
+    "big": true,
+    "query": "Mongol Empire's vast territory",
+    "label": "Territorio mongol"
+  },
+  {
+    "id": "icon_auto_80",
+    "t": 415.64,
+    "big": false,
+    "query": "Mongol horseman",
+    "label": "Jinete mongol"
+  },
+  {
+    "id": "icon_auto_81",
+    "t": 420.82,
+    "big": true,
+    "query": "Genghis Khan uniting Mongol tribes",
+    "label": "Gengis Khan"
+  },
+  {
+    "id": "icon_auto_82",
+    "t": 428.35,
+    "big": false,
+    "query": "Mongol warrior",
+    "label": "Guerrero mongol"
+  },
+  {
+    "id": "icon_auto_83",
+    "t": 435.88,
+    "big": true,
+    "query": "Mongol archers on horseback in battle",
+    "label": "Arqueros mongoles"
+  },
+  {
+    "id": "icon_auto_84",
+    "t": 443.59,
+    "big": false,
+    "query": "Mongol bow",
+    "label": "Arco mongol"
+  },
+  {
+    "id": "icon_auto_85",
+    "t": 451.3,
+    "big": true,
+    "query": "Pax Mongolica facilitating trade and travel",
+    "label": "Paz mongólica"
+  },
+  {
+    "id": "icon_auto_86",
+    "t": 461.87,
+    "big": false,
+    "query": "Marco Polo",
+    "label": "Marco Polo"
+  },
+  {
+    "id": "icon_auto_87",
+    "t": 472.44,
+    "big": true,
+    "query": "fall of Constantinople to the Ottomans",
+    "label": "Caída de Constantinopla"
+  },
+  {
+    "id": "icon_auto_88",
+    "t": 484.43,
+    "big": false,
+    "query": "Mehmed II",
+    "label": "Mehmed II"
+  },
+  {
+    "id": "icon_auto_89",
+    "t": 496.42,
+    "big": true,
+    "query": "rise of the Ottoman Empire",
+    "label": "Imperio otomano"
+  },
+  {
+    "id": "icon_auto_90",
+    "t": 499.88,
+    "big": false,
+    "query": "Ottoman map",
+    "label": "Mapa otomano"
+  },
+  {
+    "id": "icon_auto_91",
+    "t": 503.34,
+    "big": true,
+    "query": "Ottoman Janissaries in training",
+    "label": "Jenízaros"
+  },
+  {
+    "id": "icon_auto_92",
+    "t": 508.72,
+    "big": false,
+    "query": "devshirme system",
+    "label": "Sistema devshirme"
+  },
+  {
+    "id": "icon_auto_93",
+    "t": 514.1,
+    "big": true,
+    "query": "Ottoman millet system for religious communities",
+    "label": "Sistema de millet"
+  },
+  {
+    "id": "icon_auto_94",
+    "t": 519.53,
+    "big": false,
+    "query": "Christian community",
+    "label": "Comunidad cristiana"
+  },
+  {
+    "id": "icon_auto_95",
+    "t": 524.96,
+    "big": true,
+    "query": "introduction of coffee to the Ottoman Empire",
+    "label": "Introducción del café"
+  },
+  {
+    "id": "icon_auto_96",
+    "t": 527.28,
+    "big": false,
+    "query": "coffee beans",
+    "label": "Granos de café"
+  },
+  {
+    "id": "icon_auto_97",
+    "t": 529.6,
+    "big": true,
+    "query": "first public coffee houses in Istanbul",
+    "label": "Primeras cafeterías"
+  },
+  {
+    "id": "icon_auto_98",
+    "t": 531.83,
+    "big": false,
+    "query": "coffee cup",
+    "label": "Taza de café"
+  },
+  {
+    "id": "icon_auto_99",
+    "t": 534.06,
+    "big": true,
+    "query": "spread of coffee from the Ottoman Empire to Europe",
+    "label": "Café en Europa"
+  },
+  {
+    "id": "icon_auto_100",
+    "t": 537.68,
+    "big": true,
+    "query": "Ottoman naval dominance in the Mediterranean",
+    "label": "Dominio naval otomano"
+  },
+  {
+    "id": "icon_auto_101",
+    "t": 543.55,
+    "big": false,
+    "query": "Ottoman ship",
+    "label": "Barco otomano"
+  },
+  {
+    "id": "icon_auto_102",
+    "t": 549.42,
+    "big": true,
+    "query": "Inca Empire in the Andes Mountains",
+    "label": "Imperio inca"
+  },
+  {
+    "id": "icon_auto_103",
+    "t": 555.52,
+    "big": false,
+    "query": "Inca ruler",
+    "label": "Inca gobernante"
+  },
+  {
+    "id": "icon_auto_104",
+    "t": 561.62,
+    "big": true,
+    "query": "Inca terraces for agriculture",
+    "label": "Terrazas agrícolas"
+  },
+  {
+    "id": "icon_auto_105",
+    "t": 568.38,
+    "big": false,
+    "query": "Inca farmer",
+    "label": "Agricultor inca"
+  },
+  {
+    "id": "icon_auto_106",
+    "t": 575.14,
+    "big": true,
+    "query": "Inca agricultural terraces",
+    "label": "Andenes incas"
+  },
+  {
+    "id": "icon_auto_107",
+    "t": 579.96,
+    "big": false,
+    "query": "Inca tools",
+    "label": "Herramientas incas"
+  },
+  {
+    "id": "icon_auto_108",
+    "t": 584.78,
+    "big": true,
+    "query": "Inca quipu system for record-keeping",
+    "label": "Sistema quipu"
+  },
+  {
+    "id": "icon_auto_109",
+    "t": 589.37,
+    "big": false,
+    "query": "quipu",
+    "label": "Quipu"
+  },
+  {
+    "id": "icon_auto_110",
+    "t": 593.96,
+    "big": true,
+    "query": "Inca llamas used for transportation",
+    "label": "Llamas incas"
+  },
+  {
+    "id": "icon_auto_111",
+    "t": 601.04,
+    "big": false,
+    "query": "llama",
+    "label": "Llama"
+  },
+  {
+    "id": "icon_auto_112",
+    "t": 608.12,
+    "big": true,
+    "query": "Spanish conquest of the Inca Empire",
+    "label": "Conquista española"
+  },
+  {
+    "id": "icon_auto_113",
+    "t": 613.81,
+    "big": false,
+    "query": "Francisco Pizarro",
+    "label": "Francisco Pizarro"
+  },
+  {
+    "id": "icon_auto_114",
+    "t": 619.5,
+    "big": true,
+    "query": "Spanish ships discovering the Americas",
+    "label": "Naves españolas"
+  },
+  {
+    "id": "icon_auto_115",
+    "t": 629.33,
+    "big": false,
+    "query": "La Pinta",
+    "label": "La Pinta"
+  },
+  {
+    "id": "icon_auto_116",
+    "t": 639.16,
+    "big": true,
+    "query": "Potosí silver mine in the Spanish Empire",
+    "label": "Mina de Potosí"
+  },
+  {
+    "id": "icon_auto_117",
+    "t": 644.99,
+    "big": false,
+    "query": "silver coins",
+    "label": "Monedas de plata"
+  },
+  {
+    "id": "icon_auto_118",
+    "t": 650.82,
+    "big": true,
+    "query": "global reach of the Spanish Empire",
+    "label": "Imperio global"
+  },
+  {
+    "id": "icon_auto_119",
+    "t": 653.14,
+    "big": false,
+    "query": "Spanish galleon",
+    "label": "Galeón español"
+  },
+  {
+    "id": "icon_auto_120",
+    "t": 657.5,
+    "big": true,
+    "query": "Spanish language influence worldwide",
+    "label": "Lengua española"
+  },
+  {
+    "id": "icon_auto_121",
+    "t": 660.05,
+    "big": false,
+    "query": "Spanish dictionary",
+    "label": "Diccionario"
+  },
+  {
+    "id": "icon_auto_122",
+    "t": 662.6,
+    "big": true,
+    "query": "Spanish colonial architecture",
+    "label": "Arquitectura colonial"
+  },
+  {
+    "id": "icon_auto_123",
+    "t": 666.04,
+    "big": true,
+    "query": "borders and cultures formed by Spanish colonization",
+    "label": "Fronteras coloniales"
+  },
+  {
+    "id": "icon_auto_124",
+    "t": 669.73,
+    "big": false,
+    "query": "mestizo culture",
+    "label": "Cultura mestiza"
+  },
+  {
+    "id": "icon_auto_125",
+    "t": 673.42,
+    "big": true,
+    "query": "British Empire's global influence",
+    "label": "Imperio británico"
+  },
+  {
+    "id": "icon_auto_126",
+    "t": 677.07,
+    "big": false,
+    "query": "British flag",
+    "label": "Bandera británica"
+  },
+  {
+    "id": "icon_auto_127",
+    "t": 680.72,
+    "big": true,
+    "query": "British East India Company trading and conquering",
+    "label": "Compañía británica"
+  },
+  {
+    "id": "icon_auto_128",
+    "t": 686.27,
+    "big": false,
+    "query": "British soldier",
+    "label": "Soldado británico"
+  },
+  {
+    "id": "icon_auto_129",
+    "t": 691.82,
+    "big": true,
+    "query": "British Empire at its peak in 1920",
+    "label": "Apogeo británico"
+  },
+  {
+    "id": "icon_auto_130",
+    "t": 695.75,
+    "big": false,
+    "query": "British map",
+    "label": "Mapa británico"
+  },
+  {
+    "id": "icon_auto_131",
+    "t": 699.68,
+    "big": true,
+    "query": "legacy of the British Empire",
+    "label": "Legado imperial"
+  },
+  {
+    "id": "icon_auto_132",
+    "t": 703.37,
+    "big": false,
+    "query": "railway",
+    "label": "Ferrocarril"
+  },
+  {
+    "id": "icon_auto_133",
+    "t": 707.06,
+    "big": true,
+    "query": "decolonization after World War II",
+    "label": "Descolonización"
+  },
+  {
+    "id": "icon_auto_134",
+    "t": 711.4,
+    "big": false,
+    "query": "Gandhi",
+    "label": "Gandhi"
+  },
+  {
+    "id": "icon_auto_135",
+    "t": 715.74,
+    "big": true,
+    "query": "independence of India and African nations",
+    "label": "Independencias"
+  },
+  {
+    "id": "icon_auto_136",
+    "t": 719.6,
+    "big": false,
+    "query": "Indian flag",
+    "label": "Bandera india"
+  },
+  {
+    "id": "icon_auto_137",
+    "t": 723.46,
+    "big": true,
+    "query": "decline of the British Empire",
+    "label": "Declive británico"
+  },
+  {
+    "id": "icon_auto_138",
+    "t": 725.87,
+    "big": false,
+    "query": "British crown",
+    "label": "Corona británica"
+  },
+  {
+    "id": "icon_auto_139",
+    "t": 728.28,
+    "big": true,
+    "query": "languages and words inherited from ancient empires",
+    "label": "Lenguajes heredados"
+  },
+  {
+    "id": "icon_auto_140",
+    "t": 734.21,
+    "big": false,
+    "query": "language map",
+    "label": "Mapa lingüístico"
+  },
+  {
+    "id": "icon_auto_141",
+    "t": 740.14,
+    "big": true,
+    "query": "legal and political systems from ancient empires",
+    "label": "Sistemas legales"
+  },
+  {
+    "id": "icon_auto_142",
+    "t": 744.77,
+    "big": false,
+    "query": "legal scroll",
+    "label": "Documento legal"
+  },
+  {
+    "id": "icon_auto_143",
+    "t": 749.4,
+    "big": true,
+    "query": "ancient trade routes connecting continents",
+    "label": "Rutas comerciales"
+  },
+  {
+    "id": "icon_auto_144",
+    "t": 754.32,
+    "big": false,
+    "query": "silk road",
+    "label": "Ruta de la Seda"
+  },
+  {
+    "id": "icon_auto_145",
+    "t": 759.24,
+    "big": true,
+    "query": "rise and fall of ancient empires",
+    "label": "Auge y caída"
+  },
+  {
+    "id": "icon_auto_146",
+    "t": 765.03,
+    "big": false,
+    "query": "empire map",
+    "label": "Mapa imperial"
+  },
+  {
+    "id": "icon_auto_147",
+    "t": 770.82,
+    "big": true,
+    "query": "future of global powers and their legacies",
+    "label": "Futuro global"
+  },
+  {
+    "id": "icon_auto_148",
+    "t": 773.27,
+    "big": false,
+    "query": "modern map",
+    "label": "Mundo moderno"
+  }
+]

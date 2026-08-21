@@ -1,0 +1,758 @@
+[
+  {
+    "i": 0,
+    "big": false,
+    "en": "",
+    "extra": []
+  },
+  {
+    "i": 1,
+    "big": true,
+    "en": "ancient warriors on horseback with swords and shields",
+    "extra": [
+      "ancient map",
+      "scroll with laws"
+    ]
+  },
+  {
+    "i": 2,
+    "big": true,
+    "en": "various ancient empires represented by iconic symbols",
+    "extra": [
+      "Egyptian pyramid",
+      "Roman Colosseum"
+    ]
+  },
+  {
+    "i": 3,
+    "big": false,
+    "en": "",
+    "extra": []
+  },
+  {
+    "i": 4,
+    "big": false,
+    "en": "",
+    "extra": []
+  },
+  {
+    "i": 5,
+    "big": true,
+    "en": "ancient world map highlighting large empires",
+    "extra": []
+  },
+  {
+    "i": 6,
+    "big": true,
+    "en": "ancient empires attempting to control known world",
+    "extra": [
+      "Nile River",
+      "Mongolian steppes"
+    ]
+  },
+  {
+    "i": 7,
+    "big": true,
+    "en": "map showing diverse territories under one empire",
+    "extra": [
+      "ancient law tablet",
+      "imperial seal"
+    ]
+  },
+  {
+    "i": 8,
+    "big": false,
+    "en": "",
+    "extra": []
+  },
+  {
+    "i": 9,
+    "big": true,
+    "en": "small ancient village growing into a large empire",
+    "extra": [
+      "crumbling empire",
+      "internal conflict"
+    ]
+  },
+  {
+    "i": 10,
+    "big": true,
+    "en": "ancient empire falling from internal issues",
+    "extra": [
+      "external enemy",
+      "crumbling walls"
+    ]
+  },
+  {
+    "i": 11,
+    "big": true,
+    "en": "ancient Egypt along the Nile River",
+    "extra": [
+      "Nile River",
+      "ancient Egyptian village"
+    ]
+  },
+  {
+    "i": 12,
+    "big": true,
+    "en": "ancient Egyptians measuring Nile flood with nilometer",
+    "extra": [
+      "nilometer",
+      "flooded Nile banks"
+    ]
+  },
+  {
+    "i": 13,
+    "big": true,
+    "en": "fertile black land of ancient Egypt",
+    "extra": [
+      "desert landscape",
+      "ancient Egyptian farmer"
+    ]
+  },
+  {
+    "i": 14,
+    "big": true,
+    "en": "Herodotus describing the Nile as a gift",
+    "extra": [
+      "ancient Greek historian",
+      "Nile River"
+    ]
+  },
+  {
+    "i": 15,
+    "big": true,
+    "en": "ancient Egyptian pharaoh as a god-king",
+    "extra": [
+      "pharaoh's crown",
+      "ancient Egyptian throne"
+    ]
+  },
+  {
+    "i": 16,
+    "big": true,
+    "en": "ancient Egyptian farmers harvesting wheat",
+    "extra": [
+      "wheat field",
+      "barley crop"
+    ]
+  },
+  {
+    "i": 17,
+    "big": true,
+    "en": "ancient Egyptian scribes writing hieroglyphs",
+    "extra": [
+      "papyrus scroll",
+      "hieroglyphic tablet"
+    ]
+  },
+  {
+    "i": 18,
+    "big": true,
+    "en": "ancient Egyptian bureaucracy using papyrus",
+    "extra": [
+      "papyrus scroll",
+      "ancient Egyptian scribe"
+    ]
+  },
+  {
+    "i": 19,
+    "big": true,
+    "en": "construction of ancient Egyptian pyramids and temples",
+    "extra": [
+      "obelisk",
+      "granite block"
+    ]
+  },
+  {
+    "i": 20,
+    "big": true,
+    "en": "ancient Egyptian empire timeline with dynasties",
+    "extra": [
+      "Cleopatra",
+      "Roman soldiers"
+    ]
+  },
+  {
+    "i": 21,
+    "big": true,
+    "en": "birth of the Achaemenid Persian Empire",
+    "extra": [
+      "ancient Persian map",
+      "Cyrus the Great"
+    ]
+  },
+  {
+    "i": 22,
+    "big": true,
+    "en": "Cyrus the Great unifying diverse peoples",
+    "extra": [
+      "ancient Persian soldiers",
+      "tribute offerings"
+    ]
+  },
+  {
+    "i": 23,
+    "big": true,
+    "en": "ancient Persian satrapy system",
+    "extra": [
+      "satrap",
+      "official seal"
+    ]
+  },
+  {
+    "i": 24,
+    "big": true,
+    "en": "map of the Achaemenid Persian Empire",
+    "extra": [
+      "tolerance policy",
+      "ancient Persian king"
+    ]
+  },
+  {
+    "i": 25,
+    "big": true,
+    "en": "ancient Persian Royal Road with horse stations",
+    "extra": [
+      "horse station",
+      "ancient road"
+    ]
+  },
+  {
+    "i": 26,
+    "big": true,
+    "en": "messenger on horseback crossing the Persian Empire",
+    "extra": [
+      "ancient message",
+      "horse"
+    ]
+  },
+  {
+    "i": 27,
+    "big": true,
+    "en": "camel caravan transporting goods in ancient Persia",
+    "extra": [
+      "spices",
+      "precious metals"
+    ]
+  },
+  {
+    "i": 28,
+    "big": true,
+    "en": "ancient Persian soldiers clashing with Greek hoplites",
+    "extra": [
+      "battle of Marathon",
+      "Thermopylae"
+    ]
+  },
+  {
+    "i": 29,
+    "big": true,
+    "en": "Alexander the Great conquering the Persian Empire",
+    "extra": [
+      "ancient Macedonian soldiers",
+      "Persian Empire map"
+    ]
+  },
+  {
+    "i": 30,
+    "big": true,
+    "en": "ancient Roman Empire symbols and influence",
+    "extra": [
+      "Roman soldier",
+      "Roman law tablet"
+    ]
+  },
+  {
+    "i": 31,
+    "big": true,
+    "en": "ancient Rome growing from a small city to an empire",
+    "extra": [
+      "Tiber River",
+      "Roman Senate"
+    ]
+  },
+  {
+    "i": 32,
+    "big": true,
+    "en": "Roman Empire at its height under Emperor Trajan",
+    "extra": [
+      "Roman legion",
+      "Roman map"
+    ]
+  },
+  {
+    "i": 33,
+    "big": true,
+    "en": "Roman legions marching and building camps",
+    "extra": [
+      "Roman soldier",
+      "fortified camp"
+    ]
+  },
+  {
+    "i": 34,
+    "big": true,
+    "en": "ancient Roman legal system and laws",
+    "extra": [
+      "Roman law tablet",
+      "presumption of innocence"
+    ]
+  },
+  {
+    "i": 35,
+    "big": true,
+    "en": "ancient Roman roads and aqueducts",
+    "extra": [
+      "Roman road",
+      "aqueduct"
+    ]
+  },
+  {
+    "i": 36,
+    "big": true,
+    "en": "decline of the Roman Empire",
+    "extra": [
+      "economic crisis",
+      "barbarian invasions"
+    ]
+  },
+  {
+    "i": 37,
+    "big": true,
+    "en": "internal and external challenges to the Roman Empire",
+    "extra": [
+      "devalued Roman coin",
+      "germanic tribes"
+    ]
+  },
+  {
+    "i": 38,
+    "big": true,
+    "en": "fall of the Western Roman Empire",
+    "extra": [
+      "Rómulo Augustulo",
+      "ancient Rome in ruins"
+    ]
+  },
+  {
+    "i": 39,
+    "big": true,
+    "en": "Byzantine Empire surviving after Rome's fall",
+    "extra": [
+      "Constantinople",
+      "Byzantine soldier"
+    ]
+  },
+  {
+    "i": 40,
+    "big": true,
+    "en": "ancient China under various dynasties",
+    "extra": [
+      "Chinese emperor",
+      "dynastic map"
+    ]
+  },
+  {
+    "i": 41,
+    "big": true,
+    "en": "rise and fall of Chinese dynasties",
+    "extra": [
+      "Han dynasty",
+      "Ming dynasty"
+    ]
+  },
+  {
+    "i": 42,
+    "big": true,
+    "en": "construction of the Great Wall of China",
+    "extra": [
+      "ancient Chinese soldiers",
+      "northern nomads"
+    ]
+  },
+  {
+    "i": 43,
+    "big": true,
+    "en": "ancient Chinese silk production and trade",
+    "extra": [
+      "silk fabric",
+      "silk road"
+    ]
+  },
+  {
+    "i": 44,
+    "big": true,
+    "en": "ancient China focusing on internal development",
+    "extra": [
+      "Chinese trade",
+      "natural borders"
+    ]
+  },
+  {
+    "i": 45,
+    "big": true,
+    "en": "ancient China as the center of trade and culture",
+    "extra": [
+      "Chinese merchant",
+      "ancient map"
+    ]
+  },
+  {
+    "i": 46,
+    "big": true,
+    "en": "expansion of the Mongol Empire under Genghis Khan",
+    "extra": [
+      "Mongol warrior",
+      "Mongol map"
+    ]
+  },
+  {
+    "i": 47,
+    "big": true,
+    "en": "Mongol Empire's vast territory",
+    "extra": [
+      "Mongol horseman",
+      "empire map"
+    ]
+  },
+  {
+    "i": 48,
+    "big": true,
+    "en": "Genghis Khan uniting Mongol tribes",
+    "extra": [
+      "Mongol warrior",
+      "tribal meeting"
+    ]
+  },
+  {
+    "i": 49,
+    "big": true,
+    "en": "Mongol archers on horseback in battle",
+    "extra": [
+      "Mongol bow",
+      "horse"
+    ]
+  },
+  {
+    "i": 50,
+    "big": true,
+    "en": "Pax Mongolica facilitating trade and travel",
+    "extra": [
+      "Marco Polo",
+      "silk road"
+    ]
+  },
+  {
+    "i": 51,
+    "big": true,
+    "en": "fall of Constantinople to the Ottomans",
+    "extra": [
+      "Mehmed II",
+      "ancient cannon"
+    ]
+  },
+  {
+    "i": 52,
+    "big": true,
+    "en": "rise of the Ottoman Empire",
+    "extra": [
+      "Ottoman map",
+      "Ottoman soldier"
+    ]
+  },
+  {
+    "i": 53,
+    "big": true,
+    "en": "Ottoman Janissaries in training",
+    "extra": [
+      "devshirme system",
+      "Ottoman soldier"
+    ]
+  },
+  {
+    "i": 54,
+    "big": true,
+    "en": "Ottoman millet system for religious communities",
+    "extra": [
+      "Christian community",
+      "Jewish community"
+    ]
+  },
+  {
+    "i": 55,
+    "big": true,
+    "en": "introduction of coffee to the Ottoman Empire",
+    "extra": [
+      "coffee beans",
+      "Ottoman coffee house"
+    ]
+  },
+  {
+    "i": 56,
+    "big": true,
+    "en": "first public coffee houses in Istanbul",
+    "extra": [
+      "coffee cup",
+      "Ottoman merchant"
+    ]
+  },
+  {
+    "i": 57,
+    "big": true,
+    "en": "spread of coffee from the Ottoman Empire to Europe",
+    "extra": [
+      "Vienna coffee house",
+      "coffee trade"
+    ]
+  },
+  {
+    "i": 58,
+    "big": true,
+    "en": "Ottoman naval dominance in the Mediterranean",
+    "extra": [
+      "Ottoman ship",
+      "Mediterranean map"
+    ]
+  },
+  {
+    "i": 59,
+    "big": true,
+    "en": "Inca Empire in the Andes Mountains",
+    "extra": [
+      "Inca ruler",
+      "Andes Mountains"
+    ]
+  },
+  {
+    "i": 60,
+    "big": true,
+    "en": "Inca terraces for agriculture",
+    "extra": [
+      "Inca farmer",
+      "terraced fields"
+    ]
+  },
+  {
+    "i": 61,
+    "big": true,
+    "en": "Inca agricultural terraces",
+    "extra": [
+      "Inca tools",
+      "mountain landscape"
+    ]
+  },
+  {
+    "i": 62,
+    "big": true,
+    "en": "Inca quipu system for record-keeping",
+    "extra": [
+      "quipu",
+      "Inca official"
+    ]
+  },
+  {
+    "i": 63,
+    "big": true,
+    "en": "Inca llamas used for transportation",
+    "extra": [
+      "llama",
+      "Inca trail"
+    ]
+  },
+  {
+    "i": 64,
+    "big": true,
+    "en": "Spanish conquest of the Inca Empire",
+    "extra": [
+      "Francisco Pizarro",
+      "Inca warriors"
+    ]
+  },
+  {
+    "i": 65,
+    "big": true,
+    "en": "Spanish ships discovering the Americas",
+    "extra": [
+      "La Pinta",
+      "La Niña"
+    ]
+  },
+  {
+    "i": 66,
+    "big": true,
+    "en": "Potosí silver mine in the Spanish Empire",
+    "extra": [
+      "silver coins",
+      "Spanish conquistador"
+    ]
+  },
+  {
+    "i": 67,
+    "big": true,
+    "en": "global reach of the Spanish Empire",
+    "extra": [
+      "Spanish galleon",
+      "world map"
+    ]
+  },
+  {
+    "i": 68,
+    "big": false,
+    "en": "",
+    "extra": []
+  },
+  {
+    "i": 69,
+    "big": true,
+    "en": "Spanish language influence worldwide",
+    "extra": [
+      "Spanish dictionary",
+      "language map"
+    ]
+  },
+  {
+    "i": 70,
+    "big": true,
+    "en": "Spanish colonial architecture",
+    "extra": [
+      "cathedral",
+      "university"
+    ]
+  },
+  {
+    "i": 71,
+    "big": true,
+    "en": "borders and cultures formed by Spanish colonization",
+    "extra": [
+      "mestizo culture",
+      "American map"
+    ]
+  },
+  {
+    "i": 72,
+    "big": true,
+    "en": "British Empire's global influence",
+    "extra": [
+      "British flag",
+      "world map"
+    ]
+  },
+  {
+    "i": 73,
+    "big": true,
+    "en": "British East India Company trading and conquering",
+    "extra": [
+      "British soldier",
+      "trade ship"
+    ]
+  },
+  {
+    "i": 74,
+    "big": true,
+    "en": "British Empire at its peak in 1920",
+    "extra": [
+      "British map",
+      "colonial subjects"
+    ]
+  },
+  {
+    "i": 75,
+    "big": true,
+    "en": "legacy of the British Empire",
+    "extra": [
+      "railway",
+      "English language"
+    ]
+  },
+  {
+    "i": 76,
+    "big": true,
+    "en": "decolonization after World War II",
+    "extra": [
+      "Gandhi",
+      "independence movement"
+    ]
+  },
+  {
+    "i": 77,
+    "big": true,
+    "en": "independence of India and African nations",
+    "extra": [
+      "Indian flag",
+      "African map"
+    ]
+  },
+  {
+    "i": 78,
+    "big": true,
+    "en": "decline of the British Empire",
+    "extra": [
+      "British crown",
+      "empire map"
+    ]
+  },
+  {
+    "i": 79,
+    "big": true,
+    "en": "languages and words inherited from ancient empires",
+    "extra": [
+      "language map",
+      "ancient vocabulary"
+    ]
+  },
+  {
+    "i": 80,
+    "big": true,
+    "en": "legal and political systems from ancient empires",
+    "extra": [
+      "legal scroll",
+      "political map"
+    ]
+  },
+  {
+    "i": 81,
+    "big": true,
+    "en": "ancient trade routes connecting continents",
+    "extra": [
+      "silk road",
+      "ancient ship"
+    ]
+  },
+  {
+    "i": 82,
+    "big": true,
+    "en": "rise and fall of ancient empires",
+    "extra": [
+      "empire map",
+      "ancient ruins"
+    ]
+  },
+  {
+    "i": 83,
+    "big": true,
+    "en": "future of global powers and their legacies",
+    "extra": [
+      "modern map",
+      "historical timeline"
+    ]
+  },
+  {
+    "i": 84,
+    "big": false,
+    "en": "",
+    "extra": []
+  },
+  {
+    "i": 85,
+    "big": false,
+    "en": "",
+    "extra": []
+  },
+  {
+    "i": 86,
+    "big": false,
+    "en": "",
+    "extra": []
+  }
+]

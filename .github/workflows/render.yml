@@ -87,7 +87,22 @@ jobs:
           GENAIPRO_API_KEY: ${{ secrets.GENAIPRO_API_KEY }}
         run: node scripts/01-tts.mjs "${{ steps.ep.outputs.dir }}"
 
-      - name: 02) Compilar scenes.json (beats + plantillas + capas)
+      - name: "01e) Enrich (Claude: qué dibujar por frase, fotos+doodles sincronizados a la voz)"
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/01e-enrich.mjs "${{ steps.ep.outputs.dir }}"
+
+      - name: "01f) Etiquetas en español (Claude)"
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/01f-labels.mjs "${{ steps.ep.outputs.dir }}"
+
+      - name: "01g) Generar dibujos auto (fotos Wikipedia gratis + doodles OpenAI, reutiliza librería)"
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node scripts/01-assets.mjs "${{ steps.ep.outputs.dir }}"
+
+      - name: 02) Compilar scenes.json (lienzo acumulativo + dinamismo)
         run: node scripts/02-build-scenes.mjs "${{ steps.ep.outputs.dir }}"
 
       - name: 02b) Lint de variedad (informe)
@@ -109,16 +124,8 @@ jobs:
       - name: 03) Renderizar el vídeo (Remotion · Scene)
         run: npx remotion render src/index.ts Scene out/VIDEO_RAW.mp4 --concurrency=2
 
-      - name: 03b) Música de fondo (loop a bajo volumen bajo la voz)
-        run: |
-          if [ -f public/voz/bg_music.wav ]; then
-            ffmpeg -y -v error -i out/VIDEO_RAW.mp4 -stream_loop -1 -i public/voz/bg_music.wav \
-              -filter_complex "[1:a]volume=-23dB[m];[0:a][m]amix=inputs=2:duration=first:normalize=0[a]" \
-              -map 0:v -map "[a]" -c:v copy -c:a aac -b:a 192k -shortest out/VIDEO_FINAL.mp4
-            echo "música mezclada ✓"
-          else
-            mv out/VIDEO_RAW.mp4 out/VIDEO_FINAL.mp4; echo "sin música (no hay bg_music.wav)"
-          fi
+      - name: 03b) Audio final (POP en cada entrada de dibujo + música de fondo)
+        run: node scripts/03b-audio.mjs "${{ steps.ep.outputs.dir }}"
 
       - name: 04) Miniatura (fotograma representativo del vídeo)
         continue-on-error: true

@@ -39,8 +39,8 @@ for (const fr of frames) {
     if (e.structural) continue;
     for (const [zn, z] of Object.entries(ZONES)) if (interArea(e.bbox, z) > 0) fails.push({ t: fr.t, kind: "zona", msg: `"${e.id}" invade la zona reservada "${zn}" [${z}]` });
   }
-  // 3) máx N textos simultáneos
-  if (dynTexts.length > MAXTEXT) fails.push({ t: fr.t, kind: "n-textos", msg: `${dynTexts.length} textos simultáneos (máximo ${MAXTEXT})` });
+  // 3) máx N etiquetas simultáneas (lienzo acumulativo: hasta 6 dibujos, cada uno con su etiqueta)
+  if (dynTexts.length > 7) fails.push({ t: fr.t, kind: "n-textos", msg: `${dynTexts.length} textos simultáneos (máximo 7)` });
   // 4) texto saliéndose del frame
   for (const e of texts) if (outOfFrame(e.bbox) > 0) fails.push({ t: fr.t, kind: "fuera", msg: `"${e.id}" se sale del frame [${e.bbox}]` });
   // 5) imagen-imagen > 35% del área menor
@@ -48,9 +48,9 @@ for (const fr of frames) {
     const ia = interArea(images[i].bbox, images[j].bbox), minA = Math.min(area(images[i].bbox), area(images[j].bbox));
     if (minA > 0 && ia / minA > 0.35) fails.push({ t: fr.t, kind: "img-img", msg: `Solapamiento imagen-imagen ${(ia / minA * 100).toFixed(0)}% (>35%): "${images[i].id}" / "${images[j].id}"` });
   }
-  // 6) total simultáneos > 4 (sin contar navegación fija: título, badge, marca de agua)
+  // 6) total simultáneos (lienzo acumulativo: 6 dibujos + 6 etiquetas). Sin contar navegación fija
   const dyn = els.filter(e => !e.structural).length;
-  if (dyn > 4) fails.push({ t: fr.t, kind: "total", msg: `${dyn} elementos dinámicos simultáneos (máximo 4)` });
+  if (dyn > 14) fails.push({ t: fr.t, kind: "total", msg: `${dyn} elementos dinámicos simultáneos (máximo 14)` });
 }
 
 // --- comprobaciones a NIVEL ELEMENTO (MATERIAL.md): ninguna imagen > 15s; ningún texto < 34px ---

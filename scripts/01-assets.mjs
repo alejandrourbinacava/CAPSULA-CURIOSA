@@ -114,6 +114,22 @@ function saveIcon(id, ico) {
   return { file: rel, kind: "vector", normalized: true, color, attribution: { source: ico.set + ":" + ico.name, license: L.title || L.spdx || "?", url: L.url || "" } };
 }
 
+// --- REGISTRO GLOBAL de iconos generados con GPT (se generan UNA vez, se reutilizan en todos los vídeos) ---
+const LIB = path.join("public", "assets", "library"); fs.mkdirSync(LIB, { recursive: true });
+const conceptSlug = (q) => q.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "").slice(0, 40);
+async function gptImageIcon(query, id) {
+  if (!OPENAI) return null;
+  const rel = "assets/icons/" + id + ".png", libFile = path.join(LIB, conceptSlug(query) + ".png");
+  if (fs.existsSync(libFile)) { fs.copyFileSync(libFile, path.join("public", rel)); return { file: rel, reused: true }; } // reutiliza ($0)
+  const prompt = `2D vector doodle illustration of ${query}. Hand-drawn whiteboard explainer style, bold clean black outline, flat minimal saturated colors, clear and simple, centered composition. Historically accurate to the era described (never modern). Fully TRANSPARENT background. No text, no labels, no caption, no shadow, no border, no frame.`;
+  try {
+    const r = await fetch("https://api.openai.com/v1/images/generations", { method: "POST", headers: { Authorization: `Bearer ${OPENAI}`, "Content-Type": "application/json" }, body: JSON.stringify({ model: "gpt-image-1", prompt, size: "1024x1024", background: "transparent", output_format: "png", quality: "medium", n: 1 }) });
+    const j = await r.json(); if (!r.ok) { console.log(`  (gpt-image: ${(j.error?.message || r.status).toString().slice(0, 60)})`); return null; }
+    const b = Buffer.from(j.data[0].b64_json, "base64"); fs.writeFileSync(libFile, b); fs.writeFileSync(path.join("public", rel), b);
+    return { file: rel, reused: false };
+  } catch { return null; }
+}
+
 for (const [id, a] of Object.entries(assets)) {
   const q = a.query || id;
   if (a.kind === "clip" || a.kind === "gif") continue; // los maneja 00-fetch-media; NO tocarlos aquí
@@ -124,11 +140,10 @@ for (const [id, a] of Object.entries(assets)) {
       if (f) { a.file = f; if (!a.kind || a.kind === "photo") a.kind = "cutout"; console.log(`🖼️  ${id} (foto) ✓`); continue; }
       // sin foto -> icono como reserva
     }
-    let ico = null;
-    if (OPENAI) { await sleep(150); ico = await openaiIcon(q); }   // Addendum 4: OpenAI para todos los iconos
-    if (!ico) ico = offlineIcon(q);                                 // reserva: sets offline
-    if (!ico) { await sleep(200); ico = await httpIcon(q); }        // último recurso: HTTP keyless
-    if (ico) { const meta = saveIcon(id, ico); Object.assign(a, meta); console.log(`▲ ${id} (vector ${meta.color}) ✓ [${ico.set}]`); }
+    // 1º: GPT Image (doodle, transparente, reutilizable). 2º: reserva SVG offline.
+    if (OPENAI) { const img = await gptImageIcon(q, id); if (img) { a.file = img.file; a.kind = "vector"; a.normalized = true; a.gpt = true; console.log(`🎨 ${id} (gpt-image${img.reused ? " ♻" : ""}) ✓`); continue; } }
+    let ico = offlineIcon(q) || (await (async () => { await sleep(150); return httpIcon(q); })());
+    if (ico) { const meta = saveIcon(id, ico); Object.assign(a, meta); console.log(`▲ ${id} (svg reserva) ✓`); }
     else { a.file = null; console.log(`✗ ${id} sin asset`); }
   } catch (e) { a.file = null; console.log(`✗ ${id} error ${(e.message || "").slice(0, 50)}`); }
 }

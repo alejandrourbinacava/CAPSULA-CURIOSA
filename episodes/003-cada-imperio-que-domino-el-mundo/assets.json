@@ -2,26 +2,28 @@
   "icon_hourglass": {
     "kind": "vector",
     "query": "hourglass",
-    "file": "assets/icons/icon_hourglass.svg",
+    "file": "assets/icons/icon_hourglass.png",
     "normalized": true,
     "color": "green",
     "attribution": {
       "source": "solar:hourglass-bold-duotone",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_world_globe": {
     "kind": "vector",
     "query": "world map",
-    "file": "assets/icons/icon_world_globe.svg",
+    "file": "assets/icons/icon_world_globe.png",
     "normalized": true,
     "color": "green",
     "attribution": {
       "source": "solar:map-bold-duotone",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "photo_giza_pyramids": {
     "kind": "cutout",
@@ -36,74 +38,80 @@
   "icon_pharaoh_crown": {
     "kind": "vector",
     "query": "pharaoh crown",
-    "file": "assets/icons/icon_pharaoh_crown.svg",
+    "file": "assets/icons/icon_pharaoh_crown.png",
     "normalized": true,
     "color": "cyan",
     "attribution": {
       "source": "solar:crown-bold-duotone",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_wheat_grain": {
     "kind": "vector",
     "query": "wheat harvest",
-    "file": "assets/icons/icon_wheat_grain.svg",
+    "file": "assets/icons/icon_wheat_grain.png",
     "normalized": true,
     "color": "cyan",
     "attribution": {
       "source": "streamline:food-wheat-cook-plant-bread-gluten-grain-cooking-nutrition-food-wheat",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_scribe": {
     "kind": "vector",
     "query": "ancient egyptian scribe",
-    "file": "assets/icons/icon_scribe.svg",
+    "file": "assets/icons/icon_scribe.png",
     "normalized": true,
     "color": "orange",
     "attribution": {
       "source": "mingcute:egyptian-pyramids-fill",
       "license": "Apache 2.0",
       "url": "https://github.com/Richard9394/MingCute/blob/main/LICENSE"
-    }
+    },
+    "gpt": true
   },
   "icon_pyramid_build": {
     "kind": "vector",
     "query": "pyramid construction",
-    "file": "assets/icons/icon_pyramid_build.svg",
+    "file": "assets/icons/icon_pyramid_build.png",
     "normalized": true,
     "color": "cyan",
     "attribution": {
       "source": "streamline:pyramid-shape-solid",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_nilometer": {
     "kind": "vector",
     "query": "nilometer ancient device",
-    "file": "assets/icons/icon_nilometer.svg",
+    "file": "assets/icons/icon_nilometer.png",
     "normalized": true,
     "color": "cyan",
     "attribution": {
       "source": "solar:devices-bold-duotone",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_obelisk": {
     "kind": "vector",
     "query": "egyptian obelisk",
-    "file": "assets/icons/icon_obelisk.svg",
+    "file": "assets/icons/icon_obelisk.png",
     "normalized": true,
     "color": "magenta",
     "attribution": {
       "source": "mingcute:egyptian-pyramids-fill",
       "license": "Apache 2.0",
       "url": "https://github.com/Richard9394/MingCute/blob/main/LICENSE"
-    }
+    },
+    "gpt": true
   },
   "photo_persepolis": {
     "kind": "cutout",
@@ -113,43 +121,48 @@
   "icon_royal_road": {
     "kind": "vector",
     "query": "ancient road",
-    "file": "assets/icons/icon_royal_road.svg",
+    "file": "assets/icons/icon_royal_road.png",
     "normalized": true,
     "color": "green",
     "attribution": {
       "source": "mingcute:road-fill",
       "license": "Apache 2.0",
       "url": "https://github.com/Richard9394/MingCute/blob/main/LICENSE"
-    }
+    },
+    "gpt": true
   },
   "icon_greek_helmet": {
     "kind": "vector",
     "query": "Corinthian helmet",
-    "file": "assets/icons/icon_greek_helmet.svg",
+    "file": "assets/icons/icon_greek_helmet.png",
     "normalized": true,
     "color": "yellow",
     "attribution": {
       "source": "ph:baseball-helmet-bold",
       "license": "MIT",
       "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
-    }
+    },
+    "gpt": true
   },
   "icon_camel_caravan": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "camel caravan desert",
-    "file": null
+    "file": "assets/icons/icon_camel_caravan.png",
+    "normalized": true,
+    "gpt": true
   },
   "icon_satrap_seal": {
     "kind": "vector",
     "query": "ancient persian seal stamp",
-    "file": "assets/icons/icon_satrap_seal.svg",
+    "file": "assets/icons/icon_satrap_seal.png",
     "normalized": true,
     "color": "cyan",
     "attribution": {
       "source": "ph:stamp-bold",
       "license": "MIT",
       "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
-    }
+    },
+    "gpt": true
   },
   "gif_mind_blown": {
     "kind": "gif",
@@ -167,26 +180,31 @@
     "file": "assets/icons/photo_colosseum.jpg"
   },
   "icon_roman_legion": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "roman legion soldier",
-    "file": null
+    "file": "assets/icons/icon_roman_legion.png",
+    "normalized": true,
+    "gpt": true
   },
   "icon_law_scroll": {
     "kind": "vector",
     "query": "ancient scroll",
-    "file": "assets/icons/icon_law_scroll.svg",
+    "file": "assets/icons/icon_law_scroll.png",
     "normalized": true,
     "color": "green",
     "attribution": {
       "source": "ph:scroll-bold",
       "license": "MIT",
       "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
-    }
+    },
+    "gpt": true
   },
   "icon_aqueduct": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "roman aqueduct",
-    "file": null
+    "file": "assets/icons/icon_aqueduct.png",
+    "normalized": true,
+    "gpt": true
   },
   "clip_rome_ruins": {
     "kind": "clip",
@@ -206,50 +224,54 @@
   "icon_silk_thread": {
     "kind": "vector",
     "query": "silk thread spool",
-    "file": "assets/icons/icon_silk_thread.svg",
+    "file": "assets/icons/icon_silk_thread.png",
     "normalized": true,
     "color": "yellow",
     "attribution": {
       "source": "ph:threads-logo-bold",
       "license": "MIT",
       "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
-    }
+    },
+    "gpt": true
   },
   "icon_compass_rose": {
     "kind": "vector",
     "query": "compass rose",
-    "file": "assets/icons/icon_compass_rose.svg",
+    "file": "assets/icons/icon_compass_rose.png",
     "normalized": true,
     "color": "yellow",
     "attribution": {
       "source": "solar:compass-bold-duotone",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_gunpowder": {
     "kind": "vector",
     "query": "gunpowder explosion",
-    "file": "assets/icons/icon_gunpowder.svg",
+    "file": "assets/icons/icon_gunpowder.png",
     "normalized": true,
     "color": "violet",
     "attribution": {
       "source": "streamline:nature-ecology-volcano-eruption-erupt-mountain-volcano-lava-magma-explosion",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_horse_hoof": {
     "kind": "vector",
     "query": "horse hoof print",
-    "file": "assets/icons/icon_horse_hoof.svg",
+    "file": "assets/icons/icon_horse_hoof.png",
     "normalized": true,
     "color": "orange",
     "attribution": {
       "source": "ph:horse-bold",
       "license": "MIT",
       "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
-    }
+    },
+    "gpt": true
   },
   "photo_genghis_khan": {
     "kind": "cutout",
@@ -272,45 +294,50 @@
     "file": "assets/icons/photo_hagia_sophia.jpg"
   },
   "icon_janissary": {
-    "kind": "icon",
+    "kind": "vector",
     "query": "janissary soldier",
-    "file": null
+    "file": "assets/icons/icon_janissary.png",
+    "normalized": true,
+    "gpt": true
   },
   "icon_ottoman_crescent": {
     "kind": "vector",
     "query": "crescent moon flag",
-    "file": "assets/icons/icon_ottoman_crescent.svg",
+    "file": "assets/icons/icon_ottoman_crescent.png",
     "normalized": true,
     "color": "orange",
     "attribution": {
       "source": "solar:flag-bold-duotone",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_coffee_cup": {
     "kind": "vector",
     "query": "coffee cup",
-    "file": "assets/icons/icon_coffee_cup.svg",
+    "file": "assets/icons/icon_coffee_cup.png",
     "normalized": true,
     "color": "cyan",
     "attribution": {
       "source": "solar:cup-bold-duotone",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_ship_wheel": {
     "kind": "vector",
     "query": "ship steering wheel",
-    "file": "assets/icons/icon_ship_wheel.svg",
+    "file": "assets/icons/icon_ship_wheel.png",
     "normalized": true,
     "color": "yellow",
     "attribution": {
       "source": "solar:wheel-bold-duotone",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "photo_machu_picchu": {
     "kind": "cutout",
@@ -320,122 +347,132 @@
   "icon_terrace_farming": {
     "kind": "vector",
     "query": "andean terrace farming",
-    "file": "assets/icons/icon_terrace_farming.svg",
+    "file": "assets/icons/icon_terrace_farming.png",
     "normalized": true,
     "color": "magenta",
     "attribution": {
       "source": "streamline:nature-ecology-pine-tree-plant-tree-farming-christmas-nature-plants-pine-environment",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_quipu": {
     "kind": "vector",
     "query": "inca quipu knots",
-    "file": "assets/icons/icon_quipu.svg",
+    "file": "assets/icons/icon_quipu.png",
     "normalized": true,
     "color": "orange",
     "attribution": {
       "source": "streamline:interface-lighting-light-bulb-lighting-light-incandescent-bulb-lights",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_llama": {
     "kind": "vector",
     "query": "llama animal",
-    "file": "assets/icons/icon_llama.svg",
+    "file": "assets/icons/icon_llama.png",
     "normalized": true,
     "color": "magenta",
     "attribution": {
       "source": "streamline:nature-ecology-cat-head-cat-pet-animals-felyne",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_conquest_sword": {
     "kind": "vector",
     "query": "spanish conquistador sword",
-    "file": "assets/icons/icon_conquest_sword.svg",
+    "file": "assets/icons/icon_conquest_sword.png",
     "normalized": true,
     "color": "orange",
     "attribution": {
       "source": "solar:password-minimalistic-input-bold-duotone",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_caravel_ship": {
     "kind": "vector",
     "query": "caravel ship",
-    "file": "assets/icons/icon_caravel_ship.svg",
+    "file": "assets/icons/icon_caravel_ship.png",
     "normalized": true,
     "color": "cyan",
     "attribution": {
       "source": "mingcute:ship-fill",
       "license": "Apache 2.0",
       "url": "https://github.com/Richard9394/MingCute/blob/main/LICENSE"
-    }
+    },
+    "gpt": true
   },
   "icon_silver_coin": {
     "kind": "vector",
     "query": "silver coin",
-    "file": "assets/icons/icon_silver_coin.svg",
+    "file": "assets/icons/icon_silver_coin.png",
     "normalized": true,
     "color": "violet",
     "attribution": {
       "source": "ph:coin-bold",
       "license": "MIT",
       "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
-    }
+    },
+    "gpt": true
   },
   "icon_spanish_language": {
     "kind": "vector",
     "query": "speech bubble",
-    "file": "assets/icons/icon_spanish_language.svg",
+    "file": "assets/icons/icon_spanish_language.png",
     "normalized": true,
     "color": "violet",
     "attribution": {
       "source": "mingcute:speech-fill",
       "license": "Apache 2.0",
       "url": "https://github.com/Richard9394/MingCute/blob/main/LICENSE"
-    }
+    },
+    "gpt": true
   },
   "icon_church": {
     "kind": "vector",
     "query": "church building",
-    "file": "assets/icons/icon_church.svg",
+    "file": "assets/icons/icon_church.png",
     "normalized": true,
     "color": "cyan",
     "attribution": {
       "source": "ph:church-bold",
       "license": "MIT",
       "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
-    }
+    },
+    "gpt": true
   },
   "icon_treaty_line": {
     "kind": "vector",
     "query": "treaty document",
-    "file": "assets/icons/icon_treaty_line.svg",
+    "file": "assets/icons/icon_treaty_line.png",
     "normalized": true,
     "color": "orange",
     "attribution": {
       "source": "solar:document-bold-duotone",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_cultural_mix": {
     "kind": "vector",
     "query": "diverse group of people",
-    "file": "assets/icons/icon_cultural_mix.svg",
+    "file": "assets/icons/icon_cultural_mix.png",
     "normalized": true,
     "color": "magenta",
     "attribution": {
       "source": "solar:users-group-two-rounded-bold-duotone",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "photo_big_ben": {
     "kind": "cutout",
@@ -445,83 +482,1636 @@
   "icon_union_jack": {
     "kind": "vector",
     "query": "Union Jack flag",
-    "file": "assets/icons/icon_union_jack.svg",
+    "file": "assets/icons/icon_union_jack.png",
     "normalized": true,
     "color": "violet",
     "attribution": {
       "source": "solar:flag-bold-duotone",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_railway": {
     "kind": "vector",
     "query": "steam train",
-    "file": "assets/icons/icon_railway.svg",
+    "file": "assets/icons/icon_railway.png",
     "normalized": true,
     "color": "magenta",
     "attribution": {
       "source": "mingcute:steam-fill",
       "license": "Apache 2.0",
       "url": "https://github.com/Richard9394/MingCute/blob/main/LICENSE"
-    }
+    },
+    "gpt": true
   },
   "icon_broken_chain": {
     "kind": "vector",
     "query": "broken chain",
-    "file": "assets/icons/icon_broken_chain.svg",
+    "file": "assets/icons/icon_broken_chain.png",
     "normalized": true,
     "color": "magenta",
     "attribution": {
       "source": "solar:heart-broken-bold-duotone",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_legacy_book": {
     "kind": "vector",
     "query": "open book",
-    "file": "assets/icons/icon_legacy_book.svg",
+    "file": "assets/icons/icon_legacy_book.png",
     "normalized": true,
     "color": "cyan",
     "attribution": {
       "source": "solar:book-bold-duotone",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_justice_scale": {
     "kind": "vector",
     "query": "justice scales",
-    "file": "assets/icons/icon_justice_scale.svg",
+    "file": "assets/icons/icon_justice_scale.png",
     "normalized": true,
     "color": "yellow",
     "attribution": {
       "source": "ph:scales-bold",
       "license": "MIT",
       "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
-    }
+    },
+    "gpt": true
   },
   "icon_trade_routes": {
     "kind": "vector",
     "query": "trade route map",
-    "file": "assets/icons/icon_trade_routes.svg",
+    "file": "assets/icons/icon_trade_routes.png",
     "normalized": true,
     "color": "violet",
     "attribution": {
       "source": "solar:route-bold-duotone",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
-    }
+    },
+    "gpt": true
   },
   "icon_subscribe_bell": {
     "kind": "vector",
     "query": "notification bell",
-    "file": "assets/icons/icon_subscribe_bell.svg",
+    "file": "assets/icons/icon_subscribe_bell.png",
     "normalized": true,
     "color": "green",
     "attribution": {
       "source": "solar:bell-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "gpt": true
+  },
+  "icon_auto_0": {
+    "kind": "vector",
+    "query": "ancient warriors on horseback with swords and shields",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_0.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_1": {
+    "kind": "vector",
+    "query": "ancient map",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_1.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_2": {
+    "kind": "vector",
+    "query": "various ancient empires represented by iconic symbols",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_2.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_3": {
+    "kind": "vector",
+    "query": "Egyptian pyramid",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_3.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_4": {
+    "kind": "vector",
+    "query": "ancient world map highlighting large empires",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_4.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_5": {
+    "kind": "vector",
+    "query": "ancient empires attempting to control known world",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_5.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_6": {
+    "kind": "vector",
+    "query": "Nile River",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_6.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_7": {
+    "kind": "vector",
+    "query": "map showing diverse territories under one empire",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_7.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_8": {
+    "kind": "vector",
+    "query": "ancient law tablet",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_8.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_9": {
+    "kind": "vector",
+    "query": "small ancient village growing into a large empire",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_9.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_10": {
+    "kind": "vector",
+    "query": "crumbling empire",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_10.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_11": {
+    "kind": "vector",
+    "query": "ancient empire falling from internal issues",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_11.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_12": {
+    "kind": "vector",
+    "query": "ancient Egypt along the Nile River",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_12.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_13": {
+    "kind": "vector",
+    "query": "ancient Egyptians measuring Nile flood with nilometer",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_13.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_14": {
+    "kind": "vector",
+    "query": "nilometer",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_14.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_15": {
+    "kind": "vector",
+    "query": "fertile black land of ancient Egypt",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_15.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_16": {
+    "kind": "vector",
+    "query": "desert landscape",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_16.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_17": {
+    "kind": "vector",
+    "query": "Herodotus describing the Nile as a gift",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_17.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_18": {
+    "kind": "vector",
+    "query": "ancient Greek historian",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_18.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_19": {
+    "kind": "vector",
+    "query": "ancient Egyptian pharaoh as a god-king",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_19.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_20": {
+    "kind": "vector",
+    "query": "pharaoh's crown",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_20.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_21": {
+    "kind": "vector",
+    "query": "ancient Egyptian farmers harvesting wheat",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_21.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_22": {
+    "kind": "vector",
+    "query": "wheat field",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_22.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_23": {
+    "kind": "vector",
+    "query": "ancient Egyptian scribes writing hieroglyphs",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_23.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_24": {
+    "kind": "vector",
+    "query": "papyrus scroll",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_24.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_25": {
+    "kind": "vector",
+    "query": "ancient Egyptian bureaucracy using papyrus",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_25.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_26": {
+    "kind": "vector",
+    "query": "construction of ancient Egyptian pyramids and temples",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_26.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_27": {
+    "kind": "vector",
+    "query": "obelisk",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_27.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_28": {
+    "kind": "vector",
+    "query": "ancient Egyptian empire timeline with dynasties",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_28.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_29": {
+    "kind": "vector",
+    "query": "Cleopatra",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_29.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_30": {
+    "kind": "vector",
+    "query": "birth of the Achaemenid Persian Empire",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_30.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_31": {
+    "kind": "vector",
+    "query": "ancient Persian map",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_31.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_32": {
+    "kind": "vector",
+    "query": "Cyrus the Great unifying diverse peoples",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_32.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_33": {
+    "kind": "vector",
+    "query": "ancient Persian soldiers",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_33.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_34": {
+    "kind": "vector",
+    "query": "ancient Persian satrapy system",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_34.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_35": {
+    "kind": "vector",
+    "query": "satrap",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_35.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_36": {
+    "kind": "vector",
+    "query": "map of the Achaemenid Persian Empire",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_36.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_37": {
+    "kind": "vector",
+    "query": "tolerance policy",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_37.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_38": {
+    "kind": "vector",
+    "query": "ancient Persian Royal Road with horse stations",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_38.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_39": {
+    "kind": "vector",
+    "query": "horse station",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_39.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_40": {
+    "kind": "vector",
+    "query": "messenger on horseback crossing the Persian Empire",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_40.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_41": {
+    "kind": "vector",
+    "query": "camel caravan transporting goods in ancient Persia",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_41.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_42": {
+    "kind": "vector",
+    "query": "spices",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_42.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_43": {
+    "kind": "vector",
+    "query": "ancient Persian soldiers clashing with Greek hoplites",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_43.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_44": {
+    "kind": "vector",
+    "query": "battle of Marathon",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_44.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_45": {
+    "kind": "vector",
+    "query": "Alexander the Great conquering the Persian Empire",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_45.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_46": {
+    "kind": "vector",
+    "query": "ancient Macedonian soldiers",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_46.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_47": {
+    "kind": "vector",
+    "query": "ancient Roman Empire symbols and influence",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_47.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_48": {
+    "kind": "vector",
+    "query": "ancient Rome growing from a small city to an empire",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_48.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_49": {
+    "kind": "vector",
+    "query": "Tiber River",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_49.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_50": {
+    "kind": "vector",
+    "query": "Roman Empire at its height under Emperor Trajan",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_50.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_51": {
+    "kind": "vector",
+    "query": "Roman legion",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_51.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_52": {
+    "kind": "vector",
+    "query": "Roman legions marching and building camps",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_52.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_53": {
+    "kind": "vector",
+    "query": "Roman soldier",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_53.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_54": {
+    "kind": "vector",
+    "query": "ancient Roman legal system and laws",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_54.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_55": {
+    "kind": "vector",
+    "query": "Roman law tablet",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_55.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_56": {
+    "kind": "vector",
+    "query": "ancient Roman roads and aqueducts",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_56.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_57": {
+    "kind": "vector",
+    "query": "Roman road",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_57.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_58": {
+    "kind": "vector",
+    "query": "decline of the Roman Empire",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_58.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_59": {
+    "kind": "vector",
+    "query": "internal and external challenges to the Roman Empire",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_59.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_60": {
+    "kind": "vector",
+    "query": "devalued Roman coin",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_60.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_61": {
+    "kind": "vector",
+    "query": "fall of the Western Roman Empire",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_61.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_62": {
+    "kind": "vector",
+    "query": "Rómulo Augustulo",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_62.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_63": {
+    "kind": "vector",
+    "query": "Byzantine Empire surviving after Rome's fall",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_63.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_64": {
+    "kind": "vector",
+    "query": "Constantinople",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_64.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_65": {
+    "kind": "vector",
+    "query": "ancient China under various dynasties",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_65.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_66": {
+    "kind": "vector",
+    "query": "Chinese emperor",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_66.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_67": {
+    "kind": "vector",
+    "query": "rise and fall of Chinese dynasties",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_67.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_68": {
+    "kind": "vector",
+    "query": "Han dynasty",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_68.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_69": {
+    "kind": "vector",
+    "query": "construction of the Great Wall of China",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_69.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_70": {
+    "kind": "vector",
+    "query": "ancient Chinese soldiers",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_70.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_71": {
+    "kind": "vector",
+    "query": "ancient Chinese silk production and trade",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_71.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_72": {
+    "kind": "vector",
+    "query": "silk fabric",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_72.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_73": {
+    "kind": "vector",
+    "query": "ancient China focusing on internal development",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_73.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_74": {
+    "kind": "vector",
+    "query": "Chinese trade",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_74.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_75": {
+    "kind": "vector",
+    "query": "ancient China as the center of trade and culture",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_75.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_76": {
+    "kind": "vector",
+    "query": "Chinese merchant",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_76.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_77": {
+    "kind": "vector",
+    "query": "expansion of the Mongol Empire under Genghis Khan",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_77.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_78": {
+    "kind": "vector",
+    "query": "Mongol warrior",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_78.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_79": {
+    "kind": "vector",
+    "query": "Mongol Empire's vast territory",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_79.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_80": {
+    "kind": "vector",
+    "query": "Mongol horseman",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_80.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_81": {
+    "kind": "vector",
+    "query": "Genghis Khan uniting Mongol tribes",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_81.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_82": {
+    "kind": "vector",
+    "query": "Mongol warrior",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_82.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_83": {
+    "kind": "vector",
+    "query": "Mongol archers on horseback in battle",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_83.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_84": {
+    "kind": "vector",
+    "query": "Mongol bow",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_84.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_85": {
+    "kind": "vector",
+    "query": "Pax Mongolica facilitating trade and travel",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_85.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_86": {
+    "kind": "vector",
+    "query": "Marco Polo",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_86.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_87": {
+    "kind": "vector",
+    "query": "fall of Constantinople to the Ottomans",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_87.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_88": {
+    "kind": "vector",
+    "query": "Mehmed II",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_88.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_89": {
+    "kind": "vector",
+    "query": "rise of the Ottoman Empire",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_89.svg",
+    "normalized": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "solar:thermometer-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_90": {
+    "kind": "vector",
+    "query": "Ottoman map",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_90.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_91": {
+    "kind": "vector",
+    "query": "Ottoman Janissaries in training",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_91.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_92": {
+    "kind": "vector",
+    "query": "devshirme system",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_92.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_93": {
+    "kind": "vector",
+    "query": "Ottoman millet system for religious communities",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_93.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_94": {
+    "kind": "vector",
+    "query": "Christian community",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_94.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_95": {
+    "kind": "vector",
+    "query": "introduction of coffee to the Ottoman Empire",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_95.svg",
+    "normalized": true,
+    "color": "orange",
+    "attribution": {
+      "source": "ph:coffee-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
+  },
+  "icon_auto_96": {
+    "kind": "vector",
+    "query": "coffee beans",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_96.svg",
+    "normalized": true,
+    "color": "violet",
+    "attribution": {
+      "source": "ph:coffee-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
+  },
+  "icon_auto_97": {
+    "kind": "vector",
+    "query": "first public coffee houses in Istanbul",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_97.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "ph:coffee-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
+  },
+  "icon_auto_98": {
+    "kind": "vector",
+    "query": "coffee cup",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_98.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_99": {
+    "kind": "vector",
+    "query": "spread of coffee from the Ottoman Empire to Europe",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_99.svg",
+    "normalized": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:sort-from-bottom-to-top-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_100": {
+    "kind": "vector",
+    "query": "Ottoman naval dominance in the Mediterranean",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_100.svg",
+    "normalized": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "solar:thermometer-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_101": {
+    "kind": "vector",
+    "query": "Ottoman ship",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_101.svg",
+    "normalized": true,
+    "color": "green",
+    "attribution": {
+      "source": "mingcute:ship-fill",
+      "license": "Apache 2.0",
+      "url": "https://github.com/Richard9394/MingCute/blob/main/LICENSE"
+    }
+  },
+  "icon_auto_102": {
+    "kind": "vector",
+    "query": "Inca Empire in the Andes Mountains",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_102.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "ph:mountains-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
+  },
+  "icon_auto_103": {
+    "kind": "vector",
+    "query": "Inca ruler",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_103.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_104": {
+    "kind": "vector",
+    "query": "Inca terraces for agriculture",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_104.svg",
+    "normalized": true,
+    "color": "violet",
+    "attribution": {
+      "source": "solar:rewind-10-seconds-forward-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_105": {
+    "kind": "vector",
+    "query": "Inca farmer",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_105.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "streamline:interface-lighting-light-bulb-lighting-light-incandescent-bulb-lights",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_106": {
+    "kind": "vector",
+    "query": "Inca agricultural terraces",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_106.svg",
+    "normalized": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "streamline:interface-lighting-light-bulb-lighting-light-incandescent-bulb-lights",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_107": {
+    "kind": "vector",
+    "query": "Inca tools",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_107.svg",
+    "normalized": true,
+    "color": "green",
+    "attribution": {
+      "source": "streamline:interface-setting-hammer-construction-hammer-mallet-tool-tools-setting-edit-adjust",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_108": {
+    "kind": "vector",
+    "query": "Inca quipu system for record-keeping",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_108.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "solar:record-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_109": {
+    "kind": "vector",
+    "query": "quipu",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_109.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_110": {
+    "kind": "vector",
+    "query": "Inca llamas used for transportation",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_110.svg",
+    "normalized": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:rewind-10-seconds-forward-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_111": {
+    "kind": "vector",
+    "query": "llama",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_111.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_112": {
+    "kind": "vector",
+    "query": "Spanish conquest of the Inca Empire",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_112.svg",
+    "normalized": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:thermometer-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_113": {
+    "kind": "icon",
+    "query": "Francisco Pizarro",
+    "auto": true,
+    "big": false,
+    "file": null
+  },
+  "icon_auto_114": {
+    "kind": "vector",
+    "query": "Spanish ships discovering the Americas",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_114.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:thermometer-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_115": {
+    "kind": "icon",
+    "query": "La Pinta",
+    "auto": true,
+    "big": false,
+    "file": null
+  },
+  "icon_auto_116": {
+    "kind": "vector",
+    "query": "Potosí silver mine in the Spanish Empire",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_116.svg",
+    "normalized": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:thermometer-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_117": {
+    "kind": "vector",
+    "query": "silver coins",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_117.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "ph:coins-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
+  },
+  "icon_auto_118": {
+    "kind": "vector",
+    "query": "global reach of the Spanish Empire",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_118.svg",
+    "normalized": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:global-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_119": {
+    "kind": "icon",
+    "query": "Spanish galleon",
+    "auto": true,
+    "big": false,
+    "file": null
+  },
+  "icon_auto_120": {
+    "kind": "vector",
+    "query": "Spanish language influence worldwide",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_120.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "streamline:dictionary-language-book-solid",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_121": {
+    "kind": "vector",
+    "query": "Spanish dictionary",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_121.svg",
+    "normalized": true,
+    "color": "orange",
+    "attribution": {
+      "source": "streamline:dictionary-language-book-solid",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_122": {
+    "kind": "icon",
+    "query": "Spanish colonial architecture",
+    "auto": true,
+    "big": true,
+    "file": null
+  },
+  "icon_auto_123": {
+    "kind": "vector",
+    "query": "borders and cultures formed by Spanish colonization",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_123.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:magic-wand-2-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_124": {
+    "kind": "vector",
+    "query": "mestizo culture",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_124.svg",
+    "normalized": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "streamline:religion-cross-1-religion-cross-culture-bold",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_125": {
+    "kind": "vector",
+    "query": "British Empire's global influence",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_125.svg",
+    "normalized": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:global-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_126": {
+    "kind": "vector",
+    "query": "British flag",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_126.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "solar:flag-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_127": {
+    "kind": "vector",
+    "query": "British East India Company trading and conquering",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_127.svg",
+    "normalized": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:magic-wand-2-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_128": {
+    "kind": "vector",
+    "query": "British soldier",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_128.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_129": {
+    "kind": "vector",
+    "query": "British Empire at its peak in 1920",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_129.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:smart-speaker-minimalistic-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_130": {
+    "kind": "vector",
+    "query": "British map",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_130.svg",
+    "normalized": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:map-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_131": {
+    "kind": "vector",
+    "query": "legacy of the British Empire",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_131.svg",
+    "normalized": true,
+    "color": "violet",
+    "attribution": {
+      "source": "solar:thermometer-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_132": {
+    "kind": "vector",
+    "query": "railway",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_132.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_133": {
+    "kind": "vector",
+    "query": "decolonization after World War II",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_133.svg",
+    "normalized": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "solar:rewind-10-seconds-forward-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_134": {
+    "kind": "icon",
+    "query": "Gandhi",
+    "auto": true,
+    "big": false,
+    "file": null
+  },
+  "icon_auto_135": {
+    "kind": "vector",
+    "query": "independence of India and African nations",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_135.svg",
+    "normalized": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "solar:magic-wand-2-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_136": {
+    "kind": "vector",
+    "query": "Indian flag",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_136.svg",
+    "normalized": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:flag-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_137": {
+    "kind": "vector",
+    "query": "decline of the British Empire",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_137.svg",
+    "normalized": true,
+    "color": "violet",
+    "attribution": {
+      "source": "solar:thermometer-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_138": {
+    "kind": "vector",
+    "query": "British crown",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_138.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:crown-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_139": {
+    "kind": "vector",
+    "query": "languages and words inherited from ancient empires",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_139.svg",
+    "normalized": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "solar:sort-from-bottom-to-top-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_140": {
+    "kind": "vector",
+    "query": "language map",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_140.svg",
+    "normalized": true,
+    "color": "violet",
+    "attribution": {
+      "source": "solar:map-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_141": {
+    "kind": "vector",
+    "query": "legal and political systems from ancient empires",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_141.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:sort-from-bottom-to-top-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_142": {
+    "kind": "vector",
+    "query": "legal scroll",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_142.svg",
+    "normalized": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "ph:scroll-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
+  },
+  "icon_auto_143": {
+    "kind": "vector",
+    "query": "ancient trade routes connecting continents",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_143.svg",
+    "normalized": true,
+    "color": "green",
+    "attribution": {
+      "source": "ph:trademark-registered-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
+  },
+  "icon_auto_144": {
+    "kind": "vector",
+    "query": "silk road",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_144.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "icon_auto_145": {
+    "kind": "vector",
+    "query": "rise and fall of ancient empires",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_145.svg",
+    "normalized": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:cloud-snowfall-minimalistic-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_146": {
+    "kind": "vector",
+    "query": "empire map",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_146.svg",
+    "normalized": true,
+    "color": "violet",
+    "attribution": {
+      "source": "solar:map-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_147": {
+    "kind": "vector",
+    "query": "future of global powers and their legacies",
+    "auto": true,
+    "big": true,
+    "file": "assets/icons/icon_auto_147.svg",
+    "normalized": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:global-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "icon_auto_148": {
+    "kind": "vector",
+    "query": "modern map",
+    "auto": true,
+    "big": false,
+    "file": "assets/icons/icon_auto_148.svg",
+    "normalized": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "solar:map-bold-duotone",
       "license": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/"
     }
