@@ -7,8 +7,7 @@ on:
         description: "Generar un VÍDEO NUEVO (coge el siguiente tema de topics.json y Claude escribe el guion). Desmarca solo para re-renderizar el episodio activo."
         type: boolean
         default: true
-  schedule:
-    - cron: "0 6 * * *"   # cada día a las 06:00 UTC (nuevo vídeo automático)
+  # (schedule diario retirado a petición del usuario: los vídeos se lanzan a mano)
 
 permissions:
   contents: write   # para guardar el avance del tema (topics.json + episodes/) tras cada run
