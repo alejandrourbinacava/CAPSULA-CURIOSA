@@ -2,30 +2,48 @@
   "skull-icon": {
     "kind": "vector",
     "query": "skull and crossbones",
-    "file": "assets/icons/skull-icon.png",
+    "file": "assets/icons/skull-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "ph:skull-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "prev-mosquito": {
     "kind": "vector",
     "query": "mosquito icon",
-    "file": "assets/icons/prev-mosquito.png",
+    "file": null,
     "normalized": true,
     "gpt": true
   },
   "prev-snake": {
     "kind": "vector",
     "query": "snake icon",
-    "file": "assets/icons/prev-snake.png",
+    "file": "assets/icons/prev-snake.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "streamline:interface-arrows-curvy-left-snake-arrow-sideways-diagram-left",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "prev-human": {
     "kind": "vector",
     "query": "person silhouette icon",
-    "file": "assets/icons/prev-human.png",
+    "file": "assets/icons/prev-human.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "ph:person-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "photo-mosquito": {
     "kind": "cutout",
@@ -35,18 +53,24 @@
   "malaria-icon": {
     "kind": "vector",
     "query": "malaria parasite plasmodium",
-    "file": "assets/icons/malaria-icon.png",
+    "file": null,
     "normalized": true,
     "gpt": true
   },
   "clip-mosquito-fly": {
     "kind": "clip",
-    "query": "mosquito flying macro"
+    "query": "mosquito flying macro",
+    "file": "assets/clips/clip-mosquito-fly.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "How TO",
+      "url": "https://www.pexels.com/video/a-close-up-shot-of-an-insect-on-a-leaf-4095318/"
+    }
   },
   "co2-icon": {
     "kind": "vector",
     "query": "carbon dioxide molecule icon",
-    "file": "assets/icons/co2-icon.png",
+    "file": null,
     "normalized": true,
     "gpt": true
   },
@@ -58,27 +82,45 @@
   "venom-icon": {
     "kind": "vector",
     "query": "snake venom drop",
-    "file": "assets/icons/venom-icon.png",
+    "file": "assets/icons/venom-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "ph:drop-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "antivenom-icon": {
     "kind": "vector",
     "query": "antivenom vial",
-    "file": "assets/icons/antivenom-icon.png",
+    "file": null,
     "normalized": true,
     "gpt": true
   },
   "clip-snake-strike": {
     "kind": "clip",
-    "query": "snake strike slow motion"
+    "query": "snake strike slow motion",
+    "file": "assets/clips/clip-snake-strike.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Muhammadrizwan Saeed",
+      "url": "https://www.pexels.com/video/nature-animal-lizard-reptile-4106826/"
+    }
   },
   "map-india-icon": {
     "kind": "vector",
     "query": "India map outline",
-    "file": "assets/icons/map-india-icon.png",
+    "file": "assets/icons/map-india-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:map-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "photo-dog": {
     "kind": "cutout",
@@ -88,30 +130,54 @@
   "rabies-icon": {
     "kind": "vector",
     "query": "rabies virus",
-    "file": "assets/icons/rabies-icon.png",
+    "file": "assets/icons/rabies-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:virus-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "warning-icon": {
     "kind": "vector",
     "query": "warning triangle sign",
-    "file": "assets/icons/warning-icon.png",
+    "file": "assets/icons/warning-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "ph:warning-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "vaccine-icon": {
     "kind": "vector",
     "query": "vaccine syringe",
-    "file": "assets/icons/vaccine-icon.png",
+    "file": "assets/icons/vaccine-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "violet",
+    "attribution": {
+      "source": "solar:syringe-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "pasteur-icon": {
     "kind": "vector",
     "query": "Louis Pasteur portrait illustration",
-    "file": "assets/icons/pasteur-icon.png",
+    "file": "assets/icons/pasteur-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "streamline:ai-generate-portrait-image-spark-solid",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "photo-tsetse": {
     "kind": "cutout",
@@ -121,20 +187,38 @@
   "sleep-icon": {
     "kind": "vector",
     "query": "sleeping mask icon",
-    "file": "assets/icons/sleep-icon.png",
+    "file": "assets/icons/sleep-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "solar:sleeping-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "gif-shocked": {
     "kind": "gif",
-    "query": "shocked reaction"
+    "query": "shocked reaction",
+    "file": "assets/gifs/gif-shocked.gif",
+    "origin": {
+      "source": "Giphy",
+      "credit": "the_nseven",
+      "url": "https://giphy.com/gifs/crazy-surprise-thenseven-IYjcAIri8C7f8LvLor"
+    }
   },
   "map-africa-icon": {
     "kind": "vector",
     "query": "Africa map silhouette",
-    "file": "assets/icons/map-africa-icon.png",
+    "file": "assets/icons/map-africa-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "solar:map-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "photo-crocodile": {
     "kind": "cutout",
@@ -158,14 +242,26 @@
   },
   "clip-hippo-charge": {
     "kind": "clip",
-    "query": "hippo charging water"
+    "query": "hippo charging water",
+    "file": "assets/clips/clip-hippo-charge.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Joolsmagools  ®️",
+      "url": "https://www.pexels.com/video/hippos-25921348/"
+    }
   },
   "sweat-icon": {
     "kind": "vector",
     "query": "red liquid droplet skin",
-    "file": "assets/icons/sweat-icon.png",
+    "file": "assets/icons/sweat-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "green",
+    "attribution": {
+      "source": "streamline:reduced-inequalities-solid",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "photo-jellyfish": {
     "kind": "cutout",
@@ -175,7 +271,7 @@
   "tentacle-icon": {
     "kind": "vector",
     "query": "jellyfish tentacle",
-    "file": "assets/icons/tentacle-icon.png",
+    "file": null,
     "normalized": true,
     "gpt": true
   },
@@ -192,72 +288,126 @@
   "musth-icon": {
     "kind": "vector",
     "query": "elephant head icon",
-    "file": "assets/icons/musth-icon.png",
+    "file": "assets/icons/musth-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "solar:headphones-square-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "tips-icon": {
     "kind": "vector",
     "query": "lightbulb idea icon",
-    "file": "assets/icons/tips-icon.png",
+    "file": "assets/icons/tips-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:lightbulb-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "net-icon": {
     "kind": "vector",
     "query": "mosquito net",
-    "file": "assets/icons/net-icon.png",
+    "file": "assets/icons/net-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "violet",
+    "attribution": {
+      "source": "solar:magnet-wave-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "boots-icon": {
     "kind": "vector",
     "query": "rubber boots",
-    "file": "assets/icons/boots-icon.png",
+    "file": "assets/icons/boots-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "streamline:interface-edit-brush-4-design-rubber-stamp-supplies-tool",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "vaccine-icon-dog": {
     "kind": "vector",
     "query": "dog vaccination",
-    "file": "assets/icons/vaccine-icon-dog.png",
+    "file": "assets/icons/vaccine-icon-dog.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "orange",
+    "attribution": {
+      "source": "ph:dog-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "repellent-icon": {
     "kind": "vector",
     "query": "insect repellent spray",
-    "file": "assets/icons/repellent-icon.png",
+    "file": "assets/icons/repellent-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "violet",
+    "attribution": {
+      "source": "ph:spray-bottle-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "binoculars-icon": {
     "kind": "vector",
     "query": "binoculars",
-    "file": "assets/icons/binoculars-icon.png",
+    "file": "assets/icons/binoculars-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "green",
+    "attribution": {
+      "source": "ph:binoculars-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "boat-icon": {
     "kind": "vector",
     "query": "small boat",
-    "file": "assets/icons/boat-icon.png",
+    "file": "assets/icons/boat-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "green",
+    "attribution": {
+      "source": "ph:boat-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "wetsuit-icon": {
     "kind": "vector",
     "query": "wetsuit",
-    "file": "assets/icons/wetsuit-icon.png",
+    "file": null,
     "normalized": true,
     "gpt": true
   },
   "distance-icon": {
     "kind": "vector",
     "query": "keep distance sign",
-    "file": "assets/icons/distance-icon.png",
+    "file": "assets/icons/distance-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "solar:signpost-2-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "photo-shark": {
     "kind": "cutout",
@@ -267,39 +417,69 @@
   "mosquito-real-icon": {
     "kind": "vector",
     "query": "mosquito silhouette",
-    "file": "assets/icons/mosquito-real-icon.png",
+    "file": "assets/icons/mosquito-real-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "green",
+    "attribution": {
+      "source": "streamline:interface-id-user-identification-angle-secure-human-id-person-face-silhouette-security-brackets",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "scale-icon": {
     "kind": "vector",
     "query": "balance scale icon",
-    "file": "assets/icons/scale-icon.png",
+    "file": "assets/icons/scale-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:scale-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "subscribe-icon": {
     "kind": "vector",
     "query": "subscribe bell button",
-    "file": "assets/icons/subscribe-icon.png",
+    "file": "assets/icons/subscribe-icon.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:bell-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_0": {
     "kind": "vector",
     "query": "silhouette of a small, harmless-looking animal with a question mark",
     "auto": true,
-    "file": "assets/icons/icon_auto_0.png",
+    "file": "assets/icons/icon_auto_0.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:bookmark-square-minimalistic-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_1": {
     "kind": "vector",
     "query": "shark, lion, and crocodile in a movie poster style",
     "auto": true,
-    "file": "assets/icons/icon_auto_1.png",
+    "file": "assets/icons/icon_auto_1.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "violet",
+    "attribution": {
+      "source": "solar:magic-wand-2-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_2": {
     "kind": "vector",
@@ -318,33 +498,57 @@
     "kind": "vector",
     "query": "people watching a horror movie with scared expressions",
     "auto": true,
-    "file": "assets/icons/icon_auto_3.png",
+    "file": "assets/icons/icon_auto_3.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "solar:people-nearby-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_4": {
     "kind": "vector",
     "query": "person looking surprised at a list of dangerous animals",
     "auto": true,
-    "file": "assets/icons/icon_auto_4.png",
+    "file": "assets/icons/icon_auto_4.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:list-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_5": {
     "kind": "vector",
     "query": "various dangerous animals from movies with a red cross over them",
     "auto": true,
-    "file": "assets/icons/icon_auto_5.png",
+    "file": "assets/icons/icon_auto_5.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "solar:list-cross-minimalistic-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_6": {
     "kind": "vector",
     "query": "lion, bear, and large snake with a red cross over them",
     "auto": true,
-    "file": "assets/icons/icon_auto_6.png",
+    "file": "assets/icons/icon_auto_6.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:dumbbell-large-minimalistic-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_7": {
     "kind": "cutout",
@@ -356,17 +560,29 @@
     "kind": "vector",
     "query": "mosquito in a bedroom at night",
     "auto": true,
-    "file": "assets/icons/icon_auto_8.png",
+    "file": "assets/icons/icon_auto_8.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "streamline:chess-knight-solid",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_9": {
     "kind": "vector",
     "query": "mosquito with a backdrop of war scenes",
     "auto": true,
-    "file": "assets/icons/icon_auto_9.png",
+    "file": "assets/icons/icon_auto_9.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "solar:rewind-10-seconds-forward-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_10": {
     "kind": "cutout",
@@ -378,81 +594,141 @@
     "kind": "vector",
     "query": "mosquito with a globe showing different species",
     "auto": true,
-    "file": "assets/icons/icon_auto_11.png",
+    "file": "assets/icons/icon_auto_11.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:globe-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_12": {
     "kind": "vector",
     "query": "mosquito biting with viruses and parasites inside",
     "auto": true,
-    "file": "assets/icons/icon_auto_12.png",
+    "file": "assets/icons/icon_auto_12.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "violet",
+    "attribution": {
+      "source": "solar:folder-with-files-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_13": {
     "kind": "vector",
     "query": "mosquito attracted to a human by heat and carbon dioxide",
     "auto": true,
-    "file": "assets/icons/icon_auto_13.png",
+    "file": "assets/icons/icon_auto_13.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:magic-wand-2-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_14": {
     "kind": "vector",
     "query": "timeline showing mosquito evolution over 100 million years",
     "auto": true,
-    "file": "assets/icons/icon_auto_14.png",
+    "file": "assets/icons/icon_auto_14.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "mingcute:timeline-fill",
+      "license": "Apache 2.0",
+      "url": "https://github.com/Richard9394/MingCute/blob/main/LICENSE"
+    }
   },
   "icon_auto_15": {
     "kind": "vector",
     "query": "mosquito with dinosaurs in the background",
     "auto": true,
-    "file": "assets/icons/icon_auto_15.png",
+    "file": "assets/icons/icon_auto_15.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:folder-with-files-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_16": {
     "kind": "vector",
     "query": "mosquito anopheles with malaria symbol",
     "auto": true,
-    "file": "assets/icons/icon_auto_16.png",
+    "file": "assets/icons/icon_auto_16.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "solar:folder-with-files-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_17": {
     "kind": "vector",
     "query": "map of Sub-Saharan Africa with children",
     "auto": true,
-    "file": "assets/icons/icon_auto_17.png",
+    "file": "assets/icons/icon_auto_17.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:map-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_18": {
     "kind": "vector",
     "query": "clock showing two minutes with a child silhouette",
     "auto": true,
-    "file": "assets/icons/icon_auto_18.png",
+    "file": "assets/icons/icon_auto_18.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "violet",
+    "attribution": {
+      "source": "ph:clock-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "icon_auto_19": {
     "kind": "vector",
     "query": "mosquito with symbols of dengue, yellow fever, chikungunya, and zika",
     "auto": true,
-    "file": "assets/icons/icon_auto_19.png",
+    "file": "assets/icons/icon_auto_19.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:folder-with-files-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_20": {
     "kind": "vector",
     "query": "vaccines, mosquito nets, and repellents",
     "auto": true,
-    "file": "assets/icons/icon_auto_20.png",
+    "file": "assets/icons/icon_auto_20.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:magic-wand-2-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_21": {
     "kind": "cutout",
@@ -464,17 +740,29 @@
     "kind": "vector",
     "query": "king cobra with a venom symbol",
     "auto": true,
-    "file": "assets/icons/icon_auto_22.png",
+    "file": "assets/icons/icon_auto_22.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:hiking-minimalistic-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_23": {
     "kind": "vector",
     "query": "king cobra in Australian outback",
     "auto": true,
-    "file": "assets/icons/icon_auto_23.png",
+    "file": "assets/icons/icon_auto_23.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "solar:hiking-minimalistic-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_24": {
     "kind": "cutout",
@@ -486,25 +774,43 @@
     "kind": "vector",
     "query": "black mamba camouflaged in grass near a farm",
     "auto": true,
-    "file": "assets/icons/icon_auto_25.png",
+    "file": "assets/icons/icon_auto_25.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "solar:black-hole-2-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_26": {
     "kind": "vector",
     "query": "black mamba with a clock showing one hour",
     "auto": true,
-    "file": "assets/icons/icon_auto_26.png",
+    "file": "assets/icons/icon_auto_26.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:black-hole-2-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_27": {
     "kind": "vector",
     "query": "black mamba showing its black mouth",
     "auto": true,
-    "file": "assets/icons/icon_auto_27.png",
+    "file": "assets/icons/icon_auto_27.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "violet",
+    "attribution": {
+      "source": "solar:black-hole-2-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_28": {
     "kind": "vector",
@@ -523,41 +829,71 @@
     "kind": "vector",
     "query": "snake fangs injecting venom",
     "auto": true,
-    "file": "assets/icons/icon_auto_29.png",
+    "file": "assets/icons/icon_auto_29.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "streamline:interface-arrows-curvy-left-snake-arrow-sideways-diagram-left",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_30": {
     "kind": "vector",
     "query": "diagram of venom effects on the body",
     "auto": true,
-    "file": "assets/icons/icon_auto_30.png",
+    "file": "assets/icons/icon_auto_30.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "violet",
+    "attribution": {
+      "source": "solar:body-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_31": {
     "kind": "vector",
     "query": "person bitten by a snake staying calm",
     "auto": true,
-    "file": "assets/icons/icon_auto_31.png",
+    "file": "assets/icons/icon_auto_31.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "ph:person-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "icon_auto_32": {
     "kind": "vector",
     "query": "diagram showing venom spreading through the lymphatic system",
     "auto": true,
-    "file": "assets/icons/icon_auto_32.png",
+    "file": "assets/icons/icon_auto_32.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "solar:diagram-down-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_33": {
     "kind": "vector",
     "query": "person staying calm after a snake bite",
     "auto": true,
-    "file": "assets/icons/icon_auto_33.png",
+    "file": "assets/icons/icon_auto_33.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "green",
+    "attribution": {
+      "source": "ph:person-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "icon_auto_34": {
     "kind": "cutout",
@@ -569,17 +905,29 @@
     "kind": "vector",
     "query": "box jellyfish with a venom symbol",
     "auto": true,
-    "file": "assets/icons/icon_auto_35.png",
+    "file": "assets/icons/icon_auto_35.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:box-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_36": {
     "kind": "vector",
     "query": "box jellyfish near Australian coast",
     "auto": true,
-    "file": "assets/icons/icon_auto_36.png",
+    "file": "assets/icons/icon_auto_36.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "violet",
+    "attribution": {
+      "source": "solar:box-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_37": {
     "kind": "vector",
@@ -598,41 +946,71 @@
     "kind": "vector",
     "query": "person stung by a jellyfish looking for help",
     "auto": true,
-    "file": "assets/icons/icon_auto_38.png",
+    "file": "assets/icons/icon_auto_38.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "solar:help-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_39": {
     "kind": "vector",
     "query": "person pouring urine on a jellyfish sting",
     "auto": true,
-    "file": "assets/icons/icon_auto_39.png",
+    "file": "assets/icons/icon_auto_39.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "green",
+    "attribution": {
+      "source": "ph:person-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "icon_auto_40": {
     "kind": "vector",
     "query": "person in pain after jellyfish sting",
     "auto": true,
-    "file": "assets/icons/icon_auto_40.png",
+    "file": "assets/icons/icon_auto_40.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "ph:person-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "icon_auto_41": {
     "kind": "vector",
     "query": "person pouring vinegar on a jellyfish sting",
     "auto": true,
-    "file": "assets/icons/icon_auto_41.png",
+    "file": "assets/icons/icon_auto_41.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "ph:person-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "icon_auto_42": {
     "kind": "vector",
     "query": "vinegar bottle next to a lifeguard flag on a beach",
     "auto": true,
-    "file": "assets/icons/icon_auto_42.png",
+    "file": "assets/icons/icon_auto_42.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:bottle-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_43": {
     "kind": "cutout",
@@ -644,49 +1022,85 @@
     "kind": "vector",
     "query": "crocodile submerged with eyes and nose above water",
     "auto": true,
-    "file": "assets/icons/icon_auto_44.png",
+    "file": "assets/icons/icon_auto_44.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:water-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_45": {
     "kind": "vector",
     "query": "people crossing a river with a crocodile nearby",
     "auto": true,
-    "file": "assets/icons/icon_auto_45.png",
+    "file": "assets/icons/icon_auto_45.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "violet",
+    "attribution": {
+      "source": "solar:people-nearby-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_46": {
     "kind": "vector",
     "query": "large crocodile with a ruler showing 6 meters",
     "auto": true,
-    "file": "assets/icons/icon_auto_46.png",
+    "file": "assets/icons/icon_auto_46.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:ruler-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_47": {
     "kind": "vector",
     "query": "crocodile biting with pressure symbol",
     "auto": true,
-    "file": "assets/icons/icon_auto_47.png",
+    "file": "assets/icons/icon_auto_47.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "solar:folder-with-files-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_48": {
     "kind": "vector",
     "query": "crocodile performing death roll underwater",
     "auto": true,
-    "file": "assets/icons/icon_auto_48.png",
+    "file": "assets/icons/icon_auto_48.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:remote-controller-minimalistic-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_49": {
     "kind": "vector",
     "query": "person holding crocodile's mouth shut",
     "auto": true,
-    "file": "assets/icons/icon_auto_49.png",
+    "file": "assets/icons/icon_auto_49.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "ph:person-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "icon_auto_50": {
     "kind": "cutout",
@@ -698,23 +1112,35 @@
     "kind": "vector",
     "query": "hippopotamus running on land",
     "auto": true,
-    "file": "assets/icons/icon_auto_51.png",
+    "file": "assets/icons/icon_auto_51.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:running-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_52": {
     "kind": "vector",
     "query": "hippopotamus attacking with open mouth",
     "auto": true,
-    "file": "assets/icons/icon_auto_52.png",
+    "file": "assets/icons/icon_auto_52.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "solar:clapperboard-open-play-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_53": {
     "kind": "vector",
     "query": "hippopotamus grazing peacefully",
     "auto": true,
-    "file": "assets/icons/icon_auto_53.png",
+    "file": null,
     "normalized": true,
     "gpt": true
   },
@@ -722,17 +1148,29 @@
     "kind": "vector",
     "query": "hippopotamus tipping over a canoe",
     "auto": true,
-    "file": "assets/icons/icon_auto_54.png",
+    "file": "assets/icons/icon_auto_54.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "violet",
+    "attribution": {
+      "source": "ph:stack-overflow-logo-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "icon_auto_55": {
     "kind": "vector",
     "query": "hippopotamus making a loud snort",
     "auto": true,
-    "file": "assets/icons/icon_auto_55.png",
+    "file": "assets/icons/icon_auto_55.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:cloud-snowfall-minimalistic-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_56": {
     "kind": "cutout",
@@ -744,112 +1182,196 @@
     "kind": "vector",
     "query": "virus traveling through nerves to the brain",
     "auto": true,
-    "file": "assets/icons/icon_auto_57.png",
+    "file": "assets/icons/icon_auto_57.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:virus-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_58": {
     "kind": "vector",
     "query": "person showing rabies symptoms",
     "auto": true,
-    "file": "assets/icons/icon_auto_58.png",
+    "file": "assets/icons/icon_auto_58.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "ph:person-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "icon_auto_59": {
     "kind": "vector",
     "query": "veterinarian vaccinating a dog",
     "auto": true,
-    "file": "assets/icons/icon_auto_59.png",
+    "file": "assets/icons/icon_auto_59.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "orange",
+    "attribution": {
+      "source": "ph:dog-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "icon_auto_60": {
     "kind": "vector",
     "query": "map showing rabies deaths in Asia and Africa",
     "auto": true,
-    "file": "assets/icons/icon_auto_60.png",
+    "file": "assets/icons/icon_auto_60.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:map-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_61": {
     "kind": "vector",
     "query": "children playing with stray dogs",
     "auto": true,
-    "file": "assets/icons/icon_auto_61.png",
+    "file": "assets/icons/icon_auto_61.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "solar:folder-with-files-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_62": {
     "kind": "vector",
     "query": "various dangerous animals with a tally of human deaths",
     "auto": true,
-    "file": "assets/icons/icon_auto_62.png",
+    "file": "assets/icons/icon_auto_62.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "orange",
+    "attribution": {
+      "source": "solar:folder-with-files-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_63": {
     "kind": "vector",
     "query": "shark with a small number of deaths compared to other animals",
     "auto": true,
-    "file": "assets/icons/icon_auto_63.png",
+    "file": "assets/icons/icon_auto_63.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "violet",
+    "attribution": {
+      "source": "solar:folder-with-files-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_64": {
     "kind": "vector",
     "query": "humans in conflict, accidents, and violence",
     "auto": true,
-    "file": "assets/icons/icon_auto_64.png",
+    "file": "assets/icons/icon_auto_64.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "yellow",
+    "attribution": {
+      "source": "solar:magic-wand-2-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_65": {
     "kind": "vector",
     "query": "uncomfortable statistic chart",
     "auto": true,
-    "file": "assets/icons/icon_auto_65.png",
+    "file": "assets/icons/icon_auto_65.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "magenta",
+    "attribution": {
+      "source": "solar:chart-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_66": {
     "kind": "vector",
     "query": "human silhouette with dangerous animals around",
     "auto": true,
-    "file": "assets/icons/icon_auto_66.png",
+    "file": "assets/icons/icon_auto_66.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "green",
+    "attribution": {
+      "source": "solar:folder-with-files-bold-duotone",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_67": {
     "kind": "vector",
     "query": "person on a beach with mosquito repellent and a vaccinated dog",
     "auto": true,
-    "file": "assets/icons/icon_auto_67.png",
+    "file": "assets/icons/icon_auto_67.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "ph:person-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "icon_auto_68": {
     "kind": "vector",
     "query": "person clicking subscribe button on a computer",
     "auto": true,
-    "file": "assets/icons/icon_auto_68.png",
+    "file": "assets/icons/icon_auto_68.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "orange",
+    "attribution": {
+      "source": "ph:person-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   },
   "icon_auto_69": {
     "kind": "vector",
     "query": "silhouette of a mysterious intelligent animal",
     "auto": true,
-    "file": "assets/icons/icon_auto_69.png",
+    "file": "assets/icons/icon_auto_69.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "violet",
+    "attribution": {
+      "source": "streamline:nature-ecology-cat-head-cat-pet-animals-felyne",
+      "license": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   "icon_auto_70": {
     "kind": "vector",
     "query": "person waving goodbye",
     "auto": true,
-    "file": "assets/icons/icon_auto_70.png",
+    "file": "assets/icons/icon_auto_70.svg",
     "normalized": true,
-    "gpt": true
+    "gpt": true,
+    "color": "cyan",
+    "attribution": {
+      "source": "ph:person-bold",
+      "license": "MIT",
+      "url": "https://github.com/phosphor-icons/core/blob/main/LICENSE"
+    }
   }
 }
