@@ -17,9 +17,9 @@
     "family": "Patrick Hand",
     "fallback": "Caveat, Gloria Hallelujah, sans-serif",
     "sizes": {
-      "sm": 32,
+      "sm": 38,
       "md": 48,
-      "lg": 72,
+      "lg": 64,
       "title": 96
     },
     "titleUnderline": true

@@ -5,7 +5,7 @@
 // Uso: node scripts/verify.mjs episodes/<slug>
 import fs from "node:fs";
 import path from "node:path";
-import { W, H, ZONES, MAXTEXT, TEXT_TYPES, bboxOf, interArea, area, outOfFrame, isStructural, isPhoto } from "./geometry.mjs";
+import { W, H, ZONES, MAXTEXT, TEXT_TYPES, FS, bboxOf, interArea, area, outOfFrame, isStructural, isPhoto } from "./geometry.mjs";
 
 const dir = process.argv[2] || (fs.existsSync("episodes/active.txt") ? fs.readFileSync("episodes/active.txt", "utf8").trim() : "episodes/test-cpu");
 const scenes = JSON.parse(fs.readFileSync(path.join(dir, "scenes.json"), "utf8"));
@@ -53,8 +53,16 @@ for (const fr of frames) {
   if (dyn > 4) fails.push({ t: fr.t, kind: "total", msg: `${dyn} elementos dinámicos simultáneos (máximo 4)` });
 }
 
+// --- comprobaciones a NIVEL ELEMENTO (MATERIAL.md): ninguna imagen > 15s; ningún texto < 34px ---
+for (const e of scenes.elements) {
+  if ((e.type === "image" || e.type === "clip" || e.type === "gif") && e.box && !isStructural(e) && (e.out - e.in) > 15.1)
+    fails.push({ t: e.in, kind: "15s", msg: `imagen "${e.id}" ${(e.out - e.in).toFixed(0)}s en pantalla (máx 15s — cámbiala o mete otra)` });
+  if (TEXT_TYPES.has(e.type) && e.type !== "stat") { const fs = e.fontSize || FS[e.size] || FS.md; if (fs < 34) fails.push({ t: e.in, kind: "texto-pequeño", msg: `"${e.id}" texto a ${fs}px (mínimo 34px, no se lee en miniatura)` }); }
+}
+
 // --- informe ---
-const HARD = new Set(["texto-texto", "zona", "n-textos", "fuera", "img-img", "total"]);
+// "15s" queda como AVISO (no bloquea) hasta que esté la rotación de imágenes; el resto son duros.
+const HARD = new Set(["texto-texto", "zona", "n-textos", "fuera", "img-img", "total", "texto-pequeño"]);
 const hard = fails.filter(f => HARD.has(f.kind));
 const shown = fails.slice(0, 25);
 for (const f of shown) console.log(`✗ ${ts(f.t)}  ${f.msg}\n`);

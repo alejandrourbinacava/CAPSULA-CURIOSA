@@ -122,7 +122,7 @@ for (const sec of sections) {
   }
   if (badgeId && assetFile(badgeId)) elements.push({ id: "badge_" + autoId++, type: "image", kind: "logo", src: assetFile(badgeId), box: boxOf("x", "corner-badge"), z: 70, in: sec.t0, out: secEnd, enter: { kind: "fade-in", duration: 0.4 } });
   if (sec.label) {
-    if (badgeId) { const blFs = Math.min(28, Math.max(14, Math.floor(300 / Math.max(1, (sec.label || "").length * 0.5)))); elements.push({ id: "blabel_" + autoId++, type: "text", content: sec.label, structural: true, fontSize: blFs, box: { cx: 175, cy: 205, w: 320, h: 60 }, color: STROKE, size: "sm", z: 71, in: sec.t0 + 0.1, out: secEnd, enter: { kind: "fade-in", duration: 0.3 } }); }
+    // (sin rótulo bajo el badge: el título de sección ya persiste y nombra el imperio; evita texto < 34px)
     const titleFs = Math.min(96, Math.floor(1200 / Math.max(1, (sec.label || "").length * 0.6))); // cabe en la zona del título
     elements.push({ id: "title_" + autoId++, type: "title", content: sec.label, structural: true, fontSize: titleFs, box: { cx: 960, cy: 120, w: 1240, h: 150 }, color: STROKE, size: "title", underline: true, z: 62, in: sec.t0, out: secEnd, enter: { kind: "handwrite", duration: 0.6 } });
   }
