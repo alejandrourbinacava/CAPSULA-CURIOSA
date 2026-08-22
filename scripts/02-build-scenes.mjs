@@ -49,7 +49,30 @@ let words = [];
 if (fs.existsSync(path.join(dir, "words.json"))) words = JSON.parse(fs.readFileSync(path.join(dir, "words.json"), "utf8"));
 const meta = { fps: 30, width: W, height: H, duration: 0, audio: "active/audio.mp3", title, profile: PROFILE.name };
 if (words.length) meta.duration = Math.max(...words.map(w => w.end)) + 0.6; else meta.duration = cleanWords.length / 2.6 + 0.6;
-const timeOf = (i) => { if (words.length) { const w = words[Math.min(i, words.length - 1)]; return w ? w.start : meta.duration; } return Math.min(i / cleanWords.length * (meta.duration - 0.6), meta.duration - 0.6); };
+// ALINEACIÓN MONÓTONA guion↔audio: el audio ES el guion leído en orden, pero Whisper tokeniza distinto
+//   (números, contracciones). Emparejamos ambas secuencias con lookahead → mapa índice-guion → índice-whisper.
+//   Así timeOf(i) devuelve el tiempo REAL de esa palabra, sin desfases acumulados (títulos sincronizados).
+const PMAP = (() => {
+  if (!words.length || !cleanWords.length) return null;
+  const nz = (s) => (s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9ñ]/g, "");
+  const P = cleanWords.map(nz), Wn = words.map(w => nz(w.word));
+  const map = new Array(P.length); let pi = 0, wi = 0;
+  while (pi < P.length && wi < Wn.length) {
+    if (P[pi] === Wn[wi]) { map[pi++] = wi++; continue; }
+    if (Wn[wi + 1] === P[pi]) { wi++; continue; }        // palabra extra en whisper
+    if (P[pi + 1] === Wn[wi]) { map[pi++] = wi; continue; } // palabra extra en guion
+    if (Wn[wi + 2] === P[pi]) { wi += 2; continue; }
+    if (P[pi + 2] === Wn[wi]) { map[pi] = wi; map[pi + 1] = wi; pi += 2; continue; }
+    map[pi++] = wi++;                                       // desajuste: avanza ambos
+  }
+  for (let k = pi; k < P.length; k++) map[k] = Wn.length - 1;
+  return map;
+})();
+const timeOf = (i) => {
+  if (!words.length) return Math.min(i / cleanWords.length * (meta.duration - 0.6), meta.duration - 0.6);
+  const j = PMAP ? (PMAP[Math.min(i, PMAP.length - 1)] ?? i) : i;
+  const w = words[Math.min(j, words.length - 1)]; return w ? w.start : meta.duration;
+};
 
 // --- FRASES: unidad de composición (VERIFICACION). Segmenta por . ? ! y saltos de línea ---
 const phraseTexts = prose.replace(/\*\*|==/g, "").split(/(?<=[.?!…])\s+|\n+/).map(s => s.trim()).filter(Boolean);
