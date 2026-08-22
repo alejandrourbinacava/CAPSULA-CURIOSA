@@ -13,61 +13,61 @@
       "density": [
         {
           "label": "(intro)",
-          "d": 0.19,
-          "n": 7
+          "d": 0.11,
+          "n": 1
         },
         {
           "label": "1. El mosquito",
-          "d": 0.24,
-          "n": 4
+          "d": 0.2,
+          "n": 2
         },
         {
           "label": "2. Serpientes venenosas",
-          "d": 0.27,
-          "n": 6
+          "d": 0.2,
+          "n": 2
         },
         {
           "label": "3. El perro y la rabia",
-          "d": 0.2,
-          "n": 3
+          "d": 0.09,
+          "n": 1
         },
         {
           "label": "4. La mosca tsetsé",
-          "d": 0.27,
-          "n": 6
+          "d": 0.2,
+          "n": 2
         },
         {
           "label": "5. El cocodrilo del Nilo",
-          "d": 0.26,
-          "n": 5
+          "d": 0.09,
+          "n": 1
         },
         {
           "label": "6. El hipopótamo",
-          "d": 0.34,
-          "n": 11
+          "d": 0.24,
+          "n": 3
         },
         {
           "label": "7. La medusa de caja",
-          "d": 0.14,
+          "d": 0.2,
           "n": 2
         },
         {
           "label": "8. El elefante africano",
-          "d": 0.28,
-          "n": 8
+          "d": 0.2,
+          "n": 2
         },
         {
           "label": "Cómo evitarlos",
-          "d": 0.26,
-          "n": 5
+          "d": 0.22,
+          "n": 3
         },
         {
           "label": "El verdadero peligro",
-          "d": 0.27,
-          "n": 6
+          "d": 0.2,
+          "n": 2
         }
       ],
-      "warns": 9
+      "warns": 11
     }
   },
   "elements": [
@@ -89,114 +89,6 @@
         "kind": "fade-in",
         "duration": 0.5
       }
-    },
-    {
-      "id": "skull-icon_0",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/skull-icon.png",
-      "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 0,
-      "out": 2.2,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "prev-mosquito_4",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/prev-mosquito.png",
-      "box": {
-        "cx": 1440,
-        "cy": 435,
-        "w": 330,
-        "h": 330
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 16.34,
-      "out": 16.34,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "prev-snake_6",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/prev-snake.png",
-      "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 16.34,
-      "out": 36.96,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "prev-human_8",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/prev-human.png",
-      "box": {
-        "cx": 960,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 16.34,
-      "out": 36.96,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
     },
     {
       "id": "title_12",
@@ -222,129 +114,21 @@
       }
     },
     {
-      "id": "photo-mosquito_13",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-mosquito.jpg",
-      "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": -1,
-      "hero": false,
-      "z": 20,
-      "in": 42.28,
-      "out": 57.34,
-      "enter": {
-        "kind": "slide-in-bottom",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
       "id": "s16",
       "type": "stickman",
       "pose": "pointing-right",
       "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 50,
       "in": 42.28,
-      "out": 57.34,
+      "out": 45.28,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "photo-mosquito_23",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-mosquito.jpg",
-      "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": -3,
-      "hero": false,
-      "z": 20,
-      "in": 91.04,
-      "out": 110.57,
-      "enter": {
-        "kind": "slide-in-bottom",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "malaria-icon_24",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/malaria-icon.png",
-      "box": {
-        "cx": 960,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 91.04,
-      "out": 110.57,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "co2-icon_29",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/co2-icon.png",
-      "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 116.06,
-      "out": 129.02,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
@@ -377,114 +161,6 @@
       }
     },
     {
-      "id": "photo-cobra_33",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-cobra.jpg",
-      "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
-      },
-      "rotate": -1,
-      "hero": false,
-      "z": 20,
-      "in": 131.48,
-      "out": 141.44,
-      "enter": {
-        "kind": "slide-in-bottom",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "map-india-icon_37",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/map-india-icon.png",
-      "box": {
-        "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 150.22,
-      "out": 165.7,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "venom-icon_40",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/venom-icon.png",
-      "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 165.7,
-      "out": 193.26,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "antivenom-icon_42",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/antivenom-icon.png",
-      "box": {
-        "cx": 960,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 165.7,
-      "out": 193.26,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
       "id": "title_48",
       "type": "title",
       "content": "3. El perro y la rabia",
@@ -508,156 +184,21 @@
       }
     },
     {
-      "id": "photo-dog_49",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-dog.jpg",
-      "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
-      },
-      "rotate": -2,
-      "hero": false,
-      "z": 20,
-      "in": 193.26,
-      "out": 201.02,
-      "enter": {
-        "kind": "slide-in-bottom",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "rabies-icon_54",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/rabies-icon.png",
-      "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 218.48,
-      "out": 218.48,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "warning-icon_56",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/warning-icon.png",
-      "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 218.48,
-      "out": 218.48,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "vaccine-icon_58",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/vaccine-icon.png",
-      "box": {
-        "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 218.48,
-      "out": 230.26,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
       "id": "s62",
       "type": "stickman",
       "pose": "thinking",
       "box": {
         "cx": 960,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 50,
       "in": 218.48,
-      "out": 230.26,
+      "out": 219.48,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "pasteur-icon_65",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/pasteur-icon.png",
-      "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 238.8,
-      "out": 238.8,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
@@ -690,99 +231,18 @@
       }
     },
     {
-      "id": "photo-tsetse_72",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-tsetse.jpg",
-      "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": -2,
-      "hero": false,
-      "z": 20,
-      "in": 277.34,
-      "out": 295.6,
-      "enter": {
-        "kind": "slide-in-bottom",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "sleep-icon_73",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/sleep-icon.png",
-      "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 277.34,
-      "out": 295.6,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "map-africa-icon_78",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/map-africa-icon.png",
-      "box": {
-        "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 295.6,
-      "out": 310.98,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
       "id": "s81",
       "type": "stickman",
       "pose": "shrug",
       "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 50,
       "in": 310.98,
-      "out": 314.86,
+      "out": 311.98,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
@@ -818,114 +278,6 @@
       }
     },
     {
-      "id": "photo-crocodile_86",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-crocodile.jpg",
-      "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 1,
-      "hero": false,
-      "z": 20,
-      "in": 334.96,
-      "out": 359.32,
-      "enter": {
-        "kind": "slide-in-bottom",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "photo-crocodile_91",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-crocodile.jpg",
-      "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 2,
-      "hero": false,
-      "z": 20,
-      "in": 359.32,
-      "out": 359.32,
-      "enter": {
-        "kind": "slide-in-bottom",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "photo-alligator_93",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-alligator.jpg",
-      "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
-      },
-      "rotate": 2,
-      "hero": false,
-      "z": 20,
-      "in": 359.32,
-      "out": 370.18,
-      "enter": {
-        "kind": "slide-in-bottom",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "photo-saltwater-crocodile_98",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-saltwater-crocodile.jpg",
-      "box": {
-        "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
-      },
-      "rotate": -1,
-      "hero": false,
-      "z": 20,
-      "in": 394.02,
-      "out": 405.4,
-      "enter": {
-        "kind": "slide-in-bottom",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
       "id": "title_101",
       "type": "title",
       "content": "6. El hipopótamo",
@@ -949,75 +301,21 @@
       }
     },
     {
-      "id": "photo-hippo_102",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-hippo.jpg",
-      "box": {
-        "cx": 960,
-        "cy": 460,
-        "w": 450,
-        "h": 450
-      },
-      "rotate": -3,
-      "hero": false,
-      "z": 20,
-      "in": 405.4,
-      "out": 405.4,
-      "enter": {
-        "kind": "slide-in-bottom",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
       "id": "s105",
       "type": "stickman",
       "pose": "neutral",
       "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 50,
       "in": 405.4,
-      "out": 413.22,
+      "out": 406.4,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "sweat-icon_107",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/sweat-icon.png",
-      "box": {
-        "cx": 960,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 417.82,
-      "out": 439.02,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
@@ -1050,87 +348,6 @@
       }
     },
     {
-      "id": "photo-jellyfish_114",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-jellyfish.png",
-      "box": {
-        "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
-      },
-      "rotate": 2,
-      "hero": false,
-      "z": 20,
-      "in": 459.96,
-      "out": 468.38,
-      "enter": {
-        "kind": "slide-in-bottom",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "tentacle-icon_115",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/tentacle-icon.png",
-      "box": {
-        "cx": 960,
-        "cy": 435,
-        "w": 330,
-        "h": 330
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 459.96,
-      "out": 468.38,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "photo-irukandji_120",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-irukandji.jpg",
-      "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
-      },
-      "rotate": 2,
-      "hero": false,
-      "z": 20,
-      "in": 476.74,
-      "out": 476.74,
-      "enter": {
-        "kind": "slide-in-bottom",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
       "id": "title_129",
       "type": "title",
       "content": "8. El elefante africano",
@@ -1152,60 +369,6 @@
         "kind": "handwrite",
         "duration": 0.6
       }
-    },
-    {
-      "id": "photo-elephant_130",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-elephant.jpg",
-      "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": -2,
-      "hero": false,
-      "z": 20,
-      "in": 509.24,
-      "out": 535.26,
-      "enter": {
-        "kind": "slide-in-bottom",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "musth-icon_135",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/musth-icon.png",
-      "box": {
-        "cx": 960,
-        "cy": 720,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 525.44,
-      "out": 535.26,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
     },
     {
       "id": "badge_138",
@@ -1251,222 +414,6 @@
       }
     },
     {
-      "id": "net-icon_140",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/net-icon.png",
-      "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 540.54,
-      "out": 540.54,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "boots-icon_142",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/boots-icon.png",
-      "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 540.54,
-      "out": 540.54,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "vaccine-icon-dog_144",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/vaccine-icon-dog.png",
-      "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 540.54,
-      "out": 540.54,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "repellent-icon_146",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/repellent-icon.png",
-      "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 540.54,
-      "out": 540.54,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "binoculars-icon_148",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/binoculars-icon.png",
-      "box": {
-        "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 540.54,
-      "out": 540.54,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "boat-icon_150",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/boat-icon.png",
-      "box": {
-        "cx": 960,
-        "cy": 435,
-        "w": 330,
-        "h": 330
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 540.54,
-      "out": 540.54,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "wetsuit-icon_152",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/wetsuit-icon.png",
-      "box": {
-        "cx": 1440,
-        "cy": 435,
-        "w": 330,
-        "h": 330
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 540.54,
-      "out": 540.54,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "distance-icon_154",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/distance-icon.png",
-      "box": {
-        "cx": 960,
-        "cy": 460,
-        "w": 450,
-        "h": 450
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 540.54,
-      "out": 540.54,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
       "id": "title_158",
       "type": "title",
       "content": "El verdadero peligro",
@@ -1490,114 +437,6 @@
       }
     },
     {
-      "id": "photo-shark_159",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-shark.jpg",
-      "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 565.94,
-      "out": 585.1,
-      "enter": {
-        "kind": "slide-in-bottom",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "mosquito-real-icon_161",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/mosquito-real-icon.png",
-      "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 565.94,
-      "out": 585.1,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "scale-icon_167",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/scale-icon.png",
-      "box": {
-        "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 585.1,
-      "out": 596,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "subscribe-icon_170",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/subscribe-icon.png",
-      "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 600.72,
-      "out": 600.72,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
       "id": "icon_auto_0",
       "type": "image",
       "kind": "cutout",
@@ -1606,10 +445,10 @@
       "photo": true,
       "label": "Tiburón vs León",
       "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 600,
+        "h": 470
       },
       "z": 30,
       "in": 0,
@@ -1624,7 +463,7 @@
         "duration": 0.28
       },
       "fixed": true,
-      "kenburns": false
+      "kenburns": true
     },
     {
       "id": "icon_auto_1",
@@ -1636,13 +475,13 @@
       "label": "Animales peligrosos",
       "box": {
         "cx": 960,
-        "cy": 460,
-        "w": 450,
-        "h": 450
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 2.2,
-      "out": 6.46,
+      "out": 4.8,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -1664,14 +503,14 @@
       "photo": false,
       "label": "Sorpresa",
       "box": {
-        "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 6.46,
-      "out": 16.34,
+      "out": 9.06,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -1694,13 +533,13 @@
       "label": "Mosquito picando",
       "box": {
         "cx": 960,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 9.4,
-      "out": 16.34,
+      "out": 12,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -1722,14 +561,14 @@
       "photo": false,
       "label": "Hospital",
       "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 17.81,
-      "out": 36.96,
+      "out": 20.41,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -1752,13 +591,13 @@
       "label": "Depredadores",
       "box": {
         "cx": 960,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 26.22,
-      "out": 36.96,
+      "out": 28.82,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -1780,14 +619,14 @@
       "photo": false,
       "label": "Mosquito",
       "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 31.59,
-      "out": 36.96,
+      "out": 34.19,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -1809,14 +648,14 @@
       "photo": false,
       "label": "Humano y perro",
       "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 36.96,
-      "out": 42.28,
+      "out": 39.56,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -1838,14 +677,14 @@
       "photo": false,
       "label": "Inicio",
       "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 41.34,
-      "out": 42.28,
+      "out": 42.34,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -1867,14 +706,14 @@
       "photo": false,
       "label": "Mosquito letal",
       "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 45.7,
-      "out": 57.34,
+      "out": 48.3,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -1896,10 +735,10 @@
       "photo": false,
       "label": "Idea",
       "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 55.14,
@@ -1925,14 +764,14 @@
       "photo": false,
       "label": "Hembra picando",
       "box": {
-        "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 57.34,
-      "out": 75.44,
+      "out": 59.94,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -1955,13 +794,13 @@
       "label": "Macho en flor",
       "box": {
         "cx": 960,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 63.18,
-      "out": 75.44,
+      "out": 65.78,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -1983,14 +822,14 @@
       "photo": false,
       "label": "Mosquito enfermo",
       "box": {
-        "cx": 1440,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 68.24,
-      "out": 75.44,
+      "out": 70.84,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2013,13 +852,13 @@
       "label": "Países tropicales",
       "box": {
         "cx": 960,
-        "cy": 460,
-        "w": 450,
-        "h": 450
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 75.44,
-      "out": 83.72,
+      "out": 78.04,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2041,14 +880,14 @@
       "photo": false,
       "label": "Historia mosquito",
       "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 83.72,
-      "out": 91.04,
+      "out": 86.32,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2070,14 +909,14 @@
       "photo": false,
       "label": "Saliva tóxica",
       "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 91.04,
-      "out": 110.57,
+      "out": 93.64,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2099,14 +938,14 @@
       "photo": false,
       "label": "Plasmodio invasor",
       "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 95.1,
-      "out": 110.57,
+      "out": 97.7,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2129,13 +968,13 @@
       "label": "Proceso malaria",
       "box": {
         "cx": 960,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 103.12,
-      "out": 110.57,
+      "out": 105.32,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2157,14 +996,14 @@
       "photo": false,
       "label": "Red mosquitera",
       "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 105.32,
-      "out": 110.57,
+      "out": 107.92,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2186,14 +1025,14 @@
       "photo": false,
       "label": "Repelente",
       "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 110.57,
-      "out": 129.02,
+      "out": 113.17,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2215,14 +1054,14 @@
       "photo": false,
       "label": "Atrae aliento",
       "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 116.06,
-      "out": 129.02,
+      "out": 118.66,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2244,14 +1083,14 @@
       "photo": false,
       "label": "Elige víctima",
       "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 125.84,
-      "out": 129.02,
+      "out": 128.44,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2273,10 +1112,10 @@
       "photo": false,
       "label": "Fórmula química",
       "box": {
-        "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 129.02,
@@ -2302,14 +1141,14 @@
       "photo": false,
       "label": "Serpiente venenosa",
       "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 131.48,
-      "out": 141.44,
+      "out": 134.08,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2332,13 +1171,13 @@
       "label": "Cobra real",
       "box": {
         "cx": 960,
-        "cy": 460,
-        "w": 450,
-        "h": 450
+        "cy": 470,
+        "w": 600,
+        "h": 470
       },
       "z": 30,
       "in": 141.44,
-      "out": 150.22,
+      "out": 144.04,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -2349,7 +1188,7 @@
         "duration": 0.28
       },
       "fixed": true,
-      "kenburns": false
+      "kenburns": true
     },
     {
       "id": "icon_auto_26",
@@ -2361,13 +1200,13 @@
       "label": "Serpientes India",
       "box": {
         "cx": 960,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 152,
-      "out": 165.7,
+      "out": 154.6,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2389,14 +1228,14 @@
       "photo": false,
       "label": "Veneno letal",
       "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 165.7,
-      "out": 193.26,
+      "out": 168.3,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2418,14 +1257,14 @@
       "photo": false,
       "label": "Antídoto",
       "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 172.78,
-      "out": 193.26,
+      "out": 175.38,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2448,13 +1287,13 @@
       "label": "Zona rural",
       "box": {
         "cx": 960,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 178.92,
-      "out": 193.26,
+      "out": 181.52,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2476,14 +1315,14 @@
       "photo": false,
       "label": "Especies serpientes",
       "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 187.12,
-      "out": 193.26,
+      "out": 189.72,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2505,14 +1344,14 @@
       "photo": true,
       "label": "Perro",
       "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 600,
+        "h": 470
       },
       "z": 30,
       "in": 193.26,
-      "out": 201.02,
+      "out": 195.86,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -2523,7 +1362,7 @@
         "duration": 0.28
       },
       "fixed": true,
-      "kenburns": false
+      "kenburns": true
     },
     {
       "id": "icon_auto_32",
@@ -2534,14 +1373,14 @@
       "photo": false,
       "label": "Perro muerde",
       "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 201.02,
-      "out": 218.48,
+      "out": 203.62,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2563,14 +1402,14 @@
       "photo": false,
       "label": "Virus",
       "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 208.82,
-      "out": 218.48,
+      "out": 211.42,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2592,14 +1431,14 @@
       "photo": false,
       "label": "Virus en nervios",
       "box": {
-        "cx": 1440,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 218.48,
-      "out": 230.26,
+      "out": 221.08,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2622,13 +1461,13 @@
       "label": "Vacuna antirrábica",
       "box": {
         "cx": 960,
-        "cy": 460,
-        "w": 450,
-        "h": 450
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 230.26,
-      "out": 235.3,
+      "out": 232.86,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2650,14 +1489,14 @@
       "photo": true,
       "label": "Louis Pasteur",
       "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 600,
+        "h": 470
       },
       "z": 30,
       "in": 238.8,
-      "out": 277.34,
+      "out": 241.4,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -2668,7 +1507,7 @@
         "duration": 0.28
       },
       "fixed": true,
-      "kenburns": false
+      "kenburns": true
     },
     {
       "id": "icon_auto_37",
@@ -2680,13 +1519,13 @@
       "label": "Vacunación Pasteur",
       "box": {
         "cx": 960,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 245.6,
-      "out": 277.34,
+      "out": 248.2,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2708,14 +1547,14 @@
       "photo": false,
       "label": "Muertes rabia",
       "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 254.4,
-      "out": 277.34,
+      "out": 257,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2737,14 +1576,14 @@
       "photo": false,
       "label": "Campaña vacunación",
       "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 264.78,
-      "out": 277.34,
+      "out": 267.02,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2767,13 +1606,13 @@
       "label": "Países sin rabia",
       "box": {
         "cx": 960,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 267.02,
-      "out": 277.34,
+      "out": 269.62,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2795,14 +1634,14 @@
       "photo": true,
       "label": "Mosca tsetsé",
       "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 600,
+        "h": 470
       },
       "z": 30,
       "in": 277.34,
-      "out": 295.6,
+      "out": 279.94,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -2813,7 +1652,7 @@
         "duration": 0.28
       },
       "fixed": true,
-      "kenburns": false
+      "kenburns": true
     },
     {
       "id": "icon_auto_42",
@@ -2824,14 +1663,14 @@
       "photo": false,
       "label": "Enfermedad sueño",
       "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 282.64,
-      "out": 295.6,
+      "out": 285.24,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2854,13 +1693,13 @@
       "label": "Cinturón tsetsé",
       "box": {
         "cx": 960,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 295.6,
-      "out": 310.98,
+      "out": 298.2,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2882,14 +1721,14 @@
       "photo": false,
       "label": "¿O sí?",
       "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 310.98,
-      "out": 314.86,
+      "out": 313.58,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2912,9 +1751,9 @@
       "label": "Sí",
       "box": {
         "cx": 960,
-        "cy": 460,
-        "w": 450,
-        "h": 450
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 314.86,
@@ -2940,14 +1779,14 @@
       "photo": false,
       "label": "Tsetsé ganadería",
       "box": {
-        "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 317.06,
-      "out": 334.96,
+      "out": 319.66,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2970,13 +1809,13 @@
       "label": "Pérdida económica",
       "box": {
         "cx": 960,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 323.74,
-      "out": 334.96,
+      "out": 326.34,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2999,13 +1838,13 @@
       "label": "Cocodrilo Nilo",
       "box": {
         "cx": 960,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cy": 470,
+        "w": 600,
+        "h": 470
       },
       "z": 30,
       "in": 334.96,
-      "out": 359.32,
+      "out": 337.56,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3016,7 +1855,7 @@
         "duration": 0.28
       },
       "fixed": true,
-      "kenburns": false
+      "kenburns": true
     },
     {
       "id": "icon_auto_49",
@@ -3027,14 +1866,14 @@
       "photo": false,
       "label": "Muertes reptiles",
       "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 339.92,
-      "out": 359.32,
+      "out": 342.52,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3056,14 +1895,14 @@
       "photo": false,
       "label": "Cocodrilo acecha",
       "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 342.96,
-      "out": 359.32,
+      "out": 345.56,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3086,13 +1925,13 @@
       "label": "Cocodrilo marino",
       "box": {
         "cx": 960,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cy": 470,
+        "w": 600,
+        "h": 470
       },
       "z": 30,
       "in": 350.8,
-      "out": 359.32,
+      "out": 353.4,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3103,7 +1942,7 @@
         "duration": 0.28
       },
       "fixed": true,
-      "kenburns": false
+      "kenburns": true
     },
     {
       "id": "icon_auto_52",
@@ -3114,14 +1953,14 @@
       "photo": false,
       "label": "Fuerza mordida",
       "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 359.32,
-      "out": 370.18,
+      "out": 361.92,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3143,14 +1982,14 @@
       "photo": false,
       "label": "Fauces cerradas",
       "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 370.78,
-      "out": 394.02,
+      "out": 373.38,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3172,14 +2011,14 @@
       "photo": false,
       "label": "Giro mortal",
       "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 374.44,
-      "out": 394.02,
+      "out": 377.04,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3201,14 +2040,14 @@
       "photo": false,
       "label": "Acecho subacuático",
       "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 387.04,
-      "out": 394.02,
+      "out": 389.64,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3231,13 +2070,13 @@
       "label": "Hábitat marino",
       "box": {
         "cx": 960,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 394.02,
-      "out": 405.4,
+      "out": 396.62,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3259,14 +2098,14 @@
       "photo": true,
       "label": "Hipopótamo",
       "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 600,
+        "h": 470
       },
       "z": 30,
       "in": 405.4,
-      "out": 413.22,
+      "out": 408,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3277,7 +2116,7 @@
         "duration": 0.28
       },
       "fixed": true,
-      "kenburns": false
+      "kenburns": true
     },
     {
       "id": "icon_auto_58",
@@ -3288,14 +2127,14 @@
       "photo": false,
       "label": "Hipopótamo ataca",
       "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 413.22,
-      "out": 439.02,
+      "out": 415.82,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3317,14 +2156,14 @@
       "photo": false,
       "label": "Sudor rojo",
       "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 417.82,
-      "out": 439.02,
+      "out": 420.42,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3346,14 +2185,14 @@
       "photo": false,
       "label": "Hipopótamo corre",
       "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 428.2,
-      "out": 439.02,
+      "out": 430.8,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3376,13 +2215,13 @@
       "label": "Carrera tierra",
       "box": {
         "cx": 960,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 431.7,
-      "out": 439.02,
+      "out": 432.7,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3404,14 +2243,14 @@
       "photo": false,
       "label": "Ataca bote",
       "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 439.02,
-      "out": 459.96,
+      "out": 441.62,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3433,14 +2272,14 @@
       "photo": false,
       "label": "Colmillos letales",
       "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 454.6,
-      "out": 459.96,
+      "out": 457.2,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3462,14 +2301,14 @@
       "photo": true,
       "label": "Medusa cúbica",
       "box": {
-        "cx": 1440,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cx": 960,
+        "cy": 470,
+        "w": 600,
+        "h": 470
       },
       "z": 30,
       "in": 459.96,
-      "out": 468.38,
+      "out": 462.56,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3480,7 +2319,7 @@
         "duration": 0.28
       },
       "fixed": true,
-      "kenburns": false
+      "kenburns": true
     },
     {
       "id": "icon_auto_65",
@@ -3491,14 +2330,14 @@
       "photo": false,
       "label": "Tentáculos venenosos",
       "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 468.38,
-      "out": 476.74,
+      "out": 470.98,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3521,13 +2360,13 @@
       "label": "Irukandji",
       "box": {
         "cx": 960,
-        "cy": 460,
-        "w": 450,
-        "h": 450
+        "cy": 470,
+        "w": 600,
+        "h": 470
       },
       "z": 30,
       "in": 476.74,
-      "out": 484.6,
+      "out": 479.34,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3538,7 +2377,7 @@
         "duration": 0.28
       },
       "fixed": true,
-      "kenburns": false
+      "kenburns": true
     },
     {
       "id": "icon_auto_68",
@@ -3550,13 +2389,13 @@
       "label": "Vinagre",
       "box": {
         "cx": 960,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 501.58,
-      "out": 509.24,
+      "out": 504.18,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3579,13 +2418,13 @@
       "label": "Elefante africano",
       "box": {
         "cx": 960,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cy": 470,
+        "w": 600,
+        "h": 470
       },
       "z": 30,
       "in": 509.24,
-      "out": 535.26,
+      "out": 511.84,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3596,7 +2435,7 @@
         "duration": 0.28
       },
       "fixed": true,
-      "kenburns": false
+      "kenburns": true
     },
     {
       "id": "icon_auto_70",
@@ -3607,14 +2446,14 @@
       "photo": false,
       "label": "Elefante carga",
       "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 513.4,
-      "out": 535.26,
+      "out": 516,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3636,14 +2475,14 @@
       "photo": false,
       "label": "Elefante en celo",
       "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 525.44,
-      "out": 535.26,
+      "out": 528.04,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3665,14 +2504,14 @@
       "photo": false,
       "label": "Cuidador observa",
       "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 535.26,
-      "out": 540.54,
+      "out": 537.86,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3694,14 +2533,14 @@
       "photo": false,
       "label": "Prevención total",
       "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 540.54,
-      "out": 557.6,
+      "out": 543.14,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3723,14 +2562,14 @@
       "photo": false,
       "label": "Sentido común",
       "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 557.6,
-      "out": 565.94,
+      "out": 560.2,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3752,14 +2591,14 @@
       "photo": false,
       "label": "Tiburón vs Mosquito",
       "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 565.94,
-      "out": 585.1,
+      "out": 568.54,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3781,14 +2620,14 @@
       "photo": false,
       "label": "Percepción real",
       "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 575.72,
-      "out": 585.1,
+      "out": 578.32,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3811,13 +2650,13 @@
       "label": "Amenaza cercana",
       "box": {
         "cx": 960,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 585.1,
-      "out": 596,
+      "out": 587.7,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3839,14 +2678,14 @@
       "photo": false,
       "label": "Miedo agua",
       "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 596,
-      "out": 600.72,
+      "out": 598.6,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3869,13 +2708,13 @@
       "label": "Viaje preparado",
       "box": {
         "cx": 960,
-        "cy": 460,
-        "w": 450,
-        "h": 450
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 600.72,
-      "out": 611.24,
+      "out": 603.32,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3897,14 +2736,14 @@
       "photo": false,
       "label": "Me gusta",
       "box": {
-        "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 611.24,
-      "out": 621.78,
+      "out": 613.84,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3927,9 +2766,9 @@
       "label": "Cámara",
       "box": {
         "cx": 960,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "z": 30,
       "in": 619.88,
@@ -3951,13 +2790,13 @@
       "type": "stickman",
       "pose": "cheer",
       "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "in": 21.14,
-      "out": 36.96,
+      "out": 23.74,
       "enter": {
         "kind": "pop",
         "duration": 0.35
@@ -3974,13 +2813,13 @@
       "type": "stickman",
       "pose": "pointing-right",
       "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "in": 86.88,
-      "out": 91.04,
+      "out": 89.48,
       "enter": {
         "kind": "pop",
         "duration": 0.35
@@ -3997,13 +2836,13 @@
       "type": "stickman",
       "pose": "thinking",
       "box": {
-        "cx": 1440,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "in": 162.37,
-      "out": 165.7,
+      "out": 164.97,
       "enter": {
         "kind": "pop",
         "duration": 0.35
@@ -4020,13 +2859,13 @@
       "type": "stickman",
       "pose": "pointing-left",
       "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "in": 235.3,
-      "out": 238.8,
+      "out": 237.9,
       "enter": {
         "kind": "pop",
         "duration": 0.35
@@ -4043,13 +2882,13 @@
       "type": "stickman",
       "pose": "neutral",
       "box": {
-        "cx": 1440,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "in": 306.15,
-      "out": 310.98,
+      "out": 308.75,
       "enter": {
         "kind": "pop",
         "duration": 0.35
@@ -4066,13 +2905,13 @@
       "type": "stickman",
       "pose": "shrug",
       "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "in": 370.18,
-      "out": 394.02,
+      "out": 371.18,
       "enter": {
         "kind": "pop",
         "duration": 0.35
@@ -4089,13 +2928,13 @@
       "type": "stickman",
       "pose": "cheer",
       "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "in": 432.68,
-      "out": 439.02,
+      "out": 435.28,
       "enter": {
         "kind": "pop",
         "duration": 0.35
@@ -4112,13 +2951,13 @@
       "type": "stickman",
       "pose": "pointing-right",
       "box": {
-        "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "in": 484.6,
-      "out": 509.24,
+      "out": 487.2,
       "enter": {
         "kind": "pop",
         "duration": 0.35
@@ -4135,13 +2974,13 @@
       "type": "stickman",
       "pose": "thinking",
       "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "in": 524.89,
-      "out": 535.26,
+      "out": 525.89,
       "enter": {
         "kind": "pop",
         "duration": 0.35
@@ -4158,13 +2997,13 @@
       "type": "stickman",
       "pose": "pointing-left",
       "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "in": 553.24,
-      "out": 557.6,
+      "out": 555.84,
       "enter": {
         "kind": "pop",
         "duration": 0.35
@@ -4181,10 +3020,10 @@
       "type": "stickman",
       "pose": "neutral",
       "box": {
-        "cx": 1440,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cx": 960,
+        "cy": 470,
+        "w": 480,
+        "h": 480
       },
       "in": 593.86,
       "out": 596,
@@ -4204,17 +3043,17 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Olvida al tiburón y",
-      "fontSize": 43,
+      "content": "Tiburón vs León",
+      "fontSize": 48,
       "box": {
-        "cx": 620,
-        "cy": 705,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 0.25,
+      "in": 0.2,
       "out": 2.2,
       "enter": {
         "kind": "handwrite",
@@ -4230,18 +3069,44 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Tiburón vs León",
-      "fontSize": 44,
+      "content": "Animales peligrosos",
+      "fontSize": 48,
       "box": {
-        "cx": 1300,
-        "cy": 705,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 0.25,
-      "out": 2.2,
+      "in": 2.4,
+      "out": 4.8,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_188",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Sorpresa",
+      "fontSize": 48,
+      "box": {
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 6.66,
+      "out": 9.06,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4256,18 +3121,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Animales peligrosos",
-      "fontSize": 43,
+      "content": "Mosquito picando",
+      "fontSize": 48,
       "box": {
         "cx": 960,
-        "cy": 745,
-        "w": 440,
-        "h": 62
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 2.45,
-      "out": 6.46,
+      "in": 9.6,
+      "out": 12,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4282,18 +3147,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Sorpresa",
-      "fontSize": 44,
+      "content": "Hospital",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 695,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 6.71,
-      "out": 16.34,
+      "in": 18.01,
+      "out": 20.41,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4308,18 +3173,44 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Mosquito picando",
-      "fontSize": 44,
+      "content": "Depredadores",
+      "fontSize": 48,
       "box": {
         "cx": 960,
-        "cy": 695,
-        "w": 440,
-        "h": 62
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 9.65,
-      "out": 16.34,
+      "in": 26.42,
+      "out": 28.82,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_192",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Mosquito",
+      "fontSize": 48,
+      "box": {
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 31.79,
+      "out": 34.19,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4334,18 +3225,44 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Cada año",
-      "fontSize": 44,
+      "content": "Humano y perro",
+      "fontSize": 48,
       "box": {
-        "cx": 1440,
-        "cy": 695,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 16.59,
-      "out": 16.34,
+      "in": 37.16,
+      "out": 39.56,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_194",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Inicio",
+      "fontSize": 48,
+      "box": {
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 41.54,
+      "out": 42.34,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4360,18 +3277,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Cada año",
-      "fontSize": 44,
+      "content": "Mosquito letal",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 16.59,
-      "out": 36.96,
+      "in": 45.9,
+      "out": 48.3,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4386,18 +3303,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Cada año",
-      "fontSize": 44,
+      "content": "Idea",
+      "fontSize": 48,
       "box": {
         "cx": 960,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 16.59,
-      "out": 36.96,
+      "in": 55.34,
+      "out": 57.34,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4412,18 +3329,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Hospital",
-      "fontSize": 44,
+      "content": "Hembra picando",
+      "fontSize": 48,
       "box": {
-        "cx": 1440,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 18.06,
-      "out": 36.96,
+      "in": 57.54,
+      "out": 59.94,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4438,18 +3355,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Depredadores",
-      "fontSize": 44,
+      "content": "Macho en flor",
+      "fontSize": 48,
       "box": {
         "cx": 960,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 26.47,
-      "out": 36.96,
+      "in": 63.38,
+      "out": 65.78,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4464,18 +3381,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Mosquito",
-      "fontSize": 44,
+      "content": "Mosquito enfermo",
+      "fontSize": 48,
       "box": {
-        "cx": 1440,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 31.84,
-      "out": 36.96,
+      "in": 68.44,
+      "out": 70.84,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4490,18 +3407,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Humano y perro",
-      "fontSize": 44,
+      "content": "Países tropicales",
+      "fontSize": 48,
       "box": {
-        "cx": 620,
-        "cy": 705,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 37.21,
-      "out": 42.28,
+      "in": 75.64,
+      "out": 78.04,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4516,18 +3433,44 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Inicio",
-      "fontSize": 44,
+      "content": "Historia mosquito",
+      "fontSize": 48,
       "box": {
-        "cx": 1300,
-        "cy": 705,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 41.59,
-      "out": 42.28,
+      "in": 83.92,
+      "out": 86.32,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_202",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Saliva tóxica",
+      "fontSize": 48,
+      "box": {
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 91.24,
+      "out": 93.64,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4542,18 +3485,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Empezamos con el campeón",
-      "fontSize": 34,
+      "content": "Plasmodio invasor",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 42.53,
-      "out": 57.34,
+      "in": 95.3,
+      "out": 97.7,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4568,18 +3511,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Mosquito letal",
-      "fontSize": 44,
+      "content": "Proceso malaria",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 45.95,
-      "out": 57.34,
+      "in": 103.32,
+      "out": 105.32,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4594,18 +3537,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Idea",
-      "fontSize": 44,
+      "content": "Red mosquitera",
+      "fontSize": 48,
       "box": {
-        "cx": 1440,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 55.39,
-      "out": 57.34,
+      "in": 105.52,
+      "out": 107.92,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4620,18 +3563,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Hembra picando",
-      "fontSize": 44,
+      "content": "Repelente",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 695,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 57.59,
-      "out": 75.44,
+      "in": 110.77,
+      "out": 113.17,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4646,18 +3589,44 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Macho en flor",
-      "fontSize": 44,
+      "content": "Atrae aliento",
+      "fontSize": 48,
       "box": {
         "cx": 960,
-        "cy": 695,
-        "w": 440,
-        "h": 62
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 63.43,
-      "out": 75.44,
+      "in": 116.26,
+      "out": 118.66,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_208",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Elige víctima",
+      "fontSize": 48,
+      "box": {
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 126.04,
+      "out": 128.44,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4672,18 +3641,44 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Mosquito enfermo",
-      "fontSize": 44,
+      "content": "Fórmula química",
+      "fontSize": 48,
       "box": {
-        "cx": 1440,
-        "cy": 695,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 68.49,
-      "out": 75.44,
+      "in": 129.22,
+      "out": 131.48,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_210",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Serpiente venenosa",
+      "fontSize": 48,
+      "box": {
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 131.68,
+      "out": 134.08,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4698,18 +3693,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Países tropicales",
-      "fontSize": 44,
+      "content": "Cobra real",
+      "fontSize": 48,
       "box": {
         "cx": 960,
-        "cy": 745,
-        "w": 440,
-        "h": 62
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 75.69,
-      "out": 83.72,
+      "in": 141.64,
+      "out": 144.04,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4724,18 +3719,44 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Historia mosquito",
-      "fontSize": 44,
+      "content": "Serpientes India",
+      "fontSize": 48,
       "box": {
-        "cx": 620,
-        "cy": 705,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 83.97,
-      "out": 91.04,
+      "in": 152.2,
+      "out": 154.6,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_213",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Veneno letal",
+      "fontSize": 48,
+      "box": {
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 165.9,
+      "out": 168.3,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4750,18 +3771,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Problema no es",
-      "fontSize": 44,
+      "content": "Antídoto",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 91.29,
-      "out": 110.57,
+      "in": 172.98,
+      "out": 175.38,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4776,18 +3797,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Problema no es",
-      "fontSize": 44,
+      "content": "Zona rural",
+      "fontSize": 48,
       "box": {
         "cx": 960,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 91.29,
-      "out": 110.57,
+      "in": 179.12,
+      "out": 181.52,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4802,18 +3823,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Saliva tóxica",
-      "fontSize": 44,
+      "content": "Especies serpientes",
+      "fontSize": 48,
       "box": {
-        "cx": 1440,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 91.29,
-      "out": 110.57,
+      "in": 187.32,
+      "out": 189.72,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4828,18 +3849,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Plasmodio invasor",
-      "fontSize": 44,
+      "content": "Perro",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 95.35,
-      "out": 110.57,
+      "in": 193.46,
+      "out": 195.86,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4854,18 +3875,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Proceso malaria",
-      "fontSize": 44,
+      "content": "Perro muerde",
+      "fontSize": 48,
       "box": {
         "cx": 960,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 103.37,
-      "out": 110.57,
+      "in": 201.22,
+      "out": 203.62,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4880,18 +3901,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Red mosquitera",
-      "fontSize": 44,
+      "content": "Virus",
+      "fontSize": 48,
       "box": {
-        "cx": 1440,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 105.57,
-      "out": 110.57,
+      "in": 209.02,
+      "out": 211.42,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4906,18 +3927,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Repelente",
-      "fontSize": 44,
+      "content": "Virus en nervios",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 110.82,
-      "out": 129.02,
+      "in": 218.68,
+      "out": 221.08,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4932,18 +3953,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Curiosamente, el…",
-      "fontSize": 44,
+      "content": "Vacuna antirrábica",
+      "fontSize": 48,
       "box": {
-        "cx": 1440,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 116.31,
-      "out": 129.02,
+      "in": 230.46,
+      "out": 232.86,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4958,18 +3979,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Atrae aliento",
-      "fontSize": 44,
+      "content": "Louis Pasteur",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 116.31,
-      "out": 129.02,
+      "in": 239,
+      "out": 241.4,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4984,18 +4005,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Elige víctima",
-      "fontSize": 44,
+      "content": "Vacunación Pasteur",
+      "fontSize": 48,
       "box": {
-        "cx": 1440,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 126.09,
-      "out": 129.02,
+      "in": 245.8,
+      "out": 248.2,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5010,18 +4031,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Fórmula química",
-      "fontSize": 44,
+      "content": "Muertes rabia",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 695,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 129.27,
-      "out": 131.48,
+      "in": 254.6,
+      "out": 257,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5036,18 +4057,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Serpientes venenosas…",
-      "fontSize": 39,
+      "content": "Campaña vacunación",
+      "fontSize": 48,
       "box": {
-        "cx": 620,
-        "cy": 705,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 131.73,
-      "out": 141.44,
+      "in": 264.98,
+      "out": 267.02,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5062,18 +4083,44 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Serpiente venenosa",
-      "fontSize": 44,
+      "content": "Países sin rabia",
+      "fontSize": 48,
       "box": {
-        "cx": 1300,
-        "cy": 705,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 131.73,
-      "out": 141.44,
+      "in": 267.22,
+      "out": 269.62,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_227",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Mosca tsetsé",
+      "fontSize": 48,
+      "box": {
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 277.54,
+      "out": 279.94,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5088,18 +4135,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Cobra real",
-      "fontSize": 44,
+      "content": "Enfermedad sueño",
+      "fontSize": 48,
       "box": {
         "cx": 960,
-        "cy": 745,
-        "w": 440,
-        "h": 62
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 141.69,
-      "out": 150.22,
+      "in": 282.84,
+      "out": 285.24,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5114,18 +4161,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Dato que sorprende",
-      "fontSize": 44,
+      "content": "Cinturón tsetsé",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 695,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 150.47,
-      "out": 165.7,
+      "in": 295.8,
+      "out": 298.2,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5140,18 +4187,70 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Serpientes India",
-      "fontSize": 44,
+      "content": "¿O sí?",
+      "fontSize": 48,
       "box": {
         "cx": 960,
-        "cy": 695,
-        "w": 440,
-        "h": 62
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 152.25,
-      "out": 165.7,
+      "in": 311.18,
+      "out": 313.58,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_231",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Sí",
+      "fontSize": 48,
+      "box": {
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 315.06,
+      "out": 317.06,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_232",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Tsetsé ganadería",
+      "fontSize": 48,
+      "box": {
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 317.26,
+      "out": 319.66,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5166,18 +4265,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Veneno de una",
-      "fontSize": 44,
+      "content": "Pérdida económica",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 165.95,
-      "out": 193.26,
+      "in": 323.94,
+      "out": 326.34,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5192,18 +4291,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Veneno de una",
-      "fontSize": 44,
+      "content": "Cocodrilo Nilo",
+      "fontSize": 48,
       "box": {
         "cx": 960,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 165.95,
-      "out": 193.26,
+      "in": 335.16,
+      "out": 337.56,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5218,18 +4317,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Veneno letal",
-      "fontSize": 44,
+      "content": "Muertes reptiles",
+      "fontSize": 48,
       "box": {
-        "cx": 1440,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 165.95,
-      "out": 193.26,
+      "in": 340.12,
+      "out": 342.52,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5244,18 +4343,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Antídoto",
-      "fontSize": 44,
+      "content": "Cocodrilo acecha",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 173.03,
-      "out": 193.26,
+      "in": 343.16,
+      "out": 345.56,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5270,18 +4369,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Zona rural",
-      "fontSize": 44,
+      "content": "Cocodrilo marino",
+      "fontSize": 48,
       "box": {
         "cx": 960,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 179.17,
-      "out": 193.26,
+      "in": 351,
+      "out": 353.4,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5296,18 +4395,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Especies serpientes",
-      "fontSize": 43,
+      "content": "Fuerza mordida",
+      "fontSize": 48,
       "box": {
-        "cx": 1440,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 187.37,
-      "out": 193.26,
+      "in": 359.52,
+      "out": 361.92,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5322,18 +4421,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Puede sonar raro, pero",
-      "fontSize": 37,
+      "content": "Fauces cerradas",
+      "fontSize": 48,
       "box": {
-        "cx": 620,
-        "cy": 705,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 193.51,
-      "out": 201.02,
+      "in": 370.98,
+      "out": 373.38,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5348,18 +4447,44 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Perro",
-      "fontSize": 44,
+      "content": "Giro mortal",
+      "fontSize": 48,
       "box": {
-        "cx": 1300,
-        "cy": 705,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 193.51,
-      "out": 201.02,
+      "in": 374.64,
+      "out": 377.04,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_241",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Acecho subacuático",
+      "fontSize": 48,
+      "box": {
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 387.24,
+      "out": 389.64,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5374,18 +4499,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Perro muerde",
-      "fontSize": 44,
+      "content": "Hábitat marino",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 201.27,
-      "out": 218.48,
+      "in": 394.22,
+      "out": 396.62,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5400,18 +4525,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Virus",
-      "fontSize": 44,
+      "content": "Hipopótamo",
+      "fontSize": 48,
       "box": {
-        "cx": 1440,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 209.07,
-      "out": 218.48,
+      "in": 405.6,
+      "out": 408,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5426,18 +4551,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Así funciona el contagio",
-      "fontSize": 34,
+      "content": "Hipopótamo ataca",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 218.73,
-      "out": 218.48,
+      "in": 413.42,
+      "out": 415.82,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5452,18 +4577,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Así funciona el contagio",
-      "fontSize": 34,
+      "content": "Sudor rojo",
+      "fontSize": 48,
       "box": {
-        "cx": 1440,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 218.73,
-      "out": 218.48,
+      "in": 418.02,
+      "out": 420.42,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5478,18 +4603,44 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Así funciona el contagio",
-      "fontSize": 34,
+      "content": "Hipopótamo corre",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 695,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 218.73,
-      "out": 230.26,
+      "in": 428.4,
+      "out": 430.8,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_247",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Carrera tierra",
+      "fontSize": 48,
+      "box": {
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 431.9,
+      "out": 432.7,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5504,18 +4655,44 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Virus en nervios",
-      "fontSize": 44,
+      "content": "Ataca bote",
+      "fontSize": 48,
       "box": {
-        "cx": 1440,
-        "cy": 695,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 218.73,
-      "out": 230.26,
+      "in": 439.22,
+      "out": 441.62,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_249",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Colmillos letales",
+      "fontSize": 48,
+      "box": {
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 454.8,
+      "out": 457.2,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5530,18 +4707,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Vacuna antirrábica",
-      "fontSize": 44,
+      "content": "Medusa cúbica",
+      "fontSize": 48,
       "box": {
         "cx": 960,
-        "cy": 745,
-        "w": 440,
-        "h": 62
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 230.51,
-      "out": 235.3,
+      "in": 460.16,
+      "out": 462.56,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5556,18 +4733,44 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Dato curioso, la primera",
-      "fontSize": 34,
+      "content": "Tentáculos venenosos",
+      "fontSize": 48,
       "box": {
-        "cx": 1300,
-        "cy": 705,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 239.05,
-      "out": 238.8,
+      "in": 468.58,
+      "out": 470.98,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_252",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Irukandji",
+      "fontSize": 48,
+      "box": {
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 476.94,
+      "out": 479.34,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5582,18 +4785,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Louis Pasteur",
-      "fontSize": 44,
+      "content": "Vinagre",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 239.05,
-      "out": 277.34,
+      "in": 501.78,
+      "out": 504.18,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5608,18 +4811,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Vacunación Pasteur",
-      "fontSize": 44,
+      "content": "Elefante africano",
+      "fontSize": 48,
       "box": {
         "cx": 960,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 245.85,
-      "out": 277.34,
+      "in": 509.44,
+      "out": 511.84,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5634,18 +4837,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Muertes rabia",
-      "fontSize": 44,
+      "content": "Elefante carga",
+      "fontSize": 48,
       "box": {
-        "cx": 1440,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 254.65,
-      "out": 277.34,
+      "in": 513.6,
+      "out": 516,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5660,18 +4863,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Campaña vacunación",
-      "fontSize": 44,
+      "content": "Elefante en celo",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 265.03,
-      "out": 277.34,
+      "in": 525.64,
+      "out": 528.04,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5686,18 +4889,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Países sin rabia",
-      "fontSize": 44,
+      "content": "Cuidador observa",
+      "fontSize": 48,
       "box": {
         "cx": 960,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 267.27,
-      "out": 277.34,
+      "in": 535.46,
+      "out": 537.86,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5712,18 +4915,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "África subsajariana",
-      "fontSize": 43,
+      "content": "Prevención total",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 277.59,
-      "out": 295.6,
+      "in": 540.74,
+      "out": 543.14,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5738,18 +4941,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "África subsajariana",
-      "fontSize": 43,
+      "content": "Sentido común",
+      "fontSize": 48,
       "box": {
-        "cx": 1440,
-        "cy": 545,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 277.59,
-      "out": 295.6,
+      "in": 557.8,
+      "out": 560.2,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5764,18 +4967,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Mosca tsetsé",
-      "fontSize": 44,
+      "content": "Tiburón vs Mosquito",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 277.59,
-      "out": 295.6,
+      "in": 566.14,
+      "out": 568.54,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5790,18 +4993,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Enfermedad sueño",
-      "fontSize": 44,
+      "content": "Percepción real",
+      "fontSize": 48,
       "box": {
-        "cx": 1440,
-        "cy": 905,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 282.89,
-      "out": 295.6,
+      "in": 575.92,
+      "out": 578.32,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5816,18 +5019,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Existe incluso pues una",
-      "fontSize": 35,
+      "content": "Amenaza cercana",
+      "fontSize": 48,
       "box": {
-        "cx": 480,
-        "cy": 695,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 295.85,
-      "out": 310.98,
+      "in": 585.3,
+      "out": 587.7,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5842,18 +5045,18 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Cinturón tsetsé",
-      "fontSize": 44,
+      "content": "Miedo agua",
+      "fontSize": 48,
       "box": {
         "cx": 960,
-        "cy": 695,
-        "w": 440,
-        "h": 62
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 295.85,
-      "out": 310.98,
+      "in": 596.2,
+      "out": 598.6,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5868,18 +5071,44 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "¿O sí?",
-      "fontSize": 44,
+      "content": "Viaje preparado",
+      "fontSize": 48,
       "box": {
-        "cx": 1300,
-        "cy": 705,
-        "w": 440,
-        "h": 62
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 311.23,
-      "out": 314.86,
+      "in": 600.92,
+      "out": 603.32,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_265",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Me gusta",
+      "fontSize": 48,
+      "box": {
+        "cx": 960,
+        "cy": 775,
+        "w": 1300,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 611.44,
+      "out": 613.84,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5894,2179 +5123,21 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Sí",
-      "fontSize": 44,
-      "box": {
-        "cx": 960,
-        "cy": 745,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 315.11,
-      "out": 317.06,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_267",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Tsetsé ganadería",
-      "fontSize": 44,
-      "box": {
-        "cx": 480,
-        "cy": 695,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 317.31,
-      "out": 334.96,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_268",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Pérdida económica",
-      "fontSize": 44,
-      "box": {
-        "cx": 960,
-        "cy": 695,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 323.99,
-      "out": 334.96,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_270",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Cocodrilo del nilo",
-      "fontSize": 44,
-      "box": {
-        "cx": 480,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 335.21,
-      "out": 359.32,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_271",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Cocodrilo Nilo",
-      "fontSize": 44,
-      "box": {
-        "cx": 960,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 335.21,
-      "out": 359.32,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_272",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Muertes reptiles",
-      "fontSize": 44,
-      "box": {
-        "cx": 1440,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 340.17,
-      "out": 359.32,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_273",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Cocodrilo acecha",
-      "fontSize": 44,
-      "box": {
-        "cx": 480,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 343.21,
-      "out": 359.32,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_274",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Cocodrilo marino",
-      "fontSize": 44,
-      "box": {
-        "cx": 960,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 351.05,
-      "out": 359.32,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_275",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Hacerte una idea",
-      "fontSize": 44,
-      "box": {
-        "cx": 1440,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 359.57,
-      "out": 359.32,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_276",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Hacerte una idea",
-      "fontSize": 44,
-      "box": {
-        "cx": 620,
-        "cy": 705,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 359.57,
-      "out": 370.18,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_277",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Fuerza mordida",
-      "fontSize": 44,
-      "box": {
-        "cx": 1300,
-        "cy": 705,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 359.57,
-      "out": 370.18,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_279",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Fauces cerradas",
-      "fontSize": 44,
-      "box": {
-        "cx": 1440,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 371.03,
-      "out": 394.02,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_280",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Giro mortal",
-      "fontSize": 44,
-      "box": {
-        "cx": 480,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 374.69,
-      "out": 394.02,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_281",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Acecho subacuático",
-      "fontSize": 44,
-      "box": {
-        "cx": 1440,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 387.29,
-      "out": 394.02,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_282",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Este gigante, el cocodrilo",
-      "fontSize": 34,
-      "box": {
-        "cx": 480,
-        "cy": 695,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 394.27,
-      "out": 405.4,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_283",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Hábitat marino",
-      "fontSize": 44,
-      "box": {
-        "cx": 960,
-        "cy": 695,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 394.27,
-      "out": 405.4,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_285",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Parece lento, gordito y",
-      "fontSize": 35,
-      "box": {
-        "cx": 960,
-        "cy": 745,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 405.65,
-      "out": 405.4,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_286",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Hipopótamo",
-      "fontSize": 44,
-      "box": {
-        "cx": 1300,
-        "cy": 705,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 405.65,
-      "out": 413.22,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_288",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Hipopótamo ataca",
-      "fontSize": 44,
-      "box": {
-        "cx": 480,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 413.47,
-      "out": 439.02,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_289",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Piel se grega",
-      "fontSize": 44,
-      "box": {
-        "cx": 960,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 418.07,
-      "out": 439.02,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_290",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Sudor rojo",
-      "fontSize": 44,
-      "box": {
-        "cx": 1440,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 418.07,
-      "out": 439.02,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_291",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Hipopótamo corre",
-      "fontSize": 44,
-      "box": {
-        "cx": 480,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 428.45,
-      "out": 439.02,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_292",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Carrera tierra",
-      "fontSize": 44,
-      "box": {
-        "cx": 960,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 431.95,
-      "out": 439.02,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_293",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Ataca bote",
-      "fontSize": 44,
-      "box": {
-        "cx": 480,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 439.27,
-      "out": 459.96,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_294",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Colmillos letales",
-      "fontSize": 44,
-      "box": {
-        "cx": 1440,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 454.85,
-      "out": 459.96,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_295",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Costas de",
-      "fontSize": 44,
-      "box": {
-        "cx": 480,
-        "cy": 695,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 460.21,
-      "out": 468.38,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_296",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Costas de",
-      "fontSize": 44,
-      "box": {
-        "cx": 960,
-        "cy": 695,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 460.21,
-      "out": 468.38,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_297",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Medusa cúbica",
-      "fontSize": 44,
-      "box": {
-        "cx": 1440,
-        "cy": 695,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 460.21,
-      "out": 468.38,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_298",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Tentáculos venenosos",
-      "fontSize": 41,
-      "box": {
-        "cx": 620,
-        "cy": 705,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 468.63,
-      "out": 476.74,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_299",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Existe además una prima",
-      "fontSize": 35,
-      "box": {
-        "cx": 1300,
-        "cy": 705,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 476.99,
-      "out": 476.74,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_301",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Irukandji",
-      "fontSize": 44,
-      "box": {
-        "cx": 960,
-        "cy": 745,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 476.99,
-      "out": 484.6,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_302",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Vinagre",
-      "fontSize": 44,
-      "box": {
-        "cx": 960,
-        "cy": 695,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 501.83,
-      "out": 509.24,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_304",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Cerramos el recorrido con",
-      "fontSize": 34,
-      "box": {
-        "cx": 480,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 509.49,
-      "out": 535.26,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_305",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Elefante africano",
-      "fontSize": 44,
-      "box": {
-        "cx": 960,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 509.49,
-      "out": 535.26,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_306",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Elefante carga",
-      "fontSize": 44,
-      "box": {
-        "cx": 1440,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 513.65,
-      "out": 535.26,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_307",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Machos además atraviesan",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 525.69,
-      "out": 535.26,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_308",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Elefante en celo",
-      "fontSize": 44,
-      "box": {
-        "cx": 1440,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 525.69,
-      "out": 535.26,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_309",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Cuidador observa",
-      "fontSize": 44,
-      "box": {
-        "cx": 620,
-        "cy": 705,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 535.51,
-      "out": 540.54,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_310",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Resumiendo, mosquitera…",
-      "fontSize": 35,
-      "box": {
-        "cx": 480,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 540.79,
-      "out": 540.54,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_311",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Resumiendo, mosquitera…",
-      "fontSize": 35,
-      "box": {
-        "cx": 1440,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 540.79,
-      "out": 540.54,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_312",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Resumiendo, mosquitera…",
-      "fontSize": 35,
-      "box": {
-        "cx": 480,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 540.79,
-      "out": 540.54,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_313",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Resumiendo, mosquitera…",
-      "fontSize": 35,
-      "box": {
-        "cx": 1440,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 540.79,
-      "out": 540.54,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_314",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Resumiendo, mosquitera…",
-      "fontSize": 35,
-      "box": {
-        "cx": 480,
-        "cy": 695,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 540.79,
-      "out": 540.54,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_315",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Resumiendo, mosquitera…",
-      "fontSize": 35,
-      "box": {
-        "cx": 960,
-        "cy": 695,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 540.79,
-      "out": 540.54,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_317",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Resumiendo, mosquitera…",
-      "fontSize": 35,
-      "box": {
-        "cx": 1440,
-        "cy": 695,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 540.79,
-      "out": 540.54,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_319",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Resumiendo, mosquitera…",
-      "fontSize": 35,
-      "box": {
-        "cx": 960,
-        "cy": 745,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 540.79,
-      "out": 540.54,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_320",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Prevención total",
-      "fontSize": 44,
-      "box": {
-        "cx": 620,
-        "cy": 705,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 540.79,
-      "out": 557.6,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_322",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Sentido común",
-      "fontSize": 44,
-      "box": {
-        "cx": 480,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 557.85,
-      "out": 565.94,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_323",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Tenemos miedo al tiburón",
-      "fontSize": 34,
-      "box": {
-        "cx": 480,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 566.19,
-      "out": 585.1,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_324",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Tenemos miedo al tiburón",
-      "fontSize": 34,
-      "box": {
-        "cx": 1440,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 566.19,
-      "out": 585.1,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_325",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Tiburón vs Mosquito",
-      "fontSize": 43,
-      "box": {
-        "cx": 480,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 566.19,
-      "out": 585.1,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_326",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Percepción real",
-      "fontSize": 44,
-      "box": {
-        "cx": 1440,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 575.97,
-      "out": 585.1,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_327",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Te hagas",
-      "fontSize": 44,
-      "box": {
-        "cx": 480,
-        "cy": 695,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 585.35,
-      "out": 596,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_328",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Amenaza cercana",
-      "fontSize": 44,
-      "box": {
-        "cx": 960,
-        "cy": 695,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 585.35,
-      "out": 596,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_329",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Miedo agua",
-      "fontSize": 44,
-      "box": {
-        "cx": 620,
-        "cy": 705,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 596.25,
-      "out": 600.72,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_330",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Así que la próxima",
-      "fontSize": 44,
-      "box": {
-        "cx": 1300,
-        "cy": 705,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 600.97,
-      "out": 600.72,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_332",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Viaje preparado",
-      "fontSize": 44,
-      "box": {
-        "cx": 960,
-        "cy": 745,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 600.97,
-      "out": 611.24,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_333",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Me gusta",
-      "fontSize": 44,
-      "box": {
-        "cx": 480,
-        "cy": 695,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 611.49,
-      "out": 621.78,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_334",
-      "type": "text",
-      "label": true,
-      "fixed": true,
       "content": "Cámara",
-      "fontSize": 44,
+      "fontSize": 48,
       "box": {
         "cx": 960,
-        "cy": 695,
-        "w": 440,
-        "h": 62
+        "cy": 775,
+        "w": 1300,
+        "h": 64
       },
       "color": "#111111",
       "z": 66,
-      "in": 620.13,
+      "in": 620.08,
       "out": 621.78,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_188",
-      "type": "arrow",
-      "a": {
-        "x": 804,
-        "y": 269
-      },
-      "b": {
-        "x": 1116,
-        "y": 269
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 0.35,
-      "out": 2.2,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_192",
-      "type": "arrow",
-      "a": {
-        "x": 639,
-        "y": 294
-      },
-      "b": {
-        "x": 801,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 9.75,
-      "out": 16.34,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_194",
-      "type": "arrow",
-      "a": {
-        "x": 1119,
-        "y": 294
-      },
-      "b": {
-        "x": 1281,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 16.69,
-      "out": 16.34,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_202",
-      "type": "arrow",
-      "a": {
-        "x": 804,
-        "y": 269
-      },
-      "b": {
-        "x": 1116,
-        "y": 269
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 41.69,
-      "out": 42.28,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_208",
-      "type": "arrow",
-      "a": {
-        "x": 639,
-        "y": 294
-      },
-      "b": {
-        "x": 801,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 63.53,
-      "out": 75.44,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_210",
-      "type": "arrow",
-      "a": {
-        "x": 1119,
-        "y": 294
-      },
-      "b": {
-        "x": 1281,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 68.59,
-      "out": 75.44,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_213",
-      "type": "arrow",
-      "a": {
-        "x": 804,
-        "y": 269
-      },
-      "b": {
-        "x": 1116,
-        "y": 269
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 87.23,
-      "out": 91.04,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_227",
-      "type": "arrow",
-      "a": {
-        "x": 804,
-        "y": 269
-      },
-      "b": {
-        "x": 1116,
-        "y": 269
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 131.83,
-      "out": 141.44,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_231",
-      "type": "arrow",
-      "a": {
-        "x": 639,
-        "y": 294
-      },
-      "b": {
-        "x": 801,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 152.35,
-      "out": 165.7,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_232",
-      "type": "arrow",
-      "a": {
-        "x": 1119,
-        "y": 294
-      },
-      "b": {
-        "x": 1281,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 162.72,
-      "out": 165.7,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_241",
-      "type": "arrow",
-      "a": {
-        "x": 804,
-        "y": 269
-      },
-      "b": {
-        "x": 1116,
-        "y": 269
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 193.61,
-      "out": 201.02,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_247",
-      "type": "arrow",
-      "a": {
-        "x": 639,
-        "y": 294
-      },
-      "b": {
-        "x": 801,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 218.83,
-      "out": 230.26,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_249",
-      "type": "arrow",
-      "a": {
-        "x": 1119,
-        "y": 294
-      },
-      "b": {
-        "x": 1281,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 218.83,
-      "out": 230.26,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_252",
-      "type": "arrow",
-      "a": {
-        "x": 804,
-        "y": 269
-      },
-      "b": {
-        "x": 1116,
-        "y": 269
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 239.15,
-      "out": 238.8,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_265",
-      "type": "arrow",
-      "a": {
-        "x": 804,
-        "y": 269
-      },
-      "b": {
-        "x": 1116,
-        "y": 269
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 311.33,
-      "out": 314.86,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_269",
-      "type": "arrow",
-      "a": {
-        "x": 639,
-        "y": 294
-      },
-      "b": {
-        "x": 801,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 324.09,
-      "out": 334.96,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_278",
-      "type": "arrow",
-      "a": {
-        "x": 804,
-        "y": 269
-      },
-      "b": {
-        "x": 1116,
-        "y": 269
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 359.67,
-      "out": 370.18,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_284",
-      "type": "arrow",
-      "a": {
-        "x": 639,
-        "y": 294
-      },
-      "b": {
-        "x": 801,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 394.37,
-      "out": 405.4,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_287",
-      "type": "arrow",
-      "a": {
-        "x": 804,
-        "y": 269
-      },
-      "b": {
-        "x": 1116,
-        "y": 269
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 405.75,
-      "out": 413.22,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_300",
-      "type": "arrow",
-      "a": {
-        "x": 804,
-        "y": 269
-      },
-      "b": {
-        "x": 1116,
-        "y": 269
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 477.09,
-      "out": 476.74,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_303",
-      "type": "arrow",
-      "a": {
-        "x": 639,
-        "y": 294
-      },
-      "b": {
-        "x": 801,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 501.93,
-      "out": 509.24,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_316",
-      "type": "arrow",
-      "a": {
-        "x": 639,
-        "y": 294
-      },
-      "b": {
-        "x": 801,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 540.89,
-      "out": 540.54,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_318",
-      "type": "arrow",
-      "a": {
-        "x": 1119,
-        "y": 294
-      },
-      "b": {
-        "x": 1281,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 540.89,
-      "out": 540.54,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_321",
-      "type": "arrow",
-      "a": {
-        "x": 804,
-        "y": 269
-      },
-      "b": {
-        "x": 1116,
-        "y": 269
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 553.59,
-      "out": 557.6,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_331",
-      "type": "arrow",
-      "a": {
-        "x": 804,
-        "y": 269
-      },
-      "b": {
-        "x": 1116,
-        "y": 269
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 601.07,
-      "out": 600.72,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_335",
-      "type": "arrow",
-      "a": {
-        "x": 639,
-        "y": 294
-      },
-      "b": {
-        "x": 801,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 620.23,
-      "out": 621.78,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
       },
       "exit": {
         "kind": "fade-out",

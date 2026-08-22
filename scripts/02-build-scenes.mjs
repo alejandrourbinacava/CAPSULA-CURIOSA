@@ -340,20 +340,9 @@ capLive(elements.filter(e => !structuralEl(e) && e.type !== "watermark" && e.box
   }
   for (let i = elements.length - 1; i >= 0; i--) if (elements[i]._discard) elements.splice(i, 1);
 }
-// --- LIENZO ACUMULATIVO: los dibujos se van APILANDO en una rejilla ORDENADA y del MISMO tamaño; cada uno
-//     con su ETIQUETA justo debajo (lo que se dice). Se rellena en orden (izq→der, arriba→abajo); cuando se
-//     llena (6) o acaba la sección, se limpia y empieza otro lienzo. Entra uno cada ~2,5s → nunca hay vacío. ---
-// layouts de lienzo (varían para no ser monótono): 1 grande · 2 · 3 · 4 (esquinas) · 6. Tamaño uniforme
-// DENTRO de cada layout; entre layouts sí cambia (uno grande, luego varios...). Cada slot = icono + etiqueta.
-const LAY = [
-  { size: 450, slots: [{ cx: 960, ic: 460, lb: 745 }] },
-  { size: 380, slots: [{ cx: 620, ic: 435, lb: 705 }, { cx: 1300, ic: 435, lb: 705 }] },
-  { size: 330, slots: [{ cx: 480, ic: 435, lb: 695 }, { cx: 960, ic: 435, lb: 695 }, { cx: 1440, ic: 435, lb: 695 }] },
-  { size: 280, slots: [{ cx: 480, ic: 355, lb: 545 }, { cx: 1440, ic: 355, lb: 545 }, { cx: 480, ic: 720, lb: 905 }, { cx: 1440, ic: 720, lb: 905 }] },
-  { size: 280, slots: [{ cx: 480, ic: 355, lb: 545 }, { cx: 960, ic: 355, lb: 545 }, { cx: 1440, ic: 355, lb: 545 }, { cx: 480, ic: 720, lb: 905 }, { cx: 960, ic: 720, lb: 905 }, { cx: 1440, ic: 720, lb: 905 }] },
-];
-const BYN = {}; for (const L of LAY) BYN[L.slots.length] = L;
-const CYCLE = [2, 1, 3, 6, 2, 4, 3, 1, 2, 6, 4, 3]; // secuencia de nº de elementos por lienzo (variedad)
+// --- ESCENARIO CENTRAL ROTATIVO: UN visual a la vez, GRANDE y CENTRADO (si solo hay uno, va en el MEDIO),
+//     con su ETIQUETA debajo. Cada cosa que menciona la voz trae su dibujo, que RELEVA al anterior.
+//     Un icono por mención (regla inamovible) + siempre centrado ⇒ un único elemento a la vez, en el centro.
 const isVisEl = (e) => !structuralEl(e) && e.type !== "watermark" && !TEXT_TYPES.has(e.type) && e.type !== "stat" && e.box;
 // STICKMAN como UN ELEMENTO MÁS (no fijo en la esquina): aparece de vez en cuando, entra en el lienzo
 // como los dibujos, reacciona y se va. Se coloca en un slot por la acumulación de abajo.
@@ -364,41 +353,27 @@ sections.forEach((sec, i) => {
   elements.push({ id: "sm_" + autoId++, type: "stickman", pose: SPOSE[i % SPOSE.length], box: { cx: 960, cy: 470, w: 300, h: 300 }, in: t, out: +(t + 2.6).toFixed(2), enter: { kind: "pop", duration: 0.35 }, exit: { kind: "fade-out", duration: 0.25 } });
 });
 
-const newLabels = [], newArrows = [], transitions = [];
-let cyc = 0;
-for (const sec of sections) {
-  transitions.push(+sec.t0.toFixed(2));
-  const vis = elements.filter(e => isVisEl(e) && e.in >= sec.t0 - 0.01 && e.in < sec.t1).sort((a, b) => a.in - b.in);
-  let lay = BYN[CYCLE[cyc % CYCLE.length]], slot = 0, live = [], arrowsLive = [];
-  const horiz = () => lay.slots.every(s => s.ic === lay.slots[0].ic);
-  const clearAll = (tEnd) => {
-    for (const p of live) { p.icon.out = +Math.min(p.icon.out, tEnd).toFixed(2); if (p.label) p.label.out = p.icon.out; }
-    for (const ar of arrowsLive) ar.out = +Math.min(ar.out, tEnd).toFixed(2);
-    live = []; arrowsLive = []; slot = 0;
-  };
-  for (const el of vis) {
-    if (slot >= lay.slots.length) { clearAll(el.in); transitions.push(+el.in.toFixed(2)); cyc++; lay = BYN[CYCLE[cyc % CYCLE.length]]; } // lienzo lleno → limpia y CAMBIA
-    const s = lay.slots[slot++];
-    el.box = { cx: s.cx, cy: s.ic, w: lay.size, h: lay.size }; el.fixed = true; el.kenburns = false;
-    el.out = sec.t1;
-    let label = null; const lab = el.type === "stickman" ? "" : (el.label || labelAt(el.in)); // etiqueta limpia de Claude; el stickman va sin etiqueta
-    if (lab) {
-      const fs = Math.max(34, Math.min(44, Math.floor(820 / Math.max(1, lab.length))));
-      label = { id: "lb_" + autoId++, type: "text", label: true, fixed: true, content: lab, fontSize: fs, box: { cx: s.cx, cy: s.lb, w: 440, h: 62 }, color: STROKE, z: 66, in: +(el.in + 0.25).toFixed(2), out: sec.t1, enter: { kind: "handwrite", duration: 0.4 }, exit: { kind: "fade-out", duration: 0.15 } };
-      newLabels.push(label);
-    }
-    // FLECHA trazada entre iconos contiguos (solo filas horizontales, en la mitad de los lienzos → variedad sin saturar)
-    if (live.length >= 1 && horiz() && cyc % 2 === 0) {
-      const prev = live[live.length - 1], y = s.ic - lay.size / 2 + 24;
-      const ar = { id: "ar_" + autoId++, type: "arrow", a: { x: prev.icon.box.cx + lay.size / 2 - 6, y }, b: { x: s.cx - lay.size / 2 + 6, y }, curve: "up", color: RED, z: 40, in: +(el.in + 0.35).toFixed(2), out: sec.t1, enter: { kind: "draw", duration: 0.5 }, exit: { kind: "fade-out", duration: 0.15 } };
-      newArrows.push(ar); arrowsLive.push(ar);
-    }
-    live.push({ icon: el, label });
+// Los iconos MANUALES del guion ([[show:]]) se apilaban (varios con el mismo tiempo). El pipeline ahora
+//   se guía por los iconos AUTO sincronizados a la voz → quitamos los manuales (no-auto) del contenido.
+for (let i = elements.length - 1; i >= 0; i--) { const e = elements[i]; if (e.type === "image" && !e.auto && !e.structural) elements.splice(i, 1); }
+
+const newLabels = [], transitions = [];
+const centerVis = elements.filter(isVisEl).sort((a, b) => a.in - b.in);
+for (let k = 0; k < centerVis.length; k++) {
+  const el = centerVis[k], next = centerVis[k + 1];
+  const photo = isPhoto(el);
+  el.box = { cx: 960, cy: 470, w: photo ? 600 : 480, h: photo ? 470 : 480 }; // GRANDE y CENTRADO
+  el.fixed = true; el.kenburns = photo;
+  const secEnd = sectionAt(el.in).t1;
+  el.out = +Math.max(el.in + 1.0, Math.min(el.out, secEnd, next ? next.in : meta.duration)).toFixed(2); // releva al siguiente
+  transitions.push(+el.in.toFixed(2));
+  const lab = el.type === "stickman" ? "" : (el.label || labelAt(el.in)); // stickman sin etiqueta
+  if (lab) {
+    const fs = Math.max(34, Math.min(48, Math.floor(1040 / Math.max(1, lab.length))));
+    newLabels.push({ id: "lb_" + autoId++, type: "text", label: true, fixed: true, content: lab, fontSize: fs, box: { cx: 960, cy: 775, w: 1300, h: 64 }, color: STROKE, z: 66, in: +(el.in + 0.2).toFixed(2), out: el.out, enter: { kind: "handwrite", duration: 0.4 }, exit: { kind: "fade-out", duration: 0.15 } });
   }
-  clearAll(sec.t1); cyc++;
 }
 for (const l of newLabels) elements.push(l);
-for (const ar of newArrows) elements.push(ar);
 
 // transiciones (cambios de composición) → para el SFX de transición en el paso de audio
 fs.writeFileSync(path.join(dir, "transitions.json"), JSON.stringify([...new Set(transitions)].sort((a, b) => a - b), null, 0));
