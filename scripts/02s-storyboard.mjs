@@ -182,6 +182,18 @@ for (const b of beats) {
 // FORMAS no sobreviven a su objetivo (nada de tachones/círculos huérfanos)
 for (const e of elements) { if (e.type === "shape" && e.__t) { e.out = Math.min(e.out, e.__t.out); e._target = e.__t.id; delete e.__t; } else if (e.__t) delete e.__t; }
 
+// SIN HUECOS → ningún tramo en blanco. Si al salir todo lo de un beat el siguiente visual entra más
+//   tarde, se alarga el ÚLTIMO en salir hasta que entra el siguiente (termina justo al empezar el otro,
+//   sin solape). Va ANTES del centrado, para que ese elemento alargado se centre durante el hueco.
+{
+  const vis = elements.filter(e => e.box && (e.type === "image" || e.type === "text")).sort((a, b) => a.in - b.in);
+  let coverEnd = 0, lastEl = null;
+  for (const e of vis) {
+    if (lastEl && e.in > coverEnd + 0.05) lastEl.out = Math.max(lastEl.out, +e.in.toFixed(2)); // alarga el último para tapar el hueco
+    if (e.out >= coverEnd) { coverEnd = e.out; lastEl = e; }
+  }
+}
+
 // ELEMENTO ÚNICO (GLOBAL) → mientras un elemento sea el ÚNICO en pantalla, va centrado.
 //   Cubre huecos ENTRE beats (un beat vacía y el siguiente aún no ha entrado): el que queda solo
 //   se centra con keyframes suaves y vuelve a su anclaje cuando llega compañía. Regla del usuario.

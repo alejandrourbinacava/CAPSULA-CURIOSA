@@ -64,6 +64,16 @@ for (const fr of frames) {
   }
   if (run >= 1.0) fails.push({ t: runStart, kind: "solo-descentrado", msg: `único elemento "${runId}" descentrado durante ${run.toFixed(1)}s` });
 }
+// 8) HUECOS → ningún tramo > 2s sin NINGÚN dibujo o texto (flechas y formas no cuentan como relleno)
+{
+  let run = 0, runStart = 0;
+  for (const fr of frames) {
+    const has = fr.elements.some(e => !e.structural && e.type !== "arrow" && e.type !== "shape");
+    if (!has) { if (run === 0) runStart = fr.t; run += STEP; }
+    else { if (run > 2.0) fails.push({ t: runStart, kind: "hueco", msg: `${run.toFixed(1)}s en blanco sin ningún dibujo/texto` }); run = 0; }
+  }
+  if (run > 2.0) fails.push({ t: runStart, kind: "hueco", msg: `${run.toFixed(1)}s en blanco al final` });
+}
 
 // --- comprobaciones a NIVEL ELEMENTO (MATERIAL.md): ninguna imagen > 15s; ningún texto < 34px ---
 for (const e of scenes.elements) {
@@ -82,7 +92,7 @@ for (const id of (scenes.meta.declaredMissing || [])) fails.push({ t: 0, kind: "
 
 // --- informe ---
 // "15s" queda como AVISO (no bloquea) hasta que esté la rotación de imágenes; el resto son duros.
-const HARD = new Set(["texto-texto", "zona", "n-textos", "fuera", "img-img", "total", "texto-pequeño", "desborde", "antes-de-voz", "desync", "forma-huerfana", "declarado", "solo-descentrado"]);
+const HARD = new Set(["texto-texto", "zona", "n-textos", "fuera", "img-img", "total", "texto-pequeño", "desborde", "antes-de-voz", "desync", "forma-huerfana", "declarado", "solo-descentrado", "hueco"]);
 const hard = fails.filter(f => HARD.has(f.kind));
 const shown = fails.slice(0, 25);
 for (const f of shown) console.log(`✗ ${ts(f.t)}  ${f.msg}\n`);

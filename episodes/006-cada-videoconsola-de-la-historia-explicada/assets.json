@@ -1,0 +1,219 @@
+{
+  "crash-1983": {
+    "kind": "vector",
+    "query": "pile of discarded video game cartridges dumped in a landfill, early 1980s",
+    "file": "assets/icons/crash-1983.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "nes-console": {
+    "kind": "vector",
+    "query": "Nintendo Entertainment System grey home console with rectangular gamepad, 1985",
+    "file": "assets/icons/nes-console.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mario": {
+    "kind": "vector",
+    "query": "friendly cartoon handyman mascot with a big bushy mustache, a round cap and dungarees, waving",
+    "file": "assets/icons/mario.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "quality-seal": {
+    "kind": "vector",
+    "query": "official golden seal of quality badge with ribbon and checkmark",
+    "file": "assets/icons/quality-seal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sega-megadrive": {
+    "kind": "vector",
+    "query": "Sega Mega Drive black home console with round three button controller, early 1990s",
+    "file": "assets/icons/sega-megadrive.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sonic": {
+    "kind": "vector",
+    "query": "fast blue cartoon hedgehog with attitude and red shoes running, 1990s",
+    "file": "assets/icons/sonic.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "versus-tv": {
+    "kind": "vector",
+    "query": "old cathode television showing two game consoles facing off in a versus battle",
+    "file": "assets/icons/versus-tv.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "playstation-1": {
+    "kind": "vector",
+    "query": "original Sony PlayStation grey console with dual controller, 1994",
+    "file": "assets/icons/playstation-1.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cd-disc": {
+    "kind": "vector",
+    "query": "shiny rainbow compact disc CD",
+    "file": "assets/icons/cd-disc.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cartridge": {
+    "kind": "vector",
+    "query": "chunky plastic retro video game cartridge",
+    "file": "assets/icons/cartridge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "nintendo-64": {
+    "kind": "vector",
+    "query": "Nintendo 64 grey console with three pronged controller, 1996",
+    "file": "assets/icons/nintendo-64.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "playstation-2": {
+    "kind": "vector",
+    "query": "Sony PlayStation 2 slim black console standing vertical, year 2000",
+    "file": "assets/icons/playstation-2.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dvd-movie": {
+    "kind": "vector",
+    "query": "DVD movie disc next to a film clapperboard",
+    "file": "assets/icons/dvd-movie.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "xbox-original": {
+    "kind": "vector",
+    "query": "original Microsoft Xbox large black console with big green X logo, 2001",
+    "file": "assets/icons/xbox-original.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "headset-online": {
+    "kind": "vector",
+    "query": "gaming headset with boom microphone for online voice chat",
+    "file": "assets/icons/headset-online.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "xbox-360": {
+    "kind": "vector",
+    "query": "Xbox 360 white curved console standing vertical, mid 2000s",
+    "file": "assets/icons/xbox-360.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "playstation-3": {
+    "kind": "vector",
+    "query": "Sony PlayStation 3 glossy black curved console, mid 2000s",
+    "file": "assets/icons/playstation-3.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "wii-console": {
+    "kind": "vector",
+    "query": "Nintendo Wii small white console standing on a stand, 2006",
+    "file": "assets/icons/wii-console.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "wii-remote": {
+    "kind": "vector",
+    "query": "hand holding a white motion controller remote and swinging it like a racket",
+    "file": "assets/icons/wii-remote.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "family-livingroom": {
+    "kind": "vector",
+    "query": "happy family and grandmother playing a motion video game together in a living room",
+    "file": "assets/icons/family-livingroom.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "playstation-4": {
+    "kind": "vector",
+    "query": "Sony PlayStation 4 black slanted console with controller, 2013",
+    "file": "assets/icons/playstation-4.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "xbox-one": {
+    "kind": "vector",
+    "query": "Microsoft Xbox One black rectangular console with controller, 2013",
+    "file": "assets/icons/xbox-one.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "nintendo-switch": {
+    "kind": "vector",
+    "query": "Nintendo Switch hybrid console handheld with two detachable side controllers",
+    "file": "assets/icons/nintendo-switch.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "smartphone-arm": {
+    "kind": "vector",
+    "query": "modern smartphone with a glowing efficient processor chip inside, low power",
+    "file": "assets/icons/smartphone-arm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cloud-gaming": {
+    "kind": "vector",
+    "query": "cloud with a video game controller, online streaming subscription",
+    "file": "assets/icons/cloud-gaming.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "trophy": {
+    "kind": "vector",
+    "query": "golden trophy cup for a winner",
+    "file": "assets/icons/trophy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "controller": {
+    "kind": "vector",
+    "query": "modern video game controller gamepad",
+    "file": "assets/icons/controller.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "japan-origin": {
+    "kind": "vector",
+    "query": "Japan red rising sun with a small island map",
+    "file": "assets/icons/japan-origin.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "broken-deal": {
+    "kind": "vector",
+    "query": "two business hands failing a handshake, a broken cracked deal",
+    "file": "assets/icons/broken-deal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "crown": {
+    "kind": "vector",
+    "query": "crown",
+    "file": "assets/icons/crown.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "euro-coin": {
+    "kind": "vector",
+    "query": "euro coin",
+    "file": "assets/icons/euro-coin.png",
+    "normalized": true,
+    "gpt": true
+  }
+}
