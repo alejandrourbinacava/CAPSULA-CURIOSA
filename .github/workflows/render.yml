@@ -65,6 +65,11 @@ jobs:
         id: ep
         run: echo "dir=$(cat episodes/active.txt)" >> $GITHUB_OUTPUT
 
+      - name: Modo (storyboard manual vs pipeline automático)
+        id: mode
+        run: |
+          if [ -f "${{ steps.ep.outputs.dir }}/storyboard.md" ]; then echo "sb=1" >> $GITHUB_OUTPUT; echo "Modo STORYBOARD (guion+escenas a mano)"; else echo "sb=0" >> $GITHUB_OUTPUT; echo "Modo AUTOMÁTICO"; fi
+
       - name: "01a) Descargar assets (fotos Wikipedia + iconos OpenAI/Iconify normalizados)"
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -86,23 +91,31 @@ jobs:
           GENAIPRO_API_KEY: ${{ secrets.GENAIPRO_API_KEY }}
         run: node scripts/01-tts.mjs "${{ steps.ep.outputs.dir }}"
 
-      - name: "01e) Enrich (Claude: qué dibujar por frase, fotos+doodles sincronizados a la voz)"
+      - name: "01e) Enrich (Claude) — solo modo automático"
+        if: ${{ steps.mode.outputs.sb == '0' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/01e-enrich.mjs "${{ steps.ep.outputs.dir }}"
 
-      - name: "01f) Etiquetas en español (Claude)"
+      - name: "01f) Etiquetas (Claude) — solo modo automático"
+        if: ${{ steps.mode.outputs.sb == '0' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/01f-labels.mjs "${{ steps.ep.outputs.dir }}"
 
-      - name: "01g) Generar dibujos auto (fotos Wikipedia gratis + doodles OpenAI, reutiliza librería)"
+      - name: "01g) Generar dibujos auto — solo modo automático"
+        if: ${{ steps.mode.outputs.sb == '0' }}
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: node scripts/01-assets.mjs "${{ steps.ep.outputs.dir }}"
 
-      - name: 02) Compilar scenes.json (lienzo acumulativo + dinamismo)
+      - name: 02) Compilar scenes.json (automático — lienzo acumulativo)
+        if: ${{ steps.mode.outputs.sb == '0' }}
         run: node scripts/02-build-scenes.mjs "${{ steps.ep.outputs.dir }}"
+
+      - name: "02s) Compilar scenes.json (STORYBOARD manual)"
+        if: ${{ steps.mode.outputs.sb == '1' }}
+        run: node scripts/02s-storyboard.mjs "${{ steps.ep.outputs.dir }}"
 
       - name: 02b) Lint de variedad (informe)
         continue-on-error: true

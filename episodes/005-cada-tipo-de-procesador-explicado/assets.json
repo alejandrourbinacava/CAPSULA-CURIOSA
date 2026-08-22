@@ -1,0 +1,289 @@
+{
+  "tienda-listado-cpus": {
+    "kind": "vector",
+    "query": "computer store website listing CPU processors with prices",
+    "file": "assets/icons/tienda-listado-cpus.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "confused-math": {
+    "kind": "vector",
+    "query": "confused person with floating math equations, meme style",
+    "file": "assets/icons/confused-math.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cook": {
+    "kind": "vector",
+    "query": "cartoon chef cook character with apron",
+    "file": "assets/icons/cook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "shrug": {
+    "kind": "vector",
+    "query": "shrugging person, meme style",
+    "file": "assets/icons/shrug.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "brain": {
+    "kind": "vector",
+    "query": "human brain",
+    "file": "assets/icons/brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "check": {
+    "kind": "vector",
+    "query": "green check mark",
+    "file": "assets/icons/check.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pot": {
+    "kind": "vector",
+    "query": "cooking pot",
+    "file": "assets/icons/pot.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "chef-hat": {
+    "kind": "vector",
+    "query": "white chef hat",
+    "file": "assets/icons/chef-hat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "monitor-black": {
+    "kind": "vector",
+    "query": "computer monitor screen",
+    "file": "assets/icons/monitor-black.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "gpu-card": {
+    "kind": "vector",
+    "query": "graphics card GPU",
+    "file": "assets/icons/gpu-card.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cpu-chip": {
+    "kind": "vector",
+    "query": "computer processor microchip",
+    "file": "assets/icons/cpu-chip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cpu-bare-top": {
+    "kind": "vector",
+    "query": "computer CPU processor chip top view",
+    "file": "assets/icons/cpu-bare-top.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sleeping": {
+    "kind": "vector",
+    "query": "sleeping person with zzz, meme style",
+    "file": "assets/icons/sleeping.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "money-burning": {
+    "kind": "vector",
+    "query": "burning money bills on fire",
+    "file": "assets/icons/money-burning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "speedometer": {
+    "kind": "vector",
+    "query": "speedometer gauge dial",
+    "file": "assets/icons/speedometer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cpu-intel-boxed": {
+    "kind": "vector",
+    "query": "boxed Intel CPU processor retail package",
+    "file": "assets/icons/cpu-intel-boxed.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cpu-bare-pins": {
+    "kind": "vector",
+    "query": "computer CPU chip underside with gold pins",
+    "file": "assets/icons/cpu-bare-pins.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "flame": {
+    "kind": "vector",
+    "query": "flame fire",
+    "file": "assets/icons/flame.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lightning": {
+    "kind": "vector",
+    "query": "lightning bolt",
+    "file": "assets/icons/lightning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "leaf": {
+    "kind": "vector",
+    "query": "green leaf",
+    "file": "assets/icons/leaf.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "battery": {
+    "kind": "vector",
+    "query": "battery",
+    "file": "assets/icons/battery.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "intel": {
+    "kind": "vector",
+    "query": "Intel blue logo badge",
+    "file": "assets/icons/intel.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "amd": {
+    "kind": "vector",
+    "query": "AMD red logo badge",
+    "file": "assets/icons/amd.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mind-blown": {
+    "kind": "vector",
+    "query": "exploding head mind blown, meme style",
+    "file": "assets/icons/mind-blown.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "amd-ryzen": {
+    "kind": "vector",
+    "query": "AMD Ryzen logo badge",
+    "file": "assets/icons/amd-ryzen.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "euro-coin": {
+    "kind": "vector",
+    "query": "euro coin",
+    "file": "assets/icons/euro-coin.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "taza-espresso": {
+    "kind": "vector",
+    "query": "small espresso coffee cup",
+    "file": "assets/icons/taza-espresso.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "taza-normal": {
+    "kind": "vector",
+    "query": "medium coffee cup",
+    "file": "assets/icons/taza-normal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "taza-grande": {
+    "kind": "vector",
+    "query": "large tall coffee mug",
+    "file": "assets/icons/taza-grande.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "jarra": {
+    "kind": "vector",
+    "query": "big coffee pitcher jug",
+    "file": "assets/icons/jarra.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "intel-core-ultra": {
+    "kind": "vector",
+    "query": "Intel Core Ultra logo badge",
+    "file": "assets/icons/intel-core-ultra.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "warning": {
+    "kind": "vector",
+    "query": "warning triangle sign",
+    "file": "assets/icons/warning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cross": {
+    "kind": "vector",
+    "query": "red X cross mark",
+    "file": "assets/icons/cross.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sweating": {
+    "kind": "vector",
+    "query": "nervous sweating person, meme style",
+    "file": "assets/icons/sweating.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "question": {
+    "kind": "vector",
+    "query": "question mark",
+    "file": "assets/icons/question.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "arm": {
+    "kind": "vector",
+    "query": "ARM computer chip logo badge",
+    "file": "assets/icons/arm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "phone": {
+    "kind": "vector",
+    "query": "smartphone mobile phone",
+    "file": "assets/icons/phone.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "apple": {
+    "kind": "vector",
+    "query": "Apple logo",
+    "file": "assets/icons/apple.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "laptop": {
+    "kind": "vector",
+    "query": "laptop computer",
+    "file": "assets/icons/laptop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "qualcomm": {
+    "kind": "vector",
+    "query": "Qualcomm Snapdragon logo badge",
+    "file": "assets/icons/qualcomm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cpu-socket-open": {
+    "kind": "vector",
+    "query": "open CPU socket on a motherboard",
+    "file": "assets/icons/cpu-socket-open.png",
+    "normalized": true,
+    "gpt": true
+  }
+}
