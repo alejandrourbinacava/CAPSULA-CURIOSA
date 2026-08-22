@@ -26,3 +26,10 @@ public/active/audio.mp3
 
 # artefactos de verificación (se regeneran)
 episodes/**/debug/
+
+# media regenerable / no usada (clips, gifs, iconos offline, placeholders)
+public/assets/clips/
+public/assets/gifs/
+public/assets/archive/
+public/icons/
+public/media/
