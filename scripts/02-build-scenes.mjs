@@ -340,9 +340,9 @@ capLive(elements.filter(e => !structuralEl(e) && e.type !== "watermark" && e.box
   }
   for (let i = elements.length - 1; i >= 0; i--) if (elements[i]._discard) elements.splice(i, 1);
 }
-// --- ESCENARIO CENTRAL ROTATIVO: UN visual a la vez, GRANDE y CENTRADO (si solo hay uno, va en el MEDIO),
-//     con su ETIQUETA debajo. Cada cosa que menciona la voz trae su dibujo, que RELEVA al anterior.
-//     Un icono por mención (regla inamovible) + siempre centrado ⇒ un único elemento a la vez, en el centro.
+// --- COMPOSICIÓN DINÁMICA: los dibujos se acumulan (1→2→3) y se REPOSICIONAN deslizándose. Cuando hay
+//     UNO, va grande en el CENTRO; al entrar el 2º ambos se apartan a los lados; con el 3º, fila de tres.
+//     Sin huecos (cada dibujo aguanta hasta que llega el siguiente). Variedad + siempre equilibrado. ---
 const isVisEl = (e) => !structuralEl(e) && e.type !== "watermark" && !TEXT_TYPES.has(e.type) && e.type !== "stat" && e.box;
 // STICKMAN como UN ELEMENTO MÁS (no fijo en la esquina): aparece de vez en cuando, entra en el lienzo
 // como los dibujos, reacciona y se va. Se coloca en un slot por la acumulación de abajo.
@@ -357,20 +357,39 @@ sections.forEach((sec, i) => {
 //   se guía por los iconos AUTO sincronizados a la voz → quitamos los manuales (no-auto) del contenido.
 for (let i = elements.length - 1; i >= 0; i--) { const e = elements[i]; if (e.type === "image" && !e.auto && !e.structural) elements.splice(i, 1); }
 
+// layouts por Nº de elementos VIVOS (grupo centrado). slot = {cx, cy, s=tamaño, lw=ancho etiqueta}
+const LC = {
+  1: [{ cx: 960, cy: 470, s: 470, lw: 900 }],
+  2: [{ cx: 620, cy: 470, s: 440, lw: 520 }, { cx: 1300, cy: 470, s: 440, lw: 520 }],
+  3: [{ cx: 450, cy: 470, s: 360, lw: 400 }, { cx: 960, cy: 470, s: 360, lw: 400 }, { cx: 1470, cy: 470, s: 360, lw: 400 }],
+};
+const CYCLE = [2, 3, 1, 2, 3, 1, 3, 2]; // tamaño objetivo de cada grupo (variedad)
 const newLabels = [], transitions = [];
-const centerVis = elements.filter(isVisEl).sort((a, b) => a.in - b.in);
-for (let k = 0; k < centerVis.length; k++) {
-  const el = centerVis[k], next = centerVis[k + 1];
-  const photo = isPhoto(el);
-  el.box = { cx: 960, cy: 470, w: photo ? 600 : 480, h: photo ? 470 : 480 }; // GRANDE y CENTRADO
-  el.fixed = true; el.kenburns = photo;
-  const secEnd = sectionAt(el.in).t1;
-  el.out = +Math.max(el.in + 1.0, Math.min(el.out, secEnd, next ? next.in : meta.duration)).toFixed(2); // releva al siguiente
-  transitions.push(+el.in.toFixed(2));
-  const lab = el.type === "stickman" ? "" : (el.label || labelAt(el.in)); // stickman sin etiqueta
-  if (lab) {
-    const fs = Math.max(34, Math.min(48, Math.floor(1040 / Math.max(1, lab.length))));
-    newLabels.push({ id: "lb_" + autoId++, type: "text", label: true, fixed: true, content: lab, fontSize: fs, box: { cx: 960, cy: 775, w: 1300, h: 64 }, color: STROKE, z: 66, in: +(el.in + 0.2).toFixed(2), out: el.out, enter: { kind: "handwrite", duration: 0.4 }, exit: { kind: "fade-out", duration: 0.15 } });
+let cyc = 0;
+for (const sec of sections) {
+  const vis = elements.filter(e => isVisEl(e) && e.in >= sec.t0 - 0.01 && e.in < sec.t1).sort((a, b) => a.in - b.in);
+  let i = 0;
+  while (i < vis.length) {
+    const target = Math.min(CYCLE[cyc % CYCLE.length], 3); cyc++;
+    const cell = vis.slice(i, i + target); i += cell.length;
+    const cellEnd = +Math.min(i < vis.length ? vis[i].in : sec.t1, sec.t1).toFixed(2); // aguanta hasta el siguiente grupo → sin huecos
+    transitions.push(+cell[0].in.toFixed(2));
+    cell.forEach((el, m) => {
+      const tt = +el.in.toFixed(2), lay = LC[m + 1]; // al entrar el (m+1)-ésimo, reordena a layout de m+1
+      el.fixed = true; el.kenburns = isPhoto(el); el.out = cellEnd; el.frames = el.frames || [];
+      const labtxt = el.type === "stickman" ? "" : (el.label || labelAt(el.in));
+      if (labtxt) {
+        const fs = Math.max(32, Math.min(46, Math.floor(760 / Math.max(1, labtxt.length))));
+        el._lab = { id: "lb_" + autoId++, type: "text", label: true, fixed: true, content: labtxt, fontSize: fs, color: STROKE, z: 66, in: +(tt + 0.2).toFixed(2), out: cellEnd, frames: [], enter: { kind: "handwrite", duration: 0.35 }, exit: { kind: "fade-out", duration: 0.15 } };
+        newLabels.push(el._lab);
+      }
+      for (let j = 0; j <= m; j++) { // reposiciona TODOS los vivos al nuevo reparto (se deslizan)
+        const e2 = cell[j], s = lay[j];
+        e2.frames.push({ t: tt, cx: s.cx, cy: s.cy, w: s.s, h: s.s });
+        if (e2._lab) e2._lab.frames.push({ t: tt, cx: s.cx, cy: s.cy + s.s / 2 + 40, w: s.lw, h: 58 });
+      }
+    });
+    cell.forEach(el => { const f = el.frames[0]; el.box = { cx: f.cx, cy: f.cy, w: f.w, h: f.h }; if (el._lab) { const g = el._lab.frames[0]; el._lab.box = { cx: g.cx, cy: g.cy, w: g.w, h: g.h }; } });
   }
 }
 for (const l of newLabels) elements.push(l);

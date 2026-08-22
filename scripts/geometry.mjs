@@ -16,8 +16,17 @@ export const isStructural = (e) => e.structural || e.type === "title" || e.type 
 export const isPhoto = (e) => (e.type === "clip" || e.type === "gif") || (e.type === "image" && /cutout|archive|screenshot|photo/.test(e.kind || ""));
 export const isImageEl = (e) => e.type === "image" || e.type === "clip" || e.type === "gif";
 
-export function bboxOf(e) {
-  const b = e.box || { cx: 960, cy: 540, w: 100, h: 100 };
+// posición en el instante t (si el elemento tiene keyframes de deslizamiento); si no, su box fijo
+export function boxAt(e, t) {
+  const F = e.frames;
+  if (!F || !F.length || t == null) return e.box || { cx: 960, cy: 540, w: 100, h: 100 };
+  let pi = 0; for (let i = 0; i < F.length; i++) if (F[i].t <= t + 1e-6) pi = i;
+  const kf = F[pi], prev = pi > 0 ? F[pi - 1] : kf;
+  const pr = Math.max(0, Math.min(1, (t - kf.t) / 0.4)), ea = pr < 0.5 ? 2 * pr * pr : 1 - Math.pow(-2 * pr + 2, 2) / 2;
+  return { cx: prev.cx + (kf.cx - prev.cx) * ea, cy: prev.cy + (kf.cy - prev.cy) * ea, w: prev.w + (kf.w - prev.w) * ea, h: prev.h + (kf.h - prev.h) * ea };
+}
+export function bboxOf(e, t) {
+  const b = boxAt(e, t);
   if (TEXT_TYPES.has(e.type)) {
     const fs = e.type === "stat" ? 150 : (e.fontSize || FS[e.size] || FS.md);
     const len = (e.content || "").length || 3;

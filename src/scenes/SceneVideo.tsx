@@ -80,23 +80,33 @@ const ShapeEl: React.FC<{ el: El; p: number }> = ({ el, p }) => {
 
 // ============================ MONIGOTE ============================
 const Stickman: React.FC<{ pose?: string; head?: string; size: number }> = ({ pose = "neutral", head, size }) => {
-  const arms: Record<string, string> = {
-    neutral: "M100,120 L60,155 M100,120 L140,155",
-    "pointing-right": "M100,130 L170,150 L184,146 M100,132 L68,172",
-    "pointing-left": "M100,130 L30,150 L16,146 M100,132 L132,172",
-    shrug: "M100,128 L64,110 M100,128 L136,110",
-    thinking: "M100,130 q34,4 30,-26 M100,132 L66,170",
-    angry: "M100,120 L62,100 M100,120 L138,100",
-    cheer: "M100,120 L64,74 M100,120 L136,74",
+  const s = size / 300, SW = 9;
+  const P: Record<string, { arms: string; hands: number[][] }> = {
+    neutral: { arms: "M100,140 C80,165 66,175 58,182 M100,140 C120,165 134,175 142,182", hands: [[56, 184], [144, 184]] },
+    "pointing-right": { arms: "M100,140 C130,150 165,150 186,150 M100,142 C82,168 72,178 66,186", hands: [[188, 150], [64, 188]] },
+    "pointing-left": { arms: "M100,140 C70,150 35,150 14,150 M100,142 C118,168 128,178 134,186", hands: [[12, 150], [136, 188]] },
+    thinking: { arms: "M100,140 C122,150 132,132 126,114 M100,142 C82,170 72,180 66,188", hands: [[126, 110], [64, 190]] },
+    cheer: { arms: "M100,138 C78,110 66,86 62,66 M100,138 C122,110 134,86 138,66", hands: [[60, 62], [140, 62]] },
+    shrug: { arms: "M100,142 C76,132 62,120 58,104 M100,142 C124,132 138,120 142,104", hands: [[56, 102], [144, 102]] },
+    angry: { arms: "M100,140 C120,124 132,108 138,92 M100,140 C80,124 68,108 62,92", hands: [[140, 90], [60, 90]] },
   };
-  const s = size / 300;
+  const cur = P[pose] || P.neutral;
   return (
-    <svg width={200 * s} height={330 * s} viewBox="0 0 200 330" style={{ overflow: "visible" }}>
-      {head ? <image href={staticFile(head)} x={54} y={4} width={92} height={92} preserveAspectRatio="xMidYMid meet" />
-        : <g><circle cx={100} cy={50} r={44} fill="#fff" stroke="#111" strokeWidth={5} /><circle cx={88} cy={47} r={5.5} fill="#111" /><circle cx={112} cy={47} r={5.5} fill="#111" /><path d="M87,64 Q100,73 113,64" stroke="#111" strokeWidth={4} fill="none" strokeLinecap="round" /></g>}
-      <path d="M100,95 L100,210" stroke="#111" strokeWidth={5} fill="none" />
-      <path d={arms[pose] || arms.neutral} stroke="#111" strokeWidth={5} fill="none" strokeLinecap="round" />
-      <path d="M100,210 L74,300 M100,210 L126,300" stroke="#111" strokeWidth={5} fill="none" strokeLinecap="round" />
+    <svg width={210 * s} height={344 * s} viewBox="0 0 200 344" style={{ overflow: "visible" }}>
+      <path d="M100,226 C88,270 80,296 74,316" stroke="#111" strokeWidth={SW} fill="none" strokeLinecap="round" />
+      <path d="M100,226 C112,270 120,296 126,316" stroke="#111" strokeWidth={SW} fill="none" strokeLinecap="round" />
+      <path d="M74,316 l -20,5" stroke="#111" strokeWidth={SW} fill="none" strokeLinecap="round" />
+      <path d="M126,316 l 20,5" stroke="#111" strokeWidth={SW} fill="none" strokeLinecap="round" />
+      <path d="M100,106 L100,228" stroke="#111" strokeWidth={SW} fill="none" strokeLinecap="round" />
+      <path d={cur.arms} stroke="#111" strokeWidth={SW} fill="none" strokeLinecap="round" />
+      {cur.hands.map((h, i) => <circle key={i} cx={h[0]} cy={h[1]} r={7.5} fill="#111" />)}
+      {head ? <image href={staticFile(head)} x={58} y={8} width={84} height={84} preserveAspectRatio="xMidYMid meet" />
+        : <g>
+          <circle cx={100} cy={58} r={46} fill="#fff" stroke="#111" strokeWidth={SW} />
+          <circle cx={84} cy={54} r={7} fill="#111" /><circle cx={116} cy={54} r={7} fill="#111" />
+          <circle cx={86.6} cy={51.4} r={2.3} fill="#fff" /><circle cx={118.6} cy={51.4} r={2.3} fill="#fff" />
+          <path d="M82,74 Q100,90 118,74" stroke="#111" strokeWidth={5.5} fill="none" strokeLinecap="round" />
+        </g>}
     </svg>
   );
 };
@@ -129,7 +139,16 @@ const Element: React.FC<{ el: El }> = ({ el }) => {
   if (t < el.in - 0.01 || t > el.out + exitDur) return null;
   const inP = clamp01((t - el.in) / enterDur);
   const outP = t > el.out ? clamp01((t - el.out) / exitDur) : 0;
-  const box = el.box || { cx: 960, cy: 500, w: 820, h: 560 };
+  let box = el.box || { cx: 960, cy: 500, w: 820, h: 560 };
+  // KEYFRAMES de posición: el elemento se DESLIZA a su nuevo sitio cuando el grupo cambia de tamaño
+  //   (1 centrado → 2 lados → 3 fila...). Interpola entre el keyframe anterior y el actual con easing.
+  const F = (el as any).frames as Array<{ t: number; cx: number; cy: number; w: number; h: number }> | undefined;
+  if (F && F.length) {
+    let pi = 0; for (let i = 0; i < F.length; i++) if (F[i].t <= t + 1e-6) pi = i;
+    const kf = F[pi], prev = pi > 0 ? F[pi - 1] : kf;
+    const pr = clamp01((t - kf.t) / 0.4), e = pr < 0.5 ? 2 * pr * pr : 1 - Math.pow(-2 * pr + 2, 2) / 2;
+    box = { cx: prev.cx + (kf.cx - prev.cx) * e, cy: prev.cy + (kf.cy - prev.cy) * e, w: prev.w + (kf.w - prev.w) * e, h: prev.h + (kf.h - prev.h) * e };
+  }
   const z = el.z ?? zOf(el);
 
   // dibujos progresivos (flecha/shape) usan solo el progreso de entrada
@@ -149,6 +168,7 @@ const Element: React.FC<{ el: El }> = ({ el }) => {
   else if (enter === "slide-in-top") { ty = -90 * (1 - inP); opacity = inP; }
   else if (enter === "slide-in-bottom") { ty = 90 * (1 - inP); opacity = inP; }
   else if (enter === "handwrite") clip = `inset(0 ${(1 - inP) * 100}% 0 0)`;
+  else if (enter === "draw-in") { clip = `inset(0 ${(1 - clamp01(inP * 1.15)) * 100}% 0 0)`; opacity = clamp01(inP * 1.6); scale = 0.94 + 0.06 * inP; } // se DIBUJA (barrido tipo pizarra)
   else opacity = inP;
 
   if (outP > 0) {
@@ -159,13 +179,21 @@ const Element: React.FC<{ el: El }> = ({ el }) => {
   }
 
   const rot = el.rotate || 0;
+  // MICRO-MOVIMIENTO continuo: nada queda congelado (rompe el efecto "diapositiva"). Fase por-id → no van en sincronía.
+  if (el.type === "image" || el.type === "stickman") {
+    const ph = (((el.id.charCodeAt(0) || 7) * 13 + (el.id.charCodeAt(el.id.length - 1) || 3) * 29) % 100) / 100 * 6.283;
+    const life = clamp01((t - el.in) / 0.7);
+    ty += Math.sin(t * 1.5 + ph) * 5 * life;
+    tx += Math.cos(t * 1.05 + ph) * 3 * life;
+    scale *= 1 + Math.sin(t * 1.25 + ph) * 0.013 * life;
+  }
   if ((el as any).kenburns) scale *= 1 + 0.08 * clamp01((t - el.in) / Math.max(0.1, el.out - el.in)); // zoom lento Ken Burns (protagonista no congelado)
-  const common: React.CSSProperties = { position: "absolute", left: box.cx, top: box.cy, zIndex: z, transform: `translate(-50%,-50%) translate(${tx}px,${ty}px) rotate(${rot}deg) scale(${scale})`, opacity, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: box.w, height: box.h };
+  const common: React.CSSProperties = { position: "absolute", left: box.cx, top: box.cy, zIndex: z, transform: `translate(-50%,-50%) translate(${tx}px,${ty}px) rotate(${rot}deg) scale(${scale})`, opacity, clipPath: clip, WebkitClipPath: clip, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: box.w, height: box.h };
 
   if (el.type === "text") {
     const fsz = (el as any).fontSize || TEXT_SIZE[el.size || "md"];
-    const emph = el.size === "lg" || el.size === "xl" || el.color === RED;
-    return <div style={{ ...common, clipPath: clip, WebkitClipPath: clip }}><div style={{ fontFamily: emph ? HAND_BOLD : HAND, fontWeight: 700, fontSize: fsz, color: el.color || STROKE, textAlign: "center", lineHeight: 1.1, whiteSpace: "nowrap", textShadow: HALO }}>{el.content}</div></div>;
+    // COHERENCIA: SIEMPRE la misma fuente (Patrick Hand). El énfasis es solo el color rojo, no otra fuente.
+    return <div style={{ ...common, clipPath: clip, WebkitClipPath: clip }}><div style={{ fontFamily: HAND, fontWeight: 700, fontSize: fsz, color: el.color || STROKE, textAlign: "center", lineHeight: 1.1, whiteSpace: "nowrap", textShadow: HALO }}>{el.content}</div></div>;
   }
   if (el.type === "title") {
     const fsz = (el as any).fontSize || TEXT_SIZE.title;

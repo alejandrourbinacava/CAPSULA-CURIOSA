@@ -16,7 +16,7 @@ const dur = scenes.meta.duration, STEP = 0.25;
 const frames = [];
 for (let t = 0; t <= dur; t = +(t + STEP).toFixed(2)) {
   const live = scenes.elements.filter(e => e.type !== "watermark" && e.in <= t + 1e-6 && e.out > t + 1e-6 && e.box);
-  frames.push({ t, elements: live.map(e => ({ id: e.id, type: e.type, kind: e.kind, structural: isStructural(e), bbox: bboxOf(e).map(Math.round), layer: e.z ?? 20 })) });
+  frames.push({ t, elements: live.map(e => ({ id: e.id, type: e.type, kind: e.kind, structural: isStructural(e), bbox: bboxOf(e, t).map(Math.round), layer: e.z ?? 20 })) });
 }
 const dbgDir = path.join(dir, "debug"); fs.mkdirSync(dbgDir, { recursive: true });
 fs.writeFileSync(path.join(dbgDir, "layout.json"), JSON.stringify({ fps: scenes.meta.fps, frames }, null, 0));
