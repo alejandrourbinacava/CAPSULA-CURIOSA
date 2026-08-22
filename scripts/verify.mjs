@@ -52,17 +52,37 @@ for (const fr of frames) {
   const dyn = els.filter(e => !e.structural).length;
   if (dyn > 14) fails.push({ t: fr.t, kind: "total", msg: `${dyn} elementos dinámicos simultáneos (máximo 14)` });
 }
+// 7) ELEMENTO ÚNICO → centrado. SOSTENIDO: falla si un único elemento queda descentrado > 1s seguido
+//    (caza el elemento solo y quieto a un lado; ignora transiciones breves de entrada/salida).
+{
+  let run = 0, runStart = 0, runId = "";
+  for (const fr of frames) {
+    const solos = fr.elements.filter(e => !e.structural);
+    const off = solos.length === 1 && Math.abs((solos[0].bbox[0] + solos[0].bbox[2]) / 2 - 960) > 90;
+    if (off) { if (run === 0) { runStart = fr.t; runId = solos[0].id; } run += STEP; }
+    else { if (run >= 1.0) fails.push({ t: runStart, kind: "solo-descentrado", msg: `único elemento "${runId}" descentrado durante ${run.toFixed(1)}s (debe ir centrado)` }); run = 0; }
+  }
+  if (run >= 1.0) fails.push({ t: runStart, kind: "solo-descentrado", msg: `único elemento "${runId}" descentrado durante ${run.toFixed(1)}s` });
+}
 
 // --- comprobaciones a NIVEL ELEMENTO (MATERIAL.md): ninguna imagen > 15s; ningún texto < 34px ---
 for (const e of scenes.elements) {
   if ((e.type === "image" || e.type === "clip" || e.type === "gif") && e.box && !isStructural(e) && (e.out - e.in) > 15.1)
     fails.push({ t: e.in, kind: "15s", msg: `imagen "${e.id}" ${(e.out - e.in).toFixed(0)}s en pantalla (máx 15s — cámbiala o mete otra)` });
   if (TEXT_TYPES.has(e.type) && e.type !== "stat") { const fs = e.fontSize || FS[e.size] || FS.md; if (fs < 34) fails.push({ t: e.in, kind: "texto-pequeño", msg: `"${e.id}" texto a ${fs}px (mínimo 34px, no se lee en miniatura)` }); }
+  // 1) DESBORDAMIENTO: el ancho real del texto no puede exceder su caja/anclaje (no se recorta: falla)
+  if (TEXT_TYPES.has(e.type) && e.box) { const bb = bboxOf(e); const w = bb[2] - bb[0]; if (w > (e.box.w || 700) + 14) fails.push({ t: e.in, kind: "desborde", msg: `"${e.id}" texto ${Math.round(w)}px > caja ${e.box.w}px ("${(e.content || "").slice(0, 24)}") — se sale` }); }
+  // 3) SINCRONÍA: un texto no puede entrar ANTES de que se diga su palabra, ni desviarse > 0.3s
+  if (e._syncT != null) { if (e.in < e._syncT - 0.02) fails.push({ t: e.in, kind: "antes-de-voz", msg: `"${e.id}" ("${(e.content || "").slice(0, 20)}") entra en ${e.in.toFixed(2)}s pero se dice en ${e._syncT.toFixed(2)}s (ANTES de tiempo)` }); else if (Math.abs(e.in - e._syncT) > 0.3) fails.push({ t: e.in, kind: "desync", msg: `"${e.id}" desviación ${(e.in - e._syncT).toFixed(2)}s (>0.3s) de su palabra` }); }
+  // 2) FORMA HUÉRFANA: una SHP con objetivo no puede sobrevivir a su objetivo
+  if (e.type === "shape" && e._target) { const tgt = scenes.elements.find(x => x.id === e._target); if (!tgt) fails.push({ t: e.in, kind: "forma-huerfana", msg: `forma "${e.id}" sin objetivo vivo` }); else if (tgt.out < e.out - 0.05) fails.push({ t: e.in, kind: "forma-huerfana", msg: `forma "${e.id}" (hasta ${e.out}s) sobrevive a su objetivo "${tgt.id}" (sale en ${tgt.out}s)` }); }
 }
+// 4) ASSETS DECLARADOS: si el storyboard declara un ICO/IMG y no se colocó → FALLO
+for (const id of (scenes.meta.declaredMissing || [])) fails.push({ t: 0, kind: "declarado", msg: `asset declarado "${id}" no aparece (falta generarlo)` });
 
 // --- informe ---
 // "15s" queda como AVISO (no bloquea) hasta que esté la rotación de imágenes; el resto son duros.
-const HARD = new Set(["texto-texto", "zona", "n-textos", "fuera", "img-img", "total", "texto-pequeño"]);
+const HARD = new Set(["texto-texto", "zona", "n-textos", "fuera", "img-img", "total", "texto-pequeño", "desborde", "antes-de-voz", "desync", "forma-huerfana", "declarado", "solo-descentrado"]);
 const hard = fails.filter(f => HARD.has(f.kind));
 const shown = fails.slice(0, 25);
 for (const f of shown) console.log(`✗ ${ts(f.t)}  ${f.msg}\n`);

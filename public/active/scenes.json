@@ -6,7 +6,9 @@
     "duration": 518.58,
     "audio": "active/audio.mp3",
     "title": "Cada Tipo de Procesador Explicado",
-    "profile": "color-pop"
+    "profile": "color-pop",
+    "storyboard": true,
+    "declaredMissing": []
   },
   "elements": [
     {
@@ -50,7 +52,23 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 0,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 1.8,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
       "id": "sh1",
@@ -73,23 +91,49 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "_target": "tienda-listado-cpus_0"
     },
     {
-      "id": "t2",
-      "type": "text",
-      "content": "i5",
-      "fontSize": 60,
+      "id": "intel_2",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/intel.png",
       "box": {
         "cx": 400,
         "cy": 420,
-        "w": 700,
+        "w": 200,
+        "h": 200
+      },
+      "z": 30,
+      "in": 3.34,
+      "out": 15.5,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t3",
+      "type": "text",
+      "content": "i5",
+      "fontSize": 46,
+      "box": {
+        "cx": 400,
+        "cy": 560,
+        "w": 97,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 3.34,
       "out": 15.5,
+      "_syncT": 3.34,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -100,68 +144,45 @@
       }
     },
     {
-      "id": "t3",
-      "type": "text",
-      "content": "Ryzen 7",
-      "fontSize": 60,
+      "id": "amd-ryzen_4",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/amd-ryzen.png",
       "box": {
         "cx": 800,
         "cy": 420,
-        "w": 700,
-        "h": 90
+        "w": 200,
+        "h": 200
       },
-      "color": "#111111",
-      "z": 60,
+      "z": 30,
       "in": 4.24,
       "out": 15.5,
+      "auto": true,
       "enter": {
-        "kind": "stamp",
-        "duration": 0.3
+        "kind": "pop",
+        "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "t4",
-      "type": "text",
-      "content": "Core Ultra 9",
-      "fontSize": 60,
-      "box": {
-        "cx": 1200,
-        "cy": 420,
-        "w": 700,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 5.14,
-      "out": 15.5,
-      "enter": {
-        "kind": "stamp",
         "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
       }
     },
     {
       "id": "t5",
       "type": "text",
-      "content": "285K",
-      "fontSize": 60,
+      "content": "Ryzen 7",
+      "fontSize": 46,
       "box": {
-        "cx": 1600,
-        "cy": 420,
-        "w": 700,
+        "cx": 800,
+        "cy": 560,
+        "w": 240,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 6.04,
+      "in": 4.42,
       "out": 15.5,
+      "_syncT": 4.42,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -172,44 +193,45 @@
       }
     },
     {
-      "id": "t6",
-      "type": "text",
-      "content": "9800X3D",
-      "fontSize": 60,
+      "id": "intel-core-ultra_6",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/intel-core-ultra.png",
       "box": {
-        "cx": 400,
-        "cy": 730,
-        "w": 700,
-        "h": 90
+        "cx": 1200,
+        "cy": 420,
+        "w": 200,
+        "h": 200
       },
-      "color": "#111111",
-      "z": 60,
-      "in": 6.94,
+      "z": 30,
+      "in": 5.14,
       "out": 15.5,
+      "auto": true,
       "enter": {
-        "kind": "stamp",
-        "duration": 0.3
+        "kind": "pop",
+        "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
-        "duration": 0.25
+        "duration": 0.3
       }
     },
     {
       "id": "t7",
       "type": "text",
-      "content": "Snapdragon X2",
-      "fontSize": 60,
+      "content": "Core Ultra 9",
+      "fontSize": 46,
       "box": {
-        "cx": 800,
-        "cy": 730,
-        "w": 700,
+        "cx": 1200,
+        "cy": 560,
+        "w": 382,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 7.84,
+      "in": 5.94,
       "out": 15.5,
+      "_syncT": 5.94,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -220,13 +242,160 @@
       }
     },
     {
-      "id": "confused-math_8",
+      "id": "cpu-intel-boxed_8",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/cpu-intel-boxed.png",
+      "box": {
+        "cx": 1600,
+        "cy": 420,
+        "w": 200,
+        "h": 200
+      },
+      "z": 30,
+      "in": 6.04,
+      "out": 15.5,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t9",
+      "type": "text",
+      "content": "285K",
+      "fontSize": 46,
+      "box": {
+        "cx": 1600,
+        "cy": 560,
+        "w": 154,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 7.78,
+      "out": 15.5,
+      "_syncT": 7.78,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "cpu-chip_10",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/cpu-chip.png",
+      "box": {
+        "cx": 400,
+        "cy": 730,
+        "w": 200,
+        "h": 200
+      },
+      "z": 30,
+      "in": 6.94,
+      "out": 15.5,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t11",
+      "type": "text",
+      "content": "9800X3D",
+      "fontSize": 46,
+      "box": {
+        "cx": 400,
+        "cy": 880,
+        "w": 240,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 10.04,
+      "out": 15.5,
+      "_syncT": 10.04,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "qualcomm_12",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/qualcomm.png",
+      "box": {
+        "cx": 800,
+        "cy": 730,
+        "w": 200,
+        "h": 200
+      },
+      "z": 30,
+      "in": 7.84,
+      "out": 15.5,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t13",
+      "type": "text",
+      "content": "Snapdragon X2",
+      "fontSize": 46,
+      "box": {
+        "cx": 800,
+        "cy": 880,
+        "w": 411,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 12.74,
+      "out": 15.5,
+      "_syncT": 12.74,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "confused-math_14",
       "type": "image",
       "kind": "meme",
       "src": "assets/icons/confused-math.png",
       "box": {
         "cx": 960,
-        "cy": 520,
+        "cy": 500,
         "w": 360,
         "h": 360
       },
@@ -244,20 +413,21 @@
       }
     },
     {
-      "id": "t9",
+      "id": "t15",
       "type": "text",
       "content": "100 €",
       "fontSize": 140,
       "box": {
         "cx": 610,
         "cy": 480,
-        "w": 700,
+        "w": 474,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 17.76,
       "out": 22.86,
+      "_syncT": null,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -265,23 +435,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 17.76,
+          "cx": 960,
+          "cy": 500,
+          "w": 474,
+          "h": 90
+        },
+        {
+          "t": 18.81,
+          "cx": 610,
+          "cy": 480,
+          "w": 474,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "t10",
+      "id": "t16",
       "type": "text",
       "content": "1.500 €",
       "fontSize": 140,
       "box": {
         "cx": 1320,
         "cy": 480,
-        "w": 700,
+        "w": 648,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
       "in": 19.36,
       "out": 22.86,
+      "_syncT": null,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -292,7 +479,7 @@
       }
     },
     {
-      "id": "ar11",
+      "id": "ar17",
       "type": "arrow",
       "a": {
         "x": 610,
@@ -317,20 +504,21 @@
       }
     },
     {
-      "id": "t12",
+      "id": "t18",
       "type": "text",
       "content": "¿la diferencia?",
       "fontSize": 46,
       "box": {
         "cx": 960,
         "cy": 730,
-        "w": 700,
+        "w": 468,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 22.56,
+      "in": 21.78,
       "out": 22.86,
+      "_syncT": 21.78,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -341,7 +529,7 @@
       }
     },
     {
-      "id": "cook_13",
+      "id": "cook_19",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -362,23 +550,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 22.86,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 23.16,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "t14",
+      "id": "t20",
       "type": "text",
       "content": "este es mejor",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 411,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 24.36,
+      "in": 23.78,
       "out": 25.52,
+      "_syncT": 23.78,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -389,20 +594,21 @@
       }
     },
     {
-      "id": "t15",
+      "id": "t21",
       "type": "text",
       "content": "¿mejor para QUÉ?",
       "fontSize": 60,
       "box": {
         "cx": 1400,
         "cy": 490,
-        "w": 700,
+        "w": 635,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 25.47,
+      "in": 24.1,
       "out": 25.52,
+      "_syncT": 24.1,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -413,7 +619,7 @@
       }
     },
     {
-      "id": "shrug_16",
+      "id": "shrug_22",
       "type": "image",
       "kind": "meme",
       "src": "assets/icons/shrug.png",
@@ -437,7 +643,7 @@
       }
     },
     {
-      "id": "brain_17",
+      "id": "brain_23",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/brain.png",
@@ -458,23 +664,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 25.52,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 26.82,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "t18",
+      "id": "t24",
       "type": "text",
       "content": "10 minutos",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 251,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 27.32,
       "out": 35.28,
+      "_syncT": null,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -485,7 +708,7 @@
       }
     },
     {
-      "id": "check_19",
+      "id": "check_25",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/check.png",
@@ -509,20 +732,21 @@
       }
     },
     {
-      "id": "t20",
+      "id": "t26",
       "type": "text",
       "content": "sin tecnicismos",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 468,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 30.52,
+      "in": 29.14,
       "out": 35.28,
+      "_syncT": 29.14,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -533,7 +757,7 @@
       }
     },
     {
-      "id": "brain_21",
+      "id": "brain_27",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/brain.png",
@@ -557,20 +781,21 @@
       }
     },
     {
-      "id": "t22",
+      "id": "t28",
       "type": "text",
       "content": "el cerebro",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 251,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 36.48,
+      "in": 35.28,
       "out": 40.9,
+      "_syncT": 35.28,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -581,7 +806,7 @@
       }
     },
     {
-      "id": "sh23",
+      "id": "sh29",
       "type": "shape",
       "kind": "cross-out",
       "box": {
@@ -601,23 +826,25 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "_target": "brain_27"
     },
     {
-      "id": "t24",
+      "id": "t30",
       "type": "text",
       "content": "no explica nada",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 468,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 40.28,
+      "in": 39.34,
       "out": 40.9,
+      "_syncT": 39.34,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -628,7 +855,7 @@
       }
     },
     {
-      "id": "pot_25",
+      "id": "pot_31",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/pot.png",
@@ -649,10 +876,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 40.9,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 41.7,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "chef-hat_26",
+      "id": "chef-hat_32",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/chef-hat.png",
@@ -676,20 +919,21 @@
       }
     },
     {
-      "id": "t27",
+      "id": "t33",
       "type": "text",
       "content": "una COCINA",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 251,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 43.5,
+      "in": 43.28,
       "out": 44.22,
+      "_syncT": 43.28,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -700,7 +944,7 @@
       }
     },
     {
-      "id": "cook_28",
+      "id": "cook_34",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -724,7 +968,7 @@
       }
     },
     {
-      "id": "ar29",
+      "id": "ar35",
       "type": "arrow",
       "a": {
         "x": 1400,
@@ -749,20 +993,21 @@
       }
     },
     {
-      "id": "t30",
+      "id": "t36",
       "type": "text",
       "content": "pides",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 490,
-        "w": 700,
+        "w": 183,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 47.62,
+      "in": 44.3,
       "out": 47.68,
+      "_syncT": 44.3,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -773,20 +1018,21 @@
       }
     },
     {
-      "id": "t31",
+      "id": "t37",
       "type": "text",
       "content": "prepara",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 620,
-        "w": 700,
+        "w": 240,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 47.63,
+      "in": 45.76,
       "out": 47.68,
+      "_syncT": 45.76,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -797,7 +1043,7 @@
       }
     },
     {
-      "id": "monitor-black_32",
+      "id": "monitor-black_38",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/monitor-black.png",
@@ -821,20 +1067,21 @@
       }
     },
     {
-      "id": "t33",
+      "id": "t39",
       "type": "text",
       "content": "navegador",
       "fontSize": 36,
       "box": {
         "cx": 450,
         "cy": 660,
-        "w": 700,
+        "w": 241,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 48.28,
+      "in": 48.04,
       "out": 52.04,
+      "_syncT": 48.04,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -845,7 +1092,7 @@
       }
     },
     {
-      "id": "gpu-card_34",
+      "id": "gpu-card_40",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/gpu-card.png",
@@ -869,20 +1116,21 @@
       }
     },
     {
-      "id": "t35",
+      "id": "t41",
       "type": "text",
       "content": "editar vídeo",
       "fontSize": 36,
       "box": {
         "cx": 960,
         "cy": 660,
-        "w": 700,
+        "w": 308,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 50.68,
+      "in": 50.08,
       "out": 52.04,
+      "_syncT": 50.08,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -893,20 +1141,21 @@
       }
     },
     {
-      "id": "t36",
+      "id": "t42",
       "type": "text",
       "content": "banquete para 200",
       "fontSize": 46,
       "box": {
         "cx": 1470,
         "cy": 470,
-        "w": 700,
+        "w": 525,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 51.99,
+      "in": 51.08,
       "out": 52.04,
+      "_syncT": 51.08,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -917,7 +1166,7 @@
       }
     },
     {
-      "id": "cpu-chip_37",
+      "id": "cpu-chip_43",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-chip.png",
@@ -938,23 +1187,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 52.04,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 52.59,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "t38",
+      "id": "t44",
       "type": "text",
       "content": "no decide",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 297,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 54.04,
+      "in": 53.06,
       "out": 68.12,
+      "_syncT": 53.06,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -965,20 +1231,21 @@
       }
     },
     {
-      "id": "t39",
+      "id": "t45",
       "type": "text",
       "content": "ejecuta",
       "fontSize": 60,
       "box": {
         "cx": 1400,
         "cy": 490,
-        "w": 700,
+        "w": 300,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 55.44,
+      "in": 54.98,
       "out": 68.12,
+      "_syncT": 54.98,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -989,20 +1256,21 @@
       }
     },
     {
-      "id": "t40",
+      "id": "t46",
       "type": "text",
       "content": "millones por segundo",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 462,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 57.04,
+      "in": 56.26,
       "out": 68.12,
+      "_syncT": 56.26,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1013,20 +1281,21 @@
       }
     },
     {
-      "id": "t41",
+      "id": "t47",
       "type": "text",
       "content": "1",
       "fontSize": 140,
       "box": {
         "cx": 610,
         "cy": 480,
-        "w": 700,
+        "w": 127,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 68.12,
       "out": 72.52,
+      "_syncT": null,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1034,10 +1303,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 68.12,
+          "cx": 960,
+          "cy": 500,
+          "w": 127,
+          "h": 90
+        },
+        {
+          "t": 68.92,
+          "cx": 610,
+          "cy": 480,
+          "w": 127,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "cook_42",
+      "id": "cook_48",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -1061,20 +1346,21 @@
       }
     },
     {
-      "id": "t43",
+      "id": "t49",
       "type": "text",
       "content": "= 1 cocinero",
       "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 730,
-        "w": 700,
+        "w": 486,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 70.92,
+      "in": 71.84,
       "out": 72.52,
+      "_syncT": 71.84,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1085,7 +1371,7 @@
       }
     },
     {
-      "id": "cpu-bare-top_44",
+      "id": "cpu-bare-top_50",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-bare-top.png",
@@ -1109,7 +1395,7 @@
       }
     },
     {
-      "id": "cook_45",
+      "id": "cook_51",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -1133,20 +1419,21 @@
       }
     },
     {
-      "id": "t46",
+      "id": "t52",
       "type": "text",
       "content": "un límite",
       "fontSize": 60,
       "box": {
         "cx": 1400,
         "cy": 490,
-        "w": 700,
+        "w": 375,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 76.32,
+      "in": 71.68,
       "out": 79.94,
+      "_syncT": 71.68,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -1157,7 +1444,7 @@
       }
     },
     {
-      "id": "sh47",
+      "id": "sh53",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -1177,10 +1464,11 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "_target": "t52"
     },
     {
-      "id": "cook_48",
+      "id": "cook_54",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -1204,7 +1492,7 @@
       }
     },
     {
-      "id": "cook_49",
+      "id": "cook_55",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -1228,7 +1516,7 @@
       }
     },
     {
-      "id": "cook_50",
+      "id": "cook_56",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -1252,7 +1540,7 @@
       }
     },
     {
-      "id": "cook_51",
+      "id": "cook_57",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -1276,7 +1564,7 @@
       }
     },
     {
-      "id": "cook_52",
+      "id": "cook_58",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -1300,7 +1588,7 @@
       }
     },
     {
-      "id": "cook_53",
+      "id": "cook_59",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -1324,20 +1612,21 @@
       }
     },
     {
-      "id": "t54",
+      "id": "t60",
       "type": "text",
       "content": "6 núcleos",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 230,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 83.34,
       "out": 86.08,
+      "_syncT": null,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1348,20 +1637,21 @@
       }
     },
     {
-      "id": "t55",
+      "id": "t61",
       "type": "text",
       "content": "6 platos a la vez",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 525,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 84.94,
       "out": 86.08,
+      "_syncT": 84.94,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -1372,20 +1662,21 @@
       }
     },
     {
-      "id": "t56",
+      "id": "t62",
       "type": "text",
       "content": "¿6x más rápido?",
       "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 390,
-        "w": 700,
+        "w": 598,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 86.08,
       "out": 91.74,
+      "_syncT": null,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1393,23 +1684,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 86.08,
+          "cx": 960,
+          "cy": 500,
+          "w": 598,
+          "h": 90
+        },
+        {
+          "t": 88.13,
+          "cx": 960,
+          "cy": 390,
+          "w": 598,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "t57",
+      "id": "t63",
       "type": "text",
       "content": "NO",
       "fontSize": 140,
       "box": {
         "cx": 960,
         "cy": 520,
-        "w": 700,
+        "w": 214,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 88.28,
+      "in": 88.74,
       "out": 91.74,
+      "_syncT": 88.74,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -1420,7 +1728,7 @@
       }
     },
     {
-      "id": "sh58",
+      "id": "sh64",
       "type": "shape",
       "kind": "cross-out",
       "box": {
@@ -1440,10 +1748,11 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "_target": "t62"
     },
     {
-      "id": "cook_59",
+      "id": "cook_65",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -1467,7 +1776,7 @@
       }
     },
     {
-      "id": "cook_60",
+      "id": "cook_66",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -1491,7 +1800,7 @@
       }
     },
     {
-      "id": "cook_61",
+      "id": "cook_67",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -1515,20 +1824,21 @@
       }
     },
     {
-      "id": "t62",
+      "id": "t68",
       "type": "text",
       "content": "trabaja 1",
       "fontSize": 46,
       "box": {
         "cx": 450,
         "cy": 660,
-        "w": 700,
+        "w": 297,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 94.34,
       "out": 96.1,
+      "_syncT": null,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1539,20 +1849,21 @@
       }
     },
     {
-      "id": "t63",
+      "id": "t69",
       "type": "text",
       "content": "miran",
       "fontSize": 46,
       "box": {
         "cx": 960,
         "cy": 660,
-        "w": 700,
+        "w": 183,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 95.74,
+      "in": 95.06,
       "out": 96.1,
+      "_syncT": 95.06,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1563,7 +1874,7 @@
       }
     },
     {
-      "id": "sleeping_64",
+      "id": "sleeping_70",
       "type": "image",
       "kind": "meme",
       "src": "assets/icons/sleeping.png",
@@ -1587,7 +1898,7 @@
       }
     },
     {
-      "id": "gpu-card_65",
+      "id": "gpu-card_71",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/gpu-card.png",
@@ -1611,20 +1922,21 @@
       }
     },
     {
-      "id": "t66",
+      "id": "t72",
       "type": "text",
       "content": "juegos → pocos",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 439,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 97.7,
+      "in": 96.34,
       "out": 100.54,
+      "_syncT": 96.34,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1635,20 +1947,21 @@
       }
     },
     {
-      "id": "t67",
+      "id": "t73",
       "type": "text",
       "content": "vídeo → todos",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 490,
-        "w": 700,
+        "w": 411,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 99.5,
+      "in": 98.96,
       "out": 100.54,
+      "_syncT": 98.96,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1659,7 +1972,7 @@
       }
     },
     {
-      "id": "sh68",
+      "id": "sh74",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -1679,23 +1992,25 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "_target": "t73"
     },
     {
-      "id": "t69",
+      "id": "t75",
       "type": "text",
       "content": "24 núcleos",
       "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 390,
-        "w": 700,
+        "w": 412,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 100.54,
       "out": 107.06,
+      "_syncT": null,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1703,10 +2018,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 100.54,
+          "cx": 960,
+          "cy": 500,
+          "w": 412,
+          "h": 90
+        },
+        {
+          "t": 101.84,
+          "cx": 960,
+          "cy": 390,
+          "w": 412,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "money-burning_70",
+      "id": "money-burning_76",
       "type": "image",
       "kind": "meme",
       "src": "assets/icons/money-burning.png",
@@ -1730,20 +2061,21 @@
       }
     },
     {
-      "id": "t71",
+      "id": "t77",
       "type": "text",
       "content": "contratas 24",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 382,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 104.54,
+      "in": 104.32,
       "out": 107.06,
+      "_syncT": 104.32,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1754,20 +2086,21 @@
       }
     },
     {
-      "id": "t72",
+      "id": "t78",
       "type": "text",
       "content": "trabajan 4",
       "fontSize": 60,
       "box": {
         "cx": 1400,
         "cy": 490,
-        "w": 700,
+        "w": 412,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 106.14,
+      "in": 106.1,
       "out": 107.06,
+      "_syncT": 106.1,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -1778,7 +2111,7 @@
       }
     },
     {
-      "id": "speedometer_73",
+      "id": "speedometer_79",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/speedometer.png",
@@ -1799,23 +2132,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 107.06,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 108.36,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "t74",
+      "id": "t80",
       "type": "text",
       "content": "GHz",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 103,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 109.06,
       "out": 114.2,
+      "_syncT": null,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -1826,7 +2176,7 @@
       }
     },
     {
-      "id": "cook_75",
+      "id": "cook_81",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -1850,20 +2200,21 @@
       }
     },
     {
-      "id": "t76",
+      "id": "t82",
       "type": "text",
       "content": "a qué velocidad",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 468,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 112.26,
+      "in": 113.34,
       "out": 114.2,
+      "_syncT": 113.34,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1874,20 +2225,21 @@
       }
     },
     {
-      "id": "t77",
+      "id": "t83",
       "type": "text",
       "content": "5 GHz",
       "fontSize": 140,
       "box": {
         "cx": 610,
         "cy": 480,
-        "w": 700,
+        "w": 474,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 114.2,
       "out": 117.74,
+      "_syncT": null,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1895,23 +2247,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 114.2,
+          "cx": 960,
+          "cy": 500,
+          "w": 474,
+          "h": 90
+        },
+        {
+          "t": 115.75,
+          "cx": 610,
+          "cy": 480,
+          "w": 474,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "t78",
+      "id": "t84",
       "type": "text",
       "content": "5.000.000.000",
       "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 730,
-        "w": 700,
+        "w": 524,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
       "in": 116.6,
       "out": 117.74,
+      "_syncT": null,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1922,20 +2291,21 @@
       }
     },
     {
-      "id": "t79",
+      "id": "t85",
       "type": "text",
       "content": "operaciones por segundo",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 696,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 117.69,
+      "in": 116.42,
       "out": 117.74,
+      "_syncT": 116.42,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -1946,7 +2316,7 @@
       }
     },
     {
-      "id": "cpu-intel-boxed_80",
+      "id": "cpu-intel-boxed_86",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-intel-boxed.png",
@@ -1967,23 +2337,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 117.74,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 119.54,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "t81",
+      "id": "t87",
       "type": "text",
       "content": "más GHz = mejor",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 468,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 119.74,
+      "in": 120.16,
       "out": 123.06,
+      "_syncT": 120.16,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1994,7 +2381,7 @@
       }
     },
     {
-      "id": "sh82",
+      "id": "sh88",
       "type": "shape",
       "kind": "cross-out",
       "box": {
@@ -2014,23 +2401,25 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "_target": "t87"
     },
     {
-      "id": "t83",
+      "id": "t89",
       "type": "text",
       "content": "se acabó",
       "fontSize": 60,
       "box": {
         "cx": 1400,
         "cy": 490,
-        "w": 700,
+        "w": 338,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 122.74,
+      "in": 122.3,
       "out": 123.06,
+      "_syncT": 122.3,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -2041,7 +2430,7 @@
       }
     },
     {
-      "id": "cpu-bare-top_84",
+      "id": "cpu-bare-top_90",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-bare-top.png",
@@ -2065,20 +2454,21 @@
       }
     },
     {
-      "id": "t85",
+      "id": "t91",
       "type": "text",
       "content": "hoy · 4 GHz",
       "fontSize": 36,
       "box": {
         "cx": 450,
         "cy": 660,
-        "w": 700,
+        "w": 286,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 123.56,
       "out": 128.42,
+      "_syncT": null,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -2089,7 +2479,7 @@
       }
     },
     {
-      "id": "cpu-bare-pins_86",
+      "id": "cpu-bare-pins_92",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-bare-pins.png",
@@ -2113,20 +2503,21 @@
       }
     },
     {
-      "id": "t87",
+      "id": "t93",
       "type": "text",
       "content": "2016 · 5 GHz",
       "fontSize": 36,
       "box": {
         "cx": 1470,
         "cy": 660,
-        "w": 700,
+        "w": 308,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 125.96,
       "out": 128.42,
+      "_syncT": null,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -2137,7 +2528,7 @@
       }
     },
     {
-      "id": "ar88",
+      "id": "ar94",
       "type": "arrow",
       "a": {
         "x": 450,
@@ -2162,20 +2553,21 @@
       }
     },
     {
-      "id": "t89",
+      "id": "t95",
       "type": "text",
       "content": "gana el nuevo",
       "fontSize": 46,
       "box": {
         "cx": 960,
         "cy": 470,
-        "w": 700,
+        "w": 411,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
       "in": 128.37,
       "out": 128.42,
+      "_syncT": null,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -2186,7 +2578,7 @@
       }
     },
     {
-      "id": "cook_90",
+      "id": "cook_96",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -2207,23 +2599,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 128.42,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 129.97,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "t91",
+      "id": "t97",
       "type": "text",
       "content": "velocidad",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 297,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 130.62,
       "out": 141.12,
+      "_syncT": null,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2234,20 +2643,21 @@
       }
     },
     {
-      "id": "t92",
+      "id": "t98",
       "type": "text",
       "content": "trabajo por movimiento",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 490,
-        "w": 700,
+        "w": 667,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 132.22,
+      "in": 131.12,
       "out": 141.12,
+      "_syncT": 131.12,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2258,7 +2668,7 @@
       }
     },
     {
-      "id": "sh93",
+      "id": "sh99",
       "type": "shape",
       "kind": "circle-highlight",
       "box": {
@@ -2278,10 +2688,11 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "_target": "t98"
     },
     {
-      "id": "chef-hat_94",
+      "id": "chef-hat_100",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/chef-hat.png",
@@ -2302,23 +2713,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 141.12,
+          "cx": 960,
+          "cy": 500,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 143.42,
+          "cx": 540,
+          "cy": 520,
+          "w": 300,
+          "h": 300
+        }
+      ]
     },
     {
-      "id": "t95",
+      "id": "t101",
       "type": "text",
       "content": "CHEFS",
       "fontSize": 60,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 226,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 142.52,
+      "in": 144.7,
       "out": 146.66,
+      "_syncT": 144.7,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -2329,7 +2757,7 @@
       }
     },
     {
-      "id": "cook_96",
+      "id": "cook_102",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -2353,20 +2781,21 @@
       }
     },
     {
-      "id": "t97",
+      "id": "t103",
       "type": "text",
       "content": "pinches",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 490,
-        "w": 700,
+        "w": 240,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 145.52,
+      "in": 145.76,
       "out": 146.66,
+      "_syncT": 145.76,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2377,7 +2806,7 @@
       }
     },
     {
-      "id": "flame_98",
+      "id": "flame_104",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/flame.png",
@@ -2398,23 +2827,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 146.66,
+          "cx": 960,
+          "cy": 500,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 147.46,
+          "cx": 1400,
+          "cy": 620,
+          "w": 300,
+          "h": 300
+        }
+      ]
     },
     {
-      "id": "t99",
+      "id": "t105",
       "type": "text",
       "content": "rendimiento",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 740,
-        "w": 700,
+        "w": 354,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 148.26,
+      "in": 148.1,
       "out": 151.22,
+      "_syncT": 148.1,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2425,7 +2871,7 @@
       }
     },
     {
-      "id": "lightning_100",
+      "id": "lightning_106",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/lightning.png",
@@ -2449,20 +2895,21 @@
       }
     },
     {
-      "id": "t101",
+      "id": "t107",
       "type": "text",
       "content": "gastan mucho",
       "fontSize": 36,
       "box": {
         "cx": 1400,
         "cy": 840,
-        "w": 700,
+        "w": 308,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 151.06,
+      "in": 150.12,
       "out": 151.22,
+      "_syncT": 150.12,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2473,7 +2920,7 @@
       }
     },
     {
-      "id": "leaf_102",
+      "id": "leaf_108",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/leaf.png",
@@ -2494,23 +2941,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 151.22,
+          "cx": 960,
+          "cy": 500,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 152.02,
+          "cx": 1400,
+          "cy": 620,
+          "w": 300,
+          "h": 300
+        }
+      ]
     },
     {
-      "id": "t103",
+      "id": "t109",
       "type": "text",
       "content": "eficiencia",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 740,
-        "w": 700,
+        "w": 325,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 153.02,
+      "in": 152.58,
       "out": 156.3,
+      "_syncT": 152.58,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2521,7 +2985,7 @@
       }
     },
     {
-      "id": "battery_104",
+      "id": "battery_110",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/battery.png",
@@ -2545,20 +3009,21 @@
       }
     },
     {
-      "id": "t105",
+      "id": "t111",
       "type": "text",
       "content": "consumen poco",
       "fontSize": 36,
       "box": {
         "cx": 1400,
         "cy": 840,
-        "w": 700,
+        "w": 330,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 155.82,
+      "in": 154.8,
       "out": 156.3,
+      "_syncT": 154.8,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2569,7 +3034,7 @@
       }
     },
     {
-      "id": "pot_106",
+      "id": "pot_112",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/pot.png",
@@ -2590,10 +3055,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 156.3,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 156.85,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "monitor-black_107",
+      "id": "monitor-black_113",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/monitor-black.png",
@@ -2617,20 +3098,21 @@
       }
     },
     {
-      "id": "t108",
+      "id": "t114",
       "type": "text",
       "content": "abrir el correo",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 490,
-        "w": 700,
+        "w": 468,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 159.7,
       "out": 165.32,
+      "_syncT": null,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2641,20 +3123,21 @@
       }
     },
     {
-      "id": "t109",
+      "id": "t115",
       "type": "text",
       "content": "no hace falta la cocina entera",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 620,
-        "w": 700,
+        "w": 896,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 161.3,
+      "in": 157.36,
       "out": 165.32,
+      "_syncT": 157.36,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2665,20 +3148,21 @@
       }
     },
     {
-      "id": "t110",
+      "id": "t116",
       "type": "text",
       "content": "24",
       "fontSize": 140,
       "box": {
         "cx": 610,
         "cy": 480,
-        "w": 700,
+        "w": 214,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 165.32,
       "out": 175.94,
+      "_syncT": null,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2686,23 +3170,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 165.32,
+          "cx": 960,
+          "cy": 500,
+          "w": 214,
+          "h": 90
+        },
+        {
+          "t": 167.87,
+          "cx": 610,
+          "cy": 480,
+          "w": 214,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "t111",
+      "id": "t117",
       "type": "text",
       "content": "8 rendimiento",
       "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 730,
-        "w": 700,
+        "w": 524,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 167.32,
+      "in": 168.44,
       "out": 175.94,
+      "_syncT": 168.44,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2713,20 +3214,21 @@
       }
     },
     {
-      "id": "t112",
+      "id": "t118",
       "type": "text",
       "content": "16 eficiencia",
       "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 850,
-        "w": 700,
+        "w": 524,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 168.92,
       "out": 175.94,
+      "_syncT": null,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2737,20 +3239,21 @@
       }
     },
     {
-      "id": "t113",
+      "id": "t119",
       "type": "text",
       "content": "no son iguales",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 439,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 170.72,
+      "in": 170.78,
       "out": 175.94,
+      "_syncT": 170.78,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -2761,7 +3264,7 @@
       }
     },
     {
-      "id": "intel_114",
+      "id": "intel_120",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/intel.png",
@@ -2782,10 +3285,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 175.94,
+          "cx": 960,
+          "cy": 500,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 176.74,
+          "cx": 450,
+          "cy": 470,
+          "w": 300,
+          "h": 300
+        }
+      ]
     },
     {
-      "id": "amd_115",
+      "id": "amd_121",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/amd.png",
@@ -2809,20 +3328,21 @@
       }
     },
     {
-      "id": "t116",
+      "id": "t122",
       "type": "text",
       "content": "VS",
       "fontSize": 140,
       "box": {
         "cx": 960,
         "cy": 470,
-        "w": 700,
+        "w": 214,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
       "in": 178.94,
       "out": 180.46,
+      "_syncT": null,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -2833,20 +3353,21 @@
       }
     },
     {
-      "id": "t117",
+      "id": "t123",
       "type": "text",
       "content": "2006–2017",
       "fontSize": 46,
       "box": {
         "cx": 960,
         "cy": 390,
-        "w": 700,
+        "w": 297,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 180.46,
       "out": 187.22,
+      "_syncT": null,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2854,10 +3375,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 180.46,
+          "cx": 960,
+          "cy": 500,
+          "w": 297,
+          "h": 90
+        },
+        {
+          "t": 181.76,
+          "cx": 960,
+          "cy": 390,
+          "w": 297,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "check_118",
+      "id": "check_124",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/check.png",
@@ -2881,7 +3418,7 @@
       }
     },
     {
-      "id": "flame_119",
+      "id": "flame_125",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/flame.png",
@@ -2905,20 +3442,21 @@
       }
     },
     {
-      "id": "t120",
+      "id": "t126",
       "type": "text",
       "content": "baratos y calientes",
       "fontSize": 36,
       "box": {
         "cx": 1470,
         "cy": 660,
-        "w": 700,
+        "w": 464,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 185.46,
+      "in": 185.1,
       "out": 187.22,
+      "_syncT": 185.1,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2929,20 +3467,21 @@
       }
     },
     {
-      "id": "t121",
+      "id": "t127",
       "type": "text",
       "content": "2017",
       "fontSize": 140,
       "box": {
         "cx": 610,
         "cy": 480,
-        "w": 700,
+        "w": 387,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 187.22,
+      "in": 187.34,
       "out": 193.04,
+      "_syncT": 187.34,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -2950,23 +3489,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 187.34,
+          "cx": 960,
+          "cy": 500,
+          "w": 387,
+          "h": 90
+        },
+        {
+          "t": 190.39,
+          "cx": 610,
+          "cy": 480,
+          "w": 387,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "t122",
+      "id": "t128",
       "type": "text",
       "content": "ZEN",
       "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 730,
-        "w": 700,
+        "w": 152,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 189.42,
+      "in": 191.04,
       "out": 193.04,
+      "_syncT": 191.04,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2977,7 +3533,7 @@
       }
     },
     {
-      "id": "mind-blown_123",
+      "id": "mind-blown_129",
       "type": "image",
       "kind": "meme",
       "src": "assets/icons/mind-blown.png",
@@ -3001,7 +3557,7 @@
       }
     },
     {
-      "id": "amd-ryzen_124",
+      "id": "amd-ryzen_130",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/amd-ryzen.png",
@@ -3022,23 +3578,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 193.04,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 193.59,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "t125",
+      "id": "t131",
       "type": "text",
       "content": "+ núcleos",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 297,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 195.04,
+      "in": 194.2,
       "out": 202.1,
+      "_syncT": 194.2,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3049,20 +3622,21 @@
       }
     },
     {
-      "id": "t126",
+      "id": "t132",
       "type": "text",
       "content": "− dinero",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 490,
-        "w": 700,
+        "w": 268,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 196.44,
+      "in": 195.04,
       "out": 202.1,
+      "_syncT": 195.04,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3073,7 +3647,7 @@
       }
     },
     {
-      "id": "euro-coin_127",
+      "id": "euro-coin_133",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/euro-coin.png",
@@ -3097,7 +3671,7 @@
       }
     },
     {
-      "id": "amd_128",
+      "id": "amd_134",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/amd.png",
@@ -3118,23 +3692,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 202.1,
+          "cx": 960,
+          "cy": 500,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 202.65,
+          "cx": 450,
+          "cy": 470,
+          "w": 300,
+          "h": 300
+        }
+      ]
     },
     {
-      "id": "t129",
+      "id": "t135",
       "type": "text",
       "content": "juegos",
       "fontSize": 46,
       "box": {
         "cx": 450,
         "cy": 660,
-        "w": 700,
+        "w": 211,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 202.7,
+      "in": 203.32,
       "out": 217.1,
+      "_syncT": 203.32,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -3145,7 +3736,7 @@
       }
     },
     {
-      "id": "intel_130",
+      "id": "intel_136",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/intel.png",
@@ -3169,20 +3760,21 @@
       }
     },
     {
-      "id": "t131",
+      "id": "t137",
       "type": "text",
       "content": "eficiencia · portátiles",
       "fontSize": 46,
       "box": {
         "cx": 1470,
         "cy": 660,
-        "w": 700,
+        "w": 696,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 205.1,
+      "in": 207.94,
       "out": 217.1,
+      "_syncT": 207.94,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -3193,20 +3785,21 @@
       }
     },
     {
-      "id": "t132",
+      "id": "t138",
       "type": "text",
       "content": "ninguno gana en todo",
       "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 470,
-        "w": 700,
+        "w": 784,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 207.1,
+      "in": 210.16,
       "out": 217.1,
+      "_syncT": 210.16,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3217,15 +3810,15 @@
       }
     },
     {
-      "id": "taza-espresso_133",
+      "id": "taza-espresso_139",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/taza-espresso.png",
       "box": {
         "cx": 400,
         "cy": 420,
-        "w": 300,
-        "h": 300
+        "w": 200,
+        "h": 200
       },
       "z": 30,
       "in": 217.1,
@@ -3238,23 +3831,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 217.1,
+          "cx": 960,
+          "cy": 500,
+          "w": 200,
+          "h": 200
+        },
+        {
+          "t": 217.65,
+          "cx": 400,
+          "cy": 420,
+          "w": 200,
+          "h": 200
+        }
+      ]
     },
     {
-      "id": "t134",
+      "id": "t140",
       "type": "text",
       "content": "i3",
       "fontSize": 60,
       "box": {
         "cx": 400,
-        "cy": 590,
-        "w": 700,
+        "cy": 560,
+        "w": 114,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 217.6,
+      "in": 218.24,
       "out": 228.66,
+      "_syncT": 218.24,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3265,15 +3875,15 @@
       }
     },
     {
-      "id": "taza-normal_135",
+      "id": "taza-normal_141",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/taza-normal.png",
       "box": {
         "cx": 800,
         "cy": 420,
-        "w": 300,
-        "h": 300
+        "w": 200,
+        "h": 200
       },
       "z": 30,
       "in": 218.5,
@@ -3289,20 +3899,21 @@
       }
     },
     {
-      "id": "t136",
+      "id": "t142",
       "type": "text",
       "content": "i5",
       "fontSize": 60,
       "box": {
         "cx": 800,
-        "cy": 590,
-        "w": 700,
+        "cy": 560,
+        "w": 114,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 219,
+      "in": 218.92,
       "out": 228.66,
+      "_syncT": 218.92,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3313,15 +3924,15 @@
       }
     },
     {
-      "id": "taza-grande_137",
+      "id": "taza-grande_143",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/taza-grande.png",
       "box": {
         "cx": 1200,
         "cy": 420,
-        "w": 300,
-        "h": 300
+        "w": 200,
+        "h": 200
       },
       "z": 30,
       "in": 219.9,
@@ -3337,20 +3948,21 @@
       }
     },
     {
-      "id": "t138",
+      "id": "t144",
       "type": "text",
       "content": "i7",
       "fontSize": 60,
       "box": {
         "cx": 1200,
-        "cy": 590,
-        "w": 700,
+        "cy": 560,
+        "w": 114,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 220.4,
+      "in": 219.48,
       "out": 228.66,
+      "_syncT": 219.48,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3361,15 +3973,15 @@
       }
     },
     {
-      "id": "jarra_139",
+      "id": "jarra_145",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/jarra.png",
       "box": {
         "cx": 1600,
         "cy": 420,
-        "w": 300,
-        "h": 300
+        "w": 200,
+        "h": 200
       },
       "z": 30,
       "in": 221.3,
@@ -3385,20 +3997,21 @@
       }
     },
     {
-      "id": "t140",
+      "id": "t146",
       "type": "text",
       "content": "i9",
       "fontSize": 60,
       "box": {
         "cx": 1600,
-        "cy": 590,
-        "w": 700,
+        "cy": 560,
+        "w": 114,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 221.8,
+      "in": 220.12,
       "out": 228.66,
+      "_syncT": 220.12,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3409,7 +4022,7 @@
       }
     },
     {
-      "id": "ar141",
+      "id": "ar147",
       "type": "arrow",
       "a": {
         "x": 400,
@@ -3434,20 +4047,21 @@
       }
     },
     {
-      "id": "t142",
+      "id": "t148",
       "type": "text",
       "content": "+ núcleos",
       "fontSize": 46,
       "box": {
         "cx": 960,
         "cy": 390,
-        "w": 700,
+        "w": 297,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 230.66,
+      "in": 230,
       "out": 232.98,
+      "_syncT": 230,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3458,20 +4072,21 @@
       }
     },
     {
-      "id": "t143",
+      "id": "t149",
       "type": "text",
       "content": "+ velocidad",
       "fontSize": 46,
       "box": {
         "cx": 960,
         "cy": 470,
-        "w": 700,
+        "w": 354,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 232.06,
+      "in": 230.74,
       "out": 232.98,
+      "_syncT": 230.74,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3482,20 +4097,21 @@
       }
     },
     {
-      "id": "t144",
+      "id": "t150",
       "type": "text",
       "content": "+ PRECIO",
       "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 550,
-        "w": 700,
+        "w": 338,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 232.93,
+      "in": 232.12,
       "out": 232.98,
+      "_syncT": 232.12,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3506,7 +4122,7 @@
       }
     },
     {
-      "id": "intel-core-ultra_145",
+      "id": "intel-core-ultra_151",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/intel-core-ultra.png",
@@ -3527,23 +4143,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 232.98,
+          "cx": 960,
+          "cy": 500,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 234.28,
+          "cx": 960,
+          "cy": 390,
+          "w": 300,
+          "h": 300
+        }
+      ]
     },
     {
-      "id": "t146",
+      "id": "t152",
       "type": "text",
       "content": "Core Ultra 5",
       "fontSize": 46,
       "box": {
         "cx": 800,
-        "cy": 590,
-        "w": 700,
+        "cy": 560,
+        "w": 382,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 235.18,
+      "in": 234.82,
       "out": 246.28,
+      "_syncT": 234.82,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3554,20 +4187,21 @@
       }
     },
     {
-      "id": "t147",
+      "id": "t153",
       "type": "text",
       "content": "Core Ultra 7",
       "fontSize": 46,
       "box": {
         "cx": 1200,
-        "cy": 590,
-        "w": 700,
+        "cy": 560,
+        "w": 382,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 236.38,
+      "in": 234.82,
       "out": 246.28,
+      "_syncT": 234.82,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3578,20 +4212,21 @@
       }
     },
     {
-      "id": "t148",
+      "id": "t154",
       "type": "text",
       "content": "Core Ultra 9",
       "fontSize": 46,
       "box": {
         "cx": 1600,
-        "cy": 590,
-        "w": 700,
+        "cy": 560,
+        "w": 382,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 237.58,
+      "in": 234.82,
       "out": 246.28,
+      "_syncT": 234.82,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3602,7 +4237,7 @@
       }
     },
     {
-      "id": "tienda-listado-cpus_149",
+      "id": "tienda-listado-cpus_155",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tienda-listado-cpus.png",
@@ -3623,10 +4258,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 246.28,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 248.08,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "sh150",
+      "id": "sh156",
       "type": "shape",
       "kind": "circle-highlight",
       "box": {
@@ -3646,10 +4297,11 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "_target": "tienda-listado-cpus_155"
     },
     {
-      "id": "confused-math_151",
+      "id": "confused-math_157",
       "type": "image",
       "kind": "meme",
       "src": "assets/icons/confused-math.png",
@@ -3673,20 +4325,21 @@
       }
     },
     {
-      "id": "t152",
+      "id": "t158",
       "type": "text",
       "content": "i5",
       "fontSize": 140,
       "box": {
         "cx": 450,
         "cy": 470,
-        "w": 700,
+        "w": 214,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 249.74,
+      "in": 250.22,
       "out": 257.48,
+      "_syncT": 250.22,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3694,23 +4347,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 250.22,
+          "cx": 960,
+          "cy": 500,
+          "w": 214,
+          "h": 90
+        },
+        {
+          "t": 250.52,
+          "cx": 450,
+          "cy": 470,
+          "w": 214,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "t153",
+      "id": "t159",
       "type": "text",
       "content": "Core Ultra 5",
       "fontSize": 60,
       "box": {
         "cx": 1470,
         "cy": 470,
-        "w": 700,
+        "w": 486,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 251.14,
+      "in": 251.08,
       "out": 257.48,
+      "_syncT": 251.08,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3721,20 +4391,21 @@
       }
     },
     {
-      "id": "t154",
+      "id": "t160",
       "type": "text",
       "content": "=",
       "fontSize": 140,
       "box": {
         "cx": 960,
         "cy": 470,
-        "w": 700,
+        "w": 127,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
       "in": 252.74,
       "out": 257.48,
+      "_syncT": null,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3745,20 +4416,21 @@
       }
     },
     {
-      "id": "t155",
+      "id": "t161",
       "type": "text",
       "content": "el Ultra es más nuevo",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 483,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 254.34,
+      "in": 255.56,
       "out": 257.48,
+      "_syncT": 255.56,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3769,7 +4441,7 @@
       }
     },
     {
-      "id": "amd-ryzen_156",
+      "id": "amd-ryzen_162",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/amd-ryzen.png",
@@ -3790,18 +4462,34 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 257.48,
+          "cx": 960,
+          "cy": 500,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 258.03,
+          "cx": 960,
+          "cy": 390,
+          "w": 300,
+          "h": 300
+        }
+      ]
     },
     {
-      "id": "taza-espresso_157",
+      "id": "taza-espresso_163",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/taza-espresso.png",
       "box": {
         "cx": 400,
         "cy": 420,
-        "w": 300,
-        "h": 300
+        "w": 200,
+        "h": 200
       },
       "z": 30,
       "in": 258.68,
@@ -3817,20 +4505,21 @@
       }
     },
     {
-      "id": "t158",
+      "id": "t164",
       "type": "text",
       "content": "Ryzen 3",
       "fontSize": 46,
       "box": {
         "cx": 400,
-        "cy": 590,
-        "w": 700,
+        "cy": 560,
+        "w": 240,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 259.08,
+      "in": 259.1,
       "out": 265.96,
+      "_syncT": 259.1,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3841,15 +4530,15 @@
       }
     },
     {
-      "id": "taza-normal_159",
+      "id": "taza-normal_165",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/taza-normal.png",
       "box": {
         "cx": 800,
         "cy": 420,
-        "w": 300,
-        "h": 300
+        "w": 200,
+        "h": 200
       },
       "z": 30,
       "in": 259.88,
@@ -3865,20 +4554,21 @@
       }
     },
     {
-      "id": "t160",
+      "id": "t166",
       "type": "text",
       "content": "Ryzen 5",
       "fontSize": 46,
       "box": {
         "cx": 800,
-        "cy": 590,
-        "w": 700,
+        "cy": 560,
+        "w": 240,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 260.28,
+      "in": 259.1,
       "out": 265.96,
+      "_syncT": 259.1,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3889,15 +4579,15 @@
       }
     },
     {
-      "id": "taza-grande_161",
+      "id": "taza-grande_167",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/taza-grande.png",
       "box": {
         "cx": 1200,
         "cy": 420,
-        "w": 300,
-        "h": 300
+        "w": 200,
+        "h": 200
       },
       "z": 30,
       "in": 261.08,
@@ -3913,20 +4603,21 @@
       }
     },
     {
-      "id": "t162",
+      "id": "t168",
       "type": "text",
       "content": "Ryzen 7",
       "fontSize": 46,
       "box": {
         "cx": 1200,
-        "cy": 590,
-        "w": 700,
+        "cy": 560,
+        "w": 240,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 261.48,
+      "in": 259.1,
       "out": 265.96,
+      "_syncT": 259.1,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3937,15 +4628,15 @@
       }
     },
     {
-      "id": "jarra_163",
+      "id": "jarra_169",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/jarra.png",
       "box": {
         "cx": 1600,
         "cy": 420,
-        "w": 300,
-        "h": 300
+        "w": 200,
+        "h": 200
       },
       "z": 30,
       "in": 262.28,
@@ -3961,20 +4652,21 @@
       }
     },
     {
-      "id": "t164",
+      "id": "t170",
       "type": "text",
       "content": "Ryzen 9",
       "fontSize": 46,
       "box": {
         "cx": 1600,
-        "cy": 590,
-        "w": 700,
+        "cy": 560,
+        "w": 240,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 262.68,
+      "in": 259.1,
       "out": 265.96,
+      "_syncT": 259.1,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3985,7 +4677,7 @@
       }
     },
     {
-      "id": "sh165",
+      "id": "sh171",
       "type": "shape",
       "kind": "cross-out",
       "box": {
@@ -3998,6 +4690,7 @@
       "z": 45,
       "in": 265.96,
       "out": 270.72,
+      "__t": null,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -4005,23 +4698,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "frames": [
+        {
+          "t": 265.96,
+          "cx": 960,
+          "cy": 500,
+          "w": 360,
+          "h": 240
+        },
+        {
+          "t": 269.51,
+          "cx": 400,
+          "cy": 420,
+          "w": 360,
+          "h": 240
+        }
+      ]
     },
     {
-      "id": "t166",
+      "id": "t172",
       "type": "text",
       "content": "empiezas aquí",
       "fontSize": 46,
       "box": {
         "cx": 800,
-        "cy": 590,
-        "w": 700,
+        "cy": 560,
+        "w": 411,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 269.96,
+      "in": 270.02,
       "out": 270.72,
+      "_syncT": 270.02,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4032,7 +4742,7 @@
       }
     },
     {
-      "id": "ar167",
+      "id": "ar173",
       "type": "arrow",
       "a": {
         "x": 960,
@@ -4057,20 +4767,21 @@
       }
     },
     {
-      "id": "t168",
+      "id": "t174",
       "type": "text",
       "content": "Ryzen 5",
       "fontSize": 46,
       "box": {
         "cx": 560,
         "cy": 360,
-        "w": 700,
+        "w": 240,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 270.72,
       "out": 286.94,
+      "_syncT": 270.72,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4081,20 +4792,21 @@
       }
     },
     {
-      "id": "t169",
+      "id": "t175",
       "type": "text",
       "content": "Ryzen 7",
       "fontSize": 46,
       "box": {
         "cx": 560,
         "cy": 520,
-        "w": 700,
+        "w": 240,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 272.52,
+      "in": 270.72,
       "out": 286.94,
+      "_syncT": 270.72,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4105,20 +4817,21 @@
       }
     },
     {
-      "id": "t170",
+      "id": "t176",
       "type": "text",
       "content": "Ryzen 9",
       "fontSize": 46,
       "box": {
         "cx": 560,
         "cy": 680,
-        "w": 700,
+        "w": 240,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 274.32,
+      "in": 270.72,
       "out": 286.94,
+      "_syncT": 270.72,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4129,7 +4842,7 @@
       }
     },
     {
-      "id": "ar171",
+      "id": "ar177",
       "type": "arrow",
       "a": {
         "x": 560,
@@ -4154,20 +4867,21 @@
       }
     },
     {
-      "id": "t172",
+      "id": "t178",
       "type": "text",
       "content": "Ryzen 5 vs i7",
       "fontSize": 46,
       "box": {
         "cx": 960,
         "cy": 390,
-        "w": 700,
+        "w": 411,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 286.94,
       "out": 292.68,
+      "_syncT": null,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4175,10 +4889,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 286.94,
+          "cx": 960,
+          "cy": 500,
+          "w": 411,
+          "h": 90
+        },
+        {
+          "t": 288.24,
+          "cx": 960,
+          "cy": 390,
+          "w": 411,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "sh173",
+      "id": "sh179",
       "type": "shape",
       "kind": "cross-out",
       "box": {
@@ -4198,23 +4928,25 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "_target": "t178"
     },
     {
-      "id": "t174",
+      "id": "t180",
       "type": "text",
       "content": "distinta liga",
       "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 520,
-        "w": 700,
+        "w": 524,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
       "in": 290.34,
       "out": 292.68,
+      "_syncT": null,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -4225,7 +4957,7 @@
       }
     },
     {
-      "id": "warning_175",
+      "id": "warning_181",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/warning.png",
@@ -4246,168 +4978,43 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 292.68,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 294.23,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "t176",
+      "id": "t182",
       "type": "text",
       "content": "GUÁRDALA",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 209,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 294.28,
+      "in": 294.76,
       "out": 295.38,
+      "_syncT": 294.76,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "t177",
-      "type": "text",
-      "content": "Ryzen 7 9800X3D",
-      "fontSize": 140,
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 700,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 295.38,
-      "out": 297.76,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "sh178",
-      "type": "shape",
-      "kind": "underline",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 360,
-        "h": 240
-      },
-      "color": "#E9A400",
-      "z": 45,
-      "in": 297.76,
-      "out": 304.6,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.2
-      }
-    },
-    {
-      "id": "t179",
-      "type": "text",
-      "content": "la gama",
-      "fontSize": 46,
-      "box": {
-        "cx": 1400,
-        "cy": 360,
-        "w": 700,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 299.16,
-      "out": 304.6,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "t180",
-      "type": "text",
-      "content": "alta",
-      "fontSize": 46,
-      "box": {
-        "cx": 1400,
-        "cy": 430,
-        "w": 700,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 300.76,
-      "out": 304.6,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "sh181",
-      "type": "shape",
-      "kind": "underline",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 360,
-        "h": 240
-      },
-      "color": "#2F9E44",
-      "z": 45,
-      "in": 304.6,
-      "out": 310.54,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.2
-      }
-    },
-    {
-      "id": "t182",
-      "type": "text",
-      "content": "generación",
-      "fontSize": 46,
-      "box": {
-        "cx": 1400,
-        "cy": 360,
-        "w": 700,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 306.2,
-      "out": 310.54,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
       },
       "exit": {
         "kind": "fade-out",
@@ -4417,18 +5024,19 @@
     {
       "id": "t183",
       "type": "text",
-      "content": "más alto = más nuevo",
-      "fontSize": 46,
+      "content": "Ryzen 7 9800X3D",
+      "fontSize": 60,
       "box": {
-        "cx": 1400,
-        "cy": 490,
-        "w": 700,
+        "cx": 960,
+        "cy": 500,
+        "w": 598,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 308,
-      "out": 310.54,
+      "in": 297.76,
+      "out": 297.76,
+      "_syncT": 297.76,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4448,10 +5056,11 @@
         "w": 360,
         "h": 240
       },
-      "color": "#1098AD",
+      "color": "#E9A400",
       "z": 45,
-      "in": 310.54,
-      "out": 314.16,
+      "in": 297.76,
+      "out": 304.6,
+      "__t": null,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -4459,23 +5068,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "frames": [
+        {
+          "t": 297.76,
+          "cx": 960,
+          "cy": 500,
+          "w": 360,
+          "h": 240
+        },
+        {
+          "t": 301.81,
+          "cx": 960,
+          "cy": 520,
+          "w": 360,
+          "h": 240
+        }
+      ]
     },
     {
       "id": "t185",
       "type": "text",
-      "content": "posición",
+      "content": "la gama",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 240,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 312.34,
-      "out": 314.16,
+      "in": 302.4,
+      "out": 304.6,
+      "_syncT": 302.4,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4486,7 +5112,187 @@
       }
     },
     {
-      "id": "sh186",
+      "id": "t186",
+      "type": "text",
+      "content": "alta",
+      "fontSize": 46,
+      "box": {
+        "cx": 1400,
+        "cy": 430,
+        "w": 154,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 302.76,
+      "out": 304.6,
+      "_syncT": 302.76,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "sh187",
+      "type": "shape",
+      "kind": "underline",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 360,
+        "h": 240
+      },
+      "color": "#2F9E44",
+      "z": 45,
+      "in": 304.6,
+      "out": 310.54,
+      "__t": null,
+      "enter": {
+        "kind": "draw",
+        "duration": 0.5
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.2
+      },
+      "frames": [
+        {
+          "t": 304.6,
+          "cx": 960,
+          "cy": 500,
+          "w": 360,
+          "h": 240
+        },
+        {
+          "t": 305.9,
+          "cx": 960,
+          "cy": 520,
+          "w": 360,
+          "h": 240
+        }
+      ]
+    },
+    {
+      "id": "t188",
+      "type": "text",
+      "content": "generación",
+      "fontSize": 46,
+      "box": {
+        "cx": 1400,
+        "cy": 360,
+        "w": 325,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 306.38,
+      "out": 310.54,
+      "_syncT": 306.38,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "t189",
+      "type": "text",
+      "content": "más alto = más nuevo",
+      "fontSize": 46,
+      "box": {
+        "cx": 1400,
+        "cy": 490,
+        "w": 610,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 308.08,
+      "out": 310.54,
+      "_syncT": 308.08,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "sh190",
+      "type": "shape",
+      "kind": "underline",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 360,
+        "h": 240
+      },
+      "color": "#1098AD",
+      "z": 45,
+      "in": 310.54,
+      "out": 314.16,
+      "__t": null,
+      "enter": {
+        "kind": "draw",
+        "duration": 0.5
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.2
+      },
+      "frames": [
+        {
+          "t": 310.54,
+          "cx": 960,
+          "cy": 500,
+          "w": 360,
+          "h": 240
+        },
+        {
+          "t": 311.34,
+          "cx": 960,
+          "cy": 520,
+          "w": 360,
+          "h": 240
+        }
+      ]
+    },
+    {
+      "id": "t191",
+      "type": "text",
+      "content": "posición",
+      "fontSize": 46,
+      "box": {
+        "cx": 1400,
+        "cy": 360,
+        "w": 268,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 311.98,
+      "out": 314.16,
+      "_syncT": 311.98,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "sh192",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -4499,6 +5305,7 @@
       "z": 45,
       "in": 314.16,
       "out": 316.26,
+      "__t": null,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -4506,23 +5313,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "frames": [
+        {
+          "t": 314.16,
+          "cx": 960,
+          "cy": 500,
+          "w": 360,
+          "h": 240
+        },
+        {
+          "t": 314.96,
+          "cx": 960,
+          "cy": 520,
+          "w": 360,
+          "h": 240
+        }
+      ]
     },
     {
-      "id": "t187",
+      "id": "t193",
       "type": "text",
       "content": "el tipo",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 240,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 315.76,
+      "in": 315.42,
       "out": 316.26,
+      "_syncT": 315.42,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4533,20 +5357,21 @@
       }
     },
     {
-      "id": "t188",
+      "id": "t194",
       "type": "text",
       "content": "Core Ultra 9 285K",
-      "fontSize": 140,
+      "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 520,
-        "w": 700,
+        "w": 672,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 316.26,
+      "in": 318.08,
       "out": 327.14,
+      "_syncT": 318.08,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4557,7 +5382,7 @@
       }
     },
     {
-      "id": "sh189",
+      "id": "sh195",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -4577,10 +5402,11 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "_target": "t194"
     },
     {
-      "id": "sh190",
+      "id": "sh196",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -4600,10 +5426,11 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "_target": "t194"
     },
     {
-      "id": "sh191",
+      "id": "sh197",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -4623,10 +5450,11 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "_target": "t194"
     },
     {
-      "id": "sh192",
+      "id": "sh198",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -4646,23 +5474,25 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "_target": "t194"
     },
     {
-      "id": "t193",
+      "id": "t199",
       "type": "text",
       "content": "1. gama",
       "fontSize": 60,
       "box": {
         "cx": 450,
         "cy": 470,
-        "w": 700,
+        "w": 300,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 327.14,
+      "in": 330.26,
       "out": 345.4,
+      "_syncT": 330.26,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4670,23 +5500,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 330.26,
+          "cx": 960,
+          "cy": 500,
+          "w": 300,
+          "h": 90
+        },
+        {
+          "t": 331.06,
+          "cx": 450,
+          "cy": 470,
+          "w": 300,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "t194",
+      "id": "t200",
       "type": "text",
       "content": "2. generación",
       "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 470,
-        "w": 700,
+        "w": 524,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 328.54,
+      "in": 331.62,
       "out": 345.4,
+      "_syncT": 331.62,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4697,20 +5544,21 @@
       }
     },
     {
-      "id": "t195",
+      "id": "t201",
       "type": "text",
       "content": "Ryzen 5 (2026)",
       "fontSize": 46,
       "box": {
         "cx": 1360,
         "cy": 360,
-        "w": 700,
+        "w": 439,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 330.54,
+      "in": 333.16,
       "out": 345.4,
+      "_syncT": 333.16,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -4721,20 +5569,21 @@
       }
     },
     {
-      "id": "t196",
+      "id": "t202",
       "type": "text",
       "content": "Ryzen 7 (2022)",
       "fontSize": 46,
       "box": {
         "cx": 1360,
         "cy": 520,
-        "w": 700,
+        "w": 439,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 331.74,
+      "in": 333.16,
       "out": 345.4,
+      "_syncT": 333.16,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -4745,7 +5594,7 @@
       }
     },
     {
-      "id": "ar197",
+      "id": "ar203",
       "type": "arrow",
       "a": {
         "x": 1360,
@@ -4770,20 +5619,21 @@
       }
     },
     {
-      "id": "t198",
+      "id": "t204",
       "type": "text",
       "content": "gana el nuevo",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 314,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
       "in": 333.54,
       "out": 345.4,
+      "_syncT": null,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -4794,7 +5644,7 @@
       }
     },
     {
-      "id": "intel_199",
+      "id": "intel_205",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/intel.png",
@@ -4815,23 +5665,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 345.4,
+          "cx": 960,
+          "cy": 500,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 345.95,
+          "cx": 960,
+          "cy": 390,
+          "w": 300,
+          "h": 300
+        }
+      ]
     },
     {
-      "id": "t200",
+      "id": "t206",
       "type": "text",
       "content": "K",
       "fontSize": 140,
       "box": {
         "cx": 450,
         "cy": 470,
-        "w": 700,
+        "w": 127,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 346.6,
       "out": 352.3,
+      "_syncT": null,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -4842,20 +5709,21 @@
       }
     },
     {
-      "id": "t201",
+      "id": "t207",
       "type": "text",
       "content": "overclock",
       "fontSize": 46,
       "box": {
         "cx": 450,
         "cy": 660,
-        "w": 700,
+        "w": 297,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 347.2,
       "out": 352.3,
+      "_syncT": null,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4866,20 +5734,21 @@
       }
     },
     {
-      "id": "t202",
+      "id": "t208",
       "type": "text",
       "content": "F",
       "fontSize": 140,
       "box": {
         "cx": 960,
         "cy": 470,
-        "w": 700,
+        "w": 127,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 349,
       "out": 352.3,
+      "_syncT": null,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -4890,20 +5759,21 @@
       }
     },
     {
-      "id": "t203",
+      "id": "t209",
       "type": "text",
       "content": "sin gráficos",
       "fontSize": 46,
       "box": {
         "cx": 960,
         "cy": 660,
-        "w": 700,
+        "w": 382,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 349.6,
       "out": 352.3,
+      "_syncT": null,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4914,7 +5784,7 @@
       }
     },
     {
-      "id": "monitor-black_204",
+      "id": "monitor-black_210",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/monitor-black.png",
@@ -4938,20 +5808,21 @@
       }
     },
     {
-      "id": "t205",
+      "id": "t211",
       "type": "text",
       "content": "U",
       "fontSize": 140,
       "box": {
         "cx": 450,
         "cy": 470,
-        "w": 700,
+        "w": 127,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 353.3,
       "out": 356.72,
+      "_syncT": null,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -4962,20 +5833,21 @@
       }
     },
     {
-      "id": "t206",
+      "id": "t212",
       "type": "text",
       "content": "portátil ahorro",
       "fontSize": 46,
       "box": {
         "cx": 450,
         "cy": 660,
-        "w": 700,
+        "w": 468,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 353.9,
+      "in": 352.82,
       "out": 356.72,
+      "_syncT": 352.82,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4986,7 +5858,7 @@
       }
     },
     {
-      "id": "battery_207",
+      "id": "battery_213",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/battery.png",
@@ -5010,20 +5882,21 @@
       }
     },
     {
-      "id": "t208",
+      "id": "t214",
       "type": "text",
       "content": "H",
       "fontSize": 140,
       "box": {
         "cx": 960,
         "cy": 470,
-        "w": 700,
+        "w": 127,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 355.7,
       "out": 356.72,
+      "_syncT": null,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -5034,20 +5907,21 @@
       }
     },
     {
-      "id": "t209",
+      "id": "t215",
       "type": "text",
       "content": "portátil potente",
       "fontSize": 46,
       "box": {
         "cx": 960,
         "cy": 660,
-        "w": 700,
+        "w": 496,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 356.3,
+      "in": 352.82,
       "out": 356.72,
+      "_syncT": 352.82,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5058,7 +5932,7 @@
       }
     },
     {
-      "id": "flame_210",
+      "id": "flame_216",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/flame.png",
@@ -5082,7 +5956,7 @@
       }
     },
     {
-      "id": "amd_211",
+      "id": "amd_217",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/amd.png",
@@ -5103,23 +5977,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 356.72,
+          "cx": 960,
+          "cy": 500,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 357.27,
+          "cx": 960,
+          "cy": 390,
+          "w": 300,
+          "h": 300
+        }
+      ]
     },
     {
-      "id": "t212",
+      "id": "t218",
       "type": "text",
       "content": "X",
       "fontSize": 140,
       "box": {
         "cx": 450,
         "cy": 470,
-        "w": 700,
+        "w": 127,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 357.92,
       "out": 362.46,
+      "_syncT": null,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -5130,20 +6021,21 @@
       }
     },
     {
-      "id": "t213",
+      "id": "t219",
       "type": "text",
       "content": "más rápido",
       "fontSize": 46,
       "box": {
         "cx": 450,
         "cy": 660,
-        "w": 700,
+        "w": 325,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 358.52,
+      "in": 359.22,
       "out": 362.46,
+      "_syncT": 359.22,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5154,20 +6046,21 @@
       }
     },
     {
-      "id": "t214",
+      "id": "t220",
       "type": "text",
       "content": "G",
       "fontSize": 140,
       "box": {
         "cx": 960,
         "cy": 470,
-        "w": 700,
+        "w": 127,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 360.32,
       "out": 362.46,
+      "_syncT": null,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -5178,20 +6071,21 @@
       }
     },
     {
-      "id": "t215",
+      "id": "t221",
       "type": "text",
       "content": "con gráficos",
       "fontSize": 46,
       "box": {
         "cx": 960,
         "cy": 660,
-        "w": 700,
+        "w": 382,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 360.92,
       "out": 362.46,
+      "_syncT": null,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5202,20 +6096,21 @@
       }
     },
     {
-      "id": "t216",
+      "id": "t222",
       "type": "text",
       "content": "X3D",
       "fontSize": 140,
       "box": {
         "cx": 610,
         "cy": 480,
-        "w": 700,
+        "w": 300,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 362.46,
+      "in": 362.98,
       "out": 369.3,
+      "_syncT": 362.98,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -5223,23 +6118,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 362.98,
+          "cx": 960,
+          "cy": 500,
+          "w": 300,
+          "h": 90
+        },
+        {
+          "t": 364.03,
+          "cx": 610,
+          "cy": 480,
+          "w": 300,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "t217",
+      "id": "t223",
       "type": "text",
       "content": "memoria apilada",
       "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 730,
-        "w": 700,
+        "w": 598,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 364.66,
+      "in": 364.52,
       "out": 369.3,
+      "_syncT": 364.52,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5250,7 +6162,7 @@
       }
     },
     {
-      "id": "gpu-card_218",
+      "id": "gpu-card_224",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/gpu-card.png",
@@ -5274,20 +6186,21 @@
       }
     },
     {
-      "id": "t219",
+      "id": "t225",
       "type": "text",
       "content": "el rey del gaming",
       "fontSize": 60,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 672,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 367.46,
+      "in": 367.9,
       "out": 369.3,
+      "_syncT": 367.9,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -5298,7 +6211,7 @@
       }
     },
     {
-      "id": "euro-coin_220",
+      "id": "euro-coin_226",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/euro-coin.png",
@@ -5319,23 +6232,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 369.3,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 370.35,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "t221",
+      "id": "t227",
       "type": "text",
       "content": "+200 €",
       "fontSize": 140,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 561,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
       "in": 370.9,
       "out": 381.1,
+      "_syncT": null,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -5346,20 +6276,21 @@
       }
     },
     {
-      "id": "t222",
+      "id": "t228",
       "type": "text",
       "content": "por una letra",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 490,
-        "w": 700,
+        "w": 411,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 372.9,
       "out": 381.1,
+      "_syncT": null,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5370,20 +6301,21 @@
       }
     },
     {
-      "id": "t223",
+      "id": "t229",
       "type": "text",
       "content": "que igual no usas",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 620,
-        "w": 700,
+        "w": 525,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 374.3,
+      "in": 379.26,
       "out": 381.1,
+      "_syncT": 379.26,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5394,7 +6326,7 @@
       }
     },
     {
-      "id": "cpu-bare-top_224",
+      "id": "cpu-bare-top_230",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-bare-top.png",
@@ -5418,7 +6350,7 @@
       }
     },
     {
-      "id": "gpu-card_225",
+      "id": "gpu-card_231",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/gpu-card.png",
@@ -5442,20 +6374,21 @@
       }
     },
     {
-      "id": "t226",
+      "id": "t232",
       "type": "text",
       "content": "con gráficos",
       "fontSize": 46,
       "box": {
         "cx": 450,
         "cy": 660,
-        "w": 700,
+        "w": 382,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 382.1,
       "out": 386.12,
+      "_syncT": null,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -5466,7 +6399,7 @@
       }
     },
     {
-      "id": "cpu-bare-pins_227",
+      "id": "cpu-bare-pins_233",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-bare-pins.png",
@@ -5490,7 +6423,7 @@
       }
     },
     {
-      "id": "cross_228",
+      "id": "cross_234",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cross.png",
@@ -5514,20 +6447,21 @@
       }
     },
     {
-      "id": "t229",
+      "id": "t235",
       "type": "text",
       "content": "sin gráficos",
       "fontSize": 46,
       "box": {
         "cx": 1470,
         "cy": 660,
-        "w": 700,
+        "w": 382,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 385.1,
       "out": 386.12,
+      "_syncT": null,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -5538,7 +6472,7 @@
       }
     },
     {
-      "id": "monitor-black_230",
+      "id": "monitor-black_236",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/monitor-black.png",
@@ -5562,20 +6496,21 @@
       }
     },
     {
-      "id": "t231",
+      "id": "t237",
       "type": "text",
       "content": "NO SIGNAL",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 230,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 388.72,
+      "in": 385.54,
       "out": 392.46,
+      "_syncT": 385.54,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -5586,7 +6521,7 @@
       }
     },
     {
-      "id": "sweating_232",
+      "id": "sweating_238",
       "type": "image",
       "kind": "meme",
       "src": "assets/icons/sweating.png",
@@ -5610,20 +6545,21 @@
       }
     },
     {
-      "id": "t233",
+      "id": "t239",
       "type": "text",
       "content": "Intel ...F",
       "fontSize": 60,
       "box": {
         "cx": 450,
         "cy": 470,
-        "w": 700,
+        "w": 412,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 392.46,
+      "in": 392.54,
       "out": 403.74,
+      "_syncT": 392.54,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5631,23 +6567,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 392.54,
+          "cx": 960,
+          "cy": 500,
+          "w": 412,
+          "h": 90
+        },
+        {
+          "t": 394.59,
+          "cx": 450,
+          "cy": 470,
+          "w": 412,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "t234",
+      "id": "t240",
       "type": "text",
       "content": "Ryzen ...G",
       "fontSize": 60,
       "box": {
         "cx": 1470,
         "cy": 470,
-        "w": 700,
+        "w": 412,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 394.46,
+      "in": 395.24,
       "out": 403.74,
+      "_syncT": 395.24,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5658,20 +6611,21 @@
       }
     },
     {
-      "id": "t235",
+      "id": "t241",
       "type": "text",
       "content": "para ofimática, sobra",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 483,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 396.46,
+      "in": 398.02,
       "out": 403.74,
+      "_syncT": 398.02,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5682,13 +6636,13 @@
       }
     },
     {
-      "id": "question_236",
+      "id": "question_242",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/question.png",
       "box": {
         "cx": 960,
-        "cy": 520,
+        "cy": 500,
         "w": 460,
         "h": 460
       },
@@ -5706,7 +6660,7 @@
       }
     },
     {
-      "id": "arm_237",
+      "id": "arm_243",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/arm.png",
@@ -5727,10 +6681,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 406.14,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 407.19,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "phone_238",
+      "id": "phone_244",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/phone.png",
@@ -5754,20 +6724,21 @@
       }
     },
     {
-      "id": "t239",
+      "id": "t245",
       "type": "text",
       "content": "la del móvil",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 293,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 408.94,
+      "in": 408.04,
       "out": 412.64,
+      "_syncT": 408.04,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5778,7 +6749,7 @@
       }
     },
     {
-      "id": "apple_240",
+      "id": "apple_246",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/apple.png",
@@ -5799,10 +6770,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 412.64,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 413.94,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "laptop_241",
+      "id": "laptop_247",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/laptop.png",
@@ -5826,7 +6813,7 @@
       }
     },
     {
-      "id": "mind-blown_242",
+      "id": "mind-blown_248",
       "type": "image",
       "kind": "meme",
       "src": "assets/icons/mind-blown.png",
@@ -5850,20 +6837,21 @@
       }
     },
     {
-      "id": "t243",
+      "id": "t249",
       "type": "text",
       "content": "misma potencia",
       "fontSize": 46,
       "box": {
         "cx": 450,
         "cy": 470,
-        "w": 700,
+        "w": 439,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 417.54,
       "out": 424.32,
+      "_syncT": 417.54,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -5871,23 +6859,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 417.54,
+          "cx": 960,
+          "cy": 500,
+          "w": 439,
+          "h": 90
+        },
+        {
+          "t": 418.59,
+          "cx": 450,
+          "cy": 470,
+          "w": 439,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "t244",
+      "id": "t250",
       "type": "text",
       "content": "mitad consumo",
       "fontSize": 46,
       "box": {
         "cx": 960,
         "cy": 470,
-        "w": 700,
+        "w": 411,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 418.94,
+      "in": 419.12,
       "out": 424.32,
+      "_syncT": 419.12,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -5898,7 +6903,7 @@
       }
     },
     {
-      "id": "leaf_245",
+      "id": "leaf_251",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/leaf.png",
@@ -5922,20 +6927,21 @@
       }
     },
     {
-      "id": "t246",
+      "id": "t252",
       "type": "text",
       "content": "sin ventilador",
       "fontSize": 46,
       "box": {
         "cx": 1470,
         "cy": 470,
-        "w": 700,
+        "w": 439,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 420.34,
+      "in": 420.56,
       "out": 424.32,
+      "_syncT": 420.56,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -5946,7 +6952,7 @@
       }
     },
     {
-      "id": "battery_247",
+      "id": "battery_253",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/battery.png",
@@ -5970,20 +6976,21 @@
       }
     },
     {
-      "id": "t248",
+      "id": "t254",
       "type": "text",
       "content": "todo el día",
       "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 905,
-        "w": 700,
+        "w": 449,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 422.14,
+      "in": 422.94,
       "out": 424.32,
+      "_syncT": 422.94,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5994,7 +7001,7 @@
       }
     },
     {
-      "id": "qualcomm_249",
+      "id": "qualcomm_255",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/qualcomm.png",
@@ -6015,23 +7022,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 424.32,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 426.37,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "t250",
+      "id": "t256",
       "type": "text",
       "content": "Snapdragon",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 325,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 426.52,
+      "in": 426.86,
       "out": 437.58,
+      "_syncT": 426.86,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -6042,7 +7066,7 @@
       }
     },
     {
-      "id": "warning_251",
+      "id": "warning_257",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/warning.png",
@@ -6066,20 +7090,21 @@
       }
     },
     {
-      "id": "t252",
+      "id": "t258",
       "type": "text",
       "content": "no todo funciona igual",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 620,
-        "w": 700,
+        "w": 667,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 429.32,
+      "in": 429.78,
       "out": 437.58,
+      "_syncT": 429.78,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -6090,7 +7115,7 @@
       }
     },
     {
-      "id": "monitor-black_253",
+      "id": "monitor-black_259",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/monitor-black.png",
@@ -6114,20 +7139,21 @@
       }
     },
     {
-      "id": "t254",
+      "id": "t260",
       "type": "text",
       "content": "navegar · correo · series",
       "fontSize": 46,
       "box": {
         "cx": 450,
         "cy": 660,
-        "w": 700,
+        "w": 753,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 438.18,
       "out": 446.46,
+      "_syncT": null,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -6138,20 +7164,21 @@
       }
     },
     {
-      "id": "t255",
+      "id": "t261",
       "type": "text",
       "content": "Core Ultra 5",
       "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 470,
-        "w": 700,
+        "w": 486,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 440.18,
+      "in": 440.96,
       "out": 446.46,
+      "_syncT": 440.96,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6162,20 +7189,21 @@
       }
     },
     {
-      "id": "t256",
+      "id": "t262",
       "type": "text",
       "content": "Ryzen 5",
       "fontSize": 60,
       "box": {
         "cx": 1470,
         "cy": 470,
-        "w": 700,
+        "w": 300,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 440.98,
+      "in": 442.34,
       "out": 446.46,
+      "_syncT": 442.34,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6186,20 +7214,21 @@
       }
     },
     {
-      "id": "t257",
+      "id": "t263",
       "type": "text",
       "content": "te sobra",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 209,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 442.58,
+      "in": 443.1,
       "out": 446.46,
+      "_syncT": 443.1,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -6210,7 +7239,7 @@
       }
     },
     {
-      "id": "gpu-card_258",
+      "id": "gpu-card_264",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/gpu-card.png",
@@ -6231,23 +7260,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 446.46,
+          "cx": 960,
+          "cy": 500,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 448.01,
+          "cx": 450,
+          "cy": 470,
+          "w": 300,
+          "h": 300
+        }
+      ]
     },
     {
-      "id": "t259",
+      "id": "t265",
       "type": "text",
       "content": "X3D",
       "fontSize": 60,
       "box": {
         "cx": 450,
         "cy": 660,
-        "w": 700,
+        "w": 152,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 447.86,
+      "in": 448.66,
       "out": 455.92,
+      "_syncT": 448.66,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6258,7 +7304,7 @@
       }
     },
     {
-      "id": "cpu-bare-top_260",
+      "id": "cpu-bare-top_266",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-bare-top.png",
@@ -6282,7 +7328,7 @@
       }
     },
     {
-      "id": "ar261",
+      "id": "ar267",
       "type": "arrow",
       "a": {
         "x": 1470,
@@ -6307,20 +7353,21 @@
       }
     },
     {
-      "id": "t262",
+      "id": "t268",
       "type": "text",
       "content": "más en gráfica",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 335,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 451.46,
+      "in": 449.96,
       "out": 455.92,
+      "_syncT": 449.96,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -6331,7 +7378,7 @@
       }
     },
     {
-      "id": "cook_263",
+      "id": "cook_269",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -6352,10 +7399,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 455.92,
+          "cx": 960,
+          "cy": 500,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 456.22,
+          "cx": 450,
+          "cy": 470,
+          "w": 300,
+          "h": 300
+        }
+      ]
     },
     {
-      "id": "cook_264",
+      "id": "cook_270",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -6379,20 +7442,21 @@
       }
     },
     {
-      "id": "t265",
+      "id": "t271",
       "type": "text",
       "content": "aquí SÍ",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 188,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 458.92,
+      "in": 457.94,
       "out": 463.42,
+      "_syncT": 457.94,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6403,20 +7467,21 @@
       }
     },
     {
-      "id": "t266",
+      "id": "t272",
       "type": "text",
       "content": "Ryzen 9 · Core Ultra 9",
       "fontSize": 46,
       "box": {
         "cx": 960,
         "cy": 905,
-        "w": 700,
+        "w": 667,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 460.32,
+      "in": 460.4,
       "out": 463.42,
+      "_syncT": 460.4,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -6427,7 +7492,7 @@
       }
     },
     {
-      "id": "laptop_267",
+      "id": "laptop_273",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/laptop.png",
@@ -6448,10 +7513,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 463.42,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 464.72,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "battery_268",
+      "id": "battery_274",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/battery.png",
@@ -6475,20 +7556,21 @@
       }
     },
     {
-      "id": "t269",
+      "id": "t275",
       "type": "text",
       "content": "consumo",
       "fontSize": 60,
       "box": {
         "cx": 1400,
         "cy": 490,
-        "w": 700,
+        "w": 300,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 466.62,
+      "in": 466.1,
       "out": 471.66,
+      "_syncT": 466.1,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -6499,20 +7581,21 @@
       }
     },
     {
-      "id": "t270",
+      "id": "t276",
       "type": "text",
       "content": "no potencia",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 620,
-        "w": 700,
+        "w": 354,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 467.82,
+      "in": 466.7,
       "out": 471.66,
+      "_syncT": 466.7,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6523,20 +7606,21 @@
       }
     },
     {
-      "id": "t271",
+      "id": "t277",
       "type": "text",
       "content": "1",
       "fontSize": 140,
       "box": {
         "cx": 610,
         "cy": 480,
-        "w": 700,
+        "w": 127,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
       "in": 471.66,
       "out": 478.7,
+      "_syncT": null,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6544,23 +7628,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 471.66,
+          "cx": 960,
+          "cy": 500,
+          "w": 127,
+          "h": 90
+        },
+        {
+          "t": 474.46,
+          "cx": 610,
+          "cy": 480,
+          "w": 127,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "t272",
+      "id": "t278",
       "type": "text",
       "content": "comparar GHz entre generaciones",
       "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 730,
-        "w": 700,
+        "w": 1193,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 473.26,
+      "in": 474.92,
       "out": 478.7,
+      "_syncT": 474.92,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -6571,7 +7672,7 @@
       }
     },
     {
-      "id": "cross_273",
+      "id": "cross_279",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cross.png",
@@ -6595,20 +7696,21 @@
       }
     },
     {
-      "id": "t274",
+      "id": "t280",
       "type": "text",
       "content": "2",
       "fontSize": 140,
       "box": {
         "cx": 610,
         "cy": 480,
-        "w": 700,
+        "w": 127,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
       "in": 478.7,
       "out": 484.62,
+      "_syncT": null,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6616,23 +7718,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 478.7,
+          "cx": 960,
+          "cy": 500,
+          "w": 127,
+          "h": 90
+        },
+        {
+          "t": 479.75,
+          "cx": 610,
+          "cy": 480,
+          "w": 127,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "t275",
+      "id": "t281",
       "type": "text",
       "content": "CPU cara + gráfica mala",
       "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 730,
-        "w": 700,
+        "w": 896,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 480.3,
       "out": 484.62,
+      "_syncT": null,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -6643,20 +7762,21 @@
       }
     },
     {
-      "id": "t276",
+      "id": "t282",
       "type": "text",
       "content": "al revés",
       "fontSize": 60,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 338,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 483.1,
+      "in": 483.62,
       "out": 484.62,
+      "_syncT": 483.62,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6667,20 +7787,21 @@
       }
     },
     {
-      "id": "t277",
+      "id": "t283",
       "type": "text",
       "content": "3",
       "fontSize": 140,
       "box": {
         "cx": 960,
         "cy": 390,
-        "w": 700,
+        "w": 127,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
       "in": 484.62,
       "out": 493.66,
+      "_syncT": null,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6688,10 +7809,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 484.62,
+          "cx": 960,
+          "cy": 500,
+          "w": 127,
+          "h": 90
+        },
+        {
+          "t": 485.17,
+          "cx": 960,
+          "cy": 390,
+          "w": 127,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "cpu-socket-open_278",
+      "id": "cpu-socket-open_284",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-socket-open.png",
@@ -6715,20 +7852,21 @@
       }
     },
     {
-      "id": "t279",
+      "id": "t285",
       "type": "text",
       "content": "AM5",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 360,
-        "w": 700,
+        "w": 126,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 487.62,
       "out": 493.66,
+      "_syncT": null,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -6739,20 +7877,21 @@
       }
     },
     {
-      "id": "t280",
+      "id": "t286",
       "type": "text",
       "content": "LGA 1851",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 490,
-        "w": 700,
+        "w": 268,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 488.82,
       "out": 493.66,
+      "_syncT": null,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -6763,7 +7902,7 @@
       }
     },
     {
-      "id": "cross_281",
+      "id": "cross_287",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cross.png",
@@ -6787,20 +7926,21 @@
       }
     },
     {
-      "id": "t282",
+      "id": "t288",
       "type": "text",
       "content": "no compatibles",
       "fontSize": 46,
       "box": {
         "cx": 1400,
         "cy": 740,
-        "w": 700,
+        "w": 439,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 490.62,
+      "in": 485.76,
       "out": 493.66,
+      "_syncT": 485.76,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6811,7 +7951,7 @@
       }
     },
     {
-      "id": "cpu-bare-top_283",
+      "id": "cpu-bare-top_289",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-bare-top.png",
@@ -6832,23 +7972,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 493.66,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 496.71,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "t284",
+      "id": "t290",
       "type": "text",
       "content": "pisapapeles de 400 €",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 462,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 496.06,
+      "in": 497.36,
       "out": 499.44,
+      "_syncT": 497.36,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6859,7 +8016,7 @@
       }
     },
     {
-      "id": "money-burning_285",
+      "id": "money-burning_291",
       "type": "image",
       "kind": "meme",
       "src": "assets/icons/money-burning.png",
@@ -6883,20 +8040,21 @@
       }
     },
     {
-      "id": "t286",
+      "id": "t292",
       "type": "text",
       "content": "gama",
       "fontSize": 60,
       "box": {
         "cx": 400,
         "cy": 420,
-        "w": 700,
+        "w": 189,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 499.44,
+      "in": 502.72,
       "out": 507.2,
+      "_syncT": 502.72,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6904,23 +8062,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 502.72,
+          "cx": 960,
+          "cy": 500,
+          "w": 189,
+          "h": 90
+        },
+        {
+          "t": 503.02,
+          "cx": 400,
+          "cy": 420,
+          "w": 189,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "t287",
+      "id": "t293",
       "type": "text",
       "content": "generación",
       "fontSize": 60,
       "box": {
         "cx": 800,
         "cy": 420,
-        "w": 700,
+        "w": 412,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 500.34,
+      "in": 503.52,
       "out": 507.2,
+      "_syncT": 503.52,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6931,20 +8106,21 @@
       }
     },
     {
-      "id": "t288",
+      "id": "t294",
       "type": "text",
       "content": "núcleos",
       "fontSize": 60,
       "box": {
         "cx": 1200,
         "cy": 420,
-        "w": 700,
+        "w": 300,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 501.24,
+      "in": 504.56,
       "out": 507.2,
+      "_syncT": 504.56,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6955,20 +8131,21 @@
       }
     },
     {
-      "id": "t289",
+      "id": "t295",
       "type": "text",
       "content": "letras",
       "fontSize": 60,
       "box": {
         "cx": 1600,
         "cy": 420,
-        "w": 700,
+        "w": 263,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 502.14,
+      "in": 505.32,
       "out": 507.2,
+      "_syncT": 505.32,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6979,20 +8156,21 @@
       }
     },
     {
-      "id": "t290",
+      "id": "t296",
       "type": "text",
       "content": "4 cosas",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 188,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 503.84,
+      "in": 506.2,
       "out": 507.2,
+      "_syncT": 506.2,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -7003,20 +8181,21 @@
       }
     },
     {
-      "id": "t291",
+      "id": "t297",
       "type": "text",
       "content": "Ryzen 7 9800X3D",
-      "fontSize": 140,
+      "fontSize": 60,
       "box": {
         "cx": 960,
         "cy": 520,
-        "w": 700,
+        "w": 598,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 507.2,
+      "in": 508.34,
       "out": 514.84,
+      "_syncT": 508.34,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -7024,10 +8203,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 508.34,
+          "cx": 960,
+          "cy": 500,
+          "w": 598,
+          "h": 90
+        },
+        {
+          "t": 509.14,
+          "cx": 960,
+          "cy": 520,
+          "w": 598,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "sh292",
+      "id": "sh298",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -7047,10 +8242,11 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "_target": "t297"
     },
     {
-      "id": "sh293",
+      "id": "sh299",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -7070,10 +8266,11 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "_target": "t297"
     },
     {
-      "id": "sh294",
+      "id": "sh300",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -7093,10 +8290,11 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "_target": "t297"
     },
     {
-      "id": "sh295",
+      "id": "sh301",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -7116,10 +8314,11 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.2
-      }
+      },
+      "_target": "t297"
     },
     {
-      "id": "check_296",
+      "id": "check_302",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/check.png",
@@ -7143,7 +8342,7 @@
       }
     },
     {
-      "id": "euro-coin_297",
+      "id": "euro-coin_303",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/euro-coin.png",
@@ -7164,23 +8363,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 514.84,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 515.39,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "t298",
+      "id": "t304",
       "type": "text",
       "content": "¿lo necesitas?",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 700,
+        "w": 335,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 517.04,
+      "in": 515.94,
       "out": 518.58,
+      "_syncT": 515.94,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -7191,20 +8407,21 @@
       }
     },
     {
-      "id": "t299",
+      "id": "t305",
       "type": "text",
       "content": "normalmente NO",
       "fontSize": 140,
       "box": {
-        "cx": 1400,
+        "cx": 1276.5,
         "cy": 360,
-        "w": 700,
+        "w": 1255,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 518.53,
+      "in": 517.2,
       "out": 518.58,
+      "_syncT": 517.2,
       "enter": {
         "kind": "stamp",
         "duration": 0.3

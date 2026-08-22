@@ -124,17 +124,23 @@ Narración: *"Entras a comprar un ordenador. Y te encuentras esto."*
 -4.5  CLEAR
 ```
 
-### BEAT 2 · 00:05 · T0 thumbnail-grid (8 celdas, solo texto)
+### BEAT 2 · 00:05 · T0 thumbnail-grid (logo/chip + nombre por celda)
 Narración: *"i5. Ryzen 7. Core Ultra 9. 285K. 9800X3D. Snapdragon X2."*
 ```
-+0.0  TXT  "i5"              @g1  stamp  lg
-+0.9  TXT  "Ryzen 7"         @g2  stamp  lg
-+1.8  TXT  "Core Ultra 9"    @g3  stamp  lg
-+2.7  TXT  "285K"            @g4  stamp  lg
-+3.6  TXT  "9800X3D"         @g5  stamp  lg
-+4.5  TXT  "Snapdragon X2"   @g6  stamp  lg
++0.0  ICO  intel            @g1   pop
++0.0  TXT  "i5"             @lg1  stamp  md
++0.9  ICO  amd-ryzen        @g2   pop
++0.9  TXT  "Ryzen 7"        @lg2  stamp  md
++1.8  ICO  intel-core-ultra @g3   pop
++1.8  TXT  "Core Ultra 9"   @lg3  stamp  md
++2.7  ICO  cpu-intel-boxed  @g4   pop
++2.7  TXT  "285K"           @lg4  stamp  md
++3.6  ICO  cpu-chip         @g5   pop
++3.6  TXT  "9800X3D"        @lg5  stamp  md
++4.5  ICO  qualcomm         @g6   pop
++4.5  TXT  "Snapdragon X2"  @lg6  stamp  md
 ```
-Cascada rápida, un nombre por palabra locutada. Todos se quedan.
+Cada nombre con su logo/chip encima. Cascada, un nombre por palabra locutada.
 
 ### BEAT 3 · 00:11 · continúa
 Narración: *"Parecen matrículas de coche."*
@@ -577,7 +583,7 @@ Narración: *"Esta es la parte que más te va a servir. Guárdala."*
 ### BEAT 44 · 06:04 · T1 · **beat clave, 20 s de vida**
 Narración: *"Coge cualquier procesador. Por ejemplo: Ryzen 7 9800X3D."*
 ```
-+0.0  TXT  "Ryzen 7 9800X3D"  @center  handwrite  stat
++0.0  TXT  "Ryzen 7 9800X3D"  @center  handwrite  lg
 ```
 El modelo se queda centrado y grande. Los siguientes beats van descomponiéndolo
 con subrayados de colores bajo cada parte. **No se limpia hasta el beat 49.**
@@ -619,7 +625,7 @@ Narración: *"Y las letras del final son el tipo."*
 ### BEAT 49 · 06:32 · T1
 Narración: *"En Intel funciona igual. Core Ultra 9 285K."*
 ```
-+0.0  TXT  "Core Ultra 9 285K"  @center  handwrite  stat
++0.0  TXT  "Core Ultra 9 285K"  @center  handwrite  lg
 +2.0  SHP  underline →"9"       draw  yellow
 +3.0  SHP  underline →"2"       draw  green
 +4.0  SHP  underline →"85"      draw  cyan
@@ -874,7 +880,7 @@ Narración: *"Y ya está. Eso es todo lo que necesitas saber. Gama. Generación.
 ### BEAT 72 · 10:07 · T1
 Narración: *"La próxima vez que veas un Ryzen 7 9800X3D vas a saber exactamente qué estás mirando."*
 ```
-+0.0  TXT  "Ryzen 7 9800X3D" @center  handwrite  stat
++0.0  TXT  "Ryzen 7 9800X3D" @center  handwrite  lg
 +2.4  SHP  underline →"Ryzen 7"  draw  yellow
 +2.8  SHP  underline →"9"        draw  green
 +3.2  SHP  underline →"800"      draw  cyan
