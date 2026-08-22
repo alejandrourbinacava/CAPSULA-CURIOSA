@@ -43,8 +43,9 @@
       },
       "z": 30,
       "in": 0,
-      "out": 3.34,
+      "out": 3.29,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -83,7 +84,7 @@
       "color": "#EE2B37",
       "z": 45,
       "in": 2.4,
-      "out": 3.34,
+      "out": 3.29,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -109,6 +110,7 @@
       "in": 3.34,
       "out": 15.5,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -134,6 +136,7 @@
       "in": 3.34,
       "out": 15.5,
       "_syncT": 3.34,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -158,6 +161,7 @@
       "in": 4.24,
       "out": 15.5,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -183,6 +187,7 @@
       "in": 4.42,
       "out": 15.5,
       "_syncT": 4.42,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -207,6 +212,7 @@
       "in": 5.14,
       "out": 15.5,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -232,6 +238,7 @@
       "in": 5.94,
       "out": 15.5,
       "_syncT": 5.94,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -256,6 +263,7 @@
       "in": 6.04,
       "out": 15.5,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -281,6 +289,7 @@
       "in": 7.78,
       "out": 15.5,
       "_syncT": 7.78,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -305,6 +314,7 @@
       "in": 6.94,
       "out": 15.5,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -330,6 +340,7 @@
       "in": 10.04,
       "out": 15.5,
       "_syncT": 10.04,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -354,6 +365,7 @@
       "in": 7.84,
       "out": 15.5,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -379,6 +391,7 @@
       "in": 12.74,
       "out": 15.5,
       "_syncT": 12.74,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -403,6 +416,7 @@
       "in": 16,
       "out": 17.71,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.25
@@ -426,8 +440,9 @@
       "color": "#111111",
       "z": 60,
       "in": 17.76,
-      "out": 22.86,
+      "out": 22.81,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -467,8 +482,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 19.36,
-      "out": 22.86,
+      "out": 22.81,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -517,8 +533,9 @@
       "color": "#111111",
       "z": 60,
       "in": 21.78,
-      "out": 22.86,
+      "out": 22.81,
       "_syncT": 21.78,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -541,8 +558,9 @@
       },
       "z": 30,
       "in": 22.86,
-      "out": 25.52,
+      "out": 25.47,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "slide-in-left",
         "duration": 0.4
@@ -582,8 +600,9 @@
       "color": "#111111",
       "z": 60,
       "in": 23.78,
-      "out": 25.52,
+      "out": 25.47,
       "_syncT": 23.78,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -607,8 +626,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 24.1,
-      "out": 25.52,
+      "out": 25.47,
       "_syncT": 24.1,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -631,8 +651,9 @@
       },
       "z": 55,
       "in": 25.47,
-      "out": 25.52,
+      "out": 25.47,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -655,8 +676,9 @@
       },
       "z": 30,
       "in": 25.52,
-      "out": 35.28,
+      "out": 33.52,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -696,8 +718,9 @@
       "color": "#111111",
       "z": 60,
       "in": 27.32,
-      "out": 35.28,
+      "out": 33.52,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -720,8 +743,9 @@
       },
       "z": 30,
       "in": 29.02,
-      "out": 35.28,
+      "out": 33.52,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -745,8 +769,9 @@
       "color": "#111111",
       "z": 60,
       "in": 29.14,
-      "out": 35.28,
+      "out": 33.52,
       "_syncT": 29.14,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -769,8 +794,9 @@
       },
       "z": 30,
       "in": 35.28,
-      "out": 40.9,
+      "out": 40.85,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -794,8 +820,9 @@
       "color": "#111111",
       "z": 60,
       "in": 35.28,
-      "out": 40.9,
+      "out": 40.85,
       "_syncT": 35.28,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -818,7 +845,7 @@
       "color": "#EE2B37",
       "z": 45,
       "in": 38.88,
-      "out": 40.9,
+      "out": 40.85,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -843,8 +870,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 39.34,
-      "out": 40.9,
+      "out": 40.85,
       "_syncT": 39.34,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -869,6 +897,7 @@
       "in": 40.9,
       "out": 44.22,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -909,6 +938,7 @@
       "in": 42.3,
       "out": 44.22,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -934,6 +964,7 @@
       "in": 43.28,
       "out": 44.22,
       "_syncT": 43.28,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -958,6 +989,7 @@
       "in": 44.22,
       "out": 47.63,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "slide-in-right",
         "duration": 0.4
@@ -1008,6 +1040,7 @@
       "in": 44.3,
       "out": 47.68,
       "_syncT": 44.3,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1033,6 +1066,7 @@
       "in": 45.76,
       "out": 47.68,
       "_syncT": 45.76,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1055,8 +1089,9 @@
       },
       "z": 30,
       "in": 47.68,
-      "out": 52.04,
+      "out": 51.99,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1080,8 +1115,9 @@
       "color": "#111111",
       "z": 60,
       "in": 48.04,
-      "out": 52.04,
+      "out": 51.99,
       "_syncT": 48.04,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -1104,8 +1140,9 @@
       },
       "z": 30,
       "in": 50.08,
-      "out": 52.04,
+      "out": 51.99,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1129,8 +1166,9 @@
       "color": "#111111",
       "z": 60,
       "in": 50.08,
-      "out": 52.04,
+      "out": 51.99,
       "_syncT": 50.08,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -1154,8 +1192,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 51.08,
-      "out": 52.04,
+      "out": 51.99,
       "_syncT": 51.08,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -1178,8 +1217,9 @@
       },
       "z": 30,
       "in": 52.04,
-      "out": 68.12,
+      "out": 59.54,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1219,8 +1259,9 @@
       "color": "#111111",
       "z": 60,
       "in": 53.06,
-      "out": 68.12,
+      "out": 59.54,
       "_syncT": 53.06,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1244,8 +1285,9 @@
       "color": "#111111",
       "z": 60,
       "in": 54.98,
-      "out": 68.12,
+      "out": 59.54,
       "_syncT": 54.98,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -1269,8 +1311,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 56.26,
-      "out": 68.12,
+      "out": 59.54,
       "_syncT": 56.26,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1296,6 +1339,7 @@
       "in": 68.12,
       "out": 72.52,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1336,6 +1380,7 @@
       "in": 69.52,
       "out": 72.52,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1361,6 +1406,7 @@
       "in": 71.84,
       "out": 72.52,
       "_syncT": 71.84,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1383,8 +1429,9 @@
       },
       "z": 30,
       "in": 72.52,
-      "out": 79.94,
+      "out": 79.89,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "slide-in-left",
         "duration": 0.4
@@ -1407,8 +1454,9 @@
       },
       "z": 30,
       "in": 74.52,
-      "out": 79.94,
+      "out": 79.89,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1432,8 +1480,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 71.68,
-      "out": 79.94,
+      "out": 79.89,
       "_syncT": 71.68,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -1450,13 +1499,13 @@
       "box": {
         "cx": 1400,
         "cy": 490,
-        "w": 360,
-        "h": 240
+        "w": 178.8,
+        "h": 40
       },
       "color": "#EE2B37",
       "z": 45,
       "in": 77.72,
-      "out": 79.94,
+      "out": 79.89,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -1482,6 +1531,7 @@
       "in": 79.94,
       "out": 86.08,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1506,6 +1556,7 @@
       "in": 80.34,
       "out": 86.08,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1530,6 +1581,7 @@
       "in": 80.74,
       "out": 86.08,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1554,6 +1606,7 @@
       "in": 81.14,
       "out": 86.08,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1578,6 +1631,7 @@
       "in": 81.54,
       "out": 86.08,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1602,6 +1656,7 @@
       "in": 81.94,
       "out": 86.08,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1627,6 +1682,7 @@
       "in": 83.34,
       "out": 86.08,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1652,6 +1708,7 @@
       "in": 84.94,
       "out": 86.08,
       "_syncT": 84.94,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -1675,8 +1732,9 @@
       "color": "#111111",
       "z": 60,
       "in": 86.08,
-      "out": 91.74,
+      "out": 91.08,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1716,8 +1774,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 88.74,
-      "out": 91.74,
+      "out": 91.08,
       "_syncT": 88.74,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -1740,7 +1799,7 @@
       "color": "#EE2B37",
       "z": 45,
       "in": 89.08,
-      "out": 91.74,
+      "out": 91.08,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -1766,6 +1825,7 @@
       "in": 91.74,
       "out": 96.1,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1790,6 +1850,7 @@
       "in": 92.14,
       "out": 96.1,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -1812,8 +1873,9 @@
       },
       "z": 30,
       "in": 92.54,
-      "out": 96.1,
+      "out": 96.05,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -1837,8 +1899,9 @@
       "color": "#111111",
       "z": 60,
       "in": 94.34,
-      "out": 96.1,
+      "out": 96.05,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1862,8 +1925,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 95.06,
-      "out": 96.1,
+      "out": 96.05,
       "_syncT": 95.06,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1888,6 +1952,7 @@
       "in": 96.05,
       "out": 96.05,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1910,8 +1975,9 @@
       },
       "z": 30,
       "in": 96.1,
-      "out": 100.54,
+      "out": 100.49,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "slide-in-left",
         "duration": 0.4
@@ -1935,8 +2001,9 @@
       "color": "#111111",
       "z": 60,
       "in": 96.34,
-      "out": 100.54,
+      "out": 100.49,
       "_syncT": 96.34,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1960,8 +2027,9 @@
       "color": "#111111",
       "z": 60,
       "in": 98.96,
-      "out": 100.54,
+      "out": 100.49,
       "_syncT": 98.96,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -1978,13 +2046,13 @@
       "box": {
         "cx": 1400,
         "cy": 490,
-        "w": 360,
-        "h": 240
+        "w": 144.07999999999998,
+        "h": 40
       },
       "color": "#EE2B37",
       "z": 45,
       "in": 100.49,
-      "out": 100.54,
+      "out": 100.49,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -2009,8 +2077,9 @@
       "color": "#111111",
       "z": 60,
       "in": 100.54,
-      "out": 107.06,
+      "out": 107.01,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2051,6 +2120,7 @@
       "in": 102.34,
       "out": 107.01,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.25
@@ -2074,8 +2144,9 @@
       "color": "#111111",
       "z": 60,
       "in": 104.32,
-      "out": 107.06,
+      "out": 107.01,
       "_syncT": 104.32,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2099,8 +2170,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 106.1,
-      "out": 107.06,
+      "out": 107.01,
       "_syncT": 106.1,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -2123,8 +2195,9 @@
       },
       "z": 30,
       "in": 107.06,
-      "out": 114.2,
+      "out": 114.15,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2164,8 +2237,9 @@
       "color": "#111111",
       "z": 60,
       "in": 109.06,
-      "out": 114.2,
+      "out": 114.15,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -2188,8 +2262,9 @@
       },
       "z": 30,
       "in": 110.86,
-      "out": 114.2,
+      "out": 114.15,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2213,8 +2288,9 @@
       "color": "#111111",
       "z": 60,
       "in": 113.34,
-      "out": 114.2,
+      "out": 114.15,
       "_syncT": 113.34,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2238,8 +2314,9 @@
       "color": "#111111",
       "z": 60,
       "in": 114.2,
-      "out": 117.74,
+      "out": 117.69,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2279,8 +2356,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 116.6,
-      "out": 117.74,
+      "out": 117.69,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2304,8 +2382,9 @@
       "color": "#111111",
       "z": 60,
       "in": 116.42,
-      "out": 117.74,
+      "out": 117.69,
       "_syncT": 116.42,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -2328,8 +2407,9 @@
       },
       "z": 30,
       "in": 117.74,
-      "out": 123.06,
+      "out": 123.01,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "slide-in-left",
         "duration": 0.4
@@ -2369,8 +2449,9 @@
       "color": "#111111",
       "z": 60,
       "in": 120.16,
-      "out": 123.06,
+      "out": 123.01,
       "_syncT": 120.16,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2393,7 +2474,7 @@
       "color": "#EE2B37",
       "z": 45,
       "in": 121.94,
-      "out": 123.06,
+      "out": 123.01,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -2418,8 +2499,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 122.3,
-      "out": 123.06,
+      "out": 123.01,
       "_syncT": 122.3,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -2442,8 +2524,9 @@
       },
       "z": 30,
       "in": 123.06,
-      "out": 128.42,
+      "out": 128.37,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2467,8 +2550,9 @@
       "color": "#111111",
       "z": 60,
       "in": 123.56,
-      "out": 128.42,
+      "out": 128.37,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -2491,8 +2575,9 @@
       },
       "z": 30,
       "in": 125.46,
-      "out": 128.42,
+      "out": 128.37,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2516,8 +2601,9 @@
       "color": "#111111",
       "z": 60,
       "in": 125.96,
-      "out": 128.42,
+      "out": 128.37,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -2566,8 +2652,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 128.37,
-      "out": 128.42,
+      "out": 128.37,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -2590,8 +2677,9 @@
       },
       "z": 30,
       "in": 128.42,
-      "out": 141.12,
+      "out": 135.42,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2631,8 +2719,9 @@
       "color": "#111111",
       "z": 60,
       "in": 130.62,
-      "out": 141.12,
+      "out": 135.42,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2656,8 +2745,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 131.12,
-      "out": 141.12,
+      "out": 135.42,
       "_syncT": 131.12,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2680,7 +2770,7 @@
       "color": "#EE2B37",
       "z": 45,
       "in": 133.82,
-      "out": 141.12,
+      "out": 135.42,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -2706,6 +2796,7 @@
       "in": 141.12,
       "out": 146.66,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2747,6 +2838,7 @@
       "in": 144.7,
       "out": 146.66,
       "_syncT": 144.7,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -2771,6 +2863,7 @@
       "in": 144.12,
       "out": 146.66,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2796,6 +2889,7 @@
       "in": 145.76,
       "out": 146.66,
       "_syncT": 145.76,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2820,6 +2914,7 @@
       "in": 146.66,
       "out": 151.17,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2861,6 +2956,7 @@
       "in": 148.1,
       "out": 151.22,
       "_syncT": 148.1,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2885,6 +2981,7 @@
       "in": 149.86,
       "out": 151.17,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2910,6 +3007,7 @@
       "in": 150.12,
       "out": 151.22,
       "_syncT": 150.12,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2932,8 +3030,9 @@
       },
       "z": 30,
       "in": 151.22,
-      "out": 156.3,
+      "out": 156.25,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2973,8 +3072,9 @@
       "color": "#111111",
       "z": 60,
       "in": 152.58,
-      "out": 156.3,
+      "out": 156.25,
       "_syncT": 152.58,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -2997,8 +3097,9 @@
       },
       "z": 30,
       "in": 154.62,
-      "out": 156.3,
+      "out": 156.25,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3022,8 +3123,9 @@
       "color": "#111111",
       "z": 60,
       "in": 154.8,
-      "out": 156.3,
+      "out": 156.25,
       "_syncT": 154.8,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3046,8 +3148,9 @@
       },
       "z": 30,
       "in": 156.3,
-      "out": 165.32,
+      "out": 163.3,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3086,8 +3189,9 @@
       },
       "z": 30,
       "in": 158.3,
-      "out": 165.32,
+      "out": 163.3,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "slide-in-right",
         "duration": 0.4
@@ -3111,8 +3215,9 @@
       "color": "#111111",
       "z": 60,
       "in": 159.7,
-      "out": 165.32,
+      "out": 163.3,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3136,8 +3241,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 157.36,
-      "out": 165.32,
+      "out": 163.3,
       "_syncT": 157.36,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3161,8 +3267,9 @@
       "color": "#111111",
       "z": 60,
       "in": 165.32,
-      "out": 175.94,
+      "out": 172.82,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3202,8 +3309,9 @@
       "color": "#111111",
       "z": 60,
       "in": 168.44,
-      "out": 175.94,
+      "out": 172.82,
       "_syncT": 168.44,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3227,8 +3335,9 @@
       "color": "#111111",
       "z": 60,
       "in": 168.92,
-      "out": 175.94,
+      "out": 172.82,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3252,8 +3361,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 170.78,
-      "out": 175.94,
+      "out": 172.82,
       "_syncT": 170.78,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3278,6 +3388,7 @@
       "in": 175.94,
       "out": 180.46,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "slide-in-left",
         "duration": 0.4
@@ -3318,6 +3429,7 @@
       "in": 177.34,
       "out": 180.46,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "slide-in-right",
         "duration": 0.4
@@ -3343,6 +3455,7 @@
       "in": 178.94,
       "out": 180.46,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3368,6 +3481,7 @@
       "in": 180.46,
       "out": 187.22,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3408,6 +3522,7 @@
       "in": 182.46,
       "out": 187.17,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3432,6 +3547,7 @@
       "in": 184.06,
       "out": 187.17,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3457,6 +3573,7 @@
       "in": 185.1,
       "out": 187.22,
       "_syncT": 185.1,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3480,8 +3597,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 187.34,
-      "out": 193.04,
+      "out": 192.99,
       "_syncT": 187.34,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3521,8 +3639,9 @@
       "color": "#111111",
       "z": 60,
       "in": 191.04,
-      "out": 193.04,
+      "out": 192.99,
       "_syncT": 191.04,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3547,6 +3666,7 @@
       "in": 191.22,
       "out": 192.99,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.25
@@ -3569,8 +3689,9 @@
       },
       "z": 30,
       "in": 193.04,
-      "out": 202.1,
+      "out": 200.04,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "slide-in-left",
         "duration": 0.4
@@ -3610,8 +3731,9 @@
       "color": "#111111",
       "z": 60,
       "in": 194.2,
-      "out": 202.1,
+      "out": 200.04,
       "_syncT": 194.2,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3635,8 +3757,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 195.04,
-      "out": 202.1,
+      "out": 200.04,
       "_syncT": 195.04,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -3659,8 +3782,9 @@
       },
       "z": 30,
       "in": 198.24,
-      "out": 202.1,
+      "out": 200.04,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3683,8 +3807,9 @@
       },
       "z": 30,
       "in": 202.1,
-      "out": 217.1,
+      "out": 209.6,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3724,8 +3849,9 @@
       "color": "#111111",
       "z": 60,
       "in": 203.32,
-      "out": 217.1,
+      "out": 209.6,
       "_syncT": 203.32,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -3748,8 +3874,9 @@
       },
       "z": 30,
       "in": 204.5,
-      "out": 217.1,
+      "out": 209.6,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3773,8 +3900,9 @@
       "color": "#111111",
       "z": 60,
       "in": 207.94,
-      "out": 217.1,
+      "out": 209.6,
       "_syncT": 207.94,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -3798,8 +3926,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 210.16,
-      "out": 217.1,
+      "out": 209.6,
       "_syncT": 210.16,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3824,6 +3953,7 @@
       "in": 217.1,
       "out": 228.66,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3865,6 +3995,7 @@
       "in": 218.24,
       "out": 228.66,
       "_syncT": 218.24,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3889,6 +4020,7 @@
       "in": 218.5,
       "out": 228.66,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3914,6 +4046,7 @@
       "in": 218.92,
       "out": 228.66,
       "_syncT": 218.92,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3938,6 +4071,7 @@
       "in": 219.9,
       "out": 228.66,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3963,6 +4097,7 @@
       "in": 219.48,
       "out": 228.66,
       "_syncT": 219.48,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -3987,6 +4122,7 @@
       "in": 221.3,
       "out": 228.66,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4012,6 +4148,7 @@
       "in": 220.12,
       "out": 228.66,
       "_syncT": 220.12,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -4062,6 +4199,7 @@
       "in": 230,
       "out": 232.98,
       "_syncT": 230,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4087,6 +4225,7 @@
       "in": 230.74,
       "out": 232.98,
       "_syncT": 230.74,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4112,6 +4251,7 @@
       "in": 232.12,
       "out": 232.98,
       "_syncT": 232.12,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -4136,6 +4276,7 @@
       "in": 232.98,
       "out": 246.28,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "slide-in-top",
         "duration": 0.4
@@ -4177,6 +4318,7 @@
       "in": 234.82,
       "out": 246.28,
       "_syncT": 234.82,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4202,6 +4344,7 @@
       "in": 234.82,
       "out": 246.28,
       "_syncT": 234.82,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4227,6 +4370,7 @@
       "in": 234.82,
       "out": 246.28,
       "_syncT": 234.82,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4249,8 +4393,9 @@
       },
       "z": 30,
       "in": 246.28,
-      "out": 249.74,
+      "out": 249.69,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -4289,7 +4434,7 @@
       "color": "#EE2B37",
       "z": 45,
       "in": 248.68,
-      "out": 249.74,
+      "out": 249.69,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -4315,6 +4460,7 @@
       "in": 249.69,
       "out": 249.69,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.25
@@ -4338,8 +4484,9 @@
       "color": "#111111",
       "z": 60,
       "in": 250.22,
-      "out": 257.48,
+      "out": 256.24,
       "_syncT": 250.22,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4379,8 +4526,9 @@
       "color": "#111111",
       "z": 60,
       "in": 251.08,
-      "out": 257.48,
+      "out": 256.24,
       "_syncT": 251.08,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4404,8 +4552,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 252.74,
-      "out": 257.48,
+      "out": 256.24,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -4429,8 +4578,9 @@
       "color": "#111111",
       "z": 60,
       "in": 255.56,
-      "out": 257.48,
+      "out": 256.24,
       "_syncT": 255.56,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4455,6 +4605,7 @@
       "in": 257.48,
       "out": 265.96,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "slide-in-top",
         "duration": 0.4
@@ -4495,6 +4646,7 @@
       "in": 258.68,
       "out": 265.96,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4520,6 +4672,7 @@
       "in": 259.1,
       "out": 265.96,
       "_syncT": 259.1,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -4544,6 +4697,7 @@
       "in": 259.88,
       "out": 265.96,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4569,6 +4723,7 @@
       "in": 259.1,
       "out": 265.96,
       "_syncT": 259.1,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -4593,6 +4748,7 @@
       "in": 261.08,
       "out": 265.96,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4618,6 +4774,7 @@
       "in": 259.1,
       "out": 265.96,
       "_syncT": 259.1,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -4642,6 +4799,7 @@
       "in": 262.28,
       "out": 265.96,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4667,6 +4825,7 @@
       "in": 259.1,
       "out": 265.96,
       "_syncT": 259.1,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -4730,8 +4889,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 270.02,
-      "out": 270.72,
+      "out": 270.67,
       "_syncT": 270.02,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4780,8 +4940,9 @@
       "color": "#111111",
       "z": 60,
       "in": 270.72,
-      "out": 286.94,
+      "out": 278.22,
       "_syncT": 270.72,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4805,8 +4966,9 @@
       "color": "#111111",
       "z": 60,
       "in": 270.72,
-      "out": 286.94,
+      "out": 278.22,
       "_syncT": 270.72,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4830,8 +4992,9 @@
       "color": "#111111",
       "z": 60,
       "in": 270.72,
-      "out": 286.94,
+      "out": 278.22,
       "_syncT": 270.72,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4880,8 +5043,9 @@
       "color": "#111111",
       "z": 60,
       "in": 286.94,
-      "out": 292.68,
+      "out": 292.44,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -4920,7 +5084,7 @@
       "color": "#EE2B37",
       "z": 45,
       "in": 288.94,
-      "out": 292.68,
+      "out": 292.44,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -4945,8 +5109,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 290.34,
-      "out": 292.68,
+      "out": 292.44,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -4969,8 +5134,9 @@
       },
       "z": 30,
       "in": 292.68,
-      "out": 295.38,
+      "out": 295.33,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -5010,8 +5176,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 294.76,
-      "out": 295.38,
+      "out": 295.33,
       "_syncT": 294.76,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -5022,21 +5189,63 @@
       }
     },
     {
-      "id": "t183",
+      "id": "computer-cpu-processor-chip-top-view_183",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/library/computer-cpu-processor-chip-top-view.png",
+      "box": {
+        "cx": 960,
+        "cy": 540,
+        "w": 460,
+        "h": 460
+      },
+      "z": 30,
+      "in": 295.38,
+      "out": 316.21,
+      "auto": true,
+      "_keep": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 295.38,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 297.18,
+          "cx": 960,
+          "cy": 540,
+          "w": 460,
+          "h": 460
+        }
+      ]
+    },
+    {
+      "id": "t184",
       "type": "text",
       "content": "Ryzen 7 9800X3D",
       "fontSize": 60,
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 520,
         "w": 598,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 297.76,
-      "out": 297.76,
+      "out": 316.21,
       "_syncT": 297.76,
+      "_keep": true,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5047,20 +5256,19 @@
       }
     },
     {
-      "id": "sh184",
+      "id": "sh185",
       "type": "shape",
       "kind": "underline",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 360,
-        "h": 240
+        "cx": 811.2,
+        "cy": 556,
+        "w": 290.4,
+        "h": 40
       },
       "color": "#E9A400",
       "z": 45,
       "in": 297.76,
       "out": 304.6,
-      "__t": null,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -5069,25 +5277,10 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "frames": [
-        {
-          "t": 297.76,
-          "cx": 960,
-          "cy": 500,
-          "w": 360,
-          "h": 240
-        },
-        {
-          "t": 301.81,
-          "cx": 960,
-          "cy": 520,
-          "w": 360,
-          "h": 240
-        }
-      ]
+      "_target": "t184"
     },
     {
-      "id": "t185",
+      "id": "t186",
       "type": "text",
       "content": "la gama",
       "fontSize": 46,
@@ -5102,6 +5295,7 @@
       "in": 302.4,
       "out": 304.6,
       "_syncT": 302.4,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5112,7 +5306,32 @@
       }
     },
     {
-      "id": "t186",
+      "id": "crown_187",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/library/crown.png",
+      "box": {
+        "cx": 250,
+        "cy": 380,
+        "w": 200,
+        "h": 200
+      },
+      "z": 30,
+      "in": 300.16,
+      "out": 304.6,
+      "auto": true,
+      "_keep": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t188",
       "type": "text",
       "content": "alta",
       "fontSize": 46,
@@ -5127,6 +5346,7 @@
       "in": 302.76,
       "out": 304.6,
       "_syncT": 302.76,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -5137,20 +5357,19 @@
       }
     },
     {
-      "id": "sh187",
+      "id": "sh189",
       "type": "shape",
       "kind": "underline",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 360,
-        "h": 240
+        "cx": 997.2,
+        "cy": 556,
+        "w": 120,
+        "h": 40
       },
       "color": "#2F9E44",
       "z": 45,
       "in": 304.6,
       "out": 310.54,
-      "__t": null,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -5159,25 +5378,10 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "frames": [
-        {
-          "t": 304.6,
-          "cx": 960,
-          "cy": 500,
-          "w": 360,
-          "h": 240
-        },
-        {
-          "t": 305.9,
-          "cx": 960,
-          "cy": 520,
-          "w": 360,
-          "h": 240
-        }
-      ]
+      "_target": "t184"
     },
     {
-      "id": "t188",
+      "id": "t190",
       "type": "text",
       "content": "generación",
       "fontSize": 46,
@@ -5192,6 +5396,7 @@
       "in": 306.38,
       "out": 310.54,
       "_syncT": 306.38,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5202,7 +5407,32 @@
       }
     },
     {
-      "id": "t189",
+      "id": "start-flag_191",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/library/start-flag.png",
+      "box": {
+        "cx": 250,
+        "cy": 610,
+        "w": 200,
+        "h": 200
+      },
+      "z": 30,
+      "in": 307.2,
+      "out": 310.54,
+      "auto": true,
+      "_keep": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t192",
       "type": "text",
       "content": "más alto = más nuevo",
       "fontSize": 46,
@@ -5217,6 +5447,7 @@
       "in": 308.08,
       "out": 310.54,
       "_syncT": 308.08,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5227,20 +5458,19 @@
       }
     },
     {
-      "id": "sh190",
+      "id": "sh193",
       "type": "shape",
       "kind": "underline",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 360,
-        "h": 240
+        "cx": 1071.6,
+        "cy": 556,
+        "w": 141.6,
+        "h": 40
       },
       "color": "#1098AD",
       "z": 45,
       "in": 310.54,
       "out": 314.16,
-      "__t": null,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -5249,25 +5479,10 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "frames": [
-        {
-          "t": 310.54,
-          "cx": 960,
-          "cy": 500,
-          "w": 360,
-          "h": 240
-        },
-        {
-          "t": 311.34,
-          "cx": 960,
-          "cy": 520,
-          "w": 360,
-          "h": 240
-        }
-      ]
+      "_target": "t184"
     },
     {
-      "id": "t191",
+      "id": "t194",
       "type": "text",
       "content": "posición",
       "fontSize": 46,
@@ -5282,6 +5497,7 @@
       "in": 311.98,
       "out": 314.16,
       "_syncT": 311.98,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5292,20 +5508,44 @@
       }
     },
     {
-      "id": "sh192",
+      "id": "speedometer-gauge-dial_195",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/library/speedometer-gauge-dial.png",
+      "box": {
+        "cx": 250,
+        "cy": 840,
+        "w": 200,
+        "h": 200
+      },
+      "z": 30,
+      "in": 313.14,
+      "out": 314.16,
+      "auto": true,
+      "_keep": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "sh196",
       "type": "shape",
       "kind": "underline",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 360,
-        "h": 240
+        "cx": 1183.2,
+        "cy": 556,
+        "w": 141.6,
+        "h": 40
       },
       "color": "#C2255C",
       "z": 45,
       "in": 314.16,
-      "out": 316.26,
-      "__t": null,
+      "out": 316.21,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -5314,25 +5554,10 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "frames": [
-        {
-          "t": 314.16,
-          "cx": 960,
-          "cy": 500,
-          "w": 360,
-          "h": 240
-        },
-        {
-          "t": 314.96,
-          "cx": 960,
-          "cy": 520,
-          "w": 360,
-          "h": 240
-        }
-      ]
+      "_target": "t184"
     },
     {
-      "id": "t193",
+      "id": "t197",
       "type": "text",
       "content": "el tipo",
       "fontSize": 46,
@@ -5345,8 +5570,9 @@
       "color": "#111111",
       "z": 60,
       "in": 315.42,
-      "out": 316.26,
+      "out": 316.21,
       "_syncT": 315.42,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5357,7 +5583,7 @@
       }
     },
     {
-      "id": "t194",
+      "id": "t198",
       "type": "text",
       "content": "Core Ultra 9 285K",
       "fontSize": 60,
@@ -5370,8 +5596,9 @@
       "color": "#111111",
       "z": 60,
       "in": 318.08,
-      "out": 327.14,
+      "out": 323.26,
       "_syncT": 318.08,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5382,19 +5609,19 @@
       }
     },
     {
-      "id": "sh195",
+      "id": "sh199",
       "type": "shape",
       "kind": "underline",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 360,
-        "h": 240
+        "cx": 1071.6,
+        "cy": 556,
+        "w": 120,
+        "h": 40
       },
       "color": "#E9A400",
       "z": 45,
       "in": 318.26,
-      "out": 327.14,
+      "out": 323.26,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -5403,22 +5630,22 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "_target": "t194"
+      "_target": "t198"
     },
     {
-      "id": "sh196",
+      "id": "sh200",
       "type": "shape",
       "kind": "underline",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 360,
-        "h": 240
+        "cx": 1146,
+        "cy": 556,
+        "w": 120,
+        "h": 40
       },
       "color": "#2F9E44",
       "z": 45,
       "in": 319.26,
-      "out": 327.14,
+      "out": 323.26,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -5427,22 +5654,22 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "_target": "t194"
+      "_target": "t198"
     },
     {
-      "id": "sh197",
+      "id": "sh201",
       "type": "shape",
       "kind": "underline",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 360,
-        "h": 240
+        "cx": 1201.8,
+        "cy": 556,
+        "w": 120,
+        "h": 40
       },
       "color": "#1098AD",
       "z": 45,
       "in": 320.26,
-      "out": 327.14,
+      "out": 323.26,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -5451,22 +5678,22 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "_target": "t194"
+      "_target": "t198"
     },
     {
-      "id": "sh198",
+      "id": "sh202",
       "type": "shape",
       "kind": "underline",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 360,
-        "h": 240
+        "cx": 1257.6,
+        "cy": 556,
+        "w": 120,
+        "h": 40
       },
       "color": "#C2255C",
       "z": 45,
       "in": 321.26,
-      "out": 327.14,
+      "out": 323.26,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -5475,10 +5702,10 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "_target": "t194"
+      "_target": "t198"
     },
     {
-      "id": "t199",
+      "id": "t203",
       "type": "text",
       "content": "1. gama",
       "fontSize": 60,
@@ -5491,8 +5718,9 @@
       "color": "#111111",
       "z": 60,
       "in": 330.26,
-      "out": 345.4,
+      "out": 335.64,
       "_syncT": 330.26,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5519,7 +5747,7 @@
       ]
     },
     {
-      "id": "t200",
+      "id": "t204",
       "type": "text",
       "content": "2. generación",
       "fontSize": 60,
@@ -5532,8 +5760,9 @@
       "color": "#111111",
       "z": 60,
       "in": 331.62,
-      "out": 345.4,
+      "out": 335.64,
       "_syncT": 331.62,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5544,7 +5773,7 @@
       }
     },
     {
-      "id": "t201",
+      "id": "t205",
       "type": "text",
       "content": "Ryzen 5 (2026)",
       "fontSize": 46,
@@ -5557,8 +5786,9 @@
       "color": "#111111",
       "z": 60,
       "in": 333.16,
-      "out": 345.4,
+      "out": 335.64,
       "_syncT": 333.16,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -5569,7 +5799,7 @@
       }
     },
     {
-      "id": "t202",
+      "id": "t206",
       "type": "text",
       "content": "Ryzen 7 (2022)",
       "fontSize": 46,
@@ -5582,8 +5812,9 @@
       "color": "#111111",
       "z": 60,
       "in": 333.16,
-      "out": 345.4,
+      "out": 335.64,
       "_syncT": 333.16,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -5594,7 +5825,7 @@
       }
     },
     {
-      "id": "ar203",
+      "id": "ar207",
       "type": "arrow",
       "a": {
         "x": 1360,
@@ -5619,7 +5850,7 @@
       }
     },
     {
-      "id": "t204",
+      "id": "t208",
       "type": "text",
       "content": "gana el nuevo",
       "fontSize": 34,
@@ -5632,8 +5863,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 333.54,
-      "out": 345.4,
+      "out": 335.64,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -5644,7 +5876,7 @@
       }
     },
     {
-      "id": "intel_205",
+      "id": "intel_209",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/intel.png",
@@ -5658,6 +5890,7 @@
       "in": 345.4,
       "out": 352.3,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "slide-in-top",
         "duration": 0.4
@@ -5684,7 +5917,7 @@
       ]
     },
     {
-      "id": "t206",
+      "id": "t210",
       "type": "text",
       "content": "K",
       "fontSize": 140,
@@ -5699,6 +5932,7 @@
       "in": 346.6,
       "out": 352.3,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -5709,7 +5943,7 @@
       }
     },
     {
-      "id": "t207",
+      "id": "t211",
       "type": "text",
       "content": "overclock",
       "fontSize": 46,
@@ -5724,6 +5958,7 @@
       "in": 347.2,
       "out": 352.3,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5734,7 +5969,7 @@
       }
     },
     {
-      "id": "t208",
+      "id": "t212",
       "type": "text",
       "content": "F",
       "fontSize": 140,
@@ -5749,6 +5984,7 @@
       "in": 349,
       "out": 352.3,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -5759,7 +5995,7 @@
       }
     },
     {
-      "id": "t209",
+      "id": "t213",
       "type": "text",
       "content": "sin gráficos",
       "fontSize": 46,
@@ -5774,6 +6010,7 @@
       "in": 349.6,
       "out": 352.3,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5784,7 +6021,7 @@
       }
     },
     {
-      "id": "monitor-black_210",
+      "id": "monitor-black_214",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/monitor-black.png",
@@ -5798,6 +6035,7 @@
       "in": 350.4,
       "out": 352.3,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5808,7 +6046,7 @@
       }
     },
     {
-      "id": "t211",
+      "id": "t215",
       "type": "text",
       "content": "U",
       "fontSize": 140,
@@ -5821,8 +6059,9 @@
       "color": "#111111",
       "z": 60,
       "in": 353.3,
-      "out": 356.72,
+      "out": 356.67,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -5833,7 +6072,7 @@
       }
     },
     {
-      "id": "t212",
+      "id": "t216",
       "type": "text",
       "content": "portátil ahorro",
       "fontSize": 46,
@@ -5846,8 +6085,9 @@
       "color": "#111111",
       "z": 60,
       "in": 352.82,
-      "out": 356.72,
+      "out": 356.67,
       "_syncT": 352.82,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5858,7 +6098,7 @@
       }
     },
     {
-      "id": "battery_213",
+      "id": "battery_217",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/battery.png",
@@ -5870,8 +6110,9 @@
       },
       "z": 30,
       "in": 354.1,
-      "out": 356.72,
+      "out": 356.67,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5882,7 +6123,7 @@
       }
     },
     {
-      "id": "t214",
+      "id": "t218",
       "type": "text",
       "content": "H",
       "fontSize": 140,
@@ -5895,8 +6136,9 @@
       "color": "#111111",
       "z": 60,
       "in": 355.7,
-      "out": 356.72,
+      "out": 356.67,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -5907,7 +6149,7 @@
       }
     },
     {
-      "id": "t215",
+      "id": "t219",
       "type": "text",
       "content": "portátil potente",
       "fontSize": 46,
@@ -5920,8 +6162,9 @@
       "color": "#111111",
       "z": 60,
       "in": 352.82,
-      "out": 356.72,
+      "out": 356.67,
       "_syncT": 352.82,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5932,7 +6175,7 @@
       }
     },
     {
-      "id": "flame_216",
+      "id": "flame_220",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/flame.png",
@@ -5944,8 +6187,9 @@
       },
       "z": 30,
       "in": 356.5,
-      "out": 356.72,
+      "out": 356.67,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5956,7 +6200,7 @@
       }
     },
     {
-      "id": "amd_217",
+      "id": "amd_221",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/amd.png",
@@ -5970,6 +6214,7 @@
       "in": 356.72,
       "out": 362.46,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "slide-in-top",
         "duration": 0.4
@@ -5996,7 +6241,7 @@
       ]
     },
     {
-      "id": "t218",
+      "id": "t222",
       "type": "text",
       "content": "X",
       "fontSize": 140,
@@ -6011,6 +6256,7 @@
       "in": 357.92,
       "out": 362.46,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6021,7 +6267,7 @@
       }
     },
     {
-      "id": "t219",
+      "id": "t223",
       "type": "text",
       "content": "más rápido",
       "fontSize": 46,
@@ -6036,6 +6282,7 @@
       "in": 359.22,
       "out": 362.46,
       "_syncT": 359.22,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -6046,7 +6293,7 @@
       }
     },
     {
-      "id": "t220",
+      "id": "t224",
       "type": "text",
       "content": "G",
       "fontSize": 140,
@@ -6061,6 +6308,7 @@
       "in": 360.32,
       "out": 362.46,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6071,7 +6319,7 @@
       }
     },
     {
-      "id": "t221",
+      "id": "t225",
       "type": "text",
       "content": "con gráficos",
       "fontSize": 46,
@@ -6086,6 +6334,7 @@
       "in": 360.92,
       "out": 362.46,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -6096,7 +6345,7 @@
       }
     },
     {
-      "id": "t222",
+      "id": "t226",
       "type": "text",
       "content": "X3D",
       "fontSize": 140,
@@ -6109,8 +6358,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 362.98,
-      "out": 369.3,
+      "out": 369.25,
       "_syncT": 362.98,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6137,7 +6387,7 @@
       ]
     },
     {
-      "id": "t223",
+      "id": "t227",
       "type": "text",
       "content": "memoria apilada",
       "fontSize": 60,
@@ -6150,8 +6400,9 @@
       "color": "#111111",
       "z": 60,
       "in": 364.52,
-      "out": 369.3,
+      "out": 369.25,
       "_syncT": 364.52,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -6162,7 +6413,7 @@
       }
     },
     {
-      "id": "gpu-card_224",
+      "id": "gpu-card_228",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/gpu-card.png",
@@ -6174,8 +6425,9 @@
       },
       "z": 30,
       "in": 366.46,
-      "out": 369.3,
+      "out": 369.25,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6186,7 +6438,7 @@
       }
     },
     {
-      "id": "t225",
+      "id": "t229",
       "type": "text",
       "content": "el rey del gaming",
       "fontSize": 60,
@@ -6199,8 +6451,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 367.9,
-      "out": 369.3,
+      "out": 369.25,
       "_syncT": 367.9,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6211,7 +6464,7 @@
       }
     },
     {
-      "id": "euro-coin_226",
+      "id": "euro-coin_230",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/euro-coin.png",
@@ -6223,8 +6476,9 @@
       },
       "z": 30,
       "in": 369.3,
-      "out": 381.1,
+      "out": 376.3,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6251,7 +6505,7 @@
       ]
     },
     {
-      "id": "t227",
+      "id": "t231",
       "type": "text",
       "content": "+200 €",
       "fontSize": 140,
@@ -6264,8 +6518,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 370.9,
-      "out": 381.1,
+      "out": 376.3,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6276,7 +6531,7 @@
       }
     },
     {
-      "id": "t228",
+      "id": "t232",
       "type": "text",
       "content": "por una letra",
       "fontSize": 46,
@@ -6289,8 +6544,9 @@
       "color": "#111111",
       "z": 60,
       "in": 372.9,
-      "out": 381.1,
+      "out": 376.3,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -6301,7 +6557,7 @@
       }
     },
     {
-      "id": "t229",
+      "id": "t233",
       "type": "text",
       "content": "que igual no usas",
       "fontSize": 46,
@@ -6314,8 +6570,9 @@
       "color": "#111111",
       "z": 60,
       "in": 379.26,
-      "out": 381.1,
+      "out": 376.3,
       "_syncT": 379.26,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -6326,7 +6583,7 @@
       }
     },
     {
-      "id": "cpu-bare-top_230",
+      "id": "cpu-bare-top_234",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-bare-top.png",
@@ -6340,6 +6597,7 @@
       "in": 381.1,
       "out": 386.12,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6350,7 +6608,7 @@
       }
     },
     {
-      "id": "gpu-card_231",
+      "id": "gpu-card_235",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/gpu-card.png",
@@ -6364,6 +6622,7 @@
       "in": 381.7,
       "out": 386.12,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6374,7 +6633,7 @@
       }
     },
     {
-      "id": "t232",
+      "id": "t236",
       "type": "text",
       "content": "con gráficos",
       "fontSize": 46,
@@ -6389,6 +6648,7 @@
       "in": 382.1,
       "out": 386.12,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -6399,7 +6659,7 @@
       }
     },
     {
-      "id": "cpu-bare-pins_233",
+      "id": "cpu-bare-pins_237",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-bare-pins.png",
@@ -6413,6 +6673,7 @@
       "in": 384.1,
       "out": 386.12,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6423,7 +6684,7 @@
       }
     },
     {
-      "id": "cross_234",
+      "id": "cross_238",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cross.png",
@@ -6437,6 +6698,7 @@
       "in": 384.7,
       "out": 386.12,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6447,7 +6709,7 @@
       }
     },
     {
-      "id": "t235",
+      "id": "t239",
       "type": "text",
       "content": "sin gráficos",
       "fontSize": 46,
@@ -6462,6 +6724,7 @@
       "in": 385.1,
       "out": 386.12,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -6472,7 +6735,7 @@
       }
     },
     {
-      "id": "monitor-black_236",
+      "id": "monitor-black_240",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/monitor-black.png",
@@ -6484,8 +6747,9 @@
       },
       "z": 30,
       "in": 386.12,
-      "out": 392.46,
+      "out": 392.41,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6496,7 +6760,7 @@
       }
     },
     {
-      "id": "t237",
+      "id": "t241",
       "type": "text",
       "content": "NO SIGNAL",
       "fontSize": 34,
@@ -6509,8 +6773,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 385.54,
-      "out": 392.46,
+      "out": 392.41,
       "_syncT": 385.54,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6521,7 +6786,7 @@
       }
     },
     {
-      "id": "sweating_238",
+      "id": "sweating_242",
       "type": "image",
       "kind": "meme",
       "src": "assets/icons/sweating.png",
@@ -6535,6 +6800,7 @@
       "in": 390.32,
       "out": 392.12,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.25
@@ -6545,7 +6811,7 @@
       }
     },
     {
-      "id": "t239",
+      "id": "t243",
       "type": "text",
       "content": "Intel ...F",
       "fontSize": 60,
@@ -6558,8 +6824,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 392.54,
-      "out": 403.74,
+      "out": 398.46,
       "_syncT": 392.54,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6586,7 +6853,7 @@
       ]
     },
     {
-      "id": "t240",
+      "id": "t244",
       "type": "text",
       "content": "Ryzen ...G",
       "fontSize": 60,
@@ -6599,8 +6866,9 @@
       "color": "#111111",
       "z": 60,
       "in": 395.24,
-      "out": 403.74,
+      "out": 398.46,
       "_syncT": 395.24,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6611,7 +6879,7 @@
       }
     },
     {
-      "id": "t241",
+      "id": "t245",
       "type": "text",
       "content": "para ofimática, sobra",
       "fontSize": 34,
@@ -6624,8 +6892,9 @@
       "color": "#111111",
       "z": 60,
       "in": 398.02,
-      "out": 403.74,
+      "out": 398.46,
       "_syncT": 398.02,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -6636,7 +6905,7 @@
       }
     },
     {
-      "id": "question_242",
+      "id": "question_246",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/question.png",
@@ -6650,6 +6919,7 @@
       "in": 403.74,
       "out": 405.74,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6660,7 +6930,7 @@
       }
     },
     {
-      "id": "arm_243",
+      "id": "arm_247",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/arm.png",
@@ -6672,8 +6942,9 @@
       },
       "z": 30,
       "in": 406.14,
-      "out": 412.64,
+      "out": 410.74,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -6700,7 +6971,7 @@
       ]
     },
     {
-      "id": "phone_244",
+      "id": "phone_248",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/phone.png",
@@ -6712,8 +6983,9 @@
       },
       "z": 30,
       "in": 407.74,
-      "out": 412.64,
+      "out": 410.74,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6724,7 +6996,7 @@
       }
     },
     {
-      "id": "t245",
+      "id": "t249",
       "type": "text",
       "content": "la del móvil",
       "fontSize": 34,
@@ -6737,8 +7009,9 @@
       "color": "#111111",
       "z": 60,
       "in": 408.04,
-      "out": 412.64,
+      "out": 410.74,
       "_syncT": 408.04,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -6749,7 +7022,7 @@
       }
     },
     {
-      "id": "apple_246",
+      "id": "apple_250",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/apple.png",
@@ -6763,6 +7036,7 @@
       "in": 412.64,
       "out": 417.54,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "slide-in-left",
         "duration": 0.4
@@ -6789,7 +7063,7 @@
       ]
     },
     {
-      "id": "laptop_247",
+      "id": "laptop_251",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/laptop.png",
@@ -6803,6 +7077,7 @@
       "in": 414.64,
       "out": 417.54,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6813,7 +7088,7 @@
       }
     },
     {
-      "id": "mind-blown_248",
+      "id": "mind-blown_252",
       "type": "image",
       "kind": "meme",
       "src": "assets/icons/mind-blown.png",
@@ -6827,6 +7102,7 @@
       "in": 416.24,
       "out": 417.49,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.25
@@ -6837,7 +7113,7 @@
       }
     },
     {
-      "id": "t249",
+      "id": "t253",
       "type": "text",
       "content": "misma potencia",
       "fontSize": 46,
@@ -6850,8 +7126,9 @@
       "color": "#111111",
       "z": 60,
       "in": 417.54,
-      "out": 424.32,
+      "out": 424.04,
       "_syncT": 417.54,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -6878,7 +7155,7 @@
       ]
     },
     {
-      "id": "t250",
+      "id": "t254",
       "type": "text",
       "content": "mitad consumo",
       "fontSize": 46,
@@ -6891,8 +7168,9 @@
       "color": "#111111",
       "z": 60,
       "in": 419.12,
-      "out": 424.32,
+      "out": 424.04,
       "_syncT": 419.12,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -6903,7 +7181,7 @@
       }
     },
     {
-      "id": "leaf_251",
+      "id": "leaf_255",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/leaf.png",
@@ -6915,8 +7193,9 @@
       },
       "z": 30,
       "in": 419.14,
-      "out": 424.32,
+      "out": 424.04,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6927,7 +7206,7 @@
       }
     },
     {
-      "id": "t252",
+      "id": "t256",
       "type": "text",
       "content": "sin ventilador",
       "fontSize": 46,
@@ -6940,8 +7219,9 @@
       "color": "#111111",
       "z": 60,
       "in": 420.56,
-      "out": 424.32,
+      "out": 424.04,
       "_syncT": 420.56,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -6952,7 +7232,7 @@
       }
     },
     {
-      "id": "battery_253",
+      "id": "battery_257",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/battery.png",
@@ -6964,8 +7244,9 @@
       },
       "z": 30,
       "in": 421.74,
-      "out": 424.32,
+      "out": 424.04,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6976,7 +7257,7 @@
       }
     },
     {
-      "id": "t254",
+      "id": "t258",
       "type": "text",
       "content": "todo el día",
       "fontSize": 60,
@@ -6989,8 +7270,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 422.94,
-      "out": 424.32,
+      "out": 424.04,
       "_syncT": 422.94,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -7001,7 +7283,7 @@
       }
     },
     {
-      "id": "qualcomm_255",
+      "id": "qualcomm_259",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/qualcomm.png",
@@ -7013,8 +7295,9 @@
       },
       "z": 30,
       "in": 424.32,
-      "out": 437.58,
+      "out": 431.82,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "slide-in-left",
         "duration": 0.4
@@ -7041,7 +7324,7 @@
       ]
     },
     {
-      "id": "t256",
+      "id": "t260",
       "type": "text",
       "content": "Snapdragon",
       "fontSize": 46,
@@ -7054,8 +7337,9 @@
       "color": "#111111",
       "z": 60,
       "in": 426.86,
-      "out": 437.58,
+      "out": 431.82,
       "_syncT": 426.86,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -7066,7 +7350,7 @@
       }
     },
     {
-      "id": "warning_257",
+      "id": "warning_261",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/warning.png",
@@ -7078,8 +7362,9 @@
       },
       "z": 30,
       "in": 428.32,
-      "out": 437.58,
+      "out": 431.82,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -7090,7 +7375,7 @@
       }
     },
     {
-      "id": "t258",
+      "id": "t262",
       "type": "text",
       "content": "no todo funciona igual",
       "fontSize": 46,
@@ -7103,8 +7388,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 429.78,
-      "out": 437.58,
+      "out": 431.82,
       "_syncT": 429.78,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -7115,7 +7401,7 @@
       }
     },
     {
-      "id": "monitor-black_259",
+      "id": "monitor-black_263",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/monitor-black.png",
@@ -7127,8 +7413,9 @@
       },
       "z": 30,
       "in": 437.58,
-      "out": 446.46,
+      "out": 444.58,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -7139,7 +7426,7 @@
       }
     },
     {
-      "id": "t260",
+      "id": "t264",
       "type": "text",
       "content": "navegar · correo · series",
       "fontSize": 46,
@@ -7152,8 +7439,9 @@
       "color": "#111111",
       "z": 60,
       "in": 438.18,
-      "out": 446.46,
+      "out": 444.58,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -7164,7 +7452,7 @@
       }
     },
     {
-      "id": "t261",
+      "id": "t265",
       "type": "text",
       "content": "Core Ultra 5",
       "fontSize": 60,
@@ -7177,8 +7465,9 @@
       "color": "#111111",
       "z": 60,
       "in": 440.96,
-      "out": 446.46,
+      "out": 444.58,
       "_syncT": 440.96,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -7189,7 +7478,7 @@
       }
     },
     {
-      "id": "t262",
+      "id": "t266",
       "type": "text",
       "content": "Ryzen 5",
       "fontSize": 60,
@@ -7202,8 +7491,9 @@
       "color": "#111111",
       "z": 60,
       "in": 442.34,
-      "out": 446.46,
+      "out": 444.58,
       "_syncT": 442.34,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -7214,7 +7504,7 @@
       }
     },
     {
-      "id": "t263",
+      "id": "t267",
       "type": "text",
       "content": "te sobra",
       "fontSize": 34,
@@ -7227,8 +7517,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 443.1,
-      "out": 446.46,
+      "out": 444.58,
       "_syncT": 443.1,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -7239,7 +7530,7 @@
       }
     },
     {
-      "id": "gpu-card_264",
+      "id": "gpu-card_268",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/gpu-card.png",
@@ -7251,8 +7542,9 @@
       },
       "z": 30,
       "in": 446.46,
-      "out": 455.92,
+      "out": 453.46,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -7279,7 +7571,7 @@
       ]
     },
     {
-      "id": "t265",
+      "id": "t269",
       "type": "text",
       "content": "X3D",
       "fontSize": 60,
@@ -7292,8 +7584,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 448.66,
-      "out": 455.92,
+      "out": 453.46,
       "_syncT": 448.66,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -7304,7 +7597,7 @@
       }
     },
     {
-      "id": "cpu-bare-top_266",
+      "id": "cpu-bare-top_270",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-bare-top.png",
@@ -7316,8 +7609,9 @@
       },
       "z": 30,
       "in": 449.46,
-      "out": 455.92,
+      "out": 453.46,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -7328,7 +7622,7 @@
       }
     },
     {
-      "id": "ar267",
+      "id": "ar271",
       "type": "arrow",
       "a": {
         "x": 1470,
@@ -7353,7 +7647,7 @@
       }
     },
     {
-      "id": "t268",
+      "id": "t272",
       "type": "text",
       "content": "más en gráfica",
       "fontSize": 34,
@@ -7366,8 +7660,9 @@
       "color": "#111111",
       "z": 60,
       "in": 449.96,
-      "out": 455.92,
+      "out": 453.46,
       "_syncT": 449.96,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -7378,7 +7673,7 @@
       }
     },
     {
-      "id": "cook_269",
+      "id": "cook_273",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -7392,6 +7687,7 @@
       "in": 455.92,
       "out": 463.42,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -7414,11 +7710,18 @@
           "cy": 470,
           "w": 300,
           "h": 300
+        },
+        {
+          "t": 462.42,
+          "cx": 960,
+          "cy": 500,
+          "w": 300,
+          "h": 300
         }
       ]
     },
     {
-      "id": "cook_270",
+      "id": "cook_274",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -7430,8 +7733,9 @@
       },
       "z": 30,
       "in": 456.82,
-      "out": 463.42,
+      "out": 462.42,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -7442,7 +7746,7 @@
       }
     },
     {
-      "id": "t271",
+      "id": "t275",
       "type": "text",
       "content": "aquí SÍ",
       "fontSize": 34,
@@ -7455,8 +7759,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 457.94,
-      "out": 463.42,
+      "out": 462.42,
       "_syncT": 457.94,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -7467,7 +7772,7 @@
       }
     },
     {
-      "id": "t272",
+      "id": "t276",
       "type": "text",
       "content": "Ryzen 9 · Core Ultra 9",
       "fontSize": 46,
@@ -7480,8 +7785,9 @@
       "color": "#111111",
       "z": 60,
       "in": 460.4,
-      "out": 463.42,
+      "out": 462.42,
       "_syncT": 460.4,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -7492,7 +7798,7 @@
       }
     },
     {
-      "id": "laptop_273",
+      "id": "laptop_277",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/laptop.png",
@@ -7504,8 +7810,9 @@
       },
       "z": 30,
       "in": 463.42,
-      "out": 471.66,
+      "out": 469.92,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "slide-in-left",
         "duration": 0.4
@@ -7532,7 +7839,7 @@
       ]
     },
     {
-      "id": "battery_274",
+      "id": "battery_278",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/battery.png",
@@ -7544,8 +7851,9 @@
       },
       "z": 30,
       "in": 465.42,
-      "out": 471.66,
+      "out": 469.92,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -7556,7 +7864,7 @@
       }
     },
     {
-      "id": "t275",
+      "id": "t279",
       "type": "text",
       "content": "consumo",
       "fontSize": 60,
@@ -7569,8 +7877,9 @@
       "color": "#111111",
       "z": 60,
       "in": 466.1,
-      "out": 471.66,
+      "out": 469.92,
       "_syncT": 466.1,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -7581,7 +7890,7 @@
       }
     },
     {
-      "id": "t276",
+      "id": "t280",
       "type": "text",
       "content": "no potencia",
       "fontSize": 46,
@@ -7594,8 +7903,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 466.7,
-      "out": 471.66,
+      "out": 469.92,
       "_syncT": 466.7,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -7606,7 +7916,7 @@
       }
     },
     {
-      "id": "t277",
+      "id": "t281",
       "type": "text",
       "content": "1",
       "fontSize": 140,
@@ -7619,8 +7929,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 471.66,
-      "out": 478.7,
+      "out": 477.16,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -7647,7 +7958,7 @@
       ]
     },
     {
-      "id": "t278",
+      "id": "t282",
       "type": "text",
       "content": "comparar GHz entre generaciones",
       "fontSize": 60,
@@ -7660,8 +7971,9 @@
       "color": "#111111",
       "z": 60,
       "in": 474.92,
-      "out": 478.7,
+      "out": 477.16,
       "_syncT": 474.92,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -7672,7 +7984,7 @@
       }
     },
     {
-      "id": "cross_279",
+      "id": "cross_283",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cross.png",
@@ -7684,8 +7996,9 @@
       },
       "z": 30,
       "in": 475.26,
-      "out": 478.7,
+      "out": 477.16,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -7696,7 +8009,7 @@
       }
     },
     {
-      "id": "t280",
+      "id": "t284",
       "type": "text",
       "content": "2",
       "fontSize": 140,
@@ -7709,8 +8022,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 478.7,
-      "out": 484.62,
+      "out": 484.57,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -7737,7 +8051,7 @@
       ]
     },
     {
-      "id": "t281",
+      "id": "t285",
       "type": "text",
       "content": "CPU cara + gráfica mala",
       "fontSize": 60,
@@ -7750,8 +8064,9 @@
       "color": "#111111",
       "z": 60,
       "in": 480.3,
-      "out": 484.62,
+      "out": 484.57,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -7762,7 +8077,7 @@
       }
     },
     {
-      "id": "t282",
+      "id": "t286",
       "type": "text",
       "content": "al revés",
       "fontSize": 60,
@@ -7775,8 +8090,9 @@
       "color": "#111111",
       "z": 60,
       "in": 483.62,
-      "out": 484.62,
+      "out": 484.57,
       "_syncT": 483.62,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -7787,7 +8103,7 @@
       }
     },
     {
-      "id": "t283",
+      "id": "t287",
       "type": "text",
       "content": "3",
       "fontSize": 140,
@@ -7802,6 +8118,7 @@
       "in": 484.62,
       "out": 493.66,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -7828,7 +8145,7 @@
       ]
     },
     {
-      "id": "cpu-socket-open_284",
+      "id": "cpu-socket-open_288",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-socket-open.png",
@@ -7842,6 +8159,7 @@
       "in": 485.82,
       "out": 493.66,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "slide-in-left",
         "duration": 0.4
@@ -7852,7 +8170,7 @@
       }
     },
     {
-      "id": "t285",
+      "id": "t289",
       "type": "text",
       "content": "AM5",
       "fontSize": 46,
@@ -7867,6 +8185,7 @@
       "in": 487.62,
       "out": 493.66,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -7877,7 +8196,7 @@
       }
     },
     {
-      "id": "t286",
+      "id": "t290",
       "type": "text",
       "content": "LGA 1851",
       "fontSize": 46,
@@ -7892,6 +8211,7 @@
       "in": 488.82,
       "out": 493.66,
       "_syncT": null,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -7902,7 +8222,7 @@
       }
     },
     {
-      "id": "cross_287",
+      "id": "cross_291",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cross.png",
@@ -7916,6 +8236,7 @@
       "in": 490.02,
       "out": 493.66,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -7926,7 +8247,7 @@
       }
     },
     {
-      "id": "t288",
+      "id": "t292",
       "type": "text",
       "content": "no compatibles",
       "fontSize": 46,
@@ -7941,6 +8262,7 @@
       "in": 485.76,
       "out": 493.66,
       "_syncT": 485.76,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -7951,7 +8273,7 @@
       }
     },
     {
-      "id": "cpu-bare-top_289",
+      "id": "cpu-bare-top_293",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-bare-top.png",
@@ -7963,8 +8285,9 @@
       },
       "z": 30,
       "in": 493.66,
-      "out": 499.44,
+      "out": 499.39,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "fade-in",
         "duration": 0.4
@@ -7991,7 +8314,7 @@
       ]
     },
     {
-      "id": "t290",
+      "id": "t294",
       "type": "text",
       "content": "pisapapeles de 400 €",
       "fontSize": 34,
@@ -8004,8 +8327,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 497.36,
-      "out": 499.44,
+      "out": 499.39,
       "_syncT": 497.36,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -8016,7 +8340,7 @@
       }
     },
     {
-      "id": "money-burning_291",
+      "id": "money-burning_295",
       "type": "image",
       "kind": "meme",
       "src": "assets/icons/money-burning.png",
@@ -8030,6 +8354,7 @@
       "in": 498.06,
       "out": 499.39,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.25
@@ -8040,7 +8365,7 @@
       }
     },
     {
-      "id": "t292",
+      "id": "t296",
       "type": "text",
       "content": "gama",
       "fontSize": 60,
@@ -8053,8 +8378,9 @@
       "color": "#111111",
       "z": 60,
       "in": 502.72,
-      "out": 507.2,
+      "out": 505.94,
       "_syncT": 502.72,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -8081,7 +8407,7 @@
       ]
     },
     {
-      "id": "t293",
+      "id": "t297",
       "type": "text",
       "content": "generación",
       "fontSize": 60,
@@ -8094,8 +8420,9 @@
       "color": "#111111",
       "z": 60,
       "in": 503.52,
-      "out": 507.2,
+      "out": 505.94,
       "_syncT": 503.52,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -8106,7 +8433,7 @@
       }
     },
     {
-      "id": "t294",
+      "id": "t298",
       "type": "text",
       "content": "núcleos",
       "fontSize": 60,
@@ -8119,8 +8446,9 @@
       "color": "#111111",
       "z": 60,
       "in": 504.56,
-      "out": 507.2,
+      "out": 505.94,
       "_syncT": 504.56,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -8131,7 +8459,7 @@
       }
     },
     {
-      "id": "t295",
+      "id": "t299",
       "type": "text",
       "content": "letras",
       "fontSize": 60,
@@ -8144,8 +8472,9 @@
       "color": "#111111",
       "z": 60,
       "in": 505.32,
-      "out": 507.2,
+      "out": 505.94,
       "_syncT": 505.32,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -8156,7 +8485,7 @@
       }
     },
     {
-      "id": "t296",
+      "id": "t300",
       "type": "text",
       "content": "4 cosas",
       "fontSize": 34,
@@ -8169,8 +8498,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 506.2,
-      "out": 507.2,
+      "out": 505.94,
       "_syncT": 506.2,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -8181,7 +8511,7 @@
       }
     },
     {
-      "id": "t297",
+      "id": "t301",
       "type": "text",
       "content": "Ryzen 7 9800X3D",
       "fontSize": 60,
@@ -8194,8 +8524,9 @@
       "color": "#111111",
       "z": 60,
       "in": 508.34,
-      "out": 514.84,
+      "out": 514.2,
       "_syncT": 508.34,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -8222,19 +8553,19 @@
       ]
     },
     {
-      "id": "sh298",
+      "id": "sh302",
       "type": "shape",
       "kind": "underline",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 360,
-        "h": 240
+        "cx": 811.2,
+        "cy": 556,
+        "w": 290.4,
+        "h": 40
       },
       "color": "#E9A400",
       "z": 45,
       "in": 509.6,
-      "out": 514.84,
+      "out": 514.2,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -8243,22 +8574,22 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "_target": "t297"
+      "_target": "t301"
     },
     {
-      "id": "sh299",
+      "id": "sh303",
       "type": "shape",
       "kind": "underline",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 360,
-        "h": 240
+        "cx": 997.2,
+        "cy": 556,
+        "w": 120,
+        "h": 40
       },
       "color": "#2F9E44",
       "z": 45,
       "in": 510,
-      "out": 514.84,
+      "out": 514.2,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -8267,22 +8598,22 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "_target": "t297"
+      "_target": "t301"
     },
     {
-      "id": "sh300",
+      "id": "sh304",
       "type": "shape",
       "kind": "underline",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 360,
-        "h": 240
+        "cx": 1071.6,
+        "cy": 556,
+        "w": 141.6,
+        "h": 40
       },
       "color": "#1098AD",
       "z": 45,
       "in": 510.4,
-      "out": 514.84,
+      "out": 514.2,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -8291,22 +8622,22 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "_target": "t297"
+      "_target": "t301"
     },
     {
-      "id": "sh301",
+      "id": "sh305",
       "type": "shape",
       "kind": "underline",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 360,
-        "h": 240
+        "cx": 1183.2,
+        "cy": 556,
+        "w": 141.6,
+        "h": 40
       },
       "color": "#C2255C",
       "z": 45,
       "in": 510.8,
-      "out": 514.84,
+      "out": 514.2,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -8315,10 +8646,10 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "_target": "t297"
+      "_target": "t301"
     },
     {
-      "id": "check_302",
+      "id": "check_306",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/check.png",
@@ -8330,8 +8661,9 @@
       },
       "z": 30,
       "in": 512.2,
-      "out": 514.84,
+      "out": 514.2,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -8342,7 +8674,7 @@
       }
     },
     {
-      "id": "euro-coin_303",
+      "id": "euro-coin_307",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/euro-coin.png",
@@ -8354,8 +8686,9 @@
       },
       "z": 30,
       "in": 514.84,
-      "out": 518.58,
+      "out": 518.53,
       "auto": true,
+      "_keep": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -8382,7 +8715,7 @@
       ]
     },
     {
-      "id": "t304",
+      "id": "t308",
       "type": "text",
       "content": "¿lo necesitas?",
       "fontSize": 34,
@@ -8395,8 +8728,9 @@
       "color": "#111111",
       "z": 60,
       "in": 515.94,
-      "out": 518.58,
+      "out": 518.53,
       "_syncT": 515.94,
+      "_keep": false,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -8407,7 +8741,7 @@
       }
     },
     {
-      "id": "t305",
+      "id": "t309",
       "type": "text",
       "content": "normalmente NO",
       "fontSize": 140,
@@ -8420,8 +8754,9 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 517.2,
-      "out": 518.58,
+      "out": 518.53,
       "_syncT": 517.2,
+      "_keep": false,
       "enter": {
         "kind": "stamp",
         "duration": 0.3

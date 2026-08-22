@@ -16,7 +16,7 @@ const cleanWords = body.replace(/\s+/g, " ").trim().split(" ").filter(Boolean);
 const words = JSON.parse(fs.readFileSync(path.join(dir, "words.json"), "utf8"));
 const dur = Math.max(...words.map(w => w.end)) + 0.6;
 const assets = fs.existsSync(path.join(dir, "assets.json")) ? JSON.parse(fs.readFileSync(path.join(dir, "assets.json"), "utf8")) : {};
-const assetFile = (id) => { const f = assets[id]?.file; if (f && fs.existsSync(path.join("public", f))) return f; for (const e of ["png", "jpg", "svg"]) { const g = `assets/icons/${id}.${e}`; if (fs.existsSync(path.join("public", g))) return g; } return null; };
+const assetFile = (id) => { const f = assets[id]?.file; if (f && fs.existsSync(path.join("public", f))) return f; for (const e of ["png", "jpg", "svg"]) { const g = `assets/icons/${id}.${e}`; if (fs.existsSync(path.join("public", g))) return g; } const lib = `assets/library/${id}.png`; if (fs.existsSync(path.join("public", lib))) return lib; return null; }; // ← cualquier doodle de la librería versionada sirve directo (coste 0)
 const nz = (s) => (s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9ñ]/g, "");
 const wn = words.map(w => nz(w.word));
 
@@ -32,6 +32,7 @@ const A = {
   b2: [960, 660],
   t1: [1400, 360], t2: [1400, 490], t3: [1400, 620], t4: [1400, 740], t5: [1400, 300], t5: [1400, 390], t6: [1400, 840], t1b: [1400, 430],
   g1: [400, 420], g2: [800, 420], g3: [1200, 420], g4: [1600, 420], g5: [400, 730], g6: [800, 730], g7: [1200, 730], g8: [1600, 730],
+  hero: [960, 540], g11: [250, 380], g12: [250, 610], g13: [250, 840],
   lg1: [400, 560], lg2: [800, 560], lg3: [1200, 560], lg4: [1600, 560], lg5: [400, 880], lg6: [800, 880], lg7: [1200, 880], lg8: [1600, 880],
 };
 const anchorXY = (a) => A[a] || A.center;
@@ -97,18 +98,18 @@ if (PROFILE.watermark && fs.existsSync(path.join("public", PROFILE.watermark)))
   elements.push({ id: "watermark", type: "watermark", src: PROFILE.watermark, box: { cx: 1810, cy: 1000, w: 150, h: 150 }, opacity: PROFILE.watermarkOpacity || 0.5, z: 5, in: 0, out: dur, enter: { kind: "fade-in", duration: 0.5 } });
 
 const warns = []; let auto = 0; const live = {}; // anchor/id → element (para OUT/CLEAR)
-const closeAll = (t) => { for (const k in live) { live[k].out = Math.min(live[k].out, t); delete live[k]; } };
+const closeAll = (t, force) => { for (const k in live) { if (!force && live[k]._keep) continue; live[k].out = Math.min(live[k].out, t); delete live[k]; } }; // KEEP sobrevive al fin de beat; solo CLEAR/OUT lo cierra
 const parseTargets = (s) => [...s.matchAll(/([a-z0-9]+)\s*(?:→|->)\s*([a-z0-9]+)/gi)].map(m => [m[1], m[2]]);
 
 for (const b of beats) {
   const clamp = (off) => Math.min(b.t1 - 0.05, Math.max(b.t0, b.t0 + off));
   let liveByAnchor = {}, lastBig = null; b._els = [];
   for (const ln of b.lines) {
-    const m = ln.match(/^([+-])(\d[\d.]*)\s+([A-Z]{3})\s*(.*)$/);
+    const m = ln.match(/^([+-])(\d[\d.]*)\s+([A-Z]{3,})\s*(.*)$/);
     if (!m) continue;
     const [, , offs, type, rest0] = m; const t = +clamp(parseFloat(offs)).toFixed(2); const rest = rest0.trim();
     if (type === "OUT") { const id = rest.split(/\s+/)[0]; if (live[id]) { live[id].out = t; delete live[id]; } continue; }
-    if (type === "CLEAR" || /^CLEAR/i.test(rest)) { closeAll(t); continue; }
+    if (type === "CLEAR" || /^CLEAR/i.test(rest)) { closeAll(t, true); continue; }
     // TXT "literal" @anchor entrada size [color]
     if (type === "TXT") {
       const q = rest.match(/"([^"]*)"/); const content = q ? q[1] : rest.split("@")[0].trim();
@@ -123,7 +124,8 @@ for (const b of beats) {
       const fs = fitFont(content, FS[sizeK] || 48);           // auto-ajuste: nunca se corta
       const bw = Math.min(1760, Math.round(content.length * fs * 0.62) + 40);
       cx = Math.max(bw / 2 + 16, Math.min(W - bw / 2 - 16, cx)); // clamp: el texto nunca se sale del marco
-      const el = { id: "t" + auto++, type: "text", content, fontSize: fs, box: { cx, cy, w: bw, h: 90 }, color: colK ? (COL[colK] || RED) : STROKE, z: 60, in: +inT.toFixed(2), out: b.t1, _syncT: usedWord ? wordT : null, enter: enterOf(ent || "fade"), exit: { kind: "fade-out", duration: 0.25 } };
+      const keep = /\bKEEP\b/.test(rest);
+      const el = { id: "t" + auto++, type: "text", content, fontSize: fs, box: { cx, cy, w: bw, h: 90 }, color: colK ? (COL[colK] || RED) : STROKE, z: 60, in: +inT.toFixed(2), out: keep ? dur : b.t1, _syncT: usedWord ? wordT : null, _keep: keep, enter: enterOf(ent || "fade"), exit: { kind: "fade-out", duration: 0.25 } };
       elements.push(el); live["txt_" + anc + "_" + el.id] = el; liveByAnchor[anc] = el; b._els.push(el); if (sizeK === "stat" || sizeK === "lg") lastBig = el;
       continue;
     }
@@ -134,9 +136,10 @@ for (const b of beats) {
       const src = assetFile(id);
       if (!src) { warns.push(`asset ausente: "${id}" (beat ${b.num})`); continue; }
       const [cx, cy] = anchorXY(anc);
-      const big = anc === "main" || anc === "center";
+      const big = anc === "main" || anc === "center" || anc === "hero";
       const sz = type === "GIF" ? 360 : (big ? 460 : (/^g\d/.test(anc) ? 200 : 300)); // iconos de rejilla más pequeños
-      const el = { id: id + "_" + auto++, type: "image", kind: type === "GIF" ? "meme" : "vector", src, box: { cx, cy, w: sz, h: sz }, z: type === "GIF" ? 55 : 30, in: t, out: type === "GIF" ? Math.min(b.t1, t + 3) : b.t1, auto: true, enter: enterOf(ent || "pop"), exit: { kind: "fade-out", duration: 0.3 } };
+      const keep = /\bKEEP\b/.test(rest);
+      const el = { id: id + "_" + auto++, type: "image", kind: type === "GIF" ? "meme" : "vector", src, box: { cx, cy, w: sz, h: sz }, z: type === "GIF" ? 55 : 30, in: t, out: type === "GIF" ? Math.min(b.t1, t + 3) : (keep ? dur : b.t1), auto: true, _keep: keep, enter: enterOf(ent || "pop"), exit: { kind: "fade-out", duration: 0.3 } };
       elements.push(el); live[id] = el; liveByAnchor[anc] = el; b._els.push(el); if (big) lastBig = el;
       continue;
     }
@@ -148,13 +151,25 @@ for (const b of beats) {
     }
     if (type === "SHP") {
       const kind = rest.split(/\s+/)[0];
-      const isWord = /(?:→|->)\s*"/.test(rest);                       // →"palabra" apunta a un texto grande
+      const isWord = /(?:→|->)\s*"/.test(rest);                       // →"palabra" apunta a un texto
+      const wordM = isWord ? (rest.match(/(?:→|->)\s*"([^"]*)"/) || [])[1] : null;
       const tgt = (rest.match(/(?:→|->)\s*(?:"[^"]*"|([a-z0-9]+))/i) || [])[1] || "main";
-      const tgtEl = isWord ? lastBig : (liveByAnchor[tgt] || lastBig); // objetivo vivo → la forma no lo sobrevive
-      const [cx, cy] = tgtEl ? [tgtEl.box.cx, tgtEl.box.cy] : anchorXY(tgt);
+      // objetivo por PALABRA → busca un texto VIVO que la contenga (incluye persistentes KEEP) y coloca la forma bajo esa parte concreta
+      let tgtEl = null, cx, cy;
+      if (isWord) {
+        tgtEl = (wordM && Object.values(live).find(e => e.type === "text" && e.content && e.content.toLowerCase().includes(wordM.toLowerCase()))) || lastBig;
+        if (tgtEl && wordM) {
+          const s = tgtEl.content, fsz = tgtEl.fontSize || 60, cw = fsz * 0.62, idx = s.toLowerCase().indexOf(wordM.toLowerCase());
+          const startX = tgtEl.box.cx - (s.length * cw) / 2;
+          cx = idx >= 0 ? startX + (idx + wordM.length / 2) * cw : tgtEl.box.cx;
+          cy = tgtEl.box.cy + fsz * 0.6;                              // justo debajo de la palabra
+        } else if (tgtEl) { cx = tgtEl.box.cx; cy = tgtEl.box.cy + 40; }
+      } else { tgtEl = liveByAnchor[tgt] || lastBig; if (tgtEl) { cx = tgtEl.box.cx; cy = tgtEl.box.cy; } }
+      if (cx == null) { const p = anchorXY(tgt); cx = p[0]; cy = p[1]; }
       const colK = (rest.match(/\b(red|yellow|green|cyan|magenta)\b/) || [])[1];
       const map = { "circle-highlight": "circle-highlight", circle: "circle-highlight", "cross-out": "cross-out", cross: "cross-out", underline: "underline", box: "box", bracket: "bracket" };
-      const sh = { id: "sh" + auto++, type: "shape", kind: map[kind] || "circle-highlight", box: { cx, cy, w: 360, h: 240 }, color: colK ? (COL[colK] || RED) : RED, z: 45, in: t, out: b.t1, __t: tgtEl || null, enter: { kind: "draw", duration: 0.5 }, exit: { kind: "fade-out", duration: 0.2 } };
+      const uw = Math.max(120, (wordM ? wordM.length : 4) * ((tgtEl && tgtEl.fontSize) || 60) * 0.62 + 30);
+      const sh = { id: "sh" + auto++, type: "shape", kind: map[kind] || "circle-highlight", box: { cx, cy, w: kind === "underline" ? uw : 360, h: kind === "underline" ? 40 : 240 }, color: colK ? (COL[colK] || RED) : RED, z: 45, in: t, out: b.t1, __t: tgtEl || null, enter: { kind: "draw", duration: 0.5 }, exit: { kind: "fade-out", duration: 0.2 } };
       elements.push(sh); b._els.push(sh);
       continue;
     }

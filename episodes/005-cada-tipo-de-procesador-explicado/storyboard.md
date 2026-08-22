@@ -583,18 +583,20 @@ Narración: *"Esta es la parte que más te va a servir. Guárdala."*
 ### BEAT 44 · 06:04 · T1 · **beat clave, 20 s de vida**
 Narración: *"Coge cualquier procesador. Por ejemplo: Ryzen 7 9800X3D."*
 ```
-+0.0  TXT  "Ryzen 7 9800X3D"  @center  handwrite  lg
++0.0  ICO  computer-cpu-processor-chip-top-view  @hero  pop  KEEP
++0.2  TXT  "Ryzen 7 9800X3D"  @center  handwrite  lg  KEEP
 ```
-El modelo se queda centrado y grande. Los siguientes beats van descomponiéndolo
-con subrayados de colores bajo cada parte. **No se limpia hasta el beat 49.**
+El modelo se queda centrado y grande SOBRE un chip de CPU (relleno visual del tramo).
+KEEP mantiene chip+modelo vivos entre beats; los siguientes van descomponiéndolo
+con subrayados de colores bajo cada parte. **No se limpia hasta el beat 49 (CLEAR).**
 
 ### BEAT 45 · 06:09
 Narración: *"Ryzen 7 es la gama. Alta."*
 ```
 +0.0  SHP  underline  →"Ryzen 7"  draw  yellow
 +1.4  TXT  "la gama"  @t1         handwrite  md
++2.4  ICO  crown      @g11        pop
 +3.0  TXT  "alta"     @t1b        stamp  md  red
--5.0  OUT  t1, t1b                fade-out
 ```
 
 ### BEAT 46 · 06:15
@@ -602,8 +604,8 @@ Narración: *"El nueve del principio es la generación. Cuanto más alto, más m
 ```
 +0.0  SHP  underline  →"9"        draw  green
 +1.6  TXT  "generación" @t1       handwrite  md
++2.6  ICO  start-flag   @g12      pop
 +3.4  TXT  "más alto = más nuevo" @t2  handwrite  md
--5.5  OUT  t1, t2                 fade-out
 ```
 
 ### BEAT 47 · 06:22
@@ -611,7 +613,7 @@ Narración: *"Los números siguientes son la posición dentro de esa generación
 ```
 +0.0  SHP  underline  →"800"      draw  cyan
 +1.8  TXT  "posición"  @t1        handwrite  md
--4.0  OUT  t1                     fade-out
++2.6  ICO  speedometer-gauge-dial @g13  pop
 ```
 
 ### BEAT 48 · 06:27
@@ -619,7 +621,7 @@ Narración: *"Y las letras del final son el tipo."*
 ```
 +0.0  SHP  underline  →"X3D"      draw  magenta
 +1.6  TXT  "el tipo"   @t1        handwrite  md
--3.5  CLEAR
++4.0  CLEAR
 ```
 
 ### BEAT 49 · 06:32 · T1
