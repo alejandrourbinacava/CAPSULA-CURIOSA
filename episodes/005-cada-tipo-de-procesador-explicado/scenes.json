@@ -5583,7 +5583,48 @@
       }
     },
     {
-      "id": "t198",
+      "id": "computer-cpu-processor-chip-top-view_198",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/library/computer-cpu-processor-chip-top-view.png",
+      "box": {
+        "cx": 960,
+        "cy": 540,
+        "w": 460,
+        "h": 460
+      },
+      "z": 30,
+      "in": 316.26,
+      "out": 331.14,
+      "auto": true,
+      "_keep": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 316.26,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 317.56,
+          "cx": 960,
+          "cy": 540,
+          "w": 460,
+          "h": 460
+        }
+      ]
+    },
+    {
+      "id": "t199",
       "type": "text",
       "content": "Core Ultra 9 285K",
       "fontSize": 60,
@@ -5596,9 +5637,9 @@
       "color": "#111111",
       "z": 60,
       "in": 318.08,
-      "out": 323.26,
+      "out": 331.14,
       "_syncT": 318.08,
-      "_keep": false,
+      "_keep": true,
       "enter": {
         "kind": "handwrite",
         "duration": 0.6
@@ -5609,7 +5650,7 @@
       }
     },
     {
-      "id": "sh199",
+      "id": "sh200",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -5621,7 +5662,7 @@
       "color": "#E9A400",
       "z": 45,
       "in": 318.26,
-      "out": 323.26,
+      "out": 327.14,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -5630,10 +5671,10 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "_target": "t198"
+      "_target": "t199"
     },
     {
-      "id": "sh200",
+      "id": "sh201",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -5645,7 +5686,7 @@
       "color": "#2F9E44",
       "z": 45,
       "in": 319.26,
-      "out": 323.26,
+      "out": 327.14,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -5654,10 +5695,10 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "_target": "t198"
+      "_target": "t199"
     },
     {
-      "id": "sh201",
+      "id": "sh202",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -5669,7 +5710,7 @@
       "color": "#1098AD",
       "z": 45,
       "in": 320.26,
-      "out": 323.26,
+      "out": 327.14,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -5678,10 +5719,10 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "_target": "t198"
+      "_target": "t199"
     },
     {
-      "id": "sh202",
+      "id": "sh203",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -5693,7 +5734,7 @@
       "color": "#C2255C",
       "z": 45,
       "in": 321.26,
-      "out": 323.26,
+      "out": 327.14,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -5702,10 +5743,10 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "_target": "t198"
+      "_target": "t199"
     },
     {
-      "id": "t203",
+      "id": "t204",
       "type": "text",
       "content": "1. gama",
       "fontSize": 60,
@@ -5718,50 +5759,8 @@
       "color": "#111111",
       "z": 60,
       "in": 330.26,
-      "out": 335.64,
+      "out": 336.14,
       "_syncT": 330.26,
-      "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 330.26,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 90
-        },
-        {
-          "t": 331.06,
-          "cx": 450,
-          "cy": 470,
-          "w": 300,
-          "h": 90
-        }
-      ]
-    },
-    {
-      "id": "t204",
-      "type": "text",
-      "content": "2. generación",
-      "fontSize": 60,
-      "box": {
-        "cx": 960,
-        "cy": 470,
-        "w": 524,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 331.62,
-      "out": 335.64,
-      "_syncT": 331.62,
       "_keep": false,
       "enter": {
         "kind": "pop",
@@ -5775,6 +5774,32 @@
     {
       "id": "t205",
       "type": "text",
+      "content": "2. generación",
+      "fontSize": 60,
+      "box": {
+        "cx": 960,
+        "cy": 470,
+        "w": 524,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 331.62,
+      "out": 336.14,
+      "_syncT": 331.62,
+      "_keep": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "t206",
+      "type": "text",
       "content": "Ryzen 5 (2026)",
       "fontSize": 46,
       "box": {
@@ -5786,7 +5811,7 @@
       "color": "#111111",
       "z": 60,
       "in": 333.16,
-      "out": 335.64,
+      "out": 336.14,
       "_syncT": 333.16,
       "_keep": false,
       "enter": {
@@ -5799,7 +5824,7 @@
       }
     },
     {
-      "id": "t206",
+      "id": "t207",
       "type": "text",
       "content": "Ryzen 7 (2022)",
       "fontSize": 46,
@@ -5812,7 +5837,7 @@
       "color": "#111111",
       "z": 60,
       "in": 333.16,
-      "out": 335.64,
+      "out": 336.14,
       "_syncT": 333.16,
       "_keep": false,
       "enter": {
@@ -5825,7 +5850,7 @@
       }
     },
     {
-      "id": "ar207",
+      "id": "ar208",
       "type": "arrow",
       "a": {
         "x": 1360,
@@ -5839,7 +5864,7 @@
       "color": "#EE2B37",
       "z": 40,
       "in": 332.94,
-      "out": 345.4,
+      "out": 338.72,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -5850,7 +5875,7 @@
       }
     },
     {
-      "id": "t208",
+      "id": "t209",
       "type": "text",
       "content": "gana el nuevo",
       "fontSize": 34,
@@ -5863,7 +5888,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 333.54,
-      "out": 335.64,
+      "out": 336.14,
       "_syncT": null,
       "_keep": false,
       "enter": {
@@ -5876,7 +5901,125 @@
       }
     },
     {
-      "id": "intel_209",
+      "id": "t210",
+      "type": "text",
+      "content": "la generación pesa más",
+      "fontSize": 46,
+      "box": {
+        "cx": 560,
+        "cy": 360,
+        "w": 667,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 337.94,
+      "out": 345.35,
+      "_syncT": 337.94,
+      "_keep": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 337.94,
+          "cx": 960,
+          "cy": 500,
+          "w": 667,
+          "h": 90
+        },
+        {
+          "t": 338.74,
+          "cx": 560,
+          "cy": 360,
+          "w": 667,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "balance-scale-icon_211",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/library/balance-scale-icon.png",
+      "box": {
+        "cx": 560,
+        "cy": 680,
+        "w": 300,
+        "h": 300
+      },
+      "z": 30,
+      "in": 339.22,
+      "out": 345.35,
+      "auto": true,
+      "_keep": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t212",
+      "type": "text",
+      "content": "las letras confunden",
+      "fontSize": 46,
+      "box": {
+        "cx": 1360,
+        "cy": 360,
+        "w": 610,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 341.74,
+      "out": 345.35,
+      "_syncT": 341.74,
+      "_keep": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "confused-person-with-floating-math-equat_213",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/library/confused-person-with-floating-math-equat.png",
+      "box": {
+        "cx": 1360,
+        "cy": 680,
+        "w": 300,
+        "h": 300
+      },
+      "z": 30,
+      "in": 344.22,
+      "out": 345.35,
+      "auto": true,
+      "_keep": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "intel_214",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/intel.png",
@@ -5917,7 +6060,7 @@
       ]
     },
     {
-      "id": "t210",
+      "id": "t215",
       "type": "text",
       "content": "K",
       "fontSize": 140,
@@ -5943,7 +6086,7 @@
       }
     },
     {
-      "id": "t211",
+      "id": "t216",
       "type": "text",
       "content": "overclock",
       "fontSize": 46,
@@ -5969,7 +6112,7 @@
       }
     },
     {
-      "id": "t212",
+      "id": "t217",
       "type": "text",
       "content": "F",
       "fontSize": 140,
@@ -5995,7 +6138,7 @@
       }
     },
     {
-      "id": "t213",
+      "id": "t218",
       "type": "text",
       "content": "sin gráficos",
       "fontSize": 46,
@@ -6021,7 +6164,7 @@
       }
     },
     {
-      "id": "monitor-black_214",
+      "id": "monitor-black_219",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/monitor-black.png",
@@ -6046,7 +6189,7 @@
       }
     },
     {
-      "id": "t215",
+      "id": "t220",
       "type": "text",
       "content": "U",
       "fontSize": 140,
@@ -6072,7 +6215,7 @@
       }
     },
     {
-      "id": "t216",
+      "id": "t221",
       "type": "text",
       "content": "portátil ahorro",
       "fontSize": 46,
@@ -6098,7 +6241,7 @@
       }
     },
     {
-      "id": "battery_217",
+      "id": "battery_222",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/battery.png",
@@ -6123,7 +6266,7 @@
       }
     },
     {
-      "id": "t218",
+      "id": "t223",
       "type": "text",
       "content": "H",
       "fontSize": 140,
@@ -6149,7 +6292,7 @@
       }
     },
     {
-      "id": "t219",
+      "id": "t224",
       "type": "text",
       "content": "portátil potente",
       "fontSize": 46,
@@ -6175,7 +6318,7 @@
       }
     },
     {
-      "id": "flame_220",
+      "id": "flame_225",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/flame.png",
@@ -6200,7 +6343,7 @@
       }
     },
     {
-      "id": "amd_221",
+      "id": "amd_226",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/amd.png",
@@ -6241,7 +6384,7 @@
       ]
     },
     {
-      "id": "t222",
+      "id": "t227",
       "type": "text",
       "content": "X",
       "fontSize": 140,
@@ -6267,7 +6410,7 @@
       }
     },
     {
-      "id": "t223",
+      "id": "t228",
       "type": "text",
       "content": "más rápido",
       "fontSize": 46,
@@ -6293,7 +6436,7 @@
       }
     },
     {
-      "id": "t224",
+      "id": "t229",
       "type": "text",
       "content": "G",
       "fontSize": 140,
@@ -6319,7 +6462,7 @@
       }
     },
     {
-      "id": "t225",
+      "id": "t230",
       "type": "text",
       "content": "con gráficos",
       "fontSize": 46,
@@ -6345,7 +6488,7 @@
       }
     },
     {
-      "id": "t226",
+      "id": "t231",
       "type": "text",
       "content": "X3D",
       "fontSize": 140,
@@ -6387,7 +6530,7 @@
       ]
     },
     {
-      "id": "t227",
+      "id": "t232",
       "type": "text",
       "content": "memoria apilada",
       "fontSize": 60,
@@ -6413,7 +6556,7 @@
       }
     },
     {
-      "id": "gpu-card_228",
+      "id": "gpu-card_233",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/gpu-card.png",
@@ -6438,7 +6581,7 @@
       }
     },
     {
-      "id": "t229",
+      "id": "t234",
       "type": "text",
       "content": "el rey del gaming",
       "fontSize": 60,
@@ -6464,7 +6607,7 @@
       }
     },
     {
-      "id": "euro-coin_230",
+      "id": "euro-coin_235",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/euro-coin.png",
@@ -6505,7 +6648,7 @@
       ]
     },
     {
-      "id": "t231",
+      "id": "t236",
       "type": "text",
       "content": "+200 €",
       "fontSize": 140,
@@ -6531,7 +6674,7 @@
       }
     },
     {
-      "id": "t232",
+      "id": "t237",
       "type": "text",
       "content": "por una letra",
       "fontSize": 46,
@@ -6557,7 +6700,7 @@
       }
     },
     {
-      "id": "t233",
+      "id": "t238",
       "type": "text",
       "content": "que igual no usas",
       "fontSize": 46,
@@ -6583,7 +6726,7 @@
       }
     },
     {
-      "id": "cpu-bare-top_234",
+      "id": "cpu-bare-top_239",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-bare-top.png",
@@ -6608,7 +6751,7 @@
       }
     },
     {
-      "id": "gpu-card_235",
+      "id": "gpu-card_240",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/gpu-card.png",
@@ -6633,7 +6776,7 @@
       }
     },
     {
-      "id": "t236",
+      "id": "t241",
       "type": "text",
       "content": "con gráficos",
       "fontSize": 46,
@@ -6659,7 +6802,7 @@
       }
     },
     {
-      "id": "cpu-bare-pins_237",
+      "id": "cpu-bare-pins_242",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-bare-pins.png",
@@ -6684,7 +6827,7 @@
       }
     },
     {
-      "id": "cross_238",
+      "id": "cross_243",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cross.png",
@@ -6709,7 +6852,7 @@
       }
     },
     {
-      "id": "t239",
+      "id": "t244",
       "type": "text",
       "content": "sin gráficos",
       "fontSize": 46,
@@ -6735,7 +6878,7 @@
       }
     },
     {
-      "id": "monitor-black_240",
+      "id": "monitor-black_245",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/monitor-black.png",
@@ -6760,7 +6903,7 @@
       }
     },
     {
-      "id": "t241",
+      "id": "t246",
       "type": "text",
       "content": "NO SIGNAL",
       "fontSize": 34,
@@ -6786,7 +6929,7 @@
       }
     },
     {
-      "id": "sweating_242",
+      "id": "sweating_247",
       "type": "image",
       "kind": "meme",
       "src": "assets/icons/sweating.png",
@@ -6811,7 +6954,7 @@
       }
     },
     {
-      "id": "t243",
+      "id": "t248",
       "type": "text",
       "content": "Intel ...F",
       "fontSize": 60,
@@ -6853,7 +6996,7 @@
       ]
     },
     {
-      "id": "t244",
+      "id": "t249",
       "type": "text",
       "content": "Ryzen ...G",
       "fontSize": 60,
@@ -6879,7 +7022,7 @@
       }
     },
     {
-      "id": "t245",
+      "id": "t250",
       "type": "text",
       "content": "para ofimática, sobra",
       "fontSize": 34,
@@ -6905,7 +7048,7 @@
       }
     },
     {
-      "id": "question_246",
+      "id": "question_251",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/question.png",
@@ -6930,7 +7073,7 @@
       }
     },
     {
-      "id": "arm_247",
+      "id": "arm_252",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/arm.png",
@@ -6971,7 +7114,7 @@
       ]
     },
     {
-      "id": "phone_248",
+      "id": "phone_253",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/phone.png",
@@ -6996,7 +7139,7 @@
       }
     },
     {
-      "id": "t249",
+      "id": "t254",
       "type": "text",
       "content": "la del móvil",
       "fontSize": 34,
@@ -7022,7 +7165,7 @@
       }
     },
     {
-      "id": "apple_250",
+      "id": "apple_255",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/apple.png",
@@ -7063,7 +7206,7 @@
       ]
     },
     {
-      "id": "laptop_251",
+      "id": "laptop_256",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/laptop.png",
@@ -7088,7 +7231,7 @@
       }
     },
     {
-      "id": "mind-blown_252",
+      "id": "mind-blown_257",
       "type": "image",
       "kind": "meme",
       "src": "assets/icons/mind-blown.png",
@@ -7113,7 +7256,7 @@
       }
     },
     {
-      "id": "t253",
+      "id": "t258",
       "type": "text",
       "content": "misma potencia",
       "fontSize": 46,
@@ -7155,7 +7298,7 @@
       ]
     },
     {
-      "id": "t254",
+      "id": "t259",
       "type": "text",
       "content": "mitad consumo",
       "fontSize": 46,
@@ -7181,7 +7324,7 @@
       }
     },
     {
-      "id": "leaf_255",
+      "id": "leaf_260",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/leaf.png",
@@ -7206,7 +7349,7 @@
       }
     },
     {
-      "id": "t256",
+      "id": "t261",
       "type": "text",
       "content": "sin ventilador",
       "fontSize": 46,
@@ -7232,7 +7375,7 @@
       }
     },
     {
-      "id": "battery_257",
+      "id": "battery_262",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/battery.png",
@@ -7257,7 +7400,7 @@
       }
     },
     {
-      "id": "t258",
+      "id": "t263",
       "type": "text",
       "content": "todo el día",
       "fontSize": 60,
@@ -7283,7 +7426,7 @@
       }
     },
     {
-      "id": "qualcomm_259",
+      "id": "qualcomm_264",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/qualcomm.png",
@@ -7324,7 +7467,7 @@
       ]
     },
     {
-      "id": "t260",
+      "id": "t265",
       "type": "text",
       "content": "Snapdragon",
       "fontSize": 46,
@@ -7350,7 +7493,7 @@
       }
     },
     {
-      "id": "warning_261",
+      "id": "warning_266",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/warning.png",
@@ -7375,7 +7518,7 @@
       }
     },
     {
-      "id": "t262",
+      "id": "t267",
       "type": "text",
       "content": "no todo funciona igual",
       "fontSize": 46,
@@ -7401,7 +7544,7 @@
       }
     },
     {
-      "id": "monitor-black_263",
+      "id": "monitor-black_268",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/monitor-black.png",
@@ -7426,7 +7569,7 @@
       }
     },
     {
-      "id": "t264",
+      "id": "t269",
       "type": "text",
       "content": "navegar · correo · series",
       "fontSize": 46,
@@ -7452,7 +7595,7 @@
       }
     },
     {
-      "id": "t265",
+      "id": "t270",
       "type": "text",
       "content": "Core Ultra 5",
       "fontSize": 60,
@@ -7478,7 +7621,7 @@
       }
     },
     {
-      "id": "t266",
+      "id": "t271",
       "type": "text",
       "content": "Ryzen 5",
       "fontSize": 60,
@@ -7504,7 +7647,7 @@
       }
     },
     {
-      "id": "t267",
+      "id": "t272",
       "type": "text",
       "content": "te sobra",
       "fontSize": 34,
@@ -7530,7 +7673,7 @@
       }
     },
     {
-      "id": "gpu-card_268",
+      "id": "gpu-card_273",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/gpu-card.png",
@@ -7571,7 +7714,7 @@
       ]
     },
     {
-      "id": "t269",
+      "id": "t274",
       "type": "text",
       "content": "X3D",
       "fontSize": 60,
@@ -7597,7 +7740,7 @@
       }
     },
     {
-      "id": "cpu-bare-top_270",
+      "id": "cpu-bare-top_275",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-bare-top.png",
@@ -7622,7 +7765,7 @@
       }
     },
     {
-      "id": "ar271",
+      "id": "ar276",
       "type": "arrow",
       "a": {
         "x": 1470,
@@ -7647,7 +7790,7 @@
       }
     },
     {
-      "id": "t272",
+      "id": "t277",
       "type": "text",
       "content": "más en gráfica",
       "fontSize": 34,
@@ -7673,7 +7816,7 @@
       }
     },
     {
-      "id": "cook_273",
+      "id": "cook_278",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -7721,7 +7864,7 @@
       ]
     },
     {
-      "id": "cook_274",
+      "id": "cook_279",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cook.png",
@@ -7746,7 +7889,7 @@
       }
     },
     {
-      "id": "t275",
+      "id": "t280",
       "type": "text",
       "content": "aquí SÍ",
       "fontSize": 34,
@@ -7772,7 +7915,7 @@
       }
     },
     {
-      "id": "t276",
+      "id": "t281",
       "type": "text",
       "content": "Ryzen 9 · Core Ultra 9",
       "fontSize": 46,
@@ -7798,7 +7941,7 @@
       }
     },
     {
-      "id": "laptop_277",
+      "id": "laptop_282",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/laptop.png",
@@ -7839,7 +7982,7 @@
       ]
     },
     {
-      "id": "battery_278",
+      "id": "battery_283",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/battery.png",
@@ -7864,7 +8007,7 @@
       }
     },
     {
-      "id": "t279",
+      "id": "t284",
       "type": "text",
       "content": "consumo",
       "fontSize": 60,
@@ -7890,7 +8033,7 @@
       }
     },
     {
-      "id": "t280",
+      "id": "t285",
       "type": "text",
       "content": "no potencia",
       "fontSize": 46,
@@ -7916,7 +8059,7 @@
       }
     },
     {
-      "id": "t281",
+      "id": "t286",
       "type": "text",
       "content": "1",
       "fontSize": 140,
@@ -7958,7 +8101,7 @@
       ]
     },
     {
-      "id": "t282",
+      "id": "t287",
       "type": "text",
       "content": "comparar GHz entre generaciones",
       "fontSize": 60,
@@ -7984,7 +8127,7 @@
       }
     },
     {
-      "id": "cross_283",
+      "id": "cross_288",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cross.png",
@@ -8009,7 +8152,7 @@
       }
     },
     {
-      "id": "t284",
+      "id": "t289",
       "type": "text",
       "content": "2",
       "fontSize": 140,
@@ -8051,7 +8194,7 @@
       ]
     },
     {
-      "id": "t285",
+      "id": "t290",
       "type": "text",
       "content": "CPU cara + gráfica mala",
       "fontSize": 60,
@@ -8077,7 +8220,7 @@
       }
     },
     {
-      "id": "t286",
+      "id": "t291",
       "type": "text",
       "content": "al revés",
       "fontSize": 60,
@@ -8103,7 +8246,7 @@
       }
     },
     {
-      "id": "t287",
+      "id": "t292",
       "type": "text",
       "content": "3",
       "fontSize": 140,
@@ -8145,7 +8288,7 @@
       ]
     },
     {
-      "id": "cpu-socket-open_288",
+      "id": "cpu-socket-open_293",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-socket-open.png",
@@ -8170,7 +8313,7 @@
       }
     },
     {
-      "id": "t289",
+      "id": "t294",
       "type": "text",
       "content": "AM5",
       "fontSize": 46,
@@ -8196,7 +8339,7 @@
       }
     },
     {
-      "id": "t290",
+      "id": "t295",
       "type": "text",
       "content": "LGA 1851",
       "fontSize": 46,
@@ -8222,7 +8365,7 @@
       }
     },
     {
-      "id": "cross_291",
+      "id": "cross_296",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cross.png",
@@ -8247,7 +8390,7 @@
       }
     },
     {
-      "id": "t292",
+      "id": "t297",
       "type": "text",
       "content": "no compatibles",
       "fontSize": 46,
@@ -8273,7 +8416,7 @@
       }
     },
     {
-      "id": "cpu-bare-top_293",
+      "id": "cpu-bare-top_298",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cpu-bare-top.png",
@@ -8314,7 +8457,7 @@
       ]
     },
     {
-      "id": "t294",
+      "id": "t299",
       "type": "text",
       "content": "pisapapeles de 400 €",
       "fontSize": 34,
@@ -8340,7 +8483,7 @@
       }
     },
     {
-      "id": "money-burning_295",
+      "id": "money-burning_300",
       "type": "image",
       "kind": "meme",
       "src": "assets/icons/money-burning.png",
@@ -8365,7 +8508,7 @@
       }
     },
     {
-      "id": "t296",
+      "id": "t301",
       "type": "text",
       "content": "gama",
       "fontSize": 60,
@@ -8407,7 +8550,7 @@
       ]
     },
     {
-      "id": "t297",
+      "id": "t302",
       "type": "text",
       "content": "generación",
       "fontSize": 60,
@@ -8433,7 +8576,7 @@
       }
     },
     {
-      "id": "t298",
+      "id": "t303",
       "type": "text",
       "content": "núcleos",
       "fontSize": 60,
@@ -8459,7 +8602,7 @@
       }
     },
     {
-      "id": "t299",
+      "id": "t304",
       "type": "text",
       "content": "letras",
       "fontSize": 60,
@@ -8485,7 +8628,7 @@
       }
     },
     {
-      "id": "t300",
+      "id": "t305",
       "type": "text",
       "content": "4 cosas",
       "fontSize": 34,
@@ -8511,7 +8654,7 @@
       }
     },
     {
-      "id": "t301",
+      "id": "t306",
       "type": "text",
       "content": "Ryzen 7 9800X3D",
       "fontSize": 60,
@@ -8553,7 +8696,7 @@
       ]
     },
     {
-      "id": "sh302",
+      "id": "sh307",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -8574,10 +8717,10 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "_target": "t301"
+      "_target": "t306"
     },
     {
-      "id": "sh303",
+      "id": "sh308",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -8598,10 +8741,10 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "_target": "t301"
+      "_target": "t306"
     },
     {
-      "id": "sh304",
+      "id": "sh309",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -8622,10 +8765,10 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "_target": "t301"
+      "_target": "t306"
     },
     {
-      "id": "sh305",
+      "id": "sh310",
       "type": "shape",
       "kind": "underline",
       "box": {
@@ -8646,10 +8789,10 @@
         "kind": "fade-out",
         "duration": 0.2
       },
-      "_target": "t301"
+      "_target": "t306"
     },
     {
-      "id": "check_306",
+      "id": "check_311",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/check.png",
@@ -8674,7 +8817,7 @@
       }
     },
     {
-      "id": "euro-coin_307",
+      "id": "euro-coin_312",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/euro-coin.png",
@@ -8715,7 +8858,7 @@
       ]
     },
     {
-      "id": "t308",
+      "id": "t313",
       "type": "text",
       "content": "¿lo necesitas?",
       "fontSize": 34,
@@ -8741,7 +8884,7 @@
       }
     },
     {
-      "id": "t309",
+      "id": "t314",
       "type": "text",
       "content": "normalmente NO",
       "fontSize": 140,

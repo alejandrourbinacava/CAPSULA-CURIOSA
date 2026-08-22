@@ -627,24 +627,37 @@ Narración: *"Y las letras del final son el tipo."*
 ### BEAT 49 · 06:32 · T1
 Narración: *"En Intel funciona igual. Core Ultra 9 285K."*
 ```
-+0.0  TXT  "Core Ultra 9 285K"  @center  handwrite  lg
++0.0  ICO  computer-cpu-processor-chip-top-view  @hero  pop  KEEP
++0.2  TXT  "Core Ultra 9 285K"  @center  handwrite  lg  KEEP
 +2.0  SHP  underline →"9"       draw  yellow
 +3.0  SHP  underline →"2"       draw  green
 +4.0  SHP  underline →"85"      draw  cyan
 +5.0  SHP  underline →"K"       draw  magenta
--7.0  CLEAR
 ```
+Chip+modelo KEEP: persisten mientras la voz dice "generación 2, modelo 85".
+Los limpia el CLEAR del beat 50 justo cuando entra la lista de la regla práctica.
 
 ### BEAT 50 · 06:41 · T5
 Narración: *"Regla práctica: primero mira la gama. Después la generación. Un Ryzen 5 nuevo puede rendir más que un Ryzen 7 de hace cuatro años."*
 ```
++4.0  CLEAR
 +0.0  TXT  "1. gama"       @a   pop  lg
 +1.4  TXT  "2. generación" @b   pop  lg
 +3.4  TXT  "Ryzen 5 (2026)" @c1 fade  md
 +4.6  TXT  "Ryzen 7 (2022)" @c2 fade  md
 +5.8  ARR  c1→c2                draw  red
 +6.4  TXT  "gana el nuevo" @cap stamp md  red
--8.5  CLEAR
++9.0  CLEAR
+```
+
+### BEAT 50b · puente · rellena la narración-puente (antes quedaba en blanco)
+Narración: *"Pesa mucho más de lo que la gente cree. Y ahora las letras, que son las que más confunden."*
+```
++0.0  TXT  "la generación pesa más"  @a1  pop  md
++0.5  ICO  balance-scale-icon        @a3  pop
++5.0  TXT  "las letras confunden"    @c1  pop  md
++5.5  ICO  confused-person-with-floating-math-equat  @c3  pop
++9.0  CLEAR
 ```
 
 ---
