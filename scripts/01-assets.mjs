@@ -140,11 +140,12 @@ for (const [id, a] of Object.entries(assets)) {
       if (f) { a.file = f; if (!a.kind || a.kind === "photo") a.kind = "cutout"; console.log(`🖼️  ${id} (foto) ✓`); continue; }
       // sin foto -> icono como reserva
     }
-    // 1º: GPT Image (doodle, transparente, reutilizable). 2º: reserva SVG offline.
-    if (OPENAI) { const img = await gptImageIcon(q, id); if (img) { a.file = img.file; a.kind = "vector"; a.normalized = true; a.gpt = true; console.log(`🎨 ${id} (gpt-image${img.reused ? " ♻" : ""}) ✓`); continue; } }
-    let ico = offlineIcon(q) || (await (async () => { await sleep(150); return httpIcon(q); })());
-    if (ico) { const meta = saveIcon(id, ico); Object.assign(a, meta); console.log(`▲ ${id} (svg reserva) ✓`); }
-    else { a.file = null; console.log(`✗ ${id} sin asset`); }
+    // REGLA INAMOVIBLE: TODO icono es un doodle 2D generado con GPT (o reutilizado de la librería,
+    //   que funciona SIN clave). NUNCA el SVG "de reserva" feo. Sin gate `if(OPENAI)`: gptImageIcon
+    //   copia de la librería aunque no haya clave, y solo genera nuevo si la hay.
+    const img = await gptImageIcon(q, id);
+    if (img) { a.file = img.file; a.kind = "vector"; a.normalized = true; a.gpt = true; console.log(`🎨 ${id} (gpt-image${img.reused ? " ♻" : ""}) ✓`); continue; }
+    a.file = null; console.log(`✗ ${id} SIN doodle GPT ("${q}"): no está en la librería y falta OPENAI_API_KEY. El gate 01c lo marcará.`);
   } catch (e) { a.file = null; console.log(`✗ ${id} error ${(e.message || "").slice(0, 50)}`); }
 }
 fs.writeFileSync(assetsPath, JSON.stringify(assets, null, 2));

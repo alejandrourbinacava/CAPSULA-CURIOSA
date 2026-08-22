@@ -28,46 +28,46 @@
         },
         {
           "label": "3. El perro y la rabia",
-          "d": 0.19,
+          "d": 0.17,
           "n": 3
         },
         {
           "label": "4. La mosca tsetsé",
-          "d": 0.16,
-          "n": 2
+          "d": 0.21,
+          "n": 4
         },
         {
           "label": "5. El cocodrilo del Nilo",
-          "d": 0.16,
+          "d": 0.14,
           "n": 2
         },
         {
           "label": "6. El hipopótamo",
+          "d": 0.37,
+          "n": 11
+        },
+        {
+          "label": "7. La medusa de caja",
           "d": 0.24,
           "n": 4
         },
         {
-          "label": "7. La medusa de caja",
-          "d": 0.28,
-          "n": 8
-        },
-        {
           "label": "8. El elefante africano",
-          "d": 0.21,
-          "n": 4
+          "d": 0.32,
+          "n": 9
         },
         {
           "label": "Cómo evitarlos",
-          "d": 0.21,
+          "d": 0.15,
           "n": 3
         },
         {
           "label": "El verdadero peligro",
-          "d": 0.13,
-          "n": 2
+          "d": 0.24,
+          "n": 4
         }
       ],
-      "warns": 16
+      "warns": 10
     }
   },
   "elements": [
@@ -94,7 +94,7 @@
       "id": "skull-icon_0",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/skull-icon.svg",
+      "src": "assets/icons/skull-icon.png",
       "box": {
         "cx": 620,
         "cy": 435,
@@ -118,10 +118,37 @@
       "kenburns": false
     },
     {
-      "id": "prev-snake_5",
+      "id": "prev-mosquito_4",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/prev-snake.svg",
+      "src": "assets/icons/prev-mosquito.png",
+      "box": {
+        "cx": 480,
+        "cy": 435,
+        "w": 330,
+        "h": 330
+      },
+      "rotate": 0,
+      "hero": false,
+      "z": 20,
+      "in": 17.16,
+      "out": 19.27,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "fixed": true,
+      "kenburns": false
+    },
+    {
+      "id": "prev-snake_6",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/prev-snake.png",
       "box": {
         "cx": 960,
         "cy": 435,
@@ -145,10 +172,10 @@
       "kenburns": false
     },
     {
-      "id": "prev-human_7",
+      "id": "prev-human_8",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/prev-human.svg",
+      "src": "assets/icons/prev-human.png",
       "box": {
         "cx": 1440,
         "cy": 435,
@@ -172,7 +199,7 @@
       "kenburns": false
     },
     {
-      "id": "title_11",
+      "id": "title_12",
       "type": "title",
       "content": "1. El mosquito",
       "structural": true,
@@ -195,7 +222,7 @@
       }
     },
     {
-      "id": "photo-mosquito_12",
+      "id": "photo-mosquito_13",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-mosquito.jpg",
@@ -222,7 +249,7 @@
       "kenburns": false
     },
     {
-      "id": "s15",
+      "id": "s16",
       "type": "stickman",
       "pose": "pointing-right",
       "box": {
@@ -246,7 +273,7 @@
       "kenburns": false
     },
     {
-      "id": "photo-mosquito_22",
+      "id": "photo-mosquito_23",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-mosquito.jpg",
@@ -260,7 +287,7 @@
       "hero": false,
       "z": 20,
       "in": 82.98,
-      "out": 98.18,
+      "out": 91.06,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -273,7 +300,61 @@
       "kenburns": false
     },
     {
-      "id": "title_29",
+      "id": "malaria-icon_24",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/malaria-icon.png",
+      "box": {
+        "cx": 1300,
+        "cy": 435,
+        "w": 380,
+        "h": 380
+      },
+      "rotate": 0,
+      "hero": false,
+      "z": 20,
+      "in": 82.98,
+      "out": 91.06,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "fixed": true,
+      "kenburns": false
+    },
+    {
+      "id": "co2-icon_29",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/co2-icon.png",
+      "box": {
+        "cx": 1440,
+        "cy": 355,
+        "w": 280,
+        "h": 280
+      },
+      "rotate": 0,
+      "hero": false,
+      "z": 20,
+      "in": 105.48,
+      "out": 119.98,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "fixed": true,
+      "kenburns": false
+    },
+    {
+      "id": "title_32",
       "type": "title",
       "content": "2. Serpientes venenosas",
       "structural": true,
@@ -296,7 +377,7 @@
       }
     },
     {
-      "id": "photo-cobra_30",
+      "id": "photo-cobra_33",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-cobra.jpg",
@@ -323,10 +404,10 @@
       "kenburns": false
     },
     {
-      "id": "map-india-icon_34",
+      "id": "map-india-icon_37",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/map-india-icon.svg",
+      "src": "assets/icons/map-india-icon.png",
       "box": {
         "cx": 960,
         "cy": 435,
@@ -350,10 +431,10 @@
       "kenburns": false
     },
     {
-      "id": "venom-icon_37",
+      "id": "venom-icon_40",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/venom-icon.svg",
+      "src": "assets/icons/venom-icon.png",
       "box": {
         "cx": 960,
         "cy": 460,
@@ -364,7 +445,7 @@
       "hero": false,
       "z": 20,
       "in": 156,
-      "out": 165.44,
+      "out": 156,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -377,7 +458,34 @@
       "kenburns": false
     },
     {
-      "id": "title_44",
+      "id": "antivenom-icon_42",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/antivenom-icon.png",
+      "box": {
+        "cx": 480,
+        "cy": 435,
+        "w": 330,
+        "h": 330
+      },
+      "rotate": 0,
+      "hero": false,
+      "z": 20,
+      "in": 156,
+      "out": 178.92,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "fixed": true,
+      "kenburns": false
+    },
+    {
+      "id": "title_48",
       "type": "title",
       "content": "3. El perro y la rabia",
       "structural": true,
@@ -400,21 +508,21 @@
       }
     },
     {
-      "id": "photo-dog_45",
+      "id": "photo-dog_49",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-dog.jpg",
       "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 620,
+        "cy": 435,
+        "w": 380,
+        "h": 380
       },
-      "rotate": -1,
+      "rotate": -2,
       "hero": false,
       "z": 20,
       "in": 183.46,
-      "out": 204.64,
+      "out": 193.98,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -427,12 +535,12 @@
       "kenburns": false
     },
     {
-      "id": "rabies-icon_50",
+      "id": "rabies-icon_54",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/rabies-icon.svg",
+      "src": "assets/icons/rabies-icon.png",
       "box": {
-        "cx": 960,
+        "cx": 480,
         "cy": 720,
         "w": 280,
         "h": 280
@@ -454,10 +562,10 @@
       "kenburns": false
     },
     {
-      "id": "warning-icon_52",
+      "id": "warning-icon_56",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/warning-icon.svg",
+      "src": "assets/icons/warning-icon.png",
       "box": {
         "cx": 1440,
         "cy": 720,
@@ -481,21 +589,21 @@
       "kenburns": false
     },
     {
-      "id": "vaccine-icon_54",
+      "id": "vaccine-icon_58",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/vaccine-icon.svg",
+      "src": "assets/icons/vaccine-icon.png",
       "box": {
-        "cx": 620,
+        "cx": 480,
         "cy": 435,
-        "w": 380,
-        "h": 380
+        "w": 330,
+        "h": 330
       },
       "rotate": 0,
       "hero": false,
       "z": 20,
       "in": 204.64,
-      "out": 208.14,
+      "out": 213.38,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -508,18 +616,18 @@
       "kenburns": false
     },
     {
-      "id": "s58",
+      "id": "s62",
       "type": "stickman",
       "pose": "thinking",
       "box": {
-        "cx": 1300,
+        "cx": 960,
         "cy": 435,
-        "w": 380,
-        "h": 380
+        "w": 330,
+        "h": 330
       },
       "z": 50,
       "in": 204.64,
-      "out": 208.14,
+      "out": 213.38,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
@@ -532,21 +640,21 @@
       "kenburns": false
     },
     {
-      "id": "pasteur-icon_61",
+      "id": "pasteur-icon_65",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/pasteur-icon.svg",
+      "src": "assets/icons/pasteur-icon.png",
       "box": {
         "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 355,
+        "w": 280,
+        "h": 280
       },
       "rotate": 0,
       "hero": false,
       "z": 20,
       "in": 227.02,
-      "out": 238.22,
+      "out": 262.88,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -559,7 +667,7 @@
       "kenburns": false
     },
     {
-      "id": "title_67",
+      "id": "title_71",
       "type": "title",
       "content": "4. La mosca tsetsé",
       "structural": true,
@@ -582,21 +690,21 @@
       }
     },
     {
-      "id": "photo-tsetse_68",
+      "id": "photo-tsetse_72",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-tsetse.jpg",
       "box": {
         "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cy": 435,
+        "w": 330,
+        "h": 330
       },
-      "rotate": -1,
+      "rotate": -2,
       "hero": false,
       "z": 20,
       "in": 270.72,
-      "out": 284.14,
+      "out": 278.4,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -609,39 +717,12 @@
       "kenburns": false
     },
     {
-      "id": "sleep-icon_69",
+      "id": "sleep-icon_73",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/sleep-icon.svg",
+      "src": "assets/icons/sleep-icon.png",
       "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 270.72,
-      "out": 284.14,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "map-africa-icon_74",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/map-africa-icon.svg",
-      "box": {
-        "cx": 480,
+        "cx": 960,
         "cy": 435,
         "w": 330,
         "h": 330
@@ -649,8 +730,8 @@
       "rotate": 0,
       "hero": false,
       "z": 20,
-      "in": 284.14,
-      "out": 295.37,
+      "in": 270.72,
+      "out": 278.4,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -663,7 +744,34 @@
       "kenburns": false
     },
     {
-      "id": "title_81",
+      "id": "map-africa-icon_78",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/map-africa-icon.png",
+      "box": {
+        "cx": 1300,
+        "cy": 435,
+        "w": 380,
+        "h": 380
+      },
+      "rotate": 0,
+      "hero": false,
+      "z": 20,
+      "in": 284.14,
+      "out": 287.54,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "fixed": true,
+      "kenburns": false
+    },
+    {
+      "id": "title_85",
       "type": "title",
       "content": "5. El cocodrilo del Nilo",
       "structural": true,
@@ -686,21 +794,21 @@
       }
     },
     {
-      "id": "photo-crocodile_82",
+      "id": "photo-crocodile_86",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-crocodile.jpg",
       "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 620,
+        "cy": 435,
+        "w": 380,
+        "h": 380
       },
       "rotate": 1,
       "hero": false,
       "z": 20,
       "in": 320.02,
-      "out": 354.01,
+      "out": 331.62,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -713,17 +821,17 @@
       "kenburns": false
     },
     {
-      "id": "photo-crocodile_87",
+      "id": "photo-crocodile_91",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-crocodile.jpg",
       "box": {
-        "cx": 960,
+        "cx": 480,
         "cy": 720,
         "w": 280,
         "h": 280
       },
-      "rotate": 0,
+      "rotate": 2,
       "hero": false,
       "z": 20,
       "in": 345.96,
@@ -740,7 +848,7 @@
       "kenburns": false
     },
     {
-      "id": "photo-alligator_89",
+      "id": "photo-alligator_93",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-alligator.jpg",
@@ -750,7 +858,7 @@
         "w": 280,
         "h": 280
       },
-      "rotate": 0,
+      "rotate": 2,
       "hero": false,
       "z": 20,
       "in": 345.96,
@@ -767,21 +875,21 @@
       "kenburns": false
     },
     {
-      "id": "photo-saltwater-crocodile_94",
+      "id": "photo-saltwater-crocodile_98",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-saltwater-crocodile.jpg",
       "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 460,
+        "w": 450,
+        "h": 450
       },
-      "rotate": 1,
+      "rotate": -1,
       "hero": false,
       "z": 20,
       "in": 377.62,
-      "out": 388,
+      "out": 378.36,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -794,7 +902,7 @@
       "kenburns": false
     },
     {
-      "id": "title_97",
+      "id": "title_101",
       "type": "title",
       "content": "6. El hipopótamo",
       "structural": true,
@@ -817,21 +925,21 @@
       }
     },
     {
-      "id": "photo-hippo_98",
+      "id": "photo-hippo_102",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-hippo.jpg",
       "box": {
         "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 355,
+        "w": 280,
+        "h": 280
       },
       "rotate": -3,
       "hero": false,
       "z": 20,
       "in": 388,
-      "out": 400.8,
+      "out": 416.48,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -844,18 +952,18 @@
       "kenburns": false
     },
     {
-      "id": "s101",
+      "id": "s105",
       "type": "stickman",
       "pose": "neutral",
       "box": {
         "cx": 960,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 355,
+        "w": 280,
+        "h": 280
       },
       "z": 50,
       "in": 388,
-      "out": 400.8,
+      "out": 416.48,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
@@ -868,21 +976,21 @@
       "kenburns": false
     },
     {
-      "id": "sweat-icon_103",
+      "id": "sweat-icon_107",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/sweat-icon.svg",
+      "src": "assets/icons/sweat-icon.png",
       "box": {
-        "cx": 960,
-        "cy": 460,
-        "w": 450,
-        "h": 450
+        "cx": 480,
+        "cy": 720,
+        "w": 280,
+        "h": 280
       },
       "rotate": 0,
       "hero": false,
       "z": 20,
       "in": 400.8,
-      "out": 402.92,
+      "out": 416.48,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -895,7 +1003,7 @@
       "kenburns": false
     },
     {
-      "id": "title_109",
+      "id": "title_113",
       "type": "title",
       "content": "7. La medusa de caja",
       "structural": true,
@@ -918,21 +1026,21 @@
       }
     },
     {
-      "id": "photo-jellyfish_110",
+      "id": "photo-jellyfish_114",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-jellyfish.png",
       "box": {
         "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cy": 435,
+        "w": 330,
+        "h": 330
       },
-      "rotate": -2,
+      "rotate": 2,
       "hero": false,
       "z": 20,
       "in": 441.54,
-      "out": 467.66,
+      "out": 458.02,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -945,17 +1053,44 @@
       "kenburns": false
     },
     {
-      "id": "photo-irukandji_115",
+      "id": "tentacle-icon_115",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/tentacle-icon.png",
+      "box": {
+        "cx": 960,
+        "cy": 435,
+        "w": 330,
+        "h": 330
+      },
+      "rotate": 0,
+      "hero": false,
+      "z": 20,
+      "in": 441.54,
+      "out": 458.02,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "fixed": true,
+      "kenburns": false
+    },
+    {
+      "id": "photo-irukandji_120",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-irukandji.jpg",
       "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 620,
+        "cy": 435,
+        "w": 380,
+        "h": 380
       },
-      "rotate": 3,
+      "rotate": 2,
       "hero": false,
       "z": 20,
       "in": 458.02,
@@ -972,7 +1107,7 @@
       "kenburns": false
     },
     {
-      "id": "title_124",
+      "id": "title_129",
       "type": "title",
       "content": "8. El elefante africano",
       "structural": true,
@@ -995,21 +1130,21 @@
       }
     },
     {
-      "id": "photo-elephant_125",
+      "id": "photo-elephant_130",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-elephant.jpg",
       "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 480,
+        "cy": 355,
+        "w": 280,
+        "h": 280
       },
-      "rotate": -3,
+      "rotate": -2,
       "hero": false,
       "z": 20,
       "in": 490.6,
-      "out": 497.8,
+      "out": 513.4,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -1022,18 +1157,18 @@
       "kenburns": false
     },
     {
-      "id": "s128",
+      "id": "s133",
       "type": "stickman",
       "pose": "shrug",
       "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 355,
+        "w": 280,
+        "h": 280
       },
       "z": 50,
       "in": 490.6,
-      "out": 497.8,
+      "out": 513.4,
       "enter": {
         "kind": "fade-in",
         "duration": 0.3
@@ -1046,15 +1181,15 @@
       "kenburns": false
     },
     {
-      "id": "musth-icon_130",
+      "id": "musth-icon_135",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/musth-icon.svg",
+      "src": "assets/icons/musth-icon.png",
       "box": {
         "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 720,
+        "w": 280,
+        "h": 280
       },
       "rotate": 0,
       "hero": false,
@@ -1073,11 +1208,11 @@
       "kenburns": false
     },
     {
-      "id": "badge_133",
+      "id": "badge_138",
       "type": "image",
       "kind": "logo",
       "structural": true,
-      "src": "assets/icons/tips-icon.svg",
+      "src": "assets/icons/tips-icon.png",
       "box": {
         "cx": 190,
         "cy": 110,
@@ -1093,7 +1228,7 @@
       }
     },
     {
-      "id": "title_134",
+      "id": "title_139",
       "type": "title",
       "content": "Cómo evitarlos",
       "structural": true,
@@ -1116,64 +1251,10 @@
       }
     },
     {
-      "id": "net-icon_135",
+      "id": "net-icon_140",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/net-icon.svg",
-      "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 517.5,
-      "out": 517.5,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "boots-icon_137",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/boots-icon.svg",
-      "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 517.5,
-      "out": 517.5,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "vaccine-icon-dog_139",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/vaccine-icon-dog.svg",
+      "src": "assets/icons/net-icon.png",
       "box": {
         "cx": 480,
         "cy": 355,
@@ -1197,10 +1278,10 @@
       "kenburns": false
     },
     {
-      "id": "repellent-icon_141",
+      "id": "boots-icon_142",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/repellent-icon.svg",
+      "src": "assets/icons/boots-icon.png",
       "box": {
         "cx": 1440,
         "cy": 355,
@@ -1224,10 +1305,10 @@
       "kenburns": false
     },
     {
-      "id": "binoculars-icon_143",
+      "id": "vaccine-icon-dog_144",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/binoculars-icon.svg",
+      "src": "assets/icons/vaccine-icon-dog.png",
       "box": {
         "cx": 480,
         "cy": 720,
@@ -1251,10 +1332,10 @@
       "kenburns": false
     },
     {
-      "id": "boat-icon_145",
+      "id": "repellent-icon_146",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/boat-icon.svg",
+      "src": "assets/icons/repellent-icon.png",
       "box": {
         "cx": 1440,
         "cy": 720,
@@ -1278,10 +1359,10 @@
       "kenburns": false
     },
     {
-      "id": "distance-icon_148",
+      "id": "binoculars-icon_148",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/distance-icon.svg",
+      "src": "assets/icons/binoculars-icon.png",
       "box": {
         "cx": 480,
         "cy": 435,
@@ -1292,7 +1373,7 @@
       "hero": false,
       "z": 20,
       "in": 517.5,
-      "out": 530.72,
+      "out": 517.5,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1305,7 +1386,88 @@
       "kenburns": false
     },
     {
-      "id": "title_152",
+      "id": "boat-icon_150",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/boat-icon.png",
+      "box": {
+        "cx": 960,
+        "cy": 435,
+        "w": 330,
+        "h": 330
+      },
+      "rotate": 0,
+      "hero": false,
+      "z": 20,
+      "in": 517.5,
+      "out": 517.5,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "fixed": true,
+      "kenburns": false
+    },
+    {
+      "id": "wetsuit-icon_152",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/wetsuit-icon.png",
+      "box": {
+        "cx": 1440,
+        "cy": 435,
+        "w": 330,
+        "h": 330
+      },
+      "rotate": 0,
+      "hero": false,
+      "z": 20,
+      "in": 517.5,
+      "out": 517.5,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "fixed": true,
+      "kenburns": false
+    },
+    {
+      "id": "distance-icon_154",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/distance-icon.png",
+      "box": {
+        "cx": 960,
+        "cy": 460,
+        "w": 450,
+        "h": 450
+      },
+      "rotate": 0,
+      "hero": false,
+      "z": 20,
+      "in": 517.5,
+      "out": 520.1,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "fixed": true,
+      "kenburns": false
+    },
+    {
+      "id": "title_158",
       "type": "title",
       "content": "El verdadero peligro",
       "structural": true,
@@ -1328,21 +1490,21 @@
       }
     },
     {
-      "id": "photo-shark_153",
+      "id": "photo-shark_159",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-shark.jpg",
       "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 480,
+        "cy": 355,
+        "w": 280,
+        "h": 280
       },
-      "rotate": -1,
+      "rotate": 0,
       "hero": false,
       "z": 20,
       "in": 543.94,
-      "out": 546.08,
+      "out": 560.58,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -1355,37 +1517,10 @@
       "kenburns": false
     },
     {
-      "id": "mosquito-real-icon_155",
+      "id": "mosquito-real-icon_161",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/mosquito-real-icon.svg",
-      "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
-      },
-      "rotate": 0,
-      "hero": false,
-      "z": 20,
-      "in": 543.94,
-      "out": 546.08,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "scale-icon_161",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/scale-icon.svg",
+      "src": "assets/icons/mosquito-real-icon.png",
       "box": {
         "cx": 1440,
         "cy": 355,
@@ -1395,8 +1530,8 @@
       "rotate": 0,
       "hero": false,
       "z": 20,
-      "in": 560.58,
-      "out": 579.02,
+      "in": 543.94,
+      "out": 560.58,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1409,21 +1544,48 @@
       "kenburns": false
     },
     {
-      "id": "subscribe-icon_164",
+      "id": "scale-icon_167",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/subscribe-icon.svg",
+      "src": "assets/icons/scale-icon.png",
       "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 480,
+        "cy": 435,
+        "w": 330,
+        "h": 330
+      },
+      "rotate": 0,
+      "hero": false,
+      "z": 20,
+      "in": 560.58,
+      "out": 578.22,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "fixed": true,
+      "kenburns": false
+    },
+    {
+      "id": "subscribe-icon_170",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/subscribe-icon.png",
+      "box": {
+        "cx": 620,
+        "cy": 435,
+        "w": 380,
+        "h": 380
       },
       "rotate": 0,
       "hero": false,
       "z": 20,
       "in": 578.22,
-      "out": 579.02,
+      "out": 582.9,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1439,7 +1601,7 @@
       "id": "icon_auto_0",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_0.svg",
+      "src": "assets/icons/icon_auto_0.png",
       "big": true,
       "photo": false,
       "label": "¿Animal misterioso?",
@@ -1468,7 +1630,7 @@
       "id": "icon_auto_1",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_1.svg",
+      "src": "assets/icons/icon_auto_1.png",
       "big": true,
       "photo": false,
       "label": "Depredadores icónicos",
@@ -1480,36 +1642,7 @@
       },
       "z": 30,
       "in": 5.26,
-      "out": 9.86,
-      "auto": true,
-      "enter": {
-        "kind": "draw-in",
-        "duration": 0.55
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.28
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "icon_auto_2",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/icon_auto_2.svg",
-      "big": true,
-      "photo": false,
-      "label": "OMS y National Geographic",
-      "box": {
-        "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
-      },
-      "z": 30,
-      "in": 9.86,
-      "out": 19.27,
+      "out": 17.16,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -1526,7 +1659,7 @@
       "id": "icon_auto_3",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_3.svg",
+      "src": "assets/icons/icon_auto_3.png",
       "big": true,
       "photo": false,
       "label": "Miedo al cine",
@@ -1555,7 +1688,7 @@
       "id": "icon_auto_4",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_4.svg",
+      "src": "assets/icons/icon_auto_4.png",
       "big": true,
       "photo": false,
       "label": "Sorpresa ante el peligro",
@@ -1584,7 +1717,7 @@
       "id": "icon_auto_5",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_5.svg",
+      "src": "assets/icons/icon_auto_5.png",
       "big": true,
       "photo": false,
       "label": "Depredadores desmentidos",
@@ -1613,7 +1746,7 @@
       "id": "icon_auto_6",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_6.svg",
+      "src": "assets/icons/icon_auto_6.png",
       "big": true,
       "photo": false,
       "label": "Grandes depredadores",
@@ -1671,7 +1804,7 @@
       "id": "icon_auto_8",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_8.svg",
+      "src": "assets/icons/icon_auto_8.png",
       "big": true,
       "photo": false,
       "label": "Mosquito nocturno",
@@ -1700,7 +1833,7 @@
       "id": "icon_auto_9",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_9.svg",
+      "src": "assets/icons/icon_auto_9.png",
       "big": true,
       "photo": false,
       "label": "Mosquito en guerra",
@@ -1758,7 +1891,7 @@
       "id": "icon_auto_11",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_11.svg",
+      "src": "assets/icons/icon_auto_11.png",
       "big": true,
       "photo": false,
       "label": "Especies de mosquitos",
@@ -1787,19 +1920,19 @@
       "id": "icon_auto_12",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_12.svg",
+      "src": "assets/icons/icon_auto_12.png",
       "big": true,
       "photo": false,
       "label": "Mosquito infectado",
       "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 480,
+        "cy": 355,
+        "w": 280,
+        "h": 280
       },
       "z": 30,
       "in": 91.06,
-      "out": 98.18,
+      "out": 119.98,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -1816,12 +1949,12 @@
       "id": "icon_auto_13",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_13.svg",
+      "src": "assets/icons/icon_auto_13.png",
       "big": true,
       "photo": false,
       "label": "Atracción del mosquito",
       "box": {
-        "cx": 480,
+        "cx": 960,
         "cy": 355,
         "w": 280,
         "h": 280
@@ -1845,13 +1978,13 @@
       "id": "icon_auto_14",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_14.svg",
+      "src": "assets/icons/icon_auto_14.png",
       "big": true,
       "photo": false,
       "label": "100 millones de años",
       "box": {
-        "cx": 960,
-        "cy": 355,
+        "cx": 480,
+        "cy": 720,
         "w": 280,
         "h": 280
       },
@@ -1874,7 +2007,7 @@
       "id": "icon_auto_15",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_15.svg",
+      "src": "assets/icons/icon_auto_15.png",
       "big": true,
       "photo": false,
       "label": "Mosquito ancestral",
@@ -1903,7 +2036,7 @@
       "id": "icon_auto_16",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_16.svg",
+      "src": "assets/icons/icon_auto_16.png",
       "big": true,
       "photo": false,
       "label": "Anopheles y malaria",
@@ -1932,7 +2065,7 @@
       "id": "icon_auto_17",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_17.svg",
+      "src": "assets/icons/icon_auto_17.png",
       "big": true,
       "photo": false,
       "label": "África subsahariana",
@@ -1961,7 +2094,7 @@
       "id": "icon_auto_18",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_18.svg",
+      "src": "assets/icons/icon_auto_18.png",
       "big": true,
       "photo": false,
       "label": "Dos minutos fatales",
@@ -1990,7 +2123,7 @@
       "id": "icon_auto_19",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_19.svg",
+      "src": "assets/icons/icon_auto_19.png",
       "big": true,
       "photo": false,
       "label": "Dengue, fiebre amarilla",
@@ -2019,7 +2152,7 @@
       "id": "icon_auto_20",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_20.svg",
+      "src": "assets/icons/icon_auto_20.png",
       "big": true,
       "photo": false,
       "label": "Prevención efectiva",
@@ -2053,14 +2186,14 @@
       "photo": true,
       "label": "Cobra real",
       "box": {
-        "cx": 480,
+        "cx": 960,
         "cy": 435,
         "w": 330,
         "h": 330
       },
       "z": 30,
       "in": 165.44,
-      "out": 183.46,
+      "out": 178.92,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -2077,19 +2210,19 @@
       "id": "icon_auto_22",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_22.svg",
+      "src": "assets/icons/icon_auto_22.png",
       "big": true,
       "photo": false,
       "label": "Veneno mortal",
       "box": {
-        "cx": 960,
+        "cx": 1440,
         "cy": 435,
         "w": 330,
         "h": 330
       },
       "z": 30,
       "in": 175.5,
-      "out": 183.46,
+      "out": 178.92,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2106,15 +2239,15 @@
       "id": "icon_auto_23",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_23.svg",
+      "src": "assets/icons/icon_auto_23.png",
       "big": true,
       "photo": false,
       "label": "Cobra australiana",
       "box": {
-        "cx": 1440,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cx": 480,
+        "cy": 355,
+        "w": 280,
+        "h": 280
       },
       "z": 30,
       "in": 178.92,
@@ -2140,14 +2273,14 @@
       "photo": true,
       "label": "Mamba negra",
       "box": {
-        "cx": 960,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 1300,
+        "cy": 435,
+        "w": 380,
+        "h": 380
       },
       "z": 30,
       "in": 189.74,
-      "out": 204.64,
+      "out": 193.98,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -2164,12 +2297,12 @@
       "id": "icon_auto_25",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_25.svg",
+      "src": "assets/icons/icon_auto_25.png",
       "big": true,
       "photo": false,
       "label": "Mamba en la granja",
       "box": {
-        "cx": 1440,
+        "cx": 480,
         "cy": 355,
         "w": 280,
         "h": 280
@@ -2193,13 +2326,13 @@
       "id": "icon_auto_26",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_26.svg",
+      "src": "assets/icons/icon_auto_26.png",
       "big": true,
       "photo": false,
       "label": "Una hora letal",
       "box": {
-        "cx": 480,
-        "cy": 720,
+        "cx": 1440,
+        "cy": 355,
         "w": 280,
         "h": 280
       },
@@ -2222,19 +2355,19 @@
       "id": "icon_auto_27",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_27.svg",
+      "src": "assets/icons/icon_auto_27.png",
       "big": true,
       "photo": false,
       "label": "Boca negra",
       "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 1440,
+        "cy": 435,
+        "w": 330,
+        "h": 330
       },
       "z": 30,
       "in": 208.14,
-      "out": 227.02,
+      "out": 213.38,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2251,19 +2384,19 @@
       "id": "icon_auto_28",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_28.svg",
+      "src": "assets/icons/icon_auto_28.png",
       "big": true,
       "photo": false,
       "label": "Mordedura en minutos",
       "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 460,
+        "w": 450,
+        "h": 450
       },
       "z": 30,
       "in": 213.38,
-      "out": 227.02,
+      "out": 216.54,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2280,15 +2413,15 @@
       "id": "icon_auto_29",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_29.svg",
+      "src": "assets/icons/icon_auto_29.png",
       "big": true,
       "photo": false,
       "label": "Inyección de veneno",
       "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 620,
+        "cy": 435,
+        "w": 380,
+        "h": 380
       },
       "z": 30,
       "in": 216.54,
@@ -2309,15 +2442,15 @@
       "id": "icon_auto_30",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_30.svg",
+      "src": "assets/icons/icon_auto_30.png",
       "big": true,
       "photo": false,
       "label": "Efectos del veneno",
       "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 1300,
+        "cy": 435,
+        "w": 380,
+        "h": 380
       },
       "z": 30,
       "in": 222.74,
@@ -2338,19 +2471,19 @@
       "id": "icon_auto_31",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_31.svg",
+      "src": "assets/icons/icon_auto_31.png",
       "big": true,
       "photo": false,
       "label": "Calma tras mordedura",
       "box": {
         "cx": 1440,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 355,
+        "w": 280,
+        "h": 280
       },
       "z": 30,
       "in": 231.52,
-      "out": 238.22,
+      "out": 262.88,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2367,19 +2500,19 @@
       "id": "icon_auto_32",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_32.svg",
+      "src": "assets/icons/icon_auto_32.png",
       "big": true,
       "photo": false,
       "label": "Propagación del veneno",
       "box": {
-        "cx": 960,
-        "cy": 460,
-        "w": 450,
-        "h": 450
+        "cx": 480,
+        "cy": 720,
+        "w": 280,
+        "h": 280
       },
       "z": 30,
       "in": 238.22,
-      "out": 244.34,
+      "out": 262.88,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2396,15 +2529,15 @@
       "id": "icon_auto_33",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_33.svg",
+      "src": "assets/icons/icon_auto_33.png",
       "big": true,
       "photo": false,
       "label": "Mantener la calma",
       "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 720,
+        "w": 280,
+        "h": 280
       },
       "z": 30,
       "in": 244.34,
@@ -2430,10 +2563,10 @@
       "photo": true,
       "label": "Avispa de mar",
       "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 1440,
+        "cy": 720,
+        "w": 280,
+        "h": 280
       },
       "z": 30,
       "in": 252.8,
@@ -2454,7 +2587,7 @@
       "id": "icon_auto_35",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_35.svg",
+      "src": "assets/icons/icon_auto_35.png",
       "big": true,
       "photo": false,
       "label": "Veneno letal",
@@ -2483,19 +2616,19 @@
       "id": "icon_auto_36",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_36.svg",
+      "src": "assets/icons/icon_auto_36.png",
       "big": true,
       "photo": false,
       "label": "Costa australiana",
       "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 1440,
+        "cy": 435,
+        "w": 330,
+        "h": 330
       },
       "z": 30,
       "in": 272.04,
-      "out": 284.14,
+      "out": 278.4,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2512,19 +2645,19 @@
       "id": "icon_auto_37",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_37.svg",
+      "src": "assets/icons/icon_auto_37.png",
       "big": true,
       "photo": false,
       "label": "Lucha en el agua",
       "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 620,
+        "cy": 435,
+        "w": 380,
+        "h": 380
       },
       "z": 30,
       "in": 278.4,
-      "out": 284.14,
+      "out": 287.54,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2541,19 +2674,19 @@
       "id": "icon_auto_38",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_38.svg",
+      "src": "assets/icons/icon_auto_38.png",
       "big": true,
       "photo": false,
       "label": "Auxilio requerido",
       "box": {
         "cx": 960,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 460,
+        "w": 450,
+        "h": 450
       },
       "z": 30,
       "in": 287.54,
-      "out": 295.37,
+      "out": 290.8,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2570,19 +2703,19 @@
       "id": "icon_auto_39",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_39.svg",
+      "src": "assets/icons/icon_auto_39.png",
       "big": true,
       "photo": false,
       "label": "Orina en picadura",
       "box": {
-        "cx": 1440,
+        "cx": 480,
         "cy": 435,
         "w": 330,
         "h": 330
       },
       "z": 30,
       "in": 290.8,
-      "out": 295.37,
+      "out": 304.46,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2599,15 +2732,15 @@
       "id": "icon_auto_40",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_40.svg",
+      "src": "assets/icons/icon_auto_40.png",
       "big": true,
       "photo": false,
       "label": "Dolor agudo",
       "box": {
-        "cx": 1300,
+        "cx": 1440,
         "cy": 435,
-        "w": 380,
-        "h": 380
+        "w": 330,
+        "h": 330
       },
       "z": 30,
       "in": 298.32,
@@ -2628,19 +2761,19 @@
       "id": "icon_auto_41",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_41.svg",
+      "src": "assets/icons/icon_auto_41.png",
       "big": true,
       "photo": false,
       "label": "Vinagre en playa",
       "box": {
-        "cx": 960,
-        "cy": 460,
-        "w": 450,
-        "h": 450
+        "cx": 480,
+        "cy": 355,
+        "w": 280,
+        "h": 280
       },
       "z": 30,
       "in": 304.46,
-      "out": 316.26,
+      "out": 320.02,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2657,15 +2790,15 @@
       "id": "icon_auto_42",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_42.svg",
+      "src": "assets/icons/icon_auto_42.png",
       "big": true,
       "photo": false,
       "label": "Cocodrilo marino",
       "box": {
-        "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cx": 960,
+        "cy": 355,
+        "w": 280,
+        "h": 280
       },
       "z": 30,
       "in": 316.26,
@@ -2691,14 +2824,14 @@
       "photo": true,
       "label": "Emboscada acuática",
       "box": {
-        "cx": 960,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 1300,
+        "cy": 435,
+        "w": 380,
+        "h": 380
       },
       "z": 30,
       "in": 325.56,
-      "out": 354.01,
+      "out": 331.62,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -2715,12 +2848,12 @@
       "id": "icon_auto_44",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_44.svg",
+      "src": "assets/icons/icon_auto_44.png",
       "big": true,
       "photo": false,
       "label": "Cruzar río peligroso",
       "box": {
-        "cx": 1440,
+        "cx": 480,
         "cy": 355,
         "w": 280,
         "h": 280
@@ -2744,13 +2877,13 @@
       "id": "icon_auto_45",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_45.svg",
+      "src": "assets/icons/icon_auto_45.png",
       "big": true,
       "photo": false,
       "label": "Cocodrilo de 6 metros",
       "box": {
-        "cx": 480,
-        "cy": 720,
+        "cx": 1440,
+        "cy": 355,
         "w": 280,
         "h": 280
       },
@@ -2773,19 +2906,19 @@
       "id": "icon_auto_46",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_46.svg",
+      "src": "assets/icons/icon_auto_46.png",
       "big": true,
       "photo": false,
       "label": "Mordedura aplastante",
       "box": {
-        "cx": 1300,
+        "cx": 960,
         "cy": 435,
-        "w": 380,
-        "h": 380
+        "w": 330,
+        "h": 330
       },
       "z": 30,
       "in": 358,
-      "out": 366.52,
+      "out": 377.62,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2802,19 +2935,19 @@
       "id": "icon_auto_47",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_47.svg",
+      "src": "assets/icons/icon_auto_47.png",
       "big": true,
       "photo": false,
       "label": "Rotación mortal",
       "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 1440,
+        "cy": 435,
+        "w": 330,
+        "h": 330
       },
       "z": 30,
       "in": 366.52,
-      "out": 388,
+      "out": 377.62,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2831,15 +2964,15 @@
       "id": "icon_auto_48",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_48.svg",
+      "src": "assets/icons/icon_auto_48.png",
       "big": true,
       "photo": false,
       "label": "Dominar al cocodrilo",
       "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 620,
+        "cy": 435,
+        "w": 380,
+        "h": 380
       },
       "z": 30,
       "in": 378.36,
@@ -2860,19 +2993,19 @@
       "id": "icon_auto_49",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_49.svg",
+      "src": "assets/icons/icon_auto_49.png",
       "big": true,
       "photo": false,
       "label": "Hipopótamo",
       "box": {
         "cx": 1440,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 355,
+        "w": 280,
+        "h": 280
       },
       "z": 30,
       "in": 389.46,
-      "out": 400.8,
+      "out": 416.48,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -2894,10 +3027,10 @@
       "photo": true,
       "label": "Hipopótamo en tierra",
       "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 720,
+        "w": 280,
+        "h": 280
       },
       "z": 30,
       "in": 402.92,
@@ -2918,7 +3051,7 @@
       "id": "icon_auto_51",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_51.svg",
+      "src": "assets/icons/icon_auto_51.png",
       "big": true,
       "photo": false,
       "label": "Ataque hipopótamo",
@@ -2947,12 +3080,12 @@
       "id": "icon_auto_52",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_52.svg",
+      "src": "assets/icons/icon_auto_52.png",
       "big": true,
       "photo": false,
       "label": "Hipopótamo pacífico",
       "box": {
-        "cx": 960,
+        "cx": 1440,
         "cy": 355,
         "w": 280,
         "h": 280
@@ -2973,16 +3106,45 @@
       "kenburns": false
     },
     {
+      "id": "icon_auto_53",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/icon_auto_53.png",
+      "big": true,
+      "photo": false,
+      "label": "Canoa volcada",
+      "box": {
+        "cx": 480,
+        "cy": 720,
+        "w": 280,
+        "h": 280
+      },
+      "z": 30,
+      "in": 433.74,
+      "out": 441.54,
+      "auto": true,
+      "enter": {
+        "kind": "draw-in",
+        "duration": 0.55
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.28
+      },
+      "fixed": true,
+      "kenburns": false
+    },
+    {
       "id": "icon_auto_54",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_54.svg",
+      "src": "assets/icons/icon_auto_54.png",
       "big": true,
       "photo": false,
       "label": "Hipopótamo agresivo",
       "box": {
         "cx": 1440,
-        "cy": 355,
+        "cy": 720,
         "w": 280,
         "h": 280
       },
@@ -3005,19 +3167,19 @@
       "id": "icon_auto_55",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_55.svg",
+      "src": "assets/icons/icon_auto_55.png",
       "big": true,
       "photo": false,
       "label": "Perro callejero",
       "box": {
         "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cy": 435,
+        "w": 330,
+        "h": 330
       },
       "z": 30,
       "in": 456.16,
-      "out": 467.66,
+      "out": 458.02,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3039,14 +3201,14 @@
       "photo": true,
       "label": "Virus en nervios",
       "box": {
-        "cx": 480,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cx": 960,
+        "cy": 460,
+        "w": 450,
+        "h": 450
       },
       "z": 30,
       "in": 467.66,
-      "out": 490.6,
+      "out": 481.84,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3063,12 +3225,12 @@
       "id": "icon_auto_57",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_57.svg",
+      "src": "assets/icons/icon_auto_57.png",
       "big": true,
       "photo": false,
       "label": "Síntomas de rabia",
       "box": {
-        "cx": 960,
+        "cx": 480,
         "cy": 435,
         "w": 330,
         "h": 330
@@ -3092,19 +3254,19 @@
       "id": "icon_auto_58",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_58.svg",
+      "src": "assets/icons/icon_auto_58.png",
       "big": true,
       "photo": false,
       "label": "Vacunación veterinaria",
       "box": {
-        "cx": 960,
-        "cy": 460,
-        "w": 450,
-        "h": 450
+        "cx": 1440,
+        "cy": 355,
+        "w": 280,
+        "h": 280
       },
       "z": 30,
       "in": 497.8,
-      "out": 502.84,
+      "out": 513.4,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3121,15 +3283,15 @@
       "id": "icon_auto_59",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_59.svg",
+      "src": "assets/icons/icon_auto_59.png",
       "big": true,
       "photo": false,
       "label": "Rabia en Asia y África",
       "box": {
         "cx": 1440,
-        "cy": 435,
-        "w": 330,
-        "h": 330
+        "cy": 720,
+        "w": 280,
+        "h": 280
       },
       "z": 30,
       "in": 507.4,
@@ -3150,15 +3312,15 @@
       "id": "icon_auto_60",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_60.svg",
+      "src": "assets/icons/icon_auto_60.png",
       "big": true,
       "photo": false,
       "label": "Niños con perros",
       "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 620,
+        "cy": 435,
+        "w": 380,
+        "h": 380
       },
       "z": 30,
       "in": 513.4,
@@ -3179,15 +3341,15 @@
       "id": "icon_auto_61",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_61.svg",
+      "src": "assets/icons/icon_auto_61.png",
       "big": true,
       "photo": false,
       "label": "Recuento de muertes",
       "box": {
-        "cx": 960,
+        "cx": 620,
         "cy": 435,
-        "w": 330,
-        "h": 330
+        "w": 380,
+        "h": 380
       },
       "z": 30,
       "in": 520.1,
@@ -3208,15 +3370,15 @@
       "id": "icon_auto_62",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_62.svg",
+      "src": "assets/icons/icon_auto_62.png",
       "big": true,
       "photo": false,
       "label": "Tiburones inofensivos",
       "box": {
-        "cx": 1440,
+        "cx": 1300,
         "cy": 435,
-        "w": 330,
-        "h": 330
+        "w": 380,
+        "h": 380
       },
       "z": 30,
       "in": 525.38,
@@ -3237,19 +3399,19 @@
       "id": "icon_auto_63",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_63.svg",
+      "src": "assets/icons/icon_auto_63.png",
       "big": true,
       "photo": false,
       "label": "Conflicto humano",
       "box": {
         "cx": 480,
-        "cy": 355,
+        "cy": 720,
         "w": 280,
         "h": 280
       },
       "z": 30,
       "in": 546.08,
-      "out": 579.02,
+      "out": 560.58,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3266,19 +3428,19 @@
       "id": "icon_auto_64",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_64.svg",
+      "src": "assets/icons/icon_auto_64.png",
       "big": true,
       "photo": false,
       "label": "Estadística incómoda",
       "box": {
-        "cx": 960,
-        "cy": 355,
+        "cx": 1440,
+        "cy": 720,
         "w": 280,
         "h": 280
       },
       "z": 30,
       "in": 557.5,
-      "out": 579.02,
+      "out": 560.58,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3295,19 +3457,19 @@
       "id": "icon_auto_65",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_65.svg",
+      "src": "assets/icons/icon_auto_65.png",
       "big": true,
       "photo": false,
       "label": "Amenazas reales",
       "box": {
-        "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 435,
+        "w": 330,
+        "h": 330
       },
       "z": 30,
       "in": 567.24,
-      "out": 579.02,
+      "out": 578.22,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3324,19 +3486,19 @@
       "id": "icon_auto_66",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_66.svg",
+      "src": "assets/icons/icon_auto_66.png",
       "big": true,
       "photo": false,
       "label": "Protección integral",
       "box": {
-        "cx": 960,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 1440,
+        "cy": 435,
+        "w": 330,
+        "h": 330
       },
       "z": 30,
       "in": 571.02,
-      "out": 579.02,
+      "out": 578.22,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3353,19 +3515,19 @@
       "id": "icon_auto_67",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_67.svg",
+      "src": "assets/icons/icon_auto_67.png",
       "big": true,
       "photo": false,
       "label": "Suscribirse",
       "box": {
-        "cx": 1440,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 460,
+        "w": 450,
+        "h": 450
       },
       "z": 30,
       "in": 582.9,
-      "out": 612.32,
+      "out": 598.88,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3382,19 +3544,19 @@
       "id": "icon_auto_68",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_68.svg",
+      "src": "assets/icons/icon_auto_68.png",
       "big": true,
       "photo": false,
       "label": "Animal inteligente",
       "box": {
         "cx": 480,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cy": 435,
+        "w": 330,
+        "h": 330
       },
       "z": 30,
       "in": 598.88,
-      "out": 612.32,
+      "out": 614.1,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3411,19 +3573,19 @@
       "id": "icon_auto_69",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_69.svg",
+      "src": "assets/icons/icon_auto_69.png",
       "big": true,
       "photo": false,
       "label": "Despedida",
       "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 435,
+        "w": 330,
+        "h": 330
       },
       "z": 30,
       "in": 604.56,
-      "out": 612.32,
+      "out": 614.1,
       "auto": true,
       "enter": {
         "kind": "draw-in",
@@ -3440,12 +3602,12 @@
       "id": "icon_auto_70",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/icon_auto_70.svg",
+      "src": "assets/icons/icon_auto_70.png",
       "big": true,
       "photo": false,
       "label": "Despedida",
       "box": {
-        "cx": 480,
+        "cx": 1440,
         "cy": 435,
         "w": 330,
         "h": 330
@@ -3466,7 +3628,7 @@
       "kenburns": false
     },
     {
-      "id": "sm_169",
+      "id": "sm_175",
       "type": "stickman",
       "pose": "cheer",
       "box": {
@@ -3489,7 +3651,7 @@
       "kenburns": false
     },
     {
-      "id": "sm_170",
+      "id": "sm_176",
       "type": "stickman",
       "pose": "pointing-right",
       "box": {
@@ -3512,7 +3674,7 @@
       "kenburns": false
     },
     {
-      "id": "sm_171",
+      "id": "sm_177",
       "type": "stickman",
       "pose": "thinking",
       "box": {
@@ -3535,155 +3697,17 @@
       "kenburns": false
     },
     {
-      "id": "sm_172",
-      "type": "stickman",
-      "pose": "pointing-left",
-      "box": {
-        "cx": 960,
-        "cy": 435,
-        "w": 330,
-        "h": 330
-      },
-      "in": 227.09,
-      "out": 238.22,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "sm_173",
-      "type": "stickman",
-      "pose": "neutral",
-      "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
-      },
-      "in": 295.37,
-      "out": 304.46,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "sm_174",
-      "type": "stickman",
-      "pose": "shrug",
-      "box": {
-        "cx": 620,
-        "cy": 435,
-        "w": 380,
-        "h": 380
-      },
-      "in": 354.01,
-      "out": 366.52,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "sm_175",
-      "type": "stickman",
-      "pose": "cheer",
-      "box": {
-        "cx": 1300,
-        "cy": 435,
-        "w": 380,
-        "h": 380
-      },
-      "in": 414.77,
-      "out": 416.48,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "sm_176",
-      "type": "stickman",
-      "pose": "pointing-right",
-      "box": {
-        "cx": 1440,
-        "cy": 720,
-        "w": 280,
-        "h": 280
-      },
-      "in": 466.07,
-      "out": 467.66,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
-      "id": "sm_177",
-      "type": "stickman",
-      "pose": "thinking",
-      "box": {
-        "cx": 960,
-        "cy": 435,
-        "w": 330,
-        "h": 330
-      },
-      "in": 504.05,
-      "out": 513.4,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "fixed": true,
-      "kenburns": false
-    },
-    {
       "id": "sm_178",
       "type": "stickman",
       "pose": "pointing-left",
       "box": {
         "cx": 960,
-        "cy": 460,
-        "w": 450,
-        "h": 450
+        "cy": 355,
+        "w": 280,
+        "h": 280
       },
-      "in": 530.72,
-      "out": 543.94,
+      "in": 227.09,
+      "out": 262.88,
       "enter": {
         "kind": "pop",
         "duration": 0.35
@@ -3700,13 +3724,13 @@
       "type": "stickman",
       "pose": "neutral",
       "box": {
-        "cx": 480,
-        "cy": 355,
-        "w": 280,
-        "h": 280
+        "cx": 960,
+        "cy": 435,
+        "w": 330,
+        "h": 330
       },
-      "in": 579.02,
-      "out": 612.32,
+      "in": 295.37,
+      "out": 304.46,
       "enter": {
         "kind": "pop",
         "duration": 0.35
@@ -3719,7 +3743,145 @@
       "kenburns": false
     },
     {
-      "id": "lb_180",
+      "id": "sm_180",
+      "type": "stickman",
+      "pose": "shrug",
+      "box": {
+        "cx": 480,
+        "cy": 435,
+        "w": 330,
+        "h": 330
+      },
+      "in": 354.01,
+      "out": 377.62,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "fixed": true,
+      "kenburns": false
+    },
+    {
+      "id": "sm_181",
+      "type": "stickman",
+      "pose": "cheer",
+      "box": {
+        "cx": 1440,
+        "cy": 720,
+        "w": 280,
+        "h": 280
+      },
+      "in": 414.77,
+      "out": 416.48,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "fixed": true,
+      "kenburns": false
+    },
+    {
+      "id": "sm_182",
+      "type": "stickman",
+      "pose": "pointing-right",
+      "box": {
+        "cx": 1300,
+        "cy": 435,
+        "w": 380,
+        "h": 380
+      },
+      "in": 466.07,
+      "out": 467.66,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "fixed": true,
+      "kenburns": false
+    },
+    {
+      "id": "sm_183",
+      "type": "stickman",
+      "pose": "thinking",
+      "box": {
+        "cx": 960,
+        "cy": 720,
+        "w": 280,
+        "h": 280
+      },
+      "in": 504.05,
+      "out": 513.4,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "fixed": true,
+      "kenburns": false
+    },
+    {
+      "id": "sm_184",
+      "type": "stickman",
+      "pose": "pointing-left",
+      "box": {
+        "cx": 480,
+        "cy": 355,
+        "w": 280,
+        "h": 280
+      },
+      "in": 530.72,
+      "out": 543.94,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "fixed": true,
+      "kenburns": false
+    },
+    {
+      "id": "sm_185",
+      "type": "stickman",
+      "pose": "neutral",
+      "box": {
+        "cx": 1300,
+        "cy": 435,
+        "w": 380,
+        "h": 380
+      },
+      "in": 579.02,
+      "out": 582.9,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "fixed": true,
+      "kenburns": false
+    },
+    {
+      "id": "lb_186",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -3745,7 +3907,7 @@
       }
     },
     {
-      "id": "lb_181",
+      "id": "lb_187",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -3771,7 +3933,7 @@
       }
     },
     {
-      "id": "lb_183",
+      "id": "lb_189",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -3786,7 +3948,7 @@
       "color": "#111111",
       "z": 66,
       "in": 5.51,
-      "out": 9.86,
+      "out": 17.16,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -3797,12 +3959,12 @@
       }
     },
     {
-      "id": "lb_184",
+      "id": "lb_190",
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "OMS y National Geographic",
-      "fontSize": 34,
+      "content": "Personas cada año",
+      "fontSize": 44,
       "box": {
         "cx": 480,
         "cy": 695,
@@ -3811,7 +3973,7 @@
       },
       "color": "#111111",
       "z": 66,
-      "in": 10.11,
+      "in": 17.41,
       "out": 19.27,
       "enter": {
         "kind": "handwrite",
@@ -3823,7 +3985,7 @@
       }
     },
     {
-      "id": "lb_185",
+      "id": "lb_191",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -3849,7 +4011,7 @@
       }
     },
     {
-      "id": "lb_187",
+      "id": "lb_193",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -3875,7 +4037,7 @@
       }
     },
     {
-      "id": "lb_189",
+      "id": "lb_195",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -3901,7 +4063,7 @@
       }
     },
     {
-      "id": "lb_190",
+      "id": "lb_196",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -3927,7 +4089,7 @@
       }
     },
     {
-      "id": "lb_191",
+      "id": "lb_197",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -3953,7 +4115,7 @@
       }
     },
     {
-      "id": "lb_193",
+      "id": "lb_199",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -3979,7 +4141,7 @@
       }
     },
     {
-      "id": "lb_194",
+      "id": "lb_200",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4005,7 +4167,7 @@
       }
     },
     {
-      "id": "lb_195",
+      "id": "lb_201",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4031,7 +4193,7 @@
       }
     },
     {
-      "id": "lb_196",
+      "id": "lb_202",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4057,7 +4219,7 @@
       }
     },
     {
-      "id": "lb_197",
+      "id": "lb_203",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4083,7 +4245,7 @@
       }
     },
     {
-      "id": "lb_198",
+      "id": "lb_204",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4109,7 +4271,7 @@
       }
     },
     {
-      "id": "lb_201",
+      "id": "lb_207",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4135,7 +4297,7 @@
       }
     },
     {
-      "id": "lb_202",
+      "id": "lb_208",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4150,7 +4312,7 @@
       "color": "#111111",
       "z": 66,
       "in": 83.23,
-      "out": 98.18,
+      "out": 91.06,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4161,11 +4323,11 @@
       }
     },
     {
-      "id": "lb_203",
+      "id": "lb_209",
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Mosquito infectado",
+      "content": "Vuela en silencio",
       "fontSize": 44,
       "box": {
         "cx": 1300,
@@ -4175,8 +4337,8 @@
       },
       "color": "#111111",
       "z": 66,
-      "in": 91.31,
-      "out": 98.18,
+      "in": 83.23,
+      "out": 91.06,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4187,14 +4349,40 @@
       }
     },
     {
-      "id": "lb_205",
+      "id": "lb_211",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Mosquito infectado",
+      "fontSize": 44,
+      "box": {
+        "cx": 480,
+        "cy": 545,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 91.31,
+      "out": 119.98,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_212",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Atracción del mosquito",
       "fontSize": 37,
       "box": {
-        "cx": 480,
+        "cx": 960,
         "cy": 545,
         "w": 440,
         "h": 62
@@ -4213,15 +4401,41 @@
       }
     },
     {
-      "id": "lb_206",
+      "id": "lb_213",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Curiosamente solo las",
+      "fontSize": 39,
+      "box": {
+        "cx": 1440,
+        "cy": 545,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 105.73,
+      "out": 119.98,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_214",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "100 millones de años",
       "fontSize": 41,
       "box": {
-        "cx": 960,
-        "cy": 545,
+        "cx": 480,
+        "cy": 905,
         "w": 440,
         "h": 62
       },
@@ -4239,7 +4453,7 @@
       }
     },
     {
-      "id": "lb_207",
+      "id": "lb_215",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4265,7 +4479,7 @@
       }
     },
     {
-      "id": "lb_208",
+      "id": "lb_216",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4291,7 +4505,7 @@
       }
     },
     {
-      "id": "lb_209",
+      "id": "lb_217",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4317,7 +4531,7 @@
       }
     },
     {
-      "id": "lb_210",
+      "id": "lb_218",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4343,7 +4557,7 @@
       }
     },
     {
-      "id": "lb_211",
+      "id": "lb_219",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4369,7 +4583,7 @@
       }
     },
     {
-      "id": "lb_212",
+      "id": "lb_220",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4395,7 +4609,7 @@
       }
     },
     {
-      "id": "lb_213",
+      "id": "lb_221",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4421,7 +4635,7 @@
       }
     },
     {
-      "id": "lb_214",
+      "id": "lb_222",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4447,7 +4661,7 @@
       }
     },
     {
-      "id": "lb_216",
+      "id": "lb_224",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4462,7 +4676,7 @@
       "color": "#111111",
       "z": 66,
       "in": 156.25,
-      "out": 165.44,
+      "out": 156,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4473,12 +4687,12 @@
       }
     },
     {
-      "id": "lb_217",
+      "id": "lb_225",
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Cobra real",
-      "fontSize": 44,
+      "content": "Muchísimo el riesgo si",
+      "fontSize": 37,
       "box": {
         "cx": 480,
         "cy": 695,
@@ -4487,8 +4701,8 @@
       },
       "color": "#111111",
       "z": 66,
-      "in": 165.69,
-      "out": 183.46,
+      "in": 156.25,
+      "out": 178.92,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4499,11 +4713,11 @@
       }
     },
     {
-      "id": "lb_218",
+      "id": "lb_226",
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Veneno mortal",
+      "content": "Cobra real",
       "fontSize": 44,
       "box": {
         "cx": 960,
@@ -4513,8 +4727,8 @@
       },
       "color": "#111111",
       "z": 66,
-      "in": 175.75,
-      "out": 183.46,
+      "in": 165.69,
+      "out": 178.92,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4525,15 +4739,41 @@
       }
     },
     {
-      "id": "lb_220",
+      "id": "lb_228",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Veneno mortal",
+      "fontSize": 44,
+      "box": {
+        "cx": 1440,
+        "cy": 695,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 175.75,
+      "out": 178.92,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_230",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Cobra australiana",
       "fontSize": 44,
       "box": {
-        "cx": 1440,
-        "cy": 695,
+        "cx": 480,
+        "cy": 545,
         "w": 440,
         "h": 62
       },
@@ -4551,22 +4791,22 @@
       }
     },
     {
-      "id": "lb_222",
+      "id": "lb_231",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Posadultas, aunque por…",
       "fontSize": 35,
       "box": {
-        "cx": 480,
-        "cy": 545,
+        "cx": 620,
+        "cy": 705,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 183.71,
-      "out": 204.64,
+      "out": 193.98,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4577,22 +4817,22 @@
       }
     },
     {
-      "id": "lb_223",
+      "id": "lb_232",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Mamba negra",
       "fontSize": 44,
       "box": {
-        "cx": 960,
-        "cy": 545,
+        "cx": 1300,
+        "cy": 705,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 189.99,
-      "out": 204.64,
+      "out": 193.98,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4603,14 +4843,14 @@
       }
     },
     {
-      "id": "lb_224",
+      "id": "lb_234",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Mamba en la granja",
       "fontSize": 44,
       "box": {
-        "cx": 1440,
+        "cx": 480,
         "cy": 545,
         "w": 440,
         "h": 62
@@ -4629,15 +4869,15 @@
       }
     },
     {
-      "id": "lb_225",
+      "id": "lb_235",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Una hora letal",
       "fontSize": 44,
       "box": {
-        "cx": 480,
-        "cy": 905,
+        "cx": 1440,
+        "cy": 545,
         "w": 440,
         "h": 62
       },
@@ -4655,14 +4895,14 @@
       }
     },
     {
-      "id": "lb_226",
+      "id": "lb_236",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Nombre, en",
       "fontSize": 44,
       "box": {
-        "cx": 960,
+        "cx": 480,
         "cy": 905,
         "w": 440,
         "h": 62
@@ -4681,7 +4921,7 @@
       }
     },
     {
-      "id": "lb_227",
+      "id": "lb_237",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4707,22 +4947,22 @@
       }
     },
     {
-      "id": "lb_228",
+      "id": "lb_238",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Nombre, en",
       "fontSize": 44,
       "box": {
-        "cx": 620,
-        "cy": 705,
+        "cx": 480,
+        "cy": 695,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 204.89,
-      "out": 208.14,
+      "out": 213.38,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4733,22 +4973,22 @@
       }
     },
     {
-      "id": "lb_230",
+      "id": "lb_240",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Boca negra",
       "fontSize": 44,
       "box": {
-        "cx": 480,
-        "cy": 545,
+        "cx": 1440,
+        "cy": 695,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 208.39,
-      "out": 227.02,
+      "out": 213.38,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4759,22 +4999,22 @@
       }
     },
     {
-      "id": "lb_231",
+      "id": "lb_242",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Mordedura en minutos",
       "fontSize": 41,
       "box": {
-        "cx": 1440,
-        "cy": 545,
+        "cx": 960,
+        "cy": 745,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 213.63,
-      "out": 227.02,
+      "out": 216.54,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4785,15 +5025,15 @@
       }
     },
     {
-      "id": "lb_232",
+      "id": "lb_243",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Inyección de veneno",
       "fontSize": 43,
       "box": {
-        "cx": 480,
-        "cy": 905,
+        "cx": 620,
+        "cy": 705,
         "w": 440,
         "h": 62
       },
@@ -4811,15 +5051,15 @@
       }
     },
     {
-      "id": "lb_233",
+      "id": "lb_244",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Efectos del veneno",
       "fontSize": 44,
       "box": {
-        "cx": 1440,
-        "cy": 905,
+        "cx": 1300,
+        "cy": 705,
         "w": 440,
         "h": 62
       },
@@ -4837,7 +5077,7 @@
       }
     },
     {
-      "id": "lb_234",
+      "id": "lb_246",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4845,14 +5085,14 @@
       "fontSize": 39,
       "box": {
         "cx": 480,
-        "cy": 695,
+        "cy": 545,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 227.27,
-      "out": 238.22,
+      "out": 262.88,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4863,7 +5103,7 @@
       }
     },
     {
-      "id": "lb_236",
+      "id": "lb_247",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4871,14 +5111,14 @@
       "fontSize": 41,
       "box": {
         "cx": 1440,
-        "cy": 695,
+        "cy": 545,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 231.77,
-      "out": 238.22,
+      "out": 262.88,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4889,22 +5129,22 @@
       }
     },
     {
-      "id": "lb_238",
+      "id": "lb_248",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Propagación del veneno",
       "fontSize": 37,
       "box": {
-        "cx": 960,
-        "cy": 745,
+        "cx": 480,
+        "cy": 905,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 238.47,
-      "out": 244.34,
+      "out": 262.88,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -4915,15 +5155,15 @@
       }
     },
     {
-      "id": "lb_239",
+      "id": "lb_249",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Mantener la calma",
       "fontSize": 44,
       "box": {
-        "cx": 620,
-        "cy": 705,
+        "cx": 960,
+        "cy": 905,
         "w": 440,
         "h": 62
       },
@@ -4941,15 +5181,15 @@
       }
     },
     {
-      "id": "lb_240",
+      "id": "lb_250",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Avispa de mar",
       "fontSize": 44,
       "box": {
-        "cx": 1300,
-        "cy": 705,
+        "cx": 1440,
+        "cy": 905,
         "w": 440,
         "h": 62
       },
@@ -4967,7 +5207,7 @@
       }
     },
     {
-      "id": "lb_242",
+      "id": "lb_251",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -4993,115 +5233,11 @@
       }
     },
     {
-      "id": "lb_243",
+      "id": "lb_252",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Puedas imaginarte",
-      "fontSize": 44,
-      "box": {
-        "cx": 480,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 270.97,
-      "out": 284.14,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_244",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Puedas imaginarte",
-      "fontSize": 44,
-      "box": {
-        "cx": 1440,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 270.97,
-      "out": 284.14,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_245",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Costa australiana",
-      "fontSize": 44,
-      "box": {
-        "cx": 480,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 272.29,
-      "out": 284.14,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_246",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Lucha en el agua",
-      "fontSize": 44,
-      "box": {
-        "cx": 1440,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 278.65,
-      "out": 284.14,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_247",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Agua por sí",
       "fontSize": 44,
       "box": {
         "cx": 480,
@@ -5111,8 +5247,8 @@
       },
       "color": "#111111",
       "z": 66,
-      "in": 284.39,
-      "out": 295.37,
+      "in": 270.97,
+      "out": 278.4,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5123,11 +5259,11 @@
       }
     },
     {
-      "id": "lb_248",
+      "id": "lb_253",
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Auxilio requerido",
+      "content": "Puedas imaginarte",
       "fontSize": 44,
       "box": {
         "cx": 960,
@@ -5137,8 +5273,8 @@
       },
       "color": "#111111",
       "z": 66,
-      "in": 287.79,
-      "out": 295.37,
+      "in": 270.97,
+      "out": 278.4,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5149,11 +5285,11 @@
       }
     },
     {
-      "id": "lb_249",
+      "id": "lb_254",
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Orina en picadura",
+      "content": "Costa australiana",
       "fontSize": 44,
       "box": {
         "cx": 1440,
@@ -5163,8 +5299,8 @@
       },
       "color": "#111111",
       "z": 66,
-      "in": 291.05,
-      "out": 295.37,
+      "in": 272.29,
+      "out": 278.4,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5175,15 +5311,119 @@
       }
     },
     {
-      "id": "lb_250",
+      "id": "lb_255",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Lucha en el agua",
+      "fontSize": 44,
+      "box": {
+        "cx": 620,
+        "cy": 705,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 278.65,
+      "out": 287.54,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_256",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Agua por sí",
+      "fontSize": 44,
+      "box": {
+        "cx": 1300,
+        "cy": 705,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 284.39,
+      "out": 287.54,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_258",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Auxilio requerido",
+      "fontSize": 44,
+      "box": {
+        "cx": 960,
+        "cy": 745,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 287.79,
+      "out": 290.8,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_259",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Orina en picadura",
+      "fontSize": 44,
+      "box": {
+        "cx": 480,
+        "cy": 695,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 291.05,
+      "out": 304.46,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_261",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Dolor agudo",
       "fontSize": 44,
       "box": {
-        "cx": 1300,
-        "cy": 705,
+        "cx": 1440,
+        "cy": 695,
         "w": 440,
         "h": 62
       },
@@ -5201,22 +5441,22 @@
       }
     },
     {
-      "id": "lb_252",
+      "id": "lb_263",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Vinagre en playa",
       "fontSize": 44,
       "box": {
-        "cx": 960,
-        "cy": 745,
+        "cx": 480,
+        "cy": 545,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 304.71,
-      "out": 316.26,
+      "out": 320.02,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5227,15 +5467,15 @@
       }
     },
     {
-      "id": "lb_253",
+      "id": "lb_264",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Cocodrilo marino",
       "fontSize": 44,
       "box": {
-        "cx": 480,
-        "cy": 695,
+        "cx": 960,
+        "cy": 545,
         "w": 440,
         "h": 62
       },
@@ -5253,22 +5493,22 @@
       }
     },
     {
-      "id": "lb_254",
+      "id": "lb_265",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Vinagre colgadas junto",
       "fontSize": 37,
       "box": {
-        "cx": 480,
-        "cy": 545,
+        "cx": 620,
+        "cy": 705,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 320.27,
-      "out": 354.01,
+      "out": 331.62,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5279,22 +5519,22 @@
       }
     },
     {
-      "id": "lb_255",
+      "id": "lb_266",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Emboscada acuática",
       "fontSize": 44,
       "box": {
-        "cx": 960,
-        "cy": 545,
+        "cx": 1300,
+        "cy": 705,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 325.81,
-      "out": 354.01,
+      "out": 331.62,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5305,14 +5545,14 @@
       }
     },
     {
-      "id": "lb_256",
+      "id": "lb_268",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Cruzar río peligroso",
       "fontSize": 41,
       "box": {
-        "cx": 1440,
+        "cx": 480,
         "cy": 545,
         "w": 440,
         "h": 62
@@ -5331,15 +5571,15 @@
       }
     },
     {
-      "id": "lb_257",
+      "id": "lb_269",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Cocodrilo de 6 metros",
       "fontSize": 39,
       "box": {
-        "cx": 480,
-        "cy": 905,
+        "cx": 1440,
+        "cy": 545,
         "w": 440,
         "h": 62
       },
@@ -5357,14 +5597,14 @@
       }
     },
     {
-      "id": "lb_258",
+      "id": "lb_270",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Causa entre encomunidades",
       "fontSize": 34,
       "box": {
-        "cx": 960,
+        "cx": 480,
         "cy": 905,
         "w": 440,
         "h": 62
@@ -5383,7 +5623,7 @@
       }
     },
     {
-      "id": "lb_259",
+      "id": "lb_271",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -5409,22 +5649,22 @@
       }
     },
     {
-      "id": "lb_260",
+      "id": "lb_272",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Mordedura aplastante",
       "fontSize": 41,
       "box": {
-        "cx": 1300,
-        "cy": 705,
+        "cx": 960,
+        "cy": 695,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 358.25,
-      "out": 366.52,
+      "out": 377.62,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5435,22 +5675,22 @@
       }
     },
     {
-      "id": "lb_262",
+      "id": "lb_274",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Rotación mortal",
       "fontSize": 44,
       "box": {
-        "cx": 480,
-        "cy": 545,
+        "cx": 1440,
+        "cy": 695,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 366.77,
-      "out": 388,
+      "out": 377.62,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5461,22 +5701,22 @@
       }
     },
     {
-      "id": "lb_263",
+      "id": "lb_276",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Adulto",
       "fontSize": 44,
       "box": {
-        "cx": 1440,
-        "cy": 545,
+        "cx": 960,
+        "cy": 745,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 377.87,
-      "out": 388,
+      "out": 378.36,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5487,15 +5727,15 @@
       }
     },
     {
-      "id": "lb_264",
+      "id": "lb_277",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Dominar al cocodrilo",
       "fontSize": 41,
       "box": {
-        "cx": 480,
-        "cy": 905,
+        "cx": 620,
+        "cy": 705,
         "w": 440,
         "h": 62
       },
@@ -5513,7 +5753,7 @@
       }
     },
     {
-      "id": "lb_265",
+      "id": "lb_278",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -5521,14 +5761,14 @@
       "fontSize": 39,
       "box": {
         "cx": 480,
-        "cy": 695,
+        "cy": 545,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 388.25,
-      "out": 400.8,
+      "out": 416.48,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5539,7 +5779,7 @@
       }
     },
     {
-      "id": "lb_267",
+      "id": "lb_279",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -5547,14 +5787,14 @@
       "fontSize": 44,
       "box": {
         "cx": 1440,
-        "cy": 695,
+        "cy": 545,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 389.71,
-      "out": 400.8,
+      "out": 416.48,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5565,22 +5805,22 @@
       }
     },
     {
-      "id": "lb_269",
+      "id": "lb_280",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Intentarlo jamás en la",
       "fontSize": 37,
       "box": {
-        "cx": 960,
-        "cy": 745,
+        "cx": 480,
+        "cy": 905,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 401.05,
-      "out": 402.92,
+      "out": 416.48,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5591,15 +5831,15 @@
       }
     },
     {
-      "id": "lb_270",
+      "id": "lb_281",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Hipopótamo en tierra",
       "fontSize": 41,
       "box": {
-        "cx": 620,
-        "cy": 705,
+        "cx": 960,
+        "cy": 905,
         "w": 440,
         "h": 62
       },
@@ -5617,7 +5857,7 @@
       }
     },
     {
-      "id": "lb_272",
+      "id": "lb_282",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -5643,14 +5883,14 @@
       }
     },
     {
-      "id": "lb_273",
+      "id": "lb_283",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Hipopótamo pacífico",
       "fontSize": 43,
       "box": {
-        "cx": 960,
+        "cx": 1440,
         "cy": 545,
         "w": 440,
         "h": 62
@@ -5669,7 +5909,33 @@
       }
     },
     {
-      "id": "lb_274",
+      "id": "lb_284",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Canoa volcada",
+      "fontSize": 44,
+      "box": {
+        "cx": 480,
+        "cy": 905,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 433.99,
+      "out": 441.54,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_285",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -5677,7 +5943,7 @@
       "fontSize": 43,
       "box": {
         "cx": 1440,
-        "cy": 545,
+        "cy": 905,
         "w": 440,
         "h": 62
       },
@@ -5695,7 +5961,7 @@
       }
     },
     {
-      "id": "lb_275",
+      "id": "lb_286",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -5703,14 +5969,14 @@
       "fontSize": 43,
       "box": {
         "cx": 480,
-        "cy": 545,
+        "cy": 695,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 441.79,
-      "out": 467.66,
+      "out": 458.02,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5721,7 +5987,33 @@
       }
     },
     {
-      "id": "lb_276",
+      "id": "lb_287",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Si vuelca una canoa",
+      "fontSize": 43,
+      "box": {
+        "cx": 960,
+        "cy": 695,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 441.79,
+      "out": 458.02,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_288",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -5729,14 +6021,14 @@
       "fontSize": 44,
       "box": {
         "cx": 1440,
-        "cy": 545,
+        "cy": 695,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 456.41,
-      "out": 467.66,
+      "out": 458.02,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5747,15 +6039,15 @@
       }
     },
     {
-      "id": "lb_277",
+      "id": "lb_289",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Pues que reconocer los",
       "fontSize": 37,
       "box": {
-        "cx": 480,
-        "cy": 905,
+        "cx": 620,
+        "cy": 705,
         "w": 440,
         "h": 62
       },
@@ -5773,22 +6065,22 @@
       }
     },
     {
-      "id": "lb_278",
+      "id": "lb_291",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Virus en nervios",
       "fontSize": 44,
       "box": {
-        "cx": 480,
-        "cy": 695,
+        "cx": 960,
+        "cy": 745,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 467.91,
-      "out": 490.6,
+      "out": 481.84,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5799,14 +6091,14 @@
       }
     },
     {
-      "id": "lb_279",
+      "id": "lb_292",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Síntomas de rabia",
       "fontSize": 44,
       "box": {
-        "cx": 960,
+        "cx": 480,
         "cy": 695,
         "w": 440,
         "h": 62
@@ -5825,22 +6117,22 @@
       }
     },
     {
-      "id": "lb_280",
+      "id": "lb_293",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Puede tardar desde unos",
       "fontSize": 35,
       "box": {
-        "cx": 620,
-        "cy": 705,
+        "cx": 480,
+        "cy": 545,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 490.85,
-      "out": 497.8,
+      "out": 513.4,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5851,22 +6143,22 @@
       }
     },
     {
-      "id": "lb_282",
+      "id": "lb_294",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Vacunación veterinaria",
       "fontSize": 37,
       "box": {
-        "cx": 960,
-        "cy": 745,
+        "cx": 1440,
+        "cy": 545,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
       "in": 498.05,
-      "out": 502.84,
+      "out": 513.4,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -5877,7 +6169,7 @@
       }
     },
     {
-      "id": "lb_283",
+      "id": "lb_295",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -5885,7 +6177,7 @@
       "fontSize": 44,
       "box": {
         "cx": 480,
-        "cy": 695,
+        "cy": 905,
         "w": 440,
         "h": 62
       },
@@ -5903,7 +6195,7 @@
       }
     },
     {
-      "id": "lb_285",
+      "id": "lb_296",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -5911,7 +6203,7 @@
       "fontSize": 37,
       "box": {
         "cx": 1440,
-        "cy": 695,
+        "cy": 905,
         "w": 440,
         "h": 62
       },
@@ -5929,15 +6221,15 @@
       }
     },
     {
-      "id": "lb_287",
+      "id": "lb_297",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Niños con perros",
       "fontSize": 44,
       "box": {
-        "cx": 480,
-        "cy": 545,
+        "cx": 620,
+        "cy": 705,
         "w": 440,
         "h": 62
       },
@@ -5955,59 +6247,7 @@
       }
     },
     {
-      "id": "lb_288",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Pues principalmente en…",
-      "fontSize": 35,
-      "box": {
-        "cx": 620,
-        "cy": 705,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 517.75,
-      "out": 517.5,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_289",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Pues principalmente en…",
-      "fontSize": 35,
-      "box": {
-        "cx": 1300,
-        "cy": 705,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 517.75,
-      "out": 517.5,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_291",
+      "id": "lb_298",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -6033,7 +6273,7 @@
       }
     },
     {
-      "id": "lb_292",
+      "id": "lb_299",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -6059,7 +6299,7 @@
       }
     },
     {
-      "id": "lb_293",
+      "id": "lb_300",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -6085,7 +6325,7 @@
       }
     },
     {
-      "id": "lb_294",
+      "id": "lb_301",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -6111,7 +6351,7 @@
       }
     },
     {
-      "id": "lb_295",
+      "id": "lb_302",
       "type": "text",
       "label": true,
       "fixed": true,
@@ -6126,7 +6366,7 @@
       "color": "#111111",
       "z": 66,
       "in": 517.75,
-      "out": 530.72,
+      "out": 517.5,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -6137,15 +6377,93 @@
       }
     },
     {
-      "id": "lb_296",
+      "id": "lb_303",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Pues principalmente en…",
+      "fontSize": 35,
+      "box": {
+        "cx": 960,
+        "cy": 695,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 517.75,
+      "out": 517.5,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_305",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Pues principalmente en…",
+      "fontSize": 35,
+      "box": {
+        "cx": 1440,
+        "cy": 695,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 517.75,
+      "out": 517.5,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_307",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Pues principalmente en…",
+      "fontSize": 35,
+      "box": {
+        "cx": 960,
+        "cy": 745,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 517.75,
+      "out": 520.1,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_308",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Recuento de muertes",
       "fontSize": 43,
       "box": {
-        "cx": 960,
-        "cy": 695,
+        "cx": 620,
+        "cy": 705,
         "w": 440,
         "h": 62
       },
@@ -6163,15 +6481,15 @@
       }
     },
     {
-      "id": "lb_298",
+      "id": "lb_309",
       "type": "text",
       "label": true,
       "fixed": true,
       "content": "Tiburones inofensivos",
       "fontSize": 39,
       "box": {
-        "cx": 1440,
-        "cy": 695,
+        "cx": 1300,
+        "cy": 705,
         "w": 440,
         "h": 62
       },
@@ -6189,282 +6507,22 @@
       }
     },
     {
-      "id": "lb_300",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Cada año en distintas",
-      "fontSize": 39,
-      "box": {
-        "cx": 620,
-        "cy": 705,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 544.19,
-      "out": 546.08,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_301",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Cada año en distintas",
-      "fontSize": 39,
-      "box": {
-        "cx": 1300,
-        "cy": 705,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 544.19,
-      "out": 546.08,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_303",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Conflicto humano",
-      "fontSize": 44,
-      "box": {
-        "cx": 480,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 546.33,
-      "out": 579.02,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_304",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Estadística incómoda",
-      "fontSize": 41,
-      "box": {
-        "cx": 960,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 557.75,
-      "out": 579.02,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_305",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Ritmo miles de",
-      "fontSize": 44,
-      "box": {
-        "cx": 1440,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 560.83,
-      "out": 579.02,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_306",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Amenazas reales",
-      "fontSize": 44,
-      "box": {
-        "cx": 480,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 567.49,
-      "out": 579.02,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_307",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Protección integral",
-      "fontSize": 43,
-      "box": {
-        "cx": 960,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 571.27,
-      "out": 579.02,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_308",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Cualquier mosquito,…",
-      "fontSize": 41,
-      "box": {
-        "cx": 1440,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 578.47,
-      "out": 579.02,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_309",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Suscribirse",
-      "fontSize": 44,
-      "box": {
-        "cx": 1440,
-        "cy": 545,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 583.15,
-      "out": 612.32,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "lb_310",
-      "type": "text",
-      "label": true,
-      "fixed": true,
-      "content": "Animal inteligente",
-      "fontSize": 44,
-      "box": {
-        "cx": 480,
-        "cy": 905,
-        "w": 440,
-        "h": 62
-      },
-      "color": "#111111",
-      "z": 66,
-      "in": 599.13,
-      "out": 612.32,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
       "id": "lb_311",
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Despedida",
-      "fontSize": 44,
+      "content": "Cada año en distintas",
+      "fontSize": 39,
       "box": {
-        "cx": 1440,
-        "cy": 905,
+        "cx": 480,
+        "cy": 545,
         "w": 440,
         "h": 62
       },
       "color": "#111111",
       "z": 66,
-      "in": 604.81,
-      "out": 612.32,
+      "in": 544.19,
+      "out": 560.58,
       "enter": {
         "kind": "handwrite",
         "duration": 0.4
@@ -6479,10 +6537,270 @@
       "type": "text",
       "label": true,
       "fixed": true,
-      "content": "Despedida",
+      "content": "Cada año en distintas",
+      "fontSize": 39,
+      "box": {
+        "cx": 1440,
+        "cy": 545,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 544.19,
+      "out": 560.58,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_313",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Conflicto humano",
       "fontSize": 44,
       "box": {
         "cx": 480,
+        "cy": 905,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 546.33,
+      "out": 560.58,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_314",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Estadística incómoda",
+      "fontSize": 41,
+      "box": {
+        "cx": 1440,
+        "cy": 905,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 557.75,
+      "out": 560.58,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_315",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Ritmo miles de",
+      "fontSize": 44,
+      "box": {
+        "cx": 480,
+        "cy": 695,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 560.83,
+      "out": 578.22,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_316",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Amenazas reales",
+      "fontSize": 44,
+      "box": {
+        "cx": 960,
+        "cy": 695,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 567.49,
+      "out": 578.22,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_317",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Protección integral",
+      "fontSize": 43,
+      "box": {
+        "cx": 1440,
+        "cy": 695,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 571.27,
+      "out": 578.22,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_318",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Cualquier mosquito,…",
+      "fontSize": 41,
+      "box": {
+        "cx": 620,
+        "cy": 705,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 578.47,
+      "out": 582.9,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_320",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Suscribirse",
+      "fontSize": 44,
+      "box": {
+        "cx": 960,
+        "cy": 745,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 583.15,
+      "out": 598.88,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_321",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Animal inteligente",
+      "fontSize": 44,
+      "box": {
+        "cx": 480,
+        "cy": 695,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 599.13,
+      "out": 614.1,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_322",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Despedida",
+      "fontSize": 44,
+      "box": {
+        "cx": 960,
+        "cy": 695,
+        "w": 440,
+        "h": 62
+      },
+      "color": "#111111",
+      "z": 66,
+      "in": 604.81,
+      "out": 614.1,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "lb_324",
+      "type": "text",
+      "label": true,
+      "fixed": true,
+      "content": "Despedida",
+      "fontSize": 44,
+      "box": {
+        "cx": 1440,
         "cy": 695,
         "w": 440,
         "h": 62
@@ -6501,7 +6819,7 @@
       }
     },
     {
-      "id": "ar_182",
+      "id": "ar_188",
       "type": "arrow",
       "a": {
         "x": 804,
@@ -6526,7 +6844,7 @@
       }
     },
     {
-      "id": "ar_186",
+      "id": "ar_192",
       "type": "arrow",
       "a": {
         "x": 639,
@@ -6551,7 +6869,7 @@
       }
     },
     {
-      "id": "ar_188",
+      "id": "ar_194",
       "type": "arrow",
       "a": {
         "x": 1119,
@@ -6576,7 +6894,7 @@
       }
     },
     {
-      "id": "ar_192",
+      "id": "ar_198",
       "type": "arrow",
       "a": {
         "x": 804,
@@ -6601,7 +6919,7 @@
       }
     },
     {
-      "id": "ar_199",
+      "id": "ar_205",
       "type": "arrow",
       "a": {
         "x": 639,
@@ -6626,7 +6944,7 @@
       }
     },
     {
-      "id": "ar_200",
+      "id": "ar_206",
       "type": "arrow",
       "a": {
         "x": 1119,
@@ -6651,7 +6969,7 @@
       }
     },
     {
-      "id": "ar_204",
+      "id": "ar_210",
       "type": "arrow",
       "a": {
         "x": 804,
@@ -6664,8 +6982,8 @@
       "curve": "up",
       "color": "#EE2B37",
       "z": 40,
-      "in": 91.41,
-      "out": 98.18,
+      "in": 83.33,
+      "out": 91.06,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -6676,7 +6994,7 @@
       }
     },
     {
-      "id": "ar_215",
+      "id": "ar_223",
       "type": "arrow",
       "a": {
         "x": 804,
@@ -6701,7 +7019,7 @@
       }
     },
     {
-      "id": "ar_219",
+      "id": "ar_227",
       "type": "arrow",
       "a": {
         "x": 639,
@@ -6714,33 +7032,8 @@
       "curve": "up",
       "color": "#EE2B37",
       "z": 40,
-      "in": 175.85,
-      "out": 183.46,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_221",
-      "type": "arrow",
-      "a": {
-        "x": 1119,
-        "y": 294
-      },
-      "b": {
-        "x": 1281,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 179.27,
-      "out": 183.46,
+      "in": 165.79,
+      "out": 178.92,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -6754,18 +7047,18 @@
       "id": "ar_229",
       "type": "arrow",
       "a": {
-        "x": 804,
-        "y": 269
+        "x": 1119,
+        "y": 294
       },
       "b": {
-        "x": 1116,
-        "y": 269
+        "x": 1281,
+        "y": 294
       },
       "curve": "up",
       "color": "#EE2B37",
       "z": 40,
-      "in": 204.99,
-      "out": 208.14,
+      "in": 175.85,
+      "out": 178.92,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -6776,7 +7069,32 @@
       }
     },
     {
-      "id": "ar_235",
+      "id": "ar_233",
+      "type": "arrow",
+      "a": {
+        "x": 804,
+        "y": 269
+      },
+      "b": {
+        "x": 1116,
+        "y": 269
+      },
+      "curve": "up",
+      "color": "#EE2B37",
+      "z": 40,
+      "in": 190.09,
+      "out": 193.98,
+      "enter": {
+        "kind": "draw",
+        "duration": 0.5
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "ar_239",
       "type": "arrow",
       "a": {
         "x": 639,
@@ -6789,33 +7107,8 @@
       "curve": "up",
       "color": "#EE2B37",
       "z": 40,
-      "in": 227.44,
-      "out": 238.22,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_237",
-      "type": "arrow",
-      "a": {
-        "x": 1119,
-        "y": 294
-      },
-      "b": {
-        "x": 1281,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 231.87,
-      "out": 238.22,
+      "in": 204.99,
+      "out": 213.38,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -6829,18 +7122,18 @@
       "id": "ar_241",
       "type": "arrow",
       "a": {
-        "x": 804,
-        "y": 269
+        "x": 1119,
+        "y": 294
       },
       "b": {
-        "x": 1116,
-        "y": 269
+        "x": 1281,
+        "y": 294
       },
       "curve": "up",
       "color": "#EE2B37",
       "z": 40,
-      "in": 253.15,
-      "out": 262.88,
+      "in": 208.49,
+      "out": 213.38,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -6851,7 +7144,7 @@
       }
     },
     {
-      "id": "ar_251",
+      "id": "ar_245",
       "type": "arrow",
       "a": {
         "x": 804,
@@ -6860,6 +7153,81 @@
       "b": {
         "x": 1116,
         "y": 269
+      },
+      "curve": "up",
+      "color": "#EE2B37",
+      "z": 40,
+      "in": 223.09,
+      "out": 227.02,
+      "enter": {
+        "kind": "draw",
+        "duration": 0.5
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "ar_257",
+      "type": "arrow",
+      "a": {
+        "x": 804,
+        "y": 269
+      },
+      "b": {
+        "x": 1116,
+        "y": 269
+      },
+      "curve": "up",
+      "color": "#EE2B37",
+      "z": 40,
+      "in": 284.49,
+      "out": 287.54,
+      "enter": {
+        "kind": "draw",
+        "duration": 0.5
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "ar_260",
+      "type": "arrow",
+      "a": {
+        "x": 639,
+        "y": 294
+      },
+      "b": {
+        "x": 801,
+        "y": 294
+      },
+      "curve": "up",
+      "color": "#EE2B37",
+      "z": 40,
+      "in": 295.72,
+      "out": 304.46,
+      "enter": {
+        "kind": "draw",
+        "duration": 0.5
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "ar_262",
+      "type": "arrow",
+      "a": {
+        "x": 1119,
+        "y": 294
+      },
+      "b": {
+        "x": 1281,
+        "y": 294
       },
       "curve": "up",
       "color": "#EE2B37",
@@ -6876,7 +7244,7 @@
       }
     },
     {
-      "id": "ar_261",
+      "id": "ar_267",
       "type": "arrow",
       "a": {
         "x": 804,
@@ -6885,12 +7253,37 @@
       "b": {
         "x": 1116,
         "y": 269
+      },
+      "curve": "up",
+      "color": "#EE2B37",
+      "z": 40,
+      "in": 325.91,
+      "out": 331.62,
+      "enter": {
+        "kind": "draw",
+        "duration": 0.5
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "ar_273",
+      "type": "arrow",
+      "a": {
+        "x": 639,
+        "y": 294
+      },
+      "b": {
+        "x": 801,
+        "y": 294
       },
       "curve": "up",
       "color": "#EE2B37",
       "z": 40,
       "in": 358.35,
-      "out": 366.52,
+      "out": 377.62,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -6901,32 +7294,7 @@
       }
     },
     {
-      "id": "ar_266",
-      "type": "arrow",
-      "a": {
-        "x": 639,
-        "y": 294
-      },
-      "b": {
-        "x": 801,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 388.35,
-      "out": 400.8,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_268",
+      "id": "ar_275",
       "type": "arrow",
       "a": {
         "x": 1119,
@@ -6939,108 +7307,8 @@
       "curve": "up",
       "color": "#EE2B37",
       "z": 40,
-      "in": 389.81,
-      "out": 400.8,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_271",
-      "type": "arrow",
-      "a": {
-        "x": 804,
-        "y": 269
-      },
-      "b": {
-        "x": 1116,
-        "y": 269
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 415.12,
-      "out": 416.48,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_281",
-      "type": "arrow",
-      "a": {
-        "x": 804,
-        "y": 269
-      },
-      "b": {
-        "x": 1116,
-        "y": 269
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 490.95,
-      "out": 497.8,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_284",
-      "type": "arrow",
-      "a": {
-        "x": 639,
-        "y": 294
-      },
-      "b": {
-        "x": 801,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 504.4,
-      "out": 513.4,
-      "enter": {
-        "kind": "draw",
-        "duration": 0.5
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.15
-      }
-    },
-    {
-      "id": "ar_286",
-      "type": "arrow",
-      "a": {
-        "x": 1119,
-        "y": 294
-      },
-      "b": {
-        "x": 1281,
-        "y": 294
-      },
-      "curve": "up",
-      "color": "#EE2B37",
-      "z": 40,
-      "in": 507.75,
-      "out": 513.4,
+      "in": 366.87,
+      "out": 377.62,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -7064,8 +7332,8 @@
       "curve": "up",
       "color": "#EE2B37",
       "z": 40,
-      "in": 517.85,
-      "out": 517.5,
+      "in": 466.42,
+      "out": 467.66,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -7076,7 +7344,7 @@
       }
     },
     {
-      "id": "ar_297",
+      "id": "ar_304",
       "type": "arrow",
       "a": {
         "x": 639,
@@ -7089,8 +7357,8 @@
       "curve": "up",
       "color": "#EE2B37",
       "z": 40,
-      "in": 520.45,
-      "out": 530.72,
+      "in": 517.85,
+      "out": 517.5,
       "enter": {
         "kind": "draw",
         "duration": 0.5
@@ -7101,7 +7369,7 @@
       }
     },
     {
-      "id": "ar_299",
+      "id": "ar_306",
       "type": "arrow",
       "a": {
         "x": 1119,
@@ -7110,6 +7378,31 @@
       "b": {
         "x": 1281,
         "y": 294
+      },
+      "curve": "up",
+      "color": "#EE2B37",
+      "z": 40,
+      "in": 517.85,
+      "out": 517.5,
+      "enter": {
+        "kind": "draw",
+        "duration": 0.5
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "ar_310",
+      "type": "arrow",
+      "a": {
+        "x": 804,
+        "y": 269
+      },
+      "b": {
+        "x": 1116,
+        "y": 269
       },
       "curve": "up",
       "color": "#EE2B37",
@@ -7126,7 +7419,7 @@
       }
     },
     {
-      "id": "ar_302",
+      "id": "ar_319",
       "type": "arrow",
       "a": {
         "x": 804,
@@ -7139,8 +7432,58 @@
       "curve": "up",
       "color": "#EE2B37",
       "z": 40,
-      "in": 544.29,
-      "out": 546.08,
+      "in": 579.37,
+      "out": 582.9,
+      "enter": {
+        "kind": "draw",
+        "duration": 0.5
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "ar_323",
+      "type": "arrow",
+      "a": {
+        "x": 639,
+        "y": 294
+      },
+      "b": {
+        "x": 801,
+        "y": 294
+      },
+      "curve": "up",
+      "color": "#EE2B37",
+      "z": 40,
+      "in": 604.91,
+      "out": 614.1,
+      "enter": {
+        "kind": "draw",
+        "duration": 0.5
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.15
+      }
+    },
+    {
+      "id": "ar_325",
+      "type": "arrow",
+      "a": {
+        "x": 1119,
+        "y": 294
+      },
+      "b": {
+        "x": 1281,
+        "y": 294
+      },
+      "curve": "up",
+      "color": "#EE2B37",
+      "z": 40,
+      "in": 612.67,
+      "out": 614.1,
       "enter": {
         "kind": "draw",
         "duration": 0.5
