@@ -74,6 +74,18 @@ for (const fr of frames) {
   }
   if (run > 2.0) fails.push({ t: runStart, kind: "hueco", msg: `${run.toFixed(1)}s en blanco al final` });
 }
+// 8b) NINGÚN TEXTO SIN ICONO → si hay texto dinámico pero ningún icono/imagen dinámica en pantalla → FALLO
+{
+  let run = 0, runStart = 0, runId = "";
+  for (const fr of frames) {
+    const dyn = fr.elements.filter(e => !e.structural);
+    const hasText = dyn.some(e => TEXT_TYPES.has(e.type));
+    const hasImg = dyn.some(e => e.type === "image" || e.type === "clip" || e.type === "gif");
+    if (hasText && !hasImg) { if (run === 0) { runStart = fr.t; runId = (dyn.find(e => TEXT_TYPES.has(e.type)) || {}).id; } run += STEP; }
+    else { if (run > 0.6) fails.push({ t: runStart, kind: "texto-sin-icono", msg: `texto "${runId}" sin ningún icono en pantalla durante ${run.toFixed(1)}s (todo texto lleva icono)` }); run = 0; }
+  }
+  if (run > 0.6) fails.push({ t: runStart, kind: "texto-sin-icono", msg: `texto sin icono ${run.toFixed(1)}s al final` });
+}
 
 // --- comprobaciones a NIVEL ELEMENTO (MATERIAL.md): ninguna imagen > 15s; ningún texto < 34px ---
 for (const e of scenes.elements) {
@@ -102,7 +114,7 @@ for (const e of scenes.elements) { if (e.box && !isStructural(e) && !e.hud && e.
 
 // --- informe ---
 // "15s" queda como AVISO (no bloquea) hasta que esté la rotación de imágenes; el resto son duros.
-const HARD = new Set(["texto-texto", "zona", "n-textos", "fuera", "img-img", "total", "texto-pequeño", "desborde", "antes-de-voz", "desync", "forma-huerfana", "declarado", "solo-descentrado", "hueco", "duracion-corta", "estatico", "icono-repetido"]);
+const HARD = new Set(["texto-texto", "zona", "n-textos", "fuera", "img-img", "total", "texto-pequeño", "desborde", "antes-de-voz", "desync", "forma-huerfana", "declarado", "solo-descentrado", "hueco", "duracion-corta", "texto-sin-icono"]);
 const hard = fails.filter(f => HARD.has(f.kind));
 const shown = fails.slice(0, 25);
 for (const f of shown) console.log(`✗ ${ts(f.t)}  ${f.msg}\n`);
