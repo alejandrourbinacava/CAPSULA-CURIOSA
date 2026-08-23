@@ -1,0 +1,100 @@
+{
+  "human-limit": {
+    "kind": "vector",
+    "query": "a strong muscular human silhouette breaking a chain, pushing beyond limits",
+    "file": "assets/icons/human-limit.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sprinter": {
+    "kind": "vector",
+    "query": "a sprinter athlete running at full speed with motion lines",
+    "file": "assets/icons/sprinter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "stopwatch": {
+    "kind": "vector",
+    "query": "a classic stopwatch timer",
+    "file": "assets/icons/stopwatch.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "marathon-runner": {
+    "kind": "vector",
+    "query": "a marathon runner crossing a finish line ribbon, exhausted and triumphant",
+    "file": "assets/icons/marathon-runner.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "deadlift": {
+    "kind": "vector",
+    "query": "a muscular strongman lifting a huge loaded barbell off the ground, deadlift",
+    "file": "assets/icons/deadlift.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "breath-hold": {
+    "kind": "vector",
+    "query": "a calm person holding their breath underwater with eyes closed",
+    "file": "assets/icons/breath-hold.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "deep-dive": {
+    "kind": "vector",
+    "query": "a freediver descending into the deep dark ocean holding a weight, no tank",
+    "file": "assets/icons/deep-dive.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "space-jump": {
+    "kind": "vector",
+    "query": "a skydiver in a white pressure suit falling from the edge of space with the round Earth below",
+    "file": "assets/icons/space-jump.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "everest": {
+    "kind": "vector",
+    "query": "a mountaineer standing on a snowy mountain summit planting a flag",
+    "file": "assets/icons/everest.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ice-endurance": {
+    "kind": "vector",
+    "query": "a calm person sitting inside a tub full of ice cubes",
+    "file": "assets/icons/ice-endurance.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "free-solo": {
+    "kind": "vector",
+    "query": "a rock climber clinging to a huge vertical cliff face with no rope",
+    "file": "assets/icons/free-solo.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pi-memory": {
+    "kind": "vector",
+    "query": "a human head in profile with the pi symbol and streams of numbers flowing out, memory",
+    "file": "assets/icons/pi-memory.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "longevity": {
+    "kind": "vector",
+    "query": "a happy very old person next to a birthday cake full of many candles",
+    "file": "assets/icons/longevity.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "trophy": {
+    "kind": "vector",
+    "query": "golden trophy cup for a winner",
+    "file": "assets/icons/trophy.png",
+    "normalized": true,
+    "gpt": true
+  }
+}
