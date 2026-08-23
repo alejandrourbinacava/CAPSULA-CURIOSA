@@ -15,7 +15,7 @@
   },
   "mario": {
     "kind": "vector",
-    "query": "friendly cartoon handyman mascot with a big bushy mustache, a round cap and dungarees, waving",
+    "query": "a red baseball cap with a round white patch on the front, and a big bushy black mustache just underneath it, simple cartoon icon",
     "file": "assets/icons/mario.png",
     "normalized": true,
     "gpt": true
