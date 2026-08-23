@@ -201,5 +201,12 @@
     "file": "assets/icons/border-flag.png",
     "normalized": true,
     "gpt": true
+  },
+  "us-independence": {
+    "kind": "vector",
+    "query": "American revolution colonial musket crossed with a rolled declaration scroll and a thirteen star flag, 1776",
+    "file": "assets/icons/us-independence.png",
+    "normalized": true,
+    "gpt": true
   }
 }

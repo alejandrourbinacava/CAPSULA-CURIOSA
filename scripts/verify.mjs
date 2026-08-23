@@ -89,10 +89,12 @@ for (const e of scenes.elements) {
 }
 // 4) ASSETS DECLARADOS: si el storyboard declara un ICO/IMG y no se colocó → FALLO
 for (const id of (scenes.meta.declaredMissing || [])) fails.push({ t: 0, kind: "declarado", msg: `asset declarado "${id}" no aparece (falta generarlo)` });
+// 9) DURACIÓN MÍNIMA: los vídeos deben durar al menos 8 minutos (regla del usuario)
+if (dur < 480) fails.push({ t: 0, kind: "duracion-corta", msg: `el vídeo dura ${(dur / 60).toFixed(1)} min (mínimo 8:00). Alarga el guion con más contenido (no relleno).` });
 
 // --- informe ---
 // "15s" queda como AVISO (no bloquea) hasta que esté la rotación de imágenes; el resto son duros.
-const HARD = new Set(["texto-texto", "zona", "n-textos", "fuera", "img-img", "total", "texto-pequeño", "desborde", "antes-de-voz", "desync", "forma-huerfana", "declarado", "solo-descentrado", "hueco"]);
+const HARD = new Set(["texto-texto", "zona", "n-textos", "fuera", "img-img", "total", "texto-pequeño", "desborde", "antes-de-voz", "desync", "forma-huerfana", "declarado", "solo-descentrado", "hueco", "duracion-corta"]);
 const hard = fails.filter(f => HARD.has(f.kind));
 const shown = fails.slice(0, 25);
 for (const f of shown) console.log(`✗ ${ts(f.t)}  ${f.msg}\n`);

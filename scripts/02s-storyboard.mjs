@@ -101,6 +101,8 @@ const warns = []; let auto = 0; const live = {}; // anchor/id → element (para 
 const closeAll = (t, force) => { for (const k in live) { if (!force && live[k]._keep) continue; live[k].out = Math.min(live[k].out, t); delete live[k]; } }; // KEEP sobrevive al fin de beat; solo CLEAR/OUT lo cierra
 const parseTargets = (s) => [...s.matchAll(/([a-z0-9]+)\s*(?:→|->)\s*([a-z0-9]+)/gi)].map(m => [m[1], m[2]]);
 
+const chapters = []; // HUD de capítulo: {label, icon, t} — icono+texto fijos del sub-tema actual
+
 for (const b of beats) {
   const clamp = (off) => Math.min(b.t1 - 0.05, Math.max(b.t0, b.t0 + off));
   let liveByAnchor = {}, lastBig = null; b._els = [];
@@ -110,6 +112,7 @@ for (const b of beats) {
     const [, , offs, type, rest0] = m; const t = +clamp(parseFloat(offs)).toFixed(2); const rest = rest0.trim();
     if (type === "OUT") { const id = rest.split(/\s+/)[0]; if (live[id]) { live[id].out = t; delete live[id]; } continue; }
     if (type === "CLEAR" || /^CLEAR/i.test(rest)) { closeAll(t, true); continue; }
+    if (type === "CHAP") { const q = rest.match(/"([^"]*)"/); const ic = (rest.match(/"[^"]*"\s+([a-z0-9-]+)/) || [])[1]; chapters.push({ label: q ? q[1] : "", icon: ic || null, t: b.t0 }); continue; }
     // TXT "literal" @anchor entrada size [color]
     if (type === "TXT") {
       const q = rest.match(/"([^"]*)"/); const content = q ? q[1] : rest.split("@")[0].trim();
@@ -182,11 +185,22 @@ for (const b of beats) {
 // FORMAS no sobreviven a su objetivo (nada de tachones/círculos huérfanos)
 for (const e of elements) { if (e.type === "shape" && e.__t) { e.out = Math.min(e.out, e.__t.out); e._target = e.__t.id; delete e.__t; } else if (e.__t) delete e.__t; }
 
+// HUD DE CAPÍTULO → icono + texto FIJOS del sub-tema actual (arriba a la izquierda), persistente
+//   hasta el siguiente CHAP. Estructural: el gate lo ignora y no cuenta para huecos/centrado.
+chapters.forEach((c, i) => {
+  const inT = +c.t.toFixed(2), outT = +(i + 1 < chapters.length ? chapters[i + 1].t : dur).toFixed(2);
+  const src = c.icon ? assetFile(c.icon) : null;
+  let tx = 150;
+  if (src) { elements.push({ id: "chapicon" + i, type: "image", kind: "vector", src, box: { cx: 105, cy: 145, w: 130, h: 130 }, z: 80, in: inT, out: outT, structural: true, hud: true, enter: { kind: "fade-in", duration: 0.4 }, exit: { kind: "fade-out", duration: 0.3 } }); tx = 190; }
+  else if (c.icon) warns.push(`CHAP icono ausente: "${c.icon}"`);
+  if (c.label) { const fs = fitFont(c.label, 42); const w = Math.round(c.label.length * fs * 0.6) + 20; elements.push({ id: "chaplabel" + i, type: "text", content: c.label, fontSize: fs, box: { cx: tx + w / 2, cy: 145, w, h: 64 }, color: STROKE, z: 80, in: inT, out: outT, structural: true, hud: true, enter: { kind: "fade-in", duration: 0.4 }, exit: { kind: "fade-out", duration: 0.3 } }); }
+});
+
 // SIN HUECOS → ningún tramo en blanco. Si al salir todo lo de un beat el siguiente visual entra más
 //   tarde, se alarga el ÚLTIMO en salir hasta que entra el siguiente (termina justo al empezar el otro,
 //   sin solape). Va ANTES del centrado, para que ese elemento alargado se centre durante el hueco.
 {
-  const vis = elements.filter(e => e.box && (e.type === "image" || e.type === "text")).sort((a, b) => a.in - b.in);
+  const vis = elements.filter(e => e.box && !e.structural && (e.type === "image" || e.type === "text")).sort((a, b) => a.in - b.in);
   let coverEnd = 0, lastEl = null;
   for (const e of vis) {
     if (lastEl && e.in > coverEnd + 0.05) lastEl.out = Math.max(lastEl.out, +e.in.toFixed(2)); // alarga el último para tapar el hueco
@@ -199,7 +213,7 @@ for (const e of elements) { if (e.type === "shape" && e.__t) { e.out = Math.min(
 //   se centra con keyframes suaves y vuelve a su anclaje cuando llega compañía. Regla del usuario.
 {
   const STEP = 0.25, CX = 960, CY = 500;
-  const dyn = elements.filter(e => e.box && e.type !== "watermark");
+  const dyn = elements.filter(e => e.box && e.type !== "watermark" && !e.structural);
   const nAt = (t) => dyn.filter(x => x.in <= t + 1e-6 && x.out > t + 1e-6).length;
   for (const e of dyn) {
     const w = e.box.w, h = e.box.h, ax = e.box.cx, ay = e.box.cy;
