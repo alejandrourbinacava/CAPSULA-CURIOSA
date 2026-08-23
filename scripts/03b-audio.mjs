@@ -8,7 +8,12 @@ import { execFileSync } from "node:child_process";
 
 const dir = process.argv[2] || (fs.existsSync("episodes/active.txt") ? fs.readFileSync("episodes/active.txt", "utf8").trim() : "episodes/test-cpu");
 const RAW = "out/VIDEO_RAW.mp4", OUT = "out/VIDEO_FINAL.mp4";
-const POP = "public/voz/pop.wav", MUSIC = "public/voz/bg_music.wav";
+const POP = "public/voz/pop.wav";
+// Música de fondo POR EPISODIO: si el episodio trae su propia pista (music.mp3/.wav), se usa esa
+//   (p.ej. guerra/suspense); si no, la global public/voz/bg_music.wav. Volumen bajito configurable.
+const epMusic = ["music.mp3", "music.wav"].map(f => path.join(dir, f)).find(f => fs.existsSync(f));
+const MUSIC = epMusic || "public/voz/bg_music.wav";
+const MUSIC_DB = process.env.MUSIC_DB || "-23dB";  // "bajita" bajo la voz; súbela/bájala con MUSIC_DB
 if (!fs.existsSync(RAW)) { console.error("Falta " + RAW); process.exit(1); }
 
 const scenes = JSON.parse(fs.readFileSync(path.join(dir, "scenes.json"), "utf8"));
@@ -32,7 +37,7 @@ if (hasPop && times.length) {
   fc += `[${idxPop}:a]asplit=${N}` + times.map((_, i) => `[s${i}]`).join("") + ";";
   times.forEach((t, i) => { const d = Math.max(1, Math.round(t * 1000)); fc += `[s${i}]adelay=${d}|${d}[p${i}];`; labels.push(`[p${i}]`); });
 }
-if (hasMusic) { fc += `[${idxMusic}:a]volume=-23dB[m];`; labels.push("[m]"); }
+if (hasMusic) { fc += `[${idxMusic}:a]volume=${MUSIC_DB}[m];`; labels.push("[m]"); }
 fc += labels.join("") + `amix=inputs=${labels.length}:duration=first:normalize=0[a]`;
 
 // filtro EN LÍNEA (un solo argumento; execFileSync no pasa por shell → sin límite ni escapes).

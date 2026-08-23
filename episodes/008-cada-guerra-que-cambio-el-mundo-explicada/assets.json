@@ -1,0 +1,205 @@
+{
+  "world-map": {
+    "kind": "vector",
+    "query": "old world map with borders drawn on it, parchment",
+    "file": "assets/icons/world-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "roman-eagle": {
+    "kind": "vector",
+    "query": "Roman legion eagle standard aquila on a pole, ancient Rome",
+    "file": "assets/icons/roman-eagle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hannibal-elephant": {
+    "kind": "vector",
+    "query": "war elephant with a soldier crossing snowy mountains, ancient Carthage",
+    "file": "assets/icons/hannibal-elephant.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "carthage-salt": {
+    "kind": "vector",
+    "query": "a destroyed ancient city in ruins with salt scattered on the ground",
+    "file": "assets/icons/carthage-salt.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "roman-empire": {
+    "kind": "vector",
+    "query": "Roman legionary soldier with red crest helmet and shield, ancient Rome",
+    "file": "assets/icons/roman-empire.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "crusader-knight": {
+    "kind": "vector",
+    "query": "medieval crusader knight with a cross on his shield and a sword",
+    "file": "assets/icons/crusader-knight.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "crescent-sword": {
+    "kind": "vector",
+    "query": "islamic crescent moon with a curved scimitar sword, medieval",
+    "file": "assets/icons/crescent-sword.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "spices-books": {
+    "kind": "vector",
+    "query": "old books, spices and arabic numerals brought back from the east, medieval knowledge",
+    "file": "assets/icons/spices-books.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "knights-duel": {
+    "kind": "vector",
+    "query": "two medieval knights fighting, one French one English, hundred years war",
+    "file": "assets/icons/knights-duel.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "nation-flags": {
+    "kind": "vector",
+    "query": "two waving medieval banners, a French fleur-de-lis and an English flag",
+    "file": "assets/icons/nation-flags.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "conquistador": {
+    "kind": "vector",
+    "query": "Spanish conquistador with a metal helmet and armor, 1500s",
+    "file": "assets/icons/conquistador.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "aztec-pyramid": {
+    "kind": "vector",
+    "query": "Aztec step pyramid temple with carvings, Mesoamerica",
+    "file": "assets/icons/aztec-pyramid.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "disease-skull": {
+    "kind": "vector",
+    "query": "invisible virus germs and a skull, deadly epidemic disease",
+    "file": "assets/icons/disease-skull.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "columbian-exchange": {
+    "kind": "vector",
+    "query": "a sailing galleon ship carrying potatoes, maize corn and gold across the ocean",
+    "file": "assets/icons/columbian-exchange.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "thirty-years-war": {
+    "kind": "vector",
+    "query": "a burning devastated european village during a religious war, 1600s",
+    "file": "assets/icons/thirty-years-war.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "treaty-scroll": {
+    "kind": "vector",
+    "query": "an old peace treaty scroll with a wax seal and a quill pen",
+    "file": "assets/icons/treaty-scroll.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sovereign-borders": {
+    "kind": "vector",
+    "query": "a map of Europe divided into countries with clear borders",
+    "file": "assets/icons/sovereign-borders.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "napoleon": {
+    "kind": "vector",
+    "query": "Napoleon with his iconic bicorne hat and hand tucked in his coat, early 1800s",
+    "file": "assets/icons/napoleon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "law-equality": {
+    "kind": "vector",
+    "query": "a balance scale of justice on top of an open law book, equality before the law",
+    "file": "assets/icons/law-equality.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ww1-trench": {
+    "kind": "vector",
+    "query": "World War One soldiers in a muddy trench with barbed wire and helmets",
+    "file": "assets/icons/ww1-trench.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "falling-crowns": {
+    "kind": "vector",
+    "query": "royal crowns falling and breaking, the end of empires",
+    "file": "assets/icons/falling-crowns.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ww2-tank-plane": {
+    "kind": "vector",
+    "query": "World War Two tank and fighter plane, 1940s military",
+    "file": "assets/icons/ww2-tank-plane.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "atomic-bomb": {
+    "kind": "vector",
+    "query": "a huge atomic bomb mushroom cloud explosion",
+    "file": "assets/icons/atomic-bomb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "superpowers": {
+    "kind": "vector",
+    "query": "two giant fists facing off, one with the American flag and one with the Soviet red star",
+    "file": "assets/icons/superpowers.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "united-nations": {
+    "kind": "vector",
+    "query": "a globe surrounded by two olive branches, symbol of world peace",
+    "file": "assets/icons/united-nations.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cold-war-missiles": {
+    "kind": "vector",
+    "query": "two nuclear missiles pointing at each other, cold war standoff",
+    "file": "assets/icons/cold-war-missiles.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "space-race": {
+    "kind": "vector",
+    "query": "a retro space rocket launching, 1960s space race",
+    "file": "assets/icons/space-race.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ussr-collapse": {
+    "kind": "vector",
+    "query": "a broken hammer and sickle symbol cracking apart, fall of the Soviet Union",
+    "file": "assets/icons/ussr-collapse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "border-flag": {
+    "kind": "vector",
+    "query": "a single flag planted on a border line on a map",
+    "file": "assets/icons/border-flag.png",
+    "normalized": true,
+    "gpt": true
+  }
+}

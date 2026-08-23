@@ -32,8 +32,8 @@
       "n": 8
     },
     {
-      "title": "Todo Sobre los Agujeros Negros",
-      "brief": "Qué es un agujero negro, cómo se forma, el horizonte de sucesos, la espaguetización, agujeros supermasivos y qué pasaría si caes en uno.",
+      "title": "Cada Tipo de Agujero Negro Explicado",
+      "brief": "Tipos de agujero negro: estelares, supermasivos, de masa intermedia y primordiales. Cómo se forman, el horizonte de sucesos, la espaguetización y qué pasaría si caes en uno.",
       "n": 7
     },
     {
@@ -72,7 +72,7 @@
       "n": 8
     },
     {
-      "title": "Todo lo que Pasó en el Big Bang",
+      "title": "Cada Fase del Big Bang Explicada",
       "brief": "El origen del universo paso a paso: el instante cero, la inflación, las primeras partículas, las estrellas y galaxias. Divulgativo.",
       "n": 7
     },
@@ -80,6 +80,11 @@
       "title": "Cada Récord Humano Imposible",
       "brief": "Récords que parecen imposibles: aguantar la respiración, correr, memoria, resistencia al frío, etc. Cómo lo logran y sus límites.",
       "n": 8
+    },
+    {
+      "title": "Cada Rango Militar Explicado",
+      "brief": "Los rangos militares de menor a mayor: soldado, cabo, sargento, teniente, capitán, coronel, general... qué manda cada uno y sus insignias.",
+      "n": 16
     }
   ]
 }
