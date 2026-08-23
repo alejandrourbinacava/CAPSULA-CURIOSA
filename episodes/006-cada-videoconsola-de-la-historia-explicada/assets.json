@@ -18,14 +18,16 @@
     "query": "mario nintendo mascot waving",
     "file": "assets/icons/mario.png",
     "normalized": true,
-    "userProvided": true
+    "userProvided": true,
+    "gpt": true
   },
   "mario-accion": {
     "kind": "vector",
     "query": "mario nintendo mascot action pose",
     "file": "assets/icons/mario-accion.png",
     "normalized": true,
-    "userProvided": true
+    "userProvided": true,
+    "gpt": true
   },
   "quality-seal": {
     "kind": "vector",
