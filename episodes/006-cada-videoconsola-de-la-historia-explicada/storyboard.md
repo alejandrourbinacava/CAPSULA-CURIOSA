@@ -93,7 +93,7 @@ Narración: *"Si estaba en la NES, funcionaba."*
 ### BEAT 13 · 01:01 · T1
 Narración: *"Y trajo algo más. Un fontanero con bigote."*
 ```
-+0.0  ICO  mario          @center  pop
++0.0  ICO  mario-accion   @center  pop
 ```
 
 ### BEAT 14 · 01:05 · T1

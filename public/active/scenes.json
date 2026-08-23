@@ -823,10 +823,10 @@
       ]
     },
     {
-      "id": "mario_24",
+      "id": "mario-accion_24",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/mario.png",
+      "src": "assets/icons/mario-accion.png",
       "box": {
         "cx": 960,
         "cy": 500,
