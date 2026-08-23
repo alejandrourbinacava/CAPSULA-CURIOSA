@@ -654,7 +654,7 @@
       "id": "crown_18",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/crown.png",
+      "src": "assets/library/crown.png",
       "box": {
         "cx": 960,
         "cy": 390,
@@ -1200,7 +1200,7 @@
       "id": "crown_35",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/crown.png",
+      "src": "assets/library/crown.png",
       "box": {
         "cx": 960,
         "cy": 520,
@@ -1293,7 +1293,7 @@
       "id": "crown_38",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/crown.png",
+      "src": "assets/library/crown.png",
       "box": {
         "cx": 960,
         "cy": 520,
