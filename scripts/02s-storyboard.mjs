@@ -102,6 +102,7 @@ const closeAll = (t, force) => { for (const k in live) { if (!force && live[k]._
 const parseTargets = (s) => [...s.matchAll(/([a-z0-9]+)\s*(?:→|->)\s*([a-z0-9]+)/gi)].map(m => [m[1], m[2]]);
 
 const chapters = []; // HUD de capítulo: {label, icon, t} — icono+texto fijos del sub-tema actual
+const iconLastOut = {}; // src → out del último uso, para no repetir el mismo dibujo a menos de 6s
 
 for (const b of beats) {
   const clamp = (off) => Math.min(b.t1 - 0.05, Math.max(b.t0, b.t0 + off));
@@ -138,12 +139,16 @@ for (const b of beats) {
       const ent = (rest.match(/\b(pop|fade|slide-[lrt]|draw|handwrite|stamp|whip)\b/i) || [])[1];
       const src = assetFile(id);
       if (!src) { warns.push(`asset ausente: "${id}" (beat ${b.num})`); continue; }
+      const keepImg = /\bKEEP\b/.test(rest);
+      // DEDUP: no repetir el mismo dibujo a menos de 6s (el HUD ya lo mantiene en la esquina). KEEP exento.
+      if (type !== "GIF" && !keepImg && iconLastOut[src] != null && t - iconLastOut[src] < 6) { continue; }
       const [cx, cy] = anchorXY(anc);
       const big = anc === "main" || anc === "center" || anc === "hero";
       const sz = type === "GIF" ? 360 : (big ? 460 : (/^g\d/.test(anc) ? 200 : 300)); // iconos de rejilla más pequeños
       const keep = /\bKEEP\b/.test(rest);
       const el = { id: id + "_" + auto++, type: "image", kind: type === "GIF" ? "meme" : "vector", src, box: { cx, cy, w: sz, h: sz }, z: type === "GIF" ? 55 : 30, in: t, out: type === "GIF" ? Math.min(b.t1, t + 3) : (keep ? dur : b.t1), auto: true, _keep: keep, enter: enterOf(ent || "pop"), exit: { kind: "fade-out", duration: 0.3 } };
       elements.push(el); live[id] = el; liveByAnchor[anc] = el; b._els.push(el); if (big) lastBig = el;
+      if (type !== "GIF") iconLastOut[src] = keep ? dur : b.t1;
       continue;
     }
     if (type === "ARR") {
@@ -196,14 +201,47 @@ chapters.forEach((c, i) => {
   if (c.label) { const fs = fitFont(c.label, 42); const w = Math.round(c.label.length * fs * 0.6) + 20; elements.push({ id: "chaplabel" + i, type: "text", content: c.label, fontSize: fs, box: { cx: tx + w / 2, cy: 145, w, h: 64 }, color: STROKE, z: 80, in: inT, out: outT, structural: true, hud: true, enter: { kind: "fade-in", duration: 0.4 }, exit: { kind: "fade-out", duration: 0.3 } }); }
 });
 
-// SIN HUECOS → ningún tramo en blanco. Si al salir todo lo de un beat el siguiente visual entra más
-//   tarde, se alarga el ÚLTIMO en salir hasta que entra el siguiente (termina justo al empezar el otro,
-//   sin solape). Va ANTES del centrado, para que ese elemento alargado se centre durante el hueco.
+// TOPE DE DINAMISMO → ningún elemento dinámico vive más de 3s (regla del usuario: algo cambia cada ~3s).
+//   El HUD de capítulo (estructural) queda exento. Esto mata los holds largos que dejaban el vídeo "quieto".
+const MAXLIFE = 3.0;
+for (const e of elements) if (e.box && !e.structural && e.type !== "watermark") e.out = Math.min(e.out, +(e.in + MAXLIFE).toFixed(2));
+
+// AUTO-DENSIDAD → rellena los tramos flojos con PALABRAS CLAVE de la narración (subtítulos cinéticos):
+//   cuando hay < 2 elementos vivos, mete una palabra de lo que se está diciendo en un anclaje libre
+//   (comprobando que no solape), viva ≤2.5s. Da movimiento y "más texto" sin repetir iconos.
+{
+  const STOP = new Set("el la los las un una unos unas de del al lo le les y o u e ni si no mas muy ya que se su sus tu tus mi mis como cuando donde hasta desde sobre entre sin son fue era eran es ser hay han ha he has este esta esto esos esas eso ese esa pero porque aunque tras cual cuales quien nos te me para por con en a ante bajo cabe hacia según so solo sola casi todo toda todos todas otro otra otros otras mismo misma cada nada algo aqui ahi ahora luego bien mal cosa cosas parte partes vez veces".split(/\s+/));
+  const bb = (e) => { const b = e.box; return [b.cx - b.w / 2, b.cy - b.h / 2, b.cx + b.w / 2, b.cy + b.h / 2]; };
+  const ov = (A, B) => !(A[2] <= B[0] || B[2] <= A[0] || A[3] <= B[1] || B[3] <= A[1]);
+  const dynAll = elements.filter(e => e.box && !e.structural && e.type !== "watermark");
+  const liveAt = (t) => dynAll.filter(e => e.in <= t + 1e-6 && e.out > t + 1e-6);
+  const ANCH = [[960, 775], [520, 855], [1400, 855], [1480, 340], [470, 340], [960, 250]];
+  const COLS = [STROKE, RED, COL.cyan || RED, COL.green || STROKE];
+  let ai = 0;
+  for (const b of beats) {
+    const seen = new Set();
+    const kws = words.filter(x => x.start >= b.t0 - 0.2 && x.start < b.t1).map(x => (x.word || x.text || "").trim().replace(/[.,;:"¿?¡!()]/g, "")).filter(w => { const n = nz(w); if (!n || seen.has(n) || STOP.has(n)) return false; if (!(w.length >= 5 || /\d/.test(w))) return false; seen.add(n); return true; });
+    if (!kws.length) continue;
+    let ki = 0;
+    for (let t = +b.t0.toFixed(2); t < b.t1 - 0.3; t = +(t + 2.0).toFixed(2)) {
+      if (liveAt(t).length >= 2) continue;              // ya hay ≥2 cosas moviéndose
+      const kw = kws[ki % kws.length], fs = 44, w = Math.min(680, Math.round(kw.length * fs * 0.6) + 24), h = 70;
+      let placed = null;
+      for (let a = 0; a < ANCH.length; a++) { const [cx, cy] = ANCH[(ai + a) % ANCH.length]; if (cx - w / 2 < 20 || cx + w / 2 > W - 20) continue; const box = [cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2]; if (liveAt(t).some(e => ov(box, bb(e)))) continue; placed = { cx, cy }; ai = (ai + a + 1) % ANCH.length; break; }
+      if (!placed) continue;
+      const el = { id: "kw" + auto++, type: "text", content: kw, fontSize: fs, box: { cx: placed.cx, cy: placed.cy, w, h }, color: COLS[ki % COLS.length], z: 55, in: +t.toFixed(2), out: +Math.min(b.t1, t + 2.6).toFixed(2), enter: enterOf(["pop", "slide-l", "slide-r", "stamp"][ki % 4]), exit: { kind: "fade-out", duration: 0.25 }, _auto: true };
+      elements.push(el); dynAll.push(el); ki++;
+    }
+  }
+}
+
+// SIN HUECOS (limitado) → un elemento puede alargarse para tapar un microhueco, pero NUNCA más de 3.5s total.
+//   Va ANTES del centrado. Si un beat es tan pobre que deja hueco > tope, lo cazará el gate y hay que densificar.
 {
   const vis = elements.filter(e => e.box && !e.structural && (e.type === "image" || e.type === "text")).sort((a, b) => a.in - b.in);
   let coverEnd = 0, lastEl = null;
   for (const e of vis) {
-    if (lastEl && e.in > coverEnd + 0.05) lastEl.out = Math.max(lastEl.out, +e.in.toFixed(2)); // alarga el último para tapar el hueco
+    if (lastEl && e.in > coverEnd + 0.05) lastEl.out = Math.max(lastEl.out, Math.min(+e.in.toFixed(2), +(lastEl.in + 3.5).toFixed(2)));
     if (e.out >= coverEnd) { coverEnd = e.out; lastEl = e; }
   }
 }

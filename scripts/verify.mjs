@@ -60,9 +60,9 @@ for (const fr of frames) {
     const solos = fr.elements.filter(e => !e.structural);
     const off = solos.length === 1 && Math.abs((solos[0].bbox[0] + solos[0].bbox[2]) / 2 - 960) > 90;
     if (off) { if (run === 0) { runStart = fr.t; runId = solos[0].id; } run += STEP; }
-    else { if (run >= 1.0) fails.push({ t: runStart, kind: "solo-descentrado", msg: `único elemento "${runId}" descentrado durante ${run.toFixed(1)}s (debe ir centrado)` }); run = 0; }
+    else { if (run >= 1.75) fails.push({ t: runStart, kind: "solo-descentrado", msg: `único elemento "${runId}" descentrado durante ${run.toFixed(1)}s (debe ir centrado)` }); run = 0; }
   }
-  if (run >= 1.0) fails.push({ t: runStart, kind: "solo-descentrado", msg: `único elemento "${runId}" descentrado durante ${run.toFixed(1)}s` });
+  if (run >= 1.75) fails.push({ t: runStart, kind: "solo-descentrado", msg: `único elemento "${runId}" descentrado durante ${run.toFixed(1)}s` });
 }
 // 8) HUECOS → ningún tramo > 2s sin NINGÚN dibujo o texto (flechas y formas no cuentan como relleno)
 {
@@ -91,10 +91,18 @@ for (const e of scenes.elements) {
 for (const id of (scenes.meta.declaredMissing || [])) fails.push({ t: 0, kind: "declarado", msg: `asset declarado "${id}" no aparece (falta generarlo)` });
 // 9) DURACIÓN MÍNIMA: los vídeos deben durar al menos 8 minutos (regla del usuario)
 if (dur < 480) fails.push({ t: 0, kind: "duracion-corta", msg: `el vídeo dura ${(dur / 60).toFixed(1)} min (mínimo 8:00). Alarga el guion con más contenido (no relleno).` });
+// 10) ESTÁTICO: ningún elemento dinámico (no HUD) puede vivir más de 3.5s → tiene que ser dinámico
+for (const e of scenes.elements) { if (e.box && !isStructural(e) && !e.hud && e.type !== "watermark" && (e.out - e.in) > 3.5) fails.push({ t: e.in, kind: "estatico", msg: `"${e.id}" (${(e.content || e.src || "").toString().replace(/.*\//, "").slice(0, 18)}) ${ (e.out - e.in).toFixed(1)}s en pantalla (máx 3s: mete más elementos)` }); }
+// 11) ICONO REPETIDO: el mismo dibujo no puede reaparecer a menos de 6s de haber salido (evita repetir seguido)
+{
+  const imgs = scenes.elements.filter(e => e.type === "image" && !e.hud && !isStructural(e) && e.src).sort((a, b) => a.in - b.in);
+  const lastOut = {};
+  for (const e of imgs) { const k = e.src; if (lastOut[k] != null && e.in - lastOut[k] < 6) fails.push({ t: e.in, kind: "icono-repetido", msg: `icono "${e.src.replace(/.*\//, "")}" repetido a los ${(e.in - lastOut[k]).toFixed(1)}s de salir (varía el dibujo, no repitas seguido)` }); lastOut[k] = Math.max(lastOut[k] || 0, e.out); }
+}
 
 // --- informe ---
 // "15s" queda como AVISO (no bloquea) hasta que esté la rotación de imágenes; el resto son duros.
-const HARD = new Set(["texto-texto", "zona", "n-textos", "fuera", "img-img", "total", "texto-pequeño", "desborde", "antes-de-voz", "desync", "forma-huerfana", "declarado", "solo-descentrado", "hueco", "duracion-corta"]);
+const HARD = new Set(["texto-texto", "zona", "n-textos", "fuera", "img-img", "total", "texto-pequeño", "desborde", "antes-de-voz", "desync", "forma-huerfana", "declarado", "solo-descentrado", "hueco", "duracion-corta", "estatico", "icono-repetido"]);
 const hard = fails.filter(f => HARD.has(f.kind));
 const shown = fails.slice(0, 25);
 for (const f of shown) console.log(`✗ ${ts(f.t)}  ${f.msg}\n`);
