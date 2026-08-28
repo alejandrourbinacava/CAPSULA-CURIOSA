@@ -248,7 +248,23 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 14.68,
+          "cx": 1380,
+          "cy": 520,
+          "w": 598,
+          "h": 90
+        },
+        {
+          "t": 19.68,
+          "cx": 960,
+          "cy": 500,
+          "w": 598,
+          "h": 90
+        }
+      ]
     },
     {
       "id": "t8",
@@ -303,13 +319,6 @@
       "frames": [
         {
           "t": 23.14,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 23.39,
           "cx": 960,
           "cy": 500,
           "w": 460,
@@ -4891,7 +4900,23 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 480.84,
+          "cx": 1380,
+          "cy": 520,
+          "w": 639,
+          "h": 90
+        },
+        {
+          "t": 485.34,
+          "cx": 960,
+          "cy": 500,
+          "w": 639,
+          "h": 90
+        }
+      ]
     },
     {
       "id": "planet-earth_154",
@@ -4920,13 +4945,6 @@
       "frames": [
         {
           "t": 487.2,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 487.45,
           "cx": 960,
           "cy": 500,
           "w": 460,
@@ -5032,7 +5050,23 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 494.92,
+          "cx": 960,
+          "cy": 830,
+          "w": 419,
+          "h": 90
+        },
+        {
+          "t": 498.92,
+          "cx": 960,
+          "cy": 500,
+          "w": 419,
+          "h": 90
+        }
+      ]
     },
     {
       "id": "chapicon0",
@@ -5344,30 +5378,6 @@
       "id": "cov158",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/trophy.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 19.5,
-      "out": 23.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov159",
-      "type": "image",
-      "kind": "vector",
       "src": "assets/icons/earthquake.png",
       "box": {
         "cx": 540,
@@ -5389,7 +5399,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov160",
+      "id": "cov159",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/earthquake.png",
@@ -5413,7 +5423,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov161",
+      "id": "cov160",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/earthquake.png",
@@ -5437,7 +5447,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov162",
+      "id": "cov161",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tsunami.png",
@@ -5461,7 +5471,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov163",
+      "id": "cov162",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tsunami.png",
@@ -5485,7 +5495,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov164",
+      "id": "cov163",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tsunami.png",
@@ -5509,7 +5519,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov165",
+      "id": "cov164",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hurricane.png",
@@ -5533,7 +5543,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov166",
+      "id": "cov165",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hurricane.png",
@@ -5557,7 +5567,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov167",
+      "id": "cov166",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hurricane.png",
@@ -5581,7 +5591,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov168",
+      "id": "cov167",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/volcano.png",
@@ -5605,7 +5615,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov169",
+      "id": "cov168",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/volcano.png",
@@ -5629,7 +5639,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov170",
+      "id": "cov169",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/volcano.png",
@@ -5653,7 +5663,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov171",
+      "id": "cov170",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/volcano.png",
@@ -5677,7 +5687,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov172",
+      "id": "cov171",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tornado.png",
@@ -5701,7 +5711,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov173",
+      "id": "cov172",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tornado.png",
@@ -5725,7 +5735,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov174",
+      "id": "cov173",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tornado.png",
@@ -5749,7 +5759,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov175",
+      "id": "cov174",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/flood.png",
@@ -5771,110 +5781,6 @@
         "duration": 0.3
       },
       "_autoIco": true
-    },
-    {
-      "id": "cov176",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/trophy.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 462.5,
-      "out": 470,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true,
-      "frames": [
-        {
-          "t": 462.5,
-          "cx": 960,
-          "cy": 500,
-          "w": 340,
-          "h": 340
-        },
-        {
-          "t": 462.8,
-          "cx": 540,
-          "cy": 520,
-          "w": 340,
-          "h": 340
-        }
-      ]
-    },
-    {
-      "id": "cov177",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/trophy.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 485.5,
-      "out": 487.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov178",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/trophy.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 499,
-      "out": 505.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true,
-      "frames": [
-        {
-          "t": 499,
-          "cx": 540,
-          "cy": 520,
-          "w": 340,
-          "h": 340
-        },
-        {
-          "t": 503,
-          "cx": 960,
-          "cy": 500,
-          "w": 340,
-          "h": 340
-        }
-      ]
     }
   ]
 }
