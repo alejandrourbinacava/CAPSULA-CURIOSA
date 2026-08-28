@@ -218,11 +218,14 @@ for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" &
 {
   const STEP = 0.25;
   const imgLive = (t) => elements.some(e => !e.structural && e.type === "image" && e.in <= t + 1e-6 && e.out > t + 1e-6);
-  const chAt = (t) => { let ch = null; for (const c of chapters) if (c.t <= t + 0.01) ch = c; return ch; };
+  // fallback SIEMPRE disponible en el episodio: primer icono que resuelva (nunca uno de otro vídeo)
+  const epFallback = (() => { for (const k in assets) { const f = assetFile(k); if (f) return f; } return null; })();
+  // capítulo con icono más cercano ANTES de t (ignora CHAP vacío); si no hay, el más cercano DESPUÉS
+  const chAt = (t) => { let before = null, after = null; for (const c of chapters) { if (!c.icon) continue; if (c.t <= t + 0.01) before = c; else if (!after) after = c; } return before || after; };
   for (let t = 0; t <= dur;) {
     if (imgLive(t)) { t = +(t + STEP).toFixed(2); continue; }
     let e2 = t; while (e2 <= dur && !imgLive(e2)) e2 = +(e2 + STEP).toFixed(2);
-    const ch = chAt(t), src = ch && ch.icon ? assetFile(ch.icon) : (assetFile("trophy") || null);
+    const ch = chAt(t), src = (ch && ch.icon && assetFile(ch.icon)) || epFallback;
     if (src) for (let s = t; s < e2 - 0.01;) { const seg = Math.min(8, +(e2 - s).toFixed(2)); elements.push({ id: "cov" + auto++, type: "image", kind: "vector", src, box: { cx: 540, cy: 520, w: 340, h: 340 }, z: 28, in: +s.toFixed(2), out: +(s + seg).toFixed(2), enter: { kind: "fade-in", duration: 0.35 }, exit: { kind: "fade-out", duration: 0.3 }, _autoIco: true }); s = +(s + seg).toFixed(2); }
     t = e2;
   }

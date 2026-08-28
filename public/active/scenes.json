@@ -5344,7 +5344,7 @@
       "id": "cov158",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/trophy.png",
+      "src": "assets/icons/earthquake.png",
       "box": {
         "cx": 540,
         "cy": 520,
@@ -5776,7 +5776,7 @@
       "id": "cov176",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/trophy.png",
+      "src": "assets/icons/flood.png",
       "box": {
         "cx": 540,
         "cy": 520,
@@ -5816,7 +5816,7 @@
       "id": "cov177",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/trophy.png",
+      "src": "assets/icons/flood.png",
       "box": {
         "cx": 540,
         "cy": 520,
@@ -5840,7 +5840,7 @@
       "id": "cov178",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/trophy.png",
+      "src": "assets/icons/flood.png",
       "box": {
         "cx": 540,
         "cy": 520,
