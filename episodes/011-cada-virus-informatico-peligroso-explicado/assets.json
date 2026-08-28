@@ -226,5 +226,75 @@
     "kind": "cutout",
     "query": "Maersk",
     "file": "assets/icons/photo-cargo.jpg"
+  },
+  "student": {
+    "kind": "vector",
+    "query": "a young student with a graduation cap and a laptop, mischievous",
+    "file": "assets/icons/student.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "weapon-war": {
+    "kind": "vector",
+    "query": "a military missile and a bomb, weapons of war",
+    "file": "assets/icons/weapon-war.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "thief": {
+    "kind": "vector",
+    "query": "a masked burglar thief sneaking with a bag of loot",
+    "file": "assets/icons/thief.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fame-star": {
+    "kind": "vector",
+    "query": "a shiny golden star, fame and notoriety",
+    "file": "assets/icons/fame-star.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "spread-world": {
+    "kind": "vector",
+    "query": "a red virus spreading across a world map with arrows",
+    "file": "assets/icons/spread-world.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lightning-speed": {
+    "kind": "vector",
+    "query": "a fast yellow lightning bolt, extreme speed",
+    "file": "assets/icons/lightning-speed.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "calendar": {
+    "kind": "vector",
+    "query": "a wall calendar showing a year",
+    "file": "assets/icons/calendar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pentagon": {
+    "kind": "vector",
+    "query": "the Pentagon building aerial view",
+    "file": "assets/icons/pentagon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ambulance": {
+    "kind": "vector",
+    "query": "an ambulance with flashing lights rushing",
+    "file": "assets/icons/ambulance.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "factory": {
+    "kind": "vector",
+    "query": "a factory building with smoke stacks",
+    "file": "assets/icons/factory.png",
+    "normalized": true,
+    "gpt": true
   }
 }

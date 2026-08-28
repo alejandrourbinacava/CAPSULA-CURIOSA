@@ -148,7 +148,11 @@ for (const b of beats) {
       const isPhotoAsset = /photo|cutout|screenshot|archive/.test(akind);
       const kind = type === "GIF" ? "meme" : (isPhotoAsset ? "cutout" : "vector");
       const psz = isPhotoAsset ? Math.round(sz * 1.25) : sz; // las fotos algo más grandes
-      const el = { id: id + "_" + auto++, type: "image", kind, src, box: { cx, cy, w: psz, h: psz }, z: type === "GIF" ? 55 : (isPhotoAsset ? 25 : 30), in: t, out: type === "GIF" ? Math.min(b.t1, t + 3) : (keep ? dur : b.t1), auto: true, _keep: keep, enter: enterOf(ent || "pop"), exit: { kind: "fade-out", duration: 0.3 } };
+      // ~palabra: el icono ENTRA justo cuando se dice esa palabra (sincronía, como el texto). Si no, tiempo del beat.
+      const wsync = (rest.match(/~([a-záéíóúñ0-9]+)/i) || [])[1];
+      const wt = wsync ? syncWordTime(wsync, b) : null;
+      const inT = +(wt != null && wt >= b.t0 - 0.5 && wt <= b.t1 + 1 ? wt : t).toFixed(2);
+      const el = { id: id + "_" + auto++, type: "image", kind, src, box: { cx, cy, w: psz, h: psz }, z: type === "GIF" ? 55 : (isPhotoAsset ? 25 : 30), in: inT, out: type === "GIF" ? Math.min(b.t1, inT + 3) : (keep ? dur : b.t1), auto: true, _keep: keep, enter: enterOf(ent || "pop"), exit: { kind: "fade-out", duration: 0.3 } };
       elements.push(el); live[id] = el; liveByAnchor[anc] = el; b._els.push(el); if (big) lastBig = el;
       continue;
     }
