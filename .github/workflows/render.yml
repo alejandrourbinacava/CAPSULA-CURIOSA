@@ -151,13 +151,22 @@ jobs:
           node -e "const a=require('./'+require('fs').readFileSync('episodes/active.txt','utf8').trim()+'/assets.json');const s=new Set();for(const k in a){const at=a[k].attribution;if(at&&at.license&&at.license!=='?')s.add(at.source.split(':')[0]+' ('+at.license+')');}console.log('Iconos: '+([...s].join(', ')||'—')+' · Fotos: Wikimedia Commons')" > out/credits.txt
           echo "credits=$(cat out/credits.txt)" >> $GITHUB_OUTPUT
 
+      - name: 04b) Nombrar el vídeo con su TÍTULO (no VIDEO_FINAL)
+        id: named
+        run: |
+          SAFE=$(node -p "(require('./public/active/scenes.json').meta.title||'video').normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^A-Za-z0-9]+/g,'_').replace(/^_+|_+$/g,'')")
+          [ -z "$SAFE" ] && SAFE="video-${{ github.run_number }}"
+          cp out/VIDEO_FINAL.mp4 "out/$SAFE.mp4"
+          echo "file=out/$SAFE.mp4" >> $GITHUB_OUTPUT
+          echo "El vídeo se llama: $SAFE.mp4"
+
       - name: 05) Subir como artifact (copia temporal, 90 días)
         continue-on-error: true   # si falla la subida temporal, NO bloquear la Release permanente (05b)
         uses: actions/upload-artifact@v4
         with:
           name: video-${{ github.run_number }}
           path: |
-            out/VIDEO_FINAL.mp4
+            ${{ steps.named.outputs.file }}
             out/thumbnail.png
           retention-days: 90
 
@@ -168,7 +177,7 @@ jobs:
           name: "🎬 ${{ steps.meta.outputs.title }} (${{ steps.meta.outputs.fecha }})"
           body: "Vídeo generado automáticamente (pipeline spec: guion fijo + sincronía por palabra). Descarga el MP4 abajo 👇\n\nCréditos: ${{ steps.meta.outputs.credits }}"
           files: |
-            out/VIDEO_FINAL.mp4
+            ${{ steps.named.outputs.file }}
             out/thumbnail.png
 
       - name: 06) Guardar el episodio y el avance del tema
