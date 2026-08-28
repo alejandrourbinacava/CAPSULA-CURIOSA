@@ -152,7 +152,8 @@ for (const b of beats) {
       const wsync = (rest.match(/~([a-záéíóúñ0-9]+)/i) || [])[1];
       const wt = wsync ? syncWordTime(wsync, b) : null;
       const inT = +(wt != null && wt >= b.t0 - 0.5 && wt <= b.t1 + 1 ? wt : t).toFixed(2);
-      const el = { id: id + "_" + auto++, type: "image", kind, src, box: { cx, cy, w: psz, h: psz }, z: type === "GIF" ? 55 : (isPhotoAsset ? 25 : 30), in: inT, out: type === "GIF" ? Math.min(b.t1, inT + 3) : (keep ? dur : b.t1), auto: true, _keep: keep, enter: enterOf(ent || "pop"), exit: { kind: "fade-out", duration: 0.3 } };
+      const accum = type === "ICO" && !isPhotoAsset && !keep; // los DOODLES se acumulan en el lienzo hasta el CHAP
+      const el = { id: id + "_" + auto++, type: "image", kind, src, box: { cx, cy, w: psz, h: psz }, z: type === "GIF" ? 55 : (isPhotoAsset ? 25 : 30), in: inT, out: type === "GIF" ? Math.min(b.t1, inT + 3) : (keep ? dur : b.t1), auto: true, _keep: keep, _accum: accum, enter: enterOf(ent || "pop"), exit: { kind: "fade-out", duration: 0.3 } };
       elements.push(el); live[id] = el; liveByAnchor[anc] = el; b._els.push(el); if (big) lastBig = el;
       continue;
     }
@@ -206,10 +207,26 @@ chapters.forEach((c, i) => {
   if (c.label) { const fs = fitFont(c.label, 42); const w = Math.round(c.label.length * fs * 0.6) + 20; elements.push({ id: "chaplabel" + i, type: "text", content: c.label, fontSize: fs, box: { cx: tx + w / 2, cy: 145, w, h: 64 }, color: STROKE, z: 80, in: inT, out: outT, structural: true, hud: true, enter: { kind: "fade-in", duration: 0.4 }, exit: { kind: "fade-out", duration: 0.3 } }); }
 });
 
-// TOPE (anti-hold largo) → nada dinámico vive más de 8s (mata los holds de 16s). El dinamismo real
-//   viene de MÁS ICONOS en el storyboard, no de texto flotante (eso se eliminó por feedback del usuario).
+// LIENZO ACUMULATIVO → los DOODLES de una sección se QUEDAN y se apilan en rejilla hasta el siguiente CHAP,
+//   que limpia el lienzo. Regla del usuario: iconos entrando sin parar, acabar con 8+ a la vez, sin repetir.
+{
+  const bounds = [...new Set([0, ...chapters.map(c => +c.t.toFixed(2)), +dur.toFixed(2)])].sort((a, b) => a - b);
+  const sectionEnd = (t) => { for (const b of bounds) if (b > t + 0.1) return b; return dur; };
+  for (const e of elements) if (e._accum) e.out = +sectionEnd(e.in).toFixed(2);
+  // rejilla creciente por sección (todos visibles, sin solaparse). Entran a su tiempo, caen a su slot final.
+  for (let s = 0; s < bounds.length - 1; s++) {
+    const t0 = bounds[s], t1 = bounds[s + 1];
+    const ic = elements.filter(e => e._accum && e.in >= t0 - 0.01 && e.in < t1 - 0.01).sort((a, b) => a.in - b.in);
+    const N = ic.length; if (!N) continue;
+    const cols = Math.ceil(Math.sqrt(N)), rows = Math.ceil(N / cols);
+    const X0 = 360, Y0 = 275, BW = 1210, BH = 545, cw = BW / cols, ch = BH / rows, sz = Math.max(120, Math.round(Math.min(cw, ch) * 0.82));
+    ic.forEach((e, i) => { const c = i % cols, r = Math.floor(i / cols); e.box = { cx: Math.round(X0 + (c + 0.5) * cw), cy: Math.round(Y0 + (r + 0.5) * ch), w: sz, h: sz }; e.out = Math.min(e.out, t1); });
+  }
+}
+
+// TOPE (anti-hold largo) para TEXTOS y FOTOS (no para los doodles acumulativos, que persisten en el lienzo)
 const MAXLIFE = 5.0;
-for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" && !e._keep) e.out = Math.min(e.out, +(e.in + MAXLIFE).toFixed(2));
+for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" && !e._keep && !e._accum) e.out = Math.min(e.out, +(e.in + MAXLIFE).toFixed(2));
 
 // SIN HUECOS (limitado) → un elemento puede alargarse para tapar un microhueco, pero NUNCA más de 3.5s total.
 //   Va ANTES del centrado. Si un beat es tan pobre que deja hueco > tope, lo cazará el gate y hay que densificar.
@@ -245,7 +262,7 @@ for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" &
 //   se centra con keyframes suaves y vuelve a su anclaje cuando llega compañía. Regla del usuario.
 {
   const STEP = 0.25, CX = 960, CY = 500;
-  const dyn = elements.filter(e => e.box && e.type !== "watermark" && !e.structural);
+  const dyn = elements.filter(e => e.box && e.type !== "watermark" && !e.structural && !e._accum);
   const nAt = (t) => dyn.filter(x => x.in <= t + 1e-6 && x.out > t + 1e-6).length;
   for (const e of dyn) {
     const w = e.box.w, h = e.box.h, ax = e.box.cx, ay = e.box.cy;

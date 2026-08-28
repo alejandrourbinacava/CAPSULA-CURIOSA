@@ -296,5 +296,236 @@
     "file": "assets/icons/factory.png",
     "normalized": true,
     "gpt": true
+  },
+  "code-lines": {
+    "kind": "vector",
+    "query": "a few glowing lines of programming code on a dark screen",
+    "file": "assets/icons/code-lines.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "university": {
+    "kind": "vector",
+    "query": "a classic university building with columns",
+    "file": "assets/icons/university.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "bug-error": {
+    "kind": "vector",
+    "query": "a red software bug error icon with an exclamation",
+    "file": "assets/icons/bug-error.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "copy-copy": {
+    "kind": "vector",
+    "query": "a document being copied into many identical copies",
+    "file": "assets/icons/copy-copy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "address-book": {
+    "kind": "vector",
+    "query": "an open address book full of contact names",
+    "file": "assets/icons/address-book.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "envelope-open": {
+    "kind": "vector",
+    "query": "an open email envelope with a letter coming out",
+    "file": "assets/icons/envelope-open.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "curiosity-face": {
+    "kind": "vector",
+    "query": "a curious surprised face with wide eyes",
+    "file": "assets/icons/curiosity-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dollar-sign": {
+    "kind": "vector",
+    "query": "a big green dollar sign symbol",
+    "file": "assets/icons/dollar-sign.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "law-book": {
+    "kind": "vector",
+    "query": "a book of law with a judge gavel",
+    "file": "assets/icons/law-book.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "crosshair-target": {
+    "kind": "vector",
+    "query": "a red targeting crosshair reticle",
+    "file": "assets/icons/crosshair-target.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "five-arrows": {
+    "kind": "vector",
+    "query": "five arrows spreading out in five different directions",
+    "file": "assets/icons/five-arrows.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "stopwatch-fast": {
+    "kind": "vector",
+    "query": "a stopwatch spinning extremely fast",
+    "file": "assets/icons/stopwatch-fast.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "data-packet": {
+    "kind": "vector",
+    "query": "a small glowing cube of data with a label",
+    "file": "assets/icons/data-packet.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "database": {
+    "kind": "vector",
+    "query": "a database stack of disks cylinder",
+    "file": "assets/icons/database.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pie-quarter": {
+    "kind": "vector",
+    "query": "a pie chart with one quarter highlighted in red",
+    "file": "assets/icons/pie-quarter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "france-flag": {
+    "kind": "vector",
+    "query": "the flag of France waving",
+    "file": "assets/icons/france-flag.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "uk-flag": {
+    "kind": "vector",
+    "query": "the flag of the United Kingdom waving",
+    "file": "assets/icons/uk-flag.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "question-army": {
+    "kind": "vector",
+    "query": "a big red question mark over a crowd silhouette",
+    "file": "assets/icons/question-army.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "iran-map": {
+    "kind": "vector",
+    "query": "a map silhouette of Iran",
+    "file": "assets/icons/iran-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "uranium": {
+    "kind": "vector",
+    "query": "a glowing radioactive uranium atom symbol",
+    "file": "assets/icons/uranium.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "operator": {
+    "kind": "vector",
+    "query": "a factory control room operator at a monitor",
+    "file": "assets/icons/operator.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "power-grid": {
+    "kind": "vector",
+    "query": "electricity power lines and pylons, the power grid",
+    "file": "assets/icons/power-grid.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "water-tap": {
+    "kind": "vector",
+    "query": "a water faucet tap with a drop",
+    "file": "assets/icons/water-tap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "encrypted-files": {
+    "kind": "vector",
+    "query": "a folder of files covered in chains and a padlock",
+    "file": "assets/icons/encrypted-files.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ransom-note": {
+    "kind": "vector",
+    "query": "a ransom note demanding payment in bitcoin",
+    "file": "assets/icons/ransom-note.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "nsa-building": {
+    "kind": "vector",
+    "query": "a secret government agency headquarters building",
+    "file": "assets/icons/nsa-building.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "kill-switch": {
+    "kind": "vector",
+    "query": "a big red emergency kill switch button",
+    "file": "assets/icons/kill-switch.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ukraine-flag": {
+    "kind": "vector",
+    "query": "the flag of Ukraine waving",
+    "file": "assets/icons/ukraine-flag.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "delivery-truck": {
+    "kind": "vector",
+    "query": "a delivery courier truck",
+    "file": "assets/icons/delivery-truck.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pill-pharma": {
+    "kind": "vector",
+    "query": "a pharmaceutical pill and capsule medicine",
+    "file": "assets/icons/pill-pharma.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "brain-curiosity": {
+    "kind": "vector",
+    "query": "a human brain glowing with curiosity",
+    "file": "assets/icons/brain-curiosity.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fear-face": {
+    "kind": "vector",
+    "query": "a scared frightened face, fear",
+    "file": "assets/icons/fear-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "padlock-broken": {
+    "kind": "vector",
+    "query": "a broken open padlock, security breached",
+    "file": "assets/icons/padlock-broken.png",
+    "normalized": true,
+    "gpt": true
   }
 }

@@ -31,21 +31,22 @@
       }
     },
     {
-      "id": "worm-code_0",
+      "id": "code-lines_0",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/worm-code.png",
+      "src": "assets/icons/code-lines.png",
       "box": {
-        "cx": 450,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 511,
+        "cy": 343,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
-      "in": 0.98,
-      "out": 5.98,
+      "in": 0.5,
+      "out": 45.06,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -61,16 +62,17 @@
       "kind": "vector",
       "src": "assets/icons/hospital.png",
       "box": {
-        "cx": 960,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 814,
+        "cy": 343,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 3.7,
-      "out": 8.7,
+      "out": 45.06,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -86,16 +88,17 @@
       "kind": "vector",
       "src": "assets/icons/factory.png",
       "box": {
-        "cx": 1470,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 1116,
+        "cy": 343,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 5.06,
-      "out": 10.06,
+      "out": 45.06,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -111,16 +114,17 @@
       "kind": "vector",
       "src": "assets/icons/nuclear-plant.png",
       "box": {
-        "cx": 960,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 1419,
+        "cy": 343,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 8.42,
-      "out": 10.52,
+      "out": 45.06,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -154,7 +158,23 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 0,
+          "cx": 960,
+          "cy": 830,
+          "w": 483,
+          "h": 90
+        },
+        {
+          "t": 0.5,
+          "cx": 960,
+          "cy": 500,
+          "w": 483,
+          "h": 90
+        }
+      ]
     },
     {
       "id": "virus-skull_5",
@@ -162,16 +182,17 @@
       "kind": "vector",
       "src": "assets/icons/virus-skull.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 511,
+        "cy": 479,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
-      "in": 10.52,
-      "out": 14.54,
+      "in": 11.52,
+      "out": 45.06,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -188,7 +209,7 @@
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 419,
         "h": 90
       },
@@ -213,16 +234,17 @@
       "kind": "vector",
       "src": "assets/icons/hacker.png",
       "box": {
-        "cx": 450,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 814,
+        "cy": 479,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
-      "in": 14.54,
-      "out": 19.54,
+      "in": 14.72,
+      "out": 45.06,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -230,40 +252,25 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 14.54,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 15.59,
-          "cx": 450,
-          "cy": 470,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "money-burning_8",
+      "id": "dollar-sign_8",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/money-burning.png",
+      "src": "assets/icons/dollar-sign.png",
       "box": {
-        "cx": 960,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 1116,
+        "cy": 479,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 16.18,
-      "out": 21.18,
+      "out": 45.06,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -279,16 +286,17 @@
       "kind": "vector",
       "src": "assets/icons/student.png",
       "box": {
-        "cx": 1470,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 1419,
+        "cy": 479,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
-      "in": 18.76,
-      "out": 21.9,
+      "in": 19.18,
+      "out": 45.06,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -304,16 +312,17 @@
       "kind": "vector",
       "src": "assets/icons/weapon-war.png",
       "box": {
-        "cx": 1470,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 511,
+        "cy": 616,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 20.54,
-      "out": 21.9,
+      "out": 45.06,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -330,7 +339,7 @@
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 567,
         "h": 90
       },
@@ -355,16 +364,17 @@
       "kind": "vector",
       "src": "assets/icons/types-malware.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 814,
+        "cy": 616,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
-      "in": 21.9,
-      "out": 26.9,
+      "in": 23.18,
+      "out": 45.06,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -372,23 +382,7 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 21.9,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 25.95,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
       "id": "t13",
@@ -397,14 +391,14 @@
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 377,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 26.62,
-      "out": 28.22,
+      "out": 28.02,
       "_syncT": 26.62,
       "_keep": false,
       "enter": {
@@ -417,21 +411,22 @@
       }
     },
     {
-      "id": "virus-skull_14",
+      "id": "bug-error_14",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/virus-skull.png",
+      "src": "assets/icons/bug-error.png",
       "box": {
-        "cx": 450,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 1116,
+        "cy": 616,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
-      "in": 28.22,
-      "out": 33.22,
+      "in": 29.6,
+      "out": 45.06,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -447,16 +442,17 @@
       "kind": "vector",
       "src": "assets/icons/worm-code.png",
       "box": {
-        "cx": 960,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 1419,
+        "cy": 616,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 31.62,
-      "out": 36.62,
+      "out": 45.06,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -464,47 +460,25 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 31.62,
-          "cx": 960,
-          "cy": 470,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 33.37,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 34.92,
-          "cx": 960,
-          "cy": 470,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "types-malware_16",
+      "id": "thief_16",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/types-malware.png",
+      "src": "assets/icons/thief.png",
       "box": {
-        "cx": 1470,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 511,
+        "cy": 752,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 35.52,
-      "out": 40.02,
+      "out": 45.06,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -512,23 +486,7 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 35.52,
-          "cx": 1470,
-          "cy": 470,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 36.77,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
       "id": "t17",
@@ -537,7 +495,7 @@
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 546,
         "h": 90
       },
@@ -557,62 +515,22 @@
       }
     },
     {
-      "id": "worm-code_18",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/worm-code.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
-      },
-      "z": 30,
-      "in": 40.02,
-      "out": 45.02,
-      "auto": true,
-      "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 40.02,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 41.32,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
-    },
-    {
-      "id": "spread-world_19",
+      "id": "spread-world_18",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/spread-world.png",
       "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 814,
+        "cy": 752,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 43.44,
-      "out": 45.06,
+      "out": 47.44,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -623,13 +541,13 @@
       }
     },
     {
-      "id": "t20",
+      "id": "t19",
       "type": "text",
       "content": "GUSANOS que viajan solos",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 546,
         "h": 90
       },
@@ -649,48 +567,33 @@
       }
     },
     {
-      "id": "old-computer_21",
+      "id": "calendar_20",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/old-computer.png",
+      "src": "assets/icons/calendar.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 562,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 45.06,
-      "out": 50.06,
+      "in": 50.88,
+      "out": 93.9,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
-        "kind": "slide-in-left",
+        "kind": "pop",
         "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 45.06,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 46.86,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t22",
+      "id": "t21",
       "type": "text",
       "content": "Gusano Morris · 1988",
       "fontSize": 34,
@@ -703,7 +606,7 @@
       "color": "#111111",
       "z": 60,
       "in": 47.44,
-      "out": 52.44,
+      "out": 51.42,
       "_syncT": 47.44,
       "_keep": false,
       "enter": {
@@ -716,21 +619,22 @@
       }
     },
     {
-      "id": "student_23",
+      "id": "university_22",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/student.png",
+      "src": "assets/icons/university.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 965,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 53.94,
-      "out": 58.82,
+      "in": 54.34,
+      "out": 93.9,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -741,7 +645,7 @@
       }
     },
     {
-      "id": "photo-retro-pc_24",
+      "id": "photo-retro-pc_23",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-retro-pc.png",
@@ -756,6 +660,7 @@
       "out": 58.82,
       "auto": true,
       "_keep": false,
+      "_accum": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -766,7 +671,7 @@
       }
     },
     {
-      "id": "t25",
+      "id": "t24",
       "type": "text",
       "content": "6.000 ordenadores",
       "fontSize": 34,
@@ -789,24 +694,41 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 54.82,
+          "cx": 960,
+          "cy": 500,
+          "w": 398,
+          "h": 90
+        },
+        {
+          "t": 57.62,
+          "cx": 960,
+          "cy": 830,
+          "w": 398,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "spread-world_26",
+      "id": "spread-world_25",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/spread-world.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 1368,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 58.82,
-      "out": 63.82,
+      "in": 63.58,
+      "out": 93.9,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -814,32 +736,16 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 58.82,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 60.87,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t27",
+      "id": "t26",
       "type": "text",
       "content": "el 10% de internet",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 419,
         "h": 90
       },
@@ -859,21 +765,22 @@
       }
     },
     {
-      "id": "worm-code_28",
+      "id": "bug-error_27",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/worm-code.png",
+      "src": "assets/icons/bug-error.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 562,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 63.98,
-      "out": 68.98,
+      "in": 67.84,
+      "out": 93.9,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -881,23 +788,33 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
+      }
+    },
+    {
+      "id": "copy-copy_28",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/copy-copy.png",
+      "box": {
+        "cx": 965,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
-      "frames": [
-        {
-          "t": 63.98,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 66.78,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      "z": 30,
+      "in": 69.1,
+      "out": 93.9,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
     },
     {
       "id": "server-down_29",
@@ -905,16 +822,17 @@
       "kind": "vector",
       "src": "assets/icons/server-down.png",
       "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 1368,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 72.16,
-      "out": 73.82,
+      "out": 93.9,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -922,23 +840,7 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 72.16,
-          "cx": 1380,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 72.41,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
       "id": "t30",
@@ -947,7 +849,7 @@
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 441,
         "h": 90
       },
@@ -967,45 +869,30 @@
       }
     },
     {
-      "id": "hacker_31",
+      "id": "law-book_31",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/hacker.png",
+      "src": "assets/icons/law-book.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 562,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 73.82,
-      "out": 78.82,
+      "in": 76.18,
+      "out": 93.9,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
-        "kind": "fade-in",
+        "kind": "pop",
         "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 73.82,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 76.62,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
       "id": "t32",
@@ -1014,14 +901,14 @@
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 567,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 77.22,
-      "out": 82.22,
+      "out": 81.58,
       "_syncT": null,
       "_keep": false,
       "enter": {
@@ -1039,16 +926,17 @@
       "kind": "vector",
       "src": "assets/icons/worm-code.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 965,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 85.98,
-      "out": 90.8,
+      "out": 93.9,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1059,21 +947,22 @@
       }
     },
     {
-      "id": "spread-world_34",
+      "id": "code-lines_34",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/spread-world.png",
+      "src": "assets/icons/code-lines.png",
       "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 1368,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 83.98,
-      "out": 88.98,
+      "in": 86.44,
+      "out": 93.9,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1081,30 +970,7 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 83.98,
-          "cx": 1380,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 84.23,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 85.28,
-          "cx": 1380,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
       "id": "t35",
@@ -1113,7 +979,7 @@
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 419,
         "h": 90
       },
@@ -1133,61 +999,20 @@
       }
     },
     {
-      "id": "worm-code_36",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/worm-code.png",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
-      },
-      "z": 30,
-      "in": 90.8,
-      "out": 93.9,
-      "auto": true,
-      "_keep": false,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 90.8,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 91.85,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
-    },
-    {
-      "id": "t37",
+      "id": "t36",
       "type": "text",
       "content": "recuérdalo",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 251,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 92.4,
-      "out": 93.9,
+      "in": 90.8,
+      "out": 94.62,
       "_syncT": null,
       "_keep": false,
       "enter": {
@@ -1200,61 +1025,46 @@
       }
     },
     {
-      "id": "floppy-word_38",
+      "id": "calendar_37",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/floppy-word.png",
+      "src": "assets/icons/calendar.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 562,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 93.9,
-      "out": 98.72,
+      "in": 94.62,
+      "out": 124.3,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
-        "kind": "slide-in-left",
+        "kind": "pop",
         "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 93.9,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 94.95,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t39",
+      "id": "t38",
       "type": "text",
       "content": "Melissa · 1999",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 335,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 95.54,
-      "out": 100.54,
+      "out": 98.72,
       "_syncT": 95.54,
       "_keep": false,
       "enter": {
@@ -1267,21 +1077,22 @@
       }
     },
     {
-      "id": "thief_40",
+      "id": "thief_39",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/thief.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 965,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 103.6,
-      "out": 104.86,
+      "out": 124.3,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1289,32 +1100,16 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 103.6,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 104.1,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t41",
+      "id": "t40",
       "type": "text",
       "content": "el ENGAÑO",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 230,
         "h": 90
       },
@@ -1334,21 +1129,22 @@
       }
     },
     {
-      "id": "floppy-word_42",
+      "id": "floppy-word_41",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/floppy-word.png",
       "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 300,
-        "h": 300
+        "cx": 1368,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 104.86,
-      "out": 109.86,
+      "in": 106.26,
+      "out": 124.3,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1359,21 +1155,22 @@
       }
     },
     {
-      "id": "inbox-flood_43",
+      "id": "address-book_42",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/inbox-flood.png",
+      "src": "assets/icons/address-book.png",
       "box": {
-        "cx": 960,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 562,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 109.8,
-      "out": 114.8,
+      "out": 124.3,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1381,30 +1178,33 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
+      }
+    },
+    {
+      "id": "envelope-open_43",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/envelope-open.png",
+      "box": {
+        "cx": 965,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
-      "frames": [
-        {
-          "t": 109.8,
-          "cx": 960,
-          "cy": 470,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 110.05,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 110.35,
-          "cx": 960,
-          "cy": 470,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      "z": 30,
+      "in": 114.26,
+      "out": 124.3,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
     },
     {
       "id": "t44",
@@ -1413,7 +1213,7 @@
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 567,
         "h": 90
       },
@@ -1438,16 +1238,17 @@
       "kind": "vector",
       "src": "assets/icons/inbox-flood.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 1368,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 115.2,
-      "out": 119.68,
+      "in": 115.42,
+      "out": 124.3,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1455,30 +1256,7 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 115.2,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 115.45,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 117.5,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
       "id": "server-down_46",
@@ -1486,16 +1264,17 @@
       "kind": "vector",
       "src": "assets/icons/server-down.png",
       "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 562,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 118.52,
-      "out": 119.68,
+      "out": 124.3,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1512,7 +1291,7 @@
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 462,
         "h": 90
       },
@@ -1532,21 +1311,22 @@
       }
     },
     {
-      "id": "server-down_48",
+      "id": "database_48",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/server-down.png",
+      "src": "assets/icons/database.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 965,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 119.68,
-      "out": 124.3,
+      "in": 123.1,
+      "out": 124.72,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1554,23 +1334,7 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 119.68,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 120.73,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
       "id": "t49",
@@ -1579,7 +1343,7 @@
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 462,
         "h": 90
       },
@@ -1599,45 +1363,30 @@
       }
     },
     {
-      "id": "love-email_50",
+      "id": "envelope-open_50",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/love-email.png",
+      "src": "assets/icons/envelope-open.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 511,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 124.3,
-      "out": 128.24,
+      "in": 124.72,
+      "out": 173.52,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
-        "kind": "slide-in-right",
+        "kind": "pop",
         "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 124.3,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 125.6,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
       "id": "t51",
@@ -1646,14 +1395,14 @@
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 356,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 126.08,
-      "out": 130.86,
+      "out": 128.24,
       "_syncT": 126.08,
       "_keep": false,
       "enter": {
@@ -1671,16 +1420,17 @@
       "kind": "vector",
       "src": "assets/icons/love-email.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 814,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 130.86,
-      "out": 135.62,
+      "out": 173.52,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1688,47 +1438,25 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 130.86,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 131.11,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 132.66,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "click-warning_53",
+      "id": "curiosity-face_53",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/click-warning.png",
+      "src": "assets/icons/curiosity-face.png",
       "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 1116,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 134.64,
-      "out": 136.92,
+      "in": 133.86,
+      "out": 173.52,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1736,23 +1464,7 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 134.64,
-          "cx": 1380,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 135.64,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
       "id": "t54",
@@ -1761,7 +1473,7 @@
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 419,
         "h": 90
       },
@@ -1786,16 +1498,17 @@
       "kind": "vector",
       "src": "assets/icons/click-warning.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 1419,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 136.92,
-      "out": 141.92,
+      "out": 173.52,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1803,23 +1516,7 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 136.92,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 137.97,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
       "id": "destruction-bomb_56",
@@ -1827,16 +1524,17 @@
       "kind": "vector",
       "src": "assets/icons/destruction-bomb.png",
       "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 511,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 139.38,
-      "out": 142.92,
+      "out": 173.52,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1853,7 +1551,7 @@
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 419,
         "h": 90
       },
@@ -1878,16 +1576,17 @@
       "kind": "cutout",
       "src": "assets/icons/photo-iloveyou.png",
       "box": {
-        "cx": 960,
+        "cx": 1380,
         "cy": 520,
-        "w": 575,
-        "h": 575
+        "w": 375,
+        "h": 375
       },
       "z": 25,
-      "in": 142.92,
+      "in": 145.48,
       "out": 146.74,
       "auto": true,
       "_keep": false,
+      "_accum": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1895,26 +1594,36 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 142.92,
-          "cx": 960,
-          "cy": 500,
-          "w": 575,
-          "h": 575
-        },
-        {
-          "t": 144.72,
-          "cx": 960,
-          "cy": 520,
-          "w": 575,
-          "h": 575
-        }
-      ]
+      }
     },
     {
-      "id": "t59",
+      "id": "spread-world_59",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/spread-world.png",
+      "box": {
+        "cx": 814,
+        "cy": 548,
+        "w": 149,
+        "h": 149
+      },
+      "z": 30,
+      "in": 143.6,
+      "out": 173.52,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t60",
       "type": "text",
       "content": "45 millones de PCs",
       "fontSize": 34,
@@ -1927,7 +1636,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 145.32,
-      "out": 148.74,
+      "out": 146.74,
       "_syncT": null,
       "_keep": false,
       "enter": {
@@ -1940,21 +1649,22 @@
       }
     },
     {
-      "id": "money-burning_60",
+      "id": "money-burning_61",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/money-burning.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 1116,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 149.68,
-      "out": 154.36,
+      "out": 173.52,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1962,32 +1672,16 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 149.68,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 151.18,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t61",
+      "id": "t62",
       "type": "text",
       "content": "hasta 10.000 M$",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 356,
         "h": 90
       },
@@ -2007,21 +1701,22 @@
       }
     },
     {
-      "id": "pentagon_62",
+      "id": "pentagon_63",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/pentagon.png",
       "box": {
-        "cx": 450,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 1419,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 154.36,
-      "out": 159.36,
+      "out": 173.52,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2032,21 +1727,22 @@
       }
     },
     {
-      "id": "hacker_63",
+      "id": "hacker_64",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hacker.png",
       "box": {
-        "cx": 960,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 511,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 155.56,
-      "out": 160.56,
+      "out": 173.52,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2054,32 +1750,16 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 155.56,
-          "cx": 960,
-          "cy": 470,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 159.56,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "t64",
+      "id": "t65",
       "type": "text",
       "content": "Pentágono y CIA cayeron",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 525,
         "h": 90
       },
@@ -2099,61 +1779,39 @@
       }
     },
     {
-      "id": "hacker_65",
+      "id": "law-book_66",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/hacker.png",
+      "src": "assets/icons/law-book.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 814,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 161.02,
-      "out": 166.02,
+      "in": 166.28,
+      "out": 173.52,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
-        "kind": "fade-in",
+        "kind": "pop",
         "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 161.02,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 161.27,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 164.57,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t66",
+      "id": "t67",
       "type": "text",
       "content": "quedaron IMPUNES",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 377,
         "h": 90
       },
@@ -2173,68 +1831,46 @@
       }
     },
     {
-      "id": "virus-skull_67",
+      "id": "virus-skull_68",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/virus-skull.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 1116,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 167.36,
-      "out": 172.36,
+      "in": 172.68,
+      "out": 175.46,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
-        "kind": "fade-in",
+        "kind": "pop",
         "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 167.36,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 167.61,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 169.66,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "t68",
+      "id": "t69",
       "type": "text",
       "content": "no había ley que lo castigara",
-      "fontSize": 46,
+      "fontSize": 34,
       "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 867,
+        "cx": 960,
+        "cy": 500,
+        "w": 651,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 170.34,
-      "out": 175.34,
+      "out": 173.52,
       "_syncT": 170.34,
       "_keep": false,
       "enter": {
@@ -2247,69 +1883,22 @@
       }
     },
     {
-      "id": "calendar_69",
+      "id": "calendar_70",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/calendar.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 562,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 175.46,
-      "out": 179.54,
+      "out": 204.7,
       "auto": true,
       "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 175.46,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 175.71,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 178.01,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
-    },
-    {
-      "id": "defaced-web_70",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/defaced-web.png",
-      "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
-      },
-      "z": 30,
-      "in": 178.66,
-      "out": 179.54,
-      "auto": true,
-      "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2320,20 +1909,46 @@
       }
     },
     {
-      "id": "t71",
+      "id": "defaced-web_71",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/defaced-web.png",
+      "box": {
+        "cx": 965,
+        "cy": 366,
+        "w": 149,
+        "h": 149
+      },
+      "z": 30,
+      "in": 178.66,
+      "out": 204.7,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t72",
       "type": "text",
       "content": "Code Red · 2001",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 356,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 178.66,
-      "out": 180.72,
+      "out": 179.54,
       "_syncT": 178.66,
       "_keep": false,
       "enter": {
@@ -2346,21 +1961,22 @@
       }
     },
     {
-      "id": "defaced-web_72",
+      "id": "server-down_73",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/defaced-web.png",
+      "src": "assets/icons/server-down.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 1368,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 180.72,
-      "out": 185.72,
+      "in": 182.62,
+      "out": 204.7,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2371,13 +1987,13 @@
       }
     },
     {
-      "id": "t73",
+      "id": "t74",
       "type": "text",
       "content": "desfiguraba webs",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 377,
         "h": 90
       },
@@ -2397,21 +2013,22 @@
       }
     },
     {
-      "id": "white-house_74",
+      "id": "white-house_75",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/white-house.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 965,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 188.14,
-      "out": 190.04,
+      "out": 204.7,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2419,38 +2036,48 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 188.14,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 189.14,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t75",
+      "id": "crosshair-target_76",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/crosshair-target.png",
+      "box": {
+        "cx": 562,
+        "cy": 548,
+        "w": 149,
+        "h": 149
+      },
+      "z": 30,
+      "in": 186.64,
+      "out": 204.7,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t77",
       "type": "text",
       "content": "atacó la Casa Blanca",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 462,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 187.86,
+      "in": 188.26,
       "out": 189.08,
       "_syncT": null,
       "_keep": false,
@@ -2464,21 +2091,22 @@
       }
     },
     {
-      "id": "worm-code_76",
+      "id": "worm-code_78",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/worm-code.png",
       "box": {
-        "cx": 450,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 1368,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 190.04,
-      "out": 195.04,
+      "out": 204.7,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2489,21 +2117,22 @@
       }
     },
     {
-      "id": "spread-world_77",
+      "id": "five-arrows_79",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/spread-world.png",
+      "src": "assets/icons/five-arrows.png",
       "box": {
-        "cx": 960,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 562,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 192.02,
-      "out": 197.02,
+      "in": 192.72,
+      "out": 204.7,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2511,32 +2140,16 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 192.02,
-          "cx": 960,
-          "cy": 470,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 195.27,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "t78",
+      "id": "t80",
       "type": "text",
       "content": "Nimda: 5 vías a la vez",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 504,
         "h": 90
       },
@@ -2556,69 +2169,22 @@
       }
     },
     {
-      "id": "lightning-speed_79",
+      "id": "stopwatch-fast_81",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/lightning-speed.png",
+      "src": "assets/icons/stopwatch-fast.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 965,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 199.32,
-      "out": 204.32,
-      "auto": true,
-      "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 199.32,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 199.57,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 200.37,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
-    },
-    {
-      "id": "spread-world_80",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/spread-world.png",
-      "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
-      },
-      "z": 30,
-      "in": 203.2,
       "out": 204.7,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2629,13 +2195,39 @@
       }
     },
     {
-      "id": "t81",
+      "id": "spread-world_82",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/spread-world.png",
+      "box": {
+        "cx": 1368,
+        "cy": 729,
+        "w": 149,
+        "h": 149
+      },
+      "z": 30,
+      "in": 203.2,
+      "out": 205.98,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t83",
       "type": "text",
       "content": "22 minutos al nº1",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 398,
         "h": 90
       },
@@ -2655,61 +2247,46 @@
       }
     },
     {
-      "id": "tiny-packet_82",
+      "id": "stopwatch-fast_84",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/tiny-packet.png",
+      "src": "assets/icons/stopwatch-fast.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 562,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 204.7,
-      "out": 209.7,
+      "in": 205.98,
+      "out": 238,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
-        "kind": "slide-in-left",
+        "kind": "pop",
         "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 204.7,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 207.25,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t83",
+      "id": "t85",
       "type": "text",
       "content": "SQL Slammer · 2003",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 419,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 207.78,
-      "out": 212.76,
+      "out": 210.18,
       "_syncT": 207.78,
       "_keep": false,
       "enter": {
@@ -2722,21 +2299,22 @@
       }
     },
     {
-      "id": "tiny-packet_84",
+      "id": "data-packet_86",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/tiny-packet.png",
+      "src": "assets/icons/data-packet.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 965,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 213.04,
-      "out": 218.04,
+      "out": 238,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2744,32 +2322,16 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 213.04,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 216.54,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t85",
+      "id": "t87",
       "type": "text",
       "content": "un solo paquete",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 356,
         "h": 90
       },
@@ -2789,62 +2351,22 @@
       }
     },
     {
-      "id": "lightning-speed_86",
+      "id": "lightning-speed_88",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/lightning-speed.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 1368,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 218.5,
-      "out": 223.5,
+      "out": 238,
       "auto": true,
       "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 218.5,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 219.3,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
-    },
-    {
-      "id": "spread-world_87",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/spread-world.png",
-      "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
-      },
-      "z": 30,
-      "in": 220.1,
-      "out": 223.82,
-      "auto": true,
-      "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2855,13 +2377,39 @@
       }
     },
     {
-      "id": "t88",
+      "id": "copy-copy_89",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/copy-copy.png",
+      "box": {
+        "cx": 562,
+        "cy": 548,
+        "w": 149,
+        "h": 149
+      },
+      "z": 30,
+      "in": 220.1,
+      "out": 238,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t90",
       "type": "text",
       "content": "x2 cada 8,5 segundos",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 462,
         "h": 90
       },
@@ -2881,88 +2429,22 @@
       }
     },
     {
-      "id": "lightning-speed_89",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/lightning-speed.png",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
-      },
-      "z": 30,
-      "in": 223.82,
-      "out": 227,
-      "auto": true,
-      "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 223.82,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 225.62,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
-    },
-    {
-      "id": "t90",
-      "type": "text",
-      "content": "el DOBLE, sin parar",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 441,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 226.12,
-      "out": 229.6,
-      "_syncT": 226.12,
-      "_keep": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
       "id": "spread-world_91",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/spread-world.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 965,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 231.46,
-      "out": 232.68,
+      "in": 226.22,
+      "out": 238,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2975,11 +2457,63 @@
     {
       "id": "t92",
       "type": "text",
+      "content": "el DOBLE, sin parar",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 441,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 226.12,
+      "out": 227,
+      "_syncT": 226.12,
+      "_keep": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "database_93",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/database.png",
+      "box": {
+        "cx": 1368,
+        "cy": 548,
+        "w": 149,
+        "h": 149
+      },
+      "z": 30,
+      "in": 230.66,
+      "out": 238,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t94",
+      "type": "text",
       "content": "10 minutos = el mundo",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 483,
         "h": 90
       },
@@ -2999,21 +2533,22 @@
       }
     },
     {
-      "id": "atm-down_93",
+      "id": "atm-down_95",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/atm-down.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 562,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 232.68,
-      "out": 237.68,
+      "out": 238,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3024,21 +2559,22 @@
       }
     },
     {
-      "id": "nuclear-plant_94",
+      "id": "nuclear-plant_96",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/nuclear-plant.png",
       "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 965,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 236.94,
       "out": 240.5,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3046,32 +2582,16 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 236.94,
-          "cx": 1380,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 237.69,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "t95",
+      "id": "t97",
       "type": "text",
       "content": "cajeros y una nuclear",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 483,
         "h": 90
       },
@@ -3091,62 +2611,22 @@
       }
     },
     {
-      "id": "money-burning_96",
+      "id": "dollar-sign_98",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/money-burning.png",
+      "src": "assets/icons/dollar-sign.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 562,
+        "cy": 411,
+        "w": 223,
+        "h": 223
       },
       "z": 30,
       "in": 240.5,
-      "out": 243.26,
+      "out": 262.2,
       "auto": true,
       "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 240.5,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 240.8,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
-    },
-    {
-      "id": "email-storm_97",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/email-storm.png",
-      "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
-      },
-      "z": 30,
-      "in": 241.32,
-      "out": 243.26,
-      "auto": true,
-      "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3157,13 +2637,13 @@
       }
     },
     {
-      "id": "t98",
+      "id": "t99",
       "type": "text",
       "content": "Mydoom · 2004",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 314,
         "h": 90
       },
@@ -3183,62 +2663,22 @@
       }
     },
     {
-      "id": "email-storm_99",
+      "id": "email-storm_100",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/email-storm.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 965,
+        "cy": 411,
+        "w": 223,
+        "h": 223
       },
       "z": 30,
-      "in": 243.26,
-      "out": 248.26,
+      "in": 245.6,
+      "out": 262.2,
       "auto": true,
       "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 243.26,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 244.56,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
-    },
-    {
-      "id": "lightning-speed_100",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/lightning-speed.png",
-      "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
-      },
-      "z": 30,
-      "in": 246.34,
-      "out": 248.38,
-      "auto": true,
-      "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3249,13 +2689,39 @@
       }
     },
     {
-      "id": "t101",
+      "id": "lightning-speed_101",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/lightning-speed.png",
+      "box": {
+        "cx": 1368,
+        "cy": 411,
+        "w": 223,
+        "h": 223
+      },
+      "z": 30,
+      "in": 246.34,
+      "out": 262.2,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t102",
       "type": "text",
       "content": "el más rápido de la historia",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 630,
         "h": 90
       },
@@ -3275,21 +2741,22 @@
       }
     },
     {
-      "id": "email-storm_102",
+      "id": "pie-quarter_103",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/email-storm.png",
+      "src": "assets/icons/pie-quarter.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 562,
+        "cy": 684,
+        "w": 223,
+        "h": 223
       },
       "z": 30,
-      "in": 248.38,
-      "out": 253.38,
+      "in": 250.34,
+      "out": 262.2,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3297,40 +2764,25 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 248.38,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 249.43,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "spread-world_103",
+      "id": "spread-world_104",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/spread-world.png",
       "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 965,
+        "cy": 684,
+        "w": 223,
+        "h": 223
       },
       "z": 30,
       "in": 252.8,
-      "out": 257.8,
+      "out": 262.2,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3338,32 +2790,16 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 252.8,
-          "cx": 1380,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 255.3,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "t104",
+      "id": "t105",
       "type": "text",
       "content": "1 de cada 4 correos",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 441,
         "h": 90
       },
@@ -3383,21 +2819,22 @@
       }
     },
     {
-      "id": "money-burning_105",
+      "id": "money-burning_106",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/money-burning.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 1368,
+        "cy": 684,
+        "w": 223,
+        "h": 223
       },
       "z": 30,
       "in": 259.18,
       "out": 262.2,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3408,7 +2845,7 @@
       }
     },
     {
-      "id": "t106",
+      "id": "t107",
       "type": "text",
       "content": "38.000 M$",
       "fontSize": 34,
@@ -3421,7 +2858,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 259.56,
-      "out": 262.2,
+      "out": 262.86,
       "_syncT": null,
       "_keep": false,
       "enter": {
@@ -3431,64 +2868,65 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 259.56,
+          "cx": 960,
+          "cy": 500,
+          "w": 230,
+          "h": 90
+        },
+        {
+          "t": 261.61,
+          "cx": 960,
+          "cy": 830,
+          "w": 230,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "zombie-pc_107",
+      "id": "fear-face_108",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/zombie-pc.png",
+      "src": "assets/icons/fear-face.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 511,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 262.2,
-      "out": 265.92,
+      "in": 262.86,
+      "out": 304.36,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
-        "kind": "slide-in-right",
+        "kind": "pop",
         "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 262.2,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 263.5,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t108",
+      "id": "t109",
       "type": "text",
       "content": "Conficker · 2008",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 377,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 264,
-      "out": 269,
+      "out": 265.92,
       "_syncT": 264,
       "_keep": false,
       "enter": {
@@ -3501,21 +2939,22 @@
       }
     },
     {
-      "id": "zombie-pc_109",
+      "id": "zombie-pc_110",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/zombie-pc.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 814,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 270.4,
-      "out": 273.68,
+      "in": 268.78,
+      "out": 304.36,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3526,20 +2965,46 @@
       }
     },
     {
-      "id": "t110",
+      "id": "question-army_111",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/question-army.png",
+      "box": {
+        "cx": 1116,
+        "cy": 366,
+        "w": 149,
+        "h": 149
+      },
+      "z": 30,
+      "in": 270.4,
+      "out": 304.36,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t112",
       "type": "text",
       "content": "ejército de 15 millones",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 525,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
       "in": 270.4,
-      "out": 274.34,
+      "out": 273.68,
       "_syncT": 270.4,
       "_keep": false,
       "enter": {
@@ -3552,21 +3017,22 @@
       }
     },
     {
-      "id": "warship_111",
+      "id": "warship_113",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/warship.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 1419,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 274.34,
-      "out": 277.16,
+      "out": 304.36,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3577,21 +3043,48 @@
       }
     },
     {
-      "id": "hospital_112",
+      "id": "france-flag_114",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/france-flag.png",
+      "box": {
+        "cx": 511,
+        "cy": 548,
+        "w": 149,
+        "h": 149
+      },
+      "z": 30,
+      "in": 274.58,
+      "out": 304.36,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "hospital_115",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hospital.png",
       "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 814,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 275.56,
-      "out": 277.16,
+      "out": 304.36,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3602,13 +3095,13 @@
       }
     },
     {
-      "id": "t113",
+      "id": "t116",
       "type": "text",
       "content": "marina y hospitales",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 441,
         "h": 90
       },
@@ -3628,54 +3121,39 @@
       }
     },
     {
-      "id": "zombie-pc_114",
+      "id": "question-army_117",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/zombie-pc.png",
+      "src": "assets/icons/question-army.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 1116,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 277.16,
-      "out": 282.16,
+      "in": 280.64,
+      "out": 304.36,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
-        "kind": "fade-in",
+        "kind": "pop",
         "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 277.16,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 280.71,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t115",
+      "id": "t118",
       "type": "text",
       "content": "¿para qué? nadie lo supo",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 546,
         "h": 90
       },
@@ -3695,21 +3173,22 @@
       }
     },
     {
-      "id": "zombie-pc_116",
+      "id": "zombie-pc_119",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/zombie-pc.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 1419,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 282.62,
-      "out": 287.62,
+      "in": 283.06,
+      "out": 304.36,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3720,13 +3199,13 @@
       }
     },
     {
-      "id": "t117",
+      "id": "t120",
       "type": "text",
       "content": "un ejército que nunca atacó",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 609,
         "h": 90
       },
@@ -3746,62 +3225,40 @@
       }
     },
     {
-      "id": "zombie-pc_118",
+      "id": "fear-face_121",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/zombie-pc.png",
+      "src": "assets/icons/fear-face.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 511,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 287.88,
-      "out": 292.88,
+      "in": 290.56,
+      "out": 304.36,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
-        "kind": "fade-in",
+        "kind": "pop",
         "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 287.88,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 288.13,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 288.43,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "t119",
+      "id": "t122",
       "type": "text",
       "content": "reclutado y abandonado",
-      "fontSize": 46,
+      "fontSize": 34,
       "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 667,
+        "cx": 960,
+        "cy": 500,
+        "w": 504,
         "h": 90
       },
       "color": "#111111",
@@ -3820,61 +3277,39 @@
       }
     },
     {
-      "id": "virus-skull_120",
+      "id": "question-army_123",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/virus-skull.png",
+      "src": "assets/icons/question-army.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 814,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 294.4,
-      "out": 299.4,
+      "in": 295.3,
+      "out": 304.36,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
-        "kind": "fade-in",
+        "kind": "pop",
         "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 294.4,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 294.65,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 297.7,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t121",
+      "id": "t124",
       "type": "text",
       "content": "el misterio da más miedo",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 546,
         "h": 90
       },
@@ -3894,68 +3329,46 @@
       }
     },
     {
-      "id": "centrifuge_122",
+      "id": "calendar_125",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/centrifuge.png",
+      "src": "assets/icons/calendar.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 511,
+        "cy": 343,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
-      "in": 304.36,
-      "out": 308.96,
+      "in": 306.26,
+      "out": 363.24,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
-        "kind": "slide-in-left",
+        "kind": "pop",
         "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 304.36,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 304.61,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 307.41,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t123",
+      "id": "t126",
       "type": "text",
       "content": "Stuxnet · 2010",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 335,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 307.9,
-      "out": 310.16,
+      "out": 308.96,
       "_syncT": 307.9,
       "_keep": false,
       "enter": {
@@ -3968,21 +3381,22 @@
       }
     },
     {
-      "id": "student_124",
+      "id": "student_127",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/student.png",
       "box": {
-        "cx": 450,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 814,
+        "cy": 343,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 310.16,
-      "out": 315.16,
+      "out": 363.24,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3993,21 +3407,22 @@
       }
     },
     {
-      "id": "thief_125",
+      "id": "thief_128",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/thief.png",
       "box": {
-        "cx": 960,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 1116,
+        "cy": 343,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 310.86,
-      "out": 315.66,
+      "out": 363.24,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4018,21 +3433,22 @@
       }
     },
     {
-      "id": "weapon-war_126",
+      "id": "weapon-war_129",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/weapon-war.png",
       "box": {
-        "cx": 1470,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 1419,
+        "cy": 343,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 313.58,
-      "out": 317.4,
+      "out": 363.24,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "stamp",
         "duration": 0.3
@@ -4040,32 +3456,16 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 313.58,
-          "cx": 1470,
-          "cy": 470,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 315.83,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "t127",
+      "id": "t130",
       "type": "text",
       "content": "un ARMA de gobiernos",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 462,
         "h": 90
       },
@@ -4085,21 +3485,22 @@
       }
     },
     {
-      "id": "nuclear-plant_128",
+      "id": "iran-map_131",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/nuclear-plant.png",
+      "src": "assets/icons/iran-map.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 511,
+        "cy": 479,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
-      "in": 317.4,
-      "out": 322.4,
+      "in": 318.02,
+      "out": 363.24,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4107,26 +3508,10 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 317.4,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 319.7,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "photo-stuxnet_129",
+      "id": "photo-stuxnet_132",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-stuxnet.png",
@@ -4141,6 +3526,7 @@
       "out": 322.56,
       "auto": true,
       "_keep": false,
+      "_accum": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4151,7 +3537,33 @@
       }
     },
     {
-      "id": "t130",
+      "id": "uranium_133",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/uranium.png",
+      "box": {
+        "cx": 814,
+        "cy": 479,
+        "w": 120,
+        "h": 120
+      },
+      "z": 30,
+      "in": 321.8,
+      "out": 363.24,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t134",
       "type": "text",
       "content": "centrifugadoras de Irán",
       "fontSize": 34,
@@ -4164,133 +3576,8 @@
       "color": "#111111",
       "z": 60,
       "in": 320.3,
-      "out": 325.3,
+      "out": 322.56,
       "_syncT": 320.3,
-      "_keep": false,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "gear-breaking_131",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/gear-breaking.png",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
-      },
-      "z": 30,
-      "in": 325.88,
-      "out": 329.68,
-      "auto": true,
-      "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t132",
-      "type": "text",
-      "content": "girar hasta ROMPERSE",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 462,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 325.88,
-      "out": 330.88,
-      "_syncT": 325.88,
-      "_keep": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "fake-screen_133",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/fake-screen.png",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
-      },
-      "z": 30,
-      "in": 333.84,
-      "out": 337.54,
-      "auto": true,
-      "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 333.84,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 334.09,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 336.39,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
-    },
-    {
-      "id": "t134",
-      "type": "text",
-      "content": "'todo normal' en pantalla",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 567,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 336.86,
-      "out": 339.46,
-      "_syncT": 336.86,
       "_keep": false,
       "enter": {
         "kind": "handwrite",
@@ -4307,16 +3594,17 @@
       "kind": "vector",
       "src": "assets/icons/gear-breaking.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 1116,
+        "cy": 479,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
-      "in": 339.46,
-      "out": 341.78,
+      "in": 325.88,
+      "out": 363.24,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4329,18 +3617,148 @@
     {
       "id": "t136",
       "type": "text",
+      "content": "girar hasta ROMPERSE",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 462,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 325.88,
+      "out": 329.68,
+      "_syncT": 325.88,
+      "_keep": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "operator_137",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/operator.png",
+      "box": {
+        "cx": 1419,
+        "cy": 479,
+        "w": 120,
+        "h": 120
+      },
+      "z": 30,
+      "in": 331.4,
+      "out": 363.24,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "fake-screen_138",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/fake-screen.png",
+      "box": {
+        "cx": 511,
+        "cy": 616,
+        "w": 120,
+        "h": 120
+      },
+      "z": 30,
+      "in": 333.84,
+      "out": 363.24,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t139",
+      "type": "text",
+      "content": "'todo normal' en pantalla",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 567,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 336.86,
+      "out": 337.54,
+      "_syncT": 336.86,
+      "_keep": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "destruction-bomb_140",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/destruction-bomb.png",
+      "box": {
+        "cx": 814,
+        "cy": 616,
+        "w": 120,
+        "h": 120
+      },
+      "z": 30,
+      "in": 339.46,
+      "out": 363.24,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t141",
+      "type": "text",
       "content": "daño FÍSICO real",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 377,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
       "in": 339.94,
-      "out": 344.16,
+      "out": 341.78,
       "_syncT": null,
       "_keep": false,
       "enter": {
@@ -4353,21 +3771,22 @@
       }
     },
     {
-      "id": "worm-code_137",
+      "id": "code-lines_142",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/worm-code.png",
+      "src": "assets/icons/code-lines.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 1116,
+        "cy": 616,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 344.16,
-      "out": 348.96,
+      "out": 363.24,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4378,54 +3797,13 @@
       }
     },
     {
-      "id": "gear-breaking_138",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/gear-breaking.png",
-      "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
-      },
-      "z": 30,
-      "in": 345.46,
-      "out": 350.46,
-      "auto": true,
-      "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 345.46,
-          "cx": 1380,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 348.96,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
-    },
-    {
-      "id": "t139",
+      "id": "t143",
       "type": "text",
       "content": "código que rompe metal",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 504,
         "h": 90
       },
@@ -4445,21 +3823,22 @@
       }
     },
     {
-      "id": "nuclear-plant_140",
+      "id": "power-grid_144",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/nuclear-plant.png",
+      "src": "assets/icons/power-grid.png",
       "box": {
-        "cx": 450,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 1419,
+        "cy": 616,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 356.5,
-      "out": 359.4,
+      "out": 363.24,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4470,21 +3849,48 @@
       }
     },
     {
-      "id": "factory_141",
+      "id": "water-tap_145",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/water-tap.png",
+      "box": {
+        "cx": 511,
+        "cy": 752,
+        "w": 120,
+        "h": 120
+      },
+      "z": 30,
+      "in": 357.62,
+      "out": 363.24,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "factory_146",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/factory.png",
       "box": {
-        "cx": 1470,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 814,
+        "cy": 752,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 358.42,
-      "out": 359.58,
+      "out": 363.24,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4495,13 +3901,13 @@
       }
     },
     {
-      "id": "t142",
+      "id": "t147",
       "type": "text",
       "content": "ahora ataca el mundo real",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 567,
         "h": 90
       },
@@ -4521,21 +3927,22 @@
       }
     },
     {
-      "id": "weapon-war_143",
+      "id": "weapon-war_148",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/weapon-war.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 1116,
+        "cy": 752,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 359.58,
       "out": 363.24,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4543,26 +3950,10 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 359.58,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 360.88,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t144",
+      "id": "t149",
       "type": "text",
       "content": "nace la CIBERGUERRA",
       "fontSize": 34,
@@ -4575,7 +3966,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 361.4,
-      "out": 363.24,
+      "out": 364.58,
       "_syncT": null,
       "_keep": false,
       "enter": {
@@ -4585,64 +3976,65 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 361.4,
+          "cx": 960,
+          "cy": 500,
+          "w": 441,
+          "h": 90
+        },
+        {
+          "t": 362.7,
+          "cx": 960,
+          "cy": 830,
+          "w": 441,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "ransom-lock_145",
+      "id": "encrypted-files_150",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/ransom-lock.png",
+      "src": "assets/icons/encrypted-files.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 511,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 363.24,
-      "out": 367.82,
+      "in": 364.58,
+      "out": 419.2,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
-        "kind": "slide-in-right",
+        "kind": "pop",
         "duration": 0.4
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 363.24,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 365.04,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t146",
+      "id": "t151",
       "type": "text",
       "content": "WannaCry · 2017",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 356,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 365.62,
-      "out": 368.34,
+      "out": 367.82,
       "_syncT": 365.62,
       "_keep": false,
       "enter": {
@@ -4655,21 +4047,22 @@
       }
     },
     {
-      "id": "ransom-lock_147",
+      "id": "ransom-note_152",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/ransom-lock.png",
+      "src": "assets/icons/ransom-note.png",
       "box": {
-        "cx": 450,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 814,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 368.34,
-      "out": 373.34,
+      "in": 370.4,
+      "out": 419.2,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4680,21 +4073,22 @@
       }
     },
     {
-      "id": "money-burning_148",
+      "id": "encrypted-files_153",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/money-burning.png",
+      "src": "assets/icons/encrypted-files.png",
       "box": {
-        "cx": 1470,
-        "cy": 470,
-        "w": 300,
-        "h": 300
+        "cx": 1116,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 377.02,
-      "out": 378.7,
+      "in": 373.48,
+      "out": 419.2,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4702,32 +4096,42 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 377.02,
-          "cx": 1470,
-          "cy": 470,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 377.27,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "t149",
+      "id": "dollar-sign_154",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/dollar-sign.png",
+      "box": {
+        "cx": 1419,
+        "cy": 366,
+        "w": 149,
+        "h": 149
+      },
+      "z": 30,
+      "in": 377.02,
+      "out": 419.2,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t155",
       "type": "text",
       "content": "ransomware = secuestro",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 504,
         "h": 90
       },
@@ -4747,51 +4151,10 @@
       }
     },
     {
-      "id": "photo-wannacry_150",
+      "id": "photo-wannacry_156",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/photo-wannacry.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
-      },
-      "z": 30,
-      "in": 378.7,
-      "out": 383.7,
-      "auto": true,
-      "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 378.7,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 381,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
-    },
-    {
-      "id": "spread-world_151",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/spread-world.png",
       "box": {
         "cx": 1380,
         "cy": 520,
@@ -4799,10 +4162,11 @@
         "h": 300
       },
       "z": 30,
-      "in": 382.68,
+      "in": 381.26,
       "out": 383.92,
       "auto": true,
       "_keep": false,
+      "_accum": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4813,7 +4177,33 @@
       }
     },
     {
-      "id": "t152",
+      "id": "spread-world_157",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/spread-world.png",
+      "box": {
+        "cx": 511,
+        "cy": 548,
+        "w": 149,
+        "h": 149
+      },
+      "z": 30,
+      "in": 382.68,
+      "out": 419.2,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t158",
       "type": "text",
       "content": "200.000 PCs · 150 países",
       "fontSize": 34,
@@ -4839,21 +4229,22 @@
       }
     },
     {
-      "id": "hospital_153",
+      "id": "hospital_159",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hospital.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 814,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 385.14,
-      "out": 390.14,
+      "out": 419.2,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4864,21 +4255,22 @@
       }
     },
     {
-      "id": "ambulance_154",
+      "id": "uk-flag_160",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/ambulance.png",
+      "src": "assets/icons/uk-flag.png",
       "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 1116,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 389.16,
-      "out": 394.16,
+      "in": 385.36,
+      "out": 419.2,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4886,32 +4278,42 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 389.16,
-          "cx": 1380,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 390.16,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "t155",
+      "id": "ambulance_161",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/ambulance.png",
+      "box": {
+        "cx": 1419,
+        "cy": 548,
+        "w": 149,
+        "h": 149
+      },
+      "z": 30,
+      "in": 389.16,
+      "out": 419.2,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t162",
       "type": "text",
       "content": "paralizó hospitales",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 441,
         "h": 90
       },
@@ -4931,21 +4333,22 @@
       }
     },
     {
-      "id": "stolen-key_156",
+      "id": "stolen-key_163",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/stolen-key.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 511,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 394.28,
-      "out": 399.28,
+      "out": 419.2,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4956,13 +4359,39 @@
       }
     },
     {
-      "id": "t157",
+      "id": "nsa-building_164",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/nsa-building.png",
+      "box": {
+        "cx": 814,
+        "cy": 729,
+        "w": 149,
+        "h": 149
+      },
+      "z": 30,
+      "in": 396.76,
+      "out": 419.2,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t165",
       "type": "text",
       "content": "una llave robada a la NSA",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 567,
         "h": 90
       },
@@ -4982,21 +4411,22 @@
       }
     },
     {
-      "id": "stolen-key_158",
+      "id": "padlock-broken_166",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/stolen-key.png",
+      "src": "assets/icons/padlock-broken.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 1116,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 400.3,
-      "out": 405.3,
+      "in": 403.74,
+      "out": 419.2,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5004,80 +4434,16 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 400.3,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 400.55,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 403.35,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "spread-world_159",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/spread-world.png",
-      "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
-      },
-      "z": 30,
-      "in": 409.16,
-      "out": 411.7,
-      "auto": true,
-      "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 409.16,
-          "cx": 1380,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 409.41,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
-    },
-    {
-      "id": "t160",
+      "id": "t167",
       "type": "text",
       "content": "la llave se escapó",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 419,
         "h": 90
       },
@@ -5097,21 +4463,22 @@
       }
     },
     {
-      "id": "shield-lock_161",
+      "id": "kill-switch_168",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/shield-lock.png",
+      "src": "assets/icons/kill-switch.png",
       "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
+        "cx": 1419,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 411.7,
-      "out": 416.7,
+      "in": 414.98,
+      "out": 419.2,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5122,7 +4489,7 @@
       }
     },
     {
-      "id": "t162",
+      "id": "t169",
       "type": "text",
       "content": "lo paró un interruptor secreto",
       "fontSize": 34,
@@ -5135,7 +4502,7 @@
       "color": "#111111",
       "z": 60,
       "in": 416.9,
-      "out": 419.2,
+      "out": 420.24,
       "_syncT": 416.9,
       "_keep": false,
       "enter": {
@@ -5145,24 +4512,41 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 416.9,
+          "cx": 960,
+          "cy": 500,
+          "w": 672,
+          "h": 90
+        },
+        {
+          "t": 418.7,
+          "cx": 960,
+          "cy": 830,
+          "w": 672,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "destruction-bomb_163",
+      "id": "money-burning_170",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/destruction-bomb.png",
+      "src": "assets/icons/money-burning.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 511,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 419.2,
-      "out": 424.2,
+      "in": 420.24,
+      "out": 462.22,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5170,46 +4554,23 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 419.2,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 419.45,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 421,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t164",
+      "id": "t171",
       "type": "text",
       "content": "NotPetya · 2017",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 356,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 421.48,
-      "out": 424.64,
+      "out": 424.4,
       "_syncT": 421.48,
       "_keep": false,
       "enter": {
@@ -5222,21 +4583,22 @@
       }
     },
     {
-      "id": "ransom-lock_165",
+      "id": "ransom-note_172",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/ransom-lock.png",
+      "src": "assets/icons/ransom-note.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 814,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 425.4,
-      "out": 430.06,
+      "in": 426.9,
+      "out": 462.22,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5247,21 +4609,22 @@
       }
     },
     {
-      "id": "thief_166",
+      "id": "thief_173",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/thief.png",
       "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 1116,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 429.1,
-      "out": 434.1,
+      "out": 462.22,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5269,32 +4632,16 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 429.1,
-          "cx": 1380,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 430.1,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "t167",
+      "id": "t174",
       "type": "text",
       "content": "fingía pedir rescate",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 462,
         "h": 90
       },
@@ -5314,21 +4661,22 @@
       }
     },
     {
-      "id": "destruction-bomb_168",
+      "id": "destruction-bomb_175",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/destruction-bomb.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 1419,
+        "cy": 366,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 435.42,
-      "out": 436.48,
+      "out": 462.22,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5339,13 +4687,13 @@
       }
     },
     {
-      "id": "t169",
+      "id": "t176",
       "type": "text",
       "content": "solo quería DESTRUIR",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 462,
         "h": 90
       },
@@ -5365,21 +4713,22 @@
       }
     },
     {
-      "id": "worm-code_170",
+      "id": "ukraine-flag_177",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/worm-code.png",
+      "src": "assets/icons/ukraine-flag.png",
       "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 300,
-        "h": 300
+        "cx": 511,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 436.48,
-      "out": 441.48,
+      "in": 439.98,
+      "out": 462.22,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5390,21 +4739,22 @@
       }
     },
     {
-      "id": "spread-world_171",
+      "id": "spread-world_178",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/spread-world.png",
       "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 814,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 442.3,
-      "out": 444.64,
+      "out": 462.22,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5412,32 +4762,16 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 442.3,
-          "cx": 1380,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 443.05,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "t172",
+      "id": "t179",
       "type": "text",
       "content": "por una actualización falsa",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 609,
         "h": 90
       },
@@ -5457,12 +4791,12 @@
       }
     },
     {
-      "id": "photo-cargo_173",
+      "id": "photo-cargo_180",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-cargo.jpg",
       "box": {
-        "cx": 540,
+        "cx": 1380,
         "cy": 520,
         "w": 375,
         "h": 375
@@ -5472,6 +4806,7 @@
       "out": 448.78,
       "auto": true,
       "_keep": false,
+      "_accum": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5482,21 +4817,22 @@
       }
     },
     {
-      "id": "factory_174",
+      "id": "delivery-truck_181",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/factory.png",
+      "src": "assets/icons/delivery-truck.png",
       "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 1116,
+        "cy": 548,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 447.18,
-      "out": 451,
+      "in": 445.66,
+      "out": 462.22,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5504,26 +4840,36 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 447.18,
-          "cx": 1380,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 448.93,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "t175",
+      "id": "pill-pharma_182",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/pill-pharma.png",
+      "box": {
+        "cx": 1419,
+        "cy": 548,
+        "w": 149,
+        "h": 149
+      },
+      "z": 30,
+      "in": 447.18,
+      "out": 462.22,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t183",
       "type": "text",
       "content": "Maersk · FedEx · Merck",
       "fontSize": 34,
@@ -5549,21 +4895,22 @@
       }
     },
     {
-      "id": "money-burning_176",
+      "id": "money-burning_184",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/money-burning.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 511,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
       "in": 451,
-      "out": 454.18,
+      "out": 462.22,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5571,32 +4918,16 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 451,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 451.3,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t177",
+      "id": "t185",
       "type": "text",
       "content": "+10.000 M$: el más caro",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 525,
         "h": 90
       },
@@ -5616,278 +4947,22 @@
       }
     },
     {
-      "id": "virus-skull_178",
+      "id": "crosshair-target_186",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/virus-skull.png",
+      "src": "assets/icons/crosshair-target.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 814,
+        "cy": 729,
+        "w": 149,
+        "h": 149
       },
       "z": 30,
-      "in": 454.18,
-      "out": 459.18,
-      "auto": true,
-      "_keep": false,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 454.18,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 457.23,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
-    },
-    {
-      "id": "t179",
-      "type": "text",
-      "content": "daño colateral masivo",
-      "fontSize": 46,
-      "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 639,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 457.78,
+      "in": 457.76,
       "out": 462.22,
-      "_syncT": null,
-      "_keep": false,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "hacker_180",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/hacker.png",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
-      },
-      "z": 30,
-      "in": 462.22,
-      "out": 464.22,
       "auto": true,
       "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "t181",
-      "type": "text",
-      "content": "la evolución",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 293,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 463.1,
-      "out": 465.78,
-      "_syncT": 463.1,
-      "_keep": false,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "student_182",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/student.png",
-      "box": {
-        "cx": 450,
-        "cy": 470,
-        "w": 300,
-        "h": 300
-      },
-      "z": 30,
-      "in": 465.78,
-      "out": 470.78,
-      "auto": true,
-      "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 465.78,
-          "cx": 450,
-          "cy": 470,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 466.03,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 466.83,
-          "cx": 450,
-          "cy": 470,
-          "w": 300,
-          "h": 300
-        }
-      ]
-    },
-    {
-      "id": "thief_183",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/thief.png",
-      "box": {
-        "cx": 960,
-        "cy": 470,
-        "w": 300,
-        "h": 300
-      },
-      "z": 30,
-      "in": 467.46,
-      "out": 472.46,
-      "auto": true,
-      "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "money-burning_184",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/money-burning.png",
-      "box": {
-        "cx": 960,
-        "cy": 470,
-        "w": 300,
-        "h": 300
-      },
-      "z": 30,
-      "in": 468.12,
-      "out": 473.12,
-      "auto": true,
-      "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "weapon-war_185",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/weapon-war.png",
-      "box": {
-        "cx": 1470,
-        "cy": 470,
-        "w": 300,
-        "h": 300
-      },
-      "z": 30,
-      "in": 470.4,
-      "out": 475.4,
-      "auto": true,
-      "_keep": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 470.4,
-          "cx": 1470,
-          "cy": 470,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 473.15,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
-    },
-    {
-      "id": "shield-lock_186",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/shield-lock.png",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
-      },
-      "z": 30,
-      "in": 477.68,
-      "out": 479.36,
-      "auto": true,
-      "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5900,18 +4975,258 @@
     {
       "id": "t187",
       "type": "text",
-      "content": "nos hicieron protegernos",
+      "content": "daño colateral masivo",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
+        "w": 483,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 457.78,
+      "out": 462.78,
+      "_syncT": null,
+      "_keep": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 457.78,
+          "cx": 960,
+          "cy": 500,
+          "w": 483,
+          "h": 90
+        },
+        {
+          "t": 461.58,
+          "cx": 960,
+          "cy": 830,
+          "w": 483,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "hacker_188",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/hacker.png",
+      "box": {
+        "cx": 511,
+        "cy": 343,
+        "w": 120,
+        "h": 120
+      },
+      "z": 30,
+      "in": 463.2,
+      "out": 524.24,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t189",
+      "type": "text",
+      "content": "la evolución",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 293,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 463.1,
+      "out": 464.22,
+      "_syncT": 463.1,
+      "_keep": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 463.1,
+          "cx": 960,
+          "cy": 830,
+          "w": 293,
+          "h": 90
+        },
+        {
+          "t": 463.35,
+          "cx": 960,
+          "cy": 500,
+          "w": 293,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "student_190",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/student.png",
+      "box": {
+        "cx": 814,
+        "cy": 343,
+        "w": 120,
+        "h": 120
+      },
+      "z": 30,
+      "in": 465.78,
+      "out": 524.24,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "thief_191",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/thief.png",
+      "box": {
+        "cx": 1116,
+        "cy": 343,
+        "w": 120,
+        "h": 120
+      },
+      "z": 30,
+      "in": 467.46,
+      "out": 524.24,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "fame-star_192",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/fame-star.png",
+      "box": {
+        "cx": 1419,
+        "cy": 343,
+        "w": 120,
+        "h": 120
+      },
+      "z": 30,
+      "in": 468.76,
+      "out": 524.24,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "weapon-war_193",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/weapon-war.png",
+      "box": {
+        "cx": 511,
+        "cy": 479,
+        "w": 120,
+        "h": 120
+      },
+      "z": 30,
+      "in": 470.4,
+      "out": 524.24,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "shield-lock_194",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/shield-lock.png",
+      "box": {
+        "cx": 814,
+        "cy": 479,
+        "w": 120,
+        "h": 120
+      },
+      "z": 30,
+      "in": 477.68,
+      "out": 524.24,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t195",
+      "type": "text",
+      "content": "nos hicieron protegernos",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 500,
         "w": 546,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
       "in": 477.76,
-      "out": 479.5,
+      "out": 479.36,
       "_syncT": null,
       "_keep": false,
       "enter": {
@@ -5924,21 +5239,22 @@
       }
     },
     {
-      "id": "shield-lock_188",
+      "id": "shield-lock_196",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/shield-lock.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 1116,
+        "cy": 479,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 479.5,
-      "out": 484.5,
+      "out": 524.24,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5949,21 +5265,22 @@
       }
     },
     {
-      "id": "virus-skull_189",
+      "id": "virus-skull_197",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/virus-skull.png",
       "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 1419,
+        "cy": 479,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 487.3,
-      "out": 492.26,
+      "out": 524.24,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5971,32 +5288,16 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 487.3,
-          "cx": 1380,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 487.55,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "t190",
+      "id": "t198",
       "type": "text",
       "content": "antivirus y cortafuegos",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 525,
         "h": 90
       },
@@ -6016,21 +5317,22 @@
       }
     },
     {
-      "id": "click-warning_191",
+      "id": "click-warning_199",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/click-warning.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 511,
+        "cy": 616,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 495.66,
-      "out": 497.22,
+      "out": 524.24,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6041,13 +5343,13 @@
       }
     },
     {
-      "id": "t192",
+      "id": "t200",
       "type": "text",
       "content": "el fallo eres TÚ",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 377,
         "h": 90
       },
@@ -6067,23 +5369,24 @@
       }
     },
     {
-      "id": "hacker_193",
+      "id": "brain-curiosity_201",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/hacker.png",
+      "src": "assets/icons/brain-curiosity.png",
       "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
+        "cx": 814,
+        "cy": 616,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
-      "in": 497.22,
-      "out": 502.22,
+      "in": 502.5,
+      "out": 524.24,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
-        "kind": "fade-in",
+        "kind": "pop",
         "duration": 0.4
       },
       "exit": {
@@ -6092,13 +5395,39 @@
       }
     },
     {
-      "id": "t194",
+      "id": "fear-face_202",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/fear-face.png",
+      "box": {
+        "cx": 1116,
+        "cy": 616,
+        "w": 120,
+        "h": 120
+      },
+      "z": 30,
+      "in": 503.7,
+      "out": 524.24,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t203",
       "type": "text",
       "content": "curiosidad · miedo · prisas",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 609,
         "h": 90
       },
@@ -6118,21 +5447,22 @@
       }
     },
     {
-      "id": "shield-lock_195",
+      "id": "shield-lock_204",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/shield-lock.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 1419,
+        "cy": 616,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
-      "in": 506.76,
-      "out": 511.76,
+      "in": 506.9,
+      "out": 524.24,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6140,47 +5470,25 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 506.76,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 507.01,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 508.56,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "click-warning_196",
+      "id": "click-warning_205",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/click-warning.png",
       "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 511,
+        "cy": 752,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 509.54,
-      "out": 514.32,
+      "out": 524.24,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6188,32 +5496,16 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 509.54,
-          "cx": 1380,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 512.79,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        }
-      ]
+      }
     },
     {
-      "id": "t197",
+      "id": "t206",
       "type": "text",
       "content": "el punto débil: NOSOTROS",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 546,
         "h": 90
       },
@@ -6233,62 +5525,22 @@
       }
     },
     {
-      "id": "love-email_198",
+      "id": "love-email_207",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/love-email.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 300,
-        "h": 300
+        "cx": 814,
+        "cy": 752,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 514.32,
-      "out": 519.32,
+      "out": 524.24,
       "auto": true,
       "_keep": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 514.32,
-          "cx": 960,
-          "cy": 500,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 514.87,
-          "cx": 540,
-          "cy": 520,
-          "w": 300,
-          "h": 300
-        }
-      ]
-    },
-    {
-      "id": "click-warning_199",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/click-warning.png",
-      "box": {
-        "cx": 1380,
-        "cy": 520,
-        "w": 300,
-        "h": 300
-      },
-      "z": 30,
-      "in": 515.54,
-      "out": 520.54,
-      "auto": true,
-      "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6299,13 +5551,39 @@
       }
     },
     {
-      "id": "t200",
+      "id": "bug-error_208",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/bug-error.png",
+      "box": {
+        "cx": 1116,
+        "cy": 752,
+        "w": 120,
+        "h": 120
+      },
+      "z": 30,
+      "in": 515.54,
+      "out": 524.24,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t209",
       "type": "text",
       "content": "cuidado con ese correo",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 504,
         "h": 90
       },
@@ -6325,21 +5603,22 @@
       }
     },
     {
-      "id": "click-warning_201",
+      "id": "click-warning_210",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/click-warning.png",
       "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
+        "cx": 1419,
+        "cy": 752,
+        "w": 120,
+        "h": 120
       },
       "z": 30,
       "in": 523.4,
       "out": 524.24,
       "auto": true,
       "_keep": false,
+      "_accum": true,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -6350,13 +5629,13 @@
       }
     },
     {
-      "id": "t202",
+      "id": "t211",
       "type": "text",
       "content": "piénsalo antes de hacer CLIC",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 630,
         "h": 90
       },
@@ -6886,7 +6165,7 @@
       }
     },
     {
-      "id": "cov203",
+      "id": "cov212",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/old-computer.png",
@@ -6898,278 +6177,7 @@
       },
       "z": 28,
       "in": 0,
-      "out": 1,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov204",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/old-computer.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 27,
-      "out": 28.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov205",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/old-computer.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 50.25,
-      "out": 54,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true,
-      "frames": [
-        {
-          "t": 50.25,
-          "cx": 540,
-          "cy": 520,
-          "w": 340,
-          "h": 340
-        },
-        {
-          "t": 52.5,
-          "cx": 960,
-          "cy": 500,
-          "w": 340,
-          "h": 340
-        }
-      ]
-    },
-    {
-      "id": "cov206",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/old-computer.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 69,
-      "out": 72.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov207",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/old-computer.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 79,
-      "out": 84,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true,
-      "frames": [
-        {
-          "t": 79,
-          "cx": 540,
-          "cy": 520,
-          "w": 340,
-          "h": 340
-        },
-        {
-          "t": 82.25,
-          "cx": 960,
-          "cy": 500,
-          "w": 340,
-          "h": 340
-        }
-      ]
-    },
-    {
-      "id": "cov208",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/floppy-word.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 98.75,
-      "out": 103.75,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true,
-      "frames": [
-        {
-          "t": 98.75,
-          "cx": 540,
-          "cy": 520,
-          "w": 340,
-          "h": 340
-        },
-        {
-          "t": 100.75,
-          "cx": 960,
-          "cy": 500,
-          "w": 340,
-          "h": 340
-        },
-        {
-          "t": 102.8,
-          "cx": 540,
-          "cy": 520,
-          "w": 340,
-          "h": 340
-        }
-      ]
-    },
-    {
-      "id": "cov209",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/floppy-word.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 115,
-      "out": 115.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov210",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/love-email.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 128.25,
-      "out": 131,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov211",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/love-email.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 146.75,
-      "out": 149.75,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov212",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/love-email.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 160.75,
-      "out": 161.25,
+      "out": 0.5,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -7184,7 +6192,7 @@
       "id": "cov213",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/love-email.png",
+      "src": "assets/icons/old-computer.png",
       "box": {
         "cx": 540,
         "cy": 520,
@@ -7192,8 +6200,8 @@
         "h": 340
       },
       "z": 28,
-      "in": 166.25,
-      "out": 167.5,
+      "in": 47.5,
+      "out": 51,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -7208,7 +6216,7 @@
       "id": "cov214",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/love-email.png",
+      "src": "assets/icons/floppy-word.png",
       "box": {
         "cx": 540,
         "cy": 520,
@@ -7216,8 +6224,8 @@
         "h": 340
       },
       "z": 28,
-      "in": 172.5,
-      "out": 175.5,
+      "in": 94,
+      "out": 94.75,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -7232,7 +6240,7 @@
       "id": "cov215",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/defaced-web.png",
+      "src": "assets/icons/zombie-pc.png",
       "box": {
         "cx": 540,
         "cy": 520,
@@ -7240,8 +6248,8 @@
         "h": 340
       },
       "z": 28,
-      "in": 179.75,
-      "out": 180.75,
+      "in": 262.25,
+      "out": 263,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -7256,16 +6264,16 @@
       "id": "cov216",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/defaced-web.png",
+      "src": "assets/icons/centrifuge.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
+        "cx": 960,
+        "cy": 500,
         "w": 340,
         "h": 340
       },
       "z": 28,
-      "in": 185.75,
-      "out": 188.25,
+      "in": 304.5,
+      "out": 306.5,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -7274,38 +6282,22 @@
         "kind": "fade-out",
         "duration": 0.3
       },
-      "_autoIco": true,
-      "frames": [
-        {
-          "t": 185.75,
-          "cx": 960,
-          "cy": 500,
-          "w": 340,
-          "h": 340
-        },
-        {
-          "t": 187.3,
-          "cx": 540,
-          "cy": 520,
-          "w": 340,
-          "h": 340
-        }
-      ]
+      "_autoIco": true
     },
     {
       "id": "cov217",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/defaced-web.png",
+      "src": "assets/icons/ransom-lock.png",
       "box": {
-        "cx": 960,
-        "cy": 500,
+        "cx": 540,
+        "cy": 520,
         "w": 340,
         "h": 340
       },
       "z": 28,
-      "in": 197.25,
-      "out": 199.5,
+      "in": 363.25,
+      "out": 364.75,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -7320,7 +6312,7 @@
       "id": "cov218",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/tiny-packet.png",
+      "src": "assets/icons/destruction-bomb.png",
       "box": {
         "cx": 540,
         "cy": 520,
@@ -7328,8 +6320,8 @@
         "h": 340
       },
       "z": 28,
-      "in": 209.75,
-      "out": 213.25,
+      "in": 419.25,
+      "out": 420.25,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -7344,598 +6336,6 @@
       "id": "cov219",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/tiny-packet.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 218.25,
-      "out": 218.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov220",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/tiny-packet.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 227,
-      "out": 231.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov221",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/email-storm.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 258,
-      "out": 259.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov222",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/zombie-pc.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 266,
-      "out": 270.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true,
-      "frames": [
-        {
-          "t": 266,
-          "cx": 540,
-          "cy": 520,
-          "w": 340,
-          "h": 340
-        },
-        {
-          "t": 269,
-          "cx": 960,
-          "cy": 500,
-          "w": 340,
-          "h": 340
-        }
-      ]
-    },
-    {
-      "id": "cov223",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/zombie-pc.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 273.75,
-      "out": 274.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov224",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/zombie-pc.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 282.25,
-      "out": 282.75,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov225",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/zombie-pc.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 287.75,
-      "out": 288,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov226",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/zombie-pc.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 293,
-      "out": 294.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov227",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/zombie-pc.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 299.5,
-      "out": 304.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true,
-      "frames": [
-        {
-          "t": 299.5,
-          "cx": 540,
-          "cy": 520,
-          "w": 340,
-          "h": 340
-        },
-        {
-          "t": 303.5,
-          "cx": 960,
-          "cy": 500,
-          "w": 340,
-          "h": 340
-        }
-      ]
-    },
-    {
-      "id": "cov228",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/centrifuge.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 309,
-      "out": 310.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov229",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/centrifuge.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 322.75,
-      "out": 326,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov230",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/centrifuge.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 329.75,
-      "out": 334,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true,
-      "frames": [
-        {
-          "t": 329.75,
-          "cx": 540,
-          "cy": 520,
-          "w": 340,
-          "h": 340
-        },
-        {
-          "t": 331,
-          "cx": 960,
-          "cy": 500,
-          "w": 340,
-          "h": 340
-        }
-      ]
-    },
-    {
-      "id": "cov231",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/centrifuge.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 337.75,
-      "out": 339.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov232",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/centrifuge.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 342,
-      "out": 344.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov233",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/centrifuge.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 350.5,
-      "out": 356.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true,
-      "frames": [
-        {
-          "t": 350.5,
-          "cx": 960,
-          "cy": 500,
-          "w": 340,
-          "h": 340
-        },
-        {
-          "t": 352.3,
-          "cx": 540,
-          "cy": 520,
-          "w": 340,
-          "h": 340
-        }
-      ]
-    },
-    {
-      "id": "cov234",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/ransom-lock.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 368,
-      "out": 368.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov235",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/ransom-lock.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 373.5,
-      "out": 377.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov236",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/ransom-lock.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 384,
-      "out": 385.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov237",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/ransom-lock.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 394.25,
-      "out": 394.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov238",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/ransom-lock.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 399.5,
-      "out": 400.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov239",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/ransom-lock.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 405.5,
-      "out": 409.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov240",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/ransom-lock.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 416.75,
-      "out": 419.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov241",
-      "type": "image",
-      "kind": "vector",
       "src": "assets/icons/destruction-bomb.png",
       "box": {
         "cx": 540,
@@ -7944,8 +6344,8 @@
         "h": 340
       },
       "z": 28,
-      "in": 424.25,
-      "out": 425.5,
+      "in": 462.25,
+      "out": 463.25,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -7955,245 +6355,6 @@
         "duration": 0.3
       },
       "_autoIco": true
-    },
-    {
-      "id": "cov242",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/destruction-bomb.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 434.25,
-      "out": 435.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov243",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/destruction-bomb.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 441.5,
-      "out": 442.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov244",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/destruction-bomb.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 459.25,
-      "out": 462.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov245",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/destruction-bomb.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 464.25,
-      "out": 466,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov246",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/destruction-bomb.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 475.5,
-      "out": 477.75,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov247",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/destruction-bomb.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 484.5,
-      "out": 487.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov248",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/destruction-bomb.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 492.5,
-      "out": 495.75,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov249",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/destruction-bomb.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 502.25,
-      "out": 507,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov250",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/destruction-bomb.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 520.75,
-      "out": 523.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true,
-      "frames": [
-        {
-          "t": 520.75,
-          "cx": 540,
-          "cy": 520,
-          "w": 340,
-          "h": 340
-        },
-        {
-          "t": 521.25,
-          "cx": 960,
-          "cy": 500,
-          "w": 340,
-          "h": 340
-        },
-        {
-          "t": 522.3,
-          "cx": 540,
-          "cy": 520,
-          "w": 340,
-          "h": 340
-        }
-      ]
     }
   ]
 }
