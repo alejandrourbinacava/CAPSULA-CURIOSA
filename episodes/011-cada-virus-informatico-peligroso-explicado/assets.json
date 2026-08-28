@@ -1,0 +1,230 @@
+{
+  "hacker": {
+    "kind": "vector",
+    "query": "a hooded hacker typing on a laptop with green code, cybercrime",
+    "file": "assets/icons/hacker.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "virus-skull": {
+    "kind": "vector",
+    "query": "a computer monitor showing a skull, computer virus warning",
+    "file": "assets/icons/virus-skull.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "worm-code": {
+    "kind": "vector",
+    "query": "a green digital computer worm made of code crawling out of a screen",
+    "file": "assets/icons/worm-code.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "types-malware": {
+    "kind": "vector",
+    "query": "three icons: a virus, a worm and a trojan horse for computer malware",
+    "file": "assets/icons/types-malware.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "old-computer": {
+    "kind": "vector",
+    "query": "a chunky beige 1980s desktop computer with a big monitor",
+    "file": "assets/icons/old-computer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "floppy-word": {
+    "kind": "vector",
+    "query": "an old floppy disk with a Microsoft Word document icon, 1990s",
+    "file": "assets/icons/floppy-word.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "inbox-flood": {
+    "kind": "vector",
+    "query": "an email inbox overflowing with dozens of envelopes flooding out",
+    "file": "assets/icons/inbox-flood.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "love-email": {
+    "kind": "vector",
+    "query": "an email envelope with a big red heart and the text I love you",
+    "file": "assets/icons/love-email.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "server-down": {
+    "kind": "vector",
+    "query": "a server rack overheating and crashing with red error lights",
+    "file": "assets/icons/server-down.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "defaced-web": {
+    "kind": "vector",
+    "query": "a web browser window hacked and defaced with a skull message",
+    "file": "assets/icons/defaced-web.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "white-house": {
+    "kind": "vector",
+    "query": "the White House building targeted with a red crosshair",
+    "file": "assets/icons/white-house.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tiny-packet": {
+    "kind": "vector",
+    "query": "a tiny fast network data packet zooming with speed lines",
+    "file": "assets/icons/tiny-packet.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "atm-down": {
+    "kind": "vector",
+    "query": "a bank ATM machine with an out of service error screen",
+    "file": "assets/icons/atm-down.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "nuclear-plant": {
+    "kind": "vector",
+    "query": "a nuclear power plant with cooling towers",
+    "file": "assets/icons/nuclear-plant.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "email-storm": {
+    "kind": "vector",
+    "query": "a huge storm of email envelopes filling the whole sky",
+    "file": "assets/icons/email-storm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "money-burning": {
+    "kind": "vector",
+    "query": "a huge pile of dollar money bills on fire",
+    "file": "assets/icons/money-burning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "zombie-pc": {
+    "kind": "vector",
+    "query": "an army of zombie computers with glowing eyes, a botnet",
+    "file": "assets/icons/zombie-pc.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "warship": {
+    "kind": "vector",
+    "query": "a grey navy military warship",
+    "file": "assets/icons/warship.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "centrifuge": {
+    "kind": "vector",
+    "query": "tall spinning uranium enrichment centrifuges in a row",
+    "file": "assets/icons/centrifuge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "gear-breaking": {
+    "kind": "vector",
+    "query": "a metal gear machine spinning too fast and shattering into pieces",
+    "file": "assets/icons/gear-breaking.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fake-screen": {
+    "kind": "vector",
+    "query": "a control panel screen showing a fake green all-normal reading",
+    "file": "assets/icons/fake-screen.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ransom-lock": {
+    "kind": "vector",
+    "query": "a computer folder locked with a padlock and a ransom dollar demand",
+    "file": "assets/icons/ransom-lock.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hospital": {
+    "kind": "vector",
+    "query": "a hospital building with a red cross, healthcare",
+    "file": "assets/icons/hospital.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "stolen-key": {
+    "kind": "vector",
+    "query": "a stolen master key with a government secret stamp",
+    "file": "assets/icons/stolen-key.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "destruction-bomb": {
+    "kind": "vector",
+    "query": "a hard drive exploding, files destroyed permanently, a bomb",
+    "file": "assets/icons/destruction-bomb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cargo-ship": {
+    "kind": "vector",
+    "query": "a giant container cargo ship loaded with shipping containers",
+    "file": "assets/icons/cargo-ship.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "click-warning": {
+    "kind": "vector",
+    "query": "a mouse cursor about to click a red warning danger button",
+    "file": "assets/icons/click-warning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "shield-lock": {
+    "kind": "vector",
+    "query": "a security shield with a padlock, antivirus protection",
+    "file": "assets/icons/shield-lock.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-retro-pc": {
+    "kind": "cutout",
+    "query": "IBM Personal Computer",
+    "file": "assets/icons/photo-retro-pc.png"
+  },
+  "photo-iloveyou": {
+    "kind": "cutout",
+    "query": "ILOVEYOU",
+    "file": "assets/icons/photo-iloveyou.png"
+  },
+  "photo-stuxnet": {
+    "kind": "cutout",
+    "query": "Nuclear program of Iran",
+    "file": "assets/icons/photo-stuxnet.png"
+  },
+  "photo-wannacry": {
+    "kind": "vector",
+    "query": "WannaCry ransomware attack",
+    "file": "assets/icons/photo-wannacry.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-datacenter": {
+    "kind": "cutout",
+    "query": "Data center",
+    "file": "assets/icons/photo-datacenter.jpg"
+  },
+  "photo-cargo": {
+    "kind": "cutout",
+    "query": "Maersk",
+    "file": "assets/icons/photo-cargo.jpg"
+  }
+}
