@@ -1,0 +1,177 @@
+{
+  "planet-earth": {
+    "kind": "vector",
+    "query": "planet Earth globe with clouds",
+    "file": "assets/icons/planet-earth.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "earthquake": {
+    "kind": "vector",
+    "query": "ground cracking open in an earthquake with a shaking building",
+    "file": "assets/icons/earthquake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tectonic-plates": {
+    "kind": "vector",
+    "query": "two tectonic plates of the earth crust pushing against each other",
+    "file": "assets/icons/tectonic-plates.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "building-collapse": {
+    "kind": "vector",
+    "query": "a building collapsing and crumbling down",
+    "file": "assets/icons/building-collapse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "duck-cover": {
+    "kind": "vector",
+    "query": "a person crouching and taking cover under a sturdy table for safety",
+    "file": "assets/icons/duck-cover.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ring-of-fire": {
+    "kind": "vector",
+    "query": "a Pacific ocean map with a ring of fire volcanoes around it",
+    "file": "assets/icons/ring-of-fire.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tsunami": {
+    "kind": "vector",
+    "query": "a giant tsunami wall of water approaching a coast town",
+    "file": "assets/icons/tsunami.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sea-retreat": {
+    "kind": "vector",
+    "query": "the sea pulling back from the beach leaving fish on dry sand",
+    "file": "assets/icons/sea-retreat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "run-high-ground": {
+    "kind": "vector",
+    "query": "a person running uphill to high ground to escape water",
+    "file": "assets/icons/run-high-ground.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hurricane": {
+    "kind": "vector",
+    "query": "a swirling hurricane storm seen from space with an eye",
+    "file": "assets/icons/hurricane.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "warm-ocean": {
+    "kind": "vector",
+    "query": "warm tropical ocean water evaporating steam upward under the sun",
+    "file": "assets/icons/warm-ocean.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hurricane-eye": {
+    "kind": "vector",
+    "query": "the calm clear eye in the center of a swirling hurricane",
+    "file": "assets/icons/hurricane-eye.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "evacuate-sign": {
+    "kind": "vector",
+    "query": "an evacuation route road sign with an arrow",
+    "file": "assets/icons/evacuate-sign.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "volcano": {
+    "kind": "vector",
+    "query": "an erupting volcano spewing lava and smoke",
+    "file": "assets/icons/volcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "magma-rising": {
+    "kind": "vector",
+    "query": "molten magma rising up through a channel inside the earth toward a volcano",
+    "file": "assets/icons/magma-rising.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lava-flow": {
+    "kind": "vector",
+    "query": "a slow river of glowing orange lava flowing down",
+    "file": "assets/icons/lava-flow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pyroclastic": {
+    "kind": "vector",
+    "query": "a fast burning cloud of ash and gas rushing down a volcano slope",
+    "file": "assets/icons/pyroclastic.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ash-plane": {
+    "kind": "vector",
+    "query": "a dark volcanic ash cloud covering the sun with an airplane",
+    "file": "assets/icons/ash-plane.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "supervolcano": {
+    "kind": "vector",
+    "query": "a gigantic supervolcano caldera erupting massively",
+    "file": "assets/icons/supervolcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tornado": {
+    "kind": "vector",
+    "query": "a powerful tornado funnel touching the ground with debris",
+    "file": "assets/icons/tornado.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tornado-shelter": {
+    "kind": "vector",
+    "query": "a person taking shelter in a basement away from windows",
+    "file": "assets/icons/tornado-shelter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "flood": {
+    "kind": "vector",
+    "query": "a flooded street with water covering houses",
+    "file": "assets/icons/flood.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "flood-car": {
+    "kind": "vector",
+    "query": "a car being swept away by fast flood water on a road",
+    "file": "assets/icons/flood-car.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "turn-around-sign": {
+    "kind": "vector",
+    "query": "a road warning sign with a u-turn arrow, turn around",
+    "file": "assets/icons/turn-around-sign.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "warning-triangle": {
+    "kind": "vector",
+    "query": "warning triangle sign",
+    "file": "assets/icons/warning-triangle.png",
+    "normalized": true,
+    "gpt": true
+  }
+}
