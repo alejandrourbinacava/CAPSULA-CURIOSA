@@ -143,7 +143,12 @@ for (const b of beats) {
       const big = anc === "main" || anc === "center" || anc === "hero";
       const sz = type === "GIF" ? 360 : (big ? 460 : (/^g\d/.test(anc) ? 200 : 300)); // iconos de rejilla más pequeños
       const keep = /\bKEEP\b/.test(rest);
-      const el = { id: id + "_" + auto++, type: "image", kind: type === "GIF" ? "meme" : "vector", src, box: { cx, cy, w: sz, h: sz }, z: type === "GIF" ? 55 : 30, in: t, out: type === "GIF" ? Math.min(b.t1, t + 3) : (keep ? dur : b.t1), auto: true, _keep: keep, enter: enterOf(ent || "pop"), exit: { kind: "fade-out", duration: 0.3 } };
+      // tipo REAL del asset: si es foto/cutout/captura, se trata como FOTO (marco + sombra); si no, doodle vector
+      const akind = assets[id]?.kind || "";
+      const isPhotoAsset = /photo|cutout|screenshot|archive/.test(akind);
+      const kind = type === "GIF" ? "meme" : (isPhotoAsset ? "cutout" : "vector");
+      const psz = isPhotoAsset ? Math.round(sz * 1.25) : sz; // las fotos algo más grandes
+      const el = { id: id + "_" + auto++, type: "image", kind, src, box: { cx, cy, w: psz, h: psz }, z: type === "GIF" ? 55 : (isPhotoAsset ? 25 : 30), in: t, out: type === "GIF" ? Math.min(b.t1, t + 3) : (keep ? dur : b.t1), auto: true, _keep: keep, enter: enterOf(ent || "pop"), exit: { kind: "fade-out", duration: 0.3 } };
       elements.push(el); live[id] = el; liveByAnchor[anc] = el; b._els.push(el); if (big) lastBig = el;
       continue;
     }
@@ -199,7 +204,7 @@ chapters.forEach((c, i) => {
 
 // TOPE (anti-hold largo) → nada dinámico vive más de 8s (mata los holds de 16s). El dinamismo real
 //   viene de MÁS ICONOS en el storyboard, no de texto flotante (eso se eliminó por feedback del usuario).
-const MAXLIFE = 8.0;
+const MAXLIFE = 5.0;
 for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" && !e._keep) e.out = Math.min(e.out, +(e.in + MAXLIFE).toFixed(2));
 
 // SIN HUECOS (limitado) → un elemento puede alargarse para tapar un microhueco, pero NUNCA más de 3.5s total.
@@ -208,7 +213,7 @@ for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" &
   const vis = elements.filter(e => e.box && !e.structural && (e.type === "image" || e.type === "text")).sort((a, b) => a.in - b.in);
   let coverEnd = 0, lastEl = null;
   for (const e of vis) {
-    if (lastEl && e.in > coverEnd + 0.05) lastEl.out = Math.max(lastEl.out, Math.min(+e.in.toFixed(2), +(lastEl.in + 8.0).toFixed(2)));
+    if (lastEl && e.in > coverEnd + 0.05) lastEl.out = Math.max(lastEl.out, Math.min(+e.in.toFixed(2), +(lastEl.in + 5.0).toFixed(2)));
     if (e.out >= coverEnd) { coverEnd = e.out; lastEl = e; }
   }
 }

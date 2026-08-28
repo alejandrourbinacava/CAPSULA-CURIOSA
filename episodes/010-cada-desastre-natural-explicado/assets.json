@@ -173,5 +173,40 @@
     "file": "assets/icons/warning-triangle.png",
     "normalized": true,
     "gpt": true
+  },
+  "photo-earthquake": {
+    "kind": "cutout",
+    "query": "Earthquake",
+    "file": "assets/icons/photo-earthquake.png"
+  },
+  "photo-tsunami": {
+    "kind": "cutout",
+    "query": "2011 Tōhoku earthquake and tsunami",
+    "file": "assets/icons/photo-tsunami.jpg"
+  },
+  "photo-hurricane": {
+    "kind": "cutout",
+    "query": "Tropical cyclone",
+    "file": "assets/icons/photo-hurricane.jpg"
+  },
+  "photo-volcano": {
+    "kind": "cutout",
+    "query": "Volcanic eruption",
+    "file": "assets/icons/photo-volcano.jpg"
+  },
+  "photo-lava": {
+    "kind": "cutout",
+    "query": "Lava",
+    "file": "assets/icons/photo-lava.jpg"
+  },
+  "photo-tornado": {
+    "kind": "cutout",
+    "query": "Tornado",
+    "file": "assets/icons/photo-tornado.jpg"
+  },
+  "photo-flood": {
+    "kind": "cutout",
+    "query": "Flood",
+    "file": "assets/icons/photo-flood.jpg"
   }
 }

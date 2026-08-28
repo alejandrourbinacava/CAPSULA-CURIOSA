@@ -98,7 +98,8 @@ Narración: *"Por eso hay tanta diferencia entre un temblor que no notas y uno q
 ### BEAT 14 · 01:25 · T1
 Narración: *"Y lo que mata en un terremoto casi nunca es el temblor en sí. Son los edificios cayéndose encima de la gente."*
 ```
-+0.0  ICO  building-collapse @center  fade
++0.0  ICO  building-collapse @left  fade
++1.0  IMG  photo-earthquake @right  pop
 +3.0  TXT  "matan los EDIFICIOS" @cap  stamp  lg  red
 ```
 
@@ -189,7 +190,8 @@ Narración: *"Pero al llegar a la costa, el fondo poco profundo la frena de golp
 ### BEAT 27 · 03:01 · T1
 Narración: *"No es una ola que rompe y ya. Es el mar entero subiendo de nivel, como si alguien vaciara una bañera enorme encima de la costa, y avanzando kilómetros tierra adentro sin parar."*
 ```
-+0.0  ICO  tsunami        @center  fade
++0.0  ICO  tsunami        @left  fade
++1.2  IMG  photo-tsunami  @right  pop
 +3.6  TXT  "el mar ENTERO sube" @cap  stamp  lg  red
 ```
 
@@ -246,7 +248,8 @@ Narración: *"Esa agua caliente se evapora, sube, y al subir crea una zona de ba
 ### BEAT 35 · 04:00 · T1
 Narración: *"Cuanta más agua caliente encuentra por el camino, más grande y más furioso se vuelve."*
 ```
-+0.0  ICO  hurricane      @center  pop
++0.0  ICO  hurricane      @left  pop
++1.2  IMG  photo-hurricane @right  pop
 +2.4  TXT  "más agua, más furia" @cap  handwrite  md
 ```
 
@@ -324,14 +327,16 @@ Narración: *"Y como pesa menos que la roca sólida de alrededor, empuja hacia a
 ### BEAT 46 · 05:21 · T1
 Narración: *"Cuando por fin la encuentra, tenemos una erupción."*
 ```
-+0.0  ICO  volcano        @center  pop
++0.0  ICO  volcano        @left  pop
++0.8  IMG  photo-volcano  @right  pop
 +1.6  TXT  "ERUPCIÓN" @cap  stamp  lg  red
 ```
 
 ### BEAT 47 · 05:26 · T1
 Narración: *"Pero no todos los volcanes son iguales. Algunos sueltan ríos de lava lentos, casi tranquilos, de los que hasta puedes alejarte caminando."*
 ```
-+0.0  ICO  lava-flow      @center  pop
++0.0  ICO  lava-flow      @left  pop
++1.2  IMG  photo-lava     @right  pop
 +3.2  TXT  "lava lenta" @cap  handwrite  md
 ```
 
@@ -416,7 +421,8 @@ Narración: *"Se forma dentro de las tormentas más violentas, cuando el viento 
 ### BEAT 59 · 06:59 · T1
 Narración: *"Ese tubo baja poco a poco desde la nube hasta que toca el suelo, y en ese momento se convierte oficialmente en un tornado."*
 ```
-+0.0  ICO  tornado        @center  pop
++0.0  ICO  tornado        @left  pop
++1.2  IMG  photo-tornado  @right  pop
 +3.2  TXT  "toca el suelo" @cap  handwrite  md
 ```
 
@@ -459,7 +465,8 @@ Narración: *"Y ahora llega el desastre más común de todos. Y precisamente por
 ### BEAT 65 · 07:48 · T1
 Narración: *"Parece el menos espectacular de la lista. Total, es solo agua, piensas."*
 ```
-+0.0  ICO  flood          @center  fade
++0.0  ICO  flood          @left  fade
++1.0  IMG  photo-flood    @right  pop
 +2.2  TXT  "'solo es agua'" @cap  handwrite  md
 ```
 

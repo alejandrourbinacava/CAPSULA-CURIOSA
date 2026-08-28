@@ -43,7 +43,7 @@
       },
       "z": 30,
       "in": 0,
-      "out": 5.12,
+      "out": 5,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -196,7 +196,7 @@
       },
       "z": 30,
       "in": 12.68,
-      "out": 19.44,
+      "out": 17.68,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -238,7 +238,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 14.68,
-      "out": 21.54,
+      "out": 19.68,
       "_syncT": null,
       "_keep": false,
       "enter": {
@@ -363,7 +363,7 @@
       },
       "z": 30,
       "in": 26.28,
-      "out": 34.28,
+      "out": 31.28,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -405,7 +405,7 @@
       "color": "#111111",
       "z": 60,
       "in": 30.2,
-      "out": 35.28,
+      "out": 35.2,
       "_syncT": 30.2,
       "_keep": false,
       "enter": {
@@ -555,7 +555,7 @@
       },
       "z": 30,
       "in": 43.88,
-      "out": 51.06,
+      "out": 48.88,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -597,7 +597,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 45.96,
-      "out": 51.06,
+      "out": 50.96,
       "_syncT": 45.96,
       "_keep": false,
       "enter": {
@@ -622,7 +622,7 @@
       },
       "z": 30,
       "in": 51.06,
-      "out": 56.72,
+      "out": 56.06,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -648,7 +648,7 @@
       "color": "#111111",
       "z": 60,
       "in": 51.06,
-      "out": 56.72,
+      "out": 56.06,
       "_syncT": 51.06,
       "_keep": false,
       "enter": {
@@ -673,7 +673,7 @@
       },
       "z": 30,
       "in": 56.72,
-      "out": 63.38,
+      "out": 61.72,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -687,6 +687,13 @@
       "frames": [
         {
           "t": 56.72,
+          "cx": 540,
+          "cy": 520,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 56.97,
           "cx": 960,
           "cy": 500,
           "w": 300,
@@ -755,6 +762,13 @@
         {
           "t": 63.38,
           "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 63.63,
+          "cx": 960,
           "cy": 500,
           "w": 460,
           "h": 460
@@ -800,14 +814,14 @@
       "kind": "vector",
       "src": "assets/icons/building-collapse.png",
       "box": {
-        "cx": 960,
+        "cx": 540,
         "cy": 520,
-        "w": 460,
-        "h": 460
+        "w": 300,
+        "h": 300
       },
       "z": 30,
       "in": 68.32,
-      "out": 74.7,
+      "out": 73.32,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -823,20 +837,45 @@
           "t": 68.32,
           "cx": 960,
           "cy": 500,
-          "w": 460,
-          "h": 460
+          "w": 300,
+          "h": 300
         },
         {
-          "t": 70.62,
-          "cx": 960,
+          "t": 68.62,
+          "cx": 540,
           "cy": 520,
-          "w": 460,
-          "h": 460
+          "w": 300,
+          "h": 300
         }
       ]
     },
     {
-      "id": "t26",
+      "id": "photo-earthquake_26",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo-earthquake.png",
+      "box": {
+        "cx": 1380,
+        "cy": 520,
+        "w": 375,
+        "h": 375
+      },
+      "z": 25,
+      "in": 69.32,
+      "out": 74.32,
+      "auto": true,
+      "_keep": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t27",
       "type": "text",
       "content": "matan los EDIFICIOS",
       "fontSize": 34,
@@ -862,7 +901,7 @@
       }
     },
     {
-      "id": "building-collapse_27",
+      "id": "building-collapse_28",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/building-collapse.png",
@@ -874,7 +913,7 @@
       },
       "z": 30,
       "in": 74.7,
-      "out": 82.12,
+      "out": 79.7,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -888,6 +927,13 @@
       "frames": [
         {
           "t": 74.7,
+          "cx": 540,
+          "cy": 520,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 74.95,
           "cx": 960,
           "cy": 500,
           "w": 300,
@@ -903,7 +949,7 @@
       ]
     },
     {
-      "id": "t28",
+      "id": "t29",
       "type": "text",
       "content": "edificios que bailan",
       "fontSize": 46,
@@ -929,7 +975,7 @@
       }
     },
     {
-      "id": "duck-cover_29",
+      "id": "duck-cover_30",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/duck-cover.png",
@@ -941,7 +987,7 @@
       },
       "z": 30,
       "in": 82.12,
-      "out": 89.2,
+      "out": 87.12,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -955,6 +1001,13 @@
       "frames": [
         {
           "t": 82.12,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 82.37,
           "cx": 960,
           "cy": 500,
           "w": 460,
@@ -970,7 +1023,7 @@
       ]
     },
     {
-      "id": "t30",
+      "id": "t31",
       "type": "text",
       "content": "NO salgas corriendo",
       "fontSize": 34,
@@ -996,7 +1049,7 @@
       }
     },
     {
-      "id": "duck-cover_31",
+      "id": "duck-cover_32",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/duck-cover.png",
@@ -1021,7 +1074,7 @@
       }
     },
     {
-      "id": "t32",
+      "id": "t33",
       "type": "text",
       "content": "agáchate y cúbrete",
       "fontSize": 34,
@@ -1047,7 +1100,7 @@
       }
     },
     {
-      "id": "earthquake_33",
+      "id": "earthquake_34",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/earthquake.png",
@@ -1059,7 +1112,7 @@
       },
       "z": 30,
       "in": 93.92,
-      "out": 101.32,
+      "out": 98.92,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -1072,7 +1125,7 @@
       }
     },
     {
-      "id": "t34",
+      "id": "t35",
       "type": "text",
       "content": "cuidado con las réplicas",
       "fontSize": 34,
@@ -1085,7 +1138,7 @@
       "color": "#111111",
       "z": 60,
       "in": 94.04,
-      "out": 101.32,
+      "out": 99.04,
       "_syncT": 94.04,
       "_keep": false,
       "enter": {
@@ -1098,7 +1151,7 @@
       }
     },
     {
-      "id": "ring-of-fire_35",
+      "id": "ring-of-fire_36",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/ring-of-fire.png",
@@ -1110,7 +1163,7 @@
       },
       "z": 30,
       "in": 101.32,
-      "out": 109.32,
+      "out": 106.32,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -1125,21 +1178,21 @@
         {
           "t": 101.32,
           "cx": 960,
-          "cy": 500,
+          "cy": 520,
           "w": 460,
           "h": 460
         },
         {
-          "t": 107.87,
+          "t": 101.57,
           "cx": 960,
-          "cy": 520,
+          "cy": 500,
           "w": 460,
           "h": 460
         }
       ]
     },
     {
-      "id": "t36",
+      "id": "t37",
       "type": "text",
       "content": "el Cinturón de Fuego",
       "fontSize": 34,
@@ -1152,7 +1205,7 @@
       "color": "#111111",
       "z": 60,
       "in": 108.34,
-      "out": 113.82,
+      "out": 113.34,
       "_syncT": 108.34,
       "_keep": false,
       "enter": {
@@ -1165,7 +1218,7 @@
       }
     },
     {
-      "id": "ring-of-fire_37",
+      "id": "ring-of-fire_38",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/ring-of-fire.png",
@@ -1190,7 +1243,7 @@
       }
     },
     {
-      "id": "t38",
+      "id": "t39",
       "type": "text",
       "content": "¿vives cerca?",
       "fontSize": 46,
@@ -1216,7 +1269,7 @@
       }
     },
     {
-      "id": "t39",
+      "id": "t40",
       "type": "text",
       "content": "algo peor bajo el mar",
       "fontSize": 60,
@@ -1229,7 +1282,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 117.02,
-      "out": 122.4,
+      "out": 122.02,
       "_syncT": null,
       "_keep": false,
       "enter": {
@@ -1242,7 +1295,7 @@
       }
     },
     {
-      "id": "tsunami_40",
+      "id": "tsunami_41",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tsunami.png",
@@ -1267,7 +1320,7 @@
       }
     },
     {
-      "id": "t41",
+      "id": "t42",
       "type": "text",
       "content": "el tsunami",
       "fontSize": 34,
@@ -1293,7 +1346,7 @@
       }
     },
     {
-      "id": "tsunami_42",
+      "id": "tsunami_43",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tsunami.png",
@@ -1305,7 +1358,7 @@
       },
       "z": 30,
       "in": 123.46,
-      "out": 131.46,
+      "out": 128.46,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -1334,7 +1387,7 @@
       ]
     },
     {
-      "id": "t43",
+      "id": "t44",
       "type": "text",
       "content": "no es una ola normal",
       "fontSize": 34,
@@ -1360,7 +1413,7 @@
       }
     },
     {
-      "id": "earthquake_44",
+      "id": "earthquake_45",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/earthquake.png",
@@ -1372,7 +1425,7 @@
       },
       "z": 30,
       "in": 131.54,
-      "out": 137.82,
+      "out": 136.54,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -1385,7 +1438,7 @@
       }
     },
     {
-      "id": "t45",
+      "id": "t46",
       "type": "text",
       "content": "el fondo se levanta",
       "fontSize": 46,
@@ -1398,7 +1451,7 @@
       "color": "#111111",
       "z": 60,
       "in": 131.76,
-      "out": 137.82,
+      "out": 136.76,
       "_syncT": 131.76,
       "_keep": false,
       "enter": {
@@ -1411,7 +1464,7 @@
       }
     },
     {
-      "id": "tsunami_46",
+      "id": "tsunami_47",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tsunami.png",
@@ -1423,7 +1476,7 @@
       },
       "z": 30,
       "in": 137.82,
-      "out": 145.66,
+      "out": 142.82,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -1437,6 +1490,13 @@
       "frames": [
         {
           "t": 137.82,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 138.07,
           "cx": 960,
           "cy": 500,
           "w": 460,
@@ -1452,7 +1512,7 @@
       ]
     },
     {
-      "id": "t47",
+      "id": "t48",
       "type": "text",
       "content": "800 km/h",
       "fontSize": 34,
@@ -1478,7 +1538,7 @@
       }
     },
     {
-      "id": "tsunami_48",
+      "id": "tsunami_49",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tsunami.png",
@@ -1490,7 +1550,7 @@
       },
       "z": 30,
       "in": 145.66,
-      "out": 152.1,
+      "out": 150.66,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -1504,6 +1564,13 @@
       "frames": [
         {
           "t": 145.66,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 145.91,
           "cx": 960,
           "cy": 500,
           "w": 460,
@@ -1519,7 +1586,7 @@
       ]
     },
     {
-      "id": "t49",
+      "id": "t50",
       "type": "text",
       "content": "el agua se amontona",
       "fontSize": 34,
@@ -1545,19 +1612,19 @@
       }
     },
     {
-      "id": "tsunami_50",
+      "id": "tsunami_51",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tsunami.png",
       "box": {
-        "cx": 960,
+        "cx": 540,
         "cy": 520,
-        "w": 460,
-        "h": 460
+        "w": 300,
+        "h": 300
       },
       "z": 30,
       "in": 152.1,
-      "out": 160.1,
+      "out": 157.1,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -1571,22 +1638,54 @@
       "frames": [
         {
           "t": 152.1,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
+          "cx": 540,
+          "cy": 520,
+          "w": 300,
+          "h": 300
         },
         {
-          "t": 153.9,
+          "t": 152.35,
           "cx": 960,
+          "cy": 500,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 152.65,
+          "cx": 540,
           "cy": 520,
-          "w": 460,
-          "h": 460
+          "w": 300,
+          "h": 300
         }
       ]
     },
     {
-      "id": "t51",
+      "id": "photo-tsunami_52",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo-tsunami.jpg",
+      "box": {
+        "cx": 1380,
+        "cy": 520,
+        "w": 375,
+        "h": 375
+      },
+      "z": 25,
+      "in": 153.3,
+      "out": 158.3,
+      "auto": true,
+      "_keep": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t53",
       "type": "text",
       "content": "el mar ENTERO sube",
       "fontSize": 34,
@@ -1599,7 +1698,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 154.36,
-      "out": 162.36,
+      "out": 159.36,
       "_syncT": 154.36,
       "_keep": false,
       "enter": {
@@ -1612,7 +1711,7 @@
       }
     },
     {
-      "id": "sea-retreat_52",
+      "id": "sea-retreat_54",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/sea-retreat.png",
@@ -1624,7 +1723,7 @@
       },
       "z": 30,
       "in": 162.86,
-      "out": 170.86,
+      "out": 167.86,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -1660,7 +1759,7 @@
       ]
     },
     {
-      "id": "t53",
+      "id": "t55",
       "type": "text",
       "content": "el mar se retira = AVISO",
       "fontSize": 34,
@@ -1673,7 +1772,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 166.68,
-      "out": 172.12,
+      "out": 171.68,
       "_syncT": 166.68,
       "_keep": false,
       "enter": {
@@ -1686,7 +1785,7 @@
       }
     },
     {
-      "id": "run-high-ground_54",
+      "id": "run-high-ground_56",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/run-high-ground.png",
@@ -1711,7 +1810,7 @@
       }
     },
     {
-      "id": "t55",
+      "id": "t57",
       "type": "text",
       "content": "corre a lo ALTO",
       "fontSize": 34,
@@ -1737,7 +1836,7 @@
       }
     },
     {
-      "id": "sea-retreat_56",
+      "id": "sea-retreat_58",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/sea-retreat.png",
@@ -1778,7 +1877,7 @@
       ]
     },
     {
-      "id": "t57",
+      "id": "t59",
       "type": "text",
       "content": "coge impulso para volver",
       "fontSize": 46,
@@ -1804,7 +1903,7 @@
       }
     },
     {
-      "id": "hurricane_58",
+      "id": "hurricane_60",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hurricane.png",
@@ -1845,7 +1944,7 @@
       ]
     },
     {
-      "id": "t59",
+      "id": "t61",
       "type": "text",
       "content": "el huracán",
       "fontSize": 34,
@@ -1871,7 +1970,7 @@
       }
     },
     {
-      "id": "hurricane_60",
+      "id": "hurricane_62",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hurricane.png",
@@ -1896,7 +1995,7 @@
       }
     },
     {
-      "id": "t61",
+      "id": "t63",
       "type": "text",
       "content": "un motor de agua caliente",
       "fontSize": 34,
@@ -1922,7 +2021,7 @@
       }
     },
     {
-      "id": "warm-ocean_62",
+      "id": "warm-ocean_64",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/warm-ocean.png",
@@ -1963,7 +2062,7 @@
       ]
     },
     {
-      "id": "t63",
+      "id": "t65",
       "type": "text",
       "content": "+26 grados",
       "fontSize": 34,
@@ -1989,7 +2088,7 @@
       }
     },
     {
-      "id": "warm-ocean_64",
+      "id": "warm-ocean_66",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/warm-ocean.png",
@@ -2001,7 +2100,7 @@
       },
       "z": 30,
       "in": 191.44,
-      "out": 199.44,
+      "out": 196.44,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -2030,7 +2129,7 @@
       ]
     },
     {
-      "id": "t65",
+      "id": "t67",
       "type": "text",
       "content": "se evapora y gira",
       "fontSize": 46,
@@ -2043,7 +2142,7 @@
       "color": "#111111",
       "z": 60,
       "in": 192.76,
-      "out": 200.28,
+      "out": 197.76,
       "_syncT": 192.76,
       "_keep": false,
       "enter": {
@@ -2056,18 +2155,43 @@
       }
     },
     {
-      "id": "hurricane_66",
+      "id": "hurricane_68",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hurricane.png",
       "box": {
-        "cx": 960,
+        "cx": 540,
         "cy": 520,
-        "w": 460,
-        "h": 460
+        "w": 300,
+        "h": 300
       },
       "z": 30,
       "in": 200.28,
+      "out": 205.28,
+      "auto": true,
+      "_keep": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "photo-hurricane_69",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo-hurricane.jpg",
+      "box": {
+        "cx": 1380,
+        "cy": 520,
+        "w": 375,
+        "h": 375
+      },
+      "z": 25,
+      "in": 201.48,
       "out": 205.52,
       "auto": true,
       "_keep": false,
@@ -2081,7 +2205,7 @@
       }
     },
     {
-      "id": "t67",
+      "id": "t70",
       "type": "text",
       "content": "más agua, más furia",
       "fontSize": 34,
@@ -2107,7 +2231,7 @@
       }
     },
     {
-      "id": "hurricane_68",
+      "id": "hurricane_71",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hurricane.png",
@@ -2119,7 +2243,7 @@
       },
       "z": 30,
       "in": 205.52,
-      "out": 211.72,
+      "out": 210.52,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -2148,7 +2272,7 @@
       ]
     },
     {
-      "id": "t69",
+      "id": "t72",
       "type": "text",
       "content": "categoría 5",
       "fontSize": 34,
@@ -2174,7 +2298,7 @@
       }
     },
     {
-      "id": "hurricane-eye_70",
+      "id": "hurricane-eye_73",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hurricane-eye.png",
@@ -2201,6 +2325,13 @@
         {
           "t": 211.72,
           "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 211.97,
+          "cx": 960,
           "cy": 500,
           "w": 460,
           "h": 460
@@ -2215,7 +2346,7 @@
       ]
     },
     {
-      "id": "t71",
+      "id": "t74",
       "type": "text",
       "content": "el ojo del huracán",
       "fontSize": 34,
@@ -2241,7 +2372,7 @@
       }
     },
     {
-      "id": "hurricane-eye_72",
+      "id": "hurricane-eye_75",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hurricane-eye.png",
@@ -2253,7 +2384,7 @@
       },
       "z": 30,
       "in": 216.28,
-      "out": 222.84,
+      "out": 221.28,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -2282,7 +2413,7 @@
       ]
     },
     {
-      "id": "t73",
+      "id": "t76",
       "type": "text",
       "content": "calma total",
       "fontSize": 34,
@@ -2308,19 +2439,19 @@
       }
     },
     {
-      "id": "hurricane-eye_74",
+      "id": "hurricane-eye_77",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hurricane-eye.png",
       "box": {
-        "cx": 960,
-        "cy": 500,
+        "cx": 540,
+        "cy": 520,
         "w": 300,
         "h": 300
       },
       "z": 30,
       "in": 222.84,
-      "out": 230.84,
+      "out": 227.84,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -2330,10 +2461,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 222.84,
+          "cx": 540,
+          "cy": 520,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 223.09,
+          "cx": 960,
+          "cy": 500,
+          "w": 300,
+          "h": 300
+        }
+      ]
     },
     {
-      "id": "t75",
+      "id": "t78",
       "type": "text",
       "content": "NO salgas en el ojo",
       "fontSize": 60,
@@ -2359,7 +2506,7 @@
       }
     },
     {
-      "id": "flood_76",
+      "id": "flood_79",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/flood.png",
@@ -2371,7 +2518,7 @@
       },
       "z": 30,
       "in": 231.58,
-      "out": 239.58,
+      "out": 236.58,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -2384,7 +2531,7 @@
       }
     },
     {
-      "id": "t77",
+      "id": "t80",
       "type": "text",
       "content": "lo peor es el AGUA",
       "fontSize": 34,
@@ -2397,7 +2544,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 231.78,
-      "out": 239.78,
+      "out": 236.78,
       "_syncT": 231.78,
       "_keep": false,
       "enter": {
@@ -2410,7 +2557,7 @@
       }
     },
     {
-      "id": "evacuate-sign_78",
+      "id": "evacuate-sign_81",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/evacuate-sign.png",
@@ -2422,7 +2569,7 @@
       },
       "z": 30,
       "in": 240.34,
-      "out": 246.08,
+      "out": 245.34,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -2458,7 +2605,7 @@
       ]
     },
     {
-      "id": "t79",
+      "id": "t82",
       "type": "text",
       "content": "evacúa sin pensar",
       "fontSize": 34,
@@ -2484,7 +2631,7 @@
       }
     },
     {
-      "id": "volcano_80",
+      "id": "volcano_83",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/volcano.png",
@@ -2511,6 +2658,13 @@
         {
           "t": 246.08,
           "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 246.33,
+          "cx": 960,
           "cy": 500,
           "w": 460,
           "h": 460
@@ -2525,7 +2679,7 @@
       ]
     },
     {
-      "id": "t81",
+      "id": "t84",
       "type": "text",
       "content": "el volcán",
       "fontSize": 34,
@@ -2551,7 +2705,7 @@
       }
     },
     {
-      "id": "volcano_82",
+      "id": "volcano_85",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/volcano.png",
@@ -2576,7 +2730,7 @@
       }
     },
     {
-      "id": "t83",
+      "id": "t86",
       "type": "text",
       "content": "una grieta al interior",
       "fontSize": 34,
@@ -2602,7 +2756,7 @@
       }
     },
     {
-      "id": "magma-rising_84",
+      "id": "magma-rising_87",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/magma-rising.png",
@@ -2614,7 +2768,7 @@
       },
       "z": 30,
       "in": 253.7,
-      "out": 259.78,
+      "out": 258.7,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -2643,7 +2797,7 @@
       ]
     },
     {
-      "id": "t85",
+      "id": "t88",
       "type": "text",
       "content": "el magma",
       "fontSize": 34,
@@ -2669,7 +2823,7 @@
       }
     },
     {
-      "id": "magma-rising_86",
+      "id": "magma-rising_89",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/magma-rising.png",
@@ -2681,7 +2835,7 @@
       },
       "z": 30,
       "in": 259.78,
-      "out": 266.8,
+      "out": 264.78,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -2695,6 +2849,13 @@
       "frames": [
         {
           "t": 259.78,
+          "cx": 540,
+          "cy": 520,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 260.03,
           "cx": 960,
           "cy": 500,
           "w": 300,
@@ -2710,7 +2871,7 @@
       ]
     },
     {
-      "id": "t87",
+      "id": "t90",
       "type": "text",
       "content": "empuja hacia arriba",
       "fontSize": 46,
@@ -2736,15 +2897,15 @@
       }
     },
     {
-      "id": "volcano_88",
+      "id": "volcano_91",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/volcano.png",
       "box": {
-        "cx": 960,
+        "cx": 540,
         "cy": 520,
-        "w": 460,
-        "h": 460
+        "w": 300,
+        "h": 300
       },
       "z": 30,
       "in": 266.8,
@@ -2758,26 +2919,35 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 266.8,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 268.35,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t89",
+      "id": "photo-volcano_92",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo-volcano.jpg",
+      "box": {
+        "cx": 1380,
+        "cy": 520,
+        "w": 375,
+        "h": 375
+      },
+      "z": 25,
+      "in": 267.6,
+      "out": 269.92,
+      "auto": true,
+      "_keep": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t93",
       "type": "text",
       "content": "ERUPCIÓN",
       "fontSize": 34,
@@ -2803,19 +2973,19 @@
       }
     },
     {
-      "id": "lava-flow_90",
+      "id": "lava-flow_94",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/lava-flow.png",
       "box": {
-        "cx": 960,
+        "cx": 540,
         "cy": 520,
-        "w": 460,
-        "h": 460
+        "w": 300,
+        "h": 300
       },
       "z": 30,
       "in": 269.92,
-      "out": 277.92,
+      "out": 274.92,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -2831,20 +3001,45 @@
           "t": 269.92,
           "cx": 960,
           "cy": 500,
-          "w": 460,
-          "h": 460
+          "w": 300,
+          "h": 300
         },
         {
-          "t": 272.97,
-          "cx": 960,
+          "t": 270.47,
+          "cx": 540,
           "cy": 520,
-          "w": 460,
-          "h": 460
+          "w": 300,
+          "h": 300
         }
       ]
     },
     {
-      "id": "t91",
+      "id": "photo-lava_95",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo-lava.jpg",
+      "box": {
+        "cx": 1380,
+        "cy": 520,
+        "w": 375,
+        "h": 375
+      },
+      "z": 25,
+      "in": 271.12,
+      "out": 276.12,
+      "auto": true,
+      "_keep": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t96",
       "type": "text",
       "content": "lava lenta",
       "fontSize": 34,
@@ -2870,7 +3065,7 @@
       }
     },
     {
-      "id": "volcano_92",
+      "id": "volcano_97",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/volcano.png",
@@ -2895,7 +3090,7 @@
       }
     },
     {
-      "id": "t93",
+      "id": "t98",
       "type": "text",
       "content": "los EXPLOSIVOS",
       "fontSize": 34,
@@ -2921,19 +3116,19 @@
       }
     },
     {
-      "id": "pyroclastic_94",
+      "id": "pyroclastic_99",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/pyroclastic.png",
       "box": {
         "cx": 960,
-        "cy": 520,
+        "cy": 500,
         "w": 460,
         "h": 460
       },
       "z": 30,
       "in": 282.24,
-      "out": 290.24,
+      "out": 287.24,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -2943,26 +3138,10 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 282.24,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 288.29,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t95",
+      "id": "t100",
       "type": "text",
       "content": "nube ardiente",
       "fontSize": 34,
@@ -2988,7 +3167,7 @@
       }
     },
     {
-      "id": "pyroclastic_96",
+      "id": "pyroclastic_101",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/pyroclastic.png",
@@ -3000,7 +3179,7 @@
       },
       "z": 30,
       "in": 292.7,
-      "out": 300.7,
+      "out": 297.7,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -3013,7 +3192,7 @@
       }
     },
     {
-      "id": "t97",
+      "id": "t102",
       "type": "text",
       "content": "flujo piroclástico",
       "fontSize": 34,
@@ -3026,7 +3205,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 293.52,
-      "out": 301.26,
+      "out": 298.52,
       "_syncT": 293.52,
       "_keep": false,
       "enter": {
@@ -3039,7 +3218,7 @@
       }
     },
     {
-      "id": "pyroclastic_98",
+      "id": "pyroclastic_103",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/pyroclastic.png",
@@ -3064,7 +3243,7 @@
       }
     },
     {
-      "id": "t99",
+      "id": "t104",
       "type": "text",
       "content": "así murió Pompeya",
       "fontSize": 60,
@@ -3090,7 +3269,7 @@
       }
     },
     {
-      "id": "ash-plane_100",
+      "id": "ash-plane_105",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/ash-plane.png",
@@ -3102,7 +3281,7 @@
       },
       "z": 30,
       "in": 305.58,
-      "out": 313.58,
+      "out": 310.58,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -3131,7 +3310,7 @@
       ]
     },
     {
-      "id": "t101",
+      "id": "t106",
       "type": "text",
       "content": "la ceniza también mata",
       "fontSize": 34,
@@ -3144,7 +3323,7 @@
       "color": "#111111",
       "z": 60,
       "in": 306.84,
-      "out": 314.84,
+      "out": 311.84,
       "_syncT": 306.84,
       "_keep": false,
       "enter": {
@@ -3157,7 +3336,7 @@
       }
     },
     {
-      "id": "supervolcano_102",
+      "id": "supervolcano_107",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/supervolcano.png",
@@ -3205,7 +3384,7 @@
       ]
     },
     {
-      "id": "t103",
+      "id": "t108",
       "type": "text",
       "content": "los supervolcanes",
       "fontSize": 34,
@@ -3231,7 +3410,7 @@
       }
     },
     {
-      "id": "supervolcano_104",
+      "id": "supervolcano_109",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/supervolcano.png",
@@ -3243,7 +3422,7 @@
       },
       "z": 30,
       "in": 320,
-      "out": 327.22,
+      "out": 325,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -3272,7 +3451,7 @@
       ]
     },
     {
-      "id": "t105",
+      "id": "t110",
       "type": "text",
       "content": "enfriaría el planeta",
       "fontSize": 46,
@@ -3298,7 +3477,7 @@
       }
     },
     {
-      "id": "planet-earth_106",
+      "id": "planet-earth_111",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/planet-earth.png",
@@ -3325,6 +3504,13 @@
         {
           "t": 327.22,
           "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 327.47,
+          "cx": 960,
           "cy": 500,
           "w": 460,
           "h": 460
@@ -3339,7 +3525,7 @@
       ]
     },
     {
-      "id": "t107",
+      "id": "t112",
       "type": "text",
       "content": "tranquilo, casi nunca",
       "fontSize": 34,
@@ -3365,7 +3551,7 @@
       }
     },
     {
-      "id": "tornado_108",
+      "id": "tornado_113",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tornado.png",
@@ -3406,7 +3592,7 @@
       ]
     },
     {
-      "id": "t109",
+      "id": "t114",
       "type": "text",
       "content": "el tornado",
       "fontSize": 34,
@@ -3432,19 +3618,19 @@
       }
     },
     {
-      "id": "tornado_110",
+      "id": "tornado_115",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tornado.png",
       "box": {
         "cx": 960,
-        "cy": 520,
+        "cy": 500,
         "w": 460,
         "h": 460
       },
       "z": 30,
       "in": 335.26,
-      "out": 343.26,
+      "out": 340.26,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -3454,26 +3640,10 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 335.26,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 340.31,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t111",
+      "id": "t116",
       "type": "text",
       "content": "pequeño y LETAL",
       "fontSize": 34,
@@ -3499,7 +3669,7 @@
       }
     },
     {
-      "id": "tornado_112",
+      "id": "tornado_117",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tornado.png",
@@ -3511,7 +3681,7 @@
       },
       "z": 30,
       "in": 343.82,
-      "out": 351.82,
+      "out": 348.82,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -3547,7 +3717,7 @@
       ]
     },
     {
-      "id": "t113",
+      "id": "t118",
       "type": "text",
       "content": "el viento empieza a girar",
       "fontSize": 46,
@@ -3560,7 +3730,7 @@
       "color": "#111111",
       "z": 60,
       "in": 346.8,
-      "out": 354.72,
+      "out": 351.8,
       "_syncT": 346.8,
       "_keep": false,
       "enter": {
@@ -3573,19 +3743,19 @@
       }
     },
     {
-      "id": "tornado_114",
+      "id": "tornado_119",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tornado.png",
       "box": {
-        "cx": 960,
+        "cx": 540,
         "cy": 520,
-        "w": 460,
-        "h": 460
+        "w": 300,
+        "h": 300
       },
       "z": 30,
       "in": 354.72,
-      "out": 361.7,
+      "out": 359.72,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -3599,29 +3769,54 @@
       "frames": [
         {
           "t": 354.72,
-          "cx": 960,
+          "cx": 540,
           "cy": 520,
-          "w": 460,
-          "h": 460
+          "w": 300,
+          "h": 300
         },
         {
           "t": 354.97,
           "cx": 960,
           "cy": 500,
-          "w": 460,
-          "h": 460
+          "w": 300,
+          "h": 300
         },
         {
-          "t": 356.52,
-          "cx": 960,
+          "t": 355.27,
+          "cx": 540,
           "cy": 520,
-          "w": 460,
-          "h": 460
+          "w": 300,
+          "h": 300
         }
       ]
     },
     {
-      "id": "t115",
+      "id": "photo-tornado_120",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo-tornado.jpg",
+      "box": {
+        "cx": 1380,
+        "cy": 520,
+        "w": 375,
+        "h": 375
+      },
+      "z": 25,
+      "in": 355.92,
+      "out": 360.92,
+      "auto": true,
+      "_keep": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t121",
       "type": "text",
       "content": "toca el suelo",
       "fontSize": 34,
@@ -3647,7 +3842,7 @@
       }
     },
     {
-      "id": "tornado_116",
+      "id": "tornado_122",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tornado.png",
@@ -3674,6 +3869,13 @@
         {
           "t": 361.7,
           "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 361.95,
+          "cx": 960,
           "cy": 500,
           "w": 460,
           "h": 460
@@ -3688,7 +3890,7 @@
       ]
     },
     {
-      "id": "t117",
+      "id": "t123",
       "type": "text",
       "content": "+400 km/h",
       "fontSize": 34,
@@ -3714,7 +3916,7 @@
       }
     },
     {
-      "id": "tornado_118",
+      "id": "tornado_124",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tornado.png",
@@ -3726,7 +3928,7 @@
       },
       "z": 30,
       "in": 366.04,
-      "out": 373.7,
+      "out": 371.04,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -3755,7 +3957,7 @@
       ]
     },
     {
-      "id": "t119",
+      "id": "t125",
       "type": "text",
       "content": "levanta coches",
       "fontSize": 46,
@@ -3781,7 +3983,7 @@
       }
     },
     {
-      "id": "tornado_120",
+      "id": "tornado_126",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tornado.png",
@@ -3793,7 +3995,7 @@
       },
       "z": 30,
       "in": 373.7,
-      "out": 379.74,
+      "out": 378.7,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -3807,6 +4009,13 @@
       "frames": [
         {
           "t": 373.7,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 373.95,
           "cx": 960,
           "cy": 500,
           "w": 460,
@@ -3822,7 +4031,7 @@
       ]
     },
     {
-      "id": "t121",
+      "id": "t127",
       "type": "text",
       "content": "minutos de aviso",
       "fontSize": 34,
@@ -3848,7 +4057,7 @@
       }
     },
     {
-      "id": "tornado-shelter_122",
+      "id": "tornado-shelter_128",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tornado-shelter.png",
@@ -3860,7 +4069,7 @@
       },
       "z": 30,
       "in": 379.74,
-      "out": 387.74,
+      "out": 384.74,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -3875,21 +4084,21 @@
         {
           "t": 379.74,
           "cx": 960,
-          "cy": 500,
+          "cy": 520,
           "w": 460,
           "h": 460
         },
         {
-          "t": 385.29,
+          "t": 379.99,
           "cx": 960,
-          "cy": 520,
+          "cy": 500,
           "w": 460,
           "h": 460
         }
       ]
     },
     {
-      "id": "t123",
+      "id": "t129",
       "type": "text",
       "content": "sótano, lejos de ventanas",
       "fontSize": 34,
@@ -3915,7 +4124,7 @@
       }
     },
     {
-      "id": "flood_124",
+      "id": "flood_130",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/flood.png",
@@ -3927,7 +4136,7 @@
       },
       "z": 30,
       "in": 388.78,
-      "out": 396.78,
+      "out": 393.78,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -3956,7 +4165,7 @@
       ]
     },
     {
-      "id": "t125",
+      "id": "t131",
       "type": "text",
       "content": "la inundación",
       "fontSize": 34,
@@ -3982,15 +4191,15 @@
       }
     },
     {
-      "id": "flood_126",
+      "id": "flood_132",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/flood.png",
       "box": {
-        "cx": 960,
+        "cx": 540,
         "cy": 520,
-        "w": 460,
-        "h": 460
+        "w": 300,
+        "h": 300
       },
       "z": 30,
       "in": 397.98,
@@ -4004,33 +4213,35 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 397.98,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 398.23,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 400.53,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
+      }
     },
     {
-      "id": "t127",
+      "id": "photo-flood_133",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo-flood.jpg",
+      "box": {
+        "cx": 1380,
+        "cy": 520,
+        "w": 375,
+        "h": 375
+      },
+      "z": 25,
+      "in": 398.98,
+      "out": 402.78,
+      "auto": true,
+      "_keep": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "t134",
       "type": "text",
       "content": "'solo es agua'",
       "fontSize": 34,
@@ -4056,7 +4267,7 @@
       }
     },
     {
-      "id": "flood_128",
+      "id": "flood_135",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/flood.png",
@@ -4097,7 +4308,7 @@
       ]
     },
     {
-      "id": "t129",
+      "id": "t136",
       "type": "text",
       "content": "un poder que no respetas",
       "fontSize": 46,
@@ -4123,7 +4334,7 @@
       }
     },
     {
-      "id": "flood-car_130",
+      "id": "flood-car_137",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/flood-car.png",
@@ -4135,7 +4346,7 @@
       },
       "z": 30,
       "in": 405.72,
-      "out": 410.8,
+      "out": 410.72,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -4164,7 +4375,7 @@
       ]
     },
     {
-      "id": "t131",
+      "id": "t138",
       "type": "text",
       "content": "30 cm arrastran un coche",
       "fontSize": 34,
@@ -4190,7 +4401,7 @@
       }
     },
     {
-      "id": "flood_132",
+      "id": "flood_139",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/flood.png",
@@ -4202,7 +4413,7 @@
       },
       "z": 30,
       "in": 410.8,
-      "out": 416.9,
+      "out": 415.8,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -4216,6 +4427,13 @@
       "frames": [
         {
           "t": 410.8,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 411.05,
           "cx": 960,
           "cy": 500,
           "w": 460,
@@ -4231,7 +4449,7 @@
       ]
     },
     {
-      "id": "t133",
+      "id": "t140",
       "type": "text",
       "content": "15 cm te tiran a ti",
       "fontSize": 34,
@@ -4257,7 +4475,7 @@
       }
     },
     {
-      "id": "flood_134",
+      "id": "flood_141",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/flood.png",
@@ -4269,7 +4487,7 @@
       },
       "z": 30,
       "in": 416.9,
-      "out": 422.38,
+      "out": 421.9,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -4283,6 +4501,13 @@
       "frames": [
         {
           "t": 416.9,
+          "cx": 540,
+          "cy": 520,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 417.15,
           "cx": 960,
           "cy": 500,
           "w": 300,
@@ -4298,7 +4523,7 @@
       ]
     },
     {
-      "id": "t135",
+      "id": "t142",
       "type": "text",
       "content": "pesa una barbaridad",
       "fontSize": 46,
@@ -4324,7 +4549,7 @@
       }
     },
     {
-      "id": "flood-car_136",
+      "id": "flood-car_143",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/flood-car.png",
@@ -4336,7 +4561,7 @@
       },
       "z": 30,
       "in": 422.38,
-      "out": 430.38,
+      "out": 427.38,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -4351,21 +4576,21 @@
         {
           "t": 422.38,
           "cx": 960,
-          "cy": 500,
+          "cy": 520,
           "w": 460,
           "h": 460
         },
         {
-          "t": 428.93,
+          "t": 422.63,
           "cx": 960,
-          "cy": 520,
+          "cy": 500,
           "w": 460,
           "h": 460
         }
       ]
     },
     {
-      "id": "t137",
+      "id": "t144",
       "type": "text",
       "content": "NO cruces en coche",
       "fontSize": 34,
@@ -4391,7 +4616,7 @@
       }
     },
     {
-      "id": "turn-around-sign_138",
+      "id": "turn-around-sign_145",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/turn-around-sign.png",
@@ -4403,7 +4628,7 @@
       },
       "z": 30,
       "in": 430.4,
-      "out": 437.34,
+      "out": 435.4,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -4418,21 +4643,21 @@
         {
           "t": 430.4,
           "cx": 960,
-          "cy": 500,
+          "cy": 520,
           "w": 460,
           "h": 460
         },
         {
-          "t": 434.95,
+          "t": 430.65,
           "cx": 960,
-          "cy": 520,
+          "cy": 500,
           "w": 460,
           "h": 460
         }
       ]
     },
     {
-      "id": "t139",
+      "id": "t146",
       "type": "text",
       "content": "da la vuelta, no te ahogues",
       "fontSize": 34,
@@ -4458,7 +4683,7 @@
       }
     },
     {
-      "id": "turn-around-sign_140",
+      "id": "turn-around-sign_147",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/turn-around-sign.png",
@@ -4483,7 +4708,7 @@
       }
     },
     {
-      "id": "t141",
+      "id": "t148",
       "type": "text",
       "content": "nunca cruces agua",
       "fontSize": 34,
@@ -4509,7 +4734,7 @@
       }
     },
     {
-      "id": "warning-triangle_142",
+      "id": "warning-triangle_149",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/warning-triangle.png",
@@ -4550,7 +4775,7 @@
       ]
     },
     {
-      "id": "t143",
+      "id": "t150",
       "type": "text",
       "content": "un patrón",
       "fontSize": 34,
@@ -4576,7 +4801,7 @@
       }
     },
     {
-      "id": "warning-triangle_144",
+      "id": "warning-triangle_151",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/warning-triangle.png",
@@ -4588,7 +4813,7 @@
       },
       "z": 30,
       "in": 445.3,
-      "out": 450.96,
+      "out": 450.3,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -4617,7 +4842,7 @@
       ]
     },
     {
-      "id": "t145",
+      "id": "t152",
       "type": "text",
       "content": "el peligro: no entenderlo",
       "fontSize": 46,
@@ -4643,7 +4868,7 @@
       }
     },
     {
-      "id": "sea-retreat_146",
+      "id": "sea-retreat_153",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/sea-retreat.png",
@@ -4655,7 +4880,7 @@
       },
       "z": 30,
       "in": 450.96,
-      "out": 458.96,
+      "out": 455.96,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -4669,6 +4894,13 @@
       "frames": [
         {
           "t": 450.96,
+          "cx": 450,
+          "cy": 470,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 451.21,
           "cx": 960,
           "cy": 500,
           "w": 300,
@@ -4684,7 +4916,7 @@
       ]
     },
     {
-      "id": "hurricane-eye_147",
+      "id": "hurricane-eye_154",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hurricane-eye.png",
@@ -4696,7 +4928,7 @@
       },
       "z": 30,
       "in": 452.76,
-      "out": 460.44,
+      "out": 457.76,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -4709,7 +4941,7 @@
       }
     },
     {
-      "id": "flood-car_148",
+      "id": "flood-car_155",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/flood-car.png",
@@ -4721,7 +4953,7 @@
       },
       "z": 30,
       "in": 454.36,
-      "out": 462.36,
+      "out": 459.36,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -4741,7 +4973,7 @@
           "h": 300
         },
         {
-          "t": 460.61,
+          "t": 457.86,
           "cx": 960,
           "cy": 500,
           "w": 300,
@@ -4750,7 +4982,7 @@
       ]
     },
     {
-      "id": "t149",
+      "id": "t156",
       "type": "text",
       "content": "entenderla lo cambia todo",
       "fontSize": 60,
@@ -4763,7 +4995,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 463.48,
-      "out": 469.84,
+      "out": 468.48,
       "_syncT": 463.48,
       "_keep": false,
       "enter": {
@@ -4776,7 +5008,7 @@
       }
     },
     {
-      "id": "planet-earth_150",
+      "id": "planet-earth_157",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/planet-earth.png",
@@ -4788,7 +5020,7 @@
       },
       "z": 30,
       "in": 469.84,
-      "out": 477.3,
+      "out": 474.84,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -4801,7 +5033,7 @@
       }
     },
     {
-      "id": "t151",
+      "id": "t158",
       "type": "text",
       "content": "la Tierra sigue VIVA",
       "fontSize": 34,
@@ -4814,7 +5046,7 @@
       "color": "#111111",
       "z": 60,
       "in": 470.1,
-      "out": 477.3,
+      "out": 475.1,
       "_syncT": 470.1,
       "_keep": false,
       "enter": {
@@ -4827,7 +5059,7 @@
       }
     },
     {
-      "id": "planet-earth_152",
+      "id": "planet-earth_159",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/planet-earth.png",
@@ -4839,7 +5071,7 @@
       },
       "z": 30,
       "in": 477.3,
-      "out": 485.3,
+      "out": 482.3,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -4853,6 +5085,13 @@
       "frames": [
         {
           "t": 477.3,
+          "cx": 540,
+          "cy": 520,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 477.55,
           "cx": 960,
           "cy": 500,
           "w": 300,
@@ -4868,7 +5107,7 @@
       ]
     },
     {
-      "id": "t153",
+      "id": "t160",
       "type": "text",
       "content": "el planeta respirando",
       "fontSize": 46,
@@ -4881,7 +5120,7 @@
       "color": "#111111",
       "z": 60,
       "in": 480.84,
-      "out": 487.2,
+      "out": 485.84,
       "_syncT": 480.84,
       "_keep": false,
       "enter": {
@@ -4894,7 +5133,7 @@
       }
     },
     {
-      "id": "planet-earth_154",
+      "id": "planet-earth_161",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/planet-earth.png",
@@ -4942,7 +5181,7 @@
       ]
     },
     {
-      "id": "t155",
+      "id": "t162",
       "type": "text",
       "content": "vivimos encima",
       "fontSize": 34,
@@ -4968,7 +5207,7 @@
       }
     },
     {
-      "id": "warning-triangle_156",
+      "id": "warning-triangle_163",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/warning-triangle.png",
@@ -4980,7 +5219,7 @@
       },
       "z": 30,
       "in": 490.92,
-      "out": 498.92,
+      "out": 495.92,
       "auto": true,
       "_keep": false,
       "enter": {
@@ -5009,7 +5248,7 @@
       ]
     },
     {
-      "id": "t157",
+      "id": "t164",
       "type": "text",
       "content": "ahora lo ENTIENDES",
       "fontSize": 34,
@@ -5022,7 +5261,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 494.92,
-      "out": 502.92,
+      "out": 499.92,
       "_syncT": null,
       "_keep": false,
       "enter": {
@@ -5341,7 +5580,7 @@
       }
     },
     {
-      "id": "cov158",
+      "id": "cov165",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/earthquake.png",
@@ -5352,8 +5591,8 @@
         "h": 340
       },
       "z": 28,
-      "in": 19.5,
-      "out": 23.25,
+      "in": 5,
+      "out": 5.25,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5365,7 +5604,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov159",
+      "id": "cov166",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/earthquake.png",
@@ -5376,7 +5615,54 @@
         "h": 340
       },
       "z": 28,
-      "in": 34.5,
+      "in": 17.75,
+      "out": 23.25,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true,
+      "frames": [
+        {
+          "t": 17.75,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 19.75,
+          "cx": 960,
+          "cy": 500,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 21.05,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        }
+      ]
+    },
+    {
+      "id": "cov167",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/earthquake.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 31.5,
       "out": 35.5,
       "enter": {
         "kind": "fade-in",
@@ -5389,7 +5675,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov160",
+      "id": "cov168",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/earthquake.png",
@@ -5400,8 +5686,8 @@
         "h": 340
       },
       "z": 28,
-      "in": 109.5,
-      "out": 114,
+      "in": 49,
+      "out": 51.25,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5413,7 +5699,207 @@
       "_autoIco": true
     },
     {
-      "id": "cov161",
+      "id": "cov169",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/earthquake.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 56.25,
+      "out": 56.75,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov170",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/earthquake.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 61.75,
+      "out": 63.5,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov171",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/earthquake.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 74.5,
+      "out": 74.75,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov172",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/earthquake.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 79.75,
+      "out": 82.25,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov173",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/earthquake.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 87.25,
+      "out": 89.25,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov174",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/earthquake.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 99,
+      "out": 101.5,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true,
+      "frames": [
+        {
+          "t": 99,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 99.25,
+          "cx": 960,
+          "cy": 500,
+          "w": 340,
+          "h": 340
+        }
+      ]
+    },
+    {
+      "id": "cov175",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/earthquake.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 106.5,
+      "out": 114,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true,
+      "frames": [
+        {
+          "t": 106.5,
+          "cx": 960,
+          "cy": 500,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 107.8,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        }
+      ]
+    },
+    {
+      "id": "cov176",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/earthquake.png",
@@ -5437,7 +5923,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov162",
+      "id": "cov177",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tsunami.png",
@@ -5448,7 +5934,7 @@
         "h": 340
       },
       "z": 28,
-      "in": 131.5,
+      "in": 128.5,
       "out": 131.75,
       "enter": {
         "kind": "fade-in",
@@ -5461,7 +5947,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov163",
+      "id": "cov178",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tsunami.png",
@@ -5472,8 +5958,48 @@
         "h": 340
       },
       "z": 28,
-      "in": 160.25,
-      "out": 163,
+      "in": 136.75,
+      "out": 138,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true,
+      "frames": [
+        {
+          "t": 136.75,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 137,
+          "cx": 960,
+          "cy": 500,
+          "w": 340,
+          "h": 340
+        }
+      ]
+    },
+    {
+      "id": "cov179",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/tsunami.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 143,
+      "out": 145.75,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5485,7 +6011,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov164",
+      "id": "cov180",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tsunami.png",
@@ -5496,7 +6022,71 @@
         "h": 340
       },
       "z": 28,
-      "in": 171,
+      "in": 150.75,
+      "out": 152.25,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov181",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/tsunami.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 158.5,
+      "out": 163,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true,
+      "frames": [
+        {
+          "t": 158.5,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 159.5,
+          "cx": 960,
+          "cy": 500,
+          "w": 340,
+          "h": 340
+        }
+      ]
+    },
+    {
+      "id": "cov182",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/tsunami.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 168,
       "out": 172.25,
       "enter": {
         "kind": "fade-in",
@@ -5509,7 +6099,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov165",
+      "id": "cov183",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hurricane.png",
@@ -5520,8 +6110,48 @@
         "h": 340
       },
       "z": 28,
-      "in": 199.5,
+      "in": 196.5,
       "out": 200.5,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true,
+      "frames": [
+        {
+          "t": 196.5,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 198,
+          "cx": 960,
+          "cy": 500,
+          "w": 340,
+          "h": 340
+        }
+      ]
+    },
+    {
+      "id": "cov184",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/hurricane.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 210.75,
+      "out": 211.75,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5533,7 +6163,31 @@
       "_autoIco": true
     },
     {
-      "id": "cov166",
+      "id": "cov185",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/hurricane.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 221.5,
+      "out": 223,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov186",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hurricane.png",
@@ -5544,7 +6198,7 @@
         "h": 340
       },
       "z": 28,
-      "in": 231,
+      "in": 228,
       "out": 231.75,
       "enter": {
         "kind": "fade-in",
@@ -5557,7 +6211,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov167",
+      "id": "cov187",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hurricane.png",
@@ -5568,8 +6222,48 @@
         "h": 340
       },
       "z": 28,
-      "in": 239.75,
+      "in": 236.75,
       "out": 240.5,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true,
+      "frames": [
+        {
+          "t": 236.75,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 237,
+          "cx": 960,
+          "cy": 500,
+          "w": 340,
+          "h": 340
+        }
+      ]
+    },
+    {
+      "id": "cov188",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/hurricane.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 245.5,
+      "out": 246.25,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5581,7 +6275,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov168",
+      "id": "cov189",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/volcano.png",
@@ -5592,7 +6286,55 @@
         "h": 340
       },
       "z": 28,
-      "in": 278,
+      "in": 258.75,
+      "out": 260,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov190",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/volcano.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 265,
+      "out": 267,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov191",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/volcano.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 276.25,
       "out": 278.5,
       "enter": {
         "kind": "fade-in",
@@ -5605,7 +6347,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov169",
+      "id": "cov192",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/volcano.png",
@@ -5616,7 +6358,7 @@
         "h": 340
       },
       "z": 28,
-      "in": 290.25,
+      "in": 287.25,
       "out": 292.75,
       "enter": {
         "kind": "fade-in",
@@ -5626,10 +6368,26 @@
         "kind": "fade-out",
         "duration": 0.3
       },
-      "_autoIco": true
+      "_autoIco": true,
+      "frames": [
+        {
+          "t": 287.25,
+          "cx": 960,
+          "cy": 500,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 288.3,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        }
+      ]
     },
     {
-      "id": "cov170",
+      "id": "cov193",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/volcano.png",
@@ -5640,7 +6398,7 @@
         "h": 340
       },
       "z": 28,
-      "in": 300.75,
+      "in": 297.75,
       "out": 301.5,
       "enter": {
         "kind": "fade-in",
@@ -5650,10 +6408,26 @@
         "kind": "fade-out",
         "duration": 0.3
       },
-      "_autoIco": true
+      "_autoIco": true,
+      "frames": [
+        {
+          "t": 297.75,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 298.75,
+          "cx": 960,
+          "cy": 500,
+          "w": 340,
+          "h": 340
+        }
+      ]
     },
     {
-      "id": "cov171",
+      "id": "cov194",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/volcano.png",
@@ -5664,8 +6438,48 @@
         "h": 340
       },
       "z": 28,
-      "in": 313.75,
+      "in": 310.75,
       "out": 315.5,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true,
+      "frames": [
+        {
+          "t": 310.75,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 312,
+          "cx": 960,
+          "cy": 500,
+          "w": 340,
+          "h": 340
+        }
+      ]
+    },
+    {
+      "id": "cov195",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/volcano.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 325,
+      "out": 327.25,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5677,7 +6491,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov172",
+      "id": "cov196",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tornado.png",
@@ -5688,7 +6502,7 @@
         "h": 340
       },
       "z": 28,
-      "in": 343.5,
+      "in": 340.5,
       "out": 344,
       "enter": {
         "kind": "fade-in",
@@ -5701,7 +6515,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov173",
+      "id": "cov197",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tornado.png",
@@ -5712,80 +6526,8 @@
         "h": 340
       },
       "z": 28,
-      "in": 352,
+      "in": 349,
       "out": 354.75,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov174",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/tornado.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 387.75,
-      "out": 389,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov175",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/flood.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 397,
-      "out": 398,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov176",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/flood.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 462.5,
-      "out": 470,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5797,7 +6539,359 @@
       "_autoIco": true,
       "frames": [
         {
-          "t": 462.5,
+          "t": 349,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 352,
+          "cx": 960,
+          "cy": 500,
+          "w": 340,
+          "h": 340
+        }
+      ]
+    },
+    {
+      "id": "cov198",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/tornado.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 361,
+      "out": 361.75,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov199",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/tornado.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 371.25,
+      "out": 373.75,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov200",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/tornado.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 378.75,
+      "out": 379.75,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov201",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/tornado.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 384.75,
+      "out": 389,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true,
+      "frames": [
+        {
+          "t": 384.75,
+          "cx": 960,
+          "cy": 500,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 385.3,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        }
+      ]
+    },
+    {
+      "id": "cov202",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/flood.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 394,
+      "out": 398,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true,
+      "frames": [
+        {
+          "t": 394,
+          "cx": 960,
+          "cy": 500,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 396.3,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        }
+      ]
+    },
+    {
+      "id": "cov203",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/flood.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 410.75,
+      "out": 411,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov204",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/flood.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 416,
+      "out": 417,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov205",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/flood.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 422,
+      "out": 422.5,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov206",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/flood.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 427.5,
+      "out": 430.5,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true,
+      "frames": [
+        {
+          "t": 427.5,
+          "cx": 960,
+          "cy": 500,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 428.8,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        }
+      ]
+    },
+    {
+      "id": "cov207",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/flood.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 435.5,
+      "out": 437.5,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov208",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/flood.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 450.5,
+      "out": 451,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov209",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/flood.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 459.5,
+      "out": 467.5,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true,
+      "frames": [
+        {
+          "t": 459.5,
           "cx": 960,
           "cy": 500,
           "w": 340,
@@ -5813,7 +6907,7 @@
       ]
     },
     {
-      "id": "cov177",
+      "id": "cov210",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/flood.png",
@@ -5824,32 +6918,8 @@
         "h": 340
       },
       "z": 28,
-      "in": 485.5,
-      "out": 487.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov178",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/flood.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 499,
-      "out": 505.25,
+      "in": 467.5,
+      "out": 470,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5861,20 +6931,164 @@
       "_autoIco": true,
       "frames": [
         {
-          "t": 499,
+          "t": 467.5,
           "cx": 540,
           "cy": 520,
           "w": 340,
           "h": 340
         },
         {
-          "t": 503,
+          "t": 468.5,
           "cx": 960,
           "cy": 500,
           "w": 340,
           "h": 340
         }
       ]
+    },
+    {
+      "id": "cov211",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/flood.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 475,
+      "out": 477.5,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true,
+      "frames": [
+        {
+          "t": 475,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 475.25,
+          "cx": 960,
+          "cy": 500,
+          "w": 340,
+          "h": 340
+        }
+      ]
+    },
+    {
+      "id": "cov212",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/flood.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 482.5,
+      "out": 487.25,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true,
+      "frames": [
+        {
+          "t": 482.5,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 486,
+          "cx": 960,
+          "cy": 500,
+          "w": 340,
+          "h": 340
+        }
+      ]
+    },
+    {
+      "id": "cov213",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/flood.png",
+      "box": {
+        "cx": 540,
+        "cy": 520,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 496,
+      "out": 504,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true,
+      "frames": [
+        {
+          "t": 496,
+          "cx": 540,
+          "cy": 520,
+          "w": 340,
+          "h": 340
+        },
+        {
+          "t": 500,
+          "cx": 960,
+          "cy": 500,
+          "w": 340,
+          "h": 340
+        }
+      ]
+    },
+    {
+      "id": "cov214",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/flood.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 340,
+        "h": 340
+      },
+      "z": 28,
+      "in": 504,
+      "out": 505.25,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
     }
   ]
 }
