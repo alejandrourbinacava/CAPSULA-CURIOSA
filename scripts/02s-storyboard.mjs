@@ -207,21 +207,33 @@ chapters.forEach((c, i) => {
   if (c.label) { const fs = fitFont(c.label, 42); const w = Math.round(c.label.length * fs * 0.6) + 20; elements.push({ id: "chaplabel" + i, type: "text", content: c.label, fontSize: fs, box: { cx: tx + w / 2, cy: 145, w, h: 64 }, color: STROKE, z: 80, in: inT, out: outT, structural: true, hud: true, enter: { kind: "fade-in", duration: 0.4 }, exit: { kind: "fade-out", duration: 0.3 } }); }
 });
 
-// LIENZO ACUMULATIVO → los DOODLES de una sección se QUEDAN y se apilan en rejilla hasta el siguiente CHAP,
-//   que limpia el lienzo. Regla del usuario: iconos entrando sin parar, acabar con 8+ a la vez, sin repetir.
+// LIENZO VIVO → los doodles entran Y SALEN (vida ~6s, rodando), y se RECOLOCAN/REESCALAN según cuántos
+//   haya a la vez: 1 = grande centrado; al entrar otro se encoge y se aparta; combinación variada, no rígida.
 {
   const bounds = [...new Set([0, ...chapters.map(c => +c.t.toFixed(2)), +dur.toFixed(2)])].sort((a, b) => a - b);
   const sectionEnd = (t) => { for (const b of bounds) if (b > t + 0.1) return b; return dur; };
-  for (const e of elements) if (e._accum) e.out = +sectionEnd(e.in).toFixed(2);
-  // rejilla creciente por sección (todos visibles, sin solaparse). Entran a su tiempo, caen a su slot final.
-  for (let s = 0; s < bounds.length - 1; s++) {
-    const t0 = bounds[s], t1 = bounds[s + 1];
-    const ic = elements.filter(e => e._accum && e.in >= t0 - 0.01 && e.in < t1 - 0.01).sort((a, b) => a.in - b.in);
-    const N = ic.length; if (!N) continue;
-    const cols = Math.ceil(Math.sqrt(N)), rows = Math.ceil(N / cols);
-    const X0 = 360, Y0 = 275, BW = 1210, BH = 545, cw = BW / cols, ch = BH / rows, sz = Math.max(120, Math.round(Math.min(cw, ch) * 0.82));
-    ic.forEach((e, i) => { const c = i % cols, r = Math.floor(i / cols); e.box = { cx: Math.round(X0 + (c + 0.5) * cw), cy: Math.round(Y0 + (r + 0.5) * ch), w: sz, h: sz }; e.out = Math.min(e.out, t1); });
+  const LIFE = 6.0;
+  for (const e of elements) if (e._accum) e.out = +Math.min(e.in + LIFE, sectionEnd(e.in)).toFixed(2);
+  // layout por Nº de iconos vivos (posiciones orgánicas, un poco distintas cada vez → no cuadriculado)
+  const jit = (i) => ((i * 53) % 40) - 20; // desплазamiento determinista pequeño
+  const slot = (N, i) => { // banda segura: y 280..880 (bajo el título 210, sobre subtítulo 980), x 210..1710
+    if (N <= 1) return [960, 560, 470];
+    if (N === 2) return [[610, 560, 380], [1310, 560, 380]][i];
+    if (N === 3) return [[960, 430, 300], [610, 730, 300], [1310, 730, 300]][i];
+    if (N === 4) return [[660, 440, 290], [1260, 440, 290], [660, 740, 290], [1260, 740, 290]][i];
+    if (N === 5) return [[960, 420, 250], [600, 610, 250], [1320, 610, 250], [720, 800, 250], [1200, 800, 250]][i];
+    const cols = Math.ceil(N / 2), cw = 1320 / cols, ch = 560 / 2, sz = Math.max(150, Math.round(Math.min(cw, ch) * 0.82));
+    const c = i % cols, r = Math.floor(i / cols); return [Math.round(300 + (c + 0.5) * cw), Math.round(300 + (r + 0.5) * ch), sz];
+  };
+  const acc = elements.filter(e => e._accum).sort((a, b) => a.in - b.in);
+  const times = [...new Set(acc.flatMap(e => [+e.in.toFixed(2), +e.out.toFixed(2)]))].sort((a, b) => a - b);
+  acc.forEach(e => e.frames = []);
+  for (const t of times) {
+    const live = acc.filter(x => x.in <= t + 1e-6 && x.out > t + 1e-6).sort((a, b) => a.in - b.in);
+    const N = live.length; if (!N) continue;
+    live.forEach((e, i) => { const [cx, cy, sz] = slot(N, i); const dy = N > 1 ? jit(i) : 0; const f = { t, cx, cy: cy + dy, w: sz, h: sz }; if (!e.frames.length || e.frames[e.frames.length - 1].cx !== cx || e.frames[e.frames.length - 1].w !== sz) e.frames.push(f); });
   }
+  for (const e of acc) if (e.frames.length) e.box = { cx: e.frames[0].cx, cy: e.frames[0].cy, w: e.frames[0].w, h: e.frames[0].h };
 }
 
 // TOPE (anti-hold largo) para TEXTOS y FOTOS (no para los doodles acumulativos, que persisten en el lienzo)
