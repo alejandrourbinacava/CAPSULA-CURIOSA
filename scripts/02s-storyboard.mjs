@@ -307,6 +307,24 @@ const missing = declared.filter(id => !placedIds.has(id) && !assetFile(id));
 const meta = { fps: 30, width: W, height: H, duration: +dur.toFixed(2), audio: "active/audio.mp3", title, profile: PROFILE.name, storyboard: true, declaredMissing: missing };
 const activeDir = path.join("public", "active"); fs.mkdirSync(activeDir, { recursive: true });
 const epAudio = path.join(dir, "audio.mp3"); if (fs.existsSync(epAudio)) fs.copyFileSync(epAudio, path.join(activeDir, "audio.mp3"));
+// ANTI-SOLAPE DE TEXTOS: dos captions en la misma banda vertical nunca coinciden en el tiempo.
+// Cada texto (no-KEEP, no-HUD) se recorta para terminar cuando entra el siguiente de su misma banda.
+{
+  const band = new Map();
+  for (const e of elements) {
+    if (e.type !== "text" || e._keep || e.structural || e.hud) continue;
+    const k = Math.round((e.box?.cy ?? 0) / 60);
+    if (!band.has(k)) band.set(k, []);
+    band.get(k).push(e);
+  }
+  for (const arr of band.values()) {
+    arr.sort((a, b) => a.in - b.in);
+    for (let i = 0; i < arr.length - 1; i++) {
+      const cur = arr[i], nxt = arr[i + 1];
+      if (cur.out > nxt.in - 0.1) cur.out = +Math.max(cur.in + 0.5, nxt.in - 0.1).toFixed(2);
+    }
+  }
+}
 const out = { meta, elements };
 fs.writeFileSync(path.join(dir, "scenes.json"), JSON.stringify(out, null, 2));
 fs.writeFileSync(path.join(activeDir, "scenes.json"), JSON.stringify(out, null, 2));

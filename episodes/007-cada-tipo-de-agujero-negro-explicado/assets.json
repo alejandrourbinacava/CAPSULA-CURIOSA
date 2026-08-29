@@ -1,0 +1,295 @@
+{
+  "black-hole": {
+    "kind": "vector",
+    "query": "a black hole in space bending light around a dark sphere",
+    "file": "assets/icons/black-hole.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "throw-ball": {
+    "kind": "vector",
+    "query": "a hand throwing a ball up into the air with an arc arrow",
+    "file": "assets/icons/throw-ball.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "earth-escape": {
+    "kind": "vector",
+    "query": "a rocket escaping planet Earth gravity upward",
+    "file": "assets/icons/earth-escape.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "light-ray": {
+    "kind": "vector",
+    "query": "a beam of light rays shining",
+    "file": "assets/icons/light-ray.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "light-trapped": {
+    "kind": "vector",
+    "query": "a beam of light being sucked into a black hole, trapped",
+    "file": "assets/icons/light-trapped.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "density-crush": {
+    "kind": "vector",
+    "query": "a huge mountain being crushed down into a tiny marble",
+    "file": "assets/icons/density-crush.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "horizon-line": {
+    "kind": "vector",
+    "query": "a black hole with a glowing circle boundary, the event horizon",
+    "file": "assets/icons/horizon-line.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-return": {
+    "kind": "vector",
+    "query": "a no entry sign, point of no return",
+    "file": "assets/icons/no-return.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "giant-star": {
+    "kind": "vector",
+    "query": "a huge bright glowing giant star",
+    "file": "assets/icons/giant-star.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "star-tug-war": {
+    "kind": "vector",
+    "query": "two arrows fighting, one pushing out one pulling in, balance of forces",
+    "file": "assets/icons/star-tug-war.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fuel-empty": {
+    "kind": "vector",
+    "query": "an empty fuel gauge on E, out of fuel",
+    "file": "assets/icons/fuel-empty.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "supernova": {
+    "kind": "vector",
+    "query": "a giant supernova star explosion with shockwave",
+    "file": "assets/icons/supernova.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "collapse-point": {
+    "kind": "vector",
+    "query": "matter collapsing inward into a single tiny point",
+    "file": "assets/icons/collapse-point.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "small-sphere": {
+    "kind": "vector",
+    "query": "the Sun shrinking into a tiny 3 kilometre black ball",
+    "file": "assets/icons/small-sphere.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "galaxy-spiral": {
+    "kind": "vector",
+    "query": "a spiral galaxy full of stars seen from above",
+    "file": "assets/icons/galaxy-spiral.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "companion-star": {
+    "kind": "vector",
+    "query": "a black hole pulling a stream of gas off a nearby companion star",
+    "file": "assets/icons/companion-star.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "falling-person": {
+    "kind": "vector",
+    "query": "a person falling feet first into a black hole",
+    "file": "assets/icons/falling-person.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "spaghetti-stretch": {
+    "kind": "vector",
+    "query": "a person stretched thin like a long spaghetti noodle by gravity",
+    "file": "assets/icons/spaghetti-stretch.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "clock-slow": {
+    "kind": "vector",
+    "query": "a melting clock with time slowing down",
+    "file": "assets/icons/clock-slow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "two-clocks": {
+    "kind": "vector",
+    "query": "two clocks showing two different times side by side",
+    "file": "assets/icons/two-clocks.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "frozen-edge": {
+    "kind": "vector",
+    "query": "a figure frozen still at the edge of a black hole",
+    "file": "assets/icons/frozen-edge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "scale-middle": {
+    "kind": "vector",
+    "query": "a balance scale perfectly in the middle, medium size",
+    "file": "assets/icons/scale-middle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "missing-link": {
+    "kind": "vector",
+    "query": "a broken chain with one missing link piece",
+    "file": "assets/icons/missing-link.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "magnifier-search": {
+    "kind": "vector",
+    "query": "a magnifying glass searching, hard to find",
+    "file": "assets/icons/magnifier-search.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "crown-king": {
+    "kind": "vector",
+    "query": "a golden crown for a king",
+    "file": "assets/icons/crown-king.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "big-numbers": {
+    "kind": "vector",
+    "query": "huge numbers with many zeros, millions and billions",
+    "file": "assets/icons/big-numbers.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "galaxy-center": {
+    "kind": "vector",
+    "query": "a black hole at the bright center of a spiral galaxy",
+    "file": "assets/icons/galaxy-center.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "energy-jet": {
+    "kind": "vector",
+    "query": "a black hole shooting two powerful energy jets out of its poles",
+    "file": "assets/icons/energy-jet.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "telescope-network": {
+    "kind": "vector",
+    "query": "several radio telescope dishes around the globe linked together",
+    "file": "assets/icons/telescope-network.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "orange-ring": {
+    "kind": "vector",
+    "query": "a glowing orange ring of light around a black shadow",
+    "file": "assets/icons/orange-ring.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "big-bang": {
+    "kind": "vector",
+    "query": "the Big Bang, a bright explosion at the birth of the universe",
+    "file": "assets/icons/big-bang.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tiny-atom": {
+    "kind": "vector",
+    "query": "a single tiny atom with orbiting electrons",
+    "file": "assets/icons/tiny-atom.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mountain-atom": {
+    "kind": "vector",
+    "query": "a whole mountain squeezed into the size of an atom",
+    "file": "assets/icons/mountain-atom.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dark-matter": {
+    "kind": "vector",
+    "query": "invisible dark matter holding galaxies together, ghostly web",
+    "file": "assets/icons/dark-matter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ghost": {
+    "kind": "vector",
+    "query": "a friendly translucent ghost, something that maybe does not exist",
+    "file": "assets/icons/ghost.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vacuum-no": {
+    "kind": "vector",
+    "query": "a vacuum cleaner with a big red crossed-out no symbol",
+    "file": "assets/icons/vacuum-no.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "earth-orbit": {
+    "kind": "vector",
+    "query": "planet Earth orbiting calmly around a small black hole",
+    "file": "assets/icons/earth-orbit.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hawking": {
+    "kind": "vector",
+    "query": "a black hole slowly shrinking and evaporating into faint particles",
+    "file": "assets/icons/hawking.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "night-sky": {
+    "kind": "vector",
+    "query": "a person looking up at a starry night sky",
+    "file": "assets/icons/night-sky.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-m87": {
+    "kind": "cutout",
+    "query": "Messier 87",
+    "file": "assets/icons/photo-m87.jpg"
+  },
+  "photo-sagittarius": {
+    "kind": "cutout",
+    "query": "Sagittarius A*",
+    "file": "assets/icons/photo-sagittarius.jpg"
+  },
+  "photo-galaxy": {
+    "kind": "cutout",
+    "query": "Milky Way",
+    "file": "assets/icons/photo-galaxy.jpg"
+  },
+  "photo-supernova": {
+    "kind": "cutout",
+    "query": "Supernova",
+    "file": "assets/icons/photo-supernova.jpg"
+  }
+}

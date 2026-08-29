@@ -1,1 +1,1 @@
-episodes/011-cada-virus-informatico-peligroso-explicado
+episodes/007-cada-tipo-de-agujero-negro-explicado
