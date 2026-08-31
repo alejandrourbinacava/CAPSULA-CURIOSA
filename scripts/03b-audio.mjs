@@ -12,7 +12,18 @@ const POP = "public/voz/pop.wav";
 // Música de fondo POR EPISODIO: si el episodio trae su propia pista (music.mp3/.wav), se usa esa
 //   (p.ej. guerra/suspense); si no, la global public/voz/bg_music.wav. Volumen bajito configurable.
 const epMusic = ["music.mp3", "music.wav"].map(f => path.join(dir, f)).find(f => fs.existsSync(f));
-const MUSIC = epMusic || "public/voz/bg_music.wav";
+// BIBLIOTECA DE MÚSICA: si existe public/music/ con varias pistas, cada episodio coge UNA distinta
+//   de forma ESTABLE (hash del nombre → el mismo vídeo siempre suena igual en re-renders). Así no
+//   todos los vídeos llevan la misma canción. Prioridad: pista del episodio > biblioteca > global.
+const pickLibraryTrack = () => {
+  const md = "public/music"; if (!fs.existsSync(md)) return null;
+  const tracks = fs.readdirSync(md).filter(f => /\.(mp3|wav|m4a|ogg)$/i.test(f)).sort();
+  if (!tracks.length) return null;
+  const name = path.basename(dir); let h = 0; for (const c of name) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+  return path.join(md, tracks[h % tracks.length]);
+};
+const MUSIC = epMusic || pickLibraryTrack() || "public/voz/bg_music.wav";
+console.log(`🎵 música: ${MUSIC}`);
 const MUSIC_DB = process.env.MUSIC_DB || "-23dB";  // "bajita" bajo la voz; súbela/bájala con MUSIC_DB
 if (!fs.existsSync(RAW)) { console.error("Falta " + RAW); process.exit(1); }
 

@@ -33,6 +33,8 @@ const A = {
   t1: [1400, 360], t2: [1400, 490], t3: [1400, 620], t4: [1400, 740], t5: [1400, 300], t5: [1400, 390], t6: [1400, 840], t1b: [1400, 430],
   g1: [400, 420], g2: [800, 420], g3: [1200, 420], g4: [1600, 420], g5: [400, 730], g6: [800, 730], g7: [1200, 730], g8: [1600, 730],
   hero: [960, 540], g11: [250, 380], g12: [250, 610], g13: [250, 840],
+  heroL: [480, 515], heroR: [1150, 515], heroC: [960, 515], herolabel: [480, 815], mark: [1790, 150],
+  htitle: [960, 120], hsub: [960, 210],
   lg1: [400, 560], lg2: [800, 560], lg3: [1200, 560], lg4: [1600, 560], lg5: [400, 880], lg6: [800, 880], lg7: [1200, 880], lg8: [1600, 880],
 };
 const anchorXY = (a) => A[a] || A.center;
@@ -102,6 +104,7 @@ const closeAll = (t, force) => { for (const k in live) { if (!force && live[k]._
 const parseTargets = (s) => [...s.matchAll(/([a-z0-9]+)\s*(?:→|->)\s*([a-z0-9]+)/gi)].map(m => [m[1], m[2]]);
 
 const chapters = []; // HUD de capítulo: {label, icon, t} — icono+texto fijos del sub-tema actual
+const markers = [];  // MARCADOR de sección arriba-derecha: {icon, t} — dibujo del sujeto, persistente en la sección
 const iconLastOut = {}; // src → out del último uso, para no repetir el mismo dibujo a menos de 6s
 
 for (const b of beats) {
@@ -114,6 +117,7 @@ for (const b of beats) {
     if (type === "OUT") { const id = rest.split(/\s+/)[0]; if (live[id]) { live[id].out = t; delete live[id]; } continue; }
     if (type === "CLEAR" || /^CLEAR/i.test(rest)) { closeAll(t, true); continue; }
     if (type === "CHAP") { const q = rest.match(/"([^"]*)"/); const ic = (rest.match(/"[^"]*"\s+([a-z0-9-]+)/) || [])[1]; chapters.push({ label: q ? q[1] : "", icon: ic || null, t: b.t0 }); continue; }
+    if (type === "MARK") { const ic = rest.split(/[\s@]/)[0].trim(); if (ic) markers.push({ icon: ic, t: b.t0 }); continue; }
     // TXT "literal" @anchor entrada size [color]
     if (type === "TXT") {
       const q = rest.match(/"([^"]*)"/); const content = q ? q[1] : rest.split("@")[0].trim();
@@ -129,7 +133,9 @@ for (const b of beats) {
       const bw = Math.min(1760, Math.round(content.length * fs * 0.62) + 40);
       cx = Math.max(bw / 2 + 16, Math.min(W - bw / 2 - 16, cx)); // clamp: el texto nunca se sale del marco
       const keep = /\bKEEP\b/.test(rest);
-      const el = { id: "t" + auto++, type: "text", content, fontSize: fs, box: { cx, cy, w: bw, h: 90 }, color: colK ? (COL[colK] || RED) : STROKE, z: 60, in: +inT.toFixed(2), out: keep ? dur : b.t1, _syncT: usedWord ? wordT : null, _keep: keep, enter: enterOf(ent || "fade"), exit: { kind: "fade-out", duration: 0.25 } };
+      const hold = /\bHOLD\b/.test(rest); // persiste hasta el fin de sección (p.ej. nombre+rol del sujeto)
+      const heroTitle = anc === "htitle" || anc === "hsub"; // nombre/rol del sujeto: rótulo fijo arriba, como el HUD (exento de zona)
+      const el = { id: "t" + auto++, type: "text", content, fontSize: fs, box: { cx, cy, w: bw, h: 90 }, color: colK ? (COL[colK] || RED) : STROKE, z: heroTitle ? 82 : 60, in: +inT.toFixed(2), out: keep ? dur : b.t1, _syncT: heroTitle ? null : (usedWord ? wordT : null), _keep: keep, _hold: hold, structural: heroTitle, hud: heroTitle, enter: enterOf(ent || "fade"), exit: { kind: "fade-out", duration: 0.25 } };
       elements.push(el); live["txt_" + anc + "_" + el.id] = el; liveByAnchor[anc] = el; b._els.push(el); if (sizeK === "stat" || sizeK === "lg") lastBig = el;
       continue;
     }
@@ -140,21 +146,27 @@ for (const b of beats) {
       const src = assetFile(id);
       if (!src) { warns.push(`asset ausente: "${id}" (beat ${b.num})`); continue; }
       const [cx, cy] = anchorXY(anc);
-      const big = anc === "main" || anc === "center" || anc === "hero";
-      const sz = type === "GIF" ? 360 : (big ? 460 : (/^g\d/.test(anc) ? 200 : 300)); // iconos de rejilla más pequeños
+      // TAMAÑO: explícito (hero≈grande / big / mini) o derivado del ancla. hero/big = elemento HERO fijo y grande.
+      const sizeTok = (rest.match(/\b(hero|big|mini)\b/) || [])[1];
+      const anchBig = anc === "main" || anc === "center" || anc === "hero" || anc === "heroC";
+      let sz;
+      if (sizeTok === "hero") sz = 500; else if (sizeTok === "big") sz = 430; else if (sizeTok === "mini") sz = 210;
+      else sz = type === "GIF" ? 360 : (anchBig ? 460 : (/^g\d/.test(anc) ? 200 : 300));
       const keep = /\bKEEP\b/.test(rest);
+      const hold = /\bHOLD\b/.test(rest); // persiste hasta el fin de sección (se resuelve en el bloque de lienzo)
+      const isHero = sizeTok === "hero" || sizeTok === "big"; // pieza hero: grande, posición fija, NO se acumula
       // tipo REAL del asset: si es foto/cutout/captura, se trata como FOTO (marco + sombra); si no, doodle vector
       const akind = assets[id]?.kind || "";
       const isPhotoAsset = /photo|cutout|screenshot|archive/.test(akind);
       const kind = type === "GIF" ? "meme" : (isPhotoAsset ? "cutout" : "vector");
-      const psz = isPhotoAsset ? Math.round(sz * 1.25) : sz; // las fotos algo más grandes
+      const psz = isPhotoAsset ? (sizeTok === "hero" ? 520 : sizeTok === "big" ? 460 : Math.round(sz * 1.25)) : sz; // fotos algo más grandes
       // ~palabra: el icono ENTRA justo cuando se dice esa palabra (sincronía, como el texto). Si no, tiempo del beat.
       const wsync = (rest.match(/~([a-záéíóúñ0-9]+)/i) || [])[1];
       const wt = wsync ? syncWordTime(wsync, b) : null;
       const inT = +(wt != null && wt >= b.t0 - 0.5 && wt <= b.t1 + 1 ? wt : t).toFixed(2);
-      const accum = type === "ICO" && !isPhotoAsset && !keep; // los DOODLES se acumulan en el lienzo hasta el CHAP
-      const el = { id: id + "_" + auto++, type: "image", kind, src, box: { cx, cy, w: psz, h: psz }, z: type === "GIF" ? 55 : (isPhotoAsset ? 25 : 30), in: inT, out: type === "GIF" ? Math.min(b.t1, inT + 3) : (keep ? dur : b.t1), auto: true, _keep: keep, _accum: accum, enter: enterOf(ent || "pop"), exit: { kind: "fade-out", duration: 0.3 } };
-      elements.push(el); live[id] = el; liveByAnchor[anc] = el; b._els.push(el); if (big) lastBig = el;
+      const accum = type === "ICO" && !isPhotoAsset && !keep && !isHero; // doodles peq./mini se ACUMULAN; hero/big van fijos
+      const el = { id: id + "_" + auto++, type: "image", kind, src, box: { cx, cy, w: psz, h: psz }, z: type === "GIF" ? 55 : (isHero ? (isPhotoAsset ? 24 : 26) : (isPhotoAsset ? 25 : 30)), in: inT, out: type === "GIF" ? Math.min(b.t1, inT + 3) : (keep ? dur : b.t1), auto: true, _keep: keep, _accum: accum, _hero: isHero, _hold: hold, enter: enterOf(ent || "pop"), exit: { kind: "fade-out", duration: 0.3 } };
+      elements.push(el); live[id] = el; liveByAnchor[anc] = el; b._els.push(el); if (anchBig || isHero) lastBig = el;
       continue;
     }
     if (type === "ARR") {
@@ -191,7 +203,8 @@ for (const b of beats) {
   closeAll(b.t1); // por defecto, cada beat limpia al terminar (salvo lo ya cerrado)
   // ELEMENTO ÚNICO → centrado y grande (regla del usuario). Si el beat solo tiene un visual, va al centro.
   const visE = b._els.filter(e => e.type === "image" || e.type === "text" || e.type === "shape");
-  if (visE.length === 1) { const e = visE[0]; e.box.cx = 960; e.box.cy = e.type === "text" ? 500 : 500; if (e._target) e._target = null; }
+  const hasHero = b._els.some(e => e._hero); // si el beat trae un HERO, él manda la composición: no auto-centrar
+  if (!hasHero && visE.length === 1) { const e = visE[0]; e.box.cx = 960; e.box.cy = e.type === "text" ? 500 : 500; if (e._target) e._target = null; }
 }
 // FORMAS no sobreviven a su objetivo (nada de tachones/círculos huérfanos)
 for (const e of elements) { if (e.type === "shape" && e.__t) { e.out = Math.min(e.out, e.__t.out); e._target = e.__t.id; delete e.__t; } else if (e.__t) delete e.__t; }
@@ -207,6 +220,15 @@ chapters.forEach((c, i) => {
   if (c.label) { const fs = fitFont(c.label, 42); const w = Math.round(c.label.length * fs * 0.6) + 20; elements.push({ id: "chaplabel" + i, type: "text", content: c.label, fontSize: fs, box: { cx: tx + w / 2, cy: 145, w, h: 64 }, color: STROKE, z: 80, in: inT, out: outT, structural: true, hud: true, enter: { kind: "fade-in", duration: 0.4 }, exit: { kind: "fade-out", duration: 0.3 } }); }
 });
 
+// MARCADOR DE SECCIÓN → dibujo del sujeto FIJO arriba a la derecha, persistente hasta el siguiente MARK.
+//   Estructural (el gate lo ignora, como el HUD). Da continuidad al sub-tema, como en la referencia.
+markers.forEach((mk, i) => {
+  const src = assetFile(mk.icon); if (!src) { warns.push(`MARK icono ausente: "${mk.icon}"`); return; }
+  const inT = +mk.t.toFixed(2), outT = +(i + 1 < markers.length ? markers[i + 1].t : dur).toFixed(2);
+  const [cx, cy] = A.mark;
+  elements.push({ id: "mark" + i, type: "image", kind: "vector", src, box: { cx, cy, w: 150, h: 150 }, z: 80, in: inT, out: outT, structural: true, hud: true, enter: { kind: "pop", duration: 0.4 }, exit: { kind: "fade-out", duration: 0.3 } });
+});
+
 // LIENZO VIVO → los doodles entran Y SALEN (vida ~6s, rodando), y se RECOLOCAN/REESCALAN según cuántos
 //   haya a la vez: 1 = grande centrado; al entrar otro se encoge y se aparta; combinación variada, no rígida.
 {
@@ -214,6 +236,15 @@ chapters.forEach((c, i) => {
   const sectionEnd = (t) => { for (const b of bounds) if (b > t + 0.1) return b; return dur; };
   const LIFE = 6.0;
   for (const e of elements) if (e._accum) e.out = +Math.min(e.in + LIFE, sectionEnd(e.in)).toFixed(2);
+  // HERO con HOLD → persiste hasta el fin de su sección (es el "backdrop" grande del sub-tema)
+  for (const e of elements) if (e._hold) e.out = +sectionEnd(e.in).toFixed(2);
+  // ¿hay una pieza HERO en pantalla en el instante t? Si la hay, los apoyos peq. se van a las columnas laterales.
+  const heroEls = elements.filter(e => e._hero);
+  const heroLiveAt = (t) => heroEls.some(e => e.in <= t + 1e-6 && e.out > t + 1e-6);
+  const heroPhotoAt = (t) => heroEls.some(e => e.kind === "cutout" && e.in <= t + 1e-6 && e.out > t + 1e-6);
+  const RCOL = [[1600, 400, 210], [1600, 630, 220], [1600, 850, 190]]; // columna derecha (siempre libre con hero)
+  const LCOL = [[490, 400, 200], [490, 630, 210], [490, 850, 190]];    // izquierda: solo si el hero va centrado (sin foto); despejada del badge [0,0,340,250]
+  const marginSlot = (i, hasPhoto) => { const seq = hasPhoto ? RCOL : [RCOL[0], LCOL[0], RCOL[1], LCOL[1], RCOL[2], LCOL[2]]; return seq[i % seq.length]; };
   // layout por Nº de iconos vivos (posiciones orgánicas, un poco distintas cada vez → no cuadriculado)
   const jit = (i) => ((i * 53) % 40) - 20; // desплазamiento determinista pequeño
   const slot = (N, i) => { // banda segura: y 280..880 (bajo el título 210, sobre subtítulo 980), x 210..1710
@@ -231,14 +262,21 @@ chapters.forEach((c, i) => {
   for (const t of times) {
     const live = acc.filter(x => x.in <= t + 1e-6 && x.out > t + 1e-6).sort((a, b) => a.in - b.in);
     const N = live.length; if (!N) continue;
-    live.forEach((e, i) => { const [cx, cy, sz] = slot(N, i); const dy = N > 1 ? jit(i) : 0; const f = { t, cx, cy: cy + dy, w: sz, h: sz }; if (!e.frames.length || e.frames[e.frames.length - 1].cx !== cx || e.frames[e.frames.length - 1].w !== sz) e.frames.push(f); });
+    const hero = heroLiveAt(t), hp = heroPhotoAt(t); // con hero → apoyos a los márgenes; sin hero → lienzo central
+    live.forEach((e, i) => {
+      const [cx, cy, sz] = hero ? marginSlot(i, hp) : slot(N, i);
+      const dy = (!hero && N > 1) ? jit(i) : 0;
+      const f = { t, cx, cy: cy + dy, w: sz, h: sz };
+      const p = e.frames[e.frames.length - 1];
+      if (!p || p.cx !== cx || p.w !== sz) e.frames.push(f);
+    });
   }
   for (const e of acc) if (e.frames.length) e.box = { cx: e.frames[0].cx, cy: e.frames[0].cy, w: e.frames[0].w, h: e.frames[0].h };
 }
 
 // TOPE (anti-hold largo) para TEXTOS y FOTOS (no para los doodles acumulativos, que persisten en el lienzo)
 const MAXLIFE = 5.0;
-for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" && !e._keep && !e._accum) e.out = Math.min(e.out, +(e.in + MAXLIFE).toFixed(2));
+for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" && !e._keep && !e._accum && !e._hold && !e._hero) e.out = Math.min(e.out, +(e.in + MAXLIFE).toFixed(2));
 
 // SIN HUECOS (limitado) → un elemento puede alargarse para tapar un microhueco, pero NUNCA más de 3.5s total.
 //   Va ANTES del centrado. Si un beat es tan pobre que deja hueco > tope, lo cazará el gate y hay que densificar.

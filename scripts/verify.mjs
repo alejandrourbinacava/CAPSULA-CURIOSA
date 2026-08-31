@@ -16,7 +16,7 @@ const dur = scenes.meta.duration, STEP = 0.25;
 const frames = [];
 for (let t = 0; t <= dur; t = +(t + STEP).toFixed(2)) {
   const live = scenes.elements.filter(e => e.type !== "watermark" && e.in <= t + 1e-6 && e.out > t + 1e-6 && e.box);
-  frames.push({ t, elements: live.map(e => ({ id: e.id, type: e.type, kind: e.kind, structural: isStructural(e), accum: !!e._accum, bbox: bboxOf(e, t).map(Math.round), layer: e.z ?? 20 })) });
+  frames.push({ t, elements: live.map(e => ({ id: e.id, type: e.type, kind: e.kind, structural: isStructural(e), accum: !!e._accum, hero: !!e._hero, bbox: bboxOf(e, t).map(Math.round), layer: e.z ?? 20 })) });
 }
 const dbgDir = path.join(dir, "debug"); fs.mkdirSync(dbgDir, { recursive: true });
 fs.writeFileSync(path.join(dbgDir, "layout.json"), JSON.stringify({ fps: scenes.meta.fps, frames }, null, 0));
@@ -59,7 +59,7 @@ for (const fr of frames) {
 {
   let run = 0, runStart = 0, runId = "";
   for (const fr of frames) {
-    const solos = fr.elements.filter(e => !e.structural && !e.accum);
+    const solos = fr.elements.filter(e => !e.structural && !e.accum && !e.hero); // los HERO van descentrados a propósito
     const off = solos.length === 1 && Math.abs((solos[0].bbox[0] + solos[0].bbox[2]) / 2 - 960) > 90;
     if (off) { if (run === 0) { runStart = fr.t; runId = solos[0].id; } run += STEP; }
     else { if (run >= 1.75) fails.push({ t: runStart, kind: "solo-descentrado", msg: `único elemento "${runId}" descentrado durante ${run.toFixed(1)}s (debe ir centrado)` }); run = 0; }
@@ -91,7 +91,7 @@ for (const fr of frames) {
 
 // --- comprobaciones a NIVEL ELEMENTO (MATERIAL.md): ninguna imagen > 15s; ningún texto < 34px ---
 for (const e of scenes.elements) {
-  if ((e.type === "image" || e.type === "clip" || e.type === "gif") && e.box && !isStructural(e) && !e._accum && (e.out - e.in) > 15.1)
+  if ((e.type === "image" || e.type === "clip" || e.type === "gif") && e.box && !isStructural(e) && !e._accum && !e._hero && !e._hold && (e.out - e.in) > 15.1)
     fails.push({ t: e.in, kind: "15s", msg: `imagen "${e.id}" ${(e.out - e.in).toFixed(0)}s en pantalla (máx 15s — cámbiala o mete otra)` });
   if (TEXT_TYPES.has(e.type) && e.type !== "stat") { const fs = e.fontSize || FS[e.size] || FS.md; if (fs < 34) fails.push({ t: e.in, kind: "texto-pequeño", msg: `"${e.id}" texto a ${fs}px (mínimo 34px, no se lee en miniatura)` }); }
   // 1) DESBORDAMIENTO: el ancho real del texto no puede exceder su caja/anclaje (no se recorta: falla)
@@ -106,7 +106,7 @@ for (const id of (scenes.meta.declaredMissing || [])) fails.push({ t: 0, kind: "
 // 9) DURACIÓN MÍNIMA: los vídeos deben durar al menos 8 minutos (regla del usuario)
 if (dur < 480) fails.push({ t: 0, kind: "duracion-corta", msg: `el vídeo dura ${(dur / 60).toFixed(1)} min (mínimo 8:00). Alarga el guion con más contenido (no relleno).` });
 // 10) ESTÁTICO: ningún elemento dinámico (no HUD) puede vivir más de 3.5s → tiene que ser dinámico
-for (const e of scenes.elements) { if (e.box && !isStructural(e) && !e.hud && e.type !== "watermark" && (e.out - e.in) > 3.5) fails.push({ t: e.in, kind: "estatico", msg: `"${e.id}" (${(e.content || e.src || "").toString().replace(/.*\//, "").slice(0, 18)}) ${ (e.out - e.in).toFixed(1)}s en pantalla (máx 3s: mete más elementos)` }); }
+for (const e of scenes.elements) { if (e.box && !isStructural(e) && !e.hud && !e._hero && !e._hold && e.type !== "watermark" && (e.out - e.in) > 3.5) fails.push({ t: e.in, kind: "estatico", msg: `"${e.id}" (${(e.content || e.src || "").toString().replace(/.*\//, "").slice(0, 18)}) ${ (e.out - e.in).toFixed(1)}s en pantalla (máx 3s: mete más elementos)` }); }
 // 11) ICONO REPETIDO: el mismo dibujo no puede reaparecer a menos de 6s de haber salido (evita repetir seguido)
 {
   const imgs = scenes.elements.filter(e => e.type === "image" && !e.hud && !isStructural(e) && e.src).sort((a, b) => a.in - b.in);

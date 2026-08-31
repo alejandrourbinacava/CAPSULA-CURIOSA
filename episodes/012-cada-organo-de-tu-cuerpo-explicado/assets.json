@@ -1,0 +1,351 @@
+{
+  "human-body": {
+    "kind": "vector",
+    "query": "a human body silhouette full figure standing, front view",
+    "file": "assets/icons/human-body.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cell-cluster": {
+    "kind": "vector",
+    "query": "a cluster of round human cells grouped together",
+    "file": "assets/icons/cell-cluster.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "organ-map": {
+    "kind": "vector",
+    "query": "a human torso showing several internal organs like a diagram",
+    "file": "assets/icons/organ-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "skin-layer": {
+    "kind": "vector",
+    "query": "a cross section of human skin layers",
+    "file": "assets/icons/skin-layer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sweat-drop": {
+    "kind": "vector",
+    "query": "a drop of sweat with a thermometer, cooling down",
+    "file": "assets/icons/sweat-drop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sun-vitamin": {
+    "kind": "vector",
+    "query": "the sun shining on skin making vitamin D",
+    "file": "assets/icons/sun-vitamin.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dust-skin": {
+    "kind": "vector",
+    "query": "floating dust particles of dead skin flakes",
+    "file": "assets/icons/dust-skin.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "brain": {
+    "kind": "vector",
+    "query": "a human brain seen from the side",
+    "file": "assets/icons/brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "neuron-network": {
+    "kind": "vector",
+    "query": "a network of neurons connected with branches",
+    "file": "assets/icons/neuron-network.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lightbulb-20w": {
+    "kind": "vector",
+    "query": "a glowing light bulb representing low energy use",
+    "file": "assets/icons/lightbulb-20w.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "awake-surgery": {
+    "kind": "vector",
+    "query": "a brain being operated with no pain, a crossed out pain symbol",
+    "file": "assets/icons/awake-surgery.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "heart-beat": {
+    "kind": "vector",
+    "query": "a human heart with a heartbeat pulse line",
+    "file": "assets/icons/heart-beat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "blood-pump": {
+    "kind": "vector",
+    "query": "a heart pumping blood through tubes like a pump",
+    "file": "assets/icons/blood-pump.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "blood-pool": {
+    "kind": "vector",
+    "query": "a small swimming pool filled to show volume of blood",
+    "file": "assets/icons/blood-pool.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "heart-electric": {
+    "kind": "vector",
+    "query": "a heart with its own electric spark, beating on its own",
+    "file": "assets/icons/heart-electric.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lungs": {
+    "kind": "vector",
+    "query": "a pair of human lungs",
+    "file": "assets/icons/lungs.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "alveoli": {
+    "kind": "vector",
+    "query": "tiny air sacs alveoli grape like cluster inside the lung",
+    "file": "assets/icons/alveoli.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tennis-court": {
+    "kind": "vector",
+    "query": "a tennis court seen from above",
+    "file": "assets/icons/tennis-court.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lung-left-small": {
+    "kind": "vector",
+    "query": "two lungs where the left one is smaller to fit the heart",
+    "file": "assets/icons/lung-left-small.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "liver": {
+    "kind": "vector",
+    "query": "a human liver organ",
+    "file": "assets/icons/liver.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "factory-chem": {
+    "kind": "vector",
+    "query": "a chemical factory with many pipes, 500 jobs",
+    "file": "assets/icons/factory-chem.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "liver-regenerate": {
+    "kind": "vector",
+    "query": "a liver growing back regenerating itself with an arrow",
+    "file": "assets/icons/liver-regenerate.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "bile-drop": {
+    "kind": "vector",
+    "query": "a green drop of bile digesting fat",
+    "file": "assets/icons/bile-drop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "kidneys": {
+    "kind": "vector",
+    "query": "a pair of human kidneys",
+    "file": "assets/icons/kidneys.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "blood-filter": {
+    "kind": "vector",
+    "query": "blood passing through a filter getting clean",
+    "file": "assets/icons/blood-filter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "urine-drop": {
+    "kind": "vector",
+    "query": "a yellow drop of urine",
+    "file": "assets/icons/urine-drop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "one-kidney": {
+    "kind": "vector",
+    "query": "a single kidney with a thumbs up, living with just one",
+    "file": "assets/icons/one-kidney.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "bladder-balloon": {
+    "kind": "vector",
+    "query": "a human bladder like a stretchy balloon filling with liquid",
+    "file": "assets/icons/bladder-balloon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "signal-brain": {
+    "kind": "vector",
+    "query": "a signal alert going from the bladder up to the brain",
+    "file": "assets/icons/signal-brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "stomach": {
+    "kind": "vector",
+    "query": "a human stomach organ",
+    "file": "assets/icons/stomach.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "acid-drop": {
+    "kind": "vector",
+    "query": "a dangerous drop of strong acid, corrosive",
+    "file": "assets/icons/acid-drop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "razor-dissolve": {
+    "kind": "vector",
+    "query": "a razor blade being dissolved by acid",
+    "file": "assets/icons/razor-dissolve.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mucosa-shield": {
+    "kind": "vector",
+    "query": "a protective mucus shield lining a stomach",
+    "file": "assets/icons/mucosa-shield.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "small-intestine": {
+    "kind": "vector",
+    "query": "a long coiled small intestine seven metres of tube",
+    "file": "assets/icons/small-intestine.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "nutrient-absorb": {
+    "kind": "vector",
+    "query": "intestine walls absorbing nutrients arrows going in",
+    "file": "assets/icons/nutrient-absorb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "gut-bacteria": {
+    "kind": "vector",
+    "query": "many friendly gut bacteria microbes in the intestine",
+    "file": "assets/icons/gut-bacteria.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "second-brain": {
+    "kind": "vector",
+    "query": "an intestine with a little brain, the second brain",
+    "file": "assets/icons/second-brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pancreas": {
+    "kind": "vector",
+    "query": "a human pancreas organ",
+    "file": "assets/icons/pancreas.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "insulin": {
+    "kind": "vector",
+    "query": "an insulin hormone controlling blood sugar",
+    "file": "assets/icons/insulin.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sugar-blood": {
+    "kind": "vector",
+    "query": "sugar cubes floating in a blood vessel",
+    "file": "assets/icons/sugar-blood.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "spleen": {
+    "kind": "vector",
+    "query": "a human spleen organ",
+    "file": "assets/icons/spleen.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "blood-recycle": {
+    "kind": "vector",
+    "query": "old red blood cells being recycled with a recycle symbol",
+    "file": "assets/icons/blood-recycle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "eye-camera": {
+    "kind": "vector",
+    "query": "a human eye working like a camera lens",
+    "file": "assets/icons/eye-camera.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "optic-nerve": {
+    "kind": "vector",
+    "query": "an eye connected to the brain by the optic nerve",
+    "file": "assets/icons/optic-nerve.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "upside-image": {
+    "kind": "vector",
+    "query": "an eye seeing an upside down flipped image",
+    "file": "assets/icons/upside-image.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "blink-eye": {
+    "kind": "vector",
+    "query": "a blinking eye closing",
+    "file": "assets/icons/blink-eye.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "body-symphony": {
+    "kind": "vector",
+    "query": "a human body glowing with all organs working together in harmony",
+    "file": "assets/icons/body-symphony.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-neurons": {
+    "kind": "cutout",
+    "query": "Neuron",
+    "file": "assets/icons/photo-neurons.png"
+  },
+  "photo-xray-chest": {
+    "kind": "cutout",
+    "query": "Chest radiograph",
+    "file": "assets/icons/photo-xray-chest.jpg"
+  },
+  "photo-red-cells": {
+    "kind": "cutout",
+    "query": "Red blood cell",
+    "file": "assets/icons/photo-red-cells.png"
+  },
+  "photo-cells-micro": {
+    "kind": "cutout",
+    "query": "Cell (biology)",
+    "file": "assets/icons/photo-cells-micro.jpg"
+  }
+}
