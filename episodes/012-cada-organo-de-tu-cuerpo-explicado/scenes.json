@@ -42,13 +42,13 @@
         "h": 500
       },
       "z": 26,
-      "in": 1.84,
-      "out": 35.52,
+      "in": 0,
+      "out": 8.44,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -59,58 +59,16 @@
       },
       "frames": [
         {
-          "t": 1.84,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 2.09,
+          "t": 0,
           "cx": 960,
           "cy": 500,
           "w": 500,
           "h": 500
         },
         {
-          "t": 5.39,
+          "t": 5.3,
           "cx": 960,
           "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 8.59,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 14.39,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 17.34,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 20.14,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 25.84,
-          "cx": 960,
-          "cy": 500,
           "w": 500,
           "h": 500
         }
@@ -209,18 +167,18 @@
       "kind": "vector",
       "src": "assets/icons/heart-beat.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 8.52,
-      "out": 14.52,
+      "z": 26,
+      "in": 8.44,
+      "out": 17.24,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -232,11 +190,18 @@
       },
       "frames": [
         {
-          "t": 8.52,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 8.44,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 14.24,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
@@ -246,10 +211,10 @@
       "kind": "vector",
       "src": "assets/icons/lungs.png",
       "box": {
-        "cx": 490,
+        "cx": 1600,
         "cy": 400,
-        "w": 200,
-        "h": 200
+        "w": 210,
+        "h": 210
       },
       "z": 30,
       "in": 9.84,
@@ -270,13 +235,6 @@
       "frames": [
         {
           "t": 9.84,
-          "cx": 490,
-          "cy": 400,
-          "w": 200,
-          "h": 200
-        },
-        {
-          "t": 14.52,
           "cx": 1600,
           "cy": 400,
           "w": 210,
@@ -290,10 +248,10 @@
       "kind": "vector",
       "src": "assets/icons/liver.png",
       "box": {
-        "cx": 1600,
-        "cy": 630,
-        "w": 220,
-        "h": 220
+        "cx": 490,
+        "cy": 400,
+        "w": 200,
+        "h": 200
       },
       "z": 30,
       "in": 11.48,
@@ -314,13 +272,6 @@
       "frames": [
         {
           "t": 11.48,
-          "cx": 1600,
-          "cy": 630,
-          "w": 220,
-          "h": 220
-        },
-        {
-          "t": 14.52,
           "cx": 490,
           "cy": 400,
           "w": 200,
@@ -341,10 +292,10 @@
       "kind": "vector",
       "src": "assets/icons/brain.png",
       "box": {
-        "cx": 490,
+        "cx": 1600,
         "cy": 630,
-        "w": 210,
-        "h": 210
+        "w": 220,
+        "h": 220
       },
       "z": 30,
       "in": 13.14,
@@ -365,13 +316,6 @@
       "frames": [
         {
           "t": 13.14,
-          "cx": 490,
-          "cy": 630,
-          "w": 210,
-          "h": 210
-        },
-        {
-          "t": 14.52,
           "cx": 1600,
           "cy": 630,
           "w": 220,
@@ -428,18 +372,18 @@
       "kind": "vector",
       "src": "assets/icons/organ-map.png",
       "box": {
-        "cx": 490,
-        "cy": 400,
-        "w": 200,
-        "h": 200
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 18.28,
-      "out": 24.28,
+      "z": 26,
+      "in": 17.24,
+      "out": 29.24,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -451,18 +395,25 @@
       },
       "frames": [
         {
-          "t": 18.28,
-          "cx": 490,
-          "cy": 400,
-          "w": 200,
-          "h": 200
+          "t": 17.24,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         },
         {
-          "t": 19.14,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 21.04,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 26.74,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         }
       ]
     },
@@ -472,10 +423,10 @@
       "kind": "vector",
       "src": "assets/icons/cell-cluster.png",
       "box": {
-        "cx": 490,
+        "cx": 1600,
         "cy": 400,
-        "w": 200,
-        "h": 200
+        "w": 210,
+        "h": 210
       },
       "z": 30,
       "in": 21.92,
@@ -496,13 +447,6 @@
       "frames": [
         {
           "t": 21.92,
-          "cx": 490,
-          "cy": 400,
-          "w": 200,
-          "h": 200
-        },
-        {
-          "t": 24.28,
           "cx": 1600,
           "cy": 400,
           "w": 210,
@@ -523,8 +467,8 @@
       },
       "color": "#111111",
       "z": 60,
-      "in": 20.64,
-      "out": 25.64,
+      "in": 21.64,
+      "out": 26.64,
       "_syncT": null,
       "_keep": false,
       "_hold": false,
@@ -551,13 +495,13 @@
         "h": 500
       },
       "z": 26,
-      "in": 39.74,
-      "out": 78.62,
+      "in": 35.52,
+      "out": 47.52,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -568,63 +512,21 @@
       },
       "frames": [
         {
-          "t": 39.74,
+          "t": 35.52,
           "cx": 960,
           "cy": 515,
           "w": 500,
           "h": 500
         },
         {
-          "t": 39.99,
+          "t": 35.77,
           "cx": 960,
           "cy": 500,
           "w": 500,
           "h": 500
         },
         {
-          "t": 46.04,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 51.49,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 57.29,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 62.99,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 69.79,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 75.49,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 76.54,
+          "t": 46.07,
           "cx": 960,
           "cy": 515,
           "w": 500,
@@ -725,18 +627,18 @@
       "kind": "vector",
       "src": "assets/icons/sweat-drop.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 57.12,
-      "out": 63.12,
+      "z": 26,
+      "in": 51.48,
+      "out": 63.48,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -748,11 +650,25 @@
       },
       "frames": [
         {
-          "t": 57.12,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 51.48,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 51.73,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 57.28,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
@@ -762,10 +678,10 @@
       "kind": "vector",
       "src": "assets/icons/sun-vitamin.png",
       "box": {
-        "cx": 490,
+        "cx": 1600,
         "cy": 400,
-        "w": 200,
-        "h": 200
+        "w": 210,
+        "h": 210
       },
       "z": 30,
       "in": 59.12,
@@ -786,13 +702,6 @@
       "frames": [
         {
           "t": 59.12,
-          "cx": 490,
-          "cy": 400,
-          "w": 200,
-          "h": 200
-        },
-        {
-          "t": 63.12,
           "cx": 1600,
           "cy": 400,
           "w": 210,
@@ -835,18 +744,18 @@
       "kind": "vector",
       "src": "assets/icons/dust-skin.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 69.18,
-      "out": 75.18,
+      "z": 26,
+      "in": 66.68,
+      "out": 75.48,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -858,11 +767,25 @@
       },
       "frames": [
         {
-          "t": 69.18,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 66.68,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 66.93,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 69.73,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
@@ -901,18 +824,18 @@
       "kind": "vector",
       "src": "assets/icons/dust-skin.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 76.74,
+      "z": 26,
+      "in": 75.48,
       "out": 78.62,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -924,11 +847,18 @@
       },
       "frames": [
         {
-          "t": 76.74,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 75.48,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 76.53,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
@@ -946,7 +876,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 77.08,
-      "out": 81.12,
+      "out": 78.62,
       "_syncT": null,
       "_keep": false,
       "_hold": false,
@@ -973,13 +903,13 @@
         "h": 500
       },
       "z": 26,
-      "in": 81.54,
-      "out": 129.68,
+      "in": 78.62,
+      "out": 82.5,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -987,7 +917,23 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 78.62,
+          "cx": 480,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 79.98,
+          "cx": 480,
+          "cy": 535,
+          "w": 485,
+          "h": 485
+        }
+      ]
     },
     {
       "id": "photo-neurons_24",
@@ -1001,13 +947,13 @@
         "h": 520
       },
       "z": 24,
-      "in": 81.54,
-      "out": 129.68,
+      "in": 78.62,
+      "out": 82.5,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1015,7 +961,23 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 78.62,
+          "cx": 1150,
+          "cy": 515,
+          "w": 520,
+          "h": 520
+        },
+        {
+          "t": 79.98,
+          "cx": 1150,
+          "cy": 535,
+          "w": 504,
+          "h": 504
+        }
+      ]
     },
     {
       "id": "t25",
@@ -1105,13 +1067,57 @@
       }
     },
     {
-      "id": "t28",
+      "id": "brain_28",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/brain.png",
+      "box": {
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
+      },
+      "z": 26,
+      "in": 82.5,
+      "out": 90.46,
+      "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 82.5,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 84.55,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        }
+      ]
+    },
+    {
+      "id": "t29",
       "type": "text",
       "content": "2% del peso, 20% de la energía",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 830,
         "w": 672,
         "h": 90
       },
@@ -1134,23 +1140,23 @@
       }
     },
     {
-      "id": "neuron-network_29",
+      "id": "neuron-network_30",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/neuron-network.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 92.84,
-      "out": 98.84,
+      "z": 26,
+      "in": 90.46,
+      "out": 102.04,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -1162,16 +1168,30 @@
       },
       "frames": [
         {
-          "t": 92.84,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 90.46,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 93.76,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 99.46,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t30",
+      "id": "t31",
       "type": "text",
       "content": "86.000 millones de neuronas",
       "fontSize": 34,
@@ -1183,8 +1203,8 @@
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 94.26,
-      "out": 99.26,
+      "in": 94.46,
+      "out": 99.46,
       "_syncT": null,
       "_keep": false,
       "_hold": false,
@@ -1200,23 +1220,23 @@
       }
     },
     {
-      "id": "awake-surgery_31",
+      "id": "awake-surgery_32",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/awake-surgery.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 103.2,
-      "out": 109.2,
+      "z": 26,
+      "in": 102.04,
+      "out": 112.24,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -1228,16 +1248,30 @@
       },
       "frames": [
         {
-          "t": 103.2,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 102.04,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 104.84,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 110.54,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t32",
+      "id": "t33",
       "type": "text",
       "content": "no siente dolor",
       "fontSize": 34,
@@ -1266,23 +1300,23 @@
       }
     },
     {
-      "id": "lightbulb-20w_33",
+      "id": "lightbulb-20w_34",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/lightbulb-20w.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 114.1,
-      "out": 120.1,
+      "z": 26,
+      "in": 112.24,
+      "out": 119.72,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -1294,16 +1328,23 @@
       },
       "frames": [
         {
-          "t": 114.1,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 112.24,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 117.99,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t34",
+      "id": "t35",
       "type": "text",
       "content": "funciona con 20 vatios",
       "fontSize": 34,
@@ -1332,23 +1373,23 @@
       }
     },
     {
-      "id": "neuron-network_35",
+      "id": "neuron-network_36",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/neuron-network.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 120.9,
-      "out": 126.9,
+      "z": 26,
+      "in": 119.72,
+      "out": 129.68,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -1360,16 +1401,23 @@
       },
       "frames": [
         {
-          "t": 120.9,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 119.72,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 125.22,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t36",
+      "id": "t37",
       "type": "text",
       "content": "guarda todos tus recuerdos",
       "fontSize": 34,
@@ -1398,7 +1446,7 @@
       }
     },
     {
-      "id": "heart-beat_37",
+      "id": "heart-beat_38",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/heart-beat.png",
@@ -1409,13 +1457,13 @@
         "h": 500
       },
       "z": 26,
-      "in": 133.38,
-      "out": 170.28,
+      "in": 129.68,
+      "out": 135.42,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1426,51 +1474,23 @@
       },
       "frames": [
         {
-          "t": 133.38,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 140.63,
+          "t": 129.68,
           "cx": 960,
           "cy": 500,
           "w": 500,
           "h": 500
         },
         {
-          "t": 144.93,
+          "t": 133.23,
           "cx": 960,
           "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 150.63,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 158.18,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 163.88,
-          "cx": 960,
-          "cy": 500,
           "w": 500,
           "h": 500
         }
       ]
     },
     {
-      "id": "t38",
+      "id": "t39",
       "type": "text",
       "content": "El corazón",
       "fontSize": 60,
@@ -1499,7 +1519,7 @@
       }
     },
     {
-      "id": "t39",
+      "id": "t40",
       "type": "text",
       "content": "el músculo más incansable",
       "fontSize": 46,
@@ -1528,7 +1548,7 @@
       }
     },
     {
-      "id": "t40",
+      "id": "t41",
       "type": "text",
       "content": "no para nunca",
       "fontSize": 34,
@@ -1557,20 +1577,64 @@
       }
     },
     {
-      "id": "t41",
+      "id": "heart-beat_42",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/heart-beat.png",
+      "box": {
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
+      },
+      "z": 26,
+      "in": 135.42,
+      "out": 142.5,
+      "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 135.42,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 137.72,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        }
+      ]
+    },
+    {
+      "id": "t43",
       "type": "text",
       "content": "100.000 latidos al día",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 830,
         "w": 504,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 135.42,
-      "out": 140.42,
+      "in": 138.42,
+      "out": 142.5,
       "_syncT": null,
       "_keep": false,
       "_hold": false,
@@ -1586,23 +1650,23 @@
       }
     },
     {
-      "id": "blood-pool_42",
+      "id": "blood-pool_44",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/blood-pool.png",
       "box": {
-        "cx": 490,
-        "cy": 400,
-        "w": 200,
-        "h": 200
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 146.72,
-      "out": 152.72,
+      "z": 26,
+      "in": 142.5,
+      "out": 154.16,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -1614,23 +1678,30 @@
       },
       "frames": [
         {
-          "t": 146.72,
-          "cx": 490,
-          "cy": 400,
-          "w": 200,
-          "h": 200
+          "t": 142.5,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         },
         {
-          "t": 148.96,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 145.05,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 150.75,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "blood-pump_43",
+      "id": "blood-pump_45",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/blood-pump.png",
@@ -1667,7 +1738,7 @@
       ]
     },
     {
-      "id": "t44",
+      "id": "t46",
       "type": "text",
       "content": "7.000 litros al día",
       "fontSize": 34,
@@ -1679,8 +1750,8 @@
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 145.5,
-      "out": 150.5,
+      "in": 145.7,
+      "out": 150.7,
       "_syncT": null,
       "_keep": false,
       "_hold": false,
@@ -1696,23 +1767,23 @@
       }
     },
     {
-      "id": "heart-electric_45",
+      "id": "heart-electric_47",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/heart-electric.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 158.7,
-      "out": 164.7,
+      "z": 26,
+      "in": 154.16,
+      "out": 166.16,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -1724,16 +1795,30 @@
       },
       "frames": [
         {
-          "t": 158.7,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 154.16,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 158.46,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 164.16,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t46",
+      "id": "t48",
       "type": "text",
       "content": "2.500 millones de latidos",
       "fontSize": 34,
@@ -1745,8 +1830,8 @@
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 158.76,
-      "out": 163.76,
+      "in": 159.16,
+      "out": 164.16,
       "_syncT": null,
       "_keep": false,
       "_hold": false,
@@ -1762,7 +1847,7 @@
       }
     },
     {
-      "id": "lungs_47",
+      "id": "lungs_49",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/lungs.png",
@@ -1773,13 +1858,13 @@
         "h": 500
       },
       "z": 26,
-      "in": 173.2,
-      "out": 203.76,
+      "in": 170.28,
+      "out": 178.86,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1787,10 +1872,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 170.28,
+          "cx": 480,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 172.48,
+          "cx": 480,
+          "cy": 535,
+          "w": 485,
+          "h": 485
+        },
+        {
+          "t": 175.08,
+          "cx": 480,
+          "cy": 519,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 177.68,
+          "cx": 480,
+          "cy": 539,
+          "w": 480,
+          "h": 480
+        }
+      ]
     },
     {
-      "id": "photo-xray-chest_48",
+      "id": "photo-xray-chest_50",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-xray-chest.jpg",
@@ -1801,13 +1916,13 @@
         "h": 520
       },
       "z": 24,
-      "in": 173.2,
-      "out": 203.76,
+      "in": 170.28,
+      "out": 178.86,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -1815,10 +1930,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 170.28,
+          "cx": 1150,
+          "cy": 515,
+          "w": 520,
+          "h": 520
+        },
+        {
+          "t": 172.48,
+          "cx": 1150,
+          "cy": 535,
+          "w": 504,
+          "h": 504
+        },
+        {
+          "t": 175.08,
+          "cx": 1150,
+          "cy": 519,
+          "w": 520,
+          "h": 520
+        },
+        {
+          "t": 177.68,
+          "cx": 1150,
+          "cy": 539,
+          "w": 499,
+          "h": 499
+        }
+      ]
     },
     {
-      "id": "t49",
+      "id": "t51",
       "type": "text",
       "content": "Los pulmones",
       "fontSize": 60,
@@ -1847,7 +1992,7 @@
       }
     },
     {
-      "id": "t50",
+      "id": "t52",
       "type": "text",
       "content": "20.000 respiraciones al día",
       "fontSize": 46,
@@ -1876,7 +2021,7 @@
       }
     },
     {
-      "id": "t51",
+      "id": "t53",
       "type": "text",
       "content": "un laberinto increíble",
       "fontSize": 34,
@@ -1905,23 +2050,23 @@
       }
     },
     {
-      "id": "alveoli_52",
+      "id": "alveoli_54",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/alveoli.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 182.4,
-      "out": 188.4,
+      "z": 26,
+      "in": 178.86,
+      "out": 190.86,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -1933,24 +2078,31 @@
       },
       "frames": [
         {
-          "t": 182.4,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 178.86,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 186.66,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "tennis-court_53",
+      "id": "tennis-court_55",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tennis-court.png",
       "box": {
         "cx": 1600,
-        "cy": 630,
-        "w": 220,
-        "h": 220
+        "cy": 400,
+        "w": 210,
+        "h": 210
       },
       "z": 30,
       "in": 187.92,
@@ -1972,13 +2124,6 @@
         {
           "t": 187.92,
           "cx": 1600,
-          "cy": 630,
-          "w": 220,
-          "h": 220
-        },
-        {
-          "t": 188.4,
-          "cx": 1600,
           "cy": 400,
           "w": 210,
           "h": 210
@@ -1986,7 +2131,7 @@
       ]
     },
     {
-      "id": "t54",
+      "id": "t56",
       "type": "text",
       "content": "una pista de tenis plegada",
       "fontSize": 34,
@@ -2012,26 +2157,42 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 187.28,
+          "cx": 960,
+          "cy": 830,
+          "w": 588,
+          "h": 90
+        },
+        {
+          "t": 191.03,
+          "cx": 960,
+          "cy": 500,
+          "w": 588,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "lung-left-small_55",
+      "id": "lung-left-small_57",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/lung-left-small.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 199.66,
-      "out": 204.66,
+      "z": 26,
+      "in": 197.2,
+      "out": 203.76,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -2043,16 +2204,30 @@
       },
       "frames": [
         {
-          "t": 199.66,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 197.2,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 197.45,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 199,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t56",
+      "id": "t58",
       "type": "text",
       "content": "el izquierdo, más pequeño",
       "fontSize": 34,
@@ -2081,7 +2256,7 @@
       }
     },
     {
-      "id": "liver_57",
+      "id": "liver_59",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/liver.png",
@@ -2092,13 +2267,13 @@
         "h": 500
       },
       "z": 26,
-      "in": 207.76,
-      "out": 238.48,
+      "in": 203.76,
+      "out": 212.56,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2109,65 +2284,23 @@
       },
       "frames": [
         {
-          "t": 207.76,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 212.76,
+          "t": 203.76,
           "cx": 960,
           "cy": 500,
           "w": 500,
           "h": 500
         },
         {
-          "t": 216.31,
+          "t": 207.06,
           "cx": 960,
           "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 222.01,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 224.31,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 230.01,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 231.06,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 236.76,
-          "cx": 960,
-          "cy": 500,
           "w": 500,
           "h": 500
         }
       ]
     },
     {
-      "id": "t58",
+      "id": "t60",
       "type": "text",
       "content": "El hígado",
       "fontSize": 60,
@@ -2196,7 +2329,7 @@
       }
     },
     {
-      "id": "t59",
+      "id": "t61",
       "type": "text",
       "content": "la fábrica química",
       "fontSize": 46,
@@ -2225,7 +2358,7 @@
       }
     },
     {
-      "id": "t60",
+      "id": "t62",
       "type": "text",
       "content": "el órgano interno más grande",
       "fontSize": 34,
@@ -2254,23 +2387,23 @@
       }
     },
     {
-      "id": "factory-chem_61",
+      "id": "factory-chem_63",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/factory-chem.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 213.44,
-      "out": 219.44,
+      "z": 26,
+      "in": 212.56,
+      "out": 222.56,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -2282,24 +2415,31 @@
       },
       "frames": [
         {
-          "t": 213.44,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 212.56,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 216.36,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "bile-drop_62",
+      "id": "bile-drop_64",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/bile-drop.png",
       "box": {
-        "cx": 490,
+        "cx": 1600,
         "cy": 400,
-        "w": 200,
-        "h": 200
+        "w": 210,
+        "h": 210
       },
       "z": 30,
       "in": 218.4,
@@ -2320,13 +2460,6 @@
       "frames": [
         {
           "t": 218.4,
-          "cx": 490,
-          "cy": 400,
-          "w": 200,
-          "h": 200
-        },
-        {
-          "t": 219.44,
           "cx": 1600,
           "cy": 400,
           "w": 210,
@@ -2335,7 +2468,7 @@
       ]
     },
     {
-      "id": "t63",
+      "id": "t65",
       "type": "text",
       "content": "+500 funciones",
       "fontSize": 34,
@@ -2364,23 +2497,23 @@
       }
     },
     {
-      "id": "liver-regenerate_64",
+      "id": "liver-regenerate_66",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/liver-regenerate.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 225.02,
-      "out": 231.02,
+      "z": 26,
+      "in": 222.56,
+      "out": 231.36,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -2392,16 +2525,30 @@
       },
       "frames": [
         {
-          "t": 225.02,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 222.56,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 224.11,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 229.81,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t65",
+      "id": "t67",
       "type": "text",
       "content": "se REGENERA solo",
       "fontSize": 34,
@@ -2430,23 +2577,23 @@
       }
     },
     {
-      "id": "liver-regenerate_66",
+      "id": "liver-regenerate_68",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/liver-regenerate.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 231.72,
-      "out": 237.72,
+      "z": 26,
+      "in": 231.36,
+      "out": 238.48,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -2458,16 +2605,23 @@
       },
       "frames": [
         {
-          "t": 231.72,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 231.36,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 236.61,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t67",
+      "id": "t69",
       "type": "text",
       "content": "el único que puede",
       "fontSize": 34,
@@ -2496,7 +2650,7 @@
       }
     },
     {
-      "id": "kidneys_68",
+      "id": "kidneys_70",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/kidneys.png",
@@ -2507,13 +2661,13 @@
         "h": 500
       },
       "z": 26,
-      "in": 240.18,
-      "out": 269.92,
+      "in": 238.48,
+      "out": 246.74,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2524,30 +2678,37 @@
       },
       "frames": [
         {
-          "t": 240.18,
+          "t": 238.48,
           "cx": 480,
           "cy": 515,
           "w": 500,
           "h": 500
         },
         {
-          "t": 240.43,
-          "cx": 960,
-          "cy": 500,
+          "t": 240.68,
+          "cx": 480,
+          "cy": 535,
+          "w": 485,
+          "h": 485
+        },
+        {
+          "t": 243.28,
+          "cx": 480,
+          "cy": 519,
           "w": 500,
           "h": 500
         },
         {
-          "t": 241.48,
+          "t": 245.88,
           "cx": 480,
-          "cy": 515,
-          "w": 500,
-          "h": 500
+          "cy": 539,
+          "w": 480,
+          "h": 480
         }
       ]
     },
     {
-      "id": "photo-red-cells_69",
+      "id": "photo-red-cells_71",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-red-cells.png",
@@ -2558,13 +2719,13 @@
         "h": 520
       },
       "z": 24,
-      "in": 245.84,
-      "out": 269.92,
+      "in": 238.48,
+      "out": 246.74,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2572,10 +2733,40 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 238.48,
+          "cx": 1150,
+          "cy": 515,
+          "w": 520,
+          "h": 520
+        },
+        {
+          "t": 240.68,
+          "cx": 1150,
+          "cy": 535,
+          "w": 504,
+          "h": 504
+        },
+        {
+          "t": 243.28,
+          "cx": 1150,
+          "cy": 519,
+          "w": 520,
+          "h": 520
+        },
+        {
+          "t": 245.88,
+          "cx": 1150,
+          "cy": 539,
+          "w": 499,
+          "h": 499
+        }
+      ]
     },
     {
-      "id": "t70",
+      "id": "t72",
       "type": "text",
       "content": "Los riñones",
       "fontSize": 60,
@@ -2604,7 +2795,7 @@
       }
     },
     {
-      "id": "t71",
+      "id": "t73",
       "type": "text",
       "content": "los limpiadores de tu sangre",
       "fontSize": 46,
@@ -2633,7 +2824,7 @@
       }
     },
     {
-      "id": "t72",
+      "id": "t74",
       "type": "text",
       "content": "del tamaño de un puño",
       "fontSize": 34,
@@ -2662,23 +2853,23 @@
       }
     },
     {
-      "id": "blood-filter_73",
+      "id": "blood-filter_75",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/blood-filter.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 247.52,
-      "out": 253.52,
+      "z": 26,
+      "in": 246.74,
+      "out": 258.74,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -2690,16 +2881,30 @@
       },
       "frames": [
         {
-          "t": 247.52,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 246.74,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 249.54,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 255.24,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t74",
+      "id": "t76",
       "type": "text",
       "content": "180 litros filtrados al día",
       "fontSize": 34,
@@ -2728,23 +2933,23 @@
       }
     },
     {
-      "id": "urine-drop_75",
+      "id": "urine-drop_77",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/urine-drop.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 264.66,
+      "z": 26,
+      "in": 260.94,
       "out": 269.92,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -2756,28 +2961,42 @@
       },
       "frames": [
         {
-          "t": 264.66,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 260.94,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 261.19,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 266.74,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "one-kidney_76",
+      "id": "one-kidney_78",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/one-kidney.png",
       "box": {
         "cx": 1600,
-        "cy": 630,
-        "w": 220,
-        "h": 220
+        "cy": 400,
+        "w": 210,
+        "h": 210
       },
       "z": 30,
       "in": 269.02,
-      "out": 274.02,
+      "out": 269.92,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2795,14 +3014,14 @@
         {
           "t": 269.02,
           "cx": 1600,
-          "cy": 630,
-          "w": 220,
-          "h": 220
+          "cy": 400,
+          "w": 210,
+          "h": 210
         }
       ]
     },
     {
-      "id": "t77",
+      "id": "t79",
       "type": "text",
       "content": "puedes vivir con uno solo",
       "fontSize": 34,
@@ -2831,7 +3050,7 @@
       }
     },
     {
-      "id": "bladder-balloon_78",
+      "id": "bladder-balloon_80",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/bladder-balloon.png",
@@ -2842,13 +3061,13 @@
         "h": 500
       },
       "z": 26,
-      "in": 274.62,
-      "out": 292.52,
+      "in": 269.92,
+      "out": 281.66,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -2859,51 +3078,23 @@
       },
       "frames": [
         {
-          "t": 274.62,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 274.87,
+          "t": 269.92,
           "cx": 960,
           "cy": 500,
           "w": 500,
           "h": 500
         },
         {
-          "t": 279.17,
+          "t": 279.22,
           "cx": 960,
           "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 281.87,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 285.92,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 291.62,
-          "cx": 960,
-          "cy": 500,
           "w": 500,
           "h": 500
         }
       ]
     },
     {
-      "id": "t79",
+      "id": "t81",
       "type": "text",
       "content": "La vejiga",
       "fontSize": 60,
@@ -2932,7 +3123,7 @@
       }
     },
     {
-      "id": "t80",
+      "id": "t82",
       "type": "text",
       "content": "una bolsa elástica",
       "fontSize": 46,
@@ -2961,7 +3152,7 @@
       }
     },
     {
-      "id": "t81",
+      "id": "t83",
       "type": "text",
       "content": "hasta medio litro",
       "fontSize": 34,
@@ -2990,23 +3181,23 @@
       }
     },
     {
-      "id": "signal-brain_82",
+      "id": "signal-brain_84",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/signal-brain.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 284.38,
-      "out": 290.38,
+      "z": 26,
+      "in": 281.66,
+      "out": 292.52,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -3018,16 +3209,30 @@
       },
       "frames": [
         {
-          "t": 284.38,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 281.66,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 285.96,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 291.66,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t83",
+      "id": "t85",
       "type": "text",
       "content": "un aviso al cerebro",
       "fontSize": 34,
@@ -3056,24 +3261,24 @@
       }
     },
     {
-      "id": "stomach_84",
+      "id": "stomach_86",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/stomach.png",
       "box": {
         "cx": 960,
-        "cy": 515,
+        "cy": 500,
         "w": 500,
         "h": 500
       },
       "z": 26,
-      "in": 296.14,
-      "out": 314.08,
+      "in": 292.52,
+      "out": 299.1,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3084,51 +3289,30 @@
       },
       "frames": [
         {
-          "t": 296.14,
+          "t": 292.52,
           "cx": 960,
           "cy": 515,
           "w": 500,
           "h": 500
         },
         {
-          "t": 296.39,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
+          "t": 294.72,
+          "cx": 915,
+          "cy": 460,
+          "w": 410,
+          "h": 410
         },
         {
-          "t": 301.19,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 304.64,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 307.44,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 313.14,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
+          "t": 297.32,
+          "cx": 1000,
+          "cy": 480,
+          "w": 400,
+          "h": 400
         }
       ]
     },
     {
-      "id": "t85",
+      "id": "t87",
       "type": "text",
       "content": "El estómago",
       "fontSize": 60,
@@ -3157,7 +3341,7 @@
       }
     },
     {
-      "id": "t86",
+      "id": "t88",
       "type": "text",
       "content": "su arma es el ácido",
       "fontSize": 46,
@@ -3186,7 +3370,7 @@
       }
     },
     {
-      "id": "acid-drop_87",
+      "id": "acid-drop_89",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/acid-drop.png",
@@ -3223,23 +3407,23 @@
       ]
     },
     {
-      "id": "razor-dissolve_88",
+      "id": "razor-dissolve_90",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/razor-dissolve.png",
       "box": {
-        "cx": 490,
-        "cy": 400,
-        "w": 200,
-        "h": 200
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 301.36,
-      "out": 307.36,
+      "z": 26,
+      "in": 299.1,
+      "out": 304.58,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -3251,23 +3435,23 @@
       },
       "frames": [
         {
-          "t": 301.36,
-          "cx": 490,
-          "cy": 400,
-          "w": 200,
-          "h": 200
+          "t": 299.1,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         },
         {
-          "t": 304.28,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 301.4,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t89",
+      "id": "t91",
       "type": "text",
       "content": "disuelve una cuchilla",
       "fontSize": 34,
@@ -3279,7 +3463,7 @@
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 301.7,
+      "in": 301.9,
       "out": 304.58,
       "_syncT": null,
       "_keep": false,
@@ -3296,23 +3480,23 @@
       }
     },
     {
-      "id": "mucosa-shield_90",
+      "id": "mucosa-shield_92",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/mucosa-shield.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 308.68,
+      "z": 26,
+      "in": 304.58,
       "out": 314.08,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -3324,16 +3508,23 @@
       },
       "frames": [
         {
-          "t": 308.68,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 304.58,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 307.63,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t91",
+      "id": "t93",
       "type": "text",
       "content": "una capa que lo protege",
       "fontSize": 34,
@@ -3362,7 +3553,7 @@
       }
     },
     {
-      "id": "small-intestine_92",
+      "id": "small-intestine_94",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/small-intestine.png",
@@ -3373,13 +3564,13 @@
         "h": 500
       },
       "z": 26,
-      "in": 317.72,
-      "out": 349.8,
+      "in": 314.08,
+      "out": 324.94,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3390,49 +3581,14 @@
       },
       "frames": [
         {
-          "t": 317.72,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 317.97,
+          "t": 314.08,
           "cx": 960,
           "cy": 500,
           "w": 500,
           "h": 500
         },
         {
-          "t": 322.52,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 324.97,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 327.27,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 337.72,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 347.77,
+          "t": 322.38,
           "cx": 960,
           "cy": 515,
           "w": 500,
@@ -3441,7 +3597,7 @@
       ]
     },
     {
-      "id": "t93",
+      "id": "t95",
       "type": "text",
       "content": "Los intestinos",
       "fontSize": 60,
@@ -3470,7 +3626,7 @@
       }
     },
     {
-      "id": "t94",
+      "id": "t96",
       "type": "text",
       "content": "7 metros de tubo",
       "fontSize": 46,
@@ -3499,7 +3655,7 @@
       }
     },
     {
-      "id": "t95",
+      "id": "t97",
       "type": "text",
       "content": "plegados en tu barriga",
       "fontSize": 34,
@@ -3528,23 +3684,23 @@
       }
     },
     {
-      "id": "nutrient-absorb_96",
+      "id": "nutrient-absorb_98",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/nutrient-absorb.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 327.36,
-      "out": 333.36,
+      "z": 26,
+      "in": 324.94,
+      "out": 331.92,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -3556,16 +3712,23 @@
       },
       "frames": [
         {
-          "t": 327.36,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 324.94,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 327.24,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t97",
+      "id": "t99",
       "type": "text",
       "content": "aquí se absorbe todo",
       "fontSize": 34,
@@ -3594,23 +3757,23 @@
       }
     },
     {
-      "id": "gut-bacteria_98",
+      "id": "gut-bacteria_100",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/gut-bacteria.png",
       "box": {
-        "cx": 490,
-        "cy": 400,
-        "w": 200,
-        "h": 200
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 333.3,
-      "out": 339.3,
+      "z": 26,
+      "in": 331.92,
+      "out": 341.96,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -3622,23 +3785,23 @@
       },
       "frames": [
         {
-          "t": 333.3,
-          "cx": 490,
-          "cy": 400,
-          "w": 200,
-          "h": 200
+          "t": 331.92,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         },
         {
-          "t": 333.36,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 337.67,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t99",
+      "id": "t101",
       "type": "text",
       "content": "billones de bacterias (2 kg)",
       "fontSize": 34,
@@ -3667,23 +3830,23 @@
       }
     },
     {
-      "id": "second-brain_100",
+      "id": "second-brain_102",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/second-brain.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 348.88,
-      "out": 350.68,
+      "z": 26,
+      "in": 341.96,
+      "out": 349.8,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -3695,16 +3858,23 @@
       },
       "frames": [
         {
-          "t": 348.88,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 341.96,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 347.76,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t101",
+      "id": "t103",
       "type": "text",
       "content": "el segundo cerebro",
       "fontSize": 34,
@@ -3733,7 +3903,7 @@
       }
     },
     {
-      "id": "pancreas_102",
+      "id": "pancreas_104",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/pancreas.png",
@@ -3744,13 +3914,13 @@
         "h": 500
       },
       "z": 26,
-      "in": 353.36,
-      "out": 376.26,
+      "in": 349.8,
+      "out": 356.02,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3761,35 +3931,14 @@
       },
       "frames": [
         {
-          "t": 353.36,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 355.86,
+          "t": 349.8,
           "cx": 960,
           "cy": 500,
           "w": 500,
           "h": 500
         },
         {
-          "t": 356.41,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 362.11,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 373.66,
+          "t": 350.1,
           "cx": 960,
           "cy": 515,
           "w": 500,
@@ -3798,7 +3947,7 @@
       ]
     },
     {
-      "id": "t103",
+      "id": "t105",
       "type": "text",
       "content": "El páncreas",
       "fontSize": 60,
@@ -3827,7 +3976,7 @@
       }
     },
     {
-      "id": "t104",
+      "id": "t106",
       "type": "text",
       "content": "hace dos trabajos",
       "fontSize": 46,
@@ -3856,7 +4005,7 @@
       }
     },
     {
-      "id": "t105",
+      "id": "t107",
       "type": "text",
       "content": "pequeño pero vital",
       "fontSize": 34,
@@ -3885,23 +4034,23 @@
       }
     },
     {
-      "id": "insulin_106",
+      "id": "insulin_108",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/insulin.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 361.2,
-      "out": 367.2,
+      "z": 26,
+      "in": 356.02,
+      "out": 364.78,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -3913,24 +4062,38 @@
       },
       "frames": [
         {
-          "t": 361.2,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 356.02,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 356.32,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 362.02,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "sugar-blood_107",
+      "id": "sugar-blood_109",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/sugar-blood.png",
       "box": {
-        "cx": 490,
+        "cx": 1600,
         "cy": 400,
-        "w": 200,
-        "h": 200
+        "w": 210,
+        "h": 210
       },
       "z": 30,
       "in": 363.28,
@@ -3951,13 +4114,6 @@
       "frames": [
         {
           "t": 363.28,
-          "cx": 490,
-          "cy": 400,
-          "w": 200,
-          "h": 200
-        },
-        {
-          "t": 367.2,
           "cx": 1600,
           "cy": 400,
           "w": 210,
@@ -3966,7 +4122,7 @@
       ]
     },
     {
-      "id": "t108",
+      "id": "t110",
       "type": "text",
       "content": "fabrica la insulina",
       "fontSize": 34,
@@ -3995,23 +4151,23 @@
       }
     },
     {
-      "id": "acid-drop_109",
+      "id": "sugar-blood_111",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/acid-drop.png",
+      "src": "assets/icons/sugar-blood.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 370.48,
+      "z": 26,
+      "in": 364.78,
       "out": 376.26,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -4023,16 +4179,23 @@
       },
       "frames": [
         {
-          "t": 370.48,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 364.78,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 373.58,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t110",
+      "id": "t112",
       "type": "text",
       "content": "puede digerirse a sí mismo",
       "fontSize": 34,
@@ -4045,7 +4208,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 374.16,
-      "out": 378.32,
+      "out": 376.26,
       "_syncT": 374.16,
       "_keep": false,
       "_hold": false,
@@ -4061,7 +4224,7 @@
       }
     },
     {
-      "id": "spleen_111",
+      "id": "spleen_113",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/spleen.png",
@@ -4072,13 +4235,13 @@
         "h": 500
       },
       "z": 26,
-      "in": 378.58,
-      "out": 400.68,
+      "in": 376.26,
+      "out": 383.96,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4089,35 +4252,14 @@
       },
       "frames": [
         {
-          "t": 378.58,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 383.58,
+          "t": 376.26,
           "cx": 960,
           "cy": 500,
           "w": 500,
           "h": 500
         },
         {
-          "t": 386.88,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 392.58,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 395.13,
+          "t": 377.81,
           "cx": 960,
           "cy": 515,
           "w": 500,
@@ -4126,7 +4268,7 @@
       ]
     },
     {
-      "id": "t112",
+      "id": "t114",
       "type": "text",
       "content": "El bazo",
       "fontSize": 60,
@@ -4155,7 +4297,7 @@
       }
     },
     {
-      "id": "t113",
+      "id": "t115",
       "type": "text",
       "content": "el reciclador de tu sangre",
       "fontSize": 46,
@@ -4184,7 +4326,7 @@
       }
     },
     {
-      "id": "t114",
+      "id": "t116",
       "type": "text",
       "content": "el gran olvidado",
       "fontSize": 34,
@@ -4213,23 +4355,23 @@
       }
     },
     {
-      "id": "blood-recycle_115",
+      "id": "blood-recycle_117",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/blood-recycle.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 385.12,
-      "out": 391.12,
+      "z": 26,
+      "in": 383.96,
+      "out": 393.28,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -4241,16 +4383,30 @@
       },
       "frames": [
         {
-          "t": 385.12,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 383.96,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 386.76,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 392.46,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t116",
+      "id": "t118",
       "type": "text",
       "content": "recicla la sangre vieja",
       "fontSize": 34,
@@ -4279,23 +4435,23 @@
       }
     },
     {
-      "id": "blood-recycle_117",
+      "id": "spleen_119",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/blood-recycle.png",
+      "src": "assets/icons/spleen.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 395.96,
-      "out": 400.96,
+      "z": 26,
+      "in": 393.28,
+      "out": 400.68,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -4307,16 +4463,23 @@
       },
       "frames": [
         {
-          "t": 395.96,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 393.28,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 395.08,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t118",
+      "id": "t120",
       "type": "text",
       "content": "puedes vivir sin él",
       "fontSize": 34,
@@ -4345,7 +4508,7 @@
       }
     },
     {
-      "id": "eye-camera_119",
+      "id": "eye-camera_121",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/eye-camera.png",
@@ -4356,13 +4519,13 @@
         "h": 500
       },
       "z": 26,
-      "in": 403.94,
-      "out": 442.08,
+      "in": 400.68,
+      "out": 412.68,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4373,72 +4536,30 @@
       },
       "frames": [
         {
-          "t": 403.94,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 404.19,
+          "t": 400.68,
           "cx": 960,
           "cy": 500,
           "w": 500,
           "h": 500
         },
         {
-          "t": 405.49,
+          "t": 405.48,
           "cx": 960,
           "cy": 515,
           "w": 500,
           "h": 500
         },
         {
-          "t": 411.19,
+          "t": 411.18,
           "cx": 960,
           "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 417.74,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 422.69,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 425.99,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 429.94,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 438.99,
-          "cx": 960,
-          "cy": 515,
           "w": 500,
           "h": 500
         }
       ]
     },
     {
-      "id": "t120",
+      "id": "t122",
       "type": "text",
       "content": "Los ojos",
       "fontSize": 60,
@@ -4467,7 +4588,7 @@
       }
     },
     {
-      "id": "t121",
+      "id": "t123",
       "type": "text",
       "content": "las ventanas de tu cuerpo",
       "fontSize": 46,
@@ -4496,7 +4617,7 @@
       }
     },
     {
-      "id": "t122",
+      "id": "t124",
       "type": "text",
       "content": "una cámara de precisión",
       "fontSize": 34,
@@ -4525,23 +4646,23 @@
       }
     },
     {
-      "id": "optic-nerve_123",
+      "id": "optic-nerve_125",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/optic-nerve.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 416.68,
-      "out": 422.68,
+      "z": 26,
+      "in": 414.12,
+      "out": 422.46,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -4553,24 +4674,38 @@
       },
       "frames": [
         {
-          "t": 416.68,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 414.12,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 414.37,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 417.67,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "upside-image_124",
+      "id": "upside-image_126",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/upside-image.png",
       "box": {
-        "cx": 490,
+        "cx": 1600,
         "cy": 400,
-        "w": 200,
-        "h": 200
+        "w": 210,
+        "h": 210
       },
       "z": 30,
       "in": 420.78,
@@ -4591,13 +4726,6 @@
       "frames": [
         {
           "t": 420.78,
-          "cx": 490,
-          "cy": 400,
-          "w": 200,
-          "h": 200
-        },
-        {
-          "t": 422.68,
           "cx": 1600,
           "cy": 400,
           "w": 210,
@@ -4606,7 +4734,7 @@
       ]
     },
     {
-      "id": "t125",
+      "id": "t127",
       "type": "text",
       "content": "ves el mundo del revés",
       "fontSize": 34,
@@ -4635,23 +4763,23 @@
       }
     },
     {
-      "id": "brain_126",
+      "id": "upside-image_128",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/brain.png",
+      "src": "assets/icons/upside-image.png",
       "box": {
-        "cx": 490,
-        "cy": 400,
-        "w": 200,
-        "h": 200
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 422.76,
-      "out": 428.76,
+      "z": 26,
+      "in": 422.46,
+      "out": 429.7,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -4663,23 +4791,23 @@
       },
       "frames": [
         {
-          "t": 422.76,
-          "cx": 490,
-          "cy": 400,
-          "w": 200,
-          "h": 200
+          "t": 422.46,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         },
         {
-          "t": 426.78,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 425.76,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t127",
+      "id": "t129",
       "type": "text",
       "content": "lo construye tu cabeza",
       "fontSize": 34,
@@ -4708,23 +4836,23 @@
       }
     },
     {
-      "id": "blink-eye_128",
+      "id": "blink-eye_130",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/blink-eye.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 432.24,
-      "out": 438.24,
+      "z": 26,
+      "in": 429.7,
+      "out": 441.7,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -4736,16 +4864,23 @@
       },
       "frames": [
         {
-          "t": 432.24,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 429.7,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 439,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "t129",
+      "id": "t131",
       "type": "text",
       "content": "1 hora al día con los ojos cerrados",
       "fontSize": 34,
@@ -4758,7 +4893,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 439.54,
-      "out": 442.44,
+      "out": 442.08,
       "_syncT": 439.54,
       "_keep": false,
       "_hold": false,
@@ -4774,7 +4909,7 @@
       }
     },
     {
-      "id": "body-symphony_130",
+      "id": "body-symphony_132",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/body-symphony.png",
@@ -4785,13 +4920,13 @@
         "h": 500
       },
       "z": 26,
-      "in": 442.44,
-      "out": 492.32,
+      "in": 442.08,
+      "out": 450.56,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4802,58 +4937,23 @@
       },
       "frames": [
         {
-          "t": 442.44,
+          "t": 442.08,
           "cx": 960,
           "cy": 515,
           "w": 500,
           "h": 500
         },
         {
-          "t": 442.69,
+          "t": 442.33,
           "cx": 960,
           "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 457.49,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 463.19,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 464.74,
-          "cx": 960,
-          "cy": 515,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 470.44,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 481.49,
-          "cx": 960,
-          "cy": 515,
           "w": 500,
           "h": 500
         }
       ]
     },
     {
-      "id": "skin-layer_131",
+      "id": "skin-layer_133",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/skin-layer.png",
@@ -4890,7 +4990,7 @@
       ]
     },
     {
-      "id": "brain_132",
+      "id": "brain_134",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/brain.png",
@@ -4934,7 +5034,7 @@
       ]
     },
     {
-      "id": "heart-beat_133",
+      "id": "heart-beat_135",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/heart-beat.png",
@@ -4985,7 +5085,7 @@
       ]
     },
     {
-      "id": "lungs_134",
+      "id": "lungs_136",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/lungs.png",
@@ -5043,23 +5143,23 @@
       ]
     },
     {
-      "id": "liver_135",
+      "id": "liver_137",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/liver.png",
       "box": {
-        "cx": 490,
-        "cy": 630,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 515,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 450.68,
-      "out": 456.68,
+      "z": 26,
+      "in": 450.56,
+      "out": 462.56,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -5071,45 +5171,31 @@
       },
       "frames": [
         {
-          "t": 450.68,
-          "cx": 490,
-          "cy": 630,
-          "w": 210,
-          "h": 210
+          "t": 450.56,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
         },
         {
-          "t": 451.44,
-          "cx": 1600,
-          "cy": 630,
-          "w": 220,
-          "h": 220
-        },
-        {
-          "t": 453,
-          "cx": 490,
-          "cy": 400,
-          "w": 200,
-          "h": 200
-        },
-        {
-          "t": 454.82,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 457.36,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "kidneys_136",
+      "id": "kidneys_138",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/kidneys.png",
       "box": {
-        "cx": 490,
+        "cx": 1600,
         "cy": 630,
-        "w": 210,
-        "h": 210
+        "w": 220,
+        "h": 220
       },
       "z": 30,
       "in": 452.16,
@@ -5130,27 +5216,20 @@
       "frames": [
         {
           "t": 452.16,
-          "cx": 490,
-          "cy": 630,
-          "w": 210,
-          "h": 210
-        },
-        {
-          "t": 453,
           "cx": 1600,
           "cy": 630,
           "w": 220,
           "h": 220
         },
         {
-          "t": 454.82,
+          "t": 453,
           "cx": 490,
           "cy": 400,
           "w": 200,
           "h": 200
         },
         {
-          "t": 456.68,
+          "t": 454.82,
           "cx": 1600,
           "cy": 400,
           "w": 210,
@@ -5159,15 +5238,15 @@
       ]
     },
     {
-      "id": "stomach_137",
+      "id": "stomach_139",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/stomach.png",
       "box": {
-        "cx": 490,
+        "cx": 1600,
         "cy": 630,
-        "w": 210,
-        "h": 210
+        "w": 220,
+        "h": 220
       },
       "z": 30,
       "in": 454.06,
@@ -5188,20 +5267,13 @@
       "frames": [
         {
           "t": 454.06,
-          "cx": 490,
-          "cy": 630,
-          "w": 210,
-          "h": 210
-        },
-        {
-          "t": 454.82,
           "cx": 1600,
           "cy": 630,
           "w": 220,
           "h": 220
         },
         {
-          "t": 456.68,
+          "t": 454.82,
           "cx": 490,
           "cy": 400,
           "w": 200,
@@ -5217,15 +5289,15 @@
       ]
     },
     {
-      "id": "small-intestine_138",
+      "id": "small-intestine_140",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/small-intestine.png",
       "box": {
-        "cx": 490,
+        "cx": 1600,
         "cy": 630,
-        "w": 210,
-        "h": 210
+        "w": 220,
+        "h": 220
       },
       "z": 30,
       "in": 456.22,
@@ -5246,13 +5318,6 @@
       "frames": [
         {
           "t": 456.22,
-          "cx": 490,
-          "cy": 630,
-          "w": 210,
-          "h": 210
-        },
-        {
-          "t": 456.68,
           "cx": 1600,
           "cy": 630,
           "w": 220,
@@ -5275,7 +5340,7 @@
       ]
     },
     {
-      "id": "t139",
+      "id": "t141",
       "type": "text",
       "content": "todos, en perfecta sincronía",
       "fontSize": 34,
@@ -5304,14 +5369,72 @@
       }
     },
     {
-      "id": "t140",
-      "type": "text",
-      "content": "eres tú: la máquina más asombrosa",
-      "fontSize": 60,
+      "id": "human-body_142",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/human-body.png",
       "box": {
         "cx": 960,
-        "cy": 500,
-        "w": 1268,
+        "cy": 515,
+        "w": 500,
+        "h": 500
+      },
+      "z": 26,
+      "in": 464.1,
+      "out": 476.1,
+      "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 464.1,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 464.35,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 464.65,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 470.35,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        }
+      ]
+    },
+    {
+      "id": "t143",
+      "type": "text",
+      "content": "eres tú: la máquina más asombrosa",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 736,
         "h": 90
       },
       "color": "#EE2B37",
@@ -5333,7 +5456,7 @@
       }
     },
     {
-      "id": "human-body_141",
+      "id": "human-body_144",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/human-body.png",
@@ -5344,13 +5467,13 @@
         "h": 500
       },
       "z": 26,
-      "in": 482.12,
-      "out": 492.32,
+      "in": 481.82,
+      "out": 489.56,
       "auto": true,
       "_keep": false,
       "_accum": false,
       "_hero": true,
-      "_hold": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -5358,39 +5481,33 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 481.82,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 482.07,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 485.12,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        }
+      ]
     },
     {
-      "id": "t142",
-      "type": "text",
-      "content": "sin botón de reinicio",
-      "fontSize": 46,
-      "box": {
-        "cx": 960,
-        "cy": 210,
-        "w": 639,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 82,
-      "in": 482.42,
-      "out": 492.32,
-      "_syncT": null,
-      "_keep": false,
-      "_hold": true,
-      "structural": true,
-      "hud": true,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "t143",
+      "id": "t145",
       "type": "text",
       "content": "cuídala, muévela, aliméntala",
       "fontSize": 34,
@@ -5419,14 +5536,58 @@
       }
     },
     {
-      "id": "t144",
-      "type": "text",
-      "content": "la única que no puedes cambiar",
-      "fontSize": 60,
+      "id": "body-symphony_146",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/body-symphony.png",
       "box": {
         "cx": 960,
-        "cy": 500,
-        "w": 1156,
+        "cy": 515,
+        "w": 500,
+        "h": 500
+      },
+      "z": 26,
+      "in": 489.56,
+      "out": 492.32000000000005,
+      "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 489.56,
+          "cx": 960,
+          "cy": 515,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 490.53,
+          "cx": 915,
+          "cy": 460,
+          "w": 410,
+          "h": 410
+        }
+      ]
+    },
+    {
+      "id": "t147",
+      "type": "text",
+      "content": "la única que no puedes cambiar",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 672,
         "h": 90
       },
       "color": "#EE2B37",
@@ -6512,91 +6673,35 @@
       }
     },
     {
-      "id": "cov145",
+      "id": "cov148",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/human-body.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 340,
-        "h": 340
+        "w": 460,
+        "h": 460
       },
       "z": 28,
-      "in": 0,
-      "out": 2,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov146",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/skin-layer.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 35.75,
-      "out": 39.75,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov147",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/brain.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 78.75,
-      "out": 81.75,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov148",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/heart-beat.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 129.75,
-      "out": 133.5,
+      "in": 29.25,
+      "out": 35.75,
+      "frames": [
+        {
+          "t": 29.25,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 31.65,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -6611,16 +6716,32 @@
       "id": "cov149",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/lungs.png",
+      "src": "assets/icons/skin-layer.png",
       "box": {
         "cx": 960,
-        "cy": 500,
-        "w": 340,
-        "h": 340
+        "cy": 505,
+        "w": 460,
+        "h": 460
       },
       "z": 28,
-      "in": 170.5,
-      "out": 173.25,
+      "in": 47.75,
+      "out": 51.5,
+      "frames": [
+        {
+          "t": 47.75,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 49.63,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -6635,16 +6756,32 @@
       "id": "cov150",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/liver.png",
+      "src": "assets/icons/skin-layer.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
       },
       "z": 28,
-      "in": 204.75,
-      "out": 208,
+      "in": 65.25,
+      "out": 66.75,
+      "frames": [
+        {
+          "t": 65.25,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 66,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -6653,38 +6790,38 @@
         "kind": "fade-out",
         "duration": 0.3
       },
-      "_autoIco": true,
-      "frames": [
-        {
-          "t": 204.75,
-          "cx": 960,
-          "cy": 500,
-          "w": 340,
-          "h": 340
-        },
-        {
-          "t": 207.05,
-          "cx": 540,
-          "cy": 520,
-          "w": 340,
-          "h": 340
-        }
-      ]
+      "_autoIco": true
     },
     {
       "id": "cov151",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/kidneys.png",
+      "src": "assets/icons/heart-beat.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 340,
-        "h": 340
+        "w": 460,
+        "h": 460
       },
       "z": 28,
-      "in": 238.5,
-      "out": 240.25,
+      "in": 166.25,
+      "out": 170.5,
+      "frames": [
+        {
+          "t": 166.25,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 168.38,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -6699,16 +6836,32 @@
       "id": "cov152",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/bladder-balloon.png",
+      "src": "assets/icons/lungs.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 340,
-        "h": 340
+        "w": 460,
+        "h": 460
       },
       "z": 28,
-      "in": 274.25,
-      "out": 274.75,
+      "in": 194,
+      "out": 197.25,
+      "frames": [
+        {
+          "t": 194,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 195.63,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -6723,16 +6876,32 @@
       "id": "cov153",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/stomach.png",
+      "src": "assets/icons/kidneys.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 340,
-        "h": 340
+        "w": 460,
+        "h": 460
       },
       "z": 28,
-      "in": 292.75,
-      "out": 296.25,
+      "in": 258.75,
+      "out": 261,
+      "frames": [
+        {
+          "t": 258.75,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 259.88,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -6747,16 +6916,32 @@
       "id": "cov154",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/small-intestine.png",
+      "src": "assets/icons/eye-camera.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 340,
-        "h": 340
+        "w": 460,
+        "h": 460
       },
       "z": 28,
-      "in": 314.25,
-      "out": 317.75,
+      "in": 412.75,
+      "out": 414.25,
+      "frames": [
+        {
+          "t": 412.75,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 413.5,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -6771,16 +6956,16 @@
       "id": "cov155",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/pancreas.png",
+      "src": "assets/icons/eye-camera.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
       },
       "z": 28,
-      "in": 350.75,
-      "out": 353.5,
+      "in": 441.75,
+      "out": 442.25,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -6795,16 +6980,32 @@
       "id": "cov156",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/spleen.png",
+      "src": "assets/icons/body-symphony.png",
       "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
       },
       "z": 28,
-      "in": 376.5,
-      "out": 378.75,
+      "in": 462.75,
+      "out": 464.25,
+      "frames": [
+        {
+          "t": 462.75,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 463.25,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        }
+      ],
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -6819,40 +7020,32 @@
       "id": "cov157",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/eye-camera.png",
+      "src": "assets/icons/body-symphony.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 340,
-        "h": 340
+        "w": 460,
+        "h": 460
       },
       "z": 28,
-      "in": 401,
-      "out": 404,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov158",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/body-symphony.png",
-      "box": {
-        "cx": 540,
-        "cy": 520,
-        "w": 340,
-        "h": 340
-      },
-      "z": 28,
-      "in": 442.25,
-      "out": 442.5,
+      "in": 476.25,
+      "out": 482,
+      "frames": [
+        {
+          "t": 476.25,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 478.65,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
       "enter": {
         "kind": "fade-in",
         "duration": 0.35

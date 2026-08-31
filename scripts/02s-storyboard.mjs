@@ -163,7 +163,8 @@ for (const b of beats) {
       // ~palabra: el icono ENTRA justo cuando se dice esa palabra (sincronía, como el texto). Si no, tiempo del beat.
       const wsync = (rest.match(/~([a-záéíóúñ0-9]+)/i) || [])[1];
       const wt = wsync ? syncWordTime(wsync, b) : null;
-      const inT = +(wt != null && wt >= b.t0 - 0.5 && wt <= b.t1 + 1 ? wt : t).toFixed(2);
+      // los HERO entran al INICIO de su beat (llenan toda la escena); los apoyos peq. sí sincronizan a su palabra
+      const inT = isHero ? +t.toFixed(2) : +(wt != null && wt >= b.t0 - 0.5 && wt <= b.t1 + 1 ? wt : t).toFixed(2);
       const accum = type === "ICO" && !isPhotoAsset && !keep && !isHero; // doodles peq./mini se ACUMULAN; hero/big van fijos
       const el = { id: id + "_" + auto++, type: "image", kind, src, box: { cx, cy, w: psz, h: psz }, z: type === "GIF" ? 55 : (isHero ? (isPhotoAsset ? 24 : 26) : (isPhotoAsset ? 25 : 30)), in: inT, out: type === "GIF" ? Math.min(b.t1, inT + 3) : (keep ? dur : b.t1), auto: true, _keep: keep, _accum: accum, _hero: isHero, _hold: hold, enter: enterOf(ent || "pop"), exit: { kind: "fade-out", duration: 0.3 } };
       elements.push(el); live[id] = el; liveByAnchor[anc] = el; b._els.push(el); if (anchBig || isHero) lastBig = el;
@@ -238,6 +239,25 @@ markers.forEach((mk, i) => {
   for (const e of elements) if (e._accum) e.out = +Math.min(e.in + LIFE, sectionEnd(e.in)).toFixed(2);
   // HERO con HOLD → persiste hasta el fin de su sección (es el "backdrop" grande del sub-tema)
   for (const e of elements) if (e._hold) e.out = +sectionEnd(e.in).toFixed(2);
+  // TOPE HERO: ningún visual grande vive más de 12s (raro; solo beats con narración muy larga). Con
+  //   movimiento continuo no se percibe estático, y así apenas se generan huecos de relevo.
+  for (const e of elements) if (e._hero && !e._hold) e.out = Math.min(e.out, +(e.in + 12).toFixed(2));
+  // MOVIMIENTO DE HERO: entra GRANDE, luego se ENCOGE y va DERIVANDO durante TODA su vida, con keyframes
+  //   cada ~2.6s (regla del usuario: "grande en el centro, después pequeño y se mueve"). Nunca queda quieto.
+  for (const e of elements) {
+    if (!e._hero || (e.frames && e.frames.length)) continue;
+    const life = e.out - e.in; if (life < 1.0) continue;
+    const { cx, cy, w, h } = e.box;
+    const centered = Math.abs(cx - 960) < 120;
+    const steps = centered
+      ? [[-45, -55, 0.82], [40, -35, 0.80], [-25, -70, 0.78], [30, -45, 0.80]]  // grande→pequeño y a los lados
+      : [[0, 20, 0.97], [0, 4, 1.0], [0, 24, 0.96], [0, 8, 0.99]];               // lateral: deriva abajo + pulso (lejos del badge)
+    const fr = [{ t: +e.in.toFixed(2), cx, cy, w, h }];
+    let k = 0; for (let tt = e.in + Math.min(2.2, life * 0.35); tt < e.out - 0.25 && k < steps.length; tt += 2.6, k++) {
+      const [dx, dy, sc] = steps[k]; fr.push({ t: +tt.toFixed(2), cx: cx + dx, cy: cy + dy, w: Math.round(w * sc), h: Math.round(h * sc) });
+    }
+    e.frames = fr; e.box = { cx: fr[0].cx, cy: fr[0].cy, w: fr[0].w, h: fr[0].h };
+  }
   // ¿hay una pieza HERO en pantalla en el instante t? Si la hay, los apoyos peq. se van a las columnas laterales.
   const heroEls = elements.filter(e => e._hero);
   const heroLiveAt = (t) => heroEls.some(e => e.in <= t + 1e-6 && e.out > t + 1e-6);
@@ -302,7 +322,7 @@ for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" &
     if (imgLive(t)) { t = +(t + STEP).toFixed(2); continue; }
     let e2 = t; while (e2 <= dur && !imgLive(e2)) e2 = +(e2 + STEP).toFixed(2);
     const ch = chAt(t), src = (ch && ch.icon && assetFile(ch.icon)) || epFallback;
-    if (src) for (let s = t; s < e2 - 0.01;) { const seg = Math.min(8, +(e2 - s).toFixed(2)); elements.push({ id: "cov" + auto++, type: "image", kind: "vector", src, box: { cx: 540, cy: 520, w: 340, h: 340 }, z: 28, in: +s.toFixed(2), out: +(s + seg).toFixed(2), enter: { kind: "fade-in", duration: 0.35 }, exit: { kind: "fade-out", duration: 0.3 }, _autoIco: true }); s = +(s + seg).toFixed(2); }
+    if (src) for (let s = t; s < e2 - 0.01;) { const seg = Math.min(8, +(e2 - s).toFixed(2)); const s0 = +s.toFixed(2), s1 = +(s + seg).toFixed(2); elements.push({ id: "cov" + auto++, type: "image", kind: "vector", src, box: { cx: 960, cy: 505, w: 460, h: 460 }, z: 28, in: s0, out: s1, frames: seg > 1.2 ? [{ t: s0, cx: 960, cy: 505, w: 460, h: 460 }, { t: +(s0 + Math.min(2.4, seg * 0.5)).toFixed(2), cx: 960, cy: 475, w: 410, h: 410 }] : undefined, enter: { kind: "fade-in", duration: 0.35 }, exit: { kind: "fade-out", duration: 0.3 }, _autoIco: true }); s = s1; }
     t = e2;
   }
 }
