@@ -135,7 +135,7 @@ for (const b of beats) {
       const keep = /\bKEEP\b/.test(rest);
       const hold = /\bHOLD\b/.test(rest); // persiste hasta el fin de sección (p.ej. nombre+rol del sujeto)
       const heroTitle = anc === "htitle" || anc === "hsub"; // nombre/rol del sujeto: rótulo fijo arriba, como el HUD (exento de zona)
-      const el = { id: "t" + auto++, type: "text", content, fontSize: fs, box: { cx, cy, w: bw, h: 90 }, color: colK ? (COL[colK] || RED) : STROKE, z: heroTitle ? 82 : 60, in: +inT.toFixed(2), out: keep ? dur : b.t1, _syncT: heroTitle ? null : (usedWord ? wordT : null), _keep: keep, _hold: hold, structural: heroTitle, hud: heroTitle, enter: enterOf(ent || "fade"), exit: { kind: "fade-out", duration: 0.25 } };
+      const el = { id: "t" + auto++, type: "text", content, fontSize: fs, box: { cx, cy, w: bw, h: 90 }, color: colK ? (COL[colK] || RED) : STROKE, z: heroTitle ? 82 : 60, in: +inT.toFixed(2), out: keep ? dur : b.t1, _syncT: heroTitle ? null : (usedWord ? wordT : null), _keep: keep, _hold: hold, _herotitle: heroTitle, structural: heroTitle, hud: heroTitle, enter: enterOf(ent || "fade"), exit: { kind: "fade-out", duration: 0.25 } };
       elements.push(el); live["txt_" + anc + "_" + el.id] = el; liveByAnchor[anc] = el; b._els.push(el); if (sizeK === "stat" || sizeK === "lg") lastBig = el;
       continue;
     }
@@ -367,14 +367,9 @@ const activeDir = path.join("public", "active"); fs.mkdirSync(activeDir, { recur
 const epAudio = path.join(dir, "audio.mp3"); if (fs.existsSync(epAudio)) fs.copyFileSync(epAudio, path.join(activeDir, "audio.mp3"));
 // ANTI-SOLAPE DE TEXTOS: dos captions en la misma banda vertical nunca coinciden en el tiempo.
 // Cada texto (no-KEEP, no-HUD) se recorta para terminar cuando entra el siguiente de su misma banda.
-{
+const deconflict = (list) => {
   const band = new Map();
-  for (const e of elements) {
-    if (e.type !== "text" || e._keep || e.structural || e.hud) continue;
-    const k = Math.round((e.box?.cy ?? 0) / 60);
-    if (!band.has(k)) band.set(k, []);
-    band.get(k).push(e);
-  }
+  for (const e of list) { const k = Math.round((e.box?.cy ?? 0) / 60); if (!band.has(k)) band.set(k, []); band.get(k).push(e); }
   for (const arr of band.values()) {
     arr.sort((a, b) => a.in - b.in);
     for (let i = 0; i < arr.length - 1; i++) {
@@ -382,7 +377,11 @@ const epAudio = path.join(dir, "audio.mp3"); if (fs.existsSync(epAudio)) fs.copy
       if (cur.out > nxt.in - 0.1) cur.out = +Math.max(cur.in + 0.5, nxt.in - 0.1).toFixed(2);
     }
   }
-}
+};
+// captions/textos normales
+deconflict(elements.filter(e => e.type === "text" && !e._keep && !e.structural && !e.hud));
+// títulos/roles hero (son structural, pero entre secciones no deben solaparse en su banda)
+deconflict(elements.filter(e => e.type === "text" && e._herotitle));
 const out = { meta, elements };
 fs.writeFileSync(path.join(dir, "scenes.json"), JSON.stringify(out, null, 2));
 fs.writeFileSync(path.join(activeDir, "scenes.json"), JSON.stringify(out, null, 2));

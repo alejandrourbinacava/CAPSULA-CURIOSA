@@ -1,0 +1,302 @@
+{
+  "usb-ports-back": {
+    "kind": "vector",
+    "query": "the back of a computer with several colored USB ports in a row",
+    "file": "assets/icons/usb-ports-back.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "usb-black": {
+    "kind": "vector",
+    "query": "a black USB type-A port, front view close up",
+    "file": "assets/icons/usb-black.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "usb-white": {
+    "kind": "vector",
+    "query": "an old white USB type-A port, front view, vintage",
+    "file": "assets/icons/usb-white.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mouse-keyboard": {
+    "kind": "vector",
+    "query": "a computer mouse and keyboard together",
+    "file": "assets/icons/mouse-keyboard.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "slow-snail": {
+    "kind": "vector",
+    "query": "a snail carrying a file, very slow transfer",
+    "file": "assets/icons/slow-snail.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "usb-blue": {
+    "kind": "vector",
+    "query": "a blue USB 3.0 type-A port, front view close up",
+    "file": "assets/icons/usb-blue.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "superspeed-logo": {
+    "kind": "vector",
+    "query": "the USB SuperSpeed SS logo badge",
+    "file": "assets/icons/superspeed-logo.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fast-files": {
+    "kind": "vector",
+    "query": "files flying fast out of a USB stick, speed lines",
+    "file": "assets/icons/fast-files.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "usb-stick": {
+    "kind": "vector",
+    "query": "a USB flash drive pendrive",
+    "file": "assets/icons/usb-stick.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "usb-teal": {
+    "kind": "vector",
+    "query": "a teal turquoise USB 3.1 type-A port, front view close up",
+    "file": "assets/icons/usb-teal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "video-edit": {
+    "kind": "vector",
+    "query": "editing a video on a timeline from an external drive",
+    "file": "assets/icons/video-edit.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "external-drive": {
+    "kind": "vector",
+    "query": "an external portable hard drive",
+    "file": "assets/icons/external-drive.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "usb-red": {
+    "kind": "vector",
+    "query": "a red USB type-A port, front view close up",
+    "file": "assets/icons/usb-red.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sleep-charge": {
+    "kind": "vector",
+    "query": "a phone charging next to a sleeping moon, always on charging",
+    "file": "assets/icons/sleep-charge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "phone-charge-night": {
+    "kind": "vector",
+    "query": "a phone charging at night while the laptop is off",
+    "file": "assets/icons/phone-charge-night.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lightning-charge": {
+    "kind": "vector",
+    "query": "a battery charging fast with a lightning bolt",
+    "file": "assets/icons/lightning-charge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "usb-yellow": {
+    "kind": "vector",
+    "query": "a yellow USB type-A port, front view close up",
+    "file": "assets/icons/usb-yellow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "usb-orange": {
+    "kind": "vector",
+    "query": "an orange USB type-A port, front view close up",
+    "file": "assets/icons/usb-orange.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "strong-power": {
+    "kind": "vector",
+    "query": "a strong muscular power plug flexing, high power",
+    "file": "assets/icons/strong-power.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "gaming-pc": {
+    "kind": "vector",
+    "query": "a powerful gaming desktop PC tower with lights",
+    "file": "assets/icons/gaming-pc.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "usb-green": {
+    "kind": "vector",
+    "query": "a green USB type-A port, front view close up",
+    "file": "assets/icons/usb-green.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "quick-charge": {
+    "kind": "vector",
+    "query": "a phone charging super fast with a big lightning bolt, quick charge",
+    "file": "assets/icons/quick-charge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "android-phone": {
+    "kind": "vector",
+    "query": "an android smartphone charging",
+    "file": "assets/icons/android-phone.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "usb-purple": {
+    "kind": "vector",
+    "query": "a purple USB type-A port, front view close up",
+    "file": "assets/icons/usb-purple.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "supercharge": {
+    "kind": "vector",
+    "query": "a battery filling instantly, super fast charge",
+    "file": "assets/icons/supercharge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "usb-c": {
+    "kind": "vector",
+    "query": "a USB type-C oval connector, small and reversible",
+    "file": "assets/icons/usb-c.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "reversible": {
+    "kind": "vector",
+    "query": "a USB-C plug with arrows showing it flips both ways",
+    "file": "assets/icons/reversible.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "usb-c-monitor": {
+    "kind": "vector",
+    "query": "a USB-C cable sending video to a monitor screen",
+    "file": "assets/icons/usb-c-monitor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "magnifier-symbols": {
+    "kind": "vector",
+    "query": "a magnifying glass looking at tiny symbols next to a port",
+    "file": "assets/icons/magnifier-symbols.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ss-badge": {
+    "kind": "vector",
+    "query": "the letters SS SuperSpeed logo next to a USB port",
+    "file": "assets/icons/ss-badge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ss10-badge": {
+    "kind": "vector",
+    "query": "an SS logo with the number 10 next to it, ten gigabit",
+    "file": "assets/icons/ss10-badge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "thunderbolt": {
+    "kind": "vector",
+    "query": "a thunderbolt lightning symbol next to a USB-C port",
+    "file": "assets/icons/thunderbolt.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "forty-gbps": {
+    "kind": "vector",
+    "query": "a speedometer showing 40, forty gigabits per second",
+    "file": "assets/icons/forty-gbps.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "multi-monitor": {
+    "kind": "vector",
+    "query": "several computer monitors connected together",
+    "file": "assets/icons/multi-monitor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "chaos-names": {
+    "kind": "vector",
+    "query": "a confused tangle of contradictory name labels, chaos",
+    "file": "assets/icons/chaos-names.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "rename-tag": {
+    "kind": "vector",
+    "query": "a product being relabeled with a new name tag over an old one",
+    "file": "assets/icons/rename-tag.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "usb4-cable": {
+    "kind": "vector",
+    "query": "a single USB4 type-C cable that does everything",
+    "file": "assets/icons/usb4-cable.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "speed-label": {
+    "kind": "vector",
+    "query": "clear speed labels 5, 10, 20, 40 gigabits",
+    "file": "assets/icons/speed-label.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "plug-in": {
+    "kind": "vector",
+    "query": "a hand plugging a USB cable into a port with confidence",
+    "file": "assets/icons/plug-in.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "secret-code": {
+    "kind": "vector",
+    "query": "colors as a secret code being decoded, aha moment",
+    "file": "assets/icons/secret-code.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-usb3": {
+    "kind": "cutout",
+    "query": "USB 3.0",
+    "file": "assets/icons/photo-usb3.png"
+  },
+  "photo-usbc": {
+    "kind": "cutout",
+    "query": "USB-C",
+    "file": "assets/icons/photo-usbc.jpg"
+  },
+  "photo-thunderbolt": {
+    "kind": "cutout",
+    "query": "Thunderbolt (interface)",
+    "file": "assets/icons/photo-thunderbolt.jpg"
+  },
+  "photo-motherboard": {
+    "kind": "cutout",
+    "query": "Motherboard",
+    "file": "assets/icons/photo-motherboard.png"
+  }
+}
