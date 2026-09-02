@@ -1,0 +1,226 @@
+{
+  "scam-puppet": {
+    "kind": "vector",
+    "query": "a scammer hand pulling puppet strings on a worried person, manipulating emotions",
+    "file": "assets/icons/scam-puppet.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "phishing-hook": {
+    "kind": "vector",
+    "query": "a fishing hook pulling a bank card and a password out of an email envelope",
+    "file": "assets/icons/phishing-hook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "smishing-sms": {
+    "kind": "vector",
+    "query": "a phone showing a fake package delivery SMS with a suspicious link",
+    "file": "assets/icons/smishing-sms.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fake-support": {
+    "kind": "vector",
+    "query": "a computer screen with a big fake red virus warning popup",
+    "file": "assets/icons/fake-support.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "family-emergency": {
+    "kind": "vector",
+    "query": "a phone with a whatsapp message saying hi mom this is my new number",
+    "file": "assets/icons/family-emergency.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "romance-scam": {
+    "kind": "vector",
+    "query": "a broken heart hiding a mask, online dating romance scam",
+    "file": "assets/icons/romance-scam.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "investment-scam": {
+    "kind": "vector",
+    "query": "a fake rising profit chart with coins, guaranteed money scam",
+    "file": "assets/icons/investment-scam.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fake-shop": {
+    "kind": "vector",
+    "query": "a fake online store on a screen with an unbelievable cheap price",
+    "file": "assets/icons/fake-shop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fake-prize": {
+    "kind": "vector",
+    "query": "a shiny trophy that is actually a trap, you won a prize scam",
+    "file": "assets/icons/fake-prize.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "three-buttons": {
+    "kind": "vector",
+    "query": "three red manipulation buttons labeled with a clock, a scared face and a money bag",
+    "file": "assets/icons/three-buttons.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "stop-think-verify": {
+    "kind": "vector",
+    "query": "a person pausing with a raised hand to think before clicking, stop and verify",
+    "file": "assets/icons/stop-think-verify.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "bank-card": {
+    "kind": "vector",
+    "query": "a single credit bank card",
+    "file": "assets/icons/bank-card.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "padlock-password": {
+    "kind": "vector",
+    "query": "a padlock with a password field, account security",
+    "file": "assets/icons/padlock-password.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "envelope-email": {
+    "kind": "vector",
+    "query": "an email envelope letter",
+    "file": "assets/icons/envelope-email.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "package-box": {
+    "kind": "vector",
+    "query": "a cardboard delivery package box",
+    "file": "assets/icons/package-box.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "red-popup": {
+    "kind": "vector",
+    "query": "a red alarm warning popup window on a screen",
+    "file": "assets/icons/red-popup.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "remote-control-pc": {
+    "kind": "vector",
+    "query": "a stranger hand taking remote control of a laptop from far away",
+    "file": "assets/icons/remote-control-pc.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "whatsapp-chat": {
+    "kind": "vector",
+    "query": "a phone with green chat message bubbles",
+    "file": "assets/icons/whatsapp-chat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "video-call-crossed": {
+    "kind": "vector",
+    "query": "a video call camera icon crossed out with a red no symbol",
+    "file": "assets/icons/video-call-crossed.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "crypto-coin": {
+    "kind": "vector",
+    "query": "a shiny golden crypto coin",
+    "file": "assets/icons/crypto-coin.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ponzi-pyramid": {
+    "kind": "vector",
+    "query": "a pyramid scheme made of people, collapsing at the bottom",
+    "file": "assets/icons/ponzi-pyramid.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "discount-tag": {
+    "kind": "vector",
+    "query": "a big red discount price tag with a huge percent off",
+    "file": "assets/icons/discount-tag.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "countdown-timer": {
+    "kind": "vector",
+    "query": "a countdown timer clock running out of time",
+    "file": "assets/icons/countdown-timer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "trophy-prize": {
+    "kind": "vector",
+    "query": "a gold winner trophy",
+    "file": "assets/icons/trophy-prize.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "money-fly": {
+    "kind": "vector",
+    "query": "banknotes with little wings flying away, losing money",
+    "file": "assets/icons/money-fly.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "urgency-clock": {
+    "kind": "vector",
+    "query": "a ringing alarm clock, hurry up urgency",
+    "file": "assets/icons/urgency-clock.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "phone-call-back": {
+    "kind": "vector",
+    "query": "a person calling back on the official phone number to verify",
+    "file": "assets/icons/phone-call-back.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "magnifier-check": {
+    "kind": "vector",
+    "query": "a magnifying glass with a green check mark, verifying something",
+    "file": "assets/icons/magnifier-check.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hacker-hood": {
+    "kind": "vector",
+    "query": "a hooded anonymous scammer typing on a laptop",
+    "file": "assets/icons/hacker-hood.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "warning-triangle": {
+    "kind": "vector",
+    "query": "a yellow warning triangle with an exclamation mark",
+    "file": "assets/icons/warning-triangle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "rental-scam": {
+    "kind": "vector",
+    "query": "a house with a for rent sign and a hand grabbing the deposit money, fake rental",
+    "file": "assets/icons/rental-scam.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "secondhand-scam": {
+    "kind": "vector",
+    "query": "a phone with a second hand marketplace app and a fake buyer sending a payment request link",
+    "file": "assets/icons/secondhand-scam.png",
+    "normalized": true,
+    "gpt": true
+  }
+}
