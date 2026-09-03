@@ -222,5 +222,131 @@
     "file": "assets/icons/secondhand-scam.png",
     "normalized": true,
     "gpt": true
+  },
+  "red-flag": {
+    "kind": "vector",
+    "query": "a red warning flag",
+    "file": "assets/icons/red-flag.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "click-cursor": {
+    "kind": "vector",
+    "query": "a mouse cursor clicking a link",
+    "file": "assets/icons/click-cursor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "link-chain": {
+    "kind": "vector",
+    "query": "a suspicious internet hyperlink chain",
+    "file": "assets/icons/link-chain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "money-bag": {
+    "kind": "vector",
+    "query": "a bag of money with a euro sign",
+    "file": "assets/icons/money-bag.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "thief-mask": {
+    "kind": "vector",
+    "query": "a burglar mask of a thief",
+    "file": "assets/icons/thief-mask.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "alert-bell": {
+    "kind": "vector",
+    "query": "a ringing red alert notification bell",
+    "file": "assets/icons/alert-bell.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lock-open": {
+    "kind": "vector",
+    "query": "an open unlocked padlock, security broken",
+    "file": "assets/icons/lock-open.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hand-stop": {
+    "kind": "vector",
+    "query": "a hand making a stop gesture",
+    "file": "assets/icons/hand-stop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "skull-danger": {
+    "kind": "vector",
+    "query": "a small warning skull, danger",
+    "file": "assets/icons/skull-danger.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "empty-wallet": {
+    "kind": "vector",
+    "query": "an open empty wallet, no money left",
+    "file": "assets/icons/empty-wallet.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "coin-stack": {
+    "kind": "vector",
+    "query": "a stack of gold coins",
+    "file": "assets/icons/coin-stack.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "big-question": {
+    "kind": "vector",
+    "query": "a big question mark, doubt",
+    "file": "assets/icons/big-question.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "trap-net": {
+    "kind": "vector",
+    "query": "a net trap snapping shut",
+    "file": "assets/icons/trap-net.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sad-face": {
+    "kind": "vector",
+    "query": "a sad worried face",
+    "file": "assets/icons/sad-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "calendar-deadline": {
+    "kind": "vector",
+    "query": "a calendar with a red urgent deadline",
+    "file": "assets/icons/calendar-deadline.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fake-badge": {
+    "kind": "vector",
+    "query": "a fake verified badge with a cross",
+    "file": "assets/icons/fake-badge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "thumbs-down": {
+    "kind": "vector",
+    "query": "a thumbs down hand",
+    "file": "assets/icons/thumbs-down.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "shield-check": {
+    "kind": "vector",
+    "query": "a green shield with a check mark, protected",
+    "file": "assets/icons/shield-check.png",
+    "normalized": true,
+    "gpt": true
   }
 }
