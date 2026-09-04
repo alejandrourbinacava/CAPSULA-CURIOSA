@@ -1,0 +1,403 @@
+{
+  "lost-city-jungle": {
+    "kind": "vector",
+    "query": "a lost ancient city being swallowed by the jungle",
+    "file": "assets/icons/lost-city-jungle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "buried-ruins": {
+    "kind": "vector",
+    "query": "ancient ruins half buried under sand",
+    "file": "assets/icons/buried-ruins.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mystery-question": {
+    "kind": "vector",
+    "query": "a big question mark over ancient ruins, mystery",
+    "file": "assets/icons/mystery-question.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ancient-crown": {
+    "kind": "vector",
+    "query": "an old broken ancient crown of a fallen empire",
+    "file": "assets/icons/ancient-crown.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "overgrown-ruins": {
+    "kind": "vector",
+    "query": "old stone ruins overgrown with vines and plants",
+    "file": "assets/icons/overgrown-ruins.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "maya-pyramid": {
+    "kind": "vector",
+    "query": "a Maya step pyramid temple in the jungle",
+    "file": "assets/icons/maya-pyramid.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "maya-glyph": {
+    "kind": "vector",
+    "query": "a Maya hieroglyph writing symbol carved in stone",
+    "file": "assets/icons/maya-glyph.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "astronomer-stars": {
+    "kind": "vector",
+    "query": "an ancient astronomer looking at stars and planets",
+    "file": "assets/icons/astronomer-stars.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "eclipse": {
+    "kind": "vector",
+    "query": "a solar eclipse, the moon covering the sun",
+    "file": "assets/icons/eclipse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "maya-calendar": {
+    "kind": "vector",
+    "query": "a round Maya calendar stone",
+    "file": "assets/icons/maya-calendar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "drought-sun": {
+    "kind": "vector",
+    "query": "a blazing sun over cracked dry earth, drought",
+    "file": "assets/icons/drought-sun.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "war-spears": {
+    "kind": "vector",
+    "query": "crossed ancient spears and a shield, war between cities",
+    "file": "assets/icons/war-spears.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "corn-farm": {
+    "kind": "vector",
+    "query": "rows of corn maize crops on farmland",
+    "file": "assets/icons/corn-farm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "people-leave": {
+    "kind": "vector",
+    "query": "a line of people walking away abandoning a city",
+    "file": "assets/icons/people-leave.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "city-grid": {
+    "kind": "vector",
+    "query": "an ancient city planned in a straight grid of streets from above",
+    "file": "assets/icons/city-grid.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "brick-house": {
+    "kind": "vector",
+    "query": "an ancient mud brick house",
+    "file": "assets/icons/brick-house.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sewer-pipe": {
+    "kind": "vector",
+    "query": "an ancient stone drain sewer channel",
+    "file": "assets/icons/sewer-pipe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "bath-water": {
+    "kind": "vector",
+    "query": "an ancient bath with running water in a house",
+    "file": "assets/icons/bath-water.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-crown": {
+    "kind": "vector",
+    "query": "a king crown with a red crossed-out no symbol, no rulers",
+    "file": "assets/icons/no-crown.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "undeciphered-script": {
+    "kind": "vector",
+    "query": "mysterious undeciphered ancient writing symbols on a seal",
+    "file": "assets/icons/undeciphered-script.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dry-river": {
+    "kind": "vector",
+    "query": "a dried up empty river bed",
+    "file": "assets/icons/dry-river.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "moai": {
+    "kind": "vector",
+    "query": "a giant Easter Island moai stone head statue",
+    "file": "assets/icons/moai.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "remote-island": {
+    "kind": "vector",
+    "query": "a tiny remote island alone in the middle of the ocean",
+    "file": "assets/icons/remote-island.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "walking-statue": {
+    "kind": "vector",
+    "query": "a big stone statue being rocked and walked with ropes",
+    "file": "assets/icons/walking-statue.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "rope-pull": {
+    "kind": "vector",
+    "query": "hands pulling thick ropes to move something heavy",
+    "file": "assets/icons/rope-pull.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tree-stump": {
+    "kind": "vector",
+    "query": "a cut down tree stump, deforestation",
+    "file": "assets/icons/tree-stump.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "rat": {
+    "kind": "vector",
+    "query": "a rat eating seeds",
+    "file": "assets/icons/rat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sailing-ship": {
+    "kind": "vector",
+    "query": "an old european sailing ship arriving",
+    "file": "assets/icons/sailing-ship.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sick-person": {
+    "kind": "vector",
+    "query": "a sick weak person, disease",
+    "file": "assets/icons/sick-person.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "stone-pillar": {
+    "kind": "vector",
+    "query": "huge ancient T-shaped carved stone pillars, a temple",
+    "file": "assets/icons/stone-pillar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "carved-animal": {
+    "kind": "vector",
+    "query": "an animal carved in relief on ancient stone",
+    "file": "assets/icons/carved-animal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "old-date": {
+    "kind": "vector",
+    "query": "an ancient calendar page showing an impossibly old date",
+    "file": "assets/icons/old-date.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hunter-gatherer": {
+    "kind": "vector",
+    "query": "a prehistoric hunter gatherer with a spear, no farming",
+    "file": "assets/icons/hunter-gatherer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "buried-temple": {
+    "kind": "vector",
+    "query": "an ancient temple deliberately buried under earth",
+    "file": "assets/icons/buried-temple.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "nazca-hummingbird": {
+    "kind": "vector",
+    "query": "the giant Nazca lines hummingbird geoglyph on the ground",
+    "file": "assets/icons/nazca-hummingbird.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "nazca-spider": {
+    "kind": "vector",
+    "query": "the giant Nazca lines spider geoglyph on the ground",
+    "file": "assets/icons/nazca-spider.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "aerial-eye": {
+    "kind": "vector",
+    "query": "an eye or plane viewing giant ground drawings only from above",
+    "file": "assets/icons/aerial-eye.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "desert-ground": {
+    "kind": "vector",
+    "query": "a flat dry desert ground with long straight lines",
+    "file": "assets/icons/desert-ground.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "water-ritual": {
+    "kind": "vector",
+    "query": "an ancient ritual praying for water in the desert",
+    "file": "assets/icons/water-ritual.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "angkor-temple": {
+    "kind": "vector",
+    "query": "the Angkor Wat temple with its towers",
+    "file": "assets/icons/angkor-temple.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "big-crowd": {
+    "kind": "vector",
+    "query": "a huge crowd of a million people in a big city",
+    "file": "assets/icons/big-crowd.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "water-canal": {
+    "kind": "vector",
+    "query": "a network of water canals and reservoirs",
+    "file": "assets/icons/water-canal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "monsoon-flood": {
+    "kind": "vector",
+    "query": "heavy monsoon rain flooding a city",
+    "file": "assets/icons/monsoon-flood.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "knossos": {
+    "kind": "vector",
+    "query": "the ancient Minoan palace of Knossos with red columns",
+    "file": "assets/icons/knossos.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "minotaur": {
+    "kind": "vector",
+    "query": "a minotaur bull-headed monster in a labyrinth",
+    "file": "assets/icons/minotaur.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "trade-ship": {
+    "kind": "vector",
+    "query": "an ancient Minoan trading ship on the sea",
+    "file": "assets/icons/trade-ship.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "volcano-erupt": {
+    "kind": "vector",
+    "query": "a huge volcano erupting with ash and smoke",
+    "file": "assets/icons/volcano-erupt.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tsunami-wave": {
+    "kind": "vector",
+    "query": "a giant tsunami wave hitting the coast",
+    "file": "assets/icons/tsunami-wave.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "atlantis-island": {
+    "kind": "vector",
+    "query": "the mythical island city of Atlantis with rings of water",
+    "file": "assets/icons/atlantis-island.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "philosopher": {
+    "kind": "vector",
+    "query": "an ancient Greek philosopher like Plato telling a story",
+    "file": "assets/icons/philosopher.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sink-sea": {
+    "kind": "vector",
+    "query": "an island sinking into the sea underwater",
+    "file": "assets/icons/sink-sea.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cracked-earth": {
+    "kind": "vector",
+    "query": "dry cracked earth ground",
+    "file": "assets/icons/cracked-earth.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hourglass": {
+    "kind": "vector",
+    "query": "an hourglass running out of sand, time ending",
+    "file": "assets/icons/hourglass.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-tikal": {
+    "kind": "cutout",
+    "query": "Tikal",
+    "file": "assets/icons/photo-tikal.jpg"
+  },
+  "photo-mohenjodaro": {
+    "kind": "cutout",
+    "query": "Mohenjo-daro",
+    "file": "assets/icons/photo-mohenjodaro.jpg"
+  },
+  "photo-moai": {
+    "kind": "cutout",
+    "query": "Moai",
+    "file": "assets/icons/photo-moai.jpg"
+  },
+  "photo-gobekli": {
+    "kind": "cutout",
+    "query": "Göbekli Tepe",
+    "file": "assets/icons/photo-gobekli.jpg"
+  },
+  "photo-nazca": {
+    "kind": "cutout",
+    "query": "Nazca lines",
+    "file": "assets/icons/photo-nazca.jpg"
+  },
+  "photo-angkor": {
+    "kind": "cutout",
+    "query": "Angkor Wat",
+    "file": "assets/icons/photo-angkor.jpg"
+  }
+}
