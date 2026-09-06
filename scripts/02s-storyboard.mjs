@@ -139,6 +139,22 @@ for (const b of beats) {
       elements.push(el); live["txt_" + anc + "_" + el.id] = el; liveByAnchor[anc] = el; b._els.push(el); if (sizeK === "stat" || sizeK === "lg") lastBig = el;
       continue;
     }
+    if (type === "CLIP") { // clip de vídeo real (Pexels/Pixabay) → OffthreadVideo con esquina redondeada
+      const id = rest.split(/[\s@]/)[0].trim();
+      const src = assetFile(id);
+      if (!src) { warns.push(`clip ausente: "${id}" (beat ${b.num})`); continue; }
+      const anc = (rest.match(/@([a-z0-9]+)/i) || [])[1] || "center";
+      const frame = (rest.match(/\b(tv|browser|phone|polaroid|rounded|none)\b/) || [])[1] || "rounded";
+      const ent = (rest.match(/\b(pop|fade|slide-[lrt]|draw|handwrite|stamp|whip)\b/i) || [])[1];
+      const [cx, cy] = anchorXY(anc);
+      const w = /\bbig\b/.test(rest) ? 980 : 760, h = Math.round(w * 9 / 16); // 16:9
+      const wsync = (rest.match(/~([a-záéíóúñ0-9]+)/i) || [])[1];
+      const wt = wsync ? syncWordTime(wsync, b) : null;
+      const inT = +(wt != null && wt >= b.t0 - 0.5 && wt <= b.t1 + 1 ? wt : t).toFixed(2);
+      const el = { id: id + "_" + auto++, type: "clip", src, frame, box: { cx, cy, w, h }, z: 27, in: inT, out: b.t1, auto: true, enter: enterOf(ent || "pop"), exit: { kind: "fade-out", duration: 0.3 } };
+      elements.push(el); live[id] = el; liveByAnchor[anc] = el; b._els.push(el); lastBig = el;
+      continue;
+    }
     if (type === "IMG" || type === "ICO" || type === "GIF") {
       const id = rest.split(/[\s@]/)[0].trim();
       const anc = (rest.match(/@([a-z0-9]+)/i) || [])[1] || (type === "GIF" ? "center" : "main");
@@ -313,7 +329,7 @@ for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" &
 //   pantalla, se rellena con el ICONO DEL CAPÍTULO actual (relevante). Nada de texto flotando solo.
 {
   const STEP = 0.25;
-  const imgLive = (t) => elements.some(e => !e.structural && e.type === "image" && e.in <= t + 1e-6 && e.out > t + 1e-6);
+  const imgLive = (t) => elements.some(e => !e.structural && (e.type === "image" || e.type === "clip" || e.type === "gif") && e.in <= t + 1e-6 && e.out > t + 1e-6);
   // fallback SIEMPRE disponible en el episodio: primer icono que resuelva (nunca uno de otro vídeo)
   const epFallback = (() => { for (const k in assets) { const f = assetFile(k); if (f) return f; } return null; })();
   // capítulo con icono más cercano ANTES de t (ignora CHAP vacío); si no hay, el más cercano DESPUÉS
@@ -359,7 +375,7 @@ for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" &
 }
 
 // assets DECLARADOS en el storyboard (para el gate: si falta alguno → FALLO)
-const declared = [...new Set([...sbText.matchAll(/^\s*[+-]\d[\d.]*\s+(?:IMG|ICO|GIF)\s+([a-z0-9-]+)/gmi)].map(m => m[1]).filter(x => x !== "asset-id"))];
+const declared = [...new Set([...sbText.matchAll(/^\s*[+-]\d[\d.]*\s+(?:IMG|ICO|GIF|CLIP)\s+([a-z0-9-]+)/gmi)].map(m => m[1]).filter(x => x !== "asset-id"))];
 const placedIds = new Set(elements.filter(e => e.src).map(e => (e.id.replace(/_\d+$/, ""))));
 const missing = declared.filter(id => !placedIds.has(id) && !assetFile(id));
 const meta = { fps: 30, width: W, height: H, duration: +dur.toFixed(2), audio: "active/audio.mp3", title, profile: PROFILE.name, storyboard: true, declaredMissing: missing };
