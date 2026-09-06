@@ -1,0 +1,420 @@
+{
+  "dino-silhouette": {
+    "kind": "vector",
+    "query": "a generic dinosaur silhouette",
+    "file": "assets/icons/dino-silhouette.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "earth-ancient": {
+    "kind": "vector",
+    "query": "the ancient prehistoric Earth with one big continent",
+    "file": "assets/icons/earth-ancient.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "timeline-periods": {
+    "kind": "vector",
+    "query": "a timeline with three eras triassic jurassic cretaceous",
+    "file": "assets/icons/timeline-periods.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "trex": {
+    "kind": "vector",
+    "query": "a Tyrannosaurus Rex standing, roaring",
+    "file": "assets/icons/trex.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "trex-tiny-arms": {
+    "kind": "vector",
+    "query": "a T-Rex with funny tiny little arms",
+    "file": "assets/icons/trex-tiny-arms.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "trex-bite": {
+    "kind": "vector",
+    "query": "a powerful T-Rex jaw biting a bone",
+    "file": "assets/icons/trex-bite.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sharp-teeth": {
+    "kind": "vector",
+    "query": "sharp dinosaur teeth like knives",
+    "file": "assets/icons/sharp-teeth.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "velociraptor": {
+    "kind": "vector",
+    "query": "a small feathered velociraptor the size of a turkey",
+    "file": "assets/icons/velociraptor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "spinosaurus": {
+    "kind": "vector",
+    "query": "a Spinosaurus with a big sail on its back catching a fish",
+    "file": "assets/icons/spinosaurus.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "claw-slash": {
+    "kind": "vector",
+    "query": "a sharp curved dinosaur claw",
+    "file": "assets/icons/claw-slash.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "brachiosaurus": {
+    "kind": "vector",
+    "query": "a Brachiosaurus long neck sauropod dinosaur",
+    "file": "assets/icons/brachiosaurus.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "argentinosaurus": {
+    "kind": "vector",
+    "query": "a gigantic Argentinosaurus, the biggest sauropod",
+    "file": "assets/icons/argentinosaurus.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "long-neck-tree": {
+    "kind": "vector",
+    "query": "a long neck dinosaur eating leaves from a tall tree",
+    "file": "assets/icons/long-neck-tree.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "plants-eat": {
+    "kind": "vector",
+    "query": "a herbivore dinosaur eating green plants",
+    "file": "assets/icons/plants-eat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ten-elephants": {
+    "kind": "vector",
+    "query": "ten elephants stacked to compare a huge weight",
+    "file": "assets/icons/ten-elephants.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "stomach-stones": {
+    "kind": "vector",
+    "query": "stones inside a dinosaur stomach to grind food",
+    "file": "assets/icons/stomach-stones.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dino-egg": {
+    "kind": "vector",
+    "query": "a dinosaur egg in a nest",
+    "file": "assets/icons/dino-egg.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "iguanodon": {
+    "kind": "vector",
+    "query": "an Iguanodon herbivore dinosaur with a thumb spike",
+    "file": "assets/icons/iguanodon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "duckbill": {
+    "kind": "vector",
+    "query": "a duck-billed dinosaur flat beak mouth",
+    "file": "assets/icons/duckbill.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "crest-trumpet": {
+    "kind": "vector",
+    "query": "a Parasaurolophus with a long hollow head crest like a trumpet",
+    "file": "assets/icons/crest-trumpet.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dino-herd": {
+    "kind": "vector",
+    "query": "a herd of herbivore dinosaurs together",
+    "file": "assets/icons/dino-herd.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "many-teeth": {
+    "kind": "vector",
+    "query": "a mouth packed with hundreds of grinding teeth",
+    "file": "assets/icons/many-teeth.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "stegosaurus": {
+    "kind": "vector",
+    "query": "a Stegosaurus with plates on its back",
+    "file": "assets/icons/stegosaurus.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "stego-plates": {
+    "kind": "vector",
+    "query": "the bony back plates of a stegosaurus",
+    "file": "assets/icons/stego-plates.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tail-spikes": {
+    "kind": "vector",
+    "query": "a spiked dinosaur tail weapon",
+    "file": "assets/icons/tail-spikes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "small-brain": {
+    "kind": "vector",
+    "query": "a tiny walnut sized brain, very small",
+    "file": "assets/icons/small-brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ankylosaurus": {
+    "kind": "vector",
+    "query": "an armored Ankylosaurus like a living tank",
+    "file": "assets/icons/ankylosaurus.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "club-tail": {
+    "kind": "vector",
+    "query": "a heavy bony club at the end of a dinosaur tail",
+    "file": "assets/icons/club-tail.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "triceratops": {
+    "kind": "vector",
+    "query": "a Triceratops with three horns and a neck frill",
+    "file": "assets/icons/triceratops.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "three-horns": {
+    "kind": "vector",
+    "query": "three horns on a dinosaur face",
+    "file": "assets/icons/three-horns.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "frill-shield": {
+    "kind": "vector",
+    "query": "a large bony neck frill of a triceratops",
+    "file": "assets/icons/frill-shield.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "trex-vs-triceratops": {
+    "kind": "vector",
+    "query": "a T-Rex fighting a Triceratops",
+    "file": "assets/icons/trex-vs-triceratops.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pachycephalosaurus": {
+    "kind": "vector",
+    "query": "a Pachycephalosaurus with a thick domed bony head",
+    "file": "assets/icons/pachycephalosaurus.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "headbutt": {
+    "kind": "vector",
+    "query": "two dinosaurs headbutting each other",
+    "file": "assets/icons/headbutt.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pteranodon": {
+    "kind": "vector",
+    "query": "a Pteranodon flying reptile with wings",
+    "file": "assets/icons/pteranodon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "quetzalcoatlus": {
+    "kind": "vector",
+    "query": "a giant Quetzalcoatlus with airplane-sized wings",
+    "file": "assets/icons/quetzalcoatlus.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-dino": {
+    "kind": "vector",
+    "query": "a dinosaur with a big red crossed-out no symbol",
+    "file": "assets/icons/no-dino.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mosasaurus": {
+    "kind": "vector",
+    "query": "a Mosasaurus giant sea reptile monster",
+    "file": "assets/icons/mosasaurus.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "plesiosaurus": {
+    "kind": "vector",
+    "query": "a Plesiosaurus long serpent neck sea reptile",
+    "file": "assets/icons/plesiosaurus.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "legs-under": {
+    "kind": "vector",
+    "query": "dinosaur legs straight under the body like columns, not sprawled",
+    "file": "assets/icons/legs-under.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "asteroid": {
+    "kind": "vector",
+    "query": "a huge asteroid hurtling towards Earth",
+    "file": "assets/icons/asteroid.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "impact-fire": {
+    "kind": "vector",
+    "query": "an asteroid impact with fire and shockwave",
+    "file": "assets/icons/impact-fire.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dust-sun": {
+    "kind": "vector",
+    "query": "dust and ash blocking out the sun, dark sky",
+    "file": "assets/icons/dust-sun.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "extinction-skull": {
+    "kind": "vector",
+    "query": "a dinosaur skull, extinction, death",
+    "file": "assets/icons/extinction-skull.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "bird-modern": {
+    "kind": "vector",
+    "query": "a small modern bird like a sparrow",
+    "file": "assets/icons/bird-modern.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "feather": {
+    "kind": "vector",
+    "query": "a single bird feather",
+    "file": "assets/icons/feather.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "egg-nest": {
+    "kind": "vector",
+    "query": "eggs in a bird nest",
+    "file": "assets/icons/egg-nest.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fossil-bones": {
+    "kind": "vector",
+    "query": "dinosaur fossil bones in rock",
+    "file": "assets/icons/fossil-bones.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "paleontologist": {
+    "kind": "vector",
+    "query": "a paleontologist brushing a fossil out of the ground",
+    "file": "assets/icons/paleontologist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-trex": {
+    "kind": "cutout",
+    "query": "Tyrannosaurus",
+    "file": "assets/icons/photo-trex.jpg"
+  },
+  "photo-triceratops": {
+    "kind": "cutout",
+    "query": "Triceratops",
+    "file": "assets/icons/photo-triceratops.jpg"
+  },
+  "photo-stegosaurus": {
+    "kind": "cutout",
+    "query": "Stegosaurus",
+    "file": "assets/icons/photo-stegosaurus.jpg"
+  },
+  "photo-brachiosaurus": {
+    "kind": "cutout",
+    "query": "Giraffatitan",
+    "file": "assets/icons/photo-brachiosaurus.jpg"
+  },
+  "photo-velociraptor": {
+    "kind": "cutout",
+    "query": "Velociraptor",
+    "file": "assets/icons/photo-velociraptor.jpg"
+  },
+  "clip-museum": {
+    "kind": "clip",
+    "query": "dinosaur skeleton museum",
+    "file": "assets/clips/clip-museum.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Paul Morphy",
+      "url": "https://www.pexels.com/video/museum-of-natural-history-19014505/"
+    }
+  },
+  "clip-fossil": {
+    "kind": "clip",
+    "query": "fossil excavation dig",
+    "file": "assets/clips/clip-fossil.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "willy one",
+      "url": "https://www.pexels.com/video/aerial-view-of-industrial-mining-quarry-landscape-35840967/"
+    }
+  },
+  "clip-asteroid": {
+    "kind": "clip",
+    "query": "asteroid meteor space",
+    "file": "assets/clips/clip-asteroid.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pixabay",
+      "url": "https://www.pexels.com/video/outer-space-856309/"
+    }
+  },
+  "clip-volcano": {
+    "kind": "clip",
+    "query": "volcano eruption lava",
+    "file": "assets/clips/clip-volcano.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Distill",
+      "url": "https://www.pexels.com/video/lava-erupting-from-the-crater-of-a-volcano-852419/"
+    }
+  },
+  "clip-bird": {
+    "kind": "clip",
+    "query": "sparrow bird branch",
+    "file": "assets/clips/clip-bird.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Patrick",
+      "url": "https://www.pexels.com/video/sparrows-feeding-on-hanging-bird-feeder-in-tree-28675256/"
+    }
+  }
+}
