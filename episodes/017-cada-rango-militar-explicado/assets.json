@@ -1,0 +1,440 @@
+{
+  "army-crowd": {
+    "kind": "vector",
+    "query": "a huge army of hundreds of thousands of soldiers",
+    "file": "assets/icons/army-crowd.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "gears-clock": {
+    "kind": "vector",
+    "query": "gears turning like a clock, working in sync",
+    "file": "assets/icons/gears-clock.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "rank-ladder": {
+    "kind": "vector",
+    "query": "a ladder of military ranks from soldier to general",
+    "file": "assets/icons/rank-ladder.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "insignia-shoulder": {
+    "kind": "vector",
+    "query": "a military rank insignia on a uniform shoulder",
+    "file": "assets/icons/insignia-shoulder.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "chain-command": {
+    "kind": "vector",
+    "query": "a chain of command, linked figures giving orders down a line",
+    "file": "assets/icons/chain-command.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "salute-hand": {
+    "kind": "vector",
+    "query": "a soldier doing a military salute, hand to the forehead",
+    "file": "assets/icons/salute-hand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ancient-army": {
+    "kind": "vector",
+    "query": "an ancient army with a commander leading soldiers",
+    "file": "assets/icons/ancient-army.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "responsibility-weight": {
+    "kind": "vector",
+    "query": "a person carrying a heavy weight of responsibility on the shoulders",
+    "file": "assets/icons/responsibility-weight.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "soldier-basic": {
+    "kind": "vector",
+    "query": "a basic private soldier standing at attention",
+    "file": "assets/icons/soldier-basic.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "boots-training": {
+    "kind": "vector",
+    "query": "military boots marching in basic training",
+    "file": "assets/icons/boots-training.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "clean-badge": {
+    "kind": "vector",
+    "query": "a plain empty uniform sleeve with no stripes",
+    "file": "assets/icons/clean-badge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "driver-truck": {
+    "kind": "vector",
+    "query": "a military truck driver",
+    "file": "assets/icons/driver-truck.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "medic-cross": {
+    "kind": "vector",
+    "query": "a military medic with a red cross treating a wounded soldier",
+    "file": "assets/icons/medic-cross.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "radio-comms": {
+    "kind": "vector",
+    "query": "a soldier with a field radio, communications",
+    "file": "assets/icons/radio-comms.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "corporal-chevron": {
+    "kind": "vector",
+    "query": "a corporal rank chevron stripe insignia",
+    "file": "assets/icons/corporal-chevron.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "small-squad": {
+    "kind": "vector",
+    "query": "a small squad of about six soldiers",
+    "file": "assets/icons/small-squad.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "first-leader": {
+    "kind": "vector",
+    "query": "the first small team leader giving an order",
+    "file": "assets/icons/first-leader.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "frontier-line": {
+    "kind": "vector",
+    "query": "a red frontier line being crossed, a threshold",
+    "file": "assets/icons/frontier-line.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sergeant": {
+    "kind": "vector",
+    "query": "a tough sergeant shouting orders",
+    "file": "assets/icons/sergeant.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "shout-instruct": {
+    "kind": "vector",
+    "query": "a drill sergeant shouting at recruits",
+    "file": "assets/icons/shout-instruct.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "spine-backbone": {
+    "kind": "vector",
+    "query": "a spine backbone, the strong core support",
+    "file": "assets/icons/spine-backbone.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "platoon": {
+    "kind": "vector",
+    "query": "a platoon of about forty soldiers in formation",
+    "file": "assets/icons/platoon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "bridge-link": {
+    "kind": "vector",
+    "query": "a bridge connecting two groups",
+    "file": "assets/icons/bridge-link.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "big-jump": {
+    "kind": "vector",
+    "query": "a big leap upward to a higher level",
+    "file": "assets/icons/big-jump.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "academy-graduation": {
+    "kind": "vector",
+    "query": "a military academy graduation with cap in the air",
+    "file": "assets/icons/academy-graduation.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "star-insignia": {
+    "kind": "vector",
+    "query": "a golden military officer star insignia",
+    "file": "assets/icons/star-insignia.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lieutenant": {
+    "kind": "vector",
+    "query": "a young army lieutenant officer",
+    "file": "assets/icons/lieutenant.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "section-group": {
+    "kind": "vector",
+    "query": "a section of about thirty soldiers",
+    "file": "assets/icons/section-group.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "captain": {
+    "kind": "vector",
+    "query": "an army captain officer",
+    "file": "assets/icons/captain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "company-unit": {
+    "kind": "vector",
+    "query": "a company of over a hundred soldiers",
+    "file": "assets/icons/company-unit.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "know-by-name": {
+    "kind": "vector",
+    "query": "an officer greeting a soldier he knows by name",
+    "file": "assets/icons/know-by-name.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "major": {
+    "kind": "vector",
+    "query": "an army major officer",
+    "file": "assets/icons/major.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "battalion": {
+    "kind": "vector",
+    "query": "a battalion of hundreds of soldiers",
+    "file": "assets/icons/battalion.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "colonel": {
+    "kind": "vector",
+    "query": "an army colonel senior officer",
+    "file": "assets/icons/colonel.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "regiment": {
+    "kind": "vector",
+    "query": "a regiment of thousands of soldiers",
+    "file": "assets/icons/regiment.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "career-peak": {
+    "kind": "vector",
+    "query": "a person reaching the peak of a mountain, career top",
+    "file": "assets/icons/career-peak.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "general-stars": {
+    "kind": "vector",
+    "query": "an army general with many stars on the shoulder",
+    "file": "assets/icons/general-stars.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "brigade": {
+    "kind": "vector",
+    "query": "a large military brigade of several thousand soldiers",
+    "file": "assets/icons/brigade.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "division-army": {
+    "kind": "vector",
+    "query": "an even bigger military division",
+    "file": "assets/icons/division-army.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "strategy-map": {
+    "kind": "vector",
+    "query": "a general planning war strategy on a map with figures",
+    "file": "assets/icons/strategy-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "baton-saber": {
+    "kind": "vector",
+    "query": "a crossed general baton and saber, top military symbol",
+    "file": "assets/icons/baton-saber.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "few-reach": {
+    "kind": "vector",
+    "query": "a tiny few people at the very top of a pyramid",
+    "file": "assets/icons/few-reach.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "king-crown": {
+    "kind": "vector",
+    "query": "a royal king crown, captain general",
+    "file": "assets/icons/king-crown.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "chevrons": {
+    "kind": "vector",
+    "query": "chevron stripes rank insignia on a sleeve",
+    "file": "assets/icons/chevrons.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "count-stars": {
+    "kind": "vector",
+    "query": "counting stars on an epaulette, more stars higher rank",
+    "file": "assets/icons/count-stars.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "chain-links": {
+    "kind": "vector",
+    "query": "strong chain links joined together",
+    "file": "assets/icons/chain-links.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "trench-soldier": {
+    "kind": "vector",
+    "query": "a soldier in a trench receiving an order",
+    "file": "assets/icons/trench-soldier.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-parade": {
+    "kind": "cutout",
+    "query": "Desfile militar",
+    "file": "assets/icons/photo-parade.png"
+  },
+  "photo-soldier": {
+    "kind": "cutout",
+    "query": "Soldado",
+    "file": "assets/icons/photo-soldier.jpg"
+  },
+  "photo-general": {
+    "kind": "cutout",
+    "query": "General",
+    "file": "assets/icons/photo-general.jpg"
+  },
+  "photo-sergeant": {
+    "kind": "cutout",
+    "query": "Sargento",
+    "file": "assets/icons/photo-sergeant.png"
+  },
+  "photo-colonel": {
+    "kind": "vector",
+    "query": "Coronel",
+    "file": "assets/icons/photo-colonel.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-salute": {
+    "kind": "cutout",
+    "query": "Saludo militar",
+    "file": "assets/icons/photo-salute.jpg"
+  },
+  "photo-insignia": {
+    "kind": "vector",
+    "query": "Divisa (rango militar)",
+    "file": "assets/icons/photo-insignia.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "clip-march": {
+    "kind": "clip",
+    "query": "soldiers marching",
+    "file": "assets/clips/clip-march.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Anya  Juárez Tenorio",
+      "url": "https://www.pexels.com/video/vibrant-military-parade-in-urban-setting-28593802/"
+    }
+  },
+  "clip-parade": {
+    "kind": "clip",
+    "query": "military parade",
+    "file": "assets/clips/clip-parade.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "utopia 36",
+      "url": "https://www.pexels.com/video/aerial-view-of-a-military-parade-in-the-city-17178510/"
+    }
+  },
+  "clip-salute": {
+    "kind": "clip",
+    "query": "soldier saluting",
+    "file": "assets/clips/clip-salute.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Anya  Juárez Tenorio",
+      "url": "https://www.pexels.com/video/military-parade-with-soldiers-and-armored-vehicle-28581270/"
+    }
+  },
+  "clip-training": {
+    "kind": "clip",
+    "query": "army training soldiers",
+    "file": "assets/clips/clip-training.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "CityXcape",
+      "url": "https://www.pexels.com/video/armies-firing-at-the-shooting-range-8605303/"
+    }
+  },
+  "clip-helicopter": {
+    "kind": "clip",
+    "query": "military helicopter",
+    "file": "assets/clips/clip-helicopter.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Dubang chang",
+      "url": "https://www.pexels.com/video/a-red-helicopter-flying-in-the-blue-sky-28099488/"
+    }
+  },
+  "clip-flag": {
+    "kind": "clip",
+    "query": "flag waving wind",
+    "file": "assets/clips/clip-flag.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Cam Sykes",
+      "url": "https://www.pexels.com/video/national-flags-of-different-countries-waving-on-poles-12174927/"
+    }
+  },
+  "clip-tank": {
+    "kind": "clip",
+    "query": "military tank",
+    "file": "assets/clips/clip-tank.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Matias Luge",
+      "url": "https://www.pexels.com/video/detailed-model-of-wwii-combat-tank-39149416/"
+    }
+  }
+}
