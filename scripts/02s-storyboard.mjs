@@ -311,8 +311,11 @@ markers.forEach((mk, i) => {
 }
 
 // TOPE (anti-hold largo) para TEXTOS y FOTOS (no para los doodles acumulativos, que persisten en el lienzo)
-const MAXLIFE = 5.0;
-for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" && !e._keep && !e._accum && !e._hold && !e._hero) e.out = Math.min(e.out, +(e.in + MAXLIFE).toFixed(2));
+const MAXLIFE = 5.0, MEDIALIFE = 8.5; // fotos/clips reales pueden durar más (protagonismo del 30-40%)
+for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" && !e._keep && !e._accum && !e._hold && !e._hero) {
+  const isMedia = e.type === "clip" || e.type === "gif" || (e.type === "image" && e.kind === "cutout");
+  e.out = Math.min(e.out, +(e.in + (isMedia ? MEDIALIFE : MAXLIFE)).toFixed(2));
+}
 
 // SIN HUECOS (limitado) → un elemento puede alargarse para tapar un microhueco, pero NUNCA más de 3.5s total.
 //   Va ANTES del centrado. Si un beat es tan pobre que deja hueco > tope, lo cazará el gate y hay que densificar.

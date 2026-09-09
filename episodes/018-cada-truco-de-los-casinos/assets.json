@@ -1,0 +1,403 @@
+{
+  "banca-gana": {
+    "kind": "vector",
+    "query": "the casino house always wins, a smug dealer taking all the chips",
+    "file": "assets/icons/banca-gana.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "house-edge": {
+    "kind": "vector",
+    "query": "a balance scale tilted heavily to the casino side",
+    "file": "assets/icons/house-edge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "roulette-37": {
+    "kind": "vector",
+    "query": "a roulette wheel highlighting the green zero pocket",
+    "file": "assets/icons/roulette-37.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "money-printer": {
+    "kind": "vector",
+    "query": "a machine printing endless money for the casino",
+    "file": "assets/icons/money-printer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-clock": {
+    "kind": "vector",
+    "query": "a wall clock with a big red crossed-out no symbol",
+    "file": "assets/icons/no-clock.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-window": {
+    "kind": "vector",
+    "query": "a wall with no windows, sealed from daylight",
+    "file": "assets/icons/no-window.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lost-time": {
+    "kind": "vector",
+    "query": "a confused person who has lost track of time",
+    "file": "assets/icons/lost-time.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "maze": {
+    "kind": "vector",
+    "query": "a confusing maze labyrinth floor plan",
+    "file": "assets/icons/maze.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "exit-hidden": {
+    "kind": "vector",
+    "query": "a hidden hard to find exit door sign",
+    "file": "assets/icons/exit-hidden.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "free-drink": {
+    "kind": "vector",
+    "query": "a free cocktail drink offered on a tray",
+    "file": "assets/icons/free-drink.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "alcohol-judgment": {
+    "kind": "vector",
+    "query": "a tipsy person making bad impulsive decisions",
+    "file": "assets/icons/alcohol-judgment.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "chips-vs-bill": {
+    "kind": "vector",
+    "query": "casino chips next to a real banknote, same value",
+    "file": "assets/icons/chips-vs-bill.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "plastic-toy": {
+    "kind": "vector",
+    "query": "casino chips looking like harmless plastic toys",
+    "file": "assets/icons/plastic-toy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "near-miss": {
+    "kind": "vector",
+    "query": "a slot machine showing two sevens and a third just missing",
+    "file": "assets/icons/near-miss.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dopamine-brain": {
+    "kind": "vector",
+    "query": "a brain releasing dopamine sparkles of pleasure",
+    "file": "assets/icons/dopamine-brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hypnotic": {
+    "kind": "vector",
+    "query": "hypnotic swirling eyes in a trance",
+    "file": "assets/icons/hypnotic.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "rng-chip": {
+    "kind": "vector",
+    "query": "a computer chip with random numbers inside a slot machine",
+    "file": "assets/icons/rng-chip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "martingale-fail": {
+    "kind": "vector",
+    "query": "a betting strategy doubling and then crashing to zero",
+    "file": "assets/icons/martingale-fail.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-system": {
+    "kind": "vector",
+    "query": "a losing gambling system with a big red X",
+    "file": "assets/icons/no-system.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "card-counting": {
+    "kind": "vector",
+    "query": "a clever player counting cards with numbers in his head",
+    "file": "assets/icons/card-counting.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "kicked-out": {
+    "kind": "vector",
+    "query": "a bouncer escorting a player out of a casino door",
+    "file": "assets/icons/kicked-out.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "gamblers-fallacy": {
+    "kind": "vector",
+    "query": "roulette results red red red and a person thinking now black",
+    "file": "assets/icons/gamblers-fallacy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ball-no-memory": {
+    "kind": "vector",
+    "query": "a roulette ball with a crossed-out memory brain, no memory",
+    "file": "assets/icons/ball-no-memory.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vip-comp": {
+    "kind": "vector",
+    "query": "free hotel room and dinner comps given to a gambler",
+    "file": "assets/icons/vip-comp.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "treated-king": {
+    "kind": "vector",
+    "query": "a gambler treated like a king with a crown",
+    "file": "assets/icons/treated-king.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "scent-air": {
+    "kind": "vector",
+    "query": "pleasant scent coming out of an air vent",
+    "file": "assets/icons/scent-air.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "atm-nearby": {
+    "kind": "vector",
+    "query": "an ATM cash machine conveniently right next to the games",
+    "file": "assets/icons/atm-nearby.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cant-win": {
+    "kind": "vector",
+    "query": "an impossible task, you cannot win, red cross",
+    "file": "assets/icons/cant-win.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dont-play": {
+    "kind": "vector",
+    "query": "dice with a big red crossed-out no symbol, do not gamble",
+    "file": "assets/icons/dont-play.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "set-limit": {
+    "kind": "vector",
+    "query": "a person setting a budget limit like a cinema ticket",
+    "file": "assets/icons/set-limit.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "walk-away": {
+    "kind": "vector",
+    "query": "a winner walking away from the table with his money",
+    "file": "assets/icons/walk-away.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "infinite-time": {
+    "kind": "vector",
+    "query": "the casino has infinite time and money, an hourglass and vault",
+    "file": "assets/icons/infinite-time.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "know-tricks": {
+    "kind": "vector",
+    "query": "a smart informed person who knows all the tricks",
+    "file": "assets/icons/know-tricks.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-casino": {
+    "kind": "cutout",
+    "query": "Casino",
+    "file": "assets/icons/photo-casino.jpg"
+  },
+  "photo-roulette": {
+    "kind": "cutout",
+    "query": "Ruleta",
+    "file": "assets/icons/photo-roulette.jpg"
+  },
+  "photo-slot": {
+    "kind": "cutout",
+    "query": "Máquina tragamonedas",
+    "file": "assets/icons/photo-slot.jpg"
+  },
+  "photo-chips": {
+    "kind": "cutout",
+    "query": "Ficha de casino",
+    "file": "assets/icons/photo-chips.jpg"
+  },
+  "photo-cards": {
+    "kind": "cutout",
+    "query": "Baraja de cartas",
+    "file": "assets/icons/photo-cards.jpg"
+  },
+  "photo-vegas": {
+    "kind": "cutout",
+    "query": "Las Vegas Strip",
+    "file": "assets/icons/photo-vegas.jpg"
+  },
+  "photo-blackjack": {
+    "kind": "cutout",
+    "query": "Blackjack",
+    "file": "assets/icons/photo-blackjack.jpg"
+  },
+  "photo-dice": {
+    "kind": "cutout",
+    "query": "Dados",
+    "file": "assets/icons/photo-dice.png"
+  },
+  "photo-poker": {
+    "kind": "cutout",
+    "query": "Póquer",
+    "file": "assets/icons/photo-poker.jpg"
+  },
+  "photo-money": {
+    "kind": "cutout",
+    "query": "Billete de banco",
+    "file": "assets/icons/photo-money.jpg"
+  },
+  "clip-roulette": {
+    "kind": "clip",
+    "query": "roulette wheel spinning casino",
+    "file": "assets/clips/clip-roulette.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Evgenij Mikhailov",
+      "url": "https://www.pexels.com/video/spinning-roulette-wheel-in-casino-game-35728854/"
+    }
+  },
+  "clip-slot": {
+    "kind": "clip",
+    "query": "slot machine casino",
+    "file": "assets/clips/clip-slot.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pavel Danilyuk",
+      "url": "https://www.pexels.com/video/people-playing-at-the-slot-machine-7608129/"
+    }
+  },
+  "clip-cards": {
+    "kind": "clip",
+    "query": "dealing playing cards",
+    "file": "assets/clips/clip-cards.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "MART  PRODUCTION",
+      "url": "https://www.pexels.com/video/person-holding-playing-cards-7328530/"
+    }
+  },
+  "clip-dice": {
+    "kind": "clip",
+    "query": "rolling dice",
+    "file": "assets/clips/clip-dice.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Efrem  Efre",
+      "url": "https://www.pexels.com/video/slow-motion-red-dice-rolling-on-white-surface-34805837/"
+    }
+  },
+  "clip-chips": {
+    "kind": "clip",
+    "query": "casino chips stack",
+    "file": "assets/clips/clip-chips.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/a-male-counting-casino-tokens-5920617/"
+    }
+  },
+  "clip-casino-floor": {
+    "kind": "clip",
+    "query": "casino interior lights",
+    "file": "assets/clips/clip-casino-floor.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "George Morina",
+      "url": "https://www.pexels.com/video/video-of-a-casino-at-night-5266812/"
+    }
+  },
+  "clip-cocktail": {
+    "kind": "clip",
+    "query": "cocktail drink bar",
+    "file": "assets/clips/clip-cocktail.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Matheus Bertelli",
+      "url": "https://www.pexels.com/video/a-man-is-making-a-drink-at-a-bar-19229595/"
+    }
+  },
+  "clip-poker": {
+    "kind": "clip",
+    "query": "poker table cards",
+    "file": "assets/clips/clip-poker.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Victor Silva",
+      "url": "https://www.pexels.com/video/colorful-chips-and-playing-cards-on-a-casino-table-35429456/"
+    }
+  },
+  "clip-neon": {
+    "kind": "clip",
+    "query": "neon lights night city",
+    "file": "assets/clips/clip-neon.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pixabay",
+      "url": "https://www.pexels.com/video/video-of-people-waiting-for-a-taxi-on-a-rainy-night-855432/"
+    }
+  },
+  "clip-money": {
+    "kind": "clip",
+    "query": "counting cash money",
+    "file": "assets/clips/clip-money.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Please donation",
+      "url": "https://www.pexels.com/video/a-person-counting-bank-notes-on-the-table-6197173/"
+    }
+  },
+  "clip-jackpot": {
+    "kind": "clip",
+    "query": "slot machine win jackpot",
+    "file": "assets/clips/clip-jackpot.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pavel Danilyuk",
+      "url": "https://www.pexels.com/video/people-gambling-at-a-casino-7608140/"
+    }
+  },
+  "clip-blackjack": {
+    "kind": "clip",
+    "query": "blackjack casino table",
+    "file": "assets/clips/clip-blackjack.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pavel Danilyuk",
+      "url": "https://www.pexels.com/video/a-person-shuffling-the-playing-cards-7608137/"
+    }
+  }
+}
