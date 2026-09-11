@@ -1,0 +1,388 @@
+{
+  "brain-lies": {
+    "kind": "vector",
+    "query": "a cartoon brain with a long pinocchio nose telling lies",
+    "file": "assets/icons/brain-lies.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mental-shortcut": {
+    "kind": "vector",
+    "query": "a brain taking a shortcut across a winding path",
+    "file": "assets/icons/mental-shortcut.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "confirmation-bias": {
+    "kind": "vector",
+    "query": "a person wearing horse blinkers seeing only one thing",
+    "file": "assets/icons/confirmation-bias.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "two-views-news": {
+    "kind": "vector",
+    "query": "two people reading the same newspaper reaching opposite conclusions",
+    "file": "assets/icons/two-views-news.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "halo-effect": {
+    "kind": "vector",
+    "query": "a well dressed person with a glowing golden halo",
+    "file": "assets/icons/halo-effect.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "first-impression": {
+    "kind": "vector",
+    "query": "a first impression handshake with a big eye judging",
+    "file": "assets/icons/first-impression.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "anchoring": {
+    "kind": "vector",
+    "query": "a heavy ship anchor attached to a price tag",
+    "file": "assets/icons/anchoring.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fake-discount": {
+    "kind": "vector",
+    "query": "a price tag crossed out from one hundred to forty",
+    "file": "assets/icons/fake-discount.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sunk-cost": {
+    "kind": "vector",
+    "query": "a person dragging a heavy ball chained to the past",
+    "file": "assets/icons/sunk-cost.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "boring-movie": {
+    "kind": "vector",
+    "query": "a bored person still watching a boring movie screen",
+    "file": "assets/icons/boring-movie.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "availability-bias": {
+    "kind": "vector",
+    "query": "a brain grabbing the easiest nearest memory on a shelf",
+    "file": "assets/icons/availability-bias.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "plane-crash-news": {
+    "kind": "vector",
+    "query": "a television showing a scary plane crash headline",
+    "file": "assets/icons/plane-crash-news.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dunning-kruger": {
+    "kind": "vector",
+    "query": "a tiny beginner standing proudly on a tall peak of confidence",
+    "file": "assets/icons/dunning-kruger.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "expert-doubt": {
+    "kind": "vector",
+    "query": "a wise expert scratching head full of doubt and questions",
+    "file": "assets/icons/expert-doubt.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hindsight-bias": {
+    "kind": "vector",
+    "query": "a person pointing backwards saying I knew it all along",
+    "file": "assets/icons/hindsight-bias.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "bandwagon": {
+    "kind": "vector",
+    "query": "a crowd of people all blindly following one arrow",
+    "file": "assets/icons/bandwagon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "full-restaurant": {
+    "kind": "vector",
+    "query": "a packed busy restaurant next to an empty one",
+    "file": "assets/icons/full-restaurant.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "loss-aversion": {
+    "kind": "vector",
+    "query": "a balance scale where losing money weighs double",
+    "file": "assets/icons/loss-aversion.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "negativity-bias": {
+    "kind": "vector",
+    "query": "one dark storm cloud covering many bright suns",
+    "file": "assets/icons/negativity-bias.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "decoy-effect": {
+    "kind": "vector",
+    "query": "three cup sizes small medium large with medium as a trap",
+    "file": "assets/icons/decoy-effect.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "survivorship-bias": {
+    "kind": "vector",
+    "query": "a fighter plane covered in bullet holes, only survivors seen",
+    "file": "assets/icons/survivorship-bias.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "framing-effect": {
+    "kind": "vector",
+    "query": "a yogurt pot labeled ninety percent fat free versus ten percent fat",
+    "file": "assets/icons/framing-effect.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "authority-bias": {
+    "kind": "vector",
+    "query": "a white lab coat commanding blind trust",
+    "file": "assets/icons/authority-bias.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "clustering-illusion": {
+    "kind": "vector",
+    "query": "a face pattern imagined in random scattered dots",
+    "file": "assets/icons/clustering-illusion.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "gamblers-streak": {
+    "kind": "vector",
+    "query": "roulette showing a streak, chance has no memory",
+    "file": "assets/icons/gamblers-streak.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "bias-blind-spot": {
+    "kind": "vector",
+    "query": "a person with a mirror unable to see their own flaw",
+    "file": "assets/icons/bias-blind-spot.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pointing-others": {
+    "kind": "vector",
+    "query": "a finger pointing at other peoples mistakes",
+    "file": "assets/icons/pointing-others.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "built-in-factory": {
+    "kind": "vector",
+    "query": "a brain stamped made in factory with gears, built in",
+    "file": "assets/icons/built-in-factory.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pause-button": {
+    "kind": "vector",
+    "query": "a pause button glowing inside a brain",
+    "file": "assets/icons/pause-button.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "think-vs-react": {
+    "kind": "vector",
+    "query": "a fork in the road, one path think one path react",
+    "file": "assets/icons/think-vs-react.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "know-traps": {
+    "kind": "vector",
+    "query": "a smart person with a shield who knows all the traps",
+    "file": "assets/icons/know-traps.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "brain-gears": {
+    "kind": "vector",
+    "query": "a brain full of turning gears thinking hard",
+    "file": "assets/icons/brain-gears.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "objective-illusion": {
+    "kind": "vector",
+    "query": "a person proudly wearing an I am objective badge while blindfolded",
+    "file": "assets/icons/objective-illusion.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "endowment-effect": {
+    "kind": "vector",
+    "query": "a person hugging their old stuff overvaluing what they own",
+    "file": "assets/icons/endowment-effect.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ikea-effect": {
+    "kind": "vector",
+    "query": "a proud person valuing a wobbly furniture they built themselves",
+    "file": "assets/icons/ikea-effect.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "present-bias": {
+    "kind": "vector",
+    "query": "a person choosing a small reward now over a bigger reward later",
+    "file": "assets/icons/present-bias.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mere-exposure": {
+    "kind": "vector",
+    "query": "a repeated advertisement seen many times becoming familiar and liked",
+    "file": "assets/icons/mere-exposure.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-brain": {
+    "kind": "cutout",
+    "query": "Cerebro humano",
+    "file": "assets/icons/photo-brain.jpg"
+  },
+  "photo-crowd": {
+    "kind": "cutout",
+    "query": "Multitud de personas",
+    "file": "assets/icons/photo-crowd.jpg"
+  },
+  "photo-airplane": {
+    "kind": "cutout",
+    "query": "Avión de pasajeros",
+    "file": "assets/icons/photo-airplane.jpg"
+  },
+  "photo-doctor": {
+    "kind": "cutout",
+    "query": "Médico con bata",
+    "file": "assets/icons/photo-doctor.png"
+  },
+  "photo-mirror": {
+    "kind": "cutout",
+    "query": "Espejo",
+    "file": "assets/icons/photo-mirror.jpg"
+  },
+  "photo-cloud": {
+    "kind": "cutout",
+    "query": "Nube en el cielo",
+    "file": "assets/icons/photo-cloud.jpg"
+  },
+  "photo-mall": {
+    "kind": "cutout",
+    "query": "Centro comercial",
+    "file": "assets/icons/photo-mall.jpg"
+  },
+  "photo-restaurant": {
+    "kind": "vector",
+    "query": "Restaurante lleno",
+    "file": "assets/icons/photo-restaurant.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-dice": {
+    "kind": "cutout",
+    "query": "Dados",
+    "file": "assets/icons/photo-dice.png"
+  },
+  "photo-newspaper": {
+    "kind": "cutout",
+    "query": "Periódico",
+    "file": "assets/icons/photo-newspaper.jpg"
+  },
+  "clip-brain": {
+    "kind": "clip",
+    "query": "human brain animation neurons",
+    "file": "assets/clips/clip-brain.mp4"
+  },
+  "clip-crowd": {
+    "kind": "clip",
+    "query": "crowd of people walking street",
+    "file": "assets/clips/clip-crowd.mp4"
+  },
+  "clip-shopping": {
+    "kind": "clip",
+    "query": "people shopping mall",
+    "file": "assets/clips/clip-shopping.mp4"
+  },
+  "clip-airplane": {
+    "kind": "clip",
+    "query": "airplane flying in sky",
+    "file": "assets/clips/clip-airplane.mp4"
+  },
+  "clip-money": {
+    "kind": "clip",
+    "query": "counting cash money",
+    "file": "assets/clips/clip-money.mp4"
+  },
+  "clip-thinking": {
+    "kind": "clip",
+    "query": "person thinking pensive worried",
+    "file": "assets/clips/clip-thinking.mp4"
+  },
+  "clip-restaurant": {
+    "kind": "clip",
+    "query": "busy restaurant people dining",
+    "file": "assets/clips/clip-restaurant.mp4"
+  },
+  "clip-sale": {
+    "kind": "clip",
+    "query": "sale discount shopping tags",
+    "file": "assets/clips/clip-sale.mp4"
+  },
+  "clip-doctor": {
+    "kind": "clip",
+    "query": "doctor in white coat hospital",
+    "file": "assets/clips/clip-doctor.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/person-wearing-latex-gloves-7579838/"
+    }
+  },
+  "clip-clouds": {
+    "kind": "clip",
+    "query": "clouds sky timelapse",
+    "file": "assets/clips/clip-clouds.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Ilya Klimenko",
+      "url": "https://www.pexels.com/video/time-lapse-video-of-the-sky-9540152/"
+    }
+  },
+  "clip-dice": {
+    "kind": "clip",
+    "query": "rolling dice casino",
+    "file": "assets/clips/clip-dice.mp4"
+  },
+  "clip-mirror": {
+    "kind": "clip",
+    "query": "person looking in mirror reflection",
+    "file": "assets/clips/clip-mirror.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/woman-looking-at-different-mirrors-6764077/"
+    }
+  }
+}
