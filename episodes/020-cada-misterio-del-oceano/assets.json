@@ -1,0 +1,431 @@
+{
+  "ocean-unknown": {
+    "kind": "vector",
+    "query": "a dark deep ocean with a big question mark in the depths",
+    "file": "assets/icons/ocean-unknown.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "moon-vs-ocean": {
+    "kind": "vector",
+    "query": "the moon fully mapped but the ocean floor dark and unknown",
+    "file": "assets/icons/moon-vs-ocean.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "deep-pressure": {
+    "kind": "vector",
+    "query": "a submarine being crushed by deep sea pressure",
+    "file": "assets/icons/deep-pressure.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mariana-trench": {
+    "kind": "vector",
+    "query": "a cross section of the deepest ocean trench",
+    "file": "assets/icons/mariana-trench.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "everest-underwater": {
+    "kind": "vector",
+    "query": "mount everest fully submerged under the sea",
+    "file": "assets/icons/everest-underwater.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-sunlight": {
+    "kind": "vector",
+    "query": "sun rays failing to reach the dark deep ocean",
+    "file": "assets/icons/no-sunlight.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "the-bloop": {
+    "kind": "vector",
+    "query": "a spooky mysterious sound bubble coming from the deep sea",
+    "file": "assets/icons/the-bloop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "iceberg-crack": {
+    "kind": "vector",
+    "query": "a huge iceberg cracking and breaking apart",
+    "file": "assets/icons/iceberg-crack.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hydrophone": {
+    "kind": "vector",
+    "query": "an underwater microphone listening to ocean sounds",
+    "file": "assets/icons/hydrophone.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sound-wave-sea": {
+    "kind": "vector",
+    "query": "a mysterious sound wave traveling underwater",
+    "file": "assets/icons/sound-wave-sea.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "kraken": {
+    "kind": "vector",
+    "query": "a giant legendary kraken with tentacles attacking a ship",
+    "file": "assets/icons/kraken.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "giant-squid": {
+    "kind": "vector",
+    "query": "a giant squid with an enormous eye",
+    "file": "assets/icons/giant-squid.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sperm-whale-scars": {
+    "kind": "vector",
+    "query": "a sperm whale with round sucker scars on its skin",
+    "file": "assets/icons/sperm-whale-scars.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "bioluminescence": {
+    "kind": "vector",
+    "query": "a glowing bioluminescent deep sea fish",
+    "file": "assets/icons/bioluminescence.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "anglerfish": {
+    "kind": "vector",
+    "query": "a scary anglerfish with a glowing lure",
+    "file": "assets/icons/anglerfish.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "milky-sea": {
+    "kind": "vector",
+    "query": "a glowing white milky sea at night",
+    "file": "assets/icons/milky-sea.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lonely-whale": {
+    "kind": "vector",
+    "query": "a single lonely whale singing in the dark ocean",
+    "file": "assets/icons/lonely-whale.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sound-frequency": {
+    "kind": "vector",
+    "query": "a sound frequency wave labeled 52 hertz",
+    "file": "assets/icons/sound-frequency.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "rogue-wave": {
+    "kind": "vector",
+    "query": "a giant rogue wave wall towering over a tiny ship",
+    "file": "assets/icons/rogue-wave.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "oil-rig-sensor": {
+    "kind": "vector",
+    "query": "an oil platform with a wave measuring sensor",
+    "file": "assets/icons/oil-rig-sensor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "blue-hole": {
+    "kind": "vector",
+    "query": "a deep dark blue hole sinkhole in the sea seen from above",
+    "file": "assets/icons/blue-hole.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-oxygen": {
+    "kind": "vector",
+    "query": "a no oxygen dead zone warning symbol underwater",
+    "file": "assets/icons/no-oxygen.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "underwater-lake": {
+    "kind": "vector",
+    "query": "an impossible lake with a shore under the ocean",
+    "file": "assets/icons/underwater-lake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "toxic-brine": {
+    "kind": "vector",
+    "query": "toxic salty brine water with a skull warning",
+    "file": "assets/icons/toxic-brine.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "yonaguni": {
+    "kind": "vector",
+    "query": "a stepped stone monument submerged underwater",
+    "file": "assets/icons/yonaguni.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "carved-steps": {
+    "kind": "vector",
+    "query": "carved right angle stone steps under the sea",
+    "file": "assets/icons/carved-steps.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "bermuda-triangle": {
+    "kind": "vector",
+    "query": "a triangle on a map with a ship and plane vanishing",
+    "file": "assets/icons/bermuda-triangle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "compass-fail": {
+    "kind": "vector",
+    "query": "a spinning broken compass out of control",
+    "file": "assets/icons/compass-fail.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ghost-ship": {
+    "kind": "vector",
+    "query": "an empty ghost sailing ship adrift with nobody aboard",
+    "file": "assets/icons/ghost-ship.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "table-no-crew": {
+    "kind": "vector",
+    "query": "a table set with food on a ship but no crew",
+    "file": "assets/icons/table-no-crew.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "deep-gigantism": {
+    "kind": "vector",
+    "query": "a monstrously giant deep sea crab",
+    "file": "assets/icons/deep-gigantism.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "giant-isopod": {
+    "kind": "vector",
+    "query": "a giant isopod that looks like a huge woodlouse bug",
+    "file": "assets/icons/giant-isopod.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "new-species": {
+    "kind": "vector",
+    "query": "a strange new sea creature with a discovery tag",
+    "file": "assets/icons/new-species.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hydrothermal-vent": {
+    "kind": "vector",
+    "query": "a smoking hydrothermal vent on the ocean floor",
+    "file": "assets/icons/hydrothermal-vent.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "origin-of-life": {
+    "kind": "vector",
+    "query": "a spark of the origin of life in the deep sea",
+    "file": "assets/icons/origin-of-life.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "last-frontier": {
+    "kind": "vector",
+    "query": "the deep ocean as the last unexplored frontier with a flag",
+    "file": "assets/icons/last-frontier.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "underwater-waterfall": {
+    "kind": "vector",
+    "query": "a giant waterfall cascading underwater on the ocean floor",
+    "file": "assets/icons/underwater-waterfall.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-ocean": {
+    "kind": "cutout",
+    "query": "Océano",
+    "file": "assets/icons/photo-ocean.jpg"
+  },
+  "photo-wave": {
+    "kind": "cutout",
+    "query": "Ola grande",
+    "file": "assets/icons/photo-wave.jpg"
+  },
+  "photo-whale": {
+    "kind": "cutout",
+    "query": "Ballena azul",
+    "file": "assets/icons/photo-whale.jpg"
+  },
+  "photo-squid": {
+    "kind": "cutout",
+    "query": "Calamar gigante",
+    "file": "assets/icons/photo-squid.png"
+  },
+  "photo-jellyfish": {
+    "kind": "cutout",
+    "query": "Medusa",
+    "file": "assets/icons/photo-jellyfish.jpg"
+  },
+  "photo-anglerfish": {
+    "kind": "cutout",
+    "query": "Pez abisal",
+    "file": "assets/icons/photo-anglerfish.jpg"
+  },
+  "photo-bluehole": {
+    "kind": "cutout",
+    "query": "Gran Agujero Azul",
+    "file": "assets/icons/photo-bluehole.jpg"
+  },
+  "photo-submarine": {
+    "kind": "cutout",
+    "query": "Batiscafo",
+    "file": "assets/icons/photo-submarine.jpg"
+  },
+  "photo-shipwreck": {
+    "kind": "cutout",
+    "query": "Naufragio",
+    "file": "assets/icons/photo-shipwreck.jpg"
+  },
+  "photo-coral": {
+    "kind": "cutout",
+    "query": "Arrecife de coral",
+    "file": "assets/icons/photo-coral.jpg"
+  },
+  "clip-ocean": {
+    "kind": "clip",
+    "query": "deep blue ocean underwater",
+    "file": "assets/clips/clip-ocean.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pavel Danilyuk",
+      "url": "https://www.pexels.com/video/ocean-surface-7318087/"
+    }
+  },
+  "clip-waves": {
+    "kind": "clip",
+    "query": "giant ocean waves storm sea",
+    "file": "assets/clips/clip-waves.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Ronald Hayward",
+      "url": "https://www.pexels.com/video/series-of-strong-waves-in-the-sea-3719411/"
+    }
+  },
+  "clip-whale": {
+    "kind": "clip",
+    "query": "whale swimming underwater ocean",
+    "file": "assets/clips/clip-whale.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Zlatin Georgiev",
+      "url": "https://www.pexels.com/video/killer-whales-swimming-underwater-5607993/"
+    }
+  },
+  "clip-jellyfish": {
+    "kind": "clip",
+    "query": "jellyfish glowing underwater",
+    "file": "assets/clips/clip-jellyfish.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Magda Ehlers",
+      "url": "https://www.pexels.com/video/ethereal-green-jellyfish-glide-in-dark-ocean-32607425/"
+    }
+  },
+  "clip-deepsea": {
+    "kind": "clip",
+    "query": "dark deep sea underwater",
+    "file": "assets/clips/clip-deepsea.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "JUN HO LEE",
+      "url": "https://www.pexels.com/video/diver-exploring-underwater-cave-in-deep-ocean-38579846/"
+    }
+  },
+  "clip-diver": {
+    "kind": "clip",
+    "query": "scuba diver deep underwater",
+    "file": "assets/clips/clip-diver.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "JUN HO LEE",
+      "url": "https://www.pexels.com/video/scuba-divers-exploring-ocean-trench-34413539/"
+    }
+  },
+  "clip-submarine": {
+    "kind": "clip",
+    "query": "underwater submarine deep sea",
+    "file": "assets/clips/clip-submarine.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "JUN HO LEE",
+      "url": "https://www.pexels.com/video/diver-exploring-underwater-cave-in-deep-ocean-38579846/"
+    }
+  },
+  "clip-storm-sea": {
+    "kind": "clip",
+    "query": "stormy sea waves ship",
+    "file": "assets/clips/clip-storm-sea.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Sururi Ballıdağ Director",
+      "url": "https://www.pexels.com/video/scenic-istanbul-ferry-ride-on-a-cloudy-day-35269186/"
+    }
+  },
+  "clip-coral": {
+    "kind": "clip",
+    "query": "coral reef fish underwater",
+    "file": "assets/clips/clip-coral.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "JUN HO LEE",
+      "url": "https://www.pexels.com/video/vibrant-underwater-scene-with-tropical-fish-39059239/"
+    }
+  },
+  "clip-abyss": {
+    "kind": "clip",
+    "query": "dark underwater abyss deep",
+    "file": "assets/clips/clip-abyss.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "JUN HO LEE",
+      "url": "https://www.pexels.com/video/diver-exploring-underwater-cave-with-flashlight-35832901/"
+    }
+  },
+  "clip-shipwreck": {
+    "kind": "clip",
+    "query": "shipwreck underwater wreck",
+    "file": "assets/clips/clip-shipwreck.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "JUN HO LEE",
+      "url": "https://www.pexels.com/video/stunning-underwater-wreck-teeming-with-marine-life-33034716/"
+    }
+  },
+  "clip-bioluminescence": {
+    "kind": "clip",
+    "query": "bioluminescent glowing water night",
+    "file": "assets/clips/clip-bioluminescence.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Alex Moliski",
+      "url": "https://www.pexels.com/video/mesmerizing-jellyfish-gliding-underwater-36543993/"
+    }
+  }
+}
