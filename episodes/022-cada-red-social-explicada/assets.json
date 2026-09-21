@@ -1,0 +1,428 @@
+{
+  "you-are-product": {
+    "kind": "vector",
+    "query": "a person with a price tag barcode, you are the product",
+    "file": "assets/icons/you-are-product.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "attention-economy": {
+    "kind": "vector",
+    "query": "human eyeballs being sold and auctioned like a market",
+    "file": "assets/icons/attention-economy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dopamine-hit": {
+    "kind": "vector",
+    "query": "a brain getting a dopamine hit from a like notification",
+    "file": "assets/icons/dopamine-hit.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "slot-machine-phone": {
+    "kind": "vector",
+    "query": "a smartphone that is also a slot machine",
+    "file": "assets/icons/slot-machine-phone.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "variable-reward": {
+    "kind": "vector",
+    "query": "a mystery gift box with an unknown random reward",
+    "file": "assets/icons/variable-reward.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pull-to-refresh": {
+    "kind": "vector",
+    "query": "pulling down to refresh a feed like a slot lever",
+    "file": "assets/icons/pull-to-refresh.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "infinite-scroll": {
+    "kind": "vector",
+    "query": "an endless scroll feed with no bottom, never ending",
+    "file": "assets/icons/infinite-scroll.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "red-notification": {
+    "kind": "vector",
+    "query": "red alarm notification dots on a phone",
+    "file": "assets/icons/red-notification.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fomo": {
+    "kind": "vector",
+    "query": "an anxious person with fear of missing out",
+    "file": "assets/icons/fomo.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "like-button": {
+    "kind": "vector",
+    "query": "a thumbs up like button glowing",
+    "file": "assets/icons/like-button.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "social-network": {
+    "kind": "vector",
+    "query": "a network of connected people profiles",
+    "file": "assets/icons/social-network.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "news-feed": {
+    "kind": "vector",
+    "query": "a scrolling social media news feed wall",
+    "file": "assets/icons/news-feed.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "data-harvest": {
+    "kind": "vector",
+    "query": "personal data being harvested from a person",
+    "file": "assets/icons/data-harvest.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-grid": {
+    "kind": "vector",
+    "query": "a grid of perfect photos on a phone",
+    "file": "assets/icons/photo-grid.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "perfect-life": {
+    "kind": "vector",
+    "query": "a fake perfect life photo hiding a messy reality",
+    "file": "assets/icons/perfect-life.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "comparison-envy": {
+    "kind": "vector",
+    "query": "a person enviously comparing their life to others online",
+    "file": "assets/icons/comparison-envy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "filters-fake": {
+    "kind": "vector",
+    "query": "a beauty filter making a fake perfect selfie",
+    "file": "assets/icons/filters-fake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "stories-24h": {
+    "kind": "vector",
+    "query": "disappearing stories with a 24 hour clock",
+    "file": "assets/icons/stories-24h.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "influencer": {
+    "kind": "vector",
+    "query": "an influencer filming themselves with many followers",
+    "file": "assets/icons/influencer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "play-button": {
+    "kind": "vector",
+    "query": "a big video play button",
+    "file": "assets/icons/play-button.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "recommendation-algo": {
+    "kind": "vector",
+    "query": "an algorithm recommending the next perfect video",
+    "file": "assets/icons/recommendation-algo.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "autoplay": {
+    "kind": "vector",
+    "query": "a video autoplaying the next one automatically",
+    "file": "assets/icons/autoplay.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "watch-time": {
+    "kind": "vector",
+    "query": "an hourglass maximizing screen watch time",
+    "file": "assets/icons/watch-time.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "short-video": {
+    "kind": "vector",
+    "query": "a vertical short video phone swiping up",
+    "file": "assets/icons/short-video.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "for-you-algo": {
+    "kind": "vector",
+    "query": "an algorithm that knows you perfectly reading your mind",
+    "file": "assets/icons/for-you-algo.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "endless-swipe": {
+    "kind": "vector",
+    "query": "a thumb endlessly swiping short videos",
+    "file": "assets/icons/endless-swipe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "opinion-bubble": {
+    "kind": "vector",
+    "query": "real time opinion chat bubbles arguing",
+    "file": "assets/icons/opinion-bubble.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "outrage-anger": {
+    "kind": "vector",
+    "query": "outrage and anger driving online engagement",
+    "file": "assets/icons/outrage-anger.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ghost-message": {
+    "kind": "vector",
+    "query": "a ghost and a self destructing disappearing message",
+    "file": "assets/icons/ghost-message.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "streaks-fire": {
+    "kind": "vector",
+    "query": "a daily streak counter with a fire flame",
+    "file": "assets/icons/streaks-fire.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "briefcase-network": {
+    "kind": "vector",
+    "query": "a professional briefcase business network",
+    "file": "assets/icons/briefcase-network.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "blue-check-typing": {
+    "kind": "vector",
+    "query": "a blue double check mark and typing dots on chat",
+    "file": "assets/icons/blue-check-typing.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "data-profile": {
+    "kind": "vector",
+    "query": "a detailed personal profile dossier folder",
+    "file": "assets/icons/data-profile.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "targeted-ad": {
+    "kind": "vector",
+    "query": "a perfectly targeted ad arrow hitting a person",
+    "file": "assets/icons/targeted-ad.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "anxiety-sleep": {
+    "kind": "vector",
+    "query": "a person with anxiety and no sleep because of the phone",
+    "file": "assets/icons/anxiety-sleep.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "grayscale-phone": {
+    "kind": "vector",
+    "query": "a black and white grayscale phone, less tempting",
+    "file": "assets/icons/grayscale-phone.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "take-control": {
+    "kind": "vector",
+    "query": "a person taking back control of their phone",
+    "file": "assets/icons/take-control.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "know-tricks": {
+    "kind": "vector",
+    "query": "a smart informed user who knows all the tricks",
+    "file": "assets/icons/know-tricks.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-phone": {
+    "kind": "cutout",
+    "query": "Teléfono inteligente",
+    "file": "assets/icons/photo-phone.jpg"
+  },
+  "photo-laptop": {
+    "kind": "cutout",
+    "query": "Ordenador portátil",
+    "file": "assets/icons/photo-laptop.jpg"
+  },
+  "photo-server": {
+    "kind": "cutout",
+    "query": "Centro de datos",
+    "file": "assets/icons/photo-server.jpg"
+  },
+  "photo-camera": {
+    "kind": "cutout",
+    "query": "Cámara fotográfica",
+    "file": "assets/icons/photo-camera.jpg"
+  },
+  "photo-crowd": {
+    "kind": "cutout",
+    "query": "Multitud de personas",
+    "file": "assets/icons/photo-crowd.jpg"
+  },
+  "photo-money": {
+    "kind": "cutout",
+    "query": "Billetes de euro",
+    "file": "assets/icons/photo-money.png"
+  },
+  "photo-brain": {
+    "kind": "cutout",
+    "query": "Cerebro humano",
+    "file": "assets/icons/photo-brain.jpg"
+  },
+  "photo-eye": {
+    "kind": "cutout",
+    "query": "Ojo humano",
+    "file": "assets/icons/photo-eye.jpg"
+  },
+  "clip-phone-scroll": {
+    "kind": "clip",
+    "query": "person scrolling phone social media",
+    "file": "assets/clips/clip-phone-scroll.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Josh Tavernier | iCapture Media Digital Marketing Agency",
+      "url": "https://www.pexels.com/video/woman-scrolling-social-media-10238038/"
+    }
+  },
+  "clip-phone-hand": {
+    "kind": "clip",
+    "query": "hand holding smartphone screen",
+    "file": "assets/clips/clip-phone-hand.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tima Miroshnichenko",
+      "url": "https://www.pexels.com/video/person-holding-a-smartphone-6611941/"
+    }
+  },
+  "clip-social-apps": {
+    "kind": "clip",
+    "query": "social media apps on phone screen",
+    "file": "assets/clips/clip-social-apps.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Josh Tavernier | iCapture Media Digital Marketing Agency",
+      "url": "https://www.pexels.com/video/woman-scrolling-social-media-10238038/"
+    }
+  },
+  "clip-typing": {
+    "kind": "clip",
+    "query": "typing texting on smartphone",
+    "file": "assets/clips/clip-typing.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/close-up-video-of-person-typing-on-a-cellphone-6963823/"
+    }
+  },
+  "clip-selfie": {
+    "kind": "clip",
+    "query": "young person taking selfie phone",
+    "file": "assets/clips/clip-selfie.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Anastasia  Shuraeva",
+      "url": "https://www.pexels.com/video/a-woman-taking-a-selfie-with-her-smartphone-8502890/"
+    }
+  },
+  "clip-crowd-phones": {
+    "kind": "clip",
+    "query": "crowd people looking at phones",
+    "file": "assets/clips/clip-crowd-phones.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/fashion-people-smartphone-dark-8088612/"
+    }
+  },
+  "clip-server": {
+    "kind": "clip",
+    "query": "server room data center technology",
+    "file": "assets/clips/clip-server.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "MrColo",
+      "url": "https://www.pexels.com/video/close-up-of-a-cpu-7140928/"
+    }
+  },
+  "clip-code-data": {
+    "kind": "clip",
+    "query": "code data streaming digital screen",
+    "file": "assets/clips/clip-code-data.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/dynamic-blue-digital-number-animation-loop-30163656/"
+    }
+  },
+  "clip-teen-phone": {
+    "kind": "clip",
+    "query": "teenager using phone in bed night",
+    "file": "assets/clips/clip-teen-phone.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kampus Production",
+      "url": "https://www.pexels.com/video/girl-lying-on-bed-using-a-cellphone-7924639/"
+    }
+  },
+  "clip-influencer": {
+    "kind": "clip",
+    "query": "content creator filming video ring light",
+    "file": "assets/clips/clip-influencer.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "PNW Production",
+      "url": "https://www.pexels.com/video/man-recording-a-selfie-video-8275798/"
+    }
+  },
+  "clip-laptop": {
+    "kind": "clip",
+    "query": "person working on laptop office",
+    "file": "assets/clips/clip-laptop.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Dario Fernandez Ruz",
+      "url": "https://www.pexels.com/video/a-person-using-laptop-9130352/"
+    }
+  },
+  "clip-city-crowd": {
+    "kind": "clip",
+    "query": "busy city crowd people walking",
+    "file": "assets/clips/clip-city-crowd.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Coverr",
+      "url": "https://www.pexels.com/video/black-and-white-video-of-a-busy-street-853946/"
+    }
+  }
+}

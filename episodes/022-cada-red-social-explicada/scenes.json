@@ -1,0 +1,6342 @@
+{
+  "meta": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "duration": 490.54,
+    "audio": "active/audio.mp3",
+    "title": "Cada Red Social Explicada (Cómo Te Enganchan)",
+    "profile": "color-pop",
+    "storyboard": true,
+    "declaredMissing": []
+  },
+  "elements": [
+    {
+      "id": "watermark",
+      "type": "watermark",
+      "src": "mascota.png",
+      "box": {
+        "cx": 1810,
+        "cy": 1000,
+        "w": 150,
+        "h": 150
+      },
+      "opacity": 0.5,
+      "z": 5,
+      "in": 0,
+      "out": 490.54,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.5
+      }
+    },
+    {
+      "id": "clip-phone-scroll_0",
+      "type": "clip",
+      "src": "assets/clips/clip-phone-scroll.mp4",
+      "frame": "phone",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 0.74,
+      "out": 9.24,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 0.74,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 5.24,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "you-are-product_1",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/you-are-product.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 0.24,
+      "out": 6.24,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 0.24,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "type": "text",
+      "content": "si es gratis, el producto eres TÚ",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 736,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 0,
+      "out": 5,
+      "_syncT": 0,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "social-network_3",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/social-network.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 18.12,
+      "out": 24.12,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 18.12,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 23.04,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "dopamine-hit_4",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/dopamine-hit.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 23.04,
+      "out": 29.04,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 23.04,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 24.12,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 25.04,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "slot-machine-phone_5",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/slot-machine-phone.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 25.04,
+      "out": 31.04,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 25.04,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 29.04,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t6",
+      "type": "text",
+      "content": "los trucos para engancharte",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 609,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 22.48,
+      "out": 27.48,
+      "_syncT": 22.48,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "photo-eye_7",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo-eye.jpg",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 460,
+        "h": 460
+      },
+      "z": 24,
+      "in": 31.32,
+      "out": 43.32,
+      "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 31.32,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 31.57,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 38.87,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
+    },
+    {
+      "id": "attention-economy_8",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/attention-economy.png",
+      "box": {
+        "cx": 1600,
+        "cy": 400,
+        "w": 210,
+        "h": 210
+      },
+      "z": 30,
+      "in": 41.34,
+      "out": 47.34,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 41.34,
+          "cx": 1600,
+          "cy": 400,
+          "w": 210,
+          "h": 210
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "type": "text",
+      "content": "tu atención es lo que venden",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 630,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 39.48,
+      "out": 44.48,
+      "_syncT": 39.48,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 39.48,
+          "cx": 960,
+          "cy": 830,
+          "w": 630,
+          "h": 90
+        },
+        {
+          "t": 43.48,
+          "cx": 960,
+          "cy": 500,
+          "w": 630,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "photo-brain_10",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo-brain.jpg",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 460,
+        "h": 460
+      },
+      "z": 24,
+      "in": 47.82,
+      "out": 59.82,
+      "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 47.82,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 53.32,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        }
+      ]
+    },
+    {
+      "id": "dopamine-hit_11",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/dopamine-hit.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 62.7,
+      "out": 63.74,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 62.7,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t12",
+      "type": "text",
+      "content": "su objetivo: que no sueltes el móvil",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 799,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 48.22,
+      "out": 53.22,
+      "_syncT": 48.22,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "clip-phone-hand_13",
+      "type": "clip",
+      "src": "assets/clips/clip-phone-hand.mp4",
+      "frame": "phone",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 63.96,
+      "out": 72.46,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 63.96,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 68.96,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "dopamine-hit_14",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/dopamine-hit.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 67.74,
+      "out": 73.74,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 67.74,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "variable-reward_15",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/variable-reward.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 78.24,
+      "out": 84.24,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 78.24,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 84.04,
+          "cx": 1600,
+          "cy": 400,
+          "w": 210,
+          "h": 210
+        }
+      ]
+    },
+    {
+      "id": "t16",
+      "type": "text",
+      "content": "cada like: un chute de dopamina",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 693,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 63.74,
+      "out": 68.74,
+      "_syncT": 63.74,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "slot-machine-phone_17",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/slot-machine-phone.png",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 500,
+        "h": 500
+      },
+      "z": 26,
+      "in": 79.64,
+      "out": 91.64,
+      "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 79.64,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 84.69,
+          "cx": 960,
+          "cy": 520,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 90.39,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        }
+      ]
+    },
+    {
+      "id": "pull-to-refresh_18",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/pull-to-refresh.png",
+      "box": {
+        "cx": 490,
+        "cy": 400,
+        "w": 200,
+        "h": 200
+      },
+      "z": 30,
+      "in": 84.04,
+      "out": 90.04,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 84.04,
+          "cx": 490,
+          "cy": 400,
+          "w": 200,
+          "h": 200
+        },
+        {
+          "t": 84.24,
+          "cx": 1600,
+          "cy": 400,
+          "w": 210,
+          "h": 210
+        }
+      ]
+    },
+    {
+      "id": "t19",
+      "type": "text",
+      "content": "deslizar para refrescar = tirar de la palanca",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 989,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 85.24,
+      "out": 90.24,
+      "_syncT": null,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "photo-phone_20",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo-phone.jpg",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 460,
+        "h": 460
+      },
+      "z": 24,
+      "in": 103.88,
+      "out": 115.88,
+      "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 103.88,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 104.13,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 112.93,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
+    },
+    {
+      "id": "infinite-scroll_21",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/infinite-scroll.png",
+      "box": {
+        "cx": 1600,
+        "cy": 400,
+        "w": 210,
+        "h": 210
+      },
+      "z": 30,
+      "in": 111.66,
+      "out": 117.66,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 111.66,
+          "cx": 1600,
+          "cy": 400,
+          "w": 210,
+          "h": 210
+        }
+      ]
+    },
+    {
+      "id": "t22",
+      "type": "text",
+      "content": "sin final, tu cerebro no sabe parar",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 778,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 113.52,
+      "out": 118.52,
+      "_syncT": 113.52,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 113.52,
+          "cx": 960,
+          "cy": 830,
+          "w": 778,
+          "h": 90
+        },
+        {
+          "t": 116.02,
+          "cx": 960,
+          "cy": 500,
+          "w": 778,
+          "h": 90
+        },
+        {
+          "t": 117.07,
+          "cx": 960,
+          "cy": 830,
+          "w": 778,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "clip-social-apps_23",
+      "type": "clip",
+      "src": "assets/clips/clip-social-apps.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 118.28,
+      "out": 126.78,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 118.28,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 118.53,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 123.08,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "red-notification_24",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/red-notification.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 120.22,
+      "out": 126.22,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 120.22,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "fomo_25",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/fomo.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 128.66,
+      "out": 133.66,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 128.66,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t26",
+      "type": "text",
+      "content": "puntos rojos + miedo a perderte algo",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 799,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 123.76,
+      "out": 128.76,
+      "_syncT": null,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "clip-laptop_27",
+      "type": "clip",
+      "src": "assets/clips/clip-laptop.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 139.4,
+      "out": 147.9,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 139.4,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 144.4,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "news-feed_28",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/news-feed.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 148.02,
+      "out": 154.02,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 148.02,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t29",
+      "type": "text",
+      "content": "Facebook: el muro y el botón azul",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 736,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 139.4,
+      "out": 144.4,
+      "_syncT": 139.4,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "data-harvest_30",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/data-harvest.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 155.44,
+      "out": 161.44,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 155.44,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 156.6,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "targeted-ad_31",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/targeted-ad.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 156.6,
+      "out": 162.6,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 156.6,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 161.44,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 161.5,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "social-network_32",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/social-network.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 161.5,
+      "out": 166.24,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 161.5,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 162.6,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t33",
+      "type": "text",
+      "content": "lo sabe TODO de ti",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 419,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 152.9,
+      "out": 157.9,
+      "_syncT": 152.9,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 152.9,
+          "cx": 960,
+          "cy": 500,
+          "w": 419,
+          "h": 90
+        },
+        {
+          "t": 153.7,
+          "cx": 960,
+          "cy": 830,
+          "w": 419,
+          "h": 90
+        },
+        {
+          "t": 155.65,
+          "cx": 960,
+          "cy": 500,
+          "w": 419,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "clip-selfie_34",
+      "type": "clip",
+      "src": "assets/clips/clip-selfie.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 165.46,
+      "out": 173.96,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 165.46,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 165.76,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 171.46,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "photo-grid_35",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/photo-grid.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 169.2,
+      "out": 175.2,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 169.2,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t36",
+      "type": "text",
+      "content": "Instagram vive de la comparación",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 715,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 166.24,
+      "out": 171.24,
+      "_syncT": 166.24,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "clip-influencer_37",
+      "type": "clip",
+      "src": "assets/clips/clip-influencer.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 179.66,
+      "out": 188.16,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 179.66,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 179.91,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 182.96,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "comparison-envy_38",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/comparison-envy.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 183.9,
+      "out": 189.9,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 183.9,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 184.84,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "filters-fake_39",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/filters-fake.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 184.84,
+      "out": 190.84,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 184.84,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 189.9,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t40",
+      "type": "text",
+      "content": "vidas perfectas = filtros y mentira",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 778,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 183.66,
+      "out": 188.66,
+      "_syncT": null,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "photo-laptop_41",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo-laptop.jpg",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 460,
+        "h": 460
+      },
+      "z": 24,
+      "in": 194.86,
+      "out": 206.86,
+      "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 194.86,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 195.11,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 201.91,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
+    },
+    {
+      "id": "recommendation-algo_42",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/recommendation-algo.png",
+      "box": {
+        "cx": 1600,
+        "cy": 400,
+        "w": 210,
+        "h": 210
+      },
+      "z": 30,
+      "in": 202.68,
+      "out": 208.68,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 202.68,
+          "cx": 1600,
+          "cy": 400,
+          "w": 210,
+          "h": 210
+        }
+      ]
+    },
+    {
+      "id": "autoplay_43",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/autoplay.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 210.26,
+      "out": 216.26,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 210.26,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 213.66,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 215.36,
+          "cx": 960,
+          "cy": 410,
+          "w": 300,
+          "h": 300
+        }
+      ]
+    },
+    {
+      "id": "t44",
+      "type": "text",
+      "content": "el algoritmo elige el siguiente vídeo",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 820,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 202.56,
+      "out": 207.56,
+      "_syncT": 202.56,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "watch-time_45",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/watch-time.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 213.66,
+      "out": 219.66,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 213.66,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 215.36,
+          "cx": 610,
+          "cy": 723,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 216.26,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "recommendation-algo_46",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/recommendation-algo.png",
+      "box": {
+        "cx": 1310,
+        "cy": 736,
+        "w": 300,
+        "h": 300
+      },
+      "z": 30,
+      "in": 215.36,
+      "out": 221.36,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 215.36,
+          "cx": 1310,
+          "cy": 736,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 216.26,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 219.66,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t47",
+      "type": "text",
+      "content": "todo por maximizar tu tiempo de pantalla",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 883,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 216.14,
+      "out": 221.14,
+      "_syncT": null,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "clip-teen-phone_48",
+      "type": "clip",
+      "src": "assets/clips/clip-teen-phone.mp4",
+      "frame": "phone",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 225.1,
+      "out": 233.6,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 225.1,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 230.1,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "short-video_49",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/short-video.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 233.62,
+      "out": 239.62,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 233.62,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t50",
+      "type": "text",
+      "content": "TikTok: la más adictiva jamás creada",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 799,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 225.1,
+      "out": 230.1,
+      "_syncT": 225.1,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "for-you-algo_51",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/for-you-algo.png",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 500,
+        "h": 500
+      },
+      "z": 26,
+      "in": 241.28,
+      "out": 250.96,
+      "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 241.28,
+          "cx": 960,
+          "cy": 520,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 241.53,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 245.58,
+          "cx": 960,
+          "cy": 520,
+          "w": 500,
+          "h": 500
+        }
+      ]
+    },
+    {
+      "id": "endless-swipe_52",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/endless-swipe.png",
+      "box": {
+        "cx": 1600,
+        "cy": 400,
+        "w": 210,
+        "h": 210
+      },
+      "z": 30,
+      "in": 246.24,
+      "out": 250.96,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 246.24,
+          "cx": 1600,
+          "cy": 400,
+          "w": 210,
+          "h": 210
+        }
+      ]
+    },
+    {
+      "id": "t53",
+      "type": "text",
+      "content": "te conoce mejor que tú mismo",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 630,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 246.08,
+      "out": 250.96,
+      "_syncT": null,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "photo-crowd_54",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo-crowd.jpg",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 460,
+        "h": 460
+      },
+      "z": 24,
+      "in": 250.96,
+      "out": 262.96,
+      "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 250.96,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 255.26,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 260.96,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        }
+      ]
+    },
+    {
+      "id": "opinion-bubble_55",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/opinion-bubble.png",
+      "box": {
+        "cx": 1600,
+        "cy": 400,
+        "w": 210,
+        "h": 210
+      },
+      "z": 30,
+      "in": 254.76,
+      "out": 260.76,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 254.76,
+          "cx": 1600,
+          "cy": 400,
+          "w": 210,
+          "h": 210
+        }
+      ]
+    },
+    {
+      "id": "t56",
+      "type": "text",
+      "content": "X premia lo que te indigna",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 588,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 255.96,
+      "out": 260.96,
+      "_syncT": null,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "clip-typing_57",
+      "type": "clip",
+      "src": "assets/clips/clip-typing.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 270.46,
+      "out": 276.62,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 270.46,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 270.71,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 275.01,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "outrage-anger_58",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/outrage-anger.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 275.82,
+      "out": 280.82,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 275.82,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t59",
+      "type": "text",
+      "content": "la rabia es lo que más se comparte",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 757,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 275.7,
+      "out": 276.62,
+      "_syncT": 275.7,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "clip-selfie_60",
+      "type": "clip",
+      "src": "assets/clips/clip-selfie.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 278.3,
+      "out": 286.8,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 278.3,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 280.85,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "ghost-message_61",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/ghost-message.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 282.12,
+      "out": 288.12,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 282.12,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t62",
+      "type": "text",
+      "content": "mensajes que desaparecen... y las rachas",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 883,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 281.34,
+      "out": 286.34,
+      "_syncT": 281.34,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "streaks-fire_63",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/streaks-fire.png",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 500,
+        "h": 500
+      },
+      "z": 26,
+      "in": 288.38,
+      "out": 300.38,
+      "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 288.38,
+          "cx": 960,
+          "cy": 520,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 288.63,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 292.68,
+          "cx": 960,
+          "cy": 520,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 298.38,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        }
+      ]
+    },
+    {
+      "id": "fomo_64",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/fomo.png",
+      "box": {
+        "cx": 1600,
+        "cy": 400,
+        "w": 210,
+        "h": 210
+      },
+      "z": 30,
+      "in": 293.4,
+      "out": 299.4,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 293.4,
+          "cx": 1600,
+          "cy": 400,
+          "w": 210,
+          "h": 210
+        }
+      ]
+    },
+    {
+      "id": "t65",
+      "type": "text",
+      "content": "las rachas te obligan a entrar cada día",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 862,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 293.38,
+      "out": 298.38,
+      "_syncT": null,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "briefcase-network_66",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/briefcase-network.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 302.56,
+      "out": 308.56,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 302.56,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "blue-check-typing_67",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/blue-check-typing.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 314.84,
+      "out": 320.84,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 314.84,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 317.02,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "t68",
+      "type": "text",
+      "content": "el doble check azul también engancha",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 799,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 306.92,
+      "out": 311.92,
+      "_syncT": 306.92,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 306.92,
+          "cx": 960,
+          "cy": 500,
+          "w": 799,
+          "h": 90
+        },
+        {
+          "t": 308.22,
+          "cx": 960,
+          "cy": 830,
+          "w": 799,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "blue-check-typing_69",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/blue-check-typing.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 317.02,
+      "out": 323.02,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 317.02,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 320.84,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "watch-time_70",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/watch-time.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 323.82,
+      "out": 324.58,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 323.82,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t71",
+      "type": "text",
+      "content": "todas quieren lo mismo: tu tiempo",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 736,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 321.74,
+      "out": 324.58,
+      "_syncT": 321.74,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 321.74,
+          "cx": 960,
+          "cy": 500,
+          "w": 736,
+          "h": 90
+        },
+        {
+          "t": 322.79,
+          "cx": 960,
+          "cy": 830,
+          "w": 736,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "for-you-algo_72",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/for-you-algo.png",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 500,
+        "h": 500
+      },
+      "z": 26,
+      "in": 324.58,
+      "out": 336.58,
+      "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 324.58,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 328.13,
+          "cx": 960,
+          "cy": 520,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 333.83,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        }
+      ]
+    },
+    {
+      "id": "comparison-envy_73",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/comparison-envy.png",
+      "box": {
+        "cx": 1600,
+        "cy": 400,
+        "w": 210,
+        "h": 210
+      },
+      "z": 30,
+      "in": 328.98,
+      "out": 334.98,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 328.98,
+          "cx": 1600,
+          "cy": 400,
+          "w": 210,
+          "h": 210
+        }
+      ]
+    },
+    {
+      "id": "t74",
+      "type": "text",
+      "content": "el algoritmo te encierra en tu burbuja",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 841,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 328.6,
+      "out": 333.6,
+      "_syncT": 328.6,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "opinion-bubble_75",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/opinion-bubble.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 342.28,
+      "out": 348.28,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 342.28,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 343.64,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "social-network_76",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/social-network.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 343.64,
+      "out": 349.64,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 343.64,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 348.28,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "play-button_77",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/play-button.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 353.34,
+      "out": 359.34,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 353.34,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t78",
+      "type": "text",
+      "content": "Reddit: comunidades · Twitch: el directo",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 883,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 342.28,
+      "out": 347.28,
+      "_syncT": 342.28,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 342.28,
+          "cx": 960,
+          "cy": 830,
+          "w": 883,
+          "h": 90
+        },
+        {
+          "t": 342.53,
+          "cx": 960,
+          "cy": 500,
+          "w": 883,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "recommendation-algo_79",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/recommendation-algo.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 363.98,
+      "out": 369.98,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 363.98,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "attention-economy_80",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/attention-economy.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 376.1,
+      "out": 381.1,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 376.1,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t81",
+      "type": "text",
+      "content": "detrás, siempre el mismo algoritmo",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 757,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 370.06,
+      "out": 375.06,
+      "_syncT": 370.06,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "clip-server_82",
+      "type": "clip",
+      "src": "assets/clips/clip-server.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 380.88,
+      "out": 389.38,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 380.88,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 386.18,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "data-harvest_83",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/data-harvest.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 388.86,
+      "out": 394.86,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 388.86,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t84",
+      "type": "text",
+      "content": "todo lo que haces se guarda",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 609,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 386.68,
+      "out": 391.68,
+      "_syncT": 386.68,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 386.68,
+          "cx": 960,
+          "cy": 830,
+          "w": 609,
+          "h": 90
+        },
+        {
+          "t": 389.43,
+          "cx": 960,
+          "cy": 500,
+          "w": 609,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "clip-code-data_85",
+      "type": "clip",
+      "src": "assets/clips/clip-code-data.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 393.12,
+      "out": 401.62,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "data-profile_86",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/data-profile.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 397.52,
+      "out": 403.52,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 397.52,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 401.54,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "targeted-ad_87",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/targeted-ad.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 401.54,
+      "out": 407.54,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 401.54,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 403.52,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t88",
+      "type": "text",
+      "content": "no eres el cliente: eres la mercancía",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 820,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 404.72,
+      "out": 409.72,
+      "_syncT": 404.72,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 404.72,
+          "cx": 960,
+          "cy": 500,
+          "w": 820,
+          "h": 90
+        },
+        {
+          "t": 407.27,
+          "cx": 960,
+          "cy": 830,
+          "w": 820,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "anxiety-sleep_89",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/anxiety-sleep.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 414.84,
+      "out": 420.84,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 414.84,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 420.78,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "comparison-envy_90",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/comparison-envy.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 420.78,
+      "out": 425.78,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 420.78,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 420.84,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t91",
+      "type": "text",
+      "content": "más ansiedad, peor sueño, más comparación",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 904,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 414.64,
+      "out": 419.64,
+      "_syncT": 414.64,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 414.64,
+          "cx": 960,
+          "cy": 830,
+          "w": 904,
+          "h": 90
+        },
+        {
+          "t": 415.14,
+          "cx": 960,
+          "cy": 500,
+          "w": 904,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "clip-crowd-phones_92",
+      "type": "clip",
+      "src": "assets/clips/clip-crowd-phones.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 425.88,
+      "out": 434.38,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 425.88,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 431.68,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "take-control_93",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/take-control.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 435.92,
+      "out": 441.92,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 435.92,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t94",
+      "type": "text",
+      "content": "no juegas tú: la app juega contigo",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 757,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 432.36,
+      "out": 437.36,
+      "_syncT": 432.36,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 432.36,
+          "cx": 960,
+          "cy": 830,
+          "w": 757,
+          "h": 90
+        },
+        {
+          "t": 436.11,
+          "cx": 960,
+          "cy": 500,
+          "w": 757,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "red-notification_95",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/red-notification.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 447.2,
+      "out": 453.2,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 447.2,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 453.02,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "grayscale-phone_96",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/grayscale-phone.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 453.02,
+      "out": 459.02,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 453.02,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 453.2,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t97",
+      "type": "text",
+      "content": "quita notificaciones · pantalla en gris",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 862,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 446.74,
+      "out": 451.74,
+      "_syncT": 446.74,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 446.74,
+          "cx": 960,
+          "cy": 830,
+          "w": 862,
+          "h": 90
+        },
+        {
+          "t": 447.49,
+          "cx": 960,
+          "cy": 500,
+          "w": 862,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "clip-phone-scroll_98",
+      "type": "clip",
+      "src": "assets/clips/clip-phone-scroll.mp4",
+      "frame": "phone",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 463.84,
+      "out": 468.62,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "take-control_99",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/take-control.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 466.98,
+      "out": 472.98,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 466.98,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t100",
+      "type": "text",
+      "content": "¿entré a algo... o solo busco el premio?",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 883,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 463.86,
+      "out": 468.62,
+      "_syncT": null,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "clip-city-crowd_101",
+      "type": "clip",
+      "src": "assets/clips/clip-city-crowd.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 471.52,
+      "out": 480.02,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "attention-economy_102",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/attention-economy.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 473.02,
+      "out": 479.02,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 473.02,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t103",
+      "type": "text",
+      "content": "tu recurso más valioso: tu atención",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 778,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 480.12,
+      "out": 485.12,
+      "_syncT": 480.12,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "know-tricks_104",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/know-tricks.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 486.86,
+      "out": 490.54,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 486.86,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 487.98,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "take-control_105",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/take-control.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 487.98,
+      "out": 490.54,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 487.98,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "t106",
+      "type": "text",
+      "content": "quien conoce los trucos no se deja enganchar",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 968,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 488.74,
+      "out": 490.54,
+      "_syncT": null,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "chapicon0",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/you-are-product.png",
+      "box": {
+        "cx": 105,
+        "cy": 145,
+        "w": 130,
+        "h": 130
+      },
+      "z": 80,
+      "in": 0,
+      "out": 31.32,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chaplabel0",
+      "type": "text",
+      "content": "Si es gratis, el producto eres tú",
+      "fontSize": 42,
+      "box": {
+        "cx": 616,
+        "cy": 145,
+        "w": 852,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 80,
+      "in": 0,
+      "out": 31.32,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chapicon1",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/attention-economy.png",
+      "box": {
+        "cx": 105,
+        "cy": 145,
+        "w": 130,
+        "h": 130
+      },
+      "z": 80,
+      "in": 31.32,
+      "out": 63.74,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chaplabel1",
+      "type": "text",
+      "content": "La economía de la atención",
+      "fontSize": 42,
+      "box": {
+        "cx": 527.5,
+        "cy": 145,
+        "w": 675,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 80,
+      "in": 31.32,
+      "out": 63.74,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chapicon2",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/variable-reward.png",
+      "box": {
+        "cx": 105,
+        "cy": 145,
+        "w": 130,
+        "h": 130
+      },
+      "z": 80,
+      "in": 63.74,
+      "out": 103.88,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chaplabel2",
+      "type": "text",
+      "content": "La recompensa variable",
+      "fontSize": 42,
+      "box": {
+        "cx": 477,
+        "cy": 145,
+        "w": 574,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 80,
+      "in": 63.74,
+      "out": 103.88,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chapicon3",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/infinite-scroll.png",
+      "box": {
+        "cx": 105,
+        "cy": 145,
+        "w": 130,
+        "h": 130
+      },
+      "z": 80,
+      "in": 103.88,
+      "out": 133.16,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chaplabel3",
+      "type": "text",
+      "content": "El scroll infinito",
+      "fontSize": 42,
+      "box": {
+        "cx": 427,
+        "cy": 145,
+        "w": 474,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 80,
+      "in": 103.88,
+      "out": 133.16,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chapicon4",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/social-network.png",
+      "box": {
+        "cx": 105,
+        "cy": 145,
+        "w": 130,
+        "h": 130
+      },
+      "z": 80,
+      "in": 133.16,
+      "out": 164.3,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chaplabel4",
+      "type": "text",
+      "content": "Facebook",
+      "fontSize": 42,
+      "box": {
+        "cx": 301,
+        "cy": 145,
+        "w": 222,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 80,
+      "in": 133.16,
+      "out": 164.3,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chapicon5",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/photo-grid.png",
+      "box": {
+        "cx": 105,
+        "cy": 145,
+        "w": 130,
+        "h": 130
+      },
+      "z": 80,
+      "in": 164.3,
+      "out": 194.86,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chaplabel5",
+      "type": "text",
+      "content": "Instagram",
+      "fontSize": 42,
+      "box": {
+        "cx": 313.5,
+        "cy": 145,
+        "w": 247,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 80,
+      "in": 164.3,
+      "out": 194.86,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chapicon6",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/play-button.png",
+      "box": {
+        "cx": 105,
+        "cy": 145,
+        "w": 130,
+        "h": 130
+      },
+      "z": 80,
+      "in": 194.86,
+      "out": 222.36,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chaplabel6",
+      "type": "text",
+      "content": "YouTube",
+      "fontSize": 42,
+      "box": {
+        "cx": 288,
+        "cy": 145,
+        "w": 196,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 80,
+      "in": 194.86,
+      "out": 222.36,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chapicon7",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/short-video.png",
+      "box": {
+        "cx": 105,
+        "cy": 145,
+        "w": 130,
+        "h": 130
+      },
+      "z": 80,
+      "in": 222.36,
+      "out": 250.96,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chaplabel7",
+      "type": "text",
+      "content": "TikTok",
+      "fontSize": 42,
+      "box": {
+        "cx": 275.5,
+        "cy": 145,
+        "w": 171,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 80,
+      "in": 222.36,
+      "out": 250.96,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chapicon8",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/opinion-bubble.png",
+      "box": {
+        "cx": 105,
+        "cy": 145,
+        "w": 130,
+        "h": 130
+      },
+      "z": 80,
+      "in": 250.96,
+      "out": 276.62,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chaplabel8",
+      "type": "text",
+      "content": "X (Twitter)",
+      "fontSize": 42,
+      "box": {
+        "cx": 338.5,
+        "cy": 145,
+        "w": 297,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 80,
+      "in": 250.96,
+      "out": 276.62,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chapicon9",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/ghost-message.png",
+      "box": {
+        "cx": 105,
+        "cy": 145,
+        "w": 130,
+        "h": 130
+      },
+      "z": 80,
+      "in": 276.62,
+      "out": 300.92,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chaplabel9",
+      "type": "text",
+      "content": "Snapchat",
+      "fontSize": 42,
+      "box": {
+        "cx": 301,
+        "cy": 145,
+        "w": 222,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 80,
+      "in": 276.62,
+      "out": 300.92,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chapicon10",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/briefcase-network.png",
+      "box": {
+        "cx": 105,
+        "cy": 145,
+        "w": 130,
+        "h": 130
+      },
+      "z": 80,
+      "in": 300.92,
+      "out": 324.58,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chaplabel10",
+      "type": "text",
+      "content": "LinkedIn y mensajería",
+      "fontSize": 42,
+      "box": {
+        "cx": 464.5,
+        "cy": 145,
+        "w": 549,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 80,
+      "in": 300.92,
+      "out": 324.58,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chapicon11",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/for-you-algo.png",
+      "box": {
+        "cx": 105,
+        "cy": 145,
+        "w": 130,
+        "h": 130
+      },
+      "z": 80,
+      "in": 324.58,
+      "out": 341.02,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chaplabel11",
+      "type": "text",
+      "content": "La burbuja",
+      "fontSize": 42,
+      "box": {
+        "cx": 326,
+        "cy": 145,
+        "w": 272,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 80,
+      "in": 324.58,
+      "out": 341.02,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chapicon12",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/opinion-bubble.png",
+      "box": {
+        "cx": 105,
+        "cy": 145,
+        "w": 130,
+        "h": 130
+      },
+      "z": 80,
+      "in": 341.02,
+      "out": 376.9,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chaplabel12",
+      "type": "text",
+      "content": "Reddit y Twitch",
+      "fontSize": 42,
+      "box": {
+        "cx": 389,
+        "cy": 145,
+        "w": 398,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 80,
+      "in": 341.02,
+      "out": 376.9,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chapicon13",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/data-profile.png",
+      "box": {
+        "cx": 105,
+        "cy": 145,
+        "w": 130,
+        "h": 130
+      },
+      "z": 80,
+      "in": 376.9,
+      "out": 408.32,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chaplabel13",
+      "type": "text",
+      "content": "¿De dónde sale el dinero?",
+      "fontSize": 42,
+      "box": {
+        "cx": 515,
+        "cy": 145,
+        "w": 650,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 80,
+      "in": 376.9,
+      "out": 408.32,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chapicon14",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/anxiety-sleep.png",
+      "box": {
+        "cx": 105,
+        "cy": 145,
+        "w": 130,
+        "h": 130
+      },
+      "z": 80,
+      "in": 408.32,
+      "out": 425.66,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chaplabel14",
+      "type": "text",
+      "content": "El coste oculto",
+      "fontSize": 42,
+      "box": {
+        "cx": 389,
+        "cy": 145,
+        "w": 398,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 80,
+      "in": 408.32,
+      "out": 425.66,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chapicon15",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/take-control.png",
+      "box": {
+        "cx": 105,
+        "cy": 145,
+        "w": 130,
+        "h": 130
+      },
+      "z": 80,
+      "in": 425.66,
+      "out": 490.54,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "chaplabel15",
+      "type": "text",
+      "content": "Recupera el control",
+      "fontSize": 42,
+      "box": {
+        "cx": 439.5,
+        "cy": 145,
+        "w": 499,
+        "h": 64
+      },
+      "color": "#111111",
+      "z": 80,
+      "in": 425.66,
+      "out": 490.54,
+      "structural": true,
+      "hud": true,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "cov107",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/you-are-product.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 0,
+      "out": 0.25,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov108",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/you-are-product.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 9.25,
+      "out": 17.25,
+      "frames": [
+        {
+          "t": 9.25,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 11.65,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov109",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/you-are-product.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 17.25,
+      "out": 18.25,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov110",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/you-are-product.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 31.25,
+      "out": 31.5,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov111",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/attention-economy.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 47.5,
+      "out": 48,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov112",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/attention-economy.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 60,
+      "out": 62.75,
+      "frames": [
+        {
+          "t": 60,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 61.38,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov113",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/variable-reward.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 63.75,
+      "out": 64,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov114",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/variable-reward.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 73.75,
+      "out": 78.25,
+      "frames": [
+        {
+          "t": 73.75,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 76,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov115",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/variable-reward.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 91.75,
+      "out": 99.75,
+      "frames": [
+        {
+          "t": 91.75,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 94.15,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov116",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/variable-reward.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 99.75,
+      "out": 104,
+      "frames": [
+        {
+          "t": 99.75,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 101.88,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov117",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/infinite-scroll.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 117.75,
+      "out": 118.5,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov118",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/infinite-scroll.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 127,
+      "out": 128.75,
+      "frames": [
+        {
+          "t": 127,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 127.88,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov119",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/social-network.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 133.75,
+      "out": 139.5,
+      "frames": [
+        {
+          "t": 133.75,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 136.15,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov120",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/social-network.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 148,
+      "out": 148.25,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov121",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/social-network.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 154.25,
+      "out": 155.5,
+      "frames": [
+        {
+          "t": 154.25,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 154.88,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov122",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/photo-grid.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 175.25,
+      "out": 179.75,
+      "frames": [
+        {
+          "t": 175.25,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 177.5,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov123",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/photo-grid.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 191,
+      "out": 195,
+      "frames": [
+        {
+          "t": 191,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 193,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov124",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/play-button.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 208.75,
+      "out": 210.5,
+      "frames": [
+        {
+          "t": 208.75,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 209.63,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov125",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/play-button.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 221.5,
+      "out": 225.25,
+      "frames": [
+        {
+          "t": 221.5,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 223.38,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov126",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/short-video.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 239.75,
+      "out": 241.5,
+      "frames": [
+        {
+          "t": 239.75,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 240.63,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov127",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/opinion-bubble.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 263,
+      "out": 270.5,
+      "frames": [
+        {
+          "t": 263,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 265.4,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov128",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/ghost-message.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 288.25,
+      "out": 288.5,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov129",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/ghost-message.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 300.5,
+      "out": 302.75,
+      "frames": [
+        {
+          "t": 300.5,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 301.63,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov130",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/briefcase-network.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 308.75,
+      "out": 315,
+      "frames": [
+        {
+          "t": 308.75,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 312,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov131",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/briefcase-network.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 323.25,
+      "out": 324,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov132",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/for-you-algo.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 336.75,
+      "out": 342.5,
+      "frames": [
+        {
+          "t": 336.75,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 339.15,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov133",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/opinion-bubble.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 349.75,
+      "out": 353.5,
+      "frames": [
+        {
+          "t": 349.75,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 351.63,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov134",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/opinion-bubble.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 359.5,
+      "out": 364,
+      "frames": [
+        {
+          "t": 359.5,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 361.75,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov135",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/opinion-bubble.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 370,
+      "out": 376.25,
+      "frames": [
+        {
+          "t": 370,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 375.25,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov136",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/data-profile.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 407.75,
+      "out": 415,
+      "frames": [
+        {
+          "t": 407.75,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 409.75,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 414.05,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov137",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/take-control.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 434.5,
+      "out": 436,
+      "frames": [
+        {
+          "t": 434.5,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 435.25,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov138",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/take-control.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 442,
+      "out": 447.25,
+      "frames": [
+        {
+          "t": 442,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 446.05,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov139",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/take-control.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 459.25,
+      "out": 464,
+      "frames": [
+        {
+          "t": 459.25,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 461.63,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov140",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/take-control.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 480.25,
+      "out": 487,
+      "frames": [
+        {
+          "t": 480.25,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 485.25,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    }
+  ]
+}
