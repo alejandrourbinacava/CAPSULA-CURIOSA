@@ -3,9 +3,9 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "duration": 490.54,
+    "duration": 490.32,
     "audio": "active/audio.mp3",
-    "title": "Cada Red Social Explicada (Cómo Te Enganchan)",
+    "title": "Cada Veneno Mortal de la Historia",
     "profile": "color-pop",
     "storyboard": true,
     "declaredMissing": []
@@ -24,17 +24,17 @@
       "opacity": 0.5,
       "z": 5,
       "in": 0,
-      "out": 490.54,
+      "out": 490.32000000000005,
       "enter": {
         "kind": "fade-in",
         "duration": 0.5
       }
     },
     {
-      "id": "clip-phone-scroll_0",
+      "id": "clip-poison-drop_0",
       "type": "clip",
-      "src": "assets/clips/clip-phone-scroll.mp4",
-      "frame": "phone",
+      "src": "assets/clips/clip-poison-drop.mp4",
+      "frame": "rounded",
       "box": {
         "cx": 960,
         "cy": 520,
@@ -42,8 +42,8 @@
         "h": 551
       },
       "z": 27,
-      "in": 0.74,
-      "out": 9.24,
+      "in": 1.68,
+      "out": 10.18,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -55,14 +55,14 @@
       },
       "frames": [
         {
-          "t": 0.74,
+          "t": 1.68,
           "cx": 960,
           "cy": 520,
           "w": 980,
           "h": 551
         },
         {
-          "t": 5.24,
+          "t": 6.68,
           "cx": 960,
           "cy": 500,
           "w": 980,
@@ -71,10 +71,10 @@
       ]
     },
     {
-      "id": "you-are-product_1",
+      "id": "silent-poison_1",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/you-are-product.png",
+      "src": "assets/icons/silent-poison.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -82,8 +82,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 0.24,
-      "out": 6.24,
+      "in": 6.9,
+      "out": 12.9,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -99,7 +99,7 @@
       },
       "frames": [
         {
-          "t": 0.24,
+          "t": 6.9,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -110,19 +110,19 @@
     {
       "id": "t2",
       "type": "text",
-      "content": "si es gratis, el producto eres TÚ",
+      "content": "un arma sin ruido y sin rastro",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 736,
+        "w": 672,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 0,
-      "out": 5,
-      "_syncT": 0,
+      "in": 1.52,
+      "out": 6.52,
+      "_syncT": 1.52,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -138,10 +138,10 @@
       }
     },
     {
-      "id": "social-network_3",
+      "id": "poison-cup_3",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/social-network.png",
+      "src": "assets/icons/poison-cup.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -149,8 +149,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 18.12,
-      "out": 24.12,
+      "in": 16.94,
+      "out": 22.94,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -166,14 +166,14 @@
       },
       "frames": [
         {
-          "t": 18.12,
+          "t": 16.94,
           "cx": 960,
           "cy": 560,
           "w": 470,
           "h": 470
         },
         {
-          "t": 23.04,
+          "t": 19.6,
           "cx": 610,
           "cy": 540,
           "w": 380,
@@ -182,10 +182,10 @@
       ]
     },
     {
-      "id": "dopamine-hit_4",
+      "id": "silent-poison_4",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/dopamine-hit.png",
+      "src": "assets/icons/silent-poison.png",
       "box": {
         "cx": 1310,
         "cy": 553,
@@ -193,8 +193,8 @@
         "h": 380
       },
       "z": 30,
-      "in": 23.04,
-      "out": 29.04,
+      "in": 19.6,
+      "out": 25.6,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -210,42 +210,35 @@
       },
       "frames": [
         {
-          "t": 23.04,
+          "t": 19.6,
           "cx": 1310,
           "cy": 553,
           "w": 380,
           "h": 380
         },
         {
-          "t": 24.12,
+          "t": 22.94,
           "cx": 960,
           "cy": 560,
           "w": 470,
           "h": 470
-        },
-        {
-          "t": 25.04,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
         }
       ]
     },
     {
-      "id": "slot-machine-phone_5",
+      "id": "dose-makes-poison_5",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/slot-machine-phone.png",
+      "src": "assets/icons/dose-makes-poison.png",
       "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
       },
       "z": 30,
-      "in": 25.04,
-      "out": 31.04,
+      "in": 25.92,
+      "out": 30.92,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -261,14 +254,7 @@
       },
       "frames": [
         {
-          "t": 25.04,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 29.04,
+          "t": 25.92,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -279,264 +265,154 @@
     {
       "id": "t6",
       "type": "text",
-      "content": "los trucos para engancharte",
+      "content": "la regla que decide si algo te mata",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 500,
+        "w": 778,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 18.14,
+      "out": 23.14,
+      "_syncT": 18.14,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "clip-goblet-wine_7",
+      "type": "clip",
+      "src": "assets/clips/clip-goblet-wine.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 30.9,
+      "out": 39.4,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      }
+    },
+    {
+      "id": "arsenic-king_8",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/arsenic-king.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 34.3,
+      "out": 40.3,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 34.3,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "tasteless_9",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/tasteless.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 41.18,
+      "out": 47.18,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 41.18,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 46.04,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "t10",
+      "type": "text",
+      "content": "ni color, ni olor, ni sabor",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
         "w": 609,
         "h": 90
       },
-      "color": "#111111",
-      "z": 60,
-      "in": 22.48,
-      "out": 27.48,
-      "_syncT": 22.48,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "photo-eye_7",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-eye.jpg",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
-      },
-      "z": 24,
-      "in": 31.32,
-      "out": 43.32,
-      "auto": true,
-      "_keep": false,
-      "_accum": false,
-      "_hero": true,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 31.32,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 31.57,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 38.87,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
-    },
-    {
-      "id": "attention-economy_8",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/attention-economy.png",
-      "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
-      },
-      "z": 30,
-      "in": 41.34,
-      "out": 47.34,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 41.34,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
-        }
-      ]
-    },
-    {
-      "id": "t9",
-      "type": "text",
-      "content": "tu atención es lo que venden",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 630,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 39.48,
-      "out": 44.48,
-      "_syncT": 39.48,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 39.48,
-          "cx": 960,
-          "cy": 830,
-          "w": 630,
-          "h": 90
-        },
-        {
-          "t": 43.48,
-          "cx": 960,
-          "cy": 500,
-          "w": 630,
-          "h": 90
-        }
-      ]
-    },
-    {
-      "id": "photo-brain_10",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-brain.jpg",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
-      },
-      "z": 24,
-      "in": 47.82,
-      "out": 59.82,
-      "auto": true,
-      "_keep": false,
-      "_accum": false,
-      "_hero": true,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 47.82,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 53.32,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        }
-      ]
-    },
-    {
-      "id": "dopamine-hit_11",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/dopamine-hit.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 62.7,
-      "out": 63.74,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 62.7,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t12",
-      "type": "text",
-      "content": "su objetivo: que no sueltes el móvil",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 799,
-        "h": 90
-      },
       "color": "#EE2B37",
       "z": 60,
-      "in": 48.22,
-      "out": 53.22,
-      "_syncT": 48.22,
+      "in": 40.26,
+      "out": 45.26,
+      "_syncT": 40.26,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -549,62 +425,38 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
-    },
-    {
-      "id": "clip-phone-hand_13",
-      "type": "clip",
-      "src": "assets/clips/clip-phone-hand.mp4",
-      "frame": "phone",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 980,
-        "h": 551
-      },
-      "z": 27,
-      "in": 63.96,
-      "out": 72.46,
-      "auto": true,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
       },
       "frames": [
         {
-          "t": 63.96,
+          "t": 40.26,
           "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
+          "cy": 830,
+          "w": 609,
+          "h": 90
         },
         {
-          "t": 68.96,
+          "t": 41.26,
           "cx": 960,
           "cy": 500,
-          "w": 980,
-          "h": 551
+          "w": 609,
+          "h": 90
         }
       ]
     },
     {
-      "id": "dopamine-hit_14",
+      "id": "arsenic-king_11",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/dopamine-hit.png",
+      "src": "assets/icons/arsenic-king.png",
       "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
       },
       "z": 30,
-      "in": 67.74,
-      "out": 73.74,
+      "in": 46.04,
+      "out": 52.04,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -620,93 +472,167 @@
       },
       "frames": [
         {
-          "t": 67.74,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "variable-reward_15",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/variable-reward.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 78.24,
-      "out": 84.24,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
+          "t": 46.04,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
         {
-          "t": 78.24,
+          "t": 47.18,
           "cx": 960,
           "cy": 560,
           "w": 470,
           "h": 470
         },
         {
-          "t": 84.04,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 50.14,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
         }
       ]
     },
     {
-      "id": "t16",
+      "id": "marsh-test_12",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/marsh-test.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 56.78,
+      "out": 62.78,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 56.78,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "silent-poison_13",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/silent-poison.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 50.14,
+      "out": 56.14,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 50.14,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 52.04,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t14",
       "type": "text",
-      "content": "cada like: un chute de dopamina",
+      "content": "hasta que la ciencia aprendió a detectarlo",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 693,
+        "w": 925,
         "h": 90
       },
-      "color": "#111111",
+      "color": "#EE2B37",
       "z": 60,
-      "in": 63.74,
-      "out": 68.74,
-      "_syncT": 63.74,
+      "in": 54.12,
+      "out": 59.12,
+      "_syncT": 54.12,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
       "structural": false,
       "hud": false,
       "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
+        "kind": "stamp",
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 54.12,
+          "cx": 960,
+          "cy": 500,
+          "w": 925,
+          "h": 90
+        },
+        {
+          "t": 55.67,
+          "cx": 960,
+          "cy": 830,
+          "w": 925,
+          "h": 90
+        },
+        {
+          "t": 57.12,
+          "cx": 960,
+          "cy": 500,
+          "w": 925,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "slot-machine-phone_17",
+      "id": "cyanide-fast_15",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/slot-machine-phone.png",
+      "src": "assets/icons/cyanide-fast.png",
       "box": {
         "cx": 960,
         "cy": 520,
@@ -714,8 +640,8 @@
         "h": 500
       },
       "z": 26,
-      "in": 79.64,
-      "out": 91.64,
+      "in": 63.12,
+      "out": 75.12,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -731,158 +657,33 @@
       },
       "frames": [
         {
-          "t": 79.64,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 84.69,
+          "t": 63.12,
           "cx": 960,
           "cy": 520,
           "w": 500,
           "h": 500
         },
         {
-          "t": 90.39,
+          "t": 63.37,
           "cx": 960,
           "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 72.92,
+          "cx": 960,
+          "cy": 520,
           "w": 500,
           "h": 500
         }
       ]
     },
     {
-      "id": "pull-to-refresh_18",
+      "id": "spy-capsule_16",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/pull-to-refresh.png",
-      "box": {
-        "cx": 490,
-        "cy": 400,
-        "w": 200,
-        "h": 200
-      },
-      "z": 30,
-      "in": 84.04,
-      "out": 90.04,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 84.04,
-          "cx": 490,
-          "cy": 400,
-          "w": 200,
-          "h": 200
-        },
-        {
-          "t": 84.24,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
-        }
-      ]
-    },
-    {
-      "id": "t19",
-      "type": "text",
-      "content": "deslizar para refrescar = tirar de la palanca",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 989,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 85.24,
-      "out": 90.24,
-      "_syncT": null,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "photo-phone_20",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-phone.jpg",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
-      },
-      "z": 24,
-      "in": 103.88,
-      "out": 115.88,
-      "auto": true,
-      "_keep": false,
-      "_accum": false,
-      "_hero": true,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 103.88,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 104.13,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 112.93,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
-    },
-    {
-      "id": "infinite-scroll_21",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/infinite-scroll.png",
+      "src": "assets/icons/spy-capsule.png",
       "box": {
         "cx": 1600,
         "cy": 400,
@@ -890,8 +691,8 @@
         "h": 210
       },
       "z": 30,
-      "in": 111.66,
-      "out": 117.66,
+      "in": 69.16,
+      "out": 75.16,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -907,7 +708,7 @@
       },
       "frames": [
         {
-          "t": 111.66,
+          "t": 69.16,
           "cx": 1600,
           "cy": 400,
           "w": 210,
@@ -916,195 +717,21 @@
       ]
     },
     {
-      "id": "t22",
+      "id": "t17",
       "type": "text",
-      "content": "sin final, tu cerebro no sabe parar",
+      "content": "asfixia tus células en minutos",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 778,
+        "w": 672,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 113.52,
-      "out": 118.52,
-      "_syncT": 113.52,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 113.52,
-          "cx": 960,
-          "cy": 830,
-          "w": 778,
-          "h": 90
-        },
-        {
-          "t": 116.02,
-          "cx": 960,
-          "cy": 500,
-          "w": 778,
-          "h": 90
-        },
-        {
-          "t": 117.07,
-          "cx": 960,
-          "cy": 830,
-          "w": 778,
-          "h": 90
-        }
-      ]
-    },
-    {
-      "id": "clip-social-apps_23",
-      "type": "clip",
-      "src": "assets/clips/clip-social-apps.mp4",
-      "frame": "rounded",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 980,
-        "h": 551
-      },
-      "z": 27,
-      "in": 118.28,
-      "out": 126.78,
-      "auto": true,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 118.28,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 118.53,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 123.08,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        }
-      ]
-    },
-    {
-      "id": "red-notification_24",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/red-notification.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 120.22,
-      "out": 126.22,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 120.22,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "fomo_25",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/fomo.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 128.66,
-      "out": 133.66,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 128.66,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t26",
-      "type": "text",
-      "content": "puntos rojos + miedo a perderte algo",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 799,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 123.76,
-      "out": 128.76,
-      "_syncT": null,
+      "in": 73.5,
+      "out": 78.5,
+      "_syncT": 73.5,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -1120,9 +747,9 @@
       }
     },
     {
-      "id": "clip-laptop_27",
+      "id": "clip-lab_18",
       "type": "clip",
-      "src": "assets/clips/clip-laptop.mp4",
+      "src": "assets/clips/clip-lab.mp4",
       "frame": "rounded",
       "box": {
         "cx": 960,
@@ -1131,8 +758,8 @@
         "h": 551
       },
       "z": 27,
-      "in": 139.4,
-      "out": 147.9,
+      "in": 79.98,
+      "out": 88.48,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -1144,14 +771,14 @@
       },
       "frames": [
         {
-          "t": 139.4,
+          "t": 79.98,
           "cx": 960,
           "cy": 520,
           "w": 980,
           "h": 551
         },
         {
-          "t": 144.4,
+          "t": 84.48,
           "cx": 960,
           "cy": 500,
           "w": 980,
@@ -1160,10 +787,10 @@
       ]
     },
     {
-      "id": "news-feed_28",
+      "id": "spy-capsule_19",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/news-feed.png",
+      "src": "assets/icons/spy-capsule.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -1171,8 +798,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 148.02,
-      "out": 154.02,
+      "in": 81.06,
+      "out": 87.06,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1188,81 +815,14 @@
       },
       "frames": [
         {
-          "t": 148.02,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t29",
-      "type": "text",
-      "content": "Facebook: el muro y el botón azul",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 736,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 139.4,
-      "out": 144.4,
-      "_syncT": 139.4,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "data-harvest_30",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/data-harvest.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 155.44,
-      "out": 161.44,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 155.44,
+          "t": 81.06,
           "cx": 960,
           "cy": 560,
           "w": 470,
           "h": 470
         },
         {
-          "t": 156.6,
+          "t": 85.36,
           "cx": 610,
           "cy": 540,
           "w": 380,
@@ -1271,10 +831,10 @@
       ]
     },
     {
-      "id": "targeted-ad_31",
+      "id": "almond-smell_20",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/targeted-ad.png",
+      "src": "assets/icons/almond-smell.png",
       "box": {
         "cx": 1310,
         "cy": 553,
@@ -1282,8 +842,8 @@
         "h": 380
       },
       "z": 30,
-      "in": 156.6,
-      "out": 162.6,
+      "in": 85.36,
+      "out": 91.02,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1299,65 +859,14 @@
       },
       "frames": [
         {
-          "t": 156.6,
+          "t": 85.36,
           "cx": 1310,
           "cy": 553,
           "w": 380,
           "h": 380
         },
         {
-          "t": 161.44,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        },
-        {
-          "t": 161.5,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "social-network_32",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/social-network.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
-      "in": 161.5,
-      "out": 166.24,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 161.5,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 162.6,
+          "t": 87.06,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -1366,323 +875,21 @@
       ]
     },
     {
-      "id": "t33",
+      "id": "t21",
       "type": "text",
-      "content": "lo sabe TODO de ti",
+      "content": "el veneno de los espías",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 419,
+        "w": 525,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 152.9,
-      "out": 157.9,
-      "_syncT": 152.9,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 152.9,
-          "cx": 960,
-          "cy": 500,
-          "w": 419,
-          "h": 90
-        },
-        {
-          "t": 153.7,
-          "cx": 960,
-          "cy": 830,
-          "w": 419,
-          "h": 90
-        },
-        {
-          "t": 155.65,
-          "cx": 960,
-          "cy": 500,
-          "w": 419,
-          "h": 90
-        }
-      ]
-    },
-    {
-      "id": "clip-selfie_34",
-      "type": "clip",
-      "src": "assets/clips/clip-selfie.mp4",
-      "frame": "rounded",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 980,
-        "h": 551
-      },
-      "z": 27,
-      "in": 165.46,
-      "out": 173.96,
-      "auto": true,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 165.46,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 165.76,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 171.46,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
-        }
-      ]
-    },
-    {
-      "id": "photo-grid_35",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/photo-grid.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 169.2,
-      "out": 175.2,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 169.2,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t36",
-      "type": "text",
-      "content": "Instagram vive de la comparación",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 715,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 166.24,
-      "out": 171.24,
-      "_syncT": 166.24,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "clip-influencer_37",
-      "type": "clip",
-      "src": "assets/clips/clip-influencer.mp4",
-      "frame": "rounded",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 980,
-        "h": 551
-      },
-      "z": 27,
-      "in": 179.66,
-      "out": 188.16,
-      "auto": true,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 179.66,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 179.91,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 182.96,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        }
-      ]
-    },
-    {
-      "id": "comparison-envy_38",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/comparison-envy.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 183.9,
-      "out": 189.9,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 183.9,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        },
-        {
-          "t": 184.84,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "filters-fake_39",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/filters-fake.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
-      "in": 184.84,
-      "out": 190.84,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 184.84,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 189.9,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t40",
-      "type": "text",
-      "content": "vidas perfectas = filtros y mentira",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 778,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 183.66,
-      "out": 188.66,
-      "_syncT": null,
+      "in": 79.28,
+      "out": 84.28,
+      "_syncT": 79.28,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -1698,10 +905,10 @@
       }
     },
     {
-      "id": "photo-laptop_41",
+      "id": "photo-socrates_22",
       "type": "image",
       "kind": "cutout",
-      "src": "assets/icons/photo-laptop.jpg",
+      "src": "assets/icons/photo-socrates.jpg",
       "box": {
         "cx": 960,
         "cy": 520,
@@ -1709,8 +916,8 @@
         "h": 460
       },
       "z": 24,
-      "in": 194.86,
-      "out": 206.86,
+      "in": 91.02,
+      "out": 103.02,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -1726,33 +933,33 @@
       },
       "frames": [
         {
-          "t": 194.86,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 195.11,
+          "t": 91.02,
           "cx": 960,
           "cy": 500,
           "w": 460,
           "h": 460
         },
         {
-          "t": 201.91,
+          "t": 94.32,
           "cx": 960,
           "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 100.02,
+          "cx": 960,
+          "cy": 500,
           "w": 460,
           "h": 460
         }
       ]
     },
     {
-      "id": "recommendation-algo_42",
+      "id": "hemlock-plant_23",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/recommendation-algo.png",
+      "src": "assets/icons/hemlock-plant.png",
       "box": {
         "cx": 1600,
         "cy": 400,
@@ -1760,8 +967,8 @@
         "h": 210
       },
       "z": 30,
-      "in": 202.68,
-      "out": 208.68,
+      "in": 95.04,
+      "out": 101.04,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1777,7 +984,7 @@
       },
       "frames": [
         {
-          "t": 202.68,
+          "t": 95.04,
           "cx": 1600,
           "cy": 400,
           "w": 210,
@@ -1786,10 +993,10 @@
       ]
     },
     {
-      "id": "autoplay_43",
+      "id": "socrates-cup_24",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/autoplay.png",
+      "src": "assets/icons/socrates-cup.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -1797,8 +1004,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 210.26,
-      "out": 216.26,
+      "in": 105.84,
+      "out": 111.84,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1814,44 +1021,37 @@
       },
       "frames": [
         {
-          "t": 210.26,
+          "t": 105.84,
           "cx": 960,
           "cy": 560,
           "w": 470,
           "h": 470
         },
         {
-          "t": 213.66,
+          "t": 109.16,
           "cx": 610,
           "cy": 540,
           "w": 380,
           "h": 380
-        },
-        {
-          "t": 215.36,
-          "cx": 960,
-          "cy": 410,
-          "w": 300,
-          "h": 300
         }
       ]
     },
     {
-      "id": "t44",
+      "id": "t25",
       "type": "text",
-      "content": "el algoritmo elige el siguiente vídeo",
+      "content": "la cicuta que mató a Sócrates",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 820,
+        "w": 651,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 202.56,
-      "out": 207.56,
-      "_syncT": 202.56,
+      "in": 94.9,
+      "out": 99.9,
+      "_syncT": 94.9,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -1867,10 +1067,10 @@
       }
     },
     {
-      "id": "watch-time_45",
+      "id": "paralysis-up_26",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/watch-time.png",
+      "src": "assets/icons/paralysis-up.png",
       "box": {
         "cx": 1310,
         "cy": 553,
@@ -1878,8 +1078,8 @@
         "h": 380
       },
       "z": 30,
-      "in": 213.66,
-      "out": 219.66,
+      "in": 109.16,
+      "out": 115.16,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1895,21 +1095,21 @@
       },
       "frames": [
         {
-          "t": 213.66,
+          "t": 109.16,
           "cx": 1310,
           "cy": 553,
           "w": 380,
           "h": 380
         },
         {
-          "t": 215.36,
-          "cx": 610,
-          "cy": 723,
-          "w": 300,
-          "h": 300
+          "t": 111.84,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
         },
         {
-          "t": 216.26,
+          "t": 114.06,
           "cx": 610,
           "cy": 540,
           "w": 380,
@@ -1918,19 +1118,19 @@
       ]
     },
     {
-      "id": "recommendation-algo_46",
+      "id": "socrates-cup_27",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/recommendation-algo.png",
+      "src": "assets/icons/socrates-cup.png",
       "box": {
         "cx": 1310,
-        "cy": 736,
-        "w": 300,
-        "h": 300
+        "cy": 553,
+        "w": 380,
+        "h": 380
       },
       "z": 30,
-      "in": 215.36,
-      "out": 221.36,
+      "in": 114.06,
+      "out": 118.74,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1946,21 +1146,14 @@
       },
       "frames": [
         {
-          "t": 215.36,
-          "cx": 1310,
-          "cy": 736,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 216.26,
+          "t": 114.06,
           "cx": 1310,
           "cy": 553,
           "w": 380,
           "h": 380
         },
         {
-          "t": 219.66,
+          "t": 115.16,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -1969,20 +1162,20 @@
       ]
     },
     {
-      "id": "t47",
+      "id": "t28",
       "type": "text",
-      "content": "todo por maximizar tu tiempo de pantalla",
+      "content": "paraliza de los pies... y llega a los pulmones",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 883,
+        "w": 1010,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 216.14,
-      "out": 221.14,
+      "in": 112.54,
+      "out": 117.54,
       "_syncT": null,
       "_keep": false,
       "_hold": false,
@@ -1999,235 +1192,10 @@
       }
     },
     {
-      "id": "clip-teen-phone_48",
-      "type": "clip",
-      "src": "assets/clips/clip-teen-phone.mp4",
-      "frame": "phone",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 980,
-        "h": 551
-      },
-      "z": 27,
-      "in": 225.1,
-      "out": 233.6,
-      "auto": true,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 225.1,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 230.1,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
-        }
-      ]
-    },
-    {
-      "id": "short-video_49",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/short-video.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 233.62,
-      "out": 239.62,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 233.62,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t50",
-      "type": "text",
-      "content": "TikTok: la más adictiva jamás creada",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 799,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 225.1,
-      "out": 230.1,
-      "_syncT": 225.1,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "for-you-algo_51",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/for-you-algo.png",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 500,
-        "h": 500
-      },
-      "z": 26,
-      "in": 241.28,
-      "out": 250.96,
-      "auto": true,
-      "_keep": false,
-      "_accum": false,
-      "_hero": true,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 241.28,
-          "cx": 960,
-          "cy": 520,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 241.53,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 245.58,
-          "cx": 960,
-          "cy": 520,
-          "w": 500,
-          "h": 500
-        }
-      ]
-    },
-    {
-      "id": "endless-swipe_52",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/endless-swipe.png",
-      "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
-      },
-      "z": 30,
-      "in": 246.24,
-      "out": 250.96,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 246.24,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
-        }
-      ]
-    },
-    {
-      "id": "t53",
-      "type": "text",
-      "content": "te conoce mejor que tú mismo",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 630,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 246.08,
-      "out": 250.96,
-      "_syncT": null,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "photo-crowd_54",
+      "id": "photo-belladonna_29",
       "type": "image",
       "kind": "cutout",
-      "src": "assets/icons/photo-crowd.jpg",
+      "src": "assets/icons/photo-belladonna.jpg",
       "box": {
         "cx": 960,
         "cy": 520,
@@ -2235,8 +1203,8 @@
         "h": 460
       },
       "z": 24,
-      "in": 250.96,
-      "out": 262.96,
+      "in": 118.74,
+      "out": 130.74,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -2252,21 +1220,21 @@
       },
       "frames": [
         {
-          "t": 250.96,
+          "t": 118.74,
           "cx": 960,
           "cy": 500,
           "w": 460,
           "h": 460
         },
         {
-          "t": 255.26,
+          "t": 123.04,
           "cx": 960,
           "cy": 520,
           "w": 460,
           "h": 460
         },
         {
-          "t": 260.96,
+          "t": 128.74,
           "cx": 960,
           "cy": 500,
           "w": 460,
@@ -2275,10 +1243,10 @@
       ]
     },
     {
-      "id": "opinion-bubble_55",
+      "id": "dilated-pupils_30",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
+      "src": "assets/icons/dilated-pupils.png",
       "box": {
         "cx": 1600,
         "cy": 400,
@@ -2286,8 +1254,8 @@
         "h": 210
       },
       "z": 30,
-      "in": 254.76,
-      "out": 260.76,
+      "in": 128.4,
+      "out": 134.4,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2303,364 +1271,25 @@
       },
       "frames": [
         {
-          "t": 254.76,
+          "t": 128.4,
           "cx": 1600,
           "cy": 400,
           "w": 210,
           "h": 210
+        },
+        {
+          "t": 133.84,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
         }
       ]
     },
     {
-      "id": "t56",
+      "id": "t31",
       "type": "text",
-      "content": "X premia lo que te indigna",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 588,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 255.96,
-      "out": 260.96,
-      "_syncT": null,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "clip-typing_57",
-      "type": "clip",
-      "src": "assets/clips/clip-typing.mp4",
-      "frame": "rounded",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 980,
-        "h": 551
-      },
-      "z": 27,
-      "in": 270.46,
-      "out": 276.62,
-      "auto": true,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 270.46,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 270.71,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 275.01,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        }
-      ]
-    },
-    {
-      "id": "outrage-anger_58",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/outrage-anger.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 275.82,
-      "out": 280.82,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 275.82,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t59",
-      "type": "text",
-      "content": "la rabia es lo que más se comparte",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 757,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 275.7,
-      "out": 276.62,
-      "_syncT": 275.7,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "clip-selfie_60",
-      "type": "clip",
-      "src": "assets/clips/clip-selfie.mp4",
-      "frame": "rounded",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 980,
-        "h": 551
-      },
-      "z": 27,
-      "in": 278.3,
-      "out": 286.8,
-      "auto": true,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 278.3,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 280.85,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        }
-      ]
-    },
-    {
-      "id": "ghost-message_61",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/ghost-message.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 282.12,
-      "out": 288.12,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 282.12,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t62",
-      "type": "text",
-      "content": "mensajes que desaparecen... y las rachas",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 883,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 281.34,
-      "out": 286.34,
-      "_syncT": 281.34,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "streaks-fire_63",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/streaks-fire.png",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 500,
-        "h": 500
-      },
-      "z": 26,
-      "in": 288.38,
-      "out": 300.38,
-      "auto": true,
-      "_keep": false,
-      "_accum": false,
-      "_hero": true,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 288.38,
-          "cx": 960,
-          "cy": 520,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 288.63,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 292.68,
-          "cx": 960,
-          "cy": 520,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 298.38,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        }
-      ]
-    },
-    {
-      "id": "fomo_64",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/fomo.png",
-      "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
-      },
-      "z": 30,
-      "in": 293.4,
-      "out": 299.4,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 293.4,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
-        }
-      ]
-    },
-    {
-      "id": "t65",
-      "type": "text",
-      "content": "las rachas te obligan a entrar cada día",
+      "content": "«mujer hermosa»: gotas para las pupilas",
       "fontSize": 34,
       "box": {
         "cx": 960,
@@ -2668,10 +1297,855 @@
         "w": 862,
         "h": 90
       },
+      "color": "#111111",
+      "z": 60,
+      "in": 123.66,
+      "out": 128.66,
+      "_syncT": 123.66,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "belladonna-plant_32",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/belladonna-plant.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 133.84,
+      "out": 139.84,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 133.84,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 134.4,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 139.6,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "beauty-death_33",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/beauty-death.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 139.6,
+      "out": 142.32,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 139.6,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 139.84,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t34",
+      "type": "text",
+      "content": "lo bonito y lo mortal, la misma planta",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 841,
+        "h": 90
+      },
       "color": "#EE2B37",
       "z": 60,
-      "in": 293.38,
-      "out": 298.38,
+      "in": 138.94,
+      "out": 142.32,
+      "_syncT": 138.94,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "strychnine_35",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/strychnine.png",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 500,
+        "h": 500
+      },
+      "z": 26,
+      "in": 142.32,
+      "out": 154.32,
+      "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 142.32,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 146.87,
+          "cx": 960,
+          "cy": 520,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 152.57,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        }
+      ]
+    },
+    {
+      "id": "muscle-paralysis_36",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/muscle-paralysis.png",
+      "box": {
+        "cx": 1600,
+        "cy": 400,
+        "w": 210,
+        "h": 210
+      },
+      "z": 30,
+      "in": 151.32,
+      "out": 157.32,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 151.32,
+          "cx": 1600,
+          "cy": 400,
+          "w": 210,
+          "h": 210
+        }
+      ]
+    },
+    {
+      "id": "t37",
+      "type": "text",
+      "content": "contracciones violentas por todo el cuerpo",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 925,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 147.34,
+      "out": 152.34,
+      "_syncT": 147.34,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "mystery-novel_38",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/mystery-novel.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 160.08,
+      "out": 164.88,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 160.08,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 162.8,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "strychnine_39",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/strychnine.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 162.8,
+      "out": 167.42,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 162.8,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "t40",
+      "type": "text",
+      "content": "un clásico de las novelas de misterio",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 820,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 161.1,
+      "out": 164.88,
+      "_syncT": 161.1,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "clip-poison-drop_41",
+      "type": "clip",
+      "src": "assets/clips/clip-poison-drop.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 170.12,
+      "out": 178.62,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 170.12,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 172.62,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "aqua-tofana_42",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/aqua-tofana.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 177.18,
+      "out": 183.18,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 177.18,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 179.44,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "tasteless_43",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/tasteless.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 179.44,
+      "out": 185.44,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 179.44,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 183.18,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t44",
+      "type": "text",
+      "content": "veneno disfrazado de cosmético",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 672,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 167.42,
+      "out": 172.42,
+      "_syncT": 167.42,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "antifreeze_45",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/antifreeze.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 197.84,
+      "out": 203.84,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 197.84,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "medicine-or-poison_46",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/medicine-or-poison.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 188.62,
+      "out": 194.62,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 188.62,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 190.62,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "mercury-metal_47",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/mercury-metal.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 190.62,
+      "out": 196.62,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 190.62,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 194.62,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t48",
+      "type": "text",
+      "content": "el anticongelante: dulce y letal",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 715,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 197.14,
+      "out": 202.14,
+      "_syncT": 197.14,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 197.14,
+          "cx": 960,
+          "cy": 830,
+          "w": 715,
+          "h": 90
+        },
+        {
+          "t": 198.14,
+          "cx": 960,
+          "cy": 500,
+          "w": 715,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "photo-mercury_49",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo-mercury.jpg",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 460,
+        "h": 460
+      },
+      "z": 24,
+      "in": 213.72,
+      "out": 225.72,
+      "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 213.72,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 213.97,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 219.02,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 224.72,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        }
+      ]
+    },
+    {
+      "id": "alchemist_50",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/alchemist.png",
+      "box": {
+        "cx": 1600,
+        "cy": 400,
+        "w": 210,
+        "h": 210
+      },
+      "z": 30,
+      "in": 220.18,
+      "out": 226.18,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 220.18,
+          "cx": 1600,
+          "cy": 400,
+          "w": 210,
+          "h": 210
+        }
+      ]
+    },
+    {
+      "id": "mad-hatter_51",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/mad-hatter.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 226.98,
+      "out": 232.98,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 226.98,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t52",
+      "type": "text",
+      "content": "«loco como un sombrerero»",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 567,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 219.72,
+      "out": 224.72,
       "_syncT": null,
       "_keep": false,
       "_hold": false,
@@ -2688,10 +2162,10 @@
       }
     },
     {
-      "id": "briefcase-network_66",
+      "id": "mad-hatter_53",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/briefcase-network.png",
+      "src": "assets/icons/mad-hatter.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -2699,8 +2173,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 302.56,
-      "out": 308.56,
+      "in": 233.96,
+      "out": 239.96,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2716,51 +2190,14 @@
       },
       "frames": [
         {
-          "t": 302.56,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "blue-check-typing_67",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/blue-check-typing.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 314.84,
-      "out": 320.84,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 314.84,
+          "t": 233.96,
           "cx": 960,
           "cy": 560,
           "w": 470,
           "h": 470
         },
         {
-          "t": 317.02,
+          "t": 238.82,
           "cx": 610,
           "cy": 540,
           "w": 380,
@@ -2769,56 +2206,10 @@
       ]
     },
     {
-      "id": "t68",
-      "type": "text",
-      "content": "el doble check azul también engancha",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 799,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 306.92,
-      "out": 311.92,
-      "_syncT": 306.92,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 306.92,
-          "cx": 960,
-          "cy": 500,
-          "w": 799,
-          "h": 90
-        },
-        {
-          "t": 308.22,
-          "cx": 960,
-          "cy": 830,
-          "w": 799,
-          "h": 90
-        }
-      ]
-    },
-    {
-      "id": "blue-check-typing_69",
+      "id": "mercury-metal_54",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/blue-check-typing.png",
+      "src": "assets/icons/mercury-metal.png",
       "box": {
         "cx": 1310,
         "cy": 553,
@@ -2826,8 +2217,8 @@
         "h": 380
       },
       "z": 30,
-      "in": 317.02,
-      "out": 323.02,
+      "in": 238.82,
+      "out": 241.76,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2843,14 +2234,14 @@
       },
       "frames": [
         {
-          "t": 317.02,
+          "t": 238.82,
           "cx": 1310,
           "cy": 553,
           "w": 380,
           "h": 380
         },
         {
-          "t": 320.84,
+          "t": 239.96,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -2859,58 +2250,21 @@
       ]
     },
     {
-      "id": "watch-time_70",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/watch-time.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 323.82,
-      "out": 324.58,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 323.82,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t71",
+      "id": "t55",
       "type": "text",
-      "content": "todas quieren lo mismo: tu tiempo",
+      "content": "un emperador murió buscando la inmortalidad",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
-        "w": 736,
+        "cy": 500,
+        "w": 946,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 321.74,
-      "out": 324.58,
-      "_syncT": 321.74,
+      "in": 235.16,
+      "out": 240.16,
+      "_syncT": 235.16,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -2923,38 +2277,22 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 321.74,
-          "cx": 960,
-          "cy": 500,
-          "w": 736,
-          "h": 90
-        },
-        {
-          "t": 322.79,
-          "cx": 960,
-          "cy": 830,
-          "w": 736,
-          "h": 90
-        }
-      ]
+      }
     },
     {
-      "id": "for-you-algo_72",
+      "id": "photo-roman-ruins_56",
       "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/for-you-algo.png",
+      "kind": "cutout",
+      "src": "assets/icons/photo-roman-ruins.jpg",
       "box": {
         "cx": 960,
         "cy": 520,
-        "w": 500,
-        "h": 500
+        "w": 460,
+        "h": 460
       },
-      "z": 26,
-      "in": 324.58,
-      "out": 336.58,
+      "z": 24,
+      "in": 241.76,
+      "out": 253.76,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -2970,33 +2308,33 @@
       },
       "frames": [
         {
-          "t": 324.58,
+          "t": 241.76,
           "cx": 960,
           "cy": 500,
-          "w": 500,
-          "h": 500
+          "w": 460,
+          "h": 460
         },
         {
-          "t": 328.13,
+          "t": 246.56,
           "cx": 960,
           "cy": 520,
-          "w": 500,
-          "h": 500
+          "w": 460,
+          "h": 460
         },
         {
-          "t": 333.83,
+          "t": 252.26,
           "cx": 960,
           "cy": 500,
-          "w": 500,
-          "h": 500
+          "w": 460,
+          "h": 460
         }
       ]
     },
     {
-      "id": "comparison-envy_73",
+      "id": "lead-pipe_57",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/comparison-envy.png",
+      "src": "assets/icons/lead-pipe.png",
       "box": {
         "cx": 1600,
         "cy": 400,
@@ -3004,8 +2342,8 @@
         "h": 210
       },
       "z": 30,
-      "in": 328.98,
-      "out": 334.98,
+      "in": 249.26,
+      "out": 255.26,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3021,7 +2359,7 @@
       },
       "frames": [
         {
-          "t": 328.98,
+          "t": 249.26,
           "cx": 1600,
           "cy": 400,
           "w": 210,
@@ -3030,9 +2368,433 @@
       ]
     },
     {
-      "id": "t74",
+      "id": "t58",
       "type": "text",
-      "content": "el algoritmo te encierra en tu burbuja",
+      "content": "los romanos lo tenían en todo",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 651,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 247.02,
+      "out": 252.02,
+      "_syncT": 247.02,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "lead-pipe_59",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/lead-pipe.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 258.42,
+      "out": 264.42,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 258.42,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 264.36,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "roman-decline_60",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/roman-decline.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 264.36,
+      "out": 266.6,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 264.36,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 264.42,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t61",
+      "type": "text",
+      "content": "quizá ayudó a hundir a Roma",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 609,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 260.5,
+      "out": 265.5,
+      "_syncT": null,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "thallium_62",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/thallium.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 270.28,
+      "out": 276.28,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 270.28,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 275.44,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "hair-loss_63",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/hair-loss.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 278.52,
+      "out": 284.52,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 278.52,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 281.44,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "tasteless_64",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/tasteless.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 275.44,
+      "out": 281.44,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 275.44,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 276.28,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 278.52,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "t65",
+      "type": "text",
+      "content": "el «veneno del envenenador»",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 609,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 266.6,
+      "out": 271.6,
+      "_syncT": 266.6,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 266.6,
+          "cx": 960,
+          "cy": 830,
+          "w": 609,
+          "h": 90
+        },
+        {
+          "t": 270.6,
+          "cx": 960,
+          "cy": 500,
+          "w": 609,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "clip-microscope_66",
+      "type": "clip",
+      "src": "assets/clips/clip-microscope.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 298.3,
+      "out": 305.9,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 298.3,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 298.55,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 302.1,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "botulinum_67",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/botulinum.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 304.38,
+      "out": 310.38,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 304.38,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 310.24,
+          "cx": 1600,
+          "cy": 400,
+          "w": 210,
+          "h": 210
+        }
+      ]
+    },
+    {
+      "id": "t68",
+      "type": "text",
+      "content": "gramo a gramo, la más letal que existe",
       "fontSize": 34,
       "box": {
         "cx": 960,
@@ -3042,9 +2804,9 @@
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 328.6,
-      "out": 333.6,
-      "_syncT": 328.6,
+      "in": 302.68,
+      "out": 305.9,
+      "_syncT": 302.68,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -3060,23 +2822,23 @@
       }
     },
     {
-      "id": "opinion-bubble_75",
+      "id": "botox-face_69",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
+      "src": "assets/icons/botox-face.png",
       "box": {
         "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
+        "cy": 500,
+        "w": 500,
+        "h": 500
       },
-      "z": 30,
-      "in": 342.28,
-      "out": 348.28,
+      "z": 26,
+      "in": 305.9,
+      "out": 317.9,
       "auto": true,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
+      "_accum": false,
+      "_hero": true,
       "_hold": false,
       "enter": {
         "kind": "pop",
@@ -3088,79 +2850,56 @@
       },
       "frames": [
         {
-          "t": 342.28,
+          "t": 305.9,
           "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
+          "cy": 520,
+          "w": 500,
+          "h": 500
         },
         {
-          "t": 343.64,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "social-network_76",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/social-network.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
-      "in": 343.64,
-      "out": 349.64,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 343.64,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
+          "t": 308.1,
+          "cx": 915,
+          "cy": 465,
+          "w": 410,
+          "h": 410
         },
         {
-          "t": 348.28,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
+          "t": 310.7,
+          "cx": 1000,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        },
+        {
+          "t": 313.3,
+          "cx": 935,
+          "cy": 450,
+          "w": 390,
+          "h": 390
+        },
+        {
+          "t": 315.9,
+          "cx": 990,
+          "cy": 475,
+          "w": 400,
+          "h": 400
         }
       ]
     },
     {
-      "id": "play-button_77",
+      "id": "muscle-paralysis_70",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/play-button.png",
+      "src": "assets/icons/muscle-paralysis.png",
       "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
+        "cx": 490,
+        "cy": 400,
+        "w": 200,
+        "h": 200
       },
       "z": 30,
-      "in": 353.34,
-      "out": 359.34,
+      "in": 310.24,
+      "out": 316.24,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3176,30 +2915,144 @@
       },
       "frames": [
         {
-          "t": 353.34,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
+          "t": 310.24,
+          "cx": 490,
+          "cy": 400,
+          "w": 200,
+          "h": 200
+        },
+        {
+          "t": 310.38,
+          "cx": 1600,
+          "cy": 400,
+          "w": 210,
+          "h": 210
         }
       ]
     },
     {
-      "id": "t78",
+      "id": "t71",
       "type": "text",
-      "content": "Reddit: comunidades · Twitch: el directo",
+      "content": "el veneno más mortal... usado por belleza",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 883,
+        "w": 904,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 342.28,
-      "out": 347.28,
-      "_syncT": 342.28,
+      "in": 318.26,
+      "out": 323.26,
+      "_syncT": 318.26,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "clip-pufferfish_72",
+      "type": "clip",
+      "src": "assets/clips/clip-pufferfish.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 324.7,
+      "out": 333.2,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 324.7,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 329.7,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "fugu-chef_73",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/fugu-chef.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 337.26,
+      "out": 343.26,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 337.26,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t74",
+      "type": "text",
+      "content": "el fugu: solo chefs con licencia",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 715,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 324.7,
+      "out": 329.7,
+      "_syncT": 324.7,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -3212,132 +3065,12 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 342.28,
-          "cx": 960,
-          "cy": 830,
-          "w": 883,
-          "h": 90
-        },
-        {
-          "t": 342.53,
-          "cx": 960,
-          "cy": 500,
-          "w": 883,
-          "h": 90
-        }
-      ]
-    },
-    {
-      "id": "recommendation-algo_79",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/recommendation-algo.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 363.98,
-      "out": 369.98,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 363.98,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "attention-economy_80",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/attention-economy.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 376.1,
-      "out": 381.1,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 376.1,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t81",
-      "type": "text",
-      "content": "detrás, siempre el mismo algoritmo",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 757,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 370.06,
-      "out": 375.06,
-      "_syncT": 370.06,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
       }
     },
     {
-      "id": "clip-server_82",
+      "id": "clip-sushi_75",
       "type": "clip",
-      "src": "assets/clips/clip-server.mp4",
+      "src": "assets/clips/clip-sushi.mp4",
       "frame": "rounded",
       "box": {
         "cx": 960,
@@ -3346,8 +3079,8 @@
         "h": 551
       },
       "z": 27,
-      "in": 380.88,
-      "out": 389.38,
+      "in": 341.1,
+      "out": 349.6,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3359,26 +3092,26 @@
       },
       "frames": [
         {
-          "t": 380.88,
+          "t": 341.1,
           "cx": 960,
-          "cy": 500,
+          "cy": 520,
           "w": 980,
           "h": 551
         },
         {
-          "t": 386.18,
+          "t": 346.85,
           "cx": 960,
-          "cy": 520,
+          "cy": 500,
           "w": 980,
           "h": 551
         }
       ]
     },
     {
-      "id": "data-harvest_83",
+      "id": "conscious-paralysis_76",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/data-harvest.png",
+      "src": "assets/icons/conscious-paralysis.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -3386,8 +3119,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 388.86,
-      "out": 394.86,
+      "in": 344.86,
+      "out": 350.12,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3403,7 +3136,7 @@
       },
       "frames": [
         {
-          "t": 388.86,
+          "t": 344.86,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -3412,21 +3145,21 @@
       ]
     },
     {
-      "id": "t84",
+      "id": "t77",
       "type": "text",
-      "content": "todo lo que haces se guarda",
+      "content": "paraliza... estando despierto",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 609,
+        "w": 651,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 386.68,
-      "out": 391.68,
-      "_syncT": 386.68,
+      "in": 341.68,
+      "out": 346.68,
+      "_syncT": 341.68,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -3439,39 +3172,27 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 386.68,
-          "cx": 960,
-          "cy": 830,
-          "w": 609,
-          "h": 90
-        },
-        {
-          "t": 389.43,
-          "cx": 960,
-          "cy": 500,
-          "w": 609,
-          "h": 90
-        }
-      ]
+      }
     },
     {
-      "id": "clip-code-data_85",
-      "type": "clip",
-      "src": "assets/clips/clip-code-data.mp4",
-      "frame": "rounded",
+      "id": "photo-lab_78",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo-lab.png",
       "box": {
         "cx": 960,
-        "cy": 500,
-        "w": 980,
-        "h": 551
+        "cy": 520,
+        "w": 460,
+        "h": 460
       },
-      "z": 27,
-      "in": 393.12,
-      "out": 401.62,
+      "z": 24,
+      "in": 350.12,
+      "out": 362.12,
       "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3479,22 +3200,45 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 350.12,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 354.67,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 360.37,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "data-profile_86",
+      "id": "ricin-bean_79",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/data-profile.png",
+      "src": "assets/icons/ricin-bean.png",
       "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
+        "cx": 1600,
+        "cy": 400,
+        "w": 210,
+        "h": 210
       },
       "z": 30,
-      "in": 397.52,
-      "out": 403.52,
+      "in": 352.98,
+      "out": 358.98,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3510,14 +3254,81 @@
       },
       "frames": [
         {
-          "t": 397.52,
+          "t": 352.98,
+          "cx": 1600,
+          "cy": 400,
+          "w": 210,
+          "h": 210
+        }
+      ]
+    },
+    {
+      "id": "t80",
+      "type": "text",
+      "content": "escondida en una semilla común",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 672,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 355.32,
+      "out": 360.32,
+      "_syncT": null,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "umbrella-murder_81",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/umbrella-murder.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 366.78,
+      "out": 371.78,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 366.78,
           "cx": 960,
           "cy": 560,
           "w": 470,
           "h": 470
         },
         {
-          "t": 401.54,
+          "t": 368.66,
           "cx": 610,
           "cy": 540,
           "w": 380,
@@ -3526,10 +3337,10 @@
       ]
     },
     {
-      "id": "targeted-ad_87",
+      "id": "ricin-bean_82",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/targeted-ad.png",
+      "src": "assets/icons/ricin-bean.png",
       "box": {
         "cx": 1310,
         "cy": 553,
@@ -3537,8 +3348,8 @@
         "h": 380
       },
       "z": 30,
-      "in": 401.54,
-      "out": 407.54,
+      "in": 368.66,
+      "out": 373.66,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3554,25 +3365,18 @@
       },
       "frames": [
         {
-          "t": 401.54,
+          "t": 368.66,
           "cx": 1310,
           "cy": 553,
           "w": 380,
           "h": 380
-        },
-        {
-          "t": 403.52,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
         }
       ]
     },
     {
-      "id": "t88",
+      "id": "t83",
       "type": "text",
-      "content": "no eres el cliente: eres la mercancía",
+      "content": "asesinado con la punta de un paraguas",
       "fontSize": 34,
       "box": {
         "cx": 960,
@@ -3582,9 +3386,9 @@
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 404.72,
-      "out": 409.72,
-      "_syncT": 404.72,
+      "in": 365.24,
+      "out": 370.24,
+      "_syncT": 365.24,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -3600,159 +3404,25 @@
       },
       "frames": [
         {
-          "t": 404.72,
-          "cx": 960,
-          "cy": 500,
-          "w": 820,
-          "h": 90
-        },
-        {
-          "t": 407.27,
+          "t": 365.24,
           "cx": 960,
           "cy": 830,
           "w": 820,
           "h": 90
-        }
-      ]
-    },
-    {
-      "id": "anxiety-sleep_89",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/anxiety-sleep.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 414.84,
-      "out": 420.84,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 414.84,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
         },
         {
-          "t": 420.78,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "comparison-envy_90",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/comparison-envy.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
-      "in": 420.78,
-      "out": 425.78,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 420.78,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 420.84,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t91",
-      "type": "text",
-      "content": "más ansiedad, peor sueño, más comparación",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 904,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 414.64,
-      "out": 419.64,
-      "_syncT": 414.64,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 414.64,
-          "cx": 960,
-          "cy": 830,
-          "w": 904,
-          "h": 90
-        },
-        {
-          "t": 415.14,
+          "t": 367.24,
           "cx": 960,
           "cy": 500,
-          "w": 904,
+          "w": 820,
           "h": 90
         }
       ]
     },
     {
-      "id": "clip-crowd-phones_92",
+      "id": "clip-radioactive_84",
       "type": "clip",
-      "src": "assets/clips/clip-crowd-phones.mp4",
+      "src": "assets/clips/clip-radioactive.mp4",
       "frame": "rounded",
       "box": {
         "cx": 960,
@@ -3761,8 +3431,8 @@
         "h": 551
       },
       "z": 27,
-      "in": 425.88,
-      "out": 434.38,
+      "in": 374.7,
+      "out": 383.2,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3774,14 +3444,21 @@
       },
       "frames": [
         {
-          "t": 425.88,
+          "t": 374.7,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 374.95,
           "cx": 960,
           "cy": 500,
           "w": 980,
           "h": 551
         },
         {
-          "t": 431.68,
+          "t": 376.75,
           "cx": 960,
           "cy": 520,
           "w": 980,
@@ -3790,10 +3467,10 @@
       ]
     },
     {
-      "id": "take-control_93",
+      "id": "polonium_85",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/take-control.png",
+      "src": "assets/icons/polonium.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -3801,8 +3478,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 435.92,
-      "out": 441.92,
+      "in": 377.76,
+      "out": 383.76,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3818,7 +3495,7 @@
       },
       "frames": [
         {
-          "t": 435.92,
+          "t": 377.76,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -3827,21 +3504,128 @@
       ]
     },
     {
-      "id": "t94",
+      "id": "t86",
       "type": "text",
-      "content": "no juegas tú: la app juega contigo",
+      "content": "un veneno hecho de radiación pura",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 757,
+        "w": 736,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 432.36,
-      "out": 437.36,
-      "_syncT": 432.36,
+      "in": 377.38,
+      "out": 382.38,
+      "_syncT": null,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "clip-tea_87",
+      "type": "clip",
+      "src": "assets/clips/clip-tea.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 393.54,
+      "out": 396.56,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 393.54,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 395.79,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "poisoned-tea_88",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/poisoned-tea.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 390.04,
+      "out": 396.04,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 390.04,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t89",
+      "type": "text",
+      "content": "envenenado en una taza de té",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 630,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 390.64,
+      "out": 395.64,
+      "_syncT": 390.64,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -3857,26 +3641,73 @@
       },
       "frames": [
         {
-          "t": 432.36,
+          "t": 390.64,
           "cx": 960,
-          "cy": 830,
-          "w": 757,
+          "cy": 500,
+          "w": 630,
           "h": 90
         },
         {
-          "t": 436.11,
+          "t": 392.94,
           "cx": 960,
-          "cy": 500,
-          "w": 757,
+          "cy": 830,
+          "w": 630,
           "h": 90
         }
       ]
     },
     {
-      "id": "red-notification_95",
+      "id": "clip-hazmat_90",
+      "type": "clip",
+      "src": "assets/clips/clip-hazmat.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 400.4,
+      "out": 408.9,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 400.4,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 400.65,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 404.45,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "nerve-agent_91",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/red-notification.png",
+      "src": "assets/icons/nerve-agent.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -3884,8 +3715,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 447.2,
-      "out": 453.2,
+      "in": 403.68,
+      "out": 409.68,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3901,14 +3732,97 @@
       },
       "frames": [
         {
-          "t": 447.2,
+          "t": 403.68,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t92",
+      "type": "text",
+      "content": "sarín, novichok: parálisis en minutos",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 820,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 404.96,
+      "out": 409.96,
+      "_syncT": 404.96,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 404.96,
+          "cx": 960,
+          "cy": 830,
+          "w": 820,
+          "h": 90
+        },
+        {
+          "t": 408.96,
+          "cx": 960,
+          "cy": 500,
+          "w": 820,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "nerve-agent_93",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/nerve-agent.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 414.34,
+      "out": 420.34,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 414.34,
           "cx": 960,
           "cy": 560,
           "w": 470,
           "h": 470
         },
         {
-          "t": 453.02,
+          "t": 415.26,
           "cx": 610,
           "cy": 540,
           "w": 380,
@@ -3917,10 +3831,10 @@
       ]
     },
     {
-      "id": "grayscale-phone_96",
+      "id": "banned-weapon_94",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/grayscale-phone.png",
+      "src": "assets/icons/banned-weapon.png",
       "box": {
         "cx": 1310,
         "cy": 553,
@@ -3928,8 +3842,8 @@
         "h": 380
       },
       "z": 30,
-      "in": 453.02,
-      "out": 459.02,
+      "in": 415.26,
+      "out": 421.26,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3945,14 +3859,14 @@
       },
       "frames": [
         {
-          "t": 453.02,
+          "t": 415.26,
           "cx": 1310,
           "cy": 553,
           "w": 380,
           "h": 380
         },
         {
-          "t": 453.2,
+          "t": 420.34,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -3961,21 +3875,146 @@
       ]
     },
     {
-      "id": "t97",
+      "id": "t95",
       "type": "text",
-      "content": "quita notificaciones · pantalla en gris",
+      "content": "prohibidos como armas químicas",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 672,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 415.26,
+      "out": 420.26,
+      "_syncT": 415.26,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "dose-makes-poison_96",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/dose-makes-poison.png",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 500,
+        "h": 500
+      },
+      "z": 26,
+      "in": 422.68,
+      "out": 434.68,
+      "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 422.68,
+          "cx": 960,
+          "cy": 520,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 422.93,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 424.98,
+          "cx": 960,
+          "cy": 520,
+          "w": 500,
+          "h": 500
+        },
+        {
+          "t": 430.68,
+          "cx": 960,
+          "cy": 500,
+          "w": 500,
+          "h": 500
+        }
+      ]
+    },
+    {
+      "id": "medicine-or-poison_97",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/medicine-or-poison.png",
+      "box": {
+        "cx": 1600,
+        "cy": 400,
+        "w": 210,
+        "h": 210
+      },
+      "z": 30,
+      "in": 432.92,
+      "out": 438.92,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 432.92,
+          "cx": 1600,
+          "cy": 400,
+          "w": 210,
+          "h": 210
+        }
+      ]
+    },
+    {
+      "id": "t98",
+      "type": "text",
+      "content": "la regla de oro: la dosis hace el veneno",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 862,
+        "w": 883,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 446.74,
-      "out": 451.74,
-      "_syncT": 446.74,
+      "in": 425.44,
+      "out": 430.44,
+      "_syncT": 425.44,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -3988,39 +4027,27 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 446.74,
-          "cx": 960,
-          "cy": 830,
-          "w": 862,
-          "h": 90
-        },
-        {
-          "t": 447.49,
-          "cx": 960,
-          "cy": 500,
-          "w": 862,
-          "h": 90
-        }
-      ]
+      }
     },
     {
-      "id": "clip-phone-scroll_98",
-      "type": "clip",
-      "src": "assets/clips/clip-phone-scroll.mp4",
-      "frame": "phone",
+      "id": "photo-lab_99",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo-lab.png",
       "box": {
         "cx": 960,
         "cy": 520,
-        "w": 980,
-        "h": 551
+        "w": 460,
+        "h": 460
       },
-      "z": 27,
-      "in": 463.84,
-      "out": 468.62,
+      "z": 24,
+      "in": 436.6,
+      "out": 448.6,
       "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -4028,22 +4055,45 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 436.6,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 441.9,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 447.6,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        }
+      ]
     },
     {
-      "id": "take-control_99",
+      "id": "water-overdose_100",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/take-control.png",
+      "src": "assets/icons/water-overdose.png",
       "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
+        "cx": 1600,
+        "cy": 400,
+        "w": 210,
+        "h": 210
       },
       "z": 30,
-      "in": 466.98,
-      "out": 472.98,
+      "in": 442.42,
+      "out": 448.42,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -4059,7 +4109,44 @@
       },
       "frames": [
         {
-          "t": 466.98,
+          "t": 442.42,
+          "cx": 1600,
+          "cy": 400,
+          "w": 210,
+          "h": 210
+        }
+      ]
+    },
+    {
+      "id": "medicine-or-poison_101",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/medicine-or-poison.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 449.08,
+      "out": 455.08,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 449.08,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -4068,20 +4155,20 @@
       ]
     },
     {
-      "id": "t100",
+      "id": "t102",
       "type": "text",
-      "content": "¿entré a algo... o solo busco el premio?",
+      "content": "hasta el agua mata en exceso",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 883,
+        "w": 630,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 463.86,
-      "out": 468.62,
+      "in": 442.6,
+      "out": 447.6,
       "_syncT": null,
       "_keep": false,
       "_hold": false,
@@ -4098,34 +4185,10 @@
       }
     },
     {
-      "id": "clip-city-crowd_101",
-      "type": "clip",
-      "src": "assets/clips/clip-city-crowd.mp4",
-      "frame": "rounded",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 980,
-        "h": 551
-      },
-      "z": 27,
-      "in": 471.52,
-      "out": 480.02,
-      "auto": true,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "attention-economy_102",
+      "id": "medicine-or-poison_103",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/attention-economy.png",
+      "src": "assets/icons/medicine-or-poison.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -4133,8 +4196,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 473.02,
-      "out": 479.02,
+      "in": 457.04,
+      "out": 463.04,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -4150,81 +4213,14 @@
       },
       "frames": [
         {
-          "t": 473.02,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t103",
-      "type": "text",
-      "content": "tu recurso más valioso: tu atención",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 778,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 480.12,
-      "out": 485.12,
-      "_syncT": 480.12,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "know-tricks_104",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/know-tricks.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 486.86,
-      "out": 490.54,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 486.86,
+          "t": 457.04,
           "cx": 960,
           "cy": 560,
           "w": 470,
           "h": 470
         },
         {
-          "t": 487.98,
+          "t": 459.86,
           "cx": 610,
           "cy": 540,
           "w": 380,
@@ -4233,10 +4229,10 @@
       ]
     },
     {
-      "id": "take-control_105",
+      "id": "dose-makes-poison_104",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/take-control.png",
+      "src": "assets/icons/dose-makes-poison.png",
       "box": {
         "cx": 1310,
         "cy": 553,
@@ -4244,8 +4240,8 @@
         "h": 380
       },
       "z": 30,
-      "in": 487.98,
-      "out": 490.54,
+      "in": 459.86,
+      "out": 465.86,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -4261,30 +4257,88 @@
       },
       "frames": [
         {
-          "t": 487.98,
+          "t": 459.86,
           "cx": 1310,
           "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 463.04,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 464.92,
+          "cx": 610,
+          "cy": 540,
           "w": 380,
           "h": 380
         }
       ]
     },
     {
+      "id": "silent-poison_105",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/silent-poison.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 464.92,
+      "out": 470.92,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 464.92,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 465.86,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
       "id": "t106",
       "type": "text",
-      "content": "quien conoce los trucos no se deja enganchar",
+      "content": "el mayor peligro casi nunca se ve",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 968,
+        "w": 736,
         "h": 90
       },
-      "color": "#111111",
+      "color": "#EE2B37",
       "z": 60,
-      "in": 488.74,
-      "out": 490.54,
-      "_syncT": null,
+      "in": 458.52,
+      "out": 463.52,
+      "_syncT": 458.52,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -4303,7 +4357,7 @@
       "id": "chapicon0",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/you-are-product.png",
+      "src": "assets/icons/silent-poison.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4312,7 +4366,7 @@
       },
       "z": 80,
       "in": 0,
-      "out": 31.32,
+      "out": 28.54,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4327,18 +4381,18 @@
     {
       "id": "chaplabel0",
       "type": "text",
-      "content": "Si es gratis, el producto eres tú",
+      "content": "El arma invisible",
       "fontSize": 42,
       "box": {
-        "cx": 616,
+        "cx": 414,
         "cy": 145,
-        "w": 852,
+        "w": 448,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
       "in": 0,
-      "out": 31.32,
+      "out": 28.54,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4354,7 +4408,7 @@
       "id": "chapicon1",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/attention-economy.png",
+      "src": "assets/icons/arsenic-king.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4362,8 +4416,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 31.32,
-      "out": 63.74,
+      "in": 28.54,
+      "out": 63.12,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4378,18 +4432,18 @@
     {
       "id": "chaplabel1",
       "type": "text",
-      "content": "La economía de la atención",
+      "content": "Arsénico",
       "fontSize": 42,
       "box": {
-        "cx": 527.5,
+        "cx": 301,
         "cy": 145,
-        "w": 675,
+        "w": 222,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 31.32,
-      "out": 63.74,
+      "in": 28.54,
+      "out": 63.12,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4405,7 +4459,7 @@
       "id": "chapicon2",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/variable-reward.png",
+      "src": "assets/icons/cyanide-fast.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4413,8 +4467,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 63.74,
-      "out": 103.88,
+      "in": 63.12,
+      "out": 91.02,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4429,18 +4483,18 @@
     {
       "id": "chaplabel2",
       "type": "text",
-      "content": "La recompensa variable",
+      "content": "Cianuro",
       "fontSize": 42,
       "box": {
-        "cx": 477,
+        "cx": 288,
         "cy": 145,
-        "w": 574,
+        "w": 196,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 63.74,
-      "out": 103.88,
+      "in": 63.12,
+      "out": 91.02,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4456,7 +4510,7 @@
       "id": "chapicon3",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/infinite-scroll.png",
+      "src": "assets/icons/hemlock-plant.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4464,8 +4518,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 103.88,
-      "out": 133.16,
+      "in": 91.02,
+      "out": 118.74,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4480,18 +4534,18 @@
     {
       "id": "chaplabel3",
       "type": "text",
-      "content": "El scroll infinito",
+      "content": "Cicuta",
       "fontSize": 42,
       "box": {
-        "cx": 427,
+        "cx": 275.5,
         "cy": 145,
-        "w": 474,
+        "w": 171,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 103.88,
-      "out": 133.16,
+      "in": 91.02,
+      "out": 118.74,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4507,7 +4561,7 @@
       "id": "chapicon4",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/social-network.png",
+      "src": "assets/icons/belladonna-plant.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4515,8 +4569,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 133.16,
-      "out": 164.3,
+      "in": 118.74,
+      "out": 142.32,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4531,18 +4585,18 @@
     {
       "id": "chaplabel4",
       "type": "text",
-      "content": "Facebook",
+      "content": "Belladona",
       "fontSize": 42,
       "box": {
-        "cx": 301,
+        "cx": 313.5,
         "cy": 145,
-        "w": 222,
+        "w": 247,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 133.16,
-      "out": 164.3,
+      "in": 118.74,
+      "out": 142.32,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4558,7 +4612,7 @@
       "id": "chapicon5",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/photo-grid.png",
+      "src": "assets/icons/strychnine.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4566,8 +4620,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 164.3,
-      "out": 194.86,
+      "in": 142.32,
+      "out": 164.88,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4582,18 +4636,18 @@
     {
       "id": "chaplabel5",
       "type": "text",
-      "content": "Instagram",
+      "content": "Estricnina",
       "fontSize": 42,
       "box": {
-        "cx": 313.5,
+        "cx": 326,
         "cy": 145,
-        "w": 247,
+        "w": 272,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 164.3,
-      "out": 194.86,
+      "in": 142.32,
+      "out": 164.88,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4609,7 +4663,7 @@
       "id": "chapicon6",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/play-button.png",
+      "src": "assets/icons/aqua-tofana.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4617,8 +4671,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 194.86,
-      "out": 222.36,
+      "in": 164.88,
+      "out": 213.72,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4633,18 +4687,18 @@
     {
       "id": "chaplabel6",
       "type": "text",
-      "content": "YouTube",
+      "content": "Agua tofana",
       "fontSize": 42,
       "box": {
-        "cx": 288,
+        "cx": 338.5,
         "cy": 145,
-        "w": 196,
+        "w": 297,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 194.86,
-      "out": 222.36,
+      "in": 164.88,
+      "out": 213.72,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4660,7 +4714,7 @@
       "id": "chapicon7",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/short-video.png",
+      "src": "assets/icons/mercury-metal.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4668,8 +4722,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 222.36,
-      "out": 250.96,
+      "in": 213.72,
+      "out": 241.76,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4684,18 +4738,18 @@
     {
       "id": "chaplabel7",
       "type": "text",
-      "content": "TikTok",
+      "content": "Mercurio",
       "fontSize": 42,
       "box": {
-        "cx": 275.5,
+        "cx": 301,
         "cy": 145,
-        "w": 171,
+        "w": 222,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 222.36,
-      "out": 250.96,
+      "in": 213.72,
+      "out": 241.76,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4711,7 +4765,7 @@
       "id": "chapicon8",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
+      "src": "assets/icons/lead-pipe.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4719,8 +4773,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 250.96,
-      "out": 276.62,
+      "in": 241.76,
+      "out": 266.6,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4735,18 +4789,18 @@
     {
       "id": "chaplabel8",
       "type": "text",
-      "content": "X (Twitter)",
+      "content": "Plomo",
       "fontSize": 42,
       "box": {
-        "cx": 338.5,
+        "cx": 263,
         "cy": 145,
-        "w": 297,
+        "w": 146,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 250.96,
-      "out": 276.62,
+      "in": 241.76,
+      "out": 266.6,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4762,7 +4816,7 @@
       "id": "chapicon9",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/ghost-message.png",
+      "src": "assets/icons/thallium.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4770,8 +4824,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 276.62,
-      "out": 300.92,
+      "in": 266.6,
+      "out": 290.9,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4786,18 +4840,18 @@
     {
       "id": "chaplabel9",
       "type": "text",
-      "content": "Snapchat",
+      "content": "Talio",
       "fontSize": 42,
       "box": {
-        "cx": 301,
+        "cx": 263,
         "cy": 145,
-        "w": 222,
+        "w": 146,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 276.62,
-      "out": 300.92,
+      "in": 266.6,
+      "out": 290.9,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4813,7 +4867,7 @@
       "id": "chapicon10",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/briefcase-network.png",
+      "src": "assets/icons/botulinum.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4821,8 +4875,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 300.92,
-      "out": 324.58,
+      "in": 290.9,
+      "out": 324.7,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4837,18 +4891,18 @@
     {
       "id": "chaplabel10",
       "type": "text",
-      "content": "LinkedIn y mensajería",
+      "content": "Toxina botulínica",
       "fontSize": 42,
       "box": {
-        "cx": 464.5,
+        "cx": 414,
         "cy": 145,
-        "w": 549,
+        "w": 448,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 300.92,
-      "out": 324.58,
+      "in": 290.9,
+      "out": 324.7,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4864,7 +4918,7 @@
       "id": "chapicon11",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/for-you-algo.png",
+      "src": "assets/icons/pufferfish.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4872,8 +4926,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 324.58,
-      "out": 341.02,
+      "in": 324.7,
+      "out": 350.12,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4888,18 +4942,18 @@
     {
       "id": "chaplabel11",
       "type": "text",
-      "content": "La burbuja",
+      "content": "Pez globo (fugu)",
       "fontSize": 42,
       "box": {
-        "cx": 326,
+        "cx": 401.5,
         "cy": 145,
-        "w": 272,
+        "w": 423,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 324.58,
-      "out": 341.02,
+      "in": 324.7,
+      "out": 350.12,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4915,7 +4969,7 @@
       "id": "chapicon12",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
+      "src": "assets/icons/ricin-bean.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4923,8 +4977,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 341.02,
-      "out": 376.9,
+      "in": 350.12,
+      "out": 371.78,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4939,18 +4993,18 @@
     {
       "id": "chaplabel12",
       "type": "text",
-      "content": "Reddit y Twitch",
+      "content": "Ricina",
       "fontSize": 42,
       "box": {
-        "cx": 389,
+        "cx": 275.5,
         "cy": 145,
-        "w": 398,
+        "w": 171,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 341.02,
-      "out": 376.9,
+      "in": 350.12,
+      "out": 371.78,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4966,7 +5020,7 @@
       "id": "chapicon13",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/data-profile.png",
+      "src": "assets/icons/polonium.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4974,8 +5028,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 376.9,
-      "out": 408.32,
+      "in": 371.78,
+      "out": 396.56,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4990,18 +5044,18 @@
     {
       "id": "chaplabel13",
       "type": "text",
-      "content": "¿De dónde sale el dinero?",
+      "content": "Polonio",
       "fontSize": 42,
       "box": {
-        "cx": 515,
+        "cx": 288,
         "cy": 145,
-        "w": 650,
+        "w": 196,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 376.9,
-      "out": 408.32,
+      "in": 371.78,
+      "out": 396.56,
       "structural": true,
       "hud": true,
       "enter": {
@@ -5017,7 +5071,7 @@
       "id": "chapicon14",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/anxiety-sleep.png",
+      "src": "assets/icons/nerve-agent.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -5025,8 +5079,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 408.32,
-      "out": 425.66,
+      "in": 396.56,
+      "out": 422.68,
       "structural": true,
       "hud": true,
       "enter": {
@@ -5041,18 +5095,18 @@
     {
       "id": "chaplabel14",
       "type": "text",
-      "content": "El coste oculto",
+      "content": "Agentes nerviosos",
       "fontSize": 42,
       "box": {
-        "cx": 389,
+        "cx": 414,
         "cy": 145,
-        "w": 398,
+        "w": 448,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 408.32,
-      "out": 425.66,
+      "in": 396.56,
+      "out": 422.68,
       "structural": true,
       "hud": true,
       "enter": {
@@ -5068,7 +5122,7 @@
       "id": "chapicon15",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/take-control.png",
+      "src": "assets/icons/dose-makes-poison.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -5076,8 +5130,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 425.66,
-      "out": 490.54,
+      "in": 422.68,
+      "out": 490.32,
       "structural": true,
       "hud": true,
       "enter": {
@@ -5092,18 +5146,18 @@
     {
       "id": "chaplabel15",
       "type": "text",
-      "content": "Recupera el control",
+      "content": "La dosis hace el veneno",
       "fontSize": 42,
       "box": {
-        "cx": 439.5,
+        "cx": 490,
         "cy": 145,
-        "w": 499,
+        "w": 600,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 425.66,
-      "out": 490.54,
+      "in": 422.68,
+      "out": 490.32,
       "structural": true,
       "hud": true,
       "enter": {
@@ -5119,16 +5173,32 @@
       "id": "cov107",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/you-are-product.png",
+      "src": "assets/icons/silent-poison.png",
       "box": {
         "cx": 960,
-        "cy": 505,
+        "cy": 500,
         "w": 460,
         "h": 460
       },
       "z": 28,
       "in": 0,
-      "out": 0.25,
+      "out": 1.75,
+      "frames": [
+        {
+          "t": 0,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 0.88,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5143,7 +5213,7 @@
       "id": "cov108",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/you-are-product.png",
+      "src": "assets/icons/silent-poison.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5151,18 +5221,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 9.25,
-      "out": 17.25,
+      "in": 13,
+      "out": 17,
       "frames": [
         {
-          "t": 9.25,
+          "t": 13,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 11.65,
+          "t": 15,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5183,7 +5253,7 @@
       "id": "cov109",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/you-are-product.png",
+      "src": "assets/icons/silent-poison.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5191,8 +5261,8 @@
         "h": 460
       },
       "z": 28,
-      "in": 17.25,
-      "out": 18.25,
+      "in": 25.75,
+      "out": 26,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5207,16 +5277,16 @@
       "id": "cov110",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/you-are-product.png",
+      "src": "assets/icons/arsenic-king.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 31.25,
-      "out": 31.5,
+      "in": 40.5,
+      "out": 41.25,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5231,16 +5301,16 @@
       "id": "cov111",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/attention-economy.png",
+      "src": "assets/icons/arsenic-king.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 47.5,
-      "out": 48,
+      "in": 56.25,
+      "out": 57,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5255,7 +5325,7 @@
       "id": "cov112",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/attention-economy.png",
+      "src": "assets/icons/arsenic-king.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5263,24 +5333,8 @@
         "h": 460
       },
       "z": 28,
-      "in": 60,
-      "out": 62.75,
-      "frames": [
-        {
-          "t": 60,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 61.38,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
+      "in": 63,
+      "out": 63.25,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5295,7 +5349,7 @@
       "id": "cov113",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/variable-reward.png",
+      "src": "assets/icons/cyanide-fast.png",
       "box": {
         "cx": 960,
         "cy": 505,
@@ -5303,8 +5357,31 @@
         "h": 460
       },
       "z": 28,
-      "in": 63.75,
-      "out": 64,
+      "in": 75.25,
+      "out": 80,
+      "frames": [
+        {
+          "t": 75.25,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 78.5,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 78.8,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        }
+      ],
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5319,7 +5396,7 @@
       "id": "cov114",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/variable-reward.png",
+      "src": "assets/icons/hemlock-plant.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5327,18 +5404,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 73.75,
-      "out": 78.25,
+      "in": 103.25,
+      "out": 106,
       "frames": [
         {
-          "t": 73.75,
+          "t": 103.25,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 76,
+          "t": 104.63,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5359,7 +5436,7 @@
       "id": "cov115",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/variable-reward.png",
+      "src": "assets/icons/strychnine.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5367,18 +5444,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 91.75,
-      "out": 99.75,
+      "in": 157.5,
+      "out": 160.25,
       "frames": [
         {
-          "t": 91.75,
+          "t": 157.5,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 94.15,
+          "t": 158.88,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5399,26 +5476,26 @@
       "id": "cov116",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/variable-reward.png",
+      "src": "assets/icons/aqua-tofana.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 99.75,
-      "out": 104,
+      "in": 167.5,
+      "out": 170.25,
       "frames": [
         {
-          "t": 99.75,
+          "t": 167.5,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 101.88,
+          "t": 168.88,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5439,16 +5516,32 @@
       "id": "cov117",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/infinite-scroll.png",
+      "src": "assets/icons/aqua-tofana.png",
       "box": {
         "cx": 960,
-        "cy": 505,
+        "cy": 500,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 117.75,
-      "out": 118.5,
+      "in": 185.5,
+      "out": 188.75,
+      "frames": [
+        {
+          "t": 185.5,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 187.13,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5463,7 +5556,7 @@
       "id": "cov118",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/infinite-scroll.png",
+      "src": "assets/icons/aqua-tofana.png",
       "box": {
         "cx": 960,
         "cy": 505,
@@ -5471,18 +5564,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 127,
-      "out": 128.75,
+      "in": 196.75,
+      "out": 198,
       "frames": [
         {
-          "t": 127,
+          "t": 196.75,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 127.88,
+          "t": 197.38,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5503,7 +5596,7 @@
       "id": "cov119",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/social-network.png",
+      "src": "assets/icons/aqua-tofana.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5511,18 +5604,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 133.75,
-      "out": 139.5,
+      "in": 204,
+      "out": 212,
       "frames": [
         {
-          "t": 133.75,
+          "t": 204,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 136.15,
+          "t": 206.4,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5543,7 +5636,7 @@
       "id": "cov120",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/social-network.png",
+      "src": "assets/icons/aqua-tofana.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5551,8 +5644,24 @@
         "h": 460
       },
       "z": 28,
-      "in": 148,
-      "out": 148.25,
+      "in": 212,
+      "out": 213.75,
+      "frames": [
+        {
+          "t": 212,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 212.88,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5567,32 +5676,16 @@
       "id": "cov121",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/social-network.png",
+      "src": "assets/icons/mercury-metal.png",
       "box": {
         "cx": 960,
-        "cy": 505,
+        "cy": 500,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 154.25,
-      "out": 155.5,
-      "frames": [
-        {
-          "t": 154.25,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 154.88,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
+      "in": 226.25,
+      "out": 227,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5607,7 +5700,7 @@
       "id": "cov122",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/photo-grid.png",
+      "src": "assets/icons/mercury-metal.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5615,24 +5708,8 @@
         "h": 460
       },
       "z": 28,
-      "in": 175.25,
-      "out": 179.75,
-      "frames": [
-        {
-          "t": 175.25,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 177.5,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
+      "in": 233,
+      "out": 234,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5647,7 +5724,7 @@
       "id": "cov123",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/photo-grid.png",
+      "src": "assets/icons/lead-pipe.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5655,18 +5732,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 191,
-      "out": 195,
+      "in": 255.5,
+      "out": 258.5,
       "frames": [
         {
-          "t": 191,
+          "t": 255.5,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 193,
+          "t": 257,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5687,26 +5764,26 @@
       "id": "cov124",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/play-button.png",
+      "src": "assets/icons/thallium.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 208.75,
-      "out": 210.5,
+      "in": 266.75,
+      "out": 270.5,
       "frames": [
         {
-          "t": 208.75,
+          "t": 266.75,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 209.63,
+          "t": 268.63,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5727,7 +5804,7 @@
       "id": "cov125",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/play-button.png",
+      "src": "assets/icons/thallium.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5735,18 +5812,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 221.5,
-      "out": 225.25,
+      "in": 284.75,
+      "out": 292.75,
       "frames": [
         {
-          "t": 221.5,
+          "t": 284.75,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 223.38,
+          "t": 287.15,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5767,7 +5844,7 @@
       "id": "cov126",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/short-video.png",
+      "src": "assets/icons/thallium.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5775,18 +5852,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 239.75,
-      "out": 241.5,
+      "in": 292.75,
+      "out": 298.5,
       "frames": [
         {
-          "t": 239.75,
+          "t": 292.75,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 240.63,
+          "t": 295.15,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5807,111 +5884,7 @@
       "id": "cov127",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 263,
-      "out": 270.5,
-      "frames": [
-        {
-          "t": 263,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 265.4,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov128",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/ghost-message.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 288.25,
-      "out": 288.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov129",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/ghost-message.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 300.5,
-      "out": 302.75,
-      "frames": [
-        {
-          "t": 300.5,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 301.63,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov130",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/briefcase-network.png",
+      "src": "assets/icons/botulinum.png",
       "box": {
         "cx": 960,
         "cy": 505,
@@ -5919,18 +5892,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 308.75,
-      "out": 315,
+      "in": 318,
+      "out": 324.75,
       "frames": [
         {
-          "t": 308.75,
+          "t": 318,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 312,
+          "t": 323.5,
           "cx": 960,
           "cy": 500,
           "w": 460,
@@ -5948,10 +5921,50 @@
       "_autoIco": true
     },
     {
-      "id": "cov131",
+      "id": "cov128",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/briefcase-network.png",
+      "src": "assets/icons/pufferfish.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 333.25,
+      "out": 337.5,
+      "frames": [
+        {
+          "t": 333.25,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 335.38,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov129",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/ricin-bean.png",
       "box": {
         "cx": 960,
         "cy": 505,
@@ -5959,8 +5972,88 @@
         "h": 460
       },
       "z": 28,
-      "in": 323.25,
-      "out": 324,
+      "in": 362.25,
+      "out": 367,
+      "frames": [
+        {
+          "t": 362.25,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 364.55,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov130",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/polonium.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 373.75,
+      "out": 374.75,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov131",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/polonium.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 384,
+      "out": 390.25,
+      "frames": [
+        {
+          "t": 384,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 386.4,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5975,7 +6068,7 @@
       "id": "cov132",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/for-you-algo.png",
+      "src": "assets/icons/nerve-agent.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5983,18 +6076,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 336.75,
-      "out": 342.5,
+      "in": 396.75,
+      "out": 400.5,
       "frames": [
         {
-          "t": 336.75,
+          "t": 396.75,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 339.15,
+          "t": 398.63,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -6015,30 +6108,30 @@
       "id": "cov133",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
+      "src": "assets/icons/nerve-agent.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 349.75,
-      "out": 353.5,
+      "in": 409.75,
+      "out": 414.5,
       "frames": [
         {
-          "t": 349.75,
+          "t": 409.75,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 351.63,
+          "t": 410,
           "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "cy": 500,
+          "w": 460,
+          "h": 460
         }
       ],
       "enter": {
@@ -6055,7 +6148,7 @@
       "id": "cov134",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
+      "src": "assets/icons/nerve-agent.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -6063,18 +6156,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 359.5,
-      "out": 364,
+      "in": 421.5,
+      "out": 422.75,
       "frames": [
         {
-          "t": 359.5,
+          "t": 421.5,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 361.75,
+          "t": 422.13,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -6095,32 +6188,16 @@
       "id": "cov135",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
+      "src": "assets/icons/dose-makes-poison.png",
       "box": {
         "cx": 960,
-        "cy": 505,
+        "cy": 500,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 370,
-      "out": 376.25,
-      "frames": [
-        {
-          "t": 370,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 375.25,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        }
-      ],
+      "in": 448.75,
+      "out": 449.25,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -6135,37 +6212,30 @@
       "id": "cov136",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/data-profile.png",
+      "src": "assets/icons/dose-makes-poison.png",
       "box": {
         "cx": 960,
-        "cy": 505,
+        "cy": 500,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 407.75,
-      "out": 415,
+      "in": 455.25,
+      "out": 457.25,
       "frames": [
         {
-          "t": 407.75,
+          "t": 455.25,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 409.75,
+          "t": 456.25,
           "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 414.05,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
+          "cy": 475,
+          "w": 410,
+          "h": 410
         }
       ],
       "enter": {
@@ -6182,26 +6252,26 @@
       "id": "cov137",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/take-control.png",
+      "src": "assets/icons/dose-makes-poison.png",
       "box": {
         "cx": 960,
-        "cy": 505,
+        "cy": 500,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 434.5,
-      "out": 436,
+      "in": 471,
+      "out": 479,
       "frames": [
         {
-          "t": 434.5,
+          "t": 471,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 435.25,
+          "t": 473.4,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -6222,47 +6292,7 @@
       "id": "cov138",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/take-control.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 442,
-      "out": 447.25,
-      "frames": [
-        {
-          "t": 442,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 446.05,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov139",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/take-control.png",
+      "src": "assets/icons/dose-makes-poison.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -6270,18 +6300,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 459.25,
-      "out": 464,
+      "in": 479,
+      "out": 487,
       "frames": [
         {
-          "t": 459.25,
+          "t": 479,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 461.63,
+          "t": 481.4,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -6299,33 +6329,33 @@
       "_autoIco": true
     },
     {
-      "id": "cov140",
+      "id": "cov139",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/take-control.png",
+      "src": "assets/icons/dose-makes-poison.png",
       "box": {
         "cx": 960,
-        "cy": 505,
+        "cy": 500,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 480.25,
-      "out": 487,
+      "in": 487,
+      "out": 490.5,
       "frames": [
         {
-          "t": 480.25,
+          "t": 487,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 485.25,
+          "t": 488.75,
           "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
+          "cy": 475,
+          "w": 410,
+          "h": 410
         }
       ],
       "enter": {
