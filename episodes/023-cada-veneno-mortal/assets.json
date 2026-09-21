@@ -1,0 +1,442 @@
+{
+  "silent-poison": {
+    "kind": "vector",
+    "query": "an invisible silent poison drop, deadly and quiet",
+    "file": "assets/icons/silent-poison.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "poison-cup": {
+    "kind": "vector",
+    "query": "a royal goblet with a skull, poisoned drink",
+    "file": "assets/icons/poison-cup.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "arsenic-king": {
+    "kind": "vector",
+    "query": "arsenic as the king of poisons with a crown",
+    "file": "assets/icons/arsenic-king.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tasteless": {
+    "kind": "vector",
+    "query": "no color no smell no taste symbol crossed out",
+    "file": "assets/icons/tasteless.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "marsh-test": {
+    "kind": "vector",
+    "query": "a science test detecting poison in a body",
+    "file": "assets/icons/marsh-test.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cyanide-fast": {
+    "kind": "vector",
+    "query": "cyanide making cells suffocate fast, no oxygen",
+    "file": "assets/icons/cyanide-fast.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "spy-capsule": {
+    "kind": "vector",
+    "query": "a spy suicide capsule pill hidden",
+    "file": "assets/icons/spy-capsule.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "almond-smell": {
+    "kind": "vector",
+    "query": "a nose smelling bitter almonds",
+    "file": "assets/icons/almond-smell.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hemlock-plant": {
+    "kind": "vector",
+    "query": "a hemlock plant that looks like harmless parsley",
+    "file": "assets/icons/hemlock-plant.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "socrates-cup": {
+    "kind": "vector",
+    "query": "the philosopher Socrates calmly drinking the hemlock cup",
+    "file": "assets/icons/socrates-cup.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "paralysis-up": {
+    "kind": "vector",
+    "query": "paralysis creeping up the body from the feet",
+    "file": "assets/icons/paralysis-up.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "belladonna-plant": {
+    "kind": "vector",
+    "query": "a deadly nightshade belladonna plant with dark berries",
+    "file": "assets/icons/belladonna-plant.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dilated-pupils": {
+    "kind": "vector",
+    "query": "an eye with a hugely dilated pupil",
+    "file": "assets/icons/dilated-pupils.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "beauty-death": {
+    "kind": "vector",
+    "query": "a beautiful flower that is also deadly, beauty and death",
+    "file": "assets/icons/beauty-death.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "strychnine": {
+    "kind": "vector",
+    "query": "violent muscle convulsions arching a body",
+    "file": "assets/icons/strychnine.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mystery-novel": {
+    "kind": "vector",
+    "query": "a classic murder mystery detective novel",
+    "file": "assets/icons/mystery-novel.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mercury-metal": {
+    "kind": "vector",
+    "query": "shiny silver liquid mercury metal drops",
+    "file": "assets/icons/mercury-metal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mad-hatter": {
+    "kind": "vector",
+    "query": "a trembling mad hatter losing his mind",
+    "file": "assets/icons/mad-hatter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "alchemist": {
+    "kind": "vector",
+    "query": "an old alchemist mixing mercury potions",
+    "file": "assets/icons/alchemist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lead-pipe": {
+    "kind": "vector",
+    "query": "an ancient roman lead pipe and goblet",
+    "file": "assets/icons/lead-pipe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "roman-decline": {
+    "kind": "vector",
+    "query": "the fall and decline of the roman empire",
+    "file": "assets/icons/roman-decline.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "thallium": {
+    "kind": "vector",
+    "query": "a stealthy odorless invisible poison bottle",
+    "file": "assets/icons/thallium.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hair-loss": {
+    "kind": "vector",
+    "query": "a person suddenly losing all their hair",
+    "file": "assets/icons/hair-loss.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "botulinum": {
+    "kind": "vector",
+    "query": "a bacteria producing the deadliest toxin, tiny and lethal",
+    "file": "assets/icons/botulinum.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "botox-face": {
+    "kind": "vector",
+    "query": "a botox injection needle into a smooth face",
+    "file": "assets/icons/botox-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "muscle-paralysis": {
+    "kind": "vector",
+    "query": "a body with fully paralyzed frozen muscles",
+    "file": "assets/icons/muscle-paralysis.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pufferfish": {
+    "kind": "vector",
+    "query": "an inflated spiky pufferfish fugu",
+    "file": "assets/icons/pufferfish.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fugu-chef": {
+    "kind": "vector",
+    "query": "a licensed sushi chef carefully preparing pufferfish",
+    "file": "assets/icons/fugu-chef.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "conscious-paralysis": {
+    "kind": "vector",
+    "query": "a person paralyzed but fully awake and aware",
+    "file": "assets/icons/conscious-paralysis.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ricin-bean": {
+    "kind": "vector",
+    "query": "a castor bean seed containing deadly ricin",
+    "file": "assets/icons/ricin-bean.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "umbrella-murder": {
+    "kind": "vector",
+    "query": "an umbrella secretly injecting a tiny poison pellet",
+    "file": "assets/icons/umbrella-murder.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "polonium": {
+    "kind": "vector",
+    "query": "a glowing radioactive poison element, dangerous",
+    "file": "assets/icons/polonium.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "poisoned-tea": {
+    "kind": "vector",
+    "query": "a cup of tea secretly poisoned",
+    "file": "assets/icons/poisoned-tea.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "nerve-agent": {
+    "kind": "vector",
+    "query": "a chemical nerve agent hazard warning",
+    "file": "assets/icons/nerve-agent.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "banned-weapon": {
+    "kind": "vector",
+    "query": "a banned chemical weapon crossed out symbol",
+    "file": "assets/icons/banned-weapon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dose-makes-poison": {
+    "kind": "vector",
+    "query": "a balance scale, the dose makes the poison",
+    "file": "assets/icons/dose-makes-poison.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "water-overdose": {
+    "kind": "vector",
+    "query": "too much water can also be lethal, a giant glass",
+    "file": "assets/icons/water-overdose.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "medicine-or-poison": {
+    "kind": "vector",
+    "query": "the same bottle labeled both medicine and poison",
+    "file": "assets/icons/medicine-or-poison.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "aqua-tofana": {
+    "kind": "vector",
+    "query": "a clear poison disguised as a cosmetic vial, aqua tofana",
+    "file": "assets/icons/aqua-tofana.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "antifreeze": {
+    "kind": "vector",
+    "query": "sweet tasting car antifreeze that is secretly poison",
+    "file": "assets/icons/antifreeze.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-skull": {
+    "kind": "cutout",
+    "query": "Calavera humana",
+    "file": "assets/icons/photo-skull.jpg"
+  },
+  "photo-goblet": {
+    "kind": "cutout",
+    "query": "Cáliz medieval",
+    "file": "assets/icons/photo-goblet.jpg"
+  },
+  "photo-socrates": {
+    "kind": "cutout",
+    "query": "Sócrates busto",
+    "file": "assets/icons/photo-socrates.jpg"
+  },
+  "photo-pufferfish": {
+    "kind": "cutout",
+    "query": "Pez globo",
+    "file": "assets/icons/photo-pufferfish.jpg"
+  },
+  "photo-lab": {
+    "kind": "cutout",
+    "query": "Laboratorio químico",
+    "file": "assets/icons/photo-lab.png"
+  },
+  "photo-periodic": {
+    "kind": "cutout",
+    "query": "Tabla periódica",
+    "file": "assets/icons/photo-periodic.png"
+  },
+  "photo-belladonna": {
+    "kind": "cutout",
+    "query": "Belladona planta",
+    "file": "assets/icons/photo-belladonna.jpg"
+  },
+  "photo-mercury": {
+    "kind": "cutout",
+    "query": "Mercurio metal",
+    "file": "assets/icons/photo-mercury.jpg"
+  },
+  "photo-roman-ruins": {
+    "kind": "cutout",
+    "query": "Ruinas romanas",
+    "file": "assets/icons/photo-roman-ruins.jpg"
+  },
+  "photo-hazmat": {
+    "kind": "cutout",
+    "query": "Traje de protección química",
+    "file": "assets/icons/photo-hazmat.jpg"
+  },
+  "clip-poison-drop": {
+    "kind": "clip",
+    "query": "liquid drop into glass slow motion",
+    "file": "assets/clips/clip-poison-drop.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kindel Media",
+      "url": "https://www.pexels.com/video/dropping-a-strawberry-on-a-glass-of-water-8093480/"
+    }
+  },
+  "clip-goblet-wine": {
+    "kind": "clip",
+    "query": "pouring red wine into goblet",
+    "file": "assets/clips/clip-goblet-wine.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Rūdolfs Klintsons",
+      "url": "https://www.pexels.com/video/pouring-of-red-wine-on-a-glass-7102288/"
+    }
+  },
+  "clip-lab": {
+    "kind": "clip",
+    "query": "chemistry laboratory experiment liquid",
+    "file": "assets/clips/clip-lab.mp4"
+  },
+  "clip-test-tube": {
+    "kind": "clip",
+    "query": "test tubes colorful liquid science",
+    "file": "assets/clips/clip-test-tube.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikhail Nilov",
+      "url": "https://www.pexels.com/video/close-up-of-test-tubes-on-a-test-tube-rack-9373595/"
+    }
+  },
+  "clip-plant": {
+    "kind": "clip",
+    "query": "green wild plant leaves forest",
+    "file": "assets/clips/clip-plant.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "David Roberts",
+      "url": "https://www.pexels.com/video/green-leaves-5155679/"
+    }
+  },
+  "clip-pufferfish": {
+    "kind": "clip",
+    "query": "pufferfish swimming underwater",
+    "file": "assets/clips/clip-pufferfish.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "JUN HO LEE",
+      "url": "https://www.pexels.com/video/pufferfish-exploring-vibrant-coral-reef-ecosystem-31810214/"
+    }
+  },
+  "clip-sushi": {
+    "kind": "clip",
+    "query": "sushi chef preparing fish knife",
+    "file": "assets/clips/clip-sushi.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Ivan S",
+      "url": "https://www.pexels.com/video/a-chef-slicing-a-sushi-8901980/"
+    }
+  },
+  "clip-smoke-chem": {
+    "kind": "clip",
+    "query": "chemical reaction smoke beaker",
+    "file": "assets/clips/clip-smoke-chem.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kindel Media",
+      "url": "https://www.pexels.com/video/experimenting-with-chemicals-8326609/"
+    }
+  },
+  "clip-radioactive": {
+    "kind": "clip",
+    "query": "radioactive hazard glowing symbol",
+    "file": "assets/clips/clip-radioactive.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "HumanoideVFX",
+      "url": "https://www.pexels.com/video/dramatic-nuclear-explosion-cgi-animation-30775856/"
+    }
+  },
+  "clip-hazmat": {
+    "kind": "clip",
+    "query": "hazmat suit chemical protection",
+    "file": "assets/clips/clip-hazmat.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Fahrettin Turgut",
+      "url": "https://www.pexels.com/video/hazmat-team-using-decontamination-tent-outdoors-29094813/"
+    }
+  },
+  "clip-microscope": {
+    "kind": "clip",
+    "query": "microscope bacteria cells laboratory",
+    "file": "assets/clips/clip-microscope.mp4"
+  },
+  "clip-tea": {
+    "kind": "clip",
+    "query": "pouring tea into cup",
+    "file": "assets/clips/clip-tea.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Saikat",
+      "url": "https://www.pexels.com/video/a-cup-of-hot-tea-2612207/"
+    }
+  }
+}
