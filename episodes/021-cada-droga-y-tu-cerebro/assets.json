@@ -1,0 +1,440 @@
+{
+  "brain-hijack": {
+    "kind": "vector",
+    "query": "a cartoon brain being hijacked and controlled by strings",
+    "file": "assets/icons/brain-hijack.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "reward-system": {
+    "kind": "vector",
+    "query": "a brain reward circuit lighting up with a trophy",
+    "file": "assets/icons/reward-system.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dopamine": {
+    "kind": "vector",
+    "query": "a dopamine molecule as a happy messenger",
+    "file": "assets/icons/dopamine.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dopamine-flood": {
+    "kind": "vector",
+    "query": "a brain flooded and overflowing with dopamine",
+    "file": "assets/icons/dopamine-flood.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "natural-reward": {
+    "kind": "vector",
+    "query": "natural rewards food and a hug giving a small spark",
+    "file": "assets/icons/natural-reward.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "alcohol-depressant": {
+    "kind": "vector",
+    "query": "a sleepy slowed down brain from alcohol",
+    "file": "assets/icons/alcohol-depressant.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "gaba-brake": {
+    "kind": "vector",
+    "query": "a brake pedal slowing down brain neuron activity",
+    "file": "assets/icons/gaba-brake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "liver-damage": {
+    "kind": "vector",
+    "query": "a damaged sick liver",
+    "file": "assets/icons/liver-damage.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "brain-shrink": {
+    "kind": "vector",
+    "query": "a brain shrinking and getting smaller",
+    "file": "assets/icons/brain-shrink.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "nicotine": {
+    "kind": "vector",
+    "query": "a cigarette sending a spark to the brain",
+    "file": "assets/icons/nicotine.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fast-addiction": {
+    "kind": "vector",
+    "query": "a stopwatch showing ten seconds to reach the brain",
+    "file": "assets/icons/fast-addiction.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "withdrawal": {
+    "kind": "vector",
+    "query": "a person craving and suffering withdrawal",
+    "file": "assets/icons/withdrawal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "caffeine": {
+    "kind": "vector",
+    "query": "a coffee cup giving an energy boost",
+    "file": "assets/icons/caffeine.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "adenosine-block": {
+    "kind": "vector",
+    "query": "caffeine blocking a sleepy receptor door in the brain",
+    "file": "assets/icons/adenosine-block.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sleep-crash": {
+    "kind": "vector",
+    "query": "a person suddenly crashing into sleepiness",
+    "file": "assets/icons/sleep-crash.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cannabis-thc": {
+    "kind": "vector",
+    "query": "a cannabis leaf connecting to the brain",
+    "file": "assets/icons/cannabis-thc.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cannabinoid-receptor": {
+    "kind": "vector",
+    "query": "a brain receptor lock and key for cannabis",
+    "file": "assets/icons/cannabinoid-receptor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "memory-loss": {
+    "kind": "vector",
+    "query": "fading disappearing short term memory in a head",
+    "file": "assets/icons/memory-loss.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cocaine-block": {
+    "kind": "vector",
+    "query": "a blocked dopamine recycling pump in the brain",
+    "file": "assets/icons/cocaine-block.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dopamine-crash": {
+    "kind": "vector",
+    "query": "an empty brain crashing down after a high",
+    "file": "assets/icons/dopamine-crash.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "heart-attack": {
+    "kind": "vector",
+    "query": "a stressed heart having a heart attack",
+    "file": "assets/icons/heart-attack.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "meth-dump": {
+    "kind": "vector",
+    "query": "a brain dumping out all its dopamine reserves at once",
+    "file": "assets/icons/meth-dump.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "burned-neurons": {
+    "kind": "vector",
+    "query": "damaged burned out dopamine neurons",
+    "file": "assets/icons/burned-neurons.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ecstasy-pill": {
+    "kind": "vector",
+    "query": "an ecstasy pill flooding the brain with serotonin",
+    "file": "assets/icons/ecstasy-pill.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "serotonin": {
+    "kind": "vector",
+    "query": "a serotonin molecule as a happy mood messenger",
+    "file": "assets/icons/serotonin.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "serotonin-crash": {
+    "kind": "vector",
+    "query": "a sad depleted brain the day after, empty serotonin",
+    "file": "assets/icons/serotonin-crash.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "opioids": {
+    "kind": "vector",
+    "query": "opioid pills and a warning skull, dangerous",
+    "file": "assets/icons/opioids.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "endorphin-receptor": {
+    "kind": "vector",
+    "query": "a receptor filled with calm painkilling endorphins",
+    "file": "assets/icons/endorphin-receptor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "stop-breathing": {
+    "kind": "vector",
+    "query": "a brain forgetting to breathe, danger lungs stopping",
+    "file": "assets/icons/stop-breathing.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fentanyl-tiny": {
+    "kind": "vector",
+    "query": "a tiny deadly dose next to a coin, lethal amount",
+    "file": "assets/icons/fentanyl-tiny.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hallucinogens": {
+    "kind": "vector",
+    "query": "psychedelic mushrooms and a swirling brain",
+    "file": "assets/icons/hallucinogens.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "distorted-reality": {
+    "kind": "vector",
+    "query": "a warped melting distorted colorful reality",
+    "file": "assets/icons/distorted-reality.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "good-bad-trip": {
+    "kind": "vector",
+    "query": "a theater mask split into a good trip and a bad trip",
+    "file": "assets/icons/good-bad-trip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "addiction-rewire": {
+    "kind": "vector",
+    "query": "a brain being rewired and changed by addiction",
+    "file": "assets/icons/addiction-rewire.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tolerance": {
+    "kind": "vector",
+    "query": "needing more and more pills for the same effect",
+    "file": "assets/icons/tolerance.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-pleasure": {
+    "kind": "vector",
+    "query": "normal joys like food and nature no longer giving pleasure",
+    "file": "assets/icons/no-pleasure.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "respect-brain": {
+    "kind": "vector",
+    "query": "a protected brain with a knowledge shield",
+    "file": "assets/icons/respect-brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "benzos-trap": {
+    "kind": "vector",
+    "query": "calming pills that turn into a trap for the brain",
+    "file": "assets/icons/benzos-trap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dissociative": {
+    "kind": "vector",
+    "query": "a mind floating out of the body, disconnected",
+    "file": "assets/icons/dissociative.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-brain": {
+    "kind": "cutout",
+    "query": "Cerebro humano",
+    "file": "assets/icons/photo-brain.jpg"
+  },
+  "photo-neuron": {
+    "kind": "cutout",
+    "query": "Neurona",
+    "file": "assets/icons/photo-neuron.jpg"
+  },
+  "photo-alcohol": {
+    "kind": "cutout",
+    "query": "Copa de vino",
+    "file": "assets/icons/photo-alcohol.jpg"
+  },
+  "photo-cigarette": {
+    "kind": "cutout",
+    "query": "Cigarrillo",
+    "file": "assets/icons/photo-cigarette.jpg"
+  },
+  "photo-coffee": {
+    "kind": "cutout",
+    "query": "Taza de café",
+    "file": "assets/icons/photo-coffee.jpg"
+  },
+  "photo-cannabis": {
+    "kind": "cutout",
+    "query": "Planta de cannabis",
+    "file": "assets/icons/photo-cannabis.jpg"
+  },
+  "photo-pills": {
+    "kind": "cutout",
+    "query": "Pastillas medicamento",
+    "file": "assets/icons/photo-pills.jpg"
+  },
+  "photo-molecule": {
+    "kind": "cutout",
+    "query": "Modelo molecular",
+    "file": "assets/icons/photo-molecule.png"
+  },
+  "photo-heart": {
+    "kind": "cutout",
+    "query": "Corazón humano anatomía",
+    "file": "assets/icons/photo-heart.jpg"
+  },
+  "photo-mushroom": {
+    "kind": "cutout",
+    "query": "Seta",
+    "file": "assets/icons/photo-mushroom.jpg"
+  },
+  "clip-brain": {
+    "kind": "clip",
+    "query": "brain animation neurons blue",
+    "file": "assets/clips/clip-brain.mp4"
+  },
+  "clip-neurons": {
+    "kind": "clip",
+    "query": "neurons firing synapse network",
+    "file": "assets/clips/clip-neurons.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/abstract-neural-network-connections-animation-29184317/"
+    }
+  },
+  "clip-alcohol": {
+    "kind": "clip",
+    "query": "pouring alcohol drink glass bar",
+    "file": "assets/clips/clip-alcohol.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Alberto Escalona",
+      "url": "https://www.pexels.com/video/nightclub-bartender-pouring-evening-cocktail-32054975/"
+    }
+  },
+  "clip-cigarette": {
+    "kind": "clip",
+    "query": "cigarette smoke close up",
+    "file": "assets/clips/clip-cigarette.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Wizarto Production",
+      "url": "https://www.pexels.com/video/extreme-close-up-of-a-man-smoking-a-cigarette-14500434/"
+    }
+  },
+  "clip-coffee": {
+    "kind": "clip",
+    "query": "coffee pouring into cup",
+    "file": "assets/clips/clip-coffee.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tima Miroshnichenko",
+      "url": "https://www.pexels.com/video/pouring-coffee-from-a-coffee-maker-4957763/"
+    }
+  },
+  "clip-cannabis": {
+    "kind": "clip",
+    "query": "cannabis marijuana plant leaves",
+    "file": "assets/clips/clip-cannabis.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kindel Media",
+      "url": "https://www.pexels.com/video/a-cannabis-plant-7667163/"
+    }
+  },
+  "clip-pills": {
+    "kind": "clip",
+    "query": "pills medication spilling",
+    "file": "assets/clips/clip-pills.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Alex Green",
+      "url": "https://www.pexels.com/video/pills-being-dropped-5697635/"
+    }
+  },
+  "clip-party": {
+    "kind": "clip",
+    "query": "nightclub party lights crowd",
+    "file": "assets/clips/clip-party.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "WeStarMoney  Rec",
+      "url": "https://www.pexels.com/video/energetic-nightclub-crowd-under-purple-lights-34059053/"
+    }
+  },
+  "clip-heartbeat": {
+    "kind": "clip",
+    "query": "heartbeat monitor pulse line",
+    "file": "assets/clips/clip-heartbeat.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/video-of-a-monitoring-heart-rate-6130125/"
+    }
+  },
+  "clip-lab": {
+    "kind": "clip",
+    "query": "science laboratory molecules research",
+    "file": "assets/clips/clip-lab.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Artem Podrez",
+      "url": "https://www.pexels.com/video/a-person-working-on-a-laptop-8534544/"
+    }
+  },
+  "clip-microscope": {
+    "kind": "clip",
+    "query": "microscope cells laboratory",
+    "file": "assets/clips/clip-microscope.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/microscopic-view-of-blue-glowing-cells-29851224/"
+    }
+  },
+  "clip-psychedelic": {
+    "kind": "clip",
+    "query": "colorful abstract psychedelic swirl",
+    "file": "assets/clips/clip-psychedelic.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/abstract-vibrant-swirling-spiral-animation-35413064/"
+    }
+  }
+}
