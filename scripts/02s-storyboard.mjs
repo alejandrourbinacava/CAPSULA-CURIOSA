@@ -182,7 +182,15 @@ for (const b of beats) {
       // los HERO entran al INICIO de su beat (llenan toda la escena); los apoyos peq. sí sincronizan a su palabra
       const inT = isHero ? +t.toFixed(2) : +(wt != null && wt >= b.t0 - 0.5 && wt <= b.t1 + 1 ? wt : t).toFixed(2);
       const accum = type === "ICO" && !isPhotoAsset && !keep && !isHero; // doodles peq./mini se ACUMULAN; hero/big van fijos
+      // ANTI-FLICKER / ANTI-REPETICIÓN: un mismo doodle no puede volver a ENTRAR dentro de REPEAT_GAP s.
+      // Evita el efecto "aparece → desaparece → reaparece" y la sensación de repetir iconos. (No aplica a fotos/hero/clips.)
+      const REPEAT_GAP = 16;
+      if (accum && iconLastOut[src] != null && inT - iconLastOut[src] < REPEAT_GAP) {
+        warns.push(`icono repetido omitido: "${id}" (beat ${b.num}, +${(inT - iconLastOut[src]).toFixed(1)}s del anterior)`);
+        continue;
+      }
       const el = { id: id + "_" + auto++, type: "image", kind, src, box: { cx, cy, w: psz, h: psz }, z: type === "GIF" ? 55 : (isHero ? (isPhotoAsset ? 24 : 26) : (isPhotoAsset ? 25 : 30)), in: inT, out: type === "GIF" ? Math.min(b.t1, inT + 3) : (keep ? dur : b.t1), auto: true, _keep: keep, _accum: accum, _hero: isHero, _hold: hold, enter: enterOf(ent || "pop"), exit: { kind: "fade-out", duration: 0.3 } };
+      if (accum) iconLastOut[src] = inT; // registra la última ENTRADA de este doodle
       elements.push(el); live[id] = el; liveByAnchor[anc] = el; b._els.push(el); if (anchBig || isHero) lastBig = el;
       continue;
     }
@@ -251,7 +259,7 @@ markers.forEach((mk, i) => {
 {
   const bounds = [...new Set([0, ...chapters.map(c => +c.t.toFixed(2)), +dur.toFixed(2)])].sort((a, b) => a - b);
   const sectionEnd = (t) => { for (const b of bounds) if (b > t + 0.1) return b; return dur; };
-  const LIFE = 6.0;
+  const LIFE = 5.0;
   for (const e of elements) if (e._accum) e.out = +Math.min(e.in + LIFE, sectionEnd(e.in)).toFixed(2);
   // HERO con HOLD → persiste hasta el fin de su sección (es el "backdrop" grande del sub-tema)
   for (const e of elements) if (e._hold) e.out = +sectionEnd(e.in).toFixed(2);
@@ -311,7 +319,7 @@ markers.forEach((mk, i) => {
 }
 
 // TOPE (anti-hold largo) para TEXTOS y FOTOS (no para los doodles acumulativos, que persisten en el lienzo)
-const MAXLIFE = 5.0, MEDIALIFE = 8.5; // fotos/clips reales pueden durar más (protagonismo del 30-40%)
+const MAXLIFE = 5.0, MEDIALIFE = 7.5; // fotos/clips reales pueden durar más (protagonismo del 30-40%), pero sin quedarse demasiado estáticos
 for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" && !e._keep && !e._accum && !e._hold && !e._hero) {
   const isMedia = e.type === "clip" || e.type === "gif" || (e.type === "image" && e.kind === "cutout");
   e.out = Math.min(e.out, +(e.in + (isMedia ? MEDIALIFE : MAXLIFE)).toFixed(2));
@@ -337,11 +345,20 @@ for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" &
   const epFallback = (() => { for (const k in assets) { const f = assetFile(k); if (f) return f; } return null; })();
   // capítulo con icono más cercano ANTES de t (ignora CHAP vacío); si no hay, el más cercano DESPUÉS
   const chAt = (t) => { let before = null, after = null; for (const c of chapters) { if (!c.icon) continue; if (c.t <= t + 0.01) before = c; else if (!after) after = c; } return before || after; };
+  const BRIDGE_MAX = 2.5; // un doodle ya presente puede alargarse hasta 2.5s para tapar un microhueco (sin parpadeo ni salto)
   for (let t = 0; t <= dur;) {
     if (imgLive(t)) { t = +(t + STEP).toFixed(2); continue; }
     let e2 = t; while (e2 <= dur && !imgLive(e2)) e2 = +(e2 + STEP).toFixed(2);
-    const ch = chAt(t), src = (ch && ch.icon && assetFile(ch.icon)) || epFallback;
-    if (src) for (let s = t; s < e2 - 0.01;) { const seg = Math.min(8, +(e2 - s).toFixed(2)); const s0 = +s.toFixed(2), s1 = +(s + seg).toFixed(2); elements.push({ id: "cov" + auto++, type: "image", kind: "vector", src, box: { cx: 960, cy: 505, w: 460, h: 460 }, z: 28, in: s0, out: s1, frames: seg > 1.2 ? [{ t: s0, cx: 960, cy: 505, w: 460, h: 460 }, { t: +(s0 + Math.min(2.4, seg * 0.5)).toFixed(2), cx: 960, cy: 475, w: 410, h: 410 }] : undefined, enter: { kind: "fade-in", duration: 0.35 }, exit: { kind: "fade-out", duration: 0.3 }, _autoIco: true }); s = s1; }
+    // 1) PREFERIR alargar el último doodle visible antes del hueco (bridge). Evita reinsertar el icono del
+    //    capítulo una y otra vez (lo que causaba el "aparece → desaparece → reaparece" y la repetición).
+    let bridged = t, prev = null;
+    for (const e of elements) { if (e.structural || e.type !== "image" || !e.box || e._keep || e._autoIco) continue; if (e.out <= t + 1e-6 && (!prev || e.out > prev.out)) prev = e; }
+    if (prev) { const newOut = Math.min(e2, +(prev.out + BRIDGE_MAX).toFixed(2)); if (newOut > prev.out) { prev.out = newOut; bridged = newOut; } }
+    // 2) Si aún queda hueco, un ÚNICO relleno con el icono del capítulo (una sola entrada/salida, con leve deriva).
+    if (e2 - bridged > 0.3) {
+      const ch = chAt(bridged), src = (ch && ch.icon && assetFile(ch.icon)) || epFallback;
+      if (src) { const s0 = +bridged.toFixed(2), s1 = +e2.toFixed(2), seg = +(s1 - s0).toFixed(2); elements.push({ id: "cov" + auto++, type: "image", kind: "vector", src, box: { cx: 960, cy: 505, w: 460, h: 460 }, z: 28, in: s0, out: s1, frames: seg > 1.2 ? [{ t: s0, cx: 960, cy: 505, w: 460, h: 460 }, { t: +(s0 + Math.min(2.4, seg * 0.5)).toFixed(2), cx: 960, cy: 475, w: 410, h: 410 }] : undefined, enter: { kind: "fade-in", duration: 0.35 }, exit: { kind: "fade-out", duration: 0.3 }, _autoIco: true }); }
+    }
     t = e2;
   }
 }

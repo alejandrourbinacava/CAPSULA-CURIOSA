@@ -67,7 +67,7 @@
       },
       "z": 30,
       "in": 0.95,
-      "out": 6.95,
+      "out": 5.95,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -97,18 +97,11 @@
           "h": 300
         },
         {
-          "t": 5.02,
-          "cx": 1260,
-          "cy": 433,
-          "w": 290,
-          "h": 290
-        },
-        {
-          "t": 6.22,
-          "cx": 960,
-          "cy": 410,
-          "w": 300,
-          "h": 300
+          "t": 5.22,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
         }
       ]
     },
@@ -155,7 +148,7 @@
       },
       "z": 30,
       "in": 0.22,
-      "out": 6.22,
+      "out": 5.22,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -190,13 +183,6 @@
           "cy": 410,
           "w": 300,
           "h": 300
-        },
-        {
-          "t": 5.02,
-          "cx": 660,
-          "cy": 420,
-          "w": 290,
-          "h": 290
         }
       ]
     },
@@ -213,7 +199,7 @@
       },
       "z": 30,
       "in": 2.82,
-      "out": 8.82,
+      "out": 10.32,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -236,79 +222,14 @@
           "h": 300
         },
         {
-          "t": 5.02,
-          "cx": 660,
-          "cy": 746,
-          "w": 290,
-          "h": 290
-        },
-        {
-          "t": 6.22,
-          "cx": 610,
-          "cy": 723,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 6.95,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "brain-hijack_5",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/brain-hijack.png",
-      "box": {
-        "cx": 1260,
-        "cy": 759,
-        "w": 290,
-        "h": 290
-      },
-      "z": 30,
-      "in": 5.02,
-      "out": 11.02,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 5.02,
-          "cx": 1260,
-          "cy": 759,
-          "w": 290,
-          "h": 290
-        },
-        {
-          "t": 6.22,
-          "cx": 1310,
-          "cy": 736,
-          "w": 300,
-          "h": 300
-        },
-        {
-          "t": 6.95,
+          "t": 5.22,
           "cx": 1310,
           "cy": 553,
           "w": 380,
           "h": 380
         },
         {
-          "t": 8.82,
+          "t": 5.95,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -317,7 +238,7 @@
       ]
     },
     {
-      "id": "t6",
+      "id": "t5",
       "type": "text",
       "content": "el sistema de recompensa",
       "fontSize": 34,
@@ -347,7 +268,7 @@
       }
     },
     {
-      "id": "dopamine_7",
+      "id": "dopamine_6",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/dopamine.png",
@@ -405,7 +326,7 @@
       ]
     },
     {
-      "id": "natural-reward_8",
+      "id": "natural-reward_7",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/natural-reward.png",
@@ -417,7 +338,7 @@
       },
       "z": 30,
       "in": 38.22,
-      "out": 44.22,
+      "out": 45.72,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -442,7 +363,7 @@
       ]
     },
     {
-      "id": "t9",
+      "id": "t8",
       "type": "text",
       "content": "dopamina: «esto importa, repítelo»",
       "fontSize": 34,
@@ -472,7 +393,7 @@
       }
     },
     {
-      "id": "photo-molecule_10",
+      "id": "photo-molecule_9",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-molecule.png",
@@ -502,13 +423,6 @@
         {
           "t": 45.96,
           "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 46.21,
-          "cx": 960,
           "cy": 500,
           "w": 460,
           "h": 460
@@ -523,7 +437,7 @@
       ]
     },
     {
-      "id": "dopamine-flood_11",
+      "id": "dopamine-flood_10",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/dopamine-flood.png",
@@ -535,7 +449,7 @@
       },
       "z": 30,
       "in": 54.64,
-      "out": 60.24,
+      "out": 64.64,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -560,7 +474,7 @@
       ]
     },
     {
-      "id": "t12",
+      "id": "t11",
       "type": "text",
       "content": "las drogas: una descarga ENORME",
       "fontSize": 34,
@@ -590,7 +504,7 @@
       }
     },
     {
-      "id": "clip-alcohol_13",
+      "id": "clip-alcohol_12",
       "type": "clip",
       "src": "assets/clips/clip-alcohol.mp4",
       "frame": "rounded",
@@ -602,7 +516,7 @@
       },
       "z": 27,
       "in": 65.68,
-      "out": 74.18,
+      "out": 73.18,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -611,40 +525,10 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 65.68,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 65.93,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 66.48,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 72.18,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
-        }
-      ]
+      }
     },
     {
-      "id": "gaba-brake_14",
+      "id": "gaba-brake_13",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/gaba-brake.png",
@@ -656,7 +540,7 @@
       },
       "z": 30,
       "in": 73.78,
-      "out": 79.78,
+      "out": 78.78,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -695,7 +579,7 @@
       ]
     },
     {
-      "id": "t15",
+      "id": "t14",
       "type": "text",
       "content": "un depresor: frena el cerebro",
       "fontSize": 34,
@@ -725,7 +609,7 @@
       }
     },
     {
-      "id": "alcohol-depressant_16",
+      "id": "alcohol-depressant_15",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/alcohol-depressant.png",
@@ -737,7 +621,7 @@
       },
       "z": 30,
       "in": 77.78,
-      "out": 83.78,
+      "out": 82.78,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -767,7 +651,7 @@
           "h": 300
         },
         {
-          "t": 79.78,
+          "t": 78.78,
           "cx": 610,
           "cy": 540,
           "w": 380,
@@ -783,7 +667,7 @@
       ]
     },
     {
-      "id": "liver-damage_17",
+      "id": "liver-damage_16",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/liver-damage.png",
@@ -795,7 +679,7 @@
       },
       "z": 30,
       "in": 78.44,
-      "out": 84.44,
+      "out": 83.44,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -818,7 +702,7 @@
           "h": 300
         },
         {
-          "t": 79.78,
+          "t": 78.78,
           "cx": 1310,
           "cy": 553,
           "w": 380,
@@ -832,7 +716,7 @@
           "h": 300
         },
         {
-          "t": 83.78,
+          "t": 82.78,
           "cx": 610,
           "cy": 540,
           "w": 380,
@@ -841,7 +725,7 @@
       ]
     },
     {
-      "id": "brain-shrink_18",
+      "id": "brain-shrink_17",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/brain-shrink.png",
@@ -853,7 +737,7 @@
       },
       "z": 30,
       "in": 80.04,
-      "out": 86.04,
+      "out": 87.54,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -876,14 +760,14 @@
           "h": 300
         },
         {
-          "t": 83.78,
+          "t": 82.78,
           "cx": 1310,
           "cy": 553,
           "w": 380,
           "h": 380
         },
         {
-          "t": 84.44,
+          "t": 83.44,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -892,7 +776,7 @@
       ]
     },
     {
-      "id": "t19",
+      "id": "t18",
       "type": "text",
       "content": "daña el hígado y encoge el cerebro",
       "fontSize": 34,
@@ -922,19 +806,19 @@
       }
     },
     {
-      "id": "clip-cigarette_20",
+      "id": "clip-cigarette_19",
       "type": "clip",
       "src": "assets/clips/clip-cigarette.mp4",
       "frame": "rounded",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 520,
         "w": 980,
         "h": 551
       },
       "z": 27,
       "in": 101.26,
-      "out": 109.76,
+      "out": 108.76,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -943,10 +827,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 101.26,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 107.56,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        }
+      ]
     },
     {
-      "id": "fast-addiction_21",
+      "id": "fast-addiction_20",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/fast-addiction.png",
@@ -958,7 +858,7 @@
       },
       "z": 30,
       "in": 100.52,
-      "out": 106.52,
+      "out": 108.02,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -983,7 +883,7 @@
       ]
     },
     {
-      "id": "t22",
+      "id": "t21",
       "type": "text",
       "content": "al cerebro en 10 segundos",
       "fontSize": 34,
@@ -1013,7 +913,7 @@
       }
     },
     {
-      "id": "photo-cigarette_23",
+      "id": "photo-cigarette_22",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-cigarette.jpg",
@@ -1025,7 +925,7 @@
       },
       "z": 24,
       "in": 111.24,
-      "out": 123.24,
+      "out": 125,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -1071,7 +971,7 @@
       ]
     },
     {
-      "id": "withdrawal_24",
+      "id": "withdrawal_23",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/withdrawal.png",
@@ -1083,7 +983,7 @@
       },
       "z": 30,
       "in": 124.76,
-      "out": 129.76,
+      "out": 132.26,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1108,7 +1008,7 @@
       ]
     },
     {
-      "id": "t25",
+      "id": "t24",
       "type": "text",
       "content": "enganchas por evitar el mono",
       "fontSize": 34,
@@ -1138,7 +1038,7 @@
       }
     },
     {
-      "id": "clip-coffee_26",
+      "id": "clip-coffee_25",
       "type": "clip",
       "src": "assets/clips/clip-coffee.mp4",
       "frame": "rounded",
@@ -1150,7 +1050,7 @@
       },
       "z": 27,
       "in": 128.98,
-      "out": 137.48,
+      "out": 136.48,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -1178,7 +1078,7 @@
       ]
     },
     {
-      "id": "adenosine-block_27",
+      "id": "adenosine-block_26",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/adenosine-block.png",
@@ -1190,7 +1090,7 @@
       },
       "z": 30,
       "in": 137.68,
-      "out": 143.68,
+      "out": 145.18,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1215,7 +1115,7 @@
       ]
     },
     {
-      "id": "t28",
+      "id": "t27",
       "type": "text",
       "content": "bloquea la señal de sueño",
       "fontSize": 34,
@@ -1245,44 +1145,7 @@
       }
     },
     {
-      "id": "adenosine-block_29",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/adenosine-block.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 146.32,
-      "out": 152.32,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 146.32,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "sleep-crash_30",
+      "id": "sleep-crash_28",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/sleep-crash.png",
@@ -1319,7 +1182,7 @@
       ]
     },
     {
-      "id": "t31",
+      "id": "t29",
       "type": "text",
       "content": "cuando pasa: el sueño te cae de golpe",
       "fontSize": 34,
@@ -1365,7 +1228,7 @@
       ]
     },
     {
-      "id": "clip-cannabis_32",
+      "id": "clip-cannabis_30",
       "type": "clip",
       "src": "assets/clips/clip-cannabis.mp4",
       "frame": "rounded",
@@ -1377,7 +1240,7 @@
       },
       "z": 27,
       "in": 158.94,
-      "out": 167.44,
+      "out": 166.44,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -1405,7 +1268,7 @@
       ]
     },
     {
-      "id": "cannabinoid-receptor_33",
+      "id": "cannabinoid-receptor_31",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cannabinoid-receptor.png",
@@ -1417,7 +1280,7 @@
       },
       "z": 30,
       "in": 164.08,
-      "out": 170.08,
+      "out": 171.58,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1442,7 +1305,7 @@
       ]
     },
     {
-      "id": "t34",
+      "id": "t32",
       "type": "text",
       "content": "el THC encaja en tus receptores",
       "fontSize": 34,
@@ -1472,7 +1335,7 @@
       }
     },
     {
-      "id": "photo-cannabis_35",
+      "id": "photo-cannabis_33",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-cannabis.jpg",
@@ -1484,7 +1347,7 @@
       },
       "z": 24,
       "in": 171.76,
-      "out": 183.76,
+      "out": 186.26,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -1519,11 +1382,18 @@
           "cy": 520,
           "w": 460,
           "h": 460
+        },
+        {
+          "t": 184.51,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
         }
       ]
     },
     {
-      "id": "memory-loss_36",
+      "id": "memory-loss_34",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/memory-loss.png",
@@ -1535,7 +1405,7 @@
       },
       "z": 30,
       "in": 175.56,
-      "out": 181.56,
+      "out": 180.56,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1560,7 +1430,7 @@
       ]
     },
     {
-      "id": "t37",
+      "id": "t35",
       "type": "text",
       "content": "afecta memoria y concentración",
       "fontSize": 34,
@@ -1590,7 +1460,7 @@
       }
     },
     {
-      "id": "cocaine-block_38",
+      "id": "cocaine-block_36",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cocaine-block.png",
@@ -1602,7 +1472,7 @@
       },
       "z": 26,
       "in": 188.98,
-      "out": 200.98,
+      "out": 203.48,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -1630,11 +1500,18 @@
           "cy": 500,
           "w": 500,
           "h": 500
+        },
+        {
+          "t": 202.03,
+          "cx": 960,
+          "cy": 520,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "dopamine-flood_39",
+      "id": "dopamine-flood_37",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/dopamine-flood.png",
@@ -1646,7 +1523,7 @@
       },
       "z": 30,
       "in": 205.46,
-      "out": 211.46,
+      "out": 210.75,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1671,7 +1548,7 @@
       ]
     },
     {
-      "id": "t40",
+      "id": "t38",
       "type": "text",
       "content": "bloquea el reciclaje de dopamina",
       "fontSize": 34,
@@ -1717,7 +1594,7 @@
       ]
     },
     {
-      "id": "clip-heartbeat_41",
+      "id": "clip-heartbeat_39",
       "type": "clip",
       "src": "assets/clips/clip-heartbeat.mp4",
       "frame": "rounded",
@@ -1729,7 +1606,7 @@
       },
       "z": 27,
       "in": 210.7,
-      "out": 219.2,
+      "out": 218.2,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -1757,7 +1634,7 @@
       ]
     },
     {
-      "id": "dopamine-crash_42",
+      "id": "dopamine-crash_40",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/dopamine-crash.png",
@@ -1769,7 +1646,7 @@
       },
       "z": 30,
       "in": 215.7,
-      "out": 221.7,
+      "out": 222.75,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1794,7 +1671,7 @@
       ]
     },
     {
-      "id": "heart-attack_43",
+      "id": "heart-attack_41",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/heart-attack.png",
@@ -1806,7 +1683,7 @@
       },
       "z": 30,
       "in": 222.56,
-      "out": 227.56,
+      "out": 230.06,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1831,7 +1708,7 @@
       ]
     },
     {
-      "id": "t44",
+      "id": "t42",
       "type": "text",
       "content": "el bajón... y riesgo de infarto",
       "fontSize": 34,
@@ -1877,7 +1754,7 @@
       ]
     },
     {
-      "id": "meth-dump_45",
+      "id": "meth-dump_43",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/meth-dump.png",
@@ -1889,7 +1766,7 @@
       },
       "z": 30,
       "in": 235.64,
-      "out": 241.64,
+      "out": 240.64,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1921,7 +1798,7 @@
       ]
     },
     {
-      "id": "dopamine-flood_46",
+      "id": "dopamine-flood_44",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/dopamine-flood.png",
@@ -1933,7 +1810,7 @@
       },
       "z": 30,
       "in": 236.98,
-      "out": 242.98,
+      "out": 244.48,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1956,7 +1833,7 @@
           "h": 380
         },
         {
-          "t": 241.64,
+          "t": 240.64,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -1965,7 +1842,7 @@
       ]
     },
     {
-      "id": "t47",
+      "id": "t45",
       "type": "text",
       "content": "vacían TODA la dopamina de golpe",
       "fontSize": 34,
@@ -1995,7 +1872,7 @@
       }
     },
     {
-      "id": "clip-neurons_48",
+      "id": "clip-neurons_46",
       "type": "clip",
       "src": "assets/clips/clip-neurons.mp4",
       "frame": "rounded",
@@ -2031,11 +1908,18 @@
           "cy": 500,
           "w": 980,
           "h": 551
+        },
+        {
+          "t": 252.6,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
         }
       ]
     },
     {
-      "id": "burned-neurons_49",
+      "id": "burned-neurons_47",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/burned-neurons.png",
@@ -2047,7 +1931,7 @@
       },
       "z": 30,
       "in": 245.72,
-      "out": 251.72,
+      "out": 255.72,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2072,7 +1956,7 @@
       ]
     },
     {
-      "id": "t50",
+      "id": "t48",
       "type": "text",
       "content": "daño permanente en las neuronas",
       "fontSize": 34,
@@ -2125,7 +2009,7 @@
       ]
     },
     {
-      "id": "clip-party_51",
+      "id": "clip-party_49",
       "type": "clip",
       "src": "assets/clips/clip-party.mp4",
       "frame": "rounded",
@@ -2137,7 +2021,7 @@
       },
       "z": 27,
       "in": 256.08,
-      "out": 264.58,
+      "out": 263.58,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -2146,33 +2030,10 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 256.08,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 256.33,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 263.38,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        }
-      ]
+      }
     },
     {
-      "id": "serotonin_52",
+      "id": "serotonin_50",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/serotonin.png",
@@ -2184,7 +2045,7 @@
       },
       "z": 30,
       "in": 267.88,
-      "out": 273.88,
+      "out": 275.38,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2205,18 +2066,11 @@
           "cy": 560,
           "w": 470,
           "h": 470
-        },
-        {
-          "t": 271.82,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
         }
       ]
     },
     {
-      "id": "t53",
+      "id": "t51",
       "type": "text",
       "content": "inunda el cerebro de serotonina",
       "fontSize": 34,
@@ -2246,58 +2100,7 @@
       }
     },
     {
-      "id": "serotonin_54",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/serotonin.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
-      "in": 271.82,
-      "out": 277.82,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 271.82,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 273.88,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        },
-        {
-          "t": 275.26,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "serotonin-crash_55",
+      "id": "serotonin-crash_52",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/serotonin-crash.png",
@@ -2309,7 +2112,7 @@
       },
       "z": 30,
       "in": 281.28,
-      "out": 286.28,
+      "out": 287.75,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2334,19 +2137,19 @@
       ]
     },
     {
-      "id": "ecstasy-pill_56",
+      "id": "ecstasy-pill_53",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/ecstasy-pill.png",
       "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
       },
       "z": 30,
       "in": 275.26,
-      "out": 281.26,
+      "out": 281.5,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2363,13 +2166,6 @@
       "frames": [
         {
           "t": 275.26,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 277.82,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -2378,7 +2174,7 @@
       ]
     },
     {
-      "id": "t57",
+      "id": "t54",
       "type": "text",
       "content": "después: «la depresión del martes»",
       "fontSize": 34,
@@ -2408,7 +2204,7 @@
       }
     },
     {
-      "id": "clip-pills_58",
+      "id": "clip-pills_55",
       "type": "clip",
       "src": "assets/clips/clip-pills.mp4",
       "frame": "rounded",
@@ -2420,7 +2216,7 @@
       },
       "z": 27,
       "in": 287.7,
-      "out": 296.2,
+      "out": 295.2,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -2448,7 +2244,7 @@
       ]
     },
     {
-      "id": "endorphin-receptor_59",
+      "id": "endorphin-receptor_56",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/endorphin-receptor.png",
@@ -2460,7 +2256,7 @@
       },
       "z": 30,
       "in": 294.54,
-      "out": 300.54,
+      "out": 302.04,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2485,7 +2281,7 @@
       ]
     },
     {
-      "id": "t60",
+      "id": "t57",
       "type": "text",
       "content": "los más LETALES de todos",
       "fontSize": 34,
@@ -2515,7 +2311,7 @@
       }
     },
     {
-      "id": "stop-breathing_61",
+      "id": "stop-breathing_58",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/stop-breathing.png",
@@ -2573,7 +2369,7 @@
       ]
     },
     {
-      "id": "fentanyl-tiny_62",
+      "id": "fentanyl-tiny_59",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/fentanyl-tiny.png",
@@ -2585,7 +2381,7 @@
       },
       "z": 30,
       "in": 316.28,
-      "out": 321.28,
+      "out": 326.28,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2610,7 +2406,7 @@
       ]
     },
     {
-      "id": "t63",
+      "id": "t60",
       "type": "text",
       "content": "el cerebro se olvida de respirar",
       "fontSize": 34,
@@ -2640,7 +2436,7 @@
       }
     },
     {
-      "id": "clip-psychedelic_64",
+      "id": "clip-psychedelic_61",
       "type": "clip",
       "src": "assets/clips/clip-psychedelic.mp4",
       "frame": "rounded",
@@ -2652,7 +2448,7 @@
       },
       "z": 27,
       "in": 324.06,
-      "out": 332.56,
+      "out": 331.56,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -2683,18 +2479,11 @@
           "cy": 520,
           "w": 980,
           "h": 551
-        },
-        {
-          "t": 331.31,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
         }
       ]
     },
     {
-      "id": "hallucinogens_65",
+      "id": "hallucinogens_62",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hallucinogens.png",
@@ -2706,7 +2495,7 @@
       },
       "z": 30,
       "in": 333.68,
-      "out": 339.68,
+      "out": 341.18,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2731,7 +2520,7 @@
       ]
     },
     {
-      "id": "t66",
+      "id": "t63",
       "type": "text",
       "content": "desordenan cómo el cerebro filtra la realidad",
       "fontSize": 34,
@@ -2761,7 +2550,7 @@
       }
     },
     {
-      "id": "distorted-reality_67",
+      "id": "distorted-reality_64",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/distorted-reality.png",
@@ -2773,7 +2562,7 @@
       },
       "z": 30,
       "in": 341.8,
-      "out": 347.8,
+      "out": 349.3,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2798,7 +2587,7 @@
       ]
     },
     {
-      "id": "good-bad-trip_68",
+      "id": "good-bad-trip_65",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/good-bad-trip.png",
@@ -2835,7 +2624,7 @@
       ]
     },
     {
-      "id": "t69",
+      "id": "t66",
       "type": "text",
       "content": "buen viaje o mal viaje: imposible saberlo",
       "fontSize": 34,
@@ -2881,7 +2670,7 @@
       ]
     },
     {
-      "id": "photo-pills_70",
+      "id": "photo-pills_67",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-pills.jpg",
@@ -2893,7 +2682,7 @@
       },
       "z": 24,
       "in": 353.76,
-      "out": 365.76,
+      "out": 368.26,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -2925,7 +2714,7 @@
       ]
     },
     {
-      "id": "benzos-trap_71",
+      "id": "benzos-trap_68",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/benzos-trap.png",
@@ -2937,7 +2726,7 @@
       },
       "z": 30,
       "in": 359.78,
-      "out": 365.78,
+      "out": 364.78,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2962,7 +2751,7 @@
       ]
     },
     {
-      "id": "t72",
+      "id": "t69",
       "type": "text",
       "content": "medicinas que se vuelven trampa",
       "fontSize": 34,
@@ -2992,7 +2781,7 @@
       }
     },
     {
-      "id": "tolerance_73",
+      "id": "tolerance_70",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tolerance.png",
@@ -3004,7 +2793,7 @@
       },
       "z": 30,
       "in": 368.54,
-      "out": 374.54,
+      "out": 376.04,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3029,7 +2818,7 @@
       ]
     },
     {
-      "id": "stop-breathing_74",
+      "id": "stop-breathing_71",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/stop-breathing.png",
@@ -3041,7 +2830,7 @@
       },
       "z": 30,
       "in": 379.46,
-      "out": 384.46,
+      "out": 386.96,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3066,7 +2855,7 @@
       ]
     },
     {
-      "id": "t75",
+      "id": "t72",
       "type": "text",
       "content": "mezcladas: riesgo mortal",
       "fontSize": 34,
@@ -3096,7 +2885,7 @@
       }
     },
     {
-      "id": "clip-psychedelic_76",
+      "id": "clip-psychedelic_73",
       "type": "clip",
       "src": "assets/clips/clip-psychedelic.mp4",
       "frame": "rounded",
@@ -3108,7 +2897,7 @@
       },
       "z": 27,
       "in": 383.28,
-      "out": 391.78,
+      "out": 390.78,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3127,7 +2916,7 @@
           "h": 551
         },
         {
-          "t": 389.83,
+          "t": 386.33,
           "cx": 960,
           "cy": 520,
           "w": 980,
@@ -3136,7 +2925,7 @@
       ]
     },
     {
-      "id": "dissociative_77",
+      "id": "dissociative_74",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/dissociative.png",
@@ -3148,7 +2937,7 @@
       },
       "z": 30,
       "in": 391.86,
-      "out": 397.86,
+      "out": 399.36,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3169,18 +2958,11 @@
           "cy": 560,
           "w": 470,
           "h": 470
-        },
-        {
-          "t": 397.66,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
         }
       ]
     },
     {
-      "id": "t78",
+      "id": "t75",
       "type": "text",
       "content": "sensación de salir del cuerpo",
       "fontSize": 34,
@@ -3217,7 +2999,7 @@
           "h": 90
         },
         {
-          "t": 391.98,
+          "t": 392.23,
           "cx": 960,
           "cy": 500,
           "w": 651,
@@ -3226,70 +3008,19 @@
       ]
     },
     {
-      "id": "dissociative_79",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/dissociative.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
-      "in": 397.66,
-      "out": 402.52,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 397.66,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 397.86,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        },
-        {
-          "t": 399.78,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "distorted-reality_80",
+      "id": "distorted-reality_76",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/distorted-reality.png",
       "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
       },
       "z": 30,
       "in": 399.78,
-      "out": 404.78,
+      "out": 409.78,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3306,21 +3037,21 @@
       "frames": [
         {
           "t": 399.78,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
         }
       ]
     },
     {
-      "id": "t81",
+      "id": "t77",
       "type": "text",
       "content": "«el agujero»: desconexión total",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 830,
         "w": 693,
         "h": 90
       },
@@ -3341,10 +3072,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 399.58,
+          "cx": 960,
+          "cy": 830,
+          "w": 693,
+          "h": 90
+        },
+        {
+          "t": 400.08,
+          "cx": 960,
+          "cy": 500,
+          "w": 693,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "clip-neurons_82",
+      "id": "clip-neurons_78",
       "type": "clip",
       "src": "assets/clips/clip-neurons.mp4",
       "frame": "rounded",
@@ -3356,7 +3103,7 @@
       },
       "z": 27,
       "in": 407.44,
-      "out": 415.94,
+      "out": 414.94,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3370,19 +3117,12 @@
         {
           "t": 407.44,
           "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 407.69,
-          "cx": 960,
           "cy": 500,
           "w": 980,
           "h": 551
         },
         {
-          "t": 409.74,
+          "t": 409.24,
           "cx": 960,
           "cy": 520,
           "w": 980,
@@ -3391,7 +3131,7 @@
       ]
     },
     {
-      "id": "addiction-rewire_83",
+      "id": "addiction-rewire_79",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/addiction-rewire.png",
@@ -3403,7 +3143,7 @@
       },
       "z": 30,
       "in": 417.48,
-      "out": 423.48,
+      "out": 422.48,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3428,7 +3168,7 @@
       ]
     },
     {
-      "id": "t84",
+      "id": "t80",
       "type": "text",
       "content": "el cerebro reduce sus receptores",
       "fontSize": 34,
@@ -3458,7 +3198,7 @@
       }
     },
     {
-      "id": "clip-lab_85",
+      "id": "clip-lab_81",
       "type": "clip",
       "src": "assets/clips/clip-lab.mp4",
       "frame": "rounded",
@@ -3470,7 +3210,7 @@
       },
       "z": 27,
       "in": 422.02,
-      "out": 430.52,
+      "out": 429.52,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3505,7 +3245,7 @@
       ]
     },
     {
-      "id": "no-pleasure_86",
+      "id": "no-pleasure_82",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/no-pleasure.png",
@@ -3517,7 +3257,7 @@
       },
       "z": 30,
       "in": 427.18,
-      "out": 433.18,
+      "out": 434.68,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3542,7 +3282,7 @@
       ]
     },
     {
-      "id": "t87",
+      "id": "t83",
       "type": "text",
       "content": "necesitas más... y nada normal te llena",
       "fontSize": 34,
@@ -3572,44 +3312,7 @@
       }
     },
     {
-      "id": "no-pleasure_88",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/no-pleasure.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 434.7,
-      "out": 440.7,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 434.7,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "brain-hijack_89",
+      "id": "brain-hijack_84",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/brain-hijack.png",
@@ -3621,7 +3324,7 @@
       },
       "z": 30,
       "in": 440.98,
-      "out": 446.98,
+      "out": 446.5,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3646,7 +3349,7 @@
       ]
     },
     {
-      "id": "t90",
+      "id": "t85",
       "type": "text",
       "content": "ya no consume por placer: por no estar fatal",
       "fontSize": 34,
@@ -3678,21 +3381,21 @@
         {
           "t": 433.66,
           "cx": 960,
-          "cy": 830,
+          "cy": 500,
           "w": 968,
           "h": 90
         },
         {
-          "t": 434.91,
+          "t": 434.21,
           "cx": 960,
-          "cy": 500,
+          "cy": 830,
           "w": 968,
           "h": 90
         }
       ]
     },
     {
-      "id": "clip-brain_91",
+      "id": "clip-brain_86",
       "type": "clip",
       "src": "assets/clips/clip-brain.mp4",
       "frame": "rounded",
@@ -3704,7 +3407,7 @@
       },
       "z": 27,
       "in": 446.46,
-      "out": 454.96,
+      "out": 453.96,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3732,7 +3435,7 @@
       ]
     },
     {
-      "id": "dopamine-crash_92",
+      "id": "dopamine-crash_87",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/dopamine-crash.png",
@@ -3744,7 +3447,7 @@
       },
       "z": 30,
       "in": 452.52,
-      "out": 458.52,
+      "out": 457.52,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3769,7 +3472,7 @@
       ]
     },
     {
-      "id": "t93",
+      "id": "t88",
       "type": "text",
       "content": "cada subidón se paga con un bajón",
       "fontSize": 34,
@@ -3796,10 +3499,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 450.24,
+          "cx": 960,
+          "cy": 830,
+          "w": 736,
+          "h": 90
+        },
+        {
+          "t": 453.99,
+          "cx": 960,
+          "cy": 500,
+          "w": 736,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "photo-brain_94",
+      "id": "photo-brain_89",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-brain.jpg",
@@ -3850,7 +3569,7 @@
       ]
     },
     {
-      "id": "respect-brain_95",
+      "id": "respect-brain_90",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/respect-brain.png",
@@ -3862,7 +3581,7 @@
       },
       "z": 30,
       "in": 467.08,
-      "out": 473.08,
+      "out": 474.58,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3887,7 +3606,7 @@
       ]
     },
     {
-      "id": "t96",
+      "id": "t91",
       "type": "text",
       "content": "conócelo y serás más difícil de engañar",
       "fontSize": 34,
@@ -4631,10 +4350,50 @@
       }
     },
     {
-      "id": "cov97",
+      "id": "cov92",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/brain-hijack.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 10.32,
+      "out": 29.75,
+      "frames": [
+        {
+          "t": 10.32,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 12.72,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov93",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/alcohol-depressant.png",
       "box": {
         "cx": 960,
         "cy": 505,
@@ -4642,8 +4401,191 @@
         "h": 460
       },
       "z": 28,
-      "in": 0,
-      "out": 0.25,
+      "in": 62.14,
+      "out": 65.75,
+      "frames": [
+        {
+          "t": 62.14,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 63.94,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov94",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/alcohol-depressant.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 64.64,
+      "out": 74,
+      "frames": [
+        {
+          "t": 64.64,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 67.04,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov95",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/alcohol-depressant.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 87.54,
+      "out": 100.75,
+      "frames": [
+        {
+          "t": 87.54,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 89.94,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov96",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/nicotine.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 108.02,
+      "out": 111.25,
+      "frames": [
+        {
+          "t": 108.02,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 108.77,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 109.07,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov97",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/caffeine.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 132.26,
+      "out": 137.75,
+      "frames": [
+        {
+          "t": 132.26,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 134.66,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -4658,30 +4600,30 @@
       "id": "cov98",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/brain-hijack.png",
+      "src": "assets/icons/caffeine.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 11.25,
-      "out": 19.25,
+      "in": 145.18,
+      "out": 154.25,
       "frames": [
         {
-          "t": 11.25,
+          "t": 145.18,
           "cx": 960,
-          "cy": 505,
+          "cy": 500,
           "w": 460,
           "h": 460
         },
         {
-          "t": 13.65,
+          "t": 152.23,
           "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "cy": 505,
+          "w": 460,
+          "h": 460
         }
       ],
       "enter": {
@@ -4698,32 +4640,16 @@
       "id": "cov99",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/brain-hijack.png",
+      "src": "assets/icons/cannabis-thc.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 19.25,
-      "out": 27.25,
-      "frames": [
-        {
-          "t": 19.25,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 21.65,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
+      "in": 171.58,
+      "out": 172,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -4738,7 +4664,7 @@
       "id": "cov100",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/brain-hijack.png",
+      "src": "assets/icons/cannabis-thc.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -4746,18 +4672,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 27.25,
-      "out": 29.75,
+      "in": 186.26,
+      "out": 189,
       "frames": [
         {
-          "t": 27.25,
+          "t": 186.26,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 28.5,
+          "t": 187.63,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -4778,26 +4704,26 @@
       "id": "cov101",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/dopamine.png",
+      "src": "assets/icons/cocaine-block.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 44.25,
-      "out": 46,
+      "in": 203.48,
+      "out": 205.5,
       "frames": [
         {
-          "t": 44.25,
+          "t": 203.48,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 45.13,
+          "t": 204.49,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -4818,26 +4744,26 @@
       "id": "cov102",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/alcohol-depressant.png",
+      "src": "assets/icons/meth-dump.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 60.25,
-      "out": 65.75,
+      "in": 230.06,
+      "out": 235.75,
       "frames": [
         {
-          "t": 60.25,
+          "t": 230.06,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 62.65,
+          "t": 232.46,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -4858,26 +4784,26 @@
       "id": "cov103",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/alcohol-depressant.png",
+      "src": "assets/icons/meth-dump.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 86.25,
-      "out": 94.25,
+      "in": 244.48,
+      "out": 245.75,
       "frames": [
         {
-          "t": 86.25,
+          "t": 244.48,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 88.65,
+          "t": 245.11,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -4898,30 +4824,37 @@
       "id": "cov104",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/alcohol-depressant.png",
+      "src": "assets/icons/meth-dump.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 94.25,
-      "out": 100.75,
+      "in": 253.22,
+      "out": 256.25,
       "frames": [
         {
-          "t": 94.25,
+          "t": 253.22,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 96.65,
+          "t": 254.47,
           "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 255.02,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
         }
       ],
       "enter": {
@@ -4938,7 +4871,7 @@
       "id": "cov105",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/nicotine.png",
+      "src": "assets/icons/ecstasy-pill.png",
       "box": {
         "cx": 960,
         "cy": 505,
@@ -4946,18 +4879,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 110,
-      "out": 111.25,
+      "in": 255.72,
+      "out": 268,
       "frames": [
         {
-          "t": 110,
+          "t": 255.72,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 110.63,
+          "t": 258.12,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -4978,7 +4911,7 @@
       "id": "cov106",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/nicotine.png",
+      "src": "assets/icons/opioids.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -4986,18 +4919,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 123.25,
-      "out": 125,
+      "in": 302.04,
+      "out": 304.5,
       "frames": [
         {
-          "t": 123.25,
+          "t": 302.04,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 124.13,
+          "t": 303.27,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5018,7 +4951,7 @@
       "id": "cov107",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/caffeine.png",
+      "src": "assets/icons/hallucinogens.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5026,8 +4959,8 @@
         "h": 460
       },
       "z": 28,
-      "in": 137.5,
-      "out": 137.75,
+      "in": 323.78,
+      "out": 324.25,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5042,30 +4975,30 @@
       "id": "cov108",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/caffeine.png",
+      "src": "assets/icons/hallucinogens.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 143.75,
-      "out": 146.5,
+      "in": 326.28,
+      "out": 333.75,
       "frames": [
         {
-          "t": 143.75,
+          "t": 326.28,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 145.13,
+          "t": 331.78,
           "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "cy": 500,
+          "w": 460,
+          "h": 460
         }
       ],
       "enter": {
@@ -5082,7 +5015,7 @@
       "id": "cov109",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/caffeine.png",
+      "src": "assets/icons/hallucinogens.png",
       "box": {
         "cx": 960,
         "cy": 505,
@@ -5090,24 +5023,8 @@
         "h": 460
       },
       "z": 28,
-      "in": 152.5,
-      "out": 154.25,
-      "frames": [
-        {
-          "t": 152.5,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 153.38,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
+      "in": 341.18,
+      "out": 342,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5122,7 +5039,7 @@
       "id": "cov110",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/cannabis-thc.png",
+      "src": "assets/icons/hallucinogens.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5130,24 +5047,8 @@
         "h": 460
       },
       "z": 28,
-      "in": 170.25,
-      "out": 172,
-      "frames": [
-        {
-          "t": 170.25,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 171.13,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
+      "in": 349.3,
+      "out": 350,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5162,32 +5063,16 @@
       "id": "cov111",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/cannabis-thc.png",
+      "src": "assets/icons/benzos-trap.png",
       "box": {
         "cx": 960,
-        "cy": 505,
+        "cy": 500,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 184,
-      "out": 189,
-      "frames": [
-        {
-          "t": 184,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 184.5,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        }
-      ],
+      "in": 368.26,
+      "out": 368.75,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5202,7 +5087,7 @@
       "id": "cov112",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/cocaine-block.png",
+      "src": "assets/icons/benzos-trap.png",
       "box": {
         "cx": 960,
         "cy": 505,
@@ -5210,22 +5095,22 @@
         "h": 460
       },
       "z": 28,
-      "in": 201,
-      "out": 205.5,
+      "in": 376.04,
+      "out": 379.5,
       "frames": [
         {
-          "t": 201,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 202.05,
+          "t": 376.04,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
+        },
+        {
+          "t": 377.77,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
         }
       ],
       "enter": {
@@ -5242,16 +5127,32 @@
       "id": "cov113",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/cocaine-block.png",
+      "src": "assets/icons/dissociative.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 221.75,
-      "out": 222.75,
+      "in": 386.96,
+      "out": 392,
+      "frames": [
+        {
+          "t": 386.96,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 389.36,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5266,7 +5167,7 @@
       "id": "cov114",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/meth-dump.png",
+      "src": "assets/icons/dissociative.png",
       "box": {
         "cx": 960,
         "cy": 505,
@@ -5274,24 +5175,8 @@
         "h": 460
       },
       "z": 28,
-      "in": 227.75,
-      "out": 235.75,
-      "frames": [
-        {
-          "t": 227.75,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 229.55,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        }
-      ],
+      "in": 399.36,
+      "out": 400,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5306,7 +5191,7 @@
       "id": "cov115",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/meth-dump.png",
+      "src": "assets/icons/addiction-rewire.png",
       "box": {
         "cx": 960,
         "cy": 505,
@@ -5314,20 +5199,20 @@
         "h": 460
       },
       "z": 28,
-      "in": 243,
-      "out": 245.75,
+      "in": 409.78,
+      "out": 417.5,
       "frames": [
         {
-          "t": 243,
+          "t": 409.78,
           "cx": 960,
-          "cy": 500,
+          "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 243.55,
+          "t": 415.53,
           "cx": 960,
-          "cy": 505,
+          "cy": 500,
           "w": 460,
           "h": 460
         }
@@ -5346,30 +5231,30 @@
       "id": "cov116",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/ecstasy-pill.png",
+      "src": "assets/icons/addiction-rewire.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 254.5,
-      "out": 256.25,
+      "in": 434.68,
+      "out": 441,
       "frames": [
         {
-          "t": 254.5,
+          "t": 434.68,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 255.38,
+          "t": 438.68,
           "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "cy": 500,
+          "w": 460,
+          "h": 460
         }
       ],
       "enter": {
@@ -5386,350 +5271,6 @@
       "id": "cov117",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/ecstasy-pill.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 264.75,
-      "out": 268,
-      "frames": [
-        {
-          "t": 264.75,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 266.38,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov118",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/opioids.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 286.5,
-      "out": 287.75,
-      "frames": [
-        {
-          "t": 286.5,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 287.13,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov119",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/opioids.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 300.75,
-      "out": 304.5,
-      "frames": [
-        {
-          "t": 300.75,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 302.63,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov120",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/hallucinogens.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 321.5,
-      "out": 324.25,
-      "frames": [
-        {
-          "t": 321.5,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 322.88,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov121",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/hallucinogens.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 332.75,
-      "out": 333.75,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov122",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/hallucinogens.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 339.75,
-      "out": 342,
-      "frames": [
-        {
-          "t": 339.75,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 340.05,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov123",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/hallucinogens.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 348,
-      "out": 350,
-      "frames": [
-        {
-          "t": 348,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 349,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov124",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/benzos-trap.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 366,
-      "out": 368.75,
-      "frames": [
-        {
-          "t": 366,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 367.38,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov125",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/benzos-trap.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 374.75,
-      "out": 379.5,
-      "frames": [
-        {
-          "t": 374.75,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 377.13,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov126",
-      "type": "image",
-      "kind": "vector",
       "src": "assets/icons/addiction-rewire.png",
       "box": {
         "cx": 960,
@@ -5738,202 +5279,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 405,
-      "out": 407.5,
-      "frames": [
-        {
-          "t": 405,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 406.25,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov127",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/addiction-rewire.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 416,
-      "out": 417.5,
-      "frames": [
-        {
-          "t": 416,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 416.75,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov128",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/addiction-rewire.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 433.25,
-      "out": 434.75,
-      "frames": [
-        {
-          "t": 433.25,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 434,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov129",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/addiction-rewire.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 440.75,
-      "out": 441,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov130",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/addiction-rewire.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 473.25,
-      "out": 481.25,
-      "frames": [
-        {
-          "t": 473.25,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 475.65,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov131",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/addiction-rewire.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 481.25,
+      "in": 474.58,
       "out": 486.5,
       "frames": [
         {
-          "t": 481.25,
+          "t": 474.58,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 483.65,
+          "t": 476.98,
           "cx": 960,
           "cy": 475,
           "w": 410,

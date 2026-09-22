@@ -43,7 +43,7 @@
       },
       "z": 27,
       "in": 1.68,
-      "out": 10.18,
+      "out": 9.18,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -83,7 +83,7 @@
       },
       "z": 30,
       "in": 6.9,
-      "out": 12.9,
+      "out": 14.4,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -150,7 +150,7 @@
       },
       "z": 30,
       "in": 16.94,
-      "out": 22.94,
+      "out": 24.44,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -171,62 +171,11 @@
           "cy": 560,
           "w": 470,
           "h": 470
-        },
-        {
-          "t": 19.6,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
         }
       ]
     },
     {
-      "id": "silent-poison_4",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/silent-poison.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
-      "in": 19.6,
-      "out": 25.6,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 19.6,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 22.94,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "dose-makes-poison_5",
+      "id": "dose-makes-poison_4",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/dose-makes-poison.png",
@@ -263,7 +212,7 @@
       ]
     },
     {
-      "id": "t6",
+      "id": "t5",
       "type": "text",
       "content": "la regla que decide si algo te mata",
       "fontSize": 34,
@@ -293,7 +242,7 @@
       }
     },
     {
-      "id": "clip-goblet-wine_7",
+      "id": "clip-goblet-wine_6",
       "type": "clip",
       "src": "assets/clips/clip-goblet-wine.mp4",
       "frame": "rounded",
@@ -305,7 +254,7 @@
       },
       "z": 27,
       "in": 30.9,
-      "out": 39.4,
+      "out": 38.4,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -317,7 +266,7 @@
       }
     },
     {
-      "id": "arsenic-king_8",
+      "id": "arsenic-king_7",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/arsenic-king.png",
@@ -329,7 +278,7 @@
       },
       "z": 30,
       "in": 34.3,
-      "out": 40.3,
+      "out": 41.25,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -354,7 +303,7 @@
       ]
     },
     {
-      "id": "tasteless_9",
+      "id": "tasteless_8",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tasteless.png",
@@ -366,7 +315,7 @@
       },
       "z": 30,
       "in": 41.18,
-      "out": 47.18,
+      "out": 48.68,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -387,24 +336,17 @@
           "cy": 560,
           "w": 470,
           "h": 470
-        },
-        {
-          "t": 46.04,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
         }
       ]
     },
     {
-      "id": "t10",
+      "id": "t9",
       "type": "text",
       "content": "ni color, ni olor, ni sabor",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 609,
         "h": 90
       },
@@ -425,77 +367,10 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 40.26,
-          "cx": 960,
-          "cy": 830,
-          "w": 609,
-          "h": 90
-        },
-        {
-          "t": 41.26,
-          "cx": 960,
-          "cy": 500,
-          "w": 609,
-          "h": 90
-        }
-      ]
+      }
     },
     {
-      "id": "arsenic-king_11",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/arsenic-king.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
-      "in": 46.04,
-      "out": 52.04,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 46.04,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 47.18,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        },
-        {
-          "t": 50.14,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "marsh-test_12",
+      "id": "marsh-test_10",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/marsh-test.png",
@@ -507,7 +382,7 @@
       },
       "z": 30,
       "in": 56.78,
-      "out": 62.78,
+      "out": 63.25,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -532,19 +407,19 @@
       ]
     },
     {
-      "id": "silent-poison_13",
+      "id": "silent-poison_11",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/silent-poison.png",
       "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
       },
       "z": 30,
       "in": 50.14,
-      "out": 56.14,
+      "out": 57,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -561,13 +436,6 @@
       "frames": [
         {
           "t": 50.14,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 52.04,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -576,13 +444,13 @@
       ]
     },
     {
-      "id": "t14",
+      "id": "t12",
       "type": "text",
       "content": "hasta que la ciencia aprendió a detectarlo",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 925,
         "h": 90
       },
@@ -603,33 +471,10 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 54.12,
-          "cx": 960,
-          "cy": 500,
-          "w": 925,
-          "h": 90
-        },
-        {
-          "t": 55.67,
-          "cx": 960,
-          "cy": 830,
-          "w": 925,
-          "h": 90
-        },
-        {
-          "t": 57.12,
-          "cx": 960,
-          "cy": 500,
-          "w": 925,
-          "h": 90
-        }
-      ]
+      }
     },
     {
-      "id": "cyanide-fast_15",
+      "id": "cyanide-fast_13",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/cyanide-fast.png",
@@ -641,7 +486,7 @@
       },
       "z": 26,
       "in": 63.12,
-      "out": 75.12,
+      "out": 77.62,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -659,13 +504,6 @@
         {
           "t": 63.12,
           "cx": 960,
-          "cy": 520,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 63.37,
-          "cx": 960,
           "cy": 500,
           "w": 500,
           "h": 500
@@ -680,7 +518,7 @@
       ]
     },
     {
-      "id": "spy-capsule_16",
+      "id": "spy-capsule_14",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/spy-capsule.png",
@@ -692,7 +530,7 @@
       },
       "z": 30,
       "in": 69.16,
-      "out": 75.16,
+      "out": 74.16,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -717,7 +555,7 @@
       ]
     },
     {
-      "id": "t17",
+      "id": "t15",
       "type": "text",
       "content": "asfixia tus células en minutos",
       "fontSize": 34,
@@ -747,7 +585,7 @@
       }
     },
     {
-      "id": "clip-lab_18",
+      "id": "clip-lab_16",
       "type": "clip",
       "src": "assets/clips/clip-lab.mp4",
       "frame": "rounded",
@@ -759,7 +597,7 @@
       },
       "z": 27,
       "in": 79.98,
-      "out": 88.48,
+      "out": 87.48,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -787,10 +625,10 @@
       ]
     },
     {
-      "id": "spy-capsule_19",
+      "id": "almond-smell_17",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/spy-capsule.png",
+      "src": "assets/icons/almond-smell.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -798,52 +636,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 81.06,
-      "out": 87.06,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 81.06,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        },
-        {
-          "t": 85.36,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "almond-smell_20",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/almond-smell.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
       "in": 85.36,
-      "out": 91.02,
+      "out": 91.25,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -860,13 +654,6 @@
       "frames": [
         {
           "t": 85.36,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 87.06,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -875,7 +662,7 @@
       ]
     },
     {
-      "id": "t21",
+      "id": "t18",
       "type": "text",
       "content": "el veneno de los espías",
       "fontSize": 34,
@@ -905,7 +692,7 @@
       }
     },
     {
-      "id": "photo-socrates_22",
+      "id": "photo-socrates_19",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-socrates.jpg",
@@ -917,7 +704,7 @@
       },
       "z": 24,
       "in": 91.02,
-      "out": 103.02,
+      "out": 105.52,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -956,7 +743,7 @@
       ]
     },
     {
-      "id": "hemlock-plant_23",
+      "id": "hemlock-plant_20",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hemlock-plant.png",
@@ -968,7 +755,7 @@
       },
       "z": 30,
       "in": 95.04,
-      "out": 101.04,
+      "out": 100.04,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -993,7 +780,7 @@
       ]
     },
     {
-      "id": "socrates-cup_24",
+      "id": "socrates-cup_21",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/socrates-cup.png",
@@ -1005,7 +792,7 @@
       },
       "z": 30,
       "in": 105.84,
-      "out": 111.84,
+      "out": 110.84,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1037,7 +824,7 @@
       ]
     },
     {
-      "id": "t25",
+      "id": "t22",
       "type": "text",
       "content": "la cicuta que mató a Sócrates",
       "fontSize": 34,
@@ -1067,7 +854,7 @@
       }
     },
     {
-      "id": "paralysis-up_26",
+      "id": "paralysis-up_23",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/paralysis-up.png",
@@ -1079,7 +866,7 @@
       },
       "z": 30,
       "in": 109.16,
-      "out": 115.16,
+      "out": 116.66,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1102,58 +889,7 @@
           "h": 380
         },
         {
-          "t": 111.84,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        },
-        {
-          "t": 114.06,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "socrates-cup_27",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/socrates-cup.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
-      "in": 114.06,
-      "out": 118.74,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 114.06,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 115.16,
+          "t": 110.84,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -1162,13 +898,13 @@
       ]
     },
     {
-      "id": "t28",
+      "id": "t24",
       "type": "text",
       "content": "paraliza de los pies... y llega a los pulmones",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 830,
         "w": 1010,
         "h": 90
       },
@@ -1189,10 +925,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 112.54,
+          "cx": 960,
+          "cy": 500,
+          "w": 1010,
+          "h": 90
+        },
+        {
+          "t": 116.09,
+          "cx": 960,
+          "cy": 830,
+          "w": 1010,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "photo-belladonna_29",
+      "id": "photo-belladonna_25",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-belladonna.jpg",
@@ -1222,6 +974,13 @@
         {
           "t": 118.74,
           "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 118.99,
+          "cx": 960,
           "cy": 500,
           "w": 460,
           "h": 460
@@ -1243,7 +1002,7 @@
       ]
     },
     {
-      "id": "dilated-pupils_30",
+      "id": "dilated-pupils_26",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/dilated-pupils.png",
@@ -1255,7 +1014,7 @@
       },
       "z": 30,
       "in": 128.4,
-      "out": 134.4,
+      "out": 134,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1276,18 +1035,11 @@
           "cy": 400,
           "w": 210,
           "h": 210
-        },
-        {
-          "t": 133.84,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
         }
       ]
     },
     {
-      "id": "t31",
+      "id": "t27",
       "type": "text",
       "content": "«mujer hermosa»: gotas para las pupilas",
       "fontSize": 34,
@@ -1317,19 +1069,19 @@
       }
     },
     {
-      "id": "belladonna-plant_32",
+      "id": "belladonna-plant_28",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/belladonna-plant.png",
       "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
       },
       "z": 30,
       "in": 133.84,
-      "out": 139.84,
+      "out": 139.75,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1346,37 +1098,23 @@
       "frames": [
         {
           "t": 133.84,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 134.4,
           "cx": 960,
           "cy": 560,
           "w": 470,
           "h": 470
-        },
-        {
-          "t": 139.6,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
         }
       ]
     },
     {
-      "id": "beauty-death_33",
+      "id": "beauty-death_29",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/beauty-death.png",
       "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
       },
       "z": 30,
       "in": 139.6,
@@ -1397,13 +1135,6 @@
       "frames": [
         {
           "t": 139.6,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 139.84,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -1412,7 +1143,7 @@
       ]
     },
     {
-      "id": "t34",
+      "id": "t30",
       "type": "text",
       "content": "lo bonito y lo mortal, la misma planta",
       "fontSize": 34,
@@ -1442,7 +1173,7 @@
       }
     },
     {
-      "id": "strychnine_35",
+      "id": "strychnine_31",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/strychnine.png",
@@ -1493,7 +1224,7 @@
       ]
     },
     {
-      "id": "muscle-paralysis_36",
+      "id": "muscle-paralysis_32",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/muscle-paralysis.png",
@@ -1505,7 +1236,7 @@
       },
       "z": 30,
       "in": 151.32,
-      "out": 157.32,
+      "out": 158.82,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1530,7 +1261,7 @@
       ]
     },
     {
-      "id": "t37",
+      "id": "t33",
       "type": "text",
       "content": "contracciones violentas por todo el cuerpo",
       "fontSize": 34,
@@ -1560,7 +1291,7 @@
       }
     },
     {
-      "id": "mystery-novel_38",
+      "id": "mystery-novel_34",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/mystery-novel.png",
@@ -1604,7 +1335,7 @@
       ]
     },
     {
-      "id": "strychnine_39",
+      "id": "strychnine_35",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/strychnine.png",
@@ -1616,7 +1347,7 @@
       },
       "z": 30,
       "in": 162.8,
-      "out": 167.42,
+      "out": 169.92,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1641,7 +1372,7 @@
       ]
     },
     {
-      "id": "t40",
+      "id": "t36",
       "type": "text",
       "content": "un clásico de las novelas de misterio",
       "fontSize": 34,
@@ -1671,7 +1402,7 @@
       }
     },
     {
-      "id": "clip-poison-drop_41",
+      "id": "clip-poison-drop_37",
       "type": "clip",
       "src": "assets/clips/clip-poison-drop.mp4",
       "frame": "rounded",
@@ -1683,7 +1414,7 @@
       },
       "z": 27,
       "in": 170.12,
-      "out": 178.62,
+      "out": 177.62,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -1711,7 +1442,7 @@
       ]
     },
     {
-      "id": "aqua-tofana_42",
+      "id": "aqua-tofana_38",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/aqua-tofana.png",
@@ -1723,7 +1454,7 @@
       },
       "z": 30,
       "in": 177.18,
-      "out": 183.18,
+      "out": 182.18,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1755,7 +1486,7 @@
       ]
     },
     {
-      "id": "tasteless_43",
+      "id": "tasteless_39",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tasteless.png",
@@ -1767,7 +1498,7 @@
       },
       "z": 30,
       "in": 179.44,
-      "out": 185.44,
+      "out": 186.94,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1790,7 +1521,7 @@
           "h": 380
         },
         {
-          "t": 183.18,
+          "t": 182.18,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -1799,7 +1530,7 @@
       ]
     },
     {
-      "id": "t44",
+      "id": "t40",
       "type": "text",
       "content": "veneno disfrazado de cosmético",
       "fontSize": 34,
@@ -1826,10 +1557,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 167.42,
+          "cx": 960,
+          "cy": 500,
+          "w": 672,
+          "h": 90
+        },
+        {
+          "t": 169.22,
+          "cx": 960,
+          "cy": 830,
+          "w": 672,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "antifreeze_45",
+      "id": "antifreeze_41",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/antifreeze.png",
@@ -1841,7 +1588,7 @@
       },
       "z": 30,
       "in": 197.84,
-      "out": 203.84,
+      "out": 205.34,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1866,7 +1613,7 @@
       ]
     },
     {
-      "id": "medicine-or-poison_46",
+      "id": "medicine-or-poison_42",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/medicine-or-poison.png",
@@ -1878,7 +1625,7 @@
       },
       "z": 30,
       "in": 188.62,
-      "out": 194.62,
+      "out": 193.62,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1910,7 +1657,7 @@
       ]
     },
     {
-      "id": "mercury-metal_47",
+      "id": "mercury-metal_43",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/mercury-metal.png",
@@ -1922,7 +1669,7 @@
       },
       "z": 30,
       "in": 190.62,
-      "out": 196.62,
+      "out": 198,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1945,7 +1692,7 @@
           "h": 380
         },
         {
-          "t": 194.62,
+          "t": 193.62,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -1954,13 +1701,13 @@
       ]
     },
     {
-      "id": "t48",
+      "id": "t44",
       "type": "text",
       "content": "el anticongelante: dulce y letal",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 715,
         "h": 90
       },
@@ -1981,26 +1728,10 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 197.14,
-          "cx": 960,
-          "cy": 830,
-          "w": 715,
-          "h": 90
-        },
-        {
-          "t": 198.14,
-          "cx": 960,
-          "cy": 500,
-          "w": 715,
-          "h": 90
-        }
-      ]
+      }
     },
     {
-      "id": "photo-mercury_49",
+      "id": "photo-mercury_45",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-mercury.jpg",
@@ -2012,7 +1743,7 @@
       },
       "z": 24,
       "in": 213.72,
-      "out": 225.72,
+      "out": 227,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -2058,7 +1789,7 @@
       ]
     },
     {
-      "id": "alchemist_50",
+      "id": "alchemist_46",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/alchemist.png",
@@ -2070,7 +1801,7 @@
       },
       "z": 30,
       "in": 220.18,
-      "out": 226.18,
+      "out": 225.18,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2095,7 +1826,7 @@
       ]
     },
     {
-      "id": "mad-hatter_51",
+      "id": "mad-hatter_47",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/mad-hatter.png",
@@ -2107,7 +1838,7 @@
       },
       "z": 30,
       "in": 226.98,
-      "out": 232.98,
+      "out": 234.48,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2132,7 +1863,7 @@
       ]
     },
     {
-      "id": "t52",
+      "id": "t48",
       "type": "text",
       "content": "«loco como un sombrerero»",
       "fontSize": 34,
@@ -2162,59 +1893,15 @@
       }
     },
     {
-      "id": "mad-hatter_53",
+      "id": "mercury-metal_49",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/mad-hatter.png",
+      "src": "assets/icons/mercury-metal.png",
       "box": {
         "cx": 960,
         "cy": 560,
         "w": 470,
         "h": 470
-      },
-      "z": 30,
-      "in": 233.96,
-      "out": 239.96,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 233.96,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        },
-        {
-          "t": 238.82,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "mercury-metal_54",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/mercury-metal.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
       },
       "z": 30,
       "in": 238.82,
@@ -2235,13 +1922,6 @@
       "frames": [
         {
           "t": 238.82,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 239.96,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -2250,13 +1930,13 @@
       ]
     },
     {
-      "id": "t55",
+      "id": "t50",
       "type": "text",
       "content": "un emperador murió buscando la inmortalidad",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 830,
         "w": 946,
         "h": 90
       },
@@ -2277,10 +1957,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 235.16,
+          "cx": 960,
+          "cy": 830,
+          "w": 946,
+          "h": 90
+        },
+        {
+          "t": 239.16,
+          "cx": 960,
+          "cy": 500,
+          "w": 946,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "photo-roman-ruins_56",
+      "id": "photo-roman-ruins_51",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-roman-ruins.jpg",
@@ -2331,7 +2027,7 @@
       ]
     },
     {
-      "id": "lead-pipe_57",
+      "id": "lead-pipe_52",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/lead-pipe.png",
@@ -2343,7 +2039,7 @@
       },
       "z": 30,
       "in": 249.26,
-      "out": 255.26,
+      "out": 256.76,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2368,7 +2064,7 @@
       ]
     },
     {
-      "id": "t58",
+      "id": "t53",
       "type": "text",
       "content": "los romanos lo tenían en todo",
       "fontSize": 34,
@@ -2398,10 +2094,10 @@
       }
     },
     {
-      "id": "lead-pipe_59",
+      "id": "roman-decline_54",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/lead-pipe.png",
+      "src": "assets/icons/roman-decline.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -2409,52 +2105,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 258.42,
-      "out": 264.42,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 258.42,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        },
-        {
-          "t": 264.36,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "roman-decline_60",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/roman-decline.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
       "in": 264.36,
-      "out": 266.6,
+      "out": 269.1,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2471,13 +2123,6 @@
       "frames": [
         {
           "t": 264.36,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 264.42,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -2486,13 +2131,13 @@
       ]
     },
     {
-      "id": "t61",
+      "id": "t55",
       "type": "text",
       "content": "quizá ayudó a hundir a Roma",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 830,
         "w": 609,
         "h": 90
       },
@@ -2513,10 +2158,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 260.5,
+          "cx": 960,
+          "cy": 830,
+          "w": 609,
+          "h": 90
+        },
+        {
+          "t": 264.5,
+          "cx": 960,
+          "cy": 500,
+          "w": 609,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "thallium_62",
+      "id": "thallium_56",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/thallium.png",
@@ -2528,7 +2189,7 @@
       },
       "z": 30,
       "in": 270.28,
-      "out": 276.28,
+      "out": 275.28,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2549,18 +2210,11 @@
           "cy": 560,
           "w": 470,
           "h": 470
-        },
-        {
-          "t": 275.44,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
         }
       ]
     },
     {
-      "id": "hair-loss_63",
+      "id": "hair-loss_57",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/hair-loss.png",
@@ -2572,7 +2226,7 @@
       },
       "z": 30,
       "in": 278.52,
-      "out": 284.52,
+      "out": 286.02,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2595,7 +2249,7 @@
           "h": 380
         },
         {
-          "t": 281.44,
+          "t": 280.44,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -2604,19 +2258,19 @@
       ]
     },
     {
-      "id": "tasteless_64",
+      "id": "tasteless_58",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/tasteless.png",
       "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
       },
       "z": 30,
       "in": 275.44,
-      "out": 281.44,
+      "out": 280.44,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2633,13 +2287,6 @@
       "frames": [
         {
           "t": 275.44,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 276.28,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -2655,7 +2302,7 @@
       ]
     },
     {
-      "id": "t65",
+      "id": "t59",
       "type": "text",
       "content": "el «veneno del envenenador»",
       "fontSize": 34,
@@ -2687,6 +2334,13 @@
         {
           "t": 266.6,
           "cx": 960,
+          "cy": 500,
+          "w": 609,
+          "h": 90
+        },
+        {
+          "t": 268.4,
+          "cx": 960,
           "cy": 830,
           "w": 609,
           "h": 90
@@ -2701,7 +2355,7 @@
       ]
     },
     {
-      "id": "clip-microscope_66",
+      "id": "clip-microscope_60",
       "type": "clip",
       "src": "assets/clips/clip-microscope.mp4",
       "frame": "rounded",
@@ -2713,7 +2367,7 @@
       },
       "z": 27,
       "in": 298.3,
-      "out": 305.9,
+      "out": 305.8,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -2748,7 +2402,7 @@
       ]
     },
     {
-      "id": "botulinum_67",
+      "id": "botulinum_61",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/botulinum.png",
@@ -2760,7 +2414,7 @@
       },
       "z": 30,
       "in": 304.38,
-      "out": 310.38,
+      "out": 309.38,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2781,18 +2435,11 @@
           "cy": 560,
           "w": 470,
           "h": 470
-        },
-        {
-          "t": 310.24,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
         }
       ]
     },
     {
-      "id": "t68",
+      "id": "t62",
       "type": "text",
       "content": "gramo a gramo, la más letal que existe",
       "fontSize": 34,
@@ -2822,19 +2469,19 @@
       }
     },
     {
-      "id": "botox-face_69",
+      "id": "botox-face_63",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/botox-face.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 520,
         "w": 500,
         "h": 500
       },
       "z": 26,
       "in": 305.9,
-      "out": 317.9,
+      "out": 322.9,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -2852,54 +2499,33 @@
         {
           "t": 305.9,
           "cx": 960,
-          "cy": 520,
+          "cy": 500,
           "w": 500,
           "h": 500
         },
         {
-          "t": 308.1,
-          "cx": 915,
-          "cy": 465,
-          "w": 410,
-          "h": 410
-        },
-        {
-          "t": 310.7,
-          "cx": 1000,
-          "cy": 485,
-          "w": 400,
-          "h": 400
-        },
-        {
-          "t": 313.3,
-          "cx": 935,
-          "cy": 450,
-          "w": 390,
-          "h": 390
-        },
-        {
-          "t": 315.9,
-          "cx": 990,
-          "cy": 475,
-          "w": 400,
-          "h": 400
+          "t": 317.7,
+          "cx": 960,
+          "cy": 520,
+          "w": 500,
+          "h": 500
         }
       ]
     },
     {
-      "id": "muscle-paralysis_70",
+      "id": "muscle-paralysis_64",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/muscle-paralysis.png",
       "box": {
-        "cx": 490,
+        "cx": 1600,
         "cy": 400,
-        "w": 200,
-        "h": 200
+        "w": 210,
+        "h": 210
       },
       "z": 30,
       "in": 310.24,
-      "out": 316.24,
+      "out": 315.24,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2916,13 +2542,6 @@
       "frames": [
         {
           "t": 310.24,
-          "cx": 490,
-          "cy": 400,
-          "w": 200,
-          "h": 200
-        },
-        {
-          "t": 310.38,
           "cx": 1600,
           "cy": 400,
           "w": 210,
@@ -2931,7 +2550,7 @@
       ]
     },
     {
-      "id": "t71",
+      "id": "t65",
       "type": "text",
       "content": "el veneno más mortal... usado por belleza",
       "fontSize": 34,
@@ -2961,7 +2580,7 @@
       }
     },
     {
-      "id": "clip-pufferfish_72",
+      "id": "clip-pufferfish_66",
       "type": "clip",
       "src": "assets/clips/clip-pufferfish.mp4",
       "frame": "rounded",
@@ -2973,7 +2592,7 @@
       },
       "z": 27,
       "in": 324.7,
-      "out": 333.2,
+      "out": 332.2,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -2982,26 +2601,10 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 324.7,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 329.7,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
-        }
-      ]
+      }
     },
     {
-      "id": "fugu-chef_73",
+      "id": "fugu-chef_67",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/fugu-chef.png",
@@ -3013,7 +2616,7 @@
       },
       "z": 30,
       "in": 337.26,
-      "out": 343.26,
+      "out": 342.26,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3038,7 +2641,7 @@
       ]
     },
     {
-      "id": "t74",
+      "id": "t68",
       "type": "text",
       "content": "el fugu: solo chefs con licencia",
       "fontSize": 34,
@@ -3068,7 +2671,7 @@
       }
     },
     {
-      "id": "clip-sushi_75",
+      "id": "clip-sushi_69",
       "type": "clip",
       "src": "assets/clips/clip-sushi.mp4",
       "frame": "rounded",
@@ -3080,7 +2683,7 @@
       },
       "z": 27,
       "in": 341.1,
-      "out": 349.6,
+      "out": 348.6,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3108,7 +2711,7 @@
       ]
     },
     {
-      "id": "conscious-paralysis_76",
+      "id": "conscious-paralysis_70",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/conscious-paralysis.png",
@@ -3120,7 +2723,7 @@
       },
       "z": 30,
       "in": 344.86,
-      "out": 350.12,
+      "out": 350.25,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3145,7 +2748,7 @@
       ]
     },
     {
-      "id": "t77",
+      "id": "t71",
       "type": "text",
       "content": "paraliza... estando despierto",
       "fontSize": 34,
@@ -3175,7 +2778,7 @@
       }
     },
     {
-      "id": "photo-lab_78",
+      "id": "photo-lab_72",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-lab.png",
@@ -3187,7 +2790,7 @@
       },
       "z": 24,
       "in": 350.12,
-      "out": 362.12,
+      "out": 364.62,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -3226,7 +2829,7 @@
       ]
     },
     {
-      "id": "ricin-bean_79",
+      "id": "ricin-bean_73",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/ricin-bean.png",
@@ -3238,7 +2841,7 @@
       },
       "z": 30,
       "in": 352.98,
-      "out": 358.98,
+      "out": 357.98,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3263,7 +2866,7 @@
       ]
     },
     {
-      "id": "t80",
+      "id": "t74",
       "type": "text",
       "content": "escondida en una semilla común",
       "fontSize": 34,
@@ -3293,7 +2896,7 @@
       }
     },
     {
-      "id": "umbrella-murder_81",
+      "id": "umbrella-murder_75",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/umbrella-murder.png",
@@ -3305,7 +2908,7 @@
       },
       "z": 30,
       "in": 366.78,
-      "out": 371.78,
+      "out": 374.28,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3326,55 +2929,11 @@
           "cy": 560,
           "w": 470,
           "h": 470
-        },
-        {
-          "t": 368.66,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
         }
       ]
     },
     {
-      "id": "ricin-bean_82",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/ricin-bean.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
-      "in": 368.66,
-      "out": 373.66,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 368.66,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "t83",
+      "id": "t76",
       "type": "text",
       "content": "asesinado con la punta de un paraguas",
       "fontSize": 34,
@@ -3420,7 +2979,7 @@
       ]
     },
     {
-      "id": "clip-radioactive_84",
+      "id": "clip-radioactive_77",
       "type": "clip",
       "src": "assets/clips/clip-radioactive.mp4",
       "frame": "rounded",
@@ -3432,7 +2991,7 @@
       },
       "z": 27,
       "in": 374.7,
-      "out": 383.2,
+      "out": 382.2,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3467,7 +3026,7 @@
       ]
     },
     {
-      "id": "polonium_85",
+      "id": "polonium_78",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/polonium.png",
@@ -3479,7 +3038,7 @@
       },
       "z": 30,
       "in": 377.76,
-      "out": 383.76,
+      "out": 385.26,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3504,7 +3063,7 @@
       ]
     },
     {
-      "id": "t86",
+      "id": "t79",
       "type": "text",
       "content": "un veneno hecho de radiación pura",
       "fontSize": 34,
@@ -3534,7 +3093,7 @@
       }
     },
     {
-      "id": "clip-tea_87",
+      "id": "clip-tea_80",
       "type": "clip",
       "src": "assets/clips/clip-tea.mp4",
       "frame": "rounded",
@@ -3574,7 +3133,7 @@
       ]
     },
     {
-      "id": "poisoned-tea_88",
+      "id": "poisoned-tea_81",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/poisoned-tea.png",
@@ -3586,7 +3145,7 @@
       },
       "z": 30,
       "in": 390.04,
-      "out": 396.04,
+      "out": 397.54,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3611,7 +3170,7 @@
       ]
     },
     {
-      "id": "t89",
+      "id": "t82",
       "type": "text",
       "content": "envenenado en una taza de té",
       "fontSize": 34,
@@ -3657,7 +3216,7 @@
       ]
     },
     {
-      "id": "clip-hazmat_90",
+      "id": "clip-hazmat_83",
       "type": "clip",
       "src": "assets/clips/clip-hazmat.mp4",
       "frame": "rounded",
@@ -3669,7 +3228,7 @@
       },
       "z": 27,
       "in": 400.4,
-      "out": 408.9,
+      "out": 407.9,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3704,7 +3263,7 @@
       ]
     },
     {
-      "id": "nerve-agent_91",
+      "id": "nerve-agent_84",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/nerve-agent.png",
@@ -3716,7 +3275,7 @@
       },
       "z": 30,
       "in": 403.68,
-      "out": 409.68,
+      "out": 411.18,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3741,7 +3300,7 @@
       ]
     },
     {
-      "id": "t92",
+      "id": "t85",
       "type": "text",
       "content": "sarín, novichok: parálisis en minutos",
       "fontSize": 34,
@@ -3778,7 +3337,7 @@
           "h": 90
         },
         {
-          "t": 408.96,
+          "t": 407.96,
           "cx": 960,
           "cy": 500,
           "w": 820,
@@ -3787,10 +3346,10 @@
       ]
     },
     {
-      "id": "nerve-agent_93",
+      "id": "banned-weapon_86",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/nerve-agent.png",
+      "src": "assets/icons/banned-weapon.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -3798,52 +3357,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 414.34,
-      "out": 420.34,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 414.34,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        },
-        {
-          "t": 415.26,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "banned-weapon_94",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/banned-weapon.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
       "in": 415.26,
-      "out": 421.26,
+      "out": 422.75,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3860,13 +3375,6 @@
       "frames": [
         {
           "t": 415.26,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 420.34,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -3875,13 +3383,13 @@
       ]
     },
     {
-      "id": "t95",
+      "id": "t87",
       "type": "text",
       "content": "prohibidos como armas químicas",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 830,
         "w": 672,
         "h": 90
       },
@@ -3902,10 +3410,26 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 415.26,
+          "cx": 960,
+          "cy": 830,
+          "w": 672,
+          "h": 90
+        },
+        {
+          "t": 415.51,
+          "cx": 960,
+          "cy": 500,
+          "w": 672,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "dose-makes-poison_96",
+      "id": "dose-makes-poison_88",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/dose-makes-poison.png",
@@ -3935,13 +3459,6 @@
         {
           "t": 422.68,
           "cx": 960,
-          "cy": 520,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 422.93,
-          "cx": 960,
           "cy": 500,
           "w": 500,
           "h": 500
@@ -3963,7 +3480,7 @@
       ]
     },
     {
-      "id": "medicine-or-poison_97",
+      "id": "medicine-or-poison_89",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/medicine-or-poison.png",
@@ -3975,7 +3492,7 @@
       },
       "z": 30,
       "in": 432.92,
-      "out": 438.92,
+      "out": 437.92,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -4000,7 +3517,7 @@
       ]
     },
     {
-      "id": "t98",
+      "id": "t90",
       "type": "text",
       "content": "la regla de oro: la dosis hace el veneno",
       "fontSize": 34,
@@ -4030,7 +3547,7 @@
       }
     },
     {
-      "id": "photo-lab_99",
+      "id": "photo-lab_91",
       "type": "image",
       "kind": "cutout",
       "src": "assets/icons/photo-lab.png",
@@ -4042,7 +3559,7 @@
       },
       "z": 24,
       "in": 436.6,
-      "out": 448.6,
+      "out": 449.25,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -4081,7 +3598,7 @@
       ]
     },
     {
-      "id": "water-overdose_100",
+      "id": "water-overdose_92",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/water-overdose.png",
@@ -4093,7 +3610,7 @@
       },
       "z": 30,
       "in": 442.42,
-      "out": 448.42,
+      "out": 447.42,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -4118,7 +3635,7 @@
       ]
     },
     {
-      "id": "medicine-or-poison_101",
+      "id": "medicine-or-poison_93",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/medicine-or-poison.png",
@@ -4130,7 +3647,7 @@
       },
       "z": 30,
       "in": 449.08,
-      "out": 455.08,
+      "out": 456.58,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -4155,7 +3672,7 @@
       ]
     },
     {
-      "id": "t102",
+      "id": "t94",
       "type": "text",
       "content": "hasta el agua mata en exceso",
       "fontSize": 34,
@@ -4185,10 +3702,10 @@
       }
     },
     {
-      "id": "medicine-or-poison_103",
+      "id": "dose-makes-poison_95",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/medicine-or-poison.png",
+      "src": "assets/icons/dose-makes-poison.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -4196,52 +3713,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 457.04,
-      "out": 463.04,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 457.04,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        },
-        {
-          "t": 459.86,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "dose-makes-poison_104",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/dose-makes-poison.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
       "in": 459.86,
-      "out": 465.86,
+      "out": 464.86,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -4258,41 +3731,27 @@
       "frames": [
         {
           "t": 459.86,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 463.04,
           "cx": 960,
           "cy": 560,
           "w": 470,
           "h": 470
-        },
-        {
-          "t": 464.92,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
         }
       ]
     },
     {
-      "id": "silent-poison_105",
+      "id": "silent-poison_96",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/silent-poison.png",
       "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
       },
       "z": 30,
       "in": 464.92,
-      "out": 470.92,
+      "out": 472.42,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -4309,13 +3768,6 @@
       "frames": [
         {
           "t": 464.92,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 465.86,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -4324,13 +3776,13 @@
       ]
     },
     {
-      "id": "t106",
+      "id": "t97",
       "type": "text",
       "content": "el mayor peligro casi nunca se ve",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 830,
         "w": 736,
         "h": 90
       },
@@ -4351,7 +3803,23 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 458.52,
+          "cx": 960,
+          "cy": 830,
+          "w": 736,
+          "h": 90
+        },
+        {
+          "t": 460.02,
+          "cx": 960,
+          "cy": 500,
+          "w": 736,
+          "h": 90
+        }
+      ]
     },
     {
       "id": "chapicon0",
@@ -5170,7 +4638,7 @@
       }
     },
     {
-      "id": "cov107",
+      "id": "cov98",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/silent-poison.png",
@@ -5210,7 +4678,7 @@
       "_autoIco": true
     },
     {
-      "id": "cov108",
+      "id": "cov99",
       "type": "image",
       "kind": "vector",
       "src": "assets/icons/silent-poison.png",
@@ -5221,18 +4689,346 @@
         "h": 460
       },
       "z": 28,
-      "in": 13,
+      "in": 14.4,
       "out": 17,
       "frames": [
         {
-          "t": 13,
+          "t": 14.4,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 15,
+          "t": 15.7,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov100",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/silent-poison.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 24.44,
+      "out": 26,
+      "frames": [
+        {
+          "t": 24.44,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 25.22,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov101",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/arsenic-king.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 48.68,
+      "out": 50.25,
+      "frames": [
+        {
+          "t": 48.68,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 49.46,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov102",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/cyanide-fast.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 77.62,
+      "out": 80,
+      "frames": [
+        {
+          "t": 77.62,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 78.81,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov103",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/hemlock-plant.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 105.52,
+      "out": 106,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov104",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/hemlock-plant.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 116.66,
+      "out": 118.75,
+      "frames": [
+        {
+          "t": 116.66,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 117.66,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov105",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/strychnine.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 158.82,
+      "out": 160.25,
+      "frames": [
+        {
+          "t": 158.82,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 159.53,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov106",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/aqua-tofana.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 169.92,
+      "out": 170.25,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov107",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/aqua-tofana.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 186.94,
+      "out": 188.75,
+      "frames": [
+        {
+          "t": 186.94,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 187.84,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov108",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/aqua-tofana.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 205.34,
+      "out": 213.75,
+      "frames": [
+        {
+          "t": 205.34,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 207.74,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5253,31 +5049,7 @@
       "id": "cov109",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/silent-poison.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 25.75,
-      "out": 26,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov110",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/arsenic-king.png",
+      "src": "assets/icons/mercury-metal.png",
       "box": {
         "cx": 960,
         "cy": 505,
@@ -5285,137 +5057,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 40.5,
-      "out": 41.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov111",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/arsenic-king.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 56.25,
-      "out": 57,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov112",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/arsenic-king.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 63,
-      "out": 63.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov113",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/cyanide-fast.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 75.25,
-      "out": 80,
+      "in": 234.48,
+      "out": 239,
       "frames": [
         {
-          "t": 75.25,
+          "t": 234.48,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 78.5,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 78.8,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov114",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/hemlock-plant.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 103.25,
-      "out": 106,
-      "frames": [
-        {
-          "t": 103.25,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 104.63,
+          "t": 236.74,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5433,10 +5086,90 @@
       "_autoIco": true
     },
     {
-      "id": "cov115",
+      "id": "cov110",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/strychnine.png",
+      "src": "assets/icons/lead-pipe.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 256.76,
+      "out": 264.5,
+      "frames": [
+        {
+          "t": 256.76,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 259.81,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov111",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/thallium.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 269.1,
+      "out": 270.5,
+      "frames": [
+        {
+          "t": 269.1,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 269.8,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov112",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/thallium.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5444,18 +5177,138 @@
         "h": 460
       },
       "z": 28,
-      "in": 157.5,
-      "out": 160.25,
+      "in": 286.02,
+      "out": 298.5,
       "frames": [
         {
-          "t": 157.5,
+          "t": 286.02,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 158.88,
+          "t": 288.42,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov113",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/botulinum.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 320.4,
+      "out": 324.75,
+      "frames": [
+        {
+          "t": 320.4,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 322.57,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov114",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/botulinum.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 322.9,
+      "out": 337.5,
+      "frames": [
+        {
+          "t": 322.9,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 332.4,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov115",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/ricin-bean.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 364.62,
+      "out": 367,
+      "frames": [
+        {
+          "t": 364.62,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 365.81,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5476,32 +5329,16 @@
       "id": "cov116",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/aqua-tofana.png",
+      "src": "assets/icons/polonium.png",
       "box": {
         "cx": 960,
-        "cy": 505,
+        "cy": 500,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 167.5,
-      "out": 170.25,
-      "frames": [
-        {
-          "t": 167.5,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 168.88,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
+      "in": 374.28,
+      "out": 374.75,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5516,7 +5353,7 @@
       "id": "cov117",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/aqua-tofana.png",
+      "src": "assets/icons/polonium.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5524,18 +5361,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 185.5,
-      "out": 188.75,
+      "in": 385.26,
+      "out": 390.25,
       "frames": [
         {
-          "t": 185.5,
+          "t": 385.26,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 187.13,
+          "t": 387.66,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5556,26 +5393,26 @@
       "id": "cov118",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/aqua-tofana.png",
+      "src": "assets/icons/nerve-agent.png",
       "box": {
         "cx": 960,
-        "cy": 505,
+        "cy": 500,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 196.75,
-      "out": 198,
+      "in": 397.54,
+      "out": 400.5,
       "frames": [
         {
-          "t": 196.75,
+          "t": 397.54,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 197.38,
+          "t": 399.02,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5596,30 +5433,30 @@
       "id": "cov119",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/aqua-tofana.png",
+      "src": "assets/icons/nerve-agent.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 204,
-      "out": 212,
+      "in": 411.18,
+      "out": 415.5,
       "frames": [
         {
-          "t": 204,
+          "t": 411.18,
           "cx": 960,
-          "cy": 505,
+          "cy": 500,
           "w": 460,
           "h": 460
         },
         {
-          "t": 206.4,
+          "t": 414.73,
           "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "cy": 505,
+          "w": 460,
+          "h": 460
         }
       ],
       "enter": {
@@ -5636,30 +5473,30 @@
       "id": "cov120",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/aqua-tofana.png",
+      "src": "assets/icons/dose-makes-poison.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 212,
-      "out": 213.75,
+      "in": 456.58,
+      "out": 460,
       "frames": [
         {
-          "t": 212,
+          "t": 456.58,
           "cx": 960,
-          "cy": 505,
+          "cy": 500,
           "w": 460,
           "h": 460
         },
         {
-          "t": 212.88,
+          "t": 457.88,
           "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "cy": 505,
+          "w": 460,
+          "h": 460
         }
       ],
       "enter": {
@@ -5676,518 +5513,6 @@
       "id": "cov121",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/mercury-metal.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 226.25,
-      "out": 227,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov122",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/mercury-metal.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 233,
-      "out": 234,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov123",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/lead-pipe.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 255.5,
-      "out": 258.5,
-      "frames": [
-        {
-          "t": 255.5,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 257,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov124",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/thallium.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 266.75,
-      "out": 270.5,
-      "frames": [
-        {
-          "t": 266.75,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 268.63,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov125",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/thallium.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 284.75,
-      "out": 292.75,
-      "frames": [
-        {
-          "t": 284.75,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 287.15,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov126",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/thallium.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 292.75,
-      "out": 298.5,
-      "frames": [
-        {
-          "t": 292.75,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 295.15,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov127",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/botulinum.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 318,
-      "out": 324.75,
-      "frames": [
-        {
-          "t": 318,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 323.5,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov128",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/pufferfish.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 333.25,
-      "out": 337.5,
-      "frames": [
-        {
-          "t": 333.25,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 335.38,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov129",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/ricin-bean.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 362.25,
-      "out": 367,
-      "frames": [
-        {
-          "t": 362.25,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 364.55,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov130",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/polonium.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 373.75,
-      "out": 374.75,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov131",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/polonium.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 384,
-      "out": 390.25,
-      "frames": [
-        {
-          "t": 384,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 386.4,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov132",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/nerve-agent.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 396.75,
-      "out": 400.5,
-      "frames": [
-        {
-          "t": 396.75,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 398.63,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov133",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/nerve-agent.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 409.75,
-      "out": 414.5,
-      "frames": [
-        {
-          "t": 409.75,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 410,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov134",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/nerve-agent.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 421.5,
-      "out": 422.75,
-      "frames": [
-        {
-          "t": 421.5,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 422.13,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov135",
-      "type": "image",
-      "kind": "vector",
       "src": "assets/icons/dose-makes-poison.png",
       "box": {
         "cx": 960,
@@ -6196,162 +5521,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 448.75,
-      "out": 449.25,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov136",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/dose-makes-poison.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 455.25,
-      "out": 457.25,
-      "frames": [
-        {
-          "t": 455.25,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 456.25,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov137",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/dose-makes-poison.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 471,
-      "out": 479,
-      "frames": [
-        {
-          "t": 471,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 473.4,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov138",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/dose-makes-poison.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 479,
-      "out": 487,
-      "frames": [
-        {
-          "t": 479,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 481.4,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov139",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/dose-makes-poison.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 487,
+      "in": 472.42,
       "out": 490.5,
       "frames": [
         {
-          "t": 487,
+          "t": 472.42,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 488.75,
+          "t": 474.82,
           "cx": 960,
           "cy": 475,
           "w": 410,
