@@ -170,10 +170,13 @@ for (const b of beats) {
       else sz = type === "GIF" ? 360 : (anchBig ? 460 : (/^g\d/.test(anc) ? 200 : 300));
       const keep = /\bKEEP\b/.test(rest);
       const hold = /\bHOLD\b/.test(rest); // persiste hasta el fin de sección (se resuelve en el bloque de lienzo)
-      const isHero = sizeTok === "hero" || sizeTok === "big"; // pieza hero: grande, posición fija, NO se acumula
       // tipo REAL del asset: si es foto/cutout/captura, se trata como FOTO (marco + sombra); si no, doodle vector
       const akind = assets[id]?.kind || "";
       const isPhotoAsset = /photo|cutout|screenshot|archive/.test(akind);
+      // pieza hero: grande, posición fija, NO se acumula. SOLO fotos/clips reales pueden ser hero;
+      //   los DOODLES vector SIEMPRE se acumulan en rejilla simétrica (slot), aunque el guion ponga hero/big.
+      //   (Evita el doodle gigante 12s estático y que los demás iconos se destierren a los márgenes.)
+      const isHero = (sizeTok === "hero" || sizeTok === "big") && isPhotoAsset;
       const kind = type === "GIF" ? "meme" : (isPhotoAsset ? "cutout" : "vector");
       const psz = isPhotoAsset ? (sizeTok === "hero" ? 520 : sizeTok === "big" ? 460 : Math.round(sz * 1.25)) : sz; // fotos algo más grandes
       // ~palabra: el icono ENTRA justo cuando se dice esa palabra (sincronía, como el texto). Si no, tiempo del beat.
@@ -353,7 +356,7 @@ for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" &
     //    capítulo una y otra vez (lo que causaba el "aparece → desaparece → reaparece" y la repetición).
     let bridged = t, prev = null;
     for (const e of elements) { if (e.structural || e.type !== "image" || !e.box || e._keep || e._autoIco) continue; if (e.out <= t + 1e-6 && (!prev || e.out > prev.out)) prev = e; }
-    if (prev) { const newOut = Math.min(e2, +(prev.out + BRIDGE_MAX).toFixed(2)); if (newOut > prev.out) { prev.out = newOut; bridged = newOut; } }
+    if (prev) { const newOut = Math.min(e2, +(prev.out + BRIDGE_MAX).toFixed(2), +(prev.in + 7.0).toFixed(2)); if (newOut > prev.out) { prev.out = newOut; bridged = newOut; } } // tope DURO: ningún doodle en pantalla > 7s (aunque se use para varios microhuecos)
     // 2) Si aún queda hueco, un ÚNICO relleno con el icono del capítulo (una sola entrada/salida, con leve deriva).
     if (e2 - bridged > 0.3) {
       const ch = chAt(bridged), src = (ch && ch.icon && assetFile(ch.icon)) || epFallback;

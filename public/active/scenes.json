@@ -3,9 +3,9 @@
     "fps": 30,
     "width": 1920,
     "height": 1080,
-    "duration": 490.54,
+    "duration": 486.4,
     "audio": "active/audio.mp3",
-    "title": "Cada Red Social Explicada (Cómo Te Enganchan)",
+    "title": "Cada Droga y Qué le Hace a tu Cerebro",
     "profile": "color-pop",
     "storyboard": true,
     "declaredMissing": []
@@ -24,17 +24,17 @@
       "opacity": 0.5,
       "z": 5,
       "in": 0,
-      "out": 490.54,
+      "out": 486.40000000000003,
       "enter": {
         "kind": "fade-in",
         "duration": 0.5
       }
     },
     {
-      "id": "clip-phone-scroll_0",
+      "id": "clip-brain_0",
       "type": "clip",
-      "src": "assets/clips/clip-phone-scroll.mp4",
-      "frame": "phone",
+      "src": "assets/clips/clip-brain.mp4",
+      "frame": "rounded",
       "box": {
         "cx": 960,
         "cy": 520,
@@ -42,8 +42,8 @@
         "h": 551
       },
       "z": 27,
-      "in": 0.74,
-      "out": 8.24,
+      "in": 0.38,
+      "out": 1,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -52,45 +52,22 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 0.74,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 5.24,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 7.04,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        }
-      ]
+      }
     },
     {
-      "id": "you-are-product_1",
+      "id": "brain-hijack_1",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/you-are-product.png",
+      "src": "assets/icons/brain-hijack.png",
       "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
       },
       "z": 30,
-      "in": 0.24,
-      "out": 7.74,
+      "in": 0.95,
+      "out": 5.95,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -106,18 +83,32 @@
       },
       "frames": [
         {
-          "t": 0.24,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
+          "t": 0.95,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 2.82,
+          "cx": 610,
+          "cy": 723,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 5.22,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
         }
       ]
     },
     {
       "id": "t2",
       "type": "text",
-      "content": "si es gratis, el producto eres TÚ",
+      "content": "todas secuestran el mismo sistema",
       "fontSize": 34,
       "box": {
         "cx": 960,
@@ -128,7 +119,7 @@
       "color": "#EE2B37",
       "z": 60,
       "in": 0,
-      "out": 5,
+      "out": 1,
       "_syncT": 0,
       "_keep": false,
       "_hold": false,
@@ -145,10 +136,10 @@
       }
     },
     {
-      "id": "social-network_3",
+      "id": "reward-system_3",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/social-network.png",
+      "src": "assets/icons/reward-system.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -156,8 +147,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 18.12,
-      "out": 23.12,
+      "in": 0.22,
+      "out": 5.22,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -173,35 +164,42 @@
       },
       "frames": [
         {
-          "t": 18.12,
+          "t": 0.22,
           "cx": 960,
           "cy": 560,
           "w": 470,
           "h": 470
         },
         {
-          "t": 23.04,
+          "t": 0.95,
           "cx": 610,
           "cy": 540,
           "w": 380,
           "h": 380
+        },
+        {
+          "t": 2.82,
+          "cx": 960,
+          "cy": 410,
+          "w": 300,
+          "h": 300
         }
       ]
     },
     {
-      "id": "dopamine-hit_4",
+      "id": "dopamine-flood_4",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/dopamine-hit.png",
+      "src": "assets/icons/dopamine-flood.png",
       "box": {
         "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
+        "cy": 736,
+        "w": 300,
+        "h": 300
       },
       "z": 30,
-      "in": 23.04,
-      "out": 28.04,
+      "in": 2.82,
+      "out": 9.82,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -217,65 +215,21 @@
       },
       "frames": [
         {
-          "t": 23.04,
+          "t": 2.82,
+          "cx": 1310,
+          "cy": 736,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 5.22,
           "cx": 1310,
           "cy": 553,
           "w": 380,
           "h": 380
         },
         {
-          "t": 23.12,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        },
-        {
-          "t": 25.04,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "slot-machine-phone_5",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/slot-machine-phone.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
-      "in": 25.04,
-      "out": 31.5,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 25.04,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 28.04,
+          "t": 5.95,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -284,21 +238,21 @@
       ]
     },
     {
-      "id": "t6",
+      "id": "t5",
       "type": "text",
-      "content": "los trucos para engancharte",
+      "content": "el sistema de recompensa",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 609,
+        "w": 546,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 22.48,
-      "out": 27.48,
-      "_syncT": 22.48,
+      "in": 4.32,
+      "out": 9.32,
+      "_syncT": 4.32,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -314,63 +268,19 @@
       }
     },
     {
-      "id": "photo-eye_7",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-eye.jpg",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
-      },
-      "z": 24,
-      "in": 31.32,
-      "out": 43.32,
-      "auto": true,
-      "_keep": false,
-      "_accum": false,
-      "_hero": true,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 31.32,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 38.87,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        }
-      ]
-    },
-    {
-      "id": "attention-economy_8",
+      "id": "dopamine_6",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/attention-economy.png",
+      "src": "assets/icons/dopamine.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
       },
       "z": 30,
-      "in": 41.34,
-      "out": 48,
+      "in": 33.98,
+      "out": 38.98,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -386,7 +296,192 @@
       },
       "frames": [
         {
-          "t": 41.34,
+          "t": 33.98,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 38.22,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "natural-reward_7",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/natural-reward.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 38.22,
+      "out": 45.22,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 38.22,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 38.98,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t8",
+      "type": "text",
+      "content": "dopamina: «esto importa, repítelo»",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 757,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 33.98,
+      "out": 38.98,
+      "_syncT": 33.98,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 33.98,
+          "cx": 960,
+          "cy": 830,
+          "w": 757,
+          "h": 90
+        },
+        {
+          "t": 34.23,
+          "cx": 960,
+          "cy": 500,
+          "w": 757,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "photo-molecule_9",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo-molecule.png",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 460,
+        "h": 460
+      },
+      "z": 24,
+      "in": 45.96,
+      "out": 57.96,
+      "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 45.96,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 46.21,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 52.76,
+          "cx": 960,
+          "cy": 520,
+          "w": 460,
+          "h": 460
+        }
+      ]
+    },
+    {
+      "id": "dopamine-flood_10",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/dopamine-flood.png",
+      "box": {
+        "cx": 1600,
+        "cy": 400,
+        "w": 210,
+        "h": 210
+      },
+      "z": 30,
+      "in": 54.64,
+      "out": 61.64,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 54.64,
           "cx": 1600,
           "cy": 400,
           "w": 210,
@@ -395,227 +490,9 @@
       ]
     },
     {
-      "id": "t9",
+      "id": "t11",
       "type": "text",
-      "content": "tu atención es lo que venden",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 630,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 39.48,
-      "out": 44.48,
-      "_syncT": 39.48,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 39.48,
-          "cx": 960,
-          "cy": 830,
-          "w": 630,
-          "h": 90
-        },
-        {
-          "t": 43.48,
-          "cx": 960,
-          "cy": 500,
-          "w": 630,
-          "h": 90
-        }
-      ]
-    },
-    {
-      "id": "photo-brain_10",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-brain.jpg",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
-      },
-      "z": 24,
-      "in": 47.82,
-      "out": 62.32,
-      "auto": true,
-      "_keep": false,
-      "_accum": false,
-      "_hero": true,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 47.82,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 53.32,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        }
-      ]
-    },
-    {
-      "id": "dopamine-hit_11",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/dopamine-hit.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 62.7,
-      "out": 66.5,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 62.7,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t12",
-      "type": "text",
-      "content": "su objetivo: que no sueltes el móvil",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 799,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 48.22,
-      "out": 53.22,
-      "_syncT": 48.22,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "clip-phone-hand_13",
-      "type": "clip",
-      "src": "assets/clips/clip-phone-hand.mp4",
-      "frame": "phone",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 980,
-        "h": 551
-      },
-      "z": 27,
-      "in": 63.96,
-      "out": 71.46,
-      "auto": true,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "variable-reward_14",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/variable-reward.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 78.24,
-      "out": 83.24,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 78.24,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t15",
-      "type": "text",
-      "content": "cada like: un chute de dopamina",
+      "content": "las drogas: una descarga ENORME",
       "fontSize": 34,
       "box": {
         "cx": 960,
@@ -623,19 +500,19 @@
         "w": 693,
         "h": 90
       },
-      "color": "#111111",
+      "color": "#EE2B37",
       "z": 60,
-      "in": 63.74,
-      "out": 68.74,
-      "_syncT": 63.74,
+      "in": 53.38,
+      "out": 58.38,
+      "_syncT": 53.38,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
       "structural": false,
       "hud": false,
       "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
+        "kind": "stamp",
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -643,24 +520,20 @@
       }
     },
     {
-      "id": "slot-machine-phone_16",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/slot-machine-phone.png",
+      "id": "clip-alcohol_12",
+      "type": "clip",
+      "src": "assets/clips/clip-alcohol.mp4",
+      "frame": "rounded",
       "box": {
         "cx": 960,
         "cy": 520,
-        "w": 500,
-        "h": 500
+        "w": 980,
+        "h": 551
       },
-      "z": 26,
-      "in": 79.64,
-      "out": 94.14,
+      "z": 27,
+      "in": 65.68,
+      "out": 73.18,
       "auto": true,
-      "_keep": false,
-      "_accum": false,
-      "_hero": true,
-      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -671,42 +544,49 @@
       },
       "frames": [
         {
-          "t": 79.64,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 84.69,
+          "t": 65.68,
           "cx": 960,
           "cy": 520,
-          "w": 500,
-          "h": 500
+          "w": 980,
+          "h": 551
         },
         {
-          "t": 90.39,
+          "t": 65.93,
           "cx": 960,
           "cy": 500,
-          "w": 500,
-          "h": 500
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 66.48,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 72.18,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
         }
       ]
     },
     {
-      "id": "pull-to-refresh_17",
+      "id": "gaba-brake_13",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/pull-to-refresh.png",
+      "src": "assets/icons/gaba-brake.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
       },
       "z": 30,
-      "in": 84.04,
-      "out": 89.04,
+      "in": 73.78,
+      "out": 78.78,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -722,29 +602,240 @@
       },
       "frames": [
         {
-          "t": 84.04,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "t": 73.78,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 77.78,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 78.44,
+          "cx": 960,
+          "cy": 410,
+          "w": 300,
+          "h": 300
+        }
+      ]
+    },
+    {
+      "id": "t14",
+      "type": "text",
+      "content": "un depresor: frena el cerebro",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 651,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 67.14,
+      "out": 72.14,
+      "_syncT": 67.14,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "alcohol-depressant_15",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/alcohol-depressant.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 77.78,
+      "out": 82.78,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 77.78,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 78.44,
+          "cx": 610,
+          "cy": 723,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 78.78,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 80.04,
+          "cx": 960,
+          "cy": 410,
+          "w": 300,
+          "h": 300
+        }
+      ]
+    },
+    {
+      "id": "liver-damage_16",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/liver-damage.png",
+      "box": {
+        "cx": 1310,
+        "cy": 736,
+        "w": 300,
+        "h": 300
+      },
+      "z": 30,
+      "in": 78.44,
+      "out": 83.44,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 78.44,
+          "cx": 1310,
+          "cy": 736,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 78.78,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 80.04,
+          "cx": 610,
+          "cy": 723,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 82.78,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "brain-shrink_17",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/brain-shrink.png",
+      "box": {
+        "cx": 1310,
+        "cy": 736,
+        "w": 300,
+        "h": 300
+      },
+      "z": 30,
+      "in": 80.04,
+      "out": 87.04,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 80.04,
+          "cx": 1310,
+          "cy": 736,
+          "w": 300,
+          "h": 300
+        },
+        {
+          "t": 82.78,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 83.44,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
         }
       ]
     },
     {
       "id": "t18",
       "type": "text",
-      "content": "deslizar para refrescar = tirar de la palanca",
+      "content": "daña el hígado y encoge el cerebro",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
-        "w": 989,
+        "cy": 500,
+        "w": 757,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 85.24,
-      "out": 90.24,
+      "in": 79.44,
+      "out": 84.44,
       "_syncT": null,
       "_keep": false,
       "_hold": false,
@@ -761,10 +852,117 @@
       }
     },
     {
-      "id": "photo-phone_19",
+      "id": "clip-cigarette_19",
+      "type": "clip",
+      "src": "assets/clips/clip-cigarette.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 101.26,
+      "out": 108.76,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 101.26,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 107.06,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "fast-addiction_20",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/fast-addiction.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 100.52,
+      "out": 107.52,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 100.52,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t21",
+      "type": "text",
+      "content": "al cerebro en 10 segundos",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 567,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 109.68,
+      "out": 111.24,
+      "_syncT": 109.68,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "photo-cigarette_22",
       "type": "image",
       "kind": "cutout",
-      "src": "assets/icons/photo-phone.jpg",
+      "src": "assets/icons/photo-cigarette.jpg",
       "box": {
         "cx": 960,
         "cy": 520,
@@ -772,8 +970,8 @@
         "h": 460
       },
       "z": 24,
-      "in": 103.88,
-      "out": 115.88,
+      "in": 111.24,
+      "out": 123.24,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -789,163 +987,40 @@
       },
       "frames": [
         {
-          "t": 103.88,
+          "t": 111.24,
           "cx": 960,
           "cy": 520,
           "w": 460,
           "h": 460
         },
         {
-          "t": 104.13,
+          "t": 111.49,
           "cx": 960,
           "cy": 500,
           "w": 460,
           "h": 460
         },
         {
-          "t": 112.93,
+          "t": 115.54,
           "cx": 960,
           "cy": 520,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 121.24,
+          "cx": 960,
+          "cy": 500,
           "w": 460,
           "h": 460
         }
       ]
     },
     {
-      "id": "infinite-scroll_20",
+      "id": "withdrawal_23",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/infinite-scroll.png",
-      "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
-      },
-      "z": 30,
-      "in": 111.66,
-      "out": 118.5,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 111.66,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
-        }
-      ]
-    },
-    {
-      "id": "t21",
-      "type": "text",
-      "content": "sin final, tu cerebro no sabe parar",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 778,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 113.52,
-      "out": 118.52,
-      "_syncT": 113.52,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 113.52,
-          "cx": 960,
-          "cy": 830,
-          "w": 778,
-          "h": 90
-        },
-        {
-          "t": 116.02,
-          "cx": 960,
-          "cy": 500,
-          "w": 778,
-          "h": 90
-        }
-      ]
-    },
-    {
-      "id": "clip-social-apps_22",
-      "type": "clip",
-      "src": "assets/clips/clip-social-apps.mp4",
-      "frame": "rounded",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 980,
-        "h": 551
-      },
-      "z": 27,
-      "in": 118.28,
-      "out": 125.78,
-      "auto": true,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 118.28,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 118.53,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 123.08,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        }
-      ]
-    },
-    {
-      "id": "red-notification_23",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/red-notification.png",
+      "src": "assets/icons/withdrawal.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -953,8 +1028,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 120.22,
-      "out": 127.72,
+      "in": 124.76,
+      "out": 131.76,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -970,7 +1045,7 @@
       },
       "frames": [
         {
-          "t": 120.22,
+          "t": 124.76,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -979,57 +1054,20 @@
       ]
     },
     {
-      "id": "fomo_24",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/fomo.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 128.66,
-      "out": 138.66,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 128.66,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t25",
+      "id": "t24",
       "type": "text",
-      "content": "puntos rojos + miedo a perderte algo",
+      "content": "enganchas por evitar el mono",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 799,
+        "w": 630,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 123.76,
-      "out": 128.76,
+      "in": 116.24,
+      "out": 121.24,
       "_syncT": null,
       "_keep": false,
       "_hold": false,
@@ -1043,35 +1081,12 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 123.76,
-          "cx": 960,
-          "cy": 830,
-          "w": 799,
-          "h": 90
-        },
-        {
-          "t": 126.01,
-          "cx": 960,
-          "cy": 500,
-          "w": 799,
-          "h": 90
-        },
-        {
-          "t": 127.06,
-          "cx": 960,
-          "cy": 830,
-          "w": 799,
-          "h": 90
-        }
-      ]
+      }
     },
     {
-      "id": "clip-laptop_26",
+      "id": "clip-coffee_25",
       "type": "clip",
-      "src": "assets/clips/clip-laptop.mp4",
+      "src": "assets/clips/clip-coffee.mp4",
       "frame": "rounded",
       "box": {
         "cx": 960,
@@ -1080,8 +1095,8 @@
         "h": 551
       },
       "z": 27,
-      "in": 139.4,
-      "out": 146.9,
+      "in": 128.98,
+      "out": 136.48,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -1090,13 +1105,29 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 128.98,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 131.28,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        }
+      ]
     },
     {
-      "id": "news-feed_27",
+      "id": "adenosine-block_26",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/news-feed.png",
+      "src": "assets/icons/adenosine-block.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -1104,8 +1135,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 148.02,
-      "out": 155.5,
+      "in": 137.68,
+      "out": 144.68,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1121,7 +1152,7 @@
       },
       "frames": [
         {
-          "t": 148.02,
+          "t": 137.68,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -1130,21 +1161,21 @@
       ]
     },
     {
-      "id": "t28",
+      "id": "t27",
       "type": "text",
-      "content": "Facebook: el muro y el botón azul",
+      "content": "bloquea la señal de sueño",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 736,
+        "w": 567,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 139.4,
-      "out": 144.4,
-      "_syncT": 139.4,
+      "in": 132.16,
+      "out": 137.16,
+      "_syncT": null,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -1160,10 +1191,10 @@
       }
     },
     {
-      "id": "data-harvest_29",
+      "id": "sleep-crash_28",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/data-harvest.png",
+      "src": "assets/icons/sleep-crash.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -1171,8 +1202,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 155.44,
-      "out": 160.44,
+      "in": 154.24,
+      "out": 158.8,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1188,86 +1219,114 @@
       },
       "frames": [
         {
-          "t": 155.44,
+          "t": 154.24,
           "cx": 960,
           "cy": 560,
           "w": 470,
           "h": 470
-        },
-        {
-          "t": 156.6,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
         }
       ]
     },
     {
-      "id": "targeted-ad_30",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/targeted-ad.png",
+      "id": "t29",
+      "type": "text",
+      "content": "cuando pasa: el sueño te cae de golpe",
+      "fontSize": 34,
       "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 830,
+        "w": 820,
+        "h": 90
       },
-      "z": 30,
-      "in": 156.6,
-      "out": 161.6,
-      "auto": true,
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 152.76,
+      "out": 155.98,
+      "_syncT": 152.76,
       "_keep": false,
-      "_accum": true,
-      "_hero": false,
       "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
       "enter": {
-        "kind": "pop",
-        "duration": 0.4
+        "kind": "stamp",
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
-        "duration": 0.3
+        "duration": 0.25
       },
       "frames": [
         {
-          "t": 156.6,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 160.44,
+          "t": 152.76,
           "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
+          "cy": 830,
+          "w": 820,
+          "h": 90
         },
         {
-          "t": 161.5,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
+          "t": 154.26,
+          "cx": 960,
+          "cy": 500,
+          "w": 820,
+          "h": 90
         }
       ]
     },
     {
-      "id": "social-network_31",
+      "id": "clip-cannabis_30",
+      "type": "clip",
+      "src": "assets/clips/clip-cannabis.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 158.94,
+      "out": 166.44,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 158.94,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 163.94,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "cannabinoid-receptor_31",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/social-network.png",
+      "src": "assets/icons/cannabinoid-receptor.png",
       "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
       },
       "z": 30,
-      "in": 161.5,
-      "out": 166.24,
+      "in": 164.08,
+      "out": 171.08,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1283,14 +1342,7 @@
       },
       "frames": [
         {
-          "t": 161.5,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 161.6,
+          "t": 164.08,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -1301,133 +1353,19 @@
     {
       "id": "t32",
       "type": "text",
-      "content": "lo sabe TODO de ti",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 419,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 152.9,
-      "out": 157.9,
-      "_syncT": 152.9,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "clip-selfie_33",
-      "type": "clip",
-      "src": "assets/clips/clip-selfie.mp4",
-      "frame": "rounded",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 980,
-        "h": 551
-      },
-      "z": 27,
-      "in": 165.46,
-      "out": 172.96,
-      "auto": true,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 165.46,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 165.76,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 171.46,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
-        }
-      ]
-    },
-    {
-      "id": "photo-grid_34",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/photo-grid.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 169.2,
-      "out": 176.7,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 169.2,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t35",
-      "type": "text",
-      "content": "Instagram vive de la comparación",
+      "content": "el THC encaja en tus receptores",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 715,
+        "w": 693,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 166.24,
-      "out": 171.24,
-      "_syncT": 166.24,
+      "in": 158.8,
+      "out": 163.8,
+      "_syncT": 158.8,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -1443,191 +1381,10 @@
       }
     },
     {
-      "id": "clip-influencer_36",
-      "type": "clip",
-      "src": "assets/clips/clip-influencer.mp4",
-      "frame": "rounded",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 980,
-        "h": 551
-      },
-      "z": 27,
-      "in": 179.66,
-      "out": 187.16,
-      "auto": true,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 179.66,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 179.91,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 182.96,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        }
-      ]
-    },
-    {
-      "id": "comparison-envy_37",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/comparison-envy.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 183.9,
-      "out": 188.9,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 183.9,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        },
-        {
-          "t": 184.84,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "filters-fake_38",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/filters-fake.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
-      "in": 184.84,
-      "out": 192.34,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 184.84,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 188.9,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t39",
-      "type": "text",
-      "content": "vidas perfectas = filtros y mentira",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 778,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 183.66,
-      "out": 188.66,
-      "_syncT": null,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 183.66,
-          "cx": 960,
-          "cy": 830,
-          "w": 778,
-          "h": 90
-        },
-        {
-          "t": 187.16,
-          "cx": 960,
-          "cy": 500,
-          "w": 778,
-          "h": 90
-        }
-      ]
-    },
-    {
-      "id": "photo-laptop_40",
+      "id": "photo-cannabis_33",
       "type": "image",
       "kind": "cutout",
-      "src": "assets/icons/photo-laptop.jpg",
+      "src": "assets/icons/photo-cannabis.jpg",
       "box": {
         "cx": 960,
         "cy": 520,
@@ -1635,8 +1392,8 @@
         "h": 460
       },
       "z": 24,
-      "in": 194.86,
-      "out": 206.86,
+      "in": 171.76,
+      "out": 183.76,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -1652,21 +1409,21 @@
       },
       "frames": [
         {
-          "t": 194.86,
+          "t": 171.76,
           "cx": 960,
           "cy": 520,
           "w": 460,
           "h": 460
         },
         {
-          "t": 195.11,
+          "t": 172.01,
           "cx": 960,
           "cy": 500,
           "w": 460,
           "h": 460
         },
         {
-          "t": 201.91,
+          "t": 178.81,
           "cx": 960,
           "cy": 520,
           "w": 460,
@@ -1675,10 +1432,10 @@
       ]
     },
     {
-      "id": "recommendation-algo_41",
+      "id": "memory-loss_34",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/recommendation-algo.png",
+      "src": "assets/icons/memory-loss.png",
       "box": {
         "cx": 1600,
         "cy": 400,
@@ -1686,8 +1443,8 @@
         "h": 210
       },
       "z": 30,
-      "in": 202.68,
-      "out": 210.18,
+      "in": 175.56,
+      "out": 180.56,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1703,7 +1460,7 @@
       },
       "frames": [
         {
-          "t": 202.68,
+          "t": 175.56,
           "cx": 1600,
           "cy": 400,
           "w": 210,
@@ -1712,10 +1469,40 @@
       ]
     },
     {
-      "id": "autoplay_42",
+      "id": "t35",
+      "type": "text",
+      "content": "afecta memoria y concentración",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 672,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 179.42,
+      "out": 184.42,
+      "_syncT": 179.42,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "cocaine-block_36",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/autoplay.png",
+      "src": "assets/icons/cocaine-block.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -1723,8 +1510,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 210.26,
-      "out": 215.26,
+      "in": 193.08,
+      "out": 200.08,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1740,14 +1527,294 @@
       },
       "frames": [
         {
-          "t": 210.26,
+          "t": 193.08,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "dopamine-flood_37",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/dopamine-flood.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 205.46,
+      "out": 210.75,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 205.46,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t38",
+      "type": "text",
+      "content": "bloquea el reciclaje de dopamina",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 715,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 202.6,
+      "out": 207.6,
+      "_syncT": 202.6,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 202.6,
+          "cx": 960,
+          "cy": 830,
+          "w": 715,
+          "h": 90
+        },
+        {
+          "t": 205.6,
+          "cx": 960,
+          "cy": 500,
+          "w": 715,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "clip-heartbeat_39",
+      "type": "clip",
+      "src": "assets/clips/clip-heartbeat.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 210.7,
+      "out": 218.2,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 210.7,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 214.95,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "dopamine-crash_40",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/dopamine-crash.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 215.7,
+      "out": 222.7,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 215.7,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "heart-attack_41",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/heart-attack.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 222.56,
+      "out": 229.56,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 222.56,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t42",
+      "type": "text",
+      "content": "el bajón... y riesgo de infarto",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 693,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 209.78,
+      "out": 214.78,
+      "_syncT": 209.78,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 209.78,
+          "cx": 960,
+          "cy": 500,
+          "w": 693,
+          "h": 90
+        },
+        {
+          "t": 210.08,
+          "cx": 960,
+          "cy": 830,
+          "w": 693,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "meth-dump_43",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/meth-dump.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 235.64,
+      "out": 240.64,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 235.64,
           "cx": 960,
           "cy": 560,
           "w": 470,
           "h": 470
         },
         {
-          "t": 213.66,
+          "t": 236.98,
           "cx": 610,
           "cy": 540,
           "w": 380,
@@ -1756,40 +1823,10 @@
       ]
     },
     {
-      "id": "t43",
-      "type": "text",
-      "content": "el algoritmo elige el siguiente vídeo",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 820,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 202.56,
-      "out": 207.56,
-      "_syncT": 202.56,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "watch-time_44",
+      "id": "dopamine-flood_44",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/watch-time.png",
+      "src": "assets/icons/dopamine-flood.png",
       "box": {
         "cx": 1310,
         "cy": 553,
@@ -1797,8 +1834,8 @@
         "h": 380
       },
       "z": 30,
-      "in": 213.66,
-      "out": 223.66,
+      "in": 236.98,
+      "out": 243.98,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1814,14 +1851,14 @@
       },
       "frames": [
         {
-          "t": 213.66,
+          "t": 236.98,
           "cx": 1310,
           "cy": 553,
           "w": 380,
           "h": 380
         },
         {
-          "t": 215.26,
+          "t": 240.64,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -1832,18 +1869,18 @@
     {
       "id": "t45",
       "type": "text",
-      "content": "todo por maximizar tu tiempo de pantalla",
+      "content": "vacían TODA la dopamina de golpe",
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 500,
-        "w": 883,
+        "cy": 830,
+        "w": 715,
         "h": 90
       },
-      "color": "#EE2B37",
+      "color": "#111111",
       "z": 60,
-      "in": 216.14,
-      "out": 221.14,
+      "in": 230.16,
+      "out": 235.16,
       "_syncT": null,
       "_keep": false,
       "_hold": false,
@@ -1851,8 +1888,8 @@
       "structural": false,
       "hud": false,
       "enter": {
-        "kind": "stamp",
-        "duration": 0.3
+        "kind": "handwrite",
+        "duration": 0.6
       },
       "exit": {
         "kind": "fade-out",
@@ -1860,10 +1897,10 @@
       }
     },
     {
-      "id": "clip-teen-phone_46",
+      "id": "clip-neurons_46",
       "type": "clip",
-      "src": "assets/clips/clip-teen-phone.mp4",
-      "frame": "phone",
+      "src": "assets/clips/clip-neurons.mp4",
+      "frame": "rounded",
       "box": {
         "cx": 960,
         "cy": 520,
@@ -1871,8 +1908,8 @@
         "h": 551
       },
       "z": 27,
-      "in": 225.1,
-      "out": 232.6,
+      "in": 247.3,
+      "out": 254.44,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -1881,13 +1918,36 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "frames": [
+        {
+          "t": 247.3,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 249.3,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 252.1,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        }
+      ]
     },
     {
-      "id": "short-video_47",
+      "id": "burned-neurons_47",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/short-video.png",
+      "src": "assets/icons/burned-neurons.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -1895,8 +1955,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 233.62,
-      "out": 241.12,
+      "in": 245.72,
+      "out": 252.72,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1912,7 +1972,7 @@
       },
       "frames": [
         {
-          "t": 233.62,
+          "t": 245.72,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -1923,136 +1983,18 @@
     {
       "id": "t48",
       "type": "text",
-      "content": "TikTok: la más adictiva jamás creada",
+      "content": "daño permanente en las neuronas",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 799,
+        "w": 693,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 225.1,
-      "out": 230.1,
-      "_syncT": 225.1,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "for-you-algo_49",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/for-you-algo.png",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 500,
-        "h": 500
-      },
-      "z": 26,
-      "in": 241.28,
-      "out": 250.96,
-      "auto": true,
-      "_keep": false,
-      "_accum": false,
-      "_hero": true,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 241.28,
-          "cx": 960,
-          "cy": 520,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 241.53,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 245.58,
-          "cx": 960,
-          "cy": 520,
-          "w": 500,
-          "h": 500
-        }
-      ]
-    },
-    {
-      "id": "endless-swipe_50",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/endless-swipe.png",
-      "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
-      },
-      "z": 30,
-      "in": 246.24,
-      "out": 250.96,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 246.24,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
-        }
-      ]
-    },
-    {
-      "id": "t51",
-      "type": "text",
-      "content": "te conoce mejor que tú mismo",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 630,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 246.08,
-      "out": 250.96,
+      "in": 244.2,
+      "out": 249.2,
       "_syncT": null,
       "_keep": false,
       "_hold": false,
@@ -2066,130 +2008,35 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
-    },
-    {
-      "id": "photo-crowd_52",
-      "type": "image",
-      "kind": "cutout",
-      "src": "assets/icons/photo-crowd.jpg",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 460,
-        "h": 460
-      },
-      "z": 24,
-      "in": 250.96,
-      "out": 265.46,
-      "auto": true,
-      "_keep": false,
-      "_accum": false,
-      "_hero": true,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
       },
       "frames": [
         {
-          "t": 250.96,
+          "t": 244.2,
           "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
+          "cy": 830,
+          "w": 693,
+          "h": 90
         },
         {
-          "t": 255.26,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 260.96,
+          "t": 245.95,
           "cx": 960,
           "cy": 500,
-          "w": 460,
-          "h": 460
+          "w": 693,
+          "h": 90
+        },
+        {
+          "t": 246.75,
+          "cx": 960,
+          "cy": 830,
+          "w": 693,
+          "h": 90
         }
       ]
     },
     {
-      "id": "opinion-bubble_53",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
-      "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
-      },
-      "z": 30,
-      "in": 254.76,
-      "out": 259.76,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 254.76,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
-        }
-      ]
-    },
-    {
-      "id": "t54",
-      "type": "text",
-      "content": "X premia lo que te indigna",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 588,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 255.96,
-      "out": 260.96,
-      "_syncT": null,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "clip-typing_55",
+      "id": "clip-party_49",
       "type": "clip",
-      "src": "assets/clips/clip-typing.mp4",
+      "src": "assets/clips/clip-party.mp4",
       "frame": "rounded",
       "box": {
         "cx": 960,
@@ -2198,8 +2045,8 @@
         "h": 551
       },
       "z": 27,
-      "in": 270.46,
-      "out": 276.62,
+      "in": 256.08,
+      "out": 263.58,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -2211,33 +2058,26 @@
       },
       "frames": [
         {
-          "t": 270.46,
+          "t": 256.08,
           "cx": 960,
           "cy": 520,
           "w": 980,
           "h": 551
         },
         {
-          "t": 270.71,
+          "t": 256.33,
           "cx": 960,
           "cy": 500,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 275.01,
-          "cx": 960,
-          "cy": 520,
           "w": 980,
           "h": 551
         }
       ]
     },
     {
-      "id": "outrage-anger_56",
+      "id": "serotonin_50",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/outrage-anger.png",
+      "src": "assets/icons/serotonin.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -2245,8 +2085,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 275.82,
-      "out": 280.82,
+      "in": 267.88,
+      "out": 274.88,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2262,7 +2102,234 @@
       },
       "frames": [
         {
-          "t": 275.82,
+          "t": 267.88,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t51",
+      "type": "text",
+      "content": "inunda el cerebro de serotonina",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 693,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 263.92,
+      "out": 268.92,
+      "_syncT": 263.92,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "serotonin-crash_52",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/serotonin-crash.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 281.28,
+      "out": 287.75,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 281.28,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "ecstasy-pill_53",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/ecstasy-pill.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 275.26,
+      "out": 281.5,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 275.26,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t54",
+      "type": "text",
+      "content": "después: «la depresión del martes»",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 757,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 274.66,
+      "out": 279.66,
+      "_syncT": null,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 274.66,
+          "cx": 960,
+          "cy": 830,
+          "w": 757,
+          "h": 90
+        },
+        {
+          "t": 275.66,
+          "cx": 960,
+          "cy": 500,
+          "w": 757,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "clip-pills_55",
+      "type": "clip",
+      "src": "assets/clips/clip-pills.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 287.7,
+      "out": 295.2,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 287.7,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 292.7,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "endorphin-receptor_56",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/endorphin-receptor.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 294.54,
+      "out": 301.54,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 294.54,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -2273,19 +2340,19 @@
     {
       "id": "t57",
       "type": "text",
-      "content": "la rabia es lo que más se comparte",
+      "content": "los más LETALES de todos",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 757,
+        "w": 546,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 275.7,
-      "out": 276.62,
-      "_syncT": 275.7,
+      "in": 287.54,
+      "out": 292.54,
+      "_syncT": 287.54,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -2301,50 +2368,10 @@
       }
     },
     {
-      "id": "clip-selfie_58",
-      "type": "clip",
-      "src": "assets/clips/clip-selfie.mp4",
-      "frame": "rounded",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 980,
-        "h": 551
-      },
-      "z": 27,
-      "in": 278.3,
-      "out": 285.8,
-      "auto": true,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 278.3,
-          "cx": 960,
-          "cy": 500,
-          "w": 980,
-          "h": 551
-        },
-        {
-          "t": 280.85,
-          "cx": 960,
-          "cy": 520,
-          "w": 980,
-          "h": 551
-        }
-      ]
-    },
-    {
-      "id": "ghost-message_59",
+      "id": "stop-breathing_58",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/ghost-message.png",
+      "src": "assets/icons/stop-breathing.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -2352,8 +2379,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 282.12,
-      "out": 288.5,
+      "in": 311.78,
+      "out": 316.78,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2369,7 +2396,58 @@
       },
       "frames": [
         {
-          "t": 282.12,
+          "t": 311.78,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        },
+        {
+          "t": 316.28,
+          "cx": 610,
+          "cy": 540,
+          "w": 380,
+          "h": 380
+        }
+      ]
+    },
+    {
+      "id": "fentanyl-tiny_59",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/fentanyl-tiny.png",
+      "box": {
+        "cx": 1310,
+        "cy": 553,
+        "w": 380,
+        "h": 380
+      },
+      "z": 30,
+      "in": 316.28,
+      "out": 323.28,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 316.28,
+          "cx": 1310,
+          "cy": 553,
+          "w": 380,
+          "h": 380
+        },
+        {
+          "t": 316.78,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -2380,19 +2458,149 @@
     {
       "id": "t60",
       "type": "text",
-      "content": "mensajes que desaparecen... y las rachas",
+      "content": "el cerebro se olvida de respirar",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 883,
+        "w": 715,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 310.02,
+      "out": 315.02,
+      "_syncT": 310.02,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 310.02,
+          "cx": 960,
+          "cy": 830,
+          "w": 715,
+          "h": 90
+        },
+        {
+          "t": 312.02,
+          "cx": 960,
+          "cy": 500,
+          "w": 715,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "clip-psychedelic_61",
+      "type": "clip",
+      "src": "assets/clips/clip-psychedelic.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 324.06,
+      "out": 331.56,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 324.06,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 324.31,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 325.61,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "hallucinogens_62",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/hallucinogens.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 333.68,
+      "out": 340.68,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 333.68,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t63",
+      "type": "text",
+      "content": "desordenan cómo el cerebro filtra la realidad",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 989,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 281.34,
-      "out": 286.34,
-      "_syncT": 281.34,
+      "in": 326.12,
+      "out": 331.12,
+      "_syncT": null,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -2408,128 +2616,10 @@
       }
     },
     {
-      "id": "streaks-fire_61",
+      "id": "distorted-reality_64",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/streaks-fire.png",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 500,
-        "h": 500
-      },
-      "z": 26,
-      "in": 288.38,
-      "out": 302.75,
-      "auto": true,
-      "_keep": false,
-      "_accum": false,
-      "_hero": true,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 288.38,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 292.68,
-          "cx": 960,
-          "cy": 520,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 298.38,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        }
-      ]
-    },
-    {
-      "id": "fomo_62",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/fomo.png",
-      "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
-      },
-      "z": 30,
-      "in": 293.4,
-      "out": 298.4,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 293.4,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
-        }
-      ]
-    },
-    {
-      "id": "t63",
-      "type": "text",
-      "content": "las rachas te obligan a entrar cada día",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 862,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 293.38,
-      "out": 298.38,
-      "_syncT": null,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "briefcase-network_64",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/briefcase-network.png",
+      "src": "assets/icons/distorted-reality.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -2537,8 +2627,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 302.56,
-      "out": 310.06,
+      "in": 341.8,
+      "out": 348.8,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2554,7 +2644,7 @@
       },
       "frames": [
         {
-          "t": 302.56,
+          "t": 341.8,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -2563,10 +2653,10 @@
       ]
     },
     {
-      "id": "blue-check-typing_65",
+      "id": "good-bad-trip_65",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/blue-check-typing.png",
+      "src": "assets/icons/good-bad-trip.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -2574,8 +2664,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 314.84,
-      "out": 322.34,
+      "in": 349.88,
+      "out": 353.76,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2591,7 +2681,7 @@
       },
       "frames": [
         {
-          "t": 314.84,
+          "t": 349.88,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -2602,102 +2692,19 @@
     {
       "id": "t66",
       "type": "text",
-      "content": "el doble check azul también engancha",
+      "content": "buen viaje o mal viaje: imposible saberlo",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 799,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 306.92,
-      "out": 311.92,
-      "_syncT": 306.92,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 306.92,
-          "cx": 960,
-          "cy": 500,
-          "w": 799,
-          "h": 90
-        },
-        {
-          "t": 309.47,
-          "cx": 960,
-          "cy": 830,
-          "w": 799,
-          "h": 90
-        }
-      ]
-    },
-    {
-      "id": "watch-time_67",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/watch-time.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 323.82,
-      "out": 324.58,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 323.82,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t68",
-      "type": "text",
-      "content": "todas quieren lo mismo: tu tiempo",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 736,
+        "w": 904,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 321.74,
-      "out": 324.58,
-      "_syncT": 321.74,
+      "in": 340.68,
+      "out": 345.68,
+      "_syncT": null,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -2710,22 +2717,38 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 340.68,
+          "cx": 960,
+          "cy": 830,
+          "w": 904,
+          "h": 90
+        },
+        {
+          "t": 342.18,
+          "cx": 960,
+          "cy": 500,
+          "w": 904,
+          "h": 90
+        }
+      ]
     },
     {
-      "id": "for-you-algo_69",
+      "id": "photo-pills_67",
       "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/for-you-algo.png",
+      "kind": "cutout",
+      "src": "assets/icons/photo-pills.jpg",
       "box": {
         "cx": 960,
         "cy": 520,
-        "w": 500,
-        "h": 500
+        "w": 460,
+        "h": 460
       },
-      "z": 26,
-      "in": 324.58,
-      "out": 339.08,
+      "z": 24,
+      "in": 353.76,
+      "out": 365.76,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -2741,33 +2764,26 @@
       },
       "frames": [
         {
-          "t": 324.58,
-          "cx": 960,
-          "cy": 500,
-          "w": 500,
-          "h": 500
-        },
-        {
-          "t": 328.13,
+          "t": 353.76,
           "cx": 960,
           "cy": 520,
-          "w": 500,
-          "h": 500
+          "w": 460,
+          "h": 460
         },
         {
-          "t": 333.83,
+          "t": 359.51,
           "cx": 960,
           "cy": 500,
-          "w": 500,
-          "h": 500
+          "w": 460,
+          "h": 460
         }
       ]
     },
     {
-      "id": "comparison-envy_70",
+      "id": "benzos-trap_68",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/comparison-envy.png",
+      "src": "assets/icons/benzos-trap.png",
       "box": {
         "cx": 1600,
         "cy": 400,
@@ -2775,8 +2791,8 @@
         "h": 210
       },
       "z": 30,
-      "in": 328.98,
-      "out": 333.98,
+      "in": 359.78,
+      "out": 364.78,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2792,7 +2808,7 @@
       },
       "frames": [
         {
-          "t": 328.98,
+          "t": 359.78,
           "cx": 1600,
           "cy": 400,
           "w": 210,
@@ -2801,21 +2817,125 @@
       ]
     },
     {
-      "id": "t71",
+      "id": "t69",
       "type": "text",
-      "content": "el algoritmo te encierra en tu burbuja",
+      "content": "medicinas que se vuelven trampa",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 841,
+        "w": 693,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 354.48,
+      "out": 359.48,
+      "_syncT": 354.48,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "handwrite",
+        "duration": 0.6
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      }
+    },
+    {
+      "id": "tolerance_70",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/tolerance.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 368.54,
+      "out": 375.54,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 368.54,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "stop-breathing_71",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/stop-breathing.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 379.46,
+      "out": 386.46,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 379.46,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t72",
+      "type": "text",
+      "content": "mezcladas: riesgo mortal",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 546,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 328.6,
-      "out": 333.6,
-      "_syncT": 328.6,
+      "in": 375.42,
+      "out": 380.42,
+      "_syncT": 375.42,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -2831,10 +2951,50 @@
       }
     },
     {
-      "id": "opinion-bubble_72",
+      "id": "clip-psychedelic_73",
+      "type": "clip",
+      "src": "assets/clips/clip-psychedelic.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 383.28,
+      "out": 390.78,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 383.28,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 385.83,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "dissociative_74",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
+      "src": "assets/icons/dissociative.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -2842,8 +3002,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 342.28,
-      "out": 347.28,
+      "in": 391.86,
+      "out": 398.86,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2859,95 +3019,7 @@
       },
       "frames": [
         {
-          "t": 342.28,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        },
-        {
-          "t": 343.64,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "social-network_73",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/social-network.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
-      "in": 343.64,
-      "out": 351.14,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 343.64,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 347.28,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "play-button_74",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/play-button.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 353.34,
-      "out": 360.84,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 353.34,
+          "t": 391.86,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -2958,19 +3030,232 @@
     {
       "id": "t75",
       "type": "text",
-      "content": "Reddit: comunidades · Twitch: el directo",
+      "content": "sensación de salir del cuerpo",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 883,
+        "w": 651,
         "h": 90
       },
       "color": "#111111",
       "z": 60,
-      "in": 342.28,
-      "out": 347.28,
-      "_syncT": 342.28,
+      "in": 390.48,
+      "out": 395.48,
+      "_syncT": 390.48,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 390.48,
+          "cx": 960,
+          "cy": 830,
+          "w": 651,
+          "h": 90
+        },
+        {
+          "t": 392.23,
+          "cx": 960,
+          "cy": 500,
+          "w": 651,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "distorted-reality_76",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/distorted-reality.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 399.78,
+      "out": 406.78,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 399.78,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t77",
+      "type": "text",
+      "content": "«el agujero»: desconexión total",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 693,
+        "h": 90
+      },
+      "color": "#EE2B37",
+      "z": 60,
+      "in": 399.58,
+      "out": 402.52,
+      "_syncT": 399.58,
+      "_keep": false,
+      "_hold": false,
+      "_herotitle": false,
+      "structural": false,
+      "hud": false,
+      "enter": {
+        "kind": "stamp",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "frames": [
+        {
+          "t": 399.58,
+          "cx": 960,
+          "cy": 830,
+          "w": 693,
+          "h": 90
+        },
+        {
+          "t": 400.08,
+          "cx": 960,
+          "cy": 500,
+          "w": 693,
+          "h": 90
+        }
+      ]
+    },
+    {
+      "id": "clip-neurons_78",
+      "type": "clip",
+      "src": "assets/clips/clip-neurons.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 407.44,
+      "out": 414.94,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 407.44,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 407.69,
+          "cx": 960,
+          "cy": 500,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 409.74,
+          "cx": 960,
+          "cy": 520,
+          "w": 980,
+          "h": 551
+        }
+      ]
+    },
+    {
+      "id": "addiction-rewire_79",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/addiction-rewire.png",
+      "box": {
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
+      },
+      "z": 30,
+      "in": 417.48,
+      "out": 422.48,
+      "auto": true,
+      "_keep": false,
+      "_accum": true,
+      "_hero": false,
+      "_hold": false,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "frames": [
+        {
+          "t": 417.48,
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
+        }
+      ]
+    },
+    {
+      "id": "t80",
+      "type": "text",
+      "content": "el cerebro reduce sus receptores",
+      "fontSize": 34,
+      "box": {
+        "cx": 960,
+        "cy": 830,
+        "w": 715,
+        "h": 90
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 410.32,
+      "out": 415.32,
+      "_syncT": 410.32,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -2983,148 +3268,12 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 342.28,
-          "cx": 960,
-          "cy": 830,
-          "w": 883,
-          "h": 90
-        },
-        {
-          "t": 342.53,
-          "cx": 960,
-          "cy": 500,
-          "w": 883,
-          "h": 90
-        }
-      ]
+      }
     },
     {
-      "id": "recommendation-algo_76",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/recommendation-algo.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 363.98,
-      "out": 371.48,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 363.98,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "attention-economy_77",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/attention-economy.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 376.1,
-      "out": 383.6,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 376.1,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t78",
-      "type": "text",
-      "content": "detrás, siempre el mismo algoritmo",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 757,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 370.06,
-      "out": 375.06,
-      "_syncT": 370.06,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 370.06,
-          "cx": 960,
-          "cy": 500,
-          "w": 757,
-          "h": 90
-        },
-        {
-          "t": 370.86,
-          "cx": 960,
-          "cy": 830,
-          "w": 757,
-          "h": 90
-        }
-      ]
-    },
-    {
-      "id": "clip-server_79",
+      "id": "clip-lab_81",
       "type": "clip",
-      "src": "assets/clips/clip-server.mp4",
+      "src": "assets/clips/clip-lab.mp4",
       "frame": "rounded",
       "box": {
         "cx": 960,
@@ -3133,8 +3282,8 @@
         "h": 551
       },
       "z": 27,
-      "in": 380.88,
-      "out": 388.38,
+      "in": 422.02,
+      "out": 429.52,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3146,26 +3295,33 @@
       },
       "frames": [
         {
-          "t": 380.88,
+          "t": 422.02,
           "cx": 960,
           "cy": 500,
           "w": 980,
           "h": 551
         },
         {
-          "t": 382.93,
+          "t": 422.32,
           "cx": 960,
           "cy": 520,
+          "w": 980,
+          "h": 551
+        },
+        {
+          "t": 428.02,
+          "cx": 960,
+          "cy": 500,
           "w": 980,
           "h": 551
         }
       ]
     },
     {
-      "id": "data-harvest_80",
+      "id": "no-pleasure_82",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/data-harvest.png",
+      "src": "assets/icons/no-pleasure.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -3173,8 +3329,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 388.86,
-      "out": 393.86,
+      "in": 427.18,
+      "out": 434.18,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3190,7 +3346,7 @@
       },
       "frames": [
         {
-          "t": 388.86,
+          "t": 427.18,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -3199,21 +3355,21 @@
       ]
     },
     {
-      "id": "t81",
+      "id": "t83",
       "type": "text",
-      "content": "todo lo que haces se guarda",
+      "content": "necesitas más... y nada normal te llena",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 609,
+        "w": 862,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 386.68,
-      "out": 391.68,
-      "_syncT": 386.68,
+      "in": 423.02,
+      "out": 428.02,
+      "_syncT": 423.02,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -3226,53 +3382,13 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 386.68,
-          "cx": 960,
-          "cy": 830,
-          "w": 609,
-          "h": 90
-        },
-        {
-          "t": 389.18,
-          "cx": 960,
-          "cy": 500,
-          "w": 609,
-          "h": 90
-        }
-      ]
-    },
-    {
-      "id": "clip-code-data_82",
-      "type": "clip",
-      "src": "assets/clips/clip-code-data.mp4",
-      "frame": "rounded",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 980,
-        "h": 551
-      },
-      "z": 27,
-      "in": 393.12,
-      "out": 400.62,
-      "auto": true,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
       }
     },
     {
-      "id": "data-profile_83",
+      "id": "brain-hijack_84",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/data-profile.png",
+      "src": "assets/icons/brain-hijack.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -3280,8 +3396,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 397.52,
-      "out": 402.52,
+      "in": 440.98,
+      "out": 446.5,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3297,58 +3413,7 @@
       },
       "frames": [
         {
-          "t": 397.52,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        },
-        {
-          "t": 401.54,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "targeted-ad_84",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/targeted-ad.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
-      "in": 401.54,
-      "out": 409.04,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 401.54,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        },
-        {
-          "t": 402.52,
+          "t": 440.98,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -3359,19 +3424,19 @@
     {
       "id": "t85",
       "type": "text",
-      "content": "no eres el cliente: eres la mercancía",
+      "content": "ya no consume por placer: por no estar fatal",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 820,
+        "w": 968,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 404.72,
-      "out": 409.72,
-      "_syncT": 404.72,
+      "in": 433.66,
+      "out": 438.66,
+      "_syncT": 433.66,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -3384,29 +3449,53 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
+      }
+    },
+    {
+      "id": "clip-brain_86",
+      "type": "clip",
+      "src": "assets/clips/clip-brain.mp4",
+      "frame": "rounded",
+      "box": {
+        "cx": 960,
+        "cy": 520,
+        "w": 980,
+        "h": 551
+      },
+      "z": 27,
+      "in": 446.46,
+      "out": 453.96,
+      "auto": true,
+      "enter": {
+        "kind": "pop",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
       },
       "frames": [
         {
-          "t": 404.72,
+          "t": 446.46,
           "cx": 960,
           "cy": 500,
-          "w": 820,
-          "h": 90
+          "w": 980,
+          "h": 551
         },
         {
-          "t": 408.52,
+          "t": 449.76,
           "cx": 960,
-          "cy": 830,
-          "w": 820,
-          "h": 90
+          "cy": 520,
+          "w": 980,
+          "h": 551
         }
       ]
     },
     {
-      "id": "anxiety-sleep_86",
+      "id": "dopamine-crash_87",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/anxiety-sleep.png",
+      "src": "assets/icons/dopamine-crash.png",
       "box": {
         "cx": 960,
         "cy": 560,
@@ -3414,8 +3503,8 @@
         "h": 470
       },
       "z": 30,
-      "in": 414.84,
-      "out": 421,
+      "in": 452.52,
+      "out": 457.52,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3431,44 +3520,7 @@
       },
       "frames": [
         {
-          "t": 414.84,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "comparison-envy_87",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/comparison-envy.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 420.78,
-      "out": 428.28,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 420.78,
+          "t": 452.52,
           "cx": 960,
           "cy": 560,
           "w": 470,
@@ -3479,19 +3531,19 @@
     {
       "id": "t88",
       "type": "text",
-      "content": "más ansiedad, peor sueño, más comparación",
+      "content": "cada subidón se paga con un bajón",
       "fontSize": 34,
       "box": {
         "cx": 960,
         "cy": 830,
-        "w": 904,
+        "w": 736,
         "h": 90
       },
       "color": "#EE2B37",
       "z": 60,
-      "in": 414.64,
-      "out": 419.64,
-      "_syncT": 414.64,
+      "in": 450.24,
+      "out": 455.24,
+      "_syncT": 450.24,
       "_keep": false,
       "_hold": false,
       "_herotitle": false,
@@ -3507,36 +3559,40 @@
       },
       "frames": [
         {
-          "t": 414.64,
+          "t": 450.24,
           "cx": 960,
           "cy": 830,
-          "w": 904,
+          "w": 736,
           "h": 90
         },
         {
-          "t": 415.14,
+          "t": 453.99,
           "cx": 960,
           "cy": 500,
-          "w": 904,
+          "w": 736,
           "h": 90
         }
       ]
     },
     {
-      "id": "clip-crowd-phones_89",
-      "type": "clip",
-      "src": "assets/clips/clip-crowd-phones.mp4",
-      "frame": "rounded",
+      "id": "photo-brain_89",
+      "type": "image",
+      "kind": "cutout",
+      "src": "assets/icons/photo-brain.jpg",
       "box": {
         "cx": 960,
         "cy": 520,
-        "w": 980,
-        "h": 551
+        "w": 460,
+        "h": 460
       },
-      "z": 27,
-      "in": 425.88,
-      "out": 433.38,
+      "z": 24,
+      "in": 457.22,
+      "out": 469.22,
       "auto": true,
+      "_keep": false,
+      "_accum": false,
+      "_hero": true,
+      "_hold": false,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -3547,35 +3603,42 @@
       },
       "frames": [
         {
-          "t": 425.88,
+          "t": 457.22,
           "cx": 960,
           "cy": 500,
-          "w": 980,
-          "h": 551
+          "w": 460,
+          "h": 460
         },
         {
-          "t": 427.68,
+          "t": 461.77,
           "cx": 960,
           "cy": 520,
-          "w": 980,
-          "h": 551
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 467.47,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
         }
       ]
     },
     {
-      "id": "take-control_90",
+      "id": "respect-brain_90",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/take-control.png",
+      "src": "assets/icons/respect-brain.png",
       "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
+        "cx": 1600,
+        "cy": 400,
+        "w": 210,
+        "h": 210
       },
       "z": 30,
-      "in": 435.92,
-      "out": 443.42,
+      "in": 467.08,
+      "out": 474.08,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3591,138 +3654,18 @@
       },
       "frames": [
         {
-          "t": 435.92,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
+          "t": 467.08,
+          "cx": 1600,
+          "cy": 400,
+          "w": 210,
+          "h": 210
         }
       ]
     },
     {
       "id": "t91",
       "type": "text",
-      "content": "no juegas tú: la app juega contigo",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 757,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 432.36,
-      "out": 437.36,
-      "_syncT": 432.36,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 432.36,
-          "cx": 960,
-          "cy": 830,
-          "w": 757,
-          "h": 90
-        },
-        {
-          "t": 436.11,
-          "cx": 960,
-          "cy": 500,
-          "w": 757,
-          "h": 90
-        }
-      ]
-    },
-    {
-      "id": "red-notification_92",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/red-notification.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 447.2,
-      "out": 453.25,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 447.2,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "grayscale-phone_93",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/grayscale-phone.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 453.02,
-      "out": 460.52,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 453.02,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t94",
-      "type": "text",
-      "content": "quita notificaciones · pantalla en gris",
+      "content": "conócelo y serás más difícil de engañar",
       "fontSize": 34,
       "box": {
         "cx": 960,
@@ -3732,317 +3675,8 @@
       },
       "color": "#111111",
       "z": 60,
-      "in": 446.74,
-      "out": 451.74,
-      "_syncT": 446.74,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "handwrite",
-        "duration": 0.6
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 446.74,
-          "cx": 960,
-          "cy": 830,
-          "w": 862,
-          "h": 90
-        },
-        {
-          "t": 447.49,
-          "cx": 960,
-          "cy": 500,
-          "w": 862,
-          "h": 90
-        }
-      ]
-    },
-    {
-      "id": "clip-phone-scroll_95",
-      "type": "clip",
-      "src": "assets/clips/clip-phone-scroll.mp4",
-      "frame": "phone",
-      "box": {
-        "cx": 960,
-        "cy": 520,
-        "w": 980,
-        "h": 551
-      },
-      "z": 27,
-      "in": 463.84,
-      "out": 468.62,
-      "auto": true,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "take-control_96",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/take-control.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 466.98,
-      "out": 471.98,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 466.98,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t97",
-      "type": "text",
-      "content": "¿entré a algo... o solo busco el premio?",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 883,
-        "h": 90
-      },
-      "color": "#EE2B37",
-      "z": 60,
-      "in": 463.86,
-      "out": 468.62,
-      "_syncT": null,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "clip-city-crowd_98",
-      "type": "clip",
-      "src": "assets/clips/clip-city-crowd.mp4",
-      "frame": "rounded",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 980,
-        "h": 551
-      },
-      "z": 27,
-      "in": 471.52,
-      "out": 479.02,
-      "auto": true,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "attention-economy_99",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/attention-economy.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 473.02,
-      "out": 480.52,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 473.02,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        }
-      ]
-    },
-    {
-      "id": "t100",
-      "type": "text",
-      "content": "tu recurso más valioso: tu atención",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 830,
-        "w": 778,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 480.12,
-      "out": 485.12,
-      "_syncT": 480.12,
-      "_keep": false,
-      "_hold": false,
-      "_herotitle": false,
-      "structural": false,
-      "hud": false,
-      "enter": {
-        "kind": "stamp",
-        "duration": 0.3
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.25
-      }
-    },
-    {
-      "id": "know-tricks_101",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/know-tricks.png",
-      "box": {
-        "cx": 960,
-        "cy": 560,
-        "w": 470,
-        "h": 470
-      },
-      "z": 30,
-      "in": 486.86,
-      "out": 490.54,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 486.86,
-          "cx": 960,
-          "cy": 560,
-          "w": 470,
-          "h": 470
-        },
-        {
-          "t": 487.98,
-          "cx": 610,
-          "cy": 540,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "take-control_102",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/take-control.png",
-      "box": {
-        "cx": 1310,
-        "cy": 553,
-        "w": 380,
-        "h": 380
-      },
-      "z": 30,
-      "in": 487.98,
-      "out": 490.54,
-      "auto": true,
-      "_keep": false,
-      "_accum": true,
-      "_hero": false,
-      "_hold": false,
-      "enter": {
-        "kind": "pop",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "frames": [
-        {
-          "t": 487.98,
-          "cx": 1310,
-          "cy": 553,
-          "w": 380,
-          "h": 380
-        }
-      ]
-    },
-    {
-      "id": "t103",
-      "type": "text",
-      "content": "quien conoce los trucos no se deja enganchar",
-      "fontSize": 34,
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 968,
-        "h": 90
-      },
-      "color": "#111111",
-      "z": 60,
-      "in": 488.74,
-      "out": 490.54,
+      "in": 462.42,
+      "out": 467.42,
       "_syncT": null,
       "_keep": false,
       "_hold": false,
@@ -4062,7 +3696,7 @@
       "id": "chapicon0",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/you-are-product.png",
+      "src": "assets/icons/brain-hijack.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4071,7 +3705,7 @@
       },
       "z": 80,
       "in": 0,
-      "out": 31.32,
+      "out": 29.64,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4086,18 +3720,18 @@
     {
       "id": "chaplabel0",
       "type": "text",
-      "content": "Si es gratis, el producto eres tú",
+      "content": "Tu cerebro secuestrado",
       "fontSize": 42,
       "box": {
-        "cx": 616,
+        "cx": 477,
         "cy": 145,
-        "w": 852,
+        "w": 574,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
       "in": 0,
-      "out": 31.32,
+      "out": 29.64,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4113,7 +3747,7 @@
       "id": "chapicon1",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/attention-economy.png",
+      "src": "assets/icons/dopamine.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4121,8 +3755,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 31.32,
-      "out": 63.74,
+      "in": 29.64,
+      "out": 60.24,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4137,18 +3771,18 @@
     {
       "id": "chaplabel1",
       "type": "text",
-      "content": "La economía de la atención",
+      "content": "La dopamina",
       "fontSize": 42,
       "box": {
-        "cx": 527.5,
+        "cx": 338.5,
         "cy": 145,
-        "w": 675,
+        "w": 297,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 31.32,
-      "out": 63.74,
+      "in": 29.64,
+      "out": 60.24,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4164,7 +3798,7 @@
       "id": "chapicon2",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/variable-reward.png",
+      "src": "assets/icons/alcohol-depressant.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4172,8 +3806,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 63.74,
-      "out": 103.88,
+      "in": 60.24,
+      "out": 96.12,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4188,18 +3822,18 @@
     {
       "id": "chaplabel2",
       "type": "text",
-      "content": "La recompensa variable",
+      "content": "Alcohol",
       "fontSize": 42,
       "box": {
-        "cx": 477,
+        "cx": 288,
         "cy": 145,
-        "w": 574,
+        "w": 196,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 63.74,
-      "out": 103.88,
+      "in": 60.24,
+      "out": 96.12,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4215,7 +3849,7 @@
       "id": "chapicon3",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/infinite-scroll.png",
+      "src": "assets/icons/nicotine.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4223,8 +3857,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 103.88,
-      "out": 133.16,
+      "in": 96.12,
+      "out": 126.56,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4239,18 +3873,18 @@
     {
       "id": "chaplabel3",
       "type": "text",
-      "content": "El scroll infinito",
+      "content": "Nicotina",
       "fontSize": 42,
       "box": {
-        "cx": 427,
+        "cx": 301,
         "cy": 145,
-        "w": 474,
+        "w": 222,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 103.88,
-      "out": 133.16,
+      "in": 96.12,
+      "out": 126.56,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4266,7 +3900,7 @@
       "id": "chapicon4",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/social-network.png",
+      "src": "assets/icons/caffeine.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4274,8 +3908,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 133.16,
-      "out": 164.3,
+      "in": 126.56,
+      "out": 155.98,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4290,18 +3924,18 @@
     {
       "id": "chaplabel4",
       "type": "text",
-      "content": "Facebook",
+      "content": "Cafeína",
       "fontSize": 42,
       "box": {
-        "cx": 301,
+        "cx": 288,
         "cy": 145,
-        "w": 222,
+        "w": 196,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 133.16,
-      "out": 164.3,
+      "in": 126.56,
+      "out": 155.98,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4317,7 +3951,7 @@
       "id": "chapicon5",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/photo-grid.png",
+      "src": "assets/icons/cannabis-thc.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4325,8 +3959,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 164.3,
-      "out": 194.86,
+      "in": 155.98,
+      "out": 188.98,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4341,18 +3975,18 @@
     {
       "id": "chaplabel5",
       "type": "text",
-      "content": "Instagram",
+      "content": "Cannabis",
       "fontSize": 42,
       "box": {
-        "cx": 313.5,
+        "cx": 301,
         "cy": 145,
-        "w": 247,
+        "w": 222,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 164.3,
-      "out": 194.86,
+      "in": 155.98,
+      "out": 188.98,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4368,7 +4002,7 @@
       "id": "chapicon6",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/play-button.png",
+      "src": "assets/icons/cocaine-block.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4376,8 +4010,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 194.86,
-      "out": 222.36,
+      "in": 188.98,
+      "out": 225.16,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4392,7 +4026,7 @@
     {
       "id": "chaplabel6",
       "type": "text",
-      "content": "YouTube",
+      "content": "Cocaína",
       "fontSize": 42,
       "box": {
         "cx": 288,
@@ -4402,8 +4036,8 @@
       },
       "color": "#111111",
       "z": 80,
-      "in": 194.86,
-      "out": 222.36,
+      "in": 188.98,
+      "out": 225.16,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4419,7 +4053,7 @@
       "id": "chapicon7",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/short-video.png",
+      "src": "assets/icons/meth-dump.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4427,8 +4061,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 222.36,
-      "out": 250.96,
+      "in": 225.16,
+      "out": 254.44,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4443,18 +4077,18 @@
     {
       "id": "chaplabel7",
       "type": "text",
-      "content": "TikTok",
+      "content": "Anfetaminas y metanfetamina",
       "fontSize": 42,
       "box": {
-        "cx": 275.5,
+        "cx": 540,
         "cy": 145,
-        "w": 171,
+        "w": 700,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 222.36,
-      "out": 250.96,
+      "in": 225.16,
+      "out": 254.44,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4470,7 +4104,7 @@
       "id": "chapicon8",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
+      "src": "assets/icons/ecstasy-pill.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4478,8 +4112,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 250.96,
-      "out": 276.62,
+      "in": 254.44,
+      "out": 285.28,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4494,18 +4128,18 @@
     {
       "id": "chaplabel8",
       "type": "text",
-      "content": "X (Twitter)",
+      "content": "Éxtasis (MDMA)",
       "fontSize": 42,
       "box": {
-        "cx": 338.5,
+        "cx": 376.5,
         "cy": 145,
-        "w": 297,
+        "w": 373,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 250.96,
-      "out": 276.62,
+      "in": 254.44,
+      "out": 285.28,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4521,7 +4155,7 @@
       "id": "chapicon9",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/ghost-message.png",
+      "src": "assets/icons/opioids.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4529,8 +4163,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 276.62,
-      "out": 300.92,
+      "in": 285.28,
+      "out": 320.52,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4545,7 +4179,7 @@
     {
       "id": "chaplabel9",
       "type": "text",
-      "content": "Snapchat",
+      "content": "Opioides",
       "fontSize": 42,
       "box": {
         "cx": 301,
@@ -4555,8 +4189,8 @@
       },
       "color": "#111111",
       "z": 80,
-      "in": 276.62,
-      "out": 300.92,
+      "in": 285.28,
+      "out": 320.52,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4572,7 +4206,7 @@
       "id": "chapicon10",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/briefcase-network.png",
+      "src": "assets/icons/hallucinogens.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4580,8 +4214,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 300.92,
-      "out": 324.58,
+      "in": 320.52,
+      "out": 353.76,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4596,18 +4230,18 @@
     {
       "id": "chaplabel10",
       "type": "text",
-      "content": "LinkedIn y mensajería",
+      "content": "Alucinógenos",
       "fontSize": 42,
       "box": {
-        "cx": 464.5,
+        "cx": 351,
         "cy": 145,
-        "w": 549,
+        "w": 322,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 300.92,
-      "out": 324.58,
+      "in": 320.52,
+      "out": 353.76,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4623,7 +4257,7 @@
       "id": "chapicon11",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/for-you-algo.png",
+      "src": "assets/icons/benzos-trap.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4631,8 +4265,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 324.58,
-      "out": 341.02,
+      "in": 353.76,
+      "out": 380.44,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4647,18 +4281,18 @@
     {
       "id": "chaplabel11",
       "type": "text",
-      "content": "La burbuja",
+      "content": "Benzodiacepinas",
       "fontSize": 42,
       "box": {
-        "cx": 326,
+        "cx": 389,
         "cy": 145,
-        "w": 272,
+        "w": 398,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 324.58,
-      "out": 341.02,
+      "in": 353.76,
+      "out": 380.44,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4674,7 +4308,7 @@
       "id": "chapicon12",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
+      "src": "assets/icons/dissociative.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4682,8 +4316,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 341.02,
-      "out": 376.9,
+      "in": 380.44,
+      "out": 402.52,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4698,18 +4332,18 @@
     {
       "id": "chaplabel12",
       "type": "text",
-      "content": "Reddit y Twitch",
+      "content": "Ketamina (disociativas)",
       "fontSize": 42,
       "box": {
-        "cx": 389,
+        "cx": 490,
         "cy": 145,
-        "w": 398,
+        "w": 600,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 341.02,
-      "out": 376.9,
+      "in": 380.44,
+      "out": 402.52,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4725,7 +4359,7 @@
       "id": "chapicon13",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/data-profile.png",
+      "src": "assets/icons/addiction-rewire.png",
       "box": {
         "cx": 105,
         "cy": 145,
@@ -4733,8 +4367,8 @@
         "h": 130
       },
       "z": 80,
-      "in": 376.9,
-      "out": 408.32,
+      "in": 402.52,
+      "out": 486.4,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4749,18 +4383,18 @@
     {
       "id": "chaplabel13",
       "type": "text",
-      "content": "¿De dónde sale el dinero?",
+      "content": "¿Qué es la adicción?",
       "fontSize": 42,
       "box": {
-        "cx": 515,
+        "cx": 452,
         "cy": 145,
-        "w": 650,
+        "w": 524,
         "h": 64
       },
       "color": "#111111",
       "z": 80,
-      "in": 376.9,
-      "out": 408.32,
+      "in": 402.52,
+      "out": 486.4,
       "structural": true,
       "hud": true,
       "enter": {
@@ -4773,112 +4407,50 @@
       }
     },
     {
-      "id": "chapicon14",
+      "id": "cov92",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/anxiety-sleep.png",
+      "src": "assets/icons/brain-hijack.png",
       "box": {
-        "cx": 105,
-        "cy": 145,
-        "w": 130,
-        "h": 130
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
       },
-      "z": 80,
-      "in": 408.32,
-      "out": 425.66,
-      "structural": true,
-      "hud": true,
+      "z": 28,
+      "in": 9.82,
+      "out": 34,
+      "frames": [
+        {
+          "t": 9.82,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 12.22,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.4
+        "duration": 0.35
       },
       "exit": {
         "kind": "fade-out",
         "duration": 0.3
-      }
+      },
+      "_autoIco": true
     },
     {
-      "id": "chaplabel14",
-      "type": "text",
-      "content": "El coste oculto",
-      "fontSize": 42,
-      "box": {
-        "cx": 389,
-        "cy": 145,
-        "w": 398,
-        "h": 64
-      },
-      "color": "#111111",
-      "z": 80,
-      "in": 408.32,
-      "out": 425.66,
-      "structural": true,
-      "hud": true,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "chapicon15",
+      "id": "cov93",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/take-control.png",
-      "box": {
-        "cx": 105,
-        "cy": 145,
-        "w": 130,
-        "h": 130
-      },
-      "z": 80,
-      "in": 425.66,
-      "out": 490.54,
-      "structural": true,
-      "hud": true,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "chaplabel15",
-      "type": "text",
-      "content": "Recupera el control",
-      "fontSize": 42,
-      "box": {
-        "cx": 439.5,
-        "cy": 145,
-        "w": 499,
-        "h": 64
-      },
-      "color": "#111111",
-      "z": 80,
-      "in": 425.66,
-      "out": 490.54,
-      "structural": true,
-      "hud": true,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.4
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      }
-    },
-    {
-      "id": "cov104",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/you-are-product.png",
+      "src": "assets/icons/dopamine.png",
       "box": {
         "cx": 960,
         "cy": 505,
@@ -4886,18 +4458,337 @@
         "h": 460
       },
       "z": 28,
-      "in": 7.74,
-      "out": 18.25,
+      "in": 45.22,
+      "out": 46,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov94",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/alcohol-depressant.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 61.64,
+      "out": 65.75,
       "frames": [
         {
-          "t": 7.74,
+          "t": 61.64,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 8.24,
+          "t": 63.7,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov95",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/alcohol-depressant.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 73.25,
+      "out": 74,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov96",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/alcohol-depressant.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 87.04,
+      "out": 100.75,
+      "frames": [
+        {
+          "t": 87.04,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 89.44,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov97",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/nicotine.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 107.52,
+      "out": 111.25,
+      "frames": [
+        {
+          "t": 107.52,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 108.77,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 109.07,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov98",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/nicotine.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 123.25,
+      "out": 125,
+      "frames": [
+        {
+          "t": 123.25,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 124.13,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov99",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/caffeine.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 131.76,
+      "out": 137.75,
+      "frames": [
+        {
+          "t": 131.76,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 134.16,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov100",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/caffeine.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 144.68,
+      "out": 154.25,
+      "frames": [
+        {
+          "t": 144.68,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 152.23,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov101",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/cannabis-thc.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 171.08,
+      "out": 172,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov102",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/cannabis-thc.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 184,
+      "out": 193.25,
+      "frames": [
+        {
+          "t": 184,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 184.5,
           "cx": 960,
           "cy": 500,
           "w": 460,
@@ -4915,19 +4806,115 @@
       "_autoIco": true
     },
     {
-      "id": "cov105",
+      "id": "cov103",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/attention-economy.png",
+      "src": "assets/icons/cocaine-block.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 62.32,
-      "out": 62.75,
+      "in": 200.08,
+      "out": 205.5,
+      "frames": [
+        {
+          "t": 200.08,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 202.13,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov104",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/meth-dump.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 229.56,
+      "out": 235.75,
+      "frames": [
+        {
+          "t": 229.56,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 231.96,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov105",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/meth-dump.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 243.98,
+      "out": 245.75,
+      "frames": [
+        {
+          "t": 243.98,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 244.86,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -4942,7 +4929,7 @@
       "id": "cov106",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/variable-reward.png",
+      "src": "assets/icons/meth-dump.png",
       "box": {
         "cx": 960,
         "cy": 505,
@@ -4950,20 +4937,27 @@
         "h": 460
       },
       "z": 28,
-      "in": 66.5,
-      "out": 78.25,
+      "in": 252.72,
+      "out": 256.25,
       "frames": [
         {
-          "t": 66.5,
+          "t": 252.72,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 71.5,
+          "t": 254.47,
           "cx": 960,
           "cy": 500,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 255.52,
+          "cx": 960,
+          "cy": 505,
           "w": 460,
           "h": 460
         }
@@ -4982,7 +4976,7 @@
       "id": "cov107",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/variable-reward.png",
+      "src": "assets/icons/ecstasy-pill.png",
       "box": {
         "cx": 960,
         "cy": 505,
@@ -4990,22 +4984,22 @@
         "h": 460
       },
       "z": 28,
-      "in": 94.14,
-      "out": 104,
+      "in": 263.75,
+      "out": 268,
       "frames": [
         {
-          "t": 94.14,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 103.19,
+          "t": 263.75,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
+        },
+        {
+          "t": 265.88,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
         }
       ],
       "enter": {
@@ -5022,7 +5016,7 @@
       "id": "cov108",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/infinite-scroll.png",
+      "src": "assets/icons/ecstasy-pill.png",
       "box": {
         "cx": 960,
         "cy": 505,
@@ -5030,8 +5024,8 @@
         "h": 460
       },
       "z": 28,
-      "in": 127.72,
-      "out": 128.75,
+      "in": 274.88,
+      "out": 275.5,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5046,7 +5040,7 @@
       "id": "cov109",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/social-network.png",
+      "src": "assets/icons/opioids.png",
       "box": {
         "cx": 960,
         "cy": 505,
@@ -5054,18 +5048,18 @@
         "h": 460
       },
       "z": 28,
-      "in": 136.16,
-      "out": 139.5,
+      "in": 301.54,
+      "out": 312,
       "frames": [
         {
-          "t": 136.16,
+          "t": 301.54,
           "cx": 960,
           "cy": 500,
           "w": 460,
           "h": 460
         },
         {
-          "t": 137.96,
+          "t": 309.34,
           "cx": 960,
           "cy": 505,
           "w": 460,
@@ -5086,32 +5080,16 @@
       "id": "cov110",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/social-network.png",
+      "src": "assets/icons/hallucinogens.png",
       "box": {
         "cx": 960,
-        "cy": 505,
+        "cy": 500,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 138.66,
-      "out": 148.25,
-      "frames": [
-        {
-          "t": 138.66,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 146.91,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        }
-      ],
+      "in": 323.28,
+      "out": 324.25,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5126,30 +5104,30 @@
       "id": "cov111",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/photo-grid.png",
+      "src": "assets/icons/hallucinogens.png",
       "box": {
         "cx": 960,
-        "cy": 505,
+        "cy": 500,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 176.7,
-      "out": 179.75,
+      "in": 331.75,
+      "out": 333.75,
       "frames": [
         {
-          "t": 176.7,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 179,
+          "t": 331.75,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
+        },
+        {
+          "t": 332.75,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
         }
       ],
       "enter": {
@@ -5166,26 +5144,26 @@
       "id": "cov112",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/photo-grid.png",
+      "src": "assets/icons/hallucinogens.png",
       "box": {
         "cx": 960,
-        "cy": 500,
+        "cy": 505,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 192.34,
-      "out": 195,
+      "in": 340.68,
+      "out": 342,
       "frames": [
         {
-          "t": 192.34,
+          "t": 340.68,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 193.67,
+          "t": 341.34,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5206,7 +5184,7 @@
       "id": "cov113",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/play-button.png",
+      "src": "assets/icons/hallucinogens.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5214,8 +5192,8 @@
         "h": 460
       },
       "z": 28,
-      "in": 210.18,
-      "out": 210.5,
+      "in": 348.8,
+      "out": 350,
       "enter": {
         "kind": "fade-in",
         "duration": 0.35
@@ -5230,210 +5208,26 @@
       "id": "cov114",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/play-button.png",
+      "src": "assets/icons/benzos-trap.png",
       "box": {
         "cx": 960,
-        "cy": 505,
+        "cy": 500,
         "w": 460,
         "h": 460
       },
       "z": 28,
-      "in": 221.16,
-      "out": 225.25,
+      "in": 366,
+      "out": 368.75,
       "frames": [
         {
-          "t": 221.16,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 222.96,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov115",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/short-video.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 223.66,
-      "out": 233.75,
-      "frames": [
-        {
-          "t": 223.66,
+          "t": 366,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 232.66,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov116",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/short-video.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 241.12,
-      "out": 241.5,
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov117",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 265.46,
-      "out": 270.5,
-      "frames": [
-        {
-          "t": 265.46,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 269.76,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov118",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/briefcase-network.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 310.06,
-      "out": 315,
-      "frames": [
-        {
-          "t": 310.06,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 312.06,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov119",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/briefcase-network.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 322.34,
-      "out": 324,
-      "frames": [
-        {
-          "t": 322.34,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 323.17,
+          "t": 367.38,
           "cx": 960,
           "cy": 475,
           "w": 410,
@@ -5451,10 +5245,10 @@
       "_autoIco": true
     },
     {
-      "id": "cov120",
+      "id": "cov115",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/for-you-algo.png",
+      "src": "assets/icons/benzos-trap.png",
       "box": {
         "cx": 960,
         "cy": 505,
@@ -5462,20 +5256,188 @@
         "h": 460
       },
       "z": 28,
-      "in": 339.08,
-      "out": 342.5,
+      "in": 375.54,
+      "out": 379.5,
       "frames": [
         {
-          "t": 339.08,
+          "t": 375.54,
           "cx": 960,
-          "cy": 500,
+          "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 341.63,
+          "t": 377.52,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov116",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/dissociative.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 386.46,
+      "out": 392,
+      "frames": [
+        {
+          "t": 386.46,
           "cx": 960,
           "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 388.86,
+          "cx": 960,
+          "cy": 475,
+          "w": 410,
+          "h": 410
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov117",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/dissociative.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 398.86,
+      "out": 400,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov118",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/addiction-rewire.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 406.78,
+      "out": 407.5,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov119",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/addiction-rewire.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 415,
+      "out": 417.5,
+      "frames": [
+        {
+          "t": 415,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 415.5,
+          "cx": 960,
+          "cy": 500,
+          "w": 460,
+          "h": 460
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.35
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov120",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/addiction-rewire.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 460,
+        "h": 460
+      },
+      "z": 28,
+      "in": 434.18,
+      "out": 441,
+      "frames": [
+        {
+          "t": 434.18,
+          "cx": 960,
+          "cy": 505,
+          "w": 460,
+          "h": 460
+        },
+        {
+          "t": 438.68,
+          "cx": 960,
+          "cy": 500,
           "w": 460,
           "h": 460
         }
@@ -5494,7 +5456,7 @@
       "id": "cov121",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
+      "src": "assets/icons/addiction-rewire.png",
       "box": {
         "cx": 960,
         "cy": 500,
@@ -5502,349 +5464,22 @@
         "h": 460
       },
       "z": 28,
-      "in": 351.14,
-      "out": 353.5,
+      "in": 474.08,
+      "out": 486.5,
       "frames": [
         {
-          "t": 351.14,
+          "t": 474.08,
           "cx": 960,
           "cy": 505,
           "w": 460,
           "h": 460
         },
         {
-          "t": 352.32,
+          "t": 476.48,
           "cx": 960,
           "cy": 475,
           "w": 410,
           "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov122",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 360.84,
-      "out": 364,
-      "frames": [
-        {
-          "t": 360.84,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 362.42,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov123",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 371.48,
-      "out": 376.25,
-      "frames": [
-        {
-          "t": 371.48,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 375.23,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov124",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/data-profile.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 383.6,
-      "out": 389,
-      "frames": [
-        {
-          "t": 383.6,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 386,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov125",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/anxiety-sleep.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 409.04,
-      "out": 415,
-      "frames": [
-        {
-          "t": 409.04,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 409.79,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 414.09,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov126",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/take-control.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 428.28,
-      "out": 436,
-      "frames": [
-        {
-          "t": 428.28,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 430.68,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov127",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/take-control.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 443.42,
-      "out": 447.25,
-      "frames": [
-        {
-          "t": 443.42,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 446.22,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov128",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/take-control.png",
-      "box": {
-        "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 460.52,
-      "out": 464,
-      "frames": [
-        {
-          "t": 460.52,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 462.26,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
-      "enter": {
-        "kind": "fade-in",
-        "duration": 0.35
-      },
-      "exit": {
-        "kind": "fade-out",
-        "duration": 0.3
-      },
-      "_autoIco": true
-    },
-    {
-      "id": "cov129",
-      "type": "image",
-      "kind": "vector",
-      "src": "assets/icons/take-control.png",
-      "box": {
-        "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
-      },
-      "z": 28,
-      "in": 480.52,
-      "out": 487,
-      "frames": [
-        {
-          "t": 480.52,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 485.27,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
         }
       ],
       "enter": {
