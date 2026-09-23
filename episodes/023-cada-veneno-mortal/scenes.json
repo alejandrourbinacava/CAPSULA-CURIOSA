@@ -43,7 +43,7 @@
       },
       "z": 27,
       "in": 1.68,
-      "out": 9.18,
+      "out": 10.18,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -254,7 +254,7 @@
       },
       "z": 27,
       "in": 30.9,
-      "out": 38.4,
+      "out": 39.4,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -620,7 +620,7 @@
       },
       "z": 27,
       "in": 79.98,
-      "out": 87.48,
+      "out": 88.48,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -727,7 +727,7 @@
       },
       "z": 24,
       "in": 91.02,
-      "out": 103.02,
+      "out": 99.52,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -755,13 +755,6 @@
           "cy": 520,
           "w": 460,
           "h": 460
-        },
-        {
-          "t": 100.02,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
         }
       ]
     },
@@ -771,14 +764,14 @@
       "kind": "vector",
       "src": "assets/icons/hemlock-plant.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 1480,
+        "cy": 520,
+        "w": 300,
+        "h": 300
       },
       "z": 30,
       "in": 95.04,
-      "out": 100.04,
+      "out": 102.04,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -795,10 +788,10 @@
       "frames": [
         {
           "t": 95.04,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "cx": 1480,
+          "cy": 520,
+          "w": 300,
+          "h": 300
         }
       ]
     },
@@ -979,7 +972,7 @@
       },
       "z": 24,
       "in": 118.74,
-      "out": 130.74,
+      "out": 127.24,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -1014,13 +1007,6 @@
           "cy": 520,
           "w": 460,
           "h": 460
-        },
-        {
-          "t": 128.74,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
         }
       ]
     },
@@ -1030,10 +1016,10 @@
       "kind": "vector",
       "src": "assets/icons/dilated-pupils.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
       },
       "z": 30,
       "in": 128.4,
@@ -1054,10 +1040,10 @@
       "frames": [
         {
           "t": 128.4,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
         }
       ]
     },
@@ -1423,7 +1409,7 @@
       },
       "z": 27,
       "in": 170.12,
-      "out": 177.62,
+      "out": 178.62,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -1768,7 +1754,7 @@
       },
       "z": 24,
       "in": 213.72,
-      "out": 225.72,
+      "out": 222.22,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -1803,13 +1789,6 @@
           "cy": 520,
           "w": 460,
           "h": 460
-        },
-        {
-          "t": 224.72,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
         }
       ]
     },
@@ -1819,14 +1798,14 @@
       "kind": "vector",
       "src": "assets/icons/alchemist.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 1480,
+        "cy": 520,
+        "w": 300,
+        "h": 300
       },
       "z": 30,
       "in": 220.18,
-      "out": 225.18,
+      "out": 227,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -1843,10 +1822,10 @@
       "frames": [
         {
           "t": 220.18,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "cx": 1480,
+          "cy": 520,
+          "w": 300,
+          "h": 300
         }
       ]
     },
@@ -1915,7 +1894,23 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 219.72,
+          "cx": 960,
+          "cy": 830,
+          "w": 567,
+          "h": 90
+        },
+        {
+          "t": 222.22,
+          "cx": 960,
+          "cy": 500,
+          "w": 567,
+          "h": 90
+        }
+      ]
     },
     {
       "id": "mercury-metal_49",
@@ -2013,7 +2008,7 @@
       },
       "z": 24,
       "in": 241.76,
-      "out": 253.76,
+      "out": 250.26,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -2041,13 +2036,6 @@
           "cy": 520,
           "w": 460,
           "h": 460
-        },
-        {
-          "t": 252.26,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
         }
       ]
     },
@@ -2057,10 +2045,10 @@
       "kind": "vector",
       "src": "assets/icons/lead-pipe.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 1480,
+        "cy": 520,
+        "w": 300,
+        "h": 300
       },
       "z": 30,
       "in": 249.26,
@@ -2081,10 +2069,10 @@
       "frames": [
         {
           "t": 249.26,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "cx": 1480,
+          "cy": 520,
+          "w": 300,
+          "h": 300
         }
       ]
     },
@@ -2116,7 +2104,23 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 247.02,
+          "cx": 960,
+          "cy": 830,
+          "w": 651,
+          "h": 90
+        },
+        {
+          "t": 250.27,
+          "cx": 960,
+          "cy": 500,
+          "w": 651,
+          "h": 90
+        }
+      ]
     },
     {
       "id": "roman-decline_54",
@@ -2392,7 +2396,7 @@
       },
       "z": 27,
       "in": 298.3,
-      "out": 305.8,
+      "out": 305.9,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -2626,7 +2630,7 @@
       },
       "z": 27,
       "in": 324.7,
-      "out": 332.2,
+      "out": 333.2,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -2717,7 +2721,7 @@
       },
       "z": 27,
       "in": 341.1,
-      "out": 348.6,
+      "out": 349.6,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -2824,7 +2828,7 @@
       },
       "z": 24,
       "in": 350.12,
-      "out": 362.12,
+      "out": 358.62,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -2852,13 +2856,6 @@
           "cy": 520,
           "w": 460,
           "h": 460
-        },
-        {
-          "t": 360.37,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
         }
       ]
     },
@@ -2868,10 +2865,10 @@
       "kind": "vector",
       "src": "assets/icons/ricin-bean.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 1480,
+        "cy": 520,
+        "w": 300,
+        "h": 300
       },
       "z": 30,
       "in": 352.98,
@@ -2892,10 +2889,10 @@
       "frames": [
         {
           "t": 352.98,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "cx": 1480,
+          "cy": 520,
+          "w": 300,
+          "h": 300
         }
       ]
     },
@@ -3025,7 +3022,7 @@
       },
       "z": 27,
       "in": 374.7,
-      "out": 382.2,
+      "out": 383.2,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3262,7 +3259,7 @@
       },
       "z": 27,
       "in": 400.4,
-      "out": 407.9,
+      "out": 408.9,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3371,7 +3368,7 @@
           "h": 90
         },
         {
-          "t": 407.96,
+          "t": 408.96,
           "cx": 960,
           "cy": 500,
           "w": 820,
@@ -3499,10 +3496,10 @@
         },
         {
           "t": 437.92,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "cx": 1480,
+          "cy": 520,
+          "w": 300,
+          "h": 300
         }
       ]
     },
@@ -3593,7 +3590,7 @@
       },
       "z": 24,
       "in": 436.6,
-      "out": 448.6,
+      "out": 445.1,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -3621,13 +3618,6 @@
           "cy": 520,
           "w": 460,
           "h": 460
-        },
-        {
-          "t": 447.6,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
         }
       ]
     },
@@ -3637,14 +3627,14 @@
       "kind": "vector",
       "src": "assets/icons/water-overdose.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 1480,
+        "cy": 520,
+        "w": 300,
+        "h": 300
       },
       "z": 30,
       "in": 442.42,
-      "out": 447.42,
+      "out": 449.25,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3661,10 +3651,10 @@
       "frames": [
         {
           "t": 442.42,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "cx": 1480,
+          "cy": 520,
+          "w": 300,
+          "h": 300
         }
       ]
     },
@@ -3733,7 +3723,23 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 442.6,
+          "cx": 960,
+          "cy": 830,
+          "w": 630,
+          "h": 90
+        },
+        {
+          "t": 445.1,
+          "cx": 960,
+          "cy": 500,
+          "w": 630,
+          "h": 90
+        }
+      ]
     },
     {
       "id": "dose-makes-poison_95",
@@ -4679,8 +4685,8 @@
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
       "in": 0,
@@ -4690,20 +4696,20 @@
           "t": 0,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
           "t": 0.88,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -4715,12 +4721,12 @@
       "id": "cov99",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/silent-poison.png",
+      "src": "assets/icons/poison-cup.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
       "in": 13.9,
@@ -4730,20 +4736,20 @@
           "t": 13.9,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
           "t": 15.45,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -4759,8 +4765,8 @@
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
       "in": 23.94,
@@ -4770,20 +4776,20 @@
           "t": 23.94,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
           "t": 24.97,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -4799,8 +4805,8 @@
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
       "in": 48.18,
@@ -4810,20 +4816,20 @@
           "t": 48.18,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
           "t": 49.21,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -4839,8 +4845,8 @@
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
       "in": 63.78,
@@ -4850,20 +4856,20 @@
           "t": 63.78,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
           "t": 64.89,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -4879,31 +4885,31 @@
       "box": {
         "cx": 960,
         "cy": 505,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
       "in": 76.16,
-      "out": 80,
+      "out": 79.76,
       "frames": [
         {
           "t": 76.16,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 78.08,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "t": 77.96,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -4915,35 +4921,19 @@
       "id": "cov104",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/hemlock-plant.png",
+      "src": "assets/icons/spy-capsule.png",
       "box": {
         "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
+        "cy": 505,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 103.25,
-      "out": 106,
-      "frames": [
-        {
-          "t": 103.25,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 104.63,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
+      "in": 79.76,
+      "out": 80,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -4955,35 +4945,35 @@
       "id": "cov105",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/hemlock-plant.png",
+      "src": "assets/icons/socrates-cup.png",
       "box": {
         "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
+        "cy": 500,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 116.16,
-      "out": 118.75,
+      "in": 102.04,
+      "out": 105.64,
       "frames": [
         {
-          "t": 116.16,
+          "t": 102.04,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 117.66,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
+          "t": 103.84,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -4995,35 +4985,19 @@
       "id": "cov106",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/strychnine.png",
+      "src": "assets/icons/paralysis-up.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 158.32,
-      "out": 160.25,
-      "frames": [
-        {
-          "t": 158.32,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 159.28,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
+      "in": 105.64,
+      "out": 106,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5035,19 +5009,35 @@
       "id": "cov107",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/aqua-tofana.png",
+      "src": "assets/icons/hemlock-plant.png",
       "box": {
         "cx": 960,
         "cy": 505,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 169.8,
-      "out": 170.25,
+      "in": 116.16,
+      "out": 118.75,
+      "frames": [
+        {
+          "t": 116.16,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 117.66,
+          "cx": 960,
+          "cy": 500,
+          "w": 440,
+          "h": 440
+        }
+      ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5059,35 +5049,35 @@
       "id": "cov108",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/aqua-tofana.png",
+      "src": "assets/icons/belladonna-plant.png",
       "box": {
         "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
+        "cy": 505,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 186.44,
-      "out": 188.75,
+      "in": 127.25,
+      "out": 128.5,
       "frames": [
         {
-          "t": 186.44,
+          "t": 127.25,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 187.59,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "t": 127.88,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5099,19 +5089,35 @@
       "id": "cov109",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/aqua-tofana.png",
+      "src": "assets/icons/strychnine.png",
       "box": {
         "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
+        "cy": 500,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 197.62,
-      "out": 198,
+      "in": 158.32,
+      "out": 160.25,
+      "frames": [
+        {
+          "t": 158.32,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 159.28,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5126,32 +5132,16 @@
       "src": "assets/icons/aqua-tofana.png",
       "box": {
         "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
+        "cy": 505,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 204.84,
-      "out": 213.75,
-      "frames": [
-        {
-          "t": 204.84,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 207.24,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
+      "in": 169.8,
+      "out": 170.25,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5163,35 +5153,35 @@
       "id": "cov111",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/mercury-metal.png",
+      "src": "assets/icons/aqua-tofana.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 225.75,
-      "out": 227,
+      "in": 186.44,
+      "out": 188.75,
       "frames": [
         {
-          "t": 225.75,
+          "t": 186.44,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 226.38,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "t": 187.59,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5203,35 +5193,19 @@
       "id": "cov112",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/mercury-metal.png",
+      "src": "assets/icons/aqua-tofana.png",
       "box": {
         "cx": 960,
         "cy": 505,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 233.98,
-      "out": 239,
-      "frames": [
-        {
-          "t": 233.98,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 234.53,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        }
-      ],
+      "in": 197.62,
+      "out": 198,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5243,35 +5217,35 @@
       "id": "cov113",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/lead-pipe.png",
+      "src": "assets/icons/aqua-tofana.png",
       "box": {
         "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
+        "cy": 500,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 256.26,
-      "out": 264.5,
+      "in": 204.84,
+      "out": 208.44,
       "frames": [
         {
-          "t": 256.26,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 259.81,
+          "t": 204.84,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 206.64,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5283,35 +5257,35 @@
       "id": "cov114",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/thallium.png",
+      "src": "assets/icons/tasteless.png",
       "box": {
         "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
+        "cy": 500,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 269.1,
-      "out": 270.5,
+      "in": 208.44,
+      "out": 212.04,
       "frames": [
         {
-          "t": 269.1,
+          "t": 208.44,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 269.8,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "t": 210.24,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5323,35 +5297,35 @@
       "id": "cov115",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/thallium.png",
+      "src": "assets/icons/antifreeze.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 285.52,
-      "out": 298.5,
+      "in": 212.04,
+      "out": 213.75,
       "frames": [
         {
-          "t": 285.52,
+          "t": 212.04,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 287.92,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "t": 212.89,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5363,35 +5337,35 @@
       "id": "cov116",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/botulinum.png",
+      "src": "assets/icons/mercury-metal.png",
       "box": {
         "cx": 960,
         "cy": 505,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 317.24,
-      "out": 318.75,
+      "in": 233.98,
+      "out": 237.58,
       "frames": [
         {
-          "t": 317.24,
+          "t": 233.98,
           "cx": 960,
           "cy": 500,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 317.79,
+          "t": 234.53,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5403,35 +5377,35 @@
       "id": "cov117",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/pufferfish.png",
+      "src": "assets/icons/alchemist.png",
       "box": {
         "cx": 960,
         "cy": 505,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 325.64,
-      "out": 337.5,
+      "in": 237.58,
+      "out": 239,
       "frames": [
         {
-          "t": 325.64,
+          "t": 237.58,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 332.39,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
+          "t": 238.29,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5443,35 +5417,35 @@
       "id": "cov118",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/ricin-bean.png",
+      "src": "assets/icons/roman-decline.png",
       "box": {
         "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
+        "cy": 500,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 362.25,
-      "out": 367,
+      "in": 256.26,
+      "out": 259.86,
       "frames": [
         {
-          "t": 362.25,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 364.55,
+          "t": 256.26,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 258.06,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5483,19 +5457,35 @@
       "id": "cov119",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/polonium.png",
+      "src": "assets/icons/lead-pipe.png",
       "box": {
         "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
+        "cy": 505,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 373.78,
-      "out": 374.75,
+      "in": 259.86,
+      "out": 263.46,
+      "frames": [
+        {
+          "t": 259.86,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 261.66,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5507,35 +5497,19 @@
       "id": "cov120",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/polonium.png",
+      "src": "assets/icons/roman-decline.png",
       "box": {
         "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
+        "cy": 505,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 384.76,
-      "out": 390.25,
-      "frames": [
-        {
-          "t": 384.76,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 387.16,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
+      "in": 263.46,
+      "out": 264.5,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5547,35 +5521,35 @@
       "id": "cov121",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/nerve-agent.png",
+      "src": "assets/icons/thallium.png",
       "box": {
         "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
+        "cy": 505,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 397.04,
-      "out": 400.5,
+      "in": 269.1,
+      "out": 270.5,
       "frames": [
         {
-          "t": 397.04,
+          "t": 269.1,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 398.77,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "t": 269.8,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5587,35 +5561,35 @@
       "id": "cov122",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/nerve-agent.png",
+      "src": "assets/icons/thallium.png",
       "box": {
         "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
+        "cy": 500,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 410.68,
-      "out": 415.5,
+      "in": 285.52,
+      "out": 289.12,
       "frames": [
         {
-          "t": 410.68,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 414.73,
+          "t": 285.52,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 287.32,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5627,42 +5601,35 @@
       "id": "cov123",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/nerve-agent.png",
+      "src": "assets/icons/hair-loss.png",
       "box": {
         "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
+        "cy": 500,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 422.26,
-      "out": 433,
+      "in": 289.12,
+      "out": 292.72,
       "frames": [
         {
-          "t": 422.26,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 424.81,
+          "t": 289.12,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 430.51,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
+          "t": 290.92,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5674,19 +5641,35 @@
       "id": "cov124",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/dose-makes-poison.png",
+      "src": "assets/icons/tasteless.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 448.75,
-      "out": 449.25,
+      "in": 292.72,
+      "out": 296.32,
+      "frames": [
+        {
+          "t": 292.72,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 294.52,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5698,35 +5681,35 @@
       "id": "cov125",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/dose-makes-poison.png",
+      "src": "assets/icons/thallium.png",
       "box": {
         "cx": 960,
         "cy": 505,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 456.08,
-      "out": 460,
+      "in": 296.32,
+      "out": 298.5,
       "frames": [
         {
-          "t": 456.08,
+          "t": 296.32,
           "cx": 960,
           "cy": 500,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 457.88,
+          "t": 297.62,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5738,35 +5721,915 @@
       "id": "cov126",
       "type": "image",
       "kind": "vector",
+      "src": "assets/icons/botulinum.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 317.24,
+      "out": 318.75,
+      "frames": [
+        {
+          "t": 317.24,
+          "cx": 960,
+          "cy": 500,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 317.79,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov127",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/pufferfish.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 325.64,
+      "out": 329.24,
+      "frames": [
+        {
+          "t": 325.64,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 327.44,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov128",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/fugu-chef.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 329.24,
+      "out": 332.84,
+      "frames": [
+        {
+          "t": 329.24,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 331.04,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov129",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/conscious-paralysis.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 332.84,
+      "out": 336.44,
+      "frames": [
+        {
+          "t": 332.84,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 333.34,
+          "cx": 960,
+          "cy": 500,
+          "w": 440,
+          "h": 440
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov130",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/pufferfish.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 336.44,
+      "out": 337.5,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov131",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/ricin-bean.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 358.75,
+      "out": 362.35,
+      "frames": [
+        {
+          "t": 358.75,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 360.5,
+          "cx": 960,
+          "cy": 500,
+          "w": 440,
+          "h": 440
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov132",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/umbrella-murder.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 362.35,
+      "out": 365.95,
+      "frames": [
+        {
+          "t": 362.35,
+          "cx": 960,
+          "cy": 500,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 364.65,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov133",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/ricin-bean.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 365.95,
+      "out": 367,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov134",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/polonium.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 373.78,
+      "out": 374.75,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov135",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/poisoned-tea.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 384.76,
+      "out": 388.36,
+      "frames": [
+        {
+          "t": 384.76,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 386.56,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov136",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/polonium.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 388.36,
+      "out": 390.25,
+      "frames": [
+        {
+          "t": 388.36,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 389.31,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov137",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/nerve-agent.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 397.04,
+      "out": 400.5,
+      "frames": [
+        {
+          "t": 397.04,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 398.77,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov138",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/banned-weapon.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 410.68,
+      "out": 414.28,
+      "frames": [
+        {
+          "t": 410.68,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 412.48,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov139",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/nerve-agent.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 414.28,
+      "out": 415.5,
+      "frames": [
+        {
+          "t": 414.28,
+          "cx": 960,
+          "cy": 500,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 414.58,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov140",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/nerve-agent.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 422.26,
+      "out": 425.86,
+      "frames": [
+        {
+          "t": 422.26,
+          "cx": 960,
+          "cy": 500,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 424.81,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov141",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/banned-weapon.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 425.86,
+      "out": 429.46,
+      "frames": [
+        {
+          "t": 425.86,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 427.66,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov142",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/nerve-agent.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 429.46,
+      "out": 433,
+      "frames": [
+        {
+          "t": 429.46,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 430.46,
+          "cx": 960,
+          "cy": 500,
+          "w": 440,
+          "h": 440
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov143",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/dose-makes-poison.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 456.08,
+      "out": 459.68,
+      "frames": [
+        {
+          "t": 456.08,
+          "cx": 960,
+          "cy": 500,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 457.88,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov144",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/medicine-or-poison.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 459.68,
+      "out": 460,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov145",
+      "type": "image",
+      "kind": "vector",
       "src": "assets/icons/dose-makes-poison.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
       "in": 471.92,
-      "out": 490.5,
+      "out": 475.52,
       "frames": [
         {
           "t": 471.92,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 474.32,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "t": 473.72,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov146",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/medicine-or-poison.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 475.52,
+      "out": 479.12,
+      "frames": [
+        {
+          "t": 475.52,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 477.32,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov147",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/water-overdose.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 479.12,
+      "out": 482.72,
+      "frames": [
+        {
+          "t": 479.12,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 480.92,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov148",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/silent-poison.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 482.72,
+      "out": 486.32,
+      "frames": [
+        {
+          "t": 482.72,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 484.52,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov149",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/dose-makes-poison.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 486.32,
+      "out": 489.92,
+      "frames": [
+        {
+          "t": 486.32,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 488.12,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov150",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/medicine-or-poison.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 489.92,
+      "out": 490.5,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",

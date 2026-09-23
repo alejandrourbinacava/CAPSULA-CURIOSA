@@ -268,7 +268,7 @@ markers.forEach((mk, i) => {
   for (const e of elements) if (e._hold) e.out = +sectionEnd(e.in).toFixed(2);
   // TOPE HERO: ningún visual grande vive más de 12s (raro; solo beats con narración muy larga). Con
   //   movimiento continuo no se percibe estático, y así apenas se generan huecos de relevo.
-  for (const e of elements) if (e._hero && !e._hold) e.out = Math.min(e.out, +(e.in + 12).toFixed(2));
+  for (const e of elements) if (e._hero && !e._hold) e.out = Math.min(e.out, +(e.in + 8.5).toFixed(2)); // hero (foto/clip) máx 8.5s: protagonismo real sin quedarse estático largo
   // MOVIMIENTO DE HERO: entra GRANDE, luego se ENCOGE y va DERIVANDO durante TODA su vida, con keyframes
   //   cada ~2.6s (regla del usuario: "grande en el centro, después pequeño y se mueve"). Nunca queda quieto.
   for (const e of elements) {
@@ -289,9 +289,11 @@ markers.forEach((mk, i) => {
   const heroEls = elements.filter(e => e._hero);
   const heroLiveAt = (t) => heroEls.some(e => e.in <= t + 1e-6 && e.out > t + 1e-6);
   const heroPhotoAt = (t) => heroEls.some(e => e.kind === "cutout" && e.in <= t + 1e-6 && e.out > t + 1e-6);
-  const RCOL = [[1600, 400, 210], [1600, 630, 220], [1600, 850, 190]]; // columna derecha (siempre libre con hero)
-  const LCOL = [[490, 400, 200], [490, 630, 210], [490, 850, 190]];    // izquierda: solo si el hero va centrado (sin foto); despejada del badge [0,0,340,250]
-  const marginSlot = (i, hasPhoto) => { const seq = hasPhoto ? RCOL : [RCOL[0], LCOL[0], RCOL[1], LCOL[1], RCOL[2], LCOL[2]]; return seq[i % seq.length]; };
+  // Apoyos junto a un hero (foto/clip): FLANQUEAN la pieza a media altura, grandes y equilibrados
+  //   (derecha, luego izquierda, alternando) → un apoyo solo NO queda perdido en un rincón, y 2 quedan simétricos.
+  const RCOL = [[1480, 520, 300], [1480, 790, 240], [1480, 290, 220]];
+  const LCOL = [[470, 520, 290], [470, 790, 240], [470, 290, 220]];
+  const marginSlot = (i, hasPhoto) => { const seq = [RCOL[0], LCOL[0], RCOL[1], LCOL[1], RCOL[2], LCOL[2]]; return seq[i % seq.length]; };
   // layout por Nº de iconos vivos (posiciones orgánicas, un poco distintas cada vez → no cuadriculado)
   const jit = (i) => ((i * 53) % 40) - 20; // desплазamiento determinista pequeño
   const slot = (N, i) => { // banda segura: y 280..880 (bajo el título 210, sobre subtítulo 980), x 210..1710
@@ -322,7 +324,7 @@ markers.forEach((mk, i) => {
 }
 
 // TOPE (anti-hold largo) para TEXTOS y FOTOS (no para los doodles acumulativos, que persisten en el lienzo)
-const MAXLIFE = 5.0, MEDIALIFE = 7.5; // fotos/clips reales pueden durar más (protagonismo del 30-40%), pero sin quedarse demasiado estáticos
+const MAXLIFE = 5.0, MEDIALIFE = 8.5; // fotos/clips reales duran más (protagonismo del 30-40%); el estático que molestaba era el hero 12s + cobertura 24s, ya resueltos
 for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" && !e._keep && !e._accum && !e._hold && !e._hero) {
   const isMedia = e.type === "clip" || e.type === "gif" || (e.type === "image" && e.kind === "cutout");
   e.out = Math.min(e.out, +(e.in + (isMedia ? MEDIALIFE : MAXLIFE)).toFixed(2));
@@ -348,6 +350,12 @@ for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" &
   const epFallback = (() => { for (const k in assets) { const f = assetFile(k); if (f) return f; } return null; })();
   // capítulo con icono más cercano ANTES de t (ignora CHAP vacío); si no hay, el más cercano DESPUÉS
   const chAt = (t) => { let before = null, after = null; for (const c of chapters) { if (!c.icon) continue; if (c.t <= t + 0.01) before = c; else if (!after) after = c; } return before || after; };
+  // POOL por sección: doodles que aparecen en ese capítulo, para rellenar huecos ROTANDO (dinámico y relevante),
+  //   en vez de dejar UN icono fijo durante todo el hueco (lo que causaba el "mismo cerebro 24s sin cambiar").
+  const chIcons = chapters.filter(c => c.icon);
+  const secBounds = chIcons.map((c, i) => ({ t0: c.t, t1: i + 1 < chIcons.length ? chIcons[i + 1].t : dur + 1, icon: assetFile(c.icon) }));
+  const secPools = secBounds.map(sb => { const out = []; if (sb.icon) out.push(sb.icon); for (const e of elements) { if (e._accum && e.src && e.in >= sb.t0 - 1 && e.in < sb.t1 && !out.includes(e.src)) out.push(e.src); } return out; });
+  const poolAt = (t) => { for (let i = 0; i < secBounds.length; i++) if (t >= secBounds[i].t0 - 0.01 && t < secBounds[i].t1) return secPools[i]; return secPools.length ? secPools[secPools.length - 1] : []; };
   const BRIDGE_MAX = 2.5; // un doodle ya presente puede alargarse hasta 2.5s para tapar un microhueco (sin parpadeo ni salto)
   for (let t = 0; t <= dur;) {
     if (imgLive(t)) { t = +(t + STEP).toFixed(2); continue; }
@@ -357,10 +365,20 @@ for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" &
     let bridged = t, prev = null;
     for (const e of elements) { if (e.structural || e.type !== "image" || !e.box || e._keep || e._autoIco) continue; if (e.out <= t + 1e-6 && (!prev || e.out > prev.out)) prev = e; }
     if (prev) { const newOut = Math.min(e2, +(prev.out + BRIDGE_MAX).toFixed(2), +(prev.in + 7.0).toFixed(2)); if (newOut > prev.out) { prev.out = newOut; bridged = newOut; } } // tope DURO: ningún doodle en pantalla > 7s (aunque se use para varios microhuecos)
-    // 2) Si aún queda hueco, un ÚNICO relleno con el icono del capítulo (una sola entrada/salida, con leve deriva).
+    // 2) Si aún queda hueco, RELLENO ROTANDO iconos de la sección: un icono distinto ≈3.6s (nunca el mismo fijo).
     if (e2 - bridged > 0.3) {
-      const ch = chAt(bridged), src = (ch && ch.icon && assetFile(ch.icon)) || epFallback;
-      if (src) { const s0 = +bridged.toFixed(2), s1 = +e2.toFixed(2), seg = +(s1 - s0).toFixed(2); elements.push({ id: "cov" + auto++, type: "image", kind: "vector", src, box: { cx: 960, cy: 505, w: 460, h: 460 }, z: 28, in: s0, out: s1, frames: seg > 1.2 ? [{ t: s0, cx: 960, cy: 505, w: 460, h: 460 }, { t: +(s0 + Math.min(2.4, seg * 0.5)).toFixed(2), cx: 960, cy: 475, w: 410, h: 410 }] : undefined, enter: { kind: "fade-in", duration: 0.35 }, exit: { kind: "fade-out", duration: 0.3 }, _autoIco: true }); }
+      const pool = poolAt(bridged);
+      const list = (pool && pool.length) ? pool : [((chAt(bridged) || {}).icon && assetFile((chAt(bridged) || {}).icon)) || epFallback].filter(Boolean);
+      if (list.length) {
+        let k = 0, s = +bridged.toFixed(2);
+        if (list.length > 1 && prev && list[0] === prev.src) k = 1; // no empezar por el icono que acaba de salir
+        while (s < e2 - 0.01) {
+          const seg = Math.min(3.6, +(e2 - s).toFixed(2)); const s0 = +s.toFixed(2), s1 = +(s + seg).toFixed(2);
+          const src = list[k % list.length]; k++; const drift = (k % 2) ? 34 : -34;
+          elements.push({ id: "cov" + auto++, type: "image", kind: "vector", src, box: { cx: 960, cy: 505, w: 440, h: 440 }, z: 28, in: s0, out: s1, frames: seg > 1.2 ? [{ t: s0, cx: 960, cy: 505, w: 440, h: 440 }, { t: +(s0 + Math.min(2.2, seg * 0.5)).toFixed(2), cx: 960 + drift, cy: 485, w: 400, h: 400 }] : undefined, enter: { kind: "fade-in", duration: 0.3 }, exit: { kind: "fade-out", duration: 0.3 }, _autoIco: true });
+          s = s1;
+        }
+      }
     }
     t = e2;
   }

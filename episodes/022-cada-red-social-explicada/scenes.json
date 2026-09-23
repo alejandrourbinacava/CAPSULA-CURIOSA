@@ -43,7 +43,7 @@
       },
       "z": 27,
       "in": 0.74,
-      "out": 8.24,
+      "out": 9.24,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -326,7 +326,7 @@
       },
       "z": 24,
       "in": 31.32,
-      "out": 43.32,
+      "out": 39.82,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -363,10 +363,10 @@
       "kind": "vector",
       "src": "assets/icons/attention-economy.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 960,
+        "cy": 560,
+        "w": 470,
+        "h": 470
       },
       "z": 30,
       "in": 41.34,
@@ -387,10 +387,10 @@
       "frames": [
         {
           "t": 41.34,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "cx": 960,
+          "cy": 560,
+          "w": 470,
+          "h": 470
         }
       ]
     },
@@ -432,7 +432,7 @@
           "h": 90
         },
         {
-          "t": 43.48,
+          "t": 41.73,
           "cx": 960,
           "cy": 500,
           "w": 630,
@@ -453,7 +453,7 @@
       },
       "z": 24,
       "in": 47.82,
-      "out": 59.82,
+      "out": 56.32,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -564,7 +564,7 @@
       },
       "z": 27,
       "in": 63.96,
-      "out": 71.46,
+      "out": 72.46,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -787,7 +787,7 @@
       },
       "z": 24,
       "in": 103.88,
-      "out": 115.88,
+      "out": 112.38,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -815,13 +815,6 @@
           "cy": 500,
           "w": 460,
           "h": 460
-        },
-        {
-          "t": 112.93,
-          "cx": 960,
-          "cy": 520,
-          "w": 460,
-          "h": 460
         }
       ]
     },
@@ -831,10 +824,10 @@
       "kind": "vector",
       "src": "assets/icons/infinite-scroll.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 1480,
+        "cy": 520,
+        "w": 300,
+        "h": 300
       },
       "z": 30,
       "in": 111.66,
@@ -855,10 +848,10 @@
       "frames": [
         {
           "t": 111.66,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "cx": 1480,
+          "cy": 520,
+          "w": 300,
+          "h": 300
         }
       ]
     },
@@ -869,7 +862,7 @@
       "fontSize": 34,
       "box": {
         "cx": 960,
-        "cy": 830,
+        "cy": 500,
         "w": 778,
         "h": 90
       },
@@ -890,23 +883,7 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 113.52,
-          "cx": 960,
-          "cy": 830,
-          "w": 778,
-          "h": 90
-        },
-        {
-          "t": 116.02,
-          "cx": 960,
-          "cy": 500,
-          "w": 778,
-          "h": 90
-        }
-      ]
+      }
     },
     {
       "id": "clip-social-apps_22",
@@ -921,7 +898,7 @@
       },
       "z": 27,
       "in": 118.28,
-      "out": 125.78,
+      "out": 126.78,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -1057,30 +1034,7 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 123.76,
-          "cx": 960,
-          "cy": 830,
-          "w": 799,
-          "h": 90
-        },
-        {
-          "t": 126.01,
-          "cx": 960,
-          "cy": 500,
-          "w": 799,
-          "h": 90
-        },
-        {
-          "t": 126.56,
-          "cx": 960,
-          "cy": 830,
-          "w": 799,
-          "h": 90
-        }
-      ]
+      }
     },
     {
       "id": "clip-laptop_26",
@@ -1095,7 +1049,7 @@
       },
       "z": 27,
       "in": 139.4,
-      "out": 146.9,
+      "out": 147.9,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -1394,7 +1348,7 @@
       },
       "z": 27,
       "in": 165.46,
-      "out": 172.96,
+      "out": 173.96,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -1508,7 +1462,7 @@
       },
       "z": 27,
       "in": 179.66,
-      "out": 187.16,
+      "out": 188.16,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -1658,23 +1612,7 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      },
-      "frames": [
-        {
-          "t": 183.66,
-          "cx": 960,
-          "cy": 830,
-          "w": 778,
-          "h": 90
-        },
-        {
-          "t": 187.16,
-          "cx": 960,
-          "cy": 500,
-          "w": 778,
-          "h": 90
-        }
-      ]
+      }
     },
     {
       "id": "photo-laptop_40",
@@ -1689,7 +1627,7 @@
       },
       "z": 24,
       "in": 194.86,
-      "out": 206.86,
+      "out": 203.36,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -1733,10 +1671,10 @@
       "kind": "vector",
       "src": "assets/icons/recommendation-algo.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 1480,
+        "cy": 520,
+        "w": 300,
+        "h": 300
       },
       "z": 30,
       "in": 202.68,
@@ -1757,10 +1695,10 @@
       "frames": [
         {
           "t": 202.68,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "cx": 1480,
+          "cy": 520,
+          "w": 300,
+          "h": 300
         }
       ]
     },
@@ -1836,7 +1774,23 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 202.56,
+          "cx": 960,
+          "cy": 830,
+          "w": 820,
+          "h": 90
+        },
+        {
+          "t": 203.56,
+          "cx": 960,
+          "cy": 500,
+          "w": 820,
+          "h": 90
+        }
+      ]
     },
     {
       "id": "watch-time_44",
@@ -1941,7 +1895,7 @@
       },
       "z": 27,
       "in": 225.1,
-      "out": 232.6,
+      "out": 233.6,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -2166,7 +2120,7 @@
       },
       "z": 24,
       "in": 250.96,
-      "out": 262.96,
+      "out": 259.46,
       "auto": true,
       "_keep": false,
       "_accum": false,
@@ -2194,13 +2148,6 @@
           "cy": 520,
           "w": 460,
           "h": 460
-        },
-        {
-          "t": 260.96,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
         }
       ]
     },
@@ -2210,14 +2157,14 @@
       "kind": "vector",
       "src": "assets/icons/opinion-bubble.png",
       "box": {
-        "cx": 1600,
-        "cy": 400,
-        "w": 210,
-        "h": 210
+        "cx": 1480,
+        "cy": 520,
+        "w": 300,
+        "h": 300
       },
       "z": 30,
       "in": 254.76,
-      "out": 259.76,
+      "out": 261.76,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -2234,10 +2181,10 @@
       "frames": [
         {
           "t": 254.76,
-          "cx": 1600,
-          "cy": 400,
-          "w": 210,
-          "h": 210
+          "cx": 1480,
+          "cy": 520,
+          "w": 300,
+          "h": 300
         }
       ]
     },
@@ -2269,7 +2216,23 @@
       "exit": {
         "kind": "fade-out",
         "duration": 0.25
-      }
+      },
+      "frames": [
+        {
+          "t": 255.96,
+          "cx": 960,
+          "cy": 830,
+          "w": 588,
+          "h": 90
+        },
+        {
+          "t": 259.46,
+          "cx": 960,
+          "cy": 500,
+          "w": 588,
+          "h": 90
+        }
+      ]
     },
     {
       "id": "clip-typing_55",
@@ -2398,7 +2361,7 @@
       },
       "z": 27,
       "in": 278.3,
-      "out": 285.8,
+      "out": 286.8,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3136,7 +3099,7 @@
       },
       "z": 30,
       "in": 376.1,
-      "out": 383.1,
+      "out": 381.1,
       "auto": true,
       "_keep": false,
       "_accum": true,
@@ -3219,7 +3182,7 @@
       },
       "z": 27,
       "in": 380.88,
-      "out": 388.38,
+      "out": 389.38,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3238,7 +3201,7 @@
           "h": 551
         },
         {
-          "t": 382.43,
+          "t": 386.18,
           "cx": 960,
           "cy": 520,
           "w": 980,
@@ -3321,7 +3284,7 @@
           "h": 90
         },
         {
-          "t": 389.18,
+          "t": 389.43,
           "cx": 960,
           "cy": 500,
           "w": 609,
@@ -3342,7 +3305,7 @@
       },
       "z": 27,
       "in": 393.12,
-      "out": 400.62,
+      "out": 401.62,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3620,7 +3583,7 @@
       },
       "z": 27,
       "in": 425.88,
-      "out": 433.38,
+      "out": 434.38,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -3954,7 +3917,7 @@
       },
       "z": 27,
       "in": 471.52,
-      "out": 479.02,
+      "out": 480.02,
       "auto": true,
       "enter": {
         "kind": "pop",
@@ -4963,35 +4926,35 @@
       "id": "cov104",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/you-are-product.png",
+      "src": "assets/icons/social-network.png",
       "box": {
         "cx": 960,
         "cy": 505,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
       "in": 7.24,
-      "out": 18.25,
+      "out": 10.84,
       "frames": [
         {
           "t": 7.24,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 8.24,
+          "t": 9.24,
           "cx": 960,
           "cy": 500,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5003,35 +4966,35 @@
       "id": "cov105",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/attention-economy.png",
+      "src": "assets/icons/dopamine-hit.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 60,
-      "out": 62.75,
+      "in": 10.84,
+      "out": 14.44,
       "frames": [
         {
-          "t": 60,
+          "t": 10.84,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 61.38,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "t": 12.64,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5043,35 +5006,35 @@
       "id": "cov106",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/variable-reward.png",
+      "src": "assets/icons/slot-machine-phone.png",
       "box": {
         "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
+        "cy": 500,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 66.5,
-      "out": 78.25,
+      "in": 14.44,
+      "out": 18.04,
       "frames": [
         {
-          "t": 66.5,
+          "t": 14.44,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 71.5,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
+          "t": 16.24,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5083,35 +5046,19 @@
       "id": "cov107",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/variable-reward.png",
+      "src": "assets/icons/you-are-product.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 91.04,
-      "out": 104,
-      "frames": [
-        {
-          "t": 91.04,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 93.44,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
+      "in": 18.04,
+      "out": 18.25,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5123,35 +5070,35 @@
       "id": "cov108",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/infinite-scroll.png",
+      "src": "assets/icons/attention-economy.png",
       "box": {
         "cx": 960,
         "cy": 505,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 127.22,
-      "out": 128.75,
+      "in": 40,
+      "out": 41.5,
       "frames": [
         {
-          "t": 127.22,
+          "t": 40,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 127.98,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "t": 40.75,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5163,35 +5110,35 @@
       "id": "cov109",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/social-network.png",
+      "src": "assets/icons/attention-economy.png",
       "box": {
         "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
+        "cy": 500,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 135.66,
-      "out": 139.5,
+      "in": 56.5,
+      "out": 60.1,
       "frames": [
         {
-          "t": 135.66,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 138.71,
+          "t": 56.5,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 58.3,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5203,35 +5150,35 @@
       "id": "cov110",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/social-network.png",
+      "src": "assets/icons/dopamine-hit.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 147,
-      "out": 148.25,
+      "in": 60.1,
+      "out": 62.75,
       "frames": [
         {
-          "t": 147,
+          "t": 60.1,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 147.63,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "t": 61.43,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5243,19 +5190,35 @@
       "id": "cov111",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/social-network.png",
+      "src": "assets/icons/variable-reward.png",
       "box": {
         "cx": 960,
         "cy": 505,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 155.02,
-      "out": 155.5,
+      "in": 66.5,
+      "out": 70.1,
+      "frames": [
+        {
+          "t": 66.5,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 68.3,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5267,35 +5230,35 @@
       "id": "cov112",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/photo-grid.png",
+      "src": "assets/icons/slot-machine-phone.png",
       "box": {
         "cx": 960,
         "cy": 505,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 176.2,
-      "out": 179.75,
+      "in": 70.1,
+      "out": 73.7,
       "frames": [
         {
-          "t": 176.2,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 179,
+          "t": 70.1,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 72.6,
+          "cx": 960,
+          "cy": 500,
+          "w": 440,
+          "h": 440
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5307,35 +5270,35 @@
       "id": "cov113",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/photo-grid.png",
+      "src": "assets/icons/pull-to-refresh.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 191.84,
-      "out": 195,
+      "in": 73.7,
+      "out": 77.3,
       "frames": [
         {
-          "t": 191.84,
+          "t": 73.7,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 193.42,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "t": 75.5,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5347,19 +5310,19 @@
       "id": "cov114",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/play-button.png",
+      "src": "assets/icons/variable-reward.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 209.68,
-      "out": 210.5,
+      "in": 77.3,
+      "out": 78.25,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5371,42 +5334,35 @@
       "id": "cov115",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/play-button.png",
+      "src": "assets/icons/variable-reward.png",
       "box": {
         "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
+        "cy": 500,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 220.66,
-      "out": 225.25,
+      "in": 91.04,
+      "out": 94.64,
       "frames": [
         {
-          "t": 220.66,
+          "t": 91.04,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 221.16,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 224.46,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
+          "t": 92.84,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5418,19 +5374,35 @@
       "id": "cov116",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/short-video.png",
+      "src": "assets/icons/slot-machine-phone.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 232.75,
-      "out": 233.75,
+      "in": 94.64,
+      "out": 98.24,
+      "frames": [
+        {
+          "t": 94.64,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 96.44,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5442,35 +5414,35 @@
       "id": "cov117",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/short-video.png",
+      "src": "assets/icons/pull-to-refresh.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 240.62,
-      "out": 242.75,
+      "in": 98.24,
+      "out": 101.84,
       "frames": [
         {
-          "t": 240.62,
+          "t": 98.24,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 241.69,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "t": 100.04,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5482,35 +5454,35 @@
       "id": "cov118",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
+      "src": "assets/icons/variable-reward.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 263,
-      "out": 270.5,
+      "in": 101.84,
+      "out": 104,
       "frames": [
         {
-          "t": 263,
+          "t": 101.84,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 265.4,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "t": 102.92,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5522,35 +5494,35 @@
       "id": "cov119",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/ghost-message.png",
+      "src": "assets/icons/infinite-scroll.png",
       "box": {
         "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
+        "cy": 505,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 289.12,
-      "out": 291.25,
+      "in": 127.22,
+      "out": 128.75,
       "frames": [
         {
-          "t": 289.12,
+          "t": 127.22,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 290.19,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "t": 127.98,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5562,35 +5534,35 @@
       "id": "cov120",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/ghost-message.png",
+      "src": "assets/icons/social-network.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 300.4,
-      "out": 302.75,
+      "in": 135.66,
+      "out": 139.26,
       "frames": [
         {
-          "t": 300.4,
+          "t": 135.66,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 301.57,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "t": 137.46,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5602,35 +5574,19 @@
       "id": "cov121",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/briefcase-network.png",
+      "src": "assets/icons/news-feed.png",
       "box": {
         "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
+        "cy": 500,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 309.56,
-      "out": 315,
-      "frames": [
-        {
-          "t": 309.56,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 312.06,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        }
-      ],
+      "in": 139.26,
+      "out": 139.5,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5642,35 +5598,19 @@
       "id": "cov122",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/briefcase-network.png",
+      "src": "assets/icons/social-network.png",
       "box": {
         "cx": 960,
         "cy": 505,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 321.84,
-      "out": 324,
-      "frames": [
-        {
-          "t": 321.84,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 322.92,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
+      "in": 155.02,
+      "out": 155.5,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5682,35 +5622,35 @@
       "id": "cov123",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/for-you-algo.png",
+      "src": "assets/icons/comparison-envy.png",
       "box": {
         "cx": 960,
         "cy": 505,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 335.98,
-      "out": 342.5,
+      "in": 176.2,
+      "out": 179.75,
       "frames": [
         {
-          "t": 335.98,
+          "t": 176.2,
           "cx": 960,
           "cy": 500,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 341.78,
+          "t": 179,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5722,35 +5662,35 @@
       "id": "cov124",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
+      "src": "assets/icons/photo-grid.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 350.64,
-      "out": 353.5,
+      "in": 191.84,
+      "out": 195,
       "frames": [
         {
-          "t": 350.64,
+          "t": 191.84,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 352.07,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "t": 193.42,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5762,35 +5702,19 @@
       "id": "cov125",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
+      "src": "assets/icons/play-button.png",
       "box": {
         "cx": 960,
         "cy": 500,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 360.34,
-      "out": 364,
-      "frames": [
-        {
-          "t": 360.34,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 362.17,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
+      "in": 209.68,
+      "out": 210.5,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5802,35 +5726,35 @@
       "id": "cov126",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/opinion-bubble.png",
+      "src": "assets/icons/play-button.png",
       "box": {
         "cx": 960,
         "cy": 505,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 370.98,
-      "out": 376.25,
+      "in": 220.66,
+      "out": 224.26,
       "frames": [
         {
-          "t": 370.98,
+          "t": 220.66,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 375.23,
+          "t": 221.16,
           "cx": 960,
           "cy": 500,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5842,35 +5766,19 @@
       "id": "cov127",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/data-profile.png",
+      "src": "assets/icons/recommendation-algo.png",
       "box": {
         "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
+        "cy": 500,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 383.1,
-      "out": 389,
-      "frames": [
-        {
-          "t": 383.1,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 385.5,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
-        }
-      ],
+      "in": 224.26,
+      "out": 225.25,
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5882,42 +5790,35 @@
       "id": "cov128",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/anxiety-sleep.png",
+      "src": "assets/icons/for-you-algo.png",
       "box": {
         "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
+        "cy": 500,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 408.54,
-      "out": 415,
+      "in": 240.62,
+      "out": 242.75,
       "frames": [
         {
-          "t": 408.54,
+          "t": 240.62,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 409.79,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 414.09,
-          "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
+          "t": 241.69,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5929,35 +5830,35 @@
       "id": "cov129",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/take-control.png",
+      "src": "assets/icons/outrage-anger.png",
       "box": {
         "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
+        "cy": 500,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 427.78,
-      "out": 436,
+      "in": 261.76,
+      "out": 265.36,
       "frames": [
         {
-          "t": 427.78,
+          "t": 261.76,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 430.18,
-          "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "t": 263.56,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -5969,35 +5870,35 @@
       "id": "cov130",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/take-control.png",
+      "src": "assets/icons/opinion-bubble.png",
       "box": {
         "cx": 960,
-        "cy": 505,
-        "w": 460,
-        "h": 460
+        "cy": 500,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 442.92,
-      "out": 447.25,
+      "in": 265.36,
+      "out": 268.96,
       "frames": [
         {
-          "t": 442.92,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
-        },
-        {
-          "t": 446.22,
+          "t": 265.36,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 267.16,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -6009,35 +5910,35 @@
       "id": "cov131",
       "type": "image",
       "kind": "vector",
-      "src": "assets/icons/take-control.png",
+      "src": "assets/icons/outrage-anger.png",
       "box": {
         "cx": 960,
-        "cy": 500,
-        "w": 460,
-        "h": 460
+        "cy": 505,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
-      "in": 460.02,
-      "out": 464,
+      "in": 268.96,
+      "out": 270.5,
       "frames": [
         {
-          "t": 460.02,
+          "t": 268.96,
           "cx": 960,
-          "cy": 505,
-          "w": 460,
-          "h": 460
+          "cy": 500,
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 462.01,
+          "t": 269.76,
           "cx": 960,
-          "cy": 475,
-          "w": 410,
-          "h": 410
+          "cy": 505,
+          "w": 440,
+          "h": 440
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
@@ -6049,35 +5950,851 @@
       "id": "cov132",
       "type": "image",
       "kind": "vector",
+      "src": "assets/icons/outrage-anger.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 289.12,
+      "out": 291.25,
+      "frames": [
+        {
+          "t": 289.12,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 290.19,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov133",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/ghost-message.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 300.4,
+      "out": 302.75,
+      "frames": [
+        {
+          "t": 300.4,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 301.57,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov134",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/blue-check-typing.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 309.56,
+      "out": 313.16,
+      "frames": [
+        {
+          "t": 309.56,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 312.06,
+          "cx": 960,
+          "cy": 500,
+          "w": 440,
+          "h": 440
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov135",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/watch-time.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 313.16,
+      "out": 315,
+      "frames": [
+        {
+          "t": 313.16,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 314.08,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov136",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/briefcase-network.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 321.84,
+      "out": 324,
+      "frames": [
+        {
+          "t": 321.84,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 322.92,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov137",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/for-you-algo.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 335.98,
+      "out": 339.58,
+      "frames": [
+        {
+          "t": 335.98,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 337.78,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov138",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/watch-time.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 339.58,
+      "out": 342.5,
+      "frames": [
+        {
+          "t": 339.58,
+          "cx": 960,
+          "cy": 500,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 341.63,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov139",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/opinion-bubble.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 350.64,
+      "out": 353.5,
+      "frames": [
+        {
+          "t": 350.64,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 352.07,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov140",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/opinion-bubble.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 360.34,
+      "out": 363.94,
+      "frames": [
+        {
+          "t": 360.34,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 362.14,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov141",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/social-network.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 363.94,
+      "out": 364,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov142",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/opinion-bubble.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 370.98,
+      "out": 374.58,
+      "frames": [
+        {
+          "t": 370.98,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 372.78,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov143",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/social-network.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 374.58,
+      "out": 376.25,
+      "frames": [
+        {
+          "t": 374.58,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 375.08,
+          "cx": 960,
+          "cy": 500,
+          "w": 440,
+          "h": 440
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov144",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/anxiety-sleep.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 408.54,
+      "out": 412.14,
+      "frames": [
+        {
+          "t": 408.54,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 409.79,
+          "cx": 960,
+          "cy": 500,
+          "w": 440,
+          "h": 440
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov145",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/comparison-envy.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 412.14,
+      "out": 415,
+      "frames": [
+        {
+          "t": 412.14,
+          "cx": 960,
+          "cy": 500,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 413.94,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov146",
+      "type": "image",
+      "kind": "vector",
       "src": "assets/icons/take-control.png",
       "box": {
         "cx": 960,
         "cy": 505,
-        "w": 460,
-        "h": 460
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 427.78,
+      "out": 431.38,
+      "frames": [
+        {
+          "t": 427.78,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 429.58,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov147",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/red-notification.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 431.38,
+      "out": 434.98,
+      "frames": [
+        {
+          "t": 431.38,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 433.18,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov148",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/grayscale-phone.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 434.98,
+      "out": 436,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov149",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/red-notification.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 442.92,
+      "out": 446.52,
+      "frames": [
+        {
+          "t": 442.92,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 444.72,
+          "cx": 926,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov150",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/grayscale-phone.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 446.52,
+      "out": 447.25,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov151",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/take-control.png",
+      "box": {
+        "cx": 960,
+        "cy": 500,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 460.02,
+      "out": 463.62,
+      "frames": [
+        {
+          "t": 460.02,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 461.82,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov152",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/red-notification.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 463.62,
+      "out": 464,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov153",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/take-control.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
       },
       "z": 28,
       "in": 480.02,
-      "out": 487,
+      "out": 483.62,
       "frames": [
         {
           "t": 480.02,
           "cx": 960,
           "cy": 505,
-          "w": 460,
-          "h": 460
+          "w": 440,
+          "h": 440
         },
         {
-          "t": 485.27,
-          "cx": 960,
-          "cy": 500,
-          "w": 460,
-          "h": 460
+          "t": 481.82,
+          "cx": 994,
+          "cy": 485,
+          "w": 400,
+          "h": 400
         }
       ],
       "enter": {
         "kind": "fade-in",
-        "duration": 0.35
+        "duration": 0.3
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.3
+      },
+      "_autoIco": true
+    },
+    {
+      "id": "cov154",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/red-notification.png",
+      "box": {
+        "cx": 960,
+        "cy": 505,
+        "w": 440,
+        "h": 440
+      },
+      "z": 28,
+      "in": 483.62,
+      "out": 487,
+      "frames": [
+        {
+          "t": 483.62,
+          "cx": 960,
+          "cy": 505,
+          "w": 440,
+          "h": 440
+        },
+        {
+          "t": 485.12,
+          "cx": 960,
+          "cy": 500,
+          "w": 440,
+          "h": 440
+        }
+      ],
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.3
       },
       "exit": {
         "kind": "fade-out",
