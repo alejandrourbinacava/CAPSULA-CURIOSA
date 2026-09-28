@@ -292,7 +292,7 @@
   "photo-socrates": {
     "kind": "cutout",
     "query": "Sócrates busto",
-    "file": "assets/icons/photo-socrates.jpg"
+    "file": null
   },
   "photo-pufferfish": {
     "kind": "cutout",
