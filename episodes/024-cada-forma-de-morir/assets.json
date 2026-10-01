@@ -1,0 +1,439 @@
+{
+  "death-process": {
+    "kind": "vector",
+    "query": "an hourglass showing death as a process not a switch",
+    "file": "assets/icons/death-process.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "brain-last": {
+    "kind": "vector",
+    "query": "a brain glowing as the last organ to shut down",
+    "file": "assets/icons/brain-last.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "calm-light": {
+    "kind": "vector",
+    "query": "a peaceful warm light at the end of a tunnel, near death calm",
+    "file": "assets/icons/calm-light.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "endorphin-release": {
+    "kind": "vector",
+    "query": "a brain releasing calming soothing chemicals",
+    "file": "assets/icons/endorphin-release.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "drowning": {
+    "kind": "vector",
+    "query": "a person sinking underwater, drowning",
+    "file": "assets/icons/drowning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hold-breath": {
+    "kind": "vector",
+    "query": "a person holding their breath underwater",
+    "file": "assets/icons/hold-breath.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "peaceful-end": {
+    "kind": "vector",
+    "query": "a serene calm peaceful face letting go",
+    "file": "assets/icons/peaceful-end.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "falling": {
+    "kind": "vector",
+    "query": "a person falling from a great height",
+    "file": "assets/icons/falling.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "adrenaline": {
+    "kind": "vector",
+    "query": "an adrenaline rush of fear and panic",
+    "file": "assets/icons/adrenaline.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "instant-impact": {
+    "kind": "vector",
+    "query": "an instant faster than thought, a flash",
+    "file": "assets/icons/instant-impact.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hypothermia": {
+    "kind": "vector",
+    "query": "a shivering person freezing in the snow",
+    "file": "assets/icons/hypothermia.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "paradoxical-warmth": {
+    "kind": "vector",
+    "query": "a freezing person feeling fake warmth taking off clothes",
+    "file": "assets/icons/paradoxical-warmth.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sleepy-snow": {
+    "kind": "vector",
+    "query": "a person falling asleep peacefully in the snow",
+    "file": "assets/icons/sleepy-snow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fire-flames": {
+    "kind": "vector",
+    "query": "orange flames of a fire",
+    "file": "assets/icons/fire-flames.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "smoke-faint": {
+    "kind": "vector",
+    "query": "smoke making a person faint and lose consciousness",
+    "file": "assets/icons/smoke-faint.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "heart-attack": {
+    "kind": "vector",
+    "query": "a person clutching their chest in a heart attack",
+    "file": "assets/icons/heart-attack.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "brain-shutdown": {
+    "kind": "vector",
+    "query": "consciousness fading out in a brain",
+    "file": "assets/icons/brain-shutdown.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-oxygen": {
+    "kind": "vector",
+    "query": "lungs with no oxygen, suffocation symbol",
+    "file": "assets/icons/no-oxygen.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "co2-alarm": {
+    "kind": "vector",
+    "query": "carbon dioxide building up triggering a panic alarm",
+    "file": "assets/icons/co2-alarm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "inert-gas": {
+    "kind": "vector",
+    "query": "breathing a gas without oxygen, dizzy and euphoric",
+    "file": "assets/icons/inert-gas.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "carbon-monoxide": {
+    "kind": "vector",
+    "query": "colorless gas leaking from a badly vented heater",
+    "file": "assets/icons/carbon-monoxide.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "silent-killer": {
+    "kind": "vector",
+    "query": "a silent invisible killer gas with a skull",
+    "file": "assets/icons/silent-killer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "bleeding-out": {
+    "kind": "vector",
+    "query": "blood pressure dropping, fading away",
+    "file": "assets/icons/bleeding-out.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cold-hands": {
+    "kind": "vector",
+    "query": "cold blue hands and feet losing warmth",
+    "file": "assets/icons/cold-hands.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "extreme-thirst": {
+    "kind": "vector",
+    "query": "a person with extreme thirst, dry mouth",
+    "file": "assets/icons/extreme-thirst.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lightning-strike": {
+    "kind": "vector",
+    "query": "a powerful lightning bolt striking",
+    "file": "assets/icons/lightning-strike.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "heart-stop": {
+    "kind": "vector",
+    "query": "a heart stopped by an electric shock, flatline",
+    "file": "assets/icons/heart-stop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "space-vacuum": {
+    "kind": "vector",
+    "query": "an astronaut floating in the vacuum of space, no explosion",
+    "file": "assets/icons/space-vacuum.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "boiling-blood": {
+    "kind": "vector",
+    "query": "body water boiling at low pressure, bubbles",
+    "file": "assets/icons/boiling-blood.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "black-hole": {
+    "kind": "vector",
+    "query": "a swirling black hole in space",
+    "file": "assets/icons/black-hole.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "spaghettification": {
+    "kind": "vector",
+    "query": "a person stretched like a thin spaghetti strand",
+    "file": "assets/icons/spaghettification.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "old-age": {
+    "kind": "vector",
+    "query": "a peaceful elderly person at the end of life",
+    "file": "assets/icons/old-age.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "slow-breathing": {
+    "kind": "vector",
+    "query": "breathing slowing down until it stops gently",
+    "file": "assets/icons/slow-breathing.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "candle-out": {
+    "kind": "vector",
+    "query": "a candle flame gently blowing out",
+    "file": "assets/icons/candle-out.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "less-fear": {
+    "kind": "vector",
+    "query": "fear fading away, feeling calm and brave",
+    "file": "assets/icons/less-fear.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "value-life": {
+    "kind": "vector",
+    "query": "valuing and enjoying each day of being alive, sunrise",
+    "file": "assets/icons/value-life.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "snake-venom": {
+    "kind": "vector",
+    "query": "a venomous snake with a drop of venom",
+    "file": "assets/icons/snake-venom.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "neurotoxin": {
+    "kind": "vector",
+    "query": "a venom paralyzing the muscles, nerve toxin",
+    "file": "assets/icons/neurotoxin.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "jellyfish-sting": {
+    "kind": "vector",
+    "query": "a jellyfish with a painful stinging tentacle",
+    "file": "assets/icons/jellyfish-sting.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "buried-avalanche": {
+    "kind": "vector",
+    "query": "a person buried under snow in an avalanche",
+    "file": "assets/icons/buried-avalanche.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-brain": {
+    "kind": "cutout",
+    "query": "Cerebro humano",
+    "file": "assets/icons/photo-brain.jpg"
+  },
+  "photo-heart": {
+    "kind": "cutout",
+    "query": "Corazón humano anatomía",
+    "file": "assets/icons/photo-heart.jpg"
+  },
+  "photo-snow": {
+    "kind": "cutout",
+    "query": "Montaña nevada",
+    "file": "assets/icons/photo-snow.jpg"
+  },
+  "photo-fire": {
+    "kind": "cutout",
+    "query": "Fuego llamas",
+    "file": "assets/icons/photo-fire.jpg"
+  },
+  "photo-lungs": {
+    "kind": "cutout",
+    "query": "Pulmones humanos",
+    "file": "assets/icons/photo-lungs.jpg"
+  },
+  "photo-astronaut": {
+    "kind": "cutout",
+    "query": "Astronauta",
+    "file": "assets/icons/photo-astronaut.jpg"
+  },
+  "photo-lightning": {
+    "kind": "cutout",
+    "query": "Rayo tormenta",
+    "file": "assets/icons/photo-lightning.jpg"
+  },
+  "photo-candle": {
+    "kind": "vector",
+    "query": "Vela encendida",
+    "file": "assets/icons/photo-candle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-blackhole": {
+    "kind": "cutout",
+    "query": "Agujero negro",
+    "file": "assets/icons/photo-blackhole.jpg"
+  },
+  "photo-sunrise": {
+    "kind": "cutout",
+    "query": "Amanecer",
+    "file": "assets/icons/photo-sunrise.jpg"
+  },
+  "clip-brain": {
+    "kind": "clip",
+    "query": "brain animation neurons blue",
+    "file": "assets/clips/clip-brain.mp4"
+  },
+  "clip-underwater": {
+    "kind": "clip",
+    "query": "sinking underwater deep blue",
+    "file": "assets/clips/clip-underwater.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pavel Danilyuk",
+      "url": "https://www.pexels.com/video/ocean-surface-7318087/"
+    }
+  },
+  "clip-snow": {
+    "kind": "clip",
+    "query": "snow blizzard cold storm",
+    "file": "assets/clips/clip-snow.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Cyrus Photography",
+      "url": "https://www.pexels.com/video/a-snowstorm-in-a-rural-area-14867477/"
+    }
+  },
+  "clip-fire": {
+    "kind": "clip",
+    "query": "fire flames burning close up",
+    "file": "assets/clips/clip-fire.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/burning-fire-on-black-background-9667144/"
+    }
+  },
+  "clip-heartbeat": {
+    "kind": "clip",
+    "query": "heartbeat monitor pulse hospital",
+    "file": "assets/clips/clip-heartbeat.mp4"
+  },
+  "clip-lightning": {
+    "kind": "clip",
+    "query": "lightning storm strike night",
+    "file": "assets/clips/clip-lightning.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "JONATHAN ZAVALA",
+      "url": "https://www.pexels.com/video/dramatic-lightning-strikes-at-night-32943917/"
+    }
+  },
+  "clip-space": {
+    "kind": "clip",
+    "query": "astronaut space earth orbit",
+    "file": "assets/clips/clip-space.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pixabay",
+      "url": "https://www.pexels.com/video/cg-animation-of-astronauts-in-space-854255/"
+    }
+  },
+  "clip-candle": {
+    "kind": "clip",
+    "query": "candle flame burning dark",
+    "file": "assets/clips/clip-candle.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Ravi Kiran",
+      "url": "https://www.pexels.com/video/candle-burning-17795659/"
+    }
+  },
+  "clip-clouds": {
+    "kind": "clip",
+    "query": "clouds sky light peaceful",
+    "file": "assets/clips/clip-clouds.mp4"
+  },
+  "clip-skydive": {
+    "kind": "clip",
+    "query": "skydiving falling through sky",
+    "file": "assets/clips/clip-skydive.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Enrique",
+      "url": "https://www.pexels.com/video/two-men-skydiving-11376704/"
+    }
+  },
+  "clip-blackhole": {
+    "kind": "clip",
+    "query": "black hole space cosmic swirl",
+    "file": "assets/clips/clip-blackhole.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/cinematic-black-hole-with-swirling-red-gas-36527017/"
+    }
+  },
+  "clip-sunrise": {
+    "kind": "clip",
+    "query": "sunrise nature golden peaceful",
+    "file": "assets/clips/clip-sunrise.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "rehan verma",
+      "url": "https://www.pexels.com/video/trees-and-sky-at-day-break-2446545/"
+    }
+  }
+}
