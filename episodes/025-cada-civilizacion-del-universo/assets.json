@@ -1,0 +1,414 @@
+{
+  "billions-stars": {
+    "kind": "vector",
+    "query": "a sky full of billions of stars and galaxies",
+    "file": "assets/icons/billions-stars.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "empty-silence": {
+    "kind": "vector",
+    "query": "a radio telescope hearing only silence from space",
+    "file": "assets/icons/empty-silence.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "where-everyone": {
+    "kind": "vector",
+    "query": "a big question mark over an empty silent universe",
+    "file": "assets/icons/where-everyone.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "energy-scale": {
+    "kind": "vector",
+    "query": "energy as the measure of a civilization, a power meter",
+    "file": "assets/icons/energy-scale.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "kardashev-ladder": {
+    "kind": "vector",
+    "query": "a ladder of civilization levels going up to the stars",
+    "file": "assets/icons/kardashev-ladder.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "type-zero": {
+    "kind": "vector",
+    "query": "a primitive civilization burning coal oil and gas",
+    "file": "assets/icons/type-zero.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cosmic-teenager": {
+    "kind": "vector",
+    "query": "humanity as a reckless cosmic teenager",
+    "file": "assets/icons/cosmic-teenager.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "self-destruct-power": {
+    "kind": "vector",
+    "query": "power enough to self destruct but not to control",
+    "file": "assets/icons/self-destruct-power.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "type-one-planet": {
+    "kind": "vector",
+    "query": "a civilization controlling its entire planet energy",
+    "file": "assets/icons/type-one-planet.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "control-weather": {
+    "kind": "vector",
+    "query": "controlling the weather, storms and earthquakes",
+    "file": "assets/icons/control-weather.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "harness-sun": {
+    "kind": "vector",
+    "query": "harnessing all the solar wind and volcano energy of a planet",
+    "file": "assets/icons/harness-sun.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "masters-of-world": {
+    "kind": "vector",
+    "query": "absolute masters of their own world",
+    "file": "assets/icons/masters-of-world.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "type-two-star": {
+    "kind": "vector",
+    "query": "a civilization harnessing its entire star",
+    "file": "assets/icons/type-two-star.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dyson-sphere": {
+    "kind": "vector",
+    "query": "a Dyson sphere megastructure around a star",
+    "file": "assets/icons/dyson-sphere.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "indestructible": {
+    "kind": "vector",
+    "query": "an indestructible godlike civilization shield",
+    "file": "assets/icons/indestructible.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "move-planets": {
+    "kind": "vector",
+    "query": "moving entire planets like marbles",
+    "file": "assets/icons/move-planets.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "type-three-galaxy": {
+    "kind": "vector",
+    "query": "a civilization controlling an entire galaxy",
+    "file": "assets/icons/type-three-galaxy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tame-stars": {
+    "kind": "vector",
+    "query": "taming billions of stars at once",
+    "file": "assets/icons/tame-stars.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ai-machines": {
+    "kind": "vector",
+    "query": "a civilization turned into artificial intelligence machines",
+    "file": "assets/icons/ai-machines.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "magic-tech": {
+    "kind": "vector",
+    "query": "technology so advanced it looks like magic",
+    "file": "assets/icons/magic-tech.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "type-four-universe": {
+    "kind": "vector",
+    "query": "a civilization controlling the entire universe",
+    "file": "assets/icons/type-four-universe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "type-five-multiverse": {
+    "kind": "vector",
+    "query": "a civilization manipulating multiple universes, the multiverse",
+    "file": "assets/icons/type-five-multiverse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "godlike": {
+    "kind": "vector",
+    "query": "godlike beings creating and destroying realities",
+    "file": "assets/icons/godlike.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fermi-paradox": {
+    "kind": "vector",
+    "query": "the universe should be full of life but looks empty, paradox",
+    "file": "assets/icons/fermi-paradox.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "where-are-they": {
+    "kind": "vector",
+    "query": "searching the sky and finding nobody",
+    "file": "assets/icons/where-are-they.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "great-filter": {
+    "kind": "vector",
+    "query": "a great filter barrier that stops most civilizations",
+    "file": "assets/icons/great-filter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "filter-future": {
+    "kind": "vector",
+    "query": "a dangerous filter waiting in our future",
+    "file": "assets/icons/filter-future.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "self-destruction": {
+    "kind": "vector",
+    "query": "a civilization destroying itself",
+    "file": "assets/icons/self-destruction.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "nuclear-ai-danger": {
+    "kind": "vector",
+    "query": "nuclear bombs and rogue AI destroying a civilization",
+    "file": "assets/icons/nuclear-ai-danger.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "we-are-first": {
+    "kind": "vector",
+    "query": "maybe we are the first pioneers of the galaxy",
+    "file": "assets/icons/we-are-first.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "zoo-hypothesis": {
+    "kind": "vector",
+    "query": "advanced aliens watching earth like animals in a zoo",
+    "file": "assets/icons/zoo-hypothesis.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dark-forest": {
+    "kind": "vector",
+    "query": "a dark forest where everyone hides silently in fear",
+    "file": "assets/icons/dark-forest.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cant-recognize": {
+    "kind": "vector",
+    "query": "an ant that cannot understand a huge highway",
+    "file": "assets/icons/cant-recognize.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "drake-equation": {
+    "kind": "vector",
+    "query": "the Drake equation formula on a chalkboard",
+    "file": "assets/icons/drake-equation.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "alone-or-gods": {
+    "kind": "vector",
+    "query": "alone in the void or surrounded by godlike civilizations",
+    "file": "assets/icons/alone-or-gods.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "we-are-beginning": {
+    "kind": "vector",
+    "query": "humanity as the beginning of everything, a spark",
+    "file": "assets/icons/we-are-beginning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-galaxy": {
+    "kind": "cutout",
+    "query": "Galaxia espiral",
+    "file": "assets/icons/photo-galaxy.jpg"
+  },
+  "photo-milkyway": {
+    "kind": "cutout",
+    "query": "Vía Láctea",
+    "file": "assets/icons/photo-milkyway.jpg"
+  },
+  "photo-sun": {
+    "kind": "cutout",
+    "query": "Sol estrella",
+    "file": "assets/icons/photo-sun.jpg"
+  },
+  "photo-earth": {
+    "kind": "cutout",
+    "query": "Planeta Tierra",
+    "file": "assets/icons/photo-earth.jpg"
+  },
+  "photo-telescope": {
+    "kind": "cutout",
+    "query": "Radiotelescopio",
+    "file": "assets/icons/photo-telescope.jpg"
+  },
+  "photo-nebula": {
+    "kind": "cutout",
+    "query": "Nebulosa",
+    "file": "assets/icons/photo-nebula.jpg"
+  },
+  "photo-astronaut": {
+    "kind": "cutout",
+    "query": "Astronauta",
+    "file": "assets/icons/photo-astronaut.jpg"
+  },
+  "photo-saturn": {
+    "kind": "cutout",
+    "query": "Saturno planeta",
+    "file": "assets/icons/photo-saturn.jpg"
+  },
+  "photo-andromeda": {
+    "kind": "cutout",
+    "query": "Galaxia de Andrómeda",
+    "file": "assets/icons/photo-andromeda.jpg"
+  },
+  "photo-blackhole": {
+    "kind": "cutout",
+    "query": "Agujero negro",
+    "file": "assets/icons/photo-blackhole.jpg"
+  },
+  "clip-stars": {
+    "kind": "clip",
+    "query": "starry night sky stars",
+    "file": "assets/clips/clip-stars.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Lance Alyas",
+      "url": "https://www.pexels.com/video/starry-sky-14369240/"
+    }
+  },
+  "clip-galaxy": {
+    "kind": "clip",
+    "query": "galaxy space stars spiral",
+    "file": "assets/clips/clip-galaxy.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/vibrant-cosmic-galaxy-animation-in-deep-space-29790911/"
+    }
+  },
+  "clip-space": {
+    "kind": "clip",
+    "query": "deep space nebula stars",
+    "file": "assets/clips/clip-space.mp4"
+  },
+  "clip-earth": {
+    "kind": "clip",
+    "query": "earth from space rotating",
+    "file": "assets/clips/clip-earth.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pixabay",
+      "url": "https://www.pexels.com/video/planet-earth-revolving-854518/"
+    }
+  },
+  "clip-sun": {
+    "kind": "clip",
+    "query": "sun solar surface closeup",
+    "file": "assets/clips/clip-sun.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/dynamic-solar-animation-with-flare-effects-32680837/"
+    }
+  },
+  "clip-telescope": {
+    "kind": "clip",
+    "query": "radio telescope observatory night sky",
+    "file": "assets/clips/clip-telescope.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Matthias Groeneveld",
+      "url": "https://www.pexels.com/video/a-radio-telescope-in-a-research-center-astronomy-2954003/"
+    }
+  },
+  "clip-milkyway": {
+    "kind": "clip",
+    "query": "milky way timelapse night sky",
+    "file": "assets/clips/clip-milkyway.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Bohdan Borovyk",
+      "url": "https://www.pexels.com/video/time-lapse-video-of-a-night-sky-8644889/"
+    }
+  },
+  "clip-nebula": {
+    "kind": "clip",
+    "query": "colorful nebula space clouds",
+    "file": "assets/clips/clip-nebula.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Gogh Zoom",
+      "url": "https://www.pexels.com/video/colorful-outer-space-15289793/"
+    }
+  },
+  "clip-astronaut": {
+    "kind": "clip",
+    "query": "astronaut space station orbit",
+    "file": "assets/clips/clip-astronaut.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pixabay",
+      "url": "https://www.pexels.com/video/cg-animation-of-astronauts-in-space-854255/"
+    }
+  },
+  "clip-planet": {
+    "kind": "clip",
+    "query": "planet rotating in space",
+    "file": "assets/clips/clip-planet.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tony Flanagan",
+      "url": "https://www.pexels.com/video/celestial-eclipse-in-a-vibrant-cosmic-scene-31227185/"
+    }
+  },
+  "clip-blackhole": {
+    "kind": "clip",
+    "query": "black hole cosmic space swirl",
+    "file": "assets/clips/clip-blackhole.mp4"
+  },
+  "clip-rocket": {
+    "kind": "clip",
+    "query": "rocket launch into space",
+    "file": "assets/clips/clip-rocket.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kindel Media",
+      "url": "https://www.pexels.com/video/close-up-shot-of-a-toy-rocket-7615680/"
+    }
+  }
+}
