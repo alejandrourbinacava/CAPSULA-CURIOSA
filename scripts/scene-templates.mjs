@@ -7,7 +7,7 @@
 //              cycle (ciclo cerrado) · converge (varias causas → un efecto) · radial (centro rodeado) · zigzag (cascada) ·
 //              timeline (línea con hitos arriba/abajo) · grid (2 columnas, sin flechas) · words (frase grande que se escribe palabra a palabra)
 // Estilo por escena (SCENE flow dark):  fondo → dark · paper · dots · grid · tint · gradient · plain   (si no se indica, rota solo)
-//                                       placas bajo los iconos → plate · plain   ·   transición → nowipe   ·   cámara → push · pull · track
+//                                       placas bajo los iconos → plate · plain   ·   transición → wipe (opcional)   ·   cámara → push · pull · track
 // Variantes (SCENE flow rtl):  flow: rtl (de derecha a izquierda) · grow (cada nodo mayor que el anterior)
 //                              ladder: down (descenso) · hub: mirror (concepto a la derecha, abanico a la izquierda)
 // Además cada escena alterna sola: cámara (empuje / alejamiento / paneo izq / paneo der) y forma de salir.
@@ -28,9 +28,9 @@ export function buildScene(spec, ctx) {
   const dark = V.has("dark"), INK = dark ? "#FFFFFF" : ctx.STROKE;
   const PAL = ["#FFF3C4", "#DDF1FF", "#FFE3E8", "#E3F7DC", "#EEE5FF", "#FFE9D2"];
   const bgKinds = ["plain", "paper", "tint", "dots", "plain", "gradient", "grid", "plain"]; // alterna solo; nunca dos escenas seguidas iguales
-  const bgk = ["dark", "paper", "dots", "grid", "tint", "gradient", "plain"].find(k => V.has(k)) || bgKinds[(beat.num * 3) % 8];
+  const bgk = ["dark", "paper", "dots", "grid", "tint", "gradient", "plain"].find(k => V.has(k)) || "plain"; // IDENTIDAD DEL CANAL: fondo blanco siempre; los demás sólo si el autor los pide en la línea SCENE
   if (bgk !== "plain") els.push({ id: `bg${beat.num}`, type: "bg", kind: bgk, color: dark ? "#080D2B" : bgk === "paper" ? "#FBF3E0" : (bgk === "dots" || bgk === "grid") ? "#FFFFFF" : PAL[beat.num % 6], color2: dark ? "#1E2D6B" : PAL[(beat.num + 2) % 6], z: 1, in: +Math.max(0, t0 - 0.3).toFixed(2), out: t1, enter: { kind: "fade-in", duration: 0.35 }, exit: { kind: "fade-out", duration: 0.35 }, _scene: true });
-  const plateMode = dark ? "white" : V.has("plain") ? null : (V.has("plate") || beat.num % 3 === 1) ? "pastel" : null; // iconos sobre disco/tarjeta de color
+  const plateMode = dark ? "white" : V.has("plain") ? null : V.has("plate") ? "pastel" : null; // iconos sobre disco/tarjeta de color
   let ni = 0;
   const dirEnter = (dx, dy) => Math.abs(dx) >= Math.abs(dy) ? (dx >= 0 ? "slide-l" : "slide-r") : (dy >= 0 ? "slide-t" : "slide-b"); // entra desde donde viene la flecha
 
@@ -56,7 +56,7 @@ export function buildScene(spec, ctx) {
       els.push({ id: id("pl"), type: "panel", kind: pk === "disc" ? "disc" : "card", color: plateMode === "white" ? "#FFFFFF" : PAL[(idx + beat.num) % PAL.length], box: { cx, cy, w: ps, h: ps }, rotate: pk === "tilt" ? (idx % 2 ? 4 : -4) : 0, z: 26, in: +(nd.t - 0.03).toFixed(2), out: t1, enter: ctx.enterOf("pop"), exit: { kind: exitK, duration: 0.3 }, structural: true, _scene: true });
       nd._box = { cx, cy, w: ps, h: ps };
     }
-    const tilt = (isClip || nd.kind === "photo") && !V.has("flat") ? ((idx + beat.num) % 2 ? 2 : -2) : 0; // fotos/clips ligeramente inclinados (collage)
+    const tilt = (isClip || nd.kind === "photo") && V.has("tilt") ? ((idx + beat.num) % 2 ? 2 : -2) : 0; // fotos/clips ligeramente inclinados (collage)
     const base = { id: id("n"), box: { cx, cy, w, h }, ...(tilt ? { rotate: tilt } : {}), in: nd.t, out: t1, z: isClip ? 27 : 30, enter: ctx.enterOf(enter || "pop"), exit: { kind: exitK, duration: 0.3 }, _scene: true };
     if (isClip) els.push({ ...base, type: "clip", src: nd.src, frame: "rounded" });
     else els.push({ ...base, type: "image", kind: nd.kind === "photo" ? "cutout" : "vector", src: nd.src, ...(nd.kind === "photo" ? { kenburns: true } : {}) });
@@ -252,7 +252,7 @@ export function buildScene(spec, ctx) {
     : { t0, t1, s0: 1.05, s1: 1.05, x0: kind === "panL" ? 34 : -34, y0: 0, x1: kind === "panL" ? -34 : 34, y1: 0 };
   for (const e of els) if (e.type !== "bg") e.cam = cam;
   // TRANSICIÓN: en las escenas pares un panel de color cruza la pantalla justo al empezar (a veces desde la izq., arriba, en iris…)
-  if (beat.num % 2 === 0 && !V.has("nowipe")) { const wk = ["left", "up", "iris", "right"], wc = [ctx.RED, "#111111", "#FFD43B", "#1098AD"], wi = (beat.num / 2) % 4;
+  if (V.has("wipe")) { const wk = ["left", "up", "iris", "right"], wc = [ctx.RED, "#111111", "#FFD43B", "#1098AD"], wi = (beat.num / 2) % 4;
     els.push({ id: `wp${beat.num}`, type: "wipe", kind: wk[wi], color: wc[(wi + beat.num) % 4], z: 200, in: +Math.max(0, t0 - 0.4).toFixed(2), out: +(t0 + 0.3).toFixed(2), enter: { kind: "fade-in", duration: 0.01 }, exit: { kind: "fade-out", duration: 0.01 }, _scene: true }); }
   return els;
 }
