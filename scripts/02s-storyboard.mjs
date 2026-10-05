@@ -363,7 +363,7 @@ for (const e of elements) if (e.box && !e._scene && !e.structural && e.type !== 
 //   pantalla, se rellena con el ICONO DEL CAPÍTULO actual (relevante). Nada de texto flotando solo.
 {
   const STEP = 0.25;
-  const imgLive = (t) => elements.some(e => !e.structural && (e.type === "image" || e.type === "clip" || e.type === "gif") && e.in <= t + 1e-6 && e.out > t + 1e-6);
+  const imgLive = (t) => elements.some(e => !e.structural && (e.type === "image" || e.type === "clip" || e.type === "gif" || (e._scene && (e.type === "text" || e.type === "stat"))) && e.in <= t + 1e-6 && e.out > t + 1e-6); // una escena de diagrama (aunque sea sólo texto grande) ya es contenido
   // fallback SIEMPRE disponible en el episodio: primer icono que resuelva (nunca uno de otro vídeo)
   const epFallback = (() => { for (const k in assets) { const f = assetFile(k); if (f) return f; } return null; })();
   // capítulo con icono más cercano ANTES de t (ignora CHAP vacío); si no hay, el más cercano DESPUÉS
@@ -435,7 +435,7 @@ for (const e of elements) if (e.box && !e._scene && !e.structural && e.type !== 
 }
 
 // assets DECLARADOS en el storyboard (para el gate: si falta alguno → FALLO)
-const declared = [...new Set([...sbText.matchAll(/^\s*[+-]\d[\d.]*\s+(?:IMG|ICO|GIF|CLIP|NODE)\s+([a-z0-9-]+)/gmi)].map(m => m[1]).filter(x => x !== "asset-id"))];
+const declared = [...new Set([...sbText.matchAll(/^\s*[+-]\d[\d.]*\s+(?:IMG|ICO|GIF|CLIP|NODE)\s+([a-z0-9-]+)/gmi)].map(m => m[1]).filter(x => x !== "asset-id" && x !== "-"))];
 const placedIds = new Set(elements.filter(e => e.src).map(e => (e.id.replace(/_\d+$/, ""))));
 const missing = declared.filter(id => !placedIds.has(id) && !assetFile(id));
 const meta = { fps: 30, width: W, height: H, duration: +dur.toFixed(2), audio: "active/audio.mp3", title, profile: PROFILE.name, storyboard: true, declaredMissing: missing };

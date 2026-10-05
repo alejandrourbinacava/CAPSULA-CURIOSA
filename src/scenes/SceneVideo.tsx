@@ -22,7 +22,7 @@ type Anim = { kind: string; duration?: number };
 type Pt = { x: number; y: number };
 type El = {
   id: string;
-  type: "image" | "text" | "arrow" | "stickman" | "clip" | "gif" | "shape" | "stat" | "title" | "boxtext" | "watermark";
+  type: "image" | "text" | "arrow" | "stickman" | "clip" | "gif" | "shape" | "stat" | "title" | "boxtext" | "watermark" | "bg" | "panel" | "wipe";
   src?: string; content?: string; unit?: string; color?: string; size?: "sm" | "md" | "lg" | "xl" | "title";
   box?: Box; frame?: string; pose?: string; head?: string; kind?: string; rotate?: number; opacity?: number; underline?: boolean; echo?: boolean;
   a?: Pt; b?: Pt; curve?: "up" | "down" | "none";
@@ -129,6 +129,40 @@ const Framed: React.FC<{ frame?: string; w: number; h: number; children: React.R
   return <div style={{ padding: 10, background: "#fff", borderRadius: 18, border: "5px solid #111", boxShadow: "0 12px 34px rgba(0,0,0,.18)", display: "flex" }}>{children}</div>;
 };
 
+// ============================ FONDO DE ESCENA ============================
+// Cambia de estilo entre escenas (papel, puntos, cuadrícula, color, degradado, espacio oscuro) y NO sigue a la cámara: al
+// moverse la cámara el fondo queda atrás y se nota profundidad (parallax). Sólo CSS/SVG, sin imágenes.
+const rnd = (i: number, sd: number) => { const x = Math.sin(i * 127.1 + sd * 311.7) * 43758.5453; return x - Math.floor(x); };
+const SceneBg: React.FC<{ el: El; t: number }> = ({ el, t }) => {
+  const c = el.color || "#FBF3E0", c2 = (el as any).color2 || "#DDF1FF", k = el.kind || "tint";
+  if (k === "dark") {
+    const stars = Array.from({ length: 120 }, (_, i) => { const sp = 3 + (i % 4) * 5, r = 0.9 + rnd(i, 2) * 2.4;
+      return { x: (((rnd(i, 1) * 1920 - t * sp) % 1920) + 1920) % 1920, y: rnd(i, 3) * 1080, r, o: 0.35 + 0.65 * (0.5 + 0.5 * Math.sin(t * (0.8 + rnd(i, 4) * 2) + i)) }; });
+    return <div style={{ position: "absolute", inset: 0, background: `radial-gradient(ellipse at 50% 40%, ${c2} 0%, ${c} 75%)` }}>
+      <svg width={1920} height={1080} style={{ position: "absolute", inset: 0 }}>{stars.map((s2, i) => <circle key={i} cx={s2.x} cy={s2.y} r={s2.r} fill="#fff" opacity={s2.o} />)}</svg></div>;
+  }
+  if (k === "dots") return <div style={{ position: "absolute", inset: 0, backgroundColor: c, backgroundImage: "radial-gradient(rgba(17,17,17,.13) 3.5px, transparent 4px)", backgroundSize: "60px 60px", backgroundPosition: `${(t * 9) % 60}px ${(t * 5) % 60}px` }} />;
+  if (k === "grid") return <div style={{ position: "absolute", inset: 0, backgroundColor: c, backgroundImage: "linear-gradient(rgba(30,110,190,.14) 2px, transparent 2px), linear-gradient(90deg, rgba(30,110,190,.14) 2px, transparent 2px)", backgroundSize: "80px 80px", backgroundPosition: `${(t * 8) % 80}px ${(t * 4) % 80}px` }} />;
+  if (k === "gradient") return <div style={{ position: "absolute", inset: 0, background: `linear-gradient(${120 + ((t * 4) % 60)}deg, ${c}, ${c2})` }} />;
+  if (k === "paper") return <div style={{ position: "absolute", inset: 0, background: `radial-gradient(ellipse at center, ${c} 55%, rgba(150,110,50,.18) 130%)` }} />;
+  return <div style={{ position: "absolute", inset: 0, background: c }} />;
+};
+
+// TRANSICIÓN entre escenas: un panel de color que cruza la pantalla (cubre y descubre). En su punto medio ya cambió la escena.
+const WipeEl: React.FC<{ el: El; t: number }> = ({ el, t }) => {
+  const p = clamp01((t - el.in) / Math.max(0.1, el.out - el.in)), k = el.kind || "left", col = el.color || RED;
+  const ease = (x: number) => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
+  const st: React.CSSProperties = { position: "absolute", inset: 0, zIndex: el.z ?? 200, background: col };
+  if (k === "iris") {
+    if (p < 0.5) { const r = ease(p * 2) * 1250; st.clipPath = `circle(${r}px at 50% 50%)`; (st as any).WebkitClipPath = st.clipPath; }
+    else { const r = ease((p - 0.5) * 2) * 1250; const m = `radial-gradient(circle at 50% 50%, transparent ${r}px, #000 ${r + 2}px)`; (st as any).maskImage = m; (st as any).WebkitMaskImage = m; }
+    return <div style={st} />;
+  }
+  const sg = p < 0.5 ? -(1 - ease(p * 2)) : ease((p - 0.5) * 2); // -1 → 0 → +1
+  st.transform = k === "left" ? `translateX(${sg * 100}%)` : k === "right" ? `translateX(${-sg * 100}%)` : k === "up" ? `translateY(${-sg * 100}%)` : `translateY(${sg * 100}%)`;
+  return <div style={st} />;
+};
+
 // ============================ ELEMENTO ============================
 // número que CUENTA hasta su valor ("100.000", "0,7", "12 %"): formato es-ES, easing de salida
 const countText = (content: string, p: number) => {
@@ -160,6 +194,8 @@ const ElementInner: React.FC<{ el: El }> = ({ el }) => {
     box = { cx: prev.cx + (kf.cx - prev.cx) * e, cy: prev.cy + (kf.cy - prev.cy) * e, w: prev.w + (kf.w - prev.w) * e, h: prev.h + (kf.h - prev.h) * e };
   }
   const z = el.z ?? zOf(el);
+  if (el.type === "bg") return <div style={{ position: "absolute", inset: 0, zIndex: z, opacity: inP * (1 - outP) }}><SceneBg el={el} t={t} /></div>;
+  if (el.type === "wipe") return <WipeEl el={el} t={t} />;
 
   // dibujos progresivos (flecha/shape) usan solo el progreso de entrada
   if (el.type === "arrow") return <div style={{ position: "absolute", inset: 0, zIndex: z }}><ArrowEl el={el} p={inP} /></div>;
@@ -200,10 +236,18 @@ const ElementInner: React.FC<{ el: El }> = ({ el }) => {
   if ((el as any).kenburns) scale *= 1 + 0.08 * clamp01((t - el.in) / Math.max(0.1, el.out - el.in)); // zoom lento Ken Burns (protagonista no congelado)
   const common: React.CSSProperties = { position: "absolute", left: box.cx, top: box.cy, zIndex: z, transform: `translate(-50%,-50%) translate(${tx}px,${ty}px) rotate(${rot}deg) scale(${scale})`, opacity, clipPath: clip, WebkitClipPath: clip, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", width: box.w, height: box.h };
 
+  // PLACA detrás de un icono (disco pastel / tarjeta / tarjeta inclinada) o barra de resaltado (marcador) detrás de una palabra
+  if (el.type === "panel") {
+    const k = el.kind || "disc", col = el.color || "#FFE8A3";
+    const sty: React.CSSProperties = k === "disc" ? { borderRadius: "50%", background: col }
+      : k === "bar" ? { borderRadius: 12, background: col, opacity: 0.7 }
+      : { borderRadius: 38, background: col, border: `4px solid ${STROKE}`, boxShadow: "8px 8px 0 rgba(17,17,17,.28)" };
+    return <div style={{ ...common, flexDirection: "row" }}><div style={{ width: "100%", height: "100%", ...sty }} /></div>;
+  }
   if (el.type === "text") {
     const fsz = (el as any).fontSize || TEXT_SIZE[el.size || "md"];
     // COHERENCIA: SIEMPRE la misma fuente (Patrick Hand). El énfasis es solo el color rojo, no otra fuente.
-    return <div style={{ ...common, clipPath: clip, WebkitClipPath: clip }}><div style={{ fontFamily: HAND, fontWeight: 700, fontSize: fsz, color: el.color || STROKE, textAlign: "center", lineHeight: 1.1, whiteSpace: "nowrap", textShadow: HALO }}>{el.content}</div></div>;
+    return <div style={{ ...common, clipPath: clip, WebkitClipPath: clip }}><div style={{ fontFamily: HAND, fontWeight: 700, fontSize: fsz, color: el.color || STROKE, textAlign: "center", lineHeight: 1.1, whiteSpace: "nowrap", textShadow: (el as any).noHalo ? "0 2px 6px rgba(0,0,0,.55)" : HALO }}>{el.content}</div></div>;
   }
   if (el.type === "title") {
     const fsz = (el as any).fontSize || TEXT_SIZE.title;

@@ -82,7 +82,7 @@ for (const fr of frames) {
   for (const fr of frames) {
     const dyn = fr.elements.filter(e => !e.structural);
     const hasText = dyn.some(e => TEXT_TYPES.has(e.type));
-    const hasImg = dyn.some(e => e.type === "image" || e.type === "clip" || e.type === "gif");
+    const hasImg = dyn.some(e => e.type === "image" || e.type === "clip" || e.type === "gif" || /^w\d+_/.test(e.id)); // la frase grande de una escena "words" (tipografía cinética) cuenta como contenido
     if (hasText && !hasImg) { if (run === 0) { runStart = fr.t; runId = (dyn.find(e => TEXT_TYPES.has(e.type)) || {}).id; } run += STEP; }
     else { if (run > 0.6) fails.push({ t: runStart, kind: "texto-sin-icono", msg: `texto "${runId}" sin ningún icono en pantalla durante ${run.toFixed(1)}s (todo texto lleva icono)` }); run = 0; }
   }
