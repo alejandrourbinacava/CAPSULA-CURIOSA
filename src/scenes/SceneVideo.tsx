@@ -255,10 +255,11 @@ const ElementInner: React.FC<{ el: El }> = ({ el }) => {
 // centro del lienzo. Todos los elementos de una escena (flechas incluidas) comparten el mismo `cam` → se mueven como un solo plano.
 const Element: React.FC<{ el: El }> = ({ el }) => {
   const frame = useCurrentFrame(); const { fps } = useVideoConfig();
-  const cam = (el as any).cam as { t0: number; t1: number; s0: number; s1: number } | undefined;
+  const cam = (el as any).cam as { t0: number; t1: number; s0: number; s1: number; x0?: number; y0?: number; x1?: number; y1?: number; ox?: number; oy?: number } | undefined;
   if (!cam) return <ElementInner el={el} />;
   const p = clamp01((frame / fps - cam.t0) / Math.max(0.1, cam.t1 - cam.t0)), e = p * p * (3 - 2 * p);
-  return <div style={{ position: "absolute", inset: 0, zIndex: el.z ?? 30, transform: `scale(${cam.s0 + (cam.s1 - cam.s0) * e})`, transformOrigin: "960px 540px" }}><ElementInner el={el} /></div>;
+  const tx = (cam.x0 ?? 0) + ((cam.x1 ?? 0) - (cam.x0 ?? 0)) * e, ty = (cam.y0 ?? 0) + ((cam.y1 ?? 0) - (cam.y0 ?? 0)) * e;
+  return <div style={{ position: "absolute", inset: 0, zIndex: el.z ?? 30, transform: `translate(${tx}px, ${ty}px) scale(${cam.s0 + (cam.s1 - cam.s0) * e})`, transformOrigin: `${cam.ox ?? 960}px ${cam.oy ?? 540}px` }}><ElementInner el={el} /></div>;
 };
 
 export const makeSceneVideo = (scenes: Scenes): React.FC => () => (

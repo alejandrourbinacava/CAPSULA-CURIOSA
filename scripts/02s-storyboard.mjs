@@ -41,7 +41,7 @@ const A = {
 const anchorXY = (a) => A[a] || A.center;
 const FS = { stat: 140, lg: 60, md: 46, sm: 36, cap: 34 };
 const COL = { red: RED, yellow: "#E9A400", green: "#2F9E44", cyan: "#1098AD", magenta: "#C2255C" };
-const ENTER = { pop: { kind: "pop", duration: 0.4 }, fade: { kind: "fade-in", duration: 0.4 }, "slide-l": { kind: "slide-in-left", duration: 0.4 }, "slide-r": { kind: "slide-in-right", duration: 0.4 }, "slide-t": { kind: "slide-in-top", duration: 0.4 }, draw: { kind: "draw", duration: 0.6 }, handwrite: { kind: "handwrite", duration: 0.6 }, stamp: { kind: "stamp", duration: 0.3 }, whip: { kind: "stamp", duration: 0.25 } };
+const ENTER = { pop: { kind: "pop", duration: 0.4 }, fade: { kind: "fade-in", duration: 0.4 }, "slide-l": { kind: "slide-in-left", duration: 0.4 }, "slide-r": { kind: "slide-in-right", duration: 0.4 }, "slide-t": { kind: "slide-in-top", duration: 0.4 }, "slide-b": { kind: "slide-in-bottom", duration: 0.4 }, draw: { kind: "draw", duration: 0.6 }, handwrite: { kind: "handwrite", duration: 0.6 }, stamp: { kind: "stamp", duration: 0.3 }, whip: { kind: "stamp", duration: 0.25 } };
 const enterOf = (e) => ENTER[(e || "pop").toLowerCase()] || ENTER.pop;
 
 // --- PARSEAR BEATS (del storyboard, no del guion) ---
@@ -116,7 +116,7 @@ for (const b of beats) {
     if (!m) continue;
     const [, , offs, type, rest0] = m; const t = +clamp(parseFloat(offs)).toFixed(2); const rest = rest0.trim();
     // ===== ESCENA DE DIAGRAMA: SCENE <plantilla> · NODE <asset> "etiqueta" ~palabra · STAT "valor" "unidad" =====
-    if (type === "SCENE") { b._scene = { template: rest.split(/\s+/)[0].toLowerCase(), nodes: [], stat: null }; continue; }
+    if (type === "SCENE") { { const w = rest.split(/\s+/).map(x => x.toLowerCase()); b._scene = { template: w[0], variant: w.slice(1), nodes: [], stat: null }; } continue; }
     if (type === "STAT") { const q = [...rest.matchAll(/"([^"]*)"/g)].map(m => m[1]); if (b._scene) b._scene.stat = { value: q[0] || "", unit: q[1] || "" }; continue; }
     if (type === "NODE") {
       if (!b._scene) { warns.push(`NODE sin SCENE (beat ${b.num})`); continue; }
@@ -243,7 +243,7 @@ for (const b of beats) {
     }
   }
   if (b._scene && b._scene.nodes.length) { // construye el diagrama del beat (nodos con la voz + flechas), simétrico
-    try { elements.push(...buildScene({ template: b._scene.template, nodes: b._scene.nodes, stat: b._scene.stat, beat: b }, { enterOf, RED, STROKE })); }
+    try { elements.push(...buildScene({ template: b._scene.template, variant: b._scene.variant, nodes: b._scene.nodes, stat: b._scene.stat, beat: b }, { enterOf, RED, STROKE })); }
     catch (e) { warns.push(`SCENE beat ${b.num}: ${e.message}`); }
   }
   closeAll(b.t1); // por defecto, cada beat limpia al terminar (salvo lo ya cerrado)

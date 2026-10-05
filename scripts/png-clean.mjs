@@ -32,6 +32,20 @@ export function cleanAlphaPng(buf, thr = 12) {
   }
   let changed = 0;
   for (let i = 0; i < w * h; i++) { const o = i * 4; if (out[o + 3] > 0 && out[o + 3] <= thr) { out[o] = out[o + 1] = out[o + 2] = out[o + 3] = 0; changed++; } }
+  // BORDE CORTADO: si el dibujo toca el borde de la imagen (gpt-image lo recorta a veces) se vería una línea recta.
+  //   En los lados afectados la opacidad se desvanece con un degradado suave (smoothstep) en vez de cortar en seco.
+  const F = Math.max(8, Math.round(Math.min(w, h) * 0.055)); const touch = { t: false, b: false, l: false, r: false };
+  const edgeMean = (get, len) => { let s = 0; for (let i = 0; i < len; i++) { let m = 0; for (let k = 0; k < 3; k++) m = Math.max(m, get(i, k)); s += m > 40 ? 1 : 0; } return s / len; };
+  const A = (x, y) => out[(y * w + x) * 4 + 3];
+  touch.t = edgeMean((i, k) => A(i, k), w) > 0.01; touch.b = edgeMean((i, k) => A(i, h - 1 - k), w) > 0.01;
+  touch.l = edgeMean((i, k) => A(k, i), h) > 0.01; touch.r = edgeMean((i, k) => A(w - 1 - k, i), h) > 0.01;
+  if (touch.t || touch.b || touch.l || touch.r) {
+    const sm = (d) => { const u = Math.min(1, d / F); return u * u * (3 - 2 * u); };
+    for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) {
+      let f = 1; if (touch.t) f = Math.min(f, sm(y)); if (touch.b) f = Math.min(f, sm(h - 1 - y)); if (touch.l) f = Math.min(f, sm(x)); if (touch.r) f = Math.min(f, sm(w - 1 - x));
+      if (f < 1) { const o = (y * w + x) * 4 + 3; if (out[o]) { out[o] = Math.round(out[o] * f); changed++; } }
+    }
+  }
   if (!changed) return buf; // nada que limpiar: se devuelve el original intacto
   const rows = Buffer.alloc(h * (stride + 1)); for (let y = 0; y < h; y++) { rows[y * (stride + 1)] = 0; out.copy(rows, y * (stride + 1) + 1, y * stride, (y + 1) * stride); }
   const ihdr = Buffer.alloc(13); ihdr.writeUInt32BE(w, 0); ihdr.writeUInt32BE(h, 4); ihdr[8] = 8; ihdr[9] = 6;
