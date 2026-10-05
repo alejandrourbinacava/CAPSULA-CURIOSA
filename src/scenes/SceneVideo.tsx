@@ -130,7 +130,17 @@ const Framed: React.FC<{ frame?: string; w: number; h: number; children: React.R
 };
 
 // ============================ ELEMENTO ============================
-const Element: React.FC<{ el: El }> = ({ el }) => {
+// número que CUENTA hasta su valor ("100.000", "0,7", "12 %"): formato es-ES, easing de salida
+const countText = (content: string, p: number) => {
+  const m = content.match(/^([^\d]*)([\d.,]+)([^\d]*)$/); if (!m) return content;
+  const raw = m[2], hasDec = /,\d+$/.test(raw), decs = hasDec ? raw.split(",")[1].length : 0;
+  const num = parseFloat(raw.replace(/\./g, "").replace(",", ".")); if (isNaN(num)) return content;
+  const v = num * (p < 1 ? 1 - Math.pow(1 - p, 3) : 1);
+  const [ip, dp] = v.toFixed(decs).split(".");
+  return m[1] + ip.replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (dp ? "," + dp : "") + m[3];
+};
+
+const ElementInner: React.FC<{ el: El }> = ({ el }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
@@ -208,7 +218,7 @@ const Element: React.FC<{ el: El }> = ({ el }) => {
   }
   if (el.type === "stat") {
     return <div style={common}>
-      <div style={{ fontFamily: HAND_BOLD, fontWeight: 700, fontSize: 210, color: el.color || RED, lineHeight: 1, textShadow: HALO }}>{el.content}</div>
+      <div style={{ fontFamily: HAND_BOLD, fontWeight: 700, fontSize: 210, color: el.color || RED, lineHeight: 1, textShadow: HALO }}>{countText(el.content || "", clamp01((t - el.in) / 1.4))}</div>
       {el.unit && <div style={{ fontFamily: HAND, fontWeight: 700, fontSize: 64, color: "#111", marginTop: 6, textShadow: HALO }}>{el.unit}</div>}
     </div>;
   }
@@ -239,6 +249,16 @@ const Element: React.FC<{ el: El }> = ({ el }) => {
   };
   const img = <Img src={staticFile(el.src!)} style={{ maxWidth: box.w - pad * 2, maxHeight: box.h - pad * 2, objectFit: "contain", display: "block" }} />;
   return <div style={common}><div style={wrap}>{img}</div></div>;
+};
+
+// CÁMARA de escena: si el elemento lleva `cam` {t0,t1,s0,s1}, toda la escena se acerca/aleja despacio (suavizado) respecto al
+// centro del lienzo. Todos los elementos de una escena (flechas incluidas) comparten el mismo `cam` → se mueven como un solo plano.
+const Element: React.FC<{ el: El }> = ({ el }) => {
+  const frame = useCurrentFrame(); const { fps } = useVideoConfig();
+  const cam = (el as any).cam as { t0: number; t1: number; s0: number; s1: number } | undefined;
+  if (!cam) return <ElementInner el={el} />;
+  const p = clamp01((frame / fps - cam.t0) / Math.max(0.1, cam.t1 - cam.t0)), e = p * p * (3 - 2 * p);
+  return <div style={{ position: "absolute", inset: 0, zIndex: el.z ?? 30, transform: `scale(${cam.s0 + (cam.s1 - cam.s0) * e})`, transformOrigin: "960px 540px" }}><ElementInner el={el} /></div>;
 };
 
 export const makeSceneVideo = (scenes: Scenes): React.FC => () => (

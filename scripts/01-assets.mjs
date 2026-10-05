@@ -8,6 +8,7 @@ import path from "node:path";
 import { createRequire } from "node:module";
 import { getIconData, iconToSVG } from "@iconify/utils";
 import { normalizeSvg, colorHex } from "./normalize-icon.mjs";
+import { cleanAlphaPng } from "./png-clean.mjs"; // quita el velo de alfa 1..12 que gpt-image deja alrededor del dibujo (el "recuadro")
 const require = createRequire(import.meta.url);
 const PROFILE = require("../style-profile.json");
 const PAL_KEYS = Object.keys(PROFILE.palette || { yellow: 1 });
@@ -88,15 +89,33 @@ async function httpIcon(q) {
 }
 
 const dl = async (url, dest) => { const r = await fetch(url, { headers: { "User-Agent": UA } }); if (!r.ok) throw new Error("dl " + r.status); const b = Buffer.from(await r.arrayBuffer()); if (b.length < 800) throw new Error("img vacia"); fs.writeFileSync(dest, b); };
-async function wiki(q, base) {
-  for (const lang of ["en", "es"]) {
+// FOTO REAL desde Wikipedia, CON VALIDACIÓN. (Antes: 1er resultado de en.wikipedia con consulta en español
+// -> "Vía Láctea" salía una BANDA y "Planeta Tierra" un CANTANTE.) Ahora:
+//   · español primero (mis consultas están en español), luego inglés; o `lang` fijo en el asset
+//   · `wiki: "Título exacto"` en el asset fija el artículo (la forma segura)
+//   · 6 candidatos; se DESCARTAN artículos de música/cine/deportistas/etc. por su descripción de Wikidata
+//   · guarda de qué artículo salió (a.attribution.source) para poder auditar
+const BAD_WIKI = /\b(band|singer|musician|album|song|single|film|movie|tv series|television series|footballer|player|actor|actress|rapper|songwriter|politician|novel|video ?game|cantante|banda|grupo musical|álbum|canción|película|serie de televisión|futbolista|jugador|actriz|músico|rapero|político|novela|videojuego|disco)\b/i;
+async function wiki(q, base, a = {}) {
+  const langs = a.lang ? [a.lang] : ["es", "en"];
+  for (const lang of langs) {
     for (let attempt = 0; attempt < 3; attempt++) {
       try {
-        const s = await (await fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(q)}&format=json&srlimit=1&origin=*`, { headers: { "User-Agent": UA } })).json();
-        const t = s?.query?.search?.[0]?.title; if (!t) break;
-        const r = await (await fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(t)}&prop=pageimages&piprop=original|thumbnail&pithumbsize=1200&format=json&origin=*`, { headers: { "User-Agent": UA } })).json();
-        const p = Object.values(r?.query?.pages || {})[0]; const u = p?.thumbnail?.source || p?.original?.source;
-        if (u) { const ext = /\.png/i.test(u) ? "png" : "jpg"; await dl(u, path.join(OUT, base + "." + ext)); return "assets/icons/" + base + "." + ext; }
+        let titles;
+        if (a.wiki) titles = [a.wiki];
+        else { const s = await (await fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(q)}&format=json&srlimit=6&origin=*`, { headers: { "User-Agent": UA } })).json(); titles = (s?.query?.search || []).map(x => x.title); }
+        if (!titles.length) break;
+        const r = await (await fetch(`https://${lang}.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(titles.join("|"))}&redirects=1&prop=pageimages|description&piprop=original|thumbnail&pithumbsize=1200&format=json&origin=*`, { headers: { "User-Agent": UA } })).json();
+        const pages = Object.values(r?.query?.pages || {});
+        const redir = Object.fromEntries((r?.query?.redirects || []).map(x => [x.from, x.to]));
+        for (const t of titles) {
+          const p = pages.find(pg => pg.title === (redir[t] || t)); if (!p) continue;
+          const u = p.thumbnail?.source || p.original?.source; if (!u) continue;
+          if (!a.wiki && BAD_WIKI.test(p.description || "")) { console.log(`  ✗ descartado "${t}" (${(p.description || "").slice(0, 50)})`); continue; }
+          const ext = /\.png/i.test(u) ? "png" : "jpg"; await dl(u, path.join(OUT, base + "." + ext));
+          a.attribution = { source: `wikipedia:${lang}:${p.title}`, description: p.description || "" };
+          return "assets/icons/" + base + "." + ext;
+        }
         break;
       } catch (e) { await sleep(800 * (attempt + 1)); }
     }
@@ -119,13 +138,13 @@ const LIB = path.join("public", "assets", "library"); fs.mkdirSync(LIB, { recurs
 const conceptSlug = (q) => q.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "").slice(0, 40);
 async function gptImageIcon(query, id) {
   const rel = "assets/icons/" + id + ".png", libFile = path.join(LIB, conceptSlug(query) + ".png");
-  if (fs.existsSync(libFile)) { fs.copyFileSync(libFile, path.join("public", rel)); return { file: rel, reused: true }; } // reutiliza ($0, incluso sin clave)
+  if (fs.existsSync(libFile)) { fs.writeFileSync(path.join("public", rel), cleanAlphaPng(fs.readFileSync(libFile), 12)); return { file: rel, reused: true }; } // se limpia el velo de alfa AL COPIAR (la librería versionada no se toca) // reutiliza ($0, incluso sin clave)
   if (!OPENAI) return null;
   const prompt = `2D vector doodle illustration of ${query}. Hand-drawn whiteboard explainer style, bold clean black outline, flat minimal saturated colors, clear and simple, centered composition. Historically accurate to the era described (never modern). Fully TRANSPARENT background. No text, no labels, no caption, no shadow, no border, no frame.`;
   try {
     const r = await fetch("https://api.openai.com/v1/images/generations", { method: "POST", headers: { Authorization: `Bearer ${OPENAI}`, "Content-Type": "application/json" }, body: JSON.stringify({ model: "gpt-image-1", prompt, size: "1024x1024", background: "transparent", output_format: "png", quality: "medium", n: 1 }) });
     const j = await r.json(); if (!r.ok) { console.log(`  (gpt-image: ${(j.error?.message || r.status).toString().slice(0, 60)})`); return null; }
-    const b = Buffer.from(j.data[0].b64_json, "base64"); fs.writeFileSync(libFile, b); fs.writeFileSync(path.join("public", rel), b);
+    const b = cleanAlphaPng(Buffer.from(j.data[0].b64_json, "base64"), 12); fs.writeFileSync(libFile, b); fs.writeFileSync(path.join("public", rel), b);
     return { file: rel, reused: false };
   } catch { return null; }
 }
@@ -136,8 +155,8 @@ for (const [id, a] of Object.entries(assets)) {
   try {
     if (a.kind === "photo" || a.kind === "cutout" || a.kind === "screenshot") {
       await sleep(300);
-      const f = await wiki(q, id);
-      if (f) { a.file = f; if (!a.kind || a.kind === "photo") a.kind = "cutout"; console.log(`🖼️  ${id} (foto) ✓`); continue; }
+      const f = await wiki(q, id, a);
+      if (f) { a.file = f; if (!a.kind || a.kind === "photo") a.kind = "cutout"; console.log(`🖼️  ${id} (foto) ✓ ← ${a.attribution?.source || "?"}`); continue; }
       // sin foto -> icono como reserva
     }
     // REGLA INAMOVIBLE: TODO icono es un doodle 2D generado con GPT (o reutilizado de la librería,

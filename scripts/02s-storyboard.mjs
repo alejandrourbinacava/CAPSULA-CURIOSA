@@ -4,6 +4,7 @@
 // Uso: node scripts/02s-storyboard.mjs episodes/<slug>
 import fs from "node:fs";
 import path from "node:path";
+import { buildScene } from "./scene-templates.mjs"; // escenas de diagrama (SCENE/NODE/STAT)
 const dir = process.argv[2];
 const PROFILE = JSON.parse(fs.readFileSync("style-profile.json", "utf8"));
 const RED = PROFILE.accent || "#EE2B37", STROKE = PROFILE.stroke || "#111111";
@@ -114,6 +115,19 @@ for (const b of beats) {
     const m = ln.match(/^([+-])(\d[\d.]*)\s+([A-Z]{3,})\s*(.*)$/);
     if (!m) continue;
     const [, , offs, type, rest0] = m; const t = +clamp(parseFloat(offs)).toFixed(2); const rest = rest0.trim();
+    // ===== ESCENA DE DIAGRAMA: SCENE <plantilla> · NODE <asset> "etiqueta" ~palabra · STAT "valor" "unidad" =====
+    if (type === "SCENE") { b._scene = { template: rest.split(/\s+/)[0].toLowerCase(), nodes: [], stat: null }; continue; }
+    if (type === "STAT") { const q = [...rest.matchAll(/"([^"]*)"/g)].map(m => m[1]); if (b._scene) b._scene.stat = { value: q[0] || "", unit: q[1] || "" }; continue; }
+    if (type === "NODE") {
+      if (!b._scene) { warns.push(`NODE sin SCENE (beat ${b.num})`); continue; }
+      const nid = rest.split(/[\s"~]/)[0].trim(); const src = nid === "-" ? null : assetFile(nid); // "-" = nodo solo con rótulo
+      if (!src && nid !== "-") { warns.push(`NODE asset ausente: "${nid}" (beat ${b.num})`); continue; }
+      const label = (rest.match(/"([^"]*)"/) || [])[1] || "";
+      const wsync = (rest.match(/~([a-záéíóúñ0-9]+)/i) || [])[1]; const wt = wsync ? syncWordTime(wsync, b) : null;
+      const ak = assets[nid]?.kind || ""; const kind = nid === "-" ? "label" : ak === "clip" ? "clip" : /photo|cutout|screenshot|archive/.test(ak) ? "photo" : "icon";
+      b._scene.nodes.push({ icon: nid === "-" ? null : nid, src, label, kind, t: (wt != null && wt >= b.t0 - 0.5 && wt <= b.t1 + 1) ? +wt.toFixed(2) : null });
+      continue;
+    }
     if (type === "OUT") { const id = rest.split(/\s+/)[0]; if (live[id]) { live[id].out = t; delete live[id]; } continue; }
     if (type === "CLEAR" || /^CLEAR/i.test(rest)) { closeAll(t, true); continue; }
     if (type === "CHAP") { const q = rest.match(/"([^"]*)"/); const ic = (rest.match(/"[^"]*"\s+([a-z0-9-]+)/) || [])[1]; chapters.push({ label: q ? q[1] : "", icon: ic || null, t: b.t0 }); continue; }
@@ -228,6 +242,10 @@ for (const b of beats) {
       continue;
     }
   }
+  if (b._scene && b._scene.nodes.length) { // construye el diagrama del beat (nodos con la voz + flechas), simétrico
+    try { elements.push(...buildScene({ template: b._scene.template, nodes: b._scene.nodes, stat: b._scene.stat, beat: b }, { enterOf, RED, STROKE })); }
+    catch (e) { warns.push(`SCENE beat ${b.num}: ${e.message}`); }
+  }
   closeAll(b.t1); // por defecto, cada beat limpia al terminar (salvo lo ya cerrado)
   // ELEMENTO ÚNICO → centrado y grande (regla del usuario). Si el beat solo tiene un visual, va al centro.
   const visE = b._els.filter(e => e.type === "image" || e.type === "text" || e.type === "shape");
@@ -325,7 +343,7 @@ markers.forEach((mk, i) => {
 
 // TOPE (anti-hold largo) para TEXTOS y FOTOS (no para los doodles acumulativos, que persisten en el lienzo)
 const MAXLIFE = 5.0, MEDIALIFE = 8.5; // fotos/clips reales duran más (protagonismo del 30-40%); el estático que molestaba era el hero 12s + cobertura 24s, ya resueltos
-for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" && !e._keep && !e._accum && !e._hold && !e._hero) {
+for (const e of elements) if (e.box && !e._scene && !e.structural && e.type !== "watermark" && !e._keep && !e._accum && !e._hold && !e._hero) {
   const isMedia = e.type === "clip" || e.type === "gif" || (e.type === "image" && e.kind === "cutout");
   e.out = Math.min(e.out, +(e.in + (isMedia ? MEDIALIFE : MAXLIFE)).toFixed(2));
 }
@@ -333,7 +351,7 @@ for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" &
 // SIN HUECOS (limitado) → un elemento puede alargarse para tapar un microhueco, pero NUNCA más de 3.5s total.
 //   Va ANTES del centrado. Si un beat es tan pobre que deja hueco > tope, lo cazará el gate y hay que densificar.
 {
-  const vis = elements.filter(e => e.box && !e.structural && (e.type === "image" || e.type === "text")).sort((a, b) => a.in - b.in);
+  const vis = elements.filter(e => e.box && !e.structural && !e._scene && (e.type === "image" || e.type === "text")).sort((a, b) => a.in - b.in);
   let coverEnd = 0, lastEl = null;
   for (const e of vis) {
     if (lastEl && e.in > coverEnd + 0.05) lastEl.out = Math.max(lastEl.out, Math.min(+e.in.toFixed(2), +(lastEl.in + 5.0).toFixed(2)));
@@ -363,7 +381,7 @@ for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" &
     // 1) PREFERIR alargar el último doodle visible antes del hueco (bridge). Evita reinsertar el icono del
     //    capítulo una y otra vez (lo que causaba el "aparece → desaparece → reaparece" y la repetición).
     let bridged = t, prev = null;
-    for (const e of elements) { if (e.structural || e.type !== "image" || !e.box || e._keep || e._autoIco) continue; if (e.out <= t + 1e-6 && (!prev || e.out > prev.out)) prev = e; }
+    for (const e of elements) { if (e.structural || e._scene || e.type !== "image" || !e.box || e._keep || e._autoIco) continue; if (e.out <= t + 1e-6 && (!prev || e.out > prev.out)) prev = e; }
     if (prev) { const newOut = Math.min(e2, +(prev.out + BRIDGE_MAX).toFixed(2), +(prev.in + 7.0).toFixed(2)); if (newOut > prev.out) { prev.out = newOut; bridged = newOut; } } // tope DURO: ningún doodle en pantalla > 7s (aunque se use para varios microhuecos)
     // 2) Si aún queda hueco, RELLENO ROTANDO iconos de la sección: un icono distinto ≈3.6s (nunca el mismo fijo).
     if (e2 - bridged > 0.3) {
@@ -392,6 +410,7 @@ for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" &
   const dyn = elements.filter(e => e.box && e.type !== "watermark" && !e.structural && !e._accum);
   const nAt = (t) => dyn.filter(x => x.in <= t + 1e-6 && x.out > t + 1e-6).length;
   for (const e of dyn) {
+    if (e._scene) continue; // los elementos de una escena de diagrama conservan su sitio (cuentan como "compañía", pero no se recentran)
     const w = e.box.w, h = e.box.h, ax = e.box.cx, ay = e.box.cy;
     // muestreo de su vida: ¿está solo en cada instante?
     const S = [];
@@ -416,7 +435,7 @@ for (const e of elements) if (e.box && !e.structural && e.type !== "watermark" &
 }
 
 // assets DECLARADOS en el storyboard (para el gate: si falta alguno → FALLO)
-const declared = [...new Set([...sbText.matchAll(/^\s*[+-]\d[\d.]*\s+(?:IMG|ICO|GIF|CLIP)\s+([a-z0-9-]+)/gmi)].map(m => m[1]).filter(x => x !== "asset-id"))];
+const declared = [...new Set([...sbText.matchAll(/^\s*[+-]\d[\d.]*\s+(?:IMG|ICO|GIF|CLIP|NODE)\s+([a-z0-9-]+)/gmi)].map(m => m[1]).filter(x => x !== "asset-id"))];
 const placedIds = new Set(elements.filter(e => e.src).map(e => (e.id.replace(/_\d+$/, ""))));
 const missing = declared.filter(id => !placedIds.has(id) && !assetFile(id));
 const meta = { fps: 30, width: W, height: H, duration: +dur.toFixed(2), audio: "active/audio.mp3", title, profile: PROFILE.name, storyboard: true, declaredMissing: missing };
@@ -436,7 +455,7 @@ const deconflict = (list) => {
   }
 };
 // captions/textos normales
-deconflict(elements.filter(e => e.type === "text" && !e._keep && !e.structural && !e.hud));
+deconflict(elements.filter(e => e.type === "text" && !e._keep && !e.structural && !e.hud && !e._scene)); // las etiquetas de una escena conviven en la misma fila a propósito
 // títulos/roles hero (son structural, pero entre secciones no deben solaparse en su banda)
 deconflict(elements.filter(e => e.type === "text" && e._herotitle));
 const out = { meta, elements };
