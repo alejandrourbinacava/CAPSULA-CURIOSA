@@ -38,7 +38,7 @@ times = times.filter((t, i) => i === 0 || t - times[i - 1] > 0.12);
 const EXTRA = process.env.SFX_EXTRA === "0" ? [] : [
   { f: "public/voz/tick.wav", db: -4, t: scenes.elements.filter(e => e.type === "arrow" && /^ar/.test(e.id || "")).map(e => +e.in + 0.05) },
   { f: "public/voz/ding.wav", db: -3, t: scenes.elements.filter(e => e.type === "stat").map(e => +e.in + 1.4) },
-  { f: "public/voz/whoosh.wav", db: 9, t: scenes.elements.filter(e => /^chaplabel/.test(e.id || "")).map(e => +e.in - 0.05) },
+  { f: "public/voz/whoosh.wav", db: 6, t: scenes.elements.filter(e => /^chaplabel/.test(e.id || "")).map(e => +e.in - 0.05) },
 ].map(c => ({ ...c, t: c.t.filter(x => x > 0.2).sort((a, b) => a - b) })).filter(c => c.t.length && fs.existsSync(c.f));
 const hasPop = fs.existsSync(POP), hasMusic = fs.existsSync(MUSIC);
 if (!hasPop && !hasMusic) { fs.copyFileSync(RAW, OUT); console.log("sin pop ni música → copia directa"); process.exit(0); }
