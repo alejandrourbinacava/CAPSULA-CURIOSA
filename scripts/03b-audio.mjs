@@ -1,5 +1,7 @@
 // 03b-audio: mezcla el AUDIO final. Un "pop" suave CADA vez que entra un dibujo (image/stickman) +
-//   música de fondo en bucle a -23dB bajo la voz. Sin whoosh. Lee scenes.json para los tiempos.
+//   música de fondo en bucle a -23dB bajo la voz. Lee scenes.json para los tiempos.
+//   Además (escenas de diagrama): "tick" muy bajo al dibujarse cada flecha, "ding" cuando un contador llega a su valor y
+//   whoosh suave SOLO al cambiar de capítulo (no en cada escena). Desactivar: SFX_EXTRA=0.
 //   Entrada: out/VIDEO_RAW.mp4  ->  Salida: out/VIDEO_FINAL.mp4
 // Uso: node scripts/03b-audio.mjs episodes/<slug>
 import fs from "node:fs";
@@ -32,6 +34,12 @@ const scenes = JSON.parse(fs.readFileSync(path.join(dir, "scenes.json"), "utf8")
 let times = scenes.elements.filter(e => (e.type === "image" || e.type === "stickman") && e.in != null).map(e => +e.in).sort((a, b) => a - b);
 times = times.filter((t, i) => i === 0 || t - times[i - 1] > 0.12);
 
+// SFX EXTRA (tick de flecha · ding de contador · whoosh de capítulo). Cada uno: fichero, tiempos, ganancia en dB sobre su volumen base.
+const EXTRA = process.env.SFX_EXTRA === "0" ? [] : [
+  { f: "public/voz/tick.wav", db: -4, t: scenes.elements.filter(e => e.type === "arrow" && /^ar/.test(e.id || "")).map(e => +e.in + 0.05) },
+  { f: "public/voz/ding.wav", db: -3, t: scenes.elements.filter(e => e.type === "stat").map(e => +e.in + 1.4) },
+  { f: "public/voz/whoosh.wav", db: 9, t: scenes.elements.filter(e => /^chaplabel/.test(e.id || "")).map(e => +e.in - 0.05) },
+].map(c => ({ ...c, t: c.t.filter(x => x > 0.2).sort((a, b) => a - b) })).filter(c => c.t.length && fs.existsSync(c.f));
 const hasPop = fs.existsSync(POP), hasMusic = fs.existsSync(MUSIC);
 if (!hasPop && !hasMusic) { fs.copyFileSync(RAW, OUT); console.log("sin pop ni música → copia directa"); process.exit(0); }
 
@@ -40,6 +48,7 @@ const args = ["-y", "-v", "error", "-i", RAW];
 let idxPop = -1, idxMusic = -1, n = 1;
 if (hasPop) { args.push("-i", POP); idxPop = n++; }
 if (hasMusic) { args.push("-stream_loop", "-1", "-i", MUSIC); idxMusic = n++; }
+for (const c of EXTRA) { args.push("-i", c.f); c.idx = n++; }
 
 let fc = "", labels = ["[0:a]"];
 if (hasPop && times.length) {
@@ -48,12 +57,17 @@ if (hasPop && times.length) {
   fc += `[${idxPop}:a]asplit=${N}` + times.map((_, i) => `[s${i}]`).join("") + ";";
   times.forEach((t, i) => { const d = Math.max(1, Math.round(t * 1000)); fc += `[s${i}]adelay=${d}|${d}[p${i}];`; labels.push(`[p${i}]`); });
 }
+EXTRA.forEach((c, k) => { // un asplit por tipo de efecto, cada copia retrasada a su instante
+  const N = c.t.length; fc += `[${c.idx}:a]volume=${c.db}dB,asplit=${N}` + c.t.map((_, i) => `[x${k}_${i}]`).join("") + ";";
+  c.t.forEach((t, i) => { const d = Math.max(1, Math.round(t * 1000)); fc += `[x${k}_${i}]adelay=${d}|${d}[y${k}_${i}];`; labels.push(`[y${k}_${i}]`); });
+});
 if (hasMusic) { fc += `[${idxMusic}:a]volume=${MUSIC_DB}[m];`; labels.push("[m]"); }
 fc += labels.join("") + `amix=inputs=${labels.length}:duration=first:normalize=0[a]`;
 
 // filtro EN LÍNEA (un solo argumento; execFileSync no pasa por shell → sin límite ni escapes).
 // -filter_complex_script daba "Error splitting the argument list" en el ffmpeg estricto de la CI.
 args.push("-filter_complex", fc, "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", OUT);
+console.log(`extra: ${EXTRA.map(c => path.basename(c.f, ".wav") + " ×" + c.t.length).join(", ") || "ninguno"}`);
 console.log(`pops: ${times.length} | música: ${hasMusic ? "sí" : "no"} → ${OUT}`);
 execFileSync("ffmpeg", args, { stdio: "inherit" });
 console.log("✔ audio mezclado (pop por entrada + música)");
