@@ -84,6 +84,7 @@ for (const b of beats) {
   if (found >= 0) cursor = found + 1;
 }
 for (let i = 0; i < beats.length; i++) beats[i].t1 = i + 1 < beats.length ? Math.max(beats[i].t0 + 1, beats[i + 1].t0) : dur;
+if (process.env.DUMP_BEATS) fs.writeFileSync(process.env.DUMP_BEATS, JSON.stringify(beats.map(b => ({ num: b.num, t0: b.t0, t1: b.t1, nar: b.nar.slice(0, 40) })), null, 1));
 
 // sincroniza un texto a SU palabra en la voz (busca su 1ª palabra en la prosa cerca del beat) → tiempo real
 const syncWordTime = (content, b) => {
@@ -117,7 +118,7 @@ for (const b of beats) {
     const [, , offs, type, rest0] = m; const t = +clamp(parseFloat(offs)).toFixed(2); const rest = rest0.trim();
     // ===== ESCENA DE DIAGRAMA: SCENE <plantilla> · NODE <asset> "etiqueta" ~palabra · STAT "valor" "unidad" =====
     if (type === "SCENE") { { const w = rest.split(/\s+/).map(x => x.toLowerCase()); b._scene = { template: w[0], variant: w.slice(1), nodes: [], stat: null }; } continue; }
-    if (type === "STAT") { const q = [...rest.matchAll(/"([^"]*)"/g)].map(m => m[1]); if (b._scene) b._scene.stat = { value: q[0] || "", unit: q[1] || "" }; continue; }
+    if (type === "STAT") { const q = [...rest.matchAll(/"([^"]*)"/g)].map(m => m[1]); if (b._scene) { const sw = (rest.match(/~([a-záéíóúñ0-9]+)/i) || [])[1]; const swt = sw ? syncWordTime(sw, b) : null; b._scene.stat = { value: q[0] || "", unit: q[1] || "", t: swt != null && swt >= b.t0 - 0.5 && swt <= b.t1 + 1 ? +swt.toFixed(2) : null }; } continue; }
     if (type === "NODE") {
       if (!b._scene) { warns.push(`NODE sin SCENE (beat ${b.num})`); continue; }
       const nid = rest.split(/[\s"~]/)[0].trim(); const src = nid === "-" ? null : assetFile(nid); // "-" = nodo solo con rótulo

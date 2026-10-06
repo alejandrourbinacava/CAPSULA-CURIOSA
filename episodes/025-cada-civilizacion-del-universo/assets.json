@@ -254,52 +254,95 @@
   "photo-galaxy": {
     "kind": "cutout",
     "query": "Galaxia espiral",
-    "file": "assets/icons/photo-galaxy.jpg"
+    "file": "assets/icons/photo-galaxy.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Galaxia espiral",
+      "description": "tipo de galaxia de la secuencia de Hubble"
+    }
   },
   "photo-milkyway": {
     "kind": "cutout",
     "query": "Vía Láctea",
-    "file": "assets/icons/photo-milkyway.jpg"
+    "file": "assets/icons/photo-milkyway.jpg",
+    "wiki": "Vía Láctea",
+    "attribution": {
+      "source": "wikipedia:es:Vía Láctea",
+      "description": "galaxia espiral barrada en la que se encuentra el Sistema Solar"
+    }
   },
   "photo-sun": {
     "kind": "cutout",
     "query": "Sol estrella",
-    "file": "assets/icons/photo-sun.jpg"
+    "file": "assets/icons/photo-sun.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Estrella",
+      "description": "objeto astrónomico formado por un esferoide luminoso de plasma sujeto a su propia gravedad"
+    }
   },
   "photo-earth": {
     "kind": "cutout",
     "query": "Planeta Tierra",
-    "file": "assets/icons/photo-earth.jpg"
+    "file": "assets/icons/photo-earth.jpg",
+    "wiki": "Tierra",
+    "attribution": {
+      "source": "wikipedia:es:Tierra",
+      "description": "tercer planeta desde el Sol en el Sistema Solar"
+    }
   },
   "photo-telescope": {
     "kind": "cutout",
     "query": "Radiotelescopio",
-    "file": "assets/icons/photo-telescope.jpg"
+    "file": "assets/icons/photo-telescope.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Radiotelescopio",
+      "description": "antena que capta ondas de radio emitidas por fuentes de radio"
+    }
   },
   "photo-nebula": {
     "kind": "cutout",
     "query": "Nebulosa",
-    "file": "assets/icons/photo-nebula.jpg"
+    "file": "assets/icons/photo-nebula.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Nebulosa",
+      "description": "región del medio interestelar"
+    }
   },
   "photo-astronaut": {
     "kind": "cutout",
     "query": "Astronauta",
-    "file": "assets/icons/photo-astronaut.jpg"
+    "file": "assets/icons/photo-astronaut.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Astronauta",
+      "description": "miembro de la tripulación o personal de una nave u objeto espacial"
+    }
   },
   "photo-saturn": {
     "kind": "cutout",
     "query": "Saturno planeta",
-    "file": "assets/icons/photo-saturn.jpg"
+    "file": "assets/icons/photo-saturn.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Saturno (planeta)",
+      "description": "sexto planeta del sistema solar, con un sistema de anillos principalmente compuesto por partículas de hielo"
+    }
   },
   "photo-andromeda": {
     "kind": "cutout",
     "query": "Galaxia de Andrómeda",
-    "file": "assets/icons/photo-andromeda.jpg"
+    "file": "assets/icons/photo-andromeda.jpg",
+    "wiki": "Galaxia de Andrómeda",
+    "attribution": {
+      "source": "wikipedia:es:Galaxia de Andrómeda",
+      "description": "galaxia de espiral gigante"
+    }
   },
   "photo-blackhole": {
     "kind": "cutout",
     "query": "Agujero negro",
-    "file": "assets/icons/photo-blackhole.jpg"
+    "file": "assets/icons/photo-blackhole.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Agujero negro",
+      "description": "objeto celestial que tiene un campo gravitacional tan fuerte que la luz no puede escapar y que se cree que se crea especialmente en el colapso de una estrella muy masiva"
+    }
   },
   "clip-stars": {
     "kind": "clip",
@@ -410,5 +453,579 @@
       "credit": "Kindel Media",
       "url": "https://www.pexels.com/video/close-up-shot-of-a-toy-rocket-7615680/"
     }
+  },
+  "civilization-meter": {
+    "kind": "vector",
+    "query": "a gauge dial measuring how advanced a civilization is, with a tiny city and a rocket on the dial",
+    "file": "assets/icons/civilization-meter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "energy-bolt": {
+    "kind": "vector",
+    "query": "a big glowing yellow lightning bolt energy symbol with sparks",
+    "file": "assets/icons/energy-bolt.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "kardashev-badge": {
+    "kind": "vector",
+    "query": "a smiling scientist pointing at a chalkboard with a rising bar chart of three growing steps and a star",
+    "file": "assets/icons/kardashev-badge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "golden-key": {
+    "kind": "vector",
+    "query": "a shiny golden key unlocking a glowing lock, the perfect solution",
+    "file": "assets/icons/golden-key.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sort-civilizations": {
+    "kind": "vector",
+    "query": "three different alien and human figures standing in separate colored boxes being sorted into categories, absolutely no text, no letters, no words, no labels",
+    "file": "assets/icons/sort-civilizations.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "wood-logs": {
+    "kind": "vector",
+    "query": "a pile of burning wooden logs with flames",
+    "file": "assets/icons/wood-logs.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "coal-lump": {
+    "kind": "vector",
+    "query": "a big black lump of coal with smoke rising",
+    "file": "assets/icons/coal-lump.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "oil-barrel": {
+    "kind": "vector",
+    "query": "an oil barrel with a black oil drop and a small oil pump",
+    "file": "assets/icons/oil-barrel.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "gas-flame": {
+    "kind": "vector",
+    "query": "a blue natural gas burner flame on a pipe",
+    "file": "assets/icons/gas-flame.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "plunder-planet": {
+    "kind": "vector",
+    "query": "a small planet being looted and drained, tiny people with pickaxes and buckets digging at it, cracks and holes",
+    "file": "assets/icons/plunder-planet.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "human-crowd": {
+    "kind": "vector",
+    "query": "a crowd of tiny diverse humans standing together looking up, representing humanity",
+    "file": "assets/icons/human-crowd.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "meter-07": {
+    "kind": "vector",
+    "query": "a progress gauge dial showing 0.7 out of 1, needle at seventy percent, almost full but not quite",
+    "file": "assets/icons/meter-07.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "energy-capture": {
+    "kind": "vector",
+    "query": "a planet surrounded by solar panels and energy collectors catching all the light of its sun",
+    "file": "assets/icons/energy-capture.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "planet-control": {
+    "kind": "vector",
+    "query": "two giant hands holding a small planet with control sliders and dials around it",
+    "file": "assets/icons/planet-control.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "wind-turbine": {
+    "kind": "vector",
+    "query": "a white wind turbine on a green hill with wind lines",
+    "file": "assets/icons/wind-turbine.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "engineer-fix": {
+    "kind": "vector",
+    "query": "a cheerful engineer in a hard hat easily fixing a small hurricane with a wrench, treating it as a simple engineering job",
+    "file": "assets/icons/engineer-fix.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "infrared-star": {
+    "kind": "vector",
+    "query": "a star glowing with strange red infrared rings being scanned by a telescope",
+    "file": "assets/icons/infrared-star.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "colonize-galaxy": {
+    "kind": "vector",
+    "query": "a spiral galaxy with many tiny glowing flags and colony dots spreading across all its arms",
+    "file": "assets/icons/colonize-galaxy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pure-energy-being": {
+    "kind": "vector",
+    "query": "a glowing humanoid being made of pure blue-white energy light",
+    "file": "assets/icons/pure-energy-being.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cant-comprehend": {
+    "kind": "vector",
+    "query": "a confused caveman scratching his head looking at an advanced glowing spaceship",
+    "file": "assets/icons/cant-comprehend.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "theory-chalkboard": {
+    "kind": "vector",
+    "query": "a scientist pointing at a chalkboard full of theoretical equations and a question mark",
+    "file": "assets/icons/theory-chalkboard.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "bubble-universes": {
+    "kind": "vector",
+    "query": "many soap-bubble universes floating, each containing a tiny galaxy, a hand reaching to hold them",
+    "file": "assets/icons/bubble-universes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "create-reality": {
+    "kind": "vector",
+    "query": "a glowing hand creating a new planet and stars out of light sparks",
+    "file": "assets/icons/create-reality.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "destroy-reality": {
+    "kind": "vector",
+    "query": "a hand crushing a planet into dust and cracks, explosion of fragments",
+    "file": "assets/icons/destroy-reality.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ancient-universe": {
+    "kind": "vector",
+    "query": "an ancient hourglass with a galaxy inside and fourteen billion years symbolized by a long cosmic timeline",
+    "file": "assets/icons/ancient-universe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "radio-signals": {
+    "kind": "vector",
+    "query": "a radio antenna dish receiving colorful sound waves and signal pulses from space",
+    "file": "assets/icons/radio-signals.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "teeming-universe": {
+    "kind": "vector",
+    "query": "the universe full of life, many planets each with small life, plants and creatures, cheerful and crowded",
+    "file": "assets/icons/teeming-universe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "answers-doors": {
+    "kind": "vector",
+    "query": "five different doors in a row each with a question mark glowing, mystery choices",
+    "file": "assets/icons/answers-doors.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "barrier-wall": {
+    "kind": "vector",
+    "query": "a huge stone wall barrier blocking a road with a tiny rocket in front of it",
+    "file": "assets/icons/barrier-wall.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "civilizations-fall": {
+    "kind": "vector",
+    "query": "many tiny civilizations cities collapsing and falling one after another like dominoes",
+    "file": "assets/icons/civilizations-fall.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "filter-behind": {
+    "kind": "vector",
+    "query": "a person looking back over their shoulder at a wall they have already passed, relieved",
+    "file": "assets/icons/filter-behind.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "nuclear-bomb": {
+    "kind": "vector",
+    "query": "a nuclear bomb mushroom cloud explosion over a small city",
+    "file": "assets/icons/nuclear-bomb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "planet-wrecked": {
+    "kind": "vector",
+    "query": "a polluted dying planet with smoke stacks, dry cracked ground and a gloomy sky",
+    "file": "assets/icons/planet-wrecked.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "civ-boom": {
+    "kind": "vector",
+    "query": "a futuristic city exploding in a fireball, self-destruction",
+    "file": "assets/icons/civ-boom.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "danger-tightrope": {
+    "kind": "vector",
+    "query": "a tiny human balancing on a thin tightrope over a dark deep abyss",
+    "file": "assets/icons/danger-tightrope.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sprout-life": {
+    "kind": "vector",
+    "query": "a tiny green sprout growing on a small planet just starting to wake up",
+    "file": "assets/icons/sprout-life.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "young-universe": {
+    "kind": "vector",
+    "query": "a baby universe wearing a tiny party hat, young and new, with few stars",
+    "file": "assets/icons/young-universe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "galaxy-pioneer-flag": {
+    "kind": "vector",
+    "query": "an astronaut planting a flag on top of a spiral galaxy, pioneer",
+    "file": "assets/icons/galaxy-pioneer-flag.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "aliens-watching": {
+    "kind": "vector",
+    "query": "advanced aliens in a spaceship watching Earth through a telescope from far away, observing quietly",
+    "file": "assets/icons/aliens-watching.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hands-off": {
+    "kind": "vector",
+    "query": "a hand with palm out in a stop gesture hovering respectfully above a small planet, not touching",
+    "file": "assets/icons/hands-off.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "silent-civs": {
+    "kind": "vector",
+    "query": "several planets each with a finger over mouth saying shhh, silent in the dark",
+    "file": "assets/icons/silent-civs.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "announce-suicide": {
+    "kind": "vector",
+    "query": "a planet shouting into the dark with a megaphone while a huge shadowy eye looks at it",
+    "file": "assets/icons/announce-suicide.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "shout-position": {
+    "kind": "vector",
+    "query": "a small planet shouting with a loudspeaker and a bright glowing arrow pointing at its location",
+    "file": "assets/icons/shout-position.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "bigger-civ-strike": {
+    "kind": "vector",
+    "query": "a giant spaceship firing a laser beam to destroy a small planet",
+    "file": "assets/icons/bigger-civ-strike.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hide-in-dark": {
+    "kind": "vector",
+    "query": "a small planet hiding in thick darkness with only two scared eyes visible, quiet",
+    "file": "assets/icons/hide-in-dark.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "rare-miracle": {
+    "kind": "vector",
+    "query": "a single glowing seed of life on a tiny planet in vast black space, miracle, sparkles",
+    "file": "assets/icons/rare-miracle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lucky-dice-life": {
+    "kind": "vector",
+    "query": "many dice rolling with lucky numbers and a tiny planet with life growing from them",
+    "file": "assets/icons/lucky-dice-life.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "habitable-zone": {
+    "kind": "vector",
+    "query": "a star and a planet at the exact perfect distance with a green ring habitable zone",
+    "file": "assets/icons/habitable-zone.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "moon-big": {
+    "kind": "vector",
+    "query": "a planet with a large moon next to it stabilizing it",
+    "file": "assets/icons/moon-big.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "magnetic-field": {
+    "kind": "vector",
+    "query": "a planet protected by a glowing magnetic field bubble deflecting radiation arrows from the sun",
+    "file": "assets/icons/magnetic-field.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-catastrophe": {
+    "kind": "vector",
+    "query": "a planet with a long calendar of billions of years and no asteroid hitting it, calm and peaceful",
+    "file": "assets/icons/no-catastrophe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "bacteria-world": {
+    "kind": "vector",
+    "query": "a planet whose life is only simple bacteria, microscopic colonies, a microscope view",
+    "file": "assets/icons/bacteria-world.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "life-common": {
+    "kind": "vector",
+    "query": "a cheerful planet with plants and animals, life being common and abundant",
+    "file": "assets/icons/life-common.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "accident-life": {
+    "kind": "vector",
+    "query": "a tiny improbable accident, a single intelligent head popping out of a pile of simple cells, lucky mistake",
+    "file": "assets/icons/accident-life.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "invisible-civ": {
+    "kind": "vector",
+    "query": "a ghostly almost transparent outline of an advanced alien city that we cannot see against the stars",
+    "file": "assets/icons/invisible-civ.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "alien-different": {
+    "kind": "vector",
+    "query": "a strange abstract alien being that looks nothing like us, glowing geometric shapes, incomprehensible",
+    "file": "assets/icons/alien-different.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ant-highway": {
+    "kind": "vector",
+    "query": "a tiny ant standing next to a huge highway with cars, not understanding it",
+    "file": "assets/icons/ant-highway.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "civs-radio-contact": {
+    "kind": "vector",
+    "query": "several planets connected by radio waves in a communication network, a few lit up",
+    "file": "assets/icons/civs-radio-contact.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "crowded-galaxy": {
+    "kind": "vector",
+    "query": "a galaxy crowded with millions of glowing civilization dots and tiny planets",
+    "file": "assets/icons/crowded-galaxy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "alone-human-space": {
+    "kind": "vector",
+    "query": "a single tiny human alone floating in a vast empty dark space",
+    "file": "assets/icons/alone-human-space.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "astronomer-wow": {
+    "kind": "vector",
+    "query": "an astronomer circling a line of computer printout numbers in red pen, surprised face, scribbled note",
+    "file": "assets/icons/astronomer-wow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ear-to-sky": {
+    "kind": "vector",
+    "query": "a person with a hand cupped to ear listening to the starry sky",
+    "file": "assets/icons/ear-to-sky.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "distant-signal": {
+    "kind": "vector",
+    "query": "a faraway tiny planet sending a thin glowing signal beam across a huge dark distance",
+    "file": "assets/icons/distant-signal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "million-years-clock": {
+    "kind": "vector",
+    "query": "an old clock with many calendar pages flying off, millions of years passing",
+    "file": "assets/icons/million-years-clock.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "message-received": {
+    "kind": "vector",
+    "query": "a radio receiver and an envelope message arriving from space",
+    "file": "assets/icons/message-received.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "extinct-sender": {
+    "kind": "vector",
+    "query": "a dead dried-up planet with a skull-shaped cloud, extinct civilization, sad",
+    "file": "assets/icons/extinct-sender.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "two-doors": {
+    "kind": "vector",
+    "query": "two big doors side by side, one glowing with stars and one dark empty, a person standing in front choosing",
+    "file": "assets/icons/two-doors.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lone-spark": {
+    "kind": "vector",
+    "query": "one tiny glowing spark of light in a vast empty dark, consciousness",
+    "file": "assets/icons/lone-spark.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "answer-above": {
+    "kind": "vector",
+    "query": "a person looking up at a starry night sky with a glowing question mark and answer waiting among the stars",
+    "file": "assets/icons/answer-above.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "nature-reserve": {
+    "kind": "vector",
+    "query": "a fenced nature reserve safari where animals roam freely and a distant observer watches from a viewing tower",
+    "file": "assets/icons/nature-reserve.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-volcan": {
+    "kind": "cutout",
+    "query": "Volcán",
+    "wiki": "Volcán",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Volcán",
+      "description": "estructura geológica"
+    },
+    "file": "assets/icons/photo-volcan.png"
+  },
+  "photo-huracan": {
+    "kind": "cutout",
+    "query": "Ciclón tropical",
+    "wiki": "Ciclón tropical",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Ciclón tropical",
+      "description": "tipo de sistema de tormentas de rápida rotación"
+    },
+    "file": "assets/icons/photo-huracan.jpg"
+  },
+  "photo-tornado25": {
+    "kind": "cutout",
+    "query": "Tornado",
+    "wiki": "Tornado",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Tornado",
+      "description": "columna de aire giratorio que conecta la superficie de la tierra y una nube de cumulonimbo"
+    },
+    "file": "assets/icons/photo-tornado25.jpg"
+  },
+  "photo-terremoto": {
+    "kind": "cutout",
+    "query": "Terremoto",
+    "wiki": "Terremoto",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Terremoto",
+      "description": "resultado de una liberación repentina de energía en la corteza terrestre que crea ondas sísmicas"
+    },
+    "file": "assets/icons/photo-terremoto.jpg"
+  },
+  "clip-clouds": {
+    "kind": "clip",
+    "query": "clouds time lapse",
+    "file": "assets/clips/clip-clouds.mp4"
+  },
+  "big-jump": {
+    "kind": "vector",
+    "query": "a tiny single cell making a big leap up a staircase to become a complex animal, jump",
+    "file": "assets/icons/big-jump.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ghost-message": {
+    "kind": "vector",
+    "query": "a ghostly translucent ghost holding a glowing message envelope floating in dark space",
+    "file": "assets/icons/ghost-message.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "origin-of-life": {
+    "kind": "vector",
+    "query": "a spark of the origin of life, a glowing seed in the deep sea",
+    "file": "assets/icons/origin-of-life.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "space-vacuum": {
+    "kind": "vector",
+    "query": "a vast empty dark space void with only a tiny faraway star",
+    "file": "assets/icons/space-vacuum.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "advanced-tech": {
+    "kind": "vector",
+    "query": "advanced futuristic technology combined: a robot arm, glowing circuits, a rocket and a microchip",
+    "file": "assets/icons/advanced-tech.png",
+    "normalized": true,
+    "gpt": true
   }
 }

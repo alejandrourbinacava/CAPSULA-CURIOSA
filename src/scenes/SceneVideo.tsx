@@ -171,6 +171,7 @@ const countText = (content: string, p: number) => {
   const num = parseFloat(raw.replace(/\./g, "").replace(",", ".")); if (isNaN(num)) return content;
   const v = num * (p < 1 ? 1 - Math.pow(1 - p, 3) : 1);
   const [ip, dp] = v.toFixed(decs).split(".");
+  if (/^\d{4}$/.test(raw)) return m[1] + ip + m[3]; // un año ("1977") no lleva separador de miles
   return m[1] + ip.replace(/\B(?=(\d{3})+(?!\d))/g, ".") + (dp ? "," + dp : "") + m[3];
 };
 

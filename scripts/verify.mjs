@@ -118,7 +118,7 @@ for (const e of scenes.elements) { if (e.box && !isStructural(e) && !e.hud && !e
 // "15s" queda como AVISO (no bloquea) hasta que esté la rotación de imágenes; el resto son duros.
 const HARD = new Set(["texto-texto", "zona", "n-textos", "fuera", "img-img", "total", "texto-pequeño", "desborde", "antes-de-voz", "desync", "forma-huerfana", "declarado", "solo-descentrado", "hueco", "duracion-corta", "texto-sin-icono"]);
 const hard = fails.filter(f => HARD.has(f.kind));
-const shown = fails.slice(0, 25);
+const shown = fails.slice(0, +(process.env.VERIFY_MAX || 25));
 for (const f of shown) console.log(`✗ ${ts(f.t)}  ${f.msg}\n`);
 const badFrames = new Set(fails.map(f => f.t)).size;
 const byKind = {}; for (const f of fails) byKind[f.kind] = (byKind[f.kind] || 0) + 1;

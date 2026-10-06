@@ -98,7 +98,7 @@ export function buildScene(spec, ctx) {
     els.push({ id: id("ar"), type: "arrow", a: { x: Math.round(ca.cx + ux * ra), y: Math.round(ca.cy + uy * ra) }, b: { x: Math.round(cb.cx - ux * rb), y: Math.round(cb.cy - uy * rb) }, curve: opts.curve || "none", color: opts.color || ctx.RED, z: 40, in: +Math.max(t0, tIn).toFixed(2), out: t1, enter: { kind: "draw", duration: 0.45 }, exit: { kind: "fade-out", duration: 0.2 }, _scene: true });
   };
   const pick = (k, table) => table[clamp(k, 1, table.length) - 1];
-  const under = (nd, S) => (nd._box ? nd._box.h : S) / 2 + (nd.kind === "photo" || nd.kind === "clip" ? 54 : 46); // distancia del centro a la etiqueta de debajo (cuenta placa y media altura real del clip)
+  const under = (nd, S) => (nd._box ? nd._box.h : S) / 2 + (nd.kind === "photo" || nd.kind === "clip" ? 64 : 46); // distancia del centro a la etiqueta de debajo (cuenta placa y media altura real del clip)
 
   switch (template) {
     // ===== flow: A → B → C (fila centrada y simétrica; cada flecha se dibuja justo antes de que entre el siguiente) =====
@@ -145,7 +145,7 @@ export function buildScene(spec, ctx) {
     }
     // ===== list: filas (icono + frase) una a una, cada una con su check =====
     case "list": {
-      const rowH = n <= 3 ? 200 : n === 4 ? 165 : 140, y0 = 520 - (rowH * (n - 1)) / 2, S = rowH - 30;
+      const rowH = n <= 3 ? 215 : n === 4 ? 185 : 150, y0 = (n >= 4 ? 590 : 520) - (rowH * (n - 1)) / 2, S = rowH - 24;
       nodes.forEach((nd, i) => { const cy = Math.round(y0 + rowH * i); addNode(nd, 470, cy, S, "slide-l"); addSideLabel(nd, 470 + nd._box.w / 2 + 34, cy, 960, 54);
         els.push({ id: id("ck"), type: "shape", kind: "checkmark", box: { cx: 1640, cy, w: 120, h: 120 }, color: "#2F9E44", z: 45, in: +(nd.t + 0.55).toFixed(2), out: t1, enter: { kind: "draw", duration: 0.45 }, exit: { kind: "fade-out", duration: 0.2 }, _scene: true }); });
       break;
@@ -154,7 +154,7 @@ export function buildScene(spec, ctx) {
     case "stat": {
       const st = spec.stat || { value: "", unit: "" }; const nd = nodes[0];
       if (nd) { addNode(nd, 560, 470, 420, "pop"); addLabel(nd, 560, 470 + under(nd, 420), 560, 44); }
-      els.push({ id: id("st"), type: "stat", content: st.value, unit: st.unit, box: { cx: nd ? 1280 : 960, cy: 470, w: 980, h: 360 }, color: ctx.RED, z: 55, in: +((nd ? nd.t : t0) + 0.45).toFixed(2), out: t1, enter: ctx.enterOf("stamp"), exit: { kind: "fade-out", duration: 0.3 }, _scene: true });
+      els.push({ id: id("st"), type: "stat", content: st.value, unit: st.unit, box: { cx: nd ? 1280 : 960, cy: 470, w: 980, h: 360 }, color: ctx.RED, z: 55, in: +clamp(st.t != null ? st.t : (nd ? nd.t : t0) + 0.45, t0 + 0.2, t1 - 1.2).toFixed(2), out: t1, enter: ctx.enterOf("stamp"), exit: { kind: "fade-out", duration: 0.3 }, _scene: true });
       break;
     }
     // ===== focus: foto/clip grande centrado + 1-4 rótulos con flecha a los lados (nunca encima de la pieza) =====
@@ -203,7 +203,7 @@ export function buildScene(spec, ctx) {
     }
     // ===== zigzag: cascada que sube y baja (causa → efecto → efecto), rótulos hacia fuera =====
     case "zigzag": {
-      const m = clamp(n, 3, 5), S = m === 3 ? 230 : m === 4 ? 210 : 190, xa = 400, xb = 1560, yUp = 345 + S / 2, yDn = yUp + 268; // los rótulos de arriba quedan por debajo del título (y ≥ 285)
+      const m = clamp(n, 3, 5), S = m === 3 ? 210 : m === 4 ? 195 : 180, xa = 400, xb = 1560, yUp = 385 + S / 2, yDn = yUp + 250; // los rótulos de arriba quedan por debajo del título (y ≥ 285)
       nodes.slice(0, m).forEach((nd, i) => { const x = Math.round(xa + ((xb - xa) * i) / (m - 1)), up = i % 2 === 0, y = up ? yUp : yDn;
         addNode(nd, x, y, S, up ? "slide-t" : "slide-b"); if (up) addLabel(nd, x, y - nd._box.h / 2 - 48, 480, 42); else addLabel(nd, x, y + under(nd, S), 480, 42); });
       for (let i = 1; i < m; i++) addArrow(nodes[i - 1], nodes[i], nodes[i].t - 0.3, { curve: i % 2 ? "down" : "up" });
@@ -211,9 +211,9 @@ export function buildScene(spec, ctx) {
     }
     // ===== timeline: línea que se dibuja de izquierda a derecha con hitos arriba y abajo, alternados =====
     case "timeline": {
-      const m = clamp(n, 3, 5), S = m <= 4 ? 190 : 170, ly = 620, xa = 300, xb = 1620;
+      const m = clamp(n, 3, 5), S = m <= 3 ? 230 : m === 4 ? 200 : 170, ly = 620, xa = 300, xb = 1620;
       els.push({ id: id("tl"), type: "arrow", a: { x: 120, y: ly }, b: { x: 1800, y: ly }, curve: "none", color: INK, z: 38, in: +t0.toFixed(2), out: t1, enter: { kind: "draw", duration: Math.min(2.5, (t1 - t0) * 0.5) }, exit: { kind: "fade-out", duration: 0.25 }, _scene: true });
-      nodes.slice(0, m).forEach((nd, i) => { const x = Math.round(xa + ((xb - xa) * i) / (m - 1)), up = i % 2 === 0, y = up ? 345 + S / 2 : 894 - S / 2;
+      nodes.slice(0, m).forEach((nd, i) => { const x = Math.round(xa + ((xb - xa) * i) / (m - 1)), up = i % 2 === 0, y = up ? 380 + S / 2 : 855 - S / 2;
         addNode(nd, x, y, S, up ? "slide-t" : "slide-b"); if (up) addLabel(nd, x, y - nd._box.h / 2 - 48, 460, 42); else addLabel(nd, x, y + under(nd, S), 460, 42);
         const yb = up ? y + nd._box.h / 2 + 14 : y - nd._box.h / 2 - 14, ye = up ? ly - 16 : ly + 16;
         els.push({ id: id("tk"), type: "arrow", a: { x, y: yb }, b: { x, y: ye }, curve: "none", color: ctx.RED, z: 40, in: +Math.max(t0, nd.t + 0.25).toFixed(2), out: t1, enter: { kind: "draw", duration: 0.3 }, exit: { kind: "fade-out", duration: 0.2 }, _scene: true }); });
@@ -232,7 +232,7 @@ export function buildScene(spec, ctx) {
       nodes.slice(0, m).forEach((nd, i) => {
         const key = /^\*.*\*$/.test(nd.label || ""), txt = (nd.label || "").replace(/^\*|\*$/g, ""), cw = key ? 0.63 : 0.47;
         const fs = Math.min(fb, Math.floor(1680 / Math.max(3, txt.length * cw))), bw = Math.round(txt.length * fs * cw) + 36, y = Math.round(560 + (i - (m - 1) / 2) * gap);
-        if (key) els.push({ id: id("hl"), type: "panel", kind: "bar", color: dark ? "#C9A100" : "#FFE066", box: { cx: 960, cy: Math.round(y + fs * 0.08), w: bw + 30, h: Math.round(fs * 0.78) }, z: 50, in: +(nd.t + 0.25).toFixed(2), out: t1, enter: { kind: "handwrite", duration: 0.5 }, exit: { kind: exitK, duration: 0.25 }, structural: true, _scene: true });
+        if (key) els.push({ id: id("hl"), type: "panel", kind: "bar", color: dark ? "#C9A100" : "#FFE066", box: { cx: 960, cy: Math.round(y + fs * 0.08), w: Math.round(txt.length * fs * 0.46) + 56, h: Math.round(fs * 0.78) }, z: 50, in: +(nd.t + 0.25).toFixed(2), out: t1, enter: { kind: "handwrite", duration: 0.5 }, exit: { kind: exitK, duration: 0.25 }, structural: true, _scene: true });
         els.push({ id: id("w"), type: "text", content: txt, fontSize: fs, box: { cx: 960, cy: y, w: bw, h: Math.round(fs * 1.25) - 4 }, color: key ? ctx.RED : INK, z: 60, ...(dark ? { noHalo: true } : {}), in: nd.t, out: t1, enter: ctx.enterOf(key ? "stamp" : (i % 2 ? "slide-r" : "slide-l")), exit: { kind: exitK, duration: 0.25 }, _scene: true });
       });
       break;

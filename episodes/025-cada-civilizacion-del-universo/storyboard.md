@@ -5,265 +5,712 @@
 
 ---
 
-### BEAT 1 · 00:00 · T5
-Narración: *"En nuestra galaxia hay más de cien mil millones de estrellas. Y en el universo observable, billones de galaxias como la nuestra. Las matemáticas son aplastantes. Debería haber vida inteligente por todas partes. Y sin embargo, cuando miramos al cielo, solo encontramos un silencio absoluto y aterrador."*
+### BEAT 101 · 00:00 · T1
+Narración: *"En nuestra galaxia hay más de cien mil millones de estrellas. Y en el universo observable, billones de galaxias como la nuestra."*
 ```
-+0.0  CHAP "¿Dónde está todo el mundo?" billions-stars
-+0.0  CLIP clip-galaxy  @center big ~estrellas pop
-+4.4  ICO  billions-stars ~galaxias pop
-+5.4  ICO  empty-silence ~silencio pop
-+4.0  TXT  "100.000 millones de estrellas... y silencio" @cap stamp lg blue
++0.0  SCENE flow
++0.0  NODE clip-milkyway "100.000 millones de estrellas" ~galaxia
++0.0  NODE photo-andromeda "billones de galaxias" ~observable
 ```
 
-### BEAT 2 · 00:17 · T1
-Narración: *"¿Dónde está todo el mundo? Hoy vamos a clasificar cada tipo de civilización que podría existir en el universo, de la más primitiva a la más parecida a un dios. Y al final, nos enfrentaremos a la pregunta más inquietante de la ciencia. Si el universo es tan inmenso, ¿por qué parece que estamos solos?"*
+### BEAT 102 · 00:00 · T1
+Narración: *"Las matemáticas son aplastantes. Debería haber vida inteligente por todas partes."*
 ```
-+0.0  IMG  photo-milkyway @center big ~mundo pop
-+4.0  ICO  kardashev-ladder ~clasificar pop
-+5.0  ICO  alone-or-gods ~solos pop
-+4.2  TXT  "de lo primitivo... a lo divino" @cap handwrite md
-```
-
-### BEAT 3 · 00:34 · T5
-Narración: *"Para empezar, necesitamos una forma de medir lo avanzada que es una civilización. Y los científicos encontraron la clave perfecta. No es su tecnología, ni sus armas. Es la energía. Cuanta más energía es capaz de controlar y usar una civilización, más avanzada es. Esta idea se llama la escala de Kardashev."*
-```
-+0.0  CHAP "La escala de Kardashev" energy-scale
-+0.0  ICO  energy-scale @center hero ~energía pop
-+4.4  ICO  kardashev-ladder ~escala pop
-+5.2  TXT  "se miden por la ENERGÍA que controlan" @cap handwrite md
++0.0  SCENE flow
++0.0  NODE drake-equation "las matemáticas son aplastantes" ~matemáticas
++0.0  NODE type-three-galaxy "debería haber vida inteligente por todas partes" ~debería
 ```
 
-### BEAT 4 · 00:52 · T5
-Narración: *"Empecemos por el escalón más bajo, donde estamos nosotros. La civilización de Tipo cero. Una civilización de Tipo cero obtiene su energía de fuentes primitivas, como quemar madera, carbón, petróleo o gas. No controla su planeta, simplemente lo saquea."*
+### BEAT 103 · 00:00 · T1
+Narración: *"Y sin embargo, cuando miramos al cielo, solo encontramos un silencio absoluto y aterrador. ¿Dónde está todo el mundo?"*
+```
++0.0  CHAP "¿Dónde está todo el mundo?" fermi-paradox
++0.0  SCENE focus
++0.0  NODE photo-telescope "" ~miramos
++0.0  NODE empty-silence "solo un silencio absoluto" ~encontramos
++0.0  NODE where-everyone "¿dónde está todo el mundo?" ~Dónde
+```
+
+### BEAT 104 · 00:00 · T1
+Narración: *"Hoy vamos a clasificar cada tipo de civilización que podría existir en el universo,"*
+```
++0.0  SCENE zigzag track
++0.0  NODE sort-civilizations "clasificar cada tipo" ~clasificar
++0.0  NODE photo-nebula "civilización que podría existir" ~podría
++0.0  NODE photo-galaxy "en el universo" ~universo
+```
+
+### BEAT 105 · 00:00 · T1
+Narración: *"de la más primitiva a la más parecida a un dios."*
+```
++0.0  SCENE ladder
++0.0  NODE type-zero "la más primitiva" ~primitiva
++0.0  NODE godlike "la más parecida a un dios" ~parecida
+```
+
+### BEAT 106 · 00:00 · T1
+Narración: *"Y al final, nos enfrentaremos a la pregunta más inquietante de la ciencia. Si el universo es tan inmenso, ¿por qué parece que estamos solos?"*
+```
++0.0  SCENE converge
++0.0  NODE great-filter "la pregunta más inquietante" ~pregunta
++0.0  NODE clip-nebula "un universo tan inmenso" ~universo
++0.0  NODE alone-or-gods "¿por qué parece que estamos solos?" ~parece
+```
+
+### BEAT 107 · 00:00 · T1
+Narración: *"Para empezar, necesitamos una forma de medir lo avanzada que es una civilización. Y los científicos encontraron la clave perfecta."*
+```
++0.0  CHAP "La escala de Kardashev" kardashev-badge
++0.0  SCENE flow curve
++0.0  NODE civilization-meter "medir lo avanzada que es una civilización" ~medir
++0.0  NODE golden-key "la clave perfecta" ~encontraron
+```
+
+### BEAT 108 · 00:00 · T1
+Narración: *"No es su tecnología, ni sus armas. Es la energía."*
+```
++0.0  SCENE words
++0.0  NODE - "No es la tecnología." ~tecnología
++0.0  NODE - "Ni sus armas." ~armas
++0.0  NODE - "*Es la energía*" ~energía
+```
+
+### BEAT 109 · 00:00 · T1
+Narración: *"Cuanta más energía es capaz de controlar y usar una civilización, más avanzada es. Esta idea se llama la escala de Kardashev."*
+```
++0.0  SCENE flow grow track
++0.0  NODE energy-scale "cuanta más energía controla..." ~energía
++0.0  NODE kardashev-ladder "...más avanzada: escala de Kardashev" ~avanzada
+```
+
+### BEAT 110 · 00:00 · T1
+Narración: *"Empecemos por el escalón…"*
 ```
 +0.0  CHAP "Tipo 0: nosotros" type-zero
-+0.0  CLIP clip-earth   @center big ~Tipo pop
-+4.4  ICO  type-zero    ~primitivas pop
-+5.4  ICO  self-destruct-power ~saquea pop
-+4.0  TXT  "Tipo 0: quema carbón, petróleo, gas" @cap handwrite md
++0.0  SCENE single
++0.0  NODE clip-earth "el escalón más bajo: nosotros" ~escalón
 ```
 
-### BEAT 5 · 01:08 · T1
-Narración: *"Y aquí viene el dato que duele. Nosotros, la humanidad, ni siquiera hemos llegado todavía al Tipo uno. Estamos en un cero coma siete, más o menos. Somos unos adolescentes cósmicos, con el poder suficiente para destruirnos, pero no para dominar ni nuestro propio planeta."*
+### BEAT 111 · 00:00 · T1
+Narración: *"La civilización de Tipo…"*
 ```
-+0.0  IMG  photo-astronaut @center big ~adolescentes pop
-+4.0  ICO  cosmic-teenager ~destruirnos pop
-+5.0  ICO  self-destruct-power ~planeta pop
-+4.2  TXT  "estamos en el 0,7: adolescentes cósmicos" @cap stamp lg red
++0.0  SCENE words
++0.0  NODE - "Civilización de Tipo 0" ~civilización
++0.0  NODE - "*obtiene su energía*" ~obtiene
++0.0  NODE - "de fuentes primitivas" ~fuentes
 ```
 
-### BEAT 6 · 01:24 · T5
-Narración: *"El siguiente escalón ya es cosa seria. La civilización de Tipo uno, o planetaria. Una civilización de Tipo uno es capaz de capturar y usar toda la energía que llega a su planeta desde su estrella. Toda. Imagina controlar por completo la energía solar, el viento, los volcanes y hasta el clima."*
+### BEAT 112 · 00:00 · T1
+Narración: *"como quemar madera…"*
+```
++0.0  SCENE grid
++0.0  NODE wood-logs "madera" ~madera
++0.0  NODE coal-lump "carbón" ~carbón
++0.0  NODE oil-barrel "petróleo" ~petróleo
++0.0  NODE gas-flame "gas" ~gas
+```
+
+### BEAT 113 · 00:00 · T1
+Narración: *"No controla su…"*
+```
++0.0  SCENE single
++0.0  NODE plunder-planet "no controla su planeta: lo saquea" ~controla
+```
+
+### BEAT 114 · 00:00 · T1
+Narración: *"Y aquí viene el…"*
+```
++0.0  SCENE flow curve
++0.0  NODE human-crowd "la humanidad" ~humanidad
++0.0  NODE type-one-planet "Tipo I" ~uno
+```
+
+### BEAT 115 · 00:00 · T1
+Narración: *"Estamos en un…"*
+```
++0.0  SCENE stat
++0.0  STAT "0,7" "de 1 en la escala"
++0.0  NODE meter-07 "nuestro nivel actual" ~estamos
+```
+
+### BEAT 116 · 00:00 · T1
+Narración: *"Somos unos adolescentes…"*
+```
++0.0  SCENE flow
++0.0  NODE cosmic-teenager "adolescentes cósmicos" ~adolescentes
++0.0  NODE self-destruct-power "poder para destruirnos" ~poder
++0.0  NODE photo-earth "ni nuestro propio planeta" ~dominar
+```
+
+### BEAT 117 · 00:00 · T1
+Narración: *"El siguiente escalón…"*
 ```
 +0.0  CHAP "Tipo I: planetaria" type-one-planet
-+0.0  IMG  photo-earth  @center big ~planetaria pop
-+4.0  ICO  type-one-planet ~estrella pop
-+5.2  ICO  harness-sun  ~clima pop
-+4.2  TXT  "Tipo I: domina TODA la energía de su planeta" @cap handwrite md
++0.0  SCENE single
++0.0  NODE kardashev-ladder "el siguiente escalón: Tipo I, planetaria" ~siguiente
 ```
 
-### BEAT 7 · 01:42 · T1
-Narración: *"Podrían desviar huracanes, prevenir terremotos y controlar el tiempo a su antojo. Para ellos, un desastre natural que a nosotros nos aterra sería un simple problema de ingeniería. Serían los amos absolutos de su mundo."*
+### BEAT 118 · 00:00 · T1
+Narración: *"Una civilización de Tipo uno…"*
 ```
-+0.0  ICO  control-weather ~huracanes pop
-+2.8  ICO  harness-sun  ~ingeniería pop
-+4.4  ICO  masters-of-world ~amos pop
-+3.8  TXT  "un huracán sería para ellos un trámite" @cap stamp lg blue
++0.0  SCENE flow curve
++0.0  NODE energy-capture "capturar toda la energía de su planeta" ~capturar
++0.0  NODE clip-sun "desde su estrella" ~estrella
 ```
 
-### BEAT 8 · 01:58 · T5
-Narración: *"Subimos un peldaño más, y la cosa se vuelve alucinante. La civilización de Tipo dos, o estelar. Si el Tipo uno domina su planeta, el Tipo dos domina su estrella entera. Y aquí aparece una de las ideas más fascinantes de toda la ciencia. La esfera de Dyson."*
+### BEAT 119 · 00:00 · T1
+Narración: *"Toda. Imagina controlar…"*
+```
++0.0  SCENE radial
++0.0  NODE planet-control "controlar por completo" ~controlar
++0.0  NODE harness-sun "energía solar" ~solar
++0.0  NODE wind-turbine "el viento" ~viento
++0.0  NODE photo-volcan "los volcanes" ~volcanes
++0.0  NODE control-weather "el clima" ~clima
+```
+
+### BEAT 120 · 00:00 · T1
+Narración: *"Podrían desviar huracanes…"*
+```
++0.0  SCENE flow
++0.0  NODE photo-huracan "desviar huracanes" ~huracanes
++0.0  NODE photo-terremoto "prevenir terremotos" ~terremotos
++0.0  NODE clip-clouds "controlar el tiempo" ~tiempo
+```
+
+### BEAT 121 · 00:00 · T1
+Narración: *"Para ellos, un…"*
+```
++0.0  SCENE versus
++0.0  NODE photo-tornado25 "para nosotros: un desastre" ~desastre
++0.0  NODE engineer-fix "para ellos: un problema de ingeniería" ~ingeniería
+```
+
+### BEAT 122 · 00:00 · T1
+Narración: *"Serían los amos…"*
+```
++0.0  SCENE single
++0.0  NODE masters-of-world "los amos absolutos de su mundo" ~amos
+```
+
+### BEAT 123 · 00:00 · T1
+Narración: *"Subimos un peldaño…"*
 ```
 +0.0  CHAP "Tipo II: estelar" type-two-star
-+0.0  CLIP clip-sun     @center big ~estelar pop
-+4.4  ICO  type-two-star ~estrella pop
-+5.4  ICO  dyson-sphere ~Dyson pop
-+4.0  TXT  "Tipo II: domina su ESTRELLA entera" @cap stamp lg blue
++0.0  SCENE words
++0.0  NODE - "Subimos un peldaño más" ~subimos
++0.0  NODE - "*Civilización de Tipo II*" ~civilización
++0.0  NODE - "la estelar" ~estelar
 ```
 
-### BEAT 9 · 02:16 · T5
-Narración: *"Sería una estructura gigantesca, construida alrededor de su sol, para capturar absolutamente toda la energía que emite. No una parte, sino toda, cada segundo. Con esa cantidad de energía, esta civilización sería prácticamente indestructible. Podría mover planetas, vivir millones de años y resistir casi cualquier catástrofe. Para nosotros, serían como dioses."*
+### BEAT 124 · 00:00 · T1
+Narración: *"Si el Tipo uno…"*
 ```
-+0.0  ICO  dyson-sphere @center hero ~estructura pop
-+4.4  ICO  indestructible ~indestructible pop
-+5.4  ICO  move-planets ~planetas pop
-+6.2  TXT  "la esfera de Dyson: toda la energía del sol" @cap stamp lg blue
-```
-
-### BEAT 9b · 02:30 · T5
-Narración: *"Y lo más increíble es que ya las estamos buscando. Ahora mismo, los astrónomos rastrean el cielo buscando estrellas con un brillo infrarrojo extraño, por si alguna hubiera sido ya rodeada por una de estas megaestructuras. De momento, nada."*
-```
-+0.0  CLIP clip-telescope @center big ~buscando pop
-+4.4  ICO  dyson-sphere ~infrarrojo pop
-+5.4  ICO  empty-silence ~nada pop
-+4.0  TXT  "ya buscamos esferas de Dyson... sin éxito" @cap stamp lg blue
++0.0  SCENE flow
++0.0  NODE photo-earth "Tipo I: domina su planeta" ~uno
++0.0  NODE photo-sun "Tipo II: domina su estrella entera" ~dos
 ```
 
-### BEAT 10 · 02:36 · T5
-Narración: *"Y ahora, prepárate, porque el siguiente nivel desafía la imaginación. La civilización de Tipo tres, o galáctica. Una civilización de Tipo tres controla la energía de toda una galaxia. Hablamos de domesticar cientos de miles de millones de estrellas a la vez."*
+### BEAT 125 · 00:00 · T1
+Narración: *"Y aquí aparece una…"*
+```
++0.0  SCENE words
++0.0  NODE - "Una de las ideas más fascinantes" ~ideas
++0.0  NODE - "*La esfera de Dyson*" ~esfera
+```
+
+### BEAT 126 · 00:00 · T1
+Narración: *"Sería una estructura…"*
+```
++0.0  SCENE focus
++0.0  NODE clip-sun "alrededor de su sol" ~estructura
++0.0  NODE dyson-sphere "estructura gigantesca" ~gigantesca
++0.0  NODE - "toda su energía" ~energía
+```
+
+### BEAT 127 · 00:00 · T1
+Narración: *"No una parte…"*
+```
++0.0  SCENE stat
++0.0  STAT "100 %" "cada segundo"
++0.0  NODE energy-bolt "la energía de su estrella" ~parte
+```
+
+### BEAT 128 · 00:00 · T1
+Narración: *"Con esa cantidad…"*
+```
++0.0  SCENE single
++0.0  NODE indestructible "prácticamente indestructible" ~indestructible
+```
+
+### BEAT 129 · 00:00 · T1
+Narración: *"Podría mover planetas…"*
+```
++0.0  SCENE list
++0.0  NODE move-planets "mover planetas" ~mover
++0.0  NODE ancient-universe "vivir millones de años" ~vivir
++0.0  NODE no-catastrophe "resistir cualquier catástrofe" ~resistir
+```
+
+### BEAT 130 · 00:00 · T1
+Narración: *"Para nosotros, serían…"*
+```
++0.0  SCENE flow
++0.0  NODE godlike "para nosotros, como dioses" ~nosotros
++0.0  NODE clip-telescope "ya las estamos buscando" ~buscando
+```
+
+### BEAT 131 · 00:00 · T1
+Narración: *"Ahora mismo, los…"*
+```
++0.0  SCENE hub
++0.0  NODE photo-telescope "astrónomos rastreando el cielo" ~astrónomos
++0.0  NODE infrared-star "brillo infrarrojo extraño" ~infrarrojo
+```
+
+### BEAT 132 · 00:00 · T1
+Narración: *"por si alguna…"*
+```
++0.0  SCENE flow curve
++0.0  NODE dyson-sphere "rodeada por una megaestructura" ~rodeada
++0.0  NODE empty-silence "de momento, nada" ~momento
+```
+
+### BEAT 133 · 00:00 · T1
+Narración: *"Y ahora, prepárate…"*
 ```
 +0.0  CHAP "Tipo III: galáctica" type-three-galaxy
-+0.0  CLIP clip-galaxy  @center big ~galáctica pop
-+4.4  ICO  type-three-galaxy ~galaxia pop
-+5.4  ICO  tame-stars   ~estrellas pop
-+4.0  TXT  "Tipo III: domina una GALAXIA entera" @cap stamp lg blue
++0.0  SCENE focus
++0.0  NODE clip-galaxy "desafía la imaginación" ~prepárate
++0.0  NODE - "Tipo III: galáctica" ~tres
 ```
 
-### BEAT 11 · 02:54 · T1
-Narración: *"Habrían colonizado la galaxia entera, probablemente con inteligencias artificiales y quizás convertidos ellos mismos en máquinas o en energía pura. Su tecnología sería tan avanzada que, para nosotros, resultaría indistinguible de la magia. No podríamos ni empezar a comprenderla."*
+### BEAT 134 · 00:00 · T1
+Narración: *"Una civilización de Tipo tres…"*
 ```
-+0.0  IMG  photo-andromeda @center big ~artificiales pop
-+4.0  ICO  ai-machines  ~magia pop
-+5.0  ICO  magic-tech   ~comprenderla pop
-+4.2  TXT  "su tecnología: indistinguible de la magia" @cap stamp lg blue
-```
-
-### BEAT 12 · 03:10 · T5
-Narración: *"Pero la escala no se detiene ahí. Algunos científicos van más allá, hacia lo puramente teórico. Una civilización de Tipo cuatro controlaría la energía de todo el universo. Y una de Tipo cinco, la más extrema imaginable, podría manipular múltiples universos, el famoso multiverso."*
-```
-+0.0  CHAP "Tipo IV y V: universal" type-four-universe
-+0.0  CLIP clip-nebula  @center big ~universo pop
-+4.4  ICO  type-four-universe ~Tipo pop
-+5.4  ICO  type-five-multiverse ~multiverso pop
-+4.0  TXT  "Tipo IV: el universo. Tipo V: el multiverso" @cap handwrite md
++0.0  SCENE flow
++0.0  NODE photo-milkyway "controla la energía de toda una galaxia" ~controla
++0.0  NODE tame-stars "domesticar cientos de miles de millones de estrellas" ~domesticar
 ```
 
-### BEAT 13 · 03:28 · T1
-Narración: *"Seres así estarían, literalmente, al nivel de los dioses de la mitología. Podrían crear y destruir realidades enteras con solo desearlo."*
+### BEAT 135 · 00:00 · T1
+Narración: *"Habrían colonizado la…"*
 ```
-+0.0  ICO  godlike      ~dioses pop
-+2.6  ICO  type-five-multiverse ~realidades pop
-+3.6  TXT  "crear y destruir realidades a voluntad" @cap stamp lg blue
-```
-
-### BEAT 14 · 03:40 · T5
-Narración: *"Y aquí es donde llegamos al gran misterio. Si el universo es tan antiguo, de casi catorce mil millones de años, y tan inmenso, deberían existir ya civilizaciones de Tipo dos o tres por todas partes. Deberíamos ver sus esferas de Dyson, oír sus señales, notar su presencia. Pero no vemos absolutamente nada."*
-```
-+0.0  CHAP "La paradoja de Fermi" fermi-paradox
-+0.0  CLIP clip-telescope @center big ~misterio pop
-+4.4  ICO  fermi-paradox ~presencia pop
-+5.4  ICO  empty-silence ~nada pop
-+4.0  TXT  "deberían estar por todas partes... y nada" @cap stamp lg red
++0.0  SCENE hub
++0.0  NODE colonize-galaxy "colonizado la galaxia entera" ~colonizado
++0.0  NODE ai-machines "inteligencias artificiales" ~inteligencias
++0.0  NODE pure-energy-being "o energía pura" ~energía
 ```
 
-### BEAT 15 · 03:58 · T1
-Narración: *"A esta contradicción se la conoce como la paradoja de Fermi. El universo debería estar lleno de vida, pero parece completamente vacío. ¿Y dónde están todos? La ciencia tiene varias respuestas posibles, y cada una es más inquietante que la anterior."*
+### BEAT 136 · 00:00 · T1
+Narración: *"Su tecnología sería…"*
 ```
-+0.0  IMG  photo-telescope @center big ~paradoja pop
-+4.0  ICO  fermi-paradox ~vacío pop
-+5.0  ICO  where-everyone ~todos pop
-+4.2  TXT  "el universo debería estar lleno... pero está vacío" @cap stamp lg red
-```
-
-### BEAT 16 · 04:14 · T5
-Narración: *"La primera es el gran filtro. Puede que exista una barrera, un obstáculo casi imposible de superar, que acaba con casi todas las civilizaciones antes de que lleguen a las estrellas. La pregunta escalofriante es. ¿Ese filtro está en nuestro pasado, y por eso somos tan raros y afortunados? ¿O está en nuestro futuro, esperándonos?"*
-```
-+0.0  CHAP "El gran filtro" great-filter
-+0.0  ICO  great-filter @center hero ~filtro pop
-+4.4  ICO  filter-future ~futuro pop
-+5.4  TXT  "¿el filtro está en nuestro pasado... o futuro?" @cap handwrite md
++0.0  SCENE flow curve
++0.0  NODE magic-tech "indistinguible de la magia" ~indistinguible
++0.0  NODE cant-comprehend "no podríamos comprenderla" ~podríamos
 ```
 
-### BEAT 17 · 04:34 · T5
-Narración: *"La segunda respuesta es la más oscura de todas. Que las civilizaciones se autodestruyen. Que, al alcanzar cierto nivel de tecnología, con armas nucleares, con inteligencia artificial o destruyendo su propio planeta, se aniquilan a sí mismas antes de poder expandirse. Si esto es cierto, nosotros estaríamos ahora mismo, justo, en el momento más peligroso."*
+### BEAT 137 · 00:00 · T1
+Narración: *"Pero la escala…"*
 ```
-+0.0  CHAP "Se autodestruyen" self-destruction
-+0.0  CLIP clip-earth   @center big ~autodestruyen pop
-+4.4  ICO  self-destruction ~aniquilan pop
-+5.4  ICO  nuclear-ai-danger ~nucleares pop
-+4.0  TXT  "quizá se destruyen antes de expandirse" @cap stamp lg red
-```
-
-### BEAT 18 · 04:54 · T1
-Narración: *"La tercera es casi poética. Puede que simplemente seamos de los primeros. Que en este universo tan joven, la vida inteligente apenas está empezando a aparecer, y nosotros seamos una de las primeras en lograrlo. Los pioneros de la galaxia."*
-```
-+0.0  CHAP "Somos los primeros" we-are-first
-+0.0  CLIP clip-rocket  @center big ~primeros pop
-+4.0  ICO  we-are-beginning ~pioneros pop
-+5.0  TXT  "quizá seamos los PIONEROS del universo" @cap handwrite md
++0.0  CHAP "Tipos IV y V: teóricos" theory-chalkboard
++0.0  SCENE words
++0.0  NODE - "La escala no se detiene" ~escala
++0.0  NODE - "*hacia lo puramente teórico*" ~hacia
 ```
 
-### BEAT 19 · 05:10 · T5
-Narración: *"La cuarta da un poco de miedo. La hipótesis del zoo. Imagina que las civilizaciones avanzadas sí saben que existimos, pero han decidido no contactar, y nos observan desde lejos, como nosotros observamos a los animales en una reserva natural, sin interferir mientras evolucionamos."*
+### BEAT 138 · 00:00 · T1
+Narración: *"Una civilización de Tipo cuatro…"*
 ```
-+0.0  CHAP "La hipótesis del zoo" zoo-hypothesis
-+0.0  IMG  photo-earth  @center big ~zoo pop
-+4.0  ICO  zoo-hypothesis ~observan pop
-+5.2  TXT  "¿nos vigilan como a animales de un zoo?" @cap stamp lg blue
++0.0  SCENE single
++0.0  NODE type-four-universe "Tipo IV: la energía de todo el universo" ~tipo
 ```
 
-### BEAT 20 · 05:28 · T5
-Narración: *"La quinta es la más terrorífica. La teoría del bosque oscuro. Según esta idea, todas las civilizaciones guardan silencio a propósito, porque han comprendido que anunciarse al universo es un suicidio. Cualquiera que grite su posición podría ser destruido por otra civilización más poderosa y temerosa."*
+### BEAT 139 · 00:00 · T1
+Narración: *"Y una de Tipo…"*
 ```
-+0.0  CHAP "El bosque oscuro" dark-forest
-+0.0  CLIP clip-space   @center big ~bosque pop
-+4.4  ICO  dark-forest  ~silencio pop
-+5.4  ICO  nuclear-ai-danger ~destruido pop
-+4.0  TXT  "gritar tu posición al universo = suicidio" @cap stamp lg red
++0.0  SCENE flow
++0.0  NODE type-five-multiverse "Tipo V: la más extrema imaginable" ~extrema
++0.0  NODE bubble-universes "manipular múltiples universos" ~múltiples
 ```
 
-### BEAT 21 · 05:48 · T1
-Narración: *"Así que todos se esconden, callados, en la oscuridad. Y por último, quizás la razón sea mucho más simple y humilde. Que no podemos verlas. Puede que estén ahí, pero que sean tan avanzadas y tan diferentes que no somos capaces ni de reconocerlas."*
+### BEAT 140 · 00:00 · T1
+Narración: *"Seres así estarían…"*
 ```
-+0.0  ICO  dark-forest  ~esconden pop
-+2.8  ICO  cant-recognize ~reconocerlas pop
-+4.4  ICO  magic-tech   ~diferentes pop
-+3.8  TXT  "quizá están ahí... y no las reconocemos" @cap handwrite md
++0.0  SCENE single
++0.0  NODE godlike "al nivel de los dioses de la mitología" ~dioses
 ```
 
-### BEAT 21b · 05:58 · T5
-Narración: *"Otra posibilidad es que la vida inteligente sea, sencillamente, un milagro rarísimo. Que hagan falta tantísimas casualidades para que surja vida compleja, un planeta a la distancia justa, una luna que lo estabilice, un campo magnético que lo proteja, que la mayoría de los mundos se quedan para siempre con vida simple, como bacterias, y nunca dan el salto."*
+### BEAT 141 · 00:00 · T1
+Narración: *"Podrían crear y…"*
 ```
-+0.0  CHAP "La Tierra rara" we-are-first
-+0.0  IMG  photo-earth  @center big ~milagro pop
-+4.0  ICO  we-are-first ~casualidades pop
-+5.2  ICO  cant-recognize ~bacterias pop
-+4.2  TXT  "quizá la vida inteligente es un milagro rarísimo" @cap handwrite md
++0.0  SCENE versus
++0.0  NODE create-reality "crear realidades" ~crear
++0.0  NODE destroy-reality "destruirlas" ~destruir
 ```
 
-### BEAT 22 · 06:04 · T5
-Narración: *"Igual que una hormiga no entiende una autopista, nosotros quizá no entendamos las señales de un Tipo tres aunque las tuviéramos delante. Hay incluso una fórmula, la ecuación de Drake, que intenta calcular cuántas civilizaciones con las que podríamos comunicarnos habría en nuestra galaxia."*
+### BEAT 142 · 00:00 · T1
+Narración: *"Y aquí es donde…"*
 ```
-+0.0  CHAP "La ecuación de Drake" drake-equation
-+0.0  ICO  cant-recognize @center hero ~hormiga pop
-+4.4  ICO  drake-equation ~ecuación pop
-+5.4  TXT  "la ecuación de Drake: ¿cuántas hay?" @cap handwrite md
-```
-
-### BEAT 23 · 06:22 · T1
-Narración: *"El problema es que, según los números que le metas, el resultado va desde millones de civilizaciones, hasta que estamos completamente solos."*
-```
-+0.0  ICO  drake-equation ~números pop
-+2.6  ICO  alone-or-gods ~solos pop
-+3.6  TXT  "el resultado: ¿millones... o cero?" @cap stamp lg red
++0.0  CHAP "La paradoja de Fermi" where-are-they
++0.0  SCENE words
++0.0  NODE - "*El gran misterio*" ~misterio
 ```
 
-### BEAT 23b · 06:34 · T5
-Narración: *"En mil novecientos setenta y siete, un radiotelescopio captó una señal potentísima del espacio profundo, tan rara que el astrónomo escribió al lado una sola palabra. Wow. Nunca volvió a repetirse. Pero hay otro obstáculo brutal. Las distancias. Aunque haya civilizaciones, podrían estar tan lejos que sus señales tardarían millones de años en llegar. Estaríamos escuchando a fantasmas cósmicos, los ecos de mundos que ya no existen."*
+### BEAT 143 · 00:00 · T1
+Narración: *"Si el universo es…"*
 ```
-+0.0  CHAP "La señal Wow! y las distancias" empty-silence
-+0.0  CLIP clip-space   @center big ~señal pop
-+4.4  ICO  empty-silence ~Wow pop
-+5.4  ICO  billions-stars ~distancias pop
-+6.2  ICO  where-are-they ~fantasmas pop
-+4.5  TXT  "la señal «Wow!» y los fantasmas cósmicos" @cap stamp lg blue
++0.0  SCENE stat
++0.0  STAT "14.000" "millones de años"
++0.0  NODE ancient-universe "un universo antiquísimo" ~antiguo
 ```
 
-### BEAT 24 · 06:34 · T5
-Narración: *"Así que, al final, nos quedan dos posibilidades, y ambas son igual de sobrecogedoras. O el universo está lleno de vida, y hay civilizaciones ahí fuera tan avanzadas que son como dioses. O estamos verdaderamente solos, siendo la única chispa de consciencia en una inmensidad vacía y silenciosa."*
+### BEAT 144 · 00:00 · T1
+Narración: *"Deberíamos ver sus…"*
 ```
-+0.0  CHAP "Dos posibilidades" alone-or-gods
-+0.0  CLIP clip-milkyway @center big ~posibilidades pop
-+4.4  ICO  godlike      ~dioses pop
-+5.4  ICO  alone-or-gods ~solos pop
-+4.0  TXT  "o llenos de dioses... o completamente solos" @cap stamp lg blue
++0.0  SCENE flow
++0.0  NODE dyson-sphere "ver sus esferas de Dyson" ~esferas
++0.0  NODE radio-signals "oír sus señales" ~señales
 ```
 
-### BEAT 25 · 06:54 · T5
-Narración: *"No sabemos cuál de las dos da más miedo. Pero una cosa es segura. Cada vez que mires las estrellas, recuerda que la respuesta a la mayor pregunta de la historia está ahí arriba, esperando. Y que quizá, solo quizá, nosotros seamos el comienzo de todo."*
+### BEAT 145 · 00:00 · T1
+Narración: *"Pero no vemos…"*
 ```
-+0.0  CLIP clip-stars   @center big ~estrellas pop
-+4.4  ICO  we-are-beginning ~comienzo pop
-+5.4  ICO  billions-stars ~todo pop
-+4.0  TXT  "quizá nosotros seamos el comienzo de todo" @cap stamp lg blue
++0.0  SCENE focus
++0.0  NODE clip-galaxy "no vemos absolutamente nada" ~vemos
++0.0  NODE fermi-paradox "la paradoja de Fermi" ~paradoja
 ```
+
+### BEAT 146 · 00:00 · T1
+Narración: *"El universo debería estar…"*
+```
++0.0  SCENE versus
++0.0  NODE teeming-universe "debería estar lleno de vida" ~debería
++0.0  NODE empty-silence "pero parece vacío" ~vacío
+```
+
+### BEAT 147 · 00:00 · T1
+Narración: *"La ciencia tiene varias…"*
+```
++0.0  SCENE single
++0.0  NODE answers-doors "varias respuestas, cada una más inquietante" ~varias
+```
+
+### BEAT 148 · 00:00 · T1
+Narración: *"La primera es el…"*
+```
++0.0  CHAP "1. El gran filtro" great-filter
++0.0  SCENE words
++0.0  NODE - "*1. El gran filtro*" ~filtro
+```
+
+### BEAT 149 · 00:00 · T1
+Narración: *"Puede que exista una…"*
+```
++0.0  SCENE zigzag
++0.0  NODE barrier-wall "una barrera casi imposible" ~barrera
++0.0  NODE civilizations-fall "acaba con casi todas" ~acaba
++0.0  NODE clip-rocket "antes de llegar a las estrellas" ~estrellas
+```
+
+### BEAT 150 · 00:00 · T1
+Narración: *"La pregunta escalofriante es…"*
+```
++0.0  SCENE versus
++0.0  NODE filter-behind "¿en nuestro pasado?" ~pasado
++0.0  NODE filter-future "¿o en nuestro futuro?" ~futuro
+```
+
+### BEAT 151 · 00:00 · T1
+Narración: *"La segunda respuesta es…"*
+```
++0.0  CHAP "2. Se autodestruyen" self-destruction
++0.0  SCENE single
++0.0  NODE self-destruct-power "las civilizaciones se autodestruyen" ~autodestruyen
+```
+
+### BEAT 152 · 00:00 · T1
+Narración: *"con armas nucleares…"*
+```
++0.0  SCENE radial
++0.0  NODE advanced-tech "tecnología avanzada" ~armas
++0.0  NODE nuclear-bomb "armas nucleares" ~nucleares
++0.0  NODE nuclear-ai-danger "inteligencia artificial" ~inteligencia
++0.0  NODE planet-wrecked "destruir su planeta" ~destruyendo
+```
+
+### BEAT 153 · 00:00 · T1
+Narración: *"se aniquilan a…"*
+```
++0.0  SCENE hub
++0.0  NODE civ-boom "se aniquilan antes de expandirse" ~aniquilan
++0.0  NODE danger-tightrope "nosotros: en el momento más peligroso" ~nosotros
+```
+
+### BEAT 154 · 00:00 · T1
+Narración: *"La tercera es casi…"*
+```
++0.0  CHAP "3. Somos de los primeros" we-are-first
++0.0  SCENE timeline
++0.0  NODE we-are-beginning "puede que seamos de los primeros" ~simplemente
++0.0  NODE young-universe "un universo tan joven" ~joven
++0.0  NODE sprout-life "la vida apenas empieza" ~apenas
+```
+
+### BEAT 155 · 00:00 · T1
+Narración: *"Y nosotros seamos una…"*
+```
++0.0  SCENE hub
++0.0  NODE photo-astronaut "una de las primeras en lograrlo" ~primeras
++0.0  NODE galaxy-pioneer-flag "los pioneros de la galaxia" ~pioneros
+```
+
+### BEAT 156 · 00:00 · T1
+Narración: *"La cuarta da un…"*
+```
++0.0  CHAP "4. La hipótesis del zoo" zoo-hypothesis
++0.0  SCENE words
++0.0  NODE - "*La hipótesis del zoo*" ~hipótesis
+```
+
+### BEAT 157 · 00:00 · T1
+Narración: *"Imagina que las civilizaciones…"*
+```
++0.0  SCENE focus
++0.0  NODE photo-saturn "nos observan desde lejos" ~observan
++0.0  NODE aliens-watching "saben que existimos" ~saben
++0.0  NODE - "deciden no contactar" ~decidido
+```
+
+### BEAT 158 · 00:00 · T1
+Narración: *"Como nosotros observamos a…"*
+```
++0.0  SCENE flow curve
++0.0  NODE nature-reserve "como animales en una reserva natural" ~animales
++0.0  NODE hands-off "sin interferir" ~interferir
+```
+
+### BEAT 159 · 00:00 · T1
+Narración: *"La quinta es la…"*
+```
++0.0  CHAP "5. El bosque oscuro" dark-forest
++0.0  SCENE words
++0.0  NODE - "*El bosque oscuro*" ~bosque
+```
+
+### BEAT 160 · 00:00 · T1
+Narración: *"Según esta idea, todas…"*
+```
++0.0  SCENE hub
++0.0  NODE silent-civs "todas guardan silencio a propósito" ~silencio
++0.0  NODE announce-suicide "anunciarse es un suicidio" ~anunciarse
+```
+
+### BEAT 161 · 00:00 · T1
+Narración: *"Cualquiera que grite…"*
+```
++0.0  SCENE flow
++0.0  NODE shout-position "quien grita su posición" ~grite
++0.0  NODE bigger-civ-strike "puede ser destruido" ~destruido
++0.0  NODE hide-in-dark "todos se esconden callados" ~esconden
+```
+
+### BEAT 162 · 00:00 · T1
+Narración: *"Otra posibilidad es que…"*
+```
++0.0  CHAP "6. Un milagro rarísimo" origin-of-life
++0.0  SCENE single
++0.0  NODE rare-miracle "la vida inteligente, un milagro rarísimo" ~milagro
+```
+
+### BEAT 163 · 00:00 · T1
+Narración: *"Que, aunque haya millones…"*
+```
++0.0  SCENE flow
++0.0  NODE photo-saturn "millones de planetas" ~planetas
++0.0  NODE lucky-dice-life "tantísimas casualidades" ~casualidades
+```
+
+### BEAT 164 · 00:00 · T1
+Narración: *"un planeta a la…"*
+```
++0.0  SCENE list
++0.0  NODE habitable-zone "un planeta a la distancia justa" ~planeta
++0.0  NODE moon-big "una luna grande" ~luna
++0.0  NODE magnetic-field "un campo magnético" ~campo
++0.0  NODE no-catastrophe "sin catástrofes en miles de millones de años" ~años
+```
+
+### BEAT 165 · 00:00 · T1
+Narración: *"que la mayoría de…"*
+```
++0.0  SCENE flow
++0.0  NODE bacteria-world "se quedan en vida simple, bacterias" ~bacterias
++0.0  NODE big-jump "y nunca dan el salto" ~salto
+```
+
+### BEAT 166 · 00:00 · T1
+Narración: *"Quizá la vida sea…"*
+```
++0.0  SCENE versus
++0.0  NODE life-common "la vida, común" ~común
++0.0  NODE accident-life "la inteligente, un accidente" ~accidente
+```
+
+### BEAT 167 · 00:00 · T1
+Narración: *"Y por último, quizás…"*
+```
++0.0  CHAP "7. No podemos verlas" cant-recognize
++0.0  SCENE words
++0.0  NODE - "*Quizá no podemos verlas*" ~verlas
+```
+
+### BEAT 168 · 00:00 · T1
+Narración: *"Puede que estén ahí…"*
+```
++0.0  SCENE single
++0.0  NODE alien-different "tan avanzadas y tan diferentes" ~avanzadas
+```
+
+### BEAT 169 · 00:00 · T1
+Narración: *"Igual que una hormiga…"*
+```
++0.0  SCENE flow
++0.0  NODE ant-highway "una hormiga no entiende una autopista" ~hormiga
++0.0  NODE type-three-galaxy "no entendemos las señales de un Tipo III" ~señales
+```
+
+### BEAT 170 · 00:00 · T1
+Narración: *"Hay incluso una fórmula…"*
+```
++0.0  CHAP "La ecuación de Drake" billions-stars
++0.0  SCENE hub curve
++0.0  NODE drake-equation "la ecuación de Drake" ~ecuación
++0.0  NODE civs-radio-contact "civilizaciones con las que comunicarnos" ~civilizaciones
+```
+
+### BEAT 171 · 00:00 · T1
+Narración: *"El problema es que…"*
+```
++0.0  SCENE versus
++0.0  NODE crowded-galaxy "millones de civilizaciones" ~millones
++0.0  NODE alone-human-space "o estamos solos" ~solos
+```
+
+### BEAT 172 · 00:00 · T1
+Narración: *"Y hay un detalle…"*
+```
++0.0  SCENE words
++0.0  NODE - "*Un detalle aún más frustrante*" ~detalle
+```
+
+### BEAT 173 · 00:00 · T1
+Narración: *"En mil novecientos setenta…"*
+```
++0.0  SCENE stat
++0.0  STAT "1977" "señal del espacio profundo"
++0.0  NODE clip-telescope "un radiotelescopio capta una señal" ~radiotelescopio
+```
+
+### BEAT 174 · 00:00 · T1
+Narración: *"tan clara y tan…"*
+```
++0.0  SCENE single
++0.0  NODE astronomer-wow "el astrónomo escribió una sola palabra" ~astrónomo
+```
+
+### BEAT 175 · 00:00 · T1
+Narración: *"Wow. Nunca más…"*
+```
++0.0  SCENE words
++0.0  NODE - "*¡WOW!*" ~wow
++0.0  NODE - "Nunca volvió a repetirse" ~nunca
++0.0  NODE - "ni sabemos qué la produjo" ~jamás
+```
+
+### BEAT 176 · 00:00 · T1
+Narración: *"Es lo más cerca…"*
+```
++0.0  SCENE flow
++0.0  NODE ear-to-sky "lo más cerca de oír a alguien" ~cerca
++0.0  NODE distant-signal "pero otro obstáculo: las distancias" ~obstáculo
+```
+
+### BEAT 177 · 00:00 · T1
+Narración: *"El universo es tan…"*
+```
++0.0  CHAP "Las distancias" distant-signal
++0.0  SCENE single
++0.0  NODE clip-nebula "tan absurdamente grande" ~absurdamente
+```
+
+### BEAT 178 · 00:00 · T1
+Narración: *"podrían estar tan lejos…"*
+```
++0.0  SCENE timeline
++0.0  NODE radio-signals "su luz y sus señales" ~lejos
++0.0  NODE million-years-clock "millones de años en llegar" ~millones
++0.0  NODE photo-earth "hasta nosotros" ~nosotros
+```
+
+### BEAT 179 · 00:00 · T1
+Narración: *"Puede que, cuando…"*
+```
++0.0  SCENE flow
++0.0  NODE message-received "captamos un mensaje" ~captemos
++0.0  NODE extinct-sender "quien lo envió, ya extinguido" ~extinguido
+```
+
+### BEAT 180 · 00:00 · T1
+Narración: *"Estaríamos escuchando a…"*
+```
++0.0  SCENE single
++0.0  NODE ghost-message "fantasmas cósmicos: ecos de mundos que ya no existen" ~fantasmas
+```
+
+### BEAT 181 · 00:00 · T1
+Narración: *"Así que, al final…"*
+```
++0.0  CHAP "Dos posibilidades" two-doors
++0.0  SCENE words
++0.0  NODE - "*Dos posibilidades*" ~posibilidades
++0.0  NODE - "ambas sobrecogedoras" ~ambas
+```
+
+### BEAT 182 · 00:00 · T1
+Narración: *"O el universo está…"*
+```
++0.0  SCENE flow
++0.0  NODE teeming-universe "el universo, lleno de vida" ~universo
++0.0  NODE godlike "civilizaciones como dioses" ~dioses
+```
+
+### BEAT 183 · 00:00 · T1
+Narración: *"O estamos verdaderamente solos…"*
+```
++0.0  SCENE single
++0.0  NODE lone-spark "la única chispa de consciencia" ~chispa
+```
+
+### BEAT 184 · 00:00 · T1
+Narración: *"No sabemos cuál…"*
+```
++0.0  SCENE words
++0.0  NODE - "*¿Cuál da más miedo?*" ~cuál
+```
+
+### BEAT 185 · 00:00 · T1
+Narración: *"Cada vez que mires…"*
+```
++0.0  SCENE flow curve
++0.0  NODE clip-milkyway "cada vez que mires las estrellas" ~estrellas
++0.0  NODE answer-above "la respuesta está ahí arriba, esperando" ~respuesta
+```
+
+### BEAT 186 · 00:00 · T1
+Narración: *"Y que quizá, solo…"*
+```
++0.0  SCENE single
++0.0  NODE we-are-beginning "quizá nosotros seamos el comienzo de todo" ~comienzo
+```
+
