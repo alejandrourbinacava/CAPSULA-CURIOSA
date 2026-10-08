@@ -348,5 +348,975 @@
     "file": "assets/icons/shield-check.png",
     "normalized": true,
     "gpt": true
+  },
+  "grad-cap": {
+    "kind": "vector",
+    "query": "a graduation cap and a diploma scroll, educated smart person",
+    "file": "assets/icons/grad-cap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "smart-fooled": {
+    "kind": "vector",
+    "query": "a smart person with glasses and a book being tricked by a sneaky hand reaching from behind, surprised face",
+    "file": "assets/icons/smart-fooled.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "scared-face": {
+    "kind": "vector",
+    "query": "a very scared face with wide eyes and sweat drops",
+    "file": "assets/icons/scared-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ilusion-star": {
+    "kind": "vector",
+    "query": "a happy dreaming face with sparkling stars in its eyes, hope and excitement",
+    "file": "assets/icons/ilusion-star.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "money-greed": {
+    "kind": "vector",
+    "query": "a greedy face with dollar signs in its eyes and rubbing hands",
+    "file": "assets/icons/money-greed.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "world-scam": {
+    "kind": "vector",
+    "query": "a globe of the world with a warning triangle and tiny coins around it",
+    "file": "assets/icons/world-scam.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "gear-works": {
+    "kind": "vector",
+    "query": "two gears turning together, how something works",
+    "file": "assets/icons/gear-works.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "psych-trick": {
+    "kind": "vector",
+    "query": "a head profile with a magic wand and a rabbit hat inside the mind, psychological trick",
+    "file": "assets/icons/psych-trick.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fishing-rod": {
+    "kind": "vector",
+    "query": "a fishing rod with a hook and line pulling out a small blue fish",
+    "file": "assets/icons/fishing-rod.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hooks-many": {
+    "kind": "vector",
+    "query": "many fishing hooks hanging from lines, thrown into the water",
+    "file": "assets/icons/hooks-many.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fish-bite": {
+    "kind": "vector",
+    "query": "a fish biting a hook with a bait, about to be caught",
+    "file": "assets/icons/fish-bite.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fake-site": {
+    "kind": "vector",
+    "query": "a fake copy of a bank website with a skull hiding behind the screen",
+    "file": "assets/icons/fake-site.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "package-held": {
+    "kind": "vector",
+    "query": "a cardboard parcel stopped by a red hold sign and a padlock",
+    "file": "assets/icons/package-held.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "virus-bug": {
+    "kind": "vector",
+    "query": "a green cartoon virus bug with spikes on a computer chip",
+    "file": "assets/icons/virus-bug.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fake-tech": {
+    "kind": "vector",
+    "query": "a smiling too-friendly technician with a headset and a hidden wicked grin",
+    "file": "assets/icons/fake-tech.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "family-hug": {
+    "kind": "vector",
+    "query": "a mother, a father and a child hugging together, warm family",
+    "file": "assets/icons/family-hug.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "broken-phone": {
+    "kind": "vector",
+    "query": "a smartphone with a cracked screen",
+    "file": "assets/icons/broken-phone.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "new-number": {
+    "kind": "vector",
+    "query": "a phone with a message from a new unknown number and a question mark",
+    "file": "assets/icons/new-number.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "transfer-urgent": {
+    "kind": "vector",
+    "query": "money arrows jumping urgently from one bank account to another, bank transfer with a stopwatch",
+    "file": "assets/icons/transfer-urgent.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "secret-question": {
+    "kind": "vector",
+    "query": "a speech bubble with a key and a question mark, a secret only a son would know",
+    "file": "assets/icons/secret-question.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "heart-single": {
+    "kind": "vector",
+    "query": "a single red heart with a cute face, love",
+    "file": "assets/icons/heart-single.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dating-heart": {
+    "kind": "vector",
+    "query": "a smartphone showing a heart swipe dating app",
+    "file": "assets/icons/dating-heart.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-face": {
+    "kind": "vector",
+    "query": "a blank mysterious silhouette head with a question mark instead of a face, hiding",
+    "file": "assets/icons/no-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vanish": {
+    "kind": "vector",
+    "query": "a magician cloud of smoke where something just vanished, poof",
+    "file": "assets/icons/vanish.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "rich-dream": {
+    "kind": "vector",
+    "query": "a happy person dreaming about a pile of gold and a yacht in a thought bubble",
+    "file": "assets/icons/rich-dream.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fast-arrow": {
+    "kind": "vector",
+    "query": "a fast rocket arrow shooting upwards with speed lines",
+    "file": "assets/icons/fast-arrow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "zero-risk": {
+    "kind": "vector",
+    "query": "a shield with a zero on it and a green check, no risk",
+    "file": "assets/icons/zero-risk.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "withdraw-blocked": {
+    "kind": "vector",
+    "query": "an ATM screen with a big red denied cross and a hand with a card",
+    "file": "assets/icons/withdraw-blocked.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "platform-down": {
+    "kind": "vector",
+    "query": "a laptop screen showing a broken chart crashing down, system down error",
+    "file": "assets/icons/platform-down.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "scam-stamp": {
+    "kind": "vector",
+    "query": "a big red stamp saying SCAM on a paper with a coin",
+    "file": "assets/icons/scam-stamp.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pay-first": {
+    "kind": "vector",
+    "query": "a hand paying coins to the first person in a line of people, the others waiting",
+    "file": "assets/icons/pay-first.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "wish-product": {
+    "kind": "vector",
+    "query": "a happy shopper dreaming about a shiny new gadget in a thought bubble",
+    "file": "assets/icons/wish-product.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "price-compare": {
+    "kind": "vector",
+    "query": "a balance scale with a tiny price tag lighter than a huge price tag, cheaper than everywhere",
+    "file": "assets/icons/price-compare.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "flash-offer": {
+    "kind": "vector",
+    "query": "a flash deal lightning bolt with a clock running out",
+    "file": "assets/icons/flash-offer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "empty-box": {
+    "kind": "vector",
+    "query": "an open empty cardboard box with dust inside, nothing arrived",
+    "file": "assets/icons/empty-box.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cheap-knockoff": {
+    "kind": "vector",
+    "query": "a cheap crumpled knockoff product with a sad face next to the shiny original",
+    "file": "assets/icons/cheap-knockoff.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "reviews-stars": {
+    "kind": "vector",
+    "query": "five yellow stars and a speech bubble with a thumbs down, online reviews",
+    "file": "assets/icons/reviews-stars.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "price-too-good": {
+    "kind": "vector",
+    "query": "a tiny price tag with a huge smile that looks too good to be true, suspicious",
+    "file": "assets/icons/price-too-good.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-visit": {
+    "kind": "vector",
+    "query": "a house with a crossed-out eye, cannot be visited in person",
+    "file": "assets/icons/no-visit.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ghost-apartment": {
+    "kind": "vector",
+    "query": "a ghostly see-through apartment building fading away, does not exist",
+    "file": "assets/icons/ghost-apartment.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "liar-excuses": {
+    "kind": "vector",
+    "query": "a person with a long Pinocchio nose and many speech bubbles with excuses",
+    "file": "assets/icons/liar-excuses.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "second-hand": {
+    "kind": "vector",
+    "query": "a box of second-hand items, a lamp, a vintage jacket and a bike",
+    "file": "assets/icons/second-hand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "buyer-excited": {
+    "kind": "vector",
+    "query": "a very excited buyer with stars in the eyes and a wallet in hand",
+    "file": "assets/icons/buyer-excited.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "money-request": {
+    "kind": "vector",
+    "query": "a phone with a request money button and a pointing finger",
+    "file": "assets/icons/money-request.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "send-arrow": {
+    "kind": "vector",
+    "query": "a phone with a green arrow going out sending money",
+    "file": "assets/icons/send-arrow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "request-arrow": {
+    "kind": "vector",
+    "query": "a phone with a red arrow coming in asking money from you",
+    "file": "assets/icons/request-arrow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "book-close": {
+    "kind": "vector",
+    "query": "a big catalog book being closed with a thump, dust coming out",
+    "file": "assets/icons/book-close.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "empty-gift": {
+    "kind": "vector",
+    "query": "an open gift box that is empty, with a sad little spiderweb",
+    "file": "assets/icons/empty-gift.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tax-form": {
+    "kind": "vector",
+    "query": "an official tax paper form with a stamp and coins",
+    "file": "assets/icons/tax-form.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "logic-brain": {
+    "kind": "vector",
+    "query": "a brain with gears and a green check, solid logic",
+    "file": "assets/icons/logic-brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "prepay-hand": {
+    "kind": "vector",
+    "query": "an open hand asking for money in advance, a coin and a gift box behind",
+    "file": "assets/icons/prepay-hand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mass-scams": {
+    "kind": "vector",
+    "query": "a big pile of different scam icons stacked together: envelope, phone, heart, coin",
+    "file": "assets/icons/mass-scams.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "run-man": {
+    "kind": "vector",
+    "query": "a person running in a hurry looking at a watch, panic",
+    "file": "assets/icons/run-man.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "calm-brain": {
+    "kind": "vector",
+    "query": "a calm brain with closed eyes meditating in a clear blue bubble",
+    "file": "assets/icons/calm-brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "scared-brain": {
+    "kind": "vector",
+    "query": "a scared brain with big eyes sweating, red cloud, panic",
+    "file": "assets/icons/scared-brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "emotion-fire": {
+    "kind": "vector",
+    "query": "a big heart on fire with strong emotions, flames",
+    "file": "assets/icons/emotion-fire.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "odd-request": {
+    "kind": "vector",
+    "query": "a strange weird request, a hand asking for a mysterious odd object with a question mark",
+    "file": "assets/icons/odd-request.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "install-download": {
+    "kind": "vector",
+    "query": "a computer with a download arrow and a program installer box",
+    "file": "assets/icons/install-download.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "strange-ask": {
+    "kind": "vector",
+    "query": "a weird speech bubble with a gift card and a key password, strange request",
+    "file": "assets/icons/strange-ask.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "trick-collapse": {
+    "kind": "vector",
+    "query": "a magician top hat falling apart and the trick revealed, collapsed trick",
+    "file": "assets/icons/trick-collapse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "people-together": {
+    "kind": "vector",
+    "query": "a group of diverse friendly cartoon people standing together side by side, humans",
+    "file": "assets/icons/people-together.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "human-heart": {
+    "kind": "vector",
+    "query": "a cheerful simple person hugging a heart, human being",
+    "file": "assets/icons/human-heart.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "alone-person": {
+    "kind": "vector",
+    "query": "a lonely person standing alone in an empty room, solo",
+    "file": "assets/icons/alone-person.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "recognize-eye": {
+    "kind": "vector",
+    "query": "a big eye with a green check mark recognizing a message instantly",
+    "file": "assets/icons/recognize-eye.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-phishing": {
+    "kind": "cutout",
+    "query": "phishing",
+    "wiki": "Phishing",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Phishing",
+      "description": "suplantación de identidad"
+    },
+    "file": "assets/icons/photo-phishing.png"
+  },
+  "photo-anzuelo": {
+    "kind": "cutout",
+    "query": "anzuelo",
+    "wiki": "Anzuelo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Anzuelo",
+      "description": "dispositivo para la captura de peces"
+    },
+    "file": "assets/icons/photo-anzuelo.jpg"
+  },
+  "photo-banco": {
+    "kind": "cutout",
+    "query": "banco",
+    "wiki": "Banco",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Banco",
+      "description": "empresa financiera"
+    },
+    "file": "assets/icons/photo-banco.jpg"
+  },
+  "photo-sitioweb": {
+    "kind": "cutout",
+    "query": "sitio web",
+    "wiki": "Sitio web",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sitio web",
+      "description": "conjunto de páginas de un dominio de internet"
+    },
+    "file": "assets/icons/photo-sitioweb.png"
+  },
+  "photo-candado": {
+    "kind": "cutout",
+    "query": "candado",
+    "wiki": "Candado",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Candado",
+      "description": "artefacto de bloqueo y seguridad de puertas"
+    },
+    "file": "assets/icons/photo-candado.png"
+  },
+  "photo-movil": {
+    "kind": "cutout",
+    "query": "teléfono móvil",
+    "wiki": "Teléfono móvil",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Teléfono móvil",
+      "description": "dispositivo portátil para acceder y utilizar los servicios de la red de telefonía"
+    },
+    "file": "assets/icons/photo-movil.jpg"
+  },
+  "photo-aduana": {
+    "kind": "cutout",
+    "query": "aduana",
+    "wiki": "Aduana",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Aduana",
+      "description": "tipo de agencia gubernamental"
+    },
+    "file": "assets/icons/photo-aduana.jpg"
+  },
+  "photo-tcredito": {
+    "kind": "cutout",
+    "query": "tarjeta de crédito",
+    "wiki": "Tarjeta de crédito",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Tarjeta de crédito",
+      "description": "instrumento de identificación bancaria y medio de pago"
+    },
+    "file": "assets/icons/photo-tcredito.png"
+  },
+  "photo-dinero": {
+    "kind": "cutout",
+    "query": "dinero",
+    "wiki": "Dinero",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Dinero",
+      "description": "objeto o registro físico o virtual aceptado como pago"
+    },
+    "file": "assets/icons/photo-dinero.jpg"
+  },
+  "photo-bolsa": {
+    "kind": "cutout",
+    "query": "bolsa de valores",
+    "wiki": "Bolsa de valores",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Bolsa de valores",
+      "description": "mercado de títulos, valores, y otros instrumentos financieros; estructura y organización en donde sus miembros introducen órdenes y realizan negociaciones de compra-venta de valores, según mandatos de sus clientes"
+    },
+    "file": "assets/icons/photo-bolsa.jpg"
+  },
+  "photo-bitcoin": {
+    "kind": "cutout",
+    "query": "bitcoin",
+    "wiki": "Bitcoin",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Bitcoin",
+      "description": "sistema monetario digital y unidad monetaria asociada"
+    },
+    "file": "assets/icons/photo-bitcoin.png"
+  },
+  "photo-euro": {
+    "kind": "cutout",
+    "query": "euro",
+    "wiki": "Euro",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Euro",
+      "description": "moneda oficial de la eurozona emitida por el Banco Central Europeo"
+    },
+    "file": "assets/icons/photo-euro.jpg"
+  },
+  "photo-ponzi": {
+    "kind": "cutout",
+    "query": "esquema Ponzi",
+    "wiki": "Esquema Ponzi",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Esquema Ponzi",
+      "description": "estafa piramidal"
+    },
+    "file": "assets/icons/photo-ponzi.jpg"
+  },
+  "photo-apartamento": {
+    "kind": "cutout",
+    "query": "apartamento",
+    "wiki": "Apartamento",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Apartamento",
+      "description": "unidad de vivienda que comprende una o varias habitaciones y que sólo ocupa parte de un edificio"
+    },
+    "file": "assets/icons/photo-apartamento.jpg"
+  },
+  "photo-trofeo": {
+    "kind": "cutout",
+    "query": "trofeo",
+    "wiki": "Trofeo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Trofeo",
+      "description": "premio por un determinado logro"
+    },
+    "file": "assets/icons/photo-trofeo.jpg"
+  },
+  "photo-loteria": {
+    "kind": "cutout",
+    "query": "lotería",
+    "wiki": "Lotería",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Lotería",
+      "description": "juego que implica el sorteo de un premio"
+    },
+    "file": "assets/icons/photo-loteria.jpg"
+  },
+  "photo-despertador": {
+    "kind": "cutout",
+    "query": "reloj despertador",
+    "wiki": "Reloj despertador",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Reloj despertador",
+      "description": "tipo de reloj con un mecanismo sonoro que se activa a una hora preestablecida"
+    },
+    "file": "assets/icons/photo-despertador.jpg"
+  },
+  "photo-tregalo": {
+    "kind": "cutout",
+    "query": "tarjeta regalo",
+    "wiki": "Tarjeta regalo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Tarjeta regalo",
+      "description": "tarjeta de dinero de valor almacenado prepagado"
+    },
+    "file": "assets/icons/photo-tregalo.jpg"
+  },
+  "photo-papelmoneda": {
+    "kind": "cutout",
+    "query": "papel moneda",
+    "wiki": "Papel moneda",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Papel moneda",
+      "description": "papel moneda emitido por un banco"
+    },
+    "file": "assets/icons/photo-papelmoneda.jpg"
+  },
+  "photo-lupa": {
+    "kind": "cutout",
+    "query": "lupa",
+    "wiki": "Lupa",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Lupa",
+      "description": "herramienta óptica con lente y mango utilizada para aumentar los detalles de lo observado"
+    },
+    "file": "assets/icons/photo-lupa.jpg"
+  },
+  "clip-courier": {
+    "kind": "clip",
+    "query": "delivery courier carrying package to a door",
+    "file": "assets/clips/clip-courier.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kampus Production",
+      "url": "https://www.pexels.com/video/video-of-a-delivery-man-6667245/"
+    }
+  },
+  "clip-handshake": {
+    "kind": "clip",
+    "query": "business handshake close up",
+    "file": "assets/clips/clip-handshake.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kampus Production",
+      "url": "https://www.pexels.com/video/group-of-people-shaking-hands-8170593/"
+    }
+  },
+  "clip-apartment": {
+    "kind": "clip",
+    "query": "bright empty apartment living room interior",
+    "file": "assets/clips/clip-apartment.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "MART  PRODUCTION",
+      "url": "https://www.pexels.com/video/new-furnitures-inside-a-new-house-7347885/"
+    }
+  },
+  "clip-keys": {
+    "kind": "clip",
+    "query": "handing over house keys",
+    "file": "assets/clips/clip-keys.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/couple-holding-house-keys-8293504/"
+    }
+  },
+  "clip-confetti": {
+    "kind": "clip",
+    "query": "confetti celebration winner",
+    "file": "assets/clips/clip-confetti.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nataliya Vaitkevich",
+      "url": "https://www.pexels.com/video/words-of-congratulatory-6532224/"
+    }
+  },
+  "clip-atm": {
+    "kind": "clip",
+    "query": "atm cash withdrawal hand inserting card",
+    "file": "assets/clips/clip-atm.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/close-up-of-a-person-using-an-atm-machine-5700357/"
+    }
+  },
+  "clip-bank": {
+    "kind": "clip",
+    "query": "bank building exterior",
+    "file": "assets/clips/clip-bank.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "CityXcape",
+      "url": "https://www.pexels.com/video/bank-exterior-with-logo-10218426/"
+    }
+  },
+  "clip-callcenter": {
+    "kind": "clip",
+    "query": "call center operator with headset talking",
+    "file": "assets/clips/clip-callcenter.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "MART  PRODUCTION",
+      "url": "https://www.pexels.com/video/person-talking-7706872/"
+    }
+  },
+  "clip-hacker": {
+    "kind": "clip",
+    "query": "hacker typing on laptop in dark room",
+    "file": "assets/clips/clip-hacker.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Matias Mango",
+      "url": "https://www.pexels.com/video/a-man-programming-his-laptop-6330778/"
+    }
+  },
+  "clip-worried": {
+    "kind": "clip",
+    "query": "worried woman looking at smartphone",
+    "file": "assets/clips/clip-worried.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikhail Nilov",
+      "url": "https://www.pexels.com/video/a-sad-woman-using-a-cellphone-8410090/"
+    }
+  },
+  "clip-city-crowd": {
+    "kind": "clip",
+    "query": "busy city crowd people walking",
+    "file": "assets/clips/clip-city-crowd.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Coverr",
+      "url": "https://www.pexels.com/video/black-and-white-video-of-a-busy-street-853946/"
+    }
+  },
+  "clip-phone-hand": {
+    "kind": "clip",
+    "query": "hand holding smartphone screen",
+    "file": "assets/clips/clip-phone-hand.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tima Miroshnichenko",
+      "url": "https://www.pexels.com/video/person-holding-a-smartphone-6611941/"
+    }
+  },
+  "clip-laptop": {
+    "kind": "clip",
+    "query": "person working on laptop office",
+    "file": "assets/clips/clip-laptop.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Dario Fernandez Ruz",
+      "url": "https://www.pexels.com/video/a-person-using-laptop-9130352/"
+    }
+  },
+  "clip-typing": {
+    "kind": "clip",
+    "query": "typing texting on smartphone",
+    "file": "assets/clips/clip-typing.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/close-up-video-of-person-typing-on-a-cellphone-6963823/"
+    }
+  },
+  "clip-phone-scroll": {
+    "kind": "clip",
+    "query": "person scrolling phone social media",
+    "file": "assets/clips/clip-phone-scroll.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Josh Tavernier | iCapture Media Digital Marketing Agency",
+      "url": "https://www.pexels.com/video/woman-scrolling-social-media-10238038/"
+    }
+  },
+  "clip-selfie": {
+    "kind": "clip",
+    "query": "young person taking selfie phone",
+    "file": "assets/clips/clip-selfie.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Anastasia  Shuraeva",
+      "url": "https://www.pexels.com/video/a-woman-taking-a-selfie-with-her-smartphone-8502890/"
+    }
+  },
+  "clip-influencer": {
+    "kind": "clip",
+    "query": "content creator filming video ring light",
+    "file": "assets/clips/clip-influencer.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "PNW Production",
+      "url": "https://www.pexels.com/video/man-recording-a-selfie-video-8275798/"
+    }
+  },
+  "clip-doctor": {
+    "kind": "clip",
+    "query": "doctor in white coat hospital",
+    "file": "assets/clips/clip-doctor.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/person-wearing-latex-gloves-7579838/"
+    }
+  },
+  "clip-airplane": {
+    "kind": "clip",
+    "query": "airplane flying in sky",
+    "file": "assets/clips/clip-airplane.mp4"
+  },
+  "clip-shopping": {
+    "kind": "clip",
+    "query": "people shopping mall",
+    "file": "assets/clips/clip-shopping.mp4"
+  },
+  "clip-sale": {
+    "kind": "clip",
+    "query": "sale discount shopping tags",
+    "file": "assets/clips/clip-sale.mp4"
+  },
+  "clip-code-data": {
+    "kind": "clip",
+    "query": "code data streaming digital screen",
+    "file": "assets/clips/clip-code-data.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/dynamic-blue-digital-number-animation-loop-30163656/"
+    }
+  },
+  "clip-thinking": {
+    "kind": "clip",
+    "query": "person thinking pensive worried",
+    "file": "assets/clips/clip-thinking.mp4"
+  },
+  "photo-telefono": {
+    "kind": "cutout",
+    "query": "teléfono",
+    "wiki": "Teléfono",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Teléfono",
+      "description": "dispositivo de telecomunicaciones"
+    },
+    "file": "assets/icons/photo-telefono.jpg"
+  },
+  "photo-auto": {
+    "kind": "cutout",
+    "query": "automóvil",
+    "wiki": "Automóvil",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Automóvil",
+      "description": "vehículo motorizado con ruedas utilizado para el transporte de pasajeros"
+    },
+    "file": "assets/icons/photo-auto.jpg"
+  },
+  "photo-correo": {
+    "kind": "cutout",
+    "query": "correo electrónico",
+    "wiki": "Correo electrónico",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Correo electrónico",
+      "description": "servicio de red para enviar y recibir mensajes y archivos"
+    },
+    "file": "assets/icons/photo-correo.png"
+  },
+  "clip-brain": {
+    "kind": "clip",
+    "query": "human brain animation neurons",
+    "file": "assets/clips/clip-brain.mp4"
+  },
+  "clip-heartbeat": {
+    "kind": "clip",
+    "query": "heartbeat monitor pulse line",
+    "file": "assets/clips/clip-heartbeat.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/video-of-a-monitoring-heart-rate-6130125/"
+    }
+  },
+  "clip-dice": {
+    "kind": "clip",
+    "query": "rolling dice",
+    "file": "assets/clips/clip-dice.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Efrem  Efre",
+      "url": "https://www.pexels.com/video/slow-motion-red-dice-rolling-on-white-surface-34805837/"
+    }
+  },
+  "clip-alarm": {
+    "kind": "clip",
+    "query": "alarm clock ringing close up",
+    "file": "assets/clips/clip-alarm.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pixabay",
+      "url": "https://www.pexels.com/video/close-up-video-of-a-clock-855782/"
+    }
+  },
+  "clip-banknotes": {
+    "kind": "clip",
+    "query": "euro banknotes falling money rain",
+    "file": "assets/clips/clip-banknotes.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pixabay",
+      "url": "https://www.pexels.com/video/counting-money-855388/"
+    }
+  },
+  "calendar-flip": {
+    "kind": "vector",
+    "query": "a calendar with pages flying away, weeks and months passing",
+    "file": "assets/icons/calendar-flip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "gift-card-codes": {
+    "kind": "vector",
+    "query": "a colorful gift card with a scratched-off silver code strip and a ribbon",
+    "file": "assets/icons/gift-card-codes.png",
+    "normalized": true,
+    "gpt": true
   }
 }

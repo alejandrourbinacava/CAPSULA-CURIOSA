@@ -1,413 +1,891 @@
 # ESCENAS — Cada Estafa Común Explicada
 
-> LIENZO ACUMULATIVO DENSO: cada beat mete 4-5 iconos ÚNICOS sincronizados a su palabra (~). Entran, se acumulan (1 grande centro → al entrar otro se encoge y se aparta), viven ~6s y salen. NO repetir dentro de una sección. Texto + iconos combinados. CHAP limpia el lienzo por sección.
+> Gramática de escenas de diagrama (SCENE/NODE). Fondo blanco. Generado por out/mk.mjs desde beats_014.mjs.
 
 ---
 
 ### BEAT 1 · 00:00 · T1
-Narración: *"Cada año, millones de personas normales, listas y con estudios, caen en estafas y pierden su dinero. Y no es porque sean tontas."*
+Narración: *"Cada año, millones…"*
 ```
-+0.0  CHAP "Las estafas" scam-puppet
-+0.0  ICO  scam-puppet  ~año pop
-+2.4  ICO  sad-face     ~personas pop
-+4.4  ICO  money-fly    ~pierden pop
-+6.0  ICO  empty-wallet ~dinero pop
-+7.4  TXT  "no es que seas tonto" @cap handwrite md
-```
-
-### BEAT 2 · 00:10 · T1
-Narración: *"Es porque los estafadores no atacan tu inteligencia. Atacan tus emociones. El miedo, la prisa, la ilusión, la avaricia."*
-```
-+0.0  ICO  hacker-hood  ~estafadores pop
-+2.6  ICO  thief-mask   ~atacan pop
-+4.4  ICO  urgency-clock ~prisa pop
-+6.0  ICO  money-bag    ~avaricia pop
-+3.4  TXT  "miedo · prisa · ilusión · avaricia" @cap stamp md red
++0.0  CHAP "Millones de víctimas" scam-puppet
++0.0  SCENE flow
++0.0  NODE clip-city-crowd "millones de personas normales" ~millones
++0.0  NODE grad-cap "listas y con estudios" ~listas
++0.0  NODE trap-net "caen en estafas" ~caen
++0.0  NODE money-fly "pierden su dinero" ~pierden
 ```
 
-### BEAT 3 · 00:20 · T1
-Narración: *"Hoy vas a conocer las estafas más comunes del mundo, una por una. Cómo funcionan, qué truco psicológico usan, y cómo detectarlas antes de que sea tarde."*
+### BEAT 2 · 00:00 · T1
+Narración: *"Y no es porque…"*
 ```
-+0.0  ICO  warning-triangle ~conocer pop
-+2.6  ICO  big-question ~truco pop
-+4.6  ICO  magnifier-check ~detectarlas pop
-+6.6  ICO  red-flag     ~tarde pop
-+5.0  TXT  "cómo detectarlas a tiempo" @cap handwrite md
++0.0  SCENE single push
++0.0  NODE smart-fooled "no es porque sean tontas" ~tontas
 ```
 
-### BEAT 4 · 00:32 · T1
-Narración: *"Empezamos por la reina de todas. El phishing. La palabra viene de pescar, en inglés. Y es exactamente eso. Lanzan miles de anzuelos y esperan a que alguien pique."*
+### BEAT 3 · 00:00 · T1
+Narración: *"no atacan tu inteligencia…"*
+```
++0.0  SCENE versus
++0.0  NODE clip-brain "no atacan tu inteligencia" ~inteligencia
++0.0  NODE clip-heartbeat "atacan tus emociones" ~emociones
+```
+
+### BEAT 4 · 00:00 · T1
+Narración: *"El miedo, la prisa…"*
+```
++0.0  SCENE grid
++0.0  NODE scared-face "el miedo" ~miedo
++0.0  NODE urgency-clock "la prisa" ~prisa
++0.0  NODE ilusion-star "la ilusión" ~ilusión
++0.0  NODE money-greed "la avaricia" ~avaricia
+```
+
+### BEAT 5 · 00:00 · T1
+Narración: *"Hoy vas a conocer…"*
+```
++0.0  SCENE single
++0.0  NODE world-scam "las estafas más comunes del mundo, una por una" ~comunes
+```
+
+### BEAT 6 · 00:00 · T1
+Narración: *"Cómo funcionan, qué…"*
+```
++0.0  SCENE list
++0.0  NODE gear-works "cómo funcionan" ~funcionan
++0.0  NODE psych-trick "qué truco psicológico usan" ~truco
++0.0  NODE magnifier-check "cómo detectarlas a tiempo" ~detectarlas
+```
+
+### BEAT 7 · 00:00 · T1
+Narración: *"Presta atención, porque…"*
+```
++0.0  SCENE focus
++0.0  NODE clip-phone-hand "seguro que ya has recibido alguna" ~seguro
++0.0  NODE - "esta misma semana" ~semana
+```
+
+### BEAT 8 · 00:00 · T1
+Narración: *"Empezamos por la reina…"*
 ```
 +0.0  CHAP "Phishing" phishing-hook
-+0.0  ICO  phishing-hook ~phishing pop
-+3.0  ICO  envelope-email ~pescar pop
-+5.4  ICO  bank-card    ~anzuelos pop
-+7.0  ICO  link-chain   ~pique pop
-+4.0  TXT  "lanzan anzuelos, esperan que piques" @cap handwrite md
++0.0  SCENE hub
++0.0  NODE photo-phishing "la reina de todas: el phishing" ~phishing
++0.0  NODE fishing-rod "viene de pescar, en inglés" ~pescar
++0.0  NODE photo-anzuelo "y es exactamente eso" ~exactamente
 ```
 
-### BEAT 5 · 00:45 · T1
-Narración: *"Te llega un correo que parece de tu banco. Mismo logo, mismos colores, todo idéntico. El mensaje dice que ha habido un problema con tu cuenta, y que hagas clic urgentemente para verificar tus datos."*
+### BEAT 9 · 00:00 · T1
+Narración: *"Lanzan miles de anzuelos…"*
 ```
-+0.0  ICO  fake-badge   ~correo pop
-+2.6  ICO  red-popup    ~problema pop
-+4.8  ICO  click-cursor ~clic pop
-+6.6  ICO  urgency-clock ~urgentemente pop
-+5.6  TXT  "«verifica tus datos ¡urgente!»" @cap stamp md red
++0.0  SCENE flow curve
++0.0  NODE hooks-many "miles de anzuelos" ~anzuelos
++0.0  NODE fish-bite "esperan a que alguien pique" ~pique
 ```
 
-### BEAT 6 · 00:58 · T1
-Narración: *"Y ahí está la trampa. Ese enlace no lleva a tu banco. Lleva a una copia falsa, clavada a la real, hecha solo para robarte el usuario y la contraseña cuando los escribes."*
+### BEAT 10 · 00:00 · T1
+Narración: *"Te llega un correo…"*
 ```
-+0.0  ICO  trap-net     ~trampa pop
-+2.4  ICO  lock-open    ~falsa pop
-+4.6  ICO  padlock-password ~contraseña pop
-+6.4  ICO  thief-mask   ~robarte pop
-+5.4  TXT  "una web falsa clavada a la real" @cap stamp md red
-```
-
-### BEAT 7 · 01:10 · T1
-Narración: *"La clave para detectarlo es esta. Tu banco jamás, nunca, te va a pedir tu contraseña completa por correo o por mensaje. Nunca. Si te la piden, es mentira."*
-```
-+0.0  ICO  magnifier-check ~clave pop
-+2.6  ICO  bank-card    ~banco pop
-+4.6  ICO  hand-stop    ~nunca pop
-+6.4  ICO  red-flag     ~mentira pop
-+5.2  TXT  "tu banco NUNCA pide tu contraseña" @cap stamp lg red
++0.0  SCENE converge
++0.0  NODE photo-correo "te llega un correo" ~correo
++0.0  NODE photo-banco "que parece de tu banco" ~banco
++0.0  NODE fake-badge "mismo logo, todo idéntico" ~logo
 ```
 
-### BEAT 8 · 01:22 · T1
-Narración: *"Muy parecida, pero por mensaje de móvil, es el smishing. Aquí el anzuelo suele ser un paquete. Te llega un SMS diciendo que tu envío está retenido, que hay que pagar unos pequeños gastos de aduana, y un enlace para hacerlo."*
+### BEAT 11 · 00:00 · T1
+Narración: *"El mensaje dice que…"*
+```
++0.0  SCENE flow
++0.0  NODE warning-triangle "un problema con tu cuenta" ~problema
++0.0  NODE lock-open "o un acceso sospechoso" ~acceso
+```
+
+### BEAT 12 · 00:00 · T1
+Narración: *"y que hagas clic…"*
+```
++0.0  SCENE single
++0.0  NODE click-cursor "haz clic urgentemente para verificar tus datos" ~clic
+```
+
+### BEAT 13 · 00:00 · T1
+Narración: *"Y ahí está la trampa…"*
+```
++0.0  SCENE hub
++0.0  NODE trap-net "ahí está la trampa" ~trampa
++0.0  NODE link-chain "ese enlace no lleva a tu banco" ~enlace
+```
+
+### BEAT 14 · 00:00 · T1
+Narración: *"una copia falsa, clavada…"*
+```
++0.0  SCENE versus
++0.0  NODE fake-site "una copia falsa" ~copia
++0.0  NODE photo-sitioweb "clavada a la real" ~clavada
+```
+
+### BEAT 15 · 00:00 · T1
+Narración: *"hecha solo para robarte…"*
+```
++0.0  SCENE flow rtl
++0.0  NODE thief-mask "para robarte el usuario" ~robarte
++0.0  NODE padlock-password "y la contraseña" ~contraseña
+```
+
+### BEAT 16 · 00:00 · T1
+Narración: *"La clave para detectarlo…"*
+```
++0.0  SCENE single pull
++0.0  NODE clip-bank "la clave: tu banco jamás, nunca" ~banco
+```
+
+### BEAT 17 · 00:00 · T1
+Narración: *"te va a pedir tu…"*
+```
++0.0  SCENE hub
++0.0  NODE photo-candado "tu contraseña completa" ~contraseña
++0.0  NODE photo-correo "por correo" ~correo
++0.0  NODE whatsapp-chat "o por mensaje" ~mensaje
+```
+
+### BEAT 18 · 00:00 · T1
+Narración: *"Nunca. Si te la…"*
+```
++0.0  SCENE words
++0.0  NODE - "*Si te la piden, es mentira*" ~piden
+```
+
+### BEAT 19 · 00:00 · T1
+Narración: *"Muy parecida, pero por…"*
 ```
 +0.0  CHAP "Smishing" smishing-sms
-+0.0  ICO  smishing-sms ~móvil pop
-+3.0  ICO  package-box  ~paquete pop
-+5.6  ICO  money-bag    ~pagar pop
-+7.6  ICO  link-chain   ~enlace pop
-+4.4  TXT  "la estafa del paquete por SMS" @cap handwrite md
++0.0  SCENE focus
++0.0  NODE photo-movil "por mensaje de móvil" ~mensaje
++0.0  NODE - "el smishing" ~smishing
 ```
 
-### BEAT 9 · 01:37 · T1
-Narración: *"Como casi todos esperamos algún paquete, mucha gente pica sin pensar. Metes los datos de tu tarjeta para pagar dos euros, y en realidad se los estás regalando a un estafador."*
+### BEAT 20 · 00:00 · T1
+Narración: *"Aquí el anzuelo suele…"*
 ```
-+0.0  ICO  click-cursor ~pica pop
-+2.6  ICO  bank-card    ~tarjeta pop
-+4.8  ICO  thief-mask   ~estafador pop
-+6.4  ICO  empty-wallet ~regalando pop
-+3.4  TXT  "pagas 2€ y regalas tu tarjeta" @cap stamp md red
-```
-
-### BEAT 10 · 01:50 · T1
-Narración: *"Regla de oro. Si un SMS te mete prisa y trae un enlace, desconfía siempre. Entra tú a la web oficial por tu cuenta, nunca desde el enlace del mensaje."*
-```
-+0.0  ICO  urgency-clock ~prisa pop
-+2.4  ICO  link-chain   ~enlace pop
-+4.4  ICO  red-flag     ~desconfía pop
-+6.2  ICO  hand-stop    ~nunca pop
-+5.2  TXT  "SMS + prisa + enlace = desconfía" @cap stamp lg red
++0.0  SCENE zigzag
++0.0  NODE photo-anzuelo "el anzuelo suele ser un paquete" ~anzuelo
++0.0  NODE clip-courier "un paquete" ~paquete
++0.0  NODE package-held "tu envío está retenido" ~retenido
 ```
 
-### BEAT 11 · 02:02 · T1
-Narración: *"Ahora subimos el nivel, porque esta da mucho miedo. El falso soporte técnico. Estás navegando y, de repente, salta una ventana a pantalla completa. Alarmas sonando, letras rojas, un mensaje que grita que tu ordenador está infectado."*
+### BEAT 21 · 00:00 · T1
+Narración: *"que hay que pagar…"*
 ```
-+0.0  CHAP "Falso soporte" fake-support
-+0.0  ICO  fake-support ~soporte pop
-+3.2  ICO  red-popup    ~ventana pop
-+5.4  ICO  alert-bell   ~alarmas pop
-+7.4  ICO  skull-danger ~infectado pop
-+4.4  TXT  "«tu PC está infectado»" @cap stamp md red
++0.0  SCENE list
++0.0  NODE coin-stack "unos pequeños gastos" ~pequeños
++0.0  NODE photo-aduana "de aduana" ~aduana
++0.0  NODE link-chain "y un enlace para hacerlo" ~enlace
 ```
 
-### BEAT 12 · 02:18 · T1
-Narración: *"Y un número de teléfono para llamar a soporte urgente. Si llamas, un falso técnico muy amable se ofrece a arreglarlo. Pero para eso, necesita que le des control de tu ordenador a distancia."*
+### BEAT 22 · 00:00 · T1
+Narración: *"Como casi todos esperamos…"*
 ```
-+0.0  ICO  fake-badge   ~teléfono pop
-+2.6  ICO  hacker-hood  ~técnico pop
-+4.8  ICO  remote-control-pc ~control pop
-+6.6  ICO  warning-triangle ~distancia pop
-+5.4  TXT  "quiere control de tu PC" @cap stamp md red
++0.0  SCENE flow
++0.0  NODE package-box "casi todos esperamos algún paquete" ~esperamos
++0.0  NODE fish-bite "mucha gente pica sin pensar" ~pica
 ```
 
-### BEAT 13 · 02:32 · T1
-Narración: *"Y una vez dentro, o te roba, o te cobra cientos de euros por un problema que nunca existió. Recuerda. Ninguna empresa de verdad bloquea tu pantalla para pedirte que llames. Esa ventana solo quiere asustarte. Ciérrala y ya está."*
+### BEAT 23 · 00:00 · T1
+Narración: *"Metes los datos de…"*
 ```
-+0.0  ICO  money-fly    ~roba pop
-+2.6  ICO  hand-stop    ~ninguna pop
-+4.8  ICO  sad-face     ~asustarte pop
-+6.6  ICO  thumbs-down  ~ciérrala pop
-+3.6  TXT  "ninguna empresa bloquea tu pantalla" @cap handwrite md
-```
-
-### BEAT 14 · 02:48 · T1
-Narración: *"La siguiente es de las más crueles, porque juega con el amor de una familia. La estafa del hijo en apuros. Te llega un mensaje de un número desconocido. Hola mamá, hola papá, se me ha roto el móvil y este es mi número nuevo."*
-```
-+0.0  CHAP "Hijo en apuros" family-emergency
-+0.0  ICO  family-emergency ~amor pop
-+3.2  ICO  whatsapp-chat ~mensaje pop
-+5.6  ICO  big-question ~desconocido pop
-+7.6  ICO  smishing-sms ~móvil pop
-+4.6  TXT  "«hola mamá, número nuevo»" @cap handwrite md
++0.0  SCENE converge
++0.0  NODE photo-tcredito "los datos de tu tarjeta" ~tarjeta
++0.0  NODE money-bag "para pagar dos euros" ~euros
++0.0  NODE clip-hacker "se los regalas a un estafador" ~estafador
 ```
 
-### BEAT 15 · 03:04 · T1
-Narración: *"Luego viene lo importante. No puedo entrar a mi banco desde este teléfono nuevo, ¿me puedes hacer tú una transferencia urgente? La víctima, preocupada por su hijo, paga sin dudar. Y el dinero va directo al estafador."*
+### BEAT 24 · 00:00 · T1
+Narración: *"Regla de oro…"*
 ```
-+0.0  ICO  padlock-password ~banco pop
-+2.6  ICO  money-fly    ~transferencia pop
-+4.8  ICO  sad-face     ~preocupada pop
-+6.6  ICO  thief-mask   ~estafador pop
-+3.4  TXT  "«hazme una transferencia urgente»" @cap stamp md red
-```
-
-### BEAT 16 · 03:20 · T1
-Narración: *"Si te pasa, haz una sola cosa. Llama a tu hijo a su número de siempre, o pídele algo que solo él sepa. La prisa es la herramienta favorita del estafador. No se la des."*
-```
-+0.0  ICO  phone-call-back ~llama pop
-+2.6  ICO  shield-check ~siempre pop
-+4.6  ICO  urgency-clock ~prisa pop
-+6.4  ICO  hand-stop    ~des pop
-+5.2  TXT  "llama a su número de siempre" @cap stamp lg red
++0.0  SCENE list
++0.0  NODE clip-alarm "un sms te mete prisa" ~prisa
++0.0  NODE click-cursor "y trae un enlace" ~enlace
++0.0  NODE red-flag "desconfía siempre" ~desconfía
 ```
 
-### BEAT 17 · 03:34 · T1
-Narración: *"Y de la familia pasamos al corazón. La estafa romántica. Alguien encantador te contacta por una red social o una app de citas. Es guapo, atento, y siempre parece perfecto."*
+### BEAT 25 · 00:00 · T1
+Narración: *"Entra tú a la web…"*
 ```
-+0.0  CHAP "Estafa romántica" romance-scam
-+0.0  ICO  romance-scam ~corazón pop
-+3.2  ICO  fake-badge   ~encantador pop
-+5.4  ICO  big-question ~perfecto pop
-+7.0  ICO  red-flag     ~siempre pop
-+4.4  TXT  "siempre parece perfecto" @cap handwrite md
++0.0  SCENE flow curve
++0.0  NODE photo-sitioweb "entra tú a la web oficial" ~web
++0.0  NODE hand-stop "nunca desde el enlace del mensaje" ~nunca
 ```
 
-### BEAT 18 · 03:48 · T1
-Narración: *"Durante semanas, o incluso meses, construye contigo una relación de confianza total. Pero, casualmente, nunca puede hacer una videollamada."*
+### BEAT 26 · 00:00 · T1
+Narración: *"Ahora subimos el nivel…"*
 ```
-+0.0  ICO  calendar-deadline ~semanas pop
-+2.6  ICO  video-call-crossed ~videollamada pop
-+4.6  ICO  warning-triangle ~casualmente pop
-+3.6  TXT  "nunca da la cara por vídeo" @cap stamp md red
-```
-
-### BEAT 19 · 03:59 · T1
-Narración: *"Y un día, aparece el problema. Una emergencia médica, un billete de avión para venir a verte, un negocio bloqueado. Y necesita dinero. Tu dinero. Cuando se lo das, o desaparece, o inventa otra emergencia."*
-```
-+0.0  ICO  alert-bell   ~emergencia pop
-+2.6  ICO  money-bag    ~dinero pop
-+4.8  ICO  trap-net     ~das pop
-+6.6  ICO  empty-wallet ~desaparece pop
-+5.4  TXT  "te quiere... pero pide dinero" @cap stamp lg red
++0.0  CHAP "Falso soporte técnico" warning-triangle
++0.0  SCENE single
++0.0  NODE skull-danger "esta da mucho miedo" ~miedo
 ```
 
-### BEAT 20 · 04:15 · T1
-Narración: *"Ahora una que promete hacerte rico. La estafa de la inversión milagrosa. Te prometen ganancias enormes, rápidas y sin ningún riesgo. Suele ser con criptomonedas, con divisas o con un chollo del que casi nadie ha oído hablar."*
+### BEAT 27 · 00:00 · T1
+Narración: *"El falso soporte técnico…"*
 ```
-+0.0  CHAP "Inversión milagrosa" investment-scam
-+0.0  ICO  investment-scam ~rico pop
-+3.0  ICO  coin-stack   ~ganancias pop
-+5.4  ICO  crypto-coin  ~criptomonedas pop
-+7.4  ICO  big-question ~chollo pop
-+4.4  TXT  "«ganancias sin riesgo»" @cap handwrite md
++0.0  SCENE hub
++0.0  NODE fake-support "el falso soporte técnico" ~falso
++0.0  NODE clip-laptop "navegando tranquilamente" ~navegando
 ```
 
-### BEAT 21 · 04:31 · T1
-Narración: *"Al principio, hasta te dejan sacar un poco de dinero, para que te confíes y metas mucho más. Pero cuando ya has invertido fuerte y quieres recuperarlo todo, la plataforma se cae, la web desaparece, y tu dinero se esfuma."*
+### BEAT 28 · 00:00 · T1
+Narración: *"de repente, salta una…"*
 ```
-+0.0  ICO  money-bag    ~dinero pop
-+2.6  ICO  warning-triangle ~invertido pop
-+4.8  ICO  money-fly    ~esfuma pop
-+6.4  ICO  empty-wallet ~web pop
-+3.4  TXT  "metes mucho... y desaparece" @cap stamp md red
++0.0  SCENE single
++0.0  NODE red-popup "salta una ventana a pantalla completa" ~ventana
 ```
 
-### BEAT 22 · 04:47 · T1
-Narración: *"Grábate esto a fuego. En el mundo real, rentabilidad alta sin riesgo no existe. Si alguien te promete ganancias garantizadas, es una estafa. Punto."*
+### BEAT 29 · 00:00 · T1
+Narración: *"Alarmas sonando, letras…"*
 ```
-+0.0  ICO  red-flag     ~rentabilidad pop
-+2.6  ICO  hand-stop    ~riesgo pop
-+4.6  ICO  thumbs-down  ~garantizadas pop
-+3.6  TXT  "alta rentabilidad SIN riesgo = mentira" @cap stamp lg red
-```
-
-### BEAT 23 · 04:59 · T1
-Narración: *"Muchas de estas montan lo que se llama un esquema Ponzi, donde a los primeros se les paga con el dinero de los que entran después, hasta que todo se derrumba."*
-```
-+0.0  ICO  ponzi-pyramid ~ponzi pop
-+3.0  ICO  coin-stack   ~paga pop
-+5.0  ICO  skull-danger ~derrumba pop
-+3.8  TXT  "esquema Ponzi: se derrumba" @cap stamp md red
++0.0  SCENE zigzag
++0.0  NODE alert-bell "alarmas sonando" ~alarmas
++0.0  NODE red-flag "letras rojas" ~rojas
++0.0  NODE virus-bug "tu ordenador está infectado" ~infectado
 ```
 
-### BEAT 24 · 05:12 · T1
-Narración: *"La siguiente vive en internet, cuando vas de compras. Las tiendas falsas. Encuentras una web con ese producto que tanto quieres a un precio increíble, muchísimo más barato que en todas partes."*
+### BEAT 30 · 00:00 · T1
+Narración: *"Y un número de teléfono…"*
 ```
-+0.0  CHAP "Tiendas falsas" fake-shop
-+0.0  ICO  fake-shop    ~compras pop
-+3.2  ICO  discount-tag ~precio pop
-+5.4  ICO  click-cursor ~producto pop
-+7.0  ICO  big-question ~barato pop
-+4.4  TXT  "el chollo que no existe" @cap handwrite md
++0.0  SCENE hub
++0.0  NODE photo-telefono "un número de teléfono" ~teléfono
++0.0  NODE clip-callcenter "para llamar a soporte urgente" ~soporte
 ```
 
-### BEAT 25 · 05:26 · T1
-Narración: *"Fotos perfectas, ofertas que acaban en minutos, un contador que corre. Pagas, y a partir de ahí, o no llega nunca nada, o te llega una imitación barata y cutre. Y el dinero, imposible de recuperar."*
+### BEAT 31 · 00:00 · T1
+Narración: *"Si llamas, un falso…"*
 ```
-+0.0  ICO  countdown-timer ~contador pop
-+2.6  ICO  money-fly    ~pagas pop
-+4.8  ICO  thumbs-down  ~imitación pop
-+6.6  ICO  empty-wallet ~dinero pop
-+3.6  TXT  "pagas y no llega nada" @cap stamp md red
++0.0  SCENE single
++0.0  NODE fake-tech "un falso técnico muy amable" ~amable
 ```
 
-### BEAT 26 · 05:40 · T1
-Narración: *"Antes de comprar en una tienda que no conoces, busca su nombre en internet junto a la palabra opiniones o estafa. Y desconfía siempre de los precios demasiado buenos para ser verdad. Casi siempre lo son."*
+### BEAT 32 · 00:00 · T1
+Narración: *"Pero para eso, necesita…"*
 ```
-+0.0  ICO  magnifier-check ~busca pop
-+2.8  ICO  shield-check ~opiniones pop
-+4.8  ICO  red-flag     ~desconfía pop
-+6.6  ICO  hand-stop    ~precios pop
-+5.4  TXT  "busca «nombre + opiniones»" @cap stamp lg red
++0.0  SCENE flow track
++0.0  NODE remote-control-pc "te pide control de tu ordenador" ~control
++0.0  NODE clip-typing "a distancia" ~distancia
 ```
 
-### BEAT 27 · 05:55 · T1
-Narración: *"Y muy parecida es la estafa del alquiler. Encuentras el piso perfecto, en buena zona y a un precio sospechosamente barato. El supuesto casero te cuenta que está fuera del país y que no puede enseñártelo en persona."*
+### BEAT 33 · 00:00 · T1
+Narración: *"Y una vez dentro, o…"*
 ```
-+0.0  CHAP "El alquiler" rental-scam
-+0.0  ICO  rental-scam  ~alquiler pop
-+3.2  ICO  discount-tag ~barato pop
-+5.4  ICO  big-question ~casero pop
-+7.2  ICO  video-call-crossed ~persona pop
-+4.4  TXT  "un piso que no existe" @cap handwrite md
++0.0  SCENE versus
++0.0  NODE empty-wallet "o te roba" ~roba
++0.0  NODE photo-papelmoneda "o te cobra cientos de euros" ~cobra
 ```
 
-### BEAT 28 · 06:10 · T1
-Narración: *"Pero que, si le haces ya una transferencia con la fianza y el primer mes, te guarda las llaves. En cuanto pagas, desaparece. Nunca pagues por una vivienda que no has visto por dentro."*
+### BEAT 34 · 00:00 · T1
+Narración: *"Recuerda. Ninguna empresa…"*
 ```
-+0.0  ICO  money-bag    ~fianza pop
-+2.6  ICO  trap-net     ~llaves pop
-+4.8  ICO  money-fly    ~desaparece pop
-+6.4  ICO  hand-stop    ~nunca pop
-+5.2  TXT  "nunca pagues un piso sin verlo" @cap stamp lg red
++0.0  SCENE flow
++0.0  NODE red-popup "ninguna empresa bloquea tu pantalla" ~bloquea
++0.0  NODE hand-stop "para pedirte que llames" ~llames
 ```
 
-### BEAT 29 · 06:25 · T1
-Narración: *"Otra que se ha puesto muy de moda es la del falso comprador en las apps de segunda mano. Vendes algo, y aparece un comprador entusiasmado que quiere pagarte ya. Te manda un enlace para cobrar, o te dice que aceptes una solicitud de dinero."*
+### BEAT 35 · 00:00 · T1
+Narración: *"Esa ventana solo quiere…"*
 ```
-+0.0  CHAP "Segunda mano" secondhand-scam
-+0.0  ICO  secondhand-scam ~comprador pop
-+3.4  ICO  link-chain   ~enlace pop
-+5.6  ICO  money-bag    ~cobrar pop
-+7.6  ICO  big-question ~solicitud pop
-+4.6  TXT  "«acepta esta solicitud»" @cap stamp md red
++0.0  SCENE hub
++0.0  NODE scared-face "solo quiere asustarte" ~asustarte
++0.0  NODE click-cursor "ciérrala y ya está" ~ciérrala
 ```
 
-### BEAT 30 · 06:42 · T1
-Narración: *"Pero cuidado, porque muchas veces esa solicitud no es para pagarte a ti, sino para sacarte dinero a ti. Lee siempre si el mensaje dice enviar o solicitar. No es lo mismo cobrar que pagar."*
+### BEAT 36 · 00:00 · T1
+Narración: *"La siguiente es de las…"*
 ```
-+0.0  ICO  warning-triangle ~cuidado pop
-+2.6  ICO  money-fly    ~sacarte pop
-+4.6  ICO  magnifier-check ~lee pop
-+6.4  ICO  hand-stop    ~pagar pop
-+5.2  TXT  "¿ENVIAR o SOLICITAR? no es lo mismo" @cap stamp lg red
++0.0  CHAP "El hijo en apuros" whatsapp-chat
++0.0  SCENE single
++0.0  NODE family-hug "juega con el amor de una familia" ~amor
 ```
 
-### BEAT 31 · 06:56 · T1
-Narración: *"Y cerramos el catálogo con un clásico que no muere nunca. El premio que no pediste. Te llega un mensaje eufórico. Enhorabuena, has ganado un iPhone, un coche, o la lotería de un país en el que no has jugado jamás."*
+### BEAT 37 · 00:00 · T1
+Narración: *"La estafa del hijo…"*
 ```
-+0.0  CHAP "El premio falso" fake-prize
-+0.0  ICO  fake-prize   ~premio pop
-+3.2  ICO  trophy-prize ~ganado pop
-+5.4  ICO  big-question ~lotería pop
-+7.2  ICO  trap-net     ~jamás pop
-+4.6  TXT  "«¡has ganado!»" @cap handwrite md
++0.0  SCENE flow
++0.0  NODE family-emergency "la estafa del hijo en apuros" ~hijo
++0.0  NODE clip-phone-scroll "un mensaje de un número desconocido" ~mensaje
 ```
 
-### BEAT 32 · 07:12 · T1
-Narración: *"Solo tienes que pagar una pequeña cantidad para gestionar el envío, o los impuestos del premio. Y esa es toda la estafa. Pagas por un premio que nunca existió, y no vuelves a saber nada."*
+### BEAT 38 · 00:00 · T1
+Narración: *"Hola mamá, hola papá…"*
 ```
-+0.0  ICO  money-bag    ~pagar pop
-+2.6  ICO  money-fly    ~impuestos pop
-+4.8  ICO  empty-wallet ~existió pop
-+6.4  ICO  thumbs-down  ~nada pop
-+3.6  TXT  "pagas por un premio que no existe" @cap stamp md red
-```
-
-### BEAT 33 · 07:26 · T1
-Narración: *"La lógica es aplastante. No puedes ganar un sorteo en el que nunca participaste. Y ningún premio de verdad te pide dinero por adelantado para dártelo."*
-```
-+0.0  ICO  big-question ~sorteo pop
-+2.6  ICO  hand-stop    ~ningún pop
-+4.6  ICO  red-flag     ~adelantado pop
-+3.6  TXT  "un premio real NO pide dinero" @cap stamp lg red
++0.0  SCENE zigzag
++0.0  NODE new-number "hola mamá, hola papá" ~mamá
++0.0  NODE broken-phone "se me ha roto el móvil" ~roto
++0.0  NODE photo-movil "este es mi número nuevo" ~nuevo
 ```
 
-### BEAT 34 · 07:38 · T1
-Narración: *"Y ahora fíjate en el patrón, porque todas, absolutamente todas estas estafas, usan los mismos tres botones. El primero es la urgencia. Tienes que actuar ya, ahora mismo, sin pensar."*
+### BEAT 39 · 00:00 · T1
+Narración: *"Al principio parece inocente…"*
 ```
-+0.0  CHAP "El patrón" three-buttons
-+0.0  ICO  three-buttons ~patrón pop
-+3.4  ICO  urgency-clock ~urgencia pop
-+5.6  ICO  click-cursor ~actuar pop
-+7.2  ICO  hand-stop    ~pensar pop
-+4.6  TXT  "3 botones que SIEMPRE usan" @cap handwrite md
++0.0  SCENE words
++0.0  NODE - "al principio parece inocente" ~inocente
++0.0  NODE - "*luego viene lo importante*" ~importante
 ```
 
-### BEAT 35 · 07:52 · T1
-Narración: *"El segundo es una emoción fuerte. Miedo a perder tu dinero, ilusión por un premio, amor por alguien, avaricia por ganar rápido. El tercero es pedirte que hagas algo raro. Un pago urgente, dar tu contraseña, instalar un programa."*
+### BEAT 40 · 00:00 · T1
+Narración: *"No puedo entrar a…"*
 ```
-+0.0  ICO  sad-face     ~emoción pop
-+2.4  ICO  money-bag    ~avaricia pop
-+4.4  ICO  padlock-password ~contraseña pop
-+6.2  ICO  warning-triangle ~raro pop
-+3.4  TXT  "urgencia + emoción + petición rara" @cap stamp lg red
-```
-
-### BEAT 36 · 08:08 · T1
-Narración: *"Si un mensaje reúne estas tres cosas, prisa, una emoción intensa, y una petición extraña, enciende todas las alarmas. Y quédate con esta regla simple, que te va a proteger de casi todo. Para. Piensa. Y verifica por otro canal."*
-```
-+0.0  CHAP "Protégete" stop-think-verify
-+0.0  ICO  alert-bell   ~alarmas pop
-+2.6  ICO  hand-stop    ~para pop
-+4.6  ICO  big-question ~piensa pop
-+6.4  ICO  magnifier-check ~verifica pop
-+5.2  TXT  "Para. Piensa. Verifica." @cap stamp lg
++0.0  SCENE timeline
++0.0  NODE photo-banco "no puedo entrar a mi banco" ~banco
++0.0  NODE clip-phone-hand "desde este teléfono nuevo" ~teléfono
++0.0  NODE transfer-urgent "una transferencia urgente" ~transferencia
 ```
 
-### BEAT 37 · 08:24 · T1
-Narración: *"Si tu banco supuestamente te escribe, cuelga y llama tú al número de la tarjeta. Si tu hijo te pide dinero, llámalo. Si una oferta es increíble, búscala antes de pagar."*
+### BEAT 41 · 00:00 · T1
+Narración: *"Es un pago que…"*
 ```
-+0.0  ICO  phone-call-back ~cuelga pop
-+2.6  ICO  bank-card    ~tarjeta pop
-+4.6  ICO  shield-check ~búscala pop
-+6.4  ICO  money-bag    ~pagar pop
-+5.2  TXT  "verifica tú, por tu cuenta" @cap stamp md red
-```
-
-### BEAT 38 · 08:37 · T1
-Narración: *"Los estafadores necesitan que vayas rápido y solo. En cuanto paras, piensas y confirmas por tu cuenta, el truco entero se cae."*
-```
-+0.0  ICO  hacker-hood  ~estafadores pop
-+2.4  ICO  hand-stop    ~paras pop
-+4.4  ICO  shield-check ~confirmas pop
-+3.4  TXT  "en cuanto verificas, el truco se cae" @cap stamp lg red
++0.0  SCENE converge
++0.0  NODE calendar-deadline "un pago que vence hoy" ~vence
++0.0  NODE clip-worried "la víctima, preocupada por su hijo" ~víctima
++0.0  NODE money-bag "paga sin dudar" ~paga
 ```
 
-### BEAT 39 · 08:49 · T1
-Narración: *"Así que ya lo sabes. Estas estafas no funcionan porque la gente sea tonta. Funcionan porque somos humanos, y a veces tenemos prisa, miedo o ganas de creer."*
+### BEAT 42 · 00:00 · T1
+Narración: *"Y el dinero va…"*
 ```
-+0.0  ICO  scam-puppet  ~estafas pop
-+2.6  ICO  sad-face     ~humanos pop
-+4.6  ICO  urgency-clock ~prisa pop
-+6.2  ICO  big-question ~creer pop
-+3.6  TXT  "no es tontería: es ser humano" @cap handwrite md
++0.0  SCENE flow
++0.0  NODE clip-banknotes "el dinero va directo al estafador" ~directo
++0.0  NODE big-question "si te pasa, haz una sola cosa" ~sola
 ```
 
-### BEAT 40 · 09:02 · T1
-Narración: *"Pero a partir de hoy, cuando te llegue ese mensaje, vas a reconocerlo al instante. Y esa pausa de tres segundos antes de hacer clic, puede ser lo que salve tu dinero."*
+### BEAT 43 · 00:00 · T1
+Narración: *"Llama a tu hijo…"*
 ```
-+0.0  ICO  magnifier-check ~reconocerlo pop
-+2.6  ICO  hand-stop    ~pausa pop
-+4.6  ICO  click-cursor ~clic pop
-+6.4  ICO  shield-check ~salve pop
-+5.2  TXT  "3 segundos de pausa salvan tu dinero" @cap stamp lg red
++0.0  SCENE versus
++0.0  NODE phone-call-back "llama a tu hijo a su número de siempre" ~llama
++0.0  NODE secret-question "o pídele algo que solo él sepa" ~sepa
 ```
+
+### BEAT 44 · 00:00 · T1
+Narración: *"La prisa es la…"*
+```
++0.0  SCENE hub
++0.0  NODE urgency-clock "la prisa: su herramienta favorita" ~prisa
++0.0  NODE hand-stop "no se la des" ~des
+```
+
+### BEAT 45 · 00:00 · T1
+Narración: *"Y de la familia…"*
+```
++0.0  CHAP "La estafa romántica" romance-scam
++0.0  SCENE flow
++0.0  NODE family-hug "de la familia" ~familia
++0.0  NODE heart-single "pasamos al corazón" ~corazón
++0.0  NODE countdown-timer "lenta y muy elaborada" ~lenta
+```
+
+### BEAT 46 · 00:00 · T1
+Narración: *"Alguien encantador te…"*
+```
++0.0  SCENE zigzag
++0.0  NODE clip-selfie "alguien encantador te contacta" ~encantador
++0.0  NODE clip-phone-scroll "por una red social" ~red
++0.0  NODE dating-heart "o una app de citas" ~citas
+```
+
+### BEAT 47 · 00:00 · T1
+Narración: *"Es guapo, atento…"*
+```
++0.0  SCENE single push
++0.0  NODE clip-influencer "guapo, atento y siempre perfecto" ~guapo
+```
+
+### BEAT 48 · 00:00 · T1
+Narración: *"Durante semanas, o incluso…"*
+```
++0.0  SCENE flow
++0.0  NODE calendar-flip "durante semanas o meses" ~semanas
++0.0  NODE clip-handshake "una relación de confianza total" ~confianza
+```
+
+### BEAT 49 · 00:00 · T1
+Narración: *"Pero, casualmente, nunca puede…"*
+```
++0.0  SCENE single
++0.0  NODE video-call-crossed "nunca puede hacer una videollamada" ~nunca
+```
+
+### BEAT 50 · 00:00 · T1
+Narración: *"Y un día, aparece…"*
+```
++0.0  SCENE list
++0.0  NODE clip-worried "un día aparece el problema" ~problema
++0.0  NODE clip-doctor "una emergencia médica" ~emergencia
++0.0  NODE clip-airplane "un billete de avión" ~avión
++0.0  NODE warning-triangle "un negocio bloqueado" ~negocio
++0.0  NODE photo-dinero "y necesita dinero" ~necesita
+```
+
+### BEAT 51 · 00:00 · T1
+Narración: *"Tu dinero. Cuando se…"*
+```
++0.0  SCENE flow
++0.0  NODE coin-stack "cuando se lo das" ~das
++0.0  NODE vanish "desaparece" ~desaparece
++0.0  NODE alert-bell "o inventa otra emergencia" ~inventa
+```
+
+### BEAT 52 · 00:00 · T1
+Narración: *"y otra, y otra…"*
+```
++0.0  SCENE single pull
++0.0  NODE red-flag "señal de alarma clara" ~alarma
+```
+
+### BEAT 53 · 00:00 · T1
+Narración: *"Alguien que dice quererte…"*
+```
++0.0  SCENE flow curve
++0.0  NODE heart-single "dice quererte muchísimo" ~quererte
++0.0  NODE no-face "nunca da la cara, ni por vídeo" ~cara
++0.0  NODE empty-wallet "y acaba pidiéndote dinero" ~pidiéndote
+```
+
+### BEAT 54 · 00:00 · T1
+Narración: *"Ahora una que promete…"*
+```
++0.0  CHAP "La inversión milagrosa" investment-scam
++0.0  SCENE hub
++0.0  NODE rich-dream "una que promete hacerte rico" ~rico
++0.0  NODE photo-bolsa "la inversión milagrosa" ~inversión
+```
+
+### BEAT 55 · 00:00 · T1
+Narración: *"Te prometen ganancias enormes…"*
+```
++0.0  SCENE list
++0.0  NODE photo-dinero "ganancias enormes" ~enormes
++0.0  NODE fast-arrow "rápidas" ~rápidas
++0.0  NODE zero-risk "y sin ningún riesgo" ~riesgo
+```
+
+### BEAT 56 · 00:00 · T1
+Narración: *"Suele ser con criptomonedas…"*
+```
++0.0  SCENE flow
++0.0  NODE photo-bitcoin "con criptomonedas" ~criptomonedas
++0.0  NODE photo-euro "con divisas" ~divisas
++0.0  NODE big-question "o un chollo que casi nadie conoce" ~chollo
+```
+
+### BEAT 57 · 00:00 · T1
+Narración: *"Al principio, hasta te…"*
+```
++0.0  SCENE ladder
++0.0  NODE clip-atm "te dejan sacar un poco de dinero" ~sacar
++0.0  NODE trap-net "para que te confíes" ~confíes
++0.0  NODE money-bag "y metas mucho más" ~metas
+```
+
+### BEAT 58 · 00:00 · T1
+Narración: *"Pero cuando ya has…"*
+```
++0.0  SCENE zigzag
++0.0  NODE photo-bolsa "ya has invertido fuerte" ~invertido
++0.0  NODE withdraw-blocked "quieres recuperarlo todo" ~recuperarlo
++0.0  NODE platform-down "la plataforma se cae" ~cae
+```
+
+### BEAT 59 · 00:00 · T1
+Narración: *"la web desaparece…"*
+```
++0.0  SCENE flow
++0.0  NODE photo-sitioweb "la web desaparece" ~web
++0.0  NODE clip-banknotes "y tu dinero se esfuma" ~esfuma
+```
+
+### BEAT 60 · 00:00 · T1
+Narración: *"Grábate esto a fuego…"*
+```
++0.0  SCENE words
++0.0  NODE - "*Grábate esto a fuego*" ~grábate
++0.0  NODE - "rentabilidad alta sin riesgo" ~rentabilidad
++0.0  NODE - "*no existe*" ~existe
+```
+
+### BEAT 61 · 00:00 · T1
+Narración: *"Si alguien te promete…"*
+```
++0.0  SCENE versus
++0.0  NODE photo-papelmoneda "ganancias garantizadas" ~ganancias
++0.0  NODE scam-stamp "es una estafa. Punto." ~estafa
+```
+
+### BEAT 62 · 00:00 · T1
+Narración: *"Muchas de estas montan…"*
+```
++0.0  SCENE single
++0.0  NODE photo-ponzi "un esquema Ponzi" ~Ponzi
+```
+
+### BEAT 63 · 00:00 · T1
+Narración: *"donde a los primeros…"*
+```
++0.0  SCENE flow
++0.0  NODE pay-first "a los primeros se les paga" ~primeros
++0.0  NODE ponzi-pyramid "con el dinero de los nuevos, hasta derrumbarse" ~después
+```
+
+### BEAT 64 · 00:00 · T1
+Narración: *"La siguiente vive en…"*
+```
++0.0  CHAP "Las tiendas falsas" discount-tag
++0.0  SCENE timeline
++0.0  NODE clip-laptop "vive en internet" ~internet
++0.0  NODE clip-shopping "cuando vas de compras" ~compras
++0.0  NODE fake-shop "las tiendas falsas" ~falsas
+```
+
+### BEAT 65 · 00:00 · T1
+Narración: *"Encuentras una web con…"*
+```
++0.0  SCENE hub
++0.0  NODE wish-product "ese producto que tanto quieres" ~producto
++0.0  NODE clip-sale "a un precio increíble" ~precio
++0.0  NODE price-compare "más barato que en todas partes" ~barato
+```
+
+### BEAT 66 · 00:00 · T1
+Narración: *"Fotos perfectas, ofertas que…"*
+```
++0.0  SCENE ladder
++0.0  NODE flash-offer "ofertas que acaban en minutos" ~ofertas
++0.0  NODE countdown-timer "un contador que corre" ~contador
+```
+
+### BEAT 67 · 00:00 · T1
+Narración: *"Pagas, y a partir…"*
+```
++0.0  SCENE zigzag
++0.0  NODE photo-tcredito "pagas" ~pagas
++0.0  NODE empty-box "no llega nunca nada" ~nada
++0.0  NODE cheap-knockoff "o una imitación barata y cutre" ~imitación
+```
+
+### BEAT 68 · 00:00 · T1
+Narración: *"Y el dinero, imposible…"*
+```
++0.0  SCENE flow
++0.0  NODE empty-wallet "el dinero, imposible de recuperar" ~imposible
++0.0  NODE clip-shopping "antes de comprar en una tienda que no conoces" ~comprar
+```
+
+### BEAT 69 · 00:00 · T1
+Narración: *"busca su nombre en…"*
+```
++0.0  SCENE hub
++0.0  NODE photo-lupa "busca su nombre en internet" ~busca
++0.0  NODE reviews-stars "junto a opiniones o estafa" ~opiniones
+```
+
+### BEAT 70 · 00:00 · T1
+Narración: *"Y desconfía siempre de…"*
+```
++0.0  SCENE versus
++0.0  NODE price-too-good "precios demasiado buenos para ser verdad" ~precios
++0.0  NODE thumbs-down "casi siempre lo son" ~siempre
+```
+
+### BEAT 71 · 00:00 · T1
+Narración: *"Y muy parecida es…"*
+```
++0.0  CHAP "La estafa del alquiler" rental-scam
++0.0  SCENE single
++0.0  NODE clip-apartment "la estafa del alquiler" ~alquiler
+```
+
+### BEAT 72 · 00:00 · T1
+Narración: *"Encuentras el piso perfecto…"*
+```
++0.0  SCENE flow
++0.0  NODE photo-apartamento "el piso perfecto, en buena zona" ~piso
++0.0  NODE discount-tag "a un precio sospechosamente barato" ~barato
+```
+
+### BEAT 73 · 00:00 · T1
+Narración: *"El supuesto casero te…"*
+```
++0.0  SCENE versus
++0.0  NODE clip-airplane "el casero está fuera del país" ~casero
++0.0  NODE no-visit "no puede enseñártelo en persona" ~persona
+```
+
+### BEAT 74 · 00:00 · T1
+Narración: *"pero que, si le…"*
+```
++0.0  SCENE converge
++0.0  NODE transfer-urgent "una transferencia con la fianza" ~transferencia
++0.0  NODE photo-papelmoneda "y el primer mes" ~primer
++0.0  NODE clip-keys "te guarda las llaves" ~llaves
+```
+
+### BEAT 75 · 00:00 · T1
+Narración: *"En cuanto pagas, desaparece…"*
+```
++0.0  SCENE flow
++0.0  NODE vanish "en cuanto pagas, desaparece" ~desaparece
++0.0  NODE ghost-apartment "ese piso no existe, o ni siquiera es suyo" ~existe
+```
+
+### BEAT 76 · 00:00 · T1
+Narración: *"Nunca pagues por una…"*
+```
++0.0  SCENE list
++0.0  NODE hand-stop "nunca pagues" ~pagues
++0.0  NODE photo-apartamento "por una vivienda que no has visto" ~vivienda
++0.0  NODE liar-excuses "ni a quien se inventa mil excusas" ~excusas
+```
+
+### BEAT 77 · 00:00 · T1
+Narración: *"Otra que se ha…"*
+```
++0.0  CHAP "El falso comprador" secondhand-scam
++0.0  SCENE flow
++0.0  NODE clip-phone-scroll "se ha puesto muy de moda" ~moda
++0.0  NODE second-hand "el falso comprador en apps de segunda mano" ~comprador
+```
+
+### BEAT 78 · 00:00 · T1
+Narración: *"Vendes algo, y aparece…"*
+```
++0.0  SCENE single
++0.0  NODE buyer-excited "vendes algo y aparece un comprador entusiasmado" ~comprador
+```
+
+### BEAT 79 · 00:00 · T1
+Narración: *"Te manda un enlace…"*
+```
++0.0  SCENE flow
++0.0  NODE link-chain "un enlace para cobrar" ~enlace
++0.0  NODE money-request "o una solicitud de dinero" ~solicitud
+```
+
+### BEAT 80 · 00:00 · T1
+Narración: *"Pero cuidado, porque muchas…"*
+```
++0.0  SCENE versus
++0.0  NODE send-arrow "no es para pagarte a ti" ~pagarte
++0.0  NODE request-arrow "sino para sacarte dinero a ti" ~sacarte
+```
+
+### BEAT 81 · 00:00 · T1
+Narración: *"Lee siempre si el…"*
+```
++0.0  SCENE flow
++0.0  NODE clip-phone-hand "lee siempre el mensaje" ~Lee
++0.0  NODE photo-lupa "enviar o solicitar" ~enviar
++0.0  NODE photo-dinero "no es lo mismo cobrar que pagar" ~cobrar
+```
+
+### BEAT 82 · 00:00 · T1
+Narración: *"Y cerramos el catálogo…"*
+```
++0.0  CHAP "El premio que no pediste" fake-prize
++0.0  SCENE single
++0.0  NODE book-close "cerramos el catálogo con un clásico" ~clásico
+```
+
+### BEAT 83 · 00:00 · T1
+Narración: *"El premio que no…"*
+```
++0.0  SCENE flow
++0.0  NODE photo-trofeo "el premio que no pediste" ~premio
++0.0  NODE clip-confetti "un mensaje eufórico" ~eufórico
+```
+
+### BEAT 84 · 00:00 · T1
+Narración: *"Enhorabuena, has ganado un…"*
+```
++0.0  SCENE list
++0.0  NODE photo-movil "un iPhone" ~iPhone
++0.0  NODE photo-auto "un coche" ~coche
++0.0  NODE photo-loteria "la lotería de un país donde no has jugado" ~lotería
+```
+
+### BEAT 85 · 00:00 · T1
+Narración: *"Solo tienes que pagar…"*
+```
++0.0  SCENE flow
++0.0  NODE coin-stack "una pequeña cantidad" ~cantidad
++0.0  NODE clip-courier "para gestionar el envío" ~envío
++0.0  NODE tax-form "o los impuestos del premio" ~impuestos
+```
+
+### BEAT 86 · 00:00 · T1
+Narración: *"Y esa es toda…"*
+```
++0.0  SCENE hub
++0.0  NODE trap-net "esa es toda la estafa" ~estafa
++0.0  NODE empty-gift "pagas por un premio que nunca existió" ~pagas
+```
+
+### BEAT 87 · 00:00 · T1
+Narración: *"La lógica es aplastante…"*
+```
++0.0  SCENE flow
++0.0  NODE logic-brain "la lógica es aplastante" ~lógica
++0.0  NODE clip-dice "no puedes ganar un sorteo en el que no participaste" ~sorteo
+```
+
+### BEAT 88 · 00:00 · T1
+Narración: *"Y ningún premio de…"*
+```
++0.0  SCENE versus
++0.0  NODE photo-trofeo "ningún premio de verdad" ~premio
++0.0  NODE prepay-hand "te pide dinero por adelantado" ~adelantado
+```
+
+### BEAT 89 · 00:00 · T1
+Narración: *"Y ahora fíjate en…"*
+```
++0.0  CHAP "Los tres botones" red-flag
++0.0  SCENE flow
++0.0  NODE clip-code-data "fíjate en el patrón" ~patrón
++0.0  NODE mass-scams "todas estas estafas" ~todas
++0.0  NODE three-buttons "usan los mismos tres botones" ~botones
+```
+
+### BEAT 90 · 00:00 · T1
+Narración: *"El primero es la…"*
+```
++0.0  SCENE hub
++0.0  NODE clip-alarm "el primero: la urgencia" ~urgencia
++0.0  NODE run-man "tienes que actuar ya, ahora mismo" ~actuar
+```
+
+### BEAT 91 · 00:00 · T1
+Narración: *"Porque saben que una…"*
+```
++0.0  SCENE versus
++0.0  NODE calm-brain "mente tranquila: detecta el engaño" ~tranquila
++0.0  NODE scared-brain "mente asustada: no" ~asustada
+```
+
+### BEAT 92 · 00:00 · T1
+Narración: *"El segundo es una…"*
+```
++0.0  SCENE grid
++0.0  NODE emotion-fire "una emoción fuerte" ~emoción
++0.0  NODE scared-face "miedo a perder tu dinero" ~miedo
++0.0  NODE photo-trofeo "ilusión por un premio" ~ilusión
++0.0  NODE heart-single "amor por alguien" ~amor
++0.0  NODE money-greed "avaricia: ganar rápido" ~avaricia
+```
+
+### BEAT 93 · 00:00 · T1
+Narración: *"El tercero es pedirte…"*
+```
++0.0  SCENE single
++0.0  NODE odd-request "el tercero: pedirte algo raro" ~raro
+```
+
+### BEAT 94 · 00:00 · T1
+Narración: *"Un pago urgente, dar…"*
+```
++0.0  SCENE grid
++0.0  NODE transfer-urgent "un pago urgente" ~pago
++0.0  NODE padlock-password "dar tu contraseña" ~contraseña
++0.0  NODE install-download "instalar un programa" ~instalar
++0.0  NODE gift-card-codes "comprar tarjetas regalo" ~tarjetas
+```
+
+### BEAT 95 · 00:00 · T1
+Narración: *"Si un mensaje reúne…"*
+```
++0.0  SCENE converge
++0.0  NODE urgency-clock "prisa" ~prisa
++0.0  NODE emotion-fire "una emoción intensa" ~emoción
++0.0  NODE strange-ask "una petición extraña" ~petición
++0.0  NODE alert-bell "enciende todas las alarmas" ~enciende
+```
+
+### BEAT 96 · 00:00 · T1
+Narración: *"Y quédate con esta…"*
+```
++0.0  CHAP "Para, piensa, verifica" stop-think-verify
++0.0  SCENE single
++0.0  NODE shield-check "una regla simple que te protege de casi todo" ~regla
+```
+
+### BEAT 97 · 00:00 · T1
+Narración: *"Para. Piensa. Y…"*
+```
++0.0  SCENE ladder
++0.0  NODE hand-stop "para" ~Para
++0.0  NODE clip-thinking "piensa" ~Piensa
++0.0  NODE magnifier-check "verifica por otro canal" ~verifica
+```
+
+### BEAT 98 · 00:00 · T1
+Narración: *"Si tu banco supuestamente…"*
+```
++0.0  SCENE flow
++0.0  NODE photo-banco "si tu banco te escribe, cuelga" ~banco
++0.0  NODE phone-call-back "llama tú al número de la tarjeta" ~llama
+```
+
+### BEAT 99 · 00:00 · T1
+Narración: *"Si tu hijo te…"*
+```
++0.0  SCENE list
++0.0  NODE family-emergency "si tu hijo te pide dinero, llámalo" ~hijo
++0.0  NODE discount-tag "si una oferta es increíble" ~oferta
++0.0  NODE clip-laptop "búscala antes de pagar" ~búscala
+```
+
+### BEAT 100 · 00:00 · T1
+Narración: *"Los estafadores necesitan que…"*
+```
++0.0  SCENE versus
++0.0  NODE urgency-clock "necesitan que vayas rápido" ~rápido
++0.0  NODE alone-person "y solo" ~solo
+```
+
+### BEAT 101 · 00:00 · T1
+Narración: *"En cuanto paras, piensas…"*
+```
++0.0  SCENE timeline
++0.0  NODE hand-stop "en cuanto paras" ~paras
++0.0  NODE clip-thinking "piensas" ~piensas
++0.0  NODE shield-check "y confirmas por tu cuenta" ~confirmas
++0.0  NODE trick-collapse "el truco entero se cae" ~truco
+```
+
+### BEAT 102 · 00:00 · T1
+Narración: *"Estas estafas no funcionan…"*
+```
++0.0  CHAP "Somos humanos" human-heart
++0.0  SCENE single
++0.0  NODE smart-fooled "no funcionan porque la gente sea tonta" ~tonta
+```
+
+### BEAT 103 · 00:00 · T1
+Narración: *"porque somos humanos…"*
+```
++0.0  SCENE flow
++0.0  NODE people-together "porque somos humanos" ~humanos
++0.0  NODE run-man "prisa" ~prisa
++0.0  NODE scared-face "miedo" ~miedo
++0.0  NODE heart-single "o ganas de creer" ~creer
+```
+
+### BEAT 104 · 00:00 · T1
+Narración: *"Pero a partir de hoy…"*
+```
++0.0  SCENE hub mirror
++0.0  NODE clip-phone-scroll "cuando te llegue ese mensaje" ~mensaje
++0.0  NODE recognize-eye "vas a reconocerlo al instante" ~reconocerlo
+```
+
+### BEAT 105 · 00:00 · T1
+Narración: *"Y esa pausa de tres…"*
+```
++0.0  SCENE stat
++0.0  STAT "3" "segundos antes de hacer clic" ~tres
++0.0  NODE photo-despertador "una pausa que salva tu dinero" ~pausa
+```
+
