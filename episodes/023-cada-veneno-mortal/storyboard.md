@@ -652,8 +652,8 @@ Narración: *"Son tan peligrosos que…"*
 +0.0  SCENE radial
 +0.0  NODE banned-weapon "prohibidos como armas químicas" ~prohibidos
 +0.0  NODE clip-earth "en todo el mundo" ~mundo
-+0.0  NODE photo-arma-quimica "han vuelto a aparecer en conflictos" ~conflictos
-+0.0  NODE clip-hazmat "y en asesinatos recientes" ~asesinatos
++0.0  NODE photo-arma-quimica "reaparecen en conflictos" ~conflictos
++0.0  NODE clip-hazmat "y en asesinatos" ~asesinatos
 ```
 
 ### BEAT 79 · 00:00 · T1

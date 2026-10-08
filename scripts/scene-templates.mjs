@@ -17,7 +17,7 @@
 // Medidas (comprobadas con fotogramas reales): la fuente (Patrick Hand) es ESTRECHA ≈ 0.40 em por carácter.
 
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
-const CW = 0.44; // ancho de carácter que uso para ENCAJAR texto (algo holgado sobre el 0.40 real)
+const CW = 0.47; // ancho de carácter que uso para ENCAJAR texto (algo holgado sobre el 0.40 real)
 
 export function buildScene(spec, ctx) {
   const { template, nodes, beat } = spec; const V = new Set(spec.variant || []);
@@ -84,11 +84,13 @@ export function buildScene(spec, ctx) {
     lines.forEach((ln, i) => { const bw = Math.round(ln.length * fs * cw) + 36; els.push({ id: id("l"), type: "text", content: ln, fontSize: fs, box: { cx: Math.round(xRight - bw / 2), cy: Math.round(top + i * lh), w: bw, h: lh - 4 }, color: color || INK, z: 60, ...(dark ? { noHalo: true } : {}), in: +(nd.t + 0.2 + i * 0.12).toFixed(2), out: t1, enter: ctx.enterOf("handwrite"), exit: { kind: exitK, duration: 0.25 }, _scene: true }); });
   };
   // rótulo fuera del anillo según el ángulo: arriba, abajo o al costado
-  const addRingLabel = (nd, x, y, S, sin, cos, maxW, fsz = 42) => {
-    if (sin < -0.4) addLabel(nd, x, y - nd._box.h / 2 - 48, maxW, fsz);
+  const addRingLabel = (nd, x, y, S, sin, cos, maxW, fsz = 42, sideTop = false) => {
+    const right = () => addSideLabel(nd, x + nd._box.w / 2 + 20, y, Math.min(maxW, 1880 - (x + nd._box.w / 2 + 20)), fsz);
+    const left = () => addLeftLabel(nd, x - nd._box.w / 2 - 20, y, Math.min(maxW, x - nd._box.w / 2 - 20 - 40), fsz);
+    if (sin > 0.9) right();                                              // satélite justo debajo del centro: rótulo a un lado
+    else if (sin < -0.4) { if (sideTop && sin > -0.9) (cos >= 0 ? right : left)(); else addLabel(nd, x, y - nd._box.h / 2 - 48, maxW, fsz); }
     else if (sin > 0.4) addLabel(nd, x, y + under(nd, S), maxW, fsz);
-    else if (cos >= 0) addSideLabel(nd, x + nd._box.w / 2 + 20, y, Math.min(maxW, 1880 - (x + nd._box.w / 2 + 20)), fsz);
-    else addLeftLabel(nd, x - nd._box.w / 2 - 20, y, Math.min(maxW, x - nd._box.w / 2 - 20 - 40), fsz);
+    else (cos >= 0 ? right : left)();
   };
   const addArrow = (A, B, tIn, opts = {}) => {
     const ca = A._box, cb = B._box; const dx = cb.cx - ca.cx, dy = cb.cy - ca.cy, L = Math.hypot(dx, dy) || 1, ux = dx / L, uy = dy / L;
@@ -174,7 +176,7 @@ export function buildScene(spec, ctx) {
     }
     // ===== cycle: ciclo cerrado (3-5 pasos en anillo; la última flecha vuelve al principio) =====
     case "cycle": {
-      const m = clamp(n, 3, 5), S = m === 3 ? 210 : m === 4 ? 190 : 170, cx0 = 960, cy0 = m === 3 ? 670 : m === 4 ? 613 : 633, rx = m === 5 ? 470 : m === 4 ? 640 : 560, ry = m === 3 ? 230 : m === 4 ? 262 : 215; // arriba y abajo quedan dentro de y 285..940
+      const m = clamp(n, 3, 5), S = m === 3 ? 210 : m === 4 ? 190 : 170, cx0 = 960, cy0 = m === 3 ? 640 : m === 4 ? 595 : 610, rx = m === 5 ? 470 : m === 4 ? 640 : 560, ry = m === 3 ? 200 : m === 4 ? 215 : 200; // arriba y abajo quedan dentro de y 285..940
       const off = m === 4 ? -45 : -90;
       nodes.slice(0, m).forEach((nd, i) => { const ang = (off + (360 * i) / m) * Math.PI / 180, sin = Math.sin(ang), cos = Math.cos(ang), x = Math.round(cx0 + rx * cos), y = Math.round(cy0 + ry * sin);
         addNode(nd, x, y, S, "pop"); addRingLabel(nd, x, y, S, sin, cos, 420, 42); });
@@ -192,13 +194,13 @@ export function buildScene(spec, ctx) {
     }
     // ===== radial: un concepto en el centro y 3-5 elementos a su alrededor, cada uno con su flecha =====
     case "radial": {
-      const [c, ...sat] = nodes; const m = clamp(sat.length, 3, 4), cy0 = 585, CS = 330, SS = plateMode ? 170 : 200, rx = 620, ry = 215;
+      const [c, ...sat] = nodes; const m = clamp(sat.length, 3, 4), cy0 = m === 3 ? 540 : 585, CS = m === 3 ? 280 : 330, SS = plateMode ? 170 : 200, rx = 620, ry = 215;
       const angs = m === 3 ? [-140, -40, 90] : [-150, -30, 30, 150];
       addNode(c, 960, cy0, CS, "pop");
       const axis = angs.some(a => Math.sin(a * Math.PI / 180) > 0.95);
       addLabel(c, 960, axis ? cy0 - CS / 2 - 50 : cy0 + CS / 2 + 56, 520, 48, ctx.RED);
-      sat.slice(0, m).forEach((nd, i) => { const ang = angs[i] * Math.PI / 180, sin = Math.sin(ang), cos = Math.cos(ang), x = Math.round(960 + rx * cos), y = Math.round(cy0 + ry * sin);
-        addNode(nd, x, y, SS, dirEnter(-cos, -sin)); addRingLabel(nd, x, y, SS, sin, cos, 400, 40); addArrow(c, nd, nd.t - 0.3, { gapA: 18, gapB: 22 }); });
+      sat.slice(0, m).forEach((nd, i) => { const ang = angs[i] * Math.PI / 180, sin = Math.sin(ang), cos = Math.cos(ang), x = Math.round(960 + rx * cos), hh = nd.kind === "clip" ? Math.round(SS * 0.84) : SS, y = Math.round(sin > 0.9 ? cy0 + CS / 2 + 36 + hh / 2 : cy0 + ry * sin); // el satélite de abajo se coloca justo bajo el centro, sin pisarlo
+        addNode(nd, x, y, SS, dirEnter(-cos, -sin)); addRingLabel(nd, x, y, SS, sin, cos, 400, 40, true); addArrow(c, nd, nd.t - 0.3, { gapA: 18, gapB: 22 }); });
       break;
     }
     // ===== zigzag: cascada que sube y baja (causa → efecto → efecto), rótulos hacia fuera =====
@@ -213,7 +215,7 @@ export function buildScene(spec, ctx) {
     case "timeline": {
       const m = clamp(n, 3, 5), S = m <= 3 ? 230 : m === 4 ? 200 : 170, ly = 620, xa = 300, xb = 1620;
       els.push({ id: id("tl"), type: "arrow", a: { x: 120, y: ly }, b: { x: 1800, y: ly }, curve: "none", color: INK, z: 38, in: +t0.toFixed(2), out: t1, enter: { kind: "draw", duration: Math.min(2.5, (t1 - t0) * 0.5) }, exit: { kind: "fade-out", duration: 0.25 }, _scene: true });
-      nodes.slice(0, m).forEach((nd, i) => { const x = Math.round(xa + ((xb - xa) * i) / (m - 1)), up = i % 2 === 0, y = up ? 380 + S / 2 : 855 - S / 2;
+      nodes.slice(0, m).forEach((nd, i) => { const x = Math.round(xa + ((xb - xa) * i) / (m - 1)), up = i % 2 === 0, y = up ? 380 + S / 2 : 830 - S / 2;
         addNode(nd, x, y, S, up ? "slide-t" : "slide-b"); if (up) addLabel(nd, x, y - nd._box.h / 2 - 48, 460, 42); else addLabel(nd, x, y + under(nd, S), 460, 42);
         const yb = up ? y + nd._box.h / 2 + 14 : y - nd._box.h / 2 - 14, ye = up ? ly - 16 : ly + 16;
         els.push({ id: id("tk"), type: "arrow", a: { x, y: yb }, b: { x, y: ye }, curve: "none", color: ctx.RED, z: 40, in: +Math.max(t0, nd.t + 0.25).toFixed(2), out: t1, enter: { kind: "draw", duration: 0.3 }, exit: { kind: "fade-out", duration: 0.2 }, _scene: true }); });

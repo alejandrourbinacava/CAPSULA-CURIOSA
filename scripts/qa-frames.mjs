@@ -37,4 +37,5 @@ sheet.save(out)
 fs.writeFileSync("out/_qa.py", py);
 execSync(`python out/_qa.py ${JSON.stringify(JSON.stringify(files))} out/qa/${name}.png`, { stdio: "inherit", shell: true });
 console.log("hoja:", `out/qa/${name}.png`);
+try { fs.rmSync(serveUrl, { recursive: true, force: true }); fs.rmSync(slim, { recursive: true, force: true }); } catch {} // el bundle de Remotion pesa ~500 MB: no dejarlo en %TEMP%
 process.exit(0);
