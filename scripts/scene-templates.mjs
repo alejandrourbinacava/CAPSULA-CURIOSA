@@ -64,24 +64,24 @@ export function buildScene(spec, ctx) {
   };
   // rótulo en 1-2 líneas equilibradas (nunca una línea diminuta)
   const splitLabel = (txt, maxChars) => { if (txt.length <= maxChars) return [txt]; const w = txt.split(" "); let best = null; for (let i = 1; i < w.length; i++) { const A = w.slice(0, i).join(" "), B = w.slice(i).join(" "); const sc = Math.max(A.length, B.length); if (!best || sc < best.sc) best = { sc, l: [A, B] }; } return best ? best.l : [txt]; };
-  const labelLines = (label, maxW, fsz, cw = CW) => { let fs = fsz, lines = splitLabel(label, Math.floor(maxW / (fs * cw))); while (fs > 28 && Math.max(...lines.map(l => l.length)) * fs * cw > maxW) fs -= 2; return { fs, lines }; };
+  const labelLines = (label, maxW, fsz, cw = CW) => { let fs = fsz, lines = splitLabel(label, Math.floor(maxW / (fs * cw))); while (fs > 34 && Math.max(...lines.map(l => l.length)) * fs * cw > maxW) fs -= 2; return { fs, lines }; };
   const addLabel = (nd, cx, cy, maxW, fsz = 46, color) => {
     if (!nd.label) return 0;
     const cw = color === ctx.RED ? 0.63 : CW; const { fs, lines } = labelLines(nd.label, maxW, fsz, cw); const lh = Math.round(fs * 1.3), top = cy - ((lines.length - 1) * lh) / 2;
-    lines.forEach((ln, i) => { const bw = Math.round(ln.length * fs * cw) + 36; els.push({ id: id("l"), type: "text", content: ln, fontSize: fs, box: { cx, cy: Math.round(top + i * lh), w: bw, h: lh - 4 }, color: color || INK, z: 60, ...(dark ? { noHalo: true } : {}), in: +(nd.t + 0.2 + i * 0.12).toFixed(2), out: t1, enter: ctx.enterOf("fade"), exit: { kind: exitK, duration: 0.25 }, _scene: true }); });
+    lines.forEach((ln, i) => { const bw = Math.round(ln.length * fs * cw) + 36; els.push({ id: id("l"), type: "text", content: ln, fontSize: fs, box: { cx: Math.round(clamp(cx, 110 + bw / 2, 1810 - bw / 2)), cy: Math.round(top + i * lh), w: bw, h: lh - 4 }, color: color || INK, z: 60, ...(dark ? { noHalo: true } : {}), in: +(nd.t + 0.2 + i * 0.12).toFixed(2), out: t1, enter: ctx.enterOf("fade"), exit: { kind: exitK, duration: 0.25 }, _scene: true }); });
     return lines.length;
   };
   // rótulo a la derecha del icono, alineado a la izquierda (listas y abanicos)
   const addSideLabel = (nd, xLeft, cy, maxW, fsz = 44, color) => {
     if (!nd.label) return;
     const cw = color === ctx.RED ? 0.63 : CW; const { fs, lines } = labelLines(nd.label, maxW, fsz, cw); const lh = Math.round(fs * 1.3), top = cy - ((lines.length - 1) * lh) / 2;
-    lines.forEach((ln, i) => { const bw = Math.round(ln.length * fs * cw) + 36; els.push({ id: id("l"), type: "text", content: ln, fontSize: fs, box: { cx: Math.round(xLeft + bw / 2), cy: Math.round(top + i * lh), w: bw, h: lh - 4 }, color: color || INK, z: 60, ...(dark ? { noHalo: true } : {}), in: +(nd.t + 0.2 + i * 0.12).toFixed(2), out: t1, enter: ctx.enterOf("handwrite"), exit: { kind: exitK, duration: 0.25 }, _scene: true }); });
+    lines.forEach((ln, i) => { const bw = Math.round(ln.length * fs * cw) + 36; els.push({ id: id("l"), type: "text", content: ln, fontSize: fs, box: { cx: Math.round(clamp(xLeft + bw / 2, 110 + bw / 2, 1810 - bw / 2)), cy: Math.round(top + i * lh), w: bw, h: lh - 4 }, color: color || INK, z: 60, ...(dark ? { noHalo: true } : {}), in: +(nd.t + 0.2 + i * 0.12).toFixed(2), out: t1, enter: ctx.enterOf("handwrite"), exit: { kind: exitK, duration: 0.25 }, _scene: true }); });
   };
   // rótulo a la IZQUIERDA del icono (alineado a la derecha, pegado al icono)
   const addLeftLabel = (nd, xRight, cy, maxW, fsz = 44, color) => {
     if (!nd.label) return;
     const cw = color === ctx.RED ? 0.63 : CW; const { fs, lines } = labelLines(nd.label, maxW, fsz, cw); const lh = Math.round(fs * 1.3), top = cy - ((lines.length - 1) * lh) / 2;
-    lines.forEach((ln, i) => { const bw = Math.round(ln.length * fs * cw) + 36; els.push({ id: id("l"), type: "text", content: ln, fontSize: fs, box: { cx: Math.round(xRight - bw / 2), cy: Math.round(top + i * lh), w: bw, h: lh - 4 }, color: color || INK, z: 60, ...(dark ? { noHalo: true } : {}), in: +(nd.t + 0.2 + i * 0.12).toFixed(2), out: t1, enter: ctx.enterOf("handwrite"), exit: { kind: exitK, duration: 0.25 }, _scene: true }); });
+    lines.forEach((ln, i) => { const bw = Math.round(ln.length * fs * cw) + 36; els.push({ id: id("l"), type: "text", content: ln, fontSize: fs, box: { cx: Math.round(clamp(xRight - bw / 2, 110 + bw / 2, 1810 - bw / 2)), cy: Math.round(top + i * lh), w: bw, h: lh - 4 }, color: color || INK, z: 60, ...(dark ? { noHalo: true } : {}), in: +(nd.t + 0.2 + i * 0.12).toFixed(2), out: t1, enter: ctx.enterOf("handwrite"), exit: { kind: exitK, duration: 0.25 }, _scene: true }); });
   };
   // rótulo fuera del anillo según el ángulo: arriba, abajo o al costado
   const addRingLabel = (nd, x, y, S, sin, cos, maxW, fsz = 42, sideTop = false) => {
@@ -132,8 +132,8 @@ export function buildScene(spec, ctx) {
     }
     // ===== ladder: escalera ascendente de niveles (Tipo 0 → I → II → III…) =====
     case "ladder": {
-      const x0 = 330, x1 = 1590, S = pick(n, [320, 290, 250, 215, 190, 170]), yLow = 610, yHigh = 360, dn = V.has("down");
-      nodes.forEach((nd, i) => { const f = n > 1 ? i / (n - 1) : 0.5; const cx = Math.round(x0 + (x1 - x0) * f), cy = Math.round(dn ? yHigh + (yLow - yHigh) * f : yLow - (yLow - yHigh) * f); addNode(nd, cx, cy, S, "pop"); addLabel(nd, cx, cy + under(nd, S), Math.max(260, (x1 - x0) / Math.max(1, n - 1) - 20), 42); });
+      const x0 = 330, x1 = 1590, S = pick(n, [320, 290, 250, 215, 190, 170]), yLow = 640, yHigh = 405, dn = V.has("down");
+      nodes.forEach((nd, i) => { const f = n > 1 ? i / (n - 1) : 0.5; const cx = Math.round(x0 + (x1 - x0) * f), cy = Math.round(dn ? yHigh + (yLow - yHigh) * f : yLow - (yLow - yHigh) * f); addNode(nd, cx, cy, S, "pop"); addLabel(nd, cx, cy + under(nd, S), Math.min(Math.max(260, (x1 - x0) / Math.max(1, n - 1) - 20), 2 * (Math.min(cx, 1920 - cx) - 50)), 42); });
       for (let i = 1; i < n; i++) addArrow(nodes[i - 1], nodes[i], nodes[i].t - 0.3, { curve: dn ? "down" : "up" });
       break;
     }
@@ -147,9 +147,9 @@ export function buildScene(spec, ctx) {
     }
     // ===== list: filas (icono + frase) una a una, cada una con su check =====
     case "list": {
-      const rowH = n <= 3 ? 215 : n === 4 ? 185 : 150, y0 = (n >= 4 ? 590 : 520) - (rowH * (n - 1)) / 2, S = rowH - 24;
+      const rowH = n <= 3 ? 215 : n === 4 ? 185 : 150, y0 = (n >= 4 ? 590 : 548) - (rowH * (n - 1)) / 2, S = rowH - 24;
       nodes.forEach((nd, i) => { const cy = Math.round(y0 + rowH * i); addNode(nd, 470, cy, S, "slide-l"); addSideLabel(nd, 470 + nd._box.w / 2 + 34, cy, 960, 54);
-        els.push({ id: id("ck"), type: "shape", kind: "checkmark", box: { cx: 1640, cy, w: 120, h: 120 }, color: "#2F9E44", z: 45, in: +(nd.t + 0.55).toFixed(2), out: t1, enter: { kind: "draw", duration: 0.45 }, exit: { kind: "fade-out", duration: 0.2 }, _scene: true }); });
+        if (n < 5) els.push({ id: id("ck"), type: "shape", kind: "checkmark", box: { cx: 1560, cy, w: 120, h: 120 }, color: "#2F9E44", z: 45, in: +(nd.t + 0.55).toFixed(2), out: t1, enter: { kind: "draw", duration: 0.45 }, exit: { kind: "fade-out", duration: 0.2 }, _scene: true }); });
       break;
     }
     // ===== stat: dato grande que CUENTA + icono y etiqueta (spec.stat = { value, unit }) =====
@@ -186,9 +186,9 @@ export function buildScene(spec, ctx) {
     }
     // ===== converge: varias causas/fuentes (izquierda) → un único resultado (derecha) =====
     case "converge": {
-      const src = nodes.slice(0, -1), R = nodes[nodes.length - 1], m = src.length, S = m === 2 ? 220 : 190, gap = m === 2 ? 290 : 250, xs = 560;
-      src.forEach((nd, i) => { const y = Math.round(540 + (i - (m - 1) / 2) * gap); addNode(nd, xs, y, S, "slide-l"); const hw = nd._box.w / 2; addLeftLabel(nd, xs - hw - 24, y, xs - hw - 24 - 60, 44); });
-      const RS = 440; addNode(R, 1400, 520, RS, "pop"); addLabel(R, 1400, 520 + under(R, RS), 640, 50, ctx.RED);
+      const src = nodes.slice(0, -1), R = nodes[nodes.length - 1], m = src.length, S = m === 2 ? 220 : 190, gap = m === 2 ? 290 : 225, xs = 640;
+      src.forEach((nd, i) => { const y = Math.round(565 + (i - (m - 1) / 2) * gap); addNode(nd, xs, y, S, "slide-l"); const hw = nd._box.w / 2; addLeftLabel(nd, xs - hw - 24, y, xs - hw - 24 - 60, 44); });
+      const RS = 440; addNode(R, 1450, 540, RS, "pop"); addLabel(R, 1450, 540 + under(R, RS), 640, 50, ctx.RED);
       src.forEach(nd => addArrow(nd, R, R.t - 0.55, { gapA: 18, gapB: 24 }));
       break;
     }
@@ -200,7 +200,7 @@ export function buildScene(spec, ctx) {
       const axis = angs.some(a => Math.sin(a * Math.PI / 180) > 0.95);
       addLabel(c, 960, axis ? cy0 - CS / 2 - 50 : cy0 + CS / 2 + 56, 520, 48, ctx.RED);
       sat.slice(0, m).forEach((nd, i) => { const ang = angs[i] * Math.PI / 180, sin = Math.sin(ang), cos = Math.cos(ang), x = Math.round(960 + rx * cos), hh = nd.kind === "clip" ? Math.round(SS * 0.84) : SS, y = Math.round(sin > 0.9 ? cy0 + CS / 2 + 36 + hh / 2 : cy0 + ry * sin); // el satélite de abajo se coloca justo bajo el centro, sin pisarlo
-        addNode(nd, x, y, SS, dirEnter(-cos, -sin)); addRingLabel(nd, x, y, SS, sin, cos, 400, 40, true); addArrow(c, nd, nd.t - 0.3, { gapA: 18, gapB: 22 }); });
+        addNode(nd, x, y, SS, dirEnter(-cos, -sin)); addRingLabel(nd, x, y, SS, sin, cos, 470, 40, true); addArrow(c, nd, nd.t - 0.3, { gapA: 18, gapB: 22 }); });
       break;
     }
     // ===== zigzag: cascada que sube y baja (causa → efecto → efecto), rótulos hacia fuera =====
