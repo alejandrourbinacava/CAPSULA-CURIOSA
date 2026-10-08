@@ -96,5 +96,1152 @@
     "file": "assets/icons/trophy.png",
     "normalized": true,
     "gpt": true
+  },
+  "limit-shatter": {
+    "kind": "vector",
+    "query": "a solid brick wall shattering into many flying pieces, no text",
+    "file": "assets/icons/limit-shatter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "movie-clapper": {
+    "kind": "vector",
+    "query": "a film clapperboard next to a popcorn bucket, no text",
+    "file": "assets/icons/movie-clapper.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "understand-bulb": {
+    "kind": "vector",
+    "query": "a cartoon head with a bright glowing light bulb above it, aha moment",
+    "file": "assets/icons/understand-bulb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "superhuman-glow": {
+    "kind": "vector",
+    "query": "a glowing superhuman figure radiating energy, muscular silhouette with golden aura, not quite human",
+    "file": "assets/icons/superhuman-glow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "calendar-flip": {
+    "kind": "vector",
+    "query": "a wall calendar with many pages flying off, many years passing, no numbers",
+    "file": "assets/icons/calendar-flip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lone-runner-ahead": {
+    "kind": "vector",
+    "query": "a lone sprinter far ahead on a track with a tiny pack of runners far behind in the distance",
+    "file": "assets/icons/lone-runner-ahead.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "legs-run": {
+    "kind": "vector",
+    "query": "two muscular running legs in full sprint with speed lines",
+    "file": "assets/icons/legs-run.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "giant-stride": {
+    "kind": "vector",
+    "query": "a runner's giant leaping stride with a long measuring tape between two footprints, no numbers",
+    "file": "assets/icons/giant-stride.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "steps-fewer": {
+    "kind": "vector",
+    "query": "a few big footprints next to many tiny footprints on a running track",
+    "file": "assets/icons/steps-fewer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ceiling-bump": {
+    "kind": "vector",
+    "query": "a person jumping and bumping their head against a low ceiling, stars around the head",
+    "file": "assets/icons/ceiling-bump.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "clock-2h": {
+    "kind": "vector",
+    "query": "a big analog clock showing two hours next to a runner silhouette, no numbers",
+    "file": "assets/icons/clock-2h.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "forbidden-runner": {
+    "kind": "vector",
+    "query": "a running person inside a red forbidden circle with a slash, impossible",
+    "file": "assets/icons/forbidden-runner.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "wall-human": {
+    "kind": "vector",
+    "query": "a tall brick wall blocking a small runner who stops in front of it",
+    "file": "assets/icons/wall-human.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "road-one-km": {
+    "kind": "vector",
+    "query": "a single kilometer marker post on a road, no text",
+    "file": "assets/icons/road-one-km.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "road-42-km": {
+    "kind": "vector",
+    "query": "a long winding road with many kilometer markers receding to the horizon",
+    "file": "assets/icons/road-42-km.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pacers-draft": {
+    "kind": "vector",
+    "query": "a group of runners in a V formation shielding the front runner from wind arrows",
+    "file": "assets/icons/pacers-draft.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "laser-car": {
+    "kind": "vector",
+    "query": "a car driving ahead on a road projecting a green laser line on the ground for runners",
+    "file": "assets/icons/laser-car.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "engine-body": {
+    "kind": "vector",
+    "query": "a human torso with a glowing race car engine inside it",
+    "file": "assets/icons/engine-body.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "strength-fist": {
+    "kind": "vector",
+    "query": "a clenched fist on a flexing muscular arm, raw strength",
+    "file": "assets/icons/strength-fist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "small-car": {
+    "kind": "vector",
+    "query": "a small cute cartoon car, side view",
+    "file": "assets/icons/small-car.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "back-legs": {
+    "kind": "vector",
+    "query": "a muscular back and strong legs of a person bracing to lift, strain lines",
+    "file": "assets/icons/back-legs.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pressure-body": {
+    "kind": "vector",
+    "query": "a human torso with pressure arrows pushing inward from inside, tense and red",
+    "file": "assets/icons/pressure-body.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lifting-belt": {
+    "kind": "vector",
+    "query": "a thick leather weightlifting belt tightened around a waist",
+    "file": "assets/icons/lifting-belt.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "organs-safe": {
+    "kind": "vector",
+    "query": "a human torso silhouette with protected organs inside a shield bubble",
+    "file": "assets/icons/organs-safe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "near-faint": {
+    "kind": "vector",
+    "query": "a dizzy strongman with spiral eyes about to faint",
+    "file": "assets/icons/near-faint.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "red-face-vessels": {
+    "kind": "vector",
+    "query": "a very red strained face with tiny red blood vessel marks, popping veins, cartoon",
+    "file": "assets/icons/red-face-vessels.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "weight-stuck": {
+    "kind": "vector",
+    "query": "a person straining with all their might against a huge heavy weight that does not move at all",
+    "file": "assets/icons/weight-stuck.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "normal-person": {
+    "kind": "vector",
+    "query": "an ordinary person holding their nose with puffed cheeks, holding breath",
+    "file": "assets/icons/normal-person.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sleeping-person": {
+    "kind": "vector",
+    "query": "a person sleeping peacefully in bed with a slow heartbeat line",
+    "file": "assets/icons/sleeping-person.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "panic-alarm": {
+    "kind": "vector",
+    "query": "a red alarm bell ringing loudly inside a head, panic lines",
+    "file": "assets/icons/panic-alarm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "slow-heart": {
+    "kind": "vector",
+    "query": "a heart with a very slow heartbeat line and a snail next to it",
+    "file": "assets/icons/slow-heart.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hibernation": {
+    "kind": "vector",
+    "query": "a bear curled up hibernating asleep in a cave",
+    "file": "assets/icons/hibernation.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "floating-still": {
+    "kind": "vector",
+    "query": "a person lying face down floating perfectly still in calm water",
+    "file": "assets/icons/floating-still.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tiny-movement": {
+    "kind": "vector",
+    "query": "a tiny finger movement with small motion lines",
+    "file": "assets/icons/tiny-movement.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "oxygen-low": {
+    "kind": "vector",
+    "query": "a small oxygen gauge almost empty with a tiny bubble left",
+    "file": "assets/icons/oxygen-low.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-tank": {
+    "kind": "vector",
+    "query": "a scuba oxygen tank with a big red cross over it",
+    "file": "assets/icons/no-tank.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "skyscraper-40": {
+    "kind": "vector",
+    "query": "a very tall skyscraper with a tiny diver silhouette going down along its side, many floors",
+    "file": "assets/icons/skyscraper-40.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "up-again": {
+    "kind": "vector",
+    "query": "a person swimming back up a long upward arrow, tired",
+    "file": "assets/icons/up-again.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pressure-crush": {
+    "kind": "vector",
+    "query": "deep dark sea water with big pressure arrows squeezing a tiny diver",
+    "file": "assets/icons/pressure-crush.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lungs-fist": {
+    "kind": "vector",
+    "query": "a pair of tiny lungs squeezed down to the size of a fist",
+    "file": "assets/icons/lungs-fist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "emergency-siren": {
+    "kind": "vector",
+    "query": "a red flashing emergency siren light",
+    "file": "assets/icons/emergency-siren.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "blood-flow": {
+    "kind": "vector",
+    "query": "red blood arrows flowing from limbs toward the center of a body",
+    "file": "assets/icons/blood-flow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sinking-diver": {
+    "kind": "vector",
+    "query": "a freediver letting himself sink down calmly like a heavy weight, arms relaxed",
+    "file": "assets/icons/sinking-diver.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "save-energy": {
+    "kind": "vector",
+    "query": "a battery icon full of green energy next to a relaxed swimmer",
+    "file": "assets/icons/save-energy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "rope-up": {
+    "kind": "vector",
+    "query": "a diver pulling himself up along a rope toward the surface",
+    "file": "assets/icons/rope-up.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "happy-diver": {
+    "kind": "vector",
+    "query": "a smiling freediver swimming down happily in dark blue water",
+    "file": "assets/icons/happy-diver.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "thin-air": {
+    "kind": "vector",
+    "query": "a high mountain with very few faint air bubbles around it, thin air, tiny wind swirls",
+    "file": "assets/icons/thin-air.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "body-battery": {
+    "kind": "vector",
+    "query": "a human silhouette with a battery inside it slowly draining to red",
+    "file": "assets/icons/body-battery.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "muscles-off": {
+    "kind": "vector",
+    "query": "a limp muscular arm with a power-off button, muscles stop responding",
+    "file": "assets/icons/muscles-off.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "body-edge": {
+    "kind": "vector",
+    "query": "a tiny person standing on the very edge of a cliff above darkness",
+    "file": "assets/icons/body-edge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mountain-up": {
+    "kind": "vector",
+    "query": "a mountain with a small climber going up and a green up arrow",
+    "file": "assets/icons/mountain-up.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mountain-down": {
+    "kind": "vector",
+    "query": "a mountain with a tired climber going down and a red down arrow",
+    "file": "assets/icons/mountain-down.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cold-shiver": {
+    "kind": "vector",
+    "query": "a shivering person wrapped in a blanket with chattering teeth and icicles",
+    "file": "assets/icons/cold-shiver.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "thermometer-low": {
+    "kind": "vector",
+    "query": "a thermometer with the red level very low and ice crystals around it",
+    "file": "assets/icons/thermometer-low.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "breath-mind-control": {
+    "kind": "vector",
+    "query": "a calm meditating person with swirling breath lines and a glowing head",
+    "file": "assets/icons/breath-mind-control.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "body-automatic": {
+    "kind": "vector",
+    "query": "a human torso with turning gears inside, automatic body functions",
+    "file": "assets/icons/body-automatic.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "body-dials": {
+    "kind": "vector",
+    "query": "a human head with control knobs and sliders, taking control",
+    "file": "assets/icons/body-dials.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vertigo-look-down": {
+    "kind": "vector",
+    "query": "a person looking down from a huge cliff edge with dizzy swirl lines, vertigo",
+    "file": "assets/icons/vertigo-look-down.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-harness": {
+    "kind": "vector",
+    "query": "a climbing harness with a big red cross over it",
+    "file": "assets/icons/no-harness.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "nothing-holds": {
+    "kind": "vector",
+    "query": "an empty hand reaching out with nothing to hold, nothing holding, just air",
+    "file": "assets/icons/nothing-holds.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fingertips-grip": {
+    "kind": "vector",
+    "query": "fingertips gripping a tiny rock ledge, tense, close up",
+    "file": "assets/icons/fingertips-grip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "wall-map-moves": {
+    "kind": "vector",
+    "query": "a cliff wall covered with numbered hand-hold arrows, a route plan",
+    "file": "assets/icons/wall-map-moves.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "let-go-rope": {
+    "kind": "vector",
+    "query": "a hand letting go of a climbing rope, the rope falling away",
+    "file": "assets/icons/let-go-rope.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sweaty-hands": {
+    "kind": "vector",
+    "query": "two nervous sweaty hands with sweat drops, watching a scary video",
+    "file": "assets/icons/sweaty-hands.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "calm-walk": {
+    "kind": "vector",
+    "query": "a relaxed man taking a casual walk with hands in pockets, a sheer cliff behind him",
+    "file": "assets/icons/calm-walk.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pi-symbol": {
+    "kind": "vector",
+    "query": "a big golden pi symbol with floating digits around it",
+    "file": "assets/icons/pi-symbol.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "infinity-loop": {
+    "kind": "vector",
+    "query": "an infinity symbol drawn as a never-ending loop of digits",
+    "file": "assets/icons/infinity-loop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "digits-stream": {
+    "kind": "vector",
+    "query": "a long stream of random digits scrolling in a column",
+    "file": "assets/icons/digits-stream.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-magic": {
+    "kind": "vector",
+    "query": "a magic wand with a big red cross over it",
+    "file": "assets/icons/no-magic.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "memory-palace": {
+    "kind": "vector",
+    "query": "a small castle with a brain on top, mnemonic memory palace",
+    "file": "assets/icons/memory-palace.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "numbers-chaos": {
+    "kind": "vector",
+    "query": "scattered meaningless numbers floating chaotically",
+    "file": "assets/icons/numbers-chaos.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "picture-story": {
+    "kind": "vector",
+    "query": "a comic strip of colorful pictures, places and a story, storytelling",
+    "file": "assets/icons/picture-story.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "bored-face": {
+    "kind": "vector",
+    "query": "a bored face with half-closed eyes and a yawn",
+    "file": "assets/icons/bored-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "gym-crossed": {
+    "kind": "vector",
+    "query": "a dumbbell with a big red cross over it",
+    "file": "assets/icons/gym-crossed.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "woman-victorian": {
+    "kind": "vector",
+    "query": "an elderly woman in an old-fashioned long dress with a bun hairstyle, smiling",
+    "file": "assets/icons/woman-victorian.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "old-airplane": {
+    "kind": "vector",
+    "query": "a small old fashioned airplane, side view",
+    "file": "assets/icons/old-airplane.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "light-bulb": {
+    "kind": "vector",
+    "query": "a classic glowing incandescent light bulb",
+    "file": "assets/icons/light-bulb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sun-orbit": {
+    "kind": "vector",
+    "query": "the Earth orbiting around a big sun with a circular orbit arrow",
+    "file": "assets/icons/sun-orbit.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "empire-fall": {
+    "kind": "vector",
+    "query": "a crumbling grand palace with a crown falling, an empire collapsing",
+    "file": "assets/icons/empire-fall.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "family-gone": {
+    "kind": "vector",
+    "query": "an old woman alone with several empty chairs and faded family silhouettes behind her",
+    "file": "assets/icons/family-gone.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cigarette-warning": {
+    "kind": "vector",
+    "query": "a single cigarette with grey smoke and a big question mark",
+    "file": "assets/icons/cigarette-warning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "clear-mind": {
+    "kind": "vector",
+    "query": "a head with a clear bright blue sky inside, a lucid mind",
+    "file": "assets/icons/clear-mind.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "life-limit-bar": {
+    "kind": "vector",
+    "query": "a long lifespan bar ending at a dotted limit line with a question mark, no text",
+    "file": "assets/icons/life-limit-bar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "impossible-speech": {
+    "kind": "vector",
+    "query": "a person with a speech bubble containing a big red X, shaking head",
+    "file": "assets/icons/impossible-speech.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "body-limits": {
+    "kind": "vector",
+    "query": "a human silhouette inside a dotted boundary line",
+    "file": "assets/icons/body-limits.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-limit-found": {
+    "kind": "vector",
+    "query": "a magnifying glass searching an empty space and finding nothing",
+    "file": "assets/icons/no-limit-found.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-atletismo": {
+    "kind": "cutout",
+    "query": "atletismo pista",
+    "wiki": "Atletismo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Atletismo",
+      "description": "conjunto de deportes"
+    },
+    "file": "assets/icons/photo-atletismo.jpg"
+  },
+  "photo-bolt": {
+    "kind": "cutout",
+    "query": "Usain Bolt",
+    "wiki": "Usain Bolt",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Usain Bolt",
+      "description": "velocista jamaicano"
+    },
+    "file": "assets/icons/photo-bolt.jpg"
+  },
+  "photo-cronometro": {
+    "kind": "cutout",
+    "query": "cronómetro",
+    "wiki": "Cronómetro",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Cronómetro",
+      "description": "medidor de tiempo de alta precisión"
+    },
+    "file": "assets/icons/photo-cronometro.jpg"
+  },
+  "photo-maraton": {
+    "kind": "cutout",
+    "query": "maratón",
+    "wiki": "Maratón",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Maratón",
+      "description": "prueba atlética de resistencia que consiste en correr una distancia de 42.195 metros"
+    },
+    "file": "assets/icons/photo-maraton.jpg"
+  },
+  "photo-kipchoge": {
+    "kind": "cutout",
+    "query": "Eliud Kipchoge",
+    "wiki": "Eliud Kipchoge",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Eliud Kipchoge",
+      "description": "corredor keniata de larga distancia"
+    },
+    "file": "assets/icons/photo-kipchoge.jpg"
+  },
+  "photo-hafthor": {
+    "kind": "cutout",
+    "query": "peso muerto strongman",
+    "wiki": "Hafþór Júlíus Björnsson",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Hafþór Júlíus Björnsson",
+      "description": ""
+    },
+    "file": "assets/icons/photo-hafthor.jpg"
+  },
+  "photo-pulmon": {
+    "kind": "cutout",
+    "query": "pulmones",
+    "wiki": "Pulmón",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Pulmón",
+      "description": "órgano del sistema respiratorio"
+    },
+    "file": "assets/icons/photo-pulmon.jpg"
+  },
+  "photo-globo": {
+    "kind": "cutout",
+    "query": "globo aerostático",
+    "wiki": "Globo aerostático",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Globo aerostático",
+      "description": "aeronave aerostática no propulsada"
+    },
+    "file": "assets/icons/photo-globo.jpg"
+  },
+  "photo-stratos": {
+    "kind": "cutout",
+    "query": "Red Bull Stratos",
+    "wiki": "Red Bull Stratos",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Red Bull Stratos",
+      "description": "proyecto de salto estratosférico"
+    },
+    "file": "assets/icons/photo-stratos.jpg"
+  },
+  "photo-baumgartner": {
+    "kind": "cutout",
+    "query": "Felix Baumgartner",
+    "wiki": "Felix Baumgartner",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Felix Baumgartner",
+      "description": "paracaidista y saltador BASE austriaco"
+    },
+    "file": "assets/icons/photo-baumgartner.jpg"
+  },
+  "photo-soundbarrier": {
+    "kind": "cutout",
+    "query": "barrera del sonido",
+    "wiki": "Barrera del sonido",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Barrera del sonido",
+      "description": "barrera que se rompe cuando se superan los 343 metros por segundo (1 234,8 kilómetros por hora)"
+    },
+    "file": "assets/icons/photo-soundbarrier.jpg"
+  },
+  "photo-everest": {
+    "kind": "cutout",
+    "query": "Monte Everest",
+    "wiki": "Monte Everest",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Monte Everest",
+      "description": "montaña más alta de la Tierra desde el nivel del mar, localizada en la cordillera del Himalaya"
+    },
+    "file": "assets/icons/photo-everest.jpg"
+  },
+  "photo-montanismo": {
+    "kind": "cutout",
+    "query": "montañismo",
+    "wiki": "Montañismo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Montañismo",
+      "description": "disciplina que consiste en realizar ascensiones a las montañas"
+    },
+    "file": "assets/icons/photo-montanismo.jpg"
+  },
+  "photo-hielo": {
+    "kind": "cutout",
+    "query": "hielo",
+    "wiki": "Hielo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Hielo",
+      "description": "agua congelada, uno de los tres estados naturales del agua"
+    },
+    "file": "assets/icons/photo-hielo.jpg"
+  },
+  "photo-wimhof": {
+    "kind": "cutout",
+    "query": "Wim Hof",
+    "wiki": "Wim Hof",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Wim Hof",
+      "description": "Hombre de hielo"
+    },
+    "file": "assets/icons/photo-wimhof.jpg"
+  },
+  "photo-escalada": {
+    "kind": "cutout",
+    "query": "escalada",
+    "wiki": "Escalada",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Escalada",
+      "description": "actividad que consiste en realizar ascensos sobre paredes de fuerte pendiente"
+    },
+    "file": "assets/icons/photo-escalada.jpg"
+  },
+  "photo-honnold": {
+    "kind": "cutout",
+    "query": "Alex Honnold",
+    "wiki": "Alex Honnold",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Alex Honnold",
+      "description": "alpinista profesional y escalador extremo estadounidense"
+    },
+    "file": "assets/icons/photo-honnold.jpg"
+  },
+  "photo-yosemite": {
+    "kind": "cutout",
+    "query": "Yosemite",
+    "wiki": "Parque nacional de Yosemite",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Parque nacional de Yosemite",
+      "description": "parque nacional en California, Estados Unidos"
+    },
+    "file": "assets/icons/photo-yosemite.jpg"
+  },
+  "photo-automovil": {
+    "kind": "cutout",
+    "query": "automóvil antiguo",
+    "wiki": "Automóvil",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Automóvil",
+      "description": "vehículo motorizado con ruedas utilizado para el transporte de pasajeros"
+    },
+    "file": "assets/icons/photo-automovil.jpg"
+  },
+  "photo-internet": {
+    "kind": "cutout",
+    "query": "internet",
+    "wiki": "Internet",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Internet",
+      "description": "sistema global de redes informáticas interconectadas"
+    },
+    "file": "assets/icons/photo-internet.jpg"
+  },
+  "photo-calment": {
+    "kind": "cutout",
+    "query": "Jeanne Calment",
+    "wiki": "Jeanne Calment",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Jeanne Calment",
+      "description": "supercentenaria francesa"
+    },
+    "file": "assets/icons/photo-calment.jpg"
+  },
+  "clip-sprint": {
+    "kind": "clip",
+    "query": "sprinter running on athletics track slow motion",
+    "file": "assets/clips/clip-sprint.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "KoolShooters",
+      "url": "https://www.pexels.com/video/a-man-on-the-starting-line-of-a-running-track-8533122/"
+    }
+  },
+  "clip-marathon": {
+    "kind": "clip",
+    "query": "marathon runners running road race crowd",
+    "file": "assets/clips/clip-marathon.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Paolo Rossa",
+      "url": "https://www.pexels.com/video/energetic-street-marathon-in-urban-setting-28569519/"
+    }
+  },
+  "clip-barbell": {
+    "kind": "clip",
+    "query": "powerlifter deadlift heavy barbell gym",
+    "file": "assets/clips/clip-barbell.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Harvey Tan Villarino",
+      "url": "https://www.pexels.com/video/man-wearing-a-face-mask-lifting-a-weights-at-the-gym-6115230/"
+    }
+  },
+  "clip-cycling": {
+    "kind": "clip",
+    "query": "cyclists peloton road race",
+    "file": "assets/clips/clip-cycling.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Peter Jochim",
+      "url": "https://www.pexels.com/video/high-speed-cycling-race-on-city-streets-32141712/"
+    }
+  },
+  "clip-start": {
+    "kind": "clip",
+    "query": "sprinters at starting blocks start of a race",
+    "file": "assets/clips/clip-start.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikhail Nilov",
+      "url": "https://www.pexels.com/video/an-athlete-crouching-a-starting-position-8456206/"
+    }
+  },
+  "clip-climb": {
+    "kind": "clip",
+    "query": "rock climber free solo vertical cliff",
+    "file": "assets/clips/clip-climb.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Alba Anguela",
+      "url": "https://www.pexels.com/video/drone-footage-of-a-person-climbing-on-the-mountain-5013967/"
+    }
+  },
+  "clip-chalk": {
+    "kind": "clip",
+    "query": "climber hands chalk gripping rock",
+    "file": "assets/clips/clip-chalk.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Grisha Grishkoff",
+      "url": "https://www.pexels.com/video/person-clapping-hands-with-climbing-chalk-5964195/"
+    }
+  },
+  "clip-icebath": {
+    "kind": "clip",
+    "query": "ice bath cold water plunge",
+    "file": "assets/clips/clip-icebath.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/video-of-a-two-women-in-the-swimming-pool-7222583/"
+    }
+  },
+  "clip-everest": {
+    "kind": "clip",
+    "query": "snowy mountain summit high altitude wind",
+    "file": "assets/clips/clip-everest.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Florian Delée",
+      "url": "https://www.pexels.com/video/epic-high-altitude-mountaineering-adventure-32142743/"
+    }
+  },
+  "clip-lab": {
+    "kind": "clip",
+    "query": "scientist laboratory",
+    "file": "assets/clips/clip-lab.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Ivan S",
+      "url": "https://www.pexels.com/video/a-person-wearing-black-medical-gloves-8485791/"
+    }
+  },
+  "clip-neon": {
+    "kind": "clip",
+    "query": "city street night car rain",
+    "file": "assets/clips/clip-neon.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Lone  Pictures",
+      "url": "https://www.pexels.com/video/a-car-drives-through-a-flooded-street-at-night-9481660/"
+    }
+  },
+  "clip-city-crowd": {
+    "kind": "clip",
+    "query": "crowd of people walking city",
+    "file": "assets/clips/clip-city-crowd.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Shrijana Shrestha",
+      "url": "https://www.pexels.com/video/people-walking-at-a-street-during-nighttime-4122942/"
+    }
+  },
+  "clip-underwater": {
+    "kind": "clip",
+    "query": "underwater turquoise",
+    "file": "assets/clips/clip-underwater.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pavel Danilyuk",
+      "url": "https://www.pexels.com/video/shot-of-a-school-of-fish-underwater-7318092/"
+    }
+  },
+  "clip-diver": {
+    "kind": "clip",
+    "query": "scuba diver underwater",
+    "file": "assets/clips/clip-diver.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "JUN HO LEE",
+      "url": "https://www.pexels.com/video/scuba-divers-exploring-ocean-trench-34413539/"
+    }
+  },
+  "clip-deepsea": {
+    "kind": "clip",
+    "query": "deep sea diver dark blue",
+    "file": "assets/clips/clip-deepsea.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "JUN HO LEE",
+      "url": "https://www.pexels.com/video/diver-exploring-underwater-cave-in-deep-ocean-32515216/"
+    }
+  },
+  "clip-abyss": {
+    "kind": "clip",
+    "query": "deep blue abyss diver",
+    "file": "assets/clips/clip-abyss.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "JUN HO LEE",
+      "url": "https://www.pexels.com/video/cave-diving-adventure-with-scuba-divers-34385301/"
+    }
+  },
+  "clip-airplane": {
+    "kind": "clip",
+    "query": "airplane wing above clouds",
+    "file": "assets/clips/clip-airplane.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Altaf Shah",
+      "url": "https://www.pexels.com/video/aerial-view-of-plane-wing-above-clouds-30512228/"
+    }
+  },
+  "clip-earth": {
+    "kind": "clip",
+    "query": "planet earth from space",
+    "file": "assets/clips/clip-earth.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nino Souza",
+      "url": "https://www.pexels.com/video/the-earth-is-shown-in-this-image-27034711/"
+    }
+  },
+  "clip-heartbeat": {
+    "kind": "clip",
+    "query": "heartbeat monitor",
+    "file": "assets/clips/clip-heartbeat.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/medical-monitor-measuring-the-heart-rate-6130124/"
+    }
+  },
+  "clip-brain": {
+    "kind": "clip",
+    "query": "brain neurons glowing",
+    "file": "assets/clips/clip-brain.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/abstract-neural-network-connections-animation-29184317/"
+    }
+  },
+  "clip-neurons": {
+    "kind": "clip",
+    "query": "neurons network glowing",
+    "file": "assets/clips/clip-neurons.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/abstract-neural-network-connections-animation-29184317/"
+    }
+  },
+  "clip-clouds": {
+    "kind": "clip",
+    "query": "clouds time lapse",
+    "file": "assets/clips/clip-clouds.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "George Morina",
+      "url": "https://www.pexels.com/video/thick-white-clouds-in-the-sky-4066718/"
+    }
+  },
+  "clip-snow": {
+    "kind": "clip",
+    "query": "snow falling winter",
+    "file": "assets/clips/clip-snow.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Brixiv",
+      "url": "https://www.pexels.com/video/snow-falling-on-the-ground-in-the-woods-19886712/"
+    }
+  },
+  "clip-skydive": {
+    "kind": "clip",
+    "query": "skydiver jumping from airplane",
+    "file": "assets/clips/clip-skydive.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Yu Ma",
+      "url": "https://www.pexels.com/video/an-airplane-approaching-to-the-people-waiting-9832425/"
+    }
+  },
+  "clip-storm-sea": {
+    "kind": "clip",
+    "query": "stormy sea waves",
+    "file": "assets/clips/clip-storm-sea.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mario Krimer",
+      "url": "https://www.pexels.com/video/dramatic-ocean-waves-in-slow-motion-37259189/"
+    }
+  },
+  "clip-code-data": {
+    "kind": "clip",
+    "query": "digits code data screen",
+    "file": "assets/clips/clip-code-data.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/green-binary-code-looping-animation-30162924/"
+    }
+  },
+  "clip-doctor": {
+    "kind": "clip",
+    "query": "doctor hands",
+    "file": "assets/clips/clip-doctor.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/person-wearing-latex-gloves-7579838/"
+    }
+  },
+  "clip-tank": {
+    "kind": "clip",
+    "query": "toy tank model",
+    "file": "assets/clips/clip-tank.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Polina Tankilevitch",
+      "url": "https://www.pexels.com/video/playing-with-toy-military-cars-5257469/"
+    }
+  },
+  "clip-fire": {
+    "kind": "clip",
+    "query": "fire flame black background",
+    "file": "assets/clips/clip-fire.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/burning-fire-on-black-background-9667144/"
+    }
+  },
+  "clip-thinking": {
+    "kind": "clip",
+    "query": "man thinking sitting",
+    "file": "assets/clips/clip-thinking.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Ivan S",
+      "url": "https://www.pexels.com/video/man-wearing-sweater-sitting-on-the-floor-8496758/"
+    }
+  },
+  "ww-tank-plane": {
+    "kind": "vector",
+    "query": "world war two tank and fighter plane 1940s",
+    "file": "assets/icons/ww-tank-plane.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fuel-empty": {
+    "kind": "vector",
+    "query": "an empty fuel gauge on E out of fuel",
+    "file": "assets/icons/fuel-empty.png",
+    "normalized": true,
+    "gpt": true
   }
 }

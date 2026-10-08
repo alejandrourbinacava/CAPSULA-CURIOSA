@@ -1,479 +1,810 @@
 # ESCENAS — Cada Récord Humano Imposible Explicado
 
-> 02s solo ejecuta lo escrito. Cada récord con su doodle. `CHAP "Nombre" icono` fija el HUD.
+> Gramática de escenas de diagrama (SCENE/NODE). Fondo blanco. Generado por out/mk.mjs desde beats_009.mjs.
 
 ---
 
 ### BEAT 1 · 00:00 · T1
-Narración: *"El cuerpo humano tiene límites. Eso es lo que nos dijeron siempre."*
+Narración: *"El cuerpo humano tiene…"*
 ```
-+0.0  ICO  human-limit    @center  pop
-+2.2  TXT  "el cuerpo tiene límites" @cap  handwrite  md
-```
-
-### BEAT 2 · 00:06 · T1
-Narración: *"Pero cada cierto tiempo aparece alguien que coge esos límites y los hace pedazos."*
-```
-+0.0  ICO  human-limit    @left    fade
-+2.0  TXT  "y alguien los ROMPE" @right  stamp  lg  red
++0.0  CHAP "Récords humanos imposibles" trophy
++0.0  SCENE words
++0.0  NODE - "El cuerpo humano tiene límites" ~cuerpo
++0.0  NODE - "*eso nos dijeron siempre*" ~Eso
++0.0  NODE - "Pero cada cierto tiempo..." ~Pero
 ```
 
-### BEAT 3 · 00:13 · T1
-Narración: *"Hoy vas a ver los récords humanos más brutales que existen. Los que parecen sacados de una película."*
+### BEAT 2 · 00:00 · T1
+Narración: *"aparece alguien que coge…"*
 ```
-+0.0  ICO  trophy         @center  pop
-+2.6  TXT  "los récords más brutales" @cap  handwrite  md
-```
-
-### BEAT 4 · 00:20 · T1
-Narración: *"Y vas a entender, uno por uno, por qué son tan increíbles. Prepárate. Porque algunos de estos ni siquiera parecen humanos."*
-```
-+0.0  TXT  "ni parecen humanos" @center  stamp  lg  red
++0.0  SCENE flow curve
++0.0  NODE human-limit "alguien coge esos límites" ~alguien
++0.0  NODE limit-shatter "y los hace pedazos" ~pedazos
 ```
 
-### BEAT 5 · 00:28 · T1
-Narración: *"Empezamos por el más famoso de todos. La velocidad. Correr cien metros en nueve segundos y cincuenta y ocho centésimas."*
+### BEAT 3 · 00:00 · T1
+Narración: *"Hoy vas a ver…"*
 ```
-+0.0  CHAP "Velocidad" sprinter
-+0.0  ICO  sprinter       @center  slide-l
-+3.0  TXT  "100m en 9.58s" @cap  stamp  lg
-```
-
-### BEAT 6 · 00:36 · T1
-Narración: *"Ese es el récord de Usain Bolt. Y lleva batido desde 2009. Más de quince años, y nadie se ha acercado de verdad."*
-```
-+0.0  ICO  sprinter       @left    fade
-+2.4  TXT  "imbatido desde 2009" @right  handwrite  md
++0.0  SCENE hub
++0.0  NODE photo-atletismo "los récords humanos más brutales" ~récords
++0.0  NODE movie-clapper "sacados de una película" ~parecen
 ```
 
-### BEAT 7 · 00:44 · T1
-Narración: *"Para que te hagas una idea de lo que es. En su punto más rápido, iba a más de cuarenta y cuatro kilómetros por hora."*
+### BEAT 4 · 00:00 · T1
+Narración: *"Y vas a entender…"*
 ```
-+0.0  TXT  "+44 km/h" @center  stamp  stat  red
-```
-
-### BEAT 8 · 00:51 · T1
-Narración: *"Corriendo. Solo con sus piernas. Si pasara por delante de tu coche en plena ciudad, te estaría adelantando."*
-```
-+0.0  ICO  sprinter       @center  fade
-+2.2  TXT  "más rápido que tu coche" @cap  handwrite  md
++0.0  SCENE flow
++0.0  NODE understand-bulb "vas a entender uno por uno por qué" ~entender
++0.0  NODE superhuman-glow "algunos ni siquiera parecen humanos" ~algunos
 ```
 
-### BEAT 9 · 00:58 · T1
-Narración: *"Cada zancada suya medía casi tres metros. Daba menos pasos que sus rivales, pero cada uno era un salto enorme."*
+### BEAT 5 · 00:00 · T1
+Narración: *"Empezamos por el más famoso…"*
 ```
-+0.0  TXT  "zancadas de 3 metros" @center  handwrite  lg
-```
-
-### BEAT 10 · 01:05 · T1
-Narración: *"Voló, literalmente, por encima de la pista. Y los científicos todavía discuten si un ser humano podrá bajar algún día de esa cifra, o si hemos tocado techo."*
-```
-+0.0  TXT  "¿hemos tocado techo?" @center  stamp  lg  red
++0.0  CHAP "La velocidad" sprinter
++0.0  SCENE single
++0.0  NODE clip-sprint "el más famoso: la velocidad" ~Empezamos
 ```
 
-### BEAT 11 · 01:14 · T1
-Narración: *"Seguimos corriendo, pero ahora muchísimo más lejos. La maratón. Cuarenta y dos kilómetros seguidos."*
+### BEAT 6 · 00:00 · T1
+Narración: *"Correr cien metros…"*
 ```
-+0.0  CHAP "Maratón" marathon-runner
-+0.0  ICO  marathon-runner @center  slide-l
-+3.0  TXT  "42 km seguidos" @cap  stamp  lg
-```
-
-### BEAT 12 · 01:22 · T1
-Narración: *"Durante décadas, correrla en menos de dos horas se consideró físicamente imposible. Una pared del cuerpo humano que nadie podría atravesar."*
-```
-+0.0  TXT  "menos de 2 horas = imposible" @center  handwrite  lg  red
++0.0  SCENE stat
++0.0  STAT "9,58" "segundos" ~nueve
++0.0  NODE stopwatch "correr cien metros" ~Correr
 ```
 
-### BEAT 13 · 01:31 · T1
-Narración: *"Hasta que en 2019, un corredor llamado Eliud Kipchoge lo hizo. Una hora, cincuenta y nueve minutos, cuarenta segundos."*
+### BEAT 7 · 00:00 · T1
+Narración: *"Ese es el récord…"*
 ```
-+0.0  TXT  "1:59:40" @center  stamp  stat  red
-```
-
-### BEAT 14 · 01:39 · T1
-Narración: *"Piensa bien en lo que eso significa. Es correr cada kilómetro en menos de tres minutos. Y no un kilómetro. Cuarenta y dos, uno detrás de otro."*
-```
-+0.0  ICO  marathon-runner @center  fade
-+3.0  TXT  "42 km a menos de 3 min/km" @cap  handwrite  md
++0.0  SCENE flow
++0.0  NODE photo-bolt "el récord de Usain Bolt" ~récord
++0.0  NODE calendar-flip "batido desde 2009: más de 15 años" ~batido
 ```
 
-### BEAT 15 · 01:48 · T1
-Narración: *"Es mantener un ritmo que la mayoría de la gente no aguanta ni cien metros, durante casi dos horas sin parar."*
+### BEAT 8 · 00:00 · T1
+Narración: *"nadie se ha acercado…"*
 ```
-+0.0  ICO  stopwatch      @center  pop
-+2.4  TXT  "2 horas sin bajar el ritmo" @cap  handwrite  md
-```
-
-### BEAT 16 · 01:56 · T1
-Narración: *"Su cuerpo procesa el oxígeno como un motor de competición. Simplemente, no se apaga."*
-```
-+0.0  TXT  "un motor humano" @center  stamp  lg
++0.0  SCENE single
++0.0  NODE lone-runner-ahead "nadie se ha acercado de verdad" ~nadie
 ```
 
-### BEAT 17 · 02:02 · T1
-Narración: *"Ahora cambiamos por completo. De la resistencia a la fuerza bruta. El peso muerto. Levantar del suelo quinientos un kilos. Media tonelada."*
+### BEAT 9 · 00:00 · T1
+Narración: *"En su punto más…"*
+```
++0.0  SCENE stat
++0.0  STAT "44" "km/h en su punto más rápido" ~cuarenta
++0.0  NODE legs-run "corriendo solo con sus piernas" ~rápido
+```
+
+### BEAT 10 · 00:00 · T1
+Narración: *"Si pasara por delante…"*
+```
++0.0  SCENE flow
++0.0  NODE clip-neon "si pasara por delante de tu coche" ~pasara
++0.0  NODE clip-sprint "te estaría adelantando" ~adelantando
+```
+
+### BEAT 11 · 00:00 · T1
+Narración: *"Cada zancada suya medía…"*
+```
++0.0  SCENE versus
++0.0  NODE giant-stride "cada zancada, casi tres metros" ~zancada
++0.0  NODE steps-fewer "menos pasos que sus rivales" ~menos
+```
+
+### BEAT 12 · 00:00 · T1
+Narración: *"Voló literalmente por…"*
+```
++0.0  SCENE single
++0.0  NODE photo-atletismo "voló, literalmente, sobre la pista" ~Voló
+```
+
+### BEAT 13 · 00:00 · T1
+Narración: *"Su tiempo de reacción…"*
+```
++0.0  SCENE flow
++0.0  NODE clip-start "reacción al disparo de salida" ~reacción
++0.0  NODE photo-cronometro "al límite del cuerpo humano" ~límite
+```
+
+### BEAT 14 · 00:00 · T1
+Narración: *"los científicos todavía discuten…"*
+```
++0.0  SCENE hub
++0.0  NODE clip-lab "los científicos todavía discuten" ~científicos
++0.0  NODE stopwatch "¿bajará alguien de esa cifra?" ~bajar
++0.0  NODE ceiling-bump "¿o hemos tocado techo?" ~techo
+```
+
+### BEAT 15 · 00:00 · T1
+Narración: *"Seguimos corriendo pero…"*
+```
++0.0  CHAP "La maratón" marathon-runner
++0.0  SCENE flow curve
++0.0  NODE clip-marathon "seguimos corriendo, mucho más lejos" ~corriendo
++0.0  NODE photo-maraton "la maratón: 42 kilómetros seguidos" ~maratón
+```
+
+### BEAT 16 · 00:00 · T1
+Narración: *"Durante décadas correrla…"*
+```
++0.0  SCENE timeline
++0.0  NODE clock-2h "correrla en menos de dos horas" ~correrla
++0.0  NODE forbidden-runner "se consideró físicamente imposible" ~imposible
++0.0  NODE wall-human "una pared que nadie podía atravesar" ~pared
+```
+
+### BEAT 17 · 00:00 · T1
+Narración: *"Hasta que en 2019…"*
+```
++0.0  SCENE stat
++0.0  STAT "2019" "un corredor llamado Kipchoge" ~2019
++0.0  NODE photo-kipchoge "Eliud Kipchoge lo hizo" ~Hasta
+```
+
+### BEAT 18 · 00:00 · T1
+Narración: *"Una hora cincuenta y nueve…"*
+```
++0.0  SCENE words
++0.0  NODE - "1 hora" ~hora
++0.0  NODE - "59 minutos" ~cincuenta
++0.0  NODE - "*40 segundos*" ~cuarenta
+```
+
+### BEAT 19 · 00:00 · T1
+Narración: *"Es correr cada kilómetro…"*
+```
++0.0  SCENE ladder
++0.0  NODE stopwatch "cada km en menos de tres minutos" ~kilómetro
++0.0  NODE road-one-km "y no un kilómetro" ~no
++0.0  NODE road-42-km "42, uno detrás de otro" ~Cuarenta
+```
+
+### BEAT 20 · 00:00 · T1
+Narración: *"Es mantener un ritmo…"*
+```
++0.0  SCENE flow
++0.0  NODE photo-cronometro "mantener un ritmo" ~ritmo
++0.0  NODE clip-city-crowd "la mayoría no aguanta ni cien metros" ~mayoría
++0.0  NODE clip-marathon "durante casi dos horas sin parar" ~casi
+```
+
+### BEAT 21 · 00:00 · T1
+Narración: *"Para conseguirlo un pelotón…"*
+```
++0.0  SCENE hub
++0.0  NODE photo-kipchoge "Kipchoge y su pelotón" ~pelotón
++0.0  NODE pacers-draft "turnándose para cortarle el viento" ~turnando
+```
+
+### BEAT 22 · 00:00 · T1
+Narración: *"igual que en el ciclismo…"*
+```
++0.0  SCENE flow
++0.0  NODE clip-cycling "igual que en el ciclismo" ~ciclismo
++0.0  NODE laser-car "ritmo con láseres desde un coche" ~láseres
+```
+
+### BEAT 23 · 00:00 · T1
+Narración: *"Su cuerpo procesa el…"*
+```
++0.0  SCENE single
++0.0  NODE engine-body "su cuerpo, un motor que no se apaga" ~cuerpo
+```
+
+### BEAT 24 · 00:00 · T1
+Narración: *"Ahora cambiamos por completo…"*
 ```
 +0.0  CHAP "Fuerza bruta" deadlift
-+0.0  ICO  deadlift       @center  pop
-+3.4  TXT  "501 kg" @cap  stamp  lg  red
++0.0  SCENE flow
++0.0  NODE marathon-runner "ahora, de la resistencia" ~Ahora
++0.0  NODE strength-fist "a la fuerza bruta" ~fuerza
 ```
 
-### BEAT 18 · 02:11 · T1
-Narración: *"Eso es arrancar del suelo el peso de un coche pequeño usando solo la espalda y las piernas."*
+### BEAT 25 · 00:00 · T1
+Narración: *"el peso muerto levantar…"*
 ```
-+0.0  ICO  deadlift       @left    fade
-+2.0  TXT  "el peso de un coche" @right  handwrite  md
-```
-
-### BEAT 19 · 02:18 · T1
-Narración: *"Cuando lo consiguió, el hombre casi se desmaya ahí mismo. Se le reventaron pequeños vasos sanguíneos en la cara por la presión del esfuerzo."*
-```
-+0.0  TXT  "casi se desmaya" @center  stamp  lg  red
++0.0  SCENE stat
++0.0  STAT "501" "kilos: media tonelada" ~quinientos
++0.0  NODE photo-hafthor "el peso muerto: levantar del suelo" ~peso
 ```
 
-### BEAT 20 · 02:26 · T1
-Narración: *"Es un peso que la mayoría de nosotros no podría mover ni un solo milímetro, por mucho que lo intentara."*
+### BEAT 26 · 00:00 · T1
+Narración: *"Eso es arrancar…"*
 ```
-+0.0  ICO  deadlift       @center  fade
-+2.2  TXT  "para ti: ni un milímetro" @cap  handwrite  md
-```
-
-### BEAT 21 · 02:34 · T1
-Narración: *"Él lo despegó del suelo, lo sostuvo, y lo dejó caer. Un instante. Pero suficiente para entrar en la historia."*
-```
-+0.0  TXT  "un instante en la historia" @center  handwrite  lg
++0.0  SCENE flow
++0.0  NODE small-car "arrancar del suelo un coche pequeño" ~arrancar
++0.0  NODE back-legs "solo con la espalda y las piernas" ~espalda
 ```
 
-### BEAT 22 · 02:41 · T1
-Narración: *"Ahora contén la respiración. Literalmente. Porque este récord va justo de eso. La apnea."*
+### BEAT 27 · 00:00 · T1
+Narración: *"Para lograrlo su cuerpo…"*
 ```
-+0.0  CHAP "Apnea" breath-hold
-+0.0  ICO  breath-hold    @center  pop
-+2.6  TXT  "la apnea" @cap  stamp  lg
-```
-
-### BEAT 23 · 02:48 · T1
-Narración: *"Una persona normal aguanta sin respirar, como mucho, un minuto. Con bastante entrenamiento, dos."*
-```
-+0.0  ICO  stopwatch      @center  pop
-+2.0  TXT  "tú: 1 minuto" @cap  handwrite  md
++0.0  SCENE converge
++0.0  NODE pressure-body "su cuerpo genera presión por dentro" ~cuerpo
++0.0  NODE lifting-belt "se aprietan un cinturón enorme" ~cinturón
++0.0  NODE organs-safe "para que no revienten los órganos" ~revienten
 ```
 
-### BEAT 24 · 02:55 · T1
-Narración: *"Pero los mejores apneístas del mundo superan los once minutos sin respirar. Once minutos enteros."*
+### BEAT 28 · 00:00 · T1
+Narración: *"Cuando lo consiguió…"*
 ```
-+0.0  TXT  "11 minutos" @center  stamp  stat  red
-```
-
-### BEAT 25 · 03:02 · T1
-Narración: *"Su truco es bajar las pulsaciones casi hasta el nivel de una persona dormida. Y entrenar al cerebro para ignorar esa alarma de pánico que te grita que respires."*
-```
-+0.0  ICO  breath-hold    @left    fade
-+3.0  TXT  "pulsaciones a cámara lenta" @right  handwrite  md
++0.0  SCENE hub
++0.0  NODE near-faint "cuando lo consiguió, casi se desmaya" ~Cuando
++0.0  NODE red-face-vessels "vasos reventados en la cara" ~vasos
 ```
 
-### BEAT 26 · 03:11 · T1
-Narración: *"Once minutos en los que su corazón late a cámara lenta y su cuerpo entra en un estado parecido a la hibernación. Un pie dentro, un pie fuera."*
+### BEAT 29 · 00:00 · T1
+Narración: *"Es un peso que…"*
 ```
-+0.0  ICO  breath-hold    @center  fade
-+2.6  TXT  "casi hibernación" @cap  stamp  md
-```
-
-### BEAT 27 · 03:20 · T1
-Narración: *"Y hablando de aguantar la respiración, bajemos al fondo del mar. El buceo a pulmón libre."*
-```
-+0.0  CHAP "Buceo a pulmón" deep-dive
-+0.0  ICO  deep-dive      @center  slide-r
-+2.6  TXT  "buceo a pulmón" @cap  stamp  lg
++0.0  SCENE versus
++0.0  NODE clip-city-crowd "la mayoría no podría moverlo" ~mayoría
++0.0  NODE weight-stuck "ni un solo milímetro" ~milímetro
 ```
 
-### BEAT 28 · 03:27 · T1
-Narración: *"Sin bombona, sin oxígeno. Solo con el aire que cabe en tus pulmones, algunos se hunden más de ciento treinta metros."*
+### BEAT 30 · 00:00 · T1
+Narración: *"Él lo despegó…"*
 ```
-+0.0  TXT  "-130 metros" @center  stamp  stat  red
-```
-
-### BEAT 29 · 03:35 · T1
-Narración: *"Es como bajar un edificio de cuarenta pisos. Y después subirlo entero, otra vez, sin respirar."*
-```
-+0.0  ICO  deep-dive      @center  fade
-+2.4  TXT  "40 pisos, sin respirar" @cap  handwrite  md
++0.0  SCENE flow
++0.0  NODE clip-barbell "lo despegó, lo sostuvo, lo soltó" ~despegó
++0.0  NODE trophy "un instante: historia pura" ~historia
 ```
 
-### BEAT 30 · 03:43 · T1
-Narración: *"A esa profundidad, la presión del agua es tan brutal que aplasta los pulmones hasta dejarlos del tamaño de un puño."*
+### BEAT 31 · 00:00 · T1
+Narración: *"Ahora contén la respiración…"*
 ```
-+0.0  ICO  deep-dive      @left    fade
-+2.8  TXT  "pulmones como un puño" @right  handwrite  md
-```
-
-### BEAT 31 · 03:51 · T1
-Narración: *"El cuerpo entra en modo emergencia y redirige la sangre para proteger el corazón y el cerebro."*
-```
-+0.0  TXT  "modo emergencia" @center  stamp  lg  red
++0.0  CHAP "La apnea" breath-hold
++0.0  SCENE timeline
++0.0  NODE photo-pulmon "ahora, contén la respiración" ~respiración
++0.0  NODE clip-underwater "la apnea" ~apnea
++0.0  NODE normal-person "una persona normal, sin respirar" ~persona
 ```
 
-### BEAT 32 · 03:58 · T1
-Narración: *"Es una zona donde el mar, sencillamente, quiere aplastarte. Y ellos bajan ahí por gusto."*
+### BEAT 32 · 00:00 · T1
+Narración: *"como mucho un minuto…"*
 ```
-+0.0  ICO  deep-dive      @center  fade
-+2.6  TXT  "el mar quiere aplastarte" @cap  handwrite  md
-```
-
-### BEAT 33 · 04:06 · T1
-Narración: *"Ahora subimos. Pero mucho, muchísimo. Hasta el borde del espacio."*
-```
-+0.0  CHAP "Salto desde el espacio" space-jump
-+0.0  ICO  space-jump     @center  slide-t
-+2.2  TXT  "el borde del espacio" @cap  stamp  lg
++0.0  SCENE ladder
++0.0  NODE stopwatch "como mucho, un minuto" ~minuto
++0.0  NODE photo-cronometro "con entrenamiento, dos minutos" ~entrenamiento
 ```
 
-### BEAT 34 · 04:13 · T1
-Narración: *"En 2012, un hombre subió en un globo gigante hasta treinta y nueve kilómetros de altura."*
+### BEAT 33 · 00:00 · T1
+Narración: *"Pero los mejores apneístas…"*
 ```
-+0.0  TXT  "39 km de altura" @center  stamp  stat  red
-```
-
-### BEAT 35 · 04:20 · T1
-Narración: *"Tan arriba que ya se veía la curvatura de la Tierra y el cielo negro. Y saltó."*
-```
-+0.0  ICO  space-jump     @center  fade
-+2.4  TXT  "y saltó" @cap  stamp  lg  red
++0.0  SCENE stat
++0.0  STAT "11" "minutos sin respirar" ~once
++0.0  NODE clip-abyss "los mejores apneístas del mundo" ~mejores
 ```
 
-### BEAT 36 · 04:27 · T1
-Narración: *"Cayó durante más de cuatro minutos. Y en plena caída, su propio cuerpo rompió la barrera del sonido."*
+### BEAT 34 · 00:00 · T1
+Narración: *"Su truco es bajar…"*
 ```
-+0.0  ICO  space-jump     @left    fade
-+2.6  TXT  "rompió la barrera del sonido" @right  handwrite  md
-```
-
-### BEAT 37 · 04:35 · T1
-Narración: *"Sin motor. Sin avión. Solo un hombre cayendo tan rápido que superó la velocidad del sonido. Más de mil trescientos kilómetros por hora, con su cuerpo."*
-```
-+0.0  TXT  "+1.300 km/h" @center  stamp  stat  red
++0.0  SCENE flow
++0.0  NODE clip-heartbeat "bajar las pulsaciones" ~bajar
++0.0  NODE sleeping-person "casi como una persona dormida" ~dormida
 ```
 
-### BEAT 38 · 04:44 · T1
-Narración: *"Fue la primera persona en romper esa barrera simplemente cayendo por el cielo."*
+### BEAT 35 · 00:00 · T1
+Narración: *"y entrenar al cerebro…"*
 ```
-+0.0  ICO  space-jump     @center  fade
-+2.0  TXT  "el primero de la historia" @cap  handwrite  md
-```
-
-### BEAT 39 · 04:51 · T1
-Narración: *"Nos quedamos en las alturas, pero de otra manera. El Everest. La montaña más alta del planeta."*
-```
-+0.0  CHAP "Everest sin oxígeno" everest
-+0.0  ICO  everest        @center  slide-l
-+2.6  TXT  "el Everest" @top  stamp  lg
++0.0  SCENE hub
++0.0  NODE clip-brain "entrenar al cerebro" ~cerebro
++0.0  NODE panic-alarm "ignorar la alarma de pánico" ~alarma
 ```
 
-### BEAT 40 · 04:58 · T1
-Narración: *"Subirla ya es, de por sí, una locura. Pero subirla sin oxígeno embotellado es otro nivel completamente distinto."*
+### BEAT 36 · 00:00 · T1
+Narración: *"Once minutos en los…"*
 ```
-+0.0  ICO  everest        @left    fade
-+2.6  TXT  "SIN oxígeno" @right  stamp  lg  red
-```
-
-### BEAT 41 · 05:06 · T1
-Narración: *"Ahí arriba hay tan poco aire que a esa parte la llaman, sin exagerar nada, la zona de la muerte."*
-```
-+0.0  TXT  "la zona de la muerte" @center  stamp  lg  red
++0.0  SCENE flow
++0.0  NODE slow-heart "su corazón late a cámara lenta" ~corazón
++0.0  NODE hibernation "un estado parecido a la hibernación" ~hibernación
 ```
 
-### BEAT 42 · 05:13 · T1
-Narración: *"Tu cuerpo se va apagando lentamente con cada minuto que pasas ahí. Los músculos dejan de responder. La mente se nubla y empiezas a pensar despacio."*
+### BEAT 37 · 00:00 · T1
+Narración: *"Y lo hacen tumbados…"*
 ```
-+0.0  ICO  everest        @center  fade
-+3.0  TXT  "el cuerpo se apaga" @cap  handwrite  md
-```
-
-### BEAT 43 · 05:22 · T1
-Narración: *"Y aun así, un puñado de escaladores ha llegado a la cima respirando solo el aire finísimo de la montaña. Poniendo su cuerpo justo al borde de apagarse del todo."*
-```
-+0.0  ICO  everest        @center  fade
-+3.4  TXT  "al borde de apagarse" @cap  stamp  md
++0.0  SCENE zigzag
++0.0  NODE floating-still "tumbados y completamente quietos" ~tumbados
++0.0  NODE tiny-movement "el más mínimo movimiento" ~mínimo
++0.0  NODE oxygen-low "gastaría el poco oxígeno que queda" ~oxígeno
 ```
 
-### BEAT 44 · 05:31 · T1
-Narración: *"Del frío de la altura, pasamos al frío puro. La resistencia al hielo."*
+### BEAT 38 · 00:00 · T1
+Narración: *"Y hablando de aguantar…"*
+```
++0.0  CHAP "Buceo a pulmón libre" deep-dive
++0.0  SCENE single
++0.0  NODE clip-deepsea "bajemos al fondo del mar" ~hablando
+```
+
+### BEAT 39 · 00:00 · T1
+Narración: *"El buceo a pulmón…"*
+```
++0.0  SCENE flow
++0.0  NODE clip-diver "el buceo a pulmón libre" ~buceo
++0.0  NODE no-tank "sin bombona, sin oxígeno" ~bombona
+```
+
+### BEAT 40 · 00:00 · T1
+Narración: *"Solo con el aire…"*
+```
++0.0  SCENE stat
++0.0  STAT "130" "metros de profundidad" ~ciento
++0.0  NODE photo-pulmon "solo con el aire de tus pulmones" ~aire
+```
+
+### BEAT 41 · 00:00 · T1
+Narración: *"Es como bajar…"*
+```
++0.0  SCENE ladder down
++0.0  NODE skyscraper-40 "como bajar un edificio de 40 pisos" ~bajar
++0.0  NODE up-again "y después subirlo, sin respirar" ~subirlo
+```
+
+### BEAT 42 · 00:00 · T1
+Narración: *"A esa profundidad…"*
+```
++0.0  SCENE hub
++0.0  NODE pressure-crush "la presión del agua es brutal" ~profundidad
++0.0  NODE lungs-fist "pulmones del tamaño de un puño" ~pulmones
+```
+
+### BEAT 43 · 00:00 · T1
+Narración: *"El cuerpo entra en…"*
+```
++0.0  SCENE radial
++0.0  NODE emergency-siren "el cuerpo entra en modo emergencia" ~emergencia
++0.0  NODE blood-flow "redirige la sangre" ~sangre
++0.0  NODE clip-heartbeat "para proteger el corazón" ~corazón
++0.0  NODE clip-brain "y el cerebro" ~cerebro
+```
+
+### BEAT 44 · 00:00 · T1
+Narración: *"Muchos de ellos ni…"*
+```
++0.0  SCENE timeline
++0.0  NODE sinking-diver "ni nadan hacia abajo: se dejan caer" ~nadan
++0.0  NODE save-energy "para ahorrar energía" ~ahorrar
++0.0  NODE rope-up "tiran de una cuerda para subir" ~cuerda
+```
+
+### BEAT 45 · 00:00 · T1
+Narración: *"Es una zona donde…"*
+```
++0.0  SCENE versus
++0.0  NODE clip-storm-sea "el mar quiere aplastarte" ~zona
++0.0  NODE happy-diver "y ellos bajan ahí por gusto" ~ellos
+```
+
+### BEAT 46 · 00:00 · T1
+Narración: *"Ahora subimos…"*
+```
++0.0  CHAP "Al borde del espacio" space-jump
++0.0  SCENE flow
++0.0  NODE clip-airplane "ahora subimos, muchísimo" ~subimos
++0.0  NODE clip-earth "hasta el borde del espacio" ~borde
++0.0  NODE photo-globo "2012: un globo gigante" ~globo
+```
+
+### BEAT 47 · 00:00 · T1
+Narración: *"hasta treinta y nueve…"*
+```
++0.0  SCENE focus
++0.0  NODE photo-stratos "hasta 39 kilómetros de altura" ~treinta
++0.0  NODE - "se veía la curvatura de la Tierra" ~curvatura
++0.0  NODE - "y el cielo negro" ~cielo
+```
+
+### BEAT 48 · 00:00 · T1
+Narración: *"Y saltó…"*
+```
++0.0  SCENE stat
++0.0  STAT "4" "minutos de caída" ~cuatro
++0.0  NODE clip-skydive "y saltó" ~saltó
+```
+
+### BEAT 49 · 00:00 · T1
+Narración: *"rompió la barrera del…"*
+```
++0.0  SCENE flow
++0.0  NODE photo-soundbarrier "rompió la barrera del sonido" ~barrera
++0.0  NODE clip-airplane "sin motor, sin avión" ~motor
+```
+
+### BEAT 50 · 00:00 · T1
+Narración: *"Solo un hombre cayendo…"*
+```
++0.0  SCENE stat
++0.0  STAT "1.300" "km/h con su cuerpo" ~mil
++0.0  NODE photo-baumgartner "cayendo más rápido que el sonido" ~hombre
+```
+
+### BEAT 51 · 00:00 · T1
+Narración: *"Fue la primera persona…"*
+```
++0.0  SCENE single
++0.0  NODE trophy "la primera en romper esa barrera" ~primera
+```
+
+### BEAT 52 · 00:00 · T1
+Narración: *"Nos quedamos en las…"*
+```
++0.0  CHAP "El Everest sin oxígeno" everest
++0.0  SCENE words
++0.0  NODE - "Nos quedamos en las alturas" ~quedamos
++0.0  NODE - "*pero de otra manera*" ~otra
+```
+
+### BEAT 53 · 00:00 · T1
+Narración: *"El Everest la montaña…"*
+```
++0.0  SCENE flow
++0.0  NODE photo-everest "el Everest, la montaña más alta" ~Everest
++0.0  NODE photo-montanismo "subirla ya es una locura" ~subirla
+```
+
+### BEAT 54 · 00:00 · T1
+Narración: *"Pero subirla sin oxígeno…"*
+```
++0.0  SCENE single
++0.0  NODE no-tank "subirla sin oxígeno embotellado" ~oxígeno
+```
+
+### BEAT 55 · 00:00 · T1
+Narración: *"Ahí arriba hay tan…"*
+```
++0.0  SCENE hub
++0.0  NODE thin-air "ahí arriba hay tan poco aire" ~aire
++0.0  NODE clip-everest "la llaman la zona de la muerte" ~zona
+```
+
+### BEAT 56 · 00:00 · T1
+Narración: *"Tu cuerpo se va…"*
+```
++0.0  SCENE single
++0.0  NODE body-battery "tu cuerpo se va apagando lentamente" ~apagando
+```
+
+### BEAT 57 · 00:00 · T1
+Narración: *"Los músculos dejan de…"*
+```
++0.0  SCENE flow
++0.0  NODE muscles-off "los músculos dejan de responder" ~músculos
++0.0  NODE clip-clouds "la mente se nubla, piensas despacio" ~mente
+```
+
+### BEAT 58 · 00:00 · T1
+Narración: *"un puñado de escaladores…"*
+```
++0.0  SCENE timeline
++0.0  NODE photo-montanismo "aun así, un puñado de escaladores" ~puñado
++0.0  NODE photo-everest "llegó a la cima" ~cima
++0.0  NODE thin-air "respirando el aire finísimo" ~aire
+```
+
+### BEAT 59 · 00:00 · T1
+Narración: *"Poniendo su cuerpo…"*
+```
++0.0  SCENE single
++0.0  NODE body-edge "al borde de apagarse del todo" ~Poniendo
+```
+
+### BEAT 60 · 00:00 · T1
+Narración: *"Por eso la mayoría…"*
+```
++0.0  SCENE ladder down
++0.0  NODE mountain-up "la mayoría de muertes, no subiendo" ~mayoría
++0.0  NODE mountain-down "sino bajando" ~bajando
++0.0  NODE fuel-empty "ya no queda ni una gota de energía" ~gota
+```
+
+### BEAT 61 · 00:00 · T1
+Narración: *"Del frío de la altura…"*
 ```
 +0.0  CHAP "Resistencia al hielo" ice-endurance
-+0.0  ICO  ice-endurance  @center  pop
-+2.4  TXT  "resistencia al hielo" @cap  stamp  lg
++0.0  SCENE flow
++0.0  NODE clip-snow "del frío de la altura..." ~frío
++0.0  NODE photo-hielo "...al frío puro: el hielo" ~hielo
 ```
 
-### BEAT 45 · 05:38 · T1
-Narración: *"Hay personas capaces de meterse en agua helada, o cubiertas de hielo, durante más de una hora."*
+### BEAT 62 · 00:00 · T1
+Narración: *"Hay personas capaces de…"*
 ```
-+0.0  TXT  "+1 hora en hielo" @center  stamp  stat  red
-```
-
-### BEAT 46 · 05:45 · T1
-Narración: *"Un frío que a cualquiera de nosotros nos provocaría una hipotermia grave en minutos."*
-```
-+0.0  ICO  ice-endurance  @center  fade
-+2.2  TXT  "hipotermia en minutos" @cap  handwrite  md
++0.0  SCENE hub
++0.0  NODE photo-wimhof "capaces de meterse en agua helada" ~personas
++0.0  NODE clip-icebath "o cubiertas de hielo, una hora" ~cubiertas
 ```
 
-### BEAT 47 · 05:52 · T1
-Narración: *"Ellos, en cambio, controlan su propio cuerpo con la respiración y la mente. Consiguen mantener el calor por dentro cuando por fuera todo intenta congelarlos."*
+### BEAT 63 · 00:00 · T1
+Narración: *"Un frío que a…"*
 ```
-+0.0  ICO  ice-endurance  @left    fade
-+3.0  TXT  "calor desde dentro" @right  handwrite  md
-```
-
-### BEAT 48 · 06:01 · T1
-Narración: *"Han demostrado que partes del cuerpo que creíamos automáticas, se pueden llegar a controlar."*
-```
-+0.0  TXT  "controlar lo automático" @center  stamp  lg
++0.0  SCENE flow
++0.0  NODE cold-shiver "un frío que a cualquiera..." ~frío
++0.0  NODE thermometer-low "...daría hipotermia en minutos" ~hipotermia
 ```
 
-### BEAT 49 · 06:08 · T1
-Narración: *"Ahora, del hielo al vértigo puro. La escalada en solitario integral. Sin cuerda. Sin arnés. Sin absolutamente nada que te sujete."*
+### BEAT 64 · 00:00 · T1
+Narración: *"Ellos en cambio controlan…"*
 ```
-+0.0  CHAP "Escalada sin cuerda" free-solo
-+0.0  ICO  free-solo      @center  slide-t
-+3.4  TXT  "SIN cuerda" @cap  stamp  lg  red
-```
-
-### BEAT 50 · 06:17 · T1
-Narración: *"Un escalador subió una pared de casi novecientos metros de roca totalmente vertical, usando solo sus manos y sus pies."*
-```
-+0.0  TXT  "900 metros" @center  stamp  stat  red
++0.0  SCENE single
++0.0  NODE breath-mind-control "controlan su cuerpo con la mente" ~controlan
 ```
 
-### BEAT 51 · 06:25 · T1
-Narración: *"Un solo error, un solo resbalón, y no existe una segunda oportunidad."*
+### BEAT 65 · 00:00 · T1
+Narración: *"Consiguen mantener el calor…"*
 ```
-+0.0  ICO  free-solo      @center  fade
-+2.0  TXT  "un error = el final" @cap  stamp  md  red
-```
-
-### BEAT 52 · 06:31 · T1
-Narración: *"Durante horas, su vida entera dependió de la fuerza de las yemas de sus dedos agarradas a la roca."*
-```
-+0.0  ICO  free-solo      @left    fade
-+2.6  TXT  "la vida en las yemas" @right  handwrite  md
++0.0  SCENE versus
++0.0  NODE clip-fire "mantienen el calor por dentro" ~calor
++0.0  NODE photo-hielo "mientras fuera todo los congela" ~fuera
 ```
 
-### BEAT 53 · 06:39 · T1
-Narración: *"La mayoría de la gente no puede ni ver el vídeo sin que le suden las manos. Él lo hizo con la calma de quien sale a pasear."*
+### BEAT 66 · 00:00 · T1
+Narración: *"Han demostrado que partes…"*
 ```
-+0.0  TXT  "con la calma de un paseo" @center  handwrite  lg
-```
-
-### BEAT 54 · 06:47 · T1
-Narración: *"Ahora cambiamos de músculo. Nos vamos al cerebro. La memoria."*
-```
-+0.0  CHAP "Memoria" pi-memory
-+0.0  ICO  pi-memory      @center  pop
-+2.2  TXT  "la memoria" @cap  stamp  lg
++0.0  SCENE flow
++0.0  NODE body-automatic "lo que creíamos automático" ~partes
++0.0  NODE body-dials "se pueden llegar a controlar" ~controlar
 ```
 
-### BEAT 55 · 06:53 · T1
-Narración: *"Hay personas capaces de recitar de memoria decenas de miles de decimales del número pi. Ese número que empieza por tres coma catorce y que no se acaba nunca."*
+### BEAT 67 · 00:00 · T1
+Narración: *"Ahora del hielo al…"*
 ```
-+0.0  ICO  pi-memory      @center  fade
-+3.4  TXT  "3,14159..." @cap  handwrite  md
-```
-
-### BEAT 56 · 07:02 · T1
-Narración: *"Hablamos de más de setenta mil dígitos, en el orden exacto, sin fallar ni uno."*
-```
-+0.0  TXT  "+70.000 dígitos" @center  stamp  stat  red
++0.0  CHAP "Escalada en solitario" free-solo
++0.0  SCENE hub
++0.0  NODE vertigo-look-down "del hielo al vértigo puro" ~vértigo
++0.0  NODE photo-escalada "la escalada en solitario integral" ~escalada
 ```
 
-### BEAT 57 · 07:09 · T1
-Narración: *"Tardarían horas solo en decirlos todos en voz alta."*
+### BEAT 68 · 00:00 · T1
+Narración: *"Sin cuerda sin arnés…"*
 ```
-+0.0  ICO  stopwatch      @center  pop
-+1.6  TXT  "horas recitando" @cap  handwrite  md
-```
-
-### BEAT 58 · 07:15 · T1
-Narración: *"Y no es magia, ni nacer con un don raro. Es una técnica de memoria entrenada durante años, que convierte números sin ningún sentido en imágenes, lugares e historias que el cerebro sí es capaz de guardar."*
-```
-+0.0  ICO  pi-memory      @left    fade
-+3.6  TXT  "una técnica, no un don" @right  handwrite  md
++0.0  SCENE list
++0.0  NODE clip-climb "sin cuerda" ~cuerda
++0.0  NODE no-harness "sin arnés" ~arnés
++0.0  NODE nothing-holds "sin nada que te sujete" ~absolutamente
 ```
 
-### BEAT 59 · 07:26 · T1
-Narración: *"Convierten el aburrimiento en una película."*
+### BEAT 69 · 00:00 · T1
+Narración: *"Un escalador subió una…"*
 ```
-+0.0  TXT  "números en película" @center  stamp  lg
-```
-
-### BEAT 60 · 07:31 · T1
-Narración: *"Y llegamos al último. Puede que el récord más difícil de todos. Porque este no se entrena en un gimnasio. Vivir."*
-```
-+0.0  CHAP "Longevidad" longevity
-+0.0  ICO  longevity      @center  pop
-+3.4  TXT  "vivir" @cap  stamp  lg
++0.0  SCENE flow
++0.0  NODE photo-honnold "un escalador subió una pared de roca" ~escalador
++0.0  NODE photo-yosemite "casi novecientos metros, vertical" ~novecientos
++0.0  NODE clip-chalk "solo con sus manos y sus pies" ~manos
 ```
 
-### BEAT 61 · 07:40 · T1
-Narración: *"El récord de longevidad humana verificado son ciento veintidós años."*
+### BEAT 70 · 00:00 · T1
+Narración: *"Un solo error…"*
 ```
-+0.0  TXT  "122 años" @center  stamp  stat  red
-```
-
-### BEAT 62 · 07:46 · T1
-Narración: *"Una mujer que nació cuando todavía no existían ni el coche ni el avión ni la bombilla, y que vivió lo suficiente para ver internet."*
-```
-+0.0  ICO  longevity      @center  fade
-+3.4  TXT  "del carro a internet" @cap  handwrite  md
++0.0  SCENE words
++0.0  NODE - "Un solo error" ~error
++0.0  NODE - "*un solo resbalón*" ~resbalón
++0.0  NODE - "no hay segunda oportunidad" ~segunda
 ```
 
-### BEAT 63 · 07:55 · T1
-Narración: *"Ciento veintidós vueltas enteras alrededor del Sol. Vio pasar dos guerras mundiales, imperios que se derrumbaron y varias generaciones de su propia familia irse antes que ella."*
+### BEAT 71 · 00:00 · T1
+Narración: *"Durante horas su vida…"*
 ```
-+0.0  TXT  "122 vueltas al Sol" @center  handwrite  lg
-```
-
-### BEAT 64 · 08:04 · T1
-Narración: *"Los científicos siguen estudiando su caso para intentar entender cuál es, de verdad, el límite máximo de la vida humana."*
-```
-+0.0  ICO  longevity      @center  fade
-+2.6  TXT  "¿el límite de la vida?" @cap  stamp  md  red
++0.0  SCENE flow
++0.0  NODE stopwatch "durante horas, su vida entera" ~horas
++0.0  NODE fingertips-grip "dependió de la fuerza de las yemas" ~yemas
 ```
 
-### BEAT 65 · 08:13 · T5
-Narración: *"Así que recuerda esto. El más rápido roza los cuarenta y cinco por hora corriendo. El más fuerte levanta media tonelada del suelo. El mejor apneísta aguanta once minutos sin una sola bocanada de aire."*
+### BEAT 72 · 00:00 · T1
+Narración: *"Y no fue una…"*
 ```
-+0.0  CHAP ""
-+0.0  ICO  sprinter       @a   pop
-+2.0  ICO  deadlift       @b   pop
-+3.8  ICO  breath-hold    @c   pop
++0.0  SCENE single
++0.0  NODE calendar-flip "años de preparación, no improvisó" ~locura
 ```
 
-### BEAT 66 · 08:23 · T5
-Narración: *"Uno cayó desde el borde del espacio rompiendo la barrera del sonido. Otros suben al Everest sin oxígeno, o escalan paredes enormes sin ninguna cuerda."*
+### BEAT 73 · 00:00 · T1
+Narración: *"cada movimiento de esa…"*
 ```
-+0.0  ICO  space-jump     @a   pop
-+1.8  ICO  everest        @b   pop
-+3.4  ICO  free-solo      @c   pop
-```
-
-### BEAT 67 · 08:32 · T5
-Narración: *"Algunos vencen al hielo, otros memorizan lo imposible. Y una mujer vivió ciento veintidós años."*
-```
-+0.0  ICO  ice-endurance  @a   pop
-+1.8  ICO  pi-memory      @b   pop
-+3.4  ICO  longevity      @c   pop
++0.0  SCENE cycle
++0.0  NODE wall-map-moves "memorizar cada movimiento" ~movimiento
++0.0  NODE photo-escalada "ensayarlo una y otra vez con cuerda" ~ensayándolo
++0.0  NODE let-go-rope "y por fin soltarla" ~soltarla
 ```
 
-### BEAT 68 · 08:41 · T1
-Narración: *"Cada vez que alguien dice esto es imposible para un ser humano, tarde o temprano aparece otro y lo hace."*
+### BEAT 74 · 00:00 · T1
+Narración: *"La mayoría de la…"*
 ```
-+0.0  TXT  "imposible... hasta que alguien lo hace" @center  stamp  lg  red
++0.0  SCENE versus
++0.0  NODE sweaty-hands "la mayoría ni lo ve sin sudar" ~mayoría
++0.0  NODE calm-walk "él, con la calma de quien pasea" ~calma
 ```
 
-### BEAT 69 · 08:50 · T1
-Narración: *"Puede que el cuerpo humano tenga límites de verdad. Pero, por ahora, no hemos encontrado ni uno solo que alguien no esté dispuesto a intentar romper."*
+### BEAT 75 · 00:00 · T1
+Narración: *"Ahora cambiamos de músculo…"*
 ```
-+0.0  ICO  human-limit    @center  pop
-+3.4  TXT  "sin límites" @cap  stamp  lg  red
++0.0  CHAP "La memoria" pi-memory
++0.0  SCENE flow
++0.0  NODE strength-fist "cambiamos de músculo" ~músculo
++0.0  NODE clip-neurons "nos vamos al cerebro: la memoria" ~cerebro
 ```
+
+### BEAT 76 · 00:00 · T1
+Narración: *"Hay personas capaces de…"*
+```
++0.0  SCENE hub
++0.0  NODE clip-thinking "recitar de memoria" ~recitar
++0.0  NODE pi-symbol "decenas de miles de decimales de pi" ~decimales
+```
+
+### BEAT 77 · 00:00 · T1
+Narración: *"Ese número que empieza…"*
+```
++0.0  SCENE flow
++0.0  NODE clip-code-data "empieza por 3,14..." ~empieza
++0.0  NODE infinity-loop "...y no se acaba nunca" ~acaba
+```
+
+### BEAT 78 · 00:00 · T1
+Narración: *"Hablamos de más de…"*
+```
++0.0  SCENE stat
++0.0  STAT "70.000" "dígitos sin fallar ni uno" ~setenta
++0.0  NODE digits-stream "dígitos exactos, sin fallar" ~setenta
+```
+
+### BEAT 79 · 00:00 · T1
+Narración: *"Tardarían horas solo…"*
+```
++0.0  SCENE flow
++0.0  NODE stopwatch "horas solo en decirlos" ~horas
++0.0  NODE no-magic "y no es magia, ni un don raro" ~magia
+```
+
+### BEAT 80 · 00:00 · T1
+Narración: *"Es una técnica de…"*
+```
++0.0  SCENE single
++0.0  NODE memory-palace "una técnica entrenada durante años" ~técnica
+```
+
+### BEAT 81 · 00:00 · T1
+Narración: *"que convierte números sin…"*
+```
++0.0  SCENE converge
++0.0  NODE numbers-chaos "números sin ningún sentido" ~números
++0.0  NODE picture-story "imágenes, lugares e historias" ~imágenes
++0.0  NODE clip-neurons "que el cerebro sí puede guardar" ~cerebro
+```
+
+### BEAT 82 · 00:00 · T1
+Narración: *"Convierten el aburrimiento…"*
+```
++0.0  SCENE flow
++0.0  NODE bored-face "convierten el aburrimiento..." ~aburrimiento
++0.0  NODE movie-clapper "...en una película" ~película
+```
+
+### BEAT 83 · 00:00 · T1
+Narración: *"Puede que el récord…"*
+```
++0.0  CHAP "Vivir: el récord de longevidad" longevity
++0.0  SCENE hub
++0.0  NODE trophy "el récord más difícil de todos" ~récord
++0.0  NODE gym-crossed "no se entrena en un gimnasio" ~gimnasio
+```
+
+### BEAT 84 · 00:00 · T1
+Narración: *"Vivir El récord de…"*
+```
++0.0  SCENE stat
++0.0  STAT "122" "años de vida" ~ciento
++0.0  NODE photo-calment "Vivir: récord de longevidad" ~Vivir
+```
+
+### BEAT 85 · 00:00 · T1
+Narración: *"Una mujer que nació…"*
+```
++0.0  SCENE timeline
++0.0  NODE woman-victorian "una mujer que nació en otra época" ~mujer
++0.0  NODE photo-automovil "cuando no existía el coche" ~coche
++0.0  NODE old-airplane "ni el avión" ~avión
++0.0  NODE light-bulb "ni la bombilla" ~bombilla
+```
+
+### BEAT 86 · 00:00 · T1
+Narración: *"y que vivió lo…"*
+```
++0.0  SCENE flow
++0.0  NODE photo-internet "y vio llegar internet" ~vivió
++0.0  NODE sun-orbit "122 vueltas alrededor del Sol" ~vueltas
+```
+
+### BEAT 87 · 00:00 · T1
+Narración: *"Vio pasar dos…"*
+```
++0.0  SCENE hub
++0.0  NODE ww-tank-plane "vio pasar dos guerras mundiales" ~Vio
++0.0  NODE empire-fall "imperios que se derrumbaron" ~imperios
++0.0  NODE family-gone "su familia, yéndose antes que ella" ~generaciones
+```
+
+### BEAT 88 · 00:00 · T1
+Narración: *"Y lo más desconcertante…"*
+```
++0.0  SCENE flow
++0.0  NODE clip-doctor "lo que desconcierta a los médicos" ~desconcertante
++0.0  NODE cigarette-warning "fumó hasta bien pasados los cien" ~fumó
++0.0  NODE clear-mind "y siguió con la cabeza lúcida" ~cabeza
+```
+
+### BEAT 89 · 00:00 · T1
+Narración: *"Los científicos siguen estudiando…"*
+```
++0.0  SCENE hub
++0.0  NODE clip-lab "los científicos estudian su caso" ~científicos
++0.0  NODE life-limit-bar "el límite máximo de la vida humana" ~límite
+```
+
+### BEAT 90 · 00:00 · T1
+Narración: *"Así que recuerda…"*
+```
++0.0  CHAP "Lo que debes recordar" human-limit
++0.0  SCENE stat
++0.0  STAT "45" "km/h corriendo" ~cuarenta
++0.0  NODE photo-bolt "así que recuerda: el más rápido" ~recuerda
+```
+
+### BEAT 91 · 00:00 · T1
+Narración: *"más fuerte levanta media…"*
+```
++0.0  SCENE single
++0.0  NODE photo-hafthor "el más fuerte levanta media tonelada" ~fuerte
+```
+
+### BEAT 92 · 00:00 · T1
+Narración: *"El mejor apneísta aguanta…"*
+```
++0.0  SCENE grid
++0.0  NODE clip-diver "el mejor apneísta" ~apneísta
++0.0  NODE stopwatch "once minutos sin respirar" ~once
++0.0  NODE photo-baumgartner "uno cayó desde el borde del espacio" ~Uno
++0.0  NODE photo-soundbarrier "rompiendo la barrera del sonido" ~barrera
+```
+
+### BEAT 93 · 00:00 · T1
+Narración: *"Otros suben al Everest…"*
+```
++0.0  SCENE flow
++0.0  NODE photo-everest "otros suben al Everest sin oxígeno" ~Everest
++0.0  NODE photo-honnold "o escalan paredes sin cuerda" ~escalan
+```
+
+### BEAT 94 · 00:00 · T1
+Narración: *"Algunos vencen al hielo…"*
+```
++0.0  SCENE timeline
++0.0  NODE photo-wimhof "algunos vencen al hielo" ~hielo
++0.0  NODE pi-symbol "otros memorizan lo imposible" ~memorizan
++0.0  NODE photo-calment "y una mujer vivió 122 años" ~mujer
+```
+
+### BEAT 95 · 00:00 · T1
+Narración: *"Cada vez que alguien…"*
+```
++0.0  SCENE flow
++0.0  NODE impossible-speech "alguien dice: esto es imposible" ~alguien
++0.0  NODE limit-shatter "aparece otro y lo hace" ~aparece
+```
+
+### BEAT 96 · 00:00 · T1
+Narración: *"Puede que el cuerpo…"*
+```
++0.0  SCENE versus
++0.0  NODE body-limits "puede que haya límites de verdad" ~cuerpo
++0.0  NODE no-limit-found "pero por ahora, ninguno" ~ahora
+```
+
+### BEAT 97 · 00:00 · T1
+Narración: *"encontrado ni uno solo…"*
+```
++0.0  SCENE words
++0.0  NODE - "*ni uno solo*" ~uno
++0.0  NODE - "que alguien no intente romper" ~dispuesto
+```
+
