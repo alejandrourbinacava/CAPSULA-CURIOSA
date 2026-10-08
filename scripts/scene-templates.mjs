@@ -166,7 +166,7 @@ export function buildScene(spec, ctx) {
       tags.forEach((tg, i) => {
         const [sx, sy] = slots[i]; const left = sx < 960;
         if (tg.src) { addNode(tg, sx, sy, 230, left ? "slide-l" : "slide-r"); addLabel(tg, sx, sy + tg._box.h / 2 + 52, 400, 40); }
-        else addLabel(tg, sx, sy, 400, 46, ctx.RED);
+        else addLabel(tg, sx, sy, 560, 46, ctx.RED);
         const A = { _box: { cx: sx, cy: sy, w: tg.src ? 230 : 240, h: tg.src ? 230 : 110 } };
         addArrow(A, { _box: { cx: 960, cy: 510, w: isClip ? 780 : big, h: isClip ? 438 : big, rect: true } }, tg.t - 0.3, { curve: i % 2 ? "up" : "down", gapA: tg.src ? 40 : 70, gapB: 8 });
       });

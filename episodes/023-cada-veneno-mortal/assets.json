@@ -282,52 +282,92 @@
   "photo-skull": {
     "kind": "cutout",
     "query": "Calavera humana",
-    "file": "assets/icons/photo-skull.jpg"
+    "file": "assets/icons/photo-skull.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Calavera de alfeñique",
+      "description": "Golosina tradicional mexicana con forma de calavera típica del Día de muertos, hecha de alfeñique u otros dulces"
+    }
   },
   "photo-goblet": {
     "kind": "cutout",
     "query": "Cáliz medieval",
-    "file": "assets/icons/photo-goblet.jpg"
+    "file": "assets/icons/photo-goblet.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Cáliz de doña Urraca",
+      "description": "cáliz de ónice y oro del siglo XI"
+    }
   },
   "photo-socrates": {
     "kind": "cutout",
     "query": "Sócrates busto",
-    "file": null
+    "file": "assets/icons/photo-socrates.jpg",
+    "attribution": {
+      "source": "wikipedia:es:La muerte de Sócrates",
+      "description": "pintura de Jacques-Louis David"
+    }
   },
   "photo-pufferfish": {
     "kind": "cutout",
     "query": "Pez globo",
-    "file": "assets/icons/photo-pufferfish.jpg"
+    "file": "assets/icons/photo-pufferfish.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Tetraodontidae",
+      "description": "familia de peces"
+    }
   },
   "photo-lab": {
     "kind": "cutout",
     "query": "Laboratorio químico",
-    "file": "assets/icons/photo-lab.png"
+    "file": "assets/icons/photo-lab.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Laboratorio",
+      "description": "lugar dotado de los medios necesarios para realizar experimentos científicos"
+    }
   },
   "photo-periodic": {
     "kind": "cutout",
     "query": "Tabla periódica",
-    "file": "assets/icons/photo-periodic.png"
+    "file": "assets/icons/photo-periodic.png",
+    "attribution": {
+      "source": "wikipedia:es:Tabla periódica de los elementos",
+      "description": "disposición tabular de los elementos químicos"
+    }
   },
   "photo-belladonna": {
     "kind": "cutout",
     "query": "Belladona planta",
-    "file": "assets/icons/photo-belladonna.jpg"
+    "file": "assets/icons/photo-belladonna.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Atropa belladonna",
+      "description": "especie de plantas"
+    }
   },
   "photo-mercury": {
     "kind": "cutout",
     "query": "Mercurio metal",
-    "file": "assets/icons/photo-mercury.jpg"
+    "file": "assets/icons/photo-mercury.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Mercurio (elemento)",
+      "description": "elemento químico, líquido a temperatura ambiente"
+    }
   },
   "photo-roman-ruins": {
     "kind": "cutout",
     "query": "Ruinas romanas",
-    "file": "assets/icons/photo-roman-ruins.jpg"
+    "file": "assets/icons/photo-roman-ruins.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Ruinas romanas de Troia",
+      "description": ""
+    }
   },
   "photo-hazmat": {
     "kind": "cutout",
     "query": "Traje de protección química",
-    "file": "assets/icons/photo-hazmat.jpg"
+    "file": "assets/icons/photo-hazmat.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Traje NRBQ",
+      "description": "tipo de indumentaria de protección individual contra riesgos nucleares, radiológicos, biológicos y químicos"
+    }
   },
   "clip-poison-drop": {
     "kind": "clip",
@@ -437,6 +477,895 @@
       "source": "Pexels",
       "credit": "Saikat",
       "url": "https://www.pexels.com/video/a-cup-of-hot-tea-2612207/"
+    }
+  },
+  "mute-weapon": {
+    "kind": "vector",
+    "query": "a small poison vial with a muted speaker icon crossed out, a silent weapon, no text",
+    "file": "assets/icons/mute-weapon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-wound": {
+    "kind": "vector",
+    "query": "a clean healthy forearm with a green check mark next to it, calm and intact",
+    "file": "assets/icons/no-wound.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "poison-shelf": {
+    "kind": "vector",
+    "query": "an old apothecary shelf full of many different small bottles with skull labels, no text",
+    "file": "assets/icons/poison-shelf.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "body-poison": {
+    "kind": "vector",
+    "query": "a human body silhouette with a green skull spreading inside the torso, cartoon, not gory",
+    "file": "assets/icons/body-poison.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "king-goblet": {
+    "kind": "vector",
+    "query": "a medieval king with a crown holding a golden goblet suspiciously",
+    "file": "assets/icons/king-goblet.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "poison-throne": {
+    "kind": "vector",
+    "query": "an empty royal throne with a tiny green poison bottle resting on the seat cushion",
+    "file": "assets/icons/poison-throne.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "perfect-poison": {
+    "kind": "vector",
+    "query": "a perfectly polished glowing flask with golden sparkles and a gold star, perfection, no flaws",
+    "file": "assets/icons/perfect-poison.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dish-drop": {
+    "kind": "vector",
+    "query": "a plate of food with a single clear drop falling into it from above",
+    "file": "assets/icons/dish-drop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sick-stomach": {
+    "kind": "vector",
+    "query": "a person with a green sick face holding his stomach in discomfort",
+    "file": "assets/icons/sick-stomach.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "common-flu": {
+    "kind": "vector",
+    "query": "a person in bed with a thermometer and tissues, an ordinary common illness",
+    "file": "assets/icons/common-flu.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "assassin-shadow": {
+    "kind": "vector",
+    "query": "a hooded assassin silhouette holding a tiny vial, medieval, dark cloak",
+    "file": "assets/icons/assassin-shadow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "calendar-pages": {
+    "kind": "vector",
+    "query": "a torn old calendar page with a clock, history passing",
+    "file": "assets/icons/calendar-pages.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fulminant-bolt": {
+    "kind": "vector",
+    "query": "a small poison bottle struck by a bright yellow lightning bolt",
+    "file": "assets/icons/fulminant-bolt.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cells-no-oxygen": {
+    "kind": "vector",
+    "query": "red blood cells with an oxygen bubble blocked by a red stop sign",
+    "file": "assets/icons/cells-no-oxygen.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "body-suffocate": {
+    "kind": "vector",
+    "query": "a cartoon person short of breath holding their chest with a worried face and small puffs of air",
+    "file": "assets/icons/body-suffocate.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "captured-spy": {
+    "kind": "vector",
+    "query": "a spy in a trench coat and fedora with a crossed-out pair of handcuffs, escaping capture",
+    "file": "assets/icons/captured-spy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dna-nose": {
+    "kind": "vector",
+    "query": "a DNA double helix next to a nose with a crossed-out smell wave",
+    "file": "assets/icons/dna-nose.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lethal-leaf": {
+    "kind": "vector",
+    "query": "a green leaf with a tiny red glowing skull on it, a deadly plant",
+    "file": "assets/icons/lethal-leaf.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "condemned-scroll": {
+    "kind": "vector",
+    "query": "an ancient Greek scroll with a red wax seal of a verdict and a column",
+    "file": "assets/icons/condemned-scroll.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "feet-numb": {
+    "kind": "vector",
+    "query": "a pair of bare feet turning gray like stone, numbness creeping up",
+    "file": "assets/icons/feet-numb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lungs-stop": {
+    "kind": "vector",
+    "query": "a pair of cartoon lungs with a red stop hand sign",
+    "file": "assets/icons/lungs-stop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "delirium-face": {
+    "kind": "vector",
+    "query": "a feverish person with spiral eyes and a dizzy wobbly head babbling",
+    "file": "assets/icons/delirium-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "twisted-body": {
+    "kind": "vector",
+    "query": "a stick-figure body twisted like a pretzel in cartoon pain, not gory",
+    "file": "assets/icons/twisted-body.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "violent-spasm": {
+    "kind": "vector",
+    "query": "a flexed muscular arm shaking with lightning bolts and vibration lines",
+    "file": "assets/icons/violent-spasm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "all-muscles": {
+    "kind": "vector",
+    "query": "an anatomy figure with all muscles tense and flexed, red muscle fibers",
+    "file": "assets/icons/all-muscles.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "arched-body": {
+    "kind": "vector",
+    "query": "a person bent backward in a rigid arch lying on the floor, cartoon, not gory",
+    "file": "assets/icons/arched-body.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "exhausted-collapse": {
+    "kind": "vector",
+    "query": "an exhausted person collapsed on the floor gasping, tired cartoon",
+    "file": "assets/icons/exhausted-collapse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "italy-map": {
+    "kind": "vector",
+    "query": "a map of Italy boot shape with an old scroll marked with the 1600s",
+    "file": "assets/icons/italy-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tofana-woman": {
+    "kind": "vector",
+    "query": "a mysterious 17th century Italian woman in a shawl selling small vials in secret",
+    "file": "assets/icons/tofana-woman.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "clear-vial": {
+    "kind": "vector",
+    "query": "a small vial of crystal clear transparent liquid with light reflections",
+    "file": "assets/icons/clear-vial.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cosmetic-disguise": {
+    "kind": "vector",
+    "query": "a pretty perfume bottle with a hidden tiny skull inside it, disguised cosmetic",
+    "file": "assets/icons/cosmetic-disguise.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "calendar-days": {
+    "kind": "vector",
+    "query": "a calendar with several consecutive days crossed out in red",
+    "file": "assets/icons/calendar-days.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "women-freed": {
+    "kind": "vector",
+    "query": "two women breaking a chain with a heavy iron ball, freedom, 1600s dresses",
+    "file": "assets/icons/women-freed.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hundreds-graves": {
+    "kind": "vector",
+    "query": "a field of hundreds of tiny identical gravestones, countless deaths, calm somber",
+    "file": "assets/icons/hundreds-graves.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "sweet-tongue": {
+    "kind": "vector",
+    "query": "a smiling tongue licking a sweet candy lollipop",
+    "file": "assets/icons/sweet-tongue.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "kidneys-damaged": {
+    "kind": "vector",
+    "query": "a pair of cartoon kidneys with cracks and warning marks",
+    "file": "assets/icons/kidneys-damaged.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "brain-silver": {
+    "kind": "vector",
+    "query": "a cartoon brain with silver liquid mercury drops dripping onto it",
+    "file": "assets/icons/brain-silver.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "trembling-hands": {
+    "kind": "vector",
+    "query": "two hands shaking with tremor lines",
+    "file": "assets/icons/trembling-hands.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "immortality-pills": {
+    "kind": "vector",
+    "query": "round red pills with a glowing golden infinity symbol",
+    "file": "assets/icons/immortality-pills.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "roman-pipes": {
+    "kind": "vector",
+    "query": "ancient roman grey lead water pipes joined together",
+    "file": "assets/icons/roman-pipes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "brain-damaged": {
+    "kind": "vector",
+    "query": "a cartoon brain with cracks and dark spots, damaged",
+    "file": "assets/icons/brain-damaged.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pain-madness": {
+    "kind": "vector",
+    "query": "a person holding head in pain with spiral dizzy eyes",
+    "file": "assets/icons/pain-madness.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "scholar-book": {
+    "kind": "vector",
+    "query": "an old scholar with glasses reading a huge ancient book, thinking",
+    "file": "assets/icons/scholar-book.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "discreet-poisoner": {
+    "kind": "vector",
+    "query": "a discreet figure in a hooded cloak with a finger on the lips, shh gesture, holding a vial",
+    "file": "assets/icons/discreet-poisoner.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "stealth-vial": {
+    "kind": "vector",
+    "query": "a sneaky black silhouette tiptoeing while holding a vial, silent and stealthy",
+    "file": "assets/icons/stealth-vial.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "unknown-link": {
+    "kind": "vector",
+    "query": "a question mark between a hair strand and a poison bottle connected by a dotted line",
+    "file": "assets/icons/unknown-link.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "crime-tape": {
+    "kind": "vector",
+    "query": "yellow police crime scene tape with a magnifying glass over a footprint",
+    "file": "assets/icons/crime-tape.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "natural-toxins": {
+    "kind": "vector",
+    "query": "a green bacteria, a frog, a mushroom and a snake grouped together as natural toxins, no text",
+    "file": "assets/icons/natural-toxins.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "chemist-flask": {
+    "kind": "vector",
+    "query": "a chemist in goggles and white coat holding a bubbling flask",
+    "file": "assets/icons/chemist-flask.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tiny-drop-crowd": {
+    "kind": "vector",
+    "query": "one tiny glowing drop above a large crowd of many small people",
+    "file": "assets/icons/tiny-drop-crowd.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "wrinkle-smooth": {
+    "kind": "vector",
+    "query": "a face with wrinkles disappearing into smooth skin with sparkles",
+    "file": "assets/icons/wrinkle-smooth.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "castor-oil": {
+    "kind": "vector",
+    "query": "a bottle of golden castor oil next to a green castor plant leaf",
+    "file": "assets/icons/castor-oil.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "spy-trenchcoat": {
+    "kind": "vector",
+    "query": "a 1960s cold war spy in trench coat and fedora, mysterious silhouette",
+    "file": "assets/icons/spy-trenchcoat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dissident-street": {
+    "kind": "vector",
+    "query": "a lone man in a coat walking on a city street at night, silhouette",
+    "file": "assets/icons/dissident-street.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pinhead-pellet": {
+    "kind": "vector",
+    "query": "a tiny round pellet next to the head of a pin, size comparison, magnified",
+    "file": "assets/icons/pinhead-pellet.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "rad-symbol": {
+    "kind": "vector",
+    "query": "a glowing green radiation symbol with rays of light",
+    "file": "assets/icons/rad-symbol.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "top-stair": {
+    "kind": "vector",
+    "query": "a tall staircase leading up to a big skull at the very top",
+    "file": "assets/icons/top-stair.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "signal-blocked": {
+    "kind": "vector",
+    "query": "a nerve line cut with a red X leading to a muscle",
+    "file": "assets/icons/signal-blocked.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dark-path": {
+    "kind": "vector",
+    "query": "a long winding dark road at night with skull signposts",
+    "file": "assets/icons/dark-path.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lesson-bulb": {
+    "kind": "vector",
+    "query": "a lightbulb above an open book with a star, an important lesson",
+    "file": "assets/icons/lesson-bulb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "only-amount": {
+    "kind": "vector",
+    "query": "a measuring cup with a level mark and drops, quantity only",
+    "file": "assets/icons/only-amount.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "remedy-bottle": {
+    "kind": "vector",
+    "query": "a medicine bottle with a green plus cross",
+    "file": "assets/icons/remedy-bottle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "eye-slash": {
+    "kind": "vector",
+    "query": "an open eye crossed out with a red line",
+    "file": "assets/icons/eye-slash.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "nose-slash": {
+    "kind": "vector",
+    "query": "a nose crossed out with a red line",
+    "file": "assets/icons/nose-slash.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "coward-hidden": {
+    "kind": "vector",
+    "query": "a cowardly figure hiding behind a column holding a vial",
+    "file": "assets/icons/coward-hidden.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hourglass-patient": {
+    "kind": "vector",
+    "query": "a slowly dripping hourglass next to a tiny poison bottle, patient and slow",
+    "file": "assets/icons/hourglass-patient.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fish-organs": {
+    "kind": "vector",
+    "query": "a fish diagram showing the liver and organs marked with tiny skull icons, no text",
+    "file": "assets/icons/fish-organs.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tongue-slash": {
+    "kind": "vector",
+    "query": "a tongue crossed out with a red line",
+    "file": "assets/icons/tongue-slash.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "empty-question": {
+    "kind": "vector",
+    "query": "a big glowing question mark over an empty chair, unanswered",
+    "file": "assets/icons/empty-question.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-alejandro": {
+    "kind": "cutout",
+    "query": "Papa Alejandro VI",
+    "wiki": "Alejandro VI",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Alejandro VI",
+      "description": "214.º papa de la Iglesia católica, miembro de la familia Borja"
+    },
+    "file": "assets/icons/photo-alejandro.jpg"
+  },
+  "photo-arsenico": {
+    "kind": "cutout",
+    "query": "Arsénico",
+    "wiki": "Arsénico",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Arsénico",
+      "description": "elemento químico con número atómico 33"
+    },
+    "file": "assets/icons/photo-arsenico.jpg"
+  },
+  "photo-cianuro": {
+    "kind": "cutout",
+    "query": "Cianuro de potasio",
+    "wiki": "Cianuro de potasio",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Cianuro de potasio",
+      "description": "sal de potasio del cianuro de hidrógeno o ácido hidrociánico"
+    },
+    "file": "assets/icons/photo-cianuro.jpg"
+  },
+  "photo-cicuta": {
+    "kind": "cutout",
+    "query": "Cicuta",
+    "wiki": "Conium maculatum",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Conium maculatum",
+      "description": "especie de planta"
+    },
+    "file": "assets/icons/photo-cicuta.jpg"
+  },
+  "photo-muerte-socrates": {
+    "kind": "cutout",
+    "query": "La muerte de Sócrates",
+    "wiki": "La muerte de Sócrates",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:La muerte de Sócrates",
+      "description": "pintura de Jacques-Louis David"
+    },
+    "file": "assets/icons/photo-muerte-socrates.jpg"
+  },
+  "photo-tornabuoni": {
+    "kind": "cutout",
+    "query": "Retrato renacentista",
+    "wiki": "Retrato de Giovanna Tornabuoni",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Retrato de Giovanna Tornabuoni",
+      "description": "cuadro de Domenico Ghirlandaio"
+    },
+    "file": "assets/icons/photo-tornabuoni.jpg"
+  },
+  "photo-nuxvomica": {
+    "kind": "cutout",
+    "query": "Strychnos nux-vomica",
+    "wiki": "Strychnos nux-vomica",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Strychnos nux-vomica",
+      "description": "especie de planta"
+    },
+    "file": "assets/icons/photo-nuxvomica.jpg"
+  },
+  "photo-anticongelante": {
+    "kind": "cutout",
+    "query": "Anticongelante",
+    "wiki": "Anticongelante",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Anticongelante",
+      "description": ""
+    },
+    "file": "assets/icons/photo-anticongelante.jpg"
+  },
+  "photo-alquimia": {
+    "kind": "cutout",
+    "query": "Alquimia",
+    "wiki": "Alquimia",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Alquimia",
+      "description": "conjunto de especulaciones y experiencias protocientíficas, filosóficas y esotéricas que estudian la transmutación de la materia y el funcionamiento del cosmos"
+    },
+    "file": "assets/icons/photo-alquimia.jpg"
+  },
+  "photo-sombrero": {
+    "kind": "cutout",
+    "query": "Sombrero de copa",
+    "wiki": "Sombrero de copa alta",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sombrero de copa alta",
+      "description": "sombrero coronado por un cilindro alto"
+    },
+    "file": "assets/icons/photo-sombrero.jpg"
+  },
+  "photo-fieltro": {
+    "kind": "cutout",
+    "query": "Fieltro",
+    "wiki": "Fieltro",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Fieltro",
+      "description": "textil no tejido de lana"
+    },
+    "file": "assets/icons/photo-fieltro.jpg"
+  },
+  "photo-terracota": {
+    "kind": "cutout",
+    "query": "Guerreros de terracota",
+    "wiki": "Guerreros de terracota",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Guerreros de terracota",
+      "description": "Colección Imperial de estatuas de guerreros chinos"
+    },
+    "file": "assets/icons/photo-terracota.jpg"
+  },
+  "photo-foro": {
+    "kind": "cutout",
+    "query": "Foro Romano",
+    "wiki": "Foro Romano",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Foro Romano",
+      "description": "yacimiento arqueológico en Roma"
+    },
+    "file": "assets/icons/photo-foro.jpg"
+  },
+  "photo-plomo": {
+    "kind": "cutout",
+    "query": "Plomo",
+    "wiki": "Plomo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Plomo",
+      "description": "elemento químico"
+    },
+    "file": "assets/icons/photo-plomo.jpg"
+  },
+  "photo-talio": {
+    "kind": "cutout",
+    "query": "Talio",
+    "wiki": "Talio",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Talio",
+      "description": "elemento químico con número atómico 81"
+    },
+    "file": "assets/icons/photo-talio.jpg"
+  },
+  "photo-clostridium": {
+    "kind": "cutout",
+    "query": "Clostridium botulinum",
+    "wiki": "Clostridium botulinum",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Clostridium botulinum",
+      "description": ""
+    },
+    "file": "assets/icons/photo-clostridium.jpg"
+  },
+  "photo-balanza": {
+    "kind": "cutout",
+    "query": "Balanza",
+    "wiki": "Balanza",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Balanza",
+      "description": "instrumento que sirve para medir masa y cuerpo"
+    },
+    "file": "assets/icons/photo-balanza.jpg"
+  },
+  "photo-jeringa": {
+    "kind": "cutout",
+    "query": "Jeringa",
+    "wiki": "Jeringa",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Jeringa",
+      "description": "bomba simple que consiste en un émbolo que se ajusta a un tubo"
+    },
+    "file": "assets/icons/photo-jeringa.jpg"
+  },
+  "photo-ricino": {
+    "kind": "cutout",
+    "query": "Ricinus communis",
+    "wiki": "Ricinus communis",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Ricinus communis",
+      "description": "planta"
+    },
+    "file": "assets/icons/photo-ricino.jpg"
+  },
+  "photo-guerra-fria": {
+    "kind": "cutout",
+    "query": "Guerra Fría",
+    "wiki": "Guerra Fría",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Guerra Fría",
+      "description": "enfrentamiento político, económico, social, ideológico, militar e informativo"
+    },
+    "file": "assets/icons/photo-guerra-fria.png"
+  },
+  "photo-sarin": {
+    "kind": "cutout",
+    "query": "Sarín",
+    "wiki": "Sarín",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sarín",
+      "description": "compuesto químico usado como arma química"
+    },
+    "file": "assets/icons/photo-sarin.png"
+  },
+  "photo-arma-quimica": {
+    "kind": "cutout",
+    "query": "Arma química",
+    "wiki": "Arma química",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Arma química",
+      "description": "arma que utiliza las propiedades tóxicas de sustancias químicas"
+    },
+    "file": "assets/icons/photo-arma-quimica.jpg"
+  },
+  "photo-paracelso": {
+    "kind": "cutout",
+    "query": "Paracelso",
+    "wiki": "Paracelso",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Paracelso",
+      "description": "médico, teólogo, filósofo, alquimista y astrólogo suizo (c. 1493–1541)"
+    },
+    "file": "assets/icons/photo-paracelso.jpg"
+  },
+  "photo-venus": {
+    "kind": "cutout",
+    "query": "El nacimiento de Venus",
+    "wiki": "El nacimiento de Venus (Botticelli)",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:El nacimiento de Venus (Botticelli)",
+      "description": "pintura de Sandro Botticelli"
+    },
+    "file": "assets/icons/photo-venus.jpg"
+  },
+  "photo-agua": {
+    "kind": "cutout",
+    "query": "Hiperhidratación",
+    "wiki": "Hiperhidratación",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Hiperhidratación",
+      "description": "hiperexceso de agua en el cuerpo"
+    },
+    "file": "assets/icons/photo-agua.jpg"
+  },
+  "clip-magnifier": {
+    "kind": "clip",
+    "query": "magnifying glass detective close up",
+    "file": "assets/clips/clip-magnifier.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "KoolShooters",
+      "url": "https://www.pexels.com/video/reading-a-letter-using-a-magnifying-glass-6980366/"
+    }
+  },
+  "clip-old-books": {
+    "kind": "clip",
+    "query": "old books library shelves dusty",
+    "file": "assets/clips/clip-old-books.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pavel Danilyuk",
+      "url": "https://www.pexels.com/video/stacks-of-books-in-a-shelf-5224014/"
+    }
+  },
+  "clip-car-engine": {
+    "kind": "clip",
+    "query": "car engine open hood mechanic coolant",
+    "file": "assets/clips/clip-car-engine.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kampus Production",
+      "url": "https://www.pexels.com/video/a-person-pouring-water-on-a-car-engine-7844143/"
+    }
+  },
+  "clip-lightning": {
+    "kind": "clip",
+    "query": "lightning storm strike night",
+    "file": "assets/clips/clip-lightning.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "JONATHAN ZAVALA",
+      "url": "https://www.pexels.com/video/dramatic-lightning-strikes-at-night-32943917/"
+    }
+  },
+  "clip-clouds": {
+    "kind": "clip",
+    "query": "clouds sky timelapse",
+    "file": "assets/clips/clip-clouds.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Ilya Klimenko",
+      "url": "https://www.pexels.com/video/time-lapse-video-of-the-sky-9540152/"
+    }
+  },
+  "clip-neurons": {
+    "kind": "clip",
+    "query": "neurons firing synapse network",
+    "file": "assets/clips/clip-neurons.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/abstract-neural-network-connections-animation-29184317/"
+    }
+  },
+  "clip-doctor": {
+    "kind": "clip",
+    "query": "doctor in white coat hospital",
+    "file": "assets/clips/clip-doctor.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/person-wearing-latex-gloves-7579838/"
+    }
+  },
+  "clip-ocean": {
+    "kind": "clip",
+    "query": "deep blue ocean underwater",
+    "file": "assets/clips/clip-ocean.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pavel Danilyuk",
+      "url": "https://www.pexels.com/video/ocean-surface-7318087/"
+    }
+  },
+  "photo-acueducto": {
+    "kind": "cutout",
+    "query": "Acueducto de Segovia",
+    "wiki": "Acueducto de Segovia",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Acueducto de Segovia",
+      "description": "acueducto romano declarado Patrimonio de la Humanidad"
+    },
+    "file": "assets/icons/photo-acueducto.jpg"
+  },
+  "clip-psychedelic": {
+    "kind": "clip",
+    "query": "colorful abstract psychedelic swirl",
+    "file": "assets/clips/clip-psychedelic.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/abstract-vibrant-swirling-spiral-animation-35413064/"
+    }
+  },
+  "clip-coffee": {
+    "kind": "clip",
+    "query": "coffee pouring into cup",
+    "file": "assets/clips/clip-coffee.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tima Miroshnichenko",
+      "url": "https://www.pexels.com/video/pouring-coffee-from-a-coffee-maker-4957763/"
+    }
+  },
+  "clip-city-crowd": {
+    "kind": "clip",
+    "query": "busy city crowd people walking",
+    "file": "assets/clips/clip-city-crowd.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Coverr",
+      "url": "https://www.pexels.com/video/black-and-white-video-of-a-busy-street-853946/"
+    }
+  },
+  "clip-earth": {
+    "kind": "clip",
+    "query": "earth from space rotating",
+    "file": "assets/clips/clip-earth.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pixabay",
+      "url": "https://www.pexels.com/video/planet-earth-revolving-854518/"
     }
   }
 }

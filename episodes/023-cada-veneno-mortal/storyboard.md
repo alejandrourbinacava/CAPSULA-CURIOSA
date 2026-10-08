@@ -1,288 +1,757 @@
 # ESCENAS — Cada Veneno Mortal de la Historia
 
-> 30-40% FOTO/CLIP: ~mitad de beats LIDERAN con foto o clip real (grande, ~8s), resto lienzo denso de doodles. CHAP limpia por sección. Enfoque histórico/científico.
+> Gramática de escenas de diagrama (SCENE/NODE). Fondo blanco. Generado por out/mk.mjs desde beats_023.mjs.
 
 ---
 
-### BEAT 1 · 00:00 · T5
-Narración: *"Durante miles de años, hubo un arma que no hacía ruido, que no dejaba heridas y que era casi imposible de rastrear. El veneno. Reyes, emperadores y papas cayeron por una copa envenenada, y detrás de muchas muertes de la historia hay una gota invisible."*
+### BEAT 1 · 00:00 · T1
+Narración: *"Durante miles de años…"*
 ```
-+0.0  CHAP "El arma invisible" silent-poison
-+0.0  CLIP clip-poison-drop @center ~arma big pop
-+4.4  ICO  silent-poison @g mini ~veneno pop
-+5.6  TXT  "un arma sin ruido y sin rastro" @cap stamp lg red
-```
-
-### BEAT 2 · 00:16 · T1
-Narración: *"Hoy vas a conocer los venenos más mortales de la historia, qué le hacen al cuerpo y por qué han fascinado y aterrado a la humanidad por igual. Y te aviso, al final entenderás la única regla que decide si algo te mata o no."*
-```
-+0.0  ICO  poison-cup   ~venenos pop
-+2.6  ICO  silent-poison ~cuerpo pop
-+4.8  ICO  dose-makes-poison ~regla pop
-+3.8  TXT  "la regla que decide si algo te mata" @cap handwrite md
++0.0  CHAP "El arma silenciosa" silent-poison
++0.0  SCENE single
++0.0  NODE mute-weapon "un arma que no hacía ruido" ~arma
 ```
 
-### BEAT 3 · 00:29 · T5
-Narración: *"Empecemos por el rey indiscutible. El arsénico. Durante siglos fue conocido como el veneno de los reyes, y el rey de los venenos. Porque era casi perfecto. No tiene color, ni olor, ni sabor, así que se podía echar en la comida o el vino sin que nadie lo notara."*
+### BEAT 2 · 00:00 · T1
+Narración: *"heridas y que era…"*
 ```
-+0.0  CHAP "Arsénico" arsenic-king
-+0.0  CLIP clip-goblet-wine @center big ~arsénico pop
-+4.4  ICO  arsenic-king @g mini ~reyes pop
-+5.4  ICO  tasteless    ~sabor pop
-+6.2  TXT  "ni color, ni olor, ni sabor" @cap stamp lg red
++0.0  SCENE flow
++0.0  NODE no-wound "no dejaba heridas" ~heridas
++0.0  NODE clip-magnifier "casi imposible de rastrear" ~rastrear
 ```
 
-### BEAT 4 · 00:46 · T1
-Narración: *"Y sus síntomas, vómitos y dolores de barriga, se confundían con una enfermedad común. Fue el arma favorita de asesinos durante siglos, hasta que en el siglo diecinueve apareció una prueba científica capaz de detectarlo en un cadáver. Ese día, el veneno perfecto dejó de ser invisible."*
+### BEAT 3 · 00:00 · T1
+Narración: *"Reyes, emperadores y papas…"*
 ```
-+0.0  ICO  arsenic-king ~síntomas pop
-+2.8  ICO  marsh-test   ~prueba pop
-+4.4  ICO  silent-poison ~invisible pop
-+3.8  TXT  "hasta que la ciencia aprendió a detectarlo" @cap stamp md red
-```
-
-### BEAT 5 · 01:03 · T5
-Narración: *"El segundo actúa a la velocidad del rayo. El cianuro. Si el arsénico es paciente, el cianuro es fulminante. Impide que tus células usen el oxígeno, así que el cuerpo se asfixia por dentro en cuestión de minutos, aunque haya aire de sobra."*
-```
-+0.0  CHAP "Cianuro" cyanide-fast
-+0.0  ICO  cyanide-fast @center hero ~cianuro pop
-+4.4  ICO  spy-capsule  @g mini ~fulminante pop
-+5.6  TXT  "asfixia tus células en minutos" @cap stamp lg red
++0.0  SCENE hub
++0.0  NODE photo-alejandro "reyes, emperadores y papas" ~reyes
++0.0  NODE poison-cup "caen por una copa envenenada" ~copa
 ```
 
-### BEAT 6 · 01:19 · T5
-Narración: *"Es tan rápido y eficaz que fue el veneno de las cápsulas que llevaban los espías para no ser capturados vivos. Dicen que huele ligeramente a almendras amargas, pero, curiosamente, mucha gente no puede percibir ese olor por genética."*
+### BEAT 4 · 00:00 · T1
+Narración: *"y detrás de muchas…"*
 ```
-+0.0  CLIP clip-lab     @center big ~cápsulas pop
-+4.0  ICO  spy-capsule  @g mini ~espías pop
-+5.0  ICO  almond-smell ~almendras pop
-+5.8  TXT  "el veneno de los espías" @cap stamp lg red
-```
-
-### BEAT 7 · 01:35 · T5
-Narración: *"El tercero es puro veneno de leyenda, y de filósofos. La cicuta. Es una planta de aspecto inocente, parecida al perejil, pero letal. Su víctima más famosa fue el filósofo griego Sócrates, condenado a muerte, que bebió una copa de cicuta con una calma absoluta."*
-```
-+0.0  CHAP "Cicuta" hemlock-plant
-+0.0  IMG  photo-socrates @center big ~Sócrates pop
-+4.0  ICO  hemlock-plant @g mini ~cicuta pop
-+5.2  ICO  socrates-cup ~copa pop
-+6.0  TXT  "la cicuta que mató a Sócrates" @cap handwrite md
++0.0  SCENE focus
++0.0  NODE clip-poison-drop "una gota invisible" ~gota
++0.0  NODE - "detrás de muchas muertes de la historia" ~muertes
 ```
 
-### BEAT 8 · 01:53 · T1
-Narración: *"El veneno va paralizando el cuerpo poco a poco, de los pies hacia arriba, mientras la mente permanece despierta, hasta que llega a los pulmones y detiene la respiración."*
+### BEAT 5 · 00:00 · T1
+Narración: *"Hoy vas a conocer…"*
 ```
-+0.0  ICO  paralysis-up ~paralizando pop
-+2.8  ICO  socrates-cup ~despierta pop
-+4.0  TXT  "paraliza de los pies... y llega a los pulmones" @cap stamp lg red
-```
-
-### BEAT 9 · 02:05 · T5
-Narración: *"El cuarto es bello y engañoso. La belladona. Su nombre significa mujer hermosa, porque en el Renacimiento las mujeres usaban unas gotas para dilatar las pupilas y parecer más seductoras."*
-```
-+0.0  CHAP "Belladona" belladonna-plant
-+0.0  IMG  photo-belladonna @center big ~belladona pop
-+4.0  ICO  dilated-pupils @g mini ~pupilas pop
-+5.2  TXT  "«mujer hermosa»: gotas para las pupilas" @cap handwrite md
++0.0  SCENE single
++0.0  NODE poison-shelf "los venenos más mortales de la historia" ~venenos
 ```
 
-### BEAT 10 · 02:20 · T1
-Narración: *"El problema es que la misma planta, en un poco más de cantidad, provoca alucinaciones, delirios y la muerte. Es la prueba de que lo bonito y lo mortal a veces son la misma planta."*
+### BEAT 6 · 00:00 · T1
+Narración: *"qué le hacen al…"*
 ```
-+0.0  ICO  belladonna-plant ~cantidad pop
-+2.8  ICO  beauty-death ~mortal pop
-+3.8  TXT  "lo bonito y lo mortal, la misma planta" @cap stamp lg red
-```
-
-### BEAT 11 · 02:32 · T1
-Narración: *"El quinto retuerce el cuerpo de forma terrible. La estricnina. Este veneno provoca contracciones musculares violentísimas e incontrolables. Todos los músculos del cuerpo se tensan a la vez, arqueando a la víctima en espasmos atroces, y matando finalmente por agotamiento y asfixia."*
-```
-+0.0  CHAP "Estricnina" strychnine
-+0.0  ICO  strychnine   @center hero ~estricnina pop
-+4.4  ICO  muscle-paralysis @g mini ~músculos pop
-+5.6  TXT  "contracciones violentas por todo el cuerpo" @cap stamp lg red
++0.0  SCENE flow
++0.0  NODE body-poison "qué le hacen al cuerpo" ~cuerpo
++0.0  NODE clip-city-crowd "han fascinado y aterrado a la humanidad" ~fascinado
 ```
 
-### BEAT 12 · 02:49 · T1
-Narración: *"Por su efecto tan dramático, ha sido un clásico oscuro de las novelas de misterio durante más de un siglo."*
+### BEAT 7 · 00:00 · T1
+Narración: *"Y te aviso, al…"*
 ```
-+0.0  ICO  mystery-novel ~dramático pop
-+2.4  ICO  strychnine   ~misterio pop
-+3.2  TXT  "un clásico de las novelas de misterio" @cap handwrite md
-```
-
-### BEAT 12b · 03:00 · T5
-Narración: *"Antes de cambiar de categoría, hay que hablar de un veneno legendario con nombre de mujer. El agua tofana. En la Italia del siglo diecisiete, una mujer vendía en secreto un líquido transparente, disfrazado de cosmético, que no tenía ni sabor ni olor. Bastaban unas gotas en la comida durante varios días para acabar con alguien sin levantar sospechas."*
-```
-+0.0  CHAP "Agua tofana" aqua-tofana
-+0.0  CLIP clip-poison-drop @center big ~tofana pop
-+4.4  ICO  aqua-tofana  @g mini ~cosmético pop
-+5.4  ICO  tasteless    ~olor pop
-+6.2  TXT  "veneno disfrazado de cosmético" @cap stamp lg red
++0.0  SCENE words
++0.0  NODE - "Al final, una única regla" ~final
++0.0  NODE - "*decide si algo te mata o no*" ~decide
 ```
 
-### BEAT 12c · 03:18 · T1
-Narración: *"Se dice que ayudó a muchas mujeres a librarse de maridos crueles, y que causó cientos de muertes antes de que la descubrieran. Y hay otro veneno, mucho más moderno y de andar por casa, que sigue matando hoy. El anticongelante de los coches. Su secreto es que tiene un sabor dulce y agradable, así que es fácil dárselo a alguien sin que lo note. Por dentro, destroza los riñones en cuestión de horas. Ahora cambiamos de categoría, y pasamos a los metales que envenenan lentamente."*
+### BEAT 8 · 00:00 · T1
+Narración: *"Empecemos por el rey…"*
 ```
-+0.0  ICO  antifreeze   ~anticongelante pop
-+3.0  ICO  medicine-or-poison ~dulce pop
-+5.0  ICO  mercury-metal ~metales pop
-+4.0  TXT  "el anticongelante: dulce y letal" @cap stamp lg red
-```
-
-### BEAT 13 · 03:01 · T5
-Narración: *"El sexto es uno de ellos. El mercurio. Ese metal líquido y brillante que fascinaba a los antiguos alquimistas, que lo creían mágico. Pero el mercurio ataca directamente al cerebro y al sistema nervioso. Los sombrereros del pasado, que lo usaban, acababan temblando y perdiendo la cabeza."*
-```
-+0.0  CHAP "Mercurio" mercury-metal
-+0.0  IMG  photo-mercury @center big ~mercurio pop
-+4.0  ICO  alchemist    @g mini ~alquimistas pop
-+5.2  ICO  mad-hatter   ~sombrereros pop
-+6.0  TXT  "«loco como un sombrerero»" @cap stamp lg red
++0.0  CHAP "1. Arsénico" arsenic-king
++0.0  SCENE single
++0.0  NODE photo-arsenico "el rey indiscutible: el arsénico" ~rey
 ```
 
-### BEAT 14 · 03:18 · T1
-Narración: *"De ahí viene la expresión loco como un sombrerero. Se dice que hasta un emperador chino murió buscando la inmortalidad, tomando pastillas de mercurio."*
+### BEAT 9 · 00:00 · T1
+Narración: *"Durante siglos fue conocido…"*
 ```
-+0.0  ICO  mad-hatter   ~expresión pop
-+2.8  ICO  mercury-metal ~inmortalidad pop
-+3.8  TXT  "un emperador murió buscando la inmortalidad" @cap stamp md red
-```
-
-### BEAT 15 · 03:30 · T5
-Narración: *"El séptimo construyó, y quizá ayudó a destruir, un imperio. El plomo. Los romanos lo usaban para todo, para sus tuberías, sus copas e incluso para endulzar el vino. El problema es que el plomo se acumula en el cuerpo y daña el cerebro."*
-```
-+0.0  CHAP "Plomo" lead-pipe
-+0.0  IMG  photo-roman-ruins @center big ~imperio pop
-+4.0  ICO  lead-pipe    @g mini ~tuberías pop
-+5.2  TXT  "los romanos lo tenían en todo" @cap handwrite md
++0.0  SCENE ladder
++0.0  NODE king-goblet "el veneno de los reyes" ~reyes
++0.0  NODE poison-throne "el rey de los venenos" ~rey
++0.0  NODE perfect-poison "porque era casi perfecto" ~perfecto
 ```
 
-### BEAT 16 · 03:46 · T1
-Narración: *"Provocando dolores, locura y esterilidad. Algunos historiadores creen que este envenenamiento lento y masivo pudo contribuir a la decadencia de la mismísima Roma."*
+### BEAT 10 · 00:00 · T1
+Narración: *"No tiene color, ni…"*
 ```
-+0.0  ICO  lead-pipe    ~esterilidad pop
-+2.8  ICO  roman-decline ~decadencia pop
-+3.8  TXT  "quizá ayudó a hundir a Roma" @cap stamp lg red
-```
-
-### BEAT 17 · 03:58 · T1
-Narración: *"El octavo es el favorito de los envenenadores más discretos. El talio. Es tan sigiloso que se ha ganado el apodo del veneno del envenenador. No tiene sabor, y sus síntomas iniciales, como la caída del pelo, son tan raros que a los médicos les costaba muchísimo relacionarlos con un envenenamiento."*
-```
-+0.0  CHAP "Talio" thallium
-+0.0  ICO  thallium     ~talio pop
-+3.4  ICO  hair-loss    ~pelo pop
-+5.0  ICO  tasteless    ~sabor pop
-+4.2  TXT  "el «veneno del envenenador»" @cap handwrite md
++0.0  SCENE list
++0.0  NODE eye-slash "no tiene color" ~color
++0.0  NODE nose-slash "ni olor" ~olor
++0.0  NODE tongue-slash "ni sabor" ~sabor
 ```
 
-### BEAT 18 · 04:15 · T5
-Narración: *"Y ahora subimos al siguiente nivel, el de las toxinas naturales más potentes que existen. El noveno no lo fabrica un químico, sino una bacteria. La toxina botulínica. Agárrate, porque es, gramo a gramo, la sustancia más letal que se conoce."*
+### BEAT 11 · 00:00 · T1
+Narración: *"así que se podía…"*
 ```
-+0.0  CHAP "Toxina botulínica" botulinum
-+0.0  CLIP clip-microscope @center big ~bacteria pop
-+4.4  ICO  botulinum    @g mini ~letal pop
-+5.6  TXT  "gramo a gramo, la más letal que existe" @cap stamp lg red
-```
-
-### BEAT 19 · 04:32 · T5
-Narración: *"Una cantidad minúscula bastaría para matar a muchísimas personas. Paraliza los músculos por completo. Y aquí está lo increíble. Esa misma toxina, en dosis diminutas y controladas, es lo que se inyecta en la cara con el famoso bótox para borrar las arrugas."*
-```
-+0.0  ICO  botox-face   @center hero ~bótox pop
-+3.8  ICO  muscle-paralysis @g mini ~músculos pop
-+5.0  TXT  "el veneno más mortal... usado por belleza" @cap stamp lg blue
++0.0  SCENE flow
++0.0  NODE dish-drop "echarlo en la comida" ~comida
++0.0  NODE clip-goblet-wine "o en el vino, sin que nadie lo note" ~vino
 ```
 
-### BEAT 20 · 04:48 · T5
-Narración: *"El décimo nada en el mar y se sirve en un plato. La tetrodotoxina, el veneno del pez globo. En Japón, este pescado, llamado fugu, es un manjar carísimo que solo pueden preparar cocineros con licencia."*
+### BEAT 12 · 00:00 · T1
+Narración: *"Y sus síntomas, vómitos…"*
 ```
-+0.0  CHAP "Pez globo (fugu)" pufferfish
-+0.0  CLIP clip-pufferfish @center big ~pezglobo pop
-+4.4  ICO  fugu-chef    @g mini ~licencia pop
-+5.6  TXT  "el fugu: solo chefs con licencia" @cap handwrite md
-```
-
-### BEAT 21 · 05:04 · T5
-Narración: *"Porque ciertas partes del pez contienen una toxina que paraliza el cuerpo mientras la víctima permanece totalmente consciente. Un solo error del cocinero, y la cena se convierte en la última."*
-```
-+0.0  CLIP clip-sushi   @center big ~toxina pop
-+4.0  ICO  conscious-paralysis @g mini ~consciente pop
-+5.2  TXT  "paraliza... estando despierto" @cap stamp lg red
++0.0  SCENE versus
++0.0  NODE sick-stomach "vómitos y dolores de barriga" ~vómitos
++0.0  NODE common-flu "se confundían con una enfermedad común" ~enfermedad
 ```
 
-### BEAT 22 · 05:18 · T5
-Narración: *"El undécimo se esconde en una semilla común. La ricina. Se extrae de la misma planta de la que sale el aceite de ricino, y es espantosamente tóxica. Saltó a la fama en plena Guerra Fría, en un crimen digno de una película de espías."*
+### BEAT 13 · 00:00 · T1
+Narración: *"Fue el arma favorita…"*
 ```
-+0.0  CHAP "Ricina" ricin-bean
-+0.0  IMG  photo-lab    @center big ~semilla pop
-+4.0  ICO  ricin-bean   @g mini ~ricina pop
-+5.2  TXT  "escondida en una semilla común" @cap handwrite md
++0.0  SCENE single
++0.0  NODE assassin-shadow "el arma favorita de asesinos durante siglos" ~arma
 ```
 
-### BEAT 23 · 05:34 · T1
-Narración: *"Un disidente fue asesinado en plena calle con un paraguas modificado que le inyectó una bolita de ricina del tamaño de la cabeza de un alfiler."*
+### BEAT 14 · 00:00 · T1
+Narración: *"hasta que en el…"*
 ```
-+0.0  ICO  umbrella-murder ~paraguas pop
-+3.0  ICO  ricin-bean   ~bolita pop
-+4.0  TXT  "asesinado con la punta de un paraguas" @cap stamp lg red
-```
-
-### BEAT 24 · 05:46 · T5
-Narración: *"El duodécimo no es un químico ni una planta. Es radiación pura. El polonio. Este elemento radiactivo es un veneno moderno y aterrador. Por dentro, destroza las células del cuerpo con su radiación, y es casi imposible de detectar con los métodos habituales."*
-```
-+0.0  CHAP "Polonio" polonium
-+0.0  CLIP clip-radioactive @center big ~radiación pop
-+4.4  ICO  polonium     @g mini ~radiactivo pop
-+5.6  TXT  "un veneno hecho de radiación pura" @cap stamp lg red
++0.0  SCENE timeline
++0.0  NODE calendar-pages "siglo XIX" ~diecinueve
++0.0  NODE clip-test-tube "una prueba científica" ~prueba
++0.0  NODE marsh-test "capaz de detectarlo en un cadáver" ~detectarlo
 ```
 
-### BEAT 25 · 06:03 · T5
-Narración: *"Su caso más famoso fue el asesinato de un exespía, envenenado con polonio en una simple taza de té, en un crimen que parecía sacado de una novela."*
+### BEAT 15 · 00:00 · T1
+Narración: *"Ese día, el veneno…"*
 ```
-+0.0  CLIP clip-tea     @center big ~té pop
-+3.6  ICO  poisoned-tea @g mini ~exespía pop
-+4.8  TXT  "envenenado en una taza de té" @cap stamp lg red
-```
-
-### BEAT 26 · 06:15 · T5
-Narración: *"Y llegamos al escalón más alto y más terrible. Los agentes nerviosos. Son venenos creados por el ser humano en un laboratorio, como el sarín o el novichok. Actúan bloqueando las señales entre los nervios y los músculos, provocando una parálisis total en cuestión de minutos."*
-```
-+0.0  CHAP "Agentes nerviosos" nerve-agent
-+0.0  CLIP clip-hazmat  @center big ~nerviosos pop
-+4.4  ICO  nerve-agent  @g mini ~laboratorio pop
-+5.6  TXT  "sarín, novichok: parálisis en minutos" @cap stamp lg red
++0.0  SCENE words
++0.0  NODE - "Ese día, el veneno perfecto" ~ese
++0.0  NODE - "*dejó de ser invisible*" ~dejó
 ```
 
-### BEAT 27 · 06:32 · T1
-Narración: *"Son tan peligrosos que están prohibidos como armas químicas en todo el mundo, aunque por desgracia han vuelto a aparecer en conflictos y en asesinatos recientes."*
+### BEAT 16 · 00:00 · T1
+Narración: *"El segundo actúa a…"*
 ```
-+0.0  ICO  nerve-agent  ~peligrosos pop
-+2.8  ICO  banned-weapon ~prohibidos pop
-+3.8  TXT  "prohibidos como armas químicas" @cap stamp lg red
++0.0  CHAP "2. Cianuro" cyanide-fast
++0.0  SCENE flow
++0.0  NODE clip-lightning "actúa a la velocidad del rayo" ~velocidad
++0.0  NODE photo-cianuro "el cianuro" ~cianuro
 ```
 
-### BEAT 28 · 06:44 · T5
-Narración: *"Después de todo este recorrido tan oscuro, llega la lección más importante de todas, y es puro sentido común. La formuló un médico hace quinientos años, y sigue siendo la regla de oro de todo veneno. La dosis hace el veneno."*
+### BEAT 17 · 00:00 · T1
+Narración: *"Si el arsénico es…"*
+```
++0.0  SCENE versus
++0.0  NODE hourglass-patient "el arsénico es paciente" ~paciente
++0.0  NODE fulminant-bolt "el cianuro es fulminante" ~fulminante
+```
+
+### BEAT 18 · 00:00 · T1
+Narración: *"Impide que tus células…"*
+```
++0.0  SCENE zigzag
++0.0  NODE cells-no-oxygen "las células no usan el oxígeno" ~células
++0.0  NODE body-suffocate "el cuerpo se asfixia por dentro" ~asfixia
++0.0  NODE clip-clouds "aunque haya aire de sobra" ~aire
+```
+
+### BEAT 19 · 00:00 · T1
+Narración: *"Es tan rápido y…"*
+```
++0.0  SCENE hub
++0.0  NODE spy-capsule "la cápsula de los espías" ~cápsulas
++0.0  NODE captured-spy "para no ser capturados vivos" ~capturados
+```
+
+### BEAT 20 · 00:00 · T1
+Narración: *"Dicen que huele ligeramente…"*
+```
++0.0  SCENE flow
++0.0  NODE almond-smell "huele a almendras amargas" ~huele
++0.0  NODE dna-nose "mucha gente no lo percibe: genética" ~genética
+```
+
+### BEAT 21 · 00:00 · T1
+Narración: *"El tercero es puro…"*
+```
++0.0  CHAP "3. Cicuta" hemlock-plant
++0.0  SCENE focus
++0.0  NODE photo-cicuta "la cicuta" ~cicuta
++0.0  NODE - "veneno de leyenda" ~leyenda
++0.0  NODE - "y de filósofos" ~filósofos
+```
+
+### BEAT 22 · 00:00 · T1
+Narración: *"Es una planta de…"*
+```
++0.0  SCENE versus
++0.0  NODE clip-plant "aspecto inocente, parecida al perejil" ~aspecto
++0.0  NODE lethal-leaf "pero letal" ~letal
+```
+
+### BEAT 23 · 00:00 · T1
+Narración: *"Su víctima más famosa…"*
+```
++0.0  SCENE timeline
++0.0  NODE photo-muerte-socrates "el filósofo griego Sócrates" ~filósofo
++0.0  NODE condemned-scroll "condenado a muerte" ~condenado
++0.0  NODE socrates-cup "bebió la copa con calma absoluta" ~bebió
+```
+
+### BEAT 24 · 00:00 · T1
+Narración: *"El veneno va paralizando…"*
+```
++0.0  SCENE ladder
++0.0  NODE feet-numb "empieza por los pies" ~pies
++0.0  NODE paralysis-up "sube poco a poco" ~arriba
+```
+
+### BEAT 25 · 00:00 · T1
+Narración: *"mientras la mente permanece…"*
+```
++0.0  SCENE flow
++0.0  NODE conscious-paralysis "la mente permanece despierta" ~mente
++0.0  NODE lungs-stop "hasta detener la respiración" ~pulmones
+```
+
+### BEAT 26 · 00:00 · T1
+Narración: *"El cuarto es bello…"*
+```
++0.0  CHAP "4. Belladona" belladonna-plant
++0.0  SCENE single
++0.0  NODE photo-belladonna "bello y engañoso: la belladona" ~bello
+```
+
+### BEAT 27 · 00:00 · T1
+Narración: *"Su nombre significa mujer…"*
+```
++0.0  SCENE converge
++0.0  NODE photo-tornabuoni "mujer hermosa en el Renacimiento" ~renacimiento
++0.0  NODE dilated-pupils "gotas para dilatar las pupilas" ~dilatar
++0.0  NODE photo-venus "parecer más seductoras" ~seductoras
+```
+
+### BEAT 28 · 00:00 · T1
+Narración: *"El problema es que…"*
+```
++0.0  SCENE ladder
++0.0  NODE clip-psychedelic "alucinaciones" ~alucinaciones
++0.0  NODE delirium-face "delirios" ~delirios
++0.0  NODE silent-poison "y la muerte" ~muerte
+```
+
+### BEAT 29 · 00:00 · T1
+Narración: *"Es la prueba de…"*
+```
++0.0  SCENE single
++0.0  NODE beauty-death "lo bonito y lo mortal, a veces la misma planta" ~bonito
+```
+
+### BEAT 30 · 00:00 · T1
+Narración: *"El quinto retuerce el…"*
+```
++0.0  CHAP "5. Estricnina" strychnine
++0.0  SCENE hub
++0.0  NODE twisted-body "retuerce el cuerpo de forma terrible" ~retuerce
++0.0  NODE photo-nuxvomica "la estricnina" ~estricnina
+```
+
+### BEAT 31 · 00:00 · T1
+Narración: *"Este veneno provoca contracciones…"*
+```
++0.0  SCENE single
++0.0  NODE violent-spasm "contracciones musculares violentísimas" ~contracciones
+```
+
+### BEAT 32 · 00:00 · T1
+Narración: *"Todos los músculos del…"*
+```
++0.0  SCENE zigzag
++0.0  NODE all-muscles "todos los músculos se tensan a la vez" ~músculos
++0.0  NODE arched-body "arqueando a la víctima" ~arqueando
++0.0  NODE exhausted-collapse "agotamiento y asfixia" ~agotamiento
+```
+
+### BEAT 33 · 00:00 · T1
+Narración: *"Por su efecto tan…"*
+```
++0.0  SCENE hub
++0.0  NODE mystery-novel "un clásico oscuro de las novelas de misterio" ~clásico
++0.0  NODE clip-old-books "durante más de un siglo" ~siglo
+```
+
+### BEAT 34 · 00:00 · T1
+Narración: *"Antes de cambiar de…"*
+```
++0.0  CHAP "El agua tofana" aqua-tofana
++0.0  SCENE words
++0.0  NODE - "Antes de cambiar de categoría" ~antes
++0.0  NODE - "*un veneno con nombre de mujer*" ~veneno
+```
+
+### BEAT 35 · 00:00 · T1
+Narración: *"El agua tofana. En…"*
+```
++0.0  SCENE hub
++0.0  NODE tofana-woman "el agua tofana: una mujer vendía en secreto" ~mujer
++0.0  NODE italy-map "Italia, siglo XVII" ~italia
+```
+
+### BEAT 36 · 00:00 · T1
+Narración: *"un líquido transparente, disfrazado…"*
+```
++0.0  SCENE grid
++0.0  NODE clear-vial "un líquido transparente" ~transparente
++0.0  NODE cosmetic-disguise "disfrazado de cosmético" ~disfrazado
++0.0  NODE nose-slash "sin olor" ~olor
++0.0  NODE tongue-slash "ni sabor" ~sabor
+```
+
+### BEAT 37 · 00:00 · T1
+Narración: *"Bastaban unas gotas en…"*
+```
++0.0  SCENE flow
++0.0  NODE dish-drop "unas gotas en la comida" ~gotas
++0.0  NODE calendar-days "durante varios días" ~varios
+```
+
+### BEAT 38 · 00:00 · T1
+Narración: *"Se dice que ayudó…"*
+```
++0.0  SCENE versus
++0.0  NODE women-freed "librarse de maridos crueles" ~librarse
++0.0  NODE hundreds-graves "cientos de muertes" ~cientos
+```
+
+### BEAT 39 · 00:00 · T1
+Narración: *"Y hay otro veneno…"*
+```
++0.0  CHAP "Anticongelante" antifreeze
++0.0  SCENE single
++0.0  NODE photo-anticongelante "más moderno y de andar por casa" ~moderno
+```
+
+### BEAT 40 · 00:00 · T1
+Narración: *"El anticongelante de los…"*
+```
++0.0  SCENE hub
++0.0  NODE clip-car-engine "el anticongelante de los coches" ~anticongelante
++0.0  NODE sweet-tongue "sabor dulce y agradable" ~sabor
++0.0  NODE clip-coffee "fácil dárselo sin que lo note" ~fácil
+```
+
+### BEAT 41 · 00:00 · T1
+Narración: *"Por dentro, destroza los…"*
+```
++0.0  SCENE single
++0.0  NODE kidneys-damaged "destroza los riñones en horas" ~riñones
+```
+
+### BEAT 42 · 00:00 · T1
+Narración: *"Ahora cambiamos de categoría…"*
+```
++0.0  SCENE flow
++0.0  NODE photo-periodic "los metales" ~metales
++0.0  NODE hourglass-patient "que envenenan lentamente" ~lentamente
+```
+
+### BEAT 43 · 00:00 · T1
+Narración: *"El sexto es uno…"*
+```
++0.0  CHAP "6. Mercurio" mercury-metal
++0.0  SCENE single
++0.0  NODE photo-mercury "el sexto: el mercurio" ~mercurio
+```
+
+### BEAT 44 · 00:00 · T1
+Narración: *"Ese metal líquido y…"*
+```
++0.0  SCENE flow
++0.0  NODE alchemist "fascinaba a los antiguos alquimistas" ~fascinaba
++0.0  NODE photo-alquimia "creían que era mágico" ~mágico
+```
+
+### BEAT 45 · 00:00 · T1
+Narración: *"Pero el mercurio ataca…"*
+```
++0.0  SCENE hub
++0.0  NODE brain-silver "ataca directamente al cerebro" ~cerebro
++0.0  NODE clip-neurons "y al sistema nervioso" ~sistema
+```
+
+### BEAT 46 · 00:00 · T1
+Narración: *"Los sombrereros del pasado…"*
+```
++0.0  SCENE ladder
++0.0  NODE photo-sombrero "los sombrereros del pasado" ~sombrereros
++0.0  NODE photo-fieltro "usaban mercurio para tratar el fieltro" ~fieltro
++0.0  NODE trembling-hands "acababan temblando" ~temblando
+```
+
+### BEAT 47 · 00:00 · T1
+Narración: *"De ahí viene la…"*
+```
++0.0  SCENE single
++0.0  NODE mad-hatter "loco como un sombrerero" ~loco
+```
+
+### BEAT 48 · 00:00 · T1
+Narración: *"Se dice que hasta…"*
+```
++0.0  SCENE flow
++0.0  NODE photo-terracota "un emperador chino" ~emperador
++0.0  NODE immortality-pills "murió buscando la inmortalidad con pastillas de mercurio" ~inmortalidad
+```
+
+### BEAT 49 · 00:00 · T1
+Narración: *"El séptimo construyó y…"*
+```
++0.0  CHAP "7. Plomo" lead-pipe
++0.0  SCENE versus
++0.0  NODE photo-foro "construyó un imperio" ~construyó
++0.0  NODE photo-roman-ruins "y quizá ayudó a destruirlo" ~destruir
+```
+
+### BEAT 50 · 00:00 · T1
+Narración: *"Los romanos lo usaban…"*
+```
++0.0  SCENE list
++0.0  NODE photo-acueducto "los romanos lo usaban para todo" ~todo
++0.0  NODE roman-pipes "sus tuberías" ~tuberías
++0.0  NODE clip-goblet-wine "sus copas y endulzar el vino" ~copas
+```
+
+### BEAT 51 · 00:00 · T1
+Narración: *"El problema es que el plomo…"*
+```
++0.0  SCENE converge
++0.0  NODE photo-plomo "el plomo se acumula en el cuerpo" ~plomo
++0.0  NODE brain-damaged "y daña el cerebro" ~cerebro
++0.0  NODE pain-madness "dolores, locura y esterilidad" ~dolores
+```
+
+### BEAT 52 · 00:00 · T1
+Narración: *"Algunos historiadores creen…"*
+```
++0.0  SCENE flow
++0.0  NODE scholar-book "algunos historiadores creen..." ~historiadores
++0.0  NODE roman-decline "...que contribuyó a la decadencia de Roma" ~decadencia
+```
+
+### BEAT 53 · 00:00 · T1
+Narración: *"El octavo es el…"*
+```
++0.0  CHAP "8. Talio" thallium
++0.0  SCENE hub
++0.0  NODE photo-talio "el talio" ~talio
++0.0  NODE discreet-poisoner "el favorito de los envenenadores más discretos" ~favorito
+```
+
+### BEAT 54 · 00:00 · T1
+Narración: *"Es tan sigiloso que…"*
+```
++0.0  SCENE flow
++0.0  NODE stealth-vial "tan sigiloso: el veneno del envenenador" ~sigiloso
++0.0  NODE tasteless "no tiene sabor" ~sabor
+```
+
+### BEAT 55 · 00:00 · T1
+Narración: *"Y sus síntomas iniciales…"*
+```
++0.0  SCENE converge
++0.0  NODE hair-loss "síntomas raros: la caída del pelo" ~síntomas
++0.0  NODE clip-doctor "a los médicos les costaba" ~médicos
++0.0  NODE unknown-link "relacionarlos con un envenenamiento" ~relacionarlos
+```
+
+### BEAT 56 · 00:00 · T1
+Narración: *"Fue usado en varios…"*
+```
++0.0  SCENE timeline
++0.0  NODE crime-tape "varios crímenes famosos" ~crímenes
++0.0  NODE calendar-pages "del siglo XX" ~veinte
++0.0  NODE clip-magnifier "difícil de detectar" ~detectar
+```
+
+### BEAT 57 · 00:00 · T1
+Narración: *"Y ahora subimos al…"*
+```
++0.0  SCENE single
++0.0  NODE natural-toxins "las toxinas naturales más potentes" ~toxinas
+```
+
+### BEAT 58 · 00:00 · T1
+Narración: *"El noveno no lo…"*
+```
++0.0  CHAP "9. Toxina botulínica" botulinum
++0.0  SCENE versus
++0.0  NODE chemist-flask "no lo fabrica un químico" ~químico
++0.0  NODE photo-clostridium "sino una bacteria: la toxina botulínica" ~bacteria
+```
+
+### BEAT 59 · 00:00 · T1
+Narración: *"Agárrate, porque es, gramo…"*
+```
++0.0  SCENE stat
++0.0  STAT "Nº 1" "la sustancia más letal que se conoce" ~letal
++0.0  NODE photo-balanza "gramo a gramo" ~gramo
+```
+
+### BEAT 60 · 00:00 · T1
+Narración: *"Una cantidad minúscula bastaría…"*
+```
++0.0  SCENE flow
++0.0  NODE tiny-drop-crowd "una cantidad minúscula basta para muchísimas personas" ~cantidad
++0.0  NODE muscle-paralysis "paraliza los músculos por completo" ~paraliza
+```
+
+### BEAT 61 · 00:00 · T1
+Narración: *"Esa misma toxina, en…"*
+```
++0.0  SCENE converge
++0.0  NODE photo-jeringa "dosis diminutas y controladas" ~dosis
++0.0  NODE botox-face "se inyecta en la cara: el bótox" ~inyecta
++0.0  NODE wrinkle-smooth "para borrar las arrugas" ~arrugas
+```
+
+### BEAT 62 · 00:00 · T1
+Narración: *"El veneno más mortal…"*
+```
++0.0  SCENE words
++0.0  NODE - "El veneno más mortal del mundo" ~veneno
++0.0  NODE - "*usado por belleza*" ~usado
+```
+
+### BEAT 63 · 00:00 · T1
+Narración: *"el décimo nada en…"*
+```
++0.0  CHAP "10. Pez globo" pufferfish
++0.0  SCENE flow
++0.0  NODE clip-ocean "el décimo nada en el mar" ~nada
++0.0  NODE clip-sushi "y se sirve en un plato" ~sirve
++0.0  NODE photo-pufferfish "la tetrodotoxina: el veneno del pez globo" ~tetrodotoxina
+```
+
+### BEAT 64 · 00:00 · T1
+Narración: *"En Japón, este pescado…"*
+```
++0.0  SCENE hub
++0.0  NODE clip-pufferfish "en Japón, el fugu: un manjar carísimo" ~japón
++0.0  NODE fugu-chef "solo cocineros con licencia" ~cocineros
+```
+
+### BEAT 65 · 00:00 · T1
+Narración: *"Por qué Porque ciertas…"*
+```
++0.0  SCENE converge
++0.0  NODE fish-organs "ciertas partes del pez contienen toxina" ~ciertas
++0.0  NODE muscle-paralysis "paraliza el cuerpo" ~paraliza
++0.0  NODE conscious-paralysis "con la víctima totalmente consciente" ~consciente
+```
+
+### BEAT 66 · 00:00 · T1
+Narración: *"Un solo error del…"*
+```
++0.0  SCENE words
++0.0  NODE - "Un solo error del cocinero" ~error
++0.0  NODE - "*y la cena se convierte en la última*" ~cena
+```
+
+### BEAT 67 · 00:00 · T1
+Narración: *"El undécimo se esconde…"*
+```
++0.0  CHAP "11. Ricina" ricin-bean
++0.0  SCENE single
++0.0  NODE photo-ricino "una semilla común: la ricina" ~semilla
+```
+
+### BEAT 68 · 00:00 · T1
+Narración: *"Se extrae de la…"*
+```
++0.0  SCENE flow
++0.0  NODE castor-oil "de la misma planta sale el aceite de ricino" ~aceite
++0.0  NODE nerve-agent "y es espantosamente tóxica" ~espantosamente
+```
+
+### BEAT 69 · 00:00 · T1
+Narración: *"Saltó a la fama…"*
+```
++0.0  SCENE hub
++0.0  NODE photo-guerra-fria "en plena Guerra Fría" ~guerra
++0.0  NODE spy-trenchcoat "un crimen digno de una película de espías" ~película
+```
+
+### BEAT 70 · 00:00 · T1
+Narración: *"Un disidente fue asesinado…"*
+```
++0.0  SCENE zigzag
++0.0  NODE dissident-street "un disidente, en plena calle" ~disidente
++0.0  NODE umbrella-murder "con un paraguas modificado" ~paraguas
++0.0  NODE pinhead-pellet "una bolita del tamaño de la cabeza de un alfiler" ~alfiler
+```
+
+### BEAT 71 · 00:00 · T1
+Narración: *"El duodécimo no es…"*
+```
++0.0  CHAP "12. Polonio" polonium
++0.0  SCENE flow
++0.0  NODE chemist-flask "no es un químico" ~químico
++0.0  NODE clip-plant "ni una planta" ~planta
++0.0  NODE rad-symbol "es radiación pura" ~radiación
+```
+
+### BEAT 72 · 00:00 · T1
+Narración: *"Este elemento radiactivo es…"*
+```
++0.0  SCENE single
++0.0  NODE photo-periodic "un elemento radiactivo, moderno y aterrador" ~elemento
+```
+
+### BEAT 73 · 00:00 · T1
+Narración: *"Por dentro, destroza las…"*
+```
++0.0  SCENE flow
++0.0  NODE clip-microscope "destroza las células con su radiación" ~células
++0.0  NODE clip-magnifier "casi imposible de detectar con métodos habituales" ~detectar
+```
+
+### BEAT 74 · 00:00 · T1
+Narración: *"Su caso más famoso…"*
+```
++0.0  SCENE timeline
++0.0  NODE spy-trenchcoat "el asesinato de un exespía" ~asesinato
++0.0  NODE poisoned-tea "envenenado con polonio" ~polonio
++0.0  NODE clip-tea "en una simple taza de té" ~taza
++0.0  NODE mystery-novel "un crimen sacado de una novela" ~novela
+```
+
+### BEAT 75 · 00:00 · T1
+Narración: *"Y llegamos al escalón…"*
+```
++0.0  CHAP "13. Agentes nerviosos" nerve-agent
++0.0  SCENE single
++0.0  NODE top-stair "el escalón más alto y más terrible" ~escalón
+```
+
+### BEAT 76 · 00:00 · T1
+Narración: *"Son venenos creados por…"*
+```
++0.0  SCENE flow
++0.0  NODE clip-smoke-chem "creados por el ser humano en un laboratorio" ~creados
++0.0  NODE photo-sarin "como el sarín o el novichok" ~sarín
+```
+
+### BEAT 77 · 00:00 · T1
+Narración: *"Actúan bloqueando las señales…"*
+```
++0.0  SCENE zigzag
++0.0  NODE clip-neurons "bloquean las señales de los nervios" ~señales
++0.0  NODE signal-blocked "hacia los músculos" ~músculos
++0.0  NODE paralysis-up "parálisis total en minutos" ~parálisis
+```
+
+### BEAT 78 · 00:00 · T1
+Narración: *"Son tan peligrosos que…"*
+```
++0.0  SCENE radial
++0.0  NODE banned-weapon "prohibidos como armas químicas" ~prohibidos
++0.0  NODE clip-earth "en todo el mundo" ~mundo
++0.0  NODE photo-arma-quimica "han vuelto a aparecer en conflictos" ~conflictos
++0.0  NODE clip-hazmat "y en asesinatos recientes" ~asesinatos
+```
+
+### BEAT 79 · 00:00 · T1
+Narración: *"Después de todo este…"*
 ```
 +0.0  CHAP "La dosis hace el veneno" dose-makes-poison
-+0.0  ICO  dose-makes-poison @center hero ~dosis pop
-+4.4  ICO  medicine-or-poison @g mini ~regla pop
-+5.6  TXT  "la regla de oro: la dosis hace el veneno" @cap handwrite md
++0.0  SCENE flow
++0.0  NODE dark-path "después de este recorrido tan oscuro" ~recorrido
++0.0  NODE lesson-bulb "la lección más importante" ~lección
 ```
 
-### BEAT 29 · 07:01 · T5
-Narración: *"¿Qué significa? Que absolutamente todo puede matarte si la cantidad es suficiente. Beber demasiada agua de golpe puede ser letal. Y a la vez, muchos venenos potentísimos se usan hoy, en dosis mínimas, como medicinas que salvan vidas."*
+### BEAT 80 · 00:00 · T1
+Narración: *"La formuló un médico…"*
 ```
-+0.0  IMG  photo-lab    @center big ~cantidad pop
-+4.0  ICO  water-overdose @g mini ~agua pop
-+5.2  ICO  medicine-or-poison ~medicinas pop
-+6.0  TXT  "hasta el agua mata en exceso" @cap stamp lg red
++0.0  SCENE stat
++0.0  STAT "500" "años de la regla de oro de todo veneno" ~quinientos
++0.0  NODE photo-paracelso "la formuló un médico: la regla de oro" ~médico
 ```
 
-### BEAT 30 · 07:18 · T1
-Narración: *"No existen sustancias buenas o malas. Solo existe la cantidad. Al final, la diferencia entre un remedio y un veneno no está en el frasco. Está en la dosis. Y ahora que conoces los venenos más letales de la historia, entiendes que el mayor peligro casi nunca se ve, ni se huele, ni se saborea."*
+### BEAT 81 · 00:00 · T1
+Narración: *"La dosis hace el…"*
 ```
-+0.0  ICO  medicine-or-poison ~remedio pop
-+2.8  ICO  dose-makes-poison ~dosis pop
-+4.4  ICO  silent-poison ~peligro pop
-+3.8  TXT  "el mayor peligro casi nunca se ve" @cap stamp lg red
++0.0  SCENE words
++0.0  NODE - "*La dosis hace el veneno*" ~dosis
++0.0  NODE - "todo puede matarte si la cantidad es suficiente" ~absolutamente
 ```
+
+### BEAT 82 · 00:00 · T1
+Narración: *"Beber demasiada agua de…"*
+```
++0.0  SCENE flow
++0.0  NODE photo-agua "beber demasiada agua de golpe" ~agua
++0.0  NODE water-overdose "puede ser letal" ~letal
+```
+
+### BEAT 83 · 00:00 · T1
+Narración: *"muchos venenos potentísimos se…"*
+```
++0.0  SCENE cycle
++0.0  NODE medicine-or-poison "muchos venenos potentísimos" ~venenos
++0.0  NODE photo-jeringa "en dosis mínimas" ~dosis
++0.0  NODE clip-doctor "son medicinas que salvan vidas" ~medicinas
+```
+
+### BEAT 84 · 00:00 · T1
+Narración: *"No existen sustancias buenas…"*
+```
++0.0  SCENE single
++0.0  NODE only-amount "solo existe la cantidad" ~cantidad
+```
+
+### BEAT 85 · 00:00 · T1
+Narración: *"Al final, la diferencia…"*
+```
++0.0  SCENE flow
++0.0  NODE remedy-bottle "remedio o veneno: no está en el frasco" ~diferencia
++0.0  NODE photo-balanza "está en la dosis" ~dosis
+```
+
+### BEAT 86 · 00:00 · T1
+Narración: *"Y ahora que conoces…"*
+```
++0.0  CHAP "El arma de los cobardes" silent-poison
++0.0  SCENE list
++0.0  NODE eye-slash "el mayor peligro no se ve" ~ve
++0.0  NODE nose-slash "ni se huele" ~huele
++0.0  NODE tongue-slash "ni se saborea" ~saborea
+```
+
+### BEAT 87 · 00:00 · T1
+Narración: *"Por eso, durante siglos…"*
+```
++0.0  SCENE versus
++0.0  NODE coward-hidden "el arma de los cobardes" ~cobardes
++0.0  NODE photo-alejandro "y de los poderosos por igual" ~poderosos
+```
+
+### BEAT 88 · 00:00 · T1
+Narración: *"Mataba en silencio, a…"*
+```
++0.0  SCENE flow
++0.0  NODE mute-weapon "mataba en silencio, a distancia" ~silencio
++0.0  NODE empty-question "una pregunta sin respuesta" ~pregunta
+```
+
+### BEAT 89 · 00:00 · T1
+Narración: *"Hoy la ciencia es…"*
+```
++0.0  SCENE focus
++0.0  NODE clip-lab "hoy la ciencia detecta casi cualquier rastro" ~ciencia
++0.0  NODE - "casi cualquier rastro" ~rastro
+```
+
+### BEAT 90 · 00:00 · T1
+Narración: *"Pero la historia del…"*
+```
++0.0  SCENE words
++0.0  NODE - "Pero la historia del veneno es" ~historia
++0.0  NODE - "*la más silenciosa y escalofriante de todas*" ~silenciosa
+```
+

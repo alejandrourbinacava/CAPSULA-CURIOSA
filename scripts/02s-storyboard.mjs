@@ -85,6 +85,7 @@ for (const b of beats) {
 }
 for (let i = 0; i < beats.length; i++) beats[i].t1 = i + 1 < beats.length ? Math.max(beats[i].t0 + 1, beats[i + 1].t0) : dur;
 if (process.env.DUMP_BEATS) fs.writeFileSync(process.env.DUMP_BEATS, JSON.stringify(beats.map(b => ({ num: b.num, t0: b.t0, t1: b.t1, nar: b.nar.slice(0, 40) })), null, 1));
+if (process.env.DUMP_BEATS && process.env.DRY) process.exit(0); // modo comprobación: sólo tiempos de beats, sin escribir scenes.json
 
 // sincroniza un texto a SU palabra en la voz (busca su 1ª palabra en la prosa cerca del beat) → tiempo real
 const syncWordTime = (content, b) => {
