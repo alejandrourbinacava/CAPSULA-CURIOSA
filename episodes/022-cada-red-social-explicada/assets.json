@@ -268,42 +268,74 @@
   "photo-phone": {
     "kind": "cutout",
     "query": "Teléfono inteligente",
-    "file": "assets/icons/photo-phone.jpg"
+    "file": "assets/icons/photo-phone.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Teléfono inteligente",
+      "description": "teléfono móvil con capacidades similares a las de una computadora"
+    }
   },
   "photo-laptop": {
     "kind": "cutout",
     "query": "Ordenador portátil",
-    "file": "assets/icons/photo-laptop.jpg"
+    "file": "assets/icons/photo-laptop.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Computadora portátil",
+      "description": "computadora personal para uso móvil"
+    }
   },
   "photo-server": {
     "kind": "cutout",
     "query": "Centro de datos",
-    "file": "assets/icons/photo-server.jpg"
+    "file": "assets/icons/photo-server.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Centro de procesamiento de datos",
+      "description": "instalación donde se alojan sistemas informáticos y componentes asociados, y donde se concentran los recursos para el proceso y organización de la información"
+    }
   },
   "photo-camera": {
     "kind": "cutout",
     "query": "Cámara fotográfica",
-    "file": "assets/icons/photo-camera.jpg"
+    "file": "assets/icons/photo-camera.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Cámara fotográfica",
+      "description": "dispositivo utilizado para capturar imágenes o fotografías"
+    }
   },
   "photo-crowd": {
     "kind": "cutout",
     "query": "Multitud de personas",
-    "file": "assets/icons/photo-crowd.jpg"
+    "file": "assets/icons/photo-crowd.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Persona desaparecida",
+      "description": "persona cuya localización se desconoce"
+    }
   },
   "photo-money": {
     "kind": "cutout",
     "query": "Billetes de euro",
-    "file": "assets/icons/photo-money.png"
+    "file": "assets/icons/photo-money.png",
+    "attribution": {
+      "source": "wikipedia:es:Billetes de euro",
+      "description": "papel moneda de la Unión Europea"
+    }
   },
   "photo-brain": {
     "kind": "cutout",
     "query": "Cerebro humano",
-    "file": "assets/icons/photo-brain.jpg"
+    "file": "assets/icons/photo-brain.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Cerebro humano",
+      "description": "principal órgano del sistema nervioso humano"
+    }
   },
   "photo-eye": {
     "kind": "cutout",
     "query": "Ojo humano",
-    "file": "assets/icons/photo-eye.jpg"
+    "file": "assets/icons/photo-eye.jpg",
+    "attribution": {
+      "source": "wikipedia:es:Ojo humano",
+      "description": "órgano sensorial de la vista"
+    }
   },
   "clip-phone-scroll": {
     "kind": "clip",
@@ -424,5 +456,1132 @@
       "credit": "Coverr",
       "url": "https://www.pexels.com/video/black-and-white-video-of-a-busy-street-853946/"
     }
+  },
+  "clip-earth": {
+    "kind": "clip",
+    "query": "earth",
+    "file": "assets/clips/clip-earth.mp4"
+  },
+  "clip-casino-floor": {
+    "kind": "clip",
+    "query": "casino-floor",
+    "file": "assets/clips/clip-casino-floor.mp4"
+  },
+  "clip-neurons": {
+    "kind": "clip",
+    "query": "neurons",
+    "file": "assets/clips/clip-neurons.mp4"
+  },
+  "clip-mirror": {
+    "kind": "clip",
+    "query": "mirror",
+    "file": "assets/clips/clip-mirror.mp4"
+  },
+  "clip-thinking": {
+    "kind": "clip",
+    "query": "thinking",
+    "file": "assets/clips/clip-thinking.mp4"
+  },
+  "clip-party": {
+    "kind": "clip",
+    "query": "party",
+    "file": "assets/clips/clip-party.mp4"
+  },
+  "clip-slot": {
+    "kind": "clip",
+    "query": "slot",
+    "file": "assets/clips/clip-slot.mp4"
+  },
+  "clip-dice": {
+    "kind": "clip",
+    "query": "dice",
+    "file": "assets/clips/clip-dice.mp4"
+  },
+  "clip-money": {
+    "kind": "clip",
+    "query": "money",
+    "file": "assets/clips/clip-money.mp4"
+  },
+  "free-trap": {
+    "kind": "vector",
+    "query": "a mouse trap baited with a glowing smartphone, a trap",
+    "file": "assets/icons/free-trap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "free-tag": {
+    "kind": "vector",
+    "query": "a price tag showing zero, free of charge",
+    "file": "assets/icons/free-tag.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-charge-coin": {
+    "kind": "vector",
+    "query": "a single gold coin crossed out with a red prohibition circle",
+    "file": "assets/icons/no-charge-coin.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "psych-tricks": {
+    "kind": "vector",
+    "query": "a cartoon brain being hijacked and controlled by strings, psychological tricks",
+    "file": "assets/icons/psych-tricks.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hook-bait": {
+    "kind": "vector",
+    "query": "hypnotic swirling eyes in a trance, hooked",
+    "file": "assets/icons/hook-bait.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "gears-mechanism": {
+    "kind": "vector",
+    "query": "gears turning like a clock working in synchrony, a mechanism",
+    "file": "assets/icons/gears-mechanism.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "engine-motor": {
+    "kind": "vector",
+    "query": "a big engine motor with gears and pistons powering a smartphone",
+    "file": "assets/icons/engine-motor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ad-megaphone": {
+    "kind": "vector",
+    "query": "a megaphone blasting colorful advertisement banners",
+    "file": "assets/icons/ad-megaphone.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ads-eyes": {
+    "kind": "vector",
+    "query": "a repeated advertisement seen many times by eyes",
+    "file": "assets/icons/ads-eyes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "brain-factory": {
+    "kind": "vector",
+    "query": "a brain stamped made in factory with gears, a perfected machine",
+    "file": "assets/icons/brain-factory.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "net-trap": {
+    "kind": "vector",
+    "query": "a net trap snapping shut",
+    "file": "assets/icons/net-trap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dopamine-sparkles": {
+    "kind": "vector",
+    "query": "a brain releasing dopamine sparkles of pleasure",
+    "file": "assets/icons/dopamine-sparkles.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "speech-bubble": {
+    "kind": "vector",
+    "query": "speech bubble",
+    "file": "assets/icons/speech-bubble.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "notification-bell": {
+    "kind": "vector",
+    "query": "notification bell",
+    "file": "assets/icons/notification-bell.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dopamine-messenger": {
+    "kind": "vector",
+    "query": "a dopamine molecule as a happy messenger",
+    "file": "assets/icons/dopamine-messenger.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "magic-trick-hat": {
+    "kind": "vector",
+    "query": "a magician top hat with sparkles, a magic wand and rabbit ears, the master trick",
+    "file": "assets/icons/magic-trick-hat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "win-or-lose-coin": {
+    "kind": "vector",
+    "query": "a coin flipping in the air with a question mark, win or lose",
+    "file": "assets/icons/win-or-lose-coin.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "big-question": {
+    "kind": "vector",
+    "query": "a big question mark doubt",
+    "file": "assets/icons/big-question.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mystery-find": {
+    "kind": "vector",
+    "query": "a surprised person opening a mystery treasure chest not knowing what is inside",
+    "file": "assets/icons/mystery-find.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "many-likes": {
+    "kind": "vector",
+    "query": "many red hearts and thumbs up floating upwards",
+    "file": "assets/icons/many-likes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "message-icon": {
+    "kind": "vector",
+    "query": "message",
+    "file": "assets/icons/message-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "slot-lever-pull": {
+    "kind": "vector",
+    "query": "a hand pulling down the lever of a slot machine",
+    "file": "assets/icons/slot-lever-pull.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "page-end": {
+    "kind": "vector",
+    "query": "a book page ending with a finish line flag at the bottom, the end of a page",
+    "file": "assets/icons/page-end.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "stop-hand": {
+    "kind": "vector",
+    "query": "a hand making a stop gesture",
+    "file": "assets/icons/stop-hand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "content-flood": {
+    "kind": "vector",
+    "query": "an endless river of videos, photos and posts flowing down a screen",
+    "file": "assets/icons/content-flood.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-end-road": {
+    "kind": "vector",
+    "query": "a road stretching forever to the horizon with no finish line",
+    "file": "assets/icons/no-end-road.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "human-brain": {
+    "kind": "vector",
+    "query": "human brain",
+    "file": "assets/icons/human-brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "notif-bell-red": {
+    "kind": "vector",
+    "query": "a ringing red alert notification bell",
+    "file": "assets/icons/notif-bell-red.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "returning-again": {
+    "kind": "vector",
+    "query": "a person returning to their phone again and again, circular arrows around",
+    "file": "assets/icons/returning-again.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "left-outside": {
+    "kind": "vector",
+    "query": "a person standing outside a window looking at a party inside, feeling left out",
+    "file": "assets/icons/left-outside.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "gold-trophy": {
+    "kind": "vector",
+    "query": "a gold winner trophy",
+    "file": "assets/icons/gold-trophy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "money-machine": {
+    "kind": "vector",
+    "query": "a machine printing endless money for the owner, a business model",
+    "file": "assets/icons/money-machine.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "profile-card": {
+    "kind": "vector",
+    "query": "a user profile card with a round avatar and name lines",
+    "file": "assets/icons/profile-card.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "friends-group": {
+    "kind": "vector",
+    "query": "diverse group of people",
+    "file": "assets/icons/friends-group.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "older-crowd": {
+    "kind": "vector",
+    "query": "a group of cheerful older people holding smartphones",
+    "file": "assets/icons/older-crowd.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "owns-networks": {
+    "kind": "vector",
+    "query": "a big tree whose branches hold several small smartphone app bubbles, owner of other networks",
+    "file": "assets/icons/owns-networks.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "perfect-body": {
+    "kind": "vector",
+    "query": "a muscular perfect body silhouette with sparkles",
+    "file": "assets/icons/perfect-body.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "glam-life": {
+    "kind": "vector",
+    "query": "a smartphone showing a glamorous luxury vacation life with palm trees and champagne",
+    "file": "assets/icons/glam-life.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "feel-short": {
+    "kind": "vector",
+    "query": "a small sad person standing next to a tall ruler, falling short",
+    "file": "assets/icons/feel-short.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fake-lie": {
+    "kind": "vector",
+    "query": "a cartoon brain with a long pinocchio nose, a lie",
+    "file": "assets/icons/fake-lie.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "moments-picked": {
+    "kind": "vector",
+    "query": "a hand choosing only the best photo from a messy pile of pictures",
+    "file": "assets/icons/moments-picked.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "calendar-year": {
+    "kind": "vector",
+    "query": "a wall calendar showing a year",
+    "file": "assets/icons/calendar-year.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "video-planet": {
+    "kind": "vector",
+    "query": "planet earth wearing a giant video play button, the biggest video platform",
+    "file": "assets/icons/video-planet.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "secret-box": {
+    "kind": "vector",
+    "query": "a mysterious closed black box with a glowing question mark, a secret weapon",
+    "file": "assets/icons/secret-box.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "next-suggest": {
+    "kind": "vector",
+    "query": "a video card handing over the next suggested video card on a conveyor",
+    "file": "assets/icons/next-suggest.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "perfect-pick": {
+    "kind": "vector",
+    "query": "a gift box perfectly wrapped for one specific person with a heart tag",
+    "file": "assets/icons/perfect-pick.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "effort-zero": {
+    "kind": "vector",
+    "query": "a person comfortably lying on a couch doing zero effort, a big zero",
+    "file": "assets/icons/effort-zero.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-choose": {
+    "kind": "vector",
+    "query": "a hand pushing away a menu of many choices crossed out",
+    "file": "assets/icons/no-choose.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "video-rain": {
+    "kind": "vector",
+    "query": "many short vertical videos falling like rain onto a person, one after another",
+    "file": "assets/icons/video-rain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "stopwatch": {
+    "kind": "vector",
+    "query": "a classic stopwatch timer",
+    "file": "assets/icons/stopwatch.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "replay-loop": {
+    "kind": "vector",
+    "query": "a phone video with a circular replay arrow",
+    "file": "assets/icons/replay-loop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "skip-forward": {
+    "kind": "vector",
+    "query": "a thumb skipping a video on a phone with a fast forward arrow",
+    "file": "assets/icons/skip-forward.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "countdown-timer": {
+    "kind": "vector",
+    "query": "a countdown timer clock running out of time, minutes",
+    "file": "assets/icons/countdown-timer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "dopamine-machine": {
+    "kind": "vector",
+    "query": "a factory machine pumping glowing happy drops into a smiling brain",
+    "file": "assets/icons/dopamine-machine.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "realtime-clock": {
+    "kind": "vector",
+    "query": "a stopwatch with a lightning bolt, real time",
+    "file": "assets/icons/realtime-clock.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "strong-emotions": {
+    "kind": "vector",
+    "query": "a face splitting into three strong emotions, joy, anger and surprise",
+    "file": "assets/icons/strong-emotions.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "quick-opinion": {
+    "kind": "vector",
+    "query": "a megaphone with thumbs-up speech bubbles, quick opinions",
+    "file": "assets/icons/quick-opinion.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "share-arrows": {
+    "kind": "vector",
+    "query": "a post being copied and shared with many arrows going out",
+    "file": "assets/icons/share-arrows.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "battlefield": {
+    "kind": "vector",
+    "query": "two groups of cartoon speech bubbles shouting at each other across a field, online battlefield",
+    "file": "assets/icons/battlefield.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "rage-flames": {
+    "kind": "vector",
+    "query": "a furious red face with flames on top, rage",
+    "file": "assets/icons/rage-flames.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "young-crowd": {
+    "kind": "vector",
+    "query": "a group of laughing teenagers looking at their phones",
+    "file": "assets/icons/young-crowd.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "spontaneous": {
+    "kind": "vector",
+    "query": "a person laughing candidly in a spontaneous silly selfie moment",
+    "file": "assets/icons/spontaneous.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "no-trace": {
+    "kind": "vector",
+    "query": "footprints in sand fading away leaving no trace",
+    "file": "assets/icons/no-trace.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "two-friends-chat": {
+    "kind": "vector",
+    "query": "two friends exchanging chat messages every day on their phones",
+    "file": "assets/icons/two-friends-chat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "streak-days": {
+    "kind": "vector",
+    "query": "a big streak counter with a small flame, many days in a row",
+    "file": "assets/icons/streak-days.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "streak-lost": {
+    "kind": "vector",
+    "query": "a cracked extinguished flame next to a broken counter, streak lost forever",
+    "file": "assets/icons/streak-lost.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "genius-evil": {
+    "kind": "vector",
+    "query": "a glowing lightbulb with a small devil tail, brilliant and a little cruel",
+    "file": "assets/icons/genius-evil.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "calendar-checked": {
+    "kind": "vector",
+    "query": "a calendar where every single day is checked off with no exception",
+    "file": "assets/icons/calendar-checked.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "apps-grid": {
+    "kind": "vector",
+    "query": "a grid of colorful generic app icons on a phone home screen",
+    "file": "assets/icons/apps-grid.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "typing-dots": {
+    "kind": "vector",
+    "query": "a chat bubble with three typing dots",
+    "file": "assets/icons/typing-dots.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "life-pie": {
+    "kind": "vector",
+    "query": "a pie chart of a person's life with a different phone app biting each slice",
+    "file": "assets/icons/life-pie.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "many-hands": {
+    "kind": "vector",
+    "query": "many hands from different apps all reaching for the same clock",
+    "file": "assets/icons/many-hands.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "filter-bubble": {
+    "kind": "vector",
+    "query": "a person sitting inside a transparent soap bubble holding a phone",
+    "file": "assets/icons/filter-bubble.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "echo-clones": {
+    "kind": "vector",
+    "query": "many identical clones of the same person all thinking the same, echo chamber",
+    "file": "assets/icons/echo-clones.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fading-opinions": {
+    "kind": "vector",
+    "query": "several speech bubbles with different opinions fading away",
+    "file": "assets/icons/fading-opinions.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "blinkers": {
+    "kind": "vector",
+    "query": "a person wearing horse blinkers seeing only a narrow view",
+    "file": "assets/icons/blinkers.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "forum-board": {
+    "kind": "vector",
+    "query": "a bulletin board with many themed corners, a forum of communities",
+    "file": "assets/icons/forum-board.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hobby-corner": {
+    "kind": "vector",
+    "query": "small cozy corners each with a different hobby, a guitar, a game controller, a book",
+    "file": "assets/icons/hobby-corner.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "voting-arrows": {
+    "kind": "vector",
+    "query": "an upvote arrow and a downvote arrow",
+    "file": "assets/icons/voting-arrows.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "rise-sink": {
+    "kind": "vector",
+    "query": "one post floating up like a balloon while another post sinks down in water",
+    "file": "assets/icons/rise-sink.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "live-dot": {
+    "kind": "vector",
+    "query": "a red live recording dot with broadcast waves",
+    "file": "assets/icons/live-dot.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "text-post": {
+    "kind": "vector",
+    "query": "a text box post with written lines on it",
+    "file": "assets/icons/text-post.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "video-camera": {
+    "kind": "vector",
+    "query": "video camera",
+    "file": "assets/icons/video-camera.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "robot-brain": {
+    "kind": "vector",
+    "query": "a robotic brain made of circuit boards and gears",
+    "file": "assets/icons/robot-brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "steal-minute": {
+    "kind": "vector",
+    "query": "a hand stealing a minute from a clock and putting it in a small sack",
+    "file": "assets/icons/steal-minute.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "money-question": {
+    "kind": "vector",
+    "query": "a gold coin with a big question mark above it",
+    "file": "assets/icons/money-question.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "age-cake": {
+    "kind": "vector",
+    "query": "a birthday cake with candles, age",
+    "file": "assets/icons/age-cake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "favorite-things": {
+    "kind": "vector",
+    "query": "a heart surrounded by favorite things, likes",
+    "file": "assets/icons/favorite-things.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "scared-face": {
+    "kind": "vector",
+    "query": "a scared frightened face fear",
+    "file": "assets/icons/scared-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mood-emojis": {
+    "kind": "vector",
+    "query": "a row of mood emoji faces going from happy to sad",
+    "file": "assets/icons/mood-emojis.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "perfect-moment": {
+    "kind": "vector",
+    "query": "a clock and a bullseye target showing the perfect moment",
+    "file": "assets/icons/perfect-moment.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "customer-cart": {
+    "kind": "vector",
+    "query": "a happy customer pushing a shopping cart",
+    "file": "assets/icons/customer-cart.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "price-anchor": {
+    "kind": "vector",
+    "query": "a heavy ship anchor attached to a price tag",
+    "file": "assets/icons/price-anchor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hourglass-out": {
+    "kind": "vector",
+    "query": "an hourglass running out of sand time ends",
+    "file": "assets/icons/hourglass-out.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "big-bill": {
+    "kind": "vector",
+    "query": "a very long receipt bill unrolling to the floor, a high cost",
+    "file": "assets/icons/big-bill.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "overuse-phone": {
+    "kind": "vector",
+    "query": "an exhausted person glued to a phone with a huge screen time counter",
+    "file": "assets/icons/overuse-phone.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "worried-face": {
+    "kind": "vector",
+    "query": "a sad worried face",
+    "file": "assets/icons/worried-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "real-life": {
+    "kind": "vector",
+    "query": "a person in pajamas on a plain ordinary sofa, real life",
+    "file": "assets/icons/real-life.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "limited-battery": {
+    "kind": "vector",
+    "query": "a nearly empty battery with an eye symbol, limited attention",
+    "file": "assets/icons/limited-battery.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tug-of-war": {
+    "kind": "vector",
+    "query": "many cartoon companies pulling a giant eye in a tug of war",
+    "file": "assets/icons/tug-of-war.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "phone-window": {
+    "kind": "vector",
+    "query": "a smartphone flying out of an open window",
+    "file": "assets/icons/phone-window.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "steering-wheel": {
+    "kind": "vector",
+    "query": "two strong hands gripping a steering wheel in control",
+    "file": "assets/icons/steering-wheel.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "first-step": {
+    "kind": "vector",
+    "query": "a foot stepping onto the first stair of a staircase",
+    "file": "assets/icons/first-step.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "app-puppet": {
+    "kind": "vector",
+    "query": "a stranger hand taking remote control of a person like a puppet",
+    "file": "assets/icons/app-puppet.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "notif-off": {
+    "kind": "vector",
+    "query": "a phone with a notification bell crossed out",
+    "file": "assets/icons/notif-off.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "bw-phone": {
+    "kind": "vector",
+    "query": "a smartphone with a black and white grayscale screen",
+    "file": "assets/icons/bw-phone.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "colorful-phone": {
+    "kind": "vector",
+    "query": "a phone with loud colorful flashing app icons, a hook",
+    "file": "assets/icons/colorful-phone.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "brain-reward": {
+    "kind": "vector",
+    "query": "a brain reward circuit lighting up with pleasure",
+    "file": "assets/icons/brain-reward.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "concrete-task": {
+    "kind": "vector",
+    "query": "a person with a checklist doing one concrete task",
+    "file": "assets/icons/concrete-task.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "pause-brain": {
+    "kind": "vector",
+    "query": "a pause button glowing inside a brain",
+    "file": "assets/icons/pause-brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "not-bad": {
+    "kind": "vector",
+    "query": "a smartphone with a green check mark and a friendly smile",
+    "file": "assets/icons/not-bad.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "connect-hands": {
+    "kind": "vector",
+    "query": "two hands connected by a glowing thread",
+    "file": "assets/icons/connect-hands.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "fun-laugh": {
+    "kind": "vector",
+    "query": "a laughing happy face with confetti",
+    "file": "assets/icons/fun-laugh.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "target-crosshair": {
+    "kind": "vector",
+    "query": "a red targeting crosshair reticle",
+    "file": "assets/icons/target-crosshair.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "treasure-chest": {
+    "kind": "vector",
+    "query": "a glowing open treasure chest full of gold, the most valuable resource",
+    "file": "assets/icons/treasure-chest.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "hard-to-hook": {
+    "kind": "vector",
+    "query": "a clever fish wearing sunglasses refusing a baited hook",
+    "file": "assets/icons/hard-to-hook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-reloj-arena": {
+    "kind": "cutout",
+    "query": "Reloj de arena",
+    "wiki": "Reloj de arena",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Reloj de arena",
+      "description": "dispositivo para medir el paso del tiempo que funciona con la energía potencial de la gravedad de la arena"
+    },
+    "file": "assets/icons/photo-reloj-arena.jpg"
+  },
+  "photo-pantalla-tactil": {
+    "kind": "cutout",
+    "query": "Pantalla táctil",
+    "wiki": "Pantalla táctil",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Pantalla táctil",
+      "description": "dispositivo de entrada/salida generalmente en capas en la parte superior de una pantalla visual electrónica"
+    },
+    "file": "assets/icons/photo-pantalla-tactil.jpg"
+  },
+  "photo-valla": {
+    "kind": "cutout",
+    "query": "Valla publicitaria",
+    "wiki": "Valla publicitaria",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Valla publicitaria",
+      "description": "gran letrero de publicidad exterior"
+    },
+    "file": "assets/icons/photo-valla.jpg"
+  },
+  "photo-huella": {
+    "kind": "cutout",
+    "query": "Huella dactilar",
+    "wiki": "Huella dactilar",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Huella dactilar",
+      "description": "impresión visible o moldeada que produce el contacto de las crestas papilares de un dedo de la mano"
+    },
+    "file": "assets/icons/photo-huella.jpg"
+  },
+  "photo-tragamonedas": {
+    "kind": "cutout",
+    "query": "Máquinas tragamonedas",
+    "wiki": "Máquinas tragamonedas",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Máquinas tragamonedas",
+      "description": "máquina de juego"
+    },
+    "file": "assets/icons/photo-tragamonedas.jpg"
+  },
+  "photo-dado": {
+    "kind": "cutout",
+    "query": "Dado",
+    "wiki": "Dado",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Dado",
+      "description": "objeto de forma poliédrica que muestra un resultado aleatorio cuando es lanzado"
+    },
+    "file": "assets/icons/photo-dado.jpg"
+  },
+  "photo-periodico": {
+    "kind": "cutout",
+    "query": "Periódico",
+    "wiki": "Periódico",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Periódico",
+      "description": "publicación que contiene información sobre sucesos diversos"
+    },
+    "file": "assets/icons/photo-periodico.jpg"
+  },
+  "photo-casino-monaco": {
+    "kind": "cutout",
+    "query": "Casino de Montecarlo",
+    "wiki": "Casino de Montecarlo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Casino de Montecarlo",
+      "description": "Casino Mónaco"
+    },
+    "file": "assets/icons/photo-casino-monaco.jpg"
+  },
+  "photo-ruleta": {
+    "kind": "cutout",
+    "query": "Ruleta",
+    "wiki": "Ruleta",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Ruleta",
+      "description": "juego de azar"
+    },
+    "file": "assets/icons/photo-ruleta.jpg"
+  },
+  "photo-pompa": {
+    "kind": "cutout",
+    "query": "Pompa de jabón",
+    "wiki": "Pompa de jabón",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Pompa de jabón",
+      "description": "capa de líquido con dos películas muy finas de jabón y agua que forma una esfera hueca"
+    },
+    "file": "assets/icons/photo-pompa.jpg"
+  },
+  "photo-despertador": {
+    "kind": "cutout",
+    "query": "Reloj despertador",
+    "wiki": "Reloj despertador",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Reloj despertador",
+      "description": "tipo de reloj con un mecanismo sonoro que se activa a una hora preestablecida"
+    },
+    "file": "assets/icons/photo-despertador.jpg"
+  },
+  "photo-espejo": {
+    "kind": "cutout",
+    "query": "Espejo",
+    "wiki": "Espejo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Espejo",
+      "description": "objeto que refleja una imagen"
+    },
+    "file": "assets/icons/photo-espejo.jpg"
+  },
+  "photo-almohada": {
+    "kind": "cutout",
+    "query": "Almohada",
+    "wiki": "Almohada",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Almohada",
+      "description": "pieza mullida en la que se apoya la cabeza durante el sueño"
+    },
+    "file": "assets/icons/photo-almohada.jpg"
+  },
+  "photo-iman": {
+    "kind": "cutout",
+    "query": "Imán",
+    "wiki": "Imán",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Imán",
+      "description": "cuerpo o dispositivo con un magnetismo significativo"
+    },
+    "file": "assets/icons/photo-iman.jpg"
+  },
+  "photo-camara-ip": {
+    "kind": "cutout",
+    "query": "Cámara IP",
+    "wiki": "Cámara IP",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Cámara IP",
+      "description": "dispositivo de grabación"
+    },
+    "file": "assets/icons/photo-camara-ip.jpg"
+  },
+  "photo-subasta": {
+    "kind": "cutout",
+    "query": "Subasta",
+    "wiki": "Subasta",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Subasta",
+      "description": "proceso de ofrecer bienes o servicios para ofertas"
+    },
+    "file": "assets/icons/photo-subasta.jpg"
+  },
+  "clip-streamer": {
+    "kind": "clip",
+    "query": "gamer streaming live webcam headset",
+    "file": "assets/clips/clip-streamer.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/a-woman-live-streaming-her-computer-gaming-7914841/"
+    }
+  },
+  "clip-notification": {
+    "kind": "clip",
+    "query": "smartphone notification lights up screen on table",
+    "file": "assets/clips/clip-notification.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Sambhaji Gaikwad",
+      "url": "https://www.pexels.com/video/close-up-of-mobile-device-with-text-notification-34786856/"
+    }
+  },
+  "clip-engineers": {
+    "kind": "clip",
+    "query": "software developers working office computers coding",
+    "file": "assets/clips/clip-engineers.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/working-men-in-the-office-6804123/"
+    }
+  },
+  "clip-video-call": {
+    "kind": "clip",
+    "query": "video call laptop talking to friend",
+    "file": "assets/clips/clip-video-call.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/person-using-laptop-6413835/"
+    }
+  },
+  "clip-shopping": {
+    "kind": "clip",
+    "query": "shopping",
+    "file": "assets/clips/clip-shopping.mp4"
+  },
+  "clip-heartbeat": {
+    "kind": "clip",
+    "query": "heartbeat",
+    "file": "assets/clips/clip-heartbeat.mp4"
+  },
+  "photo-anteojeras": {
+    "kind": "cutout",
+    "query": "Anteojeras",
+    "wiki": "Anteojeras",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Anteojeras",
+      "description": ""
+    },
+    "file": "assets/icons/photo-anteojeras.jpg"
+  },
+  "photo-motor": {
+    "kind": "cutout",
+    "query": "Motor",
+    "wiki": "Motor",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Motor",
+      "description": "dispositivo que convierte alguna forma de energía en energía mecánica"
+    },
+    "file": "assets/icons/photo-motor.jpg"
+  },
+  "photo-urna": {
+    "kind": "cutout",
+    "query": "Urna electoral",
+    "wiki": "Urna",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Urna",
+      "description": "recipiente para alojar votos en un sufragio"
+    },
+    "file": "assets/icons/photo-urna.jpg"
+  },
+  "photo-anuncio": {
+    "kind": "cutout",
+    "query": "Anuncio",
+    "wiki": "Anuncio",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Anuncio",
+      "description": "mensaje publicitario"
+    },
+    "file": "assets/icons/photo-anuncio.jpg"
   }
 }

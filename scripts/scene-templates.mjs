@@ -68,20 +68,20 @@ export function buildScene(spec, ctx) {
   const addLabel = (nd, cx, cy, maxW, fsz = 46, color) => {
     if (!nd.label) return 0;
     const cw = color === ctx.RED ? 0.63 : CW; const { fs, lines } = labelLines(nd.label, maxW, fsz, cw); const lh = Math.round(fs * 1.3), top = cy - ((lines.length - 1) * lh) / 2;
-    lines.forEach((ln, i) => { const bw = Math.round(ln.length * fs * cw) + 36; els.push({ id: id("l"), type: "text", content: ln, fontSize: fs, box: { cx, cy: Math.round(top + i * lh), w: bw, h: lh - 4 }, color: color || INK, z: 60, ...(dark ? { noHalo: true } : {}), in: +(nd.t + 0.2 + i * 0.12).toFixed(2), out: t1, enter: ctx.enterOf("fade"), exit: { kind: exitK, duration: 0.25 }, _scene: true }); });
+    lines.forEach((ln, i) => { const bw = Math.round(ln.length * fs * cw) + 36; els.push({ id: id("l"), type: "text", content: ln, fontSize: fs, box: { cx: Math.round(clamp(cx, 110 + bw / 2, 1810 - bw / 2)), cy: Math.round(top + i * lh), w: bw, h: lh - 4 }, color: color || INK, z: 60, ...(dark ? { noHalo: true } : {}), in: +(nd.t + 0.2 + i * 0.12).toFixed(2), out: t1, enter: ctx.enterOf("fade"), exit: { kind: exitK, duration: 0.25 }, _scene: true }); });
     return lines.length;
   };
   // rótulo a la derecha del icono, alineado a la izquierda (listas y abanicos)
   const addSideLabel = (nd, xLeft, cy, maxW, fsz = 44, color) => {
     if (!nd.label) return;
     const cw = color === ctx.RED ? 0.63 : CW; const { fs, lines } = labelLines(nd.label, maxW, fsz, cw); const lh = Math.round(fs * 1.3), top = cy - ((lines.length - 1) * lh) / 2;
-    lines.forEach((ln, i) => { const bw = Math.round(ln.length * fs * cw) + 36; els.push({ id: id("l"), type: "text", content: ln, fontSize: fs, box: { cx: Math.round(xLeft + bw / 2), cy: Math.round(top + i * lh), w: bw, h: lh - 4 }, color: color || INK, z: 60, ...(dark ? { noHalo: true } : {}), in: +(nd.t + 0.2 + i * 0.12).toFixed(2), out: t1, enter: ctx.enterOf("handwrite"), exit: { kind: exitK, duration: 0.25 }, _scene: true }); });
+    lines.forEach((ln, i) => { const bw = Math.round(ln.length * fs * cw) + 36; els.push({ id: id("l"), type: "text", content: ln, fontSize: fs, box: { cx: Math.round(clamp(xLeft + bw / 2, 110 + bw / 2, 1810 - bw / 2)), cy: Math.round(top + i * lh), w: bw, h: lh - 4 }, color: color || INK, z: 60, ...(dark ? { noHalo: true } : {}), in: +(nd.t + 0.2 + i * 0.12).toFixed(2), out: t1, enter: ctx.enterOf("handwrite"), exit: { kind: exitK, duration: 0.25 }, _scene: true }); });
   };
   // rótulo a la IZQUIERDA del icono (alineado a la derecha, pegado al icono)
   const addLeftLabel = (nd, xRight, cy, maxW, fsz = 44, color) => {
     if (!nd.label) return;
     const cw = color === ctx.RED ? 0.63 : CW; const { fs, lines } = labelLines(nd.label, maxW, fsz, cw); const lh = Math.round(fs * 1.3), top = cy - ((lines.length - 1) * lh) / 2;
-    lines.forEach((ln, i) => { const bw = Math.round(ln.length * fs * cw) + 36; els.push({ id: id("l"), type: "text", content: ln, fontSize: fs, box: { cx: Math.round(xRight - bw / 2), cy: Math.round(top + i * lh), w: bw, h: lh - 4 }, color: color || INK, z: 60, ...(dark ? { noHalo: true } : {}), in: +(nd.t + 0.2 + i * 0.12).toFixed(2), out: t1, enter: ctx.enterOf("handwrite"), exit: { kind: exitK, duration: 0.25 }, _scene: true }); });
+    lines.forEach((ln, i) => { const bw = Math.round(ln.length * fs * cw) + 36; els.push({ id: id("l"), type: "text", content: ln, fontSize: fs, box: { cx: Math.round(clamp(xRight - bw / 2, 110 + bw / 2, 1810 - bw / 2)), cy: Math.round(top + i * lh), w: bw, h: lh - 4 }, color: color || INK, z: 60, ...(dark ? { noHalo: true } : {}), in: +(nd.t + 0.2 + i * 0.12).toFixed(2), out: t1, enter: ctx.enterOf("handwrite"), exit: { kind: exitK, duration: 0.25 }, _scene: true }); });
   };
   // rótulo fuera del anillo según el ángulo: arriba, abajo o al costado
   const addRingLabel = (nd, x, y, S, sin, cos, maxW, fsz = 42, sideTop = false) => {
@@ -132,8 +132,8 @@ export function buildScene(spec, ctx) {
     }
     // ===== ladder: escalera ascendente de niveles (Tipo 0 → I → II → III…) =====
     case "ladder": {
-      const x0 = 330, x1 = 1590, S = pick(n, [320, 290, 250, 215, 190, 170]), yLow = 610, yHigh = 360, dn = V.has("down");
-      nodes.forEach((nd, i) => { const f = n > 1 ? i / (n - 1) : 0.5; const cx = Math.round(x0 + (x1 - x0) * f), cy = Math.round(dn ? yHigh + (yLow - yHigh) * f : yLow - (yLow - yHigh) * f); addNode(nd, cx, cy, S, "pop"); addLabel(nd, cx, cy + under(nd, S), Math.max(260, (x1 - x0) / Math.max(1, n - 1) - 20), 42); });
+      const x0 = 330, x1 = 1590, S = pick(n, [320, 290, 250, 215, 190, 170]), yLow = 640, yHigh = 405, dn = V.has("down");
+      nodes.forEach((nd, i) => { const f = n > 1 ? i / (n - 1) : 0.5; const cx = Math.round(x0 + (x1 - x0) * f), cy = Math.round(dn ? yHigh + (yLow - yHigh) * f : yLow - (yLow - yHigh) * f); addNode(nd, cx, cy, S, "pop"); addLabel(nd, cx, cy + under(nd, S), Math.min(Math.max(260, (x1 - x0) / Math.max(1, n - 1) - 20), 2 * (Math.min(cx, 1920 - cx) - 50)), 42); });
       for (let i = 1; i < n; i++) addArrow(nodes[i - 1], nodes[i], nodes[i].t - 0.3, { curve: dn ? "down" : "up" });
       break;
     }
