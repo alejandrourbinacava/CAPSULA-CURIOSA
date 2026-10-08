@@ -62,7 +62,7 @@ EXTRA.forEach((c, k) => { // un asplit por tipo de efecto, cada copia retrasada 
   c.t.forEach((t, i) => { const d = Math.max(1, Math.round(t * 1000)); fc += `[x${k}_${i}]adelay=${d}|${d}[y${k}_${i}];`; labels.push(`[y${k}_${i}]`); });
 });
 if (hasMusic) { fc += `[${idxMusic}:a]volume=${MUSIC_DB}[m];`; labels.push("[m]"); }
-fc += labels.join("") + `amix=inputs=${labels.length}:duration=first:normalize=0[a]`;
+fc += labels.join("") + `amix=inputs=${labels.length}:duration=first:normalize=0,alimiter=limit=0.97:level=disabled[a]`; // limitador: voz fuerte + pops/sfx encima no deben recortar (clipping)
 
 // filtro EN LÍNEA (un solo argumento; execFileSync no pasa por shell → sin límite ni escapes).
 // -filter_complex_script daba "Error splitting the argument list" en el ffmpeg estricto de la CI.
