@@ -12,5 +12,5 @@ const comp = await selectComposition({ serveUrl, id: "Scene" });
 const fps = comp.fps, f0 = Math.round(+from * fps), f1 = Math.min(comp.durationInFrames - 1, Math.round(+to * fps));
 fs.mkdirSync(path.dirname(outFile), { recursive: true });
 let last = 0;
-await renderMedia({ composition: comp, serveUrl, codec: "h264", outputLocation: outFile, frameRange: [f0, f1], scale, crf: 27, audioCodec: "aac", onProgress: ({ progress }) => { const p = Math.floor(progress * 10); if (p > last) { last = p; console.log("  " + p * 10 + "%"); } } });
+await renderMedia({ composition: comp, serveUrl, codec: "h264", outputLocation: outFile, frameRange: [f0, f1], scale, crf: +(process.env.CRF || 27), jpegQuality: +(process.env.JPEGQ || 80), audioCodec: "aac", onProgress: ({ progress }) => { const p = Math.floor(progress * 10); if (p > last) { last = p; console.log("  " + p * 10 + "%"); } } });
 console.log("preview:", outFile); process.exit(0);
