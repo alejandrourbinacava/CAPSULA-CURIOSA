@@ -1334,7 +1334,7 @@
       "content": "esta misma semana",
       "fontSize": 46,
       "box": {
-        "cx": 1560,
+        "cx": 1546,
         "cy": 480,
         "w": 529,
         "h": 56
@@ -1984,7 +1984,7 @@
       "content": "te llega un correo",
       "fontSize": 44,
       "box": {
-        "cx": 302,
+        "cx": 314,
         "cy": 420,
         "w": 408,
         "h": 53
@@ -4573,7 +4573,7 @@
       "content": "para pagar dos euros",
       "fontSize": 44,
       "box": {
-        "cx": 281,
+        "cx": 335,
         "cy": 710,
         "w": 450,
         "h": 53
@@ -8122,7 +8122,7 @@
       "content": "un pago que vence hoy",
       "fontSize": 44,
       "box": {
-        "cx": 271,
+        "cx": 345,
         "cy": 420,
         "w": 470,
         "h": 53
@@ -8214,7 +8214,7 @@
       "content": "preocupada por su hijo",
       "fontSize": 36,
       "box": {
-        "cx": 247,
+        "cx": 314,
         "cy": 734,
         "w": 408,
         "h": 43
@@ -10411,7 +10411,7 @@
       "content": "o inventa otra emergencia",
       "fontSize": 46,
       "box": {
-        "cx": 1560,
+        "cx": 1522,
         "cy": 716,
         "w": 577,
         "h": 56
@@ -10601,7 +10601,7 @@
       "content": "dice quererte muchísimo",
       "fontSize": 46,
       "box": {
-        "cx": 360,
+        "cx": 377,
         "cy": 716,
         "w": 533,
         "h": 56
@@ -10774,7 +10774,7 @@
       "content": "y acaba pidiéndote dinero",
       "fontSize": 46,
       "box": {
-        "cx": 1560,
+        "cx": 1522,
         "cy": 716,
         "w": 577,
         "h": 56
@@ -11631,7 +11631,7 @@
       "id": "n57_0",
       "box": {
         "cx": 330,
-        "cy": 610,
+        "cy": 640,
         "w": 375,
         "h": 210
       },
@@ -11668,7 +11668,7 @@
       "fontSize": 42,
       "box": {
         "cx": 330,
-        "cy": 752,
+        "cy": 782,
         "w": 312,
         "h": 51
       },
@@ -11703,7 +11703,7 @@
       "fontSize": 42,
       "box": {
         "cx": 330,
-        "cy": 807,
+        "cy": 837,
         "w": 372,
         "h": 51
       },
@@ -11735,7 +11735,7 @@
       "id": "n57_3",
       "box": {
         "cx": 960,
-        "cy": 485,
+        "cy": 523,
         "w": 250,
         "h": 250
       },
@@ -11772,7 +11772,7 @@
       "fontSize": 42,
       "box": {
         "cx": 960,
-        "cy": 656,
+        "cy": 694,
         "w": 411,
         "h": 51
       },
@@ -11804,7 +11804,7 @@
       "id": "n57_5",
       "box": {
         "cx": 1590,
-        "cy": 360,
+        "cy": 405,
         "w": 250,
         "h": 250
       },
@@ -11841,7 +11841,7 @@
       "fontSize": 42,
       "box": {
         "cx": 1590,
-        "cy": 531,
+        "cy": 576,
         "w": 372,
         "h": 51
       },
@@ -11874,11 +11874,11 @@
       "type": "arrow",
       "a": {
         "x": 543,
-        "y": 568
+        "y": 600
       },
       "b": {
         "x": 804,
-        "y": 516
+        "y": 552
       },
       "curve": "up",
       "color": "#EE2B37",
@@ -11910,11 +11910,11 @@
       "type": "arrow",
       "a": {
         "x": 1108,
-        "y": 456
+        "y": 495
       },
       "b": {
         "x": 1434,
-        "y": 391
+        "y": 434
       },
       "curve": "up",
       "color": "#EE2B37",
@@ -13244,7 +13244,7 @@
       "content": "las tiendas falsas",
       "fontSize": 42,
       "box": {
-        "cx": 1620,
+        "cx": 1615,
         "cy": 332,
         "w": 391,
         "h": 51
@@ -13618,7 +13618,7 @@
       "id": "n66_0",
       "box": {
         "cx": 330,
-        "cy": 610,
+        "cy": 640,
         "w": 290,
         "h": 290
       },
@@ -13647,12 +13647,12 @@
     {
       "id": "l66_1",
       "type": "text",
-      "content": "ofertas que acaban en minutos",
+      "content": "ofertas que",
       "fontSize": 42,
       "box": {
         "cx": 330,
-        "cy": 801,
-        "w": 608,
+        "cy": 804,
+        "w": 253,
         "h": 51
       },
       "color": "#111111",
@@ -13676,10 +13676,41 @@
       }
     },
     {
-      "id": "n66_2",
+      "id": "l66_2",
+      "type": "text",
+      "content": "acaban en minutos",
+      "fontSize": 42,
+      "box": {
+        "cx": 330,
+        "cy": 859,
+        "w": 372,
+        "h": 51
+      },
+      "color": "#111111",
+      "z": 60,
+      "in": 300.99,
+      "out": 305.16,
+      "enter": {
+        "kind": "fade-in",
+        "duration": 0.4
+      },
+      "exit": {
+        "kind": "fade-out",
+        "duration": 0.25
+      },
+      "_scene": true,
+      "cam": {
+        "t0": 300.62,
+        "t1": 305.16,
+        "s0": 1.05,
+        "s1": 1
+      }
+    },
+    {
+      "id": "n66_3",
       "box": {
         "cx": 1590,
-        "cy": 360,
+        "cy": 405,
         "w": 290,
         "h": 290
       },
@@ -13706,13 +13737,13 @@
       }
     },
     {
-      "id": "l66_3",
+      "id": "l66_4",
       "type": "text",
       "content": "un contador que corre",
       "fontSize": 42,
       "box": {
-        "cx": 1590,
-        "cy": 551,
+        "cx": 1585,
+        "cy": 596,
         "w": 451,
         "h": 51
       },
@@ -13737,15 +13768,15 @@
       }
     },
     {
-      "id": "ar66_4",
+      "id": "ar66_5",
       "type": "arrow",
       "a": {
         "x": 498,
-        "y": 577
+        "y": 609
       },
       "b": {
         "x": 1414,
-        "y": 395
+        "y": 438
       },
       "curve": "up",
       "color": "#EE2B37",
@@ -16709,7 +16740,7 @@
       "content": "lee siempre el mensaje",
       "fontSize": 46,
       "box": {
-        "cx": 360,
+        "cx": 366,
         "cy": 707,
         "w": 512,
         "h": 56
@@ -17717,7 +17748,7 @@
       "content": "o los impuestos del premio",
       "fontSize": 46,
       "box": {
-        "cx": 1560,
+        "cx": 1511,
         "cy": 716,
         "w": 598,
         "h": 56
@@ -19210,7 +19241,7 @@
       "content": "miedo a perder tu dinero",
       "fontSize": 46,
       "box": {
-        "cx": 1573,
+        "cx": 1533,
         "cy": 345,
         "w": 555,
         "h": 56
@@ -19749,7 +19780,7 @@
       "content": "comprar tarjetas regalo",
       "fontSize": 46,
       "box": {
-        "cx": 1592,
+        "cx": 1544,
         "cy": 735,
         "w": 533,
         "h": 56
@@ -19873,7 +19904,7 @@
       "content": "una emoción intensa",
       "fontSize": 44,
       "box": {
-        "cx": 307,
+        "cx": 325,
         "cy": 565,
         "w": 429,
         "h": 53
@@ -19934,7 +19965,7 @@
       "content": "una petición extraña",
       "fontSize": 44,
       "box": {
-        "cx": 296,
+        "cx": 335,
         "cy": 790,
         "w": 450,
         "h": 53
@@ -20243,7 +20274,7 @@
       "id": "n97_0",
       "box": {
         "cx": 330,
-        "cy": 610,
+        "cy": 640,
         "w": 250,
         "h": 250
       },
@@ -20280,7 +20311,7 @@
       "fontSize": 42,
       "box": {
         "cx": 330,
-        "cy": 781,
+        "cy": 811,
         "w": 115,
         "h": 51
       },
@@ -20312,7 +20343,7 @@
       "id": "n97_2",
       "box": {
         "cx": 960,
-        "cy": 485,
+        "cy": 523,
         "w": 375,
         "h": 210
       },
@@ -20349,7 +20380,7 @@
       "fontSize": 42,
       "box": {
         "cx": 960,
-        "cy": 654,
+        "cy": 692,
         "w": 154,
         "h": 51
       },
@@ -20381,7 +20412,7 @@
       "id": "n97_4",
       "box": {
         "cx": 1590,
-        "cy": 360,
+        "cy": 405,
         "w": 250,
         "h": 250
       },
@@ -20417,8 +20448,8 @@
       "content": "verifica por otro canal",
       "fontSize": 42,
       "box": {
-        "cx": 1590,
-        "cy": 531,
+        "cx": 1565,
+        "cy": 576,
         "w": 490,
         "h": 51
       },
@@ -20451,11 +20482,11 @@
       "type": "arrow",
       "a": {
         "x": 478,
-        "y": 581
+        "y": 612
       },
       "b": {
         "x": 739,
-        "y": 529
+        "y": 564
       },
       "curve": "up",
       "color": "#EE2B37",
@@ -20487,11 +20518,11 @@
       "type": "arrow",
       "a": {
         "x": 1173,
-        "y": 443
+        "y": 483
       },
       "b": {
         "x": 1434,
-        "y": 391
+        "y": 434
       },
       "curve": "up",
       "color": "#EE2B37",
@@ -21585,7 +21616,7 @@
       "content": "el truco entero se cae",
       "fontSize": 42,
       "box": {
-        "cx": 1620,
+        "cx": 1575,
         "cy": 876,
         "w": 470,
         "h": 51
