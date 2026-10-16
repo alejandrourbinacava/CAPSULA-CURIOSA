@@ -1,0 +1,1677 @@
+{
+  "tm-globe-people": {
+    "kind": "vector",
+    "query": "a friendly globe of the Earth surrounded by a ring of eight tiny people, simple cartoon, no text",
+    "file": "assets/icons/tm-globe-people.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-mirror-you": {
+    "kind": "vector",
+    "query": "a hand mirror reflecting a thoughtful friendly face, self reflection, no text",
+    "file": "assets/icons/tm-mirror-you.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-misunderstood-puzzle": {
+    "kind": "vector",
+    "query": "a big jigsaw puzzle with a question mark and one missing piece, misunderstood topic, no text",
+    "file": "assets/icons/tm-misunderstood-puzzle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-myth-bubble": {
+    "kind": "vector",
+    "query": "a speech bubble with a crossed-out ghost inside, a debunked myth, no text",
+    "file": "assets/icons/tm-myth-bubble.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-bad-joke": {
+    "kind": "vector",
+    "query": "a laughing cartoon mouth with a small clown nose and a crossed-out red circle, bad jokes, no text",
+    "file": "assets/icons/tm-bad-joke.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-shame-hide": {
+    "kind": "vector",
+    "query": "a cartoon person hiding half behind a wall with only the eyes visible, shyness, calm and gentle",
+    "file": "assets/icons/tm-shame-hide.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-twelve-cards": {
+    "kind": "vector",
+    "query": "a neat fan of twelve playing-card-sized blank cards each with a different small colorful symbol, no text",
+    "file": "assets/icons/tm-twelve-cards.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-care-hands": {
+    "kind": "vector",
+    "query": "two gentle open hands holding a small green heart with a plus sign, care",
+    "file": "assets/icons/tm-care-hands.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-bulb-clue": {
+    "kind": "vector",
+    "query": "a glowing yellow lightbulb next to a magnifying glass, a key idea, no text",
+    "file": "assets/icons/tm-bulb-clue.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-key-idea": {
+    "kind": "vector",
+    "query": "a golden key floating over a small cartoon brain, key idea, no text",
+    "file": "assets/icons/tm-key-idea.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-weak-no": {
+    "kind": "vector",
+    "query": "a cartoon person standing firmly with a crossed-out red feather above, not weakness, no text",
+    "file": "assets/icons/tm-weak-no.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-character-no": {
+    "kind": "vector",
+    "query": "a cartoon person with a straight spine next to a crossed-out red X over a small broken chain link, not a character flaw, no text",
+    "file": "assets/icons/tm-character-no.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-whim-no": {
+    "kind": "vector",
+    "query": "a cute ice cream cone with a crossed-out red X, not a whim, no text",
+    "file": "assets/icons/tm-whim-no.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-mix-ingredients": {
+    "kind": "vector",
+    "query": "a cartoon cooking pot with a swirl of colorful ingredients going into it, a mixture, no text",
+    "file": "assets/icons/tm-mix-ingredients.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-dna": {
+    "kind": "vector",
+    "query": "a colorful DNA double helix, simple",
+    "file": "assets/icons/tm-dna.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-life-path": {
+    "kind": "vector",
+    "query": "a winding road with small photo frames and flags along it, life experiences, no text",
+    "file": "assets/icons/tm-life-path.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-home-street": {
+    "kind": "vector",
+    "query": "a small house, a tree and a street lamp on a neighborhood street, environment, no text",
+    "file": "assets/icons/tm-home-street.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-gray-cloud-head": {
+    "kind": "vector",
+    "query": "a simple cartoon head silhouette with a soft gray rain cloud above it, gentle, no text",
+    "file": "assets/icons/tm-gray-cloud-head.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-podium-first": {
+    "kind": "vector",
+    "query": "a simple first-place podium with a big number one and a soft glow, the most common, no text",
+    "file": "assets/icons/tm-podium-first.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-bad-day": {
+    "kind": "vector",
+    "query": "a cartoon person with a small gray raincloud over the head holding an umbrella, an ordinary bad day, no text",
+    "file": "assets/icons/tm-bad-day.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-faded-hobbies": {
+    "kind": "vector",
+    "query": "a guitar, a paintbrush and a soccer ball drawn in faded gray colors, lost interest, no text",
+    "file": "assets/icons/tm-faded-hobbies.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-scattered-thoughts": {
+    "kind": "vector",
+    "query": "a cartoon head with many scattered paper scraps and arrows flying around, unable to concentrate, no text",
+    "file": "assets/icons/tm-scattered-thoughts.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-empty-hollow": {
+    "kind": "vector",
+    "query": "a simple cartoon torso silhouette with an empty hollow circle in the chest, feeling of emptiness, gentle, no text",
+    "file": "assets/icons/tm-empty-hollow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-cheer-up-no": {
+    "kind": "vector",
+    "query": "a speech bubble with a smiley face crossed out by a red X, just cheer up does not work, no text",
+    "file": "assets/icons/tm-cheer-up-no.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-energy-spark": {
+    "kind": "vector",
+    "query": "a small battery with a low charge and a tiny lightning spark, energy, no text",
+    "file": "assets/icons/tm-energy-spark.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-good-news": {
+    "kind": "vector",
+    "query": "a friendly newspaper-style card with a green check mark and a sun rising behind, good news, no text",
+    "file": "assets/icons/tm-good-news.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-medicine-bottle": {
+    "kind": "vector",
+    "query": "a small medicine bottle with a green plus cross label, one bottle only, no text",
+    "file": "assets/icons/tm-medicine-bottle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-gear-worry": {
+    "kind": "vector",
+    "query": "two interlocking gears with tiny swirls of worry thought bubbles above, engine of worry, no text",
+    "file": "assets/icons/tm-gear-worry.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-worry-head": {
+    "kind": "vector",
+    "query": "a cartoon head with a spiral of worry scribbles inside, anxious thoughts, no text",
+    "file": "assets/icons/tm-worry-head.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-useful-radar": {
+    "kind": "vector",
+    "query": "a friendly radar dish with a green check mark and waves, useful alertness, no text",
+    "file": "assets/icons/tm-useful-radar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-alarm-ringing": {
+    "kind": "vector",
+    "query": "a red ringing alarm bell vibrating with motion lines and sound waves, nonstop alarm, no text",
+    "file": "assets/icons/tm-alarm-ringing.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-racing-heart": {
+    "kind": "vector",
+    "query": "a cartoon heart with a fast beating line and speed lines, racing heartbeat, no text",
+    "file": "assets/icons/tm-racing-heart.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-tense-muscles": {
+    "kind": "vector",
+    "query": "a cartoon arm with tightly clenched muscle and tension lines, tense muscles, no text",
+    "file": "assets/icons/tm-tense-muscles.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-what-if": {
+    "kind": "vector",
+    "query": "a thought bubble with a big question mark and a small storm cloud, what if the worst happens, no text",
+    "file": "assets/icons/tm-what-if.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-lion-behind": {
+    "kind": "vector",
+    "query": "a cartoon person walking with a big cartoon lion silhouette looming behind, funny exaggeration, no text",
+    "file": "assets/icons/tm-lion-behind.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-storm-cloud": {
+    "kind": "vector",
+    "query": "a dark storm cloud with lightning and a small clock, a storm that lasts minutes, no text",
+    "file": "assets/icons/tm-storm-cloud.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-panic-face": {
+    "kind": "vector",
+    "query": "a cartoon face with wide eyes and open mouth and sweat drops, panic, simple, no text",
+    "file": "assets/icons/tm-panic-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-panic-attack": {
+    "kind": "vector",
+    "query": "a cartoon person suddenly hit by a big lightning bolt, sudden shock, simple, no text",
+    "file": "assets/icons/tm-panic-attack.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-breath-hard": {
+    "kind": "vector",
+    "query": "a pair of cartoon lungs with short quick breath puffs, difficulty breathing, no text",
+    "file": "assets/icons/tm-breath-hard.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-dizzy": {
+    "kind": "vector",
+    "query": "a cartoon head with spiral swirls around it, dizziness, no text",
+    "file": "assets/icons/tm-dizzy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-dread-face": {
+    "kind": "vector",
+    "query": "a cartoon frightened face with wide eyes and a dark cloud above, dread, no text",
+    "file": "assets/icons/tm-dread-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-scared-eyes": {
+    "kind": "vector",
+    "query": "two huge scared cartoon eyes peeking out with trembling lines, big fear, no text",
+    "file": "assets/icons/tm-scared-eyes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-peak-curve": {
+    "kind": "vector",
+    "query": "a bell-shaped curve rising to a peak and then going down, with a small clock, no text",
+    "file": "assets/icons/tm-peak-curve.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-fear-return": {
+    "kind": "vector",
+    "query": "a circular arrow around a small fearful face, fear that it will return, no text",
+    "file": "assets/icons/tm-fear-return.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-spider-small": {
+    "kind": "vector",
+    "query": "a tiny cute cartoon spider hanging from a thread, simple, no text",
+    "file": "assets/icons/tm-spider-small.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-tiny-big-shadow": {
+    "kind": "vector",
+    "query": "a tiny mouse casting a huge scary shadow on a wall, disproportionate fear, no text",
+    "file": "assets/icons/tm-tiny-big-shadow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-phobia-face": {
+    "kind": "vector",
+    "query": "a cartoon face looking terrified at a tiny dot in front of it, phobia, no text",
+    "file": "assets/icons/tm-phobia-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-small-room": {
+    "kind": "vector",
+    "query": "a tiny closed room with walls closing in and a small door, claustrophobic space, no text",
+    "file": "assets/icons/tm-small-room.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-intense-fear": {
+    "kind": "vector",
+    "query": "a cartoon face with a big thermometer-style red meter rising above it, intense fear, no text",
+    "file": "assets/icons/tm-intense-fear.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-avoid-turn": {
+    "kind": "vector",
+    "query": "a cartoon person turning away and walking off from a small scary shape, avoidance, no text",
+    "file": "assets/icons/tm-avoid-turn.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-life-limited": {
+    "kind": "vector",
+    "query": "a cartoon person standing inside a small chalk circle drawn on the ground, limited life, no text",
+    "file": "assets/icons/tm-life-limited.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-curious-bulb": {
+    "kind": "vector",
+    "query": "a lightbulb with a small question mark and a green check, a curious fact about treatment, no text",
+    "file": "assets/icons/tm-curious-bulb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-small-steps": {
+    "kind": "vector",
+    "query": "a small staircase with a person's footprints stepping up one step at a time, gradual steps, no text",
+    "file": "assets/icons/tm-small-steps.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-brain-loop": {
+    "kind": "vector",
+    "query": "a cartoon head with a circular looping arrow inside, repeating thought, no text",
+    "file": "assets/icons/tm-brain-loop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-ocd-checks": {
+    "kind": "vector",
+    "query": "a cartoon head with a row of repeating check marks and loop arrows inside, obsessive compulsive, no text",
+    "file": "assets/icons/tm-ocd-checks.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-quirk-no": {
+    "kind": "vector",
+    "query": "a pair of neatly lined-up shoes with a red crossed-out circle, not just quirks, no text",
+    "file": "assets/icons/tm-quirk-no.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-stuck-thought": {
+    "kind": "vector",
+    "query": "a thought bubble with a single annoying scribble stuck in it and a hand trying to remove it, unwanted thought, no text",
+    "file": "assets/icons/tm-stuck-thought.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-obsession-spiral": {
+    "kind": "vector",
+    "query": "a gray spiral inside a thought bubble getting tighter, obsession, no text",
+    "file": "assets/icons/tm-obsession-spiral.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-ritual-loop": {
+    "kind": "vector",
+    "query": "a small checklist with a circular arrow around it, repeated ritual, no text",
+    "file": "assets/icons/tm-ritual-loop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-tired-face": {
+    "kind": "vector",
+    "query": "a cartoon tired face with droopy eyes and a small battery nearly empty, exhausting, no text",
+    "file": "assets/icons/tm-tired-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-knows-cant-stop": {
+    "kind": "vector",
+    "query": "a cartoon person with a hand raised in a stop gesture but being pulled forward by a loop arrow, can't stop, no text",
+    "file": "assets/icons/tm-knows-cant-stop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-signpost-types": {
+    "kind": "vector",
+    "query": "a signpost with two arrows pointing in different directions, change of type, no text",
+    "file": "assets/icons/tm-signpost-types.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-zigzag-mood": {
+    "kind": "vector",
+    "query": "a zigzag line going up and down with a happy face at the top and a sad face at the bottom, no text",
+    "file": "assets/icons/tm-zigzag-mood.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-bipolar-split": {
+    "kind": "vector",
+    "query": "a cartoon head split into two halves, one half sunny yellow and the other half rainy gray, no text",
+    "file": "assets/icons/tm-bipolar-split.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-mood-x": {
+    "kind": "vector",
+    "query": "a row of three small faces (happy, neutral, sad) with a big red X over them, not just mood swings, no text",
+    "file": "assets/icons/tm-mood-x.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-episode-calendar": {
+    "kind": "vector",
+    "query": "a calendar page with several consecutive days highlighted in a block, an episode lasting days, no text",
+    "file": "assets/icons/tm-episode-calendar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-mania-sun": {
+    "kind": "vector",
+    "query": "a bright shining sun with a lightning bolt and sparkles, high energy phase, no text",
+    "file": "assets/icons/tm-mania-sun.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-no-sleep": {
+    "kind": "vector",
+    "query": "a moon with a tiny alarm clock and a wide awake eye, sleeping very little, no text",
+    "file": "assets/icons/tm-no-sleep.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-fast-talk": {
+    "kind": "vector",
+    "query": "a cartoon mouth with many speech bubbles bursting out quickly and speed lines, talking fast, no text",
+    "file": "assets/icons/tm-fast-talk.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-cloud-down": {
+    "kind": "vector",
+    "query": "a gray cloud with a downward arrow and a small sad rain drop, low phase, no text",
+    "file": "assets/icons/tm-cloud-down.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-opposite-arrows": {
+    "kind": "vector",
+    "query": "two big arrows pointing in opposite directions, up and down, the opposite, no text",
+    "file": "assets/icons/tm-opposite-arrows.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-fog-mind": {
+    "kind": "vector",
+    "query": "a cartoon head silhouette filled with soft swirling fog, no text",
+    "file": "assets/icons/tm-fog-mind.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-misunderstood-sign": {
+    "kind": "vector",
+    "query": "a road sign with a big question mark and a faded crossed-out label, misunderstood, no text",
+    "file": "assets/icons/tm-misunderstood-sign.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-head-waves": {
+    "kind": "vector",
+    "query": "a cartoon head with colorful sound waves and radio waves flowing around it, abstract, no text",
+    "file": "assets/icons/tm-head-waves.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-multiple-masks": {
+    "kind": "vector",
+    "query": "three theatre masks side by side with a red crossed-out circle, not multiple personalities, no text",
+    "file": "assets/icons/tm-multiple-masks.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-common-mixup": {
+    "kind": "vector",
+    "query": "two similar looking boxes being swapped with a small mix-up arrow, common confusion, no text",
+    "file": "assets/icons/tm-common-mixup.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-hallucination-lights": {
+    "kind": "vector",
+    "query": "a cartoon head with floating soft colorful orbs and shimmering lights around it, perception that is not real, no text",
+    "file": "assets/icons/tm-hallucination-lights.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-false-message": {
+    "kind": "vector",
+    "query": "a smartphone-style speech bubble with a dotted outline and a question mark, a message that does not exist, no text",
+    "file": "assets/icons/tm-false-message.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-feels-real": {
+    "kind": "vector",
+    "query": "a solid thick outlined cartoon cloud with a green check, feeling totally real, no text",
+    "file": "assets/icons/tm-feels-real.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-no-fist": {
+    "kind": "vector",
+    "query": "a clenched fist with a red crossed-out circle, not violent, simple, no text",
+    "file": "assets/icons/tm-no-fist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-quiet-pain": {
+    "kind": "vector",
+    "query": "a cartoon person sitting quietly with a small gray cloud above, silent suffering, gentle, no text",
+    "file": "assets/icons/tm-quiet-pain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-stable-home": {
+    "kind": "vector",
+    "query": "a cozy small house with a sun above and a tree, a stable life, no text",
+    "file": "assets/icons/tm-stable-home.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-brain-alert": {
+    "kind": "vector",
+    "query": "a cartoon brain with a flashing red alarm light on top, alert, no text",
+    "file": "assets/icons/tm-brain-alert.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-helmet": {
+    "kind": "vector",
+    "query": "a plain green army helmet, simple, no text",
+    "file": "assets/icons/tm-helmet.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-car-bump": {
+    "kind": "vector",
+    "query": "two small toy cars gently bumped together with a small star burst, an accident, not gory, no text",
+    "file": "assets/icons/tm-car-bump.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-stop-hand": {
+    "kind": "vector",
+    "query": "a big red open stop hand sign, simple, no text",
+    "file": "assets/icons/tm-stop-hand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-empty-chair": {
+    "kind": "vector",
+    "query": "a single empty chair with a small candle beside it, loss, calm, no text",
+    "file": "assets/icons/tm-empty-chair.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-dark-shadow": {
+    "kind": "vector",
+    "query": "a big dark shadow shape looming over a small cartoon house at night, terrifying experience, no text",
+    "file": "assets/icons/tm-dark-shadow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-nightmare-cloud": {
+    "kind": "vector",
+    "query": "a cartoon person sleeping in bed with a dark thought cloud above showing spooky scribbles, nightmare, gentle, no text",
+    "file": "assets/icons/tm-nightmare-cloud.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-startled-jump": {
+    "kind": "vector",
+    "query": "a cartoon person jumping up in surprise with exclamation lines, startled, no text",
+    "file": "assets/icons/tm-startled-jump.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-alert-eyes": {
+    "kind": "vector",
+    "query": "two wide alert eyes with radar rings around them, constant alertness, no text",
+    "file": "assets/icons/tm-alert-eyes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-danger-over": {
+    "kind": "vector",
+    "query": "a small sun coming out from behind a cloud and a green check, danger already gone, no text",
+    "file": "assets/icons/tm-danger-over.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-mirror-bend": {
+    "kind": "vector",
+    "query": "a funhouse wavy distorted mirror with a soft glow, no people, no text",
+    "file": "assets/icons/tm-mirror-bend.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-not-food": {
+    "kind": "vector",
+    "query": "a plate with fork and knife and a heart-shaped thought bubble above it, not about food, no text",
+    "file": "assets/icons/tm-not-food.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-plate-heart": {
+    "kind": "vector",
+    "query": "a plate with a fork and a heart-shaped mirror above it, eating behavior and emotions, no people, no text",
+    "file": "assets/icons/tm-plate-heart.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-empty-plate": {
+    "kind": "vector",
+    "query": "a calm empty white plate with a fork beside it, no people, no text",
+    "file": "assets/icons/tm-empty-plate.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-plate-cycle": {
+    "kind": "vector",
+    "query": "a plate with a circular arrow around it, a repeating cycle, no people, no text",
+    "file": "assets/icons/tm-plate-cycle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-full-table": {
+    "kind": "vector",
+    "query": "a table crowded with many dishes and bowls, overflowing food, no people, no text",
+    "file": "assets/icons/tm-full-table.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-vanity-x": {
+    "kind": "vector",
+    "query": "a small hand mirror with a red crossed-out circle, not vanity, no text",
+    "file": "assets/icons/tm-vanity-x.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-warning-sign": {
+    "kind": "vector",
+    "query": "a yellow triangle warning sign with an exclamation mark, serious, no text",
+    "file": "assets/icons/tm-warning-sign.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-early-help-clock": {
+    "kind": "vector",
+    "query": "a clock with a hand reaching out to a green heart, the sooner the better, no text",
+    "file": "assets/icons/tm-early-help-clock.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-brain-hook": {
+    "kind": "vector",
+    "query": "a cartoon brain caught on a fishing hook, simple, no text",
+    "file": "assets/icons/tm-brain-hook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-brain-sick": {
+    "kind": "vector",
+    "query": "a cartoon brain with a small thermometer and a bandage, brain illness, no text",
+    "file": "assets/icons/tm-brain-sick.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-vice-finger": {
+    "kind": "vector",
+    "query": "a wagging index finger pointing down at a small head, judgment of vice, no text",
+    "file": "assets/icons/tm-vice-finger.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-lost-control-wheel": {
+    "kind": "vector",
+    "query": "a steering wheel spinning loose with motion lines, losing control, no text",
+    "file": "assets/icons/tm-lost-control-wheel.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-bottle": {
+    "kind": "vector",
+    "query": "a generic plain bottle with a cork, one bottle, no label, no text",
+    "file": "assets/icons/tm-bottle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-warning-baggie": {
+    "kind": "vector",
+    "query": "a small plain zip bag with a red warning triangle beside it, simple and unattractive, no text",
+    "file": "assets/icons/tm-warning-baggie.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-harm-heart": {
+    "kind": "vector",
+    "query": "a cracked heart with a small bandage, harm, no text",
+    "file": "assets/icons/tm-harm-heart.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-willpower-no": {
+    "kind": "vector",
+    "query": "a small flexed arm with a red crossed-out circle, not lack of willpower, no text",
+    "file": "assets/icons/tm-willpower-no.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-hijack-hand": {
+    "kind": "vector",
+    "query": "a big cartoon hand grabbing a small glowing reward star from a cartoon brain, hijacked, no text",
+    "file": "assets/icons/tm-hijack-hand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-treat-key": {
+    "kind": "vector",
+    "query": "a green check mark inside a medical shield, can be treated, no text",
+    "file": "assets/icons/tm-treat-key.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-not-failure": {
+    "kind": "vector",
+    "query": "a small bump on a winding road with a green flag planted on it, a setback that is not a failure, no text",
+    "file": "assets/icons/tm-not-failure.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-emotion-waves": {
+    "kind": "vector",
+    "query": "big colorful emotional waves with hearts, a roller coaster of feelings, no text",
+    "file": "assets/icons/tm-emotion-waves.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-borderline-head": {
+    "kind": "vector",
+    "query": "a cartoon head with several colorful heart-shaped emotion bubbles inside, intense emotions, no text",
+    "file": "assets/icons/tm-borderline-head.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-emotion-bubbles": {
+    "kind": "vector",
+    "query": "a cluster of colorful bubbles with tiny faces in different moods, emotions, no text",
+    "file": "assets/icons/tm-emotion-bubbles.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-long-clock": {
+    "kind": "vector",
+    "query": "a big clock with a long winding trail behind it, lasting for a long time, no text",
+    "file": "assets/icons/tm-long-clock.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-left-behind": {
+    "kind": "vector",
+    "query": "a lonely small cartoon figure waving at others walking away into the distance, fear of abandonment, gentle, no text",
+    "file": "assets/icons/tm-left-behind.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-wobbly-bridge": {
+    "kind": "vector",
+    "query": "two small cliffs joined by a shaky wobbly rope bridge with a heart, unstable relationship, no text",
+    "file": "assets/icons/tm-wobbly-bridge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-stigma-crowd": {
+    "kind": "vector",
+    "query": "a crowd of small figures pointing fingers at one lonely small figure, stigma, no text",
+    "file": "assets/icons/tm-stigma-crowd.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-therapy-works": {
+    "kind": "vector",
+    "query": "a small sofa with a green check mark and two speech bubbles, therapy works, no text",
+    "file": "assets/icons/tm-therapy-works.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-better-days": {
+    "kind": "vector",
+    "query": "a calendar with a sunrise growing brighter day by day, improvement, no text",
+    "file": "assets/icons/tm-better-days.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-target-focus": {
+    "kind": "vector",
+    "query": "a bullseye target with an arrow and a small butterfly flying near it, focus, no text",
+    "file": "assets/icons/tm-target-focus.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-odd-one-out": {
+    "kind": "vector",
+    "query": "a row of gray balls with one colorful bouncing ball, one apart, no text",
+    "file": "assets/icons/tm-odd-one-out.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-tdah-head": {
+    "kind": "vector",
+    "query": "a cartoon head with a butterfly and small bouncing balls inside, busy mind, no text",
+    "file": "assets/icons/tm-tdah-head.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-attention-hyper": {
+    "kind": "vector",
+    "query": "a cartoon spring bouncing next to a small flickering eye, attention deficit and hyperactivity, no text",
+    "file": "assets/icons/tm-attention-hyper.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-neurodev-seed": {
+    "kind": "vector",
+    "query": "a small seedling growing inside a cartoon head silhouette, neurodevelopment, no text",
+    "file": "assets/icons/tm-neurodev-seed.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-heart-mind": {
+    "kind": "vector",
+    "query": "a heart and a brain joined together by a gentle line, mental health, no text",
+    "file": "assets/icons/tm-heart-mind.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-lazy-no": {
+    "kind": "vector",
+    "query": "a sleepy cartoon sloth with a red crossed-out circle, not laziness, no text",
+    "file": "assets/icons/tm-lazy-no.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-bad-manners-no": {
+    "kind": "vector",
+    "query": "a small tiny book of manners with a red crossed-out circle, not bad upbringing, no text",
+    "file": "assets/icons/tm-bad-manners-no.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-important-star": {
+    "kind": "vector",
+    "query": "a big golden star with an exclamation mark and sparkles, the most important thing, no text",
+    "file": "assets/icons/tm-important-star.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-treat-lamp": {
+    "kind": "vector",
+    "query": "a glowing warm lamp with a green check mark, hope and treatment, no text",
+    "file": "assets/icons/tm-treat-lamp.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-repeated-truth": {
+    "kind": "vector",
+    "query": "an open book with a glowing star and echo rings repeating, a truth that repeats, no text",
+    "file": "assets/icons/tm-repeated-truth.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-can-treat": {
+    "kind": "vector",
+    "query": "a green door opening with warm light, a way forward, no text",
+    "file": "assets/icons/tm-can-treat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-sleep-moon": {
+    "kind": "vector",
+    "query": "a crescent moon with a cozy pillow and little stars, good sleep, no text",
+    "file": "assets/icons/tm-sleep-moon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-support-circle": {
+    "kind": "vector",
+    "query": "a circle of simple people holding hands, support of others, no text",
+    "file": "assets/icons/tm-support-circle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-recover-sunrise": {
+    "kind": "vector",
+    "query": "a small plant sprouting under a rising sun, recovery, no text",
+    "file": "assets/icons/tm-recover-sunrise.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-no-choice": {
+    "kind": "vector",
+    "query": "a fork in the road with a red crossed-out circle over a hand choosing, not a choice, no text",
+    "file": "assets/icons/tm-no-choice.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-sounds-familiar": {
+    "kind": "vector",
+    "query": "a cartoon ear with a small question mark and a soft sound wave, sounds familiar, no text",
+    "file": "assets/icons/tm-sounds-familiar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-no-labels": {
+    "kind": "vector",
+    "query": "a sticker label with a red crossed-out circle, no labels, no text",
+    "file": "assets/icons/tm-no-labels.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-hand-reach": {
+    "kind": "vector",
+    "query": "a hand reaching out toward another helping hand, asking for help, no text",
+    "file": "assets/icons/tm-hand-reach.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-pro-only": {
+    "kind": "vector",
+    "query": "a friendly cartoon professional with a clipboard and a green check mark, no text",
+    "file": "assets/icons/tm-pro-only.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-close-friend": {
+    "kind": "vector",
+    "query": "two cartoon friends sitting side by side, one with a small gray cloud, simple, no text",
+    "file": "assets/icons/tm-close-friend.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-crisis-signal": {
+    "kind": "vector",
+    "query": "a blinking amber beacon light on a small pole, crisis signal, no text",
+    "file": "assets/icons/tm-crisis-signal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-emergency-phone": {
+    "kind": "vector",
+    "query": "an old-fashioned telephone with a red plus cross, emergency phone, no text",
+    "file": "assets/icons/tm-emergency-phone.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-not-alone": {
+    "kind": "vector",
+    "query": "a big heart with several small hearts around it holding hands, you are not alone, no text",
+    "file": "assets/icons/tm-not-alone.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-oms": {
+    "kind": "cutout",
+    "query": "Organización Mundial de la Salud",
+    "wiki": "Organización Mundial de la Salud",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Organización Mundial de la Salud",
+      "description": "autoridad directiva y coordinadora en asuntos de sanidad internacional en el sistema de las Naciones Unidas"
+    },
+    "file": "assets/icons/photo-oms.png"
+  },
+  "photo-neurona": {
+    "kind": "cutout",
+    "query": "Neurona",
+    "wiki": "Neurona",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Neurona",
+      "description": "célula del sistema nervioso"
+    },
+    "file": "assets/icons/photo-neurona.jpg"
+  },
+  "photo-corazon": {
+    "kind": "cutout",
+    "query": "Corazón",
+    "wiki": "Corazón",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Corazón",
+      "description": "órgano principal del aparato circulatorio"
+    },
+    "file": "assets/icons/photo-corazon.png"
+  },
+  "photo-araneae": {
+    "kind": "cutout",
+    "query": "Araña",
+    "wiki": "Araneae",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Araneae",
+      "description": "orden de arácnidos"
+    },
+    "file": "assets/icons/photo-araneae.jpg"
+  },
+  "photo-montana-rusa": {
+    "kind": "cutout",
+    "query": "Montaña rusa",
+    "wiki": "Montaña rusa",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Montaña rusa",
+      "description": "atracción en los parques de diversiones"
+    },
+    "file": "assets/icons/photo-montana-rusa.png"
+  },
+  "photo-amigdala": {
+    "kind": "cutout",
+    "query": "Amígdala cerebral",
+    "wiki": "Cuerpo amigdalino",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Cuerpo amigdalino",
+      "description": "grupo de neuronas en forma de almendra en los lóbulos temporales mediales del cerebro que desempeña un papel central en el procesamiento y la memoria de las emociones, especialmente el miedo"
+    },
+    "file": "assets/icons/photo-amigdala.jpg"
+  },
+  "photo-estetoscopio": {
+    "kind": "cutout",
+    "query": "Estetoscopio",
+    "wiki": "Estetoscopio",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Estetoscopio",
+      "description": "aparato médico para la auscultación"
+    },
+    "file": "assets/icons/photo-estetoscopio.png"
+  },
+  "photo-ruleta": {
+    "kind": "cutout",
+    "query": "Ruleta",
+    "wiki": "Ruleta",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Ruleta",
+      "description": "juego de azar"
+    },
+    "file": "assets/icons/photo-ruleta.jpg"
+  },
+  "photo-limbico": {
+    "kind": "cutout",
+    "query": "Sistema límbico",
+    "wiki": "Sistema límbico",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sistema límbico",
+      "description": "sistema de recompensa del sistema nervioso central"
+    },
+    "file": "assets/icons/photo-limbico.png"
+  },
+  "photo-corteza": {
+    "kind": "cutout",
+    "query": "Corteza prefrontal",
+    "wiki": "Corteza prefrontal",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Corteza prefrontal",
+      "description": "región de cerebro"
+    },
+    "file": "assets/icons/photo-corteza.png"
+  },
+  "photo-gimnasio": {
+    "kind": "cutout",
+    "query": "Gimnasio",
+    "wiki": "Gimnasio",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Gimnasio",
+      "description": "lugar para practicar deportes o hacer ejercicio en un recinto cerrado"
+    },
+    "file": "assets/icons/photo-gimnasio.jpg"
+  },
+  "clip-thinking": {
+    "kind": "clip",
+    "query": "man sitting on the edge of a bed thinking",
+    "file": "assets/clips/clip-thinking.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/a-man-staring-by-the-window-of-his-bedroom-6944075/"
+    }
+  },
+  "clip-neurons": {
+    "kind": "clip",
+    "query": "neurons brain cells network",
+    "file": "assets/clips/clip-neurons.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/abstract-molecular-structure-animation-34913011/"
+    }
+  },
+  "clip-sunrise": {
+    "kind": "clip",
+    "query": "sunrise over mountains",
+    "file": "assets/clips/clip-sunrise.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "GIANG VU",
+      "url": "https://www.pexels.com/video/stunning-mountain-sunrise-aerial-view-33354461/"
+    }
+  },
+  "clip-alarm": {
+    "kind": "clip",
+    "query": "alarm clock close up",
+    "file": "assets/clips/clip-alarm.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pixabay",
+      "url": "https://www.pexels.com/video/close-up-video-of-a-clock-855782/"
+    }
+  },
+  "clip-lightning": {
+    "kind": "clip",
+    "query": "lightning bolt storm sky",
+    "file": "assets/clips/clip-lightning.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Stefano Barbieri",
+      "url": "https://www.pexels.com/video/lightnings-on-sky-13205825/"
+    }
+  },
+  "clip-heartbeat": {
+    "kind": "clip",
+    "query": "heartbeat monitor",
+    "file": "assets/clips/clip-heartbeat.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/heart-rate-monitor-in-the-hospital-6130551/"
+    }
+  },
+  "clip-doctor": {
+    "kind": "clip",
+    "query": "doctor white coat hospital",
+    "file": "assets/clips/clip-doctor.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/person-wearing-latex-gloves-7579838/"
+    }
+  },
+  "clip-party": {
+    "kind": "clip",
+    "query": "crowd party lights",
+    "file": "assets/clips/clip-party.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "WeStarMoney  Rec",
+      "url": "https://www.pexels.com/video/energetic-nightclub-crowd-under-purple-lights-34059053/"
+    }
+  },
+  "clip-shopping": {
+    "kind": "clip",
+    "query": "shopping mall people from above",
+    "file": "assets/clips/clip-shopping.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kushan Shamika",
+      "url": "https://www.pexels.com/video/aerial-view-of-busy-shopping-mall-escalator-29835845/"
+    }
+  },
+  "clip-city-crowd": {
+    "kind": "clip",
+    "query": "crowd of people walking city street",
+    "file": "assets/clips/clip-city-crowd.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Shrijana Shrestha",
+      "url": "https://www.pexels.com/video/people-walking-at-a-street-during-nighttime-4122942/"
+    }
+  },
+  "clip-mirror": {
+    "kind": "clip",
+    "query": "woman looking at fractured mirror",
+    "file": "assets/clips/clip-mirror.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "SHVETS production",
+      "url": "https://www.pexels.com/video/reflection-of-a-woman-on-a-broken-mirror-9772498/"
+    }
+  },
+  "clip-slot": {
+    "kind": "clip",
+    "query": "slot machines casino",
+    "file": "assets/clips/clip-slot.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pavel Danilyuk",
+      "url": "https://www.pexels.com/video/people-playing-at-the-slot-machine-7608129/"
+    }
+  },
+  "clip-storm-sea": {
+    "kind": "clip",
+    "query": "stormy sea waves cloudy sky",
+    "file": "assets/clips/clip-storm-sea.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Alexander Grigorian",
+      "url": "https://www.pexels.com/video/waves-splashing-on-shore-10779129/"
+    }
+  },
+  "clip-clouds": {
+    "kind": "clip",
+    "query": "clouds time lapse",
+    "file": "assets/clips/clip-clouds.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "George Morina",
+      "url": "https://www.pexels.com/video/thick-white-clouds-in-the-sky-4066718/"
+    }
+  },
+  "clip-friends-talk": {
+    "kind": "clip",
+    "query": "friends talking at a table cafe",
+    "file": "assets/clips/clip-friends-talk.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "William  Fortunato",
+      "url": "https://www.pexels.com/video/friends-talking-with-a-cofffee-cup-6137848/"
+    }
+  },
+  "clip-rain-window": {
+    "kind": "clip",
+    "query": "rain on window",
+    "file": "assets/clips/clip-rain-window.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Zuzanna Musial",
+      "url": "https://www.pexels.com/video/raindrops-on-window-glass-close-up-5366344/"
+    }
+  },
+  "clip-tired-desk": {
+    "kind": "clip",
+    "query": "tired office worker rubbing eyes at desk",
+    "file": "assets/clips/clip-tired-desk.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tima Miroshnichenko",
+      "url": "https://www.pexels.com/video/young-man-falling-asleep-in-office-6614770/"
+    }
+  },
+  "clip-insomnia": {
+    "kind": "clip",
+    "query": "woman lying awake in bed at night",
+    "file": "assets/clips/clip-insomnia.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Ron Lach",
+      "url": "https://www.pexels.com/video/woman-with-insomnia-8486623/"
+    }
+  },
+  "clip-meeting-work": {
+    "kind": "clip",
+    "query": "business meeting office table presentation",
+    "file": "assets/clips/clip-meeting-work.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Vlada Karpovich",
+      "url": "https://www.pexels.com/video/business-people-talking-in-the-conference-room-7552430/"
+    }
+  },
+  "clip-height": {
+    "kind": "clip",
+    "query": "looking down from skyscraper rooftop high building",
+    "file": "assets/clips/clip-height.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Steve B",
+      "url": "https://www.pexels.com/video/stunning-aerial-view-of-urban-skyscrapers-34687161/"
+    }
+  },
+  "clip-speaker": {
+    "kind": "clip",
+    "query": "speaker on stage addressing audience conference",
+    "file": "assets/clips/clip-speaker.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "JD MONTORO",
+      "url": "https://www.pexels.com/video/speaker-addressing-illuminated-audience-at-night-35451425/"
+    }
+  },
+  "clip-handwash": {
+    "kind": "clip",
+    "query": "washing hands with soap at sink",
+    "file": "assets/clips/clip-handwash.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Sini Ko",
+      "url": "https://www.pexels.com/video/proper-handwashing-technique-at-home-30085060/"
+    }
+  },
+  "clip-lock-door": {
+    "kind": "clip",
+    "query": "locking front door with key close up",
+    "file": "assets/clips/clip-lock-door.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/a-person-sticking-a-key-in-a-doorknob-8292925/"
+    }
+  },
+  "clip-tidy-desk": {
+    "kind": "clip",
+    "query": "neatly organized desk with stationery top view",
+    "file": "assets/clips/clip-tidy-desk.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "KATRIN  BOLOVTSOVA",
+      "url": "https://www.pexels.com/video/person-opening-a-notebook-6186872/"
+    }
+  },
+  "clip-calm-lake": {
+    "kind": "clip",
+    "query": "calm lake sunrise mist",
+    "file": "assets/clips/clip-calm-lake.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Aaron Aggarwal",
+      "url": "https://www.pexels.com/video/serene-lake-at-sunrise-with-floating-duck-34234650/"
+    }
+  },
+  "clip-therapy": {
+    "kind": "clip",
+    "query": "therapy session two chairs",
+    "file": "assets/clips/clip-therapy.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kampus Production",
+      "url": "https://www.pexels.com/video/woman-sitting-on-chair-talking-to-a-man-8428655/"
+    }
+  },
+  "clip-radio": {
+    "kind": "clip",
+    "query": "vintage radio dial close up",
+    "file": "assets/clips/clip-radio.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "KoolShooters",
+      "url": "https://www.pexels.com/video/person-turning-on-the-radio-6077617/"
+    }
+  },
+  "clip-support-hands": {
+    "kind": "clip",
+    "query": "two people holding hands comforting",
+    "file": "assets/clips/clip-support-hands.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/close-up-of-two-people-holding-hands-7951066/"
+    }
+  },
+  "clip-footprints": {
+    "kind": "clip",
+    "query": "footprints in wet sand close up",
+    "file": "assets/clips/clip-footprints.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kampus Production",
+      "url": "https://www.pexels.com/video/person-writing-in-the-sand-using-her-foot-8817074/"
+    }
+  },
+  "clip-film": {
+    "kind": "clip",
+    "query": "vintage film projector reel",
+    "file": "assets/clips/clip-film.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pixabay",
+      "url": "https://www.pexels.com/video/mechanism-of-a-projector-856593/"
+    }
+  },
+  "clip-dinner-table": {
+    "kind": "clip",
+    "query": "dinner table with plates of food",
+    "file": "assets/clips/clip-dinner-table.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Andi  Farruku",
+      "url": "https://www.pexels.com/video/person-serving-food-on-the-table-5765844/"
+    }
+  },
+  "clip-path-forest": {
+    "kind": "clip",
+    "query": "walking path through forest sunlight",
+    "file": "assets/clips/clip-path-forest.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Matthias Groeneveld",
+      "url": "https://www.pexels.com/video/sunlit-forest-pathway-in-serene-woodland-31807899/"
+    }
+  },
+  "clip-coaster": {
+    "kind": "clip",
+    "query": "roller coaster ride first person",
+    "file": "assets/clips/clip-coaster.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Smitha Nittur",
+      "url": "https://www.pexels.com/video/thrilling-roller-coaster-pov-ride-at-amusement-park-40268711/"
+    }
+  },
+  "clip-kids-class": {
+    "kind": "clip",
+    "query": "children in classroom raising hands school",
+    "file": "assets/clips/clip-kids-class.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Artem Podrez",
+      "url": "https://www.pexels.com/video/close-up-footage-of-kids-raising-their-hands-8088631/"
+    }
+  },
+  "clip-road": {
+    "kind": "clip",
+    "query": "winding road aerial landscape",
+    "file": "assets/clips/clip-road.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Giorgi Chkhaidze",
+      "url": "https://www.pexels.com/video/drone-footage-of-a-winding-road-and-a-green-forest-13526128/"
+    }
+  },
+  "clip-bench-alone": {
+    "kind": "clip",
+    "query": "person sitting alone on park bench",
+    "file": "assets/clips/clip-bench-alone.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "ROY2ASTV shadow",
+      "url": "https://www.pexels.com/video/a-person-sitting-on-a-park-bench-with-a-black-jacket-16253970/"
+    }
+  },
+  "clip-breathing": {
+    "kind": "clip",
+    "query": "woman breathing deeply eyes closed calm",
+    "file": "assets/clips/clip-breathing.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Ivan S",
+      "url": "https://www.pexels.com/video/a-woman-meditating-at-home-7191270/"
+    }
+  },
+  "clip-phone-call": {
+    "kind": "clip",
+    "query": "person talking on phone sitting near window",
+    "file": "assets/clips/clip-phone-call.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "SHVETS production",
+      "url": "https://www.pexels.com/video/a-happy-man-talking-on-the-phone-by-a-window-9057685/"
+    }
+  },
+  "tm-many-causes": {
+    "kind": "vector",
+    "query": "one dot in the center with several colorful arrows branching out in different directions, multiple causes, no text",
+    "file": "assets/icons/tm-many-causes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-risk-gauge": {
+    "kind": "vector",
+    "query": "a simple gauge dial with the needle moving slightly into the orange zone, higher risk, no text",
+    "file": "assets/icons/tm-risk-gauge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-child-cloud": {
+    "kind": "vector",
+    "query": "a small cartoon child sitting with a small gray cloud above, gentle and sad, no text",
+    "file": "assets/icons/tm-child-cloud.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-no-blame": {
+    "kind": "vector",
+    "query": "a pointing index finger with a red crossed-out circle, no blame, no text",
+    "file": "assets/icons/tm-no-blame.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-fracture-cast": {
+    "kind": "vector",
+    "query": "a cartoon leg with a white cast and a pair of crutches, no blood, no text",
+    "file": "assets/icons/tm-fracture-cast.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "clip-family-walk": {
+    "kind": "clip",
+    "query": "grandparents parents and child family walking in park",
+    "file": "assets/clips/clip-family-walk.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Anastasia  Shuraeva",
+      "url": "https://www.pexels.com/video/family-walking-at-the-park-8944081/"
+    }
+  },
+  "clip-glass-fill": {
+    "kind": "clip",
+    "query": "filling glass with water close up",
+    "file": "assets/clips/clip-glass-fill.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Ta Stevie",
+      "url": "https://www.pexels.com/video/clean-water-pouring-into-glass-close-up-shot-34187528/"
+    }
+  },
+  "clip-glass-overflow": {
+    "kind": "clip",
+    "query": "water drop falling into overflowing glass slow motion",
+    "file": "assets/clips/clip-glass-overflow.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "mohammed darwish",
+      "url": "https://www.pexels.com/video/ice-drop-in-the-water-5282653/"
+    }
+  },
+  "clip-rain-walk": {
+    "kind": "clip",
+    "query": "two people walking in the rain with umbrellas city",
+    "file": "assets/clips/clip-rain-walk.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pixabay",
+      "url": "https://www.pexels.com/video/video-of-people-waiting-for-a-taxi-on-a-rainy-night-855432/"
+    }
+  },
+  "tm-stethoscope": {
+    "kind": "vector",
+    "query": "a simple cartoon stethoscope, no text",
+    "file": "assets/icons/tm-stethoscope.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-brain-focus": {
+    "kind": "vector",
+    "query": "a cartoon brain with a small target crosshair on its front part, attention, no text",
+    "file": "assets/icons/tm-brain-focus.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-dumbbell": {
+    "kind": "vector",
+    "query": "a simple cartoon dumbbell with little motion lines, exercise, no text",
+    "file": "assets/icons/tm-dumbbell.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-storm-bolt": {
+    "kind": "vector",
+    "query": "a cartoon dark storm cloud with a lightning bolt and rain, no text",
+    "file": "assets/icons/tm-storm-bolt.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-fast-heart": {
+    "kind": "vector",
+    "query": "a cartoon red heart beating fast with motion lines and a heartbeat line, no text",
+    "file": "assets/icons/tm-fast-heart.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-podium-speaker": {
+    "kind": "vector",
+    "query": "a cartoon person nervously speaking at a podium in front of a small audience, no text",
+    "file": "assets/icons/tm-podium-speaker.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-hear-voices": {
+    "kind": "vector",
+    "query": "a cartoon head with faint sound waves coming from nowhere and a question mark, hearing voices, no text",
+    "file": "assets/icons/tm-hear-voices.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-calm-crowd": {
+    "kind": "vector",
+    "query": "a group of simple smiling cartoon people standing peacefully together, no text",
+    "file": "assets/icons/tm-calm-crowd.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-people-group": {
+    "kind": "vector",
+    "query": "a group of diverse simple cartoon people standing together, no text",
+    "file": "assets/icons/tm-people-group.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-people-group2": {
+    "kind": "vector",
+    "query": "a small crowd of simple cartoon people walking in a city street, daytime, no text",
+    "file": "assets/icons/tm-people-group2.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-kids-class": {
+    "kind": "vector",
+    "query": "a few cartoon children sitting at desks in a bright classroom, no text",
+    "file": "assets/icons/tm-kids-class.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "tm-glass-filling": {
+    "kind": "vector",
+    "query": "a cartoon glass being filled with water almost to the top from a tap, no text",
+    "file": "assets/icons/tm-glass-filling.png",
+    "normalized": true,
+    "gpt": true
+  }
+}
