@@ -1,0 +1,1567 @@
+{
+  "ip-left": {
+    "kind": "vector",
+    "query": "a cartoon hand pointing left with a bold left arrow, no text",
+    "file": "assets/icons/ip-left.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-right": {
+    "kind": "vector",
+    "query": "a cartoon hand pointing right with a bold right arrow, no text",
+    "file": "assets/icons/ip-right.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-confused-head": {
+    "kind": "vector",
+    "query": "a big red question mark over a crowd silhouette",
+    "file": "assets/icons/ip-confused-head.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-left-right": {
+    "kind": "vector",
+    "query": "two big arrows pointing left and right in opposite directions, no text",
+    "file": "assets/icons/ip-left-right.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-bench-right": {
+    "kind": "vector",
+    "query": "a wooden bench in an assembly hall with a bold arrow pointing right, no text",
+    "file": "assets/icons/ip-bench-right.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-bench-left": {
+    "kind": "vector",
+    "query": "a wooden bench in an assembly hall with a bold arrow pointing left, no text",
+    "file": "assets/icons/ip-bench-left.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-change-all": {
+    "kind": "vector",
+    "query": "a swirl of colorful arrows tearing apart a gray pattern, big change, no text",
+    "file": "assets/icons/ip-change-all.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-defend-shield": {
+    "kind": "vector",
+    "query": "a cartoon knight shield with a star, defending, no text",
+    "file": "assets/icons/ip-defend-shield.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-roots": {
+    "kind": "vector",
+    "query": "a small tree with long visible roots going down, origins, no text",
+    "file": "assets/icons/ip-roots.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-critics-bubble": {
+    "kind": "vector",
+    "query": "a speech bubble with a thumbs-down hand and a question mark, criticism, no text",
+    "file": "assets/icons/ip-critics-bubble.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-two-axes": {
+    "kind": "vector",
+    "query": "two perpendicular arrows forming a cross, horizontal and vertical axes, no text",
+    "file": "assets/icons/ip-two-axes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-bulb-book": {
+    "kind": "vector",
+    "query": "a lightbulb above an open book with a star, an important lesson",
+    "file": "assets/icons/ip-bulb-book.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-sort-boxes": {
+    "kind": "vector",
+    "query": "a few colorful balls being sorted into two boxes, no text",
+    "file": "assets/icons/ip-sort-boxes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-coins": {
+    "kind": "vector",
+    "query": "a stack of gold coins",
+    "file": "assets/icons/ip-coins.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-who-rules": {
+    "kind": "vector",
+    "query": "a cartoon figure sitting on a big chair pointing a finger, who commands, no text",
+    "file": "assets/icons/ip-who-rules.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-person-free": {
+    "kind": "vector",
+    "query": "a happy cartoon person with arms wide open on a sunny hilltop, free, no text",
+    "file": "assets/icons/ip-person-free.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-compass": {
+    "kind": "vector",
+    "query": "compass rose",
+    "file": "assets/icons/ip-compass.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-axes-map": {
+    "kind": "vector",
+    "query": "a map grid with a horizontal axis and a vertical axis and a small dot, no text",
+    "file": "assets/icons/ip-axes-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-axis-h": {
+    "kind": "vector",
+    "query": "a long horizontal double arrow with a stack of coins on the left and a market stall on the right, no text",
+    "file": "assets/icons/ip-axis-h.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-axis-v": {
+    "kind": "vector",
+    "query": "a long vertical double arrow with a bird on top and a heavy padlock at the bottom, no text",
+    "file": "assets/icons/ip-axis-v.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-curious": {
+    "kind": "vector",
+    "query": "a glowing yellow lightbulb next to a magnifying glass, a key idea, no text",
+    "file": "assets/icons/ip-curious.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-not-opposites": {
+    "kind": "vector",
+    "query": "two arrows pointing to opposite sides with a big red crossed-out not-equal sign, no text",
+    "file": "assets/icons/ip-not-opposites.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-authority-gate": {
+    "kind": "vector",
+    "query": "a big iron gate with a padlock and a stern guard whistle, authority, no text",
+    "file": "assets/icons/ip-authority-gate.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-open-gate": {
+    "kind": "vector",
+    "query": "a wide open gate with a person walking freely out, freedom, no text",
+    "file": "assets/icons/ip-open-gate.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-two-rivals": {
+    "kind": "vector",
+    "query": "two cartoon figures facing each other with angry eyebrows, no text",
+    "file": "assets/icons/ip-two-rivals.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-axes-head": {
+    "kind": "vector",
+    "query": "a cartoon head with two crossing arrows inside, no text",
+    "file": "assets/icons/ip-axes-head.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-torch": {
+    "kind": "vector",
+    "query": "a golden torch with a bright flame, liberty, no text",
+    "file": "assets/icons/ip-torch.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-locke": {
+    "kind": "vector",
+    "query": "an old English philosopher in a powdered wig writing with a quill, 1600s, no text",
+    "file": "assets/icons/ip-locke.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-person-shield": {
+    "kind": "vector",
+    "query": "a person standing inside a protective bubble shield, individual rights, no text",
+    "file": "assets/icons/ip-person-shield.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-unequal-scale": {
+    "kind": "vector",
+    "query": "a balance scale tilted heavily, a tall pile of coins on one side and a single coin on the other, no text",
+    "file": "assets/icons/ip-unequal-scale.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-old-clock": {
+    "kind": "vector",
+    "query": "an old-fashioned grandfather clock next to a stone column, tradition, no text",
+    "file": "assets/icons/ip-old-clock.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-small-steps": {
+    "kind": "vector",
+    "query": "a small staircase with a person's footprints stepping up one step at a time, gradual steps, no text",
+    "file": "assets/icons/ip-small-steps.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-stable-rock": {
+    "kind": "vector",
+    "query": "a big stone sitting steady on a flat base, stability, no text",
+    "file": "assets/icons/ip-stable-rock.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-hand-brake": {
+    "kind": "vector",
+    "query": "a hand pulling a big brake lever, no text",
+    "file": "assets/icons/ip-hand-brake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-fair-change": {
+    "kind": "vector",
+    "query": "a green check mark with a small rising arrow, a fair change, no text",
+    "file": "assets/icons/ip-fair-change.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-clasped-hands": {
+    "kind": "vector",
+    "query": "two clasped hands in solidarity, simple, no text",
+    "file": "assets/icons/ip-clasped-hands.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-few-rich": {
+    "kind": "vector",
+    "query": "a tiny few people at the very top of a pyramid",
+    "file": "assets/icons/ip-few-rich.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-equality-sign": {
+    "kind": "vector",
+    "query": "a big golden equals sign with sparkles, equality, no text",
+    "file": "assets/icons/ip-equality-sign.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-shared-cake": {
+    "kind": "vector",
+    "query": "a single large cake being shared equally by identical small people, no text",
+    "file": "assets/icons/ip-shared-cake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-circle-people": {
+    "kind": "vector",
+    "query": "a circle of simple people holding hands, support of others, no text",
+    "file": "assets/icons/ip-circle-people.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-regulated": {
+    "kind": "vector",
+    "query": "a big rule book with a red ruler and a stamp, regulation, no text",
+    "file": "assets/icons/ip-regulated.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-state-distribute": {
+    "kind": "vector",
+    "query": "a big hand handing out gold coins equally to a line of small people, no text",
+    "file": "assets/icons/ip-state-distribute.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-less-effort": {
+    "kind": "vector",
+    "query": "a faded small trophy next to a tired flat battery, low motivation, no text",
+    "file": "assets/icons/ip-less-effort.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-big-hand-state": {
+    "kind": "vector",
+    "query": "a giant hand hovering over small houses, too much state power, no text",
+    "file": "assets/icons/ip-big-hand-state.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-arrow-finish": {
+    "kind": "vector",
+    "query": "a long arrow reaching a finish line ribbon, taking an idea all the way, no text",
+    "file": "assets/icons/ip-arrow-finish.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-classless-people": {
+    "kind": "vector",
+    "query": "a row of identical small people of equal height holding hands, no classes, no text",
+    "file": "assets/icons/ip-classless-people.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-map-three": {
+    "kind": "vector",
+    "query": "a world map with three countries highlighted in red, no text, no flags",
+    "file": "assets/icons/ip-map-three.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-one-urn": {
+    "kind": "vector",
+    "query": "a single ballot box on a podium with one chair, one-party rule, no text",
+    "file": "assets/icons/ip-one-urn.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-defender-bubble": {
+    "kind": "vector",
+    "query": "a speech bubble with a small shield inside, defenders, no text",
+    "file": "assets/icons/ip-defender-bubble.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-censor-bar": {
+    "kind": "vector",
+    "query": "a speech bubble covered by a black censor bar, censorship, no text",
+    "file": "assets/icons/ip-censor-bar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-empty-bowl": {
+    "kind": "vector",
+    "query": "an empty bowl with a spoon, hunger, no text",
+    "file": "assets/icons/ip-empty-bowl.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-scale": {
+    "kind": "vector",
+    "query": "a balance scale perfectly in the middle, medium size",
+    "file": "assets/icons/ip-scale.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-europe-map": {
+    "kind": "vector",
+    "query": "a map of Europe divided into countries with clear borders",
+    "file": "assets/icons/ip-europe-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-strong-state": {
+    "kind": "vector",
+    "query": "a sturdy government building lifting a small market stall with strong arms, no text",
+    "file": "assets/icons/ip-strong-state.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-tax-form": {
+    "kind": "vector",
+    "query": "an official tax paper form with a stamp and coins",
+    "file": "assets/icons/ip-tax-form.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-taxes-high": {
+    "kind": "vector",
+    "query": "a tall tower of coins going up with a red up arrow, high taxes, no text",
+    "file": "assets/icons/ip-taxes-high.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-costly-system": {
+    "kind": "vector",
+    "query": "a giant machine with many gears and a big price tag, expensive to maintain, no text",
+    "file": "assets/icons/ip-costly-system.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-no-rulers": {
+    "kind": "vector",
+    "query": "a king crown with a red crossed-out no symbol, no rulers",
+    "file": "assets/icons/ip-no-rulers.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-erase-state": {
+    "kind": "vector",
+    "query": "a government building being erased by a giant pencil eraser, no text",
+    "file": "assets/icons/ip-erase-state.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-no-bosses": {
+    "kind": "vector",
+    "query": "a hierarchy pyramid chart crossed with a big red X, no bosses, no text",
+    "file": "assets/icons/ip-no-bosses.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-spain-map": {
+    "kind": "vector",
+    "query": "a simple map of the Iberian peninsula with a small circled region in the northeast, no text, no flag",
+    "file": "assets/icons/ip-spain-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-empty-seat": {
+    "kind": "vector",
+    "query": "an empty chair at the head of a long table, no authority, no text",
+    "file": "assets/icons/ip-empty-seat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-fist": {
+    "kind": "vector",
+    "query": "a clenched fist on a flexing muscular arm, raw strength",
+    "file": "assets/icons/ip-fist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-lone-person": {
+    "kind": "vector",
+    "query": "a lone confident cartoon person with arms crossed standing on a small hill, individual freedom, no text",
+    "file": "assets/icons/ip-lone-person.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-siblings": {
+    "kind": "vector",
+    "query": "two similar cartoon siblings standing side by side, the older one with a bolder outline, no text",
+    "file": "assets/icons/ip-siblings.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-tiny-state": {
+    "kind": "vector",
+    "query": "a very tiny government building next to a huge cheerful person, minimal state, no text",
+    "file": "assets/icons/ip-tiny-state.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-shield": {
+    "kind": "vector",
+    "query": "a green shield with a check mark, protected",
+    "file": "assets/icons/ip-shield.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-rule-papers": {
+    "kind": "vector",
+    "query": "a stack of rule papers with a big red X, no regulations, no text",
+    "file": "assets/icons/ip-rule-papers.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-professor": {
+    "kind": "vector",
+    "query": "a friendly professor with glasses holding a book, no text",
+    "file": "assets/icons/ip-professor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-no-net": {
+    "kind": "vector",
+    "query": "an acrobat on a trapeze high above with no safety net below, no text",
+    "file": "assets/icons/ip-no-net.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-left-behind": {
+    "kind": "vector",
+    "query": "a lonely small cartoon figure waving at others walking away into the distance, fear of abandonment, gentle, no text",
+    "file": "assets/icons/ip-left-behind.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-nation-map": {
+    "kind": "vector",
+    "query": "a plain colored map silhouette of an imaginary country with a heart in the middle, no text, no flag",
+    "file": "assets/icons/ip-nation-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-language-bubbles": {
+    "kind": "vector",
+    "query": "three speech bubbles with different squiggly symbols, languages, no text",
+    "file": "assets/icons/ip-language-bubbles.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-broken-chain": {
+    "kind": "vector",
+    "query": "broken chain",
+    "file": "assets/icons/ip-broken-chain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-law-book": {
+    "kind": "vector",
+    "query": "a book of law with a judge gavel",
+    "file": "assets/icons/ip-law-book.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-roots-origin": {
+    "kind": "vector",
+    "query": "a family tree with deep roots and branches, origin, no text",
+    "file": "assets/icons/ip-roots-origin.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-cracked-map": {
+    "kind": "vector",
+    "query": "a map of the world cracked in two with a lightning bolt through it, conflict, no text",
+    "file": "assets/icons/ip-cracked-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-war-torn": {
+    "kind": "vector",
+    "query": "a crumbling broken stone city wall under a gray stormy sky, no people, no text",
+    "file": "assets/icons/ip-war-torn.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-dark-cloud": {
+    "kind": "vector",
+    "query": "dust and ash blocking out the sun, dark sky",
+    "file": "assets/icons/ip-dark-cloud.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-dark-page": {
+    "kind": "vector",
+    "query": "an open history book with one black page, no text",
+    "file": "assets/icons/ip-dark-page.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-italy-boot": {
+    "kind": "vector",
+    "query": "a simple map of Italy boot shape, no text, no flag",
+    "file": "assets/icons/ip-italy-boot.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-balloon-map": {
+    "kind": "vector",
+    "query": "a map silhouette inflated like a huge balloon about to burst, extreme nationalism, no text",
+    "file": "assets/icons/ip-balloon-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-absolute-leader": {
+    "kind": "vector",
+    "query": "one tall figure standing on a high podium above a crowd of tiny figures, a single leader, no symbols, no text",
+    "file": "assets/icons/ip-absolute-leader.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-single-chair": {
+    "kind": "vector",
+    "query": "a single lonely chair on an empty stage, a single party, no text",
+    "file": "assets/icons/ip-single-chair.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-crossed-ballot": {
+    "kind": "vector",
+    "query": "a ballot box with a big red cross-out, no text",
+    "file": "assets/icons/ip-crossed-ballot.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-ww2-planes": {
+    "kind": "vector",
+    "query": "three vintage propeller airplanes flying in formation, historical, no text",
+    "file": "assets/icons/ip-ww2-planes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-stop-hand": {
+    "kind": "vector",
+    "query": "a big red open stop hand sign, simple, no text",
+    "file": "assets/icons/ip-stop-hand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-insult-bubble": {
+    "kind": "vector",
+    "query": "an angry speech bubble with a scribble inside, an insult, no text",
+    "file": "assets/icons/ip-insult-bubble.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-open-book": {
+    "kind": "vector",
+    "query": "open book",
+    "file": "assets/icons/ip-open-book.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-eco-leaf": {
+    "kind": "vector",
+    "query": "a green leaf growing around a small Earth globe, ecology, no text",
+    "file": "assets/icons/ip-eco-leaf.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-earth": {
+    "kind": "vector",
+    "query": "planet Earth globe with clouds",
+    "file": "assets/icons/ip-earth.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-endless-growth": {
+    "kind": "vector",
+    "query": "an arrow growing upward endlessly past the edge of the frame, endless growth, no text",
+    "file": "assets/icons/ip-endless-growth.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-limited-world": {
+    "kind": "vector",
+    "query": "a small planet next to a nearly empty barrel of resources, limited resources, no text",
+    "file": "assets/icons/ip-limited-world.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-green-sprout": {
+    "kind": "vector",
+    "query": "a small green sprout growing out of a ballot box, no text",
+    "file": "assets/icons/ip-green-sprout.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-calendar-green": {
+    "kind": "vector",
+    "query": "a calendar page with a green leaf on it, no text",
+    "file": "assets/icons/ip-calendar-green.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-equality-symbols": {
+    "kind": "vector",
+    "query": "a female symbol and a male symbol joined by a big equals sign, no text",
+    "file": "assets/icons/ip-equality-symbols.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-man-woman": {
+    "kind": "vector",
+    "query": "a man and a woman standing side by side as equals, simple cartoon, no text",
+    "file": "assets/icons/ip-man-woman.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-nz-map": {
+    "kind": "vector",
+    "query": "a simple map of two long islands shaped like New Zealand, no text, no flag",
+    "file": "assets/icons/ip-nz-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-currents": {
+    "kind": "vector",
+    "query": "five arrows spreading out in five different directions",
+    "file": "assets/icons/ip-currents.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-crowd-vs-hat": {
+    "kind": "vector",
+    "query": "a big crowd of small people on one side and one figure in a top hat on the other, no text",
+    "file": "assets/icons/ip-crowd-vs-hat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-style-not-doctrine": {
+    "kind": "vector",
+    "query": "a stylish jacket on a hanger next to a closed thick book with a red cross-out, style not doctrine, no text",
+    "file": "assets/icons/ip-style-not-doctrine.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-elite-money": {
+    "kind": "vector",
+    "query": "a greedy face with dollar signs in its eyes and rubbing hands",
+    "file": "assets/icons/ip-elite-money.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-power-key": {
+    "kind": "vector",
+    "query": "a hand giving a golden key to a crowd of small people, no text",
+    "file": "assets/icons/ip-power-key.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-simplify": {
+    "kind": "vector",
+    "query": "a tangled ball of string being replaced by one straight line, oversimplifying, no text",
+    "file": "assets/icons/ip-simplify.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-cracked-building": {
+    "kind": "vector",
+    "query": "a government building with a big crack in the wall, no text",
+    "file": "assets/icons/ip-cracked-building.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-mix-pot": {
+    "kind": "vector",
+    "query": "a cartoon cooking pot with a swirl of colorful ingredients going into it, a mixture, no text",
+    "file": "assets/icons/ip-mix-pot.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-retro-80s": {
+    "kind": "vector",
+    "query": "a retro boombox and a rotary phone, 1980s style, no text",
+    "file": "assets/icons/ip-retro-80s.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-scissors-tax": {
+    "kind": "vector",
+    "query": "a pair of scissors cutting a tax form, no text",
+    "file": "assets/icons/ip-scissors-tax.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-for-sale": {
+    "kind": "vector",
+    "query": "a government building with a for-sale tag hanging on it, privatization, no text",
+    "file": "assets/icons/ip-for-sale.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-rules-away": {
+    "kind": "vector",
+    "query": "a rule book with pages flying away, deregulation, no text",
+    "file": "assets/icons/ip-rules-away.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-growth-up": {
+    "kind": "vector",
+    "query": "a green bar chart growing upward with a coin, economic growth, no text",
+    "file": "assets/icons/ip-growth-up.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-fuzzy-hard": {
+    "kind": "vector",
+    "query": "a blurry fuzzy shape with a question mark, hard to define, no text",
+    "file": "assets/icons/ip-fuzzy-hard.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-pick-ideas": {
+    "kind": "vector",
+    "query": "two hands picking colorful lightbulbs from a left basket and a right basket, no text",
+    "file": "assets/icons/ip-pick-ideas.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-toolbox": {
+    "kind": "vector",
+    "query": "a toolbox with a wrench and a screwdriver, practical, no text",
+    "file": "assets/icons/ip-toolbox.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-on-the-fence": {
+    "kind": "vector",
+    "query": "a person sitting on a fence between two fields, indecisive, no text",
+    "file": "assets/icons/ip-on-the-fence.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-warning-sign": {
+    "kind": "vector",
+    "query": "a yellow triangle warning sign with an exclamation mark, serious, no text",
+    "file": "assets/icons/ip-warning-sign.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-four-mistakes": {
+    "kind": "vector",
+    "query": "four blank cards fanned out, each with a red cross, no text",
+    "file": "assets/icons/ip-four-mistakes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-world-colors": {
+    "kind": "vector",
+    "query": "a world map with countries in different colors, no text",
+    "file": "assets/icons/ip-world-colors.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-word-split": {
+    "kind": "vector",
+    "query": "one speech bubble splitting into a calm blue map and a bright orange map, same word different meaning, no text",
+    "file": "assets/icons/ip-word-split.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-good-bad-coin": {
+    "kind": "vector",
+    "query": "an upvote arrow and a downvote arrow",
+    "file": "assets/icons/ip-good-bad-coin.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-puzzle-solved": {
+    "kind": "vector",
+    "query": "a jigsaw puzzle piece clicking into place, solving a problem, no text",
+    "file": "assets/icons/ip-puzzle-solved.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-label-person": {
+    "kind": "vector",
+    "query": "a name tag sticker floating next to a smiling person, no text",
+    "file": "assets/icons/ip-label-person.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-two-facing": {
+    "kind": "vector",
+    "query": "two cartoon figures facing off with a red crossed-out circle, no text",
+    "file": "assets/icons/ip-two-facing.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-dunce-no": {
+    "kind": "vector",
+    "query": "a dunce cap with a red crossed-out circle, no text",
+    "file": "assets/icons/ip-dunce-no.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-devil-no": {
+    "kind": "vector",
+    "query": "a small devil face with horns and a red crossed-out circle, no text",
+    "file": "assets/icons/ip-devil-no.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-my-ideas": {
+    "kind": "vector",
+    "query": "a thought bubble over a head containing a small padlock, my own ideas, no text",
+    "file": "assets/icons/ip-my-ideas.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-thought-head": {
+    "kind": "vector",
+    "query": "a cartoon head with a big thought bubble full of colorful question marks and arrows, no text",
+    "file": "assets/icons/ip-thought-head.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-globe-pin": {
+    "kind": "vector",
+    "query": "a globe with a map pin, where we were born, no text",
+    "file": "assets/icons/ip-globe-pin.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-mirror-self": {
+    "kind": "vector",
+    "query": "a hand mirror reflecting a thoughtful friendly face, self reflection, no text",
+    "file": "assets/icons/ip-mirror-self.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-two-heads": {
+    "kind": "vector",
+    "query": "two cartoon heads facing each other with speech bubbles and a heart between, no text",
+    "file": "assets/icons/ip-two-heads.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-important-star": {
+    "kind": "vector",
+    "query": "a big golden star with an exclamation mark and sparkles, the most important thing, no text",
+    "file": "assets/icons/ip-important-star.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-box-squeeze": {
+    "kind": "vector",
+    "query": "a person squeezed into a small cardboard box, doesn't fit, no text",
+    "file": "assets/icons/ip-box-squeeze.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-umbrella-family": {
+    "kind": "vector",
+    "query": "an umbrella protecting a family, social protection, no text",
+    "file": "assets/icons/ip-umbrella-family.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-no-labels": {
+    "kind": "vector",
+    "query": "a sticker label with a red crossed-out circle, no labels, no text",
+    "file": "assets/icons/ip-no-labels.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-party-mix": {
+    "kind": "vector",
+    "query": "a colorful pie chart with many mixed colors, no text",
+    "file": "assets/icons/ip-party-mix.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-magnify-thought": {
+    "kind": "vector",
+    "query": "a magnifying glass over a thought bubble, no text",
+    "file": "assets/icons/ip-magnify-thought.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-best-tool": {
+    "kind": "vector",
+    "query": "a shiny wrench with a gold star, the best tool, no text",
+    "file": "assets/icons/ip-best-tool.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-brain-head": {
+    "kind": "vector",
+    "query": "a cartoon head with a glowing brain thinking, no text",
+    "file": "assets/icons/ip-brain-head.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-belly-no": {
+    "kind": "vector",
+    "query": "a cartoon belly with a red crossed-out circle, not just gut feelings, no text",
+    "file": "assets/icons/ip-belly-no.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-bastilla": {
+    "kind": "cutout",
+    "query": "Revolución francesa",
+    "wiki": "Revolución francesa",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Revolución francesa",
+      "description": "conflicto social y político entre 1789 y 1799"
+    },
+    "file": "assets/icons/photo-bastilla.jpg"
+  },
+  "photo-asamblea": {
+    "kind": "cutout",
+    "query": "Asamblea Nacional Francia",
+    "wiki": "Asamblea Nacional (Francia)",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Asamblea Nacional de Francia",
+      "description": "cámara baja del parlamento francés"
+    },
+    "file": "assets/icons/photo-asamblea.jpg"
+  },
+  "photo-adam-smith": {
+    "kind": "cutout",
+    "query": "Adam Smith",
+    "wiki": "Adam Smith",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Adam Smith",
+      "description": "filósofo y economista escocés"
+    },
+    "file": "assets/icons/photo-adam-smith.jpg"
+  },
+  "photo-burke": {
+    "kind": "cutout",
+    "query": "Edmund Burke",
+    "wiki": "Edmund Burke",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Edmund Burke",
+      "description": "filósofo y político conservador británico (1729-1797)"
+    },
+    "file": "assets/icons/photo-burke.jpg"
+  },
+  "photo-marx": {
+    "kind": "cutout",
+    "query": "Karl Marx",
+    "wiki": "Karl Marx",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Karl Marx",
+      "description": "filósofo, economista, sociólogo, historiador, periodista, intelectual y revolucionario comunista alemán"
+    },
+    "file": "assets/icons/photo-marx.png"
+  },
+  "photo-bakunin": {
+    "kind": "cutout",
+    "query": "Mijaíl Bakunin",
+    "wiki": "Mijaíl Bakunin",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Mijaíl Bakunin",
+      "description": "anarquista ruso"
+    },
+    "file": "assets/icons/photo-bakunin.jpg"
+  },
+  "photo-rev-industrial": {
+    "kind": "cutout",
+    "query": "Revolución Industrial",
+    "wiki": "Revolución Industrial",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Revolución Industrial",
+      "description": "período histórico de transformaciones económicas y sociales (1762-1847)"
+    },
+    "file": "assets/icons/photo-rev-industrial.jpg"
+  },
+  "photo-sindicato": {
+    "kind": "cutout",
+    "query": "Sindicato obreros fábrica textil",
+    "wiki": "Sindicato",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sindicato",
+      "description": "organización de trabajadores en defensa y promoción de sus intereses"
+    },
+    "file": "assets/icons/photo-sindicato.jpg"
+  },
+  "photo-garibaldi": {
+    "kind": "cutout",
+    "query": "Giuseppe Garibaldi",
+    "wiki": "Giuseppe Garibaldi",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Giuseppe Garibaldi",
+      "description": "militar y político italiano"
+    },
+    "file": "assets/icons/photo-garibaldi.jpg"
+  },
+  "photo-unif-alemana": {
+    "kind": "cutout",
+    "query": "Unificación alemana",
+    "wiki": "Unificación alemana",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Unificación alemana",
+      "description": "creación histórica de un estado nacional el 18 de enero de 1871, en la forma del Imperio Alemán"
+    },
+    "file": "assets/icons/photo-unif-alemana.jpg"
+  },
+  "photo-westminster": {
+    "kind": "cutout",
+    "query": "Palacio de Westminster",
+    "wiki": "Palacio de Westminster",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Palacio de Westminster",
+      "description": "lugar de encuentro del parlamento del Reino Unido en Londres, Inglaterra"
+    },
+    "file": "assets/icons/photo-westminster.jpg"
+  },
+  "photo-capitolio": {
+    "kind": "cutout",
+    "query": "Capitolio de los Estados Unidos",
+    "wiki": "Capitolio de los Estados Unidos",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Capitolio de los Estados Unidos",
+      "description": "edificio que alberga las dos cámaras del Congreso de los Estados Unidos de América"
+    },
+    "file": "assets/icons/photo-capitolio.jpg"
+  },
+  "photo-reichstag": {
+    "kind": "cutout",
+    "query": "Edificio del Reichstag",
+    "wiki": "Edificio del Reichstag",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Edificio del Reichstag",
+      "description": "sede del parlamento alemán"
+    },
+    "file": "assets/icons/photo-reichstag.jpg"
+  },
+  "photo-versalles": {
+    "kind": "cutout",
+    "query": "Palacio de Versalles",
+    "wiki": "Palacio de Versalles",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Palacio de Versalles",
+      "description": "recinto palaciego en Francia que desempeñó las funciones de una residencia real en siglos pasados"
+    },
+    "file": "assets/icons/photo-versalles.jpg"
+  },
+  "photo-ilustracion": {
+    "kind": "cutout",
+    "query": "Ilustración siglo XVIII salón",
+    "wiki": "Ilustración",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Ilustración",
+      "description": "movimiento cultural europeo del siglo XVIII"
+    },
+    "file": "assets/icons/photo-ilustracion.jpg"
+  },
+  "photo-balanza": {
+    "kind": "cutout",
+    "query": "Balanza",
+    "wiki": "Balanza",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Balanza",
+      "description": "instrumento que sirve para medir masa y cuerpo"
+    },
+    "file": "assets/icons/photo-balanza.jpg"
+  },
+  "photo-estatua-libertad": {
+    "kind": "cutout",
+    "query": "Estatua de la Libertad",
+    "wiki": "Estatua de la Libertad",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Estatua de la Libertad",
+      "description": "monumento en Nueva York, Estados Unidos"
+    },
+    "file": "assets/icons/photo-estatua-libertad.jpg"
+  },
+  "photo-colonia": {
+    "kind": "cutout",
+    "query": "Catedral de Colonia",
+    "wiki": "Catedral de Colonia",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Catedral de Colonia",
+      "description": "templo y monumento de Colonia, Alemania"
+    },
+    "file": "assets/icons/photo-colonia.jpg"
+  },
+  "photo-estocolmo": {
+    "kind": "cutout",
+    "query": "Estocolmo",
+    "wiki": "Estocolmo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Estocolmo",
+      "description": "capital del Reino de Suecia"
+    },
+    "file": "assets/icons/photo-estocolmo.jpg"
+  },
+  "photo-brujula": {
+    "kind": "cutout",
+    "query": "Brújula",
+    "wiki": "Brújula",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Brújula",
+      "description": "instrumento de navegación que indica la dirección a los polos magnéticos"
+    },
+    "file": "assets/icons/photo-brujula.jpg"
+  },
+  "photo-bosque": {
+    "kind": "cutout",
+    "query": "Bosque",
+    "wiki": "Bosque",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Bosque",
+      "description": "superficie ocupada por árboles (> 10 %), de más de 5 000 m², y cuyo uso no sea ni agrícola ni urbano"
+    },
+    "file": "assets/icons/photo-bosque.jpg"
+  },
+  "photo-glaciar": {
+    "kind": "cutout",
+    "query": "Glaciar",
+    "wiki": "Glaciar",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Glaciar",
+      "description": "gran masa de hielo persistente"
+    },
+    "file": "assets/icons/photo-glaciar.jpg"
+  },
+  "photo-agricultura": {
+    "kind": "cutout",
+    "query": "Agricultura",
+    "wiki": "Agricultura",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Agricultura",
+      "description": "conjunto de actividades humanas cuyo fin es el cultivo de la tierra y la producción de alimentos"
+    },
+    "file": "assets/icons/photo-agricultura.jpg"
+  },
+  "photo-pankhurst": {
+    "kind": "cutout",
+    "query": "Emmeline Pankhurst",
+    "wiki": "Emmeline Pankhurst",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Emmeline Pankhurst",
+      "description": "activista inglesa"
+    },
+    "file": "assets/icons/photo-pankhurst.jpg"
+  },
+  "clip-handshake": {
+    "kind": "clip",
+    "query": "business handshake close up",
+    "file": "assets/clips/clip-handshake.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kampus Production",
+      "url": "https://www.pexels.com/video/group-of-people-shaking-hands-8170593/"
+    }
+  },
+  "clip-meeting-work": {
+    "kind": "clip",
+    "query": "business meeting office table presentation",
+    "file": "assets/clips/clip-meeting-work.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Vlada Karpovich",
+      "url": "https://www.pexels.com/video/business-people-talking-in-the-conference-room-7552430/"
+    }
+  },
+  "clip-family-walk": {
+    "kind": "clip",
+    "query": "grandparents parents and child family walking in park",
+    "file": "assets/clips/clip-family-walk.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Anastasia  Shuraeva",
+      "url": "https://www.pexels.com/video/family-walking-at-the-park-8944081/"
+    }
+  },
+  "clip-friends-talk": {
+    "kind": "clip",
+    "query": "friends talking at a table cafe",
+    "file": "assets/clips/clip-friends-talk.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "William  Fortunato",
+      "url": "https://www.pexels.com/video/friends-talking-with-a-cofffee-cup-6137848/"
+    }
+  },
+  "clip-tidy-desk": {
+    "kind": "clip",
+    "query": "neatly organized desk with stationery top view",
+    "file": "assets/clips/clip-tidy-desk.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "KATRIN  BOLOVTSOVA",
+      "url": "https://www.pexels.com/video/person-opening-a-notebook-6186872/"
+    }
+  },
+  "clip-bird-sky": {
+    "kind": "clip",
+    "query": "seagull flying in blue sky",
+    "file": "assets/clips/clip-bird-sky.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Engin Akyurt",
+      "url": "https://www.pexels.com/video/flying-seagulls-in-the-sky-28077187/"
+    }
+  },
+  "clip-arms-open": {
+    "kind": "clip",
+    "query": "person with arms open on mountain top daytime",
+    "file": "assets/clips/clip-arms-open.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "ROMAN ODINTSOV",
+      "url": "https://www.pexels.com/video/video-of-a-woman-turning-around-6662978/"
+    }
+  },
+  "clip-sign-contract": {
+    "kind": "clip",
+    "query": "signing contract pen close up",
+    "file": "assets/clips/clip-sign-contract.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/person-putting-signature-on-a-document-5778854/"
+    }
+  },
+  "clip-hiker": {
+    "kind": "clip",
+    "query": "man hiking alone backpack mountain daytime",
+    "file": "assets/clips/clip-hiker.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kampus Production",
+      "url": "https://www.pexels.com/video/man-wearing-backpack-walking-alone-5945464/"
+    }
+  },
+  "clip-debate": {
+    "kind": "clip",
+    "query": "group of people discussing around table daytime",
+    "file": "assets/clips/clip-debate.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Yan Krukau",
+      "url": "https://www.pexels.com/video/a-group-of-people-in-a-meeting-7692854/"
+    }
+  },
+  "clip-skyscrapers": {
+    "kind": "clip",
+    "query": "glass skyscrapers looking up daytime",
+    "file": "assets/clips/clip-skyscrapers.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Cá Bảo",
+      "url": "https://www.pexels.com/video/skyscraper-view-against-cloudy-sky-39969483/"
+    }
+  },
+  "clip-construction": {
+    "kind": "clip",
+    "query": "construction workers building site daytime",
+    "file": "assets/clips/clip-construction.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Usman AbdulrasheedGambo",
+      "url": "https://www.pexels.com/video/construction-worker-securing-scaffolding-cables-32244801/"
+    }
+  },
+  "clip-hourglass": {
+    "kind": "clip",
+    "query": "hourglass sand time close up",
+    "file": "assets/clips/clip-hourglass.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Samer Daboul",
+      "url": "https://www.pexels.com/video/sand-inside-an-hourglass-1188938/"
+    }
+  },
+  "clip-path-forest": {
+    "kind": "clip",
+    "query": "walking path through forest sunlight",
+    "file": "assets/clips/clip-path-forest.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Matthias Groeneveld",
+      "url": "https://www.pexels.com/video/sunlit-forest-pathway-in-serene-woodland-31807899/"
+    }
+  },
+  "clip-parliament": {
+    "kind": "clip",
+    "query": "parliament building exterior daytime",
+    "file": "assets/clips/clip-parliament.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Jovana De Obaldia",
+      "url": "https://www.pexels.com/video/iconic-budapest-parliament-building-statue-34649831/"
+    }
+  },
+  "clip-ballot": {
+    "kind": "clip",
+    "query": "hands dropping ballot into box",
+    "file": "assets/clips/clip-ballot.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Edmond Dantès",
+      "url": "https://www.pexels.com/video/a-ballot-being-dropped-at-the-ballot-box-7103426/"
+    }
+  },
+  "clip-factory-line": {
+    "kind": "clip",
+    "query": "factory production line",
+    "file": "assets/clips/clip-factory-line.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Usman AbdulrasheedGambo",
+      "url": "https://www.pexels.com/video/industrial-fabric-production-process-from-above-32268481/"
+    }
+  },
+  "clip-wind-turbines": {
+    "kind": "clip",
+    "query": "wind turbines field",
+    "file": "assets/clips/clip-wind-turbines.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Altaf Shah",
+      "url": "https://www.pexels.com/video/aerial-view-of-wind-turbines-in-vast-landscape-34411915/"
+    }
+  },
+  "clip-stock-graphs": {
+    "kind": "clip",
+    "query": "stock market screen graphs",
+    "file": "assets/clips/clip-stock-graphs.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Rafael Minguet Delgado",
+      "url": "https://www.pexels.com/video/dynamic-financial-trading-visualization-38209367/"
+    }
+  },
+  "clip-hospital": {
+    "kind": "clip",
+    "query": "hospital corridor bright",
+    "file": "assets/clips/clip-hospital.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Andrey Kirievskiy",
+      "url": "https://www.pexels.com/video/a-clean-office-building-3197808/"
+    }
+  },
+  "clip-classroom": {
+    "kind": "clip",
+    "query": "teacher classroom students daytime",
+    "file": "assets/clips/clip-classroom.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Max Fischer",
+      "url": "https://www.pexels.com/video/a-woman-teaching-her-students-inside-the-classroom-5200348/"
+    }
+  },
+  "clip-elderly": {
+    "kind": "clip",
+    "query": "elderly couple walking in park daytime",
+    "file": "assets/clips/clip-elderly.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "SHVETS production",
+      "url": "https://www.pexels.com/video/an-elderly-couple-walking-at-the-park-8970851/"
+    }
+  },
+  "clip-supermarket": {
+    "kind": "clip",
+    "query": "supermarket shelves shopping bright",
+    "file": "assets/clips/clip-supermarket.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Coverr",
+      "url": "https://www.pexels.com/video/blurry-footage-of-people-inside-a-grocery-store-853782/"
+    }
+  },
+  "clip-textile": {
+    "kind": "clip",
+    "query": "textile factory workers sewing machines",
+    "file": "assets/clips/clip-textile.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Romit  Majumdar",
+      "url": "https://www.pexels.com/video/garment-factory-15459710/"
+    }
+  },
+  "clip-crowd-day": {
+    "kind": "clip",
+    "query": "crowd walking daytime street",
+    "file": "assets/clips/clip-crowd-day.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Coverr",
+      "url": "https://www.pexels.com/video/black-and-white-video-of-a-busy-street-853946/"
+    }
+  },
+  "clip-library-shelves": {
+    "kind": "clip",
+    "query": "old books library shelves",
+    "file": "assets/clips/clip-library-shelves.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Liudmyla Honcharova",
+      "url": "https://www.pexels.com/video/librarian-taking-books-from-shelves-11833936/"
+    }
+  },
+  "clip-folk-dance": {
+    "kind": "clip",
+    "query": "folk dancers traditional costumes dancing outdoors",
+    "file": "assets/clips/clip-folk-dance.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Marlon Castor",
+      "url": "https://www.pexels.com/video/traditional-folk-dance-festival-in-outdoor-setting-38513655/"
+    }
+  },
+  "clip-cathedral": {
+    "kind": "clip",
+    "query": "old cathedral exterior daytime",
+    "file": "assets/clips/clip-cathedral.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Đào Thân",
+      "url": "https://www.pexels.com/video/majestic-gothic-church-against-clear-sky-32459485/"
+    }
+  },
+  "clip-house-front": {
+    "kind": "clip",
+    "query": "suburban house exterior daytime",
+    "file": "assets/clips/clip-house-front.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kindel Media",
+      "url": "https://www.pexels.com/video/people-walking-towards-a-house-7578719/"
+    }
+  },
+  "clip-speaker-mic": {
+    "kind": "clip",
+    "query": "woman speaking into microphone conference daytime",
+    "file": "assets/clips/clip-speaker-mic.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pavel Danilyuk",
+      "url": "https://www.pexels.com/video/woman-talking-while-holding-a-microphone-8716788/"
+    }
+  },
+  "ip-bar-chart": {
+    "kind": "vector",
+    "query": "a simple cartoon bar chart with rising colorful bars and a small upward arrow, no text",
+    "file": "assets/icons/ip-bar-chart.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-woman-ballot": {
+    "kind": "vector",
+    "query": "a simple cartoon woman smiling and dropping a paper into a ballot box, no text",
+    "file": "assets/icons/ip-woman-ballot.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-market-stall": {
+    "kind": "vector",
+    "query": "a simple cartoon open market stall with colorful goods, a price tag and a dollar sign, no text",
+    "file": "assets/icons/ip-market-stall.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ip-map-pins": {
+    "kind": "vector",
+    "query": "a simple world map in neutral beige-green with three small round location pins on distant regions, no text, no flags, no red areas",
+    "file": "assets/icons/ip-map-pins.png",
+    "normalized": true,
+    "gpt": true
+  }
+}
