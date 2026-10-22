@@ -7,6 +7,10 @@ on:
         description: "Generar un VÍDEO NUEVO (coge el siguiente tema de topics.json y Claude escribe el guion). Desmarca solo para re-renderizar el episodio activo."
         type: boolean
         default: true
+      episodio:
+        description: "OPCIONAL: carpeta del episodio a renderizar (ej. episodes/028-cada-pandemia-de-la-historia). Vacío = el de episodes/active.txt. Permite lanzar VARIOS renders a la vez."
+        type: string
+        default: ""
   # (schedule diario retirado a petición del usuario: los vídeos se lanzan a mano)
 
 permissions:
@@ -63,7 +67,13 @@ jobs:
 
       - name: Fijar episodio activo
         id: ep
-        run: echo "dir=$(cat episodes/active.txt)" >> $GITHUB_OUTPUT
+        run: |
+          EP="${{ inputs.episodio }}"
+          [ -z "$EP" ] && EP=$(cat episodes/active.txt)
+          EP="${EP%/}"
+          [ -d "$EP" ] || { echo "No existe la carpeta $EP"; exit 1; }
+          echo "Episodio: $EP"
+          echo "dir=$EP" >> $GITHUB_OUTPUT
 
       - name: Modo (storyboard manual vs pipeline automático)
         id: mode
@@ -125,10 +135,9 @@ jobs:
         run: |
           git config user.name "capsula-bot"
           git config user.email "bot@capsulacuriosa"
-          git add topics.json episodes public/active/scenes.json || true
+          git add topics.json episodes || true
           git commit -m "Auto: guion + voz de '${{ steps.ep.outputs.dir }}' (guardado antes de render)" || echo "sin cambios"
-          git pull --no-rebase --no-edit origin main || true
-          git push || echo "push diferido"
+          for i in 1 2 3 4; do git pull --no-rebase --no-edit origin main || true; git push && break || sleep $((i*7)); done
 
       - name: 02d) VERIFICAR (GATE — un vídeo con texto solapado NO se puede renderizar)
         run: node scripts/verify.mjs "${{ steps.ep.outputs.dir }}"
@@ -148,7 +157,7 @@ jobs:
         run: |
           echo "title=$(node -p "require('./public/active/scenes.json').meta.title || 'Episodio'")" >> $GITHUB_OUTPUT
           echo "fecha=$(date +%Y-%m-%d)" >> $GITHUB_OUTPUT
-          node -e "const a=require('./'+require('fs').readFileSync('episodes/active.txt','utf8').trim()+'/assets.json');const s=new Set();for(const k in a){const at=a[k].attribution;if(at&&at.license&&at.license!=='?')s.add(at.source.split(':')[0]+' ('+at.license+')');}console.log('Iconos: '+([...s].join(', ')||'—')+' · Fotos: Wikimedia Commons')" > out/credits.txt
+          node -e "const a=require('./'+'${{ steps.ep.outputs.dir }}'+'/assets.json');const s=new Set();for(const k in a){const at=a[k].attribution;if(at&&at.license&&at.license!=='?')s.add(at.source.split(':')[0]+' ('+at.license+')');}console.log('Iconos: '+([...s].join(', ')||'—')+' · Fotos: Wikimedia Commons')" > out/credits.txt
           echo "credits=$(cat out/credits.txt)" >> $GITHUB_OUTPUT
 
       - name: 04b) Nombrar el vídeo con su TÍTULO (no VIDEO_FINAL)
@@ -184,7 +193,6 @@ jobs:
         run: |
           git config user.name "capsula-bot"
           git config user.email "bot@capsulacuriosa"
-          git add topics.json episodes public/assets public/active || true
+          git add topics.json episodes public/assets || true
           git commit -m "Auto: episodio '${{ steps.meta.outputs.title }}' + avance de tema" || echo "sin cambios"
-          git pull --no-rebase --no-edit origin main || true
-          git push
+          for i in 1 2 3 4; do git pull --no-rebase --no-edit origin main || true; git push && break || sleep $((i*7)); done
