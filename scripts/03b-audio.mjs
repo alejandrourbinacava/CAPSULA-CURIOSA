@@ -21,10 +21,12 @@ const pickLibraryTrack = () => {
   const md = "public/music"; if (!fs.existsSync(md)) return null;
   const tracks = fs.readdirSync(md).filter(f => /\.(mp3|wav|m4a|ogg)$/i.test(f)).sort();
   if (!tracks.length) return null;
-  const name = path.basename(dir); let h = 0; for (const c of name) h = (h * 31 + c.charCodeAt(0)) >>> 0;
-  return path.join(md, tracks[h % tracks.length]);
+  const name = path.basename(dir); const num = parseInt((name.match(/^\d+/) || [])[0], 10);
+  let h = 0; for (const c of name) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+  return path.join(md, tracks[(Number.isFinite(num) ? num : h) % tracks.length]); // nº de episodio → pistas consecutivas distintas
 };
-const MUSIC = epMusic || pickLibraryTrack() || "public/voz/bg_music.wav";
+// Prioridad (2026-10-22): biblioteca real (public/music, Incompetech CC BY) > pista propia del episodio > global.
+const MUSIC = pickLibraryTrack() || epMusic || "public/voz/bg_music.wav";
 console.log(`🎵 música: ${MUSIC}`);
 const MUSIC_DB = process.env.MUSIC_DB || "-23dB";  // "bajita" bajo la voz; súbela/bájala con MUSIC_DB
 if (!fs.existsSync(RAW)) { console.error("Falta " + RAW); process.exit(1); }

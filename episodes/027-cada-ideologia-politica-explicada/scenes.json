@@ -9086,12 +9086,12 @@
       "box": {
         "cx": 960,
         "cy": 715,
-        "w": 345,
-        "h": 193
+        "w": 230,
+        "h": 230
       },
       "in": 235.8,
       "out": 238.14,
-      "z": 27,
+      "z": 30,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -9101,9 +9101,9 @@
         "duration": 0.3
       },
       "_scene": true,
-      "type": "clip",
-      "src": "assets/clips/clip-textile.mp4",
-      "frame": "rounded",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/ip-coop-factory.png",
       "cam": {
         "t0": 231.2,
         "t1": 238.14,
@@ -9118,7 +9118,7 @@
       "fontSize": 42,
       "box": {
         "cx": 960,
-        "cy": 848,
+        "cy": 849,
         "w": 194,
         "h": 51
       },
@@ -9149,7 +9149,7 @@
       "fontSize": 42,
       "box": {
         "cx": 960,
-        "cy": 903,
+        "cy": 904,
         "w": 332,
         "h": 51
       },
@@ -9178,7 +9178,7 @@
       "type": "arrow",
       "a": {
         "x": 960,
-        "y": 604.5
+        "y": 586
       },
       "b": {
         "x": 960,

@@ -383,7 +383,7 @@ Narración: *"Durante la Guerra Civil Española…"*
 ```
 +0.0  SCENE timeline
 +0.0  NODE ip-spain-map "Cataluña y Aragón" ~Cataluña
-+0.0  NODE clip-textile "fábricas autogestionadas" ~fábricas
++0.0  NODE ip-coop-factory "fábricas autogestionadas" ~fábricas
 +0.0  NODE photo-agricultura "campos autogestionados" ~campos
 ```
 

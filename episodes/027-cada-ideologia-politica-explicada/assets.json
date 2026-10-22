@@ -1563,5 +1563,12 @@
     "file": "assets/icons/ip-map-pins.png",
     "normalized": true,
     "gpt": true
+  },
+  "ip-coop-factory": {
+    "kind": "vector",
+    "query": "a simple cartoon factory building with a few smiling workers standing together outside holding tools, cooperative, no text",
+    "file": "assets/icons/ip-coop-factory.png",
+    "normalized": true,
+    "gpt": true
   }
 }
