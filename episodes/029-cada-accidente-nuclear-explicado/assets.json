@@ -1,0 +1,850 @@
+{
+  "lb-bulb": {
+    "kind": "vector",
+    "query": "a classic glowing incandescent light bulb"
+  },
+  "lb-uranium": {
+    "kind": "vector",
+    "query": "a glowing radioactive uranium atom symbol"
+  },
+  "lb-plant": {
+    "kind": "vector",
+    "query": "a nuclear power plant with cooling towers"
+  },
+  "lb-warning": {
+    "kind": "vector",
+    "query": "a yellow warning triangle with an exclamation mark"
+  },
+  "lb-killsw": {
+    "kind": "vector",
+    "query": "a big red emergency kill switch button"
+  },
+  "lb-magnifier": {
+    "kind": "vector",
+    "query": "a magnifying glass with a green check mark, verifying something"
+  },
+  "lb-bulbbook": {
+    "kind": "vector",
+    "query": "a lightbulb above an open book with a star, an important lesson"
+  },
+  "lb-curious": {
+    "kind": "vector",
+    "query": "a curious surprised face with wide eyes"
+  },
+  "lb-flame": {
+    "kind": "vector",
+    "query": "flame fire"
+  },
+  "lb-flames": {
+    "kind": "vector",
+    "query": "orange flames of a fire"
+  },
+  "lb-redflag": {
+    "kind": "vector",
+    "query": "a red warning flag"
+  },
+  "lb-calflip": {
+    "kind": "vector",
+    "query": "a wall calendar with many pages flying off, many years passing, no numbers"
+  },
+  "lb-longroad": {
+    "kind": "vector",
+    "query": "a long winding road with many kilometer markers"
+  },
+  "lb-tsunami": {
+    "kind": "vector",
+    "query": "a giant tsunami wall of water approaching a coast town"
+  },
+  "lb-earthquake": {
+    "kind": "vector",
+    "query": "ground cracking open in an earthquake with a shaking building"
+  },
+  "lb-evac": {
+    "kind": "vector",
+    "query": "an evacuation route road sign with an arrow"
+  },
+  "lb-atomic": {
+    "kind": "vector",
+    "query": "a huge atomic bomb mushroom cloud explosion"
+  },
+  "lb-fakescreen": {
+    "kind": "vector",
+    "query": "a control panel screen showing a fake green all-normal reading"
+  },
+  "lb-operator": {
+    "kind": "vector",
+    "query": "a factory control room operator at a monitor"
+  },
+  "lb-urgency": {
+    "kind": "vector",
+    "query": "a ringing alarm clock, hurry up urgency"
+  },
+  "lb-factory": {
+    "kind": "vector",
+    "query": "a factory building with smoke stacks"
+  },
+  "lb-peopleleave": {
+    "kind": "vector",
+    "query": "a line of people walking away abandoning a city"
+  },
+  "lb-hospital": {
+    "kind": "vector",
+    "query": "a hospital building with a red cross, healthcare"
+  },
+  "lb-europe": {
+    "kind": "vector",
+    "query": "a map of Europe divided into countries with clear borders"
+  },
+  "lb-shield": {
+    "kind": "vector",
+    "query": "a green shield with a check mark, protected"
+  },
+  "lb-stareyes": {
+    "kind": "vector",
+    "query": "a happy dreaming face with sparkling stars in its eyes, hope and excitement"
+  },
+  "lb-startled": {
+    "kind": "vector",
+    "query": "a cartoon person jumping up in surprise with exclamation lines, startled, no text"
+  },
+  "lb-bigcrowd": {
+    "kind": "vector",
+    "query": "a huge crowd of a million people in a big city"
+  },
+  "lb-scared": {
+    "kind": "vector",
+    "query": "a scared frightened face, fear"
+  },
+  "lb-brokendeal": {
+    "kind": "vector",
+    "query": "two business hands failing a handshake, a broken cracked deal"
+  },
+  "lb-stophand": {
+    "kind": "vector",
+    "query": "a big red open stop hand sign, simple, no text"
+  },
+  "lb-clocklong": {
+    "kind": "vector",
+    "query": "a big clock with a long winding trail behind it, lasting for a long time, no text"
+  },
+  "lb-calendar": {
+    "kind": "vector",
+    "query": "a wall calendar showing a year"
+  },
+  "lb-faucet": {
+    "kind": "vector",
+    "query": "a water faucet tap with a drop"
+  },
+  "lb-hurricane": {
+    "kind": "vector",
+    "query": "a swirling hurricane storm seen from space with an eye"
+  },
+  "lb-planetshout": {
+    "kind": "vector",
+    "query": "a small planet shouting with a loudspeaker"
+  },
+  "lb-siren": {
+    "kind": "vector",
+    "query": "a red flashing emergency siren light"
+  },
+  "lb-folderchain": {
+    "kind": "vector",
+    "query": "a folder of files covered in chains and a padlock"
+  },
+  "lb-star": {
+    "kind": "vector",
+    "query": "a big golden star with an exclamation mark and sparkles, the most important thing, no text"
+  },
+  "lb-iberia": {
+    "kind": "vector",
+    "query": "a simple map of the Iberian peninsula with a small circled region in the northeast, no text, no flag"
+  },
+  "lb-candle": {
+    "kind": "vector",
+    "query": "a candle flame gently blowing out"
+  },
+  "lb-questionarmy": {
+    "kind": "vector",
+    "query": "a big red question mark over a crowd silhouette"
+  },
+  "lb-agency": {
+    "kind": "vector",
+    "query": "a secret government agency headquarters building"
+  },
+  "nu-heat-thermo": {
+    "kind": "vector",
+    "query": "a classic red thermometer with a rising red level and small wavy heat lines, no text"
+  },
+  "nu-crossed-gear": {
+    "kind": "vector",
+    "query": "a metal gear with a big red crossed-out circle over it, no text"
+  },
+  "nu-fission": {
+    "kind": "vector",
+    "query": "a big round atom splitting into two smaller atoms with a bright flash between them, no text"
+  },
+  "nu-hot-fuel": {
+    "kind": "vector",
+    "query": "a stack of glowing orange-hot fuel rods with wavy heat lines rising, no text"
+  },
+  "nu-cooling-fail": {
+    "kind": "vector",
+    "query": "a blue water pipe snapped in two with a tiny drop dripping and a red cross, cooling failed, no text"
+  },
+  "nu-overheat": {
+    "kind": "vector",
+    "query": "a big thermometer with the red level shooting past the top and sweat drops, no text"
+  },
+  "nu-melting-core": {
+    "kind": "vector",
+    "query": "a glowing round reactor core sagging and melting like hot wax, no text"
+  },
+  "nu-ines-steps": {
+    "kind": "vector",
+    "query": "a staircase of seven steps rising from green at the bottom to red at the top, no text"
+  },
+  "nu-gauge": {
+    "kind": "vector",
+    "query": "a round meter dial with a needle pointing into the red zone, no text"
+  },
+  "nu-start-line": {
+    "kind": "vector",
+    "query": "a cartoon starting line painted on a road with a small arrow pointing forward, no text"
+  },
+  "nu-chimney-fire": {
+    "kind": "vector",
+    "query": "an old brick reactor building with a tall chimney and a small fire at the top, no text"
+  },
+  "nu-uk-map": {
+    "kind": "vector",
+    "query": "a simple map of the United Kingdom islands in neutral green and beige, no text, no flag"
+  },
+  "nu-reactor-armas": {
+    "kind": "vector",
+    "query": "a plain gray reactor building standing next to a small missile, no text"
+  },
+  "nu-heating-dial": {
+    "kind": "vector",
+    "query": "a gloved hand turning a big heating dial up to hot, no text"
+  },
+  "nu-graphite-fire": {
+    "kind": "vector",
+    "query": "a black graphite block catching fire with orange flames, no text"
+  },
+  "nu-radiation-cloud": {
+    "kind": "vector",
+    "query": "a gray cloud drifting over green hills with a small yellow radiation trefoil on it, no text"
+  },
+  "nu-shush": {
+    "kind": "vector",
+    "query": "a cartoon person in a suit holding a finger over their lips, shh, hiding the truth, no text"
+  },
+  "nu-secret-plant": {
+    "kind": "vector",
+    "query": "a gray factory behind a tall fence with a big padlock hanging on the gate, secret, no text"
+  },
+  "nu-ussr-map": {
+    "kind": "vector",
+    "query": "a plain huge northern country map silhouette in neutral green, no text, no flag"
+  },
+  "nu-plutonium": {
+    "kind": "vector",
+    "query": "a glowing silver metal ball with a small radiation trefoil, no text"
+  },
+  "nu-waste-tank": {
+    "kind": "vector",
+    "query": "a big metal storage tank with a green glowing radiation trefoil painted on it, no text"
+  },
+  "nu-tank-explosion": {
+    "kind": "vector",
+    "query": "a metal tank bursting open with a puff of smoke and an orange flame, no text"
+  },
+  "nu-sealed-folder": {
+    "kind": "vector",
+    "query": "a gray folder sealed with a heavy padlock next to a calendar with many pages, kept secret for years, no text"
+  },
+  "nu-spain-se": {
+    "kind": "vector",
+    "query": "a map of Spain with a small red circle on the southern coast, no text, no flag"
+  },
+  "nu-falling-bomb": {
+    "kind": "vector",
+    "query": "a cartoon bomb with a small parachute falling through the sky, no text"
+  },
+  "nu-four-bombs": {
+    "kind": "vector",
+    "query": "four gray cartoon bombs falling from the sky toward land and sea, no text"
+  },
+  "nu-no-explosion": {
+    "kind": "vector",
+    "query": "a gray cartoon bomb lying on the ground with a green check mark and a crossed-out explosion star, no text"
+  },
+  "nu-two-bombs-burst": {
+    "kind": "vector",
+    "query": "two gray bombs cracked open with puffs of orange dust, conventional explosives going off, no text"
+  },
+  "nu-mini-sub": {
+    "kind": "vector",
+    "query": "a small cheerful yellow mini submarine under the sea, no text"
+  },
+  "nu-swimmers": {
+    "kind": "vector",
+    "query": "two men in old fashioned striped swim trunks waving cheerfully while standing in the sea, retro, no text"
+  },
+  "nu-usa-map": {
+    "kind": "vector",
+    "query": "a plain map silhouette of the United States in neutral green, no text, no flag"
+  },
+  "nu-confused-operator": {
+    "kind": "vector",
+    "query": "a cartoon control room operator scratching his head with question marks floating above, no text"
+  },
+  "nu-wrong-choice": {
+    "kind": "vector",
+    "query": "a person at a fork in the road walking toward the path marked with a red cross, no text"
+  },
+  "nu-containment-dome": {
+    "kind": "vector",
+    "query": "a strong thick gray concrete dome building like a protective shield, no text"
+  },
+  "nu-heart-check": {
+    "kind": "vector",
+    "query": "a red heart with a big green check mark on it, no text"
+  },
+  "nu-ukraine-map": {
+    "kind": "vector",
+    "query": "a plain map silhouette of Ukraine in neutral green and beige, no text, no flag"
+  },
+  "nu-wobbly-reactor": {
+    "kind": "vector",
+    "query": "a wobbly unstable tower of building blocks about to tip over, no text"
+  },
+  "nu-unplugged-safety": {
+    "kind": "vector",
+    "query": "a green safety shield symbol with its power plug pulled out and lying disconnected, no text"
+  },
+  "nu-power-spike": {
+    "kind": "vector",
+    "query": "a line graph spiking sharply upward off the chart with a lightning bolt, no text"
+  },
+  "nu-reactor-explosion": {
+    "kind": "vector",
+    "query": "a cartoon industrial building bursting open with an orange explosion and flying debris, no text"
+  },
+  "nu-exclusion-circle": {
+    "kind": "vector",
+    "query": "a map circle with a dashed boundary around a small plant icon and a warning sign, no text"
+  },
+  "nu-steel-arch": {
+    "kind": "vector",
+    "query": "a giant silver arch-shaped steel structure covering a small building, no text"
+  },
+  "nu-chart-question": {
+    "kind": "vector",
+    "query": "a bar chart with a big question mark floating above the bars, no text"
+  },
+  "nu-experts-debate": {
+    "kind": "vector",
+    "query": "two cartoon scientists in lab coats with speech bubbles and a question mark between them, no text"
+  },
+  "nu-blueprint-fail": {
+    "kind": "vector",
+    "query": "a blueprint paper showing a reactor drawing with a big red crack and a red cross, no text"
+  },
+  "nu-brazil-map": {
+    "kind": "vector",
+    "query": "a plain map silhouette of Brazil in neutral green, no text, no flag"
+  },
+  "nu-old-medical-device": {
+    "kind": "vector",
+    "query": "an old heavy medical machine with a metal casing and a round window, no text"
+  },
+  "nu-americas-map": {
+    "kind": "vector",
+    "query": "a simple map of North and South America in neutral green and beige, no text, no flag"
+  },
+  "nu-beaker": {
+    "kind": "vector",
+    "query": "a bubbling glass lab flask with green liquid, no text"
+  },
+  "nu-japan-map": {
+    "kind": "vector",
+    "query": "a simple map of the Japanese islands in neutral green and beige, no text, no flag"
+  },
+  "nu-bucket": {
+    "kind": "vector",
+    "query": "a steel bucket filled with glowing green liquid, no text"
+  },
+  "nu-skip-steps": {
+    "kind": "vector",
+    "query": "a checklist clipboard with a big arrow jumping over several unchecked items, no text"
+  },
+  "nu-chain-reaction": {
+    "kind": "vector",
+    "query": "a chain of glowing atoms bursting one after another in a growing chain reaction, no text"
+  },
+  "nu-rushing": {
+    "kind": "vector",
+    "query": "a hurried cartoon person running with a tiny clock and tripping over a small stone, no text"
+  },
+  "nu-plant-closed": {
+    "kind": "vector",
+    "query": "a small power plant building with a big padlock hanging on its front door, no text"
+  },
+  "nu-big-check": {
+    "kind": "vector",
+    "query": "a big green check mark with sparkles, everything works, no text"
+  },
+  "nu-no-power": {
+    "kind": "vector",
+    "query": "an unplugged power plug next to a dark unlit light bulb, no text"
+  },
+  "nu-pump": {
+    "kind": "vector",
+    "query": "a blue water pump with pipes standing completely still, not working, no text"
+  },
+  "nu-three-reactors": {
+    "kind": "vector",
+    "query": "three small reactor buildings in a row with glowing orange cores inside, no text"
+  },
+  "nu-cooling-water": {
+    "kind": "vector",
+    "query": "a blue water drop flowing through a pipe that wraps around a reactor, no text"
+  },
+  "nu-water-filter": {
+    "kind": "vector",
+    "query": "a big water filter machine turning cloudy water into clear water, no text"
+  },
+  "nu-trefoil-removed": {
+    "kind": "vector",
+    "query": "a yellow radiation trefoil symbol being lifted out of a water drop by tweezers, no text"
+  },
+  "nu-scientist": {
+    "kind": "vector",
+    "query": "a friendly cartoon scientist with goggles holding a flask, no text"
+  },
+  "nu-neighbor-countries": {
+    "kind": "vector",
+    "query": "two neighboring country map shapes side by side with a dotted border between them, no text, no flags"
+  },
+  "nu-flame-out": {
+    "kind": "vector",
+    "query": "a small flame going out with a thin curl of smoke rising, no text"
+  },
+  "nu-link-question": {
+    "kind": "vector",
+    "query": "a magnifying glass over a golden chain link joining several different shapes, no text"
+  },
+  "nu-test-no-gloves": {
+    "kind": "vector",
+    "query": "a bubbling test tube next to a red crossed-out safety helmet, no text"
+  },
+  "nu-communication-gap": {
+    "kind": "vector",
+    "query": "two cartoon heads with speech bubbles that do not connect, a gap between them, no text"
+  },
+  "nu-detector": {
+    "kind": "vector",
+    "query": "a small detector device with a blinking light on the roof of a power plant, no text"
+  },
+  "nu-improve-arrow": {
+    "kind": "vector",
+    "query": "a green upward arrow climbing a small staircase with a check mark, improvement, no text"
+  },
+  "nu-reinforced-wall": {
+    "kind": "vector",
+    "query": "a tall thick sea wall protecting a small power plant from a big wave, no text"
+  },
+  "nu-study-papers": {
+    "kind": "vector",
+    "query": "a stack of research papers with a small bar chart on top, no text"
+  },
+  "nu-open-debate": {
+    "kind": "vector",
+    "query": "two speech bubbles facing each other, one green and one orange, open debate, no text"
+  },
+  "nu-transparent-glass": {
+    "kind": "vector",
+    "query": "a see-through glass window with sunlight passing through, transparency, no text"
+  },
+  "nu-humble-bow": {
+    "kind": "vector",
+    "query": "a cartoon person bowing humbly with a hand on the chest, no text"
+  },
+  "nu-memorial": {
+    "kind": "vector",
+    "query": "a simple stone memorial with a small candle flame lit in front, no text"
+  },
+  "photo-central": {
+    "kind": "cutout",
+    "query": "Central nuclear",
+    "wiki": "Central nuclear",
+    "lang": "es"
+  },
+  "photo-olla": {
+    "kind": "cutout",
+    "query": "Olla a presión",
+    "wiki": "Olla a presión",
+    "lang": "es"
+  },
+  "photo-vapor": {
+    "kind": "cutout",
+    "query": "Vapor",
+    "wiki": "Vapor",
+    "lang": "es"
+  },
+  "photo-turbina": {
+    "kind": "cutout",
+    "query": "Turbina de vapor",
+    "wiki": "Turbina de vapor",
+    "lang": "es"
+  },
+  "photo-turbina2": {
+    "kind": "cutout",
+    "query": "Turbina",
+    "wiki": "Turbina",
+    "lang": "es"
+  },
+  "photo-reactor": {
+    "kind": "cutout",
+    "query": "Reactor nuclear",
+    "wiki": "Reactor nuclear",
+    "lang": "es"
+  },
+  "photo-uranio": {
+    "kind": "cutout",
+    "query": "Uranio",
+    "wiki": "Uranio",
+    "lang": "es"
+  },
+  "photo-geiger": {
+    "kind": "cutout",
+    "query": "Contador Geiger",
+    "wiki": "Contador Geiger",
+    "lang": "es"
+  },
+  "photo-b52": {
+    "kind": "cutout",
+    "query": "Boeing B-52 Stratofortress",
+    "wiki": "Boeing B-52 Stratofortress",
+    "lang": "es"
+  },
+  "photo-kc135": {
+    "kind": "cutout",
+    "query": "Boeing KC-135 Stratotanker",
+    "wiki": "Boeing KC-135 Stratotanker",
+    "lang": "es"
+  },
+  "photo-palomares": {
+    "kind": "cutout",
+    "query": "Cuevas del Almanzora",
+    "wiki": "Cuevas del Almanzora",
+    "lang": "es"
+  },
+  "photo-tmi": {
+    "kind": "cutout",
+    "query": "Three Mile Island",
+    "wiki": "Planta de energía nuclear Three Mile Island",
+    "lang": "es"
+  },
+  "photo-valvula": {
+    "kind": "cutout",
+    "query": "Válvula",
+    "wiki": "Válvula",
+    "lang": "es"
+  },
+  "photo-chernobyl-central": {
+    "kind": "cutout",
+    "query": "Central nuclear de Chernóbil",
+    "wiki": "Central nuclear de Chernóbil",
+    "lang": "es"
+  },
+  "photo-sarcofago": {
+    "kind": "cutout",
+    "query": "Sarcófago de Chernóbil",
+    "wiki": "Sarcófago de Chernóbil",
+    "lang": "es"
+  },
+  "photo-pripyat": {
+    "kind": "cutout",
+    "query": "Prípiat",
+    "wiki": "Prípiat",
+    "lang": "es"
+  },
+  "photo-chatarra": {
+    "kind": "cutout",
+    "query": "Chatarra",
+    "wiki": "Chatarra",
+    "lang": "es"
+  },
+  "photo-cesio": {
+    "kind": "cutout",
+    "query": "Cesio",
+    "wiki": "Cesio",
+    "lang": "es"
+  },
+  "photo-vandellos": {
+    "kind": "cutout",
+    "query": "Central nuclear de Vandellós",
+    "wiki": "Central nuclear de Vandellós",
+    "lang": "es"
+  },
+  "photo-fukushima": {
+    "kind": "cutout",
+    "query": "Central nuclear Fukushima I",
+    "wiki": "Central nuclear Fukushima I",
+    "lang": "es"
+  },
+  "photo-fukushima-sat": {
+    "kind": "cutout",
+    "query": "Accidente nuclear de Fukushima I",
+    "wiki": "Accidente nuclear de Fukushima I",
+    "lang": "es"
+  },
+  "photo-sismografo": {
+    "kind": "cutout",
+    "query": "Sismógrafo",
+    "wiki": "Sismógrafo",
+    "lang": "es"
+  },
+  "photo-rompeolas": {
+    "kind": "cutout",
+    "query": "Rompeolas",
+    "wiki": "Rompeolas",
+    "lang": "es"
+  },
+  "photo-generador": {
+    "kind": "cutout",
+    "query": "Generador eléctrico",
+    "wiki": "Generador eléctrico",
+    "lang": "es"
+  },
+  "photo-tanques": {
+    "kind": "cutout",
+    "query": "Tanque de almacenamiento",
+    "wiki": "Tanque de almacenamiento",
+    "lang": "es"
+  },
+  "photo-mar": {
+    "kind": "cutout",
+    "query": "Mar",
+    "wiki": "Mar",
+    "lang": "es"
+  },
+  "photo-petroleo": {
+    "kind": "cutout",
+    "query": "Petróleo",
+    "wiki": "Petróleo",
+    "lang": "es"
+  },
+  "clip-wind-turbines": {
+    "kind": "clip",
+    "query": "wind turbines field",
+    "file": "assets/clips/clip-wind-turbines.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Altaf Shah",
+      "url": "https://www.pexels.com/video/aerial-view-of-wind-turbines-in-vast-landscape-34411915/"
+    }
+  },
+  "clip-construction": {
+    "kind": "clip",
+    "query": "construction workers building site daytime",
+    "file": "assets/clips/clip-construction.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Usman AbdulrasheedGambo",
+      "url": "https://www.pexels.com/video/construction-worker-securing-scaffolding-cables-32244801/"
+    }
+  },
+  "clip-hazmat": {
+    "kind": "clip",
+    "query": "person in hazmat protective suit",
+    "file": "assets/clips/clip-hazmat.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Michelangelo Buonarroti",
+      "url": "https://www.pexels.com/video/a-close-up-shot-of-a-person-wearing-a-protective-suit-4205974/"
+    }
+  },
+  "clip-crowd-day": {
+    "kind": "clip",
+    "query": "crowd walking daytime street",
+    "file": "assets/clips/clip-crowd-day.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Coverr",
+      "url": "https://www.pexels.com/video/black-and-white-video-of-a-busy-street-853946/"
+    }
+  },
+  "clip-friends-talk": {
+    "kind": "clip",
+    "query": "friends talking at a table cafe",
+    "file": "assets/clips/clip-friends-talk.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "William  Fortunato",
+      "url": "https://www.pexels.com/video/friends-talking-with-a-cofffee-cup-6137848/"
+    }
+  },
+  "clip-meeting-work": {
+    "kind": "clip",
+    "query": "business meeting office table presentation",
+    "file": "assets/clips/clip-meeting-work.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Vlada Karpovich",
+      "url": "https://www.pexels.com/video/business-people-talking-in-the-conference-room-7552430/"
+    }
+  },
+  "clip-test-tube": {
+    "kind": "clip",
+    "query": "laboratory test tubes colorful",
+    "file": "assets/clips/clip-test-tube.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikhail Nilov",
+      "url": "https://www.pexels.com/video/close-up-of-test-tubes-on-a-test-tube-rack-9373595/"
+    }
+  },
+  "clip-factory-line": {
+    "kind": "clip",
+    "query": "factory production line",
+    "file": "assets/clips/clip-factory-line.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Usman AbdulrasheedGambo",
+      "url": "https://www.pexels.com/video/industrial-fabric-production-process-from-above-32268481/"
+    }
+  },
+  "clip-hourglass": {
+    "kind": "clip",
+    "query": "hourglass sand time close up",
+    "file": "assets/clips/clip-hourglass.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Samer Daboul",
+      "url": "https://www.pexels.com/video/sand-inside-an-hourglass-1188938/"
+    }
+  },
+  "clip-handshake": {
+    "kind": "clip",
+    "query": "business handshake close up",
+    "file": "assets/clips/clip-handshake.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kampus Production",
+      "url": "https://www.pexels.com/video/group-of-people-shaking-hands-8170593/"
+    }
+  },
+  "clip-family-walk": {
+    "kind": "clip",
+    "query": "grandparents parents and child family walking in park",
+    "file": "assets/clips/clip-family-walk.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Anastasia  Shuraeva",
+      "url": "https://www.pexels.com/video/family-walking-at-the-park-8944081/"
+    }
+  },
+  "clip-cooling-towers": {
+    "kind": "clip",
+    "query": "nuclear power plant cooling towers steam blue sky",
+    "file": "assets/clips/clip-cooling-towers.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Darina Evstafeva",
+      "url": "https://www.pexels.com/video/cooling-towers-in-autumn-landscape-at-sunset-29491854/"
+    }
+  },
+  "clip-farmland": {
+    "kind": "clip",
+    "query": "green farmland countryside aerial daytime",
+    "file": "assets/clips/clip-farmland.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tom Jurman",
+      "url": "https://www.pexels.com/video/aerial-view-of-scenic-rural-landscape-34731148/"
+    }
+  },
+  "clip-milk": {
+    "kind": "clip",
+    "query": "pouring milk into glass close up white background",
+    "file": "assets/clips/clip-milk.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Engin Akyurt",
+      "url": "https://www.pexels.com/video/a-person-pouring-milk-in-a-glass-beer-mug-10974707/"
+    }
+  },
+  "clip-coast": {
+    "kind": "clip",
+    "query": "mediterranean coast cliffs blue sea sunny",
+    "file": "assets/clips/clip-coast.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Engin Akyurt",
+      "url": "https://www.pexels.com/video/serene-mediterranean-coastal-cliff-view-30764221/"
+    }
+  },
+  "clip-fisherman": {
+    "kind": "clip",
+    "query": "fisherman on small boat at sea daytime",
+    "file": "assets/clips/clip-fisherman.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Arsel Ozgurdal",
+      "url": "https://www.pexels.com/video/footage-of-a-wooden-boat-on-a-sea-8371449/"
+    }
+  },
+  "clip-beach": {
+    "kind": "clip",
+    "query": "people walking on sunny beach",
+    "file": "assets/clips/clip-beach.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kampus Production",
+      "url": "https://www.pexels.com/video/a-couple-holding-hands-while-walking-in-the-beach-6180186/"
+    }
+  },
+  "clip-abandoned": {
+    "kind": "clip",
+    "query": "abandoned building interior daylight dusty",
+    "file": "assets/clips/clip-abandoned.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "utopia 36",
+      "url": "https://www.pexels.com/video/abandoned-room-in-chernobyl-12160811/"
+    }
+  },
+  "clip-power-lines": {
+    "kind": "clip",
+    "query": "electricity pylons power lines blue sky daytime",
+    "file": "assets/clips/clip-power-lines.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "C A",
+      "url": "https://www.pexels.com/video/time-lapse-of-moving-clouds-over-a-transmission-tower-15357261/"
+    }
+  },
+  "clip-firefighters": {
+    "kind": "clip",
+    "query": "firefighters spraying water hose fire truck daytime",
+    "file": "assets/clips/clip-firefighters.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Joerg Mangelsen",
+      "url": "https://www.pexels.com/video/a-fire-truck-spraying-water-on-a-runway-15448013/"
+    }
+  },
+  "clip-coal": {
+    "kind": "clip",
+    "query": "coal power plant smoke stacks daytime",
+    "file": "assets/clips/clip-coal.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Luke Nomad",
+      "url": "https://www.pexels.com/video/factory-among-hills-14268469/"
+    }
+  }
+}

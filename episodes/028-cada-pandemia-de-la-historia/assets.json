@@ -1,0 +1,898 @@
+{
+  "pa-virus-illu": {
+    "kind": "vector",
+    "query": "virus illustration"
+  },
+  "pa-virus-spiky": {
+    "kind": "vector",
+    "query": "a green cartoon virus bug with spikes on"
+  },
+  "pa-world-red-virus": {
+    "kind": "vector",
+    "query": "a red virus spreading across a world map"
+  },
+  "pa-calendar-weeks": {
+    "kind": "vector",
+    "query": "a calendar with pages flying away weeks "
+  },
+  "pa-surprise": {
+    "kind": "vector",
+    "query": "a cartoon person jumping up in surprise "
+  },
+  "pa-globe-warning": {
+    "kind": "vector",
+    "query": "a globe of the world with a warning tria"
+  },
+  "pa-stop-hand": {
+    "kind": "vector",
+    "query": "a hand making a stop gesture"
+  },
+  "pa-trophy": {
+    "kind": "vector",
+    "query": "a gold winner trophy"
+  },
+  "pa-ancient-map": {
+    "kind": "vector",
+    "query": "ancient map"
+  },
+  "pa-roman-empire": {
+    "kind": "vector",
+    "query": "roman empire"
+  },
+  "pa-roman-soldier": {
+    "kind": "vector",
+    "query": "roman legion soldier"
+  },
+  "pa-roman-map": {
+    "kind": "vector",
+    "query": "roman empire at its height under emperor"
+  },
+  "pa-crowd-million": {
+    "kind": "vector",
+    "query": "a huge crowd of a million people in a bi"
+  },
+  "pa-old-crown": {
+    "kind": "vector",
+    "query": "an old broken ancient crown of a fallen "
+  },
+  "pa-star": {
+    "kind": "vector",
+    "query": "a big golden star with an exclamation ma"
+  },
+  "pa-europe-map": {
+    "kind": "vector",
+    "query": "a map of europe divided into countries w"
+  },
+  "pa-ship-sail": {
+    "kind": "vector",
+    "query": "an old european sailing ship arriving"
+  },
+  "pa-rat": {
+    "kind": "vector",
+    "query": "a rat eating seeds"
+  },
+  "pa-caravel": {
+    "kind": "vector",
+    "query": "caravel ship"
+  },
+  "pa-world-map": {
+    "kind": "vector",
+    "query": "world map"
+  },
+  "pa-feverish": {
+    "kind": "vector",
+    "query": "a feverish person with spiral eyes and a"
+  },
+  "pa-news-card": {
+    "kind": "vector",
+    "query": "a friendly newspaper style card with a g"
+  },
+  "pa-general-map": {
+    "kind": "vector",
+    "query": "a general planning war strategy on a map"
+  },
+  "pa-trench": {
+    "kind": "vector",
+    "query": "world war one soldiers in a muddy trench"
+  },
+  "pa-crowd-diverse": {
+    "kind": "vector",
+    "query": "a crowd of tiny diverse humans standing "
+  },
+  "pa-gate-lock": {
+    "kind": "vector",
+    "query": "a big iron gate with a padlock and a ste"
+  },
+  "pa-old-person": {
+    "kind": "vector",
+    "query": "a happy very old person next to a birthd"
+  },
+  "pa-med-bottle": {
+    "kind": "vector",
+    "query": "a medicine bottle with a green plus cros"
+  },
+  "pa-alarm-bell": {
+    "kind": "vector",
+    "query": "a ringing red alert notification bell"
+  },
+  "pa-year-calendar": {
+    "kind": "vector",
+    "query": "a wall calendar showing a year"
+  },
+  "pa-world-countries": {
+    "kind": "vector",
+    "query": "a world map with countries in different "
+  },
+  "pa-africa": {
+    "kind": "vector",
+    "query": "africa map silhouette"
+  },
+  "pa-pointing-crowd": {
+    "kind": "vector",
+    "query": "a crowd of small figures pointing finger"
+  },
+  "pa-radar": {
+    "kind": "vector",
+    "query": "a friendly radar dish with a green check"
+  },
+  "pa-magnify-check": {
+    "kind": "vector",
+    "query": "a magnifying glass with a green check ma"
+  },
+  "pa-lamp-check": {
+    "kind": "vector",
+    "query": "a glowing warm lamp with a green check m"
+  },
+  "pa-knowledge-shield": {
+    "kind": "vector",
+    "query": "a smart person with a shield who knows a"
+  },
+  "pa-shadow": {
+    "kind": "vector",
+    "query": "a big dark shadow shape looming over a s"
+  },
+  "pa-question-crowd": {
+    "kind": "vector",
+    "query": "a big red question mark over a crowd sil"
+  },
+  "pa-retro80": {
+    "kind": "vector",
+    "query": "a retro boombox and a rotary phone 1980s"
+  },
+  "pa-crossed-spears": {
+    "kind": "vector",
+    "query": "crossed ancient spears and a shield war "
+  },
+  "pa-wall-calendar-flying": {
+    "kind": "vector",
+    "query": "a wall calendar with many pages flying o"
+  },
+  "pa-lightbulb-book": {
+    "kind": "vector",
+    "query": "a lightbulb above an open book with a st"
+  },
+  "pa-shield-check": {
+    "kind": "vector",
+    "query": "a green check mark inside a medical shie"
+  },
+  "pa-invisible-germ": {
+    "kind": "vector",
+    "query": "a tiny cartoon germ seen through a magnifying glass, almost invisible, no text"
+  },
+  "pa-no-weapons": {
+    "kind": "vector",
+    "query": "a pair of crossed swords and a cannon inside a red crossed-out circle, no text"
+  },
+  "pa-hourglass-pages": {
+    "kind": "vector",
+    "query": "an hourglass with flowing sand next to a few old book pages, no text"
+  },
+  "pa-footprints-path": {
+    "kind": "vector",
+    "query": "a winding path with a line of footprints going over hills, no text"
+  },
+  "pa-cause-question": {
+    "kind": "vector",
+    "query": "a small germ with a big question mark above it, no text"
+  },
+  "pa-humanity-steps": {
+    "kind": "vector",
+    "query": "a group of small cartoon people climbing up a staircase toward a trophy, no text"
+  },
+  "pa-three-circles": {
+    "kind": "vector",
+    "query": "three concentric circles growing larger from a small red dot, no text"
+  },
+  "pa-distinction-lens": {
+    "kind": "vector",
+    "query": "a magnifying glass over two similar shapes, telling things apart, no text"
+  },
+  "pa-outbreak-dot": {
+    "kind": "vector",
+    "query": "a small map of one town with a single red dot and a few little sparks, no text"
+  },
+  "pa-epidemic-region": {
+    "kind": "vector",
+    "query": "a map of one region with a medium red spreading patch, no text"
+  },
+  "pa-continents-red": {
+    "kind": "vector",
+    "query": "a world map with red patches spreading across several continents, no text"
+  },
+  "pa-first-footprint": {
+    "kind": "vector",
+    "query": "a single bold footprint stamped in the sand, the first one, no text"
+  },
+  "pa-desert-caravan": {
+    "kind": "vector",
+    "query": "a camel caravan walking in the desert toward a far distant city, no text"
+  },
+  "pa-unknown-disease": {
+    "kind": "vector",
+    "query": "a mysterious gray fog with a question mark over a sleepy cartoon person, no text"
+  },
+  "pa-byzantine-emperor": {
+    "kind": "vector",
+    "query": "a Byzantine emperor with a golden crown and a purple cloak, simple cartoon, no text"
+  },
+  "pa-grain-ship": {
+    "kind": "vector",
+    "query": "an old wooden ship loaded with sacks of grain, no text"
+  },
+  "pa-flea": {
+    "kind": "vector",
+    "query": "a big cartoon flea with a tiny red dot on its back, no text"
+  },
+  "pa-plague-doctor": {
+    "kind": "vector",
+    "query": "a plague doctor in a long dark coat with a long beak mask and a hat, historical cartoon, no text"
+  },
+  "pa-fire-spread": {
+    "kind": "vector",
+    "query": "a small fire spreading quickly across a simple map of Europe, no text"
+  },
+  "pa-person-to-person": {
+    "kind": "vector",
+    "query": "two simple cartoon people facing each other with a small red arrow going from one to the other, no text"
+  },
+  "pa-europe-pie": {
+    "kind": "vector",
+    "query": "a pie chart with one third and up to half in red next to a tiny map of Europe, no text"
+  },
+  "pa-medieval-gate": {
+    "kind": "vector",
+    "query": "a medieval town gate with a big crowd of tiny people waiting outside and dark clouds, no text"
+  },
+  "pa-word-bubble": {
+    "kind": "vector",
+    "query": "a speech bubble with a golden star inside, a word we still use, no text"
+  },
+  "pa-world-changed": {
+    "kind": "vector",
+    "query": "a world map with arrows crossing the ocean, the map of the world changing, no text"
+  },
+  "pa-andean-villagers": {
+    "kind": "vector",
+    "query": "two cartoon Andean villagers in woven ponchos next to a llama, simple and respectful, no text"
+  },
+  "pa-new-germs": {
+    "kind": "vector",
+    "query": "a few strange new spiky germs floating over a ship's deck, no text"
+  },
+  "pa-no-defense": {
+    "kind": "vector",
+    "query": "a simple cartoon person standing with empty hands and no shield, no text"
+  },
+  "pa-shrinking-crowd": {
+    "kind": "vector",
+    "query": "a big group of small people with most of them faded to pale grey outline and a few left in color, no text"
+  },
+  "pa-hope-sunrise": {
+    "kind": "vector",
+    "query": "a sunrise over green hills with a small green sprout, hope, no text"
+  },
+  "pa-who-globe": {
+    "kind": "vector",
+    "query": "a friendly globe held by two hands with a small red cross badge, no text"
+  },
+  "pa-erased-virus": {
+    "kind": "vector",
+    "query": "a cartoon virus being erased by a big pencil eraser, no text"
+  },
+  "pa-water-pump": {
+    "kind": "vector",
+    "query": "an old hand water pump with a long handle on a street, no text"
+  },
+  "pa-dirty-water": {
+    "kind": "vector",
+    "query": "a glass of cloudy brown water with a small frowning face, no text"
+  },
+  "pa-waves-world": {
+    "kind": "vector",
+    "query": "three wave arrows crossing a world map one after another, no text"
+  },
+  "pa-no-tap-water": {
+    "kind": "vector",
+    "query": "a water faucet with a red cross over it and a dry drop, no text"
+  },
+  "pa-bad-air": {
+    "kind": "vector",
+    "query": "a puffy green cloud of bad air drifting over small town houses, no text"
+  },
+  "pa-map-dots": {
+    "kind": "vector",
+    "query": "a street map with small red dots clustered around one blue water pump, no text"
+  },
+  "pa-handle-removed": {
+    "kind": "vector",
+    "query": "a hand taking the handle off an old street water pump, no text"
+  },
+  "pa-cases-down": {
+    "kind": "vector",
+    "query": "a red bar chart with bars getting shorter and a green down arrow, no text"
+  },
+  "pa-map-sprout": {
+    "kind": "vector",
+    "query": "a rolled old map with a small green seedling sprouting out of it, no text"
+  },
+  "pa-spread-network": {
+    "kind": "vector",
+    "query": "a magnifying glass over a small network of dots connected by lines with a few red dots, no text"
+  },
+  "pa-spain-map": {
+    "kind": "vector",
+    "query": "a plain simple map of Spain and Portugal peninsula in beige, no text, no flag"
+  },
+  "pa-not-born-here": {
+    "kind": "vector",
+    "query": "a map pin on a country with a big red crossed-out circle over it, no text"
+  },
+  "pa-dove-neutral": {
+    "kind": "vector",
+    "query": "a white dove on a plain map of Spain, peace and neutral, no text"
+  },
+  "pa-censored-news": {
+    "kind": "vector",
+    "query": "a newspaper covered by a black censor bar, no text"
+  },
+  "pa-pie-third": {
+    "kind": "vector",
+    "query": "a pie chart with exactly one third highlighted in red, no text"
+  },
+  "pa-young-adults": {
+    "kind": "vector",
+    "query": "a group of cheerful healthy young adult cartoon people exercising, no text"
+  },
+  "pa-train-soldiers": {
+    "kind": "vector",
+    "query": "a vintage steam train crossing a landscape with a few cartoon soldiers waving, no text"
+  },
+  "pa-school-closed": {
+    "kind": "vector",
+    "query": "a school building with a padlock on its door, no text"
+  },
+  "pa-no-gathering": {
+    "kind": "vector",
+    "query": "a crowd of tiny people inside a red crossed-out circle, no text"
+  },
+  "pa-fewer-deaths": {
+    "kind": "vector",
+    "query": "a short green bar next to a tall red bar, fewer, no text"
+  },
+  "pa-act-early": {
+    "kind": "vector",
+    "query": "a hand pressing a big green start button early on a clock, no text"
+  },
+  "pa-act-late": {
+    "kind": "vector",
+    "query": "a slow snail next to a big late clock, no text"
+  },
+  "pa-asia-map": {
+    "kind": "vector",
+    "query": "a simple beige map of Asia with a small red dot, no text"
+  },
+  "pa-hongkong": {
+    "kind": "vector",
+    "query": "a harbor skyline with tall skyscrapers and a small sailing junk boat, no text"
+  },
+  "pa-red-ribbon": {
+    "kind": "vector",
+    "query": "a red awareness ribbon folded in a loop, no text"
+  },
+  "pa-snail-silent": {
+    "kind": "vector",
+    "query": "a snail with a finger over its lips, slow and silent, no text"
+  },
+  "pa-grave-verdict": {
+    "kind": "vector",
+    "query": "an old paper scroll with a heavy red wax seal and a gavel, verdict, no text"
+  },
+  "pa-storm-cloud": {
+    "kind": "vector",
+    "query": "a dark storm cloud with a lightning bolt over a small person, no text"
+  },
+  "pa-calm-path": {
+    "kind": "vector",
+    "query": "a long gentle calm road under a clear sky, steady and calm, no text"
+  },
+  "pa-person-healthy-vih": {
+    "kind": "vector",
+    "query": "a smiling cartoon person with a small red ribbon on the shirt, healthy and happy, no text"
+  },
+  "pa-no-transmit": {
+    "kind": "vector",
+    "query": "a virus with a green shield in front and a crossed arrow, no text"
+  },
+  "pa-covid-spike": {
+    "kind": "vector",
+    "query": "a round coronavirus particle with many red spikes, no text"
+  },
+  "pa-calendar-spring": {
+    "kind": "vector",
+    "query": "a calendar page with a big red circle around one day, spring leaves, no text"
+  },
+  "pa-scientists-world": {
+    "kind": "vector",
+    "query": "a friendly globe surrounded by small scientists in lab coats, no text"
+  },
+  "pa-contained-virus": {
+    "kind": "vector",
+    "query": "a small red virus held back behind a strong green shield barrier, no text"
+  },
+  "pa-animal-to-person": {
+    "kind": "vector",
+    "query": "a curved arrow from a small animal silhouette to a cartoon person, no text"
+  },
+  "pa-isolation-bubble": {
+    "kind": "vector",
+    "query": "a cartoon person standing alone inside a clear bubble with a green check, no text"
+  },
+  "pa-contained-months": {
+    "kind": "vector",
+    "query": "a calendar with a few months and a green check mark, no text"
+  },
+  "pa-mild-virus": {
+    "kind": "vector",
+    "query": "a small mild cartoon virus shrugging next to a giant scary shadow, no text"
+  },
+  "pa-direct-contact": {
+    "kind": "vector",
+    "query": "two simple hands touching with a small drop between them, no text"
+  },
+  "pa-caged-virus": {
+    "kind": "vector",
+    "query": "a big angry red virus inside a strong green cage, no text"
+  },
+  "pa-scary-virus": {
+    "kind": "vector",
+    "query": "a spiky scary red virus with angry eyes, no text"
+  },
+  "pa-fast-runner": {
+    "kind": "vector",
+    "query": "a cartoon runner sprinting with speed lines and a stopwatch, no text"
+  },
+  "pa-three-ingredients": {
+    "kind": "vector",
+    "query": "three colorful ingredient bottles in a row, no text"
+  },
+  "pa-new-virus": {
+    "kind": "vector",
+    "query": "a brand new bright purple virus with a tiny star, new, no text"
+  },
+  "pa-common-origin": {
+    "kind": "vector",
+    "query": "several arrows from different germs all pointing back to one common spot, no text"
+  },
+  "pa-animals-group": {
+    "kind": "vector",
+    "query": "a friendly group of cartoon animals: a bat, a pig and a small rat, no text"
+  },
+  "pa-pig": {
+    "kind": "vector",
+    "query": "a cute cartoon pig, no text"
+  },
+  "pa-chimp": {
+    "kind": "vector",
+    "query": "a cute cartoon chimpanzee, no text"
+  },
+  "pa-scientist-binoculars": {
+    "kind": "vector",
+    "query": "a cartoon scientist looking through binoculars at an animal jumping toward a person, no text"
+  },
+  "pa-rumor": {
+    "kind": "vector",
+    "query": "a whispering speech bubble passing along a chain of tiny people, no text"
+  },
+  "pa-fake-cure": {
+    "kind": "vector",
+    "query": "a snake oil style bottle with a big red X, no text"
+  },
+  "pa-invented-culprit": {
+    "kind": "vector",
+    "query": "a cartoon figure being pointed at by a huge finger with a red question mark, no text"
+  },
+  "pa-medieval-castle": {
+    "kind": "vector",
+    "query": "a small medieval castle with a flag on a hill, no text"
+  },
+  "pa-injustice": {
+    "kind": "vector",
+    "query": "a tilted unfair scale with a broken weight, no text"
+  },
+  "pa-ignore-measures": {
+    "kind": "vector",
+    "query": "a person turning away from a clipboard with a green check, no text"
+  },
+  "pa-toolbox": {
+    "kind": "vector",
+    "query": "a friendly toolbox with a wrench and a green check, no text"
+  },
+  "pa-wrench-star": {
+    "kind": "vector",
+    "query": "a shiny wrench with a gold star, no text"
+  },
+  "pa-clock-fast": {
+    "kind": "vector",
+    "query": "a stopwatch with a green check and sparkles, fast, no text"
+  },
+  "pa-next-question": {
+    "kind": "vector",
+    "query": "a calendar with a big question mark on a far-off day, no text"
+  },
+  "pa-truth-bubble": {
+    "kind": "vector",
+    "query": "a speech bubble with a green check and a golden star, truth, no text"
+  },
+  "photo-tierra": {
+    "kind": "cutout",
+    "query": "Tierra",
+    "wiki": "Tierra",
+    "lang": "es"
+  },
+  "photo-coliseo": {
+    "kind": "cutout",
+    "query": "Coliseo",
+    "wiki": "Coliseo",
+    "lang": "es"
+  },
+  "photo-foro-romano": {
+    "kind": "cutout",
+    "query": "Foro Romano",
+    "wiki": "Foro Romano",
+    "lang": "es"
+  },
+  "photo-marco-aurelio": {
+    "kind": "cutout",
+    "query": "Marco Aurelio",
+    "wiki": "Marco Aurelio",
+    "lang": "es"
+  },
+  "photo-justiniano": {
+    "kind": "cutout",
+    "query": "Justiniano I",
+    "wiki": "Justiniano I",
+    "lang": "es"
+  },
+  "photo-santa-sofia": {
+    "kind": "cutout",
+    "query": "Santa Sofía",
+    "wiki": "Santa Sofía",
+    "lang": "es"
+  },
+  "photo-constantinopla": {
+    "kind": "cutout",
+    "query": "Constantinopla",
+    "wiki": "Constantinopla",
+    "lang": "es"
+  },
+  "photo-mar-negro": {
+    "kind": "cutout",
+    "query": "Mar Negro",
+    "wiki": "Mar Negro",
+    "lang": "es"
+  },
+  "photo-lazareto": {
+    "kind": "cutout",
+    "query": "Lazareto",
+    "wiki": "Lazareto",
+    "lang": "es"
+  },
+  "photo-conquista": {
+    "kind": "cutout",
+    "query": "Conquista de México-Tenochtitlan",
+    "wiki": "Conquista de México-Tenochtitlan",
+    "lang": "es"
+  },
+  "photo-templo-mayor": {
+    "kind": "cutout",
+    "query": "Templo Mayor",
+    "wiki": "Templo Mayor",
+    "lang": "es"
+  },
+  "photo-machu-picchu": {
+    "kind": "cutout",
+    "query": "Machu Picchu",
+    "wiki": "Machu Picchu",
+    "lang": "es"
+  },
+  "photo-jenner": {
+    "kind": "cutout",
+    "query": "Edward Jenner",
+    "wiki": "Edward Jenner",
+    "lang": "es"
+  },
+  "photo-colera": {
+    "kind": "cutout",
+    "query": "Cólera",
+    "wiki": "Cólera",
+    "lang": "es"
+  },
+  "photo-john-snow": {
+    "kind": "cutout",
+    "query": "John Snow",
+    "wiki": "John Snow",
+    "lang": "es"
+  },
+  "photo-londres": {
+    "kind": "cutout",
+    "query": "Londres",
+    "wiki": "Londres",
+    "lang": "es"
+  },
+  "photo-bomba": {
+    "kind": "cutout",
+    "query": "Bomba hidráulica",
+    "wiki": "Bomba hidráulica",
+    "lang": "es"
+  },
+  "photo-gripe1918": {
+    "kind": "cutout",
+    "query": "Pandemia de gripe de 1918",
+    "wiki": "Pandemia de gripe de 1918",
+    "lang": "es"
+  },
+  "photo-filadelfia": {
+    "kind": "cutout",
+    "query": "Ayuntamiento de Filadelfia",
+    "wiki": "Ayuntamiento de Filadelfia",
+    "lang": "es"
+  },
+  "photo-gateway": {
+    "kind": "cutout",
+    "query": "Arco Gateway",
+    "wiki": "Arco Gateway",
+    "lang": "es"
+  },
+  "photo-gripe-virus": {
+    "kind": "cutout",
+    "query": "Gripe",
+    "wiki": "Gripe",
+    "lang": "es"
+  },
+  "photo-vih": {
+    "kind": "cutout",
+    "query": "Virus de la inmunodeficiencia humana",
+    "wiki": "Virus de la inmunodeficiencia humana",
+    "lang": "es"
+  },
+  "photo-coronavirus": {
+    "kind": "cutout",
+    "query": "Orthocoronavirinae",
+    "wiki": "Orthocoronavirinae",
+    "lang": "es"
+  },
+  "photo-jeringa": {
+    "kind": "cutout",
+    "query": "Jeringa",
+    "wiki": "Jeringa",
+    "lang": "es"
+  },
+  "photo-cerdo": {
+    "kind": "cutout",
+    "query": "Sus scrofa domestica",
+    "wiki": "Sus scrofa domestica",
+    "lang": "es"
+  },
+  "photo-ebola": {
+    "kind": "cutout",
+    "query": "Ebolavirus",
+    "wiki": "Ebolavirus",
+    "lang": "es"
+  },
+  "photo-h1n1": {
+    "kind": "cutout",
+    "query": "Influenzavirus A subtipo H1N1",
+    "wiki": "Influenzavirus A subtipo H1N1",
+    "lang": "es"
+  },
+  "photo-trigo": {
+    "kind": "cutout",
+    "query": "Triticum",
+    "wiki": "Triticum",
+    "lang": "es"
+  },
+  "photo-nao": {
+    "kind": "cutout",
+    "query": "Nao",
+    "wiki": "Nao",
+    "lang": "es"
+  },
+  "photo-bacteria": {
+    "kind": "cutout",
+    "query": "Bacteria",
+    "wiki": "Bacteria",
+    "lang": "es"
+  },
+  "photo-hipodromo": {
+    "kind": "cutout",
+    "query": "Hipódromo de Constantinopla",
+    "wiki": "Hipódromo de Constantinopla",
+    "lang": "es"
+  },
+  "photo-murcielago": {
+    "kind": "cutout",
+    "query": "Chiroptera",
+    "wiki": "Chiroptera",
+    "lang": "es"
+  },
+  "clip-airplane": {
+    "kind": "clip",
+    "query": "airplane wing above clouds",
+    "file": "assets/clips/clip-airplane.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Altaf Shah",
+      "url": "https://www.pexels.com/video/aerial-view-of-plane-wing-above-clouds-30512228/"
+    }
+  },
+  "clip-handwash": {
+    "kind": "clip",
+    "query": "washing hands with soap close up",
+    "file": "assets/clips/clip-handwash.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pavel Danilyuk",
+      "url": "https://www.pexels.com/video/person-washing-hands-with-soap-4002686/"
+    }
+  },
+  "clip-hospital": {
+    "kind": "clip",
+    "query": "hospital corridor bright",
+    "file": "assets/clips/clip-hospital.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Andrey Kirievskiy",
+      "url": "https://www.pexels.com/video/a-clean-office-building-3197808/"
+    }
+  },
+  "clip-doctor": {
+    "kind": "clip",
+    "query": "doctor in white coat",
+    "file": "assets/clips/clip-doctor.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tima Miroshnichenko",
+      "url": "https://www.pexels.com/video/a-senior-doctor-demonstrating-how-to-use-an-eye-drop-8375706/"
+    }
+  },
+  "clip-pills": {
+    "kind": "clip",
+    "query": "pills medicine bottle cap close up",
+    "file": "assets/clips/clip-pills.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Alex Green",
+      "url": "https://www.pexels.com/video/pills-being-dropped-5697635/"
+    }
+  },
+  "clip-sunrise": {
+    "kind": "clip",
+    "query": "sunrise sky orange",
+    "file": "assets/clips/clip-sunrise.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "rehan verma",
+      "url": "https://www.pexels.com/video/trees-and-sky-at-day-break-2446545/"
+    }
+  },
+  "clip-phone-scroll": {
+    "kind": "clip",
+    "query": "smartphone scrolling feed close up",
+    "file": "assets/clips/clip-phone-scroll.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Scott Precious",
+      "url": "https://www.pexels.com/video/scrolling-smartphone-news-feed-in-close-up-35888104/"
+    }
+  },
+  "clip-test-tube": {
+    "kind": "clip",
+    "query": "test tubes laboratory bright",
+    "file": "assets/clips/clip-test-tube.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikhail Nilov",
+      "url": "https://www.pexels.com/video/a-pouring-liquid-in-the-test-tubes-9244128/"
+    }
+  },
+  "clip-parade": {
+    "kind": "clip",
+    "query": "military parade crowd aerial",
+    "file": "assets/clips/clip-parade.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "utopia 36",
+      "url": "https://www.pexels.com/video/aerial-view-of-a-military-parade-in-the-city-17178510/"
+    }
+  },
+  "clip-march": {
+    "kind": "clip",
+    "query": "soldiers marching parade",
+    "file": "assets/clips/clip-march.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Anya  Juárez Tenorio",
+      "url": "https://www.pexels.com/video/vibrant-military-parade-in-urban-setting-28593802/"
+    }
+  },
+  "clip-crowd-day": {
+    "kind": "clip",
+    "query": "crowd walking daytime street",
+    "file": "assets/clips/clip-crowd-day.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Coverr",
+      "url": "https://www.pexels.com/video/black-and-white-video-of-a-busy-street-853946/"
+    }
+  },
+  "clip-old-books": {
+    "kind": "clip",
+    "query": "old books library shelves",
+    "file": "assets/clips/clip-old-books.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Liudmyla Honcharova",
+      "url": "https://www.pexels.com/video/librarian-taking-books-from-shelves-11833936/"
+    }
+  },
+  "clip-social-apps": {
+    "kind": "clip",
+    "query": "smartphone social media apps scroll",
+    "file": "assets/clips/clip-social-apps.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Josh Tavernier | iCapture Media Digital Marketing Agency",
+      "url": "https://www.pexels.com/video/woman-scrolling-social-media-10238038/"
+    }
+  },
+  "clip-empty-street": {
+    "kind": "clip",
+    "query": "empty city street daytime no people",
+    "file": "assets/clips/clip-empty-street.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "German Korb",
+      "url": "https://www.pexels.com/video/footage-of-the-city-street-during-daylight-4427803/"
+    }
+  },
+  "clip-vaccine-shot": {
+    "kind": "clip",
+    "query": "nurse giving vaccine injection arm close up",
+    "file": "assets/clips/clip-vaccine-shot.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "SHVETS production",
+      "url": "https://www.pexels.com/video/a-doctor-injecting-a-patient-with-covid-vaccine-8413524/"
+    }
+  },
+  "clip-face-mask": {
+    "kind": "clip",
+    "query": "surgical face mask close up blue",
+    "file": "assets/clips/clip-face-mask.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Towfiqu barbhuiya",
+      "url": "https://www.pexels.com/video/glueing-elastic-to-surgical-face-mask-11211723/"
+    }
+  }
+}
