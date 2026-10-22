@@ -38,6 +38,25 @@ if (fs.existsSync(audio) && !process.env.FORCE_TTS) {
 } else {
   let url, ok = false;
   for (let a = 1; a <= 3 && !ok; a++) { try { url = await tts(clean); await dl(url, path.join(dir, "_raw.mp3")); ok = true; } catch (e) { console.log(`reintento ${a}: ${(e.message || "").slice(0, 60)}`); await sleep(5000); } }
+  if (!ok && envKey("AI33_API_KEY")) {   // RESPALDO (2026-10-22): genaipro sin saldo → misma voz Tony vía ai33.pro
+    console.log("↪️  genaipro falló → probando ai33.pro (misma voz Tony)");
+    const AI33 = envKey("AI33_API_KEY"), B2 = "https://api.ai33.pro/v3", H2 = { "xi-api-key": AI33 };
+    for (let a = 1; a <= 2 && !ok; a++) {
+      try {
+        const fd = new FormData(); fd.append("text", clean); fd.append("voice_id", "elevenlabs_" + VOICE_ID); fd.append("speed", String(SPEED)); fd.append("with_transcript", "false");
+        const r = await fetch(`${B2}/text-to-speech`, { method: "POST", headers: H2, body: fd }); const t = await r.text(); if (!r.ok) throw new Error(t);
+        const id = pick(JSON.parse(t), ["task_id", "id", "data.task_id", "data.id"]); if (!id) throw new Error(t);
+        let u = null;
+        for (let i = 0; i < 300 && !u; i++) {
+          const rr = await fetch(`${B2}/task/${encodeURIComponent(id)}`, { headers: H2 }); const tt = await rr.text(); let j; try { j = JSON.parse(tt); } catch { j = null; }
+          const st = pick(j || {}, ["data.status", "status", "state"]);
+          if (st && /done|complete|success|finished/i.test(st)) { u = (tt.match(/https?:\/\/cdn\.ai33\.pro\/[^"\\ ]+/) || [])[0]; if (!u) throw new Error("done sin URL: " + tt.slice(0, 200)); }
+          else if (st && /fail|error/i.test(st)) throw new Error(tt); else await sleep(3000);
+        }
+        if (!u) throw new Error("TTS timeout"); await dl(u, path.join(dir, "_raw.mp3")); ok = true;
+      } catch (e) { console.log(`ai33 reintento ${a}: ${(e.message || "").slice(0, 120)}`); await sleep(5000); }
+    }
+  }
   if (!ok) throw new Error("no se pudo generar la voz");
   // recorta silencios de inicio/fin
   execSync(`ffmpeg -y -v error -i "${path.join(dir, "_raw.mp3")}" -af "silenceremove=start_periods=1:start_duration=0:start_threshold=-40dB:detection=peak,areverse,silenceremove=start_periods=1:start_duration=0:start_threshold=-40dB:detection=peak,areverse" "${audio}"`);
