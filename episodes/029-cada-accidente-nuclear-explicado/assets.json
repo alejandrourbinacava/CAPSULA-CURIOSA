@@ -1,641 +1,1133 @@
 {
   "lb-bulb": {
     "kind": "vector",
-    "query": "a classic glowing incandescent light bulb"
+    "query": "a classic glowing incandescent light bulb",
+    "file": "assets/icons/lb-bulb.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-uranium": {
     "kind": "vector",
-    "query": "a glowing radioactive uranium atom symbol"
+    "query": "a glowing radioactive uranium atom symbol",
+    "file": "assets/icons/lb-uranium.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-plant": {
     "kind": "vector",
-    "query": "a nuclear power plant with cooling towers"
+    "query": "a nuclear power plant with cooling towers",
+    "file": "assets/icons/lb-plant.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-warning": {
     "kind": "vector",
-    "query": "a yellow warning triangle with an exclamation mark"
+    "query": "a yellow warning triangle with an exclamation mark",
+    "file": "assets/icons/lb-warning.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-killsw": {
     "kind": "vector",
-    "query": "a big red emergency kill switch button"
+    "query": "a big red emergency kill switch button",
+    "file": "assets/icons/lb-killsw.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-magnifier": {
     "kind": "vector",
-    "query": "a magnifying glass with a green check mark, verifying something"
+    "query": "a magnifying glass with a green check mark, verifying something",
+    "file": "assets/icons/lb-magnifier.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-bulbbook": {
     "kind": "vector",
-    "query": "a lightbulb above an open book with a star, an important lesson"
+    "query": "a lightbulb above an open book with a star, an important lesson",
+    "file": "assets/icons/lb-bulbbook.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-curious": {
     "kind": "vector",
-    "query": "a curious surprised face with wide eyes"
+    "query": "a curious surprised face with wide eyes",
+    "file": "assets/icons/lb-curious.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-flame": {
     "kind": "vector",
-    "query": "flame fire"
+    "query": "flame fire",
+    "file": "assets/icons/lb-flame.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-flames": {
     "kind": "vector",
-    "query": "orange flames of a fire"
+    "query": "orange flames of a fire",
+    "file": "assets/icons/lb-flames.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-redflag": {
     "kind": "vector",
-    "query": "a red warning flag"
+    "query": "a red warning flag",
+    "file": "assets/icons/lb-redflag.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-calflip": {
     "kind": "vector",
-    "query": "a wall calendar with many pages flying off, many years passing, no numbers"
+    "query": "a wall calendar with many pages flying off, many years passing, no numbers",
+    "file": "assets/icons/lb-calflip.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-longroad": {
     "kind": "vector",
-    "query": "a long winding road with many kilometer markers"
+    "query": "a long winding road with many kilometer markers",
+    "file": "assets/icons/lb-longroad.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-tsunami": {
     "kind": "vector",
-    "query": "a giant tsunami wall of water approaching a coast town"
+    "query": "a giant tsunami wall of water approaching a coast town",
+    "file": "assets/icons/lb-tsunami.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-earthquake": {
     "kind": "vector",
-    "query": "ground cracking open in an earthquake with a shaking building"
+    "query": "ground cracking open in an earthquake with a shaking building",
+    "file": "assets/icons/lb-earthquake.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-evac": {
     "kind": "vector",
-    "query": "an evacuation route road sign with an arrow"
+    "query": "an evacuation route road sign with an arrow",
+    "file": "assets/icons/lb-evac.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-atomic": {
     "kind": "vector",
-    "query": "a huge atomic bomb mushroom cloud explosion"
+    "query": "a huge atomic bomb mushroom cloud explosion",
+    "file": "assets/icons/lb-atomic.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-fakescreen": {
     "kind": "vector",
-    "query": "a control panel screen showing a fake green all-normal reading"
+    "query": "a control panel screen showing a fake green all-normal reading",
+    "file": "assets/icons/lb-fakescreen.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-operator": {
     "kind": "vector",
-    "query": "a factory control room operator at a monitor"
+    "query": "a factory control room operator at a monitor",
+    "file": "assets/icons/lb-operator.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-urgency": {
     "kind": "vector",
-    "query": "a ringing alarm clock, hurry up urgency"
+    "query": "a ringing alarm clock, hurry up urgency",
+    "file": "assets/icons/lb-urgency.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-factory": {
     "kind": "vector",
-    "query": "a factory building with smoke stacks"
+    "query": "a factory building with smoke stacks",
+    "file": "assets/icons/lb-factory.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-peopleleave": {
     "kind": "vector",
-    "query": "a line of people walking away abandoning a city"
+    "query": "a line of people walking away abandoning a city",
+    "file": "assets/icons/lb-peopleleave.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-hospital": {
     "kind": "vector",
-    "query": "a hospital building with a red cross, healthcare"
+    "query": "a hospital building with a red cross, healthcare",
+    "file": "assets/icons/lb-hospital.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-europe": {
     "kind": "vector",
-    "query": "a map of Europe divided into countries with clear borders"
+    "query": "a map of Europe divided into countries with clear borders",
+    "file": "assets/icons/lb-europe.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-shield": {
     "kind": "vector",
-    "query": "a green shield with a check mark, protected"
+    "query": "a green shield with a check mark, protected",
+    "file": "assets/icons/lb-shield.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-stareyes": {
     "kind": "vector",
-    "query": "a happy dreaming face with sparkling stars in its eyes, hope and excitement"
+    "query": "a happy dreaming face with sparkling stars in its eyes, hope and excitement",
+    "file": "assets/icons/lb-stareyes.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-startled": {
     "kind": "vector",
-    "query": "a cartoon person jumping up in surprise with exclamation lines, startled, no text"
+    "query": "a cartoon person jumping up in surprise with exclamation lines, startled, no text",
+    "file": "assets/icons/lb-startled.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-bigcrowd": {
     "kind": "vector",
-    "query": "a huge crowd of a million people in a big city"
+    "query": "a huge crowd of a million people in a big city",
+    "file": "assets/icons/lb-bigcrowd.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-scared": {
     "kind": "vector",
-    "query": "a scared frightened face, fear"
+    "query": "a scared frightened face, fear",
+    "file": "assets/icons/lb-scared.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-brokendeal": {
     "kind": "vector",
-    "query": "two business hands failing a handshake, a broken cracked deal"
+    "query": "two business hands failing a handshake, a broken cracked deal",
+    "file": "assets/icons/lb-brokendeal.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-stophand": {
     "kind": "vector",
-    "query": "a big red open stop hand sign, simple, no text"
+    "query": "a big red open stop hand sign, simple, no text",
+    "file": "assets/icons/lb-stophand.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-clocklong": {
     "kind": "vector",
-    "query": "a big clock with a long winding trail behind it, lasting for a long time, no text"
+    "query": "a big clock with a long winding trail behind it, lasting for a long time, no text",
+    "file": "assets/icons/lb-clocklong.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-calendar": {
     "kind": "vector",
-    "query": "a wall calendar showing a year"
+    "query": "a wall calendar showing a year",
+    "file": "assets/icons/lb-calendar.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-faucet": {
     "kind": "vector",
-    "query": "a water faucet tap with a drop"
+    "query": "a water faucet tap with a drop",
+    "file": "assets/icons/lb-faucet.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-hurricane": {
     "kind": "vector",
-    "query": "a swirling hurricane storm seen from space with an eye"
+    "query": "a swirling hurricane storm seen from space with an eye",
+    "file": "assets/icons/lb-hurricane.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-planetshout": {
     "kind": "vector",
-    "query": "a small planet shouting with a loudspeaker"
+    "query": "a small planet shouting with a loudspeaker",
+    "file": "assets/icons/lb-planetshout.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-siren": {
     "kind": "vector",
-    "query": "a red flashing emergency siren light"
+    "query": "a red flashing emergency siren light",
+    "file": "assets/icons/lb-siren.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-folderchain": {
     "kind": "vector",
-    "query": "a folder of files covered in chains and a padlock"
+    "query": "a folder of files covered in chains and a padlock",
+    "file": "assets/icons/lb-folderchain.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-star": {
     "kind": "vector",
-    "query": "a big golden star with an exclamation mark and sparkles, the most important thing, no text"
+    "query": "a big golden star with an exclamation mark and sparkles, the most important thing, no text",
+    "file": "assets/icons/lb-star.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-iberia": {
     "kind": "vector",
-    "query": "a simple map of the Iberian peninsula with a small circled region in the northeast, no text, no flag"
+    "query": "a simple map of the Iberian peninsula with a small circled region in the northeast, no text, no flag",
+    "file": "assets/icons/lb-iberia.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-candle": {
     "kind": "vector",
-    "query": "a candle flame gently blowing out"
+    "query": "a candle flame gently blowing out",
+    "file": "assets/icons/lb-candle.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-questionarmy": {
     "kind": "vector",
-    "query": "a big red question mark over a crowd silhouette"
+    "query": "a big red question mark over a crowd silhouette",
+    "file": "assets/icons/lb-questionarmy.png",
+    "normalized": true,
+    "gpt": true
   },
   "lb-agency": {
     "kind": "vector",
-    "query": "a secret government agency headquarters building"
+    "query": "a secret government agency headquarters building",
+    "file": "assets/icons/lb-agency.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-heat-thermo": {
     "kind": "vector",
-    "query": "a classic red thermometer with a rising red level and small wavy heat lines, no text"
+    "query": "a classic red thermometer with a rising red level and small wavy heat lines, no text",
+    "file": "assets/icons/nu-heat-thermo.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-crossed-gear": {
     "kind": "vector",
-    "query": "a metal gear with a big red crossed-out circle over it, no text"
+    "query": "a metal gear with a big red crossed-out circle over it, no text",
+    "file": "assets/icons/nu-crossed-gear.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-fission": {
     "kind": "vector",
-    "query": "a big round atom splitting into two smaller atoms with a bright flash between them, no text"
+    "query": "a big round atom splitting into two smaller atoms with a bright flash between them, no text",
+    "file": "assets/icons/nu-fission.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-hot-fuel": {
     "kind": "vector",
-    "query": "a stack of glowing orange-hot fuel rods with wavy heat lines rising, no text"
+    "query": "a stack of glowing orange-hot fuel rods with wavy heat lines rising, no text",
+    "file": "assets/icons/nu-hot-fuel.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-cooling-fail": {
     "kind": "vector",
-    "query": "a blue water pipe snapped in two with a tiny drop dripping and a red cross, cooling failed, no text"
+    "query": "a blue water pipe snapped in two with a tiny drop dripping and a red cross, cooling failed, no text",
+    "file": "assets/icons/nu-cooling-fail.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-overheat": {
     "kind": "vector",
-    "query": "a big thermometer with the red level shooting past the top and sweat drops, no text"
+    "query": "a big thermometer with the red level shooting past the top and sweat drops, no text",
+    "file": "assets/icons/nu-overheat.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-melting-core": {
     "kind": "vector",
-    "query": "a glowing round reactor core sagging and melting like hot wax, no text"
+    "query": "a glowing round reactor core sagging and melting like hot wax, no text",
+    "file": "assets/icons/nu-melting-core.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-ines-steps": {
     "kind": "vector",
-    "query": "a staircase of seven steps rising from green at the bottom to red at the top, no text"
+    "query": "a staircase of seven steps rising from green at the bottom to red at the top, no text",
+    "file": "assets/icons/nu-ines-steps.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-gauge": {
     "kind": "vector",
-    "query": "a round meter dial with a needle pointing into the red zone, no text"
+    "query": "a round meter dial with a needle pointing into the red zone, no text",
+    "file": "assets/icons/nu-gauge.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-start-line": {
     "kind": "vector",
-    "query": "a cartoon starting line painted on a road with a small arrow pointing forward, no text"
+    "query": "a cartoon starting line painted on a road with a small arrow pointing forward, no text",
+    "file": "assets/icons/nu-start-line.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-chimney-fire": {
     "kind": "vector",
-    "query": "an old brick reactor building with a tall chimney and a small fire at the top, no text"
+    "query": "an old brick reactor building with a tall chimney and a small fire at the top, no text",
+    "file": "assets/icons/nu-chimney-fire.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-uk-map": {
     "kind": "vector",
-    "query": "a simple map of the United Kingdom islands in neutral green and beige, no text, no flag"
+    "query": "a simple map of the United Kingdom islands in neutral green and beige, no text, no flag",
+    "file": "assets/icons/nu-uk-map.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-reactor-armas": {
     "kind": "vector",
-    "query": "a plain gray reactor building standing next to a small missile, no text"
+    "query": "a plain gray reactor building standing next to a small missile, no text",
+    "file": "assets/icons/nu-reactor-armas.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-heating-dial": {
     "kind": "vector",
-    "query": "a gloved hand turning a big heating dial up to hot, no text"
+    "query": "a gloved hand turning a big heating dial up to hot, no text",
+    "file": "assets/icons/nu-heating-dial.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-graphite-fire": {
     "kind": "vector",
-    "query": "a black graphite block catching fire with orange flames, no text"
+    "query": "a black graphite block catching fire with orange flames, no text",
+    "file": "assets/icons/nu-graphite-fire.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-radiation-cloud": {
     "kind": "vector",
-    "query": "a gray cloud drifting over green hills with a small yellow radiation trefoil on it, no text"
+    "query": "a gray cloud drifting over green hills with a small yellow radiation trefoil on it, no text",
+    "file": "assets/icons/nu-radiation-cloud.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-shush": {
     "kind": "vector",
-    "query": "a cartoon person in a suit holding a finger over their lips, shh, hiding the truth, no text"
+    "query": "a cartoon person in a suit holding a finger over their lips, shh, hiding the truth, no text",
+    "file": "assets/icons/nu-shush.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-secret-plant": {
     "kind": "vector",
-    "query": "a gray factory behind a tall fence with a big padlock hanging on the gate, secret, no text"
+    "query": "a gray factory behind a tall fence with a big padlock hanging on the gate, secret, no text",
+    "file": "assets/icons/nu-secret-plant.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-ussr-map": {
     "kind": "vector",
-    "query": "a plain huge northern country map silhouette in neutral green, no text, no flag"
+    "query": "a plain huge northern country map silhouette in neutral green, no text, no flag",
+    "file": "assets/icons/nu-ussr-map.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-plutonium": {
     "kind": "vector",
-    "query": "a glowing silver metal ball with a small radiation trefoil, no text"
+    "query": "a glowing silver metal ball with a small radiation trefoil, no text",
+    "file": "assets/icons/nu-plutonium.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-waste-tank": {
     "kind": "vector",
-    "query": "a big metal storage tank with a green glowing radiation trefoil painted on it, no text"
+    "query": "a big metal storage tank with a green glowing radiation trefoil painted on it, no text",
+    "file": "assets/icons/nu-waste-tank.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-tank-explosion": {
     "kind": "vector",
-    "query": "a metal tank bursting open with a puff of smoke and an orange flame, no text"
+    "query": "a metal tank bursting open with a puff of smoke and an orange flame, no text",
+    "file": "assets/icons/nu-tank-explosion.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-sealed-folder": {
     "kind": "vector",
-    "query": "a gray folder sealed with a heavy padlock next to a calendar with many pages, kept secret for years, no text"
+    "query": "a gray folder sealed with a heavy padlock next to a calendar with many pages, kept secret for years, no text",
+    "file": "assets/icons/nu-sealed-folder.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-spain-se": {
     "kind": "vector",
-    "query": "a map of Spain with a small red circle on the southern coast, no text, no flag"
+    "query": "a map of Spain with a small red circle on the southern coast, no text, no flag",
+    "file": "assets/icons/nu-spain-se.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-falling-bomb": {
     "kind": "vector",
-    "query": "a cartoon bomb with a small parachute falling through the sky, no text"
+    "query": "a cartoon bomb with a small parachute falling through the sky, no text",
+    "file": "assets/icons/nu-falling-bomb.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-four-bombs": {
     "kind": "vector",
-    "query": "four gray cartoon bombs falling from the sky toward land and sea, no text"
+    "query": "four gray cartoon bombs falling from the sky toward land and sea, no text",
+    "file": "assets/icons/nu-four-bombs.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-no-explosion": {
     "kind": "vector",
-    "query": "a gray cartoon bomb lying on the ground with a green check mark and a crossed-out explosion star, no text"
+    "query": "a gray cartoon bomb lying on the ground with a green check mark and a crossed-out explosion star, no text",
+    "file": "assets/icons/nu-no-explosion.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-two-bombs-burst": {
     "kind": "vector",
-    "query": "two gray bombs cracked open with puffs of orange dust, conventional explosives going off, no text"
+    "query": "two gray bombs cracked open with puffs of orange dust, conventional explosives going off, no text",
+    "file": "assets/icons/nu-two-bombs-burst.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-mini-sub": {
     "kind": "vector",
-    "query": "a small cheerful yellow mini submarine under the sea, no text"
+    "query": "a small cheerful yellow mini submarine under the sea, no text",
+    "file": "assets/icons/nu-mini-sub.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-swimmers": {
     "kind": "vector",
-    "query": "two men in old fashioned striped swim trunks waving cheerfully while standing in the sea, retro, no text"
+    "query": "two men in old fashioned striped swim trunks waving cheerfully while standing in the sea, retro, no text",
+    "file": "assets/icons/nu-swimmers.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-usa-map": {
     "kind": "vector",
-    "query": "a plain map silhouette of the United States in neutral green, no text, no flag"
+    "query": "a plain map silhouette of the United States in neutral green, no text, no flag",
+    "file": "assets/icons/nu-usa-map.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-confused-operator": {
     "kind": "vector",
-    "query": "a cartoon control room operator scratching his head with question marks floating above, no text"
+    "query": "a cartoon control room operator scratching his head with question marks floating above, no text",
+    "file": "assets/icons/nu-confused-operator.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-wrong-choice": {
     "kind": "vector",
-    "query": "a person at a fork in the road walking toward the path marked with a red cross, no text"
+    "query": "a person at a fork in the road walking toward the path marked with a red cross, no text",
+    "file": "assets/icons/nu-wrong-choice.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-containment-dome": {
     "kind": "vector",
-    "query": "a strong thick gray concrete dome building like a protective shield, no text"
+    "query": "a strong thick gray concrete dome building like a protective shield, no text",
+    "file": "assets/icons/nu-containment-dome.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-heart-check": {
     "kind": "vector",
-    "query": "a red heart with a big green check mark on it, no text"
+    "query": "a red heart with a big green check mark on it, no text",
+    "file": "assets/icons/nu-heart-check.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-ukraine-map": {
     "kind": "vector",
-    "query": "a plain map silhouette of Ukraine in neutral green and beige, no text, no flag"
+    "query": "a plain map silhouette of Ukraine in neutral green and beige, no text, no flag",
+    "file": "assets/icons/nu-ukraine-map.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-wobbly-reactor": {
     "kind": "vector",
-    "query": "a wobbly unstable tower of building blocks about to tip over, no text"
+    "query": "a wobbly unstable tower of building blocks about to tip over, no text",
+    "file": "assets/icons/nu-wobbly-reactor.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-unplugged-safety": {
     "kind": "vector",
-    "query": "a green safety shield symbol with its power plug pulled out and lying disconnected, no text"
+    "query": "a green safety shield symbol with its power plug pulled out and lying disconnected, no text",
+    "file": "assets/icons/nu-unplugged-safety.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-power-spike": {
     "kind": "vector",
-    "query": "a line graph spiking sharply upward off the chart with a lightning bolt, no text"
+    "query": "a line graph spiking sharply upward off the chart with a lightning bolt, no text",
+    "file": "assets/icons/nu-power-spike.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-reactor-explosion": {
     "kind": "vector",
-    "query": "a cartoon industrial building bursting open with an orange explosion and flying debris, no text"
+    "query": "a cartoon industrial building bursting open with an orange explosion and flying debris, no text",
+    "file": "assets/icons/nu-reactor-explosion.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-exclusion-circle": {
     "kind": "vector",
-    "query": "a map circle with a dashed boundary around a small plant icon and a warning sign, no text"
+    "query": "a map circle with a dashed boundary around a small plant icon and a warning sign, no text",
+    "file": "assets/icons/nu-exclusion-circle.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-steel-arch": {
     "kind": "vector",
-    "query": "a giant silver arch-shaped steel structure covering a small building, no text"
+    "query": "a giant silver arch-shaped steel structure covering a small building, no text",
+    "file": "assets/icons/nu-steel-arch.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-chart-question": {
     "kind": "vector",
-    "query": "a bar chart with a big question mark floating above the bars, no text"
+    "query": "a bar chart with a big question mark floating above the bars, no text",
+    "file": "assets/icons/nu-chart-question.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-experts-debate": {
     "kind": "vector",
-    "query": "two cartoon scientists in lab coats with speech bubbles and a question mark between them, no text"
+    "query": "two cartoon scientists in lab coats with speech bubbles and a question mark between them, no text",
+    "file": "assets/icons/nu-experts-debate.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-blueprint-fail": {
     "kind": "vector",
-    "query": "a blueprint paper showing a reactor drawing with a big red crack and a red cross, no text"
+    "query": "a blueprint paper showing a reactor drawing with a big red crack and a red cross, no text",
+    "file": "assets/icons/nu-blueprint-fail.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-brazil-map": {
     "kind": "vector",
-    "query": "a plain map silhouette of Brazil in neutral green, no text, no flag"
+    "query": "a plain map silhouette of Brazil in neutral green, no text, no flag",
+    "file": "assets/icons/nu-brazil-map.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-old-medical-device": {
     "kind": "vector",
-    "query": "an old heavy medical machine with a metal casing and a round window, no text"
+    "query": "an old heavy medical machine with a metal casing and a round window, no text",
+    "file": "assets/icons/nu-old-medical-device.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-americas-map": {
     "kind": "vector",
-    "query": "a simple map of North and South America in neutral green and beige, no text, no flag"
+    "query": "a simple map of North and South America in neutral green and beige, no text, no flag",
+    "file": "assets/icons/nu-americas-map.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-beaker": {
     "kind": "vector",
-    "query": "a bubbling glass lab flask with green liquid, no text"
+    "query": "a bubbling glass lab flask with green liquid, no text",
+    "file": "assets/icons/nu-beaker.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-japan-map": {
     "kind": "vector",
-    "query": "a simple map of the Japanese islands in neutral green and beige, no text, no flag"
+    "query": "a simple map of the Japanese islands in neutral green and beige, no text, no flag",
+    "file": "assets/icons/nu-japan-map.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-bucket": {
     "kind": "vector",
-    "query": "a steel bucket filled with glowing green liquid, no text"
+    "query": "a steel bucket filled with glowing green liquid, no text",
+    "file": "assets/icons/nu-bucket.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-skip-steps": {
     "kind": "vector",
-    "query": "a checklist clipboard with a big arrow jumping over several unchecked items, no text"
+    "query": "a checklist clipboard with a big arrow jumping over several unchecked items, no text",
+    "file": "assets/icons/nu-skip-steps.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-chain-reaction": {
     "kind": "vector",
-    "query": "a chain of glowing atoms bursting one after another in a growing chain reaction, no text"
+    "query": "a chain of glowing atoms bursting one after another in a growing chain reaction, no text",
+    "file": "assets/icons/nu-chain-reaction.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-rushing": {
     "kind": "vector",
-    "query": "a hurried cartoon person running with a tiny clock and tripping over a small stone, no text"
+    "query": "a hurried cartoon person running with a tiny clock and tripping over a small stone, no text",
+    "file": "assets/icons/nu-rushing.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-plant-closed": {
     "kind": "vector",
-    "query": "a small power plant building with a big padlock hanging on its front door, no text"
+    "query": "a small power plant building with a big padlock hanging on its front door, no text",
+    "file": "assets/icons/nu-plant-closed.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-big-check": {
     "kind": "vector",
-    "query": "a big green check mark with sparkles, everything works, no text"
+    "query": "a big green check mark with sparkles, everything works, no text",
+    "file": "assets/icons/nu-big-check.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-no-power": {
     "kind": "vector",
-    "query": "an unplugged power plug next to a dark unlit light bulb, no text"
+    "query": "an unplugged power plug next to a dark unlit light bulb, no text",
+    "file": "assets/icons/nu-no-power.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-pump": {
     "kind": "vector",
-    "query": "a blue water pump with pipes standing completely still, not working, no text"
+    "query": "a blue water pump with pipes standing completely still, not working, no text",
+    "file": "assets/icons/nu-pump.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-three-reactors": {
     "kind": "vector",
-    "query": "three small reactor buildings in a row with glowing orange cores inside, no text"
+    "query": "three small reactor buildings in a row with glowing orange cores inside, no text",
+    "file": "assets/icons/nu-three-reactors.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-cooling-water": {
     "kind": "vector",
-    "query": "a blue water drop flowing through a pipe that wraps around a reactor, no text"
+    "query": "a blue water drop flowing through a pipe that wraps around a reactor, no text",
+    "file": "assets/icons/nu-cooling-water.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-water-filter": {
     "kind": "vector",
-    "query": "a big water filter machine turning cloudy water into clear water, no text"
+    "query": "a big water filter machine turning cloudy water into clear water, no text",
+    "file": "assets/icons/nu-water-filter.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-trefoil-removed": {
     "kind": "vector",
-    "query": "a yellow radiation trefoil symbol being lifted out of a water drop by tweezers, no text"
+    "query": "a yellow radiation trefoil symbol being lifted out of a water drop by tweezers, no text",
+    "file": "assets/icons/nu-trefoil-removed.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-scientist": {
     "kind": "vector",
-    "query": "a friendly cartoon scientist with goggles holding a flask, no text"
+    "query": "a friendly cartoon scientist with goggles holding a flask, no text",
+    "file": "assets/icons/nu-scientist.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-neighbor-countries": {
     "kind": "vector",
-    "query": "two neighboring country map shapes side by side with a dotted border between them, no text, no flags"
+    "query": "two neighboring country map shapes side by side with a dotted border between them, no text, no flags",
+    "file": "assets/icons/nu-neighbor-countries.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-flame-out": {
     "kind": "vector",
-    "query": "a small flame going out with a thin curl of smoke rising, no text"
+    "query": "a small flame going out with a thin curl of smoke rising, no text",
+    "file": "assets/icons/nu-flame-out.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-link-question": {
     "kind": "vector",
-    "query": "a magnifying glass over a golden chain link joining several different shapes, no text"
+    "query": "a magnifying glass over a golden chain link joining several different shapes, no text",
+    "file": "assets/icons/nu-link-question.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-test-no-gloves": {
     "kind": "vector",
-    "query": "a bubbling test tube next to a red crossed-out safety helmet, no text"
+    "query": "a bubbling test tube next to a red crossed-out safety helmet, no text",
+    "file": "assets/icons/nu-test-no-gloves.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-communication-gap": {
     "kind": "vector",
-    "query": "two cartoon heads with speech bubbles that do not connect, a gap between them, no text"
+    "query": "two cartoon heads with speech bubbles that do not connect, a gap between them, no text",
+    "file": "assets/icons/nu-communication-gap.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-detector": {
     "kind": "vector",
-    "query": "a small detector device with a blinking light on the roof of a power plant, no text"
+    "query": "a small detector device with a blinking light on the roof of a power plant, no text",
+    "file": "assets/icons/nu-detector.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-improve-arrow": {
     "kind": "vector",
-    "query": "a green upward arrow climbing a small staircase with a check mark, improvement, no text"
+    "query": "a green upward arrow climbing a small staircase with a check mark, improvement, no text",
+    "file": "assets/icons/nu-improve-arrow.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-reinforced-wall": {
     "kind": "vector",
-    "query": "a tall thick sea wall protecting a small power plant from a big wave, no text"
+    "query": "a tall thick sea wall protecting a small power plant from a big wave, no text",
+    "file": "assets/icons/nu-reinforced-wall.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-study-papers": {
     "kind": "vector",
-    "query": "a stack of research papers with a small bar chart on top, no text"
+    "query": "a stack of research papers with a small bar chart on top, no text",
+    "file": "assets/icons/nu-study-papers.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-open-debate": {
     "kind": "vector",
-    "query": "two speech bubbles facing each other, one green and one orange, open debate, no text"
+    "query": "two speech bubbles facing each other, one green and one orange, open debate, no text",
+    "file": "assets/icons/nu-open-debate.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-transparent-glass": {
     "kind": "vector",
-    "query": "a see-through glass window with sunlight passing through, transparency, no text"
+    "query": "a see-through glass window with sunlight passing through, transparency, no text",
+    "file": "assets/icons/nu-transparent-glass.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-humble-bow": {
     "kind": "vector",
-    "query": "a cartoon person bowing humbly with a hand on the chest, no text"
+    "query": "a cartoon person bowing humbly with a hand on the chest, no text",
+    "file": "assets/icons/nu-humble-bow.png",
+    "normalized": true,
+    "gpt": true
   },
   "nu-memorial": {
     "kind": "vector",
-    "query": "a simple stone memorial with a small candle flame lit in front, no text"
+    "query": "a simple stone memorial with a small candle flame lit in front, no text",
+    "file": "assets/icons/nu-memorial.png",
+    "normalized": true,
+    "gpt": true
   },
   "photo-central": {
     "kind": "cutout",
     "query": "Central nuclear",
     "wiki": "Central nuclear",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Central nuclear",
+      "description": "central termica donde la fuente de calor es un reactor nuclear"
+    },
+    "file": "assets/icons/photo-central.jpg"
   },
   "photo-olla": {
     "kind": "cutout",
     "query": "Olla a presión",
     "wiki": "Olla a presión",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Olla a presión",
+      "description": "recipiente hermético que se utiliza para la cocción rápida de los alimentos mediante el uso de presión"
+    },
+    "file": "assets/icons/photo-olla.jpg"
   },
   "photo-vapor": {
     "kind": "cutout",
     "query": "Vapor",
     "wiki": "Vapor",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Vapor",
+      "description": "agua en la fase gaseosa, que se forma cuando el agua hierve"
+    },
+    "file": "assets/icons/photo-vapor.jpg"
   },
   "photo-turbina": {
     "kind": "cutout",
     "query": "Turbina de vapor",
     "wiki": "Turbina de vapor",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Turbina de vapor",
+      "description": "tipo de dispositivo de turbina que utiliza vapor de una caldera para rotar las palas de la turbina."
+    },
+    "file": "assets/icons/photo-turbina.jpg"
   },
   "photo-turbina2": {
     "kind": "cutout",
     "query": "Turbina",
     "wiki": "Turbina",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Turbina",
+      "description": "turbomáquina motora"
+    },
+    "file": "assets/icons/photo-turbina2.jpg"
   },
   "photo-reactor": {
     "kind": "cutout",
     "query": "Reactor nuclear",
     "wiki": "Reactor nuclear",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Reactor nuclear",
+      "description": "dispositivo en donde se produce una reacción nuclear en cadena controlada"
+    },
+    "file": "assets/icons/photo-reactor.jpg"
   },
   "photo-uranio": {
     "kind": "cutout",
     "query": "Uranio",
     "wiki": "Uranio",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Uranio",
+      "description": "elemento químico metálico de color plateado-grisáceo con símbolo químico U y número atómico 92"
+    },
+    "file": "assets/icons/photo-uranio.jpg"
   },
   "photo-geiger": {
     "kind": "cutout",
     "query": "Contador Geiger",
     "wiki": "Contador Geiger",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Contador Geiger",
+      "description": "aparato para medir radiación ionizante"
+    },
+    "file": "assets/icons/photo-geiger.jpg"
   },
   "photo-b52": {
     "kind": "cutout",
     "query": "Boeing B-52 Stratofortress",
     "wiki": "Boeing B-52 Stratofortress",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Boeing B-52 Stratofortress",
+      "description": "bombardero estratégico fabricado por Boeing"
+    },
+    "file": "assets/icons/photo-b52.jpg"
   },
   "photo-kc135": {
     "kind": "cutout",
     "query": "Boeing KC-135 Stratotanker",
     "wiki": "Boeing KC-135 Stratotanker",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Boeing KC-135 Stratotanker",
+      "description": "avión cisterna fabricado por Boeing"
+    },
+    "file": "assets/icons/photo-kc135.jpg"
   },
   "photo-palomares": {
     "kind": "cutout",
     "query": "Cuevas del Almanzora",
     "wiki": "Cuevas del Almanzora",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Cuevas del Almanzora",
+      "description": "municipio de la provincia de Almería‎, España"
+    },
+    "file": "assets/icons/photo-palomares.jpg"
   },
   "photo-tmi": {
     "kind": "cutout",
     "query": "Three Mile Island",
     "wiki": "Planta de energía nuclear Three Mile Island",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Planta de energía nuclear Three Mile Island",
+      "description": "central nuclear estadounidense"
+    },
+    "file": "assets/icons/photo-tmi.jpg"
   },
   "photo-valvula": {
     "kind": "cutout",
     "query": "Válvula",
     "wiki": "Válvula",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Válvula",
+      "description": "instrumento para bloquear o regular el flujo de fluidos"
+    },
+    "file": "assets/icons/photo-valvula.jpg"
   },
   "photo-chernobyl-central": {
     "kind": "cutout",
     "query": "Central nuclear de Chernóbil",
     "wiki": "Central nuclear de Chernóbil",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Central nuclear de Chernóbil",
+      "description": "central nuclear en Ucrania"
+    },
+    "file": "assets/icons/photo-chernobyl-central.jpg"
   },
   "photo-sarcofago": {
     "kind": "cutout",
     "query": "Sarcófago de Chernóbil",
     "wiki": "Sarcófago de Chernóbil",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sarcófago de Chernóbil",
+      "description": "estructura de acero y hormigón que cubre el edificio del reactor nuclear de la central nuclear de Chernóbil"
+    },
+    "file": "assets/icons/photo-sarcofago.jpg"
   },
   "photo-pripyat": {
     "kind": "cutout",
     "query": "Prípiat",
     "wiki": "Prípiat",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Prípiat",
+      "description": "ciudad de Ucrania"
+    },
+    "file": "assets/icons/photo-pripyat.jpg"
   },
   "photo-chatarra": {
     "kind": "cutout",
     "query": "Chatarra",
     "wiki": "Chatarra",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Chatarra",
+      "description": "conjunto de trozos de metal de desecho"
+    },
+    "file": "assets/icons/photo-chatarra.jpg"
   },
   "photo-cesio": {
     "kind": "cutout",
     "query": "Cesio",
     "wiki": "Cesio",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Cesio",
+      "description": "elemento químico con número atómico 55"
+    },
+    "file": "assets/icons/photo-cesio.jpg"
   },
   "photo-vandellos": {
     "kind": "cutout",
     "query": "Central nuclear de Vandellós",
     "wiki": "Central nuclear de Vandellós",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Central nuclear de Vandellós",
+      "description": "central nuclear en España"
+    },
+    "file": "assets/icons/photo-vandellos.jpg"
   },
   "photo-fukushima": {
     "kind": "cutout",
     "query": "Central nuclear Fukushima I",
     "wiki": "Central nuclear Fukushima I",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Central nuclear Fukushima I",
+      "description": "Central nuclear en Japón"
+    },
+    "file": "assets/icons/photo-fukushima.jpg"
   },
   "photo-fukushima-sat": {
     "kind": "cutout",
     "query": "Accidente nuclear de Fukushima I",
     "wiki": "Accidente nuclear de Fukushima I",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Accidente nuclear de Fukushima I",
+      "description": "accidente nuclear de 2011 en Fukushima, Japón"
+    },
+    "file": "assets/icons/photo-fukushima-sat.jpg"
   },
   "photo-sismografo": {
     "kind": "cutout",
     "query": "Sismógrafo",
     "wiki": "Sismógrafo",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sismógrafo",
+      "description": "instrumento para medir terremotos o pequeños temblores provocados por los movimientos de las placas litosféricas"
+    },
+    "file": "assets/icons/photo-sismografo.jpg"
   },
   "photo-rompeolas": {
     "kind": "cutout",
     "query": "Rompeolas",
     "wiki": "Rompeolas",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Rompeolas",
+      "description": "cortaolas, rompeolas o malecón; estructura para controlar el oleaje en una costa marítima."
+    },
+    "file": "assets/icons/photo-rompeolas.jpg"
   },
   "photo-generador": {
     "kind": "cutout",
     "query": "Generador eléctrico",
     "wiki": "Generador eléctrico",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Generador eléctrico",
+      "description": "dispositivo capaz de mantener una tensión (V) eléctrica entre dos de sus puntos"
+    },
+    "file": "assets/icons/photo-generador.jpg"
   },
   "photo-tanques": {
     "kind": "cutout",
     "query": "Tanque de almacenamiento",
     "wiki": "Tanque de almacenamiento",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Tanque de almacenamiento",
+      "description": "estructura para guardar o preservar líquidos o gases a presión ambiente"
+    },
+    "file": "assets/icons/photo-tanques.jpg"
   },
   "photo-mar": {
     "kind": "cutout",
     "query": "Mar",
     "wiki": "Mar",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Mar",
+      "description": "masa de agua salada de tamaño inferior al océano"
+    },
+    "file": "assets/icons/photo-mar.jpg"
   },
   "photo-petroleo": {
     "kind": "cutout",
     "query": "Petróleo",
     "wiki": "Petróleo",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Petróleo",
+      "description": "mezcla homogénea de compuestos orgánicos de color negro"
+    },
+    "file": "assets/icons/photo-petroleo.jpg"
   },
   "clip-wind-turbines": {
     "kind": "clip",
