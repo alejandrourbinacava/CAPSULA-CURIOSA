@@ -1,739 +1,1307 @@
 {
   "pa-virus-illu": {
     "kind": "vector",
-    "query": "virus illustration"
+    "query": "virus illustration",
+    "file": "assets/icons/pa-virus-illu.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-virus-spiky": {
     "kind": "vector",
-    "query": "a green cartoon virus bug with spikes on"
+    "query": "a green cartoon virus bug with spikes on",
+    "file": "assets/icons/pa-virus-spiky.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-world-red-virus": {
     "kind": "vector",
-    "query": "a red virus spreading across a world map"
+    "query": "a red virus spreading across a world map",
+    "file": "assets/icons/pa-world-red-virus.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-calendar-weeks": {
     "kind": "vector",
-    "query": "a calendar with pages flying away weeks "
+    "query": "a calendar with pages flying away weeks ",
+    "file": "assets/icons/pa-calendar-weeks.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-surprise": {
     "kind": "vector",
-    "query": "a cartoon person jumping up in surprise "
+    "query": "a cartoon person jumping up in surprise ",
+    "file": "assets/icons/pa-surprise.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-globe-warning": {
     "kind": "vector",
-    "query": "a globe of the world with a warning tria"
+    "query": "a globe of the world with a warning tria",
+    "file": "assets/icons/pa-globe-warning.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-stop-hand": {
     "kind": "vector",
-    "query": "a hand making a stop gesture"
+    "query": "a hand making a stop gesture",
+    "file": "assets/icons/pa-stop-hand.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-trophy": {
     "kind": "vector",
-    "query": "a gold winner trophy"
+    "query": "a gold winner trophy",
+    "file": "assets/icons/pa-trophy.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-ancient-map": {
     "kind": "vector",
-    "query": "ancient map"
+    "query": "ancient map",
+    "file": "assets/icons/pa-ancient-map.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-roman-empire": {
     "kind": "vector",
-    "query": "roman empire"
+    "query": "roman empire",
+    "file": "assets/icons/pa-roman-empire.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-roman-soldier": {
     "kind": "vector",
-    "query": "roman legion soldier"
+    "query": "roman legion soldier",
+    "file": "assets/icons/pa-roman-soldier.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-roman-map": {
     "kind": "vector",
-    "query": "roman empire at its height under emperor"
+    "query": "roman empire at its height under emperor",
+    "file": "assets/icons/pa-roman-map.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-crowd-million": {
     "kind": "vector",
-    "query": "a huge crowd of a million people in a bi"
+    "query": "a huge crowd of a million people in a bi",
+    "file": "assets/icons/pa-crowd-million.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-old-crown": {
     "kind": "vector",
-    "query": "an old broken ancient crown of a fallen "
+    "query": "an old broken ancient crown of a fallen ",
+    "file": "assets/icons/pa-old-crown.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-star": {
     "kind": "vector",
-    "query": "a big golden star with an exclamation ma"
+    "query": "a big golden star with an exclamation ma",
+    "file": "assets/icons/pa-star.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-europe-map": {
     "kind": "vector",
-    "query": "a map of europe divided into countries w"
+    "query": "a map of europe divided into countries w",
+    "file": "assets/icons/pa-europe-map.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-ship-sail": {
     "kind": "vector",
-    "query": "an old european sailing ship arriving"
+    "query": "an old european sailing ship arriving",
+    "file": "assets/icons/pa-ship-sail.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-rat": {
     "kind": "vector",
-    "query": "a rat eating seeds"
+    "query": "a rat eating seeds",
+    "file": "assets/icons/pa-rat.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-caravel": {
     "kind": "vector",
-    "query": "caravel ship"
+    "query": "caravel ship",
+    "file": "assets/icons/pa-caravel.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-world-map": {
     "kind": "vector",
-    "query": "world map"
+    "query": "world map",
+    "file": "assets/icons/pa-world-map.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-feverish": {
     "kind": "vector",
-    "query": "a feverish person with spiral eyes and a"
+    "query": "a feverish person with spiral eyes and a",
+    "file": "assets/icons/pa-feverish.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-news-card": {
     "kind": "vector",
-    "query": "a friendly newspaper style card with a g"
+    "query": "a friendly newspaper style card with a g",
+    "file": "assets/icons/pa-news-card.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-general-map": {
     "kind": "vector",
-    "query": "a general planning war strategy on a map"
+    "query": "a general planning war strategy on a map",
+    "file": "assets/icons/pa-general-map.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-trench": {
     "kind": "vector",
-    "query": "world war one soldiers in a muddy trench"
+    "query": "world war one soldiers in a muddy trench",
+    "file": "assets/icons/pa-trench.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-crowd-diverse": {
     "kind": "vector",
-    "query": "a crowd of tiny diverse humans standing "
+    "query": "a crowd of tiny diverse humans standing ",
+    "file": "assets/icons/pa-crowd-diverse.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-gate-lock": {
     "kind": "vector",
-    "query": "a big iron gate with a padlock and a ste"
+    "query": "a big iron gate with a padlock and a ste",
+    "file": "assets/icons/pa-gate-lock.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-old-person": {
     "kind": "vector",
-    "query": "a happy very old person next to a birthd"
+    "query": "a happy very old person next to a birthd",
+    "file": "assets/icons/pa-old-person.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-med-bottle": {
     "kind": "vector",
-    "query": "a medicine bottle with a green plus cros"
+    "query": "a medicine bottle with a green plus cros",
+    "file": "assets/icons/pa-med-bottle.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-alarm-bell": {
     "kind": "vector",
-    "query": "a ringing red alert notification bell"
+    "query": "a ringing red alert notification bell",
+    "file": "assets/icons/pa-alarm-bell.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-year-calendar": {
     "kind": "vector",
-    "query": "a wall calendar showing a year"
+    "query": "a wall calendar showing a year",
+    "file": "assets/icons/pa-year-calendar.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-world-countries": {
     "kind": "vector",
-    "query": "a world map with countries in different "
+    "query": "a world map with countries in different ",
+    "file": "assets/icons/pa-world-countries.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-africa": {
     "kind": "vector",
-    "query": "africa map silhouette"
+    "query": "africa map silhouette",
+    "file": "assets/icons/pa-africa.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-pointing-crowd": {
     "kind": "vector",
-    "query": "a crowd of small figures pointing finger"
+    "query": "a crowd of small figures pointing finger",
+    "file": "assets/icons/pa-pointing-crowd.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-radar": {
     "kind": "vector",
-    "query": "a friendly radar dish with a green check"
+    "query": "a friendly radar dish with a green check",
+    "file": "assets/icons/pa-radar.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-magnify-check": {
     "kind": "vector",
-    "query": "a magnifying glass with a green check ma"
+    "query": "a magnifying glass with a green check ma",
+    "file": "assets/icons/pa-magnify-check.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-lamp-check": {
     "kind": "vector",
-    "query": "a glowing warm lamp with a green check m"
+    "query": "a glowing warm lamp with a green check m",
+    "file": "assets/icons/pa-lamp-check.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-knowledge-shield": {
     "kind": "vector",
-    "query": "a smart person with a shield who knows a"
+    "query": "a smart person with a shield who knows a",
+    "file": "assets/icons/pa-knowledge-shield.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-shadow": {
     "kind": "vector",
-    "query": "a big dark shadow shape looming over a s"
+    "query": "a big dark shadow shape looming over a s",
+    "file": "assets/icons/pa-shadow.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-question-crowd": {
     "kind": "vector",
-    "query": "a big red question mark over a crowd sil"
+    "query": "a big red question mark over a crowd sil",
+    "file": "assets/icons/pa-question-crowd.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-retro80": {
     "kind": "vector",
-    "query": "a retro boombox and a rotary phone 1980s"
+    "query": "a retro boombox and a rotary phone 1980s",
+    "file": "assets/icons/pa-retro80.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-crossed-spears": {
     "kind": "vector",
-    "query": "crossed ancient spears and a shield war "
+    "query": "crossed ancient spears and a shield war ",
+    "file": "assets/icons/pa-crossed-spears.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-wall-calendar-flying": {
     "kind": "vector",
-    "query": "a wall calendar with many pages flying o"
+    "query": "a wall calendar with many pages flying o",
+    "file": "assets/icons/pa-wall-calendar-flying.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-lightbulb-book": {
     "kind": "vector",
-    "query": "a lightbulb above an open book with a st"
+    "query": "a lightbulb above an open book with a st",
+    "file": "assets/icons/pa-lightbulb-book.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-shield-check": {
     "kind": "vector",
-    "query": "a green check mark inside a medical shie"
+    "query": "a green check mark inside a medical shie",
+    "file": "assets/icons/pa-shield-check.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-invisible-germ": {
     "kind": "vector",
-    "query": "a tiny cartoon germ seen through a magnifying glass, almost invisible, no text"
+    "query": "a tiny cartoon germ seen through a magnifying glass, almost invisible, no text",
+    "file": "assets/icons/pa-invisible-germ.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-no-weapons": {
     "kind": "vector",
-    "query": "a pair of crossed swords and a cannon inside a red crossed-out circle, no text"
+    "query": "a pair of crossed swords and a cannon inside a red crossed-out circle, no text",
+    "file": "assets/icons/pa-no-weapons.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-hourglass-pages": {
     "kind": "vector",
-    "query": "an hourglass with flowing sand next to a few old book pages, no text"
+    "query": "an hourglass with flowing sand next to a few old book pages, no text",
+    "file": "assets/icons/pa-hourglass-pages.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-footprints-path": {
     "kind": "vector",
-    "query": "a winding path with a line of footprints going over hills, no text"
+    "query": "a winding path with a line of footprints going over hills, no text",
+    "file": "assets/icons/pa-footprints-path.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-cause-question": {
     "kind": "vector",
-    "query": "a small germ with a big question mark above it, no text"
+    "query": "a small germ with a big question mark above it, no text",
+    "file": "assets/icons/pa-cause-question.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-humanity-steps": {
     "kind": "vector",
-    "query": "a group of small cartoon people climbing up a staircase toward a trophy, no text"
+    "query": "a group of small cartoon people climbing up a staircase toward a trophy, no text",
+    "file": "assets/icons/pa-humanity-steps.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-three-circles": {
     "kind": "vector",
-    "query": "three concentric circles growing larger from a small red dot, no text"
+    "query": "three concentric circles growing larger from a small red dot, no text",
+    "file": "assets/icons/pa-three-circles.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-distinction-lens": {
     "kind": "vector",
-    "query": "a magnifying glass over two similar shapes, telling things apart, no text"
+    "query": "a magnifying glass over two similar shapes, telling things apart, no text",
+    "file": "assets/icons/pa-distinction-lens.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-outbreak-dot": {
     "kind": "vector",
-    "query": "a small map of one town with a single red dot and a few little sparks, no text"
+    "query": "a small map of one town with a single red dot and a few little sparks, no text",
+    "file": "assets/icons/pa-outbreak-dot.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-epidemic-region": {
     "kind": "vector",
-    "query": "a map of one region with a medium red spreading patch, no text"
+    "query": "a map of one region with a medium red spreading patch, no text",
+    "file": "assets/icons/pa-epidemic-region.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-continents-red": {
     "kind": "vector",
-    "query": "a world map with red patches spreading across several continents, no text"
+    "query": "a world map with red patches spreading across several continents, no text",
+    "file": "assets/icons/pa-continents-red.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-first-footprint": {
     "kind": "vector",
-    "query": "a single bold footprint stamped in the sand, the first one, no text"
+    "query": "a single bold footprint stamped in the sand, the first one, no text",
+    "file": "assets/icons/pa-first-footprint.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-desert-caravan": {
     "kind": "vector",
-    "query": "a camel caravan walking in the desert toward a far distant city, no text"
+    "query": "a camel caravan walking in the desert toward a far distant city, no text",
+    "file": "assets/icons/pa-desert-caravan.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-unknown-disease": {
     "kind": "vector",
-    "query": "a mysterious gray fog with a question mark over a sleepy cartoon person, no text"
+    "query": "a mysterious gray fog with a question mark over a sleepy cartoon person, no text",
+    "file": "assets/icons/pa-unknown-disease.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-byzantine-emperor": {
     "kind": "vector",
-    "query": "a Byzantine emperor with a golden crown and a purple cloak, simple cartoon, no text"
+    "query": "a Byzantine emperor with a golden crown and a purple cloak, simple cartoon, no text",
+    "file": "assets/icons/pa-byzantine-emperor.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-grain-ship": {
     "kind": "vector",
-    "query": "an old wooden ship loaded with sacks of grain, no text"
+    "query": "an old wooden ship loaded with sacks of grain, no text",
+    "file": "assets/icons/pa-grain-ship.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-flea": {
     "kind": "vector",
-    "query": "a big cartoon flea with a tiny red dot on its back, no text"
+    "query": "a big cartoon flea with a tiny red dot on its back, no text",
+    "file": "assets/icons/pa-flea.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-plague-doctor": {
     "kind": "vector",
-    "query": "a plague doctor in a long dark coat with a long beak mask and a hat, historical cartoon, no text"
+    "query": "a plague doctor in a long dark coat with a long beak mask and a hat, historical cartoon, no text",
+    "file": "assets/icons/pa-plague-doctor.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-fire-spread": {
     "kind": "vector",
-    "query": "a small fire spreading quickly across a simple map of Europe, no text"
+    "query": "a small fire spreading quickly across a simple map of Europe, no text",
+    "file": "assets/icons/pa-fire-spread.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-person-to-person": {
     "kind": "vector",
-    "query": "two simple cartoon people facing each other with a small red arrow going from one to the other, no text"
+    "query": "two simple cartoon people facing each other with a small red arrow going from one to the other, no text",
+    "file": "assets/icons/pa-person-to-person.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-europe-pie": {
     "kind": "vector",
-    "query": "a pie chart with one third and up to half in red next to a tiny map of Europe, no text"
+    "query": "a pie chart with one third and up to half in red next to a tiny map of Europe, no text",
+    "file": "assets/icons/pa-europe-pie.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-medieval-gate": {
     "kind": "vector",
-    "query": "a medieval town gate with a big crowd of tiny people waiting outside and dark clouds, no text"
+    "query": "a medieval town gate with a big crowd of tiny people waiting outside and dark clouds, no text",
+    "file": "assets/icons/pa-medieval-gate.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-word-bubble": {
     "kind": "vector",
-    "query": "a speech bubble with a golden star inside, a word we still use, no text"
+    "query": "a speech bubble with a golden star inside, a word we still use, no text",
+    "file": "assets/icons/pa-word-bubble.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-world-changed": {
     "kind": "vector",
-    "query": "a world map with arrows crossing the ocean, the map of the world changing, no text"
+    "query": "a world map with arrows crossing the ocean, the map of the world changing, no text",
+    "file": "assets/icons/pa-world-changed.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-andean-villagers": {
     "kind": "vector",
-    "query": "two cartoon Andean villagers in woven ponchos next to a llama, simple and respectful, no text"
+    "query": "two cartoon Andean villagers in woven ponchos next to a llama, simple and respectful, no text",
+    "file": "assets/icons/pa-andean-villagers.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-new-germs": {
     "kind": "vector",
-    "query": "a few strange new spiky germs floating over a ship's deck, no text"
+    "query": "a few strange new spiky germs floating over a ship's deck, no text",
+    "file": "assets/icons/pa-new-germs.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-no-defense": {
     "kind": "vector",
-    "query": "a simple cartoon person standing with empty hands and no shield, no text"
+    "query": "a simple cartoon person standing with empty hands and no shield, no text",
+    "file": "assets/icons/pa-no-defense.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-shrinking-crowd": {
     "kind": "vector",
-    "query": "a big group of small people with most of them faded to pale grey outline and a few left in color, no text"
+    "query": "a big group of small people with most of them faded to pale grey outline and a few left in color, no text",
+    "file": "assets/icons/pa-shrinking-crowd.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-hope-sunrise": {
     "kind": "vector",
-    "query": "a sunrise over green hills with a small green sprout, hope, no text"
+    "query": "a sunrise over green hills with a small green sprout, hope, no text",
+    "file": "assets/icons/pa-hope-sunrise.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-who-globe": {
     "kind": "vector",
-    "query": "a friendly globe held by two hands with a small red cross badge, no text"
+    "query": "a friendly globe held by two hands with a small red cross badge, no text",
+    "file": "assets/icons/pa-who-globe.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-erased-virus": {
     "kind": "vector",
-    "query": "a cartoon virus being erased by a big pencil eraser, no text"
+    "query": "a cartoon virus being erased by a big pencil eraser, no text",
+    "file": "assets/icons/pa-erased-virus.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-water-pump": {
     "kind": "vector",
-    "query": "an old hand water pump with a long handle on a street, no text"
+    "query": "an old hand water pump with a long handle on a street, no text",
+    "file": "assets/icons/pa-water-pump.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-dirty-water": {
     "kind": "vector",
-    "query": "a glass of cloudy brown water with a small frowning face, no text"
+    "query": "a glass of cloudy brown water with a small frowning face, no text",
+    "file": "assets/icons/pa-dirty-water.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-waves-world": {
     "kind": "vector",
-    "query": "three wave arrows crossing a world map one after another, no text"
+    "query": "three wave arrows crossing a world map one after another, no text",
+    "file": "assets/icons/pa-waves-world.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-no-tap-water": {
     "kind": "vector",
-    "query": "a water faucet with a red cross over it and a dry drop, no text"
+    "query": "a water faucet with a red cross over it and a dry drop, no text",
+    "file": "assets/icons/pa-no-tap-water.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-bad-air": {
     "kind": "vector",
-    "query": "a puffy green cloud of bad air drifting over small town houses, no text"
+    "query": "a puffy green cloud of bad air drifting over small town houses, no text",
+    "file": "assets/icons/pa-bad-air.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-map-dots": {
     "kind": "vector",
-    "query": "a street map with small red dots clustered around one blue water pump, no text"
+    "query": "a street map with small red dots clustered around one blue water pump, no text",
+    "file": "assets/icons/pa-map-dots.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-handle-removed": {
     "kind": "vector",
-    "query": "a hand taking the handle off an old street water pump, no text"
+    "query": "a hand taking the handle off an old street water pump, no text",
+    "file": "assets/icons/pa-handle-removed.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-cases-down": {
     "kind": "vector",
-    "query": "a red bar chart with bars getting shorter and a green down arrow, no text"
+    "query": "a red bar chart with bars getting shorter and a green down arrow, no text",
+    "file": "assets/icons/pa-cases-down.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-map-sprout": {
     "kind": "vector",
-    "query": "a rolled old map with a small green seedling sprouting out of it, no text"
+    "query": "a rolled old map with a small green seedling sprouting out of it, no text",
+    "file": "assets/icons/pa-map-sprout.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-spread-network": {
     "kind": "vector",
-    "query": "a magnifying glass over a small network of dots connected by lines with a few red dots, no text"
+    "query": "a magnifying glass over a small network of dots connected by lines with a few red dots, no text",
+    "file": "assets/icons/pa-spread-network.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-spain-map": {
     "kind": "vector",
-    "query": "a plain simple map of Spain and Portugal peninsula in beige, no text, no flag"
+    "query": "a plain simple map of Spain and Portugal peninsula in beige, no text, no flag",
+    "file": "assets/icons/pa-spain-map.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-not-born-here": {
     "kind": "vector",
-    "query": "a map pin on a country with a big red crossed-out circle over it, no text"
+    "query": "a map pin on a country with a big red crossed-out circle over it, no text",
+    "file": "assets/icons/pa-not-born-here.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-dove-neutral": {
     "kind": "vector",
-    "query": "a white dove on a plain map of Spain, peace and neutral, no text"
+    "query": "a white dove on a plain map of Spain, peace and neutral, no text",
+    "file": "assets/icons/pa-dove-neutral.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-censored-news": {
     "kind": "vector",
-    "query": "a newspaper covered by a black censor bar, no text"
+    "query": "a newspaper covered by a black censor bar, no text",
+    "file": "assets/icons/pa-censored-news.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-pie-third": {
     "kind": "vector",
-    "query": "a pie chart with exactly one third highlighted in red, no text"
+    "query": "a pie chart with exactly one third highlighted in red, no text",
+    "file": "assets/icons/pa-pie-third.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-young-adults": {
     "kind": "vector",
-    "query": "a group of cheerful healthy young adult cartoon people exercising, no text"
+    "query": "a group of cheerful healthy young adult cartoon people exercising, no text",
+    "file": "assets/icons/pa-young-adults.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-train-soldiers": {
     "kind": "vector",
-    "query": "a vintage steam train crossing a landscape with a few cartoon soldiers waving, no text"
+    "query": "a vintage steam train crossing a landscape with a few cartoon soldiers waving, no text",
+    "file": "assets/icons/pa-train-soldiers.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-school-closed": {
     "kind": "vector",
-    "query": "a school building with a padlock on its door, no text"
+    "query": "a school building with a padlock on its door, no text",
+    "file": "assets/icons/pa-school-closed.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-no-gathering": {
     "kind": "vector",
-    "query": "a crowd of tiny people inside a red crossed-out circle, no text"
+    "query": "a crowd of tiny people inside a red crossed-out circle, no text",
+    "file": "assets/icons/pa-no-gathering.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-fewer-deaths": {
     "kind": "vector",
-    "query": "a short green bar next to a tall red bar, fewer, no text"
+    "query": "a short green bar next to a tall red bar, fewer, no text",
+    "file": "assets/icons/pa-fewer-deaths.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-act-early": {
     "kind": "vector",
-    "query": "a hand pressing a big green start button early on a clock, no text"
+    "query": "a hand pressing a big green start button early on a clock, no text",
+    "file": "assets/icons/pa-act-early.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-act-late": {
     "kind": "vector",
-    "query": "a slow snail next to a big late clock, no text"
+    "query": "a slow snail next to a big late clock, no text",
+    "file": "assets/icons/pa-act-late.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-asia-map": {
     "kind": "vector",
-    "query": "a simple beige map of Asia with a small red dot, no text"
+    "query": "a simple beige map of Asia with a small red dot, no text",
+    "file": "assets/icons/pa-asia-map.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-hongkong": {
     "kind": "vector",
-    "query": "a harbor skyline with tall skyscrapers and a small sailing junk boat, no text"
+    "query": "a harbor skyline with tall skyscrapers and a small sailing junk boat, no text",
+    "file": "assets/icons/pa-hongkong.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-red-ribbon": {
     "kind": "vector",
-    "query": "a red awareness ribbon folded in a loop, no text"
+    "query": "a red awareness ribbon folded in a loop, no text",
+    "file": "assets/icons/pa-red-ribbon.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-snail-silent": {
     "kind": "vector",
-    "query": "a snail with a finger over its lips, slow and silent, no text"
+    "query": "a snail with a finger over its lips, slow and silent, no text",
+    "file": "assets/icons/pa-snail-silent.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-grave-verdict": {
     "kind": "vector",
-    "query": "an old paper scroll with a heavy red wax seal and a gavel, verdict, no text"
+    "query": "an old paper scroll with a heavy red wax seal and a gavel, verdict, no text",
+    "file": "assets/icons/pa-grave-verdict.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-storm-cloud": {
     "kind": "vector",
-    "query": "a dark storm cloud with a lightning bolt over a small person, no text"
+    "query": "a dark storm cloud with a lightning bolt over a small person, no text",
+    "file": "assets/icons/pa-storm-cloud.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-calm-path": {
     "kind": "vector",
-    "query": "a long gentle calm road under a clear sky, steady and calm, no text"
+    "query": "a long gentle calm road under a clear sky, steady and calm, no text",
+    "file": "assets/icons/pa-calm-path.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-person-healthy-vih": {
     "kind": "vector",
-    "query": "a smiling cartoon person with a small red ribbon on the shirt, healthy and happy, no text"
+    "query": "a smiling cartoon person with a small red ribbon on the shirt, healthy and happy, no text",
+    "file": "assets/icons/pa-person-healthy-vih.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-no-transmit": {
     "kind": "vector",
-    "query": "a virus with a green shield in front and a crossed arrow, no text"
+    "query": "a virus with a green shield in front and a crossed arrow, no text",
+    "file": "assets/icons/pa-no-transmit.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-covid-spike": {
     "kind": "vector",
-    "query": "a round coronavirus particle with many red spikes, no text"
+    "query": "a round coronavirus particle with many red spikes, no text",
+    "file": "assets/icons/pa-covid-spike.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-calendar-spring": {
     "kind": "vector",
-    "query": "a calendar page with a big red circle around one day, spring leaves, no text"
+    "query": "a calendar page with a big red circle around one day, spring leaves, no text",
+    "file": "assets/icons/pa-calendar-spring.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-scientists-world": {
     "kind": "vector",
-    "query": "a friendly globe surrounded by small scientists in lab coats, no text"
+    "query": "a friendly globe surrounded by small scientists in lab coats, no text",
+    "file": "assets/icons/pa-scientists-world.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-contained-virus": {
     "kind": "vector",
-    "query": "a small red virus held back behind a strong green shield barrier, no text"
+    "query": "a small red virus held back behind a strong green shield barrier, no text",
+    "file": "assets/icons/pa-contained-virus.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-animal-to-person": {
     "kind": "vector",
-    "query": "a curved arrow from a small animal silhouette to a cartoon person, no text"
+    "query": "a curved arrow from a small animal silhouette to a cartoon person, no text",
+    "file": "assets/icons/pa-animal-to-person.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-isolation-bubble": {
     "kind": "vector",
-    "query": "a cartoon person standing alone inside a clear bubble with a green check, no text"
+    "query": "a cartoon person standing alone inside a clear bubble with a green check, no text",
+    "file": "assets/icons/pa-isolation-bubble.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-contained-months": {
     "kind": "vector",
-    "query": "a calendar with a few months and a green check mark, no text"
+    "query": "a calendar with a few months and a green check mark, no text",
+    "file": "assets/icons/pa-contained-months.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-mild-virus": {
     "kind": "vector",
-    "query": "a small mild cartoon virus shrugging next to a giant scary shadow, no text"
+    "query": "a small mild cartoon virus shrugging next to a giant scary shadow, no text",
+    "file": "assets/icons/pa-mild-virus.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-direct-contact": {
     "kind": "vector",
-    "query": "two simple hands touching with a small drop between them, no text"
+    "query": "two simple hands touching with a small drop between them, no text",
+    "file": "assets/icons/pa-direct-contact.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-caged-virus": {
     "kind": "vector",
-    "query": "a big angry red virus inside a strong green cage, no text"
+    "query": "a big angry red virus inside a strong green cage, no text",
+    "file": "assets/icons/pa-caged-virus.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-scary-virus": {
     "kind": "vector",
-    "query": "a spiky scary red virus with angry eyes, no text"
+    "query": "a spiky scary red virus with angry eyes, no text",
+    "file": "assets/icons/pa-scary-virus.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-fast-runner": {
     "kind": "vector",
-    "query": "a cartoon runner sprinting with speed lines and a stopwatch, no text"
+    "query": "a cartoon runner sprinting with speed lines and a stopwatch, no text",
+    "file": "assets/icons/pa-fast-runner.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-three-ingredients": {
     "kind": "vector",
-    "query": "three colorful ingredient bottles in a row, no text"
+    "query": "three colorful ingredient bottles in a row, no text",
+    "file": "assets/icons/pa-three-ingredients.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-new-virus": {
     "kind": "vector",
-    "query": "a brand new bright purple virus with a tiny star, new, no text"
+    "query": "a brand new bright purple virus with a tiny star, new, no text",
+    "file": "assets/icons/pa-new-virus.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-common-origin": {
     "kind": "vector",
-    "query": "several arrows from different germs all pointing back to one common spot, no text"
+    "query": "several arrows from different germs all pointing back to one common spot, no text",
+    "file": "assets/icons/pa-common-origin.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-animals-group": {
     "kind": "vector",
-    "query": "a friendly group of cartoon animals: a bat, a pig and a small rat, no text"
+    "query": "a friendly group of cartoon animals: a bat, a pig and a small rat, no text",
+    "file": "assets/icons/pa-animals-group.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-pig": {
     "kind": "vector",
-    "query": "a cute cartoon pig, no text"
+    "query": "a cute cartoon pig, no text",
+    "file": "assets/icons/pa-pig.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-chimp": {
     "kind": "vector",
-    "query": "a cute cartoon chimpanzee, no text"
+    "query": "a cute cartoon chimpanzee, no text",
+    "file": "assets/icons/pa-chimp.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-scientist-binoculars": {
     "kind": "vector",
-    "query": "a cartoon scientist looking through binoculars at an animal jumping toward a person, no text"
+    "query": "a cartoon scientist looking through binoculars at an animal jumping toward a person, no text",
+    "file": "assets/icons/pa-scientist-binoculars.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-rumor": {
     "kind": "vector",
-    "query": "a whispering speech bubble passing along a chain of tiny people, no text"
+    "query": "a whispering speech bubble passing along a chain of tiny people, no text",
+    "file": "assets/icons/pa-rumor.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-fake-cure": {
     "kind": "vector",
-    "query": "a snake oil style bottle with a big red X, no text"
+    "query": "a snake oil style bottle with a big red X, no text",
+    "file": "assets/icons/pa-fake-cure.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-invented-culprit": {
     "kind": "vector",
-    "query": "a cartoon figure being pointed at by a huge finger with a red question mark, no text"
+    "query": "a cartoon figure being pointed at by a huge finger with a red question mark, no text",
+    "file": "assets/icons/pa-invented-culprit.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-medieval-castle": {
     "kind": "vector",
-    "query": "a small medieval castle with a flag on a hill, no text"
+    "query": "a small medieval castle with a flag on a hill, no text",
+    "file": "assets/icons/pa-medieval-castle.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-injustice": {
     "kind": "vector",
-    "query": "a tilted unfair scale with a broken weight, no text"
+    "query": "a tilted unfair scale with a broken weight, no text",
+    "file": "assets/icons/pa-injustice.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-ignore-measures": {
     "kind": "vector",
-    "query": "a person turning away from a clipboard with a green check, no text"
+    "query": "a person turning away from a clipboard with a green check, no text",
+    "file": "assets/icons/pa-ignore-measures.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-toolbox": {
     "kind": "vector",
-    "query": "a friendly toolbox with a wrench and a green check, no text"
+    "query": "a friendly toolbox with a wrench and a green check, no text",
+    "file": "assets/icons/pa-toolbox.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-wrench-star": {
     "kind": "vector",
-    "query": "a shiny wrench with a gold star, no text"
+    "query": "a shiny wrench with a gold star, no text",
+    "file": "assets/icons/pa-wrench-star.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-clock-fast": {
     "kind": "vector",
-    "query": "a stopwatch with a green check and sparkles, fast, no text"
+    "query": "a stopwatch with a green check and sparkles, fast, no text",
+    "file": "assets/icons/pa-clock-fast.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-next-question": {
     "kind": "vector",
-    "query": "a calendar with a big question mark on a far-off day, no text"
+    "query": "a calendar with a big question mark on a far-off day, no text",
+    "file": "assets/icons/pa-next-question.png",
+    "normalized": true,
+    "gpt": true
   },
   "pa-truth-bubble": {
     "kind": "vector",
-    "query": "a speech bubble with a green check and a golden star, truth, no text"
+    "query": "a speech bubble with a green check and a golden star, truth, no text",
+    "file": "assets/icons/pa-truth-bubble.png",
+    "normalized": true,
+    "gpt": true
   },
   "photo-tierra": {
     "kind": "cutout",
     "query": "Tierra",
     "wiki": "Tierra",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Tierra",
+      "description": "tercer planeta desde el Sol en el Sistema Solar"
+    },
+    "file": "assets/icons/photo-tierra.jpg"
   },
   "photo-coliseo": {
     "kind": "cutout",
     "query": "Coliseo",
     "wiki": "Coliseo",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Coliseo",
+      "description": "anfiteatro en Roma, Italia y una de las 7 maravillas del mundo moderno"
+    },
+    "file": "assets/icons/photo-coliseo.jpg"
   },
   "photo-foro-romano": {
     "kind": "cutout",
     "query": "Foro Romano",
     "wiki": "Foro Romano",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Foro Romano",
+      "description": "yacimiento arqueológico en Roma"
+    },
+    "file": "assets/icons/photo-foro-romano.jpg"
   },
   "photo-marco-aurelio": {
     "kind": "cutout",
     "query": "Marco Aurelio",
     "wiki": "Marco Aurelio",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Marco Aurelio",
+      "description": "Emperador romano (161-180)"
+    },
+    "file": "assets/icons/photo-marco-aurelio.jpg"
   },
   "photo-justiniano": {
     "kind": "cutout",
     "query": "Justiniano I",
     "wiki": "Justiniano I",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Justiniano I",
+      "description": "Emperador romano de oriente (527-565)"
+    },
+    "file": "assets/icons/photo-justiniano.jpg"
   },
   "photo-santa-sofia": {
     "kind": "cutout",
     "query": "Santa Sofía",
     "wiki": "Santa Sofía",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Santa Sofía",
+      "description": "monumento bizantino, mezquita en Estambul, Turquía"
+    },
+    "file": "assets/icons/photo-santa-sofia.jpg"
   },
   "photo-constantinopla": {
     "kind": "cutout",
     "query": "Constantinopla",
     "wiki": "Constantinopla",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Constantinopla",
+      "description": "capital del Imperio Romano de Oriente"
+    },
+    "file": "assets/icons/photo-constantinopla.jpg"
   },
   "photo-mar-negro": {
     "kind": "cutout",
     "query": "Mar Negro",
     "wiki": "Mar Negro",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Mar Negro",
+      "description": "mar interior que separa Europa Oriental de Asia Occidental"
+    },
+    "file": "assets/icons/photo-mar-negro.jpg"
   },
   "photo-lazareto": {
     "kind": "cutout",
     "query": "Lazareto",
     "wiki": "Lazareto",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Lazareto",
+      "description": "hospital para el tratamiento de enfermedades infecciosas"
+    },
+    "file": "assets/icons/photo-lazareto.jpg"
   },
   "photo-conquista": {
     "kind": "cutout",
     "query": "Conquista de México-Tenochtitlan",
     "wiki": "Conquista de México-Tenochtitlan",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Conquista de México-Tenochtitlan",
+      "description": "conquista y desmantelamiento del Imperio mexica, entre 1519 y 1521"
+    },
+    "file": "assets/icons/photo-conquista.png"
   },
   "photo-templo-mayor": {
     "kind": "cutout",
     "query": "Templo Mayor",
     "wiki": "Templo Mayor",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Templo Mayor",
+      "description": "principal templo de México-Tenochtitlan"
+    },
+    "file": "assets/icons/photo-templo-mayor.jpg"
   },
   "photo-machu-picchu": {
     "kind": "cutout",
     "query": "Machu Picchu",
     "wiki": "Machu Picchu",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Machu Picchu",
+      "description": "antigua ciudad del imperio inca en Cuzco, Perú y una de las 7 maravillas del mundo moderno"
+    },
+    "file": "assets/icons/photo-machu-picchu.jpg"
   },
   "photo-jenner": {
     "kind": "cutout",
     "query": "Edward Jenner",
     "wiki": "Edward Jenner",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Edward Jenner",
+      "description": "científico inglés y abogado"
+    },
+    "file": "assets/icons/photo-jenner.jpg"
   },
   "photo-colera": {
     "kind": "cutout",
     "query": "Cólera",
     "wiki": "Cólera",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Cólera",
+      "description": "enfermedad aguda diarreica provocada por la bacteria Vibrio cholerae"
+    },
+    "file": "assets/icons/photo-colera.jpg"
   },
   "photo-john-snow": {
     "kind": "cutout",
     "query": "John Snow",
     "wiki": "John Snow",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:John Snow",
+      "description": ""
+    },
+    "file": "assets/icons/photo-john-snow.jpg"
   },
   "photo-londres": {
     "kind": "cutout",
     "query": "Londres",
     "wiki": "Londres",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Londres",
+      "description": "capital de Inglaterra y del Reino Unido"
+    },
+    "file": "assets/icons/photo-londres.jpg"
   },
   "photo-bomba": {
     "kind": "cutout",
     "query": "Bomba hidráulica",
     "wiki": "Bomba hidráulica",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Bomba hidráulica",
+      "description": "dispositivo que mueve fluidos (líquidos o gases) por acción mecánica"
+    },
+    "file": "assets/icons/photo-bomba.jpg"
   },
   "photo-gripe1918": {
     "kind": "cutout",
     "query": "Pandemia de gripe de 1918",
     "wiki": "Pandemia de gripe de 1918",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Pandemia de gripe de 1918",
+      "description": "pandemia mundial de influenza de 1918-1920 causada por el virus de la influenza A H1N1"
+    },
+    "file": "assets/icons/photo-gripe1918.jpg"
   },
   "photo-filadelfia": {
     "kind": "cutout",
     "query": "Ayuntamiento de Filadelfia",
     "wiki": "Ayuntamiento de Filadelfia",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Ayuntamiento de Filadelfia",
+      "description": "Pagina Sobre El Ayuntamiento De Filadelfia En Pennysilvania E.U.A"
+    },
+    "file": "assets/icons/photo-filadelfia.jpg"
   },
   "photo-gateway": {
     "kind": "cutout",
     "query": "Arco Gateway",
     "wiki": "Arco Gateway",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Arco Gateway",
+      "description": "monumento en San Luis, Misuri (Estados Unidos)"
+    },
+    "file": "assets/icons/photo-gateway.jpg"
   },
   "photo-gripe-virus": {
     "kind": "cutout",
     "query": "Gripe",
     "wiki": "Gripe",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Gripe",
+      "description": "enfermedad infecciosa de aves y mamíferos causada por un virus ARN (Orthomyxoviridae)"
+    },
+    "file": "assets/icons/photo-gripe-virus.jpg"
   },
   "photo-vih": {
     "kind": "cutout",
     "query": "Virus de la inmunodeficiencia humana",
     "wiki": "Virus de la inmunodeficiencia humana",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Virus de la inmunodeficiencia humana",
+      "description": "retrovirus causante del síndrome de inmunodeficiencia adquiridagi"
+    },
+    "file": "assets/icons/photo-vih.jpg"
   },
   "photo-coronavirus": {
     "kind": "cutout",
     "query": "Orthocoronavirinae",
     "wiki": "Orthocoronavirinae",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Orthocoronavirinae",
+      "description": "subfamilia de virus ARN monocatenario positivo"
+    },
+    "file": "assets/icons/photo-coronavirus.jpg"
   },
   "photo-jeringa": {
     "kind": "cutout",
     "query": "Jeringa",
     "wiki": "Jeringa",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Jeringa",
+      "description": "bomba simple que consiste en un émbolo que se ajusta a un tubo"
+    },
+    "file": "assets/icons/photo-jeringa.jpg"
   },
   "photo-cerdo": {
     "kind": "cutout",
     "query": "Sus scrofa domestica",
     "wiki": "Sus scrofa domestica",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sus scrofa domestica",
+      "description": "subespecie de mamíferos"
+    },
+    "file": "assets/icons/photo-cerdo.jpg"
   },
   "photo-ebola": {
     "kind": "cutout",
     "query": "Ebolavirus",
     "wiki": "Ebolavirus",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Ebolavirus",
+      "description": "virus"
+    },
+    "file": "assets/icons/photo-ebola.png"
   },
   "photo-h1n1": {
     "kind": "cutout",
     "query": "Influenzavirus A subtipo H1N1",
     "wiki": "Influenzavirus A subtipo H1N1",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Influenzavirus A subtipo H1N1",
+      "description": "especie de influenzavirus tipo A del virus de la gripe, perteneciente a la familia de los Orthomyxoviridae"
+    },
+    "file": "assets/icons/photo-h1n1.jpg"
   },
   "photo-trigo": {
     "kind": "cutout",
     "query": "Triticum",
     "wiki": "Triticum",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Triticum",
+      "description": "género de plantas"
+    },
+    "file": "assets/icons/photo-trigo.jpg"
   },
   "photo-nao": {
     "kind": "cutout",
     "query": "Nao",
     "wiki": "Nao",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Nao",
+      "description": "tipo de navío a vela"
+    },
+    "file": "assets/icons/photo-nao.jpg"
   },
   "photo-bacteria": {
     "kind": "cutout",
     "query": "Bacteria",
     "wiki": "Bacteria",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Bacteria",
+      "description": "microorganismo unicelular que presenta un tamaño de unos pocos micrómetros"
+    },
+    "file": "assets/icons/photo-bacteria.jpg"
   },
   "photo-hipodromo": {
     "kind": "cutout",
     "query": "Hipódromo de Constantinopla",
     "wiki": "Hipódromo de Constantinopla",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Hipódromo de Constantinopla",
+      "description": "antiguo hipódromo en Estambul, Turquía"
+    },
+    "file": "assets/icons/photo-hipodromo.jpg"
   },
   "photo-murcielago": {
     "kind": "cutout",
     "query": "Chiroptera",
     "wiki": "Chiroptera",
-    "lang": "es"
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Chiroptera",
+      "description": "orden de mamíferos (Mammalia)"
+    },
+    "file": "assets/icons/photo-murcielago.jpg"
   },
   "clip-airplane": {
     "kind": "clip",
