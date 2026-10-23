@@ -1,0 +1,1581 @@
+{
+  "lb-spy": {
+    "kind": "vector",
+    "query": "a 1960s cold war spy in trench coat and x",
+    "file": "assets/icons/lb-spy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-agency": {
+    "kind": "vector",
+    "query": "a secret government agency headquarters x",
+    "file": "assets/icons/lb-agency.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-binoc": {
+    "kind": "vector",
+    "query": "binoculars",
+    "file": "assets/icons/lb-binoc.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-atomic": {
+    "kind": "vector",
+    "query": "a huge atomic bomb mushroom cloud explos x",
+    "file": "assets/icons/lb-atomic.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-treaty": {
+    "kind": "vector",
+    "query": "treaty document",
+    "file": "assets/icons/lb-treaty.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-dollar": {
+    "kind": "vector",
+    "query": "a big green dollar sign symbol",
+    "file": "assets/icons/lb-dollar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-greedy": {
+    "kind": "vector",
+    "query": "a greedy face with dollar signs in its e x",
+    "file": "assets/icons/lb-greedy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-pinocchio": {
+    "kind": "vector",
+    "query": "a person with a long pinocchio nose and x",
+    "file": "assets/icons/lb-pinocchio.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-fork": {
+    "kind": "vector",
+    "query": "a fork in the road one path think one pa x",
+    "file": "assets/icons/lb-fork.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-walker": {
+    "kind": "vector",
+    "query": "a lone man in a coat walking on a city s x",
+    "file": "assets/icons/lb-walker.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-laptop": {
+    "kind": "vector",
+    "query": "laptop computer",
+    "file": "assets/icons/lb-laptop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-network": {
+    "kind": "vector",
+    "query": "a professional briefcase business networ x",
+    "file": "assets/icons/lb-network.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-guard": {
+    "kind": "vector",
+    "query": "british soldier",
+    "file": "assets/icons/lb-guard.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-colonel": {
+    "kind": "vector",
+    "query": "an army colonel senior officer",
+    "file": "assets/icons/lb-colonel.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ww2": {
+    "kind": "vector",
+    "query": "world war two tank and fighter plane 194 x",
+    "file": "assets/icons/lb-ww2.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-mask": {
+    "kind": "vector",
+    "query": "a theater mask split into a good trip an x",
+    "file": "assets/icons/lb-mask.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-eyes": {
+    "kind": "vector",
+    "query": "two wide alert eyes with radar rings aro x",
+    "file": "assets/icons/lb-eyes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-swapbox": {
+    "kind": "vector",
+    "query": "two similar looking boxes being swapped x",
+    "file": "assets/icons/lb-swapbox.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-legcast": {
+    "kind": "vector",
+    "query": "a cartoon leg with a white cast and a pa x",
+    "file": "assets/icons/lb-legcast.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-university": {
+    "kind": "vector",
+    "query": "a classic university building with colum x",
+    "file": "assets/icons/lb-university.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-student": {
+    "kind": "vector",
+    "query": "a young student with a graduation cap an x",
+    "file": "assets/icons/lb-student.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-mountain": {
+    "kind": "vector",
+    "query": "a mountaineer standing on a snowy mounta x",
+    "file": "assets/icons/lb-mountain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-scholar": {
+    "kind": "vector",
+    "query": "an old scholar with glasses reading a hu x",
+    "file": "assets/icons/lb-scholar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-lawbook": {
+    "kind": "vector",
+    "query": "a book of law with a judge gavel",
+    "file": "assets/icons/lb-lawbook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-warship": {
+    "kind": "vector",
+    "query": "a grey navy military warship",
+    "file": "assets/icons/lb-warship.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-envelope": {
+    "kind": "vector",
+    "query": "an email envelope letter",
+    "file": "assets/icons/lb-envelope.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-antenna": {
+    "kind": "vector",
+    "query": "a radio antenna dish receiving colorful x",
+    "file": "assets/icons/lb-antenna.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulbbook": {
+    "kind": "vector",
+    "query": "a lightbulb above an open book with a st x",
+    "file": "assets/icons/lb-bulbbook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-magnifier": {
+    "kind": "vector",
+    "query": "a magnifying glass with a green check mark, verifying something",
+    "file": "assets/icons/lb-magnifier.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calflip": {
+    "kind": "vector",
+    "query": "a wall calendar with many pages flying off, many years passing, no numbers",
+    "file": "assets/icons/lb-calflip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-star": {
+    "kind": "vector",
+    "query": "a big golden star with an exclamation mark and sparkles, the most important thing, no text",
+    "file": "assets/icons/lb-star.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-scared": {
+    "kind": "vector",
+    "query": "a scared frightened face, fear",
+    "file": "assets/icons/lb-scared.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-warning": {
+    "kind": "vector",
+    "query": "a yellow warning triangle with an exclamation mark",
+    "file": "assets/icons/lb-warning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-siren": {
+    "kind": "vector",
+    "query": "a red flashing emergency siren light",
+    "file": "assets/icons/lb-siren.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-stophand": {
+    "kind": "vector",
+    "query": "a big red open stop hand sign, simple, no text",
+    "file": "assets/icons/lb-stophand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-urgency": {
+    "kind": "vector",
+    "query": "a ringing alarm clock, hurry up urgency",
+    "file": "assets/icons/lb-urgency.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-clocklong": {
+    "kind": "vector",
+    "query": "a big clock with a long winding trail behind it, lasting for a long time, no text",
+    "file": "assets/icons/lb-clocklong.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calendar": {
+    "kind": "vector",
+    "query": "a wall calendar showing a year",
+    "file": "assets/icons/lb-calendar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-iberia": {
+    "kind": "vector",
+    "query": "a simple map of the Iberian peninsula with a small circled region in the northeast, no text, no flag",
+    "file": "assets/icons/lb-iberia.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-usamap": {
+    "kind": "vector",
+    "query": "a plain map silhouette of the United States in neutral green, no text, no flag",
+    "file": "assets/icons/lb-usamap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ussr": {
+    "kind": "vector",
+    "query": "a plain huge northern country map silhouette in neutral green, no text, no flag",
+    "file": "assets/icons/lb-ussr.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-questionarmy": {
+    "kind": "vector",
+    "query": "a big red question mark over a crowd silhouette",
+    "file": "assets/icons/lb-questionarmy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-shield": {
+    "kind": "vector",
+    "query": "a green shield with a check mark, protected",
+    "file": "assets/icons/lb-shield.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulb": {
+    "kind": "vector",
+    "query": "a classic glowing incandescent light bulb",
+    "file": "assets/icons/lb-bulb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-folderchain": {
+    "kind": "vector",
+    "query": "a folder of files covered in chains and a padlock",
+    "file": "assets/icons/lb-folderchain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-whisper-bubble": {
+    "kind": "vector",
+    "query": "a small speech bubble with a tiny clock beside it, a sentence at the right moment, no text",
+    "file": "assets/icons/es-whisper-bubble.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-matchbox-note": {
+    "kind": "vector",
+    "query": "a small matchbox slightly open with a tiny rolled paper note peeking out, no text",
+    "file": "assets/icons/es-matchbox-note.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-shh": {
+    "kind": "vector",
+    "query": "a cartoon person in a suit holding a finger over their lips, shh, keeping a secret, no text",
+    "file": "assets/icons/es-shh.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-no-gun": {
+    "kind": "vector",
+    "query": "a gray pistol silhouette with a big red crossed-out circle over it, no text",
+    "file": "assets/icons/es-no-gun.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-book-end": {
+    "kind": "vector",
+    "query": "a closed old leather book with a ribbon bookmark, the end of a story, no text",
+    "file": "assets/icons/es-book-end.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-clapper": {
+    "kind": "vector",
+    "query": "a black and white film clapperboard, no text",
+    "file": "assets/icons/es-clapper.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-secret-folder": {
+    "kind": "vector",
+    "query": "a manila folder with a red round stamp circle on it, secret information, no text",
+    "file": "assets/icons/es-secret-folder.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-motives": {
+    "kind": "vector",
+    "query": "a gear with four colored arrows pointing inward, motivation, no text",
+    "file": "assets/icons/es-motives.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-four-reasons": {
+    "kind": "vector",
+    "query": "four colored round buttons in a row, red, green, blue and yellow, with a small number four above, no text",
+    "file": "assets/icons/es-four-reasons.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-globe-speech": {
+    "kind": "vector",
+    "query": "a speech bubble containing a small globe of the world, a word in English, no text",
+    "file": "assets/icons/es-globe-speech.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-ideology": {
+    "kind": "vector",
+    "query": "a cartoon person holding up a big blank banner on a pole with a heart on it, ideals, no text",
+    "file": "assets/icons/es-ideology.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-blackmail": {
+    "kind": "vector",
+    "query": "a sealed envelope with a dark shadowy hand reaching for it, blackmail, no text",
+    "file": "assets/icons/es-blackmail.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-ego": {
+    "kind": "vector",
+    "query": "a cartoon person admiring himself in a mirror while wearing a golden crown, no text",
+    "file": "assets/icons/es-ego.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-head-gems": {
+    "kind": "vector",
+    "query": "a cartoon head silhouette with four small colored gems floating inside, no text",
+    "file": "assets/icons/es-head-gems.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-dancer": {
+    "kind": "vector",
+    "query": "an elegant 1910s exotic dancer in a flowing veil costume with a jeweled headband, no text",
+    "file": "assets/icons/es-dancer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-cabaret-stage": {
+    "kind": "vector",
+    "query": "a theater cabaret stage with red curtains and a bright spotlight, no text",
+    "file": "assets/icons/es-cabaret-stage.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-accuse": {
+    "kind": "vector",
+    "query": "a big pointing finger accusing a dark silhouette of a woman, no text",
+    "file": "assets/icons/es-accuse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-weak-evidence": {
+    "kind": "vector",
+    "query": "a thin cracked sheet of paper with a crack across it, weak proof, no text",
+    "file": "assets/icons/es-weak-evidence.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-goat": {
+    "kind": "vector",
+    "query": "a cartoon goat with a red bullseye target hanging on its neck, scapegoat, no text",
+    "file": "assets/icons/es-goat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-seductress": {
+    "kind": "vector",
+    "query": "a mysterious cartoon woman with a feathered veil, exotic headdress and sultry eyes, no text",
+    "file": "assets/icons/es-seductress.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-fog-question": {
+    "kind": "vector",
+    "query": "a gray misty fog cloud with a big question mark inside, no text",
+    "file": "assets/icons/es-fog-question.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-dark-cloud-europe": {
+    "kind": "vector",
+    "query": "a dark ominous storm cloud hanging over a map of Europe, no text, no flag",
+    "file": "assets/icons/es-dark-cloud-europe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-volunteer": {
+    "kind": "vector",
+    "query": "a cartoon man raising his hand enthusiastically to volunteer, no text",
+    "file": "assets/icons/es-volunteer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-reject": {
+    "kind": "vector",
+    "query": "a cartoon hand politely pushing a person away with a red cross mark, rejected, no text",
+    "file": "assets/icons/es-reject.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-solo-walker": {
+    "kind": "vector",
+    "query": "a lone cartoon man in a 1940s suit walking confidently by himself on a road, no text",
+    "file": "assets/icons/es-solo-walker.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-ghost-agents": {
+    "kind": "vector",
+    "query": "three faint transparent ghost silhouettes of men in suits and hats, no text",
+    "file": "assets/icons/es-ghost-agents.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-name-tag": {
+    "kind": "vector",
+    "query": "a cartoon name tag badge with a blank face outline, no text",
+    "file": "assets/icons/es-name-tag.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-personality-heads": {
+    "kind": "vector",
+    "query": "three cartoon head silhouettes each wearing a different hat and expression, no text",
+    "file": "assets/icons/es-personality-heads.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-black-ribbon": {
+    "kind": "vector",
+    "query": "a small black mourning ribbon bow, no text",
+    "file": "assets/icons/es-black-ribbon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-silhouette-commander": {
+    "kind": "vector",
+    "query": "a plain dark silhouette of a man in a military cap seen from behind looking at a wall map, no text, no symbols",
+    "file": "assets/icons/es-silhouette-commander.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-compass-north": {
+    "kind": "vector",
+    "query": "a classic compass with the north needle highlighted in red, no text",
+    "file": "assets/icons/es-compass-north.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-troops-stay": {
+    "kind": "vector",
+    "query": "a group of small toy soldiers standing still in one spot on a map, no text, no flag",
+    "file": "assets/icons/es-troops-stay.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-medal-bronze": {
+    "kind": "vector",
+    "query": "a round bronze military medal hanging from a black ribbon, no text",
+    "file": "assets/icons/es-medal-bronze.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-medal-gold": {
+    "kind": "vector",
+    "query": "a shiny gold medal hanging from a red ribbon, no text",
+    "file": "assets/icons/es-medal-gold.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-trophy-two": {
+    "kind": "vector",
+    "query": "a golden trophy cup with two ribbons, one on each side, no text",
+    "file": "assets/icons/es-trophy-two.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-prosthetic": {
+    "kind": "vector",
+    "query": "a simple wooden and metal prosthetic leg standing upright, no text",
+    "file": "assets/icons/es-prosthetic.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-france-map": {
+    "kind": "vector",
+    "query": "a plain map silhouette of France in neutral green and beige, no text, no flag",
+    "file": "assets/icons/es-france-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-wanted": {
+    "kind": "vector",
+    "query": "a wanted poster with a blank dark silhouette of a woman, no text",
+    "file": "assets/icons/es-wanted.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-empty-podium": {
+    "kind": "vector",
+    "query": "an empty winners podium with no trophy and a dusty spotlight, no text",
+    "file": "assets/icons/es-empty-podium.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-morse-key": {
+    "kind": "vector",
+    "query": "a vintage brass morse telegraph key on a wooden base, no text",
+    "file": "assets/icons/es-morse-key.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-india-uk": {
+    "kind": "vector",
+    "query": "a map of India next to a map of the United Kingdom islands, neutral colors, no text, no flags",
+    "file": "assets/icons/es-india-uk.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-sufi-teacher": {
+    "kind": "vector",
+    "query": "a calm elderly teacher with a white beard and white turban sitting peacefully, no text",
+    "file": "assets/icons/es-sufi-teacher.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-broken-net": {
+    "kind": "vector",
+    "query": "a spider-web like network of dots and lines mostly torn apart, no text",
+    "file": "assets/icons/es-broken-net.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-betrayal": {
+    "kind": "vector",
+    "query": "a hand passing a small envelope behind a person's back, betrayal, no text",
+    "file": "assets/icons/es-betrayal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-candle-ribbon": {
+    "kind": "vector",
+    "query": "a single lit candle with a small ribbon at its base, remembrance, no text",
+    "file": "assets/icons/es-candle-ribbon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-silver-cross": {
+    "kind": "vector",
+    "query": "a silver cross-shaped medal with a dark blue ribbon, no text",
+    "file": "assets/icons/es-silver-cross.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-turned-back": {
+    "kind": "vector",
+    "query": "a cartoon man in a gray tunic turning his back and walking away ignoring a letter, no text",
+    "file": "assets/icons/es-turned-back.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-reporter": {
+    "kind": "vector",
+    "query": "a cartoon journalist with a press hat, notebook and pencil, no text",
+    "file": "assets/icons/es-reporter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-invasion-arrows": {
+    "kind": "vector",
+    "query": "a map with several big red arrows pointing from west to east, no text, no flags",
+    "file": "assets/icons/es-invasion-arrows.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-japan-map": {
+    "kind": "vector",
+    "query": "a simple map of the Japanese islands in neutral green and beige, no text, no flag",
+    "file": "assets/icons/es-japan-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-closed-folder-red": {
+    "kind": "vector",
+    "query": "a closed folder sealed with a red wax seal, case closed, no text",
+    "file": "assets/icons/es-closed-folder-red.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-stolen-bomb": {
+    "kind": "vector",
+    "query": "a cartoon hand grabbing a glowing round atomic bomb casing, no text",
+    "file": "assets/icons/es-stolen-bomb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-atom-blueprint": {
+    "kind": "vector",
+    "query": "a blue technical drawing sheet with a simple atom symbol and a circle sketch, science project, no text",
+    "file": "assets/icons/es-atom-blueprint.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-handoff": {
+    "kind": "vector",
+    "query": "a hand passing a folder to another hand in the shadows, no text",
+    "file": "assets/icons/es-handoff.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-bomb-gray": {
+    "kind": "vector",
+    "query": "a gray teardrop shaped atomic bomb casing, no text",
+    "file": "assets/icons/es-bomb-gray.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-couple": {
+    "kind": "vector",
+    "query": "a man and a woman in 1950s clothes standing side by side as simple silhouettes, no text",
+    "file": "assets/icons/es-couple.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-debate": {
+    "kind": "vector",
+    "query": "two speech bubbles facing each other with a question mark between them, no text",
+    "file": "assets/icons/es-debate.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-trojan": {
+    "kind": "vector",
+    "query": "a wooden Trojan horse with a small door in its belly, no text",
+    "file": "assets/icons/es-trojan.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-career-ladder": {
+    "kind": "vector",
+    "query": "a small staircase made of office desks going up with a briefcase at the top, no text",
+    "file": "assets/icons/es-career-ladder.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-snow-house": {
+    "kind": "vector",
+    "query": "a cozy small house in the snow with a lit warm window, no text",
+    "file": "assets/icons/es-snow-house.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-missile": {
+    "kind": "vector",
+    "query": "a plain gray missile standing on a launcher, no markings, no text",
+    "file": "assets/icons/es-missile.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-cuba-island": {
+    "kind": "vector",
+    "query": "a map of the Caribbean island of Cuba in neutral green, no text, no flag",
+    "file": "assets/icons/es-cuba-island.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-few-missiles": {
+    "kind": "vector",
+    "query": "two small gray missiles next to a big faded ghost outline of many missiles, no text",
+    "file": "assets/icons/es-few-missiles.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-many-missiles": {
+    "kind": "vector",
+    "query": "a big group of many gray missiles standing in rows, no text",
+    "file": "assets/icons/es-many-missiles.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-suit-silhouette": {
+    "kind": "vector",
+    "query": "a plain gray silhouette of a man in a suit and tie with his face hidden, no text",
+    "file": "assets/icons/es-suit-silhouette.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-names-list": {
+    "kind": "vector",
+    "query": "a sheet of paper with a list of lines where several names are blacked out, no text",
+    "file": "assets/icons/es-names-list.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-fading-silhouettes": {
+    "kind": "vector",
+    "query": "a row of gray silhouettes of men fading away into dust, no text",
+    "file": "assets/icons/es-fading-silhouettes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-spend-tower": {
+    "kind": "vector",
+    "query": "a cartoon man in a suit standing on top of a huge tower of money bags, no text",
+    "file": "assets/icons/es-spend-tower.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-redhead": {
+    "kind": "vector",
+    "query": "a cartoon young woman with long red hair and a confident smile, no text",
+    "file": "assets/icons/es-redhead.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-fake-id": {
+    "kind": "vector",
+    "query": "an identity card with a face silhouette and a small mask on it, fake identity, no text",
+    "file": "assets/icons/es-fake-id.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-sleeping-agent": {
+    "kind": "vector",
+    "query": "a cartoon man in a suit sleeping peacefully in an armchair wearing a spy hat, no text",
+    "file": "assets/icons/es-sleeping-agent.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-activate-button": {
+    "kind": "vector",
+    "query": "a big green power button being pressed by a finger, no text",
+    "file": "assets/icons/es-activate-button.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-press-cameras": {
+    "kind": "vector",
+    "query": "a cluster of press cameras with bright flashes pointing at one place, no text",
+    "file": "assets/icons/es-press-cameras.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-four-prisoners": {
+    "kind": "vector",
+    "query": "four small silhouettes of people standing behind a barred window, no text",
+    "file": "assets/icons/es-four-prisoners.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-bowtie": {
+    "kind": "vector",
+    "query": "a black tuxedo bow tie, no text",
+    "file": "assets/icons/es-bowtie.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-bond-tux": {
+    "kind": "vector",
+    "query": "a suave cartoon man in a black tuxedo with a bow tie and a gadget watch, no text",
+    "file": "assets/icons/es-bond-tux.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-no-rocket-car": {
+    "kind": "vector",
+    "query": "a cartoon sports car with tiny rockets on its roof inside a big red crossed-out circle, no text",
+    "file": "assets/icons/es-no-rocket-car.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-crowd-secret": {
+    "kind": "vector",
+    "query": "a large group of cartoon people in 1940s clothes working at desks with a finger on their lips, no text",
+    "file": "assets/icons/es-crowd-secret.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-decipher": {
+    "kind": "vector",
+    "query": "a magnifying glass over a message of jumbled letters turning into clear letters, no text",
+    "file": "assets/icons/es-decipher.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-codebook": {
+    "kind": "vector",
+    "query": "a closed code book with a golden key lying on top, no text",
+    "file": "assets/icons/es-codebook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-cut-calendar": {
+    "kind": "vector",
+    "query": "a wall calendar with a big piece being cut off by scissors, no numbers, no text",
+    "file": "assets/icons/es-cut-calendar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-two-times": {
+    "kind": "vector",
+    "query": "two cartoon men arriving at a hiding spot at different times with a clock between them, no text",
+    "file": "assets/icons/es-two-times.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-microdot": {
+    "kind": "vector",
+    "query": "a tiny dot on a paper with a magnifying glass showing a small photo inside it, no text",
+    "file": "assets/icons/es-microdot.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-cipher-wheel": {
+    "kind": "vector",
+    "query": "a round cipher disk with two rings of symbols, no text",
+    "file": "assets/icons/es-cipher-wheel.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-then-now": {
+    "kind": "vector",
+    "query": "a vintage leather briefcase on the left and a modern laptop on the right with an arrow between, no text",
+    "file": "assets/icons/es-then-now.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-steal-doc": {
+    "kind": "vector",
+    "query": "a hand grabbing a paper document, no text",
+    "file": "assets/icons/es-steal-doc.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-cables": {
+    "kind": "vector",
+    "query": "a bundle of colorful network cables, no text",
+    "file": "assets/icons/es-cables.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-human-heart": {
+    "kind": "vector",
+    "query": "a big red heart with a simple human face silhouette inside, no text",
+    "file": "assets/icons/es-human-heart.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-one-person": {
+    "kind": "vector",
+    "query": "a single cartoon person silhouette glowing in the center of a spotlight, no text",
+    "file": "assets/icons/es-one-person.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-ambition": {
+    "kind": "vector",
+    "query": "a cartoon person climbing a ladder toward a golden star, no text",
+    "file": "assets/icons/es-ambition.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "es-mistake": {
+    "kind": "vector",
+    "query": "a pencil eraser with scribbled out crossed marks on paper, errors, no text",
+    "file": "assets/icons/es-mistake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-matahari": {
+    "kind": "cutout",
+    "query": "Mata Hari",
+    "wiki": "Mata Hari",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Mata Hari",
+      "description": "Dutch exotic dancer (1876–1917)"
+    },
+    "file": "assets/icons/photo-matahari.jpg"
+  },
+  "photo-pujol": {
+    "kind": "cutout",
+    "query": "Juan Pujol García",
+    "wiki": "Juan Pujol García",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Joan Pujol",
+      "description": "espía español"
+    },
+    "file": "assets/icons/photo-pujol.jpg"
+  },
+  "photo-hall": {
+    "kind": "cutout",
+    "query": "Virginia Hall",
+    "wiki": "Virginia Hall",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Virginia Hall",
+      "description": "American SOE spy"
+    },
+    "file": "assets/icons/photo-hall.jpg"
+  },
+  "photo-noor": {
+    "kind": "cutout",
+    "query": "Noor Inayat Khan",
+    "wiki": "Noor Inayat Khan",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Noor Inayat Khan",
+      "description": "operador de radio encubierto aliado durante la Segunda Guerra Mundial"
+    },
+    "file": "assets/icons/photo-noor.jpg"
+  },
+  "photo-sorge": {
+    "kind": "cutout",
+    "query": "Richard Sorge",
+    "wiki": "Richard Sorge",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Richard Sorge",
+      "description": "espía soviético"
+    },
+    "file": "assets/icons/photo-sorge.jpg"
+  },
+  "photo-fuchs": {
+    "kind": "cutout",
+    "query": "Klaus Fuchs",
+    "wiki": "Klaus Fuchs",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Klaus Fuchs",
+      "description": "físico teórico y espía atómico alemán"
+    },
+    "file": "assets/icons/photo-fuchs.jpg"
+  },
+  "photo-philby": {
+    "kind": "cutout",
+    "query": "Kim Philby",
+    "wiki": "Kim Philby",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Kim Philby",
+      "description": "espía británico (1912-1988)"
+    },
+    "file": "assets/icons/photo-philby.jpg"
+  },
+  "photo-fleming": {
+    "kind": "cutout",
+    "query": "Ian Fleming",
+    "wiki": "Ian Fleming",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Ian Fleming",
+      "description": "escritor, periodista y oficial de inteligencia naval inglés"
+    },
+    "file": "assets/icons/photo-fleming.jpg"
+  },
+  "photo-eiffel": {
+    "kind": "cutout",
+    "query": "Torre Eiffel",
+    "wiki": "Torre Eiffel",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Torre Eiffel",
+      "description": "monumento en París, Francia"
+    },
+    "file": "assets/icons/photo-eiffel.jpg"
+  },
+  "photo-lisboa": {
+    "kind": "cutout",
+    "query": "Lisboa",
+    "wiki": "Lisboa",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Lisboa",
+      "description": "capital de Portugal"
+    },
+    "file": "assets/icons/photo-lisboa.jpg"
+  },
+  "photo-pirineos": {
+    "kind": "cutout",
+    "query": "Pirineos",
+    "wiki": "Pirineos",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Pirineos",
+      "description": "cadena montañosa en Europa Occidental"
+    },
+    "file": "assets/icons/photo-pirineos.jpg"
+  },
+  "photo-overlord": {
+    "kind": "cutout",
+    "query": "Operation Overlord",
+    "wiki": "Operation Overlord",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Operation Overlord",
+      "description": "World War II operation in France"
+    },
+    "file": "assets/icons/photo-overlord.jpg"
+  },
+  "photo-radiotel": {
+    "kind": "cutout",
+    "query": "Radiotelegrafía",
+    "wiki": "Radiotelegrafía",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Telegrafía sin hilos",
+      "description": "medio de comunicación"
+    },
+    "file": "assets/icons/photo-radiotel.jpg"
+  },
+  "photo-telegrafo": {
+    "kind": "cutout",
+    "query": "Telégrafo",
+    "wiki": "Telégrafo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Telégrafo",
+      "description": "aparato que usa señales eléctricas para mandar mensajes"
+    },
+    "file": "assets/icons/photo-telegrafo.jpg"
+  },
+  "photo-tokio": {
+    "kind": "cutout",
+    "query": "Tokio",
+    "wiki": "Tokio",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Tokio",
+      "description": "capital y ciudad más grande de Japón"
+    },
+    "file": "assets/icons/photo-tokio.jpg"
+  },
+  "photo-trinity": {
+    "kind": "cutout",
+    "query": "Proyecto Manhattan",
+    "wiki": "Proyecto Manhattan",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Proyecto Manhattan",
+      "description": "proyecto de desarrollo núclear liderado por Estados Unidos durante la Segunda Guerra Mundial"
+    },
+    "file": "assets/icons/photo-trinity.jpg"
+  },
+  "photo-kings": {
+    "kind": "cutout",
+    "query": "King's College (Cambridge)",
+    "wiki": "King's College (Cambridge)",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:King's College (Cambridge)",
+      "description": "college de la Universidad de Cambridge"
+    },
+    "file": "assets/icons/photo-kings.jpg"
+  },
+  "photo-sis": {
+    "kind": "cutout",
+    "query": "Servicio de Inteligencia Secreto",
+    "wiki": "Servicio de Inteligencia Secreto",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:MI6",
+      "description": "agencia de inteligencia exterior del Reino Unido"
+    },
+    "file": "assets/icons/photo-sis.jpg"
+  },
+  "photo-fbi": {
+    "kind": "cutout",
+    "query": "Oficina Federal de Investigación",
+    "wiki": "Oficina Federal de Investigación",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:FBI",
+      "description": "agencia gubernamental perteneciente al Departamento de Justicia de los Estados Unidos"
+    },
+    "file": "assets/icons/photo-fbi.jpg"
+  },
+  "photo-viena-airport": {
+    "kind": "cutout",
+    "query": "Vienna International Airport",
+    "wiki": "Vienna International Airport",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Vienna International Airport",
+      "description": "Airport in Schwechat, Austria"
+    },
+    "file": "assets/icons/photo-viena-airport.jpg"
+  },
+  "photo-glienicke": {
+    "kind": "cutout",
+    "query": "Puente de Glienicke",
+    "wiki": "Puente de Glienicke",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Puente Glienicke",
+      "description": ""
+    },
+    "file": "assets/icons/photo-glienicke.jpg"
+  },
+  "photo-bletchley": {
+    "kind": "cutout",
+    "query": "Bletchley Park",
+    "wiki": "Bletchley Park",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Bletchley Park",
+      "description": "oficina del MI6 para descifrar mensajes durante la Segunda Guerra Mundial"
+    },
+    "file": "assets/icons/photo-bletchley.jpg"
+  },
+  "photo-enigma": {
+    "kind": "cutout",
+    "query": "Enigma machine",
+    "wiki": "Enigma machine",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Enigma machine",
+      "description": "German cipher machine during World War II"
+    },
+    "file": "assets/icons/photo-enigma.jpg"
+  },
+  "photo-deaddrop": {
+    "kind": "cutout",
+    "query": "Dead drop",
+    "wiki": "Dead drop",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Dead drop",
+      "description": "Method of espionage tradecraft"
+    },
+    "file": "assets/icons/photo-deaddrop.jpg"
+  },
+  "photo-maletin": {
+    "kind": "cutout",
+    "query": "Maletín",
+    "wiki": "Maletín",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Maletín",
+      "description": "bolsa o estuche estrecho y rígido con forma de caja que se utiliza para equipar materiales"
+    },
+    "file": "assets/icons/photo-maletin.jpg"
+  },
+  "photo-movil": {
+    "kind": "cutout",
+    "query": "Teléfono móvil",
+    "wiki": "Teléfono móvil",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Teléfono móvil",
+      "description": "dispositivo portátil para acceder y utilizar los servicios de la red de telefonía"
+    },
+    "file": "assets/icons/photo-movil.jpg"
+  },
+  "photo-prision": {
+    "kind": "cutout",
+    "query": "Prisión",
+    "wiki": "Prisión",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Prisión",
+      "description": "institución que aloja legalmente personas que son privadas de la libertad"
+    },
+    "file": "assets/icons/photo-prision.jpg"
+  },
+  "photo-reloj": {
+    "kind": "cutout",
+    "query": "Reloj",
+    "wiki": "Reloj",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Reloj",
+      "description": "instrumento para medir el tiempo natural"
+    },
+    "file": "assets/icons/photo-reloj.jpg"
+  },
+  "photo-atomica": {
+    "kind": "cutout",
+    "query": "Bomba atómica",
+    "wiki": "Bomba atómica",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Bomba atómica",
+      "description": "arma de fision de tipo balístico"
+    },
+    "file": "assets/icons/photo-atomica.jpg"
+  },
+  "photo-vigilancia": {
+    "kind": "cutout",
+    "query": "Cámara de vigilancia",
+    "wiki": "Cámara de vigilancia",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Circuito cerrado de televisión",
+      "description": "uso de cámaras de video para transmitir una señal a un lugar específico en un conjunto limitado de monitores"
+    },
+    "file": "assets/icons/photo-vigilancia.jpg"
+  },
+  "clip-handshake": {
+    "kind": "clip",
+    "query": "business handshake close up",
+    "file": "assets/clips/clip-handshake.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kampus Production",
+      "url": "https://www.pexels.com/video/group-of-people-shaking-hands-8170593/"
+    }
+  },
+  "clip-laptop": {
+    "kind": "clip",
+    "query": "woman typing on laptop",
+    "file": "assets/clips/clip-laptop.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Monstera Production",
+      "url": "https://www.pexels.com/video/woman-typing-on-the-laptop-5385839/"
+    }
+  },
+  "clip-film": {
+    "kind": "clip",
+    "query": "vintage film projector reel",
+    "file": "assets/clips/clip-film.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pixabay",
+      "url": "https://www.pexels.com/video/mechanism-of-a-projector-856593/"
+    }
+  },
+  "clip-meeting-work": {
+    "kind": "clip",
+    "query": "business meeting office table presentation",
+    "file": "assets/clips/clip-meeting-work.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Vlada Karpovich",
+      "url": "https://www.pexels.com/video/business-people-talking-in-the-conference-room-7552430/"
+    }
+  },
+  "clip-old-books": {
+    "kind": "clip",
+    "query": "old books library shelves dusty",
+    "file": "assets/clips/clip-old-books.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pavel Danilyuk",
+      "url": "https://www.pexels.com/video/stacks-of-books-in-a-shelf-5224014/"
+    }
+  },
+  "clip-airplane": {
+    "kind": "clip",
+    "query": "airplane wing above clouds",
+    "file": "assets/clips/clip-airplane.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Altaf Shah",
+      "url": "https://www.pexels.com/video/aerial-view-of-plane-wing-above-clouds-30512228/"
+    }
+  },
+  "clip-phone-call": {
+    "kind": "clip",
+    "query": "person talking on phone sitting near window",
+    "file": "assets/clips/clip-phone-call.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "SHVETS production",
+      "url": "https://www.pexels.com/video/a-happy-man-talking-on-the-phone-by-a-window-9057685/"
+    }
+  },
+  "clip-hourglass": {
+    "kind": "clip",
+    "query": "hourglass sand time close up",
+    "file": "assets/clips/clip-hourglass.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Samer Daboul",
+      "url": "https://www.pexels.com/video/sand-inside-an-hourglass-1188938/"
+    }
+  },
+  "clip-magnifier": {
+    "kind": "clip",
+    "query": "magnifying glass detective close up",
+    "file": "assets/clips/clip-magnifier.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "KoolShooters",
+      "url": "https://www.pexels.com/video/man-reading-letter-with-magnifying-glass-6979933/"
+    }
+  },
+  "clip-house-front": {
+    "kind": "clip",
+    "query": "suburban house exterior daytime",
+    "file": "assets/clips/clip-house-front.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "George Morina",
+      "url": "https://www.pexels.com/video/cars-road-houses-people-5222543/"
+    }
+  },
+  "clip-elderly": {
+    "kind": "clip",
+    "query": "elderly couple walking in park daytime",
+    "file": "assets/clips/clip-elderly.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "SHVETS production",
+      "url": "https://www.pexels.com/video/an-elderly-couple-walking-at-the-park-8970851/"
+    }
+  },
+  "clip-skyscrapers": {
+    "kind": "clip",
+    "query": "glass skyscrapers looking up daytime",
+    "file": "assets/clips/clip-skyscrapers.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Cá Bảo",
+      "url": "https://www.pexels.com/video/skyscraper-view-against-cloudy-sky-39969483/"
+    }
+  },
+  "clip-lock-door": {
+    "kind": "clip",
+    "query": "locking front door with key close up",
+    "file": "assets/clips/clip-lock-door.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/a-person-sticking-a-key-in-a-doorknob-8292925/"
+    }
+  },
+  "clip-crowd-day": {
+    "kind": "clip",
+    "query": "crowd walking daytime street",
+    "file": "assets/clips/clip-crowd-day.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Coverr",
+      "url": "https://www.pexels.com/video/black-and-white-video-of-a-busy-street-853946/"
+    }
+  },
+  "clip-windmill": {
+    "kind": "clip",
+    "query": "dutch windmill tulip field daytime",
+    "file": "assets/clips/clip-windmill.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Saman Ragalage",
+      "url": "https://www.pexels.com/video/aerial-view-of-keukenhof-gardens-in-spring-37851130/"
+    }
+  },
+  "clip-barcelona": {
+    "kind": "clip",
+    "query": "barcelona city aerial daytime",
+    "file": "assets/clips/clip-barcelona.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Lazar Krstić",
+      "url": "https://www.pexels.com/video/aerial-view-of-promenade-along-sandy-beach-in-barcelona-10801861/"
+    }
+  },
+  "clip-london": {
+    "kind": "clip",
+    "query": "london tower bridge big ben daytime",
+    "file": "assets/clips/clip-london.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Martyn Day",
+      "url": "https://www.pexels.com/video/the-big-ben-clock-tower-and-houses-of-parliament-in-london-27777771/"
+    }
+  },
+  "clip-newspaper": {
+    "kind": "clip",
+    "query": "reading newspaper close up daytime",
+    "file": "assets/clips/clip-newspaper.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "T Leish",
+      "url": "https://www.pexels.com/video/a-person-answering-sudoku-6975456/"
+    }
+  },
+  "clip-old-map": {
+    "kind": "clip",
+    "query": "hands pointing at old paper map on table",
+    "file": "assets/clips/clip-old-map.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Athena Sandrini",
+      "url": "https://www.pexels.com/video/a-person-discussing-details-using-a-map-3010206/"
+    }
+  },
+  "clip-camera-photo": {
+    "kind": "clip",
+    "query": "photographer taking photo with vintage film camera close up",
+    "file": "assets/clips/clip-camera-photo.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "https://kaboompics.com/",
+      "url": "https://www.pexels.com/video/person-holding-a-camera-6658611/"
+    }
+  },
+  "clip-hike-snow": {
+    "kind": "clip",
+    "query": "hikers walking snowy mountains daytime",
+    "file": "assets/clips/clip-hike-snow.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Giuseppe Paoletti",
+      "url": "https://www.pexels.com/video/aerial-view-of-hikers-trekking-on-snowy-mountain-ridge-35793378/"
+    }
+  },
+  "clip-train": {
+    "kind": "clip",
+    "query": "freight train moving daytime",
+    "file": "assets/clips/clip-train.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "FÁBIO REIS DE ABREU (PORTUGA)",
+      "url": "https://www.pexels.com/video/cargo-train-on-railway-13372530/"
+    }
+  },
+  "clip-handcuffs": {
+    "kind": "clip",
+    "query": "handcuffs close up on table",
+    "file": "assets/clips/clip-handcuffs.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kindel Media",
+      "url": "https://www.pexels.com/video/close-up-of-male-hands-in-handcuffs-7773340/"
+    }
+  },
+  "clip-money-stack": {
+    "kind": "clip",
+    "query": "stack of dollar bills close up",
+    "file": "assets/clips/clip-money-stack.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tima Miroshnichenko",
+      "url": "https://www.pexels.com/video/pile-of-money-6266286/"
+    }
+  },
+  "clip-luxury-car": {
+    "kind": "clip",
+    "query": "red luxury sports car driving daytime",
+    "file": "assets/clips/clip-luxury-car.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "dp singh Bhullar",
+      "url": "https://www.pexels.com/video/luxury-red-sports-car-in-sunlit-driveway-30763731/"
+    }
+  },
+  "clip-mansion": {
+    "kind": "clip",
+    "query": "luxury mansion house with pool aerial daytime",
+    "file": "assets/clips/clip-mansion.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Riccardo Zerbinati",
+      "url": "https://www.pexels.com/video/an-aerial-view-of-a-mansion-in-the-middle-of-the-ocean-17736685/"
+    }
+  },
+  "clip-binoculars": {
+    "kind": "clip",
+    "query": "man looking through binoculars outdoors daytime",
+    "file": "assets/clips/clip-binoculars.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Gustavo Fring",
+      "url": "https://www.pexels.com/video/man-using-binoculars-5450058/"
+    }
+  },
+  "clip-mailbox": {
+    "kind": "clip",
+    "query": "dropping a letter into red mailbox",
+    "file": "assets/clips/clip-mailbox.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/girl-putting-letter-into-mailbox-6212418/"
+    }
+  },
+  "clip-letter-write": {
+    "kind": "clip",
+    "query": "writing a letter with fountain pen close up",
+    "file": "assets/clips/clip-letter-write.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Coverr",
+      "url": "https://www.pexels.com/video/handwriting-854192/"
+    }
+  },
+  "es-onion-domes": {
+    "kind": "vector",
+    "query": "a plain huge northern country map silhouette in neutral green, no text, no flag",
+    "file": "assets/icons/es-onion-domes.png",
+    "normalized": true,
+    "gpt": true
+  }
+}
