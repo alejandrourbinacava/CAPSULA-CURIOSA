@@ -8,9 +8,15 @@ on:
         type: boolean
         default: true
       episodio:
-        description: "OPCIONAL: carpeta del episodio a renderizar (ej. episodes/028-cada-pandemia-de-la-historia). Vacío = el de episodes/active.txt. Permite lanzar VARIOS renders a la vez."
-        type: string
-        default: ""
+        description: "EPISODIO a renderizar (elige uno de la lista). 'activo' = el de episodes/active.txt. Permite lanzar VARIOS renders a la vez."
+        type: choice
+        default: "activo"
+        options:
+          - "activo"
+          - "episodes/028-cada-pandemia-de-la-historia"
+          - "episodes/029-cada-accidente-nuclear-explicado"
+          - "episodes/030-cada-espia-famoso-explicado"
+          - "episodes/031-cada-teoria-origen-del-universo"
   # (schedule diario retirado a petición del usuario: los vídeos se lanzan a mano)
 
 permissions:
@@ -69,7 +75,7 @@ jobs:
         id: ep
         run: |
           EP="${{ inputs.episodio }}"
-          [ -z "$EP" ] && EP=$(cat episodes/active.txt)
+          { [ -z "$EP" ] || [ "$EP" = "activo" ]; } && EP=$(cat episodes/active.txt)
           EP="${EP%/}"
           [ -d "$EP" ] || { echo "No existe la carpeta $EP"; exit 1; }
           echo "Episodio: $EP"
