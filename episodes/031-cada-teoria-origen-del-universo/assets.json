@@ -1,0 +1,1326 @@
+{
+  "lb-billionstars": {
+    "kind": "vector",
+    "query": "a sky full of billions of stars and galaxies",
+    "file": "assets/icons/lb-billionstars.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ancientastro": {
+    "kind": "vector",
+    "query": "an ancient astronomer looking at stars and the sky",
+    "file": "assets/icons/lb-ancientastro.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-magnifier": {
+    "kind": "vector",
+    "query": "a magnifying glass with a green check mark, verifying something",
+    "file": "assets/icons/lb-magnifier.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-creatinghand": {
+    "kind": "vector",
+    "query": "a glowing hand creating a new planet and stars out of light sparks",
+    "file": "assets/icons/lb-creatinghand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ancientscroll": {
+    "kind": "vector",
+    "query": "ancient scroll",
+    "file": "assets/icons/lb-ancientscroll.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-curious": {
+    "kind": "vector",
+    "query": "a curious surprised face with wide eyes",
+    "file": "assets/icons/lb-curious.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-emptyq": {
+    "kind": "vector",
+    "query": "a big question mark over an empty silent universe",
+    "file": "assets/icons/lb-emptyq.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulb": {
+    "kind": "vector",
+    "query": "a classic glowing incandescent light bulb",
+    "file": "assets/icons/lb-bulb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-hourglassgalaxy": {
+    "kind": "vector",
+    "query": "an ancient hourglass with a galaxy inside",
+    "file": "assets/icons/lb-hourglassgalaxy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-infinity": {
+    "kind": "vector",
+    "query": "an infinity symbol drawn as a never-ending loop of digits",
+    "file": "assets/icons/lb-infinity.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-professor": {
+    "kind": "vector",
+    "query": "a friendly professor with glasses holding a book",
+    "file": "assets/icons/lb-professor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-greencheck": {
+    "kind": "vector",
+    "query": "green check mark",
+    "file": "assets/icons/lb-greencheck.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-oldcalendar": {
+    "kind": "vector",
+    "query": "an old clock with many calendar pages flying away",
+    "file": "assets/icons/lb-oldcalendar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-lightbeam": {
+    "kind": "vector",
+    "query": "a beam of light rays shining",
+    "file": "assets/icons/lb-lightbeam.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-clocklong": {
+    "kind": "vector",
+    "query": "a big clock with a long winding trail behind it, lasting for a long time, no text",
+    "file": "assets/icons/lb-clocklong.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-earth": {
+    "kind": "vector",
+    "query": "planet Earth globe with clouds",
+    "file": "assets/icons/lb-earth.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-globepeople": {
+    "kind": "vector",
+    "query": "a friendly globe of the Earth surrounded by a ring of eight tiny people, simple cartoon, no text",
+    "file": "assets/icons/lb-globepeople.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calendar": {
+    "kind": "vector",
+    "query": "a wall calendar showing a year",
+    "file": "assets/icons/lb-calendar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bigbang": {
+    "kind": "vector",
+    "query": "the Big Bang, a bright explosion at the birth of the universe",
+    "file": "assets/icons/lb-bigbang.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calflip": {
+    "kind": "vector",
+    "query": "a wall calendar with many pages flying off, many years passing, no numbers",
+    "file": "assets/icons/lb-calflip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-thermometer": {
+    "kind": "vector",
+    "query": "a classic red thermometer with a rising red level and small wavy heat lines, no text",
+    "file": "assets/icons/lb-thermometer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-atom": {
+    "kind": "vector",
+    "query": "a single tiny atom with orbiting electrons",
+    "file": "assets/icons/lb-atom.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-radiodish": {
+    "kind": "vector",
+    "query": "a radio antenna dish receiving colorful signal waves",
+    "file": "assets/icons/lb-radiodish.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-trophy": {
+    "kind": "vector",
+    "query": "a gold winner trophy",
+    "file": "assets/icons/lb-trophy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-stopwatch": {
+    "kind": "vector",
+    "query": "a classic stopwatch timer",
+    "file": "assets/icons/lb-stopwatch.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-headthink": {
+    "kind": "vector",
+    "query": "a cartoon head with a big thought bubble full of colorful question marks and arrows, no text",
+    "file": "assets/icons/lb-headthink.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-fastlightning": {
+    "kind": "vector",
+    "query": "a fast yellow lightning bolt, extreme speed",
+    "file": "assets/icons/lb-fastlightning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-eyecross": {
+    "kind": "vector",
+    "query": "an open eye crossed out with a red line",
+    "file": "assets/icons/lb-eyecross.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-warning": {
+    "kind": "vector",
+    "query": "a yellow warning triangle with an exclamation mark",
+    "file": "assets/icons/lb-warning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-stareyes": {
+    "kind": "vector",
+    "query": "a happy dreaming face with sparkling stars in its eyes, hope and excitement",
+    "file": "assets/icons/lb-stareyes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-startled": {
+    "kind": "vector",
+    "query": "a cartoon person jumping up in surprise with exclamation lines, startled, no text",
+    "file": "assets/icons/lb-startled.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-brake": {
+    "kind": "vector",
+    "query": "a hand pulling a big brake lever, no text",
+    "file": "assets/icons/lb-brake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-endless": {
+    "kind": "vector",
+    "query": "an arrow growing upward endlessly past the top of the chart",
+    "file": "assets/icons/lb-endless.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-fog": {
+    "kind": "vector",
+    "query": "a mysterious gray fog with a question mark",
+    "file": "assets/icons/lb-fog.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulbq": {
+    "kind": "vector",
+    "query": "a lightbulb with a small question mark and a green check",
+    "file": "assets/icons/lb-bulbq.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-chalkscientist": {
+    "kind": "vector",
+    "query": "a scientist pointing at a chalkboard full of equations",
+    "file": "assets/icons/lb-chalkscientist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-philosopher": {
+    "kind": "vector",
+    "query": "an ancient greek philosopher like plato, wise",
+    "file": "assets/icons/lb-philosopher.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bigq": {
+    "kind": "vector",
+    "query": "a big question mark, doubt",
+    "file": "assets/icons/lb-bigq.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-pi": {
+    "kind": "vector",
+    "query": "a big golden pi symbol with floating digits",
+    "file": "assets/icons/lb-pi.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-mysterybox": {
+    "kind": "vector",
+    "query": "a mysterious closed black box with a glowing question mark",
+    "file": "assets/icons/lb-mysterybox.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-darkmatter": {
+    "kind": "vector",
+    "query": "invisible dark matter holding galaxies together, ghostly web",
+    "file": "assets/icons/lb-darkmatter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-soapuniverses": {
+    "kind": "vector",
+    "query": "many soap-bubble universes floating, each containing a tiny galaxy, a hand reaching to hold them",
+    "file": "assets/icons/lb-soapuniverses.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-coldthermo": {
+    "kind": "vector",
+    "query": "a thermometer with the red level very low and snowflakes",
+    "file": "assets/icons/lb-coldthermo.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-blurq": {
+    "kind": "vector",
+    "query": "a blurry fuzzy shape with a question mark above it",
+    "file": "assets/icons/lb-blurq.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-signpost": {
+    "kind": "vector",
+    "query": "a signpost with two arrows pointing in different directions",
+    "file": "assets/icons/lb-signpost.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-void": {
+    "kind": "vector",
+    "query": "a vast empty dark space void with only a tiny faraway star",
+    "file": "assets/icons/lb-void.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-meltclock": {
+    "kind": "vector",
+    "query": "a melting clock with time slowing down",
+    "file": "assets/icons/lb-meltclock.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-greendoor": {
+    "kind": "vector",
+    "query": "a green door opening with warm light, a way forward",
+    "file": "assets/icons/lb-greendoor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-many-theories": {
+    "kind": "vector",
+    "query": "five different colorful light bulbs in a row, each with a different glowing shape inside, no text",
+    "file": "assets/icons/un-many-theories.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-evidence-board": {
+    "kind": "vector",
+    "query": "a cork board with photos pinned and connected by red string, evidence, no text",
+    "file": "assets/icons/un-evidence-board.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-gods-hands": {
+    "kind": "vector",
+    "query": "two giant gentle cartoon hands coming out of fluffy clouds holding a small glowing sphere, no text",
+    "file": "assets/icons/un-gods-hands.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-magic-hat": {
+    "kind": "vector",
+    "query": "a magician top hat with sparkles and a wand, a clever trick, no text",
+    "file": "assets/icons/un-magic-hat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-time-machine": {
+    "kind": "vector",
+    "query": "a retro time machine capsule with a clock face and swirling arrows, no text",
+    "file": "assets/icons/un-time-machine.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-dark-ocean": {
+    "kind": "vector",
+    "query": "a vast dark infinite ocean at night with faint ripples, no text",
+    "file": "assets/icons/un-dark-ocean.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-chaos": {
+    "kind": "vector",
+    "query": "a swirling cloud of colorful chaos with a small ancient Greek column, no text",
+    "file": "assets/icons/un-chaos.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-sky": {
+    "kind": "vector",
+    "query": "a blue sky with fluffy white clouds and a golden sun, no text",
+    "file": "assets/icons/un-sky.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-bigbang-burst": {
+    "kind": "vector",
+    "query": "a huge bright burst of colorful light exploding outward from a single point with sparkles, no text",
+    "file": "assets/icons/un-bigbang-burst.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-tiny-dot": {
+    "kind": "vector",
+    "query": "a tiny glowing dot of light in the middle of an empty white page, super dense, no text",
+    "file": "assets/icons/un-tiny-dot.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-expanding": {
+    "kind": "vector",
+    "query": "a small glowing dot with big arrows pointing outward in all directions, expanding, no text",
+    "file": "assets/icons/un-expanding.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-not-explosion": {
+    "kind": "vector",
+    "query": "a red crossed-out explosion burst symbol in empty space, no text",
+    "file": "assets/icons/un-not-explosion.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-space-grows": {
+    "kind": "vector",
+    "query": "a grid of graph paper squares stretching and growing bigger with arrows, no text",
+    "file": "assets/icons/un-space-grows.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-dots-apart": {
+    "kind": "vector",
+    "query": "several small dots moving away from each other with arrows, no text",
+    "file": "assets/icons/un-dots-apart.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-old-telescope": {
+    "kind": "vector",
+    "query": "an old brass telescope on a wooden tripod, no text",
+    "file": "assets/icons/un-old-telescope.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-priest": {
+    "kind": "vector",
+    "query": "a friendly cartoon priest in black robe with a white collar reading a book under the stars, no text",
+    "file": "assets/icons/un-priest.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-farther-faster": {
+    "kind": "vector",
+    "query": "two small galaxies moving away, the farther one with longer speed lines, no text",
+    "file": "assets/icons/un-farther-faster.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-two-engineers": {
+    "kind": "vector",
+    "query": "two friendly cartoon engineers in hard hats looking up together, no text",
+    "file": "assets/icons/un-two-engineers.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-noise": {
+    "kind": "vector",
+    "query": "a gray noisy scribble cloud with a loudspeaker, annoying noise, no text",
+    "file": "assets/icons/un-noise.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-atoms-question": {
+    "kind": "vector",
+    "query": "a handful of tiny colorful balls, atoms, with a question mark above, no text",
+    "file": "assets/icons/un-atoms-question.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-nuclei": {
+    "kind": "vector",
+    "query": "a few tiny glowing atom nuclei clusters forming out of hot sparks, no text",
+    "file": "assets/icons/un-nuclei.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-hydrogen": {
+    "kind": "vector",
+    "query": "a simple hydrogen atom with one proton and one electron, no text",
+    "file": "assets/icons/un-hydrogen.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-where-pin": {
+    "kind": "vector",
+    "query": "a big red map pin with a question mark above on a blank page, no text",
+    "file": "assets/icons/un-where-pin.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-one-pin-crossed": {
+    "kind": "vector",
+    "query": "a single red map pin crossed out with a red X on a blank map, no text",
+    "file": "assets/icons/un-one-pin-crossed.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-pins-everywhere": {
+    "kind": "vector",
+    "query": "a whole map covered with many small red map pins everywhere, no text",
+    "file": "assets/icons/un-pins-everywhere.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-pick-point": {
+    "kind": "vector",
+    "query": "a hand pointing a finger at a random spot on a blank space, no text",
+    "file": "assets/icons/un-pick-point.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-you-are-here": {
+    "kind": "vector",
+    "query": "a cartoon person standing on a small marker spot with a you-are-here pin, no text",
+    "file": "assets/icons/un-you-are-here.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-no-center": {
+    "kind": "vector",
+    "query": "a circle target with a red crossed-out center dot, no text",
+    "file": "assets/icons/un-no-center.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-diameter": {
+    "kind": "vector",
+    "query": "a glowing sphere with a long double-headed arrow across its width, diameter, no text",
+    "file": "assets/icons/un-diameter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-stretch-road": {
+    "kind": "vector",
+    "query": "a long road stretching longer like elastic while a small yellow light ball travels on it, no text",
+    "file": "assets/icons/un-stretch-road.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-frontier": {
+    "kind": "vector",
+    "query": "a dashed circle boundary line around a glowing bubble with a mysterious cloud beyond, no text",
+    "file": "assets/icons/un-frontier.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-steady-universe": {
+    "kind": "vector",
+    "query": "a calm unchanging night sky with evenly spread glowing dots, steady, no text",
+    "file": "assets/icons/un-steady-universe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-rival-gloves": {
+    "kind": "vector",
+    "query": "two cartoon boxing gloves facing each other, one red and one blue, rivalry, no text",
+    "file": "assets/icons/un-rival-gloves.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-three-scientists": {
+    "kind": "vector",
+    "query": "three cartoon scientists in lab coats standing side by side, no text",
+    "file": "assets/icons/un-three-scientists.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-new-matter": {
+    "kind": "vector",
+    "query": "tiny glowing particles popping into existence in the gaps between stars, sparkles, no text",
+    "file": "assets/icons/un-new-matter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-unchanged-sky": {
+    "kind": "vector",
+    "query": "two side by side panels of a night sky that look exactly the same, no text",
+    "file": "assets/icons/un-unchanged-sky.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-radio-mic": {
+    "kind": "vector",
+    "query": "a vintage microphone in front of an old radio set with sound waves, no text",
+    "file": "assets/icons/un-radio-mic.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-wink": {
+    "kind": "vector",
+    "query": "a cartoon face winking with a tiny joke bubble, no text",
+    "file": "assets/icons/un-wink.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-name-tag": {
+    "kind": "vector",
+    "query": "a name tag sticker stuck permanently on a box, no text",
+    "file": "assets/icons/un-name-tag.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-crumpled": {
+    "kind": "vector",
+    "query": "a crumpled paper ball being tossed into a trash bin, no text",
+    "file": "assets/icons/un-crumpled.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-uniform": {
+    "kind": "vector",
+    "query": "a perfectly smooth evenly colored sphere with a gentle gradient, no text",
+    "file": "assets/icons/un-uniform.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-inflation-icon": {
+    "kind": "vector",
+    "query": "a small glowing sphere rapidly swelling into a huge sphere with big expanding arrows, no text",
+    "file": "assets/icons/un-inflation-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-pump-universe": {
+    "kind": "vector",
+    "query": "a bicycle pump inflating a glowing planet-sized balloon, no text",
+    "file": "assets/icons/un-pump-universe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-giant-leap": {
+    "kind": "vector",
+    "query": "a tiny glowing ball leaping hugely bigger in one big jump with a burst of speed lines, no text",
+    "file": "assets/icons/un-giant-leap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-flat-universe": {
+    "kind": "vector",
+    "query": "a perfectly flat green plane sheet seen in perspective, flat, no text",
+    "file": "assets/icons/un-flat-universe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-ripples": {
+    "kind": "vector",
+    "query": "a slightly wavy bumpy surface with tiny ripples, no text",
+    "file": "assets/icons/un-ripples.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-seeds-galaxies": {
+    "kind": "vector",
+    "query": "small seeds sprouting into little spiral galaxies, no text",
+    "file": "assets/icons/un-seeds-galaxies.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-cannot-test": {
+    "kind": "vector",
+    "query": "a magnifying glass with a big red X, cannot verify, no text",
+    "file": "assets/icons/un-cannot-test.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-far-bubble": {
+    "kind": "vector",
+    "query": "a faraway bubble beyond a wide gap out of reach of a tiny hand, no text",
+    "file": "assets/icons/un-far-bubble.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-theory-book": {
+    "kind": "vector",
+    "query": "a thick science textbook with a green check mark, no text",
+    "file": "assets/icons/un-theory-book.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-cycle-universe": {
+    "kind": "vector",
+    "query": "a glowing sphere with a circular arrow around it, endless cycle, no text",
+    "file": "assets/icons/un-cycle-universe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-breathing-universe": {
+    "kind": "vector",
+    "query": "a cute round glowing universe balloon with a happy face breathing in and out, no text",
+    "file": "assets/icons/un-breathing-universe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-shrink": {
+    "kind": "vector",
+    "query": "a big sphere shrinking inward with arrows pointing inward, no text",
+    "file": "assets/icons/un-shrink.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-dark-energy": {
+    "kind": "vector",
+    "query": "a dark purple glowing swirling energy cloud with mysterious sparkles, no text",
+    "file": "assets/icons/un-dark-energy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-push": {
+    "kind": "vector",
+    "query": "a big hand pushing a glowing sphere outward, no text",
+    "file": "assets/icons/un-push.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-tangled-loop": {
+    "kind": "vector",
+    "query": "a simple circle loop arrow with a tangled knot, complicated, no text",
+    "file": "assets/icons/un-tangled-loop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-clockwork": {
+    "kind": "vector",
+    "query": "an elaborate fancy clockwork mechanism of gears and spirals, sophisticated, no text",
+    "file": "assets/icons/un-clockwork.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-smooth-sphere": {
+    "kind": "vector",
+    "query": "a smooth round sphere without any edge or corner, with a tiny ant walking on it, no text",
+    "file": "assets/icons/un-smooth-sphere.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-no-before": {
+    "kind": "vector",
+    "query": "a timeline arrow starting from a blank nothing with a red X before the start, no text",
+    "file": "assets/icons/un-no-before.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-comparison": {
+    "kind": "vector",
+    "query": "two thought bubbles linked by an equals sign, comparison, no text",
+    "file": "assets/icons/un-comparison.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-north-pole": {
+    "kind": "vector",
+    "query": "a globe seen from above with a red flag at the north pole and an arrow pointing further north into blank space, no text",
+    "file": "assets/icons/un-north-pole.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-nonsense": {
+    "kind": "vector",
+    "query": "a question mark inside a red crossed-out circle, meaningless question, no text",
+    "file": "assets/icons/un-nonsense.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-from-nothing": {
+    "kind": "vector",
+    "query": "a glowing little universe sphere popping out of an empty white page with sparkles, no text",
+    "file": "assets/icons/un-from-nothing.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-quantum-physicist": {
+    "kind": "vector",
+    "query": "a friendly physicist with an atom and wave symbols floating around, quantum, no text",
+    "file": "assets/icons/un-quantum-physicist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-jar-sparkles": {
+    "kind": "vector",
+    "query": "an empty glass jar with tiny glowing sparkles appearing inside, no text",
+    "file": "assets/icons/un-jar-sparkles.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-blinking-particles": {
+    "kind": "vector",
+    "query": "tiny glowing particles blinking in and out like fireflies, no text",
+    "file": "assets/icons/un-blinking-particles.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-fluctuation": {
+    "kind": "vector",
+    "query": "a small wiggle spike on a flat line producing a glowing bubble, no text",
+    "file": "assets/icons/un-fluctuation.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-vacuum-laws": {
+    "kind": "vector",
+    "query": "a glass sphere with floating glowing formulas and symbols inside, laws of physics, no text",
+    "file": "assets/icons/un-vacuum-laws.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-membranes": {
+    "kind": "vector",
+    "query": "two big flat translucent sheets floating parallel like slices with a small gap, no text",
+    "file": "assets/icons/un-membranes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-floating-sheet": {
+    "kind": "vector",
+    "query": "a thin glowing sheet floating inside a big transparent box, no text",
+    "file": "assets/icons/un-floating-sheet.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-dimensions": {
+    "kind": "vector",
+    "query": "a 3d cube wireframe with extra colorful axis arrows, no text",
+    "file": "assets/icons/un-dimensions.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-collide": {
+    "kind": "vector",
+    "query": "two flat glowing sheets colliding with a bright flash between them, no text",
+    "file": "assets/icons/un-collide.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-bounce": {
+    "kind": "vector",
+    "query": "two sheets bouncing back and forth with circular repeat arrows, no text",
+    "file": "assets/icons/un-bounce.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-no-proof": {
+    "kind": "vector",
+    "query": "an empty laboratory table with a flask and a red crossed-out check mark, no text",
+    "file": "assets/icons/un-no-proof.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-pie5": {
+    "kind": "vector",
+    "query": "a pie chart with a very thin small slice highlighted in gold and the rest gray, no text",
+    "file": "assets/icons/un-pie5.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-no-light": {
+    "kind": "vector",
+    "query": "a dark unlit light bulb with no glow, no text",
+    "file": "assets/icons/un-no-light.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-solid-bricks": {
+    "kind": "vector",
+    "query": "a solid stack of bricks forming a strong wall, no text",
+    "file": "assets/icons/un-solid-bricks.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-no-fail": {
+    "kind": "vector",
+    "query": "a red crossed-out circle over a broken test tube, no text",
+    "file": "assets/icons/un-no-fail.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-science-engine": {
+    "kind": "vector",
+    "query": "a gear engine with a forward arrow pushing a small rocket, no text",
+    "file": "assets/icons/un-science-engine.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "un-future-scientist": {
+    "kind": "vector",
+    "query": "a young curious scientist with a lightbulb above their head looking at a screen with stars, no text",
+    "file": "assets/icons/un-future-scientist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-universo": {
+    "kind": "cutout",
+    "query": "Universo",
+    "wiki": "Universo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Universo",
+      "description": "la totalidad formada por el espacio, el tiempo, la materia y la energía"
+    },
+    "file": "assets/icons/photo-universo.jpg"
+  },
+  "photo-holmdel": {
+    "kind": "cutout",
+    "query": "Holmdel Horn Antenna",
+    "wiki": "Holmdel Horn Antenna",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Holmdel Horn Antenna",
+      "description": "Microwave horn antenna in New Jersey, US"
+    },
+    "file": "assets/icons/photo-holmdel.jpg"
+  },
+  "photo-cmb": {
+    "kind": "cutout",
+    "query": "Cosmic microwave background",
+    "wiki": "Cosmic microwave background",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Cosmic microwave background",
+      "description": "Trace radiation from the early universe"
+    },
+    "file": "assets/icons/photo-cmb.jpg"
+  },
+  "photo-webb": {
+    "kind": "cutout",
+    "query": "Telescopio espacial James Webb",
+    "wiki": "Telescopio espacial James Webb",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Telescopio espacial James Webb",
+      "description": "observatorio espacial lanzado en 2021"
+    },
+    "file": "assets/icons/photo-webb.jpg"
+  },
+  "photo-hubble": {
+    "kind": "cutout",
+    "query": "Edwin Hubble",
+    "wiki": "Edwin Hubble",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Edwin Hubble",
+      "description": "astrónomo estadounidense"
+    },
+    "file": "assets/icons/photo-hubble.jpg"
+  },
+  "photo-lemaitre": {
+    "kind": "cutout",
+    "query": "Georges Lemaître",
+    "wiki": "Georges Lemaître",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Georges Lemaître",
+      "description": "Belgian scientist and Catholic priest (1894–1966)"
+    },
+    "file": "assets/icons/photo-lemaitre.jpg"
+  },
+  "photo-hoyle": {
+    "kind": "cutout",
+    "query": "Fred Hoyle",
+    "wiki": "Fred Hoyle",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Fred Hoyle",
+      "description": "astrónomo británico (1915–2001)"
+    },
+    "file": "assets/icons/photo-hoyle.jpg"
+  },
+  "photo-orion": {
+    "kind": "cutout",
+    "query": "Nebulosa de Orión",
+    "wiki": "Nebulosa de Orión",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Nebulosa de Orión",
+      "description": "nebulosa difusa situada al sur del cinturón de Orión"
+    },
+    "file": "assets/icons/photo-orion.jpg"
+  },
+  "photo-pilares": {
+    "kind": "cutout",
+    "query": "Pilares de la Creación",
+    "wiki": "Pilares de la Creación",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Pilares de la Creación",
+      "description": "Fotografía tomada por el telescopio espacial Hubble"
+    },
+    "file": "assets/icons/photo-pilares.jpg"
+  },
+  "photo-andromeda": {
+    "kind": "cutout",
+    "query": "Galaxia de Andrómeda",
+    "wiki": "Galaxia de Andrómeda",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Galaxia de Andrómeda",
+      "description": "galaxia de espiral gigante"
+    },
+    "file": "assets/icons/photo-andromeda.jpg"
+  },
+  "photo-galaxia": {
+    "kind": "cutout",
+    "query": "Galaxia",
+    "wiki": "Galaxia",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Galaxia",
+      "description": "conjunto de varias estrellas, nubes de gas, planetas, polvo cósmico, materia oscura, y energía unido gravitatoriamente."
+    },
+    "file": "assets/icons/photo-galaxia.jpg"
+  },
+  "photo-espiral": {
+    "kind": "cutout",
+    "query": "Galaxia espiral",
+    "wiki": "Galaxia espiral",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Galaxia espiral",
+      "description": "tipo de galaxia de la secuencia de Hubble"
+    },
+    "file": "assets/icons/photo-espiral.jpg"
+  },
+  "photo-hubble-tel": {
+    "kind": "cutout",
+    "query": "Telescopio espacial Hubble",
+    "wiki": "Telescopio espacial Hubble",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Telescopio espacial Hubble",
+      "description": "telescopio en órbita alrededor de la Tierra"
+    },
+    "file": "assets/icons/photo-hubble-tel.jpg"
+  },
+  "photo-cangrejo": {
+    "kind": "cutout",
+    "query": "Nebulosa del Cangrejo",
+    "wiki": "Nebulosa del Cangrejo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Nebulosa del Cangrejo",
+      "description": "resto de supernova de tipo plerión resultante de la explosión de una supernova en el año 1054"
+    },
+    "file": "assets/icons/photo-cangrejo.jpg"
+  },
+  "photo-materia-oscura": {
+    "kind": "cutout",
+    "query": "Materia oscura",
+    "wiki": "Materia oscura",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Materia oscura",
+      "description": "tipo de materia que no interactúa con la radiación electromagnética"
+    },
+    "file": "assets/icons/photo-materia-oscura.jpg"
+  },
+  "photo-helio": {
+    "kind": "cutout",
+    "query": "Helio",
+    "wiki": "Helio",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Helio",
+      "description": "elemento químico de la tabla periódica cuyo símbolo es He y su número atómico es 2"
+    },
+    "file": "assets/icons/photo-helio.jpg"
+  },
+  "photo-hierro": {
+    "kind": "cutout",
+    "query": "Hierro",
+    "wiki": "Hierro",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Hierro",
+      "description": "elemento químico con número atómico 26"
+    },
+    "file": "assets/icons/photo-hierro.jpg"
+  },
+  "photo-estrellas": {
+    "kind": "cutout",
+    "query": "Estrella",
+    "wiki": "Estrella",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Estrella",
+      "description": "objeto astrónomico formado por un esferoide luminoso de plasma sujeto a su propia gravedad"
+    },
+    "file": "assets/icons/photo-estrellas.jpg"
+  },
+  "photo-piramide": {
+    "kind": "cutout",
+    "query": "Gran Pirámide de Guiza",
+    "wiki": "Gran Pirámide de Guiza",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Gran Pirámide de Guiza",
+      "description": "construcción de bloques de piedra del Antiguo Egipto y parte de las siete maravillas del mundo antiguo"
+    },
+    "file": "assets/icons/photo-piramide.jpg"
+  },
+  "photo-sol": {
+    "kind": "cutout",
+    "query": "Sol",
+    "wiki": "Sol",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sol",
+      "description": "única estrella del Sistema Solar, de tipo G y situada en su centro, alrededor de la cual orbitan los demás cuerpos del sistema"
+    },
+    "file": "assets/icons/photo-sol.jpg"
+  },
+  "photo-tierra": {
+    "kind": "cutout",
+    "query": "Tierra",
+    "wiki": "Tierra",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Tierra",
+      "description": "tercer planeta desde el Sol en el Sistema Solar"
+    },
+    "file": "assets/icons/photo-tierra.jpg"
+  },
+  "photo-brujula": {
+    "kind": "cutout",
+    "query": "Brújula",
+    "wiki": "Brújula",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Brújula",
+      "description": "instrumento de navegación que indica la dirección a los polos magnéticos"
+    },
+    "file": "assets/icons/photo-brujula.jpg"
+  },
+  "photo-balanza": {
+    "kind": "cutout",
+    "query": "Balanza",
+    "wiki": "Balanza",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Balanza",
+      "description": "instrumento que sirve para medir masa y cuerpo"
+    },
+    "file": "assets/icons/photo-balanza.jpg"
+  },
+  "photo-hielo": {
+    "kind": "cutout",
+    "query": "Hielo",
+    "wiki": "Hielo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Hielo",
+      "description": "agua congelada, uno de los tres estados naturales del agua"
+    },
+    "file": "assets/icons/photo-hielo.jpg"
+  },
+  "photo-copo": {
+    "kind": "cutout",
+    "query": "Copo de nieve",
+    "wiki": "Copo de nieve",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Copo de nieve",
+      "description": "copo de nieve"
+    },
+    "file": "assets/icons/photo-copo.jpg"
+  },
+  "photo-cuerda": {
+    "kind": "cutout",
+    "query": "Cuerda",
+    "wiki": "Cuerda",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Cuerda",
+      "description": "objeto largo, flexible y resistente, de forma generalmente redonda, compuesto por un conjunto lineal de hilos, hebras o filamentos retorcidos o trenzados entre sí"
+    },
+    "file": "assets/icons/photo-cuerda.jpg"
+  },
+  "photo-rompecabezas": {
+    "kind": "cutout",
+    "query": "Rompecabezas",
+    "wiki": "Rompecabezas",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Rompecabezas",
+      "description": "juego de mesa"
+    },
+    "file": "assets/icons/photo-rompecabezas.jpg"
+  },
+  "clip-sun": {
+    "kind": "clip",
+    "query": "sun solar surface closeup",
+    "file": "assets/clips/clip-sun.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/dynamic-solar-animation-with-flare-effects-32680837/"
+    }
+  },
+  "clip-galaxy": {
+    "kind": "clip",
+    "query": "galaxy space stars spiral",
+    "file": "assets/clips/clip-galaxy.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/vibrant-cosmic-galaxy-animation-in-deep-space-29790911/"
+    }
+  },
+  "clip-nebula": {
+    "kind": "clip",
+    "query": "colorful nebula space clouds",
+    "file": "assets/clips/clip-nebula.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Gogh Zoom",
+      "url": "https://www.pexels.com/video/colorful-outer-space-15289793/"
+    }
+  },
+  "clip-milkyway": {
+    "kind": "clip",
+    "query": "milky way timelapse night sky",
+    "file": "assets/clips/clip-milkyway.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Luz Calor Som",
+      "url": "https://www.pexels.com/video/timelapse-of-the-starry-milky-way-seen-from-the-beach-18358235/"
+    }
+  },
+  "clip-telescope": {
+    "kind": "clip",
+    "query": "radio telescope observatory night sky",
+    "file": "assets/clips/clip-telescope.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Matthias Groeneveld",
+      "url": "https://www.pexels.com/video/a-radio-telescope-in-a-research-center-astronomy-2954003/"
+    }
+  },
+  "clip-sunrise": {
+    "kind": "clip",
+    "query": "sunrise nature golden peaceful",
+    "file": "assets/clips/clip-sunrise.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "rehan verma",
+      "url": "https://www.pexels.com/video/trees-and-sky-at-day-break-2446545/"
+    }
+  },
+  "clip-microscope": {
+    "kind": "clip",
+    "query": "microscope cells laboratory",
+    "file": "assets/clips/clip-microscope.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/microscopic-view-of-blue-glowing-cells-29851224/"
+    }
+  },
+  "clip-test-tube": {
+    "kind": "clip",
+    "query": "test tubes colorful liquid science",
+    "file": "assets/clips/clip-test-tube.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikhail Nilov",
+      "url": "https://www.pexels.com/video/close-up-of-test-tubes-on-a-test-tube-rack-9373595/"
+    }
+  },
+  "clip-boiling": {
+    "kind": "clip",
+    "query": "boiling water bubbles in a pot close up bright",
+    "file": "assets/clips/clip-boiling.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Anna Tarazevich",
+      "url": "https://www.pexels.com/video/close-up-of-boiling-water-7261519/"
+    }
+  },
+  "clip-balloon": {
+    "kind": "clip",
+    "query": "inflating a red balloon close up bright background",
+    "file": "assets/clips/clip-balloon.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Edward Rode",
+      "url": "https://www.pexels.com/video/balloons-with-love-text-12794969/"
+    }
+  },
+  "clip-powder": {
+    "kind": "clip",
+    "query": "colorful powder explosion slow motion white background",
+    "file": "assets/clips/clip-powder.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Engin Akyurt",
+      "url": "https://www.pexels.com/video/yellow-liquid-mixed-with-water-9809978/"
+    }
+  },
+  "photo-biblioteca": {
+    "kind": "cutout",
+    "query": "Biblioteca",
+    "wiki": "Biblioteca",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Biblioteca",
+      "description": "institución dedicada a guardar y prestar libros"
+    },
+    "file": "assets/icons/photo-biblioteca.jpg"
+  },
+  "clip-clouds": {
+    "kind": "clip",
+    "query": "clouds time lapse",
+    "file": "assets/clips/clip-clouds.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "George Morina",
+      "url": "https://www.pexels.com/video/thick-white-clouds-in-the-sky-4066718/"
+    }
+  }
+}
