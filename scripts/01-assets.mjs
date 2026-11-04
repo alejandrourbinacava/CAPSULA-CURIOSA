@@ -6,6 +6,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { createRequire } from "node:module";
+import { execFileSync } from "node:child_process";
 import { getIconData, iconToSVG } from "@iconify/utils";
 import { normalizeSvg, colorHex } from "./normalize-icon.mjs";
 import { cleanAlphaPng } from "./png-clean.mjs"; // quita el velo de alfa 1..12 que gpt-image deja alrededor del dibujo (el "recuadro")
@@ -139,6 +140,11 @@ const conceptSlug = (q) => q.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, 
 async function gptImageIcon(query, id) {
   const rel = "assets/icons/" + id + ".png", libFile = path.join(LIB, conceptSlug(query) + ".png");
   if (fs.existsSync(libFile)) { fs.writeFileSync(path.join("public", rel), cleanAlphaPng(fs.readFileSync(libFile), 12)); return { file: rel, reused: true }; } // se limpia el velo de alfa AL COPIAR (la librería versionada no se toca) // reutiliza ($0, incluso sin clave)
+  if (AI33 && process.env.IMG_PROVIDER !== "openai") {   // 2026-11-04: imágenes por ai33.pro (mucho más barato que OpenAI). Fondo blanco -> transparente con whitekey.py
+    const b0 = await ai33Doodle(query); if (!b0) return null;
+    const b = cleanAlphaPng(b0, 12); fs.writeFileSync(libFile, b); fs.writeFileSync(path.join("public", rel), b);
+    return { file: rel, reused: false };
+  }
   if (!OPENAI) return null;
   const prompt = `2D vector doodle illustration of ${query}. Hand-drawn whiteboard explainer style, bold clean black outline, flat minimal saturated colors, clear and simple, centered composition. Historically accurate to the era described (never modern). Fully TRANSPARENT background. No text, no labels, no caption, no shadow, no border, no frame.`;
   try {
@@ -148,6 +154,37 @@ async function gptImageIcon(query, id) {
     return { file: rel, reused: false };
   } catch { return null; }
 }
+
+// --- ai33.pro (imágenes): POST /v1i/task/generate-image (multipart) + GET /v1/task/{id} hasta status=done -> metadata.result_images[0].imageUrl ---
+const AI33 = envKey("AI33_API_KEY"), IMG_MODEL = envKey("AI33_IMG_MODEL") || "gpt-image-1.5", IMG_Q = envKey("AI33_IMG_QUALITY") || "medium";
+async function ai33Doodle(query) {
+  const H = { "xi-api-key": AI33 };
+  const prompt = `2D vector doodle illustration of ${query}. Hand-drawn whiteboard explainer style, bold clean black outline, flat minimal saturated colors, clear and simple, centered composition. Historically accurate to the era described (never modern). Solid pure white background (#FFFFFF). No text, no labels, no caption, no shadow, no border, no frame.`;
+  try {
+    for (let attempt = 0; attempt < 6; attempt++) {
+      const fd = new FormData(); fd.append("prompt", prompt); fd.append("model_id", IMG_MODEL); fd.append("generations_count", "1"); fd.append("model_parameters", JSON.stringify({ aspect_ratio: "1:1", quality: IMG_Q }));
+      const r = await fetch("https://api.ai33.pro/v1i/task/generate-image", { method: "POST", headers: H, body: fd }); const j = await r.json().catch(() => ({}));
+      if (!j.task_id) { if (/queue|too many|wait/i.test(j.message || "")) { await sleep(12000); continue; } console.log(`  (ai33: ${(j.message || r.status).toString().slice(0, 80)})`); return null; }
+      for (let i = 0; i < 90; i++) {
+        await sleep(5000); const t = await (await fetch(`https://api.ai33.pro/v1/task/${j.task_id}`, { headers: H })).json().catch(() => ({}));
+        if (t.status === "done") { const u = t.metadata?.result_images?.[0]?.imageUrl; if (!u) return null; const raw = Buffer.from(await (await fetch(u)).arrayBuffer()); const tmp = path.join(LIB, "_tmp_" + conceptSlug(query) + ".png"); fs.writeFileSync(tmp, raw); try { execFileSync("python", ["scripts/whitekey.py", tmp, tmp + ".out.png"]); return fs.readFileSync(tmp + ".out.png"); } finally { fs.rmSync(tmp, { force: true }); fs.rmSync(tmp + ".out.png", { force: true }); } }
+        if (/fail|error/i.test(t.status || "")) { console.log(`  (ai33: ${(t.error_message || t.status).toString().slice(0, 80)})`); return null; }
+      }
+      return null;
+    }
+  } catch (e) { console.log(`  (ai33: ${(e.message || "").slice(0, 60)})`); }
+  return null;
+}
+// PRE-PASADA en paralelo (hasta 6 a la vez): genera en la librería los doodles que faltan; el bucle principal los reutiliza.
+async function prefetchAi33() {
+  if (!AI33 || process.env.IMG_PROVIDER === "openai") return;
+  const need = new Map();
+  for (const [id, a] of Object.entries(assets)) { if (["clip", "gif", "photo", "cutout", "screenshot"].includes(a.kind)) continue; const q = a.query || id; const lf = path.join(LIB, conceptSlug(q) + ".png"); if (!fs.existsSync(lf)) need.set(lf, q); }
+  if (!need.size) return; console.log(`ai33: ${need.size} doodles nuevos (${IMG_MODEL} ${IMG_Q}), 6 en paralelo`);
+  const queue = [...need.entries()]; let done = 0;
+  await Promise.all(Array.from({ length: 6 }, async () => { while (queue.length) { const [lf, q] = queue.shift(); const b0 = await ai33Doodle(q); if (b0) fs.writeFileSync(lf, cleanAlphaPng(b0, 12)); done++; if (done % 10 === 0) console.log(`  ai33 ${done}/${need.size}`); } }));
+}
+await prefetchAi33();
 
 for (const [id, a] of Object.entries(assets)) {
   const q = a.query || id;
