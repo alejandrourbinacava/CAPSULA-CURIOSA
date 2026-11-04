@@ -165,11 +165,12 @@ async function ai33Doodle(query) {
       const fd = new FormData(); fd.append("prompt", prompt); fd.append("model_id", IMG_MODEL); fd.append("generations_count", "1"); fd.append("model_parameters", JSON.stringify({ aspect_ratio: "1:1", quality: IMG_Q }));
       const r = await fetch("https://api.ai33.pro/v1i/task/generate-image", { method: "POST", headers: H, body: fd }); const j = await r.json().catch(() => ({}));
       if (!j.task_id) { if (/queue|too many|wait/i.test(j.message || "")) { await sleep(12000); continue; } console.log(`  (ai33: ${(j.message || r.status).toString().slice(0, 80)})`); return null; }
-      for (let i = 0; i < 90; i++) {
+      for (let i = 0; i < 300; i++) {   // hasta 25 min por tarea (ai33 a veces tarda mucho)
         await sleep(5000); const t = await (await fetch(`https://api.ai33.pro/v1/task/${j.task_id}`, { headers: H })).json().catch(() => ({}));
         if (t.status === "done") { const u = t.metadata?.result_images?.[0]?.imageUrl; if (!u) return null; const raw = Buffer.from(await (await fetch(u)).arrayBuffer()); const tmp = path.join(LIB, "_tmp_" + conceptSlug(query) + ".png"); fs.writeFileSync(tmp, raw); try { execFileSync("python", ["scripts/whitekey.py", tmp, tmp + ".out.png"]); return fs.readFileSync(tmp + ".out.png"); } finally { fs.rmSync(tmp, { force: true }); fs.rmSync(tmp + ".out.png", { force: true }); } }
         if (/fail|error/i.test(t.status || "")) { console.log(`  (ai33: ${(t.error_message || t.status).toString().slice(0, 80)})`); return null; }
       }
+      await fetch("https://api.ai33.pro/v3/task/delete", { method: "POST", headers: { ...H, "Content-Type": "application/json" }, body: JSON.stringify({ task_ids: [j.task_id] }) }).catch(() => {}); // libera la cola
       return null;
     }
   } catch (e) { console.log(`  (ai33: ${(e.message || "").slice(0, 60)})`); }
@@ -180,9 +181,9 @@ async function prefetchAi33() {
   if (!AI33 || process.env.IMG_PROVIDER === "openai") return;
   const need = new Map();
   for (const [id, a] of Object.entries(assets)) { if (["clip", "gif", "photo", "cutout", "screenshot"].includes(a.kind)) continue; const q = a.query || id; const lf = path.join(LIB, conceptSlug(q) + ".png"); if (!fs.existsSync(lf)) need.set(lf, q); }
-  if (!need.size) return; console.log(`ai33: ${need.size} doodles nuevos (${IMG_MODEL} ${IMG_Q}), 6 en paralelo`);
+  if (!need.size) return; console.log(`ai33: ${need.size} doodles nuevos (${IMG_MODEL} ${IMG_Q}), ${envKey("AI33_PAR") || 4} en paralelo`);
   const queue = [...need.entries()]; let done = 0;
-  await Promise.all(Array.from({ length: 6 }, async () => { while (queue.length) { const [lf, q] = queue.shift(); const b0 = await ai33Doodle(q); if (b0) fs.writeFileSync(lf, cleanAlphaPng(b0, 12)); done++; if (done % 10 === 0) console.log(`  ai33 ${done}/${need.size}`); } }));
+  const PAR = +(envKey("AI33_PAR") || 4); await Promise.all(Array.from({ length: PAR }, async () => { while (queue.length) { const [lf, q] = queue.shift(); const b0 = await ai33Doodle(q); if (b0) fs.writeFileSync(lf, cleanAlphaPng(b0, 12)); done++; if (done % 10 === 0) console.log(`  ai33 ${done}/${need.size}`); } }));
 }
 await prefetchAi33();
 
