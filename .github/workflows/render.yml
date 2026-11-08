@@ -13,10 +13,13 @@ on:
         default: "activo"
         options:
           - "activo"
-          - "episodes/028-cada-pandemia-de-la-historia"
-          - "episodes/029-cada-accidente-nuclear-explicado"
-          - "episodes/030-cada-espia-famoso-explicado"
-          - "episodes/031-cada-teoria-origen-del-universo"
+          - "episodes/032-cada-error-de-ingenieria-catastrofe"
+          - "episodes/033-cada-experimento-psicologico-prohibido"
+          - "episodes/034-cada-ciudad-borrada-del-mapa"
+          - "episodes/035-cada-detalle-invisible-megaconstrucciones"
+          - "episodes/036-cada-limite-mental-ciencia-cruzo"
+          - "episodes/037-cada-civilizacion-desaparecida-de-repente"
+          - "episodes/026-cada-trastorno-mental-explicado"
   # (schedule diario retirado a petición del usuario: los vídeos se lanzan a mano)
 
 permissions:
