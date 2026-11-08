@@ -1,0 +1,1426 @@
+{
+  "lb-bulb": {
+    "kind": "vector",
+    "query": "a classic glowing incandescent light bulb",
+    "file": "assets/icons/lb-bulb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulbbook": {
+    "kind": "vector",
+    "query": "a lightbulb above an open book with a star, an important lesson",
+    "file": "assets/icons/lb-bulbbook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-star": {
+    "kind": "vector",
+    "query": "a big golden star with an exclamation mark and sparkles, the most important thing, no text",
+    "file": "assets/icons/lb-star.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-curious": {
+    "kind": "vector",
+    "query": "a curious surprised face with wide eyes",
+    "file": "assets/icons/lb-curious.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-scared": {
+    "kind": "vector",
+    "query": "a scared frightened face, fear",
+    "file": "assets/icons/lb-scared.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-sad": {
+    "kind": "vector",
+    "query": "a sad worried face",
+    "file": "assets/icons/lb-sad.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-follow": {
+    "kind": "vector",
+    "query": "a crowd of people all blindly following one arrow",
+    "file": "assets/icons/lb-follow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-people": {
+    "kind": "vector",
+    "query": "a group of diverse friendly cartoon people standing together side by side, humans",
+    "file": "assets/icons/lb-people.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-heart": {
+    "kind": "vector",
+    "query": "a single red heart with a cute face, love",
+    "file": "assets/icons/lb-heart.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-doubt": {
+    "kind": "vector",
+    "query": "a big question mark, doubt",
+    "file": "assets/icons/lb-doubt.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-magnifier": {
+    "kind": "vector",
+    "query": "a magnifying glass with a green check mark, verifying something",
+    "file": "assets/icons/lb-magnifier.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-lawbook": {
+    "kind": "vector",
+    "query": "a book of law with a judge gavel",
+    "file": "assets/icons/lb-lawbook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-justice": {
+    "kind": "vector",
+    "query": "a balance scale of justice on top of an open law book, equality before the law",
+    "file": "assets/icons/lb-justice.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-shield": {
+    "kind": "vector",
+    "query": "a green shield with a check mark, protected",
+    "file": "assets/icons/lb-shield.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-warning": {
+    "kind": "vector",
+    "query": "a yellow warning triangle with an exclamation mark",
+    "file": "assets/icons/lb-warning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calendar": {
+    "kind": "vector",
+    "query": "a wall calendar showing a year",
+    "file": "assets/icons/lb-calendar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calflip": {
+    "kind": "vector",
+    "query": "a wall calendar with many pages flying off, many years passing, no numbers",
+    "file": "assets/icons/lb-calflip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-longroad": {
+    "kind": "vector",
+    "query": "a long winding road with many kilometer markers",
+    "file": "assets/icons/lb-longroad.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-stop": {
+    "kind": "vector",
+    "query": "a big red open stop hand sign, simple, no text",
+    "file": "assets/icons/lb-stop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-hospital": {
+    "kind": "vector",
+    "query": "a hospital building with a red cross, healthcare",
+    "file": "assets/icons/lb-hospital.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-folderchain": {
+    "kind": "vector",
+    "query": "a folder of files covered in chains and a padlock",
+    "file": "assets/icons/lb-folderchain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bridge": {
+    "kind": "vector",
+    "query": "a bridge connecting two groups",
+    "file": "assets/icons/lb-bridge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-brain": {
+    "kind": "vector",
+    "query": "a human brain glowing with curiosity",
+    "file": "assets/icons/lb-brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-memorial": {
+    "kind": "vector",
+    "query": "a simple stone memorial with a small candle flame lit in front, no text",
+    "file": "assets/icons/lb-memorial.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-experts": {
+    "kind": "vector",
+    "query": "two cartoon scientists in lab coats with speech bubbles and a question mark between them, no text",
+    "file": "assets/icons/lb-experts.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-link": {
+    "kind": "vector",
+    "query": "a magnifying glass over a golden chain link joining several different shapes, no text",
+    "file": "assets/icons/lb-link.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-usmap": {
+    "kind": "vector",
+    "query": "a plain map silhouette of the United States in neutral green, no text, no flag",
+    "file": "assets/icons/lb-usmap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ww2": {
+    "kind": "vector",
+    "query": "World War Two tank and fighter plane, 1940s military",
+    "file": "assets/icons/lb-ww2.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-redflag": {
+    "kind": "vector",
+    "query": "a red warning flag",
+    "file": "assets/icons/lb-redflag.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-family": {
+    "kind": "vector",
+    "query": "a mother, a father and a child hugging together, warm family",
+    "file": "assets/icons/lb-family.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-labcoat": {
+    "kind": "vector",
+    "query": "a white lab coat commanding blind trust",
+    "file": "assets/icons/lb-labcoat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-scientist": {
+    "kind": "vector",
+    "query": "a friendly cartoon scientist with goggles holding a flask, no text",
+    "file": "assets/icons/lb-scientist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-scientists": {
+    "kind": "vector",
+    "query": "three cartoon scientists in lab coats standing side by side, no text",
+    "file": "assets/icons/lb-scientists.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-professor": {
+    "kind": "vector",
+    "query": "a friendly professor with glasses holding a book, no text",
+    "file": "assets/icons/lb-professor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-clipcheck": {
+    "kind": "vector",
+    "query": "a friendly cartoon professional with a clipboard and a green check mark, no text",
+    "file": "assets/icons/lb-clipcheck.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-sadchild": {
+    "kind": "vector",
+    "query": "a small cartoon child sitting with a small gray cloud above, gentle and sad, no text",
+    "file": "assets/icons/lb-sadchild.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-classroom": {
+    "kind": "vector",
+    "query": "a few cartoon children sitting at desks in a bright classroom, no text",
+    "file": "assets/icons/lb-classroom.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-guardgate": {
+    "kind": "vector",
+    "query": "a big iron gate with a padlock and a stern guard whistle, authority, no text",
+    "file": "assets/icons/lb-guardgate.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bolt": {
+    "kind": "vector",
+    "query": "lightning bolt",
+    "file": "assets/icons/lb-bolt.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-trophy": {
+    "kind": "vector",
+    "query": "golden trophy cup for a winner",
+    "file": "assets/icons/lb-trophy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-puzzleq": {
+    "kind": "vector",
+    "query": "a big jigsaw puzzle with a question mark and one missing piece, misunderstood topic, no text",
+    "file": "assets/icons/lb-puzzleq.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-fakeid": {
+    "kind": "vector",
+    "query": "an identity card with a face silhouette and a small mask on it, fake identity, no text",
+    "file": "assets/icons/lb-fakeid.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-steering": {
+    "kind": "vector",
+    "query": "two strong hands gripping a steering wheel in control",
+    "file": "assets/icons/lb-steering.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-gooddoor": {
+    "kind": "vector",
+    "query": "a green door opening with warm light, a way forward, no text",
+    "file": "assets/icons/lb-gooddoor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-errors": {
+    "kind": "vector",
+    "query": "a pencil eraser with scribbled out crossed marks on paper, errors, no text",
+    "file": "assets/icons/lb-errors.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-rulebook": {
+    "kind": "vector",
+    "query": "a big rule book with a red ruler and a stamp, regulation, no text",
+    "file": "assets/icons/lb-rulebook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bow": {
+    "kind": "vector",
+    "query": "a cartoon person bowing humbly with a hand on the chest, no text",
+    "file": "assets/icons/lb-bow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-panic": {
+    "kind": "vector",
+    "query": "a cartoon face with wide eyes and open mouth and sweat drops, panic, simple, no text",
+    "file": "assets/icons/lb-panic.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-lonely": {
+    "kind": "vector",
+    "query": "a lonely person standing alone in an empty room, solo",
+    "file": "assets/icons/lb-lonely.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-pointing": {
+    "kind": "vector",
+    "query": "a crowd of small figures pointing fingers at one lonely small figure, stigma, no text",
+    "file": "assets/icons/lb-pointing.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-radiomic": {
+    "kind": "vector",
+    "query": "a vintage microphone in front of an old radio set with sound waves, no text",
+    "file": "assets/icons/lb-radiomic.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-mouseshadow": {
+    "kind": "vector",
+    "query": "a tiny mouse casting a huge scary shadow on a wall, disproportionate fear, no text",
+    "file": "assets/icons/lb-mouseshadow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-fearmeter": {
+    "kind": "vector",
+    "query": "a cartoon face with a big thermometer-style red meter rising above it, intense fear, no text",
+    "file": "assets/icons/lb-fearmeter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-nervousspeaker": {
+    "kind": "vector",
+    "query": "a cartoon person nervously speaking at a podium in front of a small audience, no text",
+    "file": "assets/icons/lb-nervousspeaker.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-thumbsup": {
+    "kind": "vector",
+    "query": "a thumbs up like button glowing",
+    "file": "assets/icons/lb-thumbsup.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-thumbsdown": {
+    "kind": "vector",
+    "query": "a thumbs down hand",
+    "file": "assets/icons/lb-thumbsdown.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-reddial": {
+    "kind": "vector",
+    "query": "a round meter dial with a needle pointing into the red zone, no text",
+    "file": "assets/icons/lb-reddial.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-copies": {
+    "kind": "vector",
+    "query": "a document being copied into many identical copies",
+    "file": "assets/icons/lb-copies.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-chain": {
+    "kind": "vector",
+    "query": "a chain of command, linked figures giving orders down a line",
+    "file": "assets/icons/lb-chain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-boss": {
+    "kind": "vector",
+    "query": "a cartoon figure sitting on a big chair pointing a finger, who commands, no text",
+    "file": "assets/icons/lb-boss.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bandage": {
+    "kind": "vector",
+    "query": "a cracked heart with a small bandage, harm, no text",
+    "file": "assets/icons/lb-bandage.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-memory": {
+    "kind": "vector",
+    "query": "a human head in profile with the pi symbol and streams of numbers flowing out, memory",
+    "file": "assets/icons/lb-memory.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-finish": {
+    "kind": "vector",
+    "query": "a marathon runner crossing a finish line ribbon, exhausted and triumphant",
+    "file": "assets/icons/lb-finish.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-binoculars": {
+    "kind": "vector",
+    "query": "binoculars",
+    "file": "assets/icons/lb-binoculars.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-hidden-truth": {
+    "kind": "vector",
+    "query": "a cartoon person holding a closed envelope behind their back, hiding the truth, with a small question mark, no text",
+    "file": "assets/icons/ps-hidden-truth.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-forbidden": {
+    "kind": "vector",
+    "query": "a lab flask and a test tube inside a big red crossed-out circle, no text",
+    "file": "assets/icons/ps-forbidden.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-no-repeat": {
+    "kind": "vector",
+    "query": "a circular arrow with a big red cross over it, cannot be repeated, no text",
+    "file": "assets/icons/ps-no-repeat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-head-gears": {
+    "kind": "vector",
+    "query": "a side profile of a human head with colorful gears inside, no text",
+    "file": "assets/icons/ps-head-gears.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-unexplained": {
+    "kind": "vector",
+    "query": "a person with a question mark above their head holding a blank sheet of paper, nobody explains, no text",
+    "file": "assets/icons/ps-unexplained.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-baby-silhouette": {
+    "kind": "vector",
+    "query": "a soft gray silhouette of a baby sitting on a blanket, simple, no text",
+    "file": "assets/icons/ps-baby-silhouette.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-watson": {
+    "kind": "vector",
+    "query": "a 1920s psychologist with round glasses and a bow tie holding a notebook, no text",
+    "file": "assets/icons/ps-watson.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-rat": {
+    "kind": "vector",
+    "query": "a cute white lab rat standing on its hind legs, simple cartoon, no text",
+    "file": "assets/icons/ps-rat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-loud-noise": {
+    "kind": "vector",
+    "query": "a big metal bar being struck by a hammer with loud sound waves, no text",
+    "file": "assets/icons/ps-loud-noise.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-baby-cry": {
+    "kind": "vector",
+    "query": "a crying baby with big round tears, soft cartoon, no text",
+    "file": "assets/icons/ps-baby-cry.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-white-fluffy": {
+    "kind": "vector",
+    "query": "a white fluffy rabbit, a white fur coat and a white cotton ball together, no text",
+    "file": "assets/icons/ps-white-fluffy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-monster-study": {
+    "kind": "vector",
+    "query": "a small child looking up at a big friendly dark monster shadow on a wall, storybook style, no text",
+    "file": "assets/icons/ps-monster-study.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-stutter-q": {
+    "kind": "vector",
+    "query": "a speech bubble with broken repeated fragments of lines inside and a question mark, no text",
+    "file": "assets/icons/ps-stutter-q.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-quiet-child": {
+    "kind": "vector",
+    "query": "a small child with a closed mouth sitting quietly alone, no text",
+    "file": "assets/icons/ps-quiet-child.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-compensation": {
+    "kind": "vector",
+    "query": "a building with columns and a small envelope with a green check floating out of it, compensation, no text",
+    "file": "assets/icons/ps-compensation.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-asch": {
+    "kind": "vector",
+    "query": "a thoughtful professor with round glasses and a bow tie, 1950s style, no text",
+    "file": "assets/icons/ps-asch.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-three-lines": {
+    "kind": "vector",
+    "query": "three vertical lines of different lengths next to a fourth reference line that matches one of them, no text",
+    "file": "assets/icons/ps-three-lines.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-actors": {
+    "kind": "vector",
+    "query": "a row of five smiling people all raising the same hand giving the same answer, no text",
+    "file": "assets/icons/ps-actors.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-crowd-follow": {
+    "kind": "vector",
+    "query": "four small people nodding yes together while one small person stands apart looking unsure, no text",
+    "file": "assets/icons/ps-crowd-follow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-one-ally": {
+    "kind": "vector",
+    "query": "two people standing side by side, one nodding to the other, with a green check between them, no text",
+    "file": "assets/icons/ps-one-ally.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-oklahoma-map": {
+    "kind": "vector",
+    "query": "a simple map of the US state of Oklahoma shaped like a pan with a small tent, no text, no flag",
+    "file": "assets/icons/ps-oklahoma-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-eagle": {
+    "kind": "vector",
+    "query": "a brave cartoon eagle with spread wings, no text",
+    "file": "assets/icons/ps-eagle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-rattlesnake": {
+    "kind": "vector",
+    "query": "a coiled cartoon rattlesnake with a rattle tail, friendly style, no text",
+    "file": "assets/icons/ps-rattlesnake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-groups-apart": {
+    "kind": "vector",
+    "query": "two groups of small children on opposite sides of a green hill, unaware of each other, no text",
+    "file": "assets/icons/ps-groups-apart.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-rivalry": {
+    "kind": "vector",
+    "query": "two groups of children facing each other with angry eyebrows and a red zigzag line between them, no text",
+    "file": "assets/icons/ps-rivalry.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-water-pipe": {
+    "kind": "vector",
+    "query": "a water tank with a pipe and a drop of water, no text",
+    "file": "assets/icons/ps-water-pipe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-hostility-down": {
+    "kind": "vector",
+    "query": "a red thermometer falling down to blue with a calm smile beside it, no text",
+    "file": "assets/icons/ps-hostility-down.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-baby-need": {
+    "kind": "vector",
+    "query": "a baby bottle and a teddy bear side by side with a question mark above, no text",
+    "file": "assets/icons/ps-baby-need.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-separated": {
+    "kind": "vector",
+    "query": "a baby monkey sitting alone looking at a distant adult monkey silhouette, no text",
+    "file": "assets/icons/ps-separated.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-wire-mother": {
+    "kind": "vector",
+    "query": "a bare wire frame figure shaped like a monkey mother holding a baby bottle, no text",
+    "file": "assets/icons/ps-wire-mother.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-cloth-mother": {
+    "kind": "vector",
+    "query": "a soft cloth covered figure shaped like a monkey mother, cozy and fuzzy, no text",
+    "file": "assets/icons/ps-cloth-mother.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-monkey-hug": {
+    "kind": "vector",
+    "query": "a baby monkey hugging a soft cloth figure tightly, no text",
+    "file": "assets/icons/ps-monkey-hug.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-monkey-eat": {
+    "kind": "vector",
+    "query": "a baby monkey reaching out to a bottle held by a wire figure, no text",
+    "file": "assets/icons/ps-monkey-eat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-bobo": {
+    "kind": "vector",
+    "query": "a tall inflatable bop bag toy shaped like a smiling clown figure with a rounded weighted base, no text",
+    "file": "assets/icons/ps-bobo.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-adult-bobo": {
+    "kind": "vector",
+    "query": "an adult in a sweater loudly pushing over a tall inflatable bop bag toy, no text",
+    "file": "assets/icons/ps-adult-bobo.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-adult-calm": {
+    "kind": "vector",
+    "query": "an adult in a sweater calmly sitting and playing with blocks next to an inflatable bop bag toy, no text",
+    "file": "assets/icons/ps-adult-calm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-kids-alone": {
+    "kind": "vector",
+    "query": "three small children alone in a bright play room with a tall inflatable bop bag toy, no text",
+    "file": "assets/icons/ps-kids-alone.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-saw-aggression": {
+    "kind": "vector",
+    "query": "a small child with wide eyes watching an adult in the distance, no text",
+    "file": "assets/icons/ps-saw-aggression.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-observe-learn": {
+    "kind": "vector",
+    "query": "a big eye with an arrow going into a lightbulb, learning by watching, no text",
+    "file": "assets/icons/ps-observe-learn.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-exposed": {
+    "kind": "vector",
+    "query": "a small child standing in front of a large screen showing a jagged red scribble, no text",
+    "file": "assets/icons/ps-exposed.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-milgram": {
+    "kind": "vector",
+    "query": "a serious professor with a mustache wearing a suit and glasses, 1960s style, no text",
+    "file": "assets/icons/ps-milgram.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-teacher-cabin": {
+    "kind": "vector",
+    "query": "a person sitting at a desk in front of a big panel with many switches, in a small booth, no text",
+    "file": "assets/icons/ps-teacher-cabin.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-no-shock": {
+    "kind": "vector",
+    "query": "a drawn lightning bolt inside a clear glass bubble with a green check mark, only drawn, not real, no text",
+    "file": "assets/icons/ps-no-shock.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-actor": {
+    "kind": "vector",
+    "query": "a smiling person holding a theatre mask, an actor, no text",
+    "file": "assets/icons/ps-actor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-teacher-doubt": {
+    "kind": "vector",
+    "query": "a person with a hand on the chin and a hesitant sweat drop looking at a panel of switches, no text",
+    "file": "assets/icons/ps-teacher-doubt.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-helpless": {
+    "kind": "vector",
+    "query": "a person sitting with arms down and a heavy gray cloud above, helplessness, no text",
+    "file": "assets/icons/ps-helpless.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-sad-dog": {
+    "kind": "vector",
+    "query": "a dog with its head down sitting under a small gray cloud, no text",
+    "file": "assets/icons/ps-sad-dog.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-harness": {
+    "kind": "vector",
+    "query": "a small dog wearing a soft harness standing still, no text",
+    "file": "assets/icons/ps-harness.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-low-box": {
+    "kind": "vector",
+    "query": "a box with two sides and a low barrier in the middle that a dog could easily jump over, no text",
+    "file": "assets/icons/ps-low-box.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-dog-still": {
+    "kind": "vector",
+    "query": "a dog lying down on the floor not moving, looking resigned, no text",
+    "file": "assets/icons/ps-dog-still.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-sim-prison": {
+    "kind": "vector",
+    "query": "a toy prison cell made of cardboard with drawn bars, a simulation, no text",
+    "file": "assets/icons/ps-sim-prison.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-prisoner": {
+    "kind": "vector",
+    "query": "a cartoon person in a striped outfit sitting quietly with head down, no text",
+    "file": "assets/icons/ps-prisoner.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-environment": {
+    "kind": "vector",
+    "query": "a person with a smile standing in a dark gloomy room that turns their face gray, environment changes people, no text",
+    "file": "assets/icons/ps-environment.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-acting": {
+    "kind": "vector",
+    "query": "a person holding a theatre mask in front of their face, acting, no text",
+    "file": "assets/icons/ps-acting.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-caged-animal": {
+    "kind": "vector",
+    "query": "a small monkey inside an open cage looking out, no text",
+    "file": "assets/icons/ps-caged-animal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-hug": {
+    "kind": "vector",
+    "query": "two people hugging warmly, simple cartoon, no text",
+    "file": "assets/icons/ps-hug.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-limits-fence": {
+    "kind": "vector",
+    "query": "a small fence with a green gate around a garden, clear limits, no text",
+    "file": "assets/icons/ps-limits-fence.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-consent-hand": {
+    "kind": "vector",
+    "query": "a hand signing a paper with a pen and a green check mark, no text",
+    "file": "assets/icons/ps-consent-hand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-tuskegee-file": {
+    "kind": "vector",
+    "query": "a medical file folder with a small magnifier and a question mark, no text",
+    "file": "assets/icons/ps-tuskegee-file.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-no-treatment": {
+    "kind": "vector",
+    "query": "a medicine bottle with a red cross over it next to an hourglass, no text",
+    "file": "assets/icons/ps-no-treatment.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-belmont": {
+    "kind": "vector",
+    "query": "a thick official report document with a golden seal and three bullet points, no text",
+    "file": "assets/icons/ps-belmont.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-consent-form": {
+    "kind": "vector",
+    "query": "a paper form with checkboxes and a signature line and a pen, no text",
+    "file": "assets/icons/ps-consent-form.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-safety-net": {
+    "kind": "vector",
+    "query": "a trapeze artist safely above a big safety net, no text",
+    "file": "assets/icons/ps-safety-net.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-baby-scared": {
+    "kind": "vector",
+    "query": "a small baby with big scared eyes hugging a blanket, no text",
+    "file": "assets/icons/ps-baby-scared.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-dignity": {
+    "kind": "vector",
+    "query": "a person standing tall with a golden halo of small stars above their head, dignity, no text",
+    "file": "assets/icons/ps-dignity.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-comment": {
+    "kind": "vector",
+    "query": "a speech bubble with a thumbs up and a heart, comments, no text",
+    "file": "assets/icons/ps-comment.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-photo-hopkins": {
+    "kind": "cutout",
+    "query": "Universidad Johns Hopkins",
+    "wiki": "Universidad Johns Hopkins",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Universidad Johns Hopkins",
+      "description": "universidad privada en Baltimore, Maryland, Estados Unidos"
+    },
+    "file": "assets/icons/ps-photo-hopkins.jpg"
+  },
+  "ps-photo-iowa": {
+    "kind": "cutout",
+    "query": "Iowa Old Capitol Building",
+    "wiki": "Iowa Old Capitol Building",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Iowa Old Capitol Building",
+      "description": "Building at the University of Iowa"
+    },
+    "file": "assets/icons/ps-photo-iowa.jpg"
+  },
+  "ps-photo-wisconsin": {
+    "kind": "cutout",
+    "query": "Universidad de Wisconsin-Madison",
+    "wiki": "Universidad de Wisconsin-Madison",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Universidad de Wisconsin-Madison",
+      "description": "universidad pública en Madison, Wisconsin, Estados Unidos"
+    },
+    "file": "assets/icons/ps-photo-wisconsin.jpg"
+  },
+  "ps-photo-yale": {
+    "kind": "cutout",
+    "query": "Harkness Tower",
+    "wiki": "Harkness Tower",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Harkness Tower",
+      "description": "Masonry tower at Yale University"
+    },
+    "file": "assets/icons/ps-photo-yale.jpg"
+  },
+  "ps-photo-stanford": {
+    "kind": "cutout",
+    "query": "Universidad Stanford",
+    "wiki": "Universidad Stanford",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Universidad Stanford",
+      "description": "universidad de investigación privada en Stanford, California, Estados Unidos"
+    },
+    "file": "assets/icons/ps-photo-stanford.jpg"
+  },
+  "ps-photo-penn": {
+    "kind": "cutout",
+    "query": "College Hall (University of Pennsylvania)",
+    "wiki": "College Hall (University of Pennsylvania)",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:College Hall (University of Pennsylvania)",
+      "description": "Academic, research in University City"
+    },
+    "file": "assets/icons/ps-photo-penn.jpg"
+  },
+  "ps-photo-rhesus": {
+    "kind": "cutout",
+    "query": "Rhesus macaque",
+    "wiki": "Rhesus macaque",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Rhesus macaque",
+      "description": "Species of Old World monkey"
+    },
+    "file": "assets/icons/ps-photo-rhesus.jpg"
+  },
+  "ps-photo-robbers": {
+    "kind": "cutout",
+    "query": "Robbers Cave State Park",
+    "wiki": "Robbers Cave State Park",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Robbers Cave State Park",
+      "description": "State park in Oklahoma, United States"
+    },
+    "file": "assets/icons/ps-photo-robbers.jpg"
+  },
+  "ps-photo-soga": {
+    "kind": "cutout",
+    "query": "Juego de la soga",
+    "wiki": "Tira y afloja",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Juego de la soga",
+      "description": "deporte que pone a dos equipos uno contra el otro"
+    },
+    "file": "assets/icons/ps-photo-soga.jpg"
+  },
+  "ps-photo-prision": {
+    "kind": "cutout",
+    "query": "Prisión",
+    "wiki": "Prisión",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Prisión",
+      "description": "institución que aloja legalmente personas que son privadas de la libertad"
+    },
+    "file": "assets/icons/ps-photo-prision.jpg"
+  },
+  "ps-photo-orfanato": {
+    "kind": "cutout",
+    "query": "Orfanato",
+    "wiki": "Orfanato",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Orfanato",
+      "description": "institución residencial dedicada al cuidado de huérfanos"
+    },
+    "file": "assets/icons/ps-photo-orfanato.jpg"
+  },
+  "ps-photo-sotano": {
+    "kind": "cutout",
+    "query": "Sótano",
+    "wiki": "Sótano",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sótano",
+      "description": "recinto ubicado debajo de la tierra"
+    },
+    "file": "assets/icons/ps-photo-sotano.jpg"
+  },
+  "ps-photo-nuremberg": {
+    "kind": "cutout",
+    "query": "Código de Núremberg",
+    "wiki": "Código de Núremberg",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Código de Núremberg",
+      "description": "principios en torno a la experimentación médica en seres humanos"
+    },
+    "file": "assets/icons/ps-photo-nuremberg.jpg"
+  },
+  "ps-photo-rata": {
+    "kind": "cutout",
+    "query": "Laboratory rat",
+    "wiki": "Laboratory rat",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Laboratory rat",
+      "description": "Rat used for scientific research"
+    },
+    "file": "assets/icons/ps-photo-rata.jpg"
+  },
+  "clip-microscope": {
+    "kind": "clip",
+    "query": "microscope laboratory close up",
+    "file": "assets/clips/clip-microscope.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikhail Nilov",
+      "url": "https://www.pexels.com/video/close-up-of-a-hand-adjusting-a-microscope-9430413/"
+    }
+  },
+  "clip-friends-talk": {
+    "kind": "clip",
+    "query": "friends talking at a table cafe",
+    "file": "assets/clips/clip-friends-talk.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "William  Fortunato",
+      "url": "https://www.pexels.com/video/friends-talking-with-a-cofffee-cup-6137848/"
+    }
+  },
+  "clip-classroom": {
+    "kind": "clip",
+    "query": "classroom students listening teacher",
+    "file": "assets/clips/clip-classroom.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Yan Krukau",
+      "url": "https://www.pexels.com/video/a-man-talking-to-his-students-8617069/"
+    }
+  },
+  "clip-start": {
+    "kind": "clip",
+    "query": "start",
+    "file": "assets/clips/clip-start.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Cihan KAHRAMAN",
+      "url": "https://www.pexels.com/video/mxgp-world-champions-motorcyles-start-18387838/"
+    }
+  },
+  "clip-debate": {
+    "kind": "clip",
+    "query": "debate",
+    "file": "assets/clips/clip-debate.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikhail Nilov",
+      "url": "https://www.pexels.com/video/people-having-meeting-on-conference-room-8863756/"
+    }
+  },
+  "clip-handshake": {
+    "kind": "clip",
+    "query": "business handshake close up",
+    "file": "assets/clips/clip-handshake.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kampus Production",
+      "url": "https://www.pexels.com/video/group-of-people-shaking-hands-8170593/"
+    }
+  },
+  "clip-support-hands": {
+    "kind": "clip",
+    "query": "support hands",
+    "file": "assets/clips/clip-support-hands.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "olia danilevich",
+      "url": "https://www.pexels.com/video/holding-hands-video-6973228/"
+    }
+  },
+  "clip-meeting-work": {
+    "kind": "clip",
+    "query": "business meeting office table presentation",
+    "file": "assets/clips/clip-meeting-work.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Vlada Karpovich",
+      "url": "https://www.pexels.com/video/business-people-talking-in-the-conference-room-7552430/"
+    }
+  },
+  "clip-doctor": {
+    "kind": "clip",
+    "query": "doctor",
+    "file": "assets/clips/clip-doctor.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/doctor-using-a-stethoscope-5867889/"
+    }
+  },
+  "clip-parliament": {
+    "kind": "clip",
+    "query": "parliament",
+    "file": "assets/clips/clip-parliament.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "George Morina",
+      "url": "https://www.pexels.com/video/houses-of-parliament-view-from-across-the-river-5372949/"
+    }
+  },
+  "clip-newspaper": {
+    "kind": "clip",
+    "query": "newspaper",
+    "file": "assets/clips/clip-newspaper.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mr Pixel",
+      "url": "https://www.pexels.com/video/newspapers-in-newsagent-12345283/"
+    }
+  },
+  "clip-hourglass": {
+    "kind": "clip",
+    "query": "hourglass sand time close up",
+    "file": "assets/clips/clip-hourglass.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Samer Daboul",
+      "url": "https://www.pexels.com/video/sand-inside-an-hourglass-1188938/"
+    }
+  },
+  "clip-family-walk": {
+    "kind": "clip",
+    "query": "grandparents parents and child family walking in park",
+    "file": "assets/clips/clip-family-walk.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Anastasia  Shuraeva",
+      "url": "https://www.pexels.com/video/family-walking-at-the-park-8944081/"
+    }
+  },
+  "clip-test-tube": {
+    "kind": "clip",
+    "query": "laboratory test tubes colorful",
+    "file": "assets/clips/clip-test-tube.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikhail Nilov",
+      "url": "https://www.pexels.com/video/close-up-of-test-tubes-on-a-test-tube-rack-9373595/"
+    }
+  },
+  "clip-old-books": {
+    "kind": "clip",
+    "query": "old books",
+    "file": "assets/clips/clip-old-books.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Attila Pergel",
+      "url": "https://www.pexels.com/video/close-up-of-a-male-hand-taking-a-book-from-a-shelf-11769112/"
+    }
+  },
+  "clip-library-shelves": {
+    "kind": "clip",
+    "query": "library shelves",
+    "file": "assets/clips/clip-library-shelves.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Konsta Nurkkala",
+      "url": "https://www.pexels.com/video/walking-in-modern-library-14543425/"
+    }
+  },
+  "clip-worried": {
+    "kind": "clip",
+    "query": "worried",
+    "file": "assets/clips/clip-worried.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "https://kaboompics.com/",
+      "url": "https://www.pexels.com/video/a-woman-thinking-while-looking-at-a-screen-7308012/"
+    }
+  },
+  "clip-toddler": {
+    "kind": "clip",
+    "query": "baby playing with toys on the floor daytime",
+    "file": "assets/clips/clip-toddler.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/baby-playing-with-wooden-toys-in-a-room-3676952/"
+    }
+  },
+  "clip-monkey": {
+    "kind": "clip",
+    "query": "baby monkey with mother close up",
+    "file": "assets/clips/clip-monkey.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Florian Delée",
+      "url": "https://www.pexels.com/video/close-up-of-baby-monkey-nursing-in-jungle-33835939/"
+    }
+  },
+  "clip-dog": {
+    "kind": "clip",
+    "query": "dog sitting looking at camera daytime",
+    "file": "assets/clips/clip-dog.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Brixiv",
+      "url": "https://www.pexels.com/video/dog-lying-on-grass-field-6462373/"
+    }
+  },
+  "clip-camp": {
+    "kind": "clip",
+    "query": "kids at summer camp forest daytime",
+    "file": "assets/clips/clip-camp.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/scouts-sitting-on-a-log-9304256/"
+    }
+  },
+  "clip-kindergarten": {
+    "kind": "clip",
+    "query": "children playing in kindergarten classroom daytime",
+    "file": "assets/clips/clip-kindergarten.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pavel Danilyuk",
+      "url": "https://www.pexels.com/video/children-playing-with-clay-in-the-classroom-8160138/"
+    }
+  },
+  "clip-lab-scientist": {
+    "kind": "clip",
+    "query": "scientist in white coat working in bright laboratory",
+    "file": "assets/clips/clip-lab-scientist.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikhail Nilov",
+      "url": "https://www.pexels.com/video/person-experimenting-in-laboratory-8852631/"
+    }
+  },
+  "clip-writing-notes": {
+    "kind": "clip",
+    "query": "hands writing notes on clipboard close up",
+    "file": "assets/clips/clip-writing-notes.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/a-person-writing-on-a-paper-6538450/"
+    }
+  },
+  "clip-baby-hand": {
+    "kind": "clip",
+    "query": "baby hand holding adult finger close up",
+    "file": "assets/clips/clip-baby-hand.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kampus Production",
+      "url": "https://www.pexels.com/video/newborn-baby-holding-the-finger-of-a-person-7918429/"
+    }
+  },
+  "clip-hug": {
+    "kind": "clip",
+    "query": "family hugging at home daytime",
+    "file": "assets/clips/clip-hug.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kampus Production",
+      "url": "https://www.pexels.com/video/mother-hugging-her-daughters-6940173/"
+    }
+  },
+  "clip-teacher-board": {
+    "kind": "clip",
+    "query": "teacher writing on whiteboard in classroom",
+    "file": "assets/clips/clip-teacher-board.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikhail Nilov",
+      "url": "https://www.pexels.com/video/girl-writing-on-a-whiteboard-8927544/"
+    }
+  },
+  "clip-raise-hands": {
+    "kind": "clip",
+    "query": "students raising hands in classroom",
+    "file": "assets/clips/clip-raise-hands.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/a-young-student-raising-her-hand-and-walking-to-the-front-of-the-class-8499667/"
+    }
+  },
+  "clip-sign-form": {
+    "kind": "clip",
+    "query": "signing a document with a pen close up",
+    "file": "assets/clips/clip-sign-form.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/person-putting-signature-on-a-document-5778854/"
+    }
+  },
+  "clip-courtroom": {
+    "kind": "clip",
+    "query": "judge gavel on wooden desk courtroom",
+    "file": "assets/clips/clip-courtroom.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "pickarick",
+      "url": "https://www.pexels.com/video/judge-using-a-gavel-6699964/"
+    }
+  },
+  "clip-children-run": {
+    "kind": "clip",
+    "query": "children running and playing in park daytime",
+    "file": "assets/clips/clip-children-run.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "olia danilevich",
+      "url": "https://www.pexels.com/video/kids-playing-on-the-outdoors-4982411/"
+    }
+  },
+  "clip-puzzle": {
+    "kind": "clip",
+    "query": "hands assembling jigsaw puzzle close up",
+    "file": "assets/clips/clip-puzzle.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "ROMAN ODINTSOV",
+      "url": "https://www.pexels.com/video/a-person-holding-a-puzzle-pieces-6813534/"
+    }
+  },
+  "clip-bench-alone": {
+    "kind": "clip",
+    "query": "person sitting alone on a bench in park daytime",
+    "file": "assets/clips/clip-bench-alone.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "vickie photography",
+      "url": "https://www.pexels.com/video/a-young-man-sitting-on-a-park-bench-and-looking-at-his-phone-15582593/"
+    }
+  },
+  "clip-crowd-day": {
+    "kind": "clip",
+    "query": "crowd walking daytime street",
+    "file": "assets/clips/clip-crowd-day.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Coverr",
+      "url": "https://www.pexels.com/video/black-and-white-video-of-a-busy-street-853946/"
+    }
+  },
+  "clip-therapy": {
+    "kind": "clip",
+    "query": "therapy session talking",
+    "file": "assets/clips/clip-therapy.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "SHVETS production",
+      "url": "https://www.pexels.com/video/therapist-talking-to-a-patient-7200769/"
+    }
+  },
+  "clip-letter-write": {
+    "kind": "clip",
+    "query": "writing a letter with a pen close up",
+    "file": "assets/clips/clip-letter-write.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Polina ⠀",
+      "url": "https://www.pexels.com/video/close-up-view-of-a-person-writing-on-a-pink-paper-6185666/"
+    }
+  }
+}
