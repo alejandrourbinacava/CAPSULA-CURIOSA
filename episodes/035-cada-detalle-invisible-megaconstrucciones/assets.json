@@ -1,0 +1,1238 @@
+{
+  "lb-calendar": {
+    "kind": "vector",
+    "query": "a wall calendar showing a year",
+    "file": "assets/icons/lb-calendar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calflip": {
+    "kind": "vector",
+    "query": "a wall calendar with many pages flying off, many years passing, no numbers",
+    "file": "assets/icons/lb-calflip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calcheck": {
+    "kind": "vector",
+    "query": "a calendar with a few months and a green check mark, no text",
+    "file": "assets/icons/lb-calcheck.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calpages": {
+    "kind": "vector",
+    "query": "a calendar with pages flying away, weeks and months passing",
+    "file": "assets/icons/lb-calpages.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-caldeadline": {
+    "kind": "vector",
+    "query": "a calendar with a red urgent deadline",
+    "file": "assets/icons/lb-caldeadline.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-torncal": {
+    "kind": "vector",
+    "query": "a torn old calendar page with a clock, history passing",
+    "file": "assets/icons/lb-torncal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calredcircle": {
+    "kind": "vector",
+    "query": "a calendar page with a big red circle around one day, spring leaves, no text",
+    "file": "assets/icons/lb-calredcircle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-collapse": {
+    "kind": "vector",
+    "query": "a building collapsing and crumbling down",
+    "file": "assets/icons/lb-collapse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-brokenchain": {
+    "kind": "vector",
+    "query": "a broken chain with one missing link piece",
+    "file": "assets/icons/lb-brokenchain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-rulebook": {
+    "kind": "vector",
+    "query": "a big rule book with a red ruler and a stamp, regulation, no text",
+    "file": "assets/icons/lb-rulebook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-magcheck": {
+    "kind": "vector",
+    "query": "a magnifying glass with a green check mark, verifying something",
+    "file": "assets/icons/lb-magcheck.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-magx": {
+    "kind": "vector",
+    "query": "a magnifying glass with a big red X, cannot verify, no text",
+    "file": "assets/icons/lb-magx.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-maghard": {
+    "kind": "vector",
+    "query": "a magnifying glass searching, hard to find",
+    "file": "assets/icons/lb-maghard.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-lesson": {
+    "kind": "vector",
+    "query": "a lightbulb above an open book with a star, an important lesson",
+    "file": "assets/icons/lb-lesson.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-siren": {
+    "kind": "vector",
+    "query": "a red flashing emergency siren light",
+    "file": "assets/icons/lb-siren.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-memorial": {
+    "kind": "vector",
+    "query": "a simple stone memorial with a small candle flame lit in front, no text",
+    "file": "assets/icons/lb-memorial.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-candle": {
+    "kind": "vector",
+    "query": "a single lit candle with a small ribbon at its base, remembrance, no text",
+    "file": "assets/icons/lb-candle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-lawbook": {
+    "kind": "vector",
+    "query": "a book of law with a judge gavel",
+    "file": "assets/icons/lb-lawbook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-shield": {
+    "kind": "vector",
+    "query": "a green shield with a check mark, protected",
+    "file": "assets/icons/lb-shield.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-toolbox": {
+    "kind": "vector",
+    "query": "a friendly toolbox with a wrench and a green check, no text",
+    "file": "assets/icons/lb-toolbox.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-engineers": {
+    "kind": "vector",
+    "query": "two friendly cartoon engineers in hard hats looking up together, no text",
+    "file": "assets/icons/lb-engineers.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-usamap": {
+    "kind": "vector",
+    "query": "a plain map silhouette of the United States in neutral green, no text, no flag",
+    "file": "assets/icons/lb-usamap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ukmap": {
+    "kind": "vector",
+    "query": "a simple map of the United Kingdom islands in neutral green and beige, no text, no flag",
+    "file": "assets/icons/lb-ukmap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-storm": {
+    "kind": "vector",
+    "query": "a cartoon dark storm cloud with a lightning bolt and rain, no text",
+    "file": "assets/icons/lb-storm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-heavy": {
+    "kind": "vector",
+    "query": "a person carrying a heavy weight of responsibility on the shoulders",
+    "file": "assets/icons/lb-heavy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulb": {
+    "kind": "vector",
+    "query": "a classic glowing incandescent light bulb",
+    "file": "assets/icons/lb-bulb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulbidea": {
+    "kind": "vector",
+    "query": "a glowing yellow lightbulb next to a magnifying glass, a key idea, no text",
+    "file": "assets/icons/lb-bulbidea.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-clocklong": {
+    "kind": "vector",
+    "query": "a big clock with a long winding trail behind it, lasting for a long time, no text",
+    "file": "assets/icons/lb-clocklong.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-hospital": {
+    "kind": "vector",
+    "query": "a hospital building with a red cross, healthcare",
+    "file": "assets/icons/lb-hospital.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-star": {
+    "kind": "vector",
+    "query": "a big golden star with an exclamation mark and sparkles, the most important thing, no text",
+    "file": "assets/icons/lb-star.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-strain": {
+    "kind": "vector",
+    "query": "a person straining with all their might against a huge heavy weight that does not move at all",
+    "file": "assets/icons/lb-strain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-warnflag": {
+    "kind": "vector",
+    "query": "a red warning flag",
+    "file": "assets/icons/lb-warnflag.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bridge": {
+    "kind": "vector",
+    "query": "a bridge connecting two groups",
+    "file": "assets/icons/lb-bridge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-bridge-falling": {
+    "kind": "vector",
+    "query": "a cartoon suspension bridge snapping in the middle with the deck tilting down toward the water, no people, no text",
+    "file": "assets/icons/mg-bridge-falling.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-walkways-stacked": {
+    "kind": "vector",
+    "query": "two walkways hanging one above the other from rods attached to the ceiling, no people, no text",
+    "file": "assets/icons/mg-walkways-stacked.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-tiny-detail": {
+    "kind": "vector",
+    "query": "a huge cartoon building with a tiny red circle drawn around one small bolt, a small detail, no text",
+    "file": "assets/icons/mg-tiny-detail.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-force-chain": {
+    "kind": "vector",
+    "query": "a chain of colorful arrows passing a force from a roof down through beams to the ground, no text",
+    "file": "assets/icons/mg-force-chain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-pass-pieces": {
+    "kind": "vector",
+    "query": "three connected steel beams with an arrow passing a load from one piece to the next, no text",
+    "file": "assets/icons/mg-pass-pieces.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-big-link": {
+    "kind": "vector",
+    "query": "a chain with one very big strong link highlighted, the biggest link, no text",
+    "file": "assets/icons/mg-big-link.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-crack-nail": {
+    "kind": "vector",
+    "query": "a very thin crack in a gray steel surface next to a human fingernail for scale, no text",
+    "file": "assets/icons/mg-crack-nail.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-thin-plate": {
+    "kind": "vector",
+    "query": "a thin flat metal plate bending slightly under a heavy block, too thin, no text",
+    "file": "assets/icons/mg-thin-plate.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-rod-swap": {
+    "kind": "vector",
+    "query": "a long metal rod being replaced by two short rods with a curved swap arrow, no text",
+    "file": "assets/icons/mg-rod-swap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-deck-girder": {
+    "kind": "vector",
+    "query": "a thin long bridge deck beam seen from the side, a slim steel girder, no text",
+    "file": "assets/icons/mg-deck-girder.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-wavy-bridge": {
+    "kind": "vector",
+    "query": "a cartoon bridge deck moving in big smooth waves up and down with motion lines, no text",
+    "file": "assets/icons/mg-wavy-bridge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-deck-twist": {
+    "kind": "vector",
+    "query": "a bridge deck twisting like a ribbon with rotation arrows, no text",
+    "file": "assets/icons/mg-deck-twist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-resonance-glass": {
+    "kind": "vector",
+    "query": "a wine glass shaking with sound wave lines around it and a crack starting, resonance, no text",
+    "file": "assets/icons/mg-resonance-glass.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-flutter-wing": {
+    "kind": "vector",
+    "query": "a flat bridge deck flapping like a flag in the wind with curved arrows, flutter, no text",
+    "file": "assets/icons/mg-flutter-wing.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-film-reel": {
+    "kind": "vector",
+    "query": "an old black and white film reel next to a vintage movie camera, no text",
+    "file": "assets/icons/mg-film-reel.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-eyebar-chain": {
+    "kind": "vector",
+    "query": "a chain of long flat steel bars with round eye holes linked together hanging in a curve, no text",
+    "file": "assets/icons/mg-eyebar-chain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-one-bar": {
+    "kind": "vector",
+    "query": "a long chain of steel bars with one single bar highlighted in a red circle, no text",
+    "file": "assets/icons/mg-one-bar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-crack-grows": {
+    "kind": "vector",
+    "query": "a crack in metal growing longer in three small steps with arrows, no text",
+    "file": "assets/icons/mg-crack-grows.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-no-spare": {
+    "kind": "vector",
+    "query": "an empty toolbox with no spare parts and a red cross, no text",
+    "file": "assets/icons/mg-no-spare.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-bar-breaks": {
+    "kind": "vector",
+    "query": "a single steel bar snapping in two with a small spark, no text",
+    "file": "assets/icons/mg-bar-breaks.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-panels": {
+    "kind": "vector",
+    "query": "big rectangular concrete wall panels stacked like cards, no text",
+    "file": "assets/icons/mg-panels.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-kitchen-gas": {
+    "kind": "vector",
+    "query": "a cartoon kitchen stove with a blue gas flame and a small puff of fire, no text",
+    "file": "assets/icons/mg-kitchen-gas.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-corner-panel": {
+    "kind": "vector",
+    "query": "a tower block with one wall panel on a corner floor popping outward, no text",
+    "file": "assets/icons/mg-corner-panel.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-no-wall-support": {
+    "kind": "vector",
+    "query": "a tower where one lower wall is missing and the floors above are tilting down, no text",
+    "file": "assets/icons/mg-no-wall-support.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-corner-collapse": {
+    "kind": "vector",
+    "query": "a tower block with the whole corner column of rooms falling down one on top of the other, no people, no text",
+    "file": "assets/icons/mg-corner-collapse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-weak-joints": {
+    "kind": "vector",
+    "query": "two concrete panels held together by a tiny thin bolt, no text",
+    "file": "assets/icons/mg-weak-joints.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-load-share": {
+    "kind": "vector",
+    "query": "a load arrow redistributing around a missing piece with green arrows going around it, no text",
+    "file": "assets/icons/mg-load-share.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-domino-building": {
+    "kind": "vector",
+    "query": "a row of tall blocks falling one after another like dominoes, no text",
+    "file": "assets/icons/mg-domino-building.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-hotel": {
+    "kind": "vector",
+    "query": "a tall modern hotel building with a flag pole, no text",
+    "file": "assets/icons/mg-hotel.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-hanging-rods": {
+    "kind": "vector",
+    "query": "thin vertical steel rods hanging down from a ceiling holding a platform, no text",
+    "file": "assets/icons/mg-hanging-rods.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-one-rod-through": {
+    "kind": "vector",
+    "query": "a single long rod passing through two stacked walkways, no text",
+    "file": "assets/icons/mg-one-rod-through.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-swap-arrows": {
+    "kind": "vector",
+    "query": "two curved arrows swapping places, a change, no text",
+    "file": "assets/icons/mg-swap-arrows.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-two-rods": {
+    "kind": "vector",
+    "query": "two separate rods each holding one walkway, no text",
+    "file": "assets/icons/mg-two-rods.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-innocent-face": {
+    "kind": "vector",
+    "query": "a cartoon smiling face with a small halo, innocent, no text",
+    "file": "assets/icons/mg-innocent-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-joint-double-load": {
+    "kind": "vector",
+    "query": "a metal connection joint under two heavy weights stacked on it, no text",
+    "file": "assets/icons/mg-joint-double-load.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-walkways-fall": {
+    "kind": "vector",
+    "query": "two walkways crashing down in a lobby, tilted and stacked, no people, no text",
+    "file": "assets/icons/mg-walkways-fall.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-license": {
+    "kind": "vector",
+    "query": "a professional license card with a big red cross stamped over it, no text",
+    "file": "assets/icons/mg-license.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-recalc": {
+    "kind": "vector",
+    "query": "a calculator with a circular arrow around it, recalculate, no text",
+    "file": "assets/icons/mg-recalc.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-building-icon": {
+    "kind": "vector",
+    "query": "a simple cartoon tall office building with many windows, no text",
+    "file": "assets/icons/mg-building-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-column-removed": {
+    "kind": "vector",
+    "query": "a building with one thick column removed and an empty gap, no text",
+    "file": "assets/icons/mg-column-removed.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-extra-floor": {
+    "kind": "vector",
+    "query": "a building with an extra floor being added on top with an up arrow, no text",
+    "file": "assets/icons/mg-extra-floor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-vibrating-machine": {
+    "kind": "vector",
+    "query": "a boxy machine with vibration lines around it, shaking, no text",
+    "file": "assets/icons/mg-vibrating-machine.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-open-sign": {
+    "kind": "vector",
+    "query": "an open shop door with a glowing red warning light beside it, no text",
+    "file": "assets/icons/mg-open-sign.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-bridge-stands": {
+    "kind": "vector",
+    "query": "a pedestrian bridge swaying but standing firm with a green check mark, no text",
+    "file": "assets/icons/mg-bridge-stands.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-sway-arrows": {
+    "kind": "vector",
+    "query": "a bridge deck with big left-right arrows, swaying sideways, no text",
+    "file": "assets/icons/mg-sway-arrows.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-hold-railing": {
+    "kind": "vector",
+    "query": "a cartoon person gripping a railing tightly with wide eyes, no text",
+    "file": "assets/icons/mg-hold-railing.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-closed-barrier": {
+    "kind": "vector",
+    "query": "a red and white barrier closing a bridge entrance with a closed sign, no text",
+    "file": "assets/icons/mg-closed-barrier.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-feet-sync": {
+    "kind": "vector",
+    "query": "rows of footprints stepping in the same rhythm with a beat line, no text",
+    "file": "assets/icons/mg-feet-sync.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-push-bridge": {
+    "kind": "vector",
+    "query": "tiny footsteps pushing a bridge sideways with arrows, no text",
+    "file": "assets/icons/mg-push-bridge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-damper": {
+    "kind": "vector",
+    "query": "a spring and piston shock absorber device, no text",
+    "file": "assets/icons/mg-damper.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-wobbly-nick": {
+    "kind": "vector",
+    "query": "a cartoon wobbly jelly bridge with a funny smiling face, no text",
+    "file": "assets/icons/mg-wobbly-nick.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-gusset-plate": {
+    "kind": "vector",
+    "query": "a flat steel plate with bolt holes joining several beams at a corner, no text",
+    "file": "assets/icons/mg-gusset-plate.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-thick-plate": {
+    "kind": "vector",
+    "query": "a thick strong steel plate with a green check mark, no text",
+    "file": "assets/icons/mg-thick-plate.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-concrete-layers": {
+    "kind": "vector",
+    "query": "a road deck with extra layers of gray concrete piled on top with a down arrow, no text",
+    "file": "assets/icons/mg-concrete-layers.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-last-drop": {
+    "kind": "vector",
+    "query": "a single water drop falling onto a chain link that is cracking, the last drop, no text",
+    "file": "assets/icons/mg-last-drop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-new-bridge": {
+    "kind": "vector",
+    "query": "a modern white curved concrete bridge, no text",
+    "file": "assets/icons/mg-new-bridge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-engineer-old": {
+    "kind": "vector",
+    "query": "a cartoon 1960s engineer with glasses holding a rolled blueprint, no text",
+    "file": "assets/icons/mg-engineer-old.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-stays": {
+    "kind": "vector",
+    "query": "thick diagonal cables from a tower to a road deck with a cutaway showing steel inside concrete, no text",
+    "file": "assets/icons/mg-stays.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-span-fall": {
+    "kind": "vector",
+    "query": "a long section of a road bridge falling down between two pillars, no people, no text",
+    "file": "assets/icons/mg-span-fall.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-condo-partial": {
+    "kind": "vector",
+    "query": "an apartment tower where a section of the building has fallen away, no people, no text",
+    "file": "assets/icons/mg-condo-partial.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-engineer-report": {
+    "kind": "vector",
+    "query": "a clipboard report with a red warning mark and a magnifier, no text",
+    "file": "assets/icons/mg-engineer-report.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-slab-damage": {
+    "kind": "vector",
+    "query": "a concrete slab with cracks and water stains seen in cross section, no text",
+    "file": "assets/icons/mg-slab-damage.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-leaky-waterproof": {
+    "kind": "vector",
+    "query": "a roof slab with a leaking membrane and water drops seeping through, no text",
+    "file": "assets/icons/mg-leaky-waterproof.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-rust-inside": {
+    "kind": "vector",
+    "query": "a cutaway of a concrete block showing a rusty steel bar inside, orange rust, no text",
+    "file": "assets/icons/mg-rust-inside.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-weak-inside": {
+    "kind": "vector",
+    "query": "a concrete column hollowed from inside with a crumbling center, no text",
+    "file": "assets/icons/mg-weak-inside.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-report": {
+    "kind": "vector",
+    "query": "a stack of papers with a red exclamation mark, warning report, no text",
+    "file": "assets/icons/mg-report.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-more-load": {
+    "kind": "vector",
+    "query": "a platform with boxes being added on top with a plus sign, no text",
+    "file": "assets/icons/mg-more-load.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-no-redundancy": {
+    "kind": "vector",
+    "query": "a single thin rope holding a big weight with a red cross, no backup, no text",
+    "file": "assets/icons/mg-no-redundancy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-first-fails": {
+    "kind": "vector",
+    "query": "a first rod snapping while the second one holds with a green check mark, no text",
+    "file": "assets/icons/mg-first-fails.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-no-chain-collapse": {
+    "kind": "vector",
+    "query": "a row of tall blocks standing with one block removed but the rest stay up, no text",
+    "file": "assets/icons/mg-no-chain-collapse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-no-luck": {
+    "kind": "vector",
+    "query": "a four leaf clover with a big red crossed-out circle over it, no text",
+    "file": "assets/icons/mg-no-luck.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-hidden-work": {
+    "kind": "vector",
+    "query": "an iceberg with a small visible tip and a huge hidden part under water, no text",
+    "file": "assets/icons/mg-hidden-work.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-checklist": {
+    "kind": "vector",
+    "query": "a clipboard with a checklist of green check marks, no text",
+    "file": "assets/icons/mg-checklist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-tape": {
+    "kind": "vector",
+    "query": "a yellow measuring tape rolled out, no text",
+    "file": "assets/icons/mg-tape.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-ask": {
+    "kind": "vector",
+    "query": "a cartoon person raising a hand with a question mark bubble, no text",
+    "file": "assets/icons/mg-ask.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-tacoma-icon": {
+    "kind": "vector",
+    "query": "a cartoon suspension bridge with the road deck twisted in a wave shape, no text",
+    "file": "assets/icons/mg-tacoma-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-eyebar-single": {
+    "kind": "vector",
+    "query": "a single long flat steel bar with a round eye hole at each end, no text",
+    "file": "assets/icons/mg-eyebar-single.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-tower-chap": {
+    "kind": "vector",
+    "query": "a gray tower block with one corner section missing, no people, no text",
+    "file": "assets/icons/mg-tower-chap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-hyatt-chap": {
+    "kind": "vector",
+    "query": "a hanging walkway held by a single thin rod from above, no people, no text",
+    "file": "assets/icons/mg-hyatt-chap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-store-chap": {
+    "kind": "vector",
+    "query": "a cartoon department store with a big sign pole and a tall facade, no text",
+    "file": "assets/icons/mg-store-chap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-truss-chap": {
+    "kind": "vector",
+    "query": "a steel truss bridge with crisscross beams, no text",
+    "file": "assets/icons/mg-truss-chap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-viaduct-chap": {
+    "kind": "vector",
+    "query": "a long elevated highway viaduct on tall concrete pillars with cable stays, no text",
+    "file": "assets/icons/mg-viaduct-chap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-condo-chap": {
+    "kind": "vector",
+    "query": "a tall beachfront apartment tower with palm trees and a sunset, no text",
+    "file": "assets/icons/mg-condo-chap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-common-chap": {
+    "kind": "vector",
+    "query": "three different broken structures connected by one thick line, common cause, no text",
+    "file": "assets/icons/mg-common-chap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "mg-photo-colgante": {
+    "kind": "cutout",
+    "query": "Puente colgante",
+    "wiki": "Puente colgante",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Puente colgante",
+      "description": "tipo de puente"
+    },
+    "file": "assets/icons/mg-photo-colgante.jpg"
+  },
+  "mg-photo-puente": {
+    "kind": "cutout",
+    "query": "Puente",
+    "wiki": "Puente",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Puente",
+      "description": "estructura construida para que una ruta de transporte pueda cruzar por encima de un obstáculo"
+    },
+    "file": "assets/icons/mg-photo-puente.jpg"
+  },
+  "mg-photo-golden": {
+    "kind": "cutout",
+    "query": "Puente Golden Gate",
+    "wiki": "Puente Golden Gate",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Puente Golden Gate",
+      "description": "puente colgante situado en la bahía de San Francisco, California, Estados Unidos"
+    },
+    "file": "assets/icons/mg-photo-golden.jpg"
+  },
+  "mg-photo-ingciv": {
+    "kind": "cutout",
+    "query": "Ingeniería civil",
+    "wiki": "Ingeniería civil",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Ingeniería civil",
+      "description": "rama de la ingeniería"
+    },
+    "file": "assets/icons/mg-photo-ingciv.jpg"
+  },
+  "mg-photo-tacoma": {
+    "kind": "cutout",
+    "query": "Puente de Tacoma Narrows",
+    "wiki": "Puente de Tacoma Narrows",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Puente de Tacoma Narrows",
+      "description": "puente del estado de Washington, Estados Unidos"
+    },
+    "file": "assets/icons/mg-photo-tacoma.jpg"
+  },
+  "mg-photo-ohio": {
+    "kind": "cutout",
+    "query": "Río Ohio",
+    "wiki": "Río Ohio",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Río Ohio",
+      "description": "río de los Estados Unidos"
+    },
+    "file": "assets/icons/mg-photo-ohio.jpg"
+  },
+  "mg-photo-london": {
+    "kind": "cutout",
+    "query": "Londres",
+    "wiki": "Londres",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Londres",
+      "description": "capital de Inglaterra y del Reino Unido"
+    },
+    "file": "assets/icons/mg-photo-london.jpg"
+  },
+  "mg-photo-milenio": {
+    "kind": "cutout",
+    "query": "Millennium Bridge",
+    "wiki": "Millennium Bridge, London",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Millennium Bridge, London",
+      "description": "Bridge over the River Thames in England"
+    },
+    "file": "assets/icons/mg-photo-milenio.jpg"
+  },
+  "mg-photo-seul": {
+    "kind": "cutout",
+    "query": "Seúl",
+    "wiki": "Seúl",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Seúl",
+      "description": "capital de Corea del Sur"
+    },
+    "file": "assets/icons/mg-photo-seul.jpg"
+  },
+  "mg-photo-escalera": {
+    "kind": "cutout",
+    "query": "Escalera mecánica",
+    "wiki": "Escalera mecánica",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Escalera mecánica",
+      "description": "dispositivo de transporte"
+    },
+    "file": "assets/icons/mg-photo-escalera.jpg"
+  },
+  "mg-photo-aire": {
+    "kind": "cutout",
+    "query": "Acondicionamiento de aire",
+    "wiki": "Acondicionamiento de aire",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Acondicionamiento de aire",
+      "description": "tratamiento del aire de un lugar para convertirlo en temperatura agradable"
+    },
+    "file": "assets/icons/mg-photo-aire.jpg"
+  },
+  "mg-photo-corrosion": {
+    "kind": "cutout",
+    "query": "Corrosión",
+    "wiki": "Corrosión",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Corrosión",
+      "description": "deterioro de un material a consecuencia de un ataque electroquímico por su entorno"
+    },
+    "file": "assets/icons/mg-photo-corrosion.jpg"
+  },
+  "mg-photo-oxido": {
+    "kind": "cutout",
+    "query": "Óxido",
+    "wiki": "Óxido",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Óxido",
+      "description": "compuesto binario que contiene uno o varios átomos de oxígeno y otros elementos"
+    },
+    "file": "assets/icons/mg-photo-oxido.jpg"
+  },
+  "mg-photo-tunel": {
+    "kind": "cutout",
+    "query": "Túnel de viento",
+    "wiki": "Túnel de viento",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Túnel de viento",
+      "description": ""
+    },
+    "file": "assets/icons/mg-photo-tunel.jpg"
+  },
+  "mg-photo-morandi": {
+    "kind": "cutout",
+    "query": "Puente Morandi",
+    "wiki": "Puente Morandi",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Puente Morandi",
+      "description": "antiguo puente de Italia"
+    },
+    "file": "assets/icons/mg-photo-morandi.jpg"
+  },
+  "mg-photo-minneapolis": {
+    "kind": "cutout",
+    "query": "Minneapolis",
+    "wiki": "Minneapolis",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Minneapolis",
+      "description": "sede del condado de Hennepin y ciudad más poblada del estado de Minnesota, Estados Unidos"
+    },
+    "file": "assets/icons/mg-photo-minneapolis.jpg"
+  },
+  "mg-photo-tornillo": {
+    "kind": "cutout",
+    "query": "Tornillo",
+    "wiki": "Tornillo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Tornillo",
+      "description": "elemento metálico utilizado en la fijación de unas piezas con otras en un conjunto"
+    },
+    "file": "assets/icons/mg-photo-tornillo.jpg"
+  },
+  "clip-construction": {
+    "kind": "clip",
+    "query": "construction workers building site daytime",
+    "file": "assets/clips/clip-construction.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Usman AbdulrasheedGambo",
+      "url": "https://www.pexels.com/video/construction-worker-securing-scaffolding-cables-32244801/"
+    }
+  },
+  "clip-engineers": {
+    "kind": "clip",
+    "query": "engineers reviewing plans on a construction site",
+    "file": "assets/clips/clip-engineers.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikael Blomkvist",
+      "url": "https://www.pexels.com/video/a-man-and-woman-holding-a-blueprint-while-looking-at-construction-site-8964796/"
+    }
+  },
+  "clip-apartment": {
+    "kind": "clip",
+    "query": "apartment building exterior",
+    "file": "assets/clips/clip-apartment.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nothing Ahead",
+      "url": "https://www.pexels.com/video/modern-high-rise-buildings-exterior-view-35082942/"
+    }
+  },
+  "clip-shopping": {
+    "kind": "clip",
+    "query": "shopping mall interior people",
+    "file": "assets/clips/clip-shopping.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Anvar Tushakov",
+      "url": "https://www.pexels.com/video/people-spending-leisure-time-in-the-mall-4750090/"
+    }
+  },
+  "clip-skyscrapers": {
+    "kind": "clip",
+    "query": "skyscrapers city daytime",
+    "file": "assets/clips/clip-skyscrapers.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "CityXcape",
+      "url": "https://www.pexels.com/video/skyscrapers-in-minneapolis-12731888/"
+    }
+  },
+  "clip-crowd-day": {
+    "kind": "clip",
+    "query": "crowd walking daytime street",
+    "file": "assets/clips/clip-crowd-day.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Coverr",
+      "url": "https://www.pexels.com/video/black-and-white-video-of-a-busy-street-853946/"
+    }
+  },
+  "clip-wind-turbines": {
+    "kind": "clip",
+    "query": "wind turbines field",
+    "file": "assets/clips/clip-wind-turbines.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Altaf Shah",
+      "url": "https://www.pexels.com/video/aerial-view-of-wind-turbines-in-vast-landscape-34411915/"
+    }
+  },
+  "clip-airplane": {
+    "kind": "clip",
+    "query": "airplane wing above clouds",
+    "file": "assets/clips/clip-airplane.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Altaf Shah",
+      "url": "https://www.pexels.com/video/aerial-view-of-plane-wing-above-clouds-30512228/"
+    }
+  },
+  "clip-clouds": {
+    "kind": "clip",
+    "query": "white clouds blue sky",
+    "file": "assets/clips/clip-clouds.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Larkkid Dung",
+      "url": "https://www.pexels.com/video/majestic-cumulus-clouds-in-clear-blue-sky-33704412/"
+    }
+  },
+  "clip-sunrise": {
+    "kind": "clip",
+    "query": "orange sunset silhouette",
+    "file": "assets/clips/clip-sunrise.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Sosa Films",
+      "url": "https://www.pexels.com/video/sun-beautiful-sunset-4023788/"
+    }
+  },
+  "clip-mg-bridge-traffic": {
+    "kind": "clip",
+    "query": "cars driving across a bridge sunny day",
+    "file": "assets/clips/clip-mg-bridge-traffic.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "fish socks",
+      "url": "https://www.pexels.com/video/driving-across-mackinac-bridge-in-rain-34622576/"
+    }
+  },
+  "clip-mg-rust": {
+    "kind": "clip",
+    "query": "rusty corroded metal surface close up",
+    "file": "assets/clips/clip-mg-rust.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/rustic-texture-surface-close-up-28682717/"
+    }
+  },
+  "clip-mg-inspector": {
+    "kind": "clip",
+    "query": "engineer in hard hat inspecting a structure sunny",
+    "file": "assets/clips/clip-mg-inspector.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikael Blomkvist",
+      "url": "https://www.pexels.com/video/a-man-walking-on-the-bridge-8964730/"
+    }
+  },
+  "clip-mg-crowd-bridge": {
+    "kind": "clip",
+    "query": "people walking across a pedestrian bridge daytime",
+    "file": "assets/clips/clip-mg-crowd-bridge.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/a-man-walking-under-a-bridge-with-a-skateboard-4777842/"
+    }
+  },
+  "clip-mg-dance": {
+    "kind": "clip",
+    "query": "elegant couples dancing waltz in a bright ballroom",
+    "file": "assets/clips/clip-mg-dance.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "David Pickup |  Advertising & Marketing  🇬🇧",
+      "url": "https://www.pexels.com/video/elegant-ballroom-dancing-event-in-grand-venue-30801411/"
+    }
+  },
+  "clip-mg-highway": {
+    "kind": "clip",
+    "query": "highway traffic daytime aerial view",
+    "file": "assets/clips/clip-mg-highway.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Griffin Wooldridge",
+      "url": "https://www.pexels.com/video/aerial-shot-of-a-landscape-5872136/"
+    }
+  },
+  "clip-mg-river": {
+    "kind": "clip",
+    "query": "river flowing under a bridge daytime",
+    "file": "assets/clips/clip-mg-river.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nelson Axigoth",
+      "url": "https://www.pexels.com/video/raindrops-on-a-water-canal-5784640/"
+    }
+  },
+  "clip-mg-bridge-aerial": {
+    "kind": "clip",
+    "query": "suspension bridge aerial view sunny",
+    "file": "assets/clips/clip-mg-bridge-aerial.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "1Fred Films",
+      "url": "https://www.pexels.com/video/bridge-river-sunrise-19065741/"
+    }
+  },
+  "clip-mg-hotel": {
+    "kind": "clip",
+    "query": "hotel lobby interior bright atrium",
+    "file": "assets/clips/clip-mg-hotel.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Atif Dar",
+      "url": "https://www.pexels.com/video/modern-atrium-skylight-in-daylight-view-34440344/"
+    }
+  },
+  "clip-mg-crack": {
+    "kind": "clip",
+    "query": "crack in concrete wall close up",
+    "file": "assets/clips/clip-mg-crack.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Monstera Production",
+      "url": "https://www.pexels.com/video/a-crack-on-the-wall-7830155/"
+    }
+  },
+  "clip-mg-blueprint": {
+    "kind": "clip",
+    "query": "architect reviewing building blueprints",
+    "file": "assets/clips/clip-mg-blueprint.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/person-explaining-a-plan-5923414/"
+    }
+  },
+  "clip-mg-miami": {
+    "kind": "clip",
+    "query": "miami beach apartment buildings aerial daytime",
+    "file": "assets/clips/clip-mg-miami.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikhail Nilov",
+      "url": "https://www.pexels.com/video/aerial-shot-of-city-buildings-9431491/"
+    }
+  },
+  "clip-mg-genoa": {
+    "kind": "clip",
+    "query": "genoa italy city port aerial daytime",
+    "file": "assets/clips/clip-mg-genoa.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Cristian Manieri",
+      "url": "https://www.pexels.com/video/aerial-view-of-genoa-port-at-sunset-34631355/"
+    }
+  }
+}
