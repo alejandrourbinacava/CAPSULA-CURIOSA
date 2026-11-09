@@ -33,3 +33,6 @@ public/assets/gifs/
 public/assets/archive/
 public/icons/
 public/media/
+
+# generado por 02s en cada render (no versionar: provoca carreras entre renders paralelos)
+public/active/scenes.json
