@@ -1,0 +1,1418 @@
+{
+  "lb-bug": {
+    "kind": "vector",
+    "query": "a red software bug error icon with an ex x",
+    "file": "assets/icons/lb-bug.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-code": {
+    "kind": "vector",
+    "query": "a few glowing lines of programming code x",
+    "file": "assets/icons/lb-code.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-engineer": {
+    "kind": "vector",
+    "query": "a cheerful engineer in a hard hat easily x",
+    "file": "assets/icons/lb-engineer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-king": {
+    "kind": "vector",
+    "query": "a medieval king with a crown holding a g x",
+    "file": "assets/icons/lb-king.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-retrorocket": {
+    "kind": "vector",
+    "query": "a retro space rocket launching 1960s spa x",
+    "file": "assets/icons/lb-retrorocket.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-alarmbell": {
+    "kind": "vector",
+    "query": "a red alarm bell ringing loudly inside a x",
+    "file": "assets/icons/lb-alarmbell.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-oldship": {
+    "kind": "vector",
+    "query": "an old european sailing ship arriving",
+    "file": "assets/icons/lb-oldship.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-radiation": {
+    "kind": "vector",
+    "query": "a glowing green radiation symbol with ra x",
+    "file": "assets/icons/lb-radiation.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-telescope": {
+    "kind": "vector",
+    "query": "an old brass telescope on a wooden tripo x",
+    "file": "assets/icons/lb-telescope.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-stopwatch": {
+    "kind": "vector",
+    "query": "a classic stopwatch timer",
+    "file": "assets/icons/lb-stopwatch.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-gauge": {
+    "kind": "vector",
+    "query": "a simple gauge dial with the needle movi x",
+    "file": "assets/icons/lb-gauge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-speedo": {
+    "kind": "vector",
+    "query": "speedometer gauge dial",
+    "file": "assets/icons/lb-speedo.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-trophy": {
+    "kind": "vector",
+    "query": "a gold winner trophy",
+    "file": "assets/icons/lb-trophy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-shrug": {
+    "kind": "vector",
+    "query": "shrugging person meme style",
+    "file": "assets/icons/lb-shrug.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-wallet": {
+    "kind": "vector",
+    "query": "an open empty wallet no money left",
+    "file": "assets/icons/lb-wallet.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-morse": {
+    "kind": "vector",
+    "query": "a vintage brass morse telegraph key on a x",
+    "file": "assets/icons/lb-morse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-camera": {
+    "kind": "vector",
+    "query": "video camera",
+    "file": "assets/icons/lb-camera.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calpage": {
+    "kind": "vector",
+    "query": "a calendar page with a big red circle ar x",
+    "file": "assets/icons/lb-calpage.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-crowd": {
+    "kind": "vector",
+    "query": "a crowd of tiny diverse humans standing x",
+    "file": "assets/icons/lb-crowd.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-sun": {
+    "kind": "vector",
+    "query": "a small sun coming out from behind a clo x",
+    "file": "assets/icons/lb-sun.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-oldpc": {
+    "kind": "vector",
+    "query": "a chunky beige 1980s desktop computer wi x",
+    "file": "assets/icons/lb-oldpc.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-fastrocket": {
+    "kind": "vector",
+    "query": "a fast rocket arrow shooting upwards wit x",
+    "file": "assets/icons/lb-fastrocket.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-brokenchart": {
+    "kind": "vector",
+    "query": "a laptop screen showing a broken chart c x",
+    "file": "assets/icons/lb-brokenchart.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-skyline": {
+    "kind": "vector",
+    "query": "a harbor skyline with tall skyscrapers a x",
+    "file": "assets/icons/lb-skyline.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-storm": {
+    "kind": "vector",
+    "query": "a dark storm cloud with lightning and a x",
+    "file": "assets/icons/lb-storm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-linegraph": {
+    "kind": "vector",
+    "query": "a line graph spiking sharply upward off x",
+    "file": "assets/icons/lb-linegraph.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-night": {
+    "kind": "vector",
+    "query": "a person looking up at a starry night sk x",
+    "file": "assets/icons/lb-night.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-docs": {
+    "kind": "vector",
+    "query": "a document being copied into many identi x",
+    "file": "assets/icons/lb-docs.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-sam": {
+    "kind": "vector",
+    "query": "a simple map of north and south america x",
+    "file": "assets/icons/lb-sam.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-scales": {
+    "kind": "vector",
+    "query": "justice scales",
+    "file": "assets/icons/lb-scales.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-warning": {
+    "kind": "vector",
+    "query": "a yellow warning triangle with an exclamation mark",
+    "file": "assets/icons/lb-warning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-magnifier": {
+    "kind": "vector",
+    "query": "a magnifying glass with a green check mark, verifying something",
+    "file": "assets/icons/lb-magnifier.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulbbook": {
+    "kind": "vector",
+    "query": "a lightbulb above an open book with a star, an important lesson",
+    "file": "assets/icons/lb-bulbbook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calflip": {
+    "kind": "vector",
+    "query": "a wall calendar with many pages flying off, many years passing, no numbers",
+    "file": "assets/icons/lb-calflip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calendar": {
+    "kind": "vector",
+    "query": "a wall calendar showing a year",
+    "file": "assets/icons/lb-calendar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-star": {
+    "kind": "vector",
+    "query": "a big golden star with an exclamation mark and sparkles, the most important thing, no text",
+    "file": "assets/icons/lb-star.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-stophand": {
+    "kind": "vector",
+    "query": "a big red open stop hand sign, simple, no text",
+    "file": "assets/icons/lb-stophand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-shield": {
+    "kind": "vector",
+    "query": "a green shield with a check mark, protected",
+    "file": "assets/icons/lb-shield.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-lawbook": {
+    "kind": "vector",
+    "query": "a book of law with a judge gavel",
+    "file": "assets/icons/lb-lawbook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-curious": {
+    "kind": "vector",
+    "query": "a curious surprised face with wide eyes",
+    "file": "assets/icons/lb-curious.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-questionarmy": {
+    "kind": "vector",
+    "query": "a big red question mark over a crowd silhouette",
+    "file": "assets/icons/lb-questionarmy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-longroad": {
+    "kind": "vector",
+    "query": "a long winding road with many kilometer markers",
+    "file": "assets/icons/lb-longroad.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulb": {
+    "kind": "vector",
+    "query": "a classic glowing incandescent light bulb",
+    "file": "assets/icons/lb-bulb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-candle": {
+    "kind": "vector",
+    "query": "a candle flame gently blowing out",
+    "file": "assets/icons/lb-candle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-dollar": {
+    "kind": "vector",
+    "query": "a big green dollar sign symbol",
+    "file": "assets/icons/lb-dollar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-europe": {
+    "kind": "vector",
+    "query": "a map of Europe divided into countries with clear borders",
+    "file": "assets/icons/lb-europe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-fork": {
+    "kind": "vector",
+    "query": "a fork in the road, one path think, one path rush, no text",
+    "file": "assets/icons/lb-fork.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-urgency": {
+    "kind": "vector",
+    "query": "a ringing alarm clock, hurry up urgency",
+    "file": "assets/icons/lb-urgency.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-units-swap": {
+    "kind": "vector",
+    "query": "a ruler marked in inches placed next to a ruler marked in centimeters, no text",
+    "file": "assets/icons/en-units-swap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-wrong-piece": {
+    "kind": "vector",
+    "query": "a puzzle piece placed in the wrong slot with a small red cross, no text",
+    "file": "assets/icons/en-wrong-piece.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-idea-key": {
+    "kind": "vector",
+    "query": "a golden key standing in front of a glowing light bulb, a key idea, no text",
+    "file": "assets/icons/en-idea-key.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-barrier": {
+    "kind": "vector",
+    "query": "a tall solid green barrier wall in front of a small cliff edge, no text",
+    "file": "assets/icons/en-barrier.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-leap": {
+    "kind": "vector",
+    "query": "a cartoon person jumping over a barrier fence skipping it, no text",
+    "file": "assets/icons/en-leap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-fallen-barrier": {
+    "kind": "vector",
+    "query": "a barrier gate lying fallen on the ground with a small hand reaching, no text",
+    "file": "assets/icons/en-fallen-barrier.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-heavy-top": {
+    "kind": "vector",
+    "query": "a cartoon wooden ship with a huge tall heavy golden deck on top tilting, no text",
+    "file": "assets/icons/en-heavy-top.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-two-gundecks": {
+    "kind": "vector",
+    "query": "a wooden ship cross-section with two full decks of small cannons, no text",
+    "file": "assets/icons/en-two-gundecks.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-ballast-stones": {
+    "kind": "vector",
+    "query": "a pile of grey round ballast stones in the bottom of a wooden ship hull, no text",
+    "file": "assets/icons/en-ballast-stones.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-sweden-map": {
+    "kind": "vector",
+    "query": "a simple map of Scandinavia in neutral beige with a small red pin on the east coast, no text, no flag",
+    "file": "assets/icons/en-sweden-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-swaying-ship": {
+    "kind": "vector",
+    "query": "a wooden ship leaning heavily to one side with curved motion lines, no text",
+    "file": "assets/icons/en-swaying-ship.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-nobody-dares": {
+    "kind": "vector",
+    "query": "a nervous small cartoon courtier with trembling hands standing before a golden crown, afraid to speak, no text",
+    "file": "assets/icons/en-nobody-dares.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-wind-gust": {
+    "kind": "vector",
+    "query": "a big swirl of strong wind gust lines blowing sideways, no text",
+    "file": "assets/icons/en-wind-gust.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-water-gunport": {
+    "kind": "vector",
+    "query": "a wooden ship side with open small square hatches and blue water pouring in, no text",
+    "file": "assets/icons/en-water-gunport.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-salvage-crane": {
+    "kind": "vector",
+    "query": "a big crane lifting an old wooden ship hull out of the water, no text",
+    "file": "assets/icons/en-salvage-crane.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-liner-ship": {
+    "kind": "vector",
+    "query": "a big ocean liner ship with four funnels sailing, simple doodle, no text",
+    "file": "assets/icons/en-liner-ship.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-error-list": {
+    "kind": "vector",
+    "query": "a clipboard with several red cross marks in a column, no text",
+    "file": "assets/icons/en-error-list.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-half-pie": {
+    "kind": "vector",
+    "query": "a round pie chart half filled in green and half empty white, no text",
+    "file": "assets/icons/en-half-pie.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-old-rulebook": {
+    "kind": "vector",
+    "query": "a yellowed dusty old rulebook with cobwebs, outdated, no text",
+    "file": "assets/icons/en-old-rulebook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-ice-warning": {
+    "kind": "vector",
+    "query": "a small paper telegram with a blue snowflake symbol, an ice warning, no text",
+    "file": "assets/icons/en-ice-warning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-jet-silhouette": {
+    "kind": "vector",
+    "query": "a classic 1950s four-engine jet airliner in side view, simple doodle, no text",
+    "file": "assets/icons/en-jet-silhouette.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-broken-plane": {
+    "kind": "vector",
+    "query": "a jet airliner broken into two pieces with a red crack mark, no text",
+    "file": "assets/icons/en-broken-plane.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-fuselage": {
+    "kind": "vector",
+    "query": "a long aluminum airplane fuselage tube section with small round windows, no text",
+    "file": "assets/icons/en-fuselage.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-water-tank": {
+    "kind": "vector",
+    "query": "a big glass water tank with a metal tube section submerged inside, no text",
+    "file": "assets/icons/en-water-tank.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-crack-window": {
+    "kind": "vector",
+    "query": "an airplane window with square corners and a small crack starting at a corner, no text",
+    "file": "assets/icons/en-crack-window.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-square-window": {
+    "kind": "vector",
+    "query": "a plane window with sharp square corners, no text",
+    "file": "assets/icons/en-square-window.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-tired-metal": {
+    "kind": "vector",
+    "query": "a tired cartoon metal sheet with a sleepy face and small cracks, metal fatigue, no text",
+    "file": "assets/icons/en-tired-metal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-round-window": {
+    "kind": "vector",
+    "query": "a plane window with smooth round corners and a green check mark, no text",
+    "file": "assets/icons/en-round-window.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-skywalk": {
+    "kind": "vector",
+    "query": "two suspended glass walkways crossing a hotel atrium one above the other, no text",
+    "file": "assets/icons/en-skywalk.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-party-dance": {
+    "kind": "vector",
+    "query": "a few cartoon people dancing at a party with music notes and balloons, no text",
+    "file": "assets/icons/en-party-dance.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-hanging-walkways": {
+    "kind": "vector",
+    "query": "two suspended hotel walkways hanging one above the other from rods, no text",
+    "file": "assets/icons/en-hanging-walkways.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-collapse-walkway": {
+    "kind": "vector",
+    "query": "a bent cracked walkway tilting downward, simple, no text",
+    "file": "assets/icons/en-collapse-walkway.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-long-rods": {
+    "kind": "vector",
+    "query": "one long steel rod passing through two stacked beams, no text",
+    "file": "assets/icons/en-long-rods.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-two-rod-sets": {
+    "kind": "vector",
+    "query": "two separate steel rods each holding a separate beam, one hanging from the other, no text",
+    "file": "assets/icons/en-two-rod-sets.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-joint-connection": {
+    "kind": "vector",
+    "query": "a steel box beam connection with a nut and washer bending under a heavy double load with a red arrow, no text",
+    "file": "assets/icons/en-joint-connection.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-approve-no-calc": {
+    "kind": "vector",
+    "query": "a blueprint with a big green approved stamp next to a crossed-out calculator, no text",
+    "file": "assets/icons/en-approve-no-calc.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-shuttle-icon": {
+    "kind": "vector",
+    "query": "a space shuttle orbiter attached to an orange tank and two white boosters on the launch pad, no text",
+    "file": "assets/icons/en-shuttle-icon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-teacher-space": {
+    "kind": "vector",
+    "query": "a friendly teacher with a chalkboard showing a small drawing of a space shuttle, no text",
+    "file": "assets/icons/en-teacher-space.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-thermo-zero": {
+    "kind": "vector",
+    "query": "a thermometer with the level just slightly above the zero mark, cold blue ice, no text",
+    "file": "assets/icons/en-thermo-zero.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-stiff-rubber": {
+    "kind": "vector",
+    "query": "a black rubber ring turned hard and stiff with small cracks, no text",
+    "file": "assets/icons/en-stiff-rubber.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-gas-leak": {
+    "kind": "vector",
+    "query": "a joint between two metal tubes with a puff of hot gas leaking, no text",
+    "file": "assets/icons/en-gas-leak.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-no-launch": {
+    "kind": "vector",
+    "query": "a rocket on a launch pad with a big red stop sign in front, no text",
+    "file": "assets/icons/en-no-launch.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-managers-go": {
+    "kind": "vector",
+    "query": "managers in suits pointing forward with a big green go arrow, no text",
+    "file": "assets/icons/en-managers-go.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-physicist": {
+    "kind": "vector",
+    "query": "a friendly cartoon physicist with glasses holding a small piece of rubber, no text",
+    "file": "assets/icons/en-physicist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-rubber-ice-glass": {
+    "kind": "vector",
+    "query": "a clear glass of ice water with a small black rubber ring being pressed in a clamp, no text",
+    "file": "assets/icons/en-rubber-ice-glass.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-therac-machine": {
+    "kind": "vector",
+    "query": "a medical radiotherapy machine with a movable arm over a treatment bed, simple doodle, no text",
+    "file": "assets/icons/en-therac-machine.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-confused-computer": {
+    "kind": "vector",
+    "query": "a cartoon computer monitor with a dizzy confused face and swirling lines, no text",
+    "file": "assets/icons/en-confused-computer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-wrong-beam": {
+    "kind": "vector",
+    "query": "a machine nozzle emitting a very thick bright beam with a red exclamation mark, no text",
+    "file": "assets/icons/en-wrong-beam.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-hardware-lock": {
+    "kind": "vector",
+    "query": "a metal safety latch lock physically bolted onto a machine, hardware interlock, no text",
+    "file": "assets/icons/en-hardware-lock.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-myopic-telescope": {
+    "kind": "vector",
+    "query": "a cartoon space telescope with a worried squinting face and a blurry swirl, no text",
+    "file": "assets/icons/en-myopic-telescope.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-blurry-photo": {
+    "kind": "vector",
+    "query": "a blurry out of focus photo of a galaxy spiral, no text",
+    "file": "assets/icons/en-blurry-photo.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-big-mirror": {
+    "kind": "vector",
+    "query": "a big round shiny telescope mirror with a gold reflection, no text",
+    "file": "assets/icons/en-big-mirror.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-wrong-shape": {
+    "kind": "vector",
+    "query": "a flat disc beside a curved disc with a red cross on the flat one, no text",
+    "file": "assets/icons/en-wrong-shape.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-micron-gap": {
+    "kind": "vector",
+    "query": "a tiny gap between two curved lines highly magnified with an arrow, no text",
+    "file": "assets/icons/en-micron-gap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-measuring-instrument": {
+    "kind": "vector",
+    "query": "a tall measuring instrument with a lens and a dial on a bench, no text",
+    "file": "assets/icons/en-measuring-instrument.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-shifted-piece": {
+    "kind": "vector",
+    "query": "a small metal piece slightly shifted out of alignment with a tiny arrow, no text",
+    "file": "assets/icons/en-shifted-piece.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-test-results": {
+    "kind": "vector",
+    "query": "a paper with a graph and a red warning mark pointing at the odd result, no text",
+    "file": "assets/icons/en-test-results.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-trust-tool": {
+    "kind": "vector",
+    "query": "a cartoon person trusting a big shiny machine with closed eyes and a heart, no text",
+    "file": "assets/icons/en-trust-tool.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-hubble-glasses": {
+    "kind": "vector",
+    "query": "a cartoon space telescope proudly wearing round glasses, happy, no text",
+    "file": "assets/icons/en-hubble-glasses.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-ariane-rocket": {
+    "kind": "vector",
+    "query": "a tall white and blue modern rocket standing on its launch pad, simple doodle, no text",
+    "file": "assets/icons/en-ariane-rocket.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-off-course": {
+    "kind": "vector",
+    "query": "a rocket flying off a dotted straight path to a wrong angle, no text",
+    "file": "assets/icons/en-off-course.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-self-destruct": {
+    "kind": "vector",
+    "query": "a small rocket turning into a small puff of white smoke cloud with sparkles, no text",
+    "file": "assets/icons/en-self-destruct.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-recycle-code": {
+    "kind": "vector",
+    "query": "a block of code with a green recycling arrow circle around it, no text",
+    "file": "assets/icons/en-recycle-code.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-old-rocket": {
+    "kind": "vector",
+    "query": "an older shorter rocket in grey and white standing, no text",
+    "file": "assets/icons/en-old-rocket.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-big-number": {
+    "kind": "vector",
+    "query": "huge digits overflowing out of a tiny small box, no text",
+    "file": "assets/icons/en-big-number.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-mars-probe": {
+    "kind": "vector",
+    "query": "a small space probe with solar panel approaching a red-orange planet, no text",
+    "file": "assets/icons/en-mars-probe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-lost-orbit": {
+    "kind": "vector",
+    "query": "a small probe drifting away from a dotted planet orbit ring, no text",
+    "file": "assets/icons/en-lost-orbit.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-thruster": {
+    "kind": "vector",
+    "query": "a small rocket thruster nozzle with a bright push of flame, no text",
+    "file": "assets/icons/en-thruster.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-pound-weight": {
+    "kind": "vector",
+    "query": "a black iron weight with a handle, a pound weight, no text",
+    "file": "assets/icons/en-pound-weight.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-metric-newton": {
+    "kind": "vector",
+    "query": "a green apple on a scale next to a meter ruler, metric units, no text",
+    "file": "assets/icons/en-metric-newton.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-small-error-grow": {
+    "kind": "vector",
+    "query": "a small seed turning into a huge red error cloud growing larger, no text",
+    "file": "assets/icons/en-small-error-grow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-probe-too-low": {
+    "kind": "vector",
+    "query": "a probe orbit path too low near a planet versus a higher dotted correct orbit path, no text",
+    "file": "assets/icons/en-probe-too-low.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-burn-atmosphere": {
+    "kind": "vector",
+    "query": "a small probe glowing orange as it enters a planet atmosphere, no text",
+    "file": "assets/icons/en-burn-atmosphere.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-path-deviation": {
+    "kind": "vector",
+    "query": "a dotted straight line with a slightly drifting solid line beside it, small deviation, no text",
+    "file": "assets/icons/en-path-deviation.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-sleeping-code": {
+    "kind": "vector",
+    "query": "a sleeping cartoon block of code with zzz waking up with wide eyes, no text",
+    "file": "assets/icons/en-sleeping-code.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-orders-flood": {
+    "kind": "vector",
+    "query": "hundreds of paper slips flying out of a computer in all directions, no text",
+    "file": "assets/icons/en-orders-flood.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-fading-company": {
+    "kind": "vector",
+    "query": "a small office building fading to transparent like a ghost, no text",
+    "file": "assets/icons/en-fading-company.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-common-thread": {
+    "kind": "vector",
+    "query": "a single colorful thread running through several different objects in a row, no text",
+    "file": "assets/icons/en-common-thread.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-brain-crossed": {
+    "kind": "vector",
+    "query": "a cartoon brain with a big red crossed-out circle, no text",
+    "file": "assets/icons/en-brain-crossed.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-info-flow": {
+    "kind": "vector",
+    "query": "a speech bubble passing along a chain of simple cartoon people, communication, no text",
+    "file": "assets/icons/en-info-flow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-ignored-warning": {
+    "kind": "vector",
+    "query": "a small waving red flag drowned out by a big hand covering a speaker, no text",
+    "file": "assets/icons/en-ignored-warning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-blind-trust": {
+    "kind": "vector",
+    "query": "a cartoon person walking confidently with a blindfold, blind trust, no text",
+    "file": "assets/icons/en-blind-trust.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-small-crack": {
+    "kind": "vector",
+    "query": "a small harmless crack on a metal plate, no text",
+    "file": "assets/icons/en-small-crack.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-safety-office": {
+    "kind": "vector",
+    "query": "a small office desk with a green shield badge and a person with a whistle, no text",
+    "file": "assets/icons/en-safety-office.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-red-stop-button": {
+    "kind": "vector",
+    "query": "a big round red emergency stop button on a pole, no text",
+    "file": "assets/icons/en-red-stop-button.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-independent-review": {
+    "kind": "vector",
+    "query": "a second pair of eyes with a magnifying glass looking over a blueprint, no text",
+    "file": "assets/icons/en-independent-review.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-accident-study": {
+    "kind": "vector",
+    "query": "a magnifying glass over a broken bolt with a clipboard, no text",
+    "file": "assets/icons/en-accident-study.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-bolt": {
+    "kind": "vector",
+    "query": "a shiny metal bolt and nut, no text",
+    "file": "assets/icons/en-bolt.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-look-at-failure": {
+    "kind": "vector",
+    "query": "two big brave eyes looking straight at a broken gear, no text",
+    "file": "assets/icons/en-look-at-failure.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-app-icons": {
+    "kind": "vector",
+    "query": "a smartphone showing colorful simple app icons, no text",
+    "file": "assets/icons/en-app-icons.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-vasa": {
+    "kind": "cutout",
+    "query": "Vasa",
+    "wiki": "Vasa",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Vasa",
+      "description": "navío de guerra sueco"
+    },
+    "file": "assets/icons/photo-vasa.jpg"
+  },
+  "photo-titanic": {
+    "kind": "cutout",
+    "query": "Titanic",
+    "wiki": "Titanic",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:RMS Titanic",
+      "description": "transatlántico británico"
+    },
+    "file": "assets/icons/photo-titanic.jpg"
+  },
+  "photo-iceberg": {
+    "kind": "cutout",
+    "query": "Iceberg",
+    "wiki": "Iceberg",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Iceberg",
+      "description": "gran trozo de hielo de agua dulce desprendido de un glaciar o plataforma de hielo y flotando en aguas abiertas"
+    },
+    "file": "assets/icons/photo-iceberg.jpg"
+  },
+  "photo-bote": {
+    "kind": "cutout",
+    "query": "Bote salvavidas",
+    "wiki": "Bote salvavidas",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Bote salvavidas",
+      "description": ""
+    },
+    "file": "assets/icons/photo-bote.jpg"
+  },
+  "photo-comet": {
+    "kind": "cutout",
+    "query": "De Havilland Comet",
+    "wiki": "De Havilland DH.106 Comet",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:De Havilland Comet",
+      "description": "avión comercial"
+    },
+    "file": "assets/icons/photo-comet.jpg"
+  },
+  "photo-fatiga": {
+    "kind": "cutout",
+    "query": "Fatiga del metal",
+    "wiki": "Fatiga de materiales",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Fatiga del metal",
+      "description": "fenómeno por el cual la rotura de los materiales bajo cargas dinámicas cíclicas se produce más fácilmente que con cargas estáticas"
+    },
+    "file": "assets/icons/photo-fatiga.png"
+  },
+  "photo-challenger": {
+    "kind": "cutout",
+    "query": "Transbordador espacial Challenger",
+    "wiki": "Transbordador espacial Challenger",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Transbordador espacial Challenger",
+      "description": "nave espacial estadounidense"
+    },
+    "file": "assets/icons/photo-challenger.jpg"
+  },
+  "photo-kennedy": {
+    "kind": "cutout",
+    "query": "Centro espacial Kennedy",
+    "wiki": "Centro espacial Kennedy",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Centro espacial John F. Kennedy",
+      "description": "sitio de lanzamiento espacial de los Estados Unidos en Florida"
+    },
+    "file": "assets/icons/photo-kennedy.jpg"
+  },
+  "photo-junta": {
+    "kind": "cutout",
+    "query": "Junta tórica",
+    "wiki": "Junta tórica",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Junta tórica",
+      "description": ""
+    },
+    "file": "assets/icons/photo-junta.jpg"
+  },
+  "photo-hubble": {
+    "kind": "cutout",
+    "query": "Telescopio espacial Hubble",
+    "wiki": "Telescopio espacial Hubble",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Telescopio espacial Hubble",
+      "description": "telescopio en órbita alrededor de la Tierra"
+    },
+    "file": "assets/icons/photo-hubble.jpg"
+  },
+  "photo-pelo": {
+    "kind": "cutout",
+    "query": "Cabello",
+    "wiki": "Cabello",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Pelo",
+      "description": "fibra de queratina"
+    },
+    "file": "assets/icons/photo-pelo.jpg"
+  },
+  "photo-mco": {
+    "kind": "cutout",
+    "query": "Mars Climate Orbiter",
+    "wiki": "Mars Climate Orbiter",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Mars Climate Orbiter",
+      "description": ""
+    },
+    "file": "assets/icons/photo-mco.jpg"
+  },
+  "photo-marte": {
+    "kind": "cutout",
+    "query": "Marte planeta",
+    "wiki": "Marte (planeta)",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Marte (planeta)",
+      "description": "cuarto planeta del Sistema Solar, telúrico y de color rojo anaranjado debido al óxido de hierro"
+    },
+    "file": "assets/icons/photo-marte.png"
+  },
+  "photo-jpl": {
+    "kind": "cutout",
+    "query": "Jet Propulsion Laboratory",
+    "wiki": "Jet Propulsion Laboratory",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Jet Propulsion Laboratory",
+      "description": "NASA federally funded research and development center"
+    },
+    "file": "assets/icons/photo-jpl.jpg"
+  },
+  "photo-puente": {
+    "kind": "cutout",
+    "query": "Puente colgante",
+    "wiki": "Puente colgante",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Puente colgante",
+      "description": "tipo de puente"
+    },
+    "file": "assets/icons/photo-puente.jpg"
+  },
+  "photo-sonda": {
+    "kind": "cutout",
+    "query": "Sonda espacial",
+    "wiki": "Sonda espacial",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sonda espacial",
+      "description": "dispositivo que se envía al espacio con el fin de estudiar cuerpos celestes"
+    },
+    "file": "assets/icons/photo-sonda.jpg"
+  },
+  "clip-snow": {
+    "kind": "clip",
+    "query": "snow falling on a cold landscape",
+    "file": "assets/clips/clip-snow.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "James Cheney",
+      "url": "https://www.pexels.com/video/a-video-of-snow-fall-6933432/"
+    }
+  },
+  "clip-airplane": {
+    "kind": "clip",
+    "query": "airplane wing above clouds",
+    "file": "assets/clips/clip-airplane.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Subhadip Ghosh",
+      "url": "https://www.pexels.com/video/view-of-the-blue-sky-with-white-cloud-formation-from-the-window-of-an-airborne-aircraft-3042105/"
+    }
+  },
+  "clip-ocean": {
+    "kind": "clip",
+    "query": "turquoise ocean water surface",
+    "file": "assets/clips/clip-ocean.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Dan Cristian Pădureț",
+      "url": "https://www.pexels.com/video/aerial-footage-of-the-ocean-5476219/"
+    }
+  },
+  "clip-shipwreck": {
+    "kind": "clip",
+    "query": "shipwreck underwater",
+    "file": "assets/clips/clip-shipwreck.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "JUN HO LEE",
+      "url": "https://www.pexels.com/video/stunning-underwater-wreck-teeming-with-marine-life-33034716/"
+    }
+  },
+  "clip-rocket": {
+    "kind": "clip",
+    "query": "space shuttle launch pad smoke",
+    "file": "assets/clips/clip-rocket.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kindel Media",
+      "url": "https://www.pexels.com/video/close-up-shot-of-a-toy-rocket-ship-7615676/"
+    }
+  },
+  "clip-hospital": {
+    "kind": "clip",
+    "query": "hospital corridor doctor",
+    "file": "assets/clips/clip-hospital.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/nurse-pushing-wheelchair-on-hospital-corridor-6129925/"
+    }
+  },
+  "clip-construction": {
+    "kind": "clip",
+    "query": "construction workers building site daytime",
+    "file": "assets/clips/clip-construction.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Usman AbdulrasheedGambo",
+      "url": "https://www.pexels.com/video/construction-worker-securing-scaffolding-cables-32244801/"
+    }
+  },
+  "clip-test-tube": {
+    "kind": "clip",
+    "query": "laboratory test tubes colorful",
+    "file": "assets/clips/clip-test-tube.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikhail Nilov",
+      "url": "https://www.pexels.com/video/close-up-of-test-tubes-on-a-test-tube-rack-9373595/"
+    }
+  },
+  "clip-server": {
+    "kind": "clip",
+    "query": "server room racks",
+    "file": "assets/clips/clip-server.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "MrColo",
+      "url": "https://www.pexels.com/video/close-up-of-a-cpu-7140928/"
+    }
+  },
+  "clip-stock-graphs": {
+    "kind": "clip",
+    "query": "stock market graphs screen",
+    "file": "assets/clips/clip-stock-graphs.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Rafael Minguet Delgado",
+      "url": "https://www.pexels.com/video/dynamic-financial-trading-visualization-38209367/"
+    }
+  },
+  "clip-glass-overflow": {
+    "kind": "clip",
+    "query": "glass of water overflowing",
+    "file": "assets/clips/clip-glass-overflow.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "TP Motion",
+      "url": "https://www.pexels.com/video/filling-up-a-glass-with-water-8554345/"
+    }
+  },
+  "clip-earth": {
+    "kind": "clip",
+    "query": "planet earth from space",
+    "file": "assets/clips/clip-earth.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nino Souza",
+      "url": "https://www.pexels.com/video/the-earth-is-shown-in-this-image-27034711/"
+    }
+  },
+  "clip-engineers": {
+    "kind": "clip",
+    "query": "two engineers with hard hats looking at blueprint construction site",
+    "file": "assets/clips/clip-engineers.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikael Blomkvist",
+      "url": "https://www.pexels.com/video/a-man-and-woman-holding-a-blueprint-while-looking-at-construction-site-8964796/"
+    }
+  },
+  "clip-meeting-work": {
+    "kind": "clip",
+    "query": "business meeting office table presentation",
+    "file": "assets/clips/clip-meeting-work.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Vlada Karpovich",
+      "url": "https://www.pexels.com/video/business-people-talking-in-the-conference-room-7552430/"
+    }
+  },
+  "clip-skyscrapers": {
+    "kind": "clip",
+    "query": "city skyscrapers blue sky",
+    "file": "assets/clips/clip-skyscrapers.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "LayG Traveller",
+      "url": "https://www.pexels.com/video/a-city-skyline-with-tall-buildings-in-the-background-20260841/"
+    }
+  },
+  "clip-astronaut": {
+    "kind": "clip",
+    "query": "astronaut inside space station",
+    "file": "assets/clips/clip-astronaut.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikhail Nilov",
+      "url": "https://www.pexels.com/video/a-woman-using-a-digital-pad-7664892/"
+    }
+  },
+  "clip-doctor": {
+    "kind": "clip",
+    "query": "doctor with stethoscope close up",
+    "file": "assets/clips/clip-doctor.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tima Miroshnichenko",
+      "url": "https://www.pexels.com/video/doctor-checking-a-patient-5453380/"
+    }
+  },
+  "clip-laptop": {
+    "kind": "clip",
+    "query": "hands typing on laptop keyboard",
+    "file": "assets/clips/clip-laptop.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/people-working-on-their-laptops-in-an-office-3202364/"
+    }
+  },
+  "clip-code-data": {
+    "kind": "clip",
+    "query": "code and numbers matrix screen blue",
+    "file": "assets/clips/clip-code-data.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/dynamic-blue-digital-number-animation-loop-30163656/"
+    }
+  },
+  "clip-sunrise": {
+    "kind": "clip",
+    "query": "sunrise orange sky silhouette",
+    "file": "assets/clips/clip-sunrise.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "rehan verma",
+      "url": "https://www.pexels.com/video/trees-and-sky-at-day-break-2446545/"
+    }
+  },
+  "clip-hourglass": {
+    "kind": "clip",
+    "query": "hourglass sand time close up",
+    "file": "assets/clips/clip-hourglass.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Samer Daboul",
+      "url": "https://www.pexels.com/video/sand-inside-an-hourglass-1188938/"
+    }
+  },
+  "clip-alarm": {
+    "kind": "clip",
+    "query": "alarm clock close up",
+    "file": "assets/clips/clip-alarm.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pixabay",
+      "url": "https://www.pexels.com/video/close-up-video-of-a-clock-855782/"
+    }
+  },
+  "clip-checklist": {
+    "kind": "clip",
+    "query": "hand ticking a checklist on a clipboard close up",
+    "file": "assets/clips/clip-checklist.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Jakub Zerdzicki",
+      "url": "https://www.pexels.com/video/hand-writing-checklist-at-work-desk-29568794/"
+    }
+  },
+  "clip-sailing-ship": {
+    "kind": "clip",
+    "query": "old wooden tall ship sailing on blue sea sunny",
+    "file": "assets/clips/clip-sailing-ship.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Christopher More",
+      "url": "https://www.pexels.com/video/historic-sailing-ship-passing-a-lighthouse-and-leaving-port-27394347/"
+    }
+  },
+  "clip-plane-takeoff": {
+    "kind": "clip",
+    "query": "passenger airplane taking off runway daytime",
+    "file": "assets/clips/clip-plane-takeoff.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Asko",
+      "url": "https://www.pexels.com/video/footage-of-the-airplane-taking-off-the-runway-4396425/"
+    }
+  },
+  "clip-ruler": {
+    "kind": "clip",
+    "query": "measuring with a ruler and caliper close up workshop",
+    "file": "assets/clips/clip-ruler.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tima Miroshnichenko",
+      "url": "https://www.pexels.com/video/a-person-working-on-a-design-using-a-digital-caliper-4941465/"
+    }
+  },
+  "en-stock-crash": {
+    "kind": "vector",
+    "query": "a simple cartoon red stock chart line dropping sharply, with a small worried face, no text",
+    "file": "assets/icons/en-stock-crash.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "en-cold-morning": {
+    "kind": "vector",
+    "query": "a simple cartoon snowflake over a frosty rocket launch pad on a cold blue morning, no text",
+    "file": "assets/icons/en-cold-morning.png",
+    "normalized": true,
+    "gpt": true
+  }
+}
