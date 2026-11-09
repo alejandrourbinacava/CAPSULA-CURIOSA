@@ -17,7 +17,7 @@ Narración: *"Hoy sería imposible, pero…"*
 ```
 +0.0  SCENE versus
 +0.0  NODE ps-forbidden "hoy sería imposible" ~imposible
-+0.0  NODE clip-old-books "durante décadas era normal" ~décadas
++0.0  NODE ps-old-books "durante décadas era normal" ~décadas
 ```
 
 ### BEAT 3 · 00:00 · T1
@@ -395,7 +395,7 @@ Narración: *"Y poco a poco…"*
 Narración: *"Algunos historiadores señalan que…"*
 ```
 +0.0  SCENE flow
-+0.0  NODE clip-old-books "algunos historiadores señalan" ~historiadores
++0.0  NODE ps-old-books "algunos historiadores señalan" ~historiadores
 +0.0  NODE lb-errors "que intentos anteriores no funcionaron" ~intentos
 +0.0  NODE clip-debate "y que su método pudo influir" ~método
 ```
@@ -886,7 +886,7 @@ Narración: *"Pero el cambio definitivo…"*
 ```
 +0.0  SCENE zigzag
 +0.0  NODE lb-usmap "el cambio llegó en Estados Unidos" ~cambio
-+0.0  NODE clip-newspaper "salió a la luz en 1972" ~luz
++0.0  NODE ps-newspaper "salió a la luz en 1972" ~luz
 +0.0  NODE ps-tuskegee-file "el estudio de Tuskegee" ~Tuskegee
 ```
 

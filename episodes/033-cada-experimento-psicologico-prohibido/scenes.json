@@ -289,12 +289,12 @@
       "box": {
         "cx": 1380,
         "cy": 490,
-        "w": 630,
-        "h": 353
+        "w": 420,
+        "h": 420
       },
       "in": 6.82,
       "out": 8.96,
-      "z": 27,
+      "z": 30,
       "enter": {
         "kind": "slide-in-right",
         "duration": 0.4
@@ -304,9 +304,9 @@
         "duration": 0.3
       },
       "_scene": true,
-      "type": "clip",
-      "src": "assets/clips/clip-old-books.mp4",
-      "frame": "rounded",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/ps-old-books.png",
       "cam": {
         "t0": 4.94,
         "t1": 8.96,
@@ -325,7 +325,7 @@
       "fontSize": 50,
       "box": {
         "cx": 1380,
-        "cy": 731,
+        "cy": 746,
         "w": 647,
         "h": 61
       },
@@ -9135,12 +9135,12 @@
       "box": {
         "cx": 360,
         "cy": 500,
-        "w": 510,
-        "h": 286
+        "w": 340,
+        "h": 340
       },
       "in": 217.05,
       "out": 222.8,
-      "z": 27,
+      "z": 30,
       "enter": {
         "kind": "pop",
         "duration": 0.4
@@ -9150,9 +9150,9 @@
         "duration": 0.3
       },
       "_scene": true,
-      "type": "clip",
-      "src": "assets/clips/clip-old-books.mp4",
-      "frame": "rounded",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/ps-old-books.png",
       "cam": {
         "t0": 217,
         "t1": 222.8,
@@ -9171,7 +9171,7 @@
       "fontSize": 46,
       "box": {
         "cx": 360,
-        "cy": 677,
+        "cy": 686,
         "w": 187,
         "h": 56
       },
@@ -9206,7 +9206,7 @@
       "fontSize": 46,
       "box": {
         "cx": 360,
-        "cy": 737,
+        "cy": 746,
         "w": 490,
         "h": 56
       },
@@ -9446,7 +9446,7 @@
       "id": "ar48_9",
       "type": "arrow",
       "a": {
-        "x": 641,
+        "x": 556,
         "y": 500
       },
       "b": {
@@ -20000,12 +20000,12 @@
       "box": {
         "cx": 980,
         "cy": 740,
-        "w": 315,
-        "h": 176
+        "w": 210,
+        "h": 210
       },
       "in": 494.64,
       "out": 498.56,
-      "z": 27,
+      "z": 30,
       "enter": {
         "kind": "slide-in-bottom",
         "duration": 0.4
@@ -20015,9 +20015,9 @@
         "duration": 0.3
       },
       "_scene": true,
-      "type": "clip",
-      "src": "assets/clips/clip-newspaper.mp4",
-      "frame": "rounded",
+      "type": "image",
+      "kind": "vector",
+      "src": "assets/icons/ps-newspaper.png",
       "cam": {
         "t0": 497.21,
         "t1": 498.56,
@@ -20034,7 +20034,7 @@
       "fontSize": 42,
       "box": {
         "cx": 980,
-        "cy": 892,
+        "cy": 891,
         "w": 470,
         "h": 51
       },
@@ -20133,8 +20133,8 @@
         "y": 542
       },
       "b": {
-        "x": 791,
-        "y": 659
+        "x": 852,
+        "y": 685
       },
       "curve": "down",
       "color": "#EE2B37",
@@ -20163,8 +20163,8 @@
       "id": "ar109_8",
       "type": "arrow",
       "a": {
-        "x": 1161,
-        "y": 662
+        "x": 1100,
+        "y": 688
       },
       "b": {
         "x": 1432,

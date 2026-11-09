@@ -1422,5 +1422,19 @@
       "credit": "Polina ⠀",
       "url": "https://www.pexels.com/video/close-up-view-of-a-person-writing-on-a-pink-paper-6185666/"
     }
+  },
+  "ps-newspaper": {
+    "kind": "vector",
+    "query": "a simple cartoon folded newspaper with blank gray lines and a small photo block, no text",
+    "file": "assets/icons/ps-newspaper.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ps-old-books": {
+    "kind": "vector",
+    "query": "a simple cartoon stack of old books with a pair of glasses, no text",
+    "file": "assets/icons/ps-old-books.png",
+    "normalized": true,
+    "gpt": true
   }
 }
