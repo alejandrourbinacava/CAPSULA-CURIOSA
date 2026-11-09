@@ -1,0 +1,1432 @@
+{
+  "lb-bulb": {
+    "kind": "vector",
+    "query": "a classic glowing incandescent light bulb",
+    "file": "assets/icons/lb-bulb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-longroad": {
+    "kind": "vector",
+    "query": "a long winding road with many kilometer markers",
+    "file": "assets/icons/lb-longroad.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulbbook": {
+    "kind": "vector",
+    "query": "a lightbulb above an open book with a star, an important lesson",
+    "file": "assets/icons/lb-bulbbook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-star": {
+    "kind": "vector",
+    "query": "a big golden star with an exclamation mark and sparkles, the most important thing, no text",
+    "file": "assets/icons/lb-star.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-curious": {
+    "kind": "vector",
+    "query": "a curious surprised face with wide eyes",
+    "file": "assets/icons/lb-curious.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-flames": {
+    "kind": "vector",
+    "query": "orange flames of a fire",
+    "file": "assets/icons/lb-flames.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-candle": {
+    "kind": "vector",
+    "query": "a candle flame gently blowing out",
+    "file": "assets/icons/lb-candle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-expert": {
+    "kind": "vector",
+    "query": "a wise expert scratching head full of doubt and questions",
+    "file": "assets/icons/lb-expert.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-diverse": {
+    "kind": "vector",
+    "query": "diverse group of people",
+    "file": "assets/icons/lb-diverse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-roman": {
+    "kind": "vector",
+    "query": "Roman legionary soldier with red crest helmet and shield, ancient Rome",
+    "file": "assets/icons/lb-roman.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-desert": {
+    "kind": "vector",
+    "query": "desert landscape",
+    "file": "assets/icons/lb-desert.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-storm": {
+    "kind": "vector",
+    "query": "a cartoon dark storm cloud with a lightning bolt and rain, no text",
+    "file": "assets/icons/lb-storm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-family": {
+    "kind": "vector",
+    "query": "a family tree with deep roots and branches, origin, no text",
+    "file": "assets/icons/lb-family.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-tpillars": {
+    "kind": "vector",
+    "query": "huge ancient T-shaped carved stone pillars, a temple",
+    "file": "assets/icons/lb-tpillars.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-buried": {
+    "kind": "vector",
+    "query": "an ancient temple deliberately buried under earth",
+    "file": "assets/icons/lb-buried.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ruins-sand": {
+    "kind": "vector",
+    "query": "ancient ruins half buried under sand",
+    "file": "assets/icons/lb-ruins-sand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ruins-q": {
+    "kind": "vector",
+    "query": "a big question mark over ancient ruins, mystery",
+    "file": "assets/icons/lb-ruins-q.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ruins-vines": {
+    "kind": "vector",
+    "query": "old stone ruins overgrown with vines and plants",
+    "file": "assets/icons/lb-ruins-vines.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-lost-city": {
+    "kind": "vector",
+    "query": "a lost ancient city being swallowed by the jungle",
+    "file": "assets/icons/lb-lost-city.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-drought": {
+    "kind": "vector",
+    "query": "a blazing sun over cracked dry earth, drought",
+    "file": "assets/icons/lb-drought.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-abandon": {
+    "kind": "vector",
+    "query": "a line of people walking away abandoning a city",
+    "file": "assets/icons/lb-abandon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-million": {
+    "kind": "vector",
+    "query": "a huge crowd of a million people in a big city",
+    "file": "assets/icons/lb-million.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-angkor": {
+    "kind": "vector",
+    "query": "the Angkor Wat temple with its towers",
+    "file": "assets/icons/lb-angkor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-aztec": {
+    "kind": "vector",
+    "query": "Aztec step pyramid temple with carvings, Mesoamerica",
+    "file": "assets/icons/lb-aztec.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-canals": {
+    "kind": "vector",
+    "query": "a network of water canals and reservoirs",
+    "file": "assets/icons/lb-canals.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-iceberg": {
+    "kind": "vector",
+    "query": "a huge iceberg cracking and breaking apart",
+    "file": "assets/icons/lb-iceberg.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-tradeb": {
+    "kind": "vector",
+    "query": "trade route map",
+    "file": "assets/icons/lb-tradeb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-minoan": {
+    "kind": "vector",
+    "query": "an ancient Minoan trading ship on the sea",
+    "file": "assets/icons/lb-minoan.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-earthquake": {
+    "kind": "vector",
+    "query": "ground cracking open in an earthquake with a shaking building",
+    "file": "assets/icons/lb-earthquake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-dominoes": {
+    "kind": "vector",
+    "query": "many tiny civilizations cities collapsing and falling one after another like dominoes",
+    "file": "assets/icons/lb-dominoes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-chainlink": {
+    "kind": "vector",
+    "query": "a magnifying glass over a golden chain link joining several different shapes, no text",
+    "file": "assets/icons/lb-chainlink.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-chain": {
+    "kind": "vector",
+    "query": "strong chain links joined together",
+    "file": "assets/icons/lb-chain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-brokenchain": {
+    "kind": "vector",
+    "query": "broken chain",
+    "file": "assets/icons/lb-brokenchain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-palace": {
+    "kind": "vector",
+    "query": "a crumbling grand palace with a crown falling, an empire collapsing",
+    "file": "assets/icons/lb-palace.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-oldcrown": {
+    "kind": "vector",
+    "query": "an old broken ancient crown of a fallen empire",
+    "file": "assets/icons/lb-oldcrown.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-scroll": {
+    "kind": "vector",
+    "query": "ancient scroll",
+    "file": "assets/icons/lb-scroll.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-mudhouse": {
+    "kind": "vector",
+    "query": "an ancient mud brick house",
+    "file": "assets/icons/lb-mudhouse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calflip": {
+    "kind": "vector",
+    "query": "a wall calendar with many pages flying off, many years passing, no numbers",
+    "file": "assets/icons/lb-calflip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-clocklong": {
+    "kind": "vector",
+    "query": "a big clock with a long winding trail behind it, lasting for a long time, no text",
+    "file": "assets/icons/lb-clocklong.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-q": {
+    "kind": "vector",
+    "query": "a big question mark, doubt",
+    "file": "assets/icons/lb-q.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-spices": {
+    "kind": "vector",
+    "query": "spices",
+    "file": "assets/icons/lb-spices.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-caravel": {
+    "kind": "vector",
+    "query": "an old european sailing ship arriving",
+    "file": "assets/icons/lb-caravel.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-hunter": {
+    "kind": "vector",
+    "query": "a prehistoric hunter gatherer with a spear, no farming",
+    "file": "assets/icons/lb-hunter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-gridcity": {
+    "kind": "vector",
+    "query": "an ancient city planned in a straight grid of streets from above",
+    "file": "assets/icons/lb-gridcity.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-island": {
+    "kind": "vector",
+    "query": "a tiny remote island alone in the middle of the ocean",
+    "file": "assets/icons/lb-island.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-worldmap": {
+    "kind": "vector",
+    "query": "world map",
+    "file": "assets/icons/lb-worldmap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-map": {
+    "kind": "vector",
+    "query": "ancient map",
+    "file": "assets/icons/lb-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-europe": {
+    "kind": "vector",
+    "query": "a map of Europe divided into countries with clear borders",
+    "file": "assets/icons/lb-europe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-americas": {
+    "kind": "vector",
+    "query": "a simple map of North and South America in neutral green and beige, no text, no flag",
+    "file": "assets/icons/lb-americas.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-usa": {
+    "kind": "vector",
+    "query": "a plain map silhouette of the United States in neutral green, no text, no flag",
+    "file": "assets/icons/lb-usa.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-hunger": {
+    "kind": "vector",
+    "query": "an empty bowl with a spoon, hunger, no text",
+    "file": "assets/icons/lb-hunger.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-goldcrown": {
+    "kind": "vector",
+    "query": "a golden crown for a king",
+    "file": "assets/icons/lb-goldcrown.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-shield": {
+    "kind": "vector",
+    "query": "a green shield with a check mark, protected",
+    "file": "assets/icons/lb-shield.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-logs": {
+    "kind": "vector",
+    "query": "a pile of burning wooden logs with flames",
+    "file": "assets/icons/lb-logs.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-market": {
+    "kind": "vector",
+    "query": "a colorful open market stall with baskets of fruit and vegetables under a striped awning, no text",
+    "file": "assets/icons/cv-market.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-nobattle": {
+    "kind": "vector",
+    "query": "a peaceful empty green field with a big green check mark and no soldiers, calm, no text",
+    "file": "assets/icons/cv-nobattle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-tencases": {
+    "kind": "vector",
+    "query": "ten small identical ancient city icons arranged in two rows, no text",
+    "file": "assets/icons/cv-tencases.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-culprit": {
+    "kind": "vector",
+    "query": "a detective magnifying glass over a single dark suspect silhouette with a big question mark, no text",
+    "file": "assets/icons/cv-culprit.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-climate": {
+    "kind": "vector",
+    "query": "a sun, a rain cloud and a thermometer in a row, weather and climate, no text",
+    "file": "assets/icons/cv-climate.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-tradenet": {
+    "kind": "vector",
+    "query": "a network of small ships and camels connected by dotted lines, a trade network, no text",
+    "file": "assets/icons/cv-tradenet.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-people-stay": {
+    "kind": "vector",
+    "query": "a group of cheerful cartoon people standing together under a clear sky, still here, no text",
+    "file": "assets/icons/cv-people-stay.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-org-crumble": {
+    "kind": "vector",
+    "query": "a tidy organization chart of connected boxes starting to crumble at the edges, no text",
+    "file": "assets/icons/cv-org-crumble.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-disperse": {
+    "kind": "vector",
+    "query": "many small cartoon people leaving a big circle in different directions with arrows, no text",
+    "file": "assets/icons/cv-disperse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-mix": {
+    "kind": "vector",
+    "query": "two groups of colored cartoon people mixing together into one group, no text",
+    "file": "assets/icons/cv-mix.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-hypotheses": {
+    "kind": "vector",
+    "query": "three thought bubbles each with a different question mark above a thinking head, no text",
+    "file": "assets/icons/cv-hypotheses.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-turkey-map": {
+    "kind": "vector",
+    "query": "a simple map of Turkey in neutral green and beige, no text, no flag",
+    "file": "assets/icons/cv-turkey-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-stone-circle": {
+    "kind": "vector",
+    "query": "a circle of tall stone pillars seen from above in an open field, an ancient stone enclosure, no text",
+    "file": "assets/icons/cv-stone-circle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-height": {
+    "kind": "vector",
+    "query": "a tall stone pillar next to a small cartoon person for scale, with a measuring arrow, no text",
+    "file": "assets/icons/cv-height.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-fill": {
+    "kind": "vector",
+    "query": "a shovel pouring a heap of earth into a round stone enclosure to bury it, no text",
+    "file": "assets/icons/cv-fill.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-ritual": {
+    "kind": "vector",
+    "query": "a lit candle in front of a closing stone door, a closing ritual, no text",
+    "file": "assets/icons/cv-ritual.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-hill": {
+    "kind": "vector",
+    "query": "a quiet round grass-covered hill with a tiny question mark floating above it, no text",
+    "file": "assets/icons/cv-hill.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-adobe-packed": {
+    "kind": "vector",
+    "query": "many mud-brick houses packed tightly together with no streets between them, seen from above, no text",
+    "file": "assets/icons/cv-adobe-packed.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-roof-ladder": {
+    "kind": "vector",
+    "query": "a cartoon person climbing down a wooden ladder through a hole in the roof of a mud house, no text",
+    "file": "assets/icons/cv-roof-ladder.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-rooftops": {
+    "kind": "vector",
+    "query": "small cartoon people walking over the flat rooftops of a mud-brick town, no text",
+    "file": "assets/icons/cv-rooftops.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-soil-tired": {
+    "kind": "vector",
+    "query": "worn pale soil with one weak tiny sprout, exhausted farmland, no text",
+    "file": "assets/icons/cv-soil-tired.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-moving": {
+    "kind": "vector",
+    "query": "a cartoon family carrying bundles walking toward a small village on a hill, no text",
+    "file": "assets/icons/cv-moving.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-burning-village": {
+    "kind": "vector",
+    "query": "a small village of round clay houses with orange flames rising from the roofs, calm, no text",
+    "file": "assets/icons/cv-burning-village.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-region-map": {
+    "kind": "vector",
+    "query": "a map of eastern Europe with a highlighted region in orange, no text, no flags",
+    "file": "assets/icons/cv-region-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-megasite": {
+    "kind": "vector",
+    "query": "a huge circular settlement made of hundreds of small round houses arranged in rings, seen from above, no text",
+    "file": "assets/icons/cv-megasite.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-new-house": {
+    "kind": "vector",
+    "query": "a new clay house being built on top of the black ashes of an older one, no text",
+    "file": "assets/icons/cv-new-house.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-herders": {
+    "kind": "vector",
+    "query": "shepherds with sheep and horses on a wide grassy steppe, no text",
+    "file": "assets/icons/cv-herders.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-blackout": {
+    "kind": "vector",
+    "query": "a city skyline with all its lights going out one by one, dark windows, no text",
+    "file": "assets/icons/cv-blackout.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-sea-raiders": {
+    "kind": "vector",
+    "query": "a fleet of small ancient ships with striped sails sailing toward a coast, mysterious, no text",
+    "file": "assets/icons/cv-sea-raiders.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-many-arrows": {
+    "kind": "vector",
+    "query": "one thick arrow split into many thin arrows all pointing at a falling tower, several causes, no text",
+    "file": "assets/icons/cv-many-arrows.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-revolt": {
+    "kind": "vector",
+    "query": "a crowd of angry cartoon people with raised fists in front of a palace gate, no text",
+    "file": "assets/icons/cv-revolt.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-jordan-map": {
+    "kind": "vector",
+    "query": "a simple map of Jordan in neutral green and beige, no text, no flag",
+    "file": "assets/icons/cv-jordan-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-explorer": {
+    "kind": "vector",
+    "query": "a cartoon explorer with a notebook peeking through a narrow rocky canyon at a hidden rock city, no text",
+    "file": "assets/icons/cv-explorer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-pyramid": {
+    "kind": "vector",
+    "query": "a stepped stone pyramid under a bright sun, no text",
+    "file": "assets/icons/cv-pyramid.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-mexico-map": {
+    "kind": "vector",
+    "query": "a simple map of Mexico in neutral green and beige, no text, no flag",
+    "file": "assets/icons/cv-mexico-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-name-q": {
+    "kind": "vector",
+    "query": "a stone city gate with a big question mark instead of a name sign, no text",
+    "file": "assets/icons/cv-name-q.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-fire-center": {
+    "kind": "vector",
+    "query": "ancient stone pyramids with flames and smoke at their base, no text",
+    "file": "assets/icons/cv-fire-center.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-damaged": {
+    "kind": "vector",
+    "query": "an ancient stone building with cracked walls and a missing corner, no text",
+    "file": "assets/icons/cv-damaged.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-aztec-person": {
+    "kind": "vector",
+    "query": "an Aztec person with a feather headdress looking up at big ancient ruins, no text",
+    "file": "assets/icons/cv-aztec-person.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-great-house": {
+    "kind": "vector",
+    "query": "a large semicircular stone building with many small rooms seen from above, no text",
+    "file": "assets/icons/cv-great-house.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-pueblo-bonito": {
+    "kind": "vector",
+    "query": "a big half-moon shaped adobe stone village with terraces in a desert canyon, no text",
+    "file": "assets/icons/cv-pueblo-bonito.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-straight-road": {
+    "kind": "vector",
+    "query": "a long perfectly straight dirt road crossing a desert toward the horizon, no text",
+    "file": "assets/icons/cv-straight-road.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-empty-rooms": {
+    "kind": "vector",
+    "query": "a stone building with empty dark doorways and windows, abandoned, no text",
+    "file": "assets/icons/cv-empty-rooms.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-word-rejected": {
+    "kind": "vector",
+    "query": "a speech bubble with a hand-drawn crossed-out mark over it, a word being rejected, no text",
+    "file": "assets/icons/cv-word-rejected.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-migration": {
+    "kind": "vector",
+    "query": "a long line of small figures walking south across a desert with a big arrow, no text",
+    "file": "assets/icons/cv-migration.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-modern-pueblo": {
+    "kind": "vector",
+    "query": "a modern adobe village with a ladder and smoke from a chimney, still inhabited, no text",
+    "file": "assets/icons/cv-modern-pueblo.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-city-canals": {
+    "kind": "vector",
+    "query": "a big ancient city with straight water canals and a moat around a temple, no text",
+    "file": "assets/icons/cv-city-canals.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-cambodia-map": {
+    "kind": "vector",
+    "query": "a simple map of Cambodia and neighbouring countries in neutral colors, no text, no flags",
+    "file": "assets/icons/cv-cambodia-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-khmer-map": {
+    "kind": "vector",
+    "query": "a map of Southeast Asia with a large orange region marking an empire, no text, no flags",
+    "file": "assets/icons/cv-khmer-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-attack": {
+    "kind": "vector",
+    "query": "a neighboring army with banners marching toward a walled city, cartoon, no text",
+    "file": "assets/icons/cv-attack.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-water-broken": {
+    "kind": "vector",
+    "query": "a broken stone canal channel with water overflowing and spilling out, no text",
+    "file": "assets/icons/cv-water-broken.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-monks": {
+    "kind": "vector",
+    "query": "a smiling monk in an orange robe sweeping the steps of a temple, no text",
+    "file": "assets/icons/cv-monks.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-erik": {
+    "kind": "vector",
+    "query": "a cartoon red-bearded viking chieftain in a fur cloak, no text",
+    "file": "assets/icons/cv-erik.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-greenland-map": {
+    "kind": "vector",
+    "query": "a map of Greenland as a large white island with a green coast, no text, no flag",
+    "file": "assets/icons/cv-greenland-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-farm-fjord": {
+    "kind": "vector",
+    "query": "a small stone farmhouse with a few sheep beside a blue fjord, no text",
+    "file": "assets/icons/cv-farm-fjord.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-bishop": {
+    "kind": "vector",
+    "query": "a bishop with a tall pointed hat holding a golden staff, no text",
+    "file": "assets/icons/cv-bishop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-furs": {
+    "kind": "vector",
+    "query": "a pile of soft brown and white animal furs, no text",
+    "file": "assets/icons/cv-furs.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-empty-farm": {
+    "kind": "vector",
+    "query": "a lonely farmstead with the door ajar and no smoke from the chimney, empty, no text",
+    "file": "assets/icons/cv-empty-farm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-ivory-value": {
+    "kind": "vector",
+    "query": "a walrus tusk next to a small price tag with a downward red arrow, no text",
+    "file": "assets/icons/cv-ivory-value.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-post": {
+    "kind": "vector",
+    "query": "a rough wooden post with scratches carved into it, no letters, no text",
+    "file": "assets/icons/cv-post.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-nc-map": {
+    "kind": "vector",
+    "query": "a map of the east coast of North America with a small red circle on a coastal island, no text, no flag",
+    "file": "assets/icons/cv-nc-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-colonists": {
+    "kind": "vector",
+    "query": "a group of 16th century English settlers with hats and bundles on a beach, no text",
+    "file": "assets/icons/cv-colonists.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-baby": {
+    "kind": "vector",
+    "query": "a newborn baby in a wooden cradle with a tiny star above, no text",
+    "file": "assets/icons/cv-baby.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-warships": {
+    "kind": "vector",
+    "query": "two old sailing warships facing each other on the sea, no text",
+    "file": "assets/icons/cv-warships.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-dismantled": {
+    "kind": "vector",
+    "query": "a small wooden village with its fence and houses taken apart and neatly stacked, no text",
+    "file": "assets/icons/cv-dismantled.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-ghost-town": {
+    "kind": "vector",
+    "query": "a small ghost town with empty streets and a tumbleweed rolling by, no text",
+    "file": "assets/icons/cv-ghost-town.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-castle-strong": {
+    "kind": "vector",
+    "query": "a big strong stone castle with flags on its towers, no text",
+    "file": "assets/icons/cv-castle-strong.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "cv-tower-lean": {
+    "kind": "vector",
+    "query": "a tall stone tower leaning with cracks, about to tip over, no text",
+    "file": "assets/icons/cv-tower-lean.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ph-gobekli": {
+    "kind": "cutout",
+    "query": "Göbekli Tepe",
+    "wiki": "Göbekli Tepe",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Göbekli Tepe",
+      "description": "santuario del neolítico en la actual Turquía"
+    },
+    "file": "assets/icons/ph-gobekli.jpg"
+  },
+  "ph-catal": {
+    "kind": "cutout",
+    "query": "Çatalhöyük",
+    "wiki": "Çatalhöyük",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Çatalhöyük",
+      "description": "asentamiento neolítico en Turquía"
+    },
+    "file": "assets/icons/ph-catal.jpg"
+  },
+  "ph-cucuteni": {
+    "kind": "cutout",
+    "query": "Cultura Cucuteni-Trípilia",
+    "wiki": "Cucuteni–Trypillia culture",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Cucuteni–Trypillia culture",
+      "description": "Neolithic–Eneolithic archaeological culture of southeastern Europe"
+    },
+    "file": "assets/icons/ph-cucuteni.jpg"
+  },
+  "ph-hititas": {
+    "kind": "cutout",
+    "query": "Hititas",
+    "wiki": "Hititas",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Hititas",
+      "description": "grupo étnico histórico de origen indoeuropeo"
+    },
+    "file": "assets/icons/ph-hititas.jpg"
+  },
+  "ph-micenas": {
+    "kind": "cutout",
+    "query": "Micenas",
+    "wiki": "Micenas",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Micenas",
+      "description": "antigua ciudad y sitio arqueológico en Grecia"
+    },
+    "file": "assets/icons/ph-micenas.jpg"
+  },
+  "ph-hattusa": {
+    "kind": "cutout",
+    "query": "Hattusa",
+    "wiki": "Hattusa",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Hattusa",
+      "description": "capital del Imperio hitita"
+    },
+    "file": "assets/icons/ph-hattusa.jpg"
+  },
+  "ph-medinet": {
+    "kind": "cutout",
+    "query": "Medinet Habu",
+    "wiki": "Medinet Habu",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Medinet Habu",
+      "description": ""
+    },
+    "file": "assets/icons/ph-medinet.jpg"
+  },
+  "ph-cobre": {
+    "kind": "cutout",
+    "query": "Cobre",
+    "wiki": "Cobre",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Cobre",
+      "description": "elemento químico de símbolo Cu y número atómico 29"
+    },
+    "file": "assets/icons/ph-cobre.jpg"
+  },
+  "ph-estano": {
+    "kind": "cutout",
+    "query": "Estaño",
+    "wiki": "Estaño",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Estaño",
+      "description": "elemento químico"
+    },
+    "file": "assets/icons/ph-estano.jpg"
+  },
+  "ph-petra": {
+    "kind": "cutout",
+    "query": "Petra",
+    "wiki": "Petra",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Petra",
+      "description": "antigua ciudad nabatea en Jordania y una de las 7 maravillas del mundo moderno"
+    },
+    "file": "assets/icons/ph-petra.jpg"
+  },
+  "ph-nabateos": {
+    "kind": "cutout",
+    "query": "Nabateos",
+    "wiki": "Nabateos",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Nabateos",
+      "description": "antiguo pueblo que habitó en los actuales Jordania e Israel, antigua Judea"
+    },
+    "file": "assets/icons/ph-nabateos.jpg"
+  },
+  "ph-incienso": {
+    "kind": "cutout",
+    "query": "Incienso",
+    "wiki": "Incienso",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Incienso",
+      "description": "material aromático que libera humo al quemarse"
+    },
+    "file": "assets/icons/ph-incienso.jpg"
+  },
+  "ph-burckhardt": {
+    "kind": "cutout",
+    "query": "Johann Ludwig Burckhardt",
+    "wiki": "Johann Ludwig Burckhardt",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Johann Ludwig Burckhardt",
+      "description": "explorador suizo"
+    },
+    "file": "assets/icons/ph-burckhardt.jpg"
+  },
+  "ph-teotihuacan": {
+    "kind": "cutout",
+    "query": "Teotihuacán",
+    "wiki": "Teotihuacán",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Teotihuacán",
+      "description": "ciudad prehispánica de Mesoamérica"
+    },
+    "file": "assets/icons/ph-teotihuacan.jpg"
+  },
+  "ph-sol": {
+    "kind": "cutout",
+    "query": "Pirámide del Sol",
+    "wiki": "Pirámide del Sol",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Pirámide del Sol",
+      "description": "edificación más grande de Teotihuacán (México)"
+    },
+    "file": "assets/icons/ph-sol.jpg"
+  },
+  "ph-luna": {
+    "kind": "cutout",
+    "query": "Pirámide de la Luna",
+    "wiki": "Pirámide de la Luna",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Pirámide de la Luna",
+      "description": "pirámide en Teotihuacán, México"
+    },
+    "file": "assets/icons/ph-luna.jpg"
+  },
+  "ph-chaco": {
+    "kind": "cutout",
+    "query": "Cañón del Chaco",
+    "wiki": "Cañón del Chaco",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Cañón del Chaco",
+      "description": "parque nacional estadounidense"
+    },
+    "file": "assets/icons/ph-chaco.jpg"
+  },
+  "ph-cacao": {
+    "kind": "cutout",
+    "query": "Theobroma cacao",
+    "wiki": "Theobroma cacao",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Theobroma cacao",
+      "description": "árbol perenne de la familia Malvaceae, nativo de México, Centroamérica y Sudamérica"
+    },
+    "file": "assets/icons/ph-cacao.jpg"
+  },
+  "ph-guacamayo": {
+    "kind": "cutout",
+    "query": "Ara (animal)",
+    "wiki": "Ara (animal)",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Ara (animal)",
+      "description": "género de aves"
+    },
+    "file": "assets/icons/ph-guacamayo.jpg"
+  },
+  "ph-angkor": {
+    "kind": "cutout",
+    "query": "Angkor",
+    "wiki": "Angkor",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Angkor",
+      "description": "Región de Camboya (antiguo capital del Imperio Jemer)"
+    },
+    "file": "assets/icons/ph-angkor.jpg"
+  },
+  "ph-groenlandia": {
+    "kind": "cutout",
+    "query": "Groenlandia",
+    "wiki": "Groenlandia",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Groenlandia",
+      "description": "país autónomo del Reino de Dinamarca"
+    },
+    "file": "assets/icons/ph-groenlandia.jpg"
+  },
+  "ph-drakkar": {
+    "kind": "cutout",
+    "query": "Drakkar",
+    "wiki": "Drakkar",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Drakkar",
+      "description": ""
+    },
+    "file": "assets/icons/ph-drakkar.jpg"
+  },
+  "ph-hvalsey": {
+    "kind": "cutout",
+    "query": "Hvalsey",
+    "wiki": "Hvalsey",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Hvalsey",
+      "description": "yacimiento arqueológico del Asentamiento Oriental (Eystribyggð)"
+    },
+    "file": "assets/icons/ph-hvalsey.jpg"
+  },
+  "ph-morsa": {
+    "kind": "cutout",
+    "query": "Odobenus rosmarus",
+    "wiki": "Odobenus rosmarus",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Odobenus rosmarus",
+      "description": "especie de mamíferos"
+    },
+    "file": "assets/icons/ph-morsa.jpg"
+  },
+  "ph-pequena": {
+    "kind": "cutout",
+    "query": "Pequeña Edad de Hielo",
+    "wiki": "Pequeña Edad de Hielo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Pequeña Edad de Hielo",
+      "description": "período frío que abarcó desde ca. 1400 hasta ca. 1850 en el hemisferio norte"
+    },
+    "file": "assets/icons/ph-pequena.jpg"
+  },
+  "ph-roanoke": {
+    "kind": "cutout",
+    "query": "Isla de Roanoke",
+    "wiki": "Isla de Roanoke",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Isla de Roanoke",
+      "description": ""
+    },
+    "file": "assets/icons/ph-roanoke.jpg"
+  },
+  "ph-trigo": {
+    "kind": "cutout",
+    "query": "Triticum",
+    "wiki": "Triticum",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Triticum",
+      "description": "género de plantas"
+    },
+    "file": "assets/icons/ph-trigo.jpg"
+  },
+  "ph-egipto": {
+    "kind": "cutout",
+    "query": "Gran Pirámide de Guiza",
+    "wiki": "Gran Pirámide de Guiza",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Gran Pirámide de Guiza",
+      "description": "construcción de bloques de piedra del Antiguo Egipto y parte de las siete maravillas del mundo antiguo"
+    },
+    "file": "assets/icons/ph-egipto.jpg"
+  },
+  "ph-sequia": {
+    "kind": "cutout",
+    "query": "Sequía",
+    "wiki": "Sequía",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sequía",
+      "description": "anomalía climatológica transitoria en la que la disponibilidad de agua se sitúa por debajo de lo habitual de un área geográfica"
+    },
+    "file": "assets/icons/ph-sequia.jpg"
+  },
+  "clip-crowd-day": {
+    "kind": "clip",
+    "query": "crowd walking daytime street",
+    "file": "assets/clips/clip-crowd-day.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Coverr",
+      "url": "https://www.pexels.com/video/black-and-white-video-of-a-busy-street-853946/"
+    }
+  },
+  "clip-empty-street": {
+    "kind": "clip",
+    "query": "empty street",
+    "file": "assets/clips/clip-empty-street.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "William Bradshaw",
+      "url": "https://www.pexels.com/video/night-drive-through-empty-urban-streets-34680571/"
+    }
+  },
+  "clip-library-shelves": {
+    "kind": "clip",
+    "query": "library shelves",
+    "file": "assets/clips/clip-library-shelves.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Konsta Nurkkala",
+      "url": "https://www.pexels.com/video/walking-in-modern-library-14543425/"
+    }
+  },
+  "clip-footprints": {
+    "kind": "clip",
+    "query": "footprints",
+    "file": "assets/clips/clip-footprints.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Adrien JACTA",
+      "url": "https://www.pexels.com/video/sea-beach-sand-wave-4359815/"
+    }
+  },
+  "clip-ocean": {
+    "kind": "clip",
+    "query": "ocean waves",
+    "file": "assets/clips/clip-ocean.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Samed Gojak",
+      "url": "https://www.pexels.com/video/footage-of-sea-weaving-6748729/"
+    }
+  },
+  "clip-sunrise": {
+    "kind": "clip",
+    "query": "sunrise",
+    "file": "assets/clips/clip-sunrise.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mustafa Dönmez",
+      "url": "https://www.pexels.com/video/a-flight-near-the-sun-28441665/"
+    }
+  },
+  "clip-angkor": {
+    "kind": "clip",
+    "query": "Angkor Wat temple drone aerial sunny",
+    "file": "assets/clips/clip-angkor.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "K",
+      "url": "https://www.pexels.com/video/aerial-view-of-angkor-wat-among-lush-forest-32926917/"
+    }
+  },
+  "clip-camels": {
+    "kind": "clip",
+    "query": "camel caravan walking in the desert sunny",
+    "file": "assets/clips/clip-camels.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Hamza Awan",
+      "url": "https://www.pexels.com/video/back-view-of-children-walking-in-the-desert-15111753/"
+    }
+  },
+  "clip-mediterranean": {
+    "kind": "clip",
+    "query": "mediterranean sea blue calm sunny boat",
+    "file": "assets/clips/clip-mediterranean.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Boyan Minchev",
+      "url": "https://www.pexels.com/video/beautiful-yacht-view-in-the-sea-27677836/"
+    }
+  },
+  "clip-teotihuacan": {
+    "kind": "clip",
+    "query": "pyramid of the sun Teotihuacan Mexico drone",
+    "file": "assets/clips/clip-teotihuacan.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Jorge Pantaleon",
+      "url": "https://www.pexels.com/video/aerial-view-of-teotihuacan-pyramids-in-mexico-40676476/"
+    }
+  },
+  "clip-dry-earth": {
+    "kind": "clip",
+    "query": "cracked dry earth drought close up",
+    "file": "assets/clips/clip-dry-earth.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Philipp Kappler",
+      "url": "https://www.pexels.com/video/drone-view-of-dry-cracked-earth-and-empty-reservoir-37533724/"
+    }
+  },
+  "clip-market": {
+    "kind": "clip",
+    "query": "busy open air market stalls daytime",
+    "file": "assets/clips/clip-market.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "K",
+      "url": "https://www.pexels.com/video/daily-activities-in-the-market-3967170/"
+    }
+  },
+  "clip-sailing": {
+    "kind": "clip",
+    "query": "sailing ship on open sea sunny",
+    "file": "assets/clips/clip-sailing.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Val А",
+      "url": "https://www.pexels.com/video/sailing-adventure-on-open-sea-with-clear-sky-35612721/"
+    }
+  },
+  "clip-monsoon": {
+    "kind": "clip",
+    "query": "heavy tropical monsoon rain green city",
+    "file": "assets/clips/clip-monsoon.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Aniket Suryawanshi",
+      "url": "https://www.pexels.com/video/tropical-rainfall-on-lush-greenery-in-pune-32628145/"
+    }
+  },
+  "clip-coast": {
+    "kind": "clip",
+    "query": "coast",
+    "file": "assets/clips/clip-coast.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Rahime Gül",
+      "url": "https://www.pexels.com/video/seagull-perched-on-coastal-rock-39477252/"
+    }
+  },
+  "clip-hourglass": {
+    "kind": "clip",
+    "query": "hourglass",
+    "file": "assets/clips/clip-hourglass.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "KoolShooters",
+      "url": "https://www.pexels.com/video/a-woman-flipping-an-hour-glass-8985069/"
+    }
+  },
+  "clip-farmland": {
+    "kind": "clip",
+    "query": "farmland",
+    "file": "assets/clips/clip-farmland.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Braeson Holland",
+      "url": "https://www.pexels.com/video/drone-video-of-silos-and-barns-under-a-cloudy-sky-13529947/"
+    }
+  },
+  "clip-magnifier": {
+    "kind": "clip",
+    "query": "magnifier",
+    "file": "assets/clips/clip-magnifier.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Video Kickstarter",
+      "url": "https://www.pexels.com/video/circuit-board-undder-magnifying-lens-2376866/"
+    }
+  },
+  "clip-cathedral": {
+    "kind": "clip",
+    "query": "cathedral",
+    "file": "assets/clips/clip-cathedral.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "S D",
+      "url": "https://www.pexels.com/video/a-large-cathedral-lit-up-at-night-with-a-clock-tower-15667782/"
+    }
+  },
+  "clip-clouds": {
+    "kind": "clip",
+    "query": "clouds",
+    "file": "assets/clips/clip-clouds.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Larkkid Dung",
+      "url": "https://www.pexels.com/video/majestic-cumulus-clouds-in-clear-blue-sky-33704412/"
+    }
+  },
+  "clip-iceberg": {
+    "kind": "clip",
+    "query": "icebergs arctic sea sunny",
+    "file": "assets/clips/clip-iceberg.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Cristian Manieri",
+      "url": "https://www.pexels.com/video/breathtaking-aerial-view-of-greenland-icebergs-28988998/"
+    }
+  },
+  "clip-ruins": {
+    "kind": "clip",
+    "query": "ancient stone ruins sunny day",
+    "file": "assets/clips/clip-ruins.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Александр Костров",
+      "url": "https://www.pexels.com/video/old-ruins-with-columns-10156813/"
+    }
+  },
+  "clip-archaeology": {
+    "kind": "clip",
+    "query": "archaeologist brushing excavation site",
+    "file": "assets/clips/clip-archaeology.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Артём Старшинов",
+      "url": "https://www.pexels.com/video/egyptian-hieroglyphs-on-porch-11169163/"
+    }
+  },
+  "clip-tree-rings": {
+    "kind": "clip",
+    "query": "tree trunk cross section rings close up",
+    "file": "assets/clips/clip-tree-rings.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Wendy Laplume",
+      "url": "https://www.pexels.com/video/revolving-shot-of-chopped-wood-4169273/"
+    }
+  },
+  "clip-pottery": {
+    "kind": "clip",
+    "query": "potter shaping clay pottery hands",
+    "file": "assets/clips/clip-pottery.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "khanhhoangminh",
+      "url": "https://www.pexels.com/video/person-making-a-clay-pot-with-a-pottery-wheel-12690282/"
+    }
+  },
+  "cv-tree-rings": {
+    "kind": "vector",
+    "query": "a simple cartoon tree trunk cross-section showing many growth rings, no text",
+    "file": "assets/icons/cv-tree-rings.png",
+    "normalized": true,
+    "gpt": true
+  }
+}
