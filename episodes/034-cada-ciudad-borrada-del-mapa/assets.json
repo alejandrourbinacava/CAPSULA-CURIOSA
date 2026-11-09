@@ -1,0 +1,1425 @@
+{
+  "lb-bigcrowd": {
+    "kind": "vector",
+    "query": "a huge crowd of a million people in a big city",
+    "file": "assets/icons/lb-bigcrowd.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ghostbuilding": {
+    "kind": "vector",
+    "query": "a ghostly see-through apartment building fading away, does not exist",
+    "file": "assets/icons/lb-ghostbuilding.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-longroad": {
+    "kind": "vector",
+    "query": "a long winding road with many kilometer markers",
+    "file": "assets/icons/lb-longroad.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-worldmap": {
+    "kind": "vector",
+    "query": "world map",
+    "file": "assets/icons/lb-worldmap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-poof": {
+    "kind": "vector",
+    "query": "a magician cloud of smoke where something just vanished, poof",
+    "file": "assets/icons/lb-poof.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ruinsvines": {
+    "kind": "vector",
+    "query": "old stone ruins overgrown with vines and plants",
+    "file": "assets/icons/lb-ruinsvines.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-magnifier": {
+    "kind": "vector",
+    "query": "a magnifying glass with a green check mark, verifying something",
+    "file": "assets/icons/lb-magnifier.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-curious": {
+    "kind": "vector",
+    "query": "a curious surprised face with wide eyes",
+    "file": "assets/icons/lb-curious.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-quake": {
+    "kind": "vector",
+    "query": "ground cracking open in an earthquake with a shaking building",
+    "file": "assets/icons/lb-quake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-shield": {
+    "kind": "vector",
+    "query": "a green shield with a check mark, protected",
+    "file": "assets/icons/lb-shield.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulb": {
+    "kind": "vector",
+    "query": "a classic glowing incandescent light bulb",
+    "file": "assets/icons/lb-bulb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-volcano": {
+    "kind": "vector",
+    "query": "an erupting volcano spewing lava and smoke",
+    "file": "assets/icons/lb-volcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calflip": {
+    "kind": "vector",
+    "query": "a wall calendar with many pages flying off, many years passing, no numbers",
+    "file": "assets/icons/lb-calflip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ruinssand": {
+    "kind": "vector",
+    "query": "ancient ruins half buried under sand",
+    "file": "assets/icons/lb-ruinssand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-knossos": {
+    "kind": "vector",
+    "query": "the ancient Minoan palace of Knossos with red columns",
+    "file": "assets/icons/lb-knossos.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-papyrus": {
+    "kind": "vector",
+    "query": "papyrus scroll",
+    "file": "assets/icons/lb-papyrus.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-scholar": {
+    "kind": "vector",
+    "query": "an old scholar with glasses reading a huge ancient book, thinking",
+    "file": "assets/icons/lb-scholar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-warning": {
+    "kind": "vector",
+    "query": "a yellow warning triangle with an exclamation mark",
+    "file": "assets/icons/lb-warning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-sinkisland": {
+    "kind": "vector",
+    "query": "an island sinking into the sea underwater",
+    "file": "assets/icons/lb-sinkisland.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bigvolcano": {
+    "kind": "vector",
+    "query": "a huge volcano erupting with ash and smoke",
+    "file": "assets/icons/lb-bigvolcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ashsky": {
+    "kind": "vector",
+    "query": "dust and ash blocking out the sun, dark sky",
+    "file": "assets/icons/lb-ashsky.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-pyro": {
+    "kind": "vector",
+    "query": "a fast burning cloud of ash and gas rushing down a volcano slope",
+    "file": "assets/icons/lb-pyro.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-clocklong": {
+    "kind": "vector",
+    "query": "a big clock with a long winding trail behind it, lasting for a long time, no text",
+    "file": "assets/icons/lb-clocklong.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-oldship": {
+    "kind": "vector",
+    "query": "an old european sailing ship arriving",
+    "file": "assets/icons/lb-oldship.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-wavehit": {
+    "kind": "vector",
+    "query": "a giant tsunami wave hitting the coast",
+    "file": "assets/icons/lb-wavehit.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-flames": {
+    "kind": "vector",
+    "query": "orange flames of a fire",
+    "file": "assets/icons/lb-flames.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-coal": {
+    "kind": "vector",
+    "query": "a big black lump of coal with smoke rising",
+    "file": "assets/icons/lb-coal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calendar": {
+    "kind": "vector",
+    "query": "a wall calendar showing a year",
+    "file": "assets/icons/lb-calendar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-peopleleave": {
+    "kind": "vector",
+    "query": "a line of people walking away abandoning a city",
+    "file": "assets/icons/lb-peopleleave.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-flood": {
+    "kind": "vector",
+    "query": "a flooded street with water covering houses",
+    "file": "assets/icons/lb-flood.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-plant": {
+    "kind": "vector",
+    "query": "a nuclear power plant with cooling towers",
+    "file": "assets/icons/lb-plant.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-boom": {
+    "kind": "vector",
+    "query": "a cartoon industrial building bursting open with an orange explosion and flying debris, no text",
+    "file": "assets/icons/lb-boom.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ukraine": {
+    "kind": "vector",
+    "query": "a plain map silhouette of Ukraine in neutral green and beige, no text, no flag",
+    "file": "assets/icons/lb-ukraine.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-exclusion": {
+    "kind": "vector",
+    "query": "a map circle with a dashed boundary around a small plant icon and a warning sign, no text",
+    "file": "assets/icons/lb-exclusion.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-stophand": {
+    "kind": "vector",
+    "query": "a big red open stop hand sign, simple, no text",
+    "file": "assets/icons/lb-stophand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-hourglass": {
+    "kind": "vector",
+    "query": "an hourglass running out of sand, time ending",
+    "file": "assets/icons/lb-hourglass.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-siren": {
+    "kind": "vector",
+    "query": "a red flashing emergency siren light",
+    "file": "assets/icons/lb-siren.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-evac": {
+    "kind": "vector",
+    "query": "an evacuation route road sign with an arrow",
+    "file": "assets/icons/lb-evac.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-collapse": {
+    "kind": "vector",
+    "query": "a building collapsing and crumbling down",
+    "file": "assets/icons/lb-collapse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-plates": {
+    "kind": "vector",
+    "query": "two tectonic plates of the earth crust pushing against each other",
+    "file": "assets/icons/lb-plates.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-redflag": {
+    "kind": "vector",
+    "query": "a red warning flag",
+    "file": "assets/icons/lb-redflag.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-candle": {
+    "kind": "vector",
+    "query": "a candle flame gently blowing out",
+    "file": "assets/icons/lb-candle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulbbook": {
+    "kind": "vector",
+    "query": "a lightbulb above an open book with a star, an important lesson",
+    "file": "assets/icons/lb-bulbbook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-stareyes": {
+    "kind": "vector",
+    "query": "a happy dreaming face with sparkling stars in its eyes, hope and excitement",
+    "file": "assets/icons/lb-stareyes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ruinsq": {
+    "kind": "vector",
+    "query": "a big question mark over ancient ruins, mystery",
+    "file": "assets/icons/lb-ruinsq.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-ancient-man": {
+    "kind": "vector",
+    "query": "an ancient Greek man in a toga shrugging with empty open hands, no text",
+    "file": "assets/icons/ci-ancient-man.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-three-things": {
+    "kind": "vector",
+    "query": "three big round puzzle pieces in red, blue and yellow fitting together, no text",
+    "file": "assets/icons/ci-three-things.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-place-pin": {
+    "kind": "vector",
+    "query": "a red map pin planted on a green hill, no text",
+    "file": "assets/icons/ci-place-pin.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-fast-arrow": {
+    "kind": "vector",
+    "query": "a fast arrow with speed lines racing toward a small house, no text",
+    "file": "assets/icons/ci-fast-arrow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-react-clock": {
+    "kind": "vector",
+    "query": "a stopwatch next to a small running person, reaction time, no text",
+    "file": "assets/icons/ci-react-clock.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-hidden-threat": {
+    "kind": "vector",
+    "query": "a small village at the foot of a big sleeping volcano with closed eyes, calm, no text",
+    "file": "assets/icons/ci-hidden-threat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-lake-dam": {
+    "kind": "vector",
+    "query": "a lake held back by a long earth wall with a small town behind it, no text",
+    "file": "assets/icons/ci-lake-dam.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-coal-under": {
+    "kind": "vector",
+    "query": "a cross-section of a small house with black coal layers underground below it, no text",
+    "file": "assets/icons/ci-coal-under.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-santorini-map": {
+    "kind": "vector",
+    "query": "a simple map of the Greek islands in the Aegean sea with one round island circled in red, no text, no flags",
+    "file": "assets/icons/ci-santorini-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-fresco-fish": {
+    "kind": "vector",
+    "query": "an ancient fresco wall painting of blue dolphins and fish, Minoan style, no text",
+    "file": "assets/icons/ci-fresco-fish.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-eruption-island": {
+    "kind": "vector",
+    "query": "a round island exploding with a huge volcanic ash column and a bright orange glow, no text",
+    "file": "assets/icons/ci-eruption-island.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-ash-buried": {
+    "kind": "vector",
+    "query": "a small ancient town half buried under a thick layer of gray ash, no text",
+    "file": "assets/icons/ci-ash-buried.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-pumice": {
+    "kind": "vector",
+    "query": "a light gray porous pumice stone, simple, no text",
+    "file": "assets/icons/ci-pumice.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-empty-chest": {
+    "kind": "vector",
+    "query": "an open empty wooden chest with a few cobwebs, no text",
+    "file": "assets/icons/ci-empty-chest.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-shaking-pots": {
+    "kind": "vector",
+    "query": "ancient clay jars on a shelf wobbling and shaking with small motion lines, no text",
+    "file": "assets/icons/ci-shaking-pots.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-people-boat": {
+    "kind": "vector",
+    "query": "a small group of people sailing away on a wooden boat under a bright sky, no text",
+    "file": "assets/icons/ci-people-boat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-greece-map": {
+    "kind": "vector",
+    "query": "a simple map of Greece in green and beige with the northern coast of the Peloponnese circled in red, no text, no flag",
+    "file": "assets/icons/ci-greece-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-greek-city": {
+    "kind": "vector",
+    "query": "an ancient Greek coastal city with white columned temples by the sea, bright, no text",
+    "file": "assets/icons/ci-greek-city.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-gulf": {
+    "kind": "vector",
+    "query": "a calm blue gulf of sea between two green coasts, simple map style, no text",
+    "file": "assets/icons/ci-gulf.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-night-wave": {
+    "kind": "vector",
+    "query": "a big wave rising over a small ancient Greek city at night under a crescent moon, no text",
+    "file": "assets/icons/ci-night-wave.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-animals-leave": {
+    "kind": "vector",
+    "query": "a line of small animals such as mice and birds leaving a small town together in the same direction, no text",
+    "file": "assets/icons/ci-animals-leave.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-legend-fog": {
+    "kind": "vector",
+    "query": "an ancient city outline half hidden in white fog like a legend, no text",
+    "file": "assets/icons/ci-legend-fog.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-archaeologist": {
+    "kind": "vector",
+    "query": "a friendly archaeologist with a hat holding a small brush and a clay pot, no text",
+    "file": "assets/icons/ci-archaeologist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-mud-layer": {
+    "kind": "vector",
+    "query": "a cross section of ground with brown mud layers burying ancient stone walls, no text",
+    "file": "assets/icons/ci-mud-layer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-lagoon": {
+    "kind": "vector",
+    "query": "a shallow lagoon with reeds and a few old stone walls under the water, no text",
+    "file": "assets/icons/ci-lagoon.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-under-mud": {
+    "kind": "vector",
+    "query": "a half buried ancient Greek temple column sticking out of brown mud with a blue sea far behind, no text",
+    "file": "assets/icons/ci-under-mud.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-pine-cloud": {
+    "kind": "vector",
+    "query": "a tall pine tree shaped gray ash cloud rising from a volcano, no text",
+    "file": "assets/icons/ci-pine-cloud.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-buried-roman": {
+    "kind": "vector",
+    "query": "a Roman town with columns covered up to the roofs in gray ash, no text",
+    "file": "assets/icons/ci-buried-roman.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-painted-wall": {
+    "kind": "vector",
+    "query": "a Roman wall painted with red panels and colorful garden pictures, no text",
+    "file": "assets/icons/ci-painted-wall.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-bakery-oven": {
+    "kind": "vector",
+    "query": "a Roman stone bread oven with round loaves, no text",
+    "file": "assets/icons/ci-bakery-oven.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-graffiti-wall": {
+    "kind": "vector",
+    "query": "a plain stone wall with simple scribbled drawings and scratches, graffiti, no letters, no text",
+    "file": "assets/icons/ci-graffiti-wall.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-charred-wood": {
+    "kind": "vector",
+    "query": "a charred black wooden beam and a bed frame preserved, no text",
+    "file": "assets/icons/ci-charred-wood.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-jamaica-map": {
+    "kind": "vector",
+    "query": "a simple map of the Caribbean sea with the island of Jamaica circled in red, no text, no flag",
+    "file": "assets/icons/ci-jamaica-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-caribbean-port": {
+    "kind": "vector",
+    "query": "a busy old Caribbean harbor with wooden ships and warehouses with red roofs, no text",
+    "file": "assets/icons/ci-caribbean-port.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-treasure-chest": {
+    "kind": "vector",
+    "query": "an open treasure chest full of gold coins, no text",
+    "file": "assets/icons/ci-treasure-chest.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-sand-spit": {
+    "kind": "vector",
+    "query": "a thin strip of sand between sea and bay with small old houses on it, no text",
+    "file": "assets/icons/ci-sand-spit.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-liquefy": {
+    "kind": "vector",
+    "query": "a house sinking into wet sandy ground that behaves like liquid, no text",
+    "file": "assets/icons/ci-liquefy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-city-slides-sea": {
+    "kind": "vector",
+    "query": "part of a coastal town sliding down into the sea, no text",
+    "file": "assets/icons/ci-city-slides-sea.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-bandage-therm": {
+    "kind": "vector",
+    "query": "a small thermometer and a bandage, simple, no text",
+    "file": "assets/icons/ci-bandage-therm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-trade-shift": {
+    "kind": "vector",
+    "query": "an arrow of cargo boxes moving from a small port town toward a bigger port city, no text",
+    "file": "assets/icons/ci-trade-shift.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-pennsylvania": {
+    "kind": "vector",
+    "query": "a simple map of the United States with the state of Pennsylvania highlighted in red, no text, no flag",
+    "file": "assets/icons/ci-pennsylvania.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-mining-town": {
+    "kind": "vector",
+    "query": "a small old coal mining town with row houses, a mine entrance and a church, no text",
+    "file": "assets/icons/ci-mining-town.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-landfill-fire": {
+    "kind": "vector",
+    "query": "a trash dump with small flames and smoke next to an abandoned mine entrance, no text",
+    "file": "assets/icons/ci-landfill-fire.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-mine-tunnels": {
+    "kind": "vector",
+    "query": "underground mine tunnels with orange fire glowing inside the tunnels, cutaway, no text",
+    "file": "assets/icons/ci-mine-tunnels.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-fire-under-town": {
+    "kind": "vector",
+    "query": "a cutaway of a quiet street with orange flames burning deep underground beneath it, no text",
+    "file": "assets/icons/ci-fire-under-town.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-sinkhole": {
+    "kind": "vector",
+    "query": "a round sinkhole opened in the ground with steam and a small orange cone next to it, no text",
+    "file": "assets/icons/ci-sinkhole.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-rescue-hand": {
+    "kind": "vector",
+    "query": "a hand pulling another hand up from a hole, rescue, no text",
+    "file": "assets/icons/ci-rescue-hand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-buy-houses": {
+    "kind": "vector",
+    "query": "a row of houses with a big green dollar sign flag and moving boxes, no text",
+    "file": "assets/icons/ci-buy-houses.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-sealed-land": {
+    "kind": "vector",
+    "query": "an empty fenced field with a red no entry sign, no text",
+    "file": "assets/icons/ci-sealed-land.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-mail-stop": {
+    "kind": "vector",
+    "query": "a mailbox with a red cross over it and a postal envelope, no text",
+    "file": "assets/icons/ci-mail-stop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-crowd-small": {
+    "kind": "vector",
+    "query": "a gathering of a hundred small colorful people figures, no text",
+    "file": "assets/icons/ci-crowd-small.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-five-people": {
+    "kind": "vector",
+    "query": "five small people figures standing far apart in an empty field, no text",
+    "file": "assets/icons/ci-five-people.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-fire-clock": {
+    "kind": "vector",
+    "query": "a long burning fuse stretching far to the horizon with a clock at the end, burning for centuries, no text",
+    "file": "assets/icons/ci-fire-clock.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-lahar": {
+    "kind": "vector",
+    "query": "a thick brown river of mud, rocks and ash rushing down a valley, no text",
+    "file": "assets/icons/ci-lahar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-colombia-map": {
+    "kind": "vector",
+    "query": "a simple map of Colombia in green with a red dot, no text, no flag",
+    "file": "assets/icons/ci-colombia-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-ice-melt": {
+    "kind": "vector",
+    "query": "snow and ice on a volcano summit melting into water streams with orange heat, no text",
+    "file": "assets/icons/ci-ice-melt.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-night-river-mud": {
+    "kind": "vector",
+    "query": "a river of mud flowing toward a small sleeping town at night under the moon, no text",
+    "file": "assets/icons/ci-night-river-mud.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-scientist-warn": {
+    "kind": "vector",
+    "query": "a scientist waving a warning sheet with a red exclamation mark, no text",
+    "file": "assets/icons/ci-scientist-warn.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-hazard-map": {
+    "kind": "vector",
+    "query": "a colorful hazard map with a volcano and red zones around rivers, no text",
+    "file": "assets/icons/ci-hazard-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-ruins-candle": {
+    "kind": "vector",
+    "query": "ruined house walls with a small candle flame lit in front, quiet memorial, no text",
+    "file": "assets/icons/ci-ruins-candle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-risk-plan": {
+    "kind": "vector",
+    "query": "a clipboard with an emergency plan checklist and a green check, no text",
+    "file": "assets/icons/ci-risk-plan.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-submerged": {
+    "kind": "vector",
+    "query": "a small town completely under still water with only roof tops visible, no text",
+    "file": "assets/icons/ci-submerged.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-argentina-map": {
+    "kind": "vector",
+    "query": "a simple map of Argentina in green with a red dot, no text, no flag",
+    "file": "assets/icons/ci-argentina-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-spa-resort": {
+    "kind": "vector",
+    "query": "a lakeside spa resort with a pier, small hotels and sunshades in the sun, no text",
+    "file": "assets/icons/ci-spa-resort.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-lake-up-down": {
+    "kind": "vector",
+    "query": "a lake with water level marks and arrows going up and down, rain clouds above, no numbers, no text",
+    "file": "assets/icons/ci-lake-up-down.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-dike-break": {
+    "kind": "vector",
+    "query": "a long earth dike wall cracking and water bursting through toward houses, no text",
+    "file": "assets/icons/ci-dike-break.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-lone-man": {
+    "kind": "vector",
+    "query": "a lone elderly man standing in front of a ruined house in a white salty landscape, no text",
+    "file": "assets/icons/ci-lone-man.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-new-city": {
+    "kind": "vector",
+    "query": "a modern apartment block city with a park and a school, bright, no text",
+    "file": "assets/icons/ci-new-city.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-buses-line": {
+    "kind": "vector",
+    "query": "a long line of city buses driving out of a town, no text",
+    "file": "assets/icons/ci-buses-line.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-few-days": {
+    "kind": "vector",
+    "query": "a small suitcase next to a calendar page with only three days, no numbers, no text",
+    "file": "assets/icons/ci-few-days.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-harbor-gate": {
+    "kind": "vector",
+    "query": "a small tropical port with a pier and colorful buildings, no text",
+    "file": "assets/icons/ci-harbor-gate.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-back-forth": {
+    "kind": "vector",
+    "query": "people with suitcases walking back and forth between a town and a hill with two arrows, no text",
+    "file": "assets/icons/ci-back-forth.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-buried-capital": {
+    "kind": "vector",
+    "query": "a small tropical town buried by gray ash up to the second floor windows, no text",
+    "file": "assets/icons/ci-buried-capital.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-two-thirds": {
+    "kind": "vector",
+    "query": "a pie chart where two thirds is highlighted in orange with small people leaving, no text",
+    "file": "assets/icons/ci-two-thirds.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-gov-building": {
+    "kind": "vector",
+    "query": "a small government building with a flag pole standing alone in gray ash, no text, no flag",
+    "file": "assets/icons/ci-gov-building.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-observatory": {
+    "kind": "vector",
+    "query": "a small observatory hut with a satellite dish and instruments on a hillside looking at a volcano, no text",
+    "file": "assets/icons/ci-observatory.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-fertile": {
+    "kind": "vector",
+    "query": "a green field with rich dark soil and a sprouting plant next to a small volcano, no text",
+    "file": "assets/icons/ci-fertile.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-mine-work": {
+    "kind": "vector",
+    "query": "a miner with a helmet and a pickaxe at a mine entrance, no text",
+    "file": "assets/icons/ci-mine-work.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-two-sides": {
+    "kind": "vector",
+    "query": "a coin with a bright sun on one side and a dark storm cloud on the other, no text",
+    "file": "assets/icons/ci-two-sides.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-forgotten": {
+    "kind": "vector",
+    "query": "a faded old photograph covered with dust and cobwebs, forgotten, no text",
+    "file": "assets/icons/ci-forgotten.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-rebuild": {
+    "kind": "vector",
+    "query": "a city skyline being rebuilt with a crane and a green leaf, no text",
+    "file": "assets/icons/ci-rebuild.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-first-science": {
+    "kind": "vector",
+    "query": "a scientist with a notebook measuring a crack in the ground, no text",
+    "file": "assets/icons/ci-first-science.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ci-volcano-watch": {
+    "kind": "vector",
+    "query": "a friendly cartoon volcano being watched by a big eye and a thermometer, no text",
+    "file": "assets/icons/ci-volcano-watch.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-pompeya": {
+    "kind": "cutout",
+    "query": "Pompeya",
+    "wiki": "Pompeya",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Pompeya",
+      "description": "ciudad de la Antigua Roma dentro de la Italia romana"
+    },
+    "file": "assets/icons/photo-pompeya.jpg"
+  },
+  "photo-herculano": {
+    "kind": "cutout",
+    "query": "Herculano",
+    "wiki": "Herculano",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Herculano",
+      "description": "antigua ciudad romana, sepultada en la erupción del volcán Vesubio en el año 79 d. C"
+    },
+    "file": "assets/icons/photo-herculano.jpg"
+  },
+  "photo-vesubio": {
+    "kind": "cutout",
+    "query": "Monte Vesubio",
+    "wiki": "Monte Vesubio",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Monte Vesubio",
+      "description": "volcán de la provincia de Nápoles, Italia"
+    },
+    "file": "assets/icons/photo-vesubio.png"
+  },
+  "photo-fauno": {
+    "kind": "cutout",
+    "query": "Casa del Fauno",
+    "wiki": "Casa del Fauno",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Casa del Fauno",
+      "description": ""
+    },
+    "file": "assets/icons/photo-fauno.jpg"
+  },
+  "photo-plinio": {
+    "kind": "cutout",
+    "query": "Plinio el Joven",
+    "wiki": "Plinio el Joven",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Plinio el Joven",
+      "description": "político y escritor romano"
+    },
+    "file": "assets/icons/photo-plinio.jpg"
+  },
+  "photo-portroyal": {
+    "kind": "cutout",
+    "query": "Port Royal",
+    "wiki": "Port Royal (ciudad)",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Port Royal (ciudad)",
+      "description": "ciudad de Jamaica"
+    },
+    "file": "assets/icons/photo-portroyal.jpg"
+  },
+  "photo-centralia": {
+    "kind": "cutout",
+    "query": "Centralia",
+    "wiki": "Centralia",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Centralia",
+      "description": "municipio y pueblo casi fantasma en el condado de Columbia, Pensilvania, Estados Unidos"
+    },
+    "file": "assets/icons/photo-centralia.jpg"
+  },
+  "photo-armero": {
+    "kind": "cutout",
+    "query": "Armero",
+    "wiki": "Armero",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Armero",
+      "description": "Municipio colombiano del departamento del Tolima"
+    },
+    "file": "assets/icons/photo-armero.jpg"
+  },
+  "photo-ruiz": {
+    "kind": "cutout",
+    "query": "Nevado del Ruiz",
+    "wiki": "Volcán Nevado del Ruiz",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Volcán Nevado del Ruiz",
+      "description": "volcán con glaciar en Colombia"
+    },
+    "file": "assets/icons/photo-ruiz.jpg"
+  },
+  "photo-epecuen": {
+    "kind": "cutout",
+    "query": "Villa Epecuén",
+    "wiki": "Villa Epecuén",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Villa Epecuén",
+      "description": "ciudad abandonada en la provincia de Buenos Aires, Argentina"
+    },
+    "file": "assets/icons/photo-epecuen.jpg"
+  },
+  "photo-pripyat": {
+    "kind": "cutout",
+    "query": "Prípiat",
+    "wiki": "Prípiat",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Prípiat",
+      "description": "ciudad de Ucrania"
+    },
+    "file": "assets/icons/photo-pripyat.jpg"
+  },
+  "photo-plymouth": {
+    "kind": "cutout",
+    "query": "Plymouth Montserrat",
+    "wiki": "Plymouth (Montserrat)",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Plymouth (Montserrat)",
+      "description": "Antigua capital de la isla Montserrat"
+    },
+    "file": "assets/icons/photo-plymouth.jpg"
+  },
+  "photo-soufriere": {
+    "kind": "cutout",
+    "query": "Soufrière Hills",
+    "wiki": "Soufrière Hills",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Soufrière Hills",
+      "description": "Volcano on Montserrat in the Caribbean"
+    },
+    "file": "assets/icons/photo-soufriere.jpg"
+  },
+  "photo-sismografo": {
+    "kind": "cutout",
+    "query": "Sismógrafo",
+    "wiki": "Sismógrafo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sismógrafo",
+      "description": "instrumento para medir terremotos o pequeños temblores provocados por los movimientos de las placas litosféricas"
+    },
+    "file": "assets/icons/photo-sismografo.jpg"
+  },
+  "photo-lahar": {
+    "kind": "cutout",
+    "query": "Lahar",
+    "wiki": "Lahar",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Lahar",
+      "description": "flujo de sedimento y agua que se moviliza desde las laderas de volcanes"
+    },
+    "file": "assets/icons/photo-lahar.jpg"
+  },
+  "photo-minoica": {
+    "kind": "cutout",
+    "query": "Civilización minoica",
+    "wiki": "Civilización minoica",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Civilización minoica",
+      "description": "civilización europea de la antigüedad"
+    },
+    "file": "assets/icons/photo-minoica.jpg"
+  },
+  "photo-montserrat": {
+    "kind": "cutout",
+    "query": "Montserrat",
+    "wiki": "Montserrat",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Montserrat",
+      "description": "territorio británico de ultramar"
+    },
+    "file": "assets/icons/photo-montserrat.jpg"
+  },
+  "photo-pyro": {
+    "kind": "cutout",
+    "query": "Pyroclastic flow",
+    "wiki": "Pyroclastic flow",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Pyroclastic flow",
+      "description": "Fast-moving current of hot gas and volcanic matter that moves away from a volcano"
+    },
+    "file": "assets/icons/photo-pyro.jpg"
+  },
+  "photo-falla": {
+    "kind": "cutout",
+    "query": "Falla geológica",
+    "wiki": "Falla",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Falla",
+      "description": "fractura en rocas con desplazamiento lineal"
+    },
+    "file": "assets/icons/photo-falla.jpg"
+  },
+  "photo-lagosalado": {
+    "kind": "cutout",
+    "query": "Lago salado",
+    "wiki": "Lago salado",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Lago salado",
+      "description": "cuerpo de agua con una concentración alta de sales"
+    },
+    "file": "assets/icons/photo-lagosalado.jpg"
+  },
+  "clip-hourglass": {
+    "kind": "clip",
+    "query": "hourglass sand time close up",
+    "file": "assets/clips/clip-hourglass.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Samer Daboul",
+      "url": "https://www.pexels.com/video/sand-inside-an-hourglass-1188938/"
+    }
+  },
+  "clip-old-map": {
+    "kind": "clip",
+    "query": "hands pointing at an old map",
+    "file": "assets/clips/clip-old-map.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tima Miroshnichenko",
+      "url": "https://www.pexels.com/video/people-finger-pointing-to-map-7009786/"
+    }
+  },
+  "clip-diver": {
+    "kind": "clip",
+    "query": "scuba diver underwater",
+    "file": "assets/clips/clip-diver.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "JUN HO LEE",
+      "url": "https://www.pexels.com/video/scuba-divers-exploring-ocean-trench-34413539/"
+    }
+  },
+  "clip-engineers": {
+    "kind": "clip",
+    "query": "engineers looking at blueprint",
+    "file": "assets/clips/clip-engineers.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikael Blomkvist",
+      "url": "https://www.pexels.com/video/a-man-and-woman-holding-a-blueprint-while-looking-at-construction-site-8964796/"
+    }
+  },
+  "clip-abandoned": {
+    "kind": "clip",
+    "query": "abandoned building interior daylight dusty",
+    "file": "assets/clips/clip-abandoned.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "utopia 36",
+      "url": "https://www.pexels.com/video/abandoned-room-in-chernobyl-12160811/"
+    }
+  },
+  "clip-coast": {
+    "kind": "clip",
+    "query": "mediterranean coast cliffs blue sea sunny",
+    "file": "assets/clips/clip-coast.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Engin Akyurt",
+      "url": "https://www.pexels.com/video/serene-mediterranean-coastal-cliff-view-30764221/"
+    }
+  },
+  "clip-farmland": {
+    "kind": "clip",
+    "query": "green farmland countryside aerial daytime",
+    "file": "assets/clips/clip-farmland.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tom Jurman",
+      "url": "https://www.pexels.com/video/aerial-view-of-scenic-rural-landscape-34731148/"
+    }
+  },
+  "clip-shipwreck": {
+    "kind": "clip",
+    "query": "shipwreck underwater",
+    "file": "assets/clips/clip-shipwreck.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "JUN HO LEE",
+      "url": "https://www.pexels.com/video/stunning-underwater-wreck-teeming-with-marine-life-33034716/"
+    }
+  },
+  "clip-empty-street": {
+    "kind": "clip",
+    "query": "empty old european street sunny",
+    "file": "assets/clips/clip-empty-street.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Furkan  Aktaş",
+      "url": "https://www.pexels.com/video/rustic-urban-building-against-clear-blue-sky-39391973/"
+    }
+  },
+  "clip-library-shelves": {
+    "kind": "clip",
+    "query": "old library bookshelves",
+    "file": "assets/clips/clip-library-shelves.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Liudmyla Honcharova",
+      "url": "https://www.pexels.com/video/a-young-woman-looking-at-books-in-a-library-11958282/"
+    }
+  },
+  "clip-beach": {
+    "kind": "clip",
+    "query": "people walking on sunny beach",
+    "file": "assets/clips/clip-beach.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kampus Production",
+      "url": "https://www.pexels.com/video/a-couple-holding-hands-while-walking-in-the-beach-6180186/"
+    }
+  },
+  "clip-skyscrapers": {
+    "kind": "clip",
+    "query": "city skyscrapers aerial daytime",
+    "file": "assets/clips/clip-skyscrapers.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "K",
+      "url": "https://www.pexels.com/video/aerial-view-of-philadelphia-skyline-37178019/"
+    }
+  },
+  "clip-market": {
+    "kind": "clip",
+    "query": "busy outdoor market stalls daytime",
+    "file": "assets/clips/clip-market.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "K",
+      "url": "https://www.pexels.com/video/daily-activities-in-the-market-3967170/"
+    }
+  },
+  "clip-ruins-roman": {
+    "kind": "clip",
+    "query": "ancient roman ruins sunny day",
+    "file": "assets/clips/clip-ruins-roman.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Engin Akyurt",
+      "url": "https://www.pexels.com/video/historical-greek-and-roman-ruins-17675371/"
+    }
+  },
+  "clip-greek-temple": {
+    "kind": "clip",
+    "query": "ancient greek temple columns blue sky",
+    "file": "assets/clips/clip-greek-temple.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Satvinder Ghotra",
+      "url": "https://www.pexels.com/video/majestic-parthenon-under-clear-blue-sky-35759332/"
+    }
+  },
+  "clip-santorini": {
+    "kind": "clip",
+    "query": "santorini white houses blue sea sunny",
+    "file": "assets/clips/clip-santorini.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Dimitris Mourousiadis",
+      "url": "https://www.pexels.com/video/akrotiri-santorini-20695988/"
+    }
+  },
+  "clip-crater-smoke": {
+    "kind": "clip",
+    "query": "volcano crater smoking daytime aerial",
+    "file": "assets/clips/clip-crater-smoke.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "ArtHouse Studio",
+      "url": "https://www.pexels.com/video/an-aerial-footage-of-the-volcanoes-of-east-java-indonesia-4581197/"
+    }
+  },
+  "clip-sailing-ship": {
+    "kind": "clip",
+    "query": "old wooden sailing ship sea sunny",
+    "file": "assets/clips/clip-sailing-ship.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Val А",
+      "url": "https://www.pexels.com/video/sailing-adventure-on-a-traditional-wooden-boat-35612638/"
+    }
+  },
+  "clip-steam-ground": {
+    "kind": "clip",
+    "query": "steam rising from ground vents daylight",
+    "file": "assets/clips/clip-steam-ground.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pixabay",
+      "url": "https://www.pexels.com/video/steaming-rocks-854742/"
+    }
+  },
+  "clip-mud-river": {
+    "kind": "clip",
+    "query": "muddy brown river flowing fast",
+    "file": "assets/clips/clip-mud-river.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Metro junction",
+      "url": "https://www.pexels.com/video/powerful-flood-waters-rushing-over-dam-28836379/"
+    }
+  },
+  "clip-snow-mountain": {
+    "kind": "clip",
+    "query": "snow capped mountain peak sunny",
+    "file": "assets/clips/clip-snow-mountain.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Anastasia  Shuraeva",
+      "url": "https://www.pexels.com/video/a-snow-capped-mountain-8033337/"
+    }
+  },
+  "clip-salt-lake": {
+    "kind": "clip",
+    "query": "salt lake white shore blue sky aerial",
+    "file": "assets/clips/clip-salt-lake.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Vikash Singh",
+      "url": "https://www.pexels.com/video/4k-aerial-drone-shot-of-infinite-road-and-salt-water-lake-on-both-sides-connecting-khavda-to-dholavira-in-kutch-gujarat-india-road-to-heaven-during-evening-road-trip-in-kutch-natural-27089237/"
+    }
+  },
+  "clip-ferris": {
+    "kind": "clip",
+    "query": "ferris wheel amusement park blue sky",
+    "file": "assets/clips/clip-ferris.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Engin Akyurt",
+      "url": "https://www.pexels.com/video/giant-ferris-wheel-against-clear-blue-sky-36388260/"
+    }
+  },
+  "clip-ghost-town": {
+    "kind": "clip",
+    "query": "abandoned apartment blocks overgrown trees daytime",
+    "file": "assets/clips/clip-ghost-town.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "utopia 36",
+      "url": "https://www.pexels.com/video/buildings-surrounded-with-trees-12155749/"
+    }
+  },
+  "clip-tropical-island": {
+    "kind": "clip",
+    "query": "tropical island aerial caribbean sunny",
+    "file": "assets/clips/clip-tropical-island.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Advancer Drones",
+      "url": "https://www.pexels.com/video/aerial-footage-of-a-bay-with-blue-water-11204826/"
+    }
+  },
+  "clip-seismograph": {
+    "kind": "clip",
+    "query": "seismograph recording earthquake paper needle",
+    "file": "assets/clips/clip-seismograph.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tima Miroshnichenko",
+      "url": "https://www.pexels.com/video/a-person-vinyl-player-5118420/"
+    }
+  },
+  "clip-excavation": {
+    "kind": "clip",
+    "query": "archaeologist excavating dig site brush",
+    "file": "assets/clips/clip-excavation.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "K",
+      "url": "https://www.pexels.com/video/heavy-machinery-working-in-forest-excavation-33024405/"
+    }
+  },
+  "clip-rain-lake": {
+    "kind": "clip",
+    "query": "heavy rain falling on lake daytime",
+    "file": "assets/clips/clip-rain-lake.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Sebastián Muriel",
+      "url": "https://www.pexels.com/video/heavy-raindrops-falling-7843122/"
+    }
+  },
+  "clip-ash-plume": {
+    "kind": "clip",
+    "query": "volcano eruption ash plume daytime",
+    "file": "assets/clips/clip-ash-plume.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pressmaster",
+      "url": "https://www.pexels.com/video/an-erupting-volcano-spewing-volcanic-ash-up-in-the-air-3192166/"
+    }
+  },
+  "clip-flooded-street": {
+    "kind": "clip",
+    "query": "flooded street houses water daytime",
+    "file": "assets/clips/clip-flooded-street.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "K",
+      "url": "https://www.pexels.com/video/aerial-view-of-flooded-landscape-and-village-32927375/"
+    }
+  },
+  "ci-salt-water-spa": {
+    "kind": "vector",
+    "query": "a simple cartoon salty lake with a white salt shore and a tiny swimmer floating relaxed, no text",
+    "file": "assets/icons/ci-salt-water-spa.png",
+    "normalized": true,
+    "gpt": true
+  }
+}
