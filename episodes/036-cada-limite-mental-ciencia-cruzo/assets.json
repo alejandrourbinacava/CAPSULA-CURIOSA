@@ -1,0 +1,1423 @@
+{
+  "lb-calflip": {
+    "kind": "vector",
+    "query": "a wall calendar with many pages flying off, many years passing, no numbers",
+    "file": "assets/icons/lb-calflip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-wallcal": {
+    "kind": "vector",
+    "query": "a wall calendar showing a year",
+    "file": "assets/icons/lb-wallcal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-eyecam": {
+    "kind": "vector",
+    "query": "a human eye working like a camera lens",
+    "file": "assets/icons/lb-eyecam.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-brain": {
+    "kind": "vector",
+    "query": "human brain",
+    "file": "assets/icons/lb-brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-brainside": {
+    "kind": "vector",
+    "query": "a human brain seen from the side",
+    "file": "assets/icons/lb-brainside.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-neurons": {
+    "kind": "vector",
+    "query": "a network of neurons connected with branches",
+    "file": "assets/icons/lb-neurons.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulbbook": {
+    "kind": "vector",
+    "query": "a lightbulb above an open book with a star, an important lesson",
+    "file": "assets/icons/lb-bulbbook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-stareyes": {
+    "kind": "vector",
+    "query": "a happy dreaming face with sparkling stars in its eyes, hope and excitement",
+    "file": "assets/icons/lb-stareyes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-startled": {
+    "kind": "vector",
+    "query": "a cartoon person jumping up in surprise with exclamation lines, startled, no text",
+    "file": "assets/icons/lb-startled.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-curious": {
+    "kind": "vector",
+    "query": "a curious surprised face with wide eyes",
+    "file": "assets/icons/lb-curious.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-fadingmem": {
+    "kind": "vector",
+    "query": "fading disappearing short term memory in a head",
+    "file": "assets/icons/lb-fadingmem.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-memhead": {
+    "kind": "vector",
+    "query": "a human head in profile with the pi symbol and streams of numbers flowing out, memory",
+    "file": "assets/icons/lb-memhead.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-castle": {
+    "kind": "vector",
+    "query": "a small castle with a brain on top, mnemonic memory palace",
+    "file": "assets/icons/lb-castle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-pill": {
+    "kind": "vector",
+    "query": "a pharmaceutical pill and capsule medicine",
+    "file": "assets/icons/lb-pill.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-warning": {
+    "kind": "vector",
+    "query": "a yellow warning triangle with an exclamation mark",
+    "file": "assets/icons/lb-warning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-clocklong": {
+    "kind": "vector",
+    "query": "a big clock with a long winding trail behind it, lasting for a long time, no text",
+    "file": "assets/icons/lb-clocklong.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-sleeping": {
+    "kind": "vector",
+    "query": "a person sleeping peacefully in bed with a slow heartbeat line",
+    "file": "assets/icons/lb-sleeping.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-battery": {
+    "kind": "vector",
+    "query": "a nearly empty battery with an eye symbol, limited attention",
+    "file": "assets/icons/lb-battery.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-gears2": {
+    "kind": "vector",
+    "query": "two gears turning together, how something works",
+    "file": "assets/icons/lb-gears2.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-robobrain": {
+    "kind": "vector",
+    "query": "a robotic brain made of circuit boards and gears",
+    "file": "assets/icons/lb-robobrain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-cursor": {
+    "kind": "vector",
+    "query": "a mouse cursor clicking a link",
+    "file": "assets/icons/lb-cursor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-gavel": {
+    "kind": "vector",
+    "query": "a book of law with a judge gavel",
+    "file": "assets/icons/lb-gavel.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-lucid": {
+    "kind": "vector",
+    "query": "a head with a clear bright blue sky inside, a lucid mind",
+    "file": "assets/icons/lb-lucid.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-candle": {
+    "kind": "vector",
+    "query": "a candle flame gently blowing out",
+    "file": "assets/icons/lb-candle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-shield": {
+    "kind": "vector",
+    "query": "a green shield with a check mark, protected",
+    "file": "assets/icons/lb-shield.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-aha": {
+    "kind": "vector",
+    "query": "a cartoon head with a bright glowing light bulb above it, aha moment",
+    "file": "assets/icons/lb-aha.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calmrelief": {
+    "kind": "vector",
+    "query": "a brain releasing calming soothing chemicals",
+    "file": "assets/icons/lb-calmrelief.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-dopamine": {
+    "kind": "vector",
+    "query": "a brain releasing dopamine sparkles of pleasure",
+    "file": "assets/icons/lb-dopamine.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-blankhead": {
+    "kind": "vector",
+    "query": "a blank mysterious silhouette head with a question mark instead of a face, hiding",
+    "file": "assets/icons/lb-blankhead.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-skeptic": {
+    "kind": "vector",
+    "query": "a person with a speech bubble containing a big red X, shaking head",
+    "file": "assets/icons/lb-skeptic.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-wallshatter": {
+    "kind": "vector",
+    "query": "a solid brick wall shattering into many flying pieces, no text",
+    "file": "assets/icons/lb-wallshatter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-wallblock": {
+    "kind": "vector",
+    "query": "a tall brick wall blocking a small runner who stops in front of it",
+    "file": "assets/icons/lb-wallblock.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-limitline": {
+    "kind": "vector",
+    "query": "a long lifespan bar ending at a dotted limit line with a question mark, no text",
+    "file": "assets/icons/lb-limitline.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-finish": {
+    "kind": "vector",
+    "query": "a marathon runner crossing a finish line ribbon, exhausted and triumphant",
+    "file": "assets/icons/lb-finish.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bridge": {
+    "kind": "vector",
+    "query": "a bridge connecting two groups",
+    "file": "assets/icons/lb-bridge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-daysoff": {
+    "kind": "vector",
+    "query": "a calendar with several consecutive days crossed out in red",
+    "file": "assets/icons/lb-daysoff.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-moods": {
+    "kind": "vector",
+    "query": "a face splitting into three strong emotions, joy, anger and surprise",
+    "file": "assets/icons/lb-moods.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-lostTime": {
+    "kind": "vector",
+    "query": "a confused person who has lost track of time",
+    "file": "assets/icons/lb-lostTime.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-fork": {
+    "kind": "vector",
+    "query": "a fork in the road, one path think one path react",
+    "file": "assets/icons/lb-fork.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-road": {
+    "kind": "vector",
+    "query": "a long winding road with many kilometer markers receding to the horizon",
+    "file": "assets/icons/lb-road.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-folderchain": {
+    "kind": "vector",
+    "query": "a folder of files covered in chains and a padlock",
+    "file": "assets/icons/lb-folderchain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-knowledgeshield": {
+    "kind": "vector",
+    "query": "a protected brain with a knowledge shield",
+    "file": "assets/icons/lb-knowledgeshield.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-confetti": {
+    "kind": "vector",
+    "query": "a laughing happy face with confetti",
+    "file": "assets/icons/lb-confetti.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-expert": {
+    "kind": "vector",
+    "query": "a wise expert scratching head full of doubt and questions",
+    "file": "assets/icons/lb-expert.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-newspapers": {
+    "kind": "vector",
+    "query": "two people reading the same newspaper reaching opposite conclusions",
+    "file": "assets/icons/lb-newspapers.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-checklist": {
+    "kind": "vector",
+    "query": "a person with a checklist doing one concrete task",
+    "file": "assets/icons/lb-checklist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-university": {
+    "kind": "vector",
+    "query": "a classic university building with columns",
+    "file": "assets/icons/lb-university.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-trophy": {
+    "kind": "vector",
+    "query": "golden trophy cup for a winner",
+    "file": "assets/icons/lb-trophy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-speedo": {
+    "kind": "vector",
+    "query": "speedometer gauge dial",
+    "file": "assets/icons/lb-speedo.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-hourglass": {
+    "kind": "vector",
+    "query": "an hourglass running out of sand, time ending",
+    "file": "assets/icons/lb-hourglass.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-stopwatch": {
+    "kind": "vector",
+    "query": "a classic stopwatch timer",
+    "file": "assets/icons/lb-stopwatch.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-railway": {
+    "kind": "vector",
+    "query": "steam train",
+    "file": "assets/icons/lb-railway.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-question": {
+    "kind": "vector",
+    "query": "a big question mark, doubt",
+    "file": "assets/icons/lb-question.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-check": {
+    "kind": "vector",
+    "query": "green check mark",
+    "file": "assets/icons/lb-check.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-stop": {
+    "kind": "vector",
+    "query": "a hand making a stop gesture",
+    "file": "assets/icons/lb-stop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulb2": {
+    "kind": "vector",
+    "query": "a classic glowing incandescent light bulb",
+    "file": "assets/icons/lb-bulb2.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-heartperson": {
+    "kind": "vector",
+    "query": "a cheerful simple person hugging a heart, human being",
+    "file": "assets/icons/lb-heartperson.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-body": {
+    "kind": "vector",
+    "query": "a human body glowing with all organs working together in harmony",
+    "file": "assets/icons/lb-body.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-magicwand": {
+    "kind": "vector",
+    "query": "a head profile with a magic wand and a rabbit hat inside the mind, psychological trick",
+    "file": "assets/icons/lb-magicwand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-stomach": {
+    "kind": "vector",
+    "query": "a person with a green sick face holding his stomach in discomfort",
+    "file": "assets/icons/lb-stomach.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-emptyhand": {
+    "kind": "vector",
+    "query": "an empty hand reaching out with nothing to hold, nothing holding, just air",
+    "file": "assets/icons/lb-emptyhand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-clapper": {
+    "kind": "vector",
+    "query": "a film clapperboard next to a popcorn bucket, no text",
+    "file": "assets/icons/lb-clapper.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-play": {
+    "kind": "vector",
+    "query": "a big video play button",
+    "file": "assets/icons/lb-play.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-sad": {
+    "kind": "vector",
+    "query": "a sad worried face",
+    "file": "assets/icons/lb-sad.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-lightning": {
+    "kind": "vector",
+    "query": "a fast yellow lightning bolt, extreme speed",
+    "file": "assets/icons/lb-lightning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-blinkers": {
+    "kind": "vector",
+    "query": "a person wearing horse blinkers seeing only one thing",
+    "file": "assets/icons/lb-blinkers.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-hospital": {
+    "kind": "vector",
+    "query": "a hospital building with a red cross, healthcare",
+    "file": "assets/icons/lb-hospital.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-insomnia": {
+    "kind": "vector",
+    "query": "a person with anxiety and no sleep because of the phone",
+    "file": "assets/icons/lb-insomnia.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-laptop": {
+    "kind": "vector",
+    "query": "laptop computer",
+    "file": "assets/icons/lb-laptop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-monitor": {
+    "kind": "vector",
+    "query": "computer monitor screen",
+    "file": "assets/icons/lb-monitor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-speech": {
+    "kind": "vector",
+    "query": "speech bubble",
+    "file": "assets/icons/lb-speech.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-pinocchio": {
+    "kind": "vector",
+    "query": "a cartoon brain with a long pinocchio nose telling lies",
+    "file": "assets/icons/lb-pinocchio.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-fixed-face": {
+    "kind": "vector",
+    "query": "a smiling face cast in solid gray stone like a statue, a fixed unchangeable personality, no text",
+    "file": "assets/icons/lm-fixed-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-recorder": {
+    "kind": "vector",
+    "query": "an old fashioned cassette tape recorder with two reels, no text",
+    "file": "assets/icons/lm-recorder.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-peek-keyhole": {
+    "kind": "vector",
+    "query": "a big round head silhouette with a keyhole in the forehead and a tiny eye peeking through, no text",
+    "file": "assets/icons/lm-peek-keyhole.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-brain-words": {
+    "kind": "vector",
+    "query": "a pink brain with an arrow turning into a speech bubble full of colorful letters, no text",
+    "file": "assets/icons/lm-brain-words.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-clay-brain": {
+    "kind": "vector",
+    "query": "a human brain made of soft pink modeling clay being shaped by two hands, no text",
+    "file": "assets/icons/lm-clay-brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-synapse": {
+    "kind": "vector",
+    "query": "two neuron cells almost touching with tiny glowing sparks jumping between them, no text",
+    "file": "assets/icons/lm-synapse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-new-link": {
+    "kind": "vector",
+    "query": "two neurons growing a new bright glowing connection between them, no text",
+    "file": "assets/icons/lm-new-link.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-open-door": {
+    "kind": "vector",
+    "query": "a bright open door with warm light pouring through it, no text",
+    "file": "assets/icons/lm-open-door.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-foreman": {
+    "kind": "vector",
+    "query": "a nineteenth century railway foreman with a flat cap and a long iron tamping rod, no text",
+    "file": "assets/icons/lm-foreman.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-powder": {
+    "kind": "vector",
+    "query": "a small wooden barrel of black powder with a short fuse and a tiny spark, no text",
+    "file": "assets/icons/lm-powder.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-rod-path": {
+    "kind": "vector",
+    "query": "a simple skull profile outline with a dotted red line showing a straight path from the cheek to the top, diagram style, no text",
+    "file": "assets/icons/lm-rod-path.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-kind-face": {
+    "kind": "vector",
+    "query": "a gentle smiling man with a warm kind expression and a green check mark, no text",
+    "file": "assets/icons/lm-kind-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-angry-face": {
+    "kind": "vector",
+    "query": "an impatient grumpy man with furrowed brows and a red scribble above his head, no text",
+    "file": "assets/icons/lm-angry-face.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-stagecoach": {
+    "kind": "vector",
+    "query": "an old stagecoach pulled by two horses on a dusty road, no text",
+    "file": "assets/icons/lm-stagecoach.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-chile-map": {
+    "kind": "vector",
+    "query": "a map silhouette of Chile, a very long thin country between mountains and sea, no text, no flag",
+    "file": "assets/icons/lm-chile-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-surgery-lamp": {
+    "kind": "vector",
+    "query": "a bright round surgical lamp above an empty operating table, no people, no text",
+    "file": "assets/icons/lm-surgery-lamp.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-brain-storm": {
+    "kind": "vector",
+    "query": "a brain with zigzag lightning storm signals flashing inside it, epilepsy, no text",
+    "file": "assets/icons/lm-brain-storm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-childhood": {
+    "kind": "vector",
+    "query": "a little toy kite and a teddy bear with a warm golden glow, childhood memories, no text",
+    "file": "assets/icons/lm-childhood.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-meet-again": {
+    "kind": "vector",
+    "query": "a smiling person shaking hands with a stranger while a small question mark floats above, meeting for the first time, no text",
+    "file": "assets/icons/lm-meet-again.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-psychologist": {
+    "kind": "vector",
+    "query": "a friendly woman scientist with glasses holding a clipboard, no text",
+    "file": "assets/icons/lm-psychologist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-draw-mirror": {
+    "kind": "vector",
+    "query": "a hand drawing a star on paper while looking at it reflected in a small mirror, no text",
+    "file": "assets/icons/lm-draw-mirror.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-hippo": {
+    "kind": "vector",
+    "query": "a small glowing seahorse shaped part inside a brain, the hippocampus, no text",
+    "file": "assets/icons/lm-hippo.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-san-diego": {
+    "kind": "vector",
+    "query": "a sunny coastal city with palm trees, a bridge and a blue bay, no text",
+    "file": "assets/icons/lm-san-diego.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-science-fair": {
+    "kind": "vector",
+    "query": "a school science fair board with a volcano model and a blue ribbon, no text",
+    "file": "assets/icons/lm-science-fair.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-two-scientists": {
+    "kind": "vector",
+    "query": "two friendly scientists in lab coats standing side by side, no text",
+    "file": "assets/icons/lm-two-scientists.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-volunteers": {
+    "kind": "vector",
+    "query": "a small group of volunteers sitting in a row watching a screen, no text",
+    "file": "assets/icons/lm-volunteers.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-car-crash": {
+    "kind": "vector",
+    "query": "two toy cars bumping into each other with a small starburst, no text",
+    "file": "assets/icons/lm-car-crash.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-cars-touch": {
+    "kind": "vector",
+    "query": "two toy cars gently touching bumpers, calm, no text",
+    "file": "assets/icons/lm-cars-touch.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-cars-smash": {
+    "kind": "vector",
+    "query": "two toy cars crashing hard head on with a big starburst and dust, no text",
+    "file": "assets/icons/lm-cars-smash.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-glass-ghost": {
+    "kind": "vector",
+    "query": "scattered shards of broken glass drawn as a faint dotted ghost outline with a red question mark, not really there, no text",
+    "file": "assets/icons/lm-glass-ghost.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-lost-child": {
+    "kind": "vector",
+    "query": "a small lost child with a teddy bear standing alone in a big hall, looking around, no text",
+    "file": "assets/icons/lm-lost-child.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-one-in-four": {
+    "kind": "vector",
+    "query": "a row of four people silhouettes with one of them highlighted in bright color, no text",
+    "file": "assets/icons/lm-one-in-four.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-rebuild": {
+    "kind": "vector",
+    "query": "a person rebuilding a little house out of colorful building blocks, reconstructing, no text",
+    "file": "assets/icons/lm-rebuild.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-six-players": {
+    "kind": "vector",
+    "query": "six cartoon people passing basketballs, three in white shirts and three in black shirts, no text",
+    "file": "assets/icons/lm-six-players.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-count-passes": {
+    "kind": "vector",
+    "query": "a viewer counting passes on their fingers while watching a ball, no text",
+    "file": "assets/icons/lm-count-passes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-gorilla-chest": {
+    "kind": "vector",
+    "query": "a person in a gorilla costume beating its chest, funny, no text",
+    "file": "assets/icons/lm-gorilla-chest.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-gorilla-exit": {
+    "kind": "vector",
+    "query": "a person in a gorilla costume waving goodbye and walking off to the side, no text",
+    "file": "assets/icons/lm-gorilla-exit.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-black-cab": {
+    "kind": "vector",
+    "query": "a classic London black taxi cab, side view, no text",
+    "file": "assets/icons/lm-black-cab.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-street-map": {
+    "kind": "vector",
+    "query": "a tangled map of many city streets with a winding route line, no text",
+    "file": "assets/icons/lm-street-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-before-after": {
+    "kind": "vector",
+    "query": "two brain drawings side by side with a big arrow between them, before and after, no text",
+    "file": "assets/icons/lm-before-after.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-sculpt-brain": {
+    "kind": "vector",
+    "query": "a sculptor chisel and hammer shaping a brain carved out of marble, no text",
+    "file": "assets/icons/lm-sculpt-brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-placebo-pill": {
+    "kind": "vector",
+    "query": "a plain round white sugar pill with a tiny golden halo, no text",
+    "file": "assets/icons/lm-placebo-pill.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-no-medicine": {
+    "kind": "vector",
+    "query": "a clear empty capsule with a red crossed-out medical cross, no text",
+    "file": "assets/icons/lm-no-medicine.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-scifi": {
+    "kind": "vector",
+    "query": "a retro flying saucer and a toy rocket among stars, science fiction, no text",
+    "file": "assets/icons/lm-scifi.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-telekinesis": {
+    "kind": "vector",
+    "query": "a head in profile with a thought bubble moving a cup through the air with a sparkle trail, no text",
+    "file": "assets/icons/lm-telekinesis.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-bci": {
+    "kind": "vector",
+    "query": "a brain connected by thin cables to a laptop, brain computer interface, no text",
+    "file": "assets/icons/lm-bci.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-young-man-chair": {
+    "kind": "vector",
+    "query": "a young man seated in a wheelchair smiling with confidence, respectful, no text",
+    "file": "assets/icons/lm-young-man-chair.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-tiny-chip": {
+    "kind": "vector",
+    "query": "a tiny square chip with many tiny gold pins resting on a brain, no text",
+    "file": "assets/icons/lm-tiny-chip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-cursor-mind": {
+    "kind": "vector",
+    "query": "a mouse cursor arrow floating inside a thought bubble above a head in profile, no text",
+    "file": "assets/icons/lm-cursor-mind.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-woman-calm": {
+    "kind": "vector",
+    "query": "a calm smiling middle aged woman seated in a chair, respectful, no text",
+    "file": "assets/icons/lm-woman-calm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-chocolate": {
+    "kind": "vector",
+    "query": "a chocolate bar with one bite taken out of it, no text",
+    "file": "assets/icons/lm-chocolate.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-signal-text": {
+    "kind": "vector",
+    "query": "a brain signal wave turning into lines of text on a screen, no text",
+    "file": "assets/icons/lm-signal-text.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-awake": {
+    "kind": "vector",
+    "query": "a person stretching with both arms up greeting the morning sun by a window, no text",
+    "file": "assets/icons/lm-awake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-dream-steer": {
+    "kind": "vector",
+    "query": "a sleeping person steering a fluffy dream cloud with a little steering wheel, no text",
+    "file": "assets/icons/lm-dream-steer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-retro-lab": {
+    "kind": "vector",
+    "query": "an old sleep laboratory with big knobs and a paper chart recorder drawing wavy lines, no text",
+    "file": "assets/icons/lm-retro-lab.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-eye-signal": {
+    "kind": "vector",
+    "query": "a closed eyelid with arrows showing the eyes moving left right left right, sending a signal, no text",
+    "file": "assets/icons/lm-eye-signal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-four-labs": {
+    "kind": "vector",
+    "query": "four small laboratory buildings arranged in a square, each with a flask on the roof, no text",
+    "file": "assets/icons/lm-four-labs.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-simple-sum": {
+    "kind": "vector",
+    "query": "a small chalkboard with a simple addition drawn with apples, no text",
+    "file": "assets/icons/lm-simple-sum.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-face-twitch": {
+    "kind": "vector",
+    "query": "a face with small motion lines near the eyebrow and cheek muscles twitching, no text",
+    "file": "assets/icons/lm-face-twitch.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-target-near": {
+    "kind": "vector",
+    "query": "a dartboard with an arrow stuck close to the bullseye but not in the center, no text",
+    "file": "assets/icons/lm-target-near.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-moon-sun-talk": {
+    "kind": "vector",
+    "query": "a dreamer's speech bubble with a moon facing an awake person's speech bubble with a sun, no text",
+    "file": "assets/icons/lm-moon-sun-talk.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-reading-head": {
+    "kind": "vector",
+    "query": "a head in profile with an open book inside, mind reading, no text",
+    "file": "assets/icons/lm-reading-head.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-no-thoughts": {
+    "kind": "vector",
+    "query": "a thought bubble with a red crossed-out circle over it, no text",
+    "file": "assets/icons/lm-no-thoughts.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-brain-hotspot": {
+    "kind": "vector",
+    "query": "a brain with a bright orange glowing hot spot and small arrows pointing to it, no text",
+    "file": "assets/icons/lm-brain-hotspot.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-blurry-picture": {
+    "kind": "vector",
+    "query": "a blurry out of focus picture of a landscape with soft colors, no text",
+    "file": "assets/icons/lm-blurry-picture.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-texas-map": {
+    "kind": "vector",
+    "query": "a plain map silhouette of the state of Texas in neutral green, no text, no flag",
+    "file": "assets/icons/lm-texas-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-imagine-story": {
+    "kind": "vector",
+    "query": "a person with a thought bubble showing a storybook castle, no text",
+    "file": "assets/icons/lm-imagine-story.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-resist": {
+    "kind": "vector",
+    "query": "a person turning away with arms crossed while a thought bubble shows a butterfly, resisting, no text",
+    "file": "assets/icons/lm-resist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-words-crossed": {
+    "kind": "vector",
+    "query": "a speech bubble full of separate single words with a big red cross over it, no text",
+    "file": "assets/icons/lm-words-crossed.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-filter": {
+    "kind": "vector",
+    "query": "a funnel filtering many colorful shapes and letting only a few through, no text",
+    "file": "assets/icons/lm-filter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-lifelong-brain": {
+    "kind": "vector",
+    "query": "a brain with a small tree growing inside it and a long winding timeline road behind it, no text",
+    "file": "assets/icons/lm-lifelong-brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-learn-age": {
+    "kind": "vector",
+    "query": "an elderly person reading a book with a glowing light bulb above, never too old to learn, no text",
+    "file": "assets/icons/lm-learn-age.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-recover": {
+    "kind": "vector",
+    "query": "a person using a walking cane taking a confident step forward in the sunshine, no text",
+    "file": "assets/icons/lm-recover.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-brain-upgrade": {
+    "kind": "vector",
+    "query": "a brain with a shiny upgrade arrow and a small golden key, no text",
+    "file": "assets/icons/lm-brain-upgrade.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-who-access": {
+    "kind": "vector",
+    "query": "a crowd of silhouettes outside a locked glass door with a glowing brain behind it, no text",
+    "file": "assets/icons/lm-who-access.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-fortress": {
+    "kind": "vector",
+    "query": "a gray stone fortress tower with a closed gate, no text",
+    "file": "assets/icons/lm-fortress.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lm-garden-brain": {
+    "kind": "vector",
+    "query": "a lush colorful garden shaped like a human head with flowers growing inside, no text",
+    "file": "assets/icons/lm-garden-brain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-neurona": {
+    "kind": "cutout",
+    "query": "Neurona",
+    "wiki": "Neurona",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Neurona",
+      "description": "célula del sistema nervioso"
+    },
+    "file": "assets/icons/photo-neurona.jpg"
+  },
+  "photo-balanza": {
+    "kind": "cutout",
+    "query": "Balanza",
+    "wiki": "Balanza",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Balanza",
+      "description": "instrumento que sirve para medir masa y cuerpo"
+    },
+    "file": "assets/icons/photo-balanza.jpg"
+  },
+  "photo-ferrocarril": {
+    "kind": "cutout",
+    "query": "Ferrocarril",
+    "wiki": "Ferrocarril",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Ferrocarril",
+      "description": "sistema de transporte terrestre de personas y mercancías guiado sobre carril"
+    },
+    "file": "assets/icons/photo-ferrocarril.jpg"
+  },
+  "photo-gage": {
+    "kind": "cutout",
+    "query": "Phineas Gage",
+    "wiki": "Phineas Gage",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Phineas Gage",
+      "description": "obrero estadounidense"
+    },
+    "file": "assets/icons/photo-gage.jpg"
+  },
+  "photo-vermont": {
+    "kind": "cutout",
+    "query": "Vermont",
+    "wiki": "Vermont",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Vermont",
+      "description": "estado de los Estados Unidos"
+    },
+    "file": "assets/icons/photo-vermont.png"
+  },
+  "photo-hierro": {
+    "kind": "cutout",
+    "query": "Hierro",
+    "wiki": "Hierro",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Hierro",
+      "description": "elemento químico con número atómico 26"
+    },
+    "file": "assets/icons/photo-hierro.jpg"
+  },
+  "photo-corteza": {
+    "kind": "cutout",
+    "query": "Corteza prefrontal",
+    "wiki": "Corteza prefrontal",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Corteza prefrontal",
+      "description": "región de cerebro"
+    },
+    "file": "assets/icons/photo-corteza.png"
+  },
+  "photo-limbico": {
+    "kind": "cutout",
+    "query": "Sistema límbico",
+    "wiki": "Sistema límbico",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sistema límbico",
+      "description": "sistema de recompensa del sistema nervioso central"
+    },
+    "file": "assets/icons/photo-limbico.png"
+  },
+  "photo-espejo": {
+    "kind": "cutout",
+    "query": "Espejo",
+    "wiki": "Espejo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Espejo",
+      "description": "objeto que refleja una imagen"
+    },
+    "file": "assets/icons/photo-espejo.jpg"
+  },
+  "photo-lupa": {
+    "kind": "cutout",
+    "query": "Lupa",
+    "wiki": "Lupa",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Lupa",
+      "description": "herramienta óptica con lente y mango utilizada para aumentar los detalles de lo observado"
+    },
+    "file": "assets/icons/photo-lupa.jpg"
+  },
+  "photo-periodico": {
+    "kind": "cutout",
+    "query": "Periódico",
+    "wiki": "Periódico",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Periódico",
+      "description": "publicación que contiene información sobre sucesos diversos"
+    },
+    "file": "assets/icons/photo-periodico.jpg"
+  },
+  "photo-almohada": {
+    "kind": "cutout",
+    "query": "Almohada",
+    "wiki": "Almohada",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Almohada",
+      "description": "pieza mullida en la que se apoya la cabeza durante el sueño"
+    },
+    "file": "assets/icons/photo-almohada.jpg"
+  },
+  "photo-trofeo": {
+    "kind": "cutout",
+    "query": "Trofeo",
+    "wiki": "Trofeo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Trofeo",
+      "description": "premio por un determinado logro"
+    },
+    "file": "assets/icons/photo-trofeo.jpg"
+  },
+  "photo-anteojeras": {
+    "kind": "cutout",
+    "query": "Anteojeras",
+    "wiki": "Anteojeras",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Anteojeras",
+      "description": ""
+    },
+    "file": "assets/icons/photo-anteojeras.jpg"
+  },
+  "photo-gorila": {
+    "kind": "cutout",
+    "query": "Gorila",
+    "wiki": "Gorila",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Gorilla",
+      "description": "género de primates"
+    },
+    "file": "assets/icons/photo-gorila.jpg"
+  },
+  "photo-londres": {
+    "kind": "cutout",
+    "query": "Londres",
+    "wiki": "Londres",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Londres",
+      "description": "capital de Inglaterra y del Reino Unido"
+    },
+    "file": "assets/icons/photo-londres.jpg"
+  },
+  "photo-rompecabezas": {
+    "kind": "cutout",
+    "query": "Rompecabezas",
+    "wiki": "Rompecabezas",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Rompecabezas",
+      "description": "juego de mesa"
+    },
+    "file": "assets/icons/photo-rompecabezas.jpg"
+  },
+  "photo-earth": {
+    "kind": "cutout",
+    "query": "Tierra",
+    "wiki": "Tierra",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Tierra",
+      "description": "tercer planeta desde el Sol en el Sistema Solar"
+    },
+    "file": "assets/icons/photo-earth.jpg"
+  },
+  "clip-test-tube": {
+    "kind": "clip",
+    "query": "laboratory test tubes colorful",
+    "file": "assets/clips/clip-test-tube.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikhail Nilov",
+      "url": "https://www.pexels.com/video/close-up-of-test-tubes-on-a-test-tube-rack-9373595/"
+    }
+  },
+  "clip-train": {
+    "kind": "clip",
+    "query": "train railway",
+    "file": "assets/clips/clip-train.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Wolfgang Weiser",
+      "url": "https://www.pexels.com/video/s-bahn-train-arriving-at-modern-hamburg-station-37432967/"
+    }
+  },
+  "clip-shopping": {
+    "kind": "clip",
+    "query": "shopping mall people walking",
+    "file": "assets/clips/clip-shopping.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Sururi Ballıdağ Director",
+      "url": "https://www.pexels.com/video/bustling-indoor-shopping-mall-with-holiday-decor-35559265/"
+    }
+  },
+  "clip-pills": {
+    "kind": "clip",
+    "query": "pills bottle cap close up",
+    "file": "assets/clips/clip-pills.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Alex Green",
+      "url": "https://www.pexels.com/video/pills-being-dropped-5697635/"
+    }
+  },
+  "clip-letter-write": {
+    "kind": "clip",
+    "query": "hand writing a letter with pen on paper",
+    "file": "assets/clips/clip-letter-write.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kampus Production",
+      "url": "https://www.pexels.com/video/person-writing-on-a-piece-of-paper-7489714/"
+    }
+  },
+  "clip-laptop": {
+    "kind": "clip",
+    "query": "woman typing on laptop",
+    "file": "assets/clips/clip-laptop.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Monstera Production",
+      "url": "https://www.pexels.com/video/woman-typing-on-the-laptop-5385839/"
+    }
+  },
+  "clip-code-data": {
+    "kind": "clip",
+    "query": "data code numbers screen",
+    "file": "assets/clips/clip-code-data.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Nicola Narracci",
+      "url": "https://www.pexels.com/video/green-binary-code-looping-animation-30162924/"
+    }
+  },
+  "clip-black-cab": {
+    "kind": "clip",
+    "query": "london black cab taxi driving city street daytime",
+    "file": "assets/clips/clip-black-cab.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Eren Cebeci",
+      "url": "https://www.pexels.com/video/london-black-cab-taxi-18212684/"
+    }
+  },
+  "clip-mri": {
+    "kind": "clip",
+    "query": "doctor looking at brain mri scan on monitor bright hospital",
+    "file": "assets/clips/clip-mri.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "MART  PRODUCTION",
+      "url": "https://www.pexels.com/video/a-sonographer-handling-a-patient-mri-test-7088464/"
+    }
+  },
+  "clip-robot-arm": {
+    "kind": "clip",
+    "query": "white robotic arm moving bright laboratory",
+    "file": "assets/clips/clip-robot-arm.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Usman AbdulrasheedGambo",
+      "url": "https://www.pexels.com/video/industrial-robotic-arm-operating-in-a-laboratory-32386519/"
+    }
+  },
+  "clip-doctor": {
+    "kind": "clip",
+    "query": "doctor with stethoscope close up",
+    "file": "assets/clips/clip-doctor.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tima Miroshnichenko",
+      "url": "https://www.pexels.com/video/doctor-checking-a-patient-5453380/"
+    }
+  },
+  "clip-hospital": {
+    "kind": "clip",
+    "query": "hospital corridor bright empty",
+    "file": "assets/clips/clip-hospital.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tima Miroshnichenko",
+      "url": "https://www.pexels.com/video/view-of-a-empty-hallway-9574129/"
+    }
+  },
+  "clip-classroom": {
+    "kind": "clip",
+    "query": "students in classroom studying daytime",
+    "file": "assets/clips/clip-classroom.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "cottonbro studio",
+      "url": "https://www.pexels.com/video/students-gossip-about-a-classmate-7396321/"
+    }
+  },
+  "clip-insomnia": {
+    "kind": "clip",
+    "query": "person sleeping in bed pillow",
+    "file": "assets/clips/clip-insomnia.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "KATRIN  BOLOVTSOVA",
+      "url": "https://www.pexels.com/video/man-sleeping-in-his-bed-7131626/"
+    }
+  },
+  "clip-friends-talk": {
+    "kind": "clip",
+    "query": "friends talking at a table cafe",
+    "file": "assets/clips/clip-friends-talk.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "William  Fortunato",
+      "url": "https://www.pexels.com/video/friends-talking-with-a-cofffee-cup-6137848/"
+    }
+  },
+  "clip-library-shelves": {
+    "kind": "clip",
+    "query": "library shelves bookshelves bright",
+    "file": "assets/clips/clip-library-shelves.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Konsta Nurkkala",
+      "url": "https://www.pexels.com/video/walking-in-modern-library-14543425/"
+    }
+  },
+  "clip-sunrise": {
+    "kind": "clip",
+    "query": "sunrise sun orange sky",
+    "file": "assets/clips/clip-sunrise.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "AP Vibes",
+      "url": "https://www.pexels.com/video/serene-sunrise-through-winter-branches-36509067/"
+    }
+  },
+  "clip-path-forest": {
+    "kind": "clip",
+    "query": "path in forest sunlight rays",
+    "file": "assets/clips/clip-path-forest.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Carsten Link",
+      "url": "https://www.pexels.com/video/sunlight-through-the-trees-14057076/"
+    }
+  }
+}
