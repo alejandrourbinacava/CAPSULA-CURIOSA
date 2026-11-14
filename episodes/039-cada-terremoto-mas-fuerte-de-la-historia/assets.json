@@ -1,0 +1,1309 @@
+{
+  "lb-quake": {
+    "kind": "vector",
+    "query": "ground cracking open in an earthquake with a shaking building",
+    "file": "assets/icons/lb-quake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-plates": {
+    "kind": "vector",
+    "query": "two tectonic plates of the earth crust pushing against each other",
+    "file": "assets/icons/lb-plates.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-collapse": {
+    "kind": "vector",
+    "query": "a building collapsing and crumbling down",
+    "file": "assets/icons/lb-collapse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ring": {
+    "kind": "vector",
+    "query": "a Pacific ocean map with a ring of fire volcanoes around it",
+    "file": "assets/icons/lb-ring.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-tsunami": {
+    "kind": "vector",
+    "query": "a giant tsunami wall of water approaching a coast town",
+    "file": "assets/icons/lb-tsunami.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-tsunami2": {
+    "kind": "vector",
+    "query": "a giant tsunami wave hitting the coast",
+    "file": "assets/icons/lb-tsunami2.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calflip": {
+    "kind": "vector",
+    "query": "a wall calendar with many pages flying off, many years passing, no numbers",
+    "file": "assets/icons/lb-calflip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calendar": {
+    "kind": "vector",
+    "query": "a wall calendar showing a year",
+    "file": "assets/icons/lb-calendar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bigcrowd": {
+    "kind": "vector",
+    "query": "a huge crowd of a million people in a big city",
+    "file": "assets/icons/lb-bigcrowd.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-hospital": {
+    "kind": "vector",
+    "query": "a hospital building with a red cross, healthcare",
+    "file": "assets/icons/lb-hospital.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-shield": {
+    "kind": "vector",
+    "query": "a green shield with a check mark, protected",
+    "file": "assets/icons/lb-shield.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-clocklong": {
+    "kind": "vector",
+    "query": "a big clock with a long winding trail behind it, lasting for a long time, no text",
+    "file": "assets/icons/lb-clocklong.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulbbook": {
+    "kind": "vector",
+    "query": "a lightbulb above an open book with a star, an important lesson",
+    "file": "assets/icons/lb-bulbbook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-curious": {
+    "kind": "vector",
+    "query": "a curious surprised face with wide eyes",
+    "file": "assets/icons/lb-curious.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-star": {
+    "kind": "vector",
+    "query": "a big golden star with an exclamation mark and sparkles, the most important thing, no text",
+    "file": "assets/icons/lb-star.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulb": {
+    "kind": "vector",
+    "query": "a classic glowing incandescent light bulb",
+    "file": "assets/icons/lb-bulb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-scared": {
+    "kind": "vector",
+    "query": "a scared frightened face, fear",
+    "file": "assets/icons/lb-scared.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-startled": {
+    "kind": "vector",
+    "query": "a cartoon person jumping up in surprise with exclamation lines, startled, no text",
+    "file": "assets/icons/lb-startled.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-iberia2": {
+    "kind": "vector",
+    "query": "a plain simple map of Spain and Portugal peninsula in beige, no text, no flag",
+    "file": "assets/icons/lb-iberia2.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-asia": {
+    "kind": "vector",
+    "query": "a simple beige map of Asia with a small red dot, no text",
+    "file": "assets/icons/lb-asia.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-japanmap": {
+    "kind": "vector",
+    "query": "a simple map of the Japanese islands in neutral green and beige, no text, no flag",
+    "file": "assets/icons/lb-japanmap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-usamap": {
+    "kind": "vector",
+    "query": "a plain map silhouette of the United States in neutral green, no text, no flag",
+    "file": "assets/icons/lb-usamap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-americas": {
+    "kind": "vector",
+    "query": "a simple map of North and South America in neutral green and beige, no text, no flag",
+    "file": "assets/icons/lb-americas.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bricks": {
+    "kind": "vector",
+    "query": "a solid stack of bricks forming a strong wall, no text",
+    "file": "assets/icons/lb-bricks.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-wobbly": {
+    "kind": "vector",
+    "query": "a wobbly unstable tower of building blocks about to tip over, no text",
+    "file": "assets/icons/lb-wobbly.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-engineers": {
+    "kind": "vector",
+    "query": "two friendly cartoon engineers in hard hats looking up together, no text",
+    "file": "assets/icons/lb-engineers.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-factory": {
+    "kind": "vector",
+    "query": "a factory building with smoke stacks",
+    "file": "assets/icons/lb-factory.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-rulebook": {
+    "kind": "vector",
+    "query": "a big rule book with a red ruler and a stamp, regulation, no text",
+    "file": "assets/icons/lb-rulebook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-norules": {
+    "kind": "vector",
+    "query": "a stack of rule papers with a big red X, no regulations, no text",
+    "file": "assets/icons/lb-norules.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-longroad": {
+    "kind": "vector",
+    "query": "a long winding road with many kilometer markers",
+    "file": "assets/icons/lb-longroad.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-linkq": {
+    "kind": "vector",
+    "query": "a magnifying glass over a golden chain link joining several different shapes, no text",
+    "file": "assets/icons/lb-linkq.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-memorial": {
+    "kind": "vector",
+    "query": "a simple stone memorial with a small candle flame lit in front, no text",
+    "file": "assets/icons/lb-memorial.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-power-spike": {
+    "kind": "vector",
+    "query": "a line graph spiking sharply upward off the chart with a lightning bolt, no text",
+    "file": "assets/icons/lb-power-spike.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-gauge": {
+    "kind": "vector",
+    "query": "a round meter dial with a needle pointing into the red zone, no text",
+    "file": "assets/icons/lb-gauge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-sealed": {
+    "kind": "vector",
+    "query": "a gray folder sealed with a heavy padlock next to a calendar with many pages, kept secret for years, no text",
+    "file": "assets/icons/lb-sealed.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-chartq": {
+    "kind": "vector",
+    "query": "a bar chart with a big question mark floating above the bars, no text",
+    "file": "assets/icons/lb-chartq.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-experts": {
+    "kind": "vector",
+    "query": "two cartoon scientists in lab coats with speech bubbles and a question mark between them, no text",
+    "file": "assets/icons/lb-experts.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-heartcheck": {
+    "kind": "vector",
+    "query": "a red heart with a big green check mark on it, no text",
+    "file": "assets/icons/lb-heartcheck.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-study": {
+    "kind": "vector",
+    "query": "a stack of research papers with a small bar chart on top, no text",
+    "file": "assets/icons/lb-study.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-detector": {
+    "kind": "vector",
+    "query": "a small detector device with a blinking light on the roof of a power plant, no text",
+    "file": "assets/icons/lb-detector.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-feet-ground": {
+    "kind": "vector",
+    "query": "two cartoon feet standing firmly on solid green ground with a small sun, no text",
+    "file": "assets/icons/te-feet-ground.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-short-time": {
+    "kind": "vector",
+    "query": "a small stopwatch showing a few seconds with a short red arc, no text",
+    "file": "assets/icons/te-short-time.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-earth-energy": {
+    "kind": "vector",
+    "query": "a round planet with a glowing orange energy ball inside releasing wavy rings, no text",
+    "file": "assets/icons/te-earth-energy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-two-houses": {
+    "kind": "vector",
+    "query": "two houses side by side, one standing strong and one collapsed in a pile of bricks, no text",
+    "file": "assets/icons/te-two-houses.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-earth-plates": {
+    "kind": "vector",
+    "query": "the earth crust cracked into colorful puzzle-like plates, simple globe, no text",
+    "file": "assets/icons/te-earth-plates.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-cm-ruler": {
+    "kind": "vector",
+    "query": "a small ruler with a tiny arrow moving along a few centimeters, no text",
+    "file": "assets/icons/te-cm-ruler.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-nails": {
+    "kind": "vector",
+    "query": "a cartoon hand with long slowly growing fingernails, no text",
+    "file": "assets/icons/te-nails.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-smooth-slide": {
+    "kind": "vector",
+    "query": "two smooth stone blocks gliding past each other with green arrows, no text",
+    "file": "assets/icons/te-smooth-slide.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-stuck-blocks": {
+    "kind": "vector",
+    "query": "two huge rocky blocks locked against each other with red tension lines between them, no text",
+    "file": "assets/icons/te-stuck-blocks.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-tension": {
+    "kind": "vector",
+    "query": "a rock layer under pressure with red strain arrows squeezing from both sides, no text",
+    "file": "assets/icons/te-tension.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-rock-break": {
+    "kind": "vector",
+    "query": "a big rock layer snapping along a jagged crack with energy sparks, no text",
+    "file": "assets/icons/te-rock-break.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-burst": {
+    "kind": "vector",
+    "query": "a bright yellow starburst of released energy with wavy rings, no text",
+    "file": "assets/icons/te-burst.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-waves-out": {
+    "kind": "vector",
+    "query": "colorful concentric wave rings spreading outward through the ground, cross section, no text",
+    "file": "assets/icons/te-waves-out.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-hypo-dot": {
+    "kind": "vector",
+    "query": "a cross section of layered rock with a big red dot deep underground, no text",
+    "file": "assets/icons/te-hypo-dot.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-epi-dot": {
+    "kind": "vector",
+    "query": "a ground surface with a big yellow dot on top and a dotted line going straight down, no text",
+    "file": "assets/icons/te-epi-dot.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-old-scale": {
+    "kind": "vector",
+    "query": "an old paper chart with a black ink wiggly curve and a pen, historical scale, no text",
+    "file": "assets/icons/te-old-scale.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-log-steps": {
+    "kind": "vector",
+    "query": "a staircase of bars where each step is far taller than the one before, exponential growth, no text",
+    "file": "assets/icons/te-log-steps.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-x32": {
+    "kind": "vector",
+    "query": "a tiny glowing ball next to a thirty times bigger glowing ball with sparkles, no text",
+    "file": "assets/icons/te-x32.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-bonfire": {
+    "kind": "vector",
+    "query": "a huge roaring bonfire with tall orange flames, no text",
+    "file": "assets/icons/te-bonfire.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-candle": {
+    "kind": "vector",
+    "query": "a single small candle with a tiny flame, no text",
+    "file": "assets/icons/te-candle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-podium": {
+    "kind": "vector",
+    "query": "a row of eight small golden trophies on a shelf, no text",
+    "file": "assets/icons/te-podium.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-trophy": {
+    "kind": "vector",
+    "query": "a big golden trophy cup on top of a tall podium, the biggest ever, no text",
+    "file": "assets/icons/te-trophy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-depth": {
+    "kind": "vector",
+    "query": "a cross section of earth with a shallow red dot just under a small town, no text",
+    "file": "assets/icons/te-depth.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-distance": {
+    "kind": "vector",
+    "query": "a city icon and a red dot connected by a long dashed line with a small ruler, no text",
+    "file": "assets/icons/te-distance.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-soil": {
+    "kind": "vector",
+    "query": "a cartoon house tilting on soft sandy soil layers, no text",
+    "file": "assets/icons/te-soil.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-chile-map": {
+    "kind": "vector",
+    "query": "a plain long thin map silhouette of Chile in neutral green, no text, no flag",
+    "file": "assets/icons/te-chile-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-rupture": {
+    "kind": "vector",
+    "query": "a very long jagged crack line running along a coast map with a small ruler, no text",
+    "file": "assets/icons/te-rupture.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-pacific-cross": {
+    "kind": "vector",
+    "query": "a wave arrow crossing the whole Pacific ocean map from east to west, no text",
+    "file": "assets/icons/te-pacific-cross.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-alaska-map": {
+    "kind": "vector",
+    "query": "a plain map silhouette of Alaska in neutral green with snowy mountains, no text, no flag",
+    "file": "assets/icons/te-alaska-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-four-min": {
+    "kind": "vector",
+    "query": "a stopwatch with a quarter of the dial colored red, four minutes, no text",
+    "file": "assets/icons/te-four-min.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-landslide": {
+    "kind": "vector",
+    "query": "a neighborhood of small houses sliding down a slope with cracks in the ground, no text",
+    "file": "assets/icons/te-landslide.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-low-pop": {
+    "kind": "vector",
+    "query": "a wide empty snowy landscape with only a few tiny houses, no text",
+    "file": "assets/icons/te-low-pop.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-indian-map": {
+    "kind": "vector",
+    "query": "a map of the Indian Ocean with the island of Sumatra highlighted in red, no text, no flag",
+    "file": "assets/icons/te-indian-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-bell-planet": {
+    "kind": "vector",
+    "query": "the planet Earth ringing like a bell with vibration lines around it, no text",
+    "file": "assets/icons/te-bell-planet.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-ocean-countries": {
+    "kind": "vector",
+    "query": "a ring of small coastal towns around a big ocean with wave arrows reaching them, no text",
+    "file": "assets/icons/te-ocean-countries.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-ruler-jp": {
+    "kind": "vector",
+    "query": "a measuring ruler with a red pointer slightly lower than the other ruler, no text",
+    "file": "assets/icons/te-ruler-jp.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-early-warning": {
+    "kind": "vector",
+    "query": "a smartphone with a red alert bell ringing and a small clock showing a few seconds left, no text",
+    "file": "assets/icons/te-early-warning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-prepared": {
+    "kind": "vector",
+    "query": "a green shield protecting a small cartoon house on the Japanese islands, no text",
+    "file": "assets/icons/te-prepared.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-peninsula": {
+    "kind": "vector",
+    "query": "a plain peninsula shape pointing south into a cold blue sea, no text",
+    "file": "assets/icons/te-peninsula.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-hawaii": {
+    "kind": "vector",
+    "query": "a small tropical island with a palm tree and a gentle wave arriving, no text",
+    "file": "assets/icons/te-hawaii.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-cold-war": {
+    "kind": "vector",
+    "query": "a frosty blue half globe with a snowflake and a closed padlock, no text",
+    "file": "assets/icons/te-cold-war.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-fog": {
+    "kind": "vector",
+    "query": "a thick gray fog hiding a small town, little is known, no text",
+    "file": "assets/icons/te-fog.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-city-shift": {
+    "kind": "vector",
+    "query": "a small city icon that moved three steps to the left with a green arrow, no text",
+    "file": "assets/icons/te-city-shift.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-bookmark": {
+    "kind": "vector",
+    "query": "a bookmark ribbon with a golden star, remember this, no text",
+    "file": "assets/icons/te-bookmark.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-compare": {
+    "kind": "vector",
+    "query": "a balance scale holding two cartoon seismograph wave graphs, no text",
+    "file": "assets/icons/te-compare.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-pacific-coast": {
+    "kind": "vector",
+    "query": "a sunny Pacific coastline with palm trees and a small fishing town, no text",
+    "file": "assets/icons/te-pacific-coast.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-world-seis": {
+    "kind": "vector",
+    "query": "a globe with small seismograph devices placed all around it, no text",
+    "file": "assets/icons/te-world-seis.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-range": {
+    "kind": "vector",
+    "query": "a horizontal number line with a highlighted range between two markers, no text",
+    "file": "assets/icons/te-range.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-continent": {
+    "kind": "vector",
+    "query": "a map of a big continent with a red dot deep inland far from the coast, no text",
+    "file": "assets/icons/te-continent.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-subduction": {
+    "kind": "vector",
+    "query": "one tectonic plate sliding down under another into hot orange earth, cross section, no text",
+    "file": "assets/icons/te-subduction.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-collide": {
+    "kind": "vector",
+    "query": "two continents crashing head on and pushing up a tall mountain range between them, no text",
+    "file": "assets/icons/te-collide.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-river-dam": {
+    "kind": "vector",
+    "query": "a mountain river blocked by a landslide of rocks forming a muddy dam, no text",
+    "file": "assets/icons/te-river-dam.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-old-record": {
+    "kind": "vector",
+    "query": "an old open ledger book with handwritten lines and a quill, historical records, no text",
+    "file": "assets/icons/te-old-record.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-mid-spike": {
+    "kind": "vector",
+    "query": "a seismograph wave with a medium size spike, no text",
+    "file": "assets/icons/te-mid-spike.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-lisbon-tram": {
+    "kind": "vector",
+    "query": "a classic yellow tram on a hilly old city street, simple, no text",
+    "file": "assets/icons/te-lisbon-tram.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-estimate": {
+    "kind": "vector",
+    "query": "a magnifying glass over an old handwritten letter with a question mark, an estimate, no text",
+    "file": "assets/icons/te-estimate.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-no-instr": {
+    "kind": "vector",
+    "query": "a seismograph machine with a big red crossed-out circle, no text",
+    "file": "assets/icons/te-no-instr.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-letters": {
+    "kind": "vector",
+    "query": "a stack of old handwritten letters tied with a ribbon, accounts of witnesses, no text",
+    "file": "assets/icons/te-letters.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-city-fire": {
+    "kind": "vector",
+    "query": "an old city of tiled roofs with orange flames rising from some buildings, no text",
+    "file": "assets/icons/te-city-fire.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-next-video": {
+    "kind": "vector",
+    "query": "a play button on a small video screen with a curved arrow pointing to the next one, no text",
+    "file": "assets/icons/te-next-video.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-pombal": {
+    "kind": "vector",
+    "query": "an 18th century nobleman in a powdered wig holding a scroll, friendly cartoon, no text",
+    "file": "assets/icons/te-pombal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-questionnaire": {
+    "kind": "vector",
+    "query": "a clipboard questionnaire with check boxes and an envelope, no text",
+    "file": "assets/icons/te-questionnaire.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-felt": {
+    "kind": "vector",
+    "query": "a cartoon person with hands on cheeks and wavy lines around them feeling the ground shake, no text",
+    "file": "assets/icons/te-felt.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-clock-plain": {
+    "kind": "vector",
+    "query": "a plain wall clock face with two hands, no numbers, no text",
+    "file": "assets/icons/te-clock-plain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-birth-science": {
+    "kind": "vector",
+    "query": "a lightbulb glowing above a seismograph drum with a wiggly line, no text",
+    "file": "assets/icons/te-birth-science.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-wood-cage": {
+    "kind": "vector",
+    "query": "a flexible wooden cage-shaped building frame with a green check mark, no text",
+    "file": "assets/icons/te-wood-cage.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-soldiers-model": {
+    "kind": "vector",
+    "query": "toy soldiers marching in a circle around a small model house, no text",
+    "file": "assets/icons/te-soldiers-model.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-china-map": {
+    "kind": "vector",
+    "query": "a plain map silhouette of China in neutral green with a red dot in the middle, no text, no flag",
+    "file": "assets/icons/te-china-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-deadliest": {
+    "kind": "vector",
+    "query": "a tall dark gray podium with a heavy crown on top, the deadliest on record, no text",
+    "file": "assets/icons/te-deadliest.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-dense-map": {
+    "kind": "vector",
+    "query": "a dense cluster of many small houses seen from above, very populated, no text",
+    "file": "assets/icons/te-dense-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-soft-hill": {
+    "kind": "vector",
+    "query": "a yellow hillside with small arched doorways dug into the soft soil, cave homes, no text",
+    "file": "assets/icons/te-soft-hill.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-counties": {
+    "kind": "vector",
+    "query": "a map divided into small districts with some shaded dark gray, no text",
+    "file": "assets/icons/te-counties.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-half-pie": {
+    "kind": "vector",
+    "query": "a pie chart with more than half colored dark gray, no text",
+    "file": "assets/icons/te-half-pie.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-night-city": {
+    "kind": "vector",
+    "query": "a sleeping city at night with a crescent moon and dark windows, no text",
+    "file": "assets/icons/te-night-city.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-clock-342": {
+    "kind": "vector",
+    "query": "a clock showing three forty two next to a crescent moon, no text",
+    "file": "assets/icons/te-clock-342.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-haiti-map": {
+    "kind": "vector",
+    "query": "a map of the Caribbean island of Hispaniola in neutral green with a red dot, no text, no flag",
+    "file": "assets/icons/te-haiti-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-rubble-town": {
+    "kind": "vector",
+    "query": "a small town of collapsed gray houses under a gray sky, no people, no text",
+    "file": "assets/icons/te-rubble-town.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-poor": {
+    "kind": "vector",
+    "query": "a small empty wallet with a single coin, poverty, no text",
+    "file": "assets/icons/te-poor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-weak-concrete": {
+    "kind": "vector",
+    "query": "gray concrete blocks stacked without steel bars, a weak wall full of cracks, no text",
+    "file": "assets/icons/te-weak-concrete.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-plate-under": {
+    "kind": "vector",
+    "query": "one big rocky plate bending down under another plate, cross section, no text",
+    "file": "assets/icons/te-plate-under.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-no-predict": {
+    "kind": "vector",
+    "query": "a crystal ball with a big red crossed-out circle, no text",
+    "file": "assets/icons/te-no-predict.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-risk-map": {
+    "kind": "vector",
+    "query": "a world map with red hot zones along the coasts, risk areas, no text",
+    "file": "assets/icons/te-risk-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-half-circle": {
+    "kind": "vector",
+    "query": "a round pie chart with one half colored and the other half empty, no text",
+    "file": "assets/icons/te-half-circle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-sway": {
+    "kind": "vector",
+    "query": "a tall skyscraper swaying gently on springs with a green check mark, no text",
+    "file": "assets/icons/te-sway.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-cost": {
+    "kind": "vector",
+    "query": "a stack of coins next to a building blueprint, no text",
+    "file": "assets/icons/te-cost.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-unequal": {
+    "kind": "vector",
+    "query": "a balance scale tilted, one side with a strong house, the other with a flimsy house, no text",
+    "file": "assets/icons/te-unequal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-hand-blueprint": {
+    "kind": "vector",
+    "query": "a hand holding a pen drawing on a blueprint paper, no text",
+    "file": "assets/icons/te-hand-blueprint.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ph-falla": {
+    "kind": "cutout",
+    "query": "Falla geológica",
+    "wiki": "Falla geológica",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Falla",
+      "description": "fractura en rocas con desplazamiento lineal"
+    },
+    "file": "assets/icons/ph-falla.jpg"
+  },
+  "ph-sismografo": {
+    "kind": "cutout",
+    "query": "Sismógrafo",
+    "wiki": "Sismógrafo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sismógrafo",
+      "description": "instrumento para medir terremotos o pequeños temblores provocados por los movimientos de las placas litosféricas"
+    },
+    "file": "assets/icons/ph-sismografo.jpg"
+  },
+  "ph-resorte": {
+    "kind": "cutout",
+    "query": "Resorte",
+    "wiki": "Resorte",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Resorte",
+      "description": "operador elástico"
+    },
+    "file": "assets/icons/ph-resorte.jpg"
+  },
+  "ph-valdivia": {
+    "kind": "cutout",
+    "query": "Valdivia tras el terremoto",
+    "wiki": "Escala sismológica de Mercalli",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Escala sismológica de Mercalli",
+      "description": "escala sísmica de 12 niveles que se utiliza para medir la intensidad y los efectos de un terremoto"
+    },
+    "file": "assets/icons/ph-valdivia.jpg"
+  },
+  "ph-chile10": {
+    "kind": "cutout",
+    "query": "Edificio caído en Concepción 2010",
+    "wiki": "Ingeniería sísmica",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Ingeniería sísmica",
+      "description": "rama interdisciplinaria de la ingeniería"
+    },
+    "file": "assets/icons/ph-chile10.jpg"
+  },
+  "ph-haiti": {
+    "kind": "cutout",
+    "query": "Daños del terremoto de Haití",
+    "wiki": "Terremoto",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Terremoto",
+      "description": "resultado de una liberación repentina de energía en la corteza terrestre que crea ondas sísmicas"
+    },
+    "file": "assets/icons/ph-haiti.jpg"
+  },
+  "ph-kamchatka": {
+    "kind": "cutout",
+    "query": "Península de Kamchatka",
+    "wiki": "Península de Kamchatka",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Península de Kamchatka",
+      "description": "península de Rusia en el océano Pacífico"
+    },
+    "file": "assets/icons/ph-kamchatka.jpg"
+  },
+  "ph-anchorage": {
+    "kind": "cutout",
+    "query": "Anchorage",
+    "wiki": "Anchorage",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Anchorage",
+      "description": "ciudad-distrito municipal consolidado y ciudad más poblada del estado de Alaska, Estados Unidos de América"
+    },
+    "file": "assets/icons/ph-anchorage.jpg"
+  },
+  "ph-andes": {
+    "kind": "cutout",
+    "query": "Cordillera de los Andes",
+    "wiki": "Cordillera de los Andes",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Cordillera de los Andes",
+      "description": "cordillera en Sudamérica occidental"
+    },
+    "file": "assets/icons/ph-andes.jpg"
+  },
+  "ph-tibet": {
+    "kind": "cutout",
+    "query": "Tíbet",
+    "wiki": "Tíbet",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Tíbet",
+      "description": "región del Himalaya"
+    },
+    "file": "assets/icons/ph-tibet.jpg"
+  },
+  "ph-lisboa": {
+    "kind": "cutout",
+    "query": "Lisboa",
+    "wiki": "Lisboa",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Lisboa",
+      "description": "capital de Portugal"
+    },
+    "file": "assets/icons/ph-lisboa.jpg"
+  },
+  "ph-carmo": {
+    "kind": "cutout",
+    "query": "Convento do Carmo Lisboa ruinas",
+    "wiki": "Convento do Carmo (Lisboa)",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Convento do Carmo (Lisboa)",
+      "description": ""
+    },
+    "file": "assets/icons/ph-carmo.jpg"
+  },
+  "ph-praca": {
+    "kind": "cutout",
+    "query": "Praça do Comércio",
+    "wiki": "Praça do Comércio",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Praça do Comércio",
+      "description": "terreno donde se asentó el Palacio Real de Lisboa durante más de 200 años"
+    },
+    "file": "assets/icons/ph-praca.jpg"
+  },
+  "ph-xian": {
+    "kind": "cutout",
+    "query": "Shaanxi",
+    "wiki": "Shaanxi",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Shaanxi",
+      "description": "provincia de China"
+    },
+    "file": "assets/icons/ph-xian.jpg"
+  },
+  "ph-yaodong": {
+    "kind": "cutout",
+    "query": "Yaodong",
+    "wiki": "Yaodong",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Yaodong",
+      "description": "forma de vivienda china"
+    },
+    "file": "assets/icons/ph-yaodong.jpg"
+  },
+  "ph-tokio": {
+    "kind": "cutout",
+    "query": "Tokio",
+    "wiki": "Tokio",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Tokio",
+      "description": "capital y ciudad más grande de Japón"
+    },
+    "file": "assets/icons/ph-tokio.jpg"
+  },
+  "ph-shinkansen": {
+    "kind": "cutout",
+    "query": "Shinkansen",
+    "wiki": "Shinkansen",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Shinkansen",
+      "description": "Tren Bala japonés"
+    },
+    "file": "assets/icons/ph-shinkansen.jpg"
+  },
+  "ph-tmd": {
+    "kind": "cutout",
+    "query": "Amortiguador de masa",
+    "wiki": "Amortiguador de masa",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Amortiguador de masa",
+      "description": "aparato diseñado para reducir vibraciones en estructuras"
+    },
+    "file": "assets/icons/ph-tmd.jpg"
+  },
+  "ph-torremayor": {
+    "kind": "cutout",
+    "query": "Aislamiento sísmico",
+    "wiki": "Aislamiento sísmico",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Aislamiento sísmico",
+      "description": ""
+    },
+    "file": "assets/icons/ph-torremayor.jpg"
+  },
+  "ph-everest": {
+    "kind": "cutout",
+    "query": "Monte Everest",
+    "wiki": "Monte Everest",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Monte Everest",
+      "description": "La montaña más alta de la Tierra"
+    },
+    "file": "assets/icons/ph-everest.jpg"
+  },
+  "ph-brahmaputra": {
+    "kind": "cutout",
+    "query": "Brahmaputra",
+    "wiki": "Brahmaputra",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Brahmaputra",
+      "description": "río de Asia"
+    },
+    "file": "assets/icons/ph-brahmaputra.jpg"
+  },
+  "ph-hawaii": {
+    "kind": "cutout",
+    "query": "Isla de Hawái",
+    "wiki": "Isla de Hawái",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Isla de Hawái",
+      "description": "isla del archipiélago de Hawái, Estados Unidos de América"
+    },
+    "file": "assets/icons/ph-hawaii.jpg"
+  },
+  "ph-andaman": {
+    "kind": "cutout",
+    "query": "Islas Andamán",
+    "wiki": "Islas Andamán",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Islas Andamán",
+      "description": "islas indias ubicadas en el golfo de Bengala"
+    },
+    "file": "assets/icons/ph-andaman.jpg"
+  },
+  "ph-loess": {
+    "kind": "cutout",
+    "query": "Meseta de Loes",
+    "wiki": "Meseta de Loes",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Meseta de Loes",
+      "description": ""
+    },
+    "file": "assets/icons/ph-loess.jpg"
+  },
+  "ph-valparaiso": {
+    "kind": "cutout",
+    "query": "Valparaíso",
+    "wiki": "Valparaíso",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Valparaíso",
+      "description": "capital legislativa de Chile y de la Región de Valparaíso"
+    },
+    "file": "assets/icons/ph-valparaiso.jpg"
+  },
+  "clip-mg-crack": {
+    "kind": "clip",
+    "query": "crack in a white wall close up",
+    "file": "assets/clips/clip-mg-crack.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Monstera Production",
+      "url": "https://www.pexels.com/video/a-crack-on-the-wall-7830155/"
+    }
+  },
+  "clip-coast": {
+    "kind": "clip",
+    "query": "mediterranean coast cliffs blue sea sunny",
+    "file": "assets/clips/clip-coast.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Engin Akyurt",
+      "url": "https://www.pexels.com/video/serene-mediterranean-coastal-cliff-view-30764221/"
+    }
+  },
+  "clip-everest": {
+    "kind": "clip",
+    "query": "mountaineer climbing snowy mountain",
+    "file": "assets/clips/clip-everest.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Florian Delée",
+      "url": "https://www.pexels.com/video/adventurous-climb-on-snowy-mountain-ridge-35045295/"
+    }
+  },
+  "clip-mud-river": {
+    "kind": "clip",
+    "query": "muddy river rapids flowing fast",
+    "file": "assets/clips/clip-mud-river.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Metro junction",
+      "url": "https://www.pexels.com/video/powerful-flood-waters-rushing-over-dam-28836379/"
+    }
+  },
+  "clip-construction": {
+    "kind": "clip",
+    "query": "construction workers building site daytime",
+    "file": "assets/clips/clip-construction.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Usman AbdulrasheedGambo",
+      "url": "https://www.pexels.com/video/construction-worker-securing-scaffolding-cables-32244801/"
+    }
+  },
+  "clip-engineers": {
+    "kind": "clip",
+    "query": "engineers looking at blueprint construction site",
+    "file": "assets/clips/clip-engineers.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikael Blomkvist",
+      "url": "https://www.pexels.com/video/a-man-and-woman-holding-a-blueprint-while-looking-at-construction-site-8964796/"
+    }
+  },
+  "clip-skyscrapers": {
+    "kind": "clip",
+    "query": "city skyline skyscrapers blue sky",
+    "file": "assets/clips/clip-skyscrapers.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Sergey  Meshkov",
+      "url": "https://www.pexels.com/video/low-angle-shot-of-high-rise-buildings-8477689/"
+    }
+  },
+  "clip-ruins": {
+    "kind": "clip",
+    "query": "ancient ruins columns sunny",
+    "file": "assets/clips/clip-ruins.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "K",
+      "url": "https://www.pexels.com/video/ancient-ruins-in-sunlit-glory-38045850/"
+    }
+  },
+  "clip-dry-earth": {
+    "kind": "clip",
+    "query": "dry cracked earth aerial",
+    "file": "assets/clips/clip-dry-earth.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Adrien JACTA",
+      "url": "https://www.pexels.com/video/video-of-dry-terrain-5358448/"
+    }
+  },
+  "clip-mg-blueprint": {
+    "kind": "clip",
+    "query": "architect blueprint plans close up",
+    "file": "assets/clips/clip-mg-blueprint.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tima Miroshnichenko",
+      "url": "https://www.pexels.com/video/person-using-compass-to-measure-6615508/"
+    }
+  },
+  "te-bell": {
+    "kind": "vector",
+    "query": "a big bronze bell ringing with motion lines, no text",
+    "file": "assets/icons/te-bell.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-push": {
+    "kind": "vector",
+    "query": "two big rocky blocks pushing head on against each other with arrows, no text",
+    "file": "assets/icons/te-push.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "te-slide-by": {
+    "kind": "vector",
+    "query": "two blocks scraping sideways past each other with arrows, no text",
+    "file": "assets/icons/te-slide-by.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ph-esmeraldas": {
+    "kind": "cutout",
+    "query": "Esmeraldas (Ecuador)",
+    "wiki": "Esmeraldas (Ecuador)",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Esmeraldas (Ecuador)",
+      "description": "ciudad de Ecuador, capital de la Provincia de Esmeraldas"
+    },
+    "file": "assets/icons/ph-esmeraldas.jpg"
+  },
+  "ph-escombro": {
+    "kind": "cutout",
+    "query": "Escombros",
+    "wiki": "Escombros",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Escombro",
+      "description": "resto de material proveniente del desecho de la construcción, remodelación o demolición de estructuras"
+    },
+    "file": "assets/icons/ph-escombro.jpg"
+  }
+}

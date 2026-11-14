@@ -1,0 +1,1311 @@
+{
+  "lb-tsunami": {
+    "kind": "vector",
+    "query": "a giant tsunami wall of water approaching a coast town",
+    "file": "assets/icons/lb-tsunami.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-wavehit": {
+    "kind": "vector",
+    "query": "a giant tsunami wave hitting the coast",
+    "file": "assets/icons/lb-wavehit.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-seapull": {
+    "kind": "vector",
+    "query": "the sea pulling back from the beach leaving fish on dry sand",
+    "file": "assets/icons/lb-seapull.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-runhill": {
+    "kind": "vector",
+    "query": "a person running uphill to high ground to escape water",
+    "file": "assets/icons/lb-runhill.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-evac": {
+    "kind": "vector",
+    "query": "an evacuation route road sign with an arrow",
+    "file": "assets/icons/lb-evac.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-quake": {
+    "kind": "vector",
+    "query": "ground cracking open in an earthquake with a shaking building",
+    "file": "assets/icons/lb-quake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-plates": {
+    "kind": "vector",
+    "query": "two tectonic plates of the earth crust pushing against each other",
+    "file": "assets/icons/lb-plates.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ringfire": {
+    "kind": "vector",
+    "query": "a Pacific ocean map with a ring of fire volcanoes around it",
+    "file": "assets/icons/lb-ringfire.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bigvolcano": {
+    "kind": "vector",
+    "query": "a huge volcano erupting with ash and smoke",
+    "file": "assets/icons/lb-bigvolcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-sinkisland": {
+    "kind": "vector",
+    "query": "an island sinking into the sea underwater",
+    "file": "assets/icons/lb-sinkisland.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-eruptisl": {
+    "kind": "vector",
+    "query": "a round island exploding with a huge volcanic ash column and a bright orange glow, no text",
+    "file": "assets/icons/lb-eruptisl.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calflip": {
+    "kind": "vector",
+    "query": "a wall calendar with many pages flying off, many years passing, no numbers",
+    "file": "assets/icons/lb-calflip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calendar": {
+    "kind": "vector",
+    "query": "a wall calendar showing a year",
+    "file": "assets/icons/lb-calendar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-clocklong": {
+    "kind": "vector",
+    "query": "a big clock with a long winding trail behind it, lasting for a long time, no text",
+    "file": "assets/icons/lb-clocklong.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulb": {
+    "kind": "vector",
+    "query": "a classic glowing incandescent light bulb",
+    "file": "assets/icons/lb-bulb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulbbook": {
+    "kind": "vector",
+    "query": "a lightbulb above an open book with a star, an important lesson",
+    "file": "assets/icons/lb-bulbbook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-scholar": {
+    "kind": "vector",
+    "query": "an old scholar with glasses reading a huge ancient book, thinking",
+    "file": "assets/icons/lb-scholar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-curious": {
+    "kind": "vector",
+    "query": "a curious surprised face with wide eyes",
+    "file": "assets/icons/lb-curious.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-shield": {
+    "kind": "vector",
+    "query": "a green shield with a check mark, protected",
+    "file": "assets/icons/lb-shield.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-siren": {
+    "kind": "vector",
+    "query": "a red flashing emergency siren light",
+    "file": "assets/icons/lb-siren.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-warning": {
+    "kind": "vector",
+    "query": "a yellow warning triangle with an exclamation mark",
+    "file": "assets/icons/lb-warning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-doubt": {
+    "kind": "vector",
+    "query": "a big question mark, doubt",
+    "file": "assets/icons/lb-doubt.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-longroad": {
+    "kind": "vector",
+    "query": "a long winding road with many kilometer markers receding to the horizon",
+    "file": "assets/icons/lb-longroad.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-rogue": {
+    "kind": "vector",
+    "query": "a giant rogue wave wall towering over a tiny ship",
+    "file": "assets/icons/lb-rogue.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ashsky": {
+    "kind": "vector",
+    "query": "dust and ash blocking out the sun, dark sky",
+    "file": "assets/icons/lb-ashsky.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-japanmap": {
+    "kind": "vector",
+    "query": "a simple map of the Japanese islands in neutral green and beige, no text, no flag",
+    "file": "assets/icons/lb-japanmap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-chilemap": {
+    "kind": "vector",
+    "query": "a map silhouette of Chile, a very long thin country, no text",
+    "file": "assets/icons/lb-chilemap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-indiamap": {
+    "kind": "vector",
+    "query": "India map outline",
+    "file": "assets/icons/lb-indiamap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-africa": {
+    "kind": "vector",
+    "query": "Africa map silhouette",
+    "file": "assets/icons/lb-africa.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-worldmap": {
+    "kind": "vector",
+    "query": "world map",
+    "file": "assets/icons/lb-worldmap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-worldarrows": {
+    "kind": "vector",
+    "query": "three wave arrows crossing a world map one after another, no text",
+    "file": "assets/icons/lb-worldarrows.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-classroom": {
+    "kind": "vector",
+    "query": "a few cartoon children sitting at desks in a bright classroom, no text",
+    "file": "assets/icons/lb-classroom.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bigcrowd": {
+    "kind": "vector",
+    "query": "a huge crowd of a million people in a big city",
+    "file": "assets/icons/lb-bigcrowd.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-peopleleave": {
+    "kind": "vector",
+    "query": "a line of people walking away abandoning a city",
+    "file": "assets/icons/lb-peopleleave.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-radar": {
+    "kind": "vector",
+    "query": "a friendly radar dish with a green check mark and waves, useful alertness, no text",
+    "file": "assets/icons/lb-radar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-countdown": {
+    "kind": "vector",
+    "query": "a countdown timer clock running out of time",
+    "file": "assets/icons/lb-countdown.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-stopwatch": {
+    "kind": "vector",
+    "query": "a stopwatch next to a small running person, reaction time, no text",
+    "file": "assets/icons/lb-stopwatch.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-wsensor": {
+    "kind": "vector",
+    "query": "an oil platform with a wave measuring sensor",
+    "file": "assets/icons/lb-wsensor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-stareyes": {
+    "kind": "vector",
+    "query": "a happy dreaming face with sparkling stars in its eyes, hope and excitement",
+    "file": "assets/icons/lb-stareyes.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-stranded": {
+    "kind": "vector",
+    "query": "a small wooden boat lying tilted on dry sand with a few fish around it, bright beach, no text",
+    "file": "assets/icons/ts-stranded.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-harbor": {
+    "kind": "vector",
+    "query": "a small calm fishing harbor with a wooden pier and little boats, bright, no text",
+    "file": "assets/icons/ts-harbor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-harbor-ruin": {
+    "kind": "vector",
+    "query": "a small fishing harbor with a broken pier and scattered wooden planks after a big wave, no people, no text",
+    "file": "assets/icons/ts-harbor-ruin.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-wind-wave": {
+    "kind": "vector",
+    "query": "small ordinary sea waves with a little wind swirl blowing over them, no text",
+    "file": "assets/icons/ts-wind-wave.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-long-wave": {
+    "kind": "vector",
+    "query": "a very long gentle blue wave stretching far across the sea with a long measuring arrow under it, no text",
+    "file": "assets/icons/ts-long-wave.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-water-column": {
+    "kind": "vector",
+    "query": "a cross-section of the sea from the surface down to the seabed with all the water moving together in the same direction with arrows, no text",
+    "file": "assets/icons/ts-water-column.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-push-water": {
+    "kind": "vector",
+    "query": "a big cartoon hand shoving a huge block of water suddenly, no text",
+    "file": "assets/icons/ts-push-water.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-underwater-quake": {
+    "kind": "vector",
+    "query": "the seabed cracking with a plate lifting up under the sea and the water above rising in a bump, cross-section, no text",
+    "file": "assets/icons/ts-underwater-quake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-landslide-water": {
+    "kind": "vector",
+    "query": "a big chunk of mountain and ice falling into the sea making a huge splash, no text",
+    "file": "assets/icons/ts-landslide-water.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-low-wave": {
+    "kind": "vector",
+    "query": "a ship floating on a calm sea with a tiny gentle ripple under it and a small ruler showing less than one meter, no text",
+    "file": "assets/icons/ts-low-wave.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-slope-wave": {
+    "kind": "vector",
+    "query": "cross-section of a seabed rising toward a beach with a wave slowing down and growing taller, no text",
+    "file": "assets/icons/ts-slope-wave.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-single-wave": {
+    "kind": "vector",
+    "query": "a single big blue wave with a curled crest, simple, no text",
+    "file": "assets/icons/ts-single-wave.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-wave-series": {
+    "kind": "vector",
+    "query": "a row of five big waves one after another approaching a coast with a clock between them, no text",
+    "file": "assets/icons/ts-wave-series.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-first-not-worst": {
+    "kind": "vector",
+    "query": "a row of waves growing taller from left to right with the fourth one biggest and a red arrow on it, no text",
+    "file": "assets/icons/ts-first-not-worst.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-pumice-layer": {
+    "kind": "vector",
+    "query": "layers of sand and light gray pumice stones in a cross-section of the ground on a coast, no text",
+    "file": "assets/icons/ts-pumice-layer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-geologist": {
+    "kind": "vector",
+    "query": "a cartoon geologist with a notebook and a small hammer examining layers of rock on a coast, no text",
+    "file": "assets/icons/ts-geologist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-fading-palace": {
+    "kind": "vector",
+    "query": "an ancient Minoan palace with red columns slowly fading and crumbling, no people, no text",
+    "file": "assets/icons/ts-fading-palace.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-lisbon-quake": {
+    "kind": "vector",
+    "query": "an old Portuguese city with baroque buildings shaking and cracking, no people, no text",
+    "file": "assets/icons/ts-lisbon-quake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-retreat-port": {
+    "kind": "vector",
+    "query": "an old harbor where the water has pulled far back leaving the seabed and old ships lying on the mud, no text",
+    "file": "assets/icons/ts-retreat-port.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-wave-over-city": {
+    "kind": "vector",
+    "query": "a big wave arriving at an old harbor city with baroque buildings, no people, no text",
+    "file": "assets/icons/ts-wave-over-city.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-atlantic-map": {
+    "kind": "vector",
+    "query": "a simple map of the Atlantic Ocean with wave arrows from Portugal toward Africa and the Caribbean, no text, no flags",
+    "file": "assets/icons/ts-atlantic-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-questionnaire": {
+    "kind": "vector",
+    "query": "a stack of letters with a quill pen and a small parish church, no text",
+    "file": "assets/icons/ts-questionnaire.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-krakatoa-collapse": {
+    "kind": "vector",
+    "query": "a round volcanic island collapsing into the sea with big explosions, no text",
+    "file": "assets/icons/ts-krakatoa-collapse.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-tall-waves": {
+    "kind": "vector",
+    "query": "a tall dark blue wave towering over little palm trees and huts on a coast, no people, no text",
+    "file": "assets/icons/ts-tall-waves.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-java-sumatra-map": {
+    "kind": "vector",
+    "query": "a simple map of the Sunda strait between the islands of Java and Sumatra, no text, no flags",
+    "file": "assets/icons/ts-java-sumatra-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-gunboat": {
+    "kind": "vector",
+    "query": "an old steam gunboat stranded on a hill among palm trees far from the sea, no text",
+    "file": "assets/icons/ts-gunboat.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-calm-town": {
+    "kind": "vector",
+    "query": "a calm Japanese coastal town in the evening with small wooden houses and a quiet sea, no people, no text",
+    "file": "assets/icons/ts-calm-town.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-record-tall": {
+    "kind": "vector",
+    "query": "a very tall wave next to a very tall measuring pole, a ruler, no text",
+    "file": "assets/icons/ts-record-tall.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-tsunami-quake": {
+    "kind": "vector",
+    "query": "a seismograph paper with tiny wiggles next to a huge wave, no text",
+    "file": "assets/icons/ts-tsunami-quake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-long-shake-up": {
+    "kind": "vector",
+    "query": "a clock with long shaking lines and an arrow pointing up to a high hill, no text",
+    "file": "assets/icons/ts-long-shake-up.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-alaska-map": {
+    "kind": "vector",
+    "query": "a simple map of Alaska with a small red circle on the southeast coast, no text, no flag",
+    "file": "assets/icons/ts-alaska-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-rockfall": {
+    "kind": "vector",
+    "query": "a huge slab of rock falling from a steep mountain into a narrow fjord with a big splash, no text",
+    "file": "assets/icons/ts-rockfall.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-wave-up-slope": {
+    "kind": "vector",
+    "query": "a giant wave of water climbing up a mountain slope and stripping the forest of its trees, no text",
+    "file": "assets/icons/ts-wave-up-slope.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-bare-slope": {
+    "kind": "vector",
+    "query": "a mountain slope with green forest in the lower part replaced by bare brown rock up to a line high on the mountain, no text",
+    "file": "assets/icons/ts-bare-slope.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-height-compare": {
+    "kind": "vector",
+    "query": "a very tall measuring bar next to a small Eiffel tower showing it is much taller, no text",
+    "file": "assets/icons/ts-height-compare.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-wave-hit-mountain": {
+    "kind": "vector",
+    "query": "a wave crashing against a steep mountain wall, side view, no text",
+    "file": "assets/icons/ts-wave-hit-mountain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-doubting-scientist": {
+    "kind": "vector",
+    "query": "a scientist shaking his head in disbelief looking at a drawing of a giant wave, no text",
+    "file": "assets/icons/ts-doubting-scientist.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-pacific-wave": {
+    "kind": "vector",
+    "query": "a big wave arrow crossing the whole Pacific ocean on a map from South America toward Asia, no text, no flags",
+    "file": "assets/icons/ts-pacific-wave.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-record-quake": {
+    "kind": "vector",
+    "query": "a seismograph needle drawing the biggest wild zigzag ever with a gold star, no text",
+    "file": "assets/icons/ts-record-quake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-first-step": {
+    "kind": "vector",
+    "query": "a first step of a long staircase going up into the clouds, the beginning, no text",
+    "file": "assets/icons/ts-first-step.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-hilo-bay": {
+    "kind": "vector",
+    "query": "a curved tropical bay with palm trees and a harbor, bright sunny sky and a calm looking sea, no text",
+    "file": "assets/icons/ts-hilo-bay.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-west-coast": {
+    "kind": "vector",
+    "query": "a long wave arrow traveling down the west coast of North America on a map, no text, no flags",
+    "file": "assets/icons/ts-west-coast.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-crescent": {
+    "kind": "vector",
+    "query": "a small coastal town in California with a lighthouse and a harbor, bright, no people, no text",
+    "file": "assets/icons/ts-crescent.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-return-home": {
+    "kind": "vector",
+    "query": "a small house on a coast with the sea calm after a first wave and a second larger wave rising behind it, no text",
+    "file": "assets/icons/ts-return-home.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-never-return": {
+    "kind": "vector",
+    "query": "a red stop hand over a small house with a returning arrow crossed out, no text",
+    "file": "assets/icons/ts-never-return.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-indian-map": {
+    "kind": "vector",
+    "query": "a map of the Indian Ocean with wave arrows reaching Sri Lanka, India, Thailand and Africa, no text, no flags",
+    "file": "assets/icons/ts-indian-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-sumatra-rupture": {
+    "kind": "vector",
+    "query": "a long red crack line under the ocean on a map of Sumatra, a very long rupture, no text",
+    "file": "assets/icons/ts-sumatra-rupture.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-no-alarm": {
+    "kind": "vector",
+    "query": "a silent alarm bell covered with cobwebs and a red cross, no warning, no text",
+    "file": "assets/icons/ts-no-alarm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-hope": {
+    "kind": "vector",
+    "query": "a small sun rising over a green hill with a tiny sprout, hope, no text",
+    "file": "assets/icons/ts-hope.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-oral-tradition": {
+    "kind": "vector",
+    "query": "an elderly grandmother telling a story to children sitting around her, warm, no text",
+    "file": "assets/icons/ts-oral-tradition.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-smong-bubble": {
+    "kind": "vector",
+    "query": "a speech bubble containing a green hill and an upward arrow, a spoken warning, no text",
+    "file": "assets/icons/ts-smong-bubble.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-girl-ten": {
+    "kind": "vector",
+    "query": "a ten year old girl with a ponytail raising her hand in a geography classroom with a world map, no text",
+    "file": "assets/icons/ts-girl-ten.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-warn-parents": {
+    "kind": "vector",
+    "query": "a girl pulling her parents by the hands pointing toward a hotel building on a beach, no text",
+    "file": "assets/icons/ts-warn-parents.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-drill": {
+    "kind": "vector",
+    "query": "people in helmets walking in a line to a safe hill in a safety drill, cartoon, no text",
+    "file": "assets/icons/ts-drill.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-low-estimate": {
+    "kind": "vector",
+    "query": "a measuring gauge showing a low value with a red arrow correcting it upward, no text",
+    "file": "assets/icons/ts-low-estimate.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-wave-over-wall": {
+    "kind": "vector",
+    "query": "a huge wave pouring over a tall concrete sea wall onto a small town, no people, no text",
+    "file": "assets/icons/ts-wave-over-wall.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-video-play": {
+    "kind": "vector",
+    "query": "a friendly cartoon television with a play button, no text",
+    "file": "assets/icons/ts-video-play.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-kamaishi-kids": {
+    "kind": "vector",
+    "query": "a line of school children in helmets running uphill together, bright, no text",
+    "file": "assets/icons/ts-kamaishi-kids.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-hazard-map": {
+    "kind": "vector",
+    "query": "a hazard map on paper with colored zones and a question mark, do not trust it blindly, no text",
+    "file": "assets/icons/ts-hazard-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-do-best": {
+    "kind": "vector",
+    "query": "a determined cartoon child with a fist raised pointing up at a hill, no text",
+    "file": "assets/icons/ts-do-best.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-run-ahead": {
+    "kind": "vector",
+    "query": "a small child running uphill ahead while a tall adult stands far behind, no text",
+    "file": "assets/icons/ts-run-ahead.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-miracle": {
+    "kind": "vector",
+    "query": "a golden star shining above a small school building on a hill, no text",
+    "file": "assets/icons/ts-miracle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-tonga-islands": {
+    "kind": "vector",
+    "query": "a few small flat tropical islands with a big wave passing over them, no people, no text",
+    "file": "assets/icons/ts-tonga-islands.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-underwater-volcano": {
+    "kind": "vector",
+    "query": "a submarine volcano exploding under the sea with a column of steam and ash above the water, no text",
+    "file": "assets/icons/ts-underwater-volcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-pressure-ring": {
+    "kind": "vector",
+    "query": "a circular shockwave ring expanding around planet Earth, no text",
+    "file": "assets/icons/ts-pressure-ring.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-air-pushes-sea": {
+    "kind": "vector",
+    "query": "an invisible wave in the air pressing down on the sea surface making a wave, with arrows, no text",
+    "file": "assets/icons/ts-air-pushes-sea.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-hawaii-center": {
+    "kind": "vector",
+    "query": "a small office building with an antenna on a tropical island, a tsunami warning center, no text",
+    "file": "assets/icons/ts-hawaii-center.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-countries-hands": {
+    "kind": "vector",
+    "query": "a group of hands from different people joining together over a globe, no text",
+    "file": "assets/icons/ts-countries-hands.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-indian-system": {
+    "kind": "vector",
+    "query": "a new warning center building with a radar dish next to a small map of the Indian Ocean, no text",
+    "file": "assets/icons/ts-indian-system.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-quake-no-tsunami": {
+    "kind": "vector",
+    "query": "a small earthquake crack in the ground next to a calm sea with a green check, no text",
+    "file": "assets/icons/ts-quake-no-tsunami.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-seabed-sensor": {
+    "kind": "vector",
+    "query": "a small sensor box on the seabed with water pressure arrows pushing down, no text",
+    "file": "assets/icons/ts-seabed-sensor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-wave-over-sensor": {
+    "kind": "vector",
+    "query": "a big wave passing over a seabed sensor and a buoy at the surface, cross-section, no text",
+    "file": "assets/icons/ts-wave-over-sensor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-sound-link": {
+    "kind": "vector",
+    "query": "sound waves going from a seabed sensor up to a surface buoy, no text",
+    "file": "assets/icons/ts-sound-link.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-satellite": {
+    "kind": "vector",
+    "query": "a satellite orbiting above the earth sending signal waves down, no text",
+    "file": "assets/icons/ts-satellite.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-map-arrival": {
+    "kind": "vector",
+    "query": "a map of the sea with ring lines showing wave arrival times getting farther from a red point, no text",
+    "file": "assets/icons/ts-map-arrival.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-message-late": {
+    "kind": "vector",
+    "query": "a phone with a warning alert in front of a beach with a few small people, no text",
+    "file": "assets/icons/ts-message-late.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-roar": {
+    "kind": "vector",
+    "query": "a cartoon ear listening to a loud rumble with sound lines, no text",
+    "file": "assets/icons/ts-roar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "ts-person-knows": {
+    "kind": "vector",
+    "query": "a calm cartoon person with a lightbulb pointing at the sea pulling back, no text",
+    "file": "assets/icons/ts-person-knows.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-ola": {
+    "kind": "cutout",
+    "query": "Ola",
+    "wiki": "Ola",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Ola",
+      "description": "ondas de superficie generadas por el viento en aguas abiertas"
+    },
+    "file": "assets/icons/photo-ola.jpg"
+  },
+  "photo-barcopesca": {
+    "kind": "cutout",
+    "query": "Barco de pesca",
+    "wiki": "Barco de pesca",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Barco pesquero",
+      "description": "embarcación usada para la pesca"
+    },
+    "file": "assets/icons/photo-barcopesca.jpg"
+  },
+  "photo-rompeolas": {
+    "kind": "cutout",
+    "query": "Rompeolas",
+    "wiki": "Rompeolas",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Rompeolas",
+      "description": "cortaolas, rompeolas o malecón; estructura para controlar el oleaje en una costa marítima."
+    },
+    "file": "assets/icons/photo-rompeolas.jpg"
+  },
+  "photo-cnosos": {
+    "kind": "cutout",
+    "query": "Palacio de Cnosos",
+    "wiki": "Palacio de Cnosos",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Palacio de Cnosos",
+      "description": "palacio minoico"
+    },
+    "file": "assets/icons/photo-cnosos.jpg"
+  },
+  "photo-minoica": {
+    "kind": "cutout",
+    "query": "Civilización minoica",
+    "wiki": "Civilización minoica",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Civilización minoica",
+      "description": "civilización europea de la antigüedad"
+    },
+    "file": "assets/icons/photo-minoica.jpg"
+  },
+  "photo-lisboa": {
+    "kind": "cutout",
+    "query": "Lisboa",
+    "wiki": "Lisboa",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Lisboa",
+      "description": "capital de Portugal"
+    },
+    "file": "assets/icons/photo-lisboa.jpg"
+  },
+  "photo-plaza": {
+    "kind": "cutout",
+    "query": "Plaza del Comercio",
+    "wiki": "Plaza del Comercio",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Praça do Comércio",
+      "description": "terreno donde se asentó el Palacio Real de Lisboa durante más de 200 años"
+    },
+    "file": "assets/icons/photo-plaza.jpg"
+  },
+  "photo-cabosv": {
+    "kind": "cutout",
+    "query": "Cabo de San Vicente",
+    "wiki": "Cabo de San Vicente",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Cabo de San Vicente",
+      "description": "accidente geográfico situado en el extremo sudoeste de Portugal"
+    },
+    "file": "assets/icons/photo-cabosv.jpg"
+  },
+  "photo-krakatoa": {
+    "kind": "cutout",
+    "query": "Krakatoa",
+    "wiki": "Krakatoa",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Krakatoa",
+      "description": "conjunto de islas volcánicas en Indonesia"
+    },
+    "file": "assets/icons/photo-krakatoa.jpg"
+  },
+  "photo-fiordo": {
+    "kind": "cutout",
+    "query": "Fiordo",
+    "wiki": "Fiordo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Fiordo",
+      "description": "angosta entrada de mar formada sobre antiguas cuencas glaciares"
+    },
+    "file": "assets/icons/photo-fiordo.jpg"
+  },
+  "photo-sismografo": {
+    "kind": "cutout",
+    "query": "Sismógrafo",
+    "wiki": "Sismógrafo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sismógrafo",
+      "description": "instrumento para medir terremotos o pequeños temblores provocados por los movimientos de las placas litosféricas"
+    },
+    "file": "assets/icons/photo-sismografo.jpg"
+  },
+  "photo-sumatra": {
+    "kind": "cutout",
+    "query": "Sumatra",
+    "wiki": "Sumatra",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sumatra",
+      "description": "isla de Asia"
+    },
+    "file": "assets/icons/photo-sumatra.png"
+  },
+  "photo-aceh": {
+    "kind": "cutout",
+    "query": "Aceh",
+    "wiki": "Aceh",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Provincia de Aceh",
+      "description": "provincias de Indonesia"
+    },
+    "file": "assets/icons/photo-aceh.jpg"
+  },
+  "clip-beach": {
+    "kind": "clip",
+    "query": "people walking on sunny beach",
+    "file": "assets/clips/clip-beach.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Kampus Production",
+      "url": "https://www.pexels.com/video/a-couple-holding-hands-while-walking-in-the-beach-6180186/"
+    }
+  },
+  "clip-fisherman": {
+    "kind": "clip",
+    "query": "fisherman fishing boat sea",
+    "file": "assets/clips/clip-fisherman.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "William Chen",
+      "url": "https://www.pexels.com/video/tamsui-fisherman-s-whaft-17947171/"
+    }
+  },
+  "clip-ocean": {
+    "kind": "clip",
+    "query": "ocean waves aerial daytime",
+    "file": "assets/clips/clip-ocean.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "RDNE Stock project",
+      "url": "https://www.pexels.com/video/drone-footage-of-a-waves-crashing-on-shore-8438367/"
+    }
+  },
+  "clip-sailing-ship": {
+    "kind": "clip",
+    "query": "old wooden sailing ship sea sunny",
+    "file": "assets/clips/clip-sailing-ship.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Val А",
+      "url": "https://www.pexels.com/video/sailing-adventure-on-a-traditional-wooden-boat-35612638/"
+    }
+  },
+  "clip-seismograph": {
+    "kind": "clip",
+    "query": "seismograph recording earthquake paper needle",
+    "file": "assets/clips/clip-seismograph.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tima Miroshnichenko",
+      "url": "https://www.pexels.com/video/a-person-vinyl-player-5118420/"
+    }
+  },
+  "clip-santorini": {
+    "kind": "clip",
+    "query": "santorini white houses blue sea sunny",
+    "file": "assets/clips/clip-santorini.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Dimitris Mourousiadis",
+      "url": "https://www.pexels.com/video/akrotiri-santorini-20695988/"
+    }
+  },
+  "clip-coast": {
+    "kind": "clip",
+    "query": "mediterranean coast cliffs blue sea sunny",
+    "file": "assets/clips/clip-coast.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Engin Akyurt",
+      "url": "https://www.pexels.com/video/serene-mediterranean-coastal-cliff-view-30764221/"
+    }
+  },
+  "clip-ash-plume": {
+    "kind": "clip",
+    "query": "volcano eruption ash plume daytime",
+    "file": "assets/clips/clip-ash-plume.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pressmaster",
+      "url": "https://www.pexels.com/video/an-erupting-volcano-spewing-volcanic-ash-up-in-the-air-3192166/"
+    }
+  },
+  "clip-excavation": {
+    "kind": "clip",
+    "query": "archaeologist excavating dig site brush",
+    "file": "assets/clips/clip-excavation.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "K",
+      "url": "https://www.pexels.com/video/heavy-machinery-working-in-forest-excavation-33024405/"
+    }
+  },
+  "clip-binoculars": {
+    "kind": "clip",
+    "query": "binoculars looking at the sea",
+    "file": "assets/clips/clip-binoculars.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "celal keser",
+      "url": "https://www.pexels.com/video/scenic-view-of-bosphorus-bridge-at-daylight-35399373/"
+    }
+  },
+  "clip-library-shelves": {
+    "kind": "clip",
+    "query": "old library bookshelves",
+    "file": "assets/clips/clip-library-shelves.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Liudmyla Honcharova",
+      "url": "https://www.pexels.com/video/a-young-woman-looking-at-books-in-a-library-11958282/"
+    }
+  },
+  "clip-children-run": {
+    "kind": "clip",
+    "query": "children running outdoors sunny",
+    "file": "assets/clips/clip-children-run.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "olia danilevich",
+      "url": "https://www.pexels.com/video/kids-playing-on-the-outdoors-4982411/"
+    }
+  },
+  "clip-cathedral": {
+    "kind": "clip",
+    "query": "cathedral interior candles",
+    "file": "assets/clips/clip-cathedral.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Junjun Alito",
+      "url": "https://www.pexels.com/video/people-lighting-up-candles-4161522/"
+    }
+  },
+  "clip-crater-smoke": {
+    "kind": "clip",
+    "query": "volcano crater smoking daytime aerial",
+    "file": "assets/clips/clip-crater-smoke.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "ArtHouse Studio",
+      "url": "https://www.pexels.com/video/an-aerial-footage-of-the-volcanoes-of-east-java-indonesia-4581197/"
+    }
+  },
+  "clip-tropical-island": {
+    "kind": "clip",
+    "query": "tropical island aerial caribbean sunny",
+    "file": "assets/clips/clip-tropical-island.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Advancer Drones",
+      "url": "https://www.pexels.com/video/aerial-footage-of-a-bay-with-blue-water-11204826/"
+    }
+  },
+  "clip-old-map": {
+    "kind": "clip",
+    "query": "hands pointing at an old map",
+    "file": "assets/clips/clip-old-map.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tima Miroshnichenko",
+      "url": "https://www.pexels.com/video/people-finger-pointing-to-map-7009786/"
+    }
+  },
+  "clip-hiker": {
+    "kind": "clip",
+    "query": "hiker walking up a hill sunny",
+    "file": "assets/clips/clip-hiker.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Alex Moliski",
+      "url": "https://www.pexels.com/video/solo-hiker-in-scenic-mountain-path-32565990/"
+    }
+  },
+  "clip-low-tide": {
+    "kind": "clip",
+    "query": "sea water receding on sandy beach daytime",
+    "file": "assets/clips/clip-low-tide.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Everett Bumstead",
+      "url": "https://www.pexels.com/video/calm-ocean-waves-rolling-onto-beach-shore-34568950/"
+    }
+  },
+  "clip-seawall": {
+    "kind": "clip",
+    "query": "waves crashing against concrete seawall daytime",
+    "file": "assets/clips/clip-seawall.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Traveling on  the Go",
+      "url": "https://www.pexels.com/video/top-view-of-crashing-waves-on-a-concrete-seawall-14515579/"
+    }
+  },
+  "clip-fjord": {
+    "kind": "clip",
+    "query": "fjord mountains aerial sunny",
+    "file": "assets/clips/clip-fjord.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Haseeb Ahmad",
+      "url": "https://www.pexels.com/video/ersfjord-tromso-18513465/"
+    }
+  },
+  "clip-buoy": {
+    "kind": "clip",
+    "query": "buoy floating on sea waves daytime",
+    "file": "assets/clips/clip-buoy.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "K",
+      "url": "https://www.pexels.com/video/drone-shot-of-a-buoy-floating-4066321/"
+    }
+  },
+  "clip-hawaii": {
+    "kind": "clip",
+    "query": "hawaii beach palm trees sunny",
+    "file": "assets/clips/clip-hawaii.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tembela Bohle",
+      "url": "https://www.pexels.com/video/palmtree-silhouette-sunset-hawaii-19140332/"
+    }
+  },
+  "clip-japan-village": {
+    "kind": "clip",
+    "query": "japanese fishing village harbor daytime",
+    "file": "assets/clips/clip-japan-village.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "NGUYỄN THÀNH NHƠN",
+      "url": "https://www.pexels.com/video/scenic-view-of-fishing-boats-on-a-calm-sea-35262788/"
+    }
+  },
+  "clip-thai-beach": {
+    "kind": "clip",
+    "query": "thailand tropical beach longtail boat",
+    "file": "assets/clips/clip-thai-beach.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pete Miller Portraits",
+      "url": "https://www.pexels.com/video/traditional-longtail-boat-launch-in-thailand-35888266/"
+    }
+  },
+  "clip-hourglass": {
+    "kind": "clip",
+    "query": "hourglass sand time close up",
+    "file": "assets/clips/clip-hourglass.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Samer Daboul",
+      "url": "https://www.pexels.com/video/sand-inside-an-hourglass-1188938/"
+    }
+  },
+  "clip-magnifier": {
+    "kind": "clip",
+    "query": "magnifying glass close up",
+    "file": "assets/clips/clip-magnifier.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Video Kickstarter",
+      "url": "https://www.pexels.com/video/circuit-board-undder-magnifying-lens-2376866/"
+    }
+  },
+  "clip-airplane": {
+    "kind": "clip",
+    "query": "airplane flying blue sky",
+    "file": "assets/clips/clip-airplane.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "ROCCO STOPPOLONI",
+      "url": "https://www.pexels.com/video/distant-airplane-flying-on-blue-sky-6187626/"
+    }
+  },
+  "clip-crowd-day": {
+    "kind": "clip",
+    "query": "crowd walking daytime street",
+    "file": "assets/clips/clip-crowd-day.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Coverr",
+      "url": "https://www.pexels.com/video/black-and-white-video-of-a-busy-street-853946/"
+    }
+  },
+  "clip-classroom": {
+    "kind": "clip",
+    "query": "classroom students",
+    "file": "assets/clips/clip-classroom.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pavel Danilyuk",
+      "url": "https://www.pexels.com/video/a-student-returning-an-eraser-8342706/"
+    }
+  },
+  "clip-laptop": {
+    "kind": "clip",
+    "query": "typing on laptop",
+    "file": "assets/clips/clip-laptop.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Jack Sparrow",
+      "url": "https://www.pexels.com/video/a-person-busy-typing-and-using-his-laptop-5977139/"
+    }
+  },
+  "clip-engineers": {
+    "kind": "clip",
+    "query": "engineers looking at blueprint",
+    "file": "assets/clips/clip-engineers.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mikael Blomkvist",
+      "url": "https://www.pexels.com/video/a-man-and-woman-holding-a-blueprint-while-looking-at-construction-site-8964796/"
+    }
+  },
+  "clip-pacific-coast": {
+    "kind": "clip",
+    "query": "pacific ocean coast waves cliffs sunny",
+    "file": "assets/clips/clip-pacific-coast.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Soly Moses",
+      "url": "https://www.pexels.com/video/dramatic-cliffs-and-waves-at-pismo-beach-38802575/"
+    }
+  },
+  "clip-cooling-towers": {
+    "kind": "clip",
+    "query": "nuclear power plant cooling towers",
+    "file": "assets/clips/clip-cooling-towers.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Darina Evstafeva",
+      "url": "https://www.pexels.com/video/cooling-towers-in-autumn-landscape-at-sunset-29491854/"
+    }
+  },
+  "clip-underwater": {
+    "kind": "clip",
+    "query": "underwater scuba diver blue water",
+    "file": "assets/clips/clip-underwater.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "JUN HO LEE",
+      "url": "https://www.pexels.com/video/deep-sea-diving-adventure-with-divers-34464140/"
+    }
+  },
+  "lb-volcano": {
+    "kind": "vector",
+    "query": "an erupting volcano spewing lava and smoke",
+    "file": "assets/icons/lb-volcano.png",
+    "normalized": true,
+    "gpt": true
+  }
+}
