@@ -1,0 +1,1260 @@
+{
+  "lb-bigvolcano": {
+    "kind": "vector",
+    "query": "a huge volcano erupting with ash and smoke",
+    "file": "assets/icons/lb-bigvolcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-volcano": {
+    "kind": "vector",
+    "query": "an erupting volcano spewing lava and smoke",
+    "file": "assets/icons/lb-volcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-magma": {
+    "kind": "vector",
+    "query": "molten magma rising up through a channel inside the earth toward a volcano",
+    "file": "assets/icons/lb-magma.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-lavariver": {
+    "kind": "vector",
+    "query": "a slow river of glowing orange lava flowing down",
+    "file": "assets/icons/lb-lavariver.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-pyro": {
+    "kind": "vector",
+    "query": "a fast burning cloud of ash and gas rushing down a volcano slope",
+    "file": "assets/icons/lb-pyro.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ashplane": {
+    "kind": "vector",
+    "query": "a dark volcanic ash cloud covering the sun with an airplane",
+    "file": "assets/icons/lb-ashplane.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-supervolcano": {
+    "kind": "vector",
+    "query": "a gigantic supervolcano caldera erupting massively",
+    "file": "assets/icons/lb-supervolcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ringfire": {
+    "kind": "vector",
+    "query": "a Pacific ocean map with a ring of fire volcanoes around it",
+    "file": "assets/icons/lb-ringfire.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-tsunami": {
+    "kind": "vector",
+    "query": "a giant tsunami wall of water approaching a coast town",
+    "file": "assets/icons/lb-tsunami.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-wavehit": {
+    "kind": "vector",
+    "query": "a giant tsunami wave hitting the coast",
+    "file": "assets/icons/lb-wavehit.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-quake": {
+    "kind": "vector",
+    "query": "ground cracking open in an earthquake with a shaking building",
+    "file": "assets/icons/lb-quake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-evac": {
+    "kind": "vector",
+    "query": "an evacuation route road sign with an arrow",
+    "file": "assets/icons/lb-evac.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ashsky": {
+    "kind": "vector",
+    "query": "dust and ash blocking out the sun, dark sky",
+    "file": "assets/icons/lb-ashsky.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-warning": {
+    "kind": "vector",
+    "query": "a yellow warning triangle with an exclamation mark",
+    "file": "assets/icons/lb-warning.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-siren": {
+    "kind": "vector",
+    "query": "a red flashing emergency siren light",
+    "file": "assets/icons/lb-siren.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-magnifier": {
+    "kind": "vector",
+    "query": "a magnifying glass with a green check mark, verifying something",
+    "file": "assets/icons/lb-magnifier.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-curious": {
+    "kind": "vector",
+    "query": "a curious surprised face with wide eyes",
+    "file": "assets/icons/lb-curious.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulb": {
+    "kind": "vector",
+    "query": "a classic glowing incandescent light bulb",
+    "file": "assets/icons/lb-bulb.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bulbbook": {
+    "kind": "vector",
+    "query": "a lightbulb above an open book with a star, an important lesson",
+    "file": "assets/icons/lb-bulbbook.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calflip": {
+    "kind": "vector",
+    "query": "a wall calendar with many pages flying off, many years passing, no numbers",
+    "file": "assets/icons/lb-calflip.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-calendar": {
+    "kind": "vector",
+    "query": "a wall calendar showing a year",
+    "file": "assets/icons/lb-calendar.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-longroad": {
+    "kind": "vector",
+    "query": "a long winding road with many kilometer markers",
+    "file": "assets/icons/lb-longroad.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-clocklong": {
+    "kind": "vector",
+    "query": "a big clock with a long winding trail behind it, lasting for a long time, no text",
+    "file": "assets/icons/lb-clocklong.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-shield": {
+    "kind": "vector",
+    "query": "a green shield with a check mark, protected",
+    "file": "assets/icons/lb-shield.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-worldmap": {
+    "kind": "vector",
+    "query": "world map",
+    "file": "assets/icons/lb-worldmap.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-earthglobe": {
+    "kind": "vector",
+    "query": "planet Earth globe with clouds",
+    "file": "assets/icons/lb-earthglobe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-peopleleave": {
+    "kind": "vector",
+    "query": "a line of people walking away abandoning a city",
+    "file": "assets/icons/lb-peopleleave.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-bigcrowd": {
+    "kind": "vector",
+    "query": "a huge crowd of a million people in a big city",
+    "file": "assets/icons/lb-bigcrowd.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-star": {
+    "kind": "vector",
+    "query": "a big golden star with an exclamation mark and sparkles, the most important thing, no text",
+    "file": "assets/icons/lb-star.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-hurricane": {
+    "kind": "vector",
+    "query": "a swirling hurricane storm seen from space with an eye",
+    "file": "assets/icons/lb-hurricane.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-scared": {
+    "kind": "vector",
+    "query": "a scared frightened face, fear",
+    "file": "assets/icons/lb-scared.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-europe": {
+    "kind": "vector",
+    "query": "a map of Europe divided into countries with clear borders",
+    "file": "assets/icons/lb-europe.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-papyrus": {
+    "kind": "vector",
+    "query": "papyrus scroll",
+    "file": "assets/icons/lb-papyrus.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-sick": {
+    "kind": "vector",
+    "query": "a person in bed with a thermometer and tissues, an ordinary common illness",
+    "file": "assets/icons/lb-sick.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-cold": {
+    "kind": "vector",
+    "query": "a thermometer with the red level very low and ice crystals around it",
+    "file": "assets/icons/lb-cold.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-oldplane": {
+    "kind": "vector",
+    "query": "a small old fashioned airplane, side view",
+    "file": "assets/icons/lb-oldplane.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-remoteisland": {
+    "kind": "vector",
+    "query": "a tiny remote island alone in the middle of the ocean",
+    "file": "assets/icons/lb-remoteisland.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-hugheart": {
+    "kind": "vector",
+    "query": "a cheerful simple person hugging a heart, human being",
+    "file": "assets/icons/lb-hugheart.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-ruinssand": {
+    "kind": "vector",
+    "query": "ancient ruins half buried under sand",
+    "file": "assets/icons/lb-ruinssand.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "lb-startled": {
+    "kind": "vector",
+    "query": "a cartoon person jumping up in surprise with exclamation lines, startled, no text",
+    "file": "assets/icons/lb-startled.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-eye-volcano": {
+    "kind": "vector",
+    "query": "a big friendly eye watching a small smoking volcano from above, no text",
+    "file": "assets/icons/vo-eye-volcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-scale-steps": {
+    "kind": "vector",
+    "query": "a staircase of nine steps going up from green at the bottom to red at the top, no text",
+    "file": "assets/icons/vo-scale-steps.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-vei-meter": {
+    "kind": "vector",
+    "query": "a round dial meter with a needle pointing to the right side, explosive power gauge, no text",
+    "file": "assets/icons/vo-vei-meter.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-steps-up": {
+    "kind": "vector",
+    "query": "a short staircase going up with a small volcano on every step getting bigger, no text",
+    "file": "assets/icons/vo-steps-up.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-more-rocks": {
+    "kind": "vector",
+    "query": "a small pile of rocks next to a ten times bigger pile of rocks, no text",
+    "file": "assets/icons/vo-more-rocks.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-walk-away": {
+    "kind": "vector",
+    "query": "a calm person walking away from a slow orange lava trickle, no text",
+    "file": "assets/icons/vo-walk-away.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-heavy-roof": {
+    "kind": "vector",
+    "query": "a house roof bending under a thick heavy layer of gray ash, no text",
+    "file": "assets/icons/vo-heavy-roof.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-fast-arrow": {
+    "kind": "vector",
+    "query": "a fast red arrow rushing down a mountain slope with speed lines, no text",
+    "file": "assets/icons/vo-fast-arrow.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-top-danger": {
+    "kind": "vector",
+    "query": "a big red crown on a warning triangle, the most dangerous one, no text",
+    "file": "assets/icons/vo-top-danger.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-gas-cloud": {
+    "kind": "vector",
+    "query": "a yellowish gas cloud rising from a small crater with wavy lines, no text",
+    "file": "assets/icons/vo-gas-cloud.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-sea-volcano": {
+    "kind": "vector",
+    "query": "a small smoking volcano standing next to the blue sea with small waves, no text",
+    "file": "assets/icons/vo-sea-volcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-indonesia-map": {
+    "kind": "vector",
+    "query": "a simple map of the Indonesian islands in neutral green with one island circled in red, no text, no flag",
+    "file": "assets/icons/vo-indonesia-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-sound-far": {
+    "kind": "vector",
+    "query": "a small ear on the left and big sound wave arcs reaching it from far away across the sea, no text",
+    "file": "assets/icons/vo-sound-far.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-mountain-shrink": {
+    "kind": "vector",
+    "query": "a tall mountain with a dashed outline showing its much taller former top that is gone, no text",
+    "file": "assets/icons/vo-mountain-shrink.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-crowd-count": {
+    "kind": "vector",
+    "query": "a crowd of tiny simple people silhouettes with a curly bracket above them, a large number of people, no text",
+    "file": "assets/icons/vo-crowd-count.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-hunger-bowl": {
+    "kind": "vector",
+    "query": "an empty wooden bowl with a small spoon, hunger, no text",
+    "file": "assets/icons/vo-hunger-bowl.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-no-summer": {
+    "kind": "vector",
+    "query": "a sun hidden behind gray clouds above a frozen green field with frost, no text",
+    "file": "assets/icons/vo-no-summer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-frank-book": {
+    "kind": "vector",
+    "query": "an old book with a stitched green monster face on the cover, gothic horror novel, no text",
+    "file": "assets/icons/vo-frank-book.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-volcano-pieces": {
+    "kind": "vector",
+    "query": "a volcano blasting apart into many flying rock pieces, no text",
+    "file": "assets/icons/vo-volcano-pieces.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-loud-sound": {
+    "kind": "vector",
+    "query": "a huge old loudspeaker horn blasting giant sound waves, the loudest sound, no text",
+    "file": "assets/icons/vo-loud-sound.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-barometer": {
+    "kind": "vector",
+    "query": "a round wall barometer with a needle and a brass frame, no text",
+    "file": "assets/icons/vo-barometer.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-baby-volcano": {
+    "kind": "vector",
+    "query": "a tiny baby volcano with a pacifier and a small diaper, newborn, no text",
+    "file": "assets/icons/vo-baby-volcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-parent-child-volcano": {
+    "kind": "vector",
+    "query": "a large volcano holding hands with a small baby volcano, parent and child, no text",
+    "file": "assets/icons/vo-parent-child-volcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-small-eiffel": {
+    "kind": "vector",
+    "query": "a small cartoon Eiffel tower with a palm tree beside it, no text",
+    "file": "assets/icons/vo-small-eiffel.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-no-evac": {
+    "kind": "vector",
+    "query": "an evacuation arrow road sign covered by a red crossed-out circle, no text",
+    "file": "assets/icons/vo-no-evac.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-town-hit": {
+    "kind": "vector",
+    "query": "a small town of simple houses with a gray cloud sweeping over the roofs, no text",
+    "file": "assets/icons/vo-town-hit.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-deadliest": {
+    "kind": "vector",
+    "query": "a dark gray trophy cup with a black ribbon, the worst of the century, no text",
+    "file": "assets/icons/vo-deadliest.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-scientist-learn": {
+    "kind": "vector",
+    "query": "a friendly scientist with goggles taking notes on a clipboard while looking up, no text",
+    "file": "assets/icons/vo-scientist-learn.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-fire-cloud": {
+    "kind": "vector",
+    "query": "a glowing orange-red cloud of ash rolling down like an avalanche, no text",
+    "file": "assets/icons/vo-fire-cloud.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-studied-volcano": {
+    "kind": "vector",
+    "query": "a mountain volcano under a big magnifying glass with a small notebook, no text",
+    "file": "assets/icons/vo-studied-volcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-usa-map": {
+    "kind": "vector",
+    "query": "a plain map silhouette of the United States in neutral green with the northwest corner circled, no text, no flag",
+    "file": "assets/icons/vo-usa-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-two-months": {
+    "kind": "vector",
+    "query": "two pages of a wall calendar flipping, two months passing, no numbers, no text",
+    "file": "assets/icons/vo-two-months.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-bulge": {
+    "kind": "vector",
+    "query": "a mountain side swelling outward like a round bump about to burst, no text",
+    "file": "assets/icons/vo-bulge.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-landslide": {
+    "kind": "vector",
+    "query": "a huge piece of a mountain sliding down the slope with rocks and dust, no text",
+    "file": "assets/icons/vo-landslide.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-sideways-blast": {
+    "kind": "vector",
+    "query": "a sideways blast of gray smoke and rocks shooting out horizontally from a mountain, no text",
+    "file": "assets/icons/vo-sideways-blast.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-flat-forest": {
+    "kind": "vector",
+    "query": "hundreds of tree trunks lying flat on the ground all pointing the same direction, no text",
+    "file": "assets/icons/vo-flat-forest.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-ash-column": {
+    "kind": "vector",
+    "query": "a tall gray ash column rising high into the sky from a volcano, no text",
+    "file": "assets/icons/vo-ash-column.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-candle": {
+    "kind": "vector",
+    "query": "a single small candle with a gentle flame, in remembrance, no text",
+    "file": "assets/icons/vo-candle.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-data-book": {
+    "kind": "vector",
+    "query": "an open notebook full of graphs and a pencil, scientific data, no text",
+    "file": "assets/icons/vo-data-book.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-philippines-map": {
+    "kind": "vector",
+    "query": "a simple map of the Philippine islands in neutral green with the largest northern island circled, no text, no flag",
+    "file": "assets/icons/vo-philippines-map.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-sleeping-volcano": {
+    "kind": "vector",
+    "query": "a green volcano sleeping peacefully with closed eyes and a zzz bubble, no text",
+    "file": "assets/icons/vo-sleeping-volcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-happy-ending": {
+    "kind": "vector",
+    "query": "a cheerful open book with a rising sun over the last page, a different ending, no text",
+    "file": "assets/icons/vo-happy-ending.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-scientists-team": {
+    "kind": "vector",
+    "query": "three friendly scientists in lab coats with clipboards standing together, no text",
+    "file": "assets/icons/vo-scientists-team.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-gas-sensor": {
+    "kind": "vector",
+    "query": "a small measuring instrument with a tube sniffing a gas vapor from the ground, no text",
+    "file": "assets/icons/vo-gas-sensor.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-thermo-down": {
+    "kind": "vector",
+    "query": "a thermometer with the red level dropping down by a small step and a blue arrow, no text",
+    "file": "assets/icons/vo-thermo-down.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-small-volcano": {
+    "kind": "vector",
+    "query": "a small cute volcano with a thin plume of dark ash, no text",
+    "file": "assets/icons/vo-small-volcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-glass-shards": {
+    "kind": "vector",
+    "query": "many tiny sharp glass-like gray splinters sparkling, no text",
+    "file": "assets/icons/vo-glass-shards.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-wind-ash": {
+    "kind": "vector",
+    "query": "a gray ash cloud blown by curly wind lines across the sky, no text",
+    "file": "assets/icons/vo-wind-ash.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-cancelled-flights": {
+    "kind": "vector",
+    "query": "an empty airport departures screen with all rows crossed out in red, no text",
+    "file": "assets/icons/vo-cancelled-flights.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-money-loss": {
+    "kind": "vector",
+    "query": "a stack of gold coins sinking down with a big red arrow pointing down, no text",
+    "file": "assets/icons/vo-money-loss.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-undersea-volcano": {
+    "kind": "vector",
+    "query": "a volcano under the blue sea with fish swimming around and bubbles rising, no text",
+    "file": "assets/icons/vo-undersea-volcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-tall-record": {
+    "kind": "vector",
+    "query": "a tall measuring ruler next to a very tall column with a golden record medal, no text",
+    "file": "assets/icons/vo-tall-record.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-shockwave-rings": {
+    "kind": "vector",
+    "query": "big circular shock waves spreading out from a point like ripples, no text",
+    "file": "assets/icons/vo-shockwave-rings.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-cable-cut": {
+    "kind": "vector",
+    "query": "an undersea cable cut in two with a small spark, lying on the seabed, no text",
+    "file": "assets/icons/vo-cable-cut.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-heart-island": {
+    "kind": "vector",
+    "query": "a red heart over a simple map of the Canary Islands, close to home, no text, no flag",
+    "file": "assets/icons/vo-heart-island.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-fissure": {
+    "kind": "vector",
+    "query": "a long crack opening in the ground on a mountain side with orange glow, no text",
+    "file": "assets/icons/vo-fissure.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-flip-page": {
+    "kind": "vector",
+    "query": "a hand flipping a page of a book over to the other side, no text",
+    "file": "assets/icons/vo-flip-page.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-safe-home": {
+    "kind": "vector",
+    "query": "a happy family silhouette standing safe beside a small house under a green check mark, no text",
+    "file": "assets/icons/vo-safe-home.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-no-victims": {
+    "kind": "vector",
+    "query": "a green circle with a check mark over a simple empty zero symbol, no text",
+    "file": "assets/icons/vo-no-victims.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-roman-year": {
+    "kind": "vector",
+    "query": "an old Roman column with a laurel wreath and a sundial, ancient times, no text",
+    "file": "assets/icons/vo-roman-year.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-crater-lake": {
+    "kind": "vector",
+    "query": "a huge blue crater lake with a small island inside, seen from above, no text",
+    "file": "assets/icons/vo-crater-lake.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-fewer-people": {
+    "kind": "vector",
+    "query": "a big crowd of silhouettes shrinking down to only a tiny group, no text",
+    "file": "assets/icons/vo-fewer-people.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-india-dig": {
+    "kind": "vector",
+    "query": "a small archaeological dig with a brush and old stone tools, no text",
+    "file": "assets/icons/vo-india-dig.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-people-survive": {
+    "kind": "vector",
+    "query": "a group of early humans walking happily together carrying baskets, no text",
+    "file": "assets/icons/vo-people-survive.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-observatory": {
+    "kind": "vector",
+    "query": "a small white observatory building with a satellite dish on its roof, no text",
+    "file": "assets/icons/vo-observatory.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-no-signs": {
+    "kind": "vector",
+    "query": "a calm green monitor screen with a flat line and a green check mark, no text",
+    "file": "assets/icons/vo-no-signs.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-lottery-odds": {
+    "kind": "vector",
+    "query": "one golden lottery ball among a huge pile of seven hundred thousand tiny balls, no text",
+    "file": "assets/icons/vo-lottery-odds.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-three-eruptions": {
+    "kind": "vector",
+    "query": "three volcano eruption clouds in a row getting smaller, no text",
+    "file": "assets/icons/vo-three-eruptions.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-common-links": {
+    "kind": "vector",
+    "query": "three different shapes joined by one golden chain link, what they have in common, no text",
+    "file": "assets/icons/vo-common-links.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-tragedy": {
+    "kind": "vector",
+    "query": "a dark storm cloud over a broken house, no text",
+    "file": "assets/icons/vo-tragedy.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-ignored-alarm": {
+    "kind": "vector",
+    "query": "a red blinking warning light next to a person covering their ears, ignoring it, no text",
+    "file": "assets/icons/vo-ignored-alarm.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-listened-signal": {
+    "kind": "vector",
+    "query": "a person with a hand behind the ear listening carefully to a green glowing signal, no text",
+    "file": "assets/icons/vo-listened-signal.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-watch-volcano": {
+    "kind": "vector",
+    "query": "a pair of binoculars watching a volcano on a hill, no text",
+    "file": "assets/icons/vo-watch-volcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-swelling-mountain": {
+    "kind": "vector",
+    "query": "a mountain with arrows pointing outward showing that it is swelling slightly, no text",
+    "file": "assets/icons/vo-swelling-mountain.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-signals-match": {
+    "kind": "vector",
+    "query": "three different colored signal lines lining up and matching together, no text",
+    "file": "assets/icons/vo-signals-match.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-stop-volcano": {
+    "kind": "vector",
+    "query": "a big red open stop hand in front of a volcano that keeps smoking anyway, no text",
+    "file": "assets/icons/vo-stop-volcano.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-ruler": {
+    "kind": "vector",
+    "query": "a ruler and a measuring tape next to a small gauge, measuring, no text",
+    "file": "assets/icons/vo-ruler.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "vo-ear-listen": {
+    "kind": "vector",
+    "query": "a big friendly ear with sound waves arriving, listening, no text",
+    "file": "assets/icons/vo-ear-listen.png",
+    "normalized": true,
+    "gpt": true
+  },
+  "photo-ceniza": {
+    "kind": "cutout",
+    "query": "Volcanic ash",
+    "wiki": "Volcanic ash",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Volcanic ash",
+      "description": "Natural material created during volcanic eruptions"
+    },
+    "file": "assets/icons/photo-ceniza.jpg"
+  },
+  "photo-lava": {
+    "kind": "cutout",
+    "query": "Lava",
+    "wiki": "Lava",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Lava",
+      "description": "Molten rock expelled by a volcano during an eruption"
+    },
+    "file": "assets/icons/photo-lava.jpg"
+  },
+  "photo-pyro": {
+    "kind": "cutout",
+    "query": "Pyroclastic flow",
+    "wiki": "Pyroclastic flow",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Pyroclastic flow",
+      "description": "Fast-moving current of hot gas and volcanic matter that moves away from a volcano"
+    },
+    "file": "assets/icons/photo-pyro.jpg"
+  },
+  "photo-lahar": {
+    "kind": "cutout",
+    "query": "Lahar",
+    "wiki": "Lahar",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Lahar",
+      "description": "flujo de sedimento y agua que se moviliza desde las laderas de volcanes"
+    },
+    "file": "assets/icons/photo-lahar.jpg"
+  },
+  "photo-sismografo": {
+    "kind": "cutout",
+    "query": "Sismógrafo",
+    "wiki": "Sismógrafo",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Sismógrafo",
+      "description": "instrumento para medir terremotos o pequeños temblores provocados por los movimientos de las placas litosféricas"
+    },
+    "file": "assets/icons/photo-sismografo.jpg"
+  },
+  "photo-tambora": {
+    "kind": "cutout",
+    "query": "Mount Tambora",
+    "wiki": "Mount Tambora",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Mount Tambora",
+      "description": "Active stratovolcano on Sumbawa, Indonesia"
+    },
+    "file": "assets/icons/photo-tambora.jpg"
+  },
+  "photo-shelley": {
+    "kind": "cutout",
+    "query": "Mary Shelley",
+    "wiki": "Mary Shelley",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Mary Shelley",
+      "description": "English writer (1797–1851)"
+    },
+    "file": "assets/icons/photo-shelley.jpg"
+  },
+  "photo-krakatoa": {
+    "kind": "cutout",
+    "query": "Krakatoa",
+    "wiki": "Krakatoa",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Krakatoa",
+      "description": "conjunto de islas volcánicas en Indonesia"
+    },
+    "file": "assets/icons/photo-krakatoa.jpg"
+  },
+  "photo-saintpierre": {
+    "kind": "cutout",
+    "query": "Saint-Pierre Martinica",
+    "wiki": "Saint-Pierre (Martinica)",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Saint-Pierre (Martinica)",
+      "description": "comuna francesa de Martinica"
+    },
+    "file": "assets/icons/photo-saintpierre.jpg"
+  },
+  "photo-sthelens": {
+    "kind": "cutout",
+    "query": "Monte Santa Helena",
+    "wiki": "Monte Santa Helena",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Monte Santa Helena",
+      "description": "volcán de los Estados Unidos en el estado de Washington"
+    },
+    "file": "assets/icons/photo-sthelens.jpg"
+  },
+  "photo-pinatubo": {
+    "kind": "cutout",
+    "query": "Mount Pinatubo",
+    "wiki": "Mount Pinatubo",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Mount Pinatubo",
+      "description": "Active stratovolcano in Luzon, Philippines"
+    },
+    "file": "assets/icons/photo-pinatubo.jpg"
+  },
+  "photo-eyja": {
+    "kind": "cutout",
+    "query": "Eyjafjallajökull 2010",
+    "wiki": "2010 eruptions of Eyjafjallajökull",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:2010 eruptions of Eyjafjallajökull",
+      "description": "Volcanic events in Iceland"
+    },
+    "file": "assets/icons/photo-eyja.jpg"
+  },
+  "photo-tajogaite": {
+    "kind": "cutout",
+    "query": "Volcán de Tajogaite",
+    "wiki": "Volcán de Tajogaite",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Volcán de Tajogaite",
+      "description": "volcán en La Palma, España"
+    },
+    "file": "assets/icons/photo-tajogaite.jpg"
+  },
+  "photo-cumbre": {
+    "kind": "cutout",
+    "query": "Cumbre Vieja",
+    "wiki": "Cumbre Vieja",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Cumbre Vieja",
+      "description": "Volcano in La Palma, Spain"
+    },
+    "file": "assets/icons/photo-cumbre.jpg"
+  },
+  "photo-vesubio": {
+    "kind": "cutout",
+    "query": "Monte Vesubio",
+    "wiki": "Monte Vesubio",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Monte Vesubio",
+      "description": "volcán de la provincia de Nápoles, Italia"
+    },
+    "file": "assets/icons/photo-vesubio.png"
+  },
+  "photo-toba": {
+    "kind": "cutout",
+    "query": "Lake Toba",
+    "wiki": "Lake Toba",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Lake Toba",
+      "description": "Volcanic lake located in North Sumatra Province, Indonesia"
+    },
+    "file": "assets/icons/photo-toba.jpg"
+  },
+  "photo-yellowstone": {
+    "kind": "cutout",
+    "query": "Caldera de Yellowstone",
+    "wiki": "Caldera de Yellowstone",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Caldera de Yellowstone",
+      "description": "supervolcán ubicado en el Parque Nacional de Yellowstone, Estados Unidos"
+    },
+    "file": "assets/icons/photo-yellowstone.jpg"
+  },
+  "photo-oldfaithful": {
+    "kind": "cutout",
+    "query": "Old Faithful",
+    "wiki": "Old Faithful",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Old Faithful",
+      "description": "Cone geyser in Yellowstone National Park"
+    },
+    "file": "assets/icons/photo-oldfaithful.jpg"
+  },
+  "photo-hvo": {
+    "kind": "cutout",
+    "query": "Hawaiian Volcano Observatory",
+    "wiki": "Hawaiian Volcano Observatory",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Hawaiian Volcano Observatory",
+      "description": "Research center in Hawaii, United States"
+    },
+    "file": "assets/icons/photo-hvo.jpg"
+  },
+  "photo-satellite": {
+    "kind": "cutout",
+    "query": "Satellite",
+    "wiki": "Satellite",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Satellite",
+      "description": "Objects intentionally placed into orbit"
+    },
+    "file": "assets/icons/photo-satellite.jpg"
+  },
+  "photo-volcano": {
+    "kind": "cutout",
+    "query": "Volcano",
+    "wiki": "Volcano",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Volcano",
+      "description": "Rupture in a planet's crust where material escapes"
+    },
+    "file": "assets/icons/photo-volcano.jpg"
+  },
+  "photo-etna": {
+    "kind": "cutout",
+    "query": "Volcanic gas",
+    "wiki": "Volcanic gas",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Volcanic gas",
+      "description": "Gases given off by active volcanoes"
+    },
+    "file": "assets/icons/photo-etna.jpg"
+  },
+  "photo-fumarole": {
+    "kind": "cutout",
+    "query": "Fumarole",
+    "wiki": "Fumarole",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Fumarole",
+      "description": "Volcanic opening that emits hot gases"
+    },
+    "file": "assets/icons/photo-fumarole.jpg"
+  },
+  "photo-jet": {
+    "kind": "cutout",
+    "query": "Jet engine",
+    "wiki": "Jet engine",
+    "lang": "en",
+    "attribution": {
+      "source": "wikipedia:en:Jet engine",
+      "description": "Aircraft engine that produces thrust by emitting a jet of gas"
+    },
+    "file": "assets/icons/photo-jet.jpg"
+  },
+  "photo-martinica": {
+    "kind": "cutout",
+    "query": "Martinica",
+    "wiki": "Martinica",
+    "lang": "es",
+    "attribution": {
+      "source": "wikipedia:es:Martinica",
+      "description": "dependencia francesa de América Insular"
+    },
+    "file": "assets/icons/photo-martinica.jpg"
+  },
+  "clip-ash-plume": {
+    "kind": "clip",
+    "query": "volcano ash plume eruption daytime",
+    "file": "assets/clips/clip-ash-plume.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pressmaster",
+      "url": "https://www.pexels.com/video/an-erupting-volcano-spewing-volcanic-ash-up-in-the-air-3192166/"
+    }
+  },
+  "clip-crater-smoke": {
+    "kind": "clip",
+    "query": "volcano crater smoke aerial daytime",
+    "file": "assets/clips/clip-crater-smoke.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "ArtHouse Studio",
+      "url": "https://www.pexels.com/video/an-aerial-footage-of-the-volcanoes-of-east-java-indonesia-4581197/"
+    }
+  },
+  "clip-steam-ground": {
+    "kind": "clip",
+    "query": "steam vents volcanic ground sulfur",
+    "file": "assets/clips/clip-steam-ground.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Pixabay",
+      "url": "https://www.pexels.com/video/steaming-rocks-854742/"
+    }
+  },
+  "clip-mud-river": {
+    "kind": "clip",
+    "query": "muddy river flowing fast",
+    "file": "assets/clips/clip-mud-river.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Metro junction",
+      "url": "https://www.pexels.com/video/powerful-flood-waters-rushing-over-dam-28836379/"
+    }
+  },
+  "clip-plane-takeoff": {
+    "kind": "clip",
+    "query": "airplane taking off airport wing",
+    "file": "assets/clips/clip-plane-takeoff.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Asko",
+      "url": "https://www.pexels.com/video/footage-of-the-airplane-taking-off-the-runway-4396425/"
+    }
+  },
+  "clip-airplane": {
+    "kind": "clip",
+    "query": "airplane wing window blue sky",
+    "file": "assets/clips/clip-airplane.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Camilo Carrò",
+      "url": "https://www.pexels.com/video/airplane-wing-while-flying-in-the-sky-6472910/"
+    }
+  },
+  "clip-flooded-street": {
+    "kind": "clip",
+    "query": "flooded village aerial daytime",
+    "file": "assets/clips/clip-flooded-street.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "WA_ Films",
+      "url": "https://www.pexels.com/video/destroyed-houses-by-flooding-18153515/"
+    }
+  },
+  "clip-farmland": {
+    "kind": "clip",
+    "query": "green farmland countryside aerial daytime",
+    "file": "assets/clips/clip-farmland.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Tom Jurman",
+      "url": "https://www.pexels.com/video/aerial-view-of-scenic-rural-landscape-34731148/"
+    }
+  },
+  "clip-tropical-island": {
+    "kind": "clip",
+    "query": "tropical island aerial turquoise sea",
+    "file": "assets/clips/clip-tropical-island.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Agung Pandit Wiguna",
+      "url": "https://www.pexels.com/video/aerial-view-of-the-ocean-and-coral-reef-26341148/"
+    }
+  },
+  "clip-storm-sea": {
+    "kind": "clip",
+    "query": "stormy sea gray clouds waves",
+    "file": "assets/clips/clip-storm-sea.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Mr Beasley",
+      "url": "https://www.pexels.com/video/angry-sea-19345579/"
+    }
+  },
+  "clip-snow-mountain": {
+    "kind": "clip",
+    "query": "snow mountain peaks sunny",
+    "file": "assets/clips/clip-snow-mountain.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Andrew LaBonne",
+      "url": "https://www.pexels.com/video/aerial-footage-of-a-snowy-natural-landscape-6220799/"
+    }
+  },
+  "clip-frost": {
+    "kind": "clip",
+    "query": "frost on grass field early morning sunlight",
+    "file": "assets/clips/clip-frost.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Stefanie Jockschat",
+      "url": "https://www.pexels.com/video/winterlandschaft-19063791/"
+    }
+  },
+  "clip-geyser": {
+    "kind": "clip",
+    "query": "geyser erupting steam daytime yellowstone",
+    "file": "assets/clips/clip-geyser.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Anatolii Grytsenko",
+      "url": "https://www.pexels.com/video/thermal-activity-at-yellowstone-national-park-31681767/"
+    }
+  },
+  "clip-big-waves": {
+    "kind": "clip",
+    "query": "big ocean waves crashing on rocky coast sunny day",
+    "file": "assets/clips/clip-big-waves.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "Rhys Abel",
+      "url": "https://www.pexels.com/video/view-of-the-ocean-waves-splashing-through-bed-of-rocks-6368368/"
+    }
+  },
+  "clip-field-scientist": {
+    "kind": "clip",
+    "query": "scientist with instruments on mountain slope daytime",
+    "file": "assets/clips/clip-field-scientist.mp4",
+    "origin": {
+      "source": "Pexels",
+      "credit": "KATRIN  BOLOVTSOVA",
+      "url": "https://www.pexels.com/video/a-person-walking-down-a-snowy-slope-6650288/"
+    }
+  },
+  "vo-flooded-village": {
+    "kind": "vector",
+    "query": "a simple cartoon coastal village with houses half under big blue waves, no text",
+    "file": "assets/icons/vo-flooded-village.png",
+    "normalized": true,
+    "gpt": true
+  }
+}
